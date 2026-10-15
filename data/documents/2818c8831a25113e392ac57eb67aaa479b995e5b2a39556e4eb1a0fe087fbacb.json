@@ -40,11 +40,11 @@
   "language": "en",
   "retrievedAt": "2026-10-15T19:53:34Z",
   "foundIn": {
-    "runId": "qwen3-38797190227",
+    "runId": "qwen3-38804802602",
     "sourceOriginRunId": "qwen3-38797190227",
-    "controllerCommit": "39c54e6b4bdfd6f41bbaa40f45a996e730ef6233",
-    "recordedAt": "2026-10-15T19:55:41Z",
-    "webRecheckedThisRun": true,
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T20:51:18Z",
+    "webRecheckedThisRun": false,
     "phase": "preflight",
     "task": null
   },

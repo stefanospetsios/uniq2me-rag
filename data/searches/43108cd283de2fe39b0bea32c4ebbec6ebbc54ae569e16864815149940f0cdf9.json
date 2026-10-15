@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "43108cd283de2fe39b0bea32c4ebbec6ebbc54ae569e16864815149940f0cdf9",
+  "cachedAt": "2026-10-15T20:51:18Z",
+  "observedAt": "2026-10-15T20:51:18Z",
+  "originRunId": "qwen3-38804802602",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "phase": "preflight",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "runner-smoke",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": null,
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "runner preflight ollama context length configuration",
+    "time_range": "year"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792097447487,
+    "end": 1792097448281
+  },
+  "outputDigest": "sha256:63743d020934915a4dc72827f03b228480e4b4aa60760e76078155e127aa8c9d",
+  "resultUrls": [
+    "https://api.onlyoffice.com/docs/ai/guides/configuring-ollama-with-cors",
+    "https://docs.nvidia.com/nemoclaw/user-guide/hermes/inference/local-inference/set-up-ollama",
+    "https://learn.chatgpt.com/docs/config-file/config-advanced",
+    "https://localaimaster.com/blog/ollama-out-of-memory-errors",
+    "https://www.reddit.com/r/hermesagent/comments/1tji9dn/context_is_hugehermes_getting_bigger_not_better/"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"runner preflight ollama context length configuration\",\n  \"results\": [\n    {\n      \"title\": \"Set Up Ollama | NVIDIA NemoClaw\",\n      \"url\": \"https://docs.nvidia.com/nemoclaw/user-guide/hermes/inference/local-inference/set-up-ollama\",\n      \"content\": \"... context length when it starts Ollama on macOS or Linux. Fresh onboarding ... Run only one Ollama instance on port 11434 at a time. Windows-host Ollama ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Configuring Ollama with CORS - ONLYOFFICE API\",\n      \"url\": \"https://api.onlyoffice.com/docs/ai/guides/configuring-ollama-with-cors\",\n      \"content\": \"# Handle preflight OPTIONS requests. if ($request_method = OPTIONS) ... running operations with language models, which may require significant time for response ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Context is huge...Hermes getting bigger not better : r/hermesagent\",\n      \"url\": \"https://www.reddit.com/r/hermesagent/comments/1tji9dn/context_is_hugehermes_getting_bigger_not_better/\",\n      \"content\": \"22 Μαΐ 2026 ... 42 votes, 32 comments. Having my agent check why my context is so big and it's running into issues. This was not a big deal in earlier ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Advanced Configuration - ChatGPT Learn\",\n      \"url\": \"https://learn.chatgpt.com/docs/config-file/config-advanced\",\n      \"content\": \"... Context window size. model_verbosity applies only to providers using the ... Legacy Windows sandbox setup preflight failure. windows_sandbox ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Ollama Out of Memory: CUDA and RAM Crash Fixes - Local AI Master\",\n      \"url\": \"https://localaimaster.com/blog/ollama-out-of-memory-errors\",\n      \"content\": \"23 Αυγ 2026 ... Every one of these errors is the runner asking for more memory than the machine will hand over at that instant — and the s",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [],
+    "phases": [
+      "preflight"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "api.onlyoffice.com",
+      "docs.nvidia.com",
+      "learn.chatgpt.com",
+      "localaimaster.com",
+      "www.reddit.com"
+    ]
+  }
+}

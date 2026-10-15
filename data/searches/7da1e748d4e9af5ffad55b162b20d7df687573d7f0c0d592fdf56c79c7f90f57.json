@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "7da1e748d4e9af5ffad55b162b20d7df687573d7f0c0d592fdf56c79c7f90f57",
+  "cachedAt": "2026-10-15T20:50:05Z",
+  "observedAt": "2026-10-15T20:50:05Z",
+  "originRunId": "qwen3-38804802602",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "phase": "preflight",
+    "callId": "direct-mcp-probe",
+    "invocation": 1,
+    "scopeId": null,
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Ollama keep_alive official documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": null,
+  "outputDigest": "sha256:8c97969674175f5220a4798993a712fe07aefcbe507c6c4bfb2f604f62c52c04",
+  "resultUrls": [
+    "http://localhost:11434/api/chat",
+    "https://bluegrid.io/glossary/ai/ollama-keep-alive/",
+    "https://docs.spring.io/spring-ai/reference/api/chat/ollama-chat.html",
+    "https://github.com/ollama/ollama/blob/main/docs/faq.md",
+    "https://ollama.readthedocs.io/en/api/",
+    "https://ollama.readthedocs.io/en/faq/",
+    "https://www.reddit.com/r/ollama/comments/1fh040f/question_how_to_keep_ollama_from_unloading_model/"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\"content\": [{\"type\": \"text\", \"text\": \"{\\n  \\\"query\\\": \\\"Ollama keep_alive official documentation\\\",\\n  \\\"results\\\": [\\n    {\\n      \\\"title\\\": \\\"API Reference - Ollama English Documentation\\\",\\n      \\\"url\\\": \\\"https://ollama.readthedocs.io/en/api/\\\",\\n      \\\"content\\\": \\\"If the messages array is empty and the keep_alive parameter is set to 0 , a model will be unloaded from memory. Request. curl http://localhost:11434/api/chat -d ...\\\",\\n      \\\"engines\\\": [\\n        \\\"google cse\\\"\\n      ]\\n    },\\n    {\\n      \\\"title\\\": \\\"Ollama Keep Alive - BlueGrid.io\\\",\\n      \\\"url\\\": \\\"https://bluegrid.io/glossary/ai/ollama-keep-alive/\\\",\\n      \\\"content\\\": \\\"It is controlled by the OLLAMA_KEEP_ALIVE environment variable or the keep_alive field in individual API requests. The default value is 5 minutes. Extended ...\\\",\\n      \\\"engines\\\": [\\n        \\\"google cse\\\"\\n      ]\\n    },\\n    {\\n      \\\"title\\\": \\\"Ollama Chat :: Spring AI Reference\\\",\\n      \\\"url\\\": \\\"https://docs.spring.io/spring-ai/reference/api/chat/ollama-chat.html\\\",\\n      \\\"content\\\": \\\"chat is the property prefix that configures the Ollama chat model. It includes the Ollama request (advanced) parameters such as the model , keep-alive , and ...\\\",\\n      \\\"engines\\\": [\\n        \\\"google cse\\\"\\n      ]\\n    },\\n    {\\n      \\\"title\\\": \\\"Question: How to keep ollama from unloading model out of memory\\\",\\n      \\\"url\\\": \\\"https://www.reddit.com/r/ollama/comments/1fh040f/question_how_to_keep_ollama_from_unloading_model/\\\",\\n      \\\"content\\\": \\\"15 Σεπ 2024 ... https://github.com/ollama/ollama/blob/main/docs/faq.md#how-do-i-keep ... Ollama CLI command : ollama run llama3.1:70b --keepalive=-1m.\\\",\\n      \\\"engines\\\": [\\n        \\\"google cse\\\"\\n      ]\\n    },\\n    {\\n      \\\"title\\\": \\\"FAQ - Ollama English Documentation\\\",\\n      \\\"url\\\": \\\"https://ollama.readthedocs.io/en/faq/\\\",\\n      \\\"content\\\": \\\"By default, Ollama uses a context window size of 2048 tokens. To change this when using ollama run , use /set",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [],
+    "phases": [
+      "preflight"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "bluegrid.io",
+      "docs.spring.io",
+      "github.com",
+      "localhost",
+      "ollama.readthedocs.io",
+      "www.reddit.com"
+    ]
+  }
+}
