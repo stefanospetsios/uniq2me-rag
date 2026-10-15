@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T21:18:33Z",
+  "originRunId": "qwen3-38804802602",
+  "source": {
+    "id": "4-source-1",
+    "type": "guidance",
+    "title": "Data Management Checklist - Dynamics 365 Implementation Guide",
+    "publisher": "Microsoft Corporation",
+    "url": "https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/data-management-check-list",
+    "language": "en",
+    "jurisdiction": "Global",
+    "applicability": "Provides implementation guidance for data governance, storage architecture, configuration data management, and data integration processes in enterprise systems",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "Data governance and architecture task list",
+        "text": "Define a data architecture that shows a holistic view of your data repositories, their relationships, and ownership. Identify the data owners, systems, and conceptual flow between systems during your design and analysis phases."
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:bd98d18c00e8a41815bd9388c2d5ce8f4fdc3beb823eb14d9cef5256568b0356",
+    "textDigest": "sha256:6dc4f9e87f399f4e3a07818dd6d35de1b09e91a798207e13282d1943ef600ef0",
+    "finalUrl": "https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/data-management-check-list",
+    "retrievedAt": "2026-10-15T21:18:33Z",
+    "contentType": "text/html",
+    "snapshotPath": "source-bd98d18c00e8a41815bd9388c2d5ce8f4fdc3beb823eb14d9cef5256568b0356.bin",
+    "textPath": "source-6dc4f9e87f399f4e3a07818dd6d35de1b09e91a798207e13282d1943ef600ef0.txt"
+  },
+  "files": {
+    "snapshots/source-bd98d18c00e8a41815bd9388c2d5ce8f4fdc3beb823eb14d9cef5256568b0356.bin": "sha256:bd98d18c00e8a41815bd9388c2d5ce8f4fdc3beb823eb14d9cef5256568b0356",
+    "snapshots/source-6dc4f9e87f399f4e3a07818dd6d35de1b09e91a798207e13282d1943ef600ef0.txt": "sha256:6dc4f9e87f399f4e3a07818dd6d35de1b09e91a798207e13282d1943ef600ef0"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/data-management-check-list",
+  "language": "en",
+  "retrievedAt": "2026-10-15T21:18:33Z",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:23:31Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": " \n\n\t\t\n\n\t\t\t\n\t\t\n\n\t\t\t\nChecklist for data management and governance - Dynamics 365 | Microsoft Learn\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n \n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n \n\n\t\t\t\n\n\t\t\t \n\t\t\t\n\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t \n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\t\t\t\n\n\t\t\t\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\t\t\n\n\t\n\t\t\t\n\n\t\t\t\t\n\n\t\t\n\n\t\t\t\n\t\t\n\n\t\t\tSkip to main content\n\t\t\n\n\t\n\t\t\n\n\t\t\tSkip to Ask Learn chat experience\n\t\t\n\n\t\n\n\t\t\t\n\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\t\n\n\t\t\t\t\t\nThis browser is no longer supported.\n\n\n\n\t\t\t\t\t\n\n\t\t\t\t\t\tUpgrade to Microsoft Edge",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "4"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "Microsoft Corporation",
+    "host": "learn.microsoft.com"
+  }
+}

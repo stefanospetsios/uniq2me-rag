@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "0acb15a6b9e069e9c70364cab298dc86931377242982611545931c84b51fa4f5",
+  "cachedAt": "2026-10-15T20:55:08Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://www.usda.gov/sites/default/files/documents/dr-3170-001-end-user-workstation-configurations.pdf",
+  "finalUrl": "https://www.usda.gov/sites/default/files/documents/dr-3170-001-end-user-workstation-configurations.pdf",
+  "language": "en",
+  "publisher": "USDA",
+  "title": "DR 3170-001, End User Workstation Configurations",
+  "retrievedAt": "2026-10-15T20:53:15Z",
+  "byteDigest": "sha256:dc8b6300ef0e6306adc384630159fd4fc07d4af5bafcb25ec6ade151d48f72f6",
+  "textDigest": "sha256:2a39098fba1be097052299269ebdd26bf43e704ee68b7d2be9e30e393d591632",
+  "sourceId": "0-source-2",
+  "passageId": "p1",
+  "locator": "Section 5 Policy",
+  "quotation": "All USDA Mission Areas, agencies, and staff offices will comply with the latest version of NIST, Special Publication (SP) 800-53 r5, Security and Privacy Controls for Information Systems and Organizations",
+  "originalText": "network, hardware, systems, and application software).\n\n\n5. POLICY\n\n  All USDA Mission Areas, agencies, and staff offices will comply with the latest version of\n  NIST, Special Publication (SP) 800-53 r5, Security and Privacy Controls for Information\n  Systems and Organizations; the E-Government Act; Circular A-130; Circular A-119; and the\n  FEAF v2 artifacts specifically associated with the Application Reference Model (ARM) and\n  Infrastructure Reference Model",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T20:55:08Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "USDA",
+    "host": "www.usda.gov"
+  }
+}

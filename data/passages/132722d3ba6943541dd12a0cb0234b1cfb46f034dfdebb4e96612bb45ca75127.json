@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "132722d3ba6943541dd12a0cb0234b1cfb46f034dfdebb4e96612bb45ca75127",
+  "cachedAt": "2026-10-15T21:46:13Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://www.microsoft.com/en-us/securityengineering/sdl/practices",
+  "finalUrl": "https://www.microsoft.com/en-us/securityengineering/sdl/practices",
+  "language": "en",
+  "publisher": "Microsoft",
+  "title": "Security Development Lifecycle (SDL) Practices",
+  "retrievedAt": "2026-10-15T21:43:47Z",
+  "byteDigest": "sha256:2b2b090fa85acd7c5bf3dd825356038f07e47f1c1bd108842b11663a6004f221",
+  "textDigest": "sha256:036f8a40af78d6c8f9f317af5eafac6b6368c0a98c271366b0806dd877f860b6",
+  "sourceId": "8-source-1",
+  "passageId": "p1",
+  "locator": "section/Security risks",
+  "quotation": "Security risks (and the need to mitigate them) can occur at any point in the development lifecycle: Design – ensure that the design doesn't naturally allow attackers to easily gain unauthorized access to the workload, its data, or other business assets in the organization.",
+  "originalText": "the SDL, learnings, best practices, and tooling evolve.  \n\n\n\n\n\n\n\n\n\n    \n\n\n\n\n\n\n\n\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n    \n    \n\n\n\n\n\n    \n\n        \n\n            \n            \n\n                    \n                        \n                            \n\n                            \n\n                            \n\n                            \n\n                        \n                        \n                    \n                    \n\n                        \n\n                        \n\n                        \n\n                        \n\n                        \n\n                    \n\n            \n\n\n\n            \n            \n        \n\n\n\n    \n\n    \n\n\n\n\n    \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n    \nSecurity risks (and the need to mitigate them) can occur at any point in the development lifecycle:\n\n\n\n\n\n\n\n\nDesign – ensure that the design doesn’t naturally allow attackers to easily gain unauthorized access to the workload, its data, ",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:46:13Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Microsoft",
+    "host": "www.microsoft.com"
+  }
+}

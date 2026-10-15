@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "e172078614ac4c38a93755f37ef6de0400e8cc40d380456a4a67b00277d0c660",
+  "cachedAt": "2026-10-15T21:46:13Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://www.ncsc.gov.uk/collection/software-security-code-of-practice-implementation-guidance/theme-1-secure-design-development",
+  "finalUrl": "https://www.ncsc.gov.uk/collection/software-security-code-of-practice-implementation-guidance/theme-1-secure-design-development",
+  "language": "en",
+  "publisher": "National Cyber Security Centre (NCSC, UK)",
+  "title": "Software Security Code of Practice - Implementation Guidance: Theme 1 - Secure design and development",
+  "retrievedAt": "2026-10-15T21:43:49Z",
+  "byteDigest": "sha256:7aa4ec6e6c970a81f1615bc078c73ccfbecb6f074e983a1b3e7e5e8090ef245f",
+  "textDigest": "sha256:97686c28550b7341fa8d353f0982fdf3434f20d10871a1d2365aca0b54cecf95",
+  "sourceId": "8-source-4",
+  "passageId": "p1",
+  "locator": "Principle 1.1/Threat modelling",
+  "quotation": "Threat modelling: techniques used to understand how the software might be attacked or fail in some other way.",
+  "originalText": "should include the following topics as a minimum:\n\n\nThreat modelling:\n techniques used to understand how the software might be attacked or fail in some other way.\n\n\nRequirements capture:\n understanding and recording security and user needs.\n\n\nGovernance & roles:\n the approach to managing and mitigating risks associated with the organisation’s ability to",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:46:13Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "National Cyber Security Centre (NCSC, UK)",
+    "host": "www.ncsc.gov.uk"
+  }
+}

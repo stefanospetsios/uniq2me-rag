@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T22:02:02Z",
+  "originRunId": "qwen3-38804802602",
+  "source": {
+    "id": "B-source-5",
+    "type": "guidance",
+    "title": "Cybersecurity Recommendations for Disposal or Decommissioning",
+    "publisher": "Schneider Electric",
+    "url": "https://www.productinfo.schneider-electric.com/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/Cyber_Rec_IFE_Disposal_0000940268",
+    "language": "en",
+    "jurisdiction": "International",
+    "applicability": "Manufacturer-specific guidance for secure disposal of cyber-physical devices, requiring factory reset before decommissioning to ensure confidential information and sensitive data are removed",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "Cybersecurity Recommendations for Disposal",
+        "text": "It is required to perform a factory reset before disposing of the \nEIFE\n or \nIFE\n interface, or \nIFE\n server\n. For more information, refer to the relevant user guide for your\n            interface"
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:7d960df68e47281c0b71f150e9e446905e2d55d280ff5109fc359df7fb9c886d",
+    "textDigest": "sha256:3ef1edb8c058fd50fda3fe33fc2d652e426168a94cdda09cf285c05c4f97fb97",
+    "finalUrl": "https://productinfo.se.com/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/Cyber_Rec_IFE_Disposal_0000940268",
+    "retrievedAt": "2026-10-15T22:02:02Z",
+    "contentType": "text/html;charset=UTF-8",
+    "snapshotPath": "source-7d960df68e47281c0b71f150e9e446905e2d55d280ff5109fc359df7fb9c886d.bin",
+    "textPath": "source-3ef1edb8c058fd50fda3fe33fc2d652e426168a94cdda09cf285c05c4f97fb97.txt"
+  },
+  "files": {
+    "snapshots/source-7d960df68e47281c0b71f150e9e446905e2d55d280ff5109fc359df7fb9c886d.bin": "sha256:7d960df68e47281c0b71f150e9e446905e2d55d280ff5109fc359df7fb9c886d",
+    "snapshots/source-3ef1edb8c058fd50fda3fe33fc2d652e426168a94cdda09cf285c05c4f97fb97.txt": "sha256:3ef1edb8c058fd50fda3fe33fc2d652e426168a94cdda09cf285c05c4f97fb97"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.productinfo.schneider-electric.com/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/Cyber_Rec_IFE_Disposal_0000940268",
+  "language": "en",
+  "retrievedAt": "2026-10-15T22:02:02Z",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T22:04:59Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": "\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\n\n\n\n\n          \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCybersecurity Recommendations for Disposal or Decommissioning - Pact Series Cybersecurity Guide\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n\n    \n\n    \n\n    \n\n\n\n\n\n\n\n\n\n\n\n  \n\n    \n\n      \n\n      \n\n      \n\n    \n\n    \n\n\t\t\t\n\n\t\t\t\t\n\n\t\t\t\t\n\n\t\t\t\n\n    \n\n\n\n  \n\n\n\n\n  \n\n    \n\n      \n\n      \n\n                  \n\n                  \n\n                  \n\n                  \n\n                  \n\n      \n\n        \nSearch Term\n\n        \n\n          \n\n            \n\n              \n\n                \n\n              \n\n            \n\n        \n\n\n\n      \n\n\n\n    \n\n\n\n\n\n\n\n  \n\n    \n\n          \n\n            \n\n              Pact Series Cybersecurity Guide\n            \n\n          \n\n\n\n                \nTable of Contents\n\n\n    \n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n    \n\n      \n\n        \n\n       ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "B"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "Schneider Electric",
+    "host": "www.productinfo.schneider-electric.com"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T21:04:56Z",
+  "originRunId": "qwen3-38804802602",
+  "source": {
+    "id": "1-source-2",
+    "type": "guidance",
+    "title": "Account Management Configuration Requirements - Canada.ca",
+    "publisher": "Government of Canada",
+    "url": "https://www.canada.ca/en/government/system/digital-government/policies-standards/enterprise-it-service-common-configurations/account.html",
+    "language": "en",
+    "jurisdiction": "Canada",
+    "applicability": "Federal information systems requiring implementation of separation of duties, privileged account management, and emergency access procedures through time-limited credentials and just-in-time privilege escalation",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "4.3",
+        "text": "Establish separate and dedicated user accounts to be used solely for duties that require privileged access."
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:7c4996b0a182b875fa80a12c07ece285629080457e0e397b6d974fcabcd54c98",
+    "textDigest": "sha256:9c4300dae59d9c85c1cf77335234109889780c5f1e708badde27f824ff7a3d11",
+    "finalUrl": "https://www.canada.ca/en/government/system/digital-government/policies-standards/enterprise-it-service-common-configurations/account.html",
+    "retrievedAt": "2026-10-15T21:04:56Z",
+    "contentType": "text/html;charset=utf-8",
+    "snapshotPath": "source-7c4996b0a182b875fa80a12c07ece285629080457e0e397b6d974fcabcd54c98.bin",
+    "textPath": "source-9c4300dae59d9c85c1cf77335234109889780c5f1e708badde27f824ff7a3d11.txt"
+  },
+  "files": {
+    "snapshots/source-7c4996b0a182b875fa80a12c07ece285629080457e0e397b6d974fcabcd54c98.bin": "sha256:7c4996b0a182b875fa80a12c07ece285629080457e0e397b6d974fcabcd54c98",
+    "snapshots/source-9c4300dae59d9c85c1cf77335234109889780c5f1e708badde27f824ff7a3d11.txt": "sha256:9c4300dae59d9c85c1cf77335234109889780c5f1e708badde27f824ff7a3d11"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.canada.ca/en/government/system/digital-government/policies-standards/enterprise-it-service-common-configurations/account.html",
+  "language": "en",
+  "retrievedAt": "2026-10-15T21:04:56Z",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:08:42Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": "\n\n\n\n\n\n\n\n    \n\n\n\n\n\nAccount Management Configuration Requirements - Canada.ca\n\n\n\n\n\n\t\n\n\n\n\t\n\n    \n\n\t\n        \n\n\t\n\t\n\t\n\t\n\t\t\n\n\t\n\t\n\t\t\n\n\t\n\t\n\t\n\t\t\n\n\t\n\t\n\t\n\t\t\n\n\t\n\t\n\t\n\t\t\n\n\t\n\t\n\t\t\n\n\t\n\t\n\t\n\t\t\n\n\t\n\t\n\t\n\t\n\t\n\t\n\t\t\n\n\t\n\t\n\t\n        \n\n\n\n\t\n\n\n\n\t\n\n\n    \n\n\n\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                \n\n\n\n\n\n    \n\n\n\n\n    \n        \n        \n        \n\n\n\n\n\n\n\n    \n        \n        \n        \n\n\n    \n    \n    \n    \n        \n        \n        \n\n\t\nSkip to main content\n\n\n\n\t\nSkip to \"About government\"\n\n\n\n\t\n\n\n\n\n\n\t\n\n\t\t\n\n\t\t\t\n\t\t\t\n\n    \nLanguage selection\n\n\n\n    \n\n        \n\n            \n\n                \n\n                    \n\n                        \n                            \nFrançais\n\n                            \nfr\n\n                        \n                        \n                    \n\n                \n\n\n\n          ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "Government of Canada",
+    "host": "www.canada.ca"
+  }
+}

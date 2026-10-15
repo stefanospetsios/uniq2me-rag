@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T22:02:00Z",
+  "originRunId": "qwen3-38804802602",
+  "source": {
+    "id": "B-source-3",
+    "type": "technical-doc",
+    "title": "Secure Boot SDK user guide",
+    "publisher": "Infineon Technologies",
+    "url": "https://www.infineon.com/dgdl/Infineon-PSoC_64_Secure_MCU_Secure_Boot_SDK_User_Guide-Software-v07_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0f8c361a7666",
+    "language": "en",
+    "jurisdiction": "International",
+    "applicability": "Manufacturer-specific technical documentation for implementing secure boot processes on PSoC 64 Secure MCUs, establishing hardware root of trust and validating firmware integrity during device startup",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "Section 2.2 Overview",
+        "text": "The PSOC™ 64 Secure Boot MCU line, based on the PSOC™ 6 MCU platform, features out-of-box security functionality. This line provides an isolated Root of Trust (RoT) with true attestation and provisioning services"
+      },
+      {
+        "id": "p2",
+        "locator": "Section 2.3.1",
+        "text": "The PSOC™ 64 Secure Boot MCU now uses the OEM RoT public key as the root key to validate any OEM asset (for example, image keys, policies, etc.)"
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:1944f7ca3169fa6cd74e52efde73f8a418ea36d84826559b07be660bf3a05222",
+    "textDigest": "sha256:27ebf6332c6cfa501107afb263a146d2622f87b6cad53fe59cd62641fda03b1a",
+    "finalUrl": "https://www.infineon.com/assets/row/public/documents/30/44/infineon-psoc64-secure-boot-sdk-ug-usermanual-en.pdf",
+    "retrievedAt": "2026-10-15T22:02:00Z",
+    "contentType": "application/pdf",
+    "snapshotPath": "source-1944f7ca3169fa6cd74e52efde73f8a418ea36d84826559b07be660bf3a05222.bin",
+    "textPath": "source-27ebf6332c6cfa501107afb263a146d2622f87b6cad53fe59cd62641fda03b1a.txt"
+  },
+  "files": {
+    "snapshots/source-1944f7ca3169fa6cd74e52efde73f8a418ea36d84826559b07be660bf3a05222.bin": "sha256:1944f7ca3169fa6cd74e52efde73f8a418ea36d84826559b07be660bf3a05222",
+    "snapshots/source-27ebf6332c6cfa501107afb263a146d2622f87b6cad53fe59cd62641fda03b1a.txt": "sha256:27ebf6332c6cfa501107afb263a146d2622f87b6cad53fe59cd62641fda03b1a"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.infineon.com/dgdl/Infineon-PSoC_64_Secure_MCU_Secure_Boot_SDK_User_Guide-Software-v07_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0f8c361a7666",
+  "language": "en",
+  "retrievedAt": "2026-10-15T22:02:00Z",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T22:04:59Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": "Secure Boot SDK user guide\nAbout this document\nScope and purpose\nThis document serves as a guide for using the Secure Boot SDK. It explains the SDK overview, software\ninstallation, provisioning flow, and CySecureTools design.\nIntended audience\nThe Secure Boot SDK is intended for PSOC™ 64 device users.\n\n\n\n\nUser guide       Please read the sections \"Important notice\" and \"Warnings\" at the end of this document   002-27860 Rev. *J\nwww.infineon.com                                                                                                2025-03-07\n\fSecure Boot SDK user guide\n\nImportant notice\n\n\nImportant notice\n“Evaluation Boards and Reference Boards” shall mean products embedded on a printed circuit board\n(PCB) for demonstration and/or evaluation purposes, which include, without limitatio",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "B"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "Infineon Technologies",
+    "host": "www.infineon.com"
+  }
+}

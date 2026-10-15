@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T21:54:25Z",
+  "originRunId": "qwen3-38804802602",
+  "source": {
+    "id": "B-source-4",
+    "type": "guidance",
+    "title": "Enhanced Visibility and Hardening Guidance for Communications Infrastructure",
+    "publisher": "Cybersecurity and Infrastructure Security Agency (CISA)",
+    "url": "https://www.cisa.gov/resources-tools/resources/enhanced-visibility-and-hardening-guidance-communications-infrastructure",
+    "language": "en",
+    "jurisdiction": "United States",
+    "applicability": "Practical implementation guidance for device configuration management, central policy enforcement, and monitoring relevant to inventory control and environmental safeguard verification",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:4c6236e233f7afa5b9595678a5c64ea4283e78ca57da8b8e084f59f6c12811d5",
+    "textDigest": "sha256:60d47b0505019b272eb7e3e97f2b4a9bcb432bdb55b75820a9359ff7d005d75a",
+    "finalUrl": "https://www.cisa.gov/resources-tools/resources/enhanced-visibility-and-hardening-guidance-communications-infrastructure",
+    "retrievedAt": "2026-10-15T21:54:25Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-4c6236e233f7afa5b9595678a5c64ea4283e78ca57da8b8e084f59f6c12811d5.bin",
+    "textPath": "source-60d47b0505019b272eb7e3e97f2b4a9bcb432bdb55b75820a9359ff7d005d75a.txt"
+  },
+  "files": {
+    "snapshots/source-4c6236e233f7afa5b9595678a5c64ea4283e78ca57da8b8e084f59f6c12811d5.bin": "sha256:4c6236e233f7afa5b9595678a5c64ea4283e78ca57da8b8e084f59f6c12811d5",
+    "snapshots/source-60d47b0505019b272eb7e3e97f2b4a9bcb432bdb55b75820a9359ff7d005d75a.txt": "sha256:60d47b0505019b272eb7e3e97f2b4a9bcb432bdb55b75820a9359ff7d005d75a"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.cisa.gov/resources-tools/resources/enhanced-visibility-and-hardening-guidance-communications-infrastructure",
+  "language": "en",
+  "retrievedAt": "2026-10-15T21:54:25Z",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:54:25Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": "\n\n\n\n\n\n  \n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \nEnhanced Visibility and Hardening Guidance for Communications Infrastructure | CISA\n\n    \n\n\n\n\n\n\n    \n\n\n\n\n\n\n\n\n\n\n  \n\n  \n\n    \n\n\n  \nSkip to main content\n\n\n\n\n\n    \n\n\n      \n\n    \n\n\n\n    \n      \n\n\n  \n  \n\n    \n\n      \n\n        \n\n      \n\n\n\n      \n\n        \nAn official website of the United States government\n\n\n\n              \nHere’s how you know\n\n\n\n\n\n        \n\n          \nHere’s how you know\n\n        \n\n          \n\n\n\n  \n\n      \n\n      \n\n                  \n\n            \n\n            \n\n              \n\n                \nOfficial websites use .gov\n\n                \n A \n.gov\n website belongs to an official government organization in the United States.\n              \n\n\n\n            \n\n\n\n          \n\n\n\n                  \n\n            \n\n            \n\n            ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "B"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Cybersecurity and Infrastructure Security Agency (CISA)",
+    "host": "www.cisa.gov"
+  }
+}

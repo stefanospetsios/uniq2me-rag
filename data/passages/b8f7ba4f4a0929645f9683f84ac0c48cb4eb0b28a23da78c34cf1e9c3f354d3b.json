@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "b8f7ba4f4a0929645f9683f84ac0c48cb4eb0b28a23da78c34cf1e9c3f354d3b",
+  "cachedAt": "2026-10-15T21:48:14Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://www.ibm.com/docs/en/was/9.0.5?topic=security-auditing-infrastructure",
+  "finalUrl": "https://www.ibm.com/docs/en/was/9.0.5?topic=security-auditing-infrastructure",
+  "language": "en",
+  "publisher": "IBM",
+  "title": "Auditing the security infrastructure",
+  "retrievedAt": "2026-10-15T21:47:25Z",
+  "byteDigest": "sha256:6a04e38d179b31b5314668daaae3610004b7d624e92dfcce5f5d3fe2638c434c",
+  "textDigest": "sha256:98030d1b50496bcc39289f28efd26ae8e862f11b416079914f79308d68f7fe11",
+  "sourceId": "9-source-1",
+  "passageId": "p1",
+  "locator": "procedure/protect-your-security-audit-data",
+  "quotation": "It is important to secure and ensure the data integrity of the recorded audit data. To ensure that access to the data is restricted and tamper proof, you can encrypt and sign your audit data.",
+  "originalText": "the repository.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProtect your security audit\ndata\n.\n \n\n\n\nIt is important to secure and ensure the data integrity of the recorded audit data. To ensure\nthat access to the data is restricted and tamper proof, you can encrypt and sign your audit data.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConfigure security audit subsystem failure\nnotifications\n.\n \n\n\n\nNotifications can be enabled to generate alerts when the security auditing subsystem experiences\na failure. Notifications can be",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:48:14Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "9"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "IBM",
+    "host": "www.ibm.com"
+  }
+}

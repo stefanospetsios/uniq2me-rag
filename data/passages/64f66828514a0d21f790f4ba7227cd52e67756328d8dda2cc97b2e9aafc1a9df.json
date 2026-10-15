@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "64f66828514a0d21f790f4ba7227cd52e67756328d8dda2cc97b2e9aafc1a9df",
+  "cachedAt": "2026-10-15T21:39:19Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://www.ic3.gov/CSA/2024/240822.pdf",
+  "finalUrl": "https://www.ic3.gov/CSA/2024/240822.pdf",
+  "language": "en",
+  "publisher": "Cybersecurity and Infrastructure Security Agency (CISA) in cooperation with ASD's ACSC, FBI, NSA, NCSC-UK, CCCS, NCSC-NZ, NISC, NCSC-Korea, CSA, AIVD, MIVD",
+  "title": "Best Practices for Event Logging and Threat Detection",
+  "retrievedAt": "2026-10-15T21:35:36Z",
+  "byteDigest": "sha256:4a085afc89a8b38890e67f5ade465c8607ac8854d6c920421ecfeb2557486811",
+  "textDigest": "sha256:1f1f9cadacadb2f5008dc836a3c463e6cba62afbaae4248c8d7fa2cb0c8d1d72",
+  "sourceId": "6-source-1",
+  "passageId": "p2",
+  "locator": "page 11",
+  "quotation": "An event logging facility should enable the protection of logs from unauthorised modification and deletion. Ensure that only personnel with a justified requirement have permission to delete or modify event logs and view the audit logs for access to the centralised logging environment.",
+  "originalText": "event logs they need to do their job.\nAn event logging facility should enable the protection of logs from unauthorised modification and\ndeletion. Ensure that only personnel with a justified requirement have permission to delete or modify\nevent logs and view the audit logs for access to the centralised logging environment. The storage of\nlogs should be in a separate or segmented network with additional security controls to reduce the risk\nof logs being tampered with",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:39:19Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Cybersecurity and Infrastructure Security Agency (CISA) in cooperation with ASD's ACSC, FBI, NSA, NCSC-UK, CCCS, NCSC-NZ, NISC, NCSC-Korea, CSA, AIVD, MIVD",
+    "host": "www.ic3.gov"
+  }
+}

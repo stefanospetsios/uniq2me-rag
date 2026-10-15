@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "ef31434d82684d35407d59c22a44085731477988b82ec6b0e2f6e132a19b30a3",
+  "cachedAt": "2026-10-15T22:01:59Z",
+  "observedAt": "2026-10-15T22:01:59Z",
+  "originRunId": "qwen3-38804802602",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-B-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "B",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "secure boot hardware trust mechanisms physical environmental safeguards official implementation configuration documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792101584351,
+    "end": 1792101585777
+  },
+  "outputDigest": "sha256:0c496d5ef0c87b32b3fed58820053ae86424b94d210d59d5042d4c8ca9faed5c",
+  "resultUrls": [
+    "https://docs.balena.io/reference/os/secure-boot-and-full-disk-encryption/overview",
+    "https://docs.cloud.google.com/docs/security/boot-integrity",
+    "https://kivicore.com/en/embedded-security-blog/how-to-design-secure-system-on-chip-soc",
+    "https://learn.microsoft.com/en-us/windows/security/operating-system-security/system-security/secure-the-windows-10-boot-process",
+    "https://ww1.microchip.com/downloads/aemDocuments/documents/MPU32/ApplicationNotes/ApplicationNotes/AN6590-How-to-Switch-to-ROM-Code-Secure-Boot-Mode-on-SAM9X7-Series-MPUs-DS00006590.pdf",
+    "https://www.infineon.com/dgdl/Infineon-PSoC_64_Secure_MCU_Secure_Boot_SDK_User_Guide-Software-v07_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0f8c361a7666",
+    "https://www.preprints.org/manuscript/202511.1351/v1/download",
+    "https://www.st.com/content/st_com/en/ecosystems/stm32trust.html"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"secure boot hardware trust mechanisms physical environmental safeguards official implementation configuration documentation\",\n  \"results\": [\n    {\n      \"title\": \"Secure Boot SDK user guide - Infineon Technologies\",\n      \"url\": \"https://www.infineon.com/dgdl/Infineon-PSoC_64_Secure_MCU_Secure_Boot_SDK_User_Guide-Software-v07_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0f8c361a7666\",\n      \"content\": \"7 Μαρ 2025 ... Environmental conditions have been considered in the design of the Evaluation Boards and Reference. Boards provided by Infineon Technologies.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"How to Switch to ROM Code Secure Boot Mode on SAM9X7 Series ...\",\n      \"url\": \"https://ww1.microchip.com/downloads/aemDocuments/documents/MPU32/ApplicationNotes/ApplicationNotes/AN6590-How-to-Switch-to-ROM-Code-Secure-Boot-Mode-on-SAM9X7-Series-MPUs-DS00006590.pdf\",\n      \"content\": \"10 Σεπ 2026 ... Microchip SAM9X7 Series 32-bit Microprocessor Units (MPUs) provide built-in mechanisms to establish a hardware Root of Trust (RoT) during the ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Secure the Windows boot process | Microsoft Learn\",\n      \"url\": \"https://learn.microsoft.com/en-us/windows/security/operating-system-security/system-security/secure-the-windows-10-boot-process\",\n      \"content\": \"18 Αυγ 2025 ... Running Windows 10 or Windows 11 on a PC with Unified Extensible Firmware Interface (UEFI) support ensures that Trusted Boot safeguards your PC ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"How Google enforces boot integrity on production machines | Security\",\n      \"url\": \"https://docs.cloud.google.com/docs/security/boot-integrity\",\n      \"content\": \"This document describes the boot process and demonstrates how our controls operate during the boot flow. The key objectives of our controls are the following:.\",\n      \"engines\": [\n        \"google cse\"\n  ",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "B"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "docs.balena.io",
+      "docs.cloud.google.com",
+      "kivicore.com",
+      "learn.microsoft.com",
+      "ww1.microchip.com",
+      "www.infineon.com",
+      "www.preprints.org",
+      "www.st.com"
+    ]
+  }
+}

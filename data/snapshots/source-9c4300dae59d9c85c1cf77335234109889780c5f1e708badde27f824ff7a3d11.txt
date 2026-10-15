@@ -1,0 +1,1395 @@
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+Account Management Configuration Requirements - Canada.ca
+
+
+
+
+
+	
+
+
+
+	
+
+    
+
+	
+        
+
+	
+	
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+	
+		
+
+	
+	
+	
+		
+
+	
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+	
+		
+
+	
+	
+	
+	
+	
+	
+		
+
+	
+	
+	
+        
+
+
+
+	
+
+
+
+	
+
+
+    
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                
+
+
+
+
+
+    
+
+
+
+
+    
+        
+        
+        
+
+
+
+
+
+
+
+    
+        
+        
+        
+
+
+    
+    
+    
+    
+        
+        
+        
+
+	
+Skip to main content
+
+
+
+	
+Skip to "About government"
+
+
+
+	
+
+
+
+
+
+	
+
+		
+
+			
+			
+
+    
+Language selection
+
+
+
+    
+
+        
+
+            
+
+                
+
+                    
+
+                        
+                            
+Français
+
+                            
+fr
+
+                        
+                        
+                    
+
+                
+
+
+
+                
+                
+            
+
+        
+
+
+
+    
+
+
+
+
+
+				
+
+					
+                    
+					
+						
+						
+
+							
+
+							
+ /
+								
+								
+Gouvernement du Canada
+
+							
+
+						
+
+					
+					
+
+					
+
+					
+
+				
+
+
+
+				
+
+					
+Search
+
+
+
+					
+
+
+	
+
+		
+		    
+Search Canada.ca
+
+			
+
+		    
+		
+
+		
+
+		
+
+	
+
+
+
+	
+
+	
+Search
+
+	
+
+
+
+
+
+
+				
+
+		
+
+
+
+	
+
+
+
+	
+
+	
+	
+
+		
+        
+
+        
+
+		
+Menu
+
+
+
+		
+Main 
+Menu 
+
+
+
+	
+Jobs and the workplace
+
+
+
+	
+Immigration and citizenship
+
+
+
+	
+Travel and tourism
+
+
+
+	
+Business and industry
+
+
+
+	
+Benefits
+
+
+
+	
+Health
+
+
+
+	
+Taxes
+
+
+
+	
+Environment and natural resources
+
+
+
+	
+National security and defence
+
+
+
+	
+Culture, history and sport
+
+
+
+	
+Policing, justice and emergencies
+
+
+
+	
+Transport and infrastructure
+
+
+
+	
+Canada and the world
+
+
+
+	
+Money and finances
+
+
+
+	
+Science and innovation
+
+
+
+	
+Manage life events
+
+
+
+
+
+
+		
+        
+   
+        
+
+
+
+		
+		
+		
+    
+
+
+
+
+
+	
+		
+You are here:
+
+
+
+
+Canada.ca
+
+
+
+
+About government
+
+
+
+
+Government in a digital age
+
+
+
+
+Strategic plans, policies, standards and guidelines related to government digital services
+
+
+
+
+Enterprise IT Service Common Configurations
+
+
+
+
+
+
+
+
+
+	
+
+  
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+
+
+	
+
+
+
+    
+    
+
+    
+    
+        
+
+            
+            
+
+
+    
+Account Management Configuration Requirements
+
+
+
+	
+
+
+
+
+
+
+
+
+    
+
+  
+On this page
+
+
+
+  
+
+    
+Life cycle management
+
+
+
+    
+Authentication hardening
+
+
+
+    
+Account management
+
+
+
+    
+Privileged account management
+
+
+
+    
+Non-person entity accounts
+
+
+
+    
+Monitoring
+
+
+
+  
+
+
+
+
+
+
+
+  
+1. Life cycle management
+
+
+
+  
+1.1 Manage user accounts using a life cycle approach in accordance with Appendix B, subsection B.2.3.2, of the 
+Directive on Security Management
+.
+
+
+
+  
+1.2 Use an automated process to govern identity and access management.
+
+
+
+
+
+
+
+  
+2. Authentication hardening
+
+
+
+  
+2.1 Authenticate users before they are granted access to a system and its resources, leveraging approved Government of Canada (GC) authentication services in accordance with the 
+Directive on Identity Management
+ and associated guidelines such as the current 
+Guideline on Cloud Authentication
+. Exceptions are to be assessed through the GC Enterprise Architecture Review Board.
+
+
+
+  
+2.2 Implement GC-approved authentication and cryptographic protocols in alignment with the Cyber Centre’s 
+Cryptographic Algorithms for Unclassified, Protected A, and Protected B Information: ITSP.40.111
+.
+
+
+
+  
+2.3 Disable weak and legacy authentication methods and protocols.
+
+
+
+  
+2.4 Implement phishing-resistant multi-factor authentication (MFA) for user accounts in accordance with the 
+Government of Canada (GC) Guideline on Multi-Factor Authentication (MFA): Technical Recommendations for Authenticators to Support MFA Within the GC Enterprise Domain
+. At a minimum, phishing-resistant MFA is used to authenticate:
+
+
+
+  
+
+    
+2.4.1 All users accessing information systems that have an assurance level requirement of 3 or higher;
+
+
+
+    
+2.4.2 All users accessing cloud-based solutions;
+
+
+
+    
+2.4.3 All users accessing third-party online services that process, store or communicate sensitive data;
+
+
+
+    
+2.4.4 All users performing privileged actions; and
+
+
+
+    
+2.4.5 All users of remote access and remote administration solutions.
+
+
+
+  
+
+  
+2.5 Disable weaker forms of MFA such as SMS and email MFA, and ensure that they are not configured as fallback options.
+
+
+
+  
+2.6 Where passwords are used, implement a password policy in accordance with the GC’s 
+Guideline on Password Security
+.
+
+
+
+  
+2.7 Configure all systems that require user authentication with a session lock or screen lock by default.
+
+
+
+  
+2.8 Configure all systems with an approved log-on banner that requires users to acknowledge and accept their security responsibilities before access is granted.
+
+
+
+  
+2.9 Harden active directory services in alignment with the Cyber Centre’s 
+Guidance for Securing Microsoft Active Directory Services in Your Organization: ITSM.60.100
+.
+
+
+
+
+
+
+
+  
+3. Account management
+
+
+
+  
+3.1 Establish role-based or attribute-based (or equivalent) criteria that limit access to information systems based on:
+
+
+
+  
+
+    
+3.1.1 A valid access authorization;
+
+
+
+    
+3.1.2 Intended system usage;
+
+
+
+    
+3.1.3 Other attributes as required by the organization; and
+
+
+
+    
+3.1.4 Program and service requirements.
+
+
+
+  
+
+  
+3.2 Identify account types (for example, privileged, individual, system, application, guest or anonymous, service, application programming interface (API), temporary, and others).
+
+
+
+  
+3.3 Associate each account with a single (digital) identity (person or non-person entity).
+
+
+
+  
+3.4 Apply the principle of least privilege to all account types.
+
+
+
+  
+3.5 Identify authorized users of information systems and specify access privileges with oversight of access approved by designated individuals other than the requester.
+
+
+
+  
+3.6 Revoke or modify access to account when it is no longer needed.
+
+
+
+  
+3.7 Disable inactive user accounts after 90 days and disable temporary accounts after 30 days. Automate this process wherever possible.
+
+
+
+  
+3.8 Establish conditions for group membership based on valid business rules and the principles of least privilege and the need to know.
+
+
+
+
+
+
+
+  
+4. Privileged account management
+
+
+
+  
+4.1 Establish and administer privileged user accounts in accordance with Appendix B: Mandatory Procedures on Information Technology Security Control, subsection B.2.3.2, of the 
+Directive on Security Management
+. Privileged accounts are considered to be those that have one or more of the following:
+
+
+
+  
+
+    
+4.1.1 The ability to change key system configuration settings;
+
+
+
+    
+4.1.2 The ability to change or override security controls;
+
+
+
+    
+4.1.3 Access to audit and security monitoring information;
+
+
+
+    
+4.1.4 Access to data, files and accounts used by other users, including backups and media; and
+
+
+
+    
+4.1.5 Access to troubleshoot a system.
+
+
+
+  
+
+  
+4.2 Organize approved information system access and privileges following a role-based or attribute-based (or equivalent) access control scheme, and monitor, verify and remove privilege assignments when no longer required.
+
+
+
+  
+4.3 Establish separate and dedicated user accounts to be used solely for duties that require privileged access. This includes:
+
+
+
+  
+
+    
+4.3.1 Using cloud-native authentication for highly privileged cloud administrative users in accordance with the 
+Guideline on Cloud Authentication
+;
+
+
+
+    
+4.3.2 Managing on-premises services with separate accounts for endpoint and infrastructure to ensure that:
+      
+
+        
+4.3.2.1 
+Accounts that have elevated privileges do not have access to less secure resources; and
+
+
+
+        
+4.3.2.2 
+Accounts that have non-elevated privileges do not have access to more secure resources in accordance with the privileged access model outlined in the GC’s 
+System Management Configuration Requirements
+;
+
+
+
+      
+
+    
+
+
+
+    
+4.3.3 Restricting privileged accounts from accessing less secure or non-essential resources that are not required for their designated functions; and
+
+
+
+    
+4.3.4 Restricting privileged accounts so that they do not have the ability or the authority to modify or delete their own audit records.
+
+
+
+  
+
+  
+4.4 Perform administrative tasks securely and in accordance with the GC’s 
+System Management Configuration Requirements
+. This includes:
+
+
+
+  
+
+    
+4.4.1 Using just-in-time privilege escalation for administering systems and applications with appropriate management approvals where available; just-in-time access refers to the granting and revoking of privileges only for the duration required to conduct the authorized privileged functions;
+
+
+
+    
+4.4.2 Configuring privileged accounts to be accessible and usable from authorized, GC-owned and GC-managed endpoints in accordance with the GC’s 
+Endpoint Management Configuration Requirements
+;
+
+
+
+    
+4.4.3 Preventing services or endpoints accessed by privileged accounts (excluding those explicitly authorized to access online services) from accessing the Internet, email and web services;
+
+
+
+    
+4.4.4 Using privileged accounts within secure, controlled networks (for example, internal government networks or GC-approved secure pathways); and
+
+
+
+    
+4.4.5 Authorizing requests for privileged access to systems, applications and data repositories when first requested and periodically during use.
+
+
+
+  
+
+
+
+
+
+  
+5. Non-person entity accounts
+
+
+
+  
+5.1 Protect service accounts with a process that ensures that they are inventoried, managed with clear ownership by an individual or team, and frequently audited. Use group managed service accounts where available to secure services with credentials that are fully managed, rotated and protected.
+
+
+
+  
+5.2 Configure complex and unique passwords according to the GC’s 
+Guideline on Password Security
+ for:
+
+
+
+  
+
+    
+5.2.1 Service accounts; and
+
+
+
+    
+5.2.2 Local administrator accounts.
+
+
+
+  
+
+  
+5.3 Use solutions such as a Local Administrator Password Solution (LAPS) to automatically manage local administrator passwords to ensure that passwords are unique, randomly generated and securely stored.
+
+
+
+  
+5.4 Configure API accounts as set out in the 
+API Security Best Practices Primer
+. At a minimum:
+
+
+
+  
+
+    
+5.4.1 Restrict account usage to API communications only; and
+
+
+
+    
+5.4.2 Configure API services to run with non-privileged permission levels.
+
+
+
+  
+
+  
+5.5 Prioritize the use of time-limited credentials, such as JSON Web Tokens, which offer cryptographic verification, and use static credentials such as API keys only as a last resort.
+
+
+
+  
+5.6 Scope API access to required resources only.
+
+
+
+  
+5.7 Ensure that logging is enabled for the appropriate request and response contexts.
+
+
+
+  
+5.8 Enforce communications over Transport Layer Security (TLS) protocol version 1.3 or later as specified in the Cyber Centre’s 
+Guidance on Securely Configuring Network Protocols (ITSP.40.062)
+.
+
+
+
+
+
+
+
+  
+6. Monitoring
+
+
+
+  
+6.1 Create audit records in accordance with the GC’s 
+Event Logging Guidance
+ for:
+
+
+
+  
+
+    
+6.1.1 Actions against all accounts, groups and allocation of privileges; and
+
+
+
+    
+6.1.2 All authentication events and escalation of privileges to detect anomalous activity and prevent the compromise of sensitive accounts.
+
+
+
+  
+
+  
+6.2 Configure full session recording of privileged actions and privileged user account use, where available.
+
+
+
+  
+6.3 Conduct regular audits of all accounts and membership groups of password-credentialed systems for compliance with account management requirements at a frequency of no greater than monthly.
+
+
+
+  
+6.4 Forward event logs that are protected from unauthorized modification and deletion using the Cyber Centre’s approved cryptographic safeguards to a central logging facility for processing, storage, monitoring and analysis.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+    
+Page details
+
+
+
+
+    
+
+    
+
+        
+
+            
+
+            
+
+
+
+        
+
+
+
+	
+
+
+
+    
+
+
+	2026-02-11
+
+
+
+
+
+
+        
+
+    
+
+
+
+    
+
+
+
+
+    
+        
+        
+        
+
+
+
+
+
+
+
+    
+        
+        
+        
+
+
+    
+    
+    
+    
+
+
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+    
+        
+        
+        
+
+
+
+
+
+
+
+    
+        
+        
+        
+
+
+    
+    
+    
+    
+        
+        
+        
+
+    
+
+	    
+About this site
+
+
+
+    		
+        
+
+			
+
+	
+
+	
+Government of Canada
+
+
+
+	
+
+		
+All contacts
+
+
+
+		
+Departments and agencies
+
+
+
+		
+About government
+
+
+
+	
+
+	
+Themes and topics
+
+	
+			
+		
+Jobs
+
+
+
+		
+Immigration and citizenship
+
+
+
+		
+Travel and tourism
+
+
+
+		
+Business
+
+
+
+		
+Benefits
+
+
+
+		
+Health
+
+
+
+		
+Taxes
+
+
+
+		
+Environment and natural resources
+
+
+
+		
+National security and defence
+
+
+
+		
+Culture, history and sport
+
+
+
+		
+Policing, justice and emergencies
+
+
+
+		
+Transport and infrastructure
+
+
+
+		
+Canada and the world
+
+
+
+		
+Money and finances
+
+
+
+		
+Science and innovation
+
+
+
+		
+Indigenous Peoples
+
+
+
+		
+Veterans and military
+
+
+
+		
+Youth
+
+
+
+		
+Manage life events
+
+
+		
+	
+
+	
+
+
+
+
+
+	
+        
+
+
+
+        
+
+            
+
+            
+
+                
+Government of Canada Corporate
+
+
+
+                
+
+                
+                    		
+Social media
+
+
+
+		
+Mobile applications
+
+
+
+		
+About Canada.ca
+
+
+
+                
+                
+Terms and conditions
+
+
+
+                
+Privacy
+
+
+
+                
+
+            
+
+                
+
+                    
+
+                
+
+
+
+            
+
+
+
+        
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

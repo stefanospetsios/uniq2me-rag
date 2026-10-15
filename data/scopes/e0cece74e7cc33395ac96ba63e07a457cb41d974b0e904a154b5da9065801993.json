@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-scope",
+  "cachedAt": "2026-10-15T22:07:09Z",
+  "scopeId": "C",
+  "fingerprint": "e0cece74e7cc33395ac96ba63e07a457cb41d974b0e904a154b5da9065801993",
+  "originRunId": "qwen3-38804802602",
+  "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "C"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "scope-admitted",
+    "publisher": null,
+    "host": null
+  },
+  "corpus": {
+    "sources": {
+      "C-source-1": {
+        "type": "technical-doc",
+        "title": "MQTT Mocking & Testing",
+        "publisher": "Microcks",
+        "url": "https://microcks.io/documentation/guides/usage/async-protocols/mqtt-support/",
+        "language": "en",
+        "jurisdiction": "Global",
+        "applicability": "Covers MQTT protocol implementation for service integration, interface authentication, mock APIs, and integration testing with concrete examples of message validation and trust boundary enforcement",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "C-source-1",
+        "byteDigest": "sha256:392836386ff6da493d1e01d2d80bb15827c03d0aa63ad453d4b906b61e5aba5e",
+        "textDigest": "sha256:b59a13333d2b272debc0091355bca4e727ff63e79d1a9f86cbff130e0968d701",
+        "finalUrl": "https://microcks.io/documentation/guides/usage/async-protocols/mqtt-support/",
+        "retrievedAt": "2026-10-15T22:05:54Z",
+        "contentType": "text/html; charset=utf-8",
+        "snapshotPath": "source-392836386ff6da493d1e01d2d80bb15827c03d0aa63ad453d4b906b61e5aba5e.bin",
+        "textPath": "source-b59a13333d2b272debc0091355bca4e727ff63e79d1a9f86cbff130e0968d701.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Overview",
+            "text": "Microcks supports MQTT as a protocol binding for \nAsyncAPI\n. That means that Microcks can connect to an MQTT broker for publishing mock messages as soon as it receives a valid \nAsyncAPI\n Specification and to any MQTT broker in your organization to check that flowing messages are compliant with the schema described within your specification."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "C-source-2": {
+        "type": "technical-doc",
+        "title": "AsyncAPI Specification",
+        "publisher": "AsyncAPI Initiative",
+        "url": "https://github.com/asyncapi/spec/blob/master/spec/asyncapi.md",
+        "language": "en",
+        "jurisdiction": "Global",
+        "applicability": "Defines standard interface contracts for asynchronous APIs including message protocols, data exchange formats, and binding specifications applicable to MQTT and other transport protocols",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "C-source-2",
+        "byteDigest": "sha256:4fcecf3a41bb13ae0843a2dd3820580cfbb9437d9e7945d8e0edbedfd199b6ec",
+        "textDigest": "sha256:4664f54ebe263012e4610a0a831c4d11dcc55520eeba85d75163eb2168dc3af3",
+        "finalUrl": "https://github.com/asyncapi/spec/blob/master/spec/asyncapi.md",
+        "retrievedAt": "2026-10-15T22:05:55Z",
+        "contentType": "text/html; charset=utf-8",
+        "snapshotPath": "source-4fcecf3a41bb13ae0843a2dd3820580cfbb9437d9e7945d8e0edbedfd199b6ec.bin",
+        "textPath": "source-4664f54ebe263012e4610a0a831c4d11dcc55520eeba85d75163eb2168dc3af3.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Introduction",
+            "text": "The AsyncAPI Specification is a project used to describe message-driven APIs in a machine-readable format. It's protocol-agnostic, so you can use it for APIs that work over any protocol (e.g., AMQP, MQTT, WebSockets, Kafka, STOMP, HTTP, Mercure, etc)."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": [
+          "p1"
+        ]
+      }
+    },
+    "concerns": [
+      {
+        "id": "C-concern-1",
+        "sfsId": "C",
+        "description": "Existence of mock implementation for MQTT protocol validation including message schema compliance checking",
+        "sourceRefs": [
+          {
+            "sourceId": "C-source-1",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "C-concern-2",
+        "sfsId": "C",
+        "description": "Protocol-agnostic standardization of interface contracts for message-driven APIs",
+        "sourceRefs": [
+          {
+            "sourceId": "C-source-2",
+            "passageId": "p1"
+          }
+        ]
+      }
+    ],
+    "queries": [
+      {
+        "scope": "C",
+        "toolId": "searxng_web_search",
+        "input": {
+          "safesearch": 1,
+          "query": "Interfacing Protocols and APIs official implementation configuration documentation APIs MQTT service integration interface contracts trust boundaries authentication authorization input validation data exchange mock APIs integration testing site:ietf.org site:owasp.org site:mqtt.org site:nist.gov"
+        },
+        "outputDigest": "sha256:55e9436287ab135fcb4eb91013aaf02244332d1936a00c42c307739b2afaf876",
+        "callId": "sources-C-1-discovery"
+      },
+      {
+        "scope": "C",
+        "toolId": "websearch_web_search",
+        "input": {
+          "query": "APIs official maintainer implementation configuration documentation MQTT protocols service integration interface authentication authorization input validation data exchange mock APIs integration testing"
+        },
+        "outputDigest": "sha256:d3eeed0b09386d519569aaa84901247705c912f163a5a59ff9f5f9b84f29f8ef",
+        "callId": "sources-C-1-discovery"
+      }
+    ],
+    "limitations": [
+      {
+        "scope": "C",
+        "description": "searxng search encountered unresponsive engines: brave (too many requests), duckduckgo (CAPTCHA), wikidata (timeout)"
+      },
+      {
+        "scope": "C",
+        "description": "AsyncAPI specification lacks explicit publication date in observed content"
+      }
+    ],
+    "admissionVersion": 2,
+    "observedResultUrls": [
+      "https://github.com/asyncapi/spec/blob/master/spec/asyncapi.md",
+      "https://microcks.io/documentation/guides/usage/async-protocols/mqtt-support/"
+    ]
+  },
+  "files": {
+    "snapshots/source-392836386ff6da493d1e01d2d80bb15827c03d0aa63ad453d4b906b61e5aba5e.bin": "sha256:392836386ff6da493d1e01d2d80bb15827c03d0aa63ad453d4b906b61e5aba5e",
+    "snapshots/source-b59a13333d2b272debc0091355bca4e727ff63e79d1a9f86cbff130e0968d701.txt": "sha256:b59a13333d2b272debc0091355bca4e727ff63e79d1a9f86cbff130e0968d701",
+    "snapshots/source-4fcecf3a41bb13ae0843a2dd3820580cfbb9437d9e7945d8e0edbedfd199b6ec.bin": "sha256:4fcecf3a41bb13ae0843a2dd3820580cfbb9437d9e7945d8e0edbedfd199b6ec",
+    "snapshots/source-4664f54ebe263012e4610a0a831c4d11dcc55520eeba85d75163eb2168dc3af3.txt": "sha256:4664f54ebe263012e4610a0a831c4d11dcc55520eeba85d75163eb2168dc3af3"
+  }
+}

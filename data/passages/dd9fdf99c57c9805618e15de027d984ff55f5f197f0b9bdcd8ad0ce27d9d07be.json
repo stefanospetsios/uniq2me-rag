@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "dd9fdf99c57c9805618e15de027d984ff55f5f197f0b9bdcd8ad0ce27d9d07be",
+  "cachedAt": "2026-10-15T21:42:02Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://microsoft.github.io/zerotrustassessment/docs/workshop-guidance/devsecops/DS_117",
+  "finalUrl": "https://microsoft.github.io/zerotrustassessment/docs/workshop-guidance/devsecops/DS_117",
+  "language": "en",
+  "publisher": "Microsoft",
+  "title": "Define secure release governance and rollback procedures | Microsoft Zero Trust",
+  "retrievedAt": "2026-10-15T21:40:37Z",
+  "byteDigest": "sha256:b24e0cdbed2ea846c4137aebdf730067c55cc0a14e6eec85e2dbec0a4eb85f45",
+  "textDigest": "sha256:e2905f585c93ecbf71c7874ff70afb0da69d9c1f5719c2476be599571b3d5beb",
+  "sourceId": "7-source-2",
+  "passageId": "p1",
+  "locator": "Overview section",
+  "quotation": "Define a formal release governance and rollback process for production deployments, with approvals, security gates, artifact traceability, and tested rollback steps.",
+  "originalText": "Define a formal release governance and rollback process for production deployments, with approvals, security gates, artifact traceability, and tested rollback steps.",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:42:02Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "7"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Microsoft",
+    "host": "microsoft.github.io"
+  }
+}

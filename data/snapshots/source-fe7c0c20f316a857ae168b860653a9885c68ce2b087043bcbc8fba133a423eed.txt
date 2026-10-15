@@ -1,0 +1,1681 @@
+Device security principles for manufacturers | 8. Constrain the use of all device interfaces | National Cyber Security Centre
+ 
+ 
+ 
+ 
+ 
+icons/chevron/16px/black
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+Skip to main content
+ 
+ 
+ 
+ 
+ 
+
+
+ Please enable JavaScript in your web browser to get the best experience.
+
+
+
+
+ 
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Home
+ 
+
+
+ 
+Utility navigation
+
+
+ 
+ 
+ 
+About NCSC
+ 
+
+
+ 
+ 
+Report an incident
+ 
+
+
+ 
+ 
+Contact us
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+
+
+ 
+ Open Search 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ Menu 
+ 
+
+
+ 
+Main navigation
+
+
+ 
+ 
+ Advice & guidance 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+Back
+Advice & guidance
+
+
+Our advice & guidance covers a broad range of topics
+
+
+
+
+ 
+ 
+ Find information for... 
+ 
+ 
+ 
+ You & your family 
+ 
+
+
+ 
+ 
+ Small to medium sized organisations 
+ 
+
+
+ 
+ 
+ Large organisations 
+ 
+
+
+ 
+ 
+ Self employed & sole traders 
+ 
+
+
+ 
+ 
+ Public sector 
+ 
+
+
+ 
+ 
+ Cyber security professionals 
+ 
+
+
+ 
+ 
+ All advice and guidance articles 
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+ Popular topics 
+ 
+ 
+ 
+ Artificial intelligence 
+ 
+
+
+ 
+ 
+ Cyber attack 
+ 
+
+
+ 
+ 
+ Frontier AI 
+ 
+
+
+ 
+ 
+ Passkeys 
+ 
+
+
+ 
+ 
+ Phishing 
+ 
+
+
+ 
+ 
+ All topics 
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+ Other resources 
+ 
+ 
+ 
+ Glossary of terms 
+ 
+
+
+ 
+ 
+ Infographics 
+ 
+
+
+ 
+ 
+ Verify an NCSC contact 
+ 
+
+
+ 
+ 
+ Heightened cyber threat information 
+ 
+
+
+ 
+ 
+ Cyber Governance for Boards 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ Respond to a cyber attack 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+Back
+Respond to a cyber attack
+
+
+Resources for individuals and organisations in the UK who have experienced an online scam or cyber attack.
+
+
+
+
+ 
+ 
+ Find advice for... 
+ 
+ 
+ 
+ Advice for medium to large organisations 
+ 
+
+
+ 
+ 
+ Advice for sole traders and small businesses 
+ 
+
+
+ 
+ 
+ Advice for individuals 
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+ Respond to... 
+ 
+ 
+ 
+ Hacked account 
+ 
+
+
+ 
+ 
+ Infected device 
+ 
+
+
+ 
+ 
+ Ransomware attack 
+ 
+
+
+ 
+ 
+ Suspicious messages 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ Find a product or service 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+Back
+Find a product or service
+
+
+Find a range of products & services from NCSC and certified 3rd party suppliers
+
+
+
+
+ 
+ 
+ In this section 
+ 
+ 
+ 
+ Products & services overview 
+ 
+
+
+ 
+ 
+ Browse cyber security services 
+ 
+
+
+ 
+ 
+ NCSC assured services 
+ 
+
+
+ 
+ 
+ Assuring technology 
+ 
+
+
+ 
+ 
+ Search assured providers 
+ 
+
+
+ 
+ 
+ Cyber Essentials 
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+ Useful links 
+ 
+ 
+ 
+ Active Cyber Defence services 
+ 
+
+
+ 
+ 
+ MyNCSC 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ Education & skills 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+Back
+Education & skills
+
+
+Working with industry, government and academia to support the next generation of researchers, students and cyber security professionals
+
+
+
+
+ 
+ 
+ Find information for... 
+ 
+ 
+ 
+ Schools 
+ 
+
+
+ 
+ 
+ Higher education 
+ 
+
+
+ 
+ 
+ Professional skills training 
+ 
+
+
+ 
+ 
+ Working with the NCSC 
+ 
+
+
+ 
+ 
+ Research & academia 
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+ Education & academia resources 
+ 
+ 
+ 
+ Cyber Skills 
+ 
+
+
+ 
+ 
+ Training resources for school staff 
+ 
+
+
+ 
+ 
+ Resources for higher education institutions 
+ 
+
+
+ 
+ 
+ Cyber Security Body of Knowledge (CyBOK) 
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+ Industry & skill resources 
+ 
+ 
+ 
+ CYBERUK 2027 
+ 
+
+
+ 
+ 
+ NCSC for StartUps 
+ 
+
+
+ 
+ 
+ Industry 100 
+ 
+
+
+ 
+ 
+ Cyber League 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ News 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+Back
+News
+
+
+All the latest information to help you keep track of what's happening
+
+
+
+
+ 
+ 
+ In this section 
+ 
+ 
+ 
+ News 
+ 
+
+
+ 
+ 
+ Blogs 
+ 
+
+
+ 
+ 
+ Speeches 
+ 
+
+
+ 
+ 
+ Reports & advisories 
+ 
+
+
+ 
+ 
+ Malware analysis reports 
+ 
+
+
+ 
+ 
+ CYBERUK 2027 
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+ Stay up to date 
+ 
+ 
+ 
+ The NCSC's Cyber Series podcast 
+ 
+
+
+ 
+ 
+ Subscribe 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+About NCSC
+ 
+
+
+ 
+ 
+Report an incident
+ 
+
+
+ 
+ 
+Contact us
+ 
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ Close Search 
+ 
+
+
+Search
+
+
+
+
+Popular Searches
+
+
+ 
+Passkeys
+
+
+ 
+Training
+
+
+ 
+Cyber Essentials
+
+
+ 
+AI
+
+
+ 
+Phishing
+
+
+ 
+Cyber Assessment Framework
+
+
+
+
+
+
+ 
+ 
+ 
+
+
+ 
+Guidance
+
+
+Device security principles for manufacturers
+
+
+Principles to guide manufacturers in the design of secure, enterprise-connected devices.
+
+
+
+
+
+
+
+
+
+
+
+
+Pages
+
+
+ 
+ 
+ Device security principles for manufacturers 
+
+
+ 
+ 1. Provide updates, securely 
+
+
+
+
+ 
+ 2. Support appropriate authentication 
+
+
+
+
+ 
+ 3. Protect data at rest and in transit 
+
+
+
+
+ 
+ 4. Maintain device integrity 
+
+
+
+
+ 
+ 5. Ensure transparency of device health 
+
+
+
+
+ 
+ 6. Permit only trusted software 
+
+
+
+
+ 
+ 7. Minimise the privilege and reach of applications 
+
+
+
+
+ 
+ 8. Constrain the use of all device interfaces 
+
+
+
+
+ 
+ 9. Allow robust device management 
+
+
+
+
+ 
+ 10. Provide security logging, alerting and monitoring capabilities 
+
+
+
+
+ 
+ 11. Enable recovery to a known good state 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+Page 9 of 12
+
+
+8. Constrain the use of all device interfaces
+
+
+
+
+
+
+Interfaces, both logical and physical, are the gateways through which the device communicates with external entities. Interfaces have services which run over them; USB can provide both power and data, or a network interface can provide DNS and IP as services.
+
+
+Ensuring devices only possess the interfaces necessary to operate, and appropriately validating use of interfaces, will restrict what an attacker can do. If a device has lots of open interfaces, whether network or physical, an attacker is more likely to discover a vulnerability to compromise the device. This is particularly true if unnecessary interfaces are available.
+
+
+
+
+
+
+
+
+
+
+ 
+Guideline 8.1: It shall be made clear which services are running over both logical and external physical interfaces, and whether the user or organisation can disable those services
+
+
+
+
+This guideline applies to all devices.
+
+
+When a device is first set up, any running services that aren’t essential will increase the attack surface of the device. In this context, services of interfaces include functionality such as: transfer of power and data over Thunderbolt, connection to a terminal via a Serial port, or IPv6 over Wi-Fi. Being able to easily identify which services are running on a device and are exposed over an interface allows organisations to lock down device interfaces more effectively.
+
+
+Example: An organisation wants its devices to be managed only by a device management platform. A settings menu or interface on the devices shows that SSH and Telnet are both enabled on the devices when they ship from the factory, therefore an administrator knows to remove or disable those services on all devices.
+
+
+Reducing the services in operation also reduces the attack surface. Knowing which of the services running over an interface can be disabled will facilitate more accurate risk management when using the device in specific environments.
+
+
+If an organisation understands the resources and expected behaviours of its connected devices, it provides a baseline of what ‘standard' looks like across its network. This information can then be used to alert if new and unexpected protocols are used by a device's network interface, generally a physical interface, to assess whether the activity may be malicious.
+
+
+An emerging approach for this includes the device providing a 
+MUD (Manufacturer Usage Description) file
+ URL, through a mechanism such as DHCP. This allows an organisation to apply the principal of least privilege to firewall rules by understanding which services a device needs to connect to.
+
+
+Example: A manufacturer provides documentation stating which protocols a device uses for communication over networks. When a device is using unsecure protocols, it's checked against the documentation to see if the protocol is being used intentionally or not. If not used intentionally, the administrator can be alerted to a potential compromise.
+
+
+References for this guideline include:
+NCSC Zero trust architecture principles 
+2
+, 
+3
+ and 
+6
+
+
+ETSI EN 303 645
+: Communicate securely
+
+
+MITRE: T1048
+ Exfiltration over Alternative Protocol
+
+
+IETF RFC 8520 Manufacturer Usage Description Specification
+
+
+NIST SP 800-213A
+: Device Identification − Identifier Management Support
+
+
+NIST SP 800-213A
+: Device Identification − Actions Based on Device Identity
+
+
+
+
+
+
+
+
+ 
+ 
+Guideline 8.2: Users and organisations should be able to disable unnecessary services running over physical and logical interfaces
+
+
+
+
+This guideline applies to all devices.
+
+
+Disabling the services reduces the attack surface and helps organisations meet a level of risk they are acceptable with.
+
+
+Example: An organisation doesn’t want to use IPv6, so they disable it on ethernet and Wi-Fi interfaces.
+
+
+Example: To prevent data loss, an organisation wishes to prevent data transfer over USB. The organisation therefore disables the ability to transfer files to USB devices.
+
+
+References:
+MITRE: T1052
+ Exfiltration over physical Medium
+
+
+MITRE: T1200
+ Hardware Additions
+
+
+NIST SP 800-213A
+: Device Configuration − Interface Configuration
+
+
+NIST SP 800-213A
+: Logical Access to Interfaces − Interface Control
+
+
+NIST SP 800-213A
+: Device Security − Secure Device Operation
+
+
+
+
+
+
+
+
+ 
+ 
+Guideline 8.3: The device manufacturer shall provide a runtime mechanism to identify which services are exposed to the network and to document any known endpoints the device connects to
+
+
+
+
+This guideline applies to all devices.
+
+
+It’s important that an organisation is clear about any network ports exposed by a device and the purpose of any network service, as well as the endpoints they communicate with. This helps configuration of wider network security controls, such as host-based firewalls, and helps build a legitimate traffic profile for the device. Administrators will then be able to detect if there is communication with unknown services, which might indicate compromise. This then allows them to revoke access to sensitive corporate data if compromise has taken place.
+
+
+Example: A malicious actor attempts to exfiltrate data from a compromised device. This unusual network traffic is blocked by the network firewall, and the administrator is alerted to this event. This helps the administrator identify the compromise and begin remediation.
+
+
+Example: A malicious actor gains access to a device with limited functionality. The actor manages to hide SSH traffic by using a publicly documented port to hide in traffic which already exists. The organisation uses a command ‘show running services’-like command which shows that SSH is running. This isn’t expected and so the organisation can then block further malicious traffic from leaving the network.
+
+
+References for this guideline include:
+MITRE: T1011
+ Exfiltration over Other Network Medium
+
+
+MITRE: T1040
+ Network Sniffing
+
+
+MITRE: T1567
+ Exfiltration over Web Service
+
+
+
+
+
+
+
+
+ 
+ 
+Guideline 8.4: The manufacturer shall state which mitigations against interface misuse are available
+
+
+
+
+This guideline applies to all devices.
+
+
+Organisations deploying devices need to understand which mitigations are available to protect physical, logical and network interfaces on a device from misuse. This helps protect the device from some physical attacks such as Direct Memory Attacks (DMA).
+
+
+Example: A device is left unattended and an attacker takes the opportunity to physically attack the device to gain access. The device is using an IOMMU which prevents an unsophisticated actor from successfully conducting a Direct Memory Access attack.
+
+
+Less sophisticated physical interfaces such as USB may require simpler protections, such as preventing data transfer over the interface (power transfer only) and blocking device IDs. Other mitigations like firewalls will help protect interfaces which are network accessible.
+
+
+Example: A firewall has been configured on a device to block unsolicited inbound connections to the device, helping prevent an outside attacker from directly connecting to the device.
+
+
+References:
+NCSC: Device Security Guidance − Using peripherals securely
+
+
+MITRE: T1571
+ Non-Standard Port
+
+
+MITRE: T1091
+ Replication Through Removable Media
+
+
+MITRE: T1200
+ Hardware Additions
+
+
+NIST SP 800-213A
+: Device Configuration − Interface Configuration
+
+
+NIST SP 800-213A
+: Logical Access to Interfaces − Interface Control
+
+
+
+
+
+
+
+
+ 
+ 
+Guideline 8.5: Mitigations against interface misuse should be enabled by default
+
+
+
+
+This guideline applies to all devices.
+
+
+Enabling mitigations against interface misuse by default minimises the burden on organisations to understand and implement security controls. Some mitigations such as firewalls should be provided with an appropriate sample configuration, while other mitigations such as IOMMUs will require no configuration beyond enabling.
+
+
+Example: An untrusted Thunderbolt connection is made to a device. The device uses Thunderbolt 4 which enforces DMA remapping and use of an IOMMU. The device is protected against misuse of the Thunderbolt interface without configuration by the end user.
+
+
+References:
+NCSC: Device Security Guidance − Using peripherals securely
+
+
+MITRE: T1571
+ Non-Standard Port
+
+
+MITRE: T1091
+ Replication Through Removable Media
+
+
+MITRE: T1200
+ Hardware Additions
+
+
+
+
+
+
+
+
+ 
+ 
+Guideline 8.6: The device can provide the capability for interfaces to be disabled if not required
+
+
+
+
+This guideline applies to all devices.
+
+
+If organisations and users can disable interfaces on a device, it will help keep track of what is connected to a device and will help protect data that could be exposed, via a camera, microphone or radio for example. Appropriate controls help mitigate the risk of uncontrolled devices being connected without knowledge, prevent the use of cameras and microphones, and any form of radio communication. Devices should support the ability to disable interfaces physically with hardware, for example by disabling an upstream data port or removing power from a chipset.
+
+
+Example: An organisation doesn’t want users to be able to connect Thunderbolt-based peripherals because of concerns over Direct Memory Access (DMA) attacks in high-threat locations.
+
+
+References:
+MITRE: T1011
+ Exfiltration over Other Network Medium
+
+
+NIST SP 800-213A
+: Device Configuration − Interface Configuration
+
+
+NIST SP 800-213A
+: Logical Access to Interfaces − Interface Control
+
+
+NIST SP 800-213A
+: Device Security − Secure Device Operation
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+Previous page:
+
+
+7. Minimise the privilege and reach of applications
+ 
+ 
+ 
+Next page:
+
+
+9. Allow robust device management
+ 
+ 
+ 
+
+
+ 
+
+
+ 
+ 
+
+
+
+
+ 
+
+
+Published
+ 
+18 February 2025
+
+
+Reviewed
+ 
+13 May 2025
+
+
+Version
+ 2.1
+
+
+Written for
+Cyber security professionals
+
+
+Large organisations
+
+
+Public sector
+
+
+Small & medium sized organisations
+
+
+
+
+Share and print this article
+ 
+ 
+ 
+ 
+
+
+ 
+ Share 
+ 
+ 
+Share
+ 
+ 
+ 
+ 
+
+
+ 
+ Close share options 
+ 
+
+
+ 
+ 
+ 
+ 
+
+
+ 
+Share on
+Facebook
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+Share on
+LinkedIn
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+Share on
+X
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+Copy Link
+ 
+
+
+
+
+ Was this article helpful?
+
+
+ 
+ 
+Yes 
+the article was helpful
+ 
+
+
+ 
+ 
+No 
+the article was not helpful
+ 
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ Close Feedback Form 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+
+
+ 
+ Back to top 
+ 
+
+
+ 
+Share
+ 
+ 
+ 
+ 
+
+
+ 
+ Close share options 
+ 
+
+
+ 
+ 
+ 
+ 
+
+
+ 
+Share on
+Facebook
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+Share on
+LinkedIn
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+Share on
+X
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+Copy Link
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Home
+ 
+
+
+Follow us
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+X
+ 
+
+
+ 
+ 
+ 
+ 
+
+
+ 
+LinkedIn
+ 
+
+
+ 
+ 
+ 
+ 
+
+
+ 
+Instagram
+ 
+
+
+ 
+ 
+ 
+ 
+
+
+ 
+Threads
+ 
+
+
+ 
+ 
+ 
+ 
+
+
+ 
+RSS
+ 
+
+
+ 
+
+
+
+
+About this website
+
+
+ 
+ 
+ 
+Privacy notice
+ 
+
+
+ 
+ 
+Cookies
+ 
+
+
+ 
+ 
+Accessibility
+ 
+
+
+ 
+ 
+Terms & conditions
+ 
+
+
+ 
+ 
+Social media policy
+ 
+
+
+ 
+
+
+Contact the NCSC
+
+
+ 
+ 
+ 
+Report an incident
+ 
+
+
+ 
+ 
+Report suspicious messages or websites
+ 
+
+
+ 
+ 
+Verify an NCSC contact
+ 
+
+
+ 
+ 
+Report a vulnerability
+ 
+
+
+ 
+ 
+Contact the press office
+ 
+
+
+ 
+ 
+Can't find what you're looking for?
+ 
+
+
+ 
+
+
+Useful links
+
+
+ 
+ 
+ 
+GCHQ
+ 
+
+
+ 
+ 
+MI5
+ 
+
+
+ 
+ 
+SIS
+ 
+
+
+ 
+ 
+NPSA
+ 
+
+
+ 
+ 
+GOV.UK
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+

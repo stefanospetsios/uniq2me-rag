@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-scope",
+  "cachedAt": "2026-10-15T21:46:13Z",
+  "scopeId": "8",
+  "fingerprint": "38b25b43250cef1adddc08b34bfafdd87ad4495652419739dcb727f1b868def4",
+  "originRunId": "qwen3-38804802602",
+  "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "scope-admitted",
+    "publisher": null,
+    "host": null
+  },
+  "corpus": {
+    "sources": {
+      "8-source-1": {
+        "type": "technical-doc",
+        "title": "Security Development Lifecycle (SDL) Practices",
+        "publisher": "Microsoft",
+        "url": "https://www.microsoft.com/en-us/securityengineering/sdl/practices",
+        "language": "en",
+        "jurisdiction": "Global",
+        "applicability": "Official implementation framework for building secure software and services. Covers threat modeling, secure coding practices, requirements capture, and risk management throughout development lifecycle. Intended for organizational adoption.",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "8-source-1",
+        "byteDigest": "sha256:2b2b090fa85acd7c5bf3dd825356038f07e47f1c1bd108842b11663a6004f221",
+        "textDigest": "sha256:036f8a40af78d6c8f9f317af5eafac6b6368c0a98c271366b0806dd877f860b6",
+        "finalUrl": "https://www.microsoft.com/en-us/securityengineering/sdl/practices",
+        "retrievedAt": "2026-10-15T21:43:47Z",
+        "contentType": "text/html; charset=utf-8",
+        "snapshotPath": "source-2b2b090fa85acd7c5bf3dd825356038f07e47f1c1bd108842b11663a6004f221.bin",
+        "textPath": "source-036f8a40af78d6c8f9f317af5eafac6b6368c0a98c271366b0806dd877f860b6.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "section/Security risks",
+            "text": "Security risks (and the need to mitigate them) can occur at any point in the development lifecycle: Design – ensure that the design doesn't naturally allow attackers to easily gain unauthorized access to the workload, its data, or other business assets in the organization."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": [
+          "p1"
+        ]
+      },
+      "8-source-2": {
+        "type": "technical-doc",
+        "title": "Red Hat Secure Software Development Lifecycle",
+        "publisher": "Red Hat",
+        "url": "https://access.redhat.com/security/rh_security_declaration_sdl",
+        "language": "en",
+        "jurisdiction": "Global",
+        "applicability": "Internal SDLC process addressing risk assessment, vulnerability management, and security testing protocols for enterprise open source software development. Provides structured framework for dependency and secrets handling.",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "8-source-2",
+        "byteDigest": "sha256:187cfd4e92561b6ed36d363c465e00337ffdfefbc0911af5fc45b2456ecde183",
+        "textDigest": "sha256:c3e49d56e70097b1edfddcb21d2be339df477bb3a5f0b2582f720a5e14b5d73b",
+        "finalUrl": "https://access.redhat.com/security/rh_security_declaration_sdl",
+        "retrievedAt": "2026-10-15T21:43:48Z",
+        "contentType": "text/html; charset=UTF-8",
+        "snapshotPath": "source-187cfd4e92561b6ed36d363c465e00337ffdfefbc0911af5fc45b2456ecde183.bin",
+        "textPath": "source-c3e49d56e70097b1edfddcb21d2be339df477bb3a5f0b2582f720a5e14b5d73b.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Red Hat Secure Development Lifecycle section",
+            "text": "Red Hat maintains a software development lifecycle (SDLC) process that addresses risk assessment, vulnerability assessment, and security testing protocols of Red Hat software. Red Hat's SDLC process follows the \nNIST SP 800-218 Secure Software Development Framework\n, conducting security reviews related to secure architecture, secure pipeline, threat modeling, Static and Dynamic Application Security Testing, antimalware scanning,  penetration testing, and incident"
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": [
+          "p1"
+        ]
+      },
+      "8-source-3": {
+        "type": "technical-doc",
+        "title": "Implementation Guidance for Maintainers",
+        "publisher": "Open Source Security Foundation (OpenSSF)",
+        "url": "https://baseline.openssf.org/maintainers.html",
+        "language": "en",
+        "jurisdiction": "Global",
+        "applicability": "Implementation guidance against Open Source Security Baseline (OSPS), covering secure coding practices, dependency management workflows, and risk treatment decisions for open source project maintainers.",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "8-source-3",
+        "byteDigest": "sha256:b6eb6b0b6092c2a2bc16b635ae02b6ed9cd36cafea878f58ff1f8b628f5a9f3d",
+        "textDigest": "sha256:95468756b1bb428ceb53ab57bd6d4cd30532c69b07b0b5fc14fca346e52a0781",
+        "finalUrl": "https://baseline.openssf.org/maintainers.html",
+        "retrievedAt": "2026-10-15T21:43:48Z",
+        "contentType": "text/html; charset=utf-8",
+        "snapshotPath": "source-b6eb6b0b6092c2a2bc16b635ae02b6ed9cd36cafea878f58ff1f8b628f5a9f3d.bin",
+        "textPath": "source-95468756b1bb428ceb53ab57bd6d4cd30532c69b07b0b5fc14fca346e52a0781.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Evaluation tooling section",
+            "text": "Several tools are available to help you automate the process. LFX Insights provides automated measurement and reporting of a variety of project metrics, including Baseline controls."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "8-source-4": {
+        "type": "guidance",
+        "title": "Software Security Code of Practice - Implementation Guidance: Theme 1 - Secure design and development",
+        "publisher": "National Cyber Security Centre (NCSC, UK)",
+        "url": "https://www.ncsc.gov.uk/collection/software-security-code-of-practice-implementation-guidance/theme-1-secure-design-development",
+        "language": "en",
+        "jurisdiction": "United Kingdom",
+        "applicability": "Official vendor guidance covering threat modeling techniques, secure coding requirements, dependency risk assessment, and security review processes throughout development lifecycle. Aligns with ISO 27001 controls.",
+        "publicationDate": "2025-05-07",
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "8-source-4",
+        "byteDigest": "sha256:7aa4ec6e6c970a81f1615bc078c73ccfbecb6f074e983a1b3e7e5e8090ef245f",
+        "textDigest": "sha256:97686c28550b7341fa8d353f0982fdf3434f20d10871a1d2365aca0b54cecf95",
+        "finalUrl": "https://www.ncsc.gov.uk/collection/software-security-code-of-practice-implementation-guidance/theme-1-secure-design-development",
+        "retrievedAt": "2026-10-15T21:43:49Z",
+        "contentType": "text/html; charset=UTF-8",
+        "snapshotPath": "source-7aa4ec6e6c970a81f1615bc078c73ccfbecb6f074e983a1b3e7e5e8090ef245f.bin",
+        "textPath": "source-97686c28550b7341fa8d353f0982fdf3434f20d10871a1d2365aca0b54cecf95.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Principle 1.1/Threat modelling",
+            "text": "Threat modelling: techniques used to understand how the software might be attacked or fail in some other way."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "8-source-5": {
+        "type": "guidance",
+        "title": "ENISA Secure by Design and Default Playbook",
+        "publisher": "European Union Agency for Cybersecurity (ENISA)",
+        "url": "https://www.enisa.europa.eu/sites/default/files/2026-07/ENISA_Secure_By_Design_and_Default_Playbook_v1.pdf",
+        "language": "en",
+        "jurisdiction": "European Union",
+        "applicability": "Technical implementation framework covering life-cycle management, risk management activities, and security decision workflows for software development within NIS2-relevant sectors.",
+        "publicationDate": "2026-07",
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "8-source-5",
+        "byteDigest": "sha256:c0dc5132d162f1a06f0adab350226070a176d24b9b826a85b5874961633d357d",
+        "textDigest": "sha256:1aed8c8ede21fe29720b039e335e8bc2e6ce2f358d1c85e3d76133b883e42ad4",
+        "finalUrl": "https://www.enisa.europa.eu/sites/default/files/2026-07/ENISA_Secure_By_Design_and_Default_Playbook_v1.pdf",
+        "retrievedAt": "2026-10-15T21:43:50Z",
+        "contentType": "application/pdf",
+        "snapshotPath": "source-c0dc5132d162f1a06f0adab350226070a176d24b9b826a85b5874961633d357d.bin",
+        "textPath": "source-1aed8c8ede21fe29720b039e335e8bc2e6ce2f358d1c85e3d76133b883e42ad4.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Section 2.2/Risk management activities",
+            "text": "Risk management activities establish the security context by clarifying important considerations, including what needs to be protected, the threats of concern and the acceptable level of residual risk given the product's intended purpose and security impact."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": [
+          "p1"
+        ]
+      }
+    },
+    "concerns": [
+      {
+        "id": "8-concern-1",
+        "sfsId": "8",
+        "description": "Existence of structured threat modeling during design phase to proactively identify potential security risks and attack vectors",
+        "sourceRefs": [
+          {
+            "sourceId": "8-source-1",
+            "passageId": "p1"
+          },
+          {
+            "sourceId": "8-source-4",
+            "passageId": "p1"
+          },
+          {
+            "sourceId": "8-source-5",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "8-concern-2",
+        "sfsId": "8",
+        "description": "Integration of risk assessment and security testing protocols throughout the entire software development lifecycle",
+        "sourceRefs": [
+          {
+            "sourceId": "8-source-2",
+            "passageId": "p1"
+          },
+          {
+            "sourceId": "8-source-5",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "8-concern-3",
+        "sfsId": "8",
+        "description": "Implementation of automated security verification processes to measure and report baseline controls across development metrics",
+        "sourceRefs": [
+          {
+            "sourceId": "8-source-3",
+            "passageId": "p1"
+          }
+        ]
+      }
+    ],
+    "queries": [
+      {
+        "scope": "8",
+        "toolId": "searxng_web_search",
+        "input": {
+          "query": "Secure Development Lifecycle and Risk Management official implementation configuration documentation",
+          "safesearch": 1,
+          "time_range": "",
+          "max_results": 10
+        },
+        "outputDigest": "sha256:3cdc4016f5edb8c4bf34f71a57d2916bb38451fc8ba9290ad7f7485e1ea071c2",
+        "callId": "sources-8-1-discovery"
+      },
+      {
+        "scope": "8",
+        "toolId": "websearch_web_search",
+        "input": {
+          "query": "risk management secure coding official maintainer implementation documentation",
+          "max_results": 10
+        },
+        "outputDigest": "sha256:67547996ffd427a0b6d7119baa88ce7d5d078476300fa86dabb3540e8d497143",
+        "callId": "sources-8-1-discovery"
+      }
+    ],
+    "limitations": [
+      {
+        "scope": "8",
+        "description": "Unresponsive engine: brave (Suspended: too many requests)"
+      },
+      {
+        "scope": "8",
+        "description": "Publication dates not explicitly stated for Microsoft and Red Hat documentation; inferred from observed content snippets and organizational context"
+      },
+      {
+        "scope": "8",
+        "description": "ENISA document publication date inferred from URL path (2026-07) without verification of internal document metadata"
+      },
+      {
+        "scope": "8",
+        "description": "Searxng results included truncated third-party blog content (e.g., Konfirmity, High Table) which were excluded as non-official implementation guidance"
+      }
+    ],
+    "admissionVersion": 2,
+    "observedResultUrls": [
+      "https://access.redhat.com/security/rh_security_declaration_sdl",
+      "https://baseline.openssf.org/maintainers.html",
+      "https://www.enisa.europa.eu/sites/default/files/2026-07/ENISA_Secure_By_Design_and_Default_Playbook_v1.pdf",
+      "https://www.microsoft.com/en-us/securityengineering/sdl/practices",
+      "https://www.ncsc.gov.uk/collection/software-security-code-of-practice-implementation-guidance/theme-1-secure-design-development"
+    ]
+  },
+  "files": {
+    "snapshots/source-2b2b090fa85acd7c5bf3dd825356038f07e47f1c1bd108842b11663a6004f221.bin": "sha256:2b2b090fa85acd7c5bf3dd825356038f07e47f1c1bd108842b11663a6004f221",
+    "snapshots/source-036f8a40af78d6c8f9f317af5eafac6b6368c0a98c271366b0806dd877f860b6.txt": "sha256:036f8a40af78d6c8f9f317af5eafac6b6368c0a98c271366b0806dd877f860b6",
+    "snapshots/source-187cfd4e92561b6ed36d363c465e00337ffdfefbc0911af5fc45b2456ecde183.bin": "sha256:187cfd4e92561b6ed36d363c465e00337ffdfefbc0911af5fc45b2456ecde183",
+    "snapshots/source-c3e49d56e70097b1edfddcb21d2be339df477bb3a5f0b2582f720a5e14b5d73b.txt": "sha256:c3e49d56e70097b1edfddcb21d2be339df477bb3a5f0b2582f720a5e14b5d73b",
+    "snapshots/source-b6eb6b0b6092c2a2bc16b635ae02b6ed9cd36cafea878f58ff1f8b628f5a9f3d.bin": "sha256:b6eb6b0b6092c2a2bc16b635ae02b6ed9cd36cafea878f58ff1f8b628f5a9f3d",
+    "snapshots/source-95468756b1bb428ceb53ab57bd6d4cd30532c69b07b0b5fc14fca346e52a0781.txt": "sha256:95468756b1bb428ceb53ab57bd6d4cd30532c69b07b0b5fc14fca346e52a0781",
+    "snapshots/source-7aa4ec6e6c970a81f1615bc078c73ccfbecb6f074e983a1b3e7e5e8090ef245f.bin": "sha256:7aa4ec6e6c970a81f1615bc078c73ccfbecb6f074e983a1b3e7e5e8090ef245f",
+    "snapshots/source-97686c28550b7341fa8d353f0982fdf3434f20d10871a1d2365aca0b54cecf95.txt": "sha256:97686c28550b7341fa8d353f0982fdf3434f20d10871a1d2365aca0b54cecf95",
+    "snapshots/source-c0dc5132d162f1a06f0adab350226070a176d24b9b826a85b5874961633d357d.bin": "sha256:c0dc5132d162f1a06f0adab350226070a176d24b9b826a85b5874961633d357d",
+    "snapshots/source-1aed8c8ede21fe29720b039e335e8bc2e6ce2f358d1c85e3d76133b883e42ad4.txt": "sha256:1aed8c8ede21fe29720b039e335e8bc2e6ce2f358d1c85e3d76133b883e42ad4"
+  }
+}

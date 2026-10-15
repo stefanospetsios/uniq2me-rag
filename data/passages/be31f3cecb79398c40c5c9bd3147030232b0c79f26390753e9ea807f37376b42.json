@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "be31f3cecb79398c40c5c9bd3147030232b0c79f26390753e9ea807f37376b42",
+  "cachedAt": "2026-10-15T21:42:02Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://owasp.github.io/DevSecOpsGuideline/2-Process/2-6-Deploy/2-6-1-Deploy/",
+  "finalUrl": "https://owasp.github.io/DevSecOpsGuideline/2-Process/2-6-Deploy/2-6-1-Deploy/",
+  "language": "en",
+  "publisher": "OWASP Foundation",
+  "title": "Deploy - OWASP DevSecOps Guideline",
+  "retrievedAt": "2026-10-15T21:40:37Z",
+  "byteDigest": "sha256:0a14ba444c864b86b22d6210569d5a4bd6e525bbd46aa18f7c634b1fa76ad229",
+  "textDigest": "sha256:7d44ff4a8a7a7c1dd7e4ac10896a334e06bb406eb31c7f501265b7b6774b5538",
+  "sourceId": "7-source-1",
+  "passageId": "p1",
+  "locator": "Rollback procedures section",
+  "quotation": "Rollback is a git revert — fast, auditable, and not dependent on tribal knowledge.",
+  "originalText": "the diff was — all in git history.\n\n\n\n\nRollback is a \ngit revert\n — fast, auditable, and not dependent on tribal knowledge.\n\n\n\n\n\n\nUse \nimage digest pinning\n in deployment manifests rather than mutable tags:\n\n\n\n\n# Prefer this (immutable):\n\n\nimage\n:\n \nmyregistry.io/myapp@sha256:a1b2c3d4...\n\n\n# Not this (mutable):\n\n\nimage\n:\n \nmyregistry.io/myapp:latest",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:42:02Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "7"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "OWASP Foundation",
+    "host": "owasp.github.io"
+  }
+}

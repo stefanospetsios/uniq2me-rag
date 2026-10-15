@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T21:22:20Z",
+  "originRunId": "qwen3-38804802602",
+  "source": {
+    "id": "4-source-2",
+    "type": "technical-doc",
+    "title": "Implement CDMC Controls in BigQuery",
+    "publisher": "Google Cloud",
+    "url": "https://docs.cloud.google.com/docs/security/implement-cdmc-framework",
+    "language": "en",
+    "jurisdiction": "Global",
+    "applicability": "Detailed implementation guide for Cloud Data Management Capabilities key controls addressing data classification, ownership, retention, encryption, and lifecycle management in cloud storage environments",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "CDMC Key Control 2",
+        "text": "The Ownership field in a data catalog must be populated for all sensitive data or otherwise reported to a defined workflow."
+      },
+      {
+        "id": "p2",
+        "locator": "CDMC Key Control 11",
+        "text": "Data retention, archiving, and purging must be managed according to a defined retention schedule."
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:ae0647fc9ec52792c5c7e73c310ff7b2a8251350d1a575aa86cc65e4cdf8e17a",
+    "textDigest": "sha256:6a0b3aa8d45b5bdc1576bad6f3c564a6bc6b3d4a225aa846b81609b9de1c8c66",
+    "finalUrl": "https://docs.cloud.google.com/docs/security/implement-cdmc-framework",
+    "retrievedAt": "2026-10-15T21:22:20Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-ae0647fc9ec52792c5c7e73c310ff7b2a8251350d1a575aa86cc65e4cdf8e17a.bin",
+    "textPath": "source-6a0b3aa8d45b5bdc1576bad6f3c564a6bc6b3d4a225aa846b81609b9de1c8c66.txt"
+  },
+  "files": {
+    "snapshots/source-ae0647fc9ec52792c5c7e73c310ff7b2a8251350d1a575aa86cc65e4cdf8e17a.bin": "sha256:ae0647fc9ec52792c5c7e73c310ff7b2a8251350d1a575aa86cc65e4cdf8e17a",
+    "snapshots/source-6a0b3aa8d45b5bdc1576bad6f3c564a6bc6b3d4a225aa846b81609b9de1c8c66.txt": "sha256:6a0b3aa8d45b5bdc1576bad6f3c564a6bc6b3d4a225aa846b81609b9de1c8c66"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://docs.cloud.google.com/docs/security/implement-cdmc-framework",
+  "language": "en",
+  "retrievedAt": "2026-10-15T21:22:20Z",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:23:31Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": "\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n      \n\n      \n        \n\n      \n\n    \n\n      \nImplement CDMC controls in BigQuery  |  Security  |  Google Cloud Documentation\n\n\n\n\n  \n\n  \n\n  \n\n  \n  \n  \n  \n  \n\n\n\n\n    \n\n  \n\n  \n    \n\n  \n  \n    \n\n      \n      Skip to main content\n    \n\n    \n\n      \n\n        \n\n  \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n    \n\n      \n\n        \n\n        \n\n        \n\n\n\n  \n\n  \n  \n\n    \n    \n\n    \n    \n\n  \n\n  \n\n\n\n\n\n\n\n\n\n        \n\n          \n\n            \n              \n              \n  \n\n\n    \n\n      \n        \n          \n\n  \n    \n\n    Documentation\n  \n    \n\n    \n      \n\n    \n  \n  \n\n    \n\n      \n        \nclose\n\n      \n      \n        \n\n          \n            \n\n              \n                \nGet Started\n\n\n\n              \n              \n              \n        ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "4"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "Google Cloud",
+    "host": "docs.cloud.google.com"
+  }
+}

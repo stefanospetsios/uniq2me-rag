@@ -1,0 +1,204 @@
+<!DOCTYPE html><html lang="en-us"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+
+<meta name="dcterms.rights" content="© Copyright IBM Corporation 2007">
+
+<meta name="description" content="You can use the Auditing Facility to report and track auditable events to ensure the integrity of your system.">
+<meta name="keywords" content="security audits, infrastructure">
+<meta name="geo.country" content="ZZ">
+<script>
+    digitalData = {
+      page: {
+        pageInfo: {
+  language: "en-us",
+
+  version: "v18",
+  ibm: {
+  country: "ZZ",
+  type: "CT701"
+  
+         }
+       }
+     }
+   };
+  </script><!-- Licensed Materials - Property of IBM -->
+<!-- US Government Users Restricted Rights -->
+<!-- Use, duplication or disclosure restricted by -->
+<!-- GSA ADP Schedule Contract with IBM Corp. -->
+
+<title>Auditing the security infrastructure</title>
+<link rel="canonical" href="https://www.ibm.com/docs/en/was/9.0.5?topic=security-auditing-infrastructure"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
+<body id="tsec_sa_secauditing"><main role="main"><article role="article" aria-labelledby="tsec_sa_secauditing__title__1">
+<h1 class="topictitle1" id="tsec_sa_secauditing__title__1">Auditing the security infrastructure</h1>
+
+
+
+<div class="body taskbody"><p class="shortdesc">You can use the Auditing Facility to report and track auditable events to ensure the
+integrity of your system.</p>
+
+<section role="region" class="section prereq" aria-labelledby="tasktsec_sa_secauditing__prereq__1"><div class="tasklabel"><h2 class="sectiontitle tasklabel" id="tasktsec_sa_secauditing__prereq__1">Before you begin</h2></div>Before enabling the security auditing subsystem, you must enable global security in your
+environment.</section>
+
+<section class="section context" role="region" aria-labelledby="tasktsec_sa_secauditing__context__1"><div class="tasklabel"><h2 class="sectiontitle tasklabel" id="tasktsec_sa_secauditing__context__1">About this task</h2></div>
+<div class="note"><span class="notetitle">Note:</span> The security auditing subsystem has been introduced as part of the security infrastructure.
+The primary responsibility of the security infrastructure is to prevent unauthorized access and
+usage of resources. Utilizing security auditing has two primary goals: <ul>
+<li>Confirming the effectiveness and integrity of the existing security configuration.</li>
+
+<li>Identifying areas where improvement to the security configuration might be needed.</li>
+
+</ul>
+Security auditing achieves these goals by providing the infrastructure that allows you to
+implement your code to capture and store supported auditable security events. During run time, all
+code other than the Java™ EE 5 application code is considered to be trusted. Each time a Java EE 5
+application accesses a secured resource, any internal application server process with an audit point
+included can be recorded as an auditable event.</div>
+
+<div class="p">The security auditing subsystem has the ability to capture the following types of auditable
+events: <ul>
+<li>Authentication</li>
+
+<li>Authorization</li>
+
+<li>Principal/Credential Mapping</li>
+
+<li>Audit policy management</li>
+
+<li>Delegation</li>
+
+</ul>
+</div>
+
+
+<p>These types of events can be recorded into audit log files. Each audit log has the option to be
+signed and encrypted to ensure data integrity. These audit log files can be analyzed to discover
+breaches over the existing security mechanisms and to discover potential weaknesses in the current
+security infrastructure. Security event audit records are also useful for providing evidence of
+accountability and nonrepudiation as well as vulnerability analysis. The security auditing
+configuration provides four default filters, a default audit service provider, and a default event
+factory. The default implementation write to a binary text-file based log. Use this topic to
+customize your security auditing subsystem.</p>
+
+</section>
+
+<div class="tasklabel"><h2 class="sectiontitle tasklabel" id="tasktsec_sa_secauditing__steps__1">Procedure</h2></div><ol class="steps"><li class="step stepexpand">
+<span class="cmd"><a href="tsec_sa_enable_secauditing.html">Enable the security auditing
+subsystem</a>.</span> 
+<div class="itemgroup info">
+<p>Security auditing will not be performed unless the audit security subsystem has been enabled.
+Global security must be enabled for the security audit subsystem to function, as no security
+auditing occurs if global security is not also enabled.</p>
+
+</div>
+</li>
+<li class="step stepexpand">
+<span class="cmd">Assign the auditor role to a user</span> 
+<div class="itemgroup info">
+<p>A user with the auditor role is required to enable and configure the security auditing subsystem.
+It is important to require strict access control for security policy management. The auditor role
+has been created providing granularity to allow for separation of the auditing role from the
+authority of the administrator. When Security Auditing is initially enabled, the cell administrator
+has auditor privileges. If the environment requires separation of privileges, then changes will need
+to be made to the default role assignments.</p>
+
+</div>
+</li>
+<li class="step stepexpand">
+<span class="cmd"><a href="tsec_sa_selecting_event_types.html">Create security auditing event
+type filters</a>.</span> 
+<div class="itemgroup info">
+<p>You can configure event type filters to only record a specific subset of auditable event types in
+your audit logs. Filtering the event types that are recorded makes for easier analysis of your audit
+records by ensuring only those records important to your environment are archived.</p>
+
+</div>
+</li>
+<li class="step stepexpand">
+<span class="cmd">Configure the audit service provider.</span> 
+<div class="itemgroup info">
+<p>The audit service provider is used to format the audit data object that was passed to it before
+outputting the data to a repository. A default audit service provider implementation is in included.
+See <a href="tsec_sa_config_asp.html" title="The audit service provider is used to format the audit data object that was sent by the audit event factory. After being formatted, the audit data is recorded to the repository defined in the audit service provider configuration.">Configuring the default audit service providers for security auditing</a> for more details on the default implementation. A third
+party implementation can also be coded and used. See <a href="tsec_sa_config_asp_3rdparty.html" title="The audit service provider is used to format the audit data object that was sent by the audit event factory. In addition to the default audit service provider, you may use a third party implementation as your audit service provider.">Configuring a third party audit service providers for security auditing</a>
+for more details on this implementation.</p>
+
+
+</div>
+</li>
+<li class="step stepexpand">
+<span class="cmd"><a href="tsec_sa_config_aef.html">Configure audit event factories for security
+auditing</a>.</span> 
+<div class="itemgroup info">
+<p>The audit event factory gathers the data associated with the auditable events and creates an
+audit data object. The audit data object is then sent to the audit service provider to be formatted
+and recorded to the repository.</p>
+
+</div>
+</li>
+<li class="step stepexpand">
+<span class="cmd"><a href="tsec_sa_audit_data_protection.html">Protect your security audit
+data</a>.</span> 
+<div class="itemgroup info">
+<p>It is important to secure and ensure the data integrity of the recorded audit data. To ensure
+that access to the data is restricted and tamper proof, you can encrypt and sign your audit data.
+</p>
+
+</div>
+</li>
+<li class="step stepexpand">
+<span class="cmd"><a href="tsec_sa_config_notification.html" title="Notifications can be generated by a failure of the security audit subsystem. The security audit subsystem notifications can alert auditors that the security audit system is no longer recording auditable security events. Notifications are generated by a failure of the auditing subsystem, they are not related to any auditable security events or event outcome that has occurred. Notifications triggered by an event or an event outcome are not supported.">Configure security audit subsystem failure
+notifications</a>.</span> 
+<div class="itemgroup info">
+<p>Notifications can be enabled to generate alerts when the security auditing subsystem experiences
+a failure. Notifications can be configured to record an alert in the System logs or can be
+configured to send an alert through email to a specified list of recipients.</p>
+
+</div>
+</li>
+</ol>
+
+<section class="section result" role="region" aria-labelledby="tasktsec_sa_secauditing__result__1"><div class="tasklabel"><h2 class="sectiontitle tasklabel" id="tasktsec_sa_secauditing__result__1">Results</h2></div>After successfully completing this task, you audit data will be recorded for the selected
+auditable events that were specified in the configuration.</section>
+
+<section class="section postreq" role="region" aria-labelledby="tasktsec_sa_secauditing__postreq__1"><div class="tasklabel"><h2 class="sectiontitle tasklabel" id="tasktsec_sa_secauditing__postreq__1">What to do next</h2></div>After configuring security auditing, you can analyze your audit data for potential
+weaknesses in the current security infrastructure and to discover security breaches that may have
+occurred over the existing security mechanisms. You can also use the security auditing subsystem to
+provide data for problem determination. If the default audit service provider was selected, the
+resulting binary audit log file can be read using the Audit Reader.</section>
+
+</div>
+
+<aside role="complementary" aria-labelledby="tsec_sa_secauditing__title__1"><nav role="navigation">
+<ul class="ullinks">
+<li class="ulchildlink" data-hd-product="wasbase wasnd wasfep-web "><strong><a href="../ae/tsec_sa_enable_secauditing.html">Enabling the security auditing subsystem</a></strong><br>
+Security auditing will not be performed unless the audit security subsystem has been enabled. Global security must be enabled for the security audit subsystem to function, as no security auditing occurs if global security is not also enabled.</li>
+<li class="ulchildlink" data-hd-product="wasbase wasnd wasfep-web "><strong><a href="../ae/tsec_sa_selecting_event_types.html">Creating security auditing event type filters</a></strong><br>
+Event type filters are used to specify the types of auditable security events that are audited. Default event type filters are included with the product, but you can also configure new event type filters to specify a subset of auditable event types to be recorded by the security auditing subsystem.</li>
+<li class="ulchildlink" data-hd-product="wasbase wasnd wasfep-web "><strong><a href="../ae/tsec_sa_config_notification.html">Configuring security audit subsystem failure notifications</a></strong><br>
+Notifications can be generated by a failure of the security audit subsystem. The security audit subsystem notifications can alert auditors that the security audit system is no longer recording auditable security events. Notifications are generated by a failure of the auditing subsystem, they are not related to any auditable security events or event outcome that has occurred. Notifications triggered by an event or an event outcome are not supported.</li>
+<li class="ulchildlink" data-hd-product="wasbase wasnd wasfep-web "><strong><a href="../ae/tsec_sa_config_asp.html">Configuring the default audit service providers for security auditing</a></strong><br>
+The audit service provider is used to format the audit data object that was sent by the audit event factory. After being formatted, the audit data is recorded to the repository defined in the audit service provider configuration.</li>
+<li class="ulchildlink" data-hd-product="wasbase wasnd wasfep-web "><strong><a href="../ae/tsec_sa_config_asp_3rdparty.html">Configuring a third party audit service providers for security auditing</a></strong><br>
+The audit service provider is used to format the audit data object that was sent by the audit event factory. In addition to the default audit service provider, you may use a third party implementation as your audit service provider.</li>
+<li class="ulchildlink" data-hd-product="wasbase wasnd wasfep-web "><strong><a href="../ae/tsec_sa_config_aef.html">Configuring audit event factories for security auditing</a></strong><br>
+The audit event factory collects the data associated with the auditable security events and builds the audit data object. The object is then sent to the audit service provider to be formatted and recorded to a specified repository.</li>
+<li class="ulchildlink" data-hd-product="wasbase wasnd wasfep-web "><strong><a href="../ae/tsec_sa_audit_data_protection.html">Protecting your security audit data</a></strong><br>
+The security auditing subsystem allows for protection of your security audit data by increasing the assurance that the audit data has not been tampered or modified outside of the auditing facility. This option also protects the confidentiality of the data. The audit data is protected by encrypting and signing the recording data.</li>
+<li class="ulchildlink" data-hd-product="wasbase wasnd wasfep-web "><strong><a href="../ae/tsec_sa_audit_reader.html">Using the audit reader</a></strong><br>
+The audit reader is a utility that can be used to read the binary audit logs generated by the default binary emitter implementation. The audit reader parses the audit log to generate an HTML report. The audit reader is invoked using wsadmin commands and is not accessible using the administrative console.</li>
+</ul>
+
+<div class="linklist relinfo reltasks" lang="en-us"><h2 class="linkheading">Related tasks</h2>
+<ul><li><a href="tsec_secover.html" title="WebSphere Application Server supports the Java Platform, Enterprise Edition (Java EE) model for creating, assembling, securing, and deploying applications. Applications are often created, assembled, and deployed in different phases and by different teams.">Task overview: Securing resources</a></li>
+</ul></div>
+
+<div class="linklist relinfo relref" lang="en-us"><h2 class="linkheading">Related reference</h2>
+<ul><li><a href="rsec_adminroles.html" title="The Java Platform, Enterprise Edition (Java EE) role-based authorization concept is extended to protect the WebSphere Application Server administrative subsystem.">Administrative roles</a></li>
+</ul></div>
+
+<div class="linklist relinfo" lang="en-us"><h2 class="linkheading">Related information</h2>
+<ul><li><a href="txml_7auditfilter.html">Configuring auditable events using
+scripting</a></li>
+</ul></div>
+</nav></aside>
+</article></main><script type="text/javascript"  src="/UYqSsPGT/eCw9ccN/ytHpCyy/5a/imtiXDNwcfbwhVJYcE/GTNPZSY/ZkF-JW0/VTxg"></script><link rel="stylesheet" type="text/css"  href="/UYqSsPGT/eCw9ccN/ytHpCyy/5a/phtibO/e0FEZSY/O1c-XFJ/nVFNX"><script  src="/UYqSsPGT/eCw9ccN/ytHpCyy/5a/phtibO/e0FEZSY/L1YJDhF/KTgkp" async defer></script><div id="sec-overlay" style="display:none;"><div id="sec-container"></div></div></body></html>

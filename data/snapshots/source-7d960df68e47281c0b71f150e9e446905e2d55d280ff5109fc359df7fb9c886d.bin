@@ -1,0 +1,942 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+  <html lang="en">
+<head>
+<meta charset="UTF-8">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=11">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+
+			<link rel="shortcut icon" href="/pactcybersecurity/_theme/favicon.ico" mce_href="/pactcybersecurity/_theme/favicon.ico" type="image/x-icon"/>
+<script type="text/javascript" src="/resources/scripts/libs/jquery-1.11.0.min.js"></script>
+
+          <link rel="stylesheet" href="/pactcybersecurity/_theme/style/main/default.less"></link>
+
+<script type="text/javascript" src="/pactcybersecurity/_theme/scripts/lib/bootstrap/bootstrap.min.js"></script>
+<script type="text/javascript" src="/pactcybersecurity/_theme/scripts/utils.js"></script>
+<script type="text/javascript" src="/resources/scripts/harp-sdk.js"></script>
+<script type="text/javascript" src="/pactcybersecurity/_theme/scripts/langDropdown.js"></script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5WGBFDW');</script>
+<!-- End Google Tag Manager -->
+
+
+
+<script>
+$(function() {
+  $('form[role=search]').submit(function() {
+    var $term = $(this).find('input[name=_term]');
+    if (!$term.length) {
+      $term = $(this).find('input[name=term]');
+    }
+    var term = $term.val();
+    if (term && term !== '*') {
+      setCookie('td.search', term);
+    }
+  });
+});
+</script>
+
+<style>
+
+</style>
+
+<title>Cybersecurity Recommendations for Disposal or Decommissioning - Pact Series Cybersecurity Guide</title>
+
+<script type="application/javascript" src="/pactcybersecurity/_theme/scripts/favoritesToggle.js"></script>
+<script type="application/javascript">
+var STRING_NONE = "None";
+</script>
+
+<!-- Force imagemaps to rescale. -->
+<script src="/pactcybersecurity/_theme/scripts/lib/imageMapResizer/imageMapResizer.min.js"></script>
+<script>
+  $(function() {
+    $('map').imageMapResize();
+  });
+</script>
+<meta name="description" content="The EIFE and IFE interfaces and IFE server contain confidential information configured during commissioning, recent data values and logs. For example, this information can include passwords or measured power consumptions.">    <script>
+      window.refId = 'Cyber_Rec_IFE_Disposal_0000940268';
+      window.urlRefId = 'Cyber_Rec_IFE_Disposal_0000940268';
+      // Turn on footnotes.
+      $(function() {
+        $('a.footnote').popover({
+          container: 'body',
+          html:true,
+          content: function (){
+            var fnContentEle = $(this).prev("span.fnContent");
+            if(fnContentEle){
+              var fnContent = fnContentEle.html();
+              if(fnContent){;
+               return fnContent;
+              }
+            }
+          }
+        });
+      });
+    </script>
+    <script src="/pactcybersecurity/_theme/scripts/jquery-detect-swipe.js"></script>
+    <script src="/pactcybersecurity/_theme/scripts/viewer.js"></script>
+    <style>
+     /* Offset anchors to account for the header. */
+     a.xmlId {
+         position: relative;
+         top: -130px;
+         display: block;
+         visibility: hidden;
+     }
+
+     #headerbottom {
+         background-color: #626469;
+         margin: 0px 0px 50px 0px;
+     }
+    </style>
+<script nonce="dcd6cc9e6b8a479a1cf5e52292d155ff">bazadebezolkohpepadr="1467560926"</script><script type="text/javascript" src="https://productinfo.se.com/akam/13/577932d3" nonce="dcd6cc9e6b8a479a1cf5e52292d155ff" defer></script></head>
+
+<body id="page" class="readerPage lang-en" data-pageId="29bc07af-c395-4417-8672-e5b3136d6b44">
+
+<nav class="navbar navbar-inverse">
+<div class="container">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <div class="col-xs-3">
+			<a class="navbar-brand" style="padding: 0 50px 0 0" href="https://www.se.com/" target="_blank">
+				<img src="/pactcybersecurity/_theme/images/logos/Logo_SE_Only_White_Transparent_RGB.PNG" style="width: 119px; height: 52px;" class="headerLogo hidden-xs">
+				<img src="/pactcybersecurity/_theme/images/logos/Logo_SE_Only_White_Transparent_RGB.PNG" style="width: 119px; height: 52px;" class="headerLogo visible-xs">
+			</a>
+    </div>
+  </div>
+
+  
+
+    <form role="search" action='/pactcybersecurity/search' class="navbar-form navbar-right navbar-input-group">
+      <input type="hidden" name="maxFacetValues" value="10"/>
+      <input type="hidden" name="filter" value="-search-hidden_md:true"/>
+                  <input type="hidden" name="f.manualType_md" value="Cybersecurity Guide"/>
+                  <input type="hidden" name="f.lang_md" value="en"/>
+                  <input type="hidden" name="f.format_md" value="XML"/>
+                  <input type="hidden" name="f.format_md" value="DITA"/>
+                  <input type="hidden" name="f.format_md" value="DITA Topic"/>
+      <div class="form-group">
+        <label class="sr-only" for="headerTerm">Search Term</label>
+        <div class="input-group">
+          <input type="text" placeholder="Search This Document" class="form-control"
+            id="headerTerm" name="term" value="">
+            <span class="input-group-btn">
+              <button type="submit" class="btn btn-default">
+                <span class="glyphicon glyphicon-search"></span>
+              </button>
+            </span>
+        </div>
+      </div>
+    </form>
+
+
+
+
+
+
+  <div class="collapse navbar-collapse" id="headerMenu">
+    <ul class="nav navbar-nav">
+          <li>
+            <a class="navbar-brand portal-link" href="/pactcybersecurity/" title="Pact Series Cybersecurity Guide">
+              Pact Series Cybersecurity Guide
+            </a>
+          </li>
+                <li class="visible-xs"><a href="#" class="tocHeaderLink">Table of Contents</a>
+
+    </ul>
+  </div><!--/.nav-collapse -->
+</div>
+</nav>
+
+
+
+
+
+
+  
+  <div class="publicationHeader prod-portal">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-7 col-md-8">
+          <a class="context-title" href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml">
+
+
+          PacT Series MasterPacT, ComPacT, PowerPacT – Cybersecurity Guide
+          </a>
+              <a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/DOCA0122EN-11.pdf" target="_blank" style="margin-right: 10px;">
+                <img src="/pactcybersecurity/_theme/images/PDF-icon.svg" style="max-height: 22px; margin-top: -7px;" alt="PDF" title="PDF">
+              </a>
+        </div>
+
+        <div class="col-xs-5 col-md-4 text-right">
+</style>
+  <a class="btn btn-default btn-xs" id="persistentLink" href="https://productinfo.se.com/pactcybersecurity/viewer?docidentity=CybersecurityRecommendationsForIFEI-87B271CC&amp;lang=en&amp;extension=xml&amp;manualidentity=D-SE-0060243"
+      title="Copy Sharable Link URL to Clipboard">
+    <span class="glyphicon glyphicon-link"></span>
+  </a>
+<script>
+(function() {
+  var $link = $('a#persistentLink');
+  var href = $link.attr('href');
+  $link.click(function() {
+    var $clipboard = $('<textarea>').css({
+      position: 'fixed',
+      left: '-100',
+      top: '-100',
+      width: '10px',
+      height: '10px'
+    }).appendTo(document.body);
+    try {
+      $clipboard.val(href).focus().select();
+      document.execCommand('copy');
+      alert('Sharable Link URL Copied to Clipboard.');
+
+    } catch (e) {
+      console.log(e);
+      // Otherwise ignore.
+    }
+    $clipboard.remove();
+  });
+}());
+</script>
+          
+          <div style="margin-top: 3px; display: inline-block; white-space: nowrap;">
+            <a href="#" class="tocHeaderLink btn btn-xs btn-default visible-xs-inline-block" title="Table of Contents">
+              <img src="/pactcybersecurity/_theme/images/toc.svg" style="width: 16px; height: 16px;">
+            </a>
+            <a href="#" class="prevLink btn btn-xs btn-default" title="Previous">
+              <span class="glyphicon glyphicon-triangle-left"></span>
+            </a>
+            <a href="#" class="nextLink btn btn-xs btn-default" title="Next">
+              <span class="glyphicon glyphicon-triangle-right"></span>
+            </a>
+          </div>
+
+        <div class="btn-group">
+          <a type="button" class="text-sm dropdown-toggle mdToggle" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false" title="Other Languages" style="color:white">
+              <span class="glyphicon glyphicon-globe"></span>
+              <span class="hidden-sm hidden-xs">English</span>
+              <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-right pull-right">
+              <li>    <a href="/pactcybersecurity/doca0122-cybersecurity-guide/Chinese%20(Simplified)/BM_novA_Cybersecurity%20Guide_53457272_zh-CN_T001005157.xml/$/Cyber_Rec_IFE_Disposal_zh-CN_0001018118"  >中文 - Chinese (Simplified)</a>
+</li>
+              <li>    <a href="/pactcybersecurity/doca0122-cybersecurity-guide/French/BM_novA_Cybersecurity%20Guide_53457272_fr_T001004680.xml/$/Cyber_Rec_IFE_Disposal_fr_0001018116"  >Français - French</a>
+</li>
+              <li>    <a href="/pactcybersecurity/doca0122-cybersecurity-guide/Spanish/BM_novA_Cybersecurity%20Guide_53457272_es_T001004203.xml/$/Cyber_Rec_IFE_Disposal_es_0001018117"  >Español - Spanish (Castillian)</a>
+</li>
+          </ul>
+        </div>
+       
+     
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="container" id="bodyWrapper">
+
+
+
+      <div class="row">
+          <div class="col-sm-4 col-xs-12 hidden-xs" id="readertoc">
+<div id="tocPortal">
+  <div class="map bookmap" data-product="SchneiderElectric" data-id="D-SE-0060243" lang="en" data-xtrc="bookmap:1" data-xtrf="harp://606efaa34659bd000198cf58/pr/ORIGINAL/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml">
+   <ul id="toc" class="expandable" style="display: none;">
+      <li class="topicref part tocentry" data-product="SchneiderElectric" id="toc-Definition_Important_Information_0000417345.XML"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/Definition_Important_Information_0000417345.XML" data-refids=" Definition_Important_Information_0000417345.XML"> Safety Information</a></li>
+      <li class="topicref part tocentry" data-product="SchneiderElectric" id="toc-TPC_MTZCybersec_NovaCybersecurityGuide_BibInfo_53457272_T001003922"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_MTZCybersec_NovaCybersecurityGuide_BibInfo_53457272_T001003922" data-refids=" TPC_MTZCybersec_NovaCybersecurityGuide_BibInfo_53457272_T001003922"> About the Document</a></li>
+      <li class="topicref part tocentry" data-product="SchneiderElectric" id="toc-CHP_MTZCybersec_Introduction_53457272_T001003927"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/CHP_MTZCybersec_Introduction_53457272_T001003927" data-refids=" CHP_MTZCybersec_Introduction_53457272_T001003927"> An Introduction to Cybersecurity</a><ul class="toclevel">
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_MTZCybersec_CybersecurityPresentation_53457272_T001003962"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_MTZCybersec_CybersecurityPresentation_53457272_T001003962" data-refids=" TPC_MTZCybersec_CybersecurityPresentation_53457272_T001003962"> An Introduction to Cybersecurity</a></li>
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-PacT_Series_Master_Range_0000674478"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/PacT_Series_Master_Range_0000674478" data-refids=" PacT_Series_Master_Range_0000674478"> 
+                  <span class="ph" data-xtrc="ph:1">
+                     <span class="ph" data-xtrc="ph:4" data-xtrf="harp://606efaa34659bd000198cf58/pr/ORIGINAL/English/DEF_S_Master_Range_Pact_Series_0000556639.xml">PacT Series</span> Master Range</span>
+                  
+                  </a></li>
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_MTZCybersec_CybersecurityforNovaproducts_53457272_T001003928"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_MTZCybersec_CybersecurityforNovaproducts_53457272_T001003928" data-refids=" TPC_MTZCybersec_CybersecurityforNovaproducts_53457272_T001003928"> Why Cybersecurity Is Relevant for <span class="ph" data-xtrc="ph:1">MasterPacT, ComPacT,
+                     and PowerPacT</span>
+                  Circuit Breakers</a></li>
+         </ul>
+      </li>
+      <li class="topicref part tocentry" data-product="SchneiderElectric" id="toc-CHP_Cybersec_Reco_Plan_Install_53457272_T001003924"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/CHP_Cybersec_Reco_Plan_Install_53457272_T001003924" data-refids=" CHP_Cybersec_Reco_Plan_Install_53457272_T001003924"> Cybersecurity Recommendations for System Design, Planning and
+            Installation</a><ul class="toclevel">
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_Protect_Confidential_Info_53457272_T001003967"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_Protect_Confidential_Info_53457272_T001003967" data-refids=" TPC_Protect_Confidential_Info_53457272_T001003967"> Identifying and Protecting Sensitive and Critical Information
+                  and Operations</a></li>
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_Design_password_policy_53457272_T001003925"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_Design_password_policy_53457272_T001003925" data-refids=" TPC_Design_password_policy_53457272_T001003925"> Designing a Password Policy</a></li>
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-CybSec_PinCodePolicy_DD00710916"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/CybSec_PinCodePolicy_DD00710916" data-refids=" CybSec_PinCodePolicy_DD00710916"> Designing a PIN Code Policy</a></li>
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_Cybersecurity_training_53457272_T001003964"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_Cybersecurity_training_53457272_T001003964" data-refids=" TPC_Cybersecurity_training_53457272_T001003964"> Training</a></li>
+         </ul>
+      </li>
+      <li class="topicref part tocentry" data-product="SchneiderElectric" id="toc-CHP_Cybersec_Local_Access_53457272_T001003966"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/CHP_Cybersec_Local_Access_53457272_T001003966" data-refids=" CHP_Cybersec_Local_Access_53457272_T001003966"> Cybersecurity Recommendations for Local Access</a><ul class="toclevel">
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_Restrict_access_local_53457272_T001003932"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_Restrict_access_local_53457272_T001003932" data-refids=" TPC_Restrict_access_local_53457272_T001003932"> Restricting Local Access to the <span class="ph" data-xtrc="ph:1">MasterPacT, ComPacT,
+                     and PowerPacT</span>
+                  Circuit Breaker</a></li>
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_Access_MicrologicX_HMI_53457272_T001003929"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_Access_MicrologicX_HMI_53457272_T001003929" data-refids=" TPC_Access_MicrologicX_HMI_53457272_T001003929"> Recommendations for Protecting Local Access to the <span class="ph" data-xtrc="ph:1">
+                     <span class="ph" data-xtrc="ph:2" data-xtrf="harp://606efaa34659bd000198cf58/pr/ORIGINAL/English/DEF_S_Micrologic_354b1ab7_T000232285.xml">MicroLogic</span>
+                     </span>
+                  HMI</a></li>
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_Access_via_NFC_53457272_T001003963"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_Access_via_NFC_53457272_T001003963" data-refids=" TPC_Access_via_NFC_53457272_T001003963"> Recommendations for Protecting Access Through <span class="ph" data-xtrc="ph:1">NFC</span> (<span class="ph" data-xtrc="ph:2">MasterPacT MTZ</span>
+                  )</a></li>
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_Access_via_Bluetooth_53457272_T001003930"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_Access_via_Bluetooth_53457272_T001003930" data-refids=" TPC_Access_via_Bluetooth_53457272_T001003930"> Recommendations for Protecting Access Through <span class="ph" data-xtrc="ph:1">Bluetooth<sup class="ph sup" data-xtrc="sup:1">®</sup>
+                     </span> Wireless Technology (<span class="ph" data-xtrc="ph:2">MasterPacT MTZ</span>
+                  )</a></li>
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_Access_via_USB_53457272_T001003931"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_Access_via_USB_53457272_T001003931" data-refids=" TPC_Access_via_USB_53457272_T001003931"> Recommendations for Protecting Access to the <span class="ph" data-xtrc="ph:1">MicroLogic</span>
+                  Control Unit Through <span class="ph" data-xtrc="ph:2">USB</span> Port (<span class="ph" data-xtrc="ph:3">MasterPacT MTZ</span>
+                  )</a></li>
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_Cyber_Protecting_Access_via_Test_Port_0000548840"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_Cyber_Protecting_Access_via_Test_Port_0000548840" data-refids=" TPC_Cyber_Protecting_Access_via_Test_Port_0000548840"> Recommendations for Protecting Access to the <span class="ph" data-xtrc="ph:1">
+                     <span class="ph" data-xtrc="ph:2" data-xtrf="harp://606efaa34659bd000198cf58/pr/ORIGINAL/English/DEF_S_Micrologic_354b1ab7_T000232285.xml">MicroLogic</span>
+                     </span>
+                  Trip Unit Through Test Port</a></li>
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_Cyber_Protect_Access_via_FDM121_0000548838"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_Cyber_Protect_Access_via_FDM121_0000548838" data-refids=" TPC_Cyber_Protect_Access_via_FDM121_0000548838"> Recommendations for Protecting Access to the <span class="ph" data-xtrc="ph:1">
+                     <span class="ph" data-xtrc="ph:2" data-xtrf="harp://606efaa34659bd000198cf58/pr/ORIGINAL/English/DEF_S_Micrologic_354b1ab7_T000232285.xml">MicroLogic</span>
+                     </span>
+                  Control or Trip Unit Through <span class="ph" data-xtrc="ph:2">FDM121 Display</span>
+                  
+                  </a></li>
+         </ul>
+      </li>
+      <li class="topicref part tocentry" data-product="SchneiderElectric" id="toc-CHP_Cybersec_Remote_Access_53457272_T001003968"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/CHP_Cybersec_Remote_Access_53457272_T001003968" data-refids=" CHP_Cybersec_Remote_Access_53457272_T001003968"> Cybersecurity Recommendations for Remote Access</a><ul class="toclevel">
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_Restrict_access_remote_53457272_T001003969"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_Restrict_access_remote_53457272_T001003969" data-refids=" TPC_Restrict_access_remote_53457272_T001003969"> Restricting Remote Access to the <span class="ph" data-xtrc="ph:1">MasterPacT, ComPacT,
+                     and PowerPacT</span>
+                  Circuit Breaker</a></li>
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_Network_segregation_53457272_T001003933"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_Network_segregation_53457272_T001003933" data-refids=" TPC_Network_segregation_53457272_T001003933"> Separating OT Network from Corporate Network</a></li>
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_Access_via_Ethernet_53457272_T001003965"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_Access_via_Ethernet_53457272_T001003965" data-refids=" TPC_Access_via_Ethernet_53457272_T001003965"> Recommendations for Protecting Remote Access to the <span class="ph" data-xtrc="ph:1">
+                     <span class="ph" data-xtrc="ph:2" data-xtrf="harp://606efaa34659bd000198cf58/pr/ORIGINAL/English/DEF_S_Micrologic_354b1ab7_T000232285.xml">MicroLogic</span>
+                     </span>
+                  Trip Unit or Control Unit Through <span class="ph" data-xtrc="ph:2">Ethernet</span>
+                  </a></li>
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_Access_via_Modbus_53457272_T001003971"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_Access_via_Modbus_53457272_T001003971" data-refids=" TPC_Access_via_Modbus_53457272_T001003971"> Recommendations for Protecting Remote Access to the <span class="ph" data-xtrc="ph:1">
+                     <span class="ph" data-xtrc="ph:2" data-xtrf="harp://606efaa34659bd000198cf58/pr/ORIGINAL/English/DEF_S_Micrologic_354b1ab7_T000232285.xml">MicroLogic</span>
+                     </span>
+                  Trip Unit or Control Unit Through <span class="ph" data-xtrc="ph:2">Modbus-SL</span>
+                  </a></li>
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-MicAct_Reco_Access_Zigbee_DD00926849"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/MicAct_Reco_Access_Zigbee_DD00926849" data-refids=" MicAct_Reco_Access_Zigbee_DD00926849"> Recommendations for Protecting Access Through <span class="ph" data-xtrc="ph:1">
+                     <span class="ph" data-xtrc="ph:2" data-xtrf="harp://606efaa34659bd000198cf58/pr/ORIGINAL/English/DEF_MicAct_%20Zigbee_DD00803686.xml">Zigbee</span>
+                     
+                     </span>
+                  Wireless Technology (<span class="ph" data-xtrc="ph:2">MasterPacT MTZ</span>
+                  )</a></li>
+         </ul>
+      </li>
+      <li class="topicref part tocentry" data-product="SchneiderElectric" id="toc-CHP_Reco_Updates_53457272_T001003923"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/CHP_Reco_Updates_53457272_T001003923" data-refids=" CHP_Reco_Updates_53457272_T001003923"> Cybersecurity Recommendations for Firmware Updates and Digital
+            Modules</a><ul class="toclevel">
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_Install_Firmware_53457272_T001003926"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_Install_Firmware_53457272_T001003926" data-refids=" TPC_Install_Firmware_53457272_T001003926"> Installing Firmware Updates</a></li>
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_Buy_and_install_Digital_Module_53457272_T001003934"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_Buy_and_install_Digital_Module_53457272_T001003934" data-refids=" TPC_Buy_and_install_Digital_Module_53457272_T001003934"> Purchasing and Installing <span class="ph" data-xtrc="ph:1">Digital Modules
+                     (<span class="ph" data-xtrc="ph:2">MasterPacT MTZ</span>
+                     )</span>
+                  </a></li>
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_Cybersec_portal_53457272_T001003972"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_Cybersec_portal_53457272_T001003972" data-refids=" TPC_Cybersec_portal_53457272_T001003972"> Schneider Electric Cybersecurity Support Portal</a></li>
+         </ul>
+      </li>
+      <li class="topicref part tocentry" data-product="SchneiderElectric" id="toc-Cyber_Rec_IFE_Disposal_0000940268"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/Cyber_Rec_IFE_Disposal_0000940268" data-refids=" Cyber_Rec_IFE_Disposal_0000940268"> Cybersecurity Recommendations for Disposal or Decommissioning</a></li>
+      <li class="topicref glossarylist tocentry" data-product="SchneiderElectric" id="toc-glossarylist"><span class="topichead">Glossary</span><ul class="toclevel">
+            <li class="topicref tocentry" id="toc-GTC_BCIM_DD01296598"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTC_BCIM_DD01296598" data-refids=" GTC_BCIM_DD01296598"> 
+                  <span class="ph" data-xtrc="ph:1">BCIM</span>
+                  </a></li>
+            <li class="topicref tocentry" id="toc-GTD_BLE_Bluetoothlowenergy_53457272_T001003949"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_BLE_Bluetoothlowenergy_53457272_T001003949" data-refids=" GTD_BLE_Bluetoothlowenergy_53457272_T001003949"> 
+                  <span class="ph" data-xtrc="ph:1">Bluetooth Low Energy</span>
+                  </a></li>
+            <li class="topicref tocentry" id="toc-GTD_BSCM_Plus_module_DD00817036"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_BSCM_Plus_module_DD00817036" data-refids=" GTD_BSCM_Plus_module_DD00817036"> 
+                  <span class="ph" data-xtrc="ph:1">BSCM Modbus SL/ULP</span>
+                  module</a></li>
+            <li class="topicref tocentry" id="toc-GTD_EIFE_interface_53457272_T001003944"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_EIFE_interface_53457272_T001003944" data-refids=" GTD_EIFE_interface_53457272_T001003944"> 
+                  <span class="ph" data-xtrc="ph:1">EIFE</span> interface</a></li>
+            <li class="topicref tocentry" id="toc-GTD_FTP_FileTransferProtocol_53457272_T001003960"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_FTP_FileTransferProtocol_53457272_T001003960" data-refids=" GTD_FTP_FileTransferProtocol_53457272_T001003960"> FTP - File Transfer Protocol</a></li>
+            <li class="topicref tocentry" id="toc-GTD_FTPS-FileTransferProtocolSecure_0000565920"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_FTPS-FileTransferProtocolSecure_0000565920" data-refids=" GTD_FTPS-FileTransferProtocolSecure_0000565920"> FTPS - File Transfer Protocol
+                  Secure</a></li>
+            <li class="topicref tocentry" id="toc-GTD_HMI_Human_machineinterface_53457272_T001003946"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_HMI_Human_machineinterface_53457272_T001003946" data-refids=" GTD_HMI_Human_machineinterface_53457272_T001003946"> HMI - Human-machine interface</a></li>
+            <li class="topicref tocentry" id="toc-GTD_HTTP_HypertextTransferProtocol_53457272_T001003958"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_HTTP_HypertextTransferProtocol_53457272_T001003958" data-refids=" GTD_HTTP_HypertextTransferProtocol_53457272_T001003958"> HTTP - Hypertext Transfer Protocol</a></li>
+            <li class="topicref tocentry" id="toc-GTD_HTTPS_HypertextTransferProtocolSecure_53457272_T001003959"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_HTTPS_HypertextTransferProtocolSecure_53457272_T001003959" data-refids=" GTD_HTTPS_HypertextTransferProtocolSecure_53457272_T001003959"> HTTPS - Hypertext Transfer Protocol Secure</a></li>
+            <li class="topicref tocentry" id="toc-GTD_IEC_61850Protocol_53457272_T001003961"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_IEC_61850Protocol_53457272_T001003961" data-refids=" GTD_IEC_61850Protocol_53457272_T001003961"> IEC 61850 Protocol</a></li>
+            <li class="topicref tocentry" id="toc-GTD_IFE_interface_53457272_T001003941"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_IFE_interface_53457272_T001003941" data-refids=" GTD_IFE_interface_53457272_T001003941"> 
+                  <span class="ph" data-xtrc="ph:1">IFE</span> interface</a></li>
+            <li class="topicref tocentry" id="toc-GTD_IFE_server_53457272_T001003942"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_IFE_server_53457272_T001003942" data-refids=" GTD_IFE_server_53457272_T001003942"> 
+                  <span class="ph" data-xtrc="ph:1">IFE</span> server</a></li>
+            <li class="topicref tocentry" id="toc-GTD_IFMinterface_53457272_T001003943"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_IFMinterface_53457272_T001003943" data-refids=" GTD_IFMinterface_53457272_T001003943"> 
+                  <span class="ph" data-xtrc="ph:1">IFM</span> interface</a></li>
+            <li class="topicref tocentry" id="toc-GTD_IMU_Intelligentmodularunit_53457272_T001003938"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_IMU_Intelligentmodularunit_53457272_T001003938" data-refids=" GTD_IMU_Intelligentmodularunit_53457272_T001003938"> IMU - Intelligent modular unit</a></li>
+            <li class="topicref tocentry" id="toc-GTD_IP_Internetprotocol_53457272_T001003952"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_IP_Internetprotocol_53457272_T001003952" data-refids=" GTD_IP_Internetprotocol_53457272_T001003952"> IP - Internet protocol</a></li>
+            <li class="topicref tocentry" id="toc-GTD_IT_Informationtechnology_53457272_T001003937"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_IT_Informationtechnology_53457272_T001003937" data-refids=" GTD_IT_Informationtechnology_53457272_T001003937"> IT - Information technology</a></li>
+            <li class="topicref tocentry" id="toc-GTD_LAN_Localareanetwork_53457272_T001003936"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_LAN_Localareanetwork_53457272_T001003936" data-refids=" GTD_LAN_Localareanetwork_53457272_T001003936"> LAN - Local area network</a></li>
+            <li class="topicref tocentry" id="toc-GTD_ModbusTCP_IP_53457272_T001003957"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_ModbusTCP_IP_53457272_T001003957" data-refids=" GTD_ModbusTCP_IP_53457272_T001003957"> Modbus TCP/IP</a></li>
+            <li class="topicref tocentry" id="toc-GTD_NFC_Nearfieldcommunication_53457272_T001003948"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_NFC_Nearfieldcommunication_53457272_T001003948" data-refids=" GTD_NFC_Nearfieldcommunication_53457272_T001003948"> 
+                  <span class="ph" data-xtrc="ph:1">NFC - Near field communication</span>
+                  </a></li>
+            <li class="topicref tocentry" id="toc-GTD_OT_Operationaltechnology_53457272_T001003939"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_OT_Operationaltechnology_53457272_T001003939" data-refids=" GTD_OT_Operationaltechnology_53457272_T001003939"> OT - Operational technology</a></li>
+            <li class="topicref tocentry" id="toc-GTD_Pairingcode_53457272_T001003947"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_Pairingcode_53457272_T001003947" data-refids=" GTD_Pairingcode_53457272_T001003947"> Pairing code</a></li>
+            <li class="topicref tocentry" id="toc-GTD_PKI_Publickeyinfrastructure_53457272_T001003950"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_PKI_Publickeyinfrastructure_53457272_T001003950" data-refids=" GTD_PKI_Publickeyinfrastructure_53457272_T001003950"> PKI - Public key infrastructure</a></li>
+            <li class="topicref tocentry" id="toc-GTD_RBAC_Role_basedaccesscontrol_53457272_T001003954"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_RBAC_Role_basedaccesscontrol_53457272_T001003954" data-refids=" GTD_RBAC_Role_basedaccesscontrol_53457272_T001003954"> RBAC - Role-based access control</a></li>
+            <li class="topicref tocentry" id="toc-GTD_SCADA_Supervisorycontrolanddataacquisition_53457272_T001003940"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_SCADA_Supervisorycontrolanddataacquisition_53457272_T001003940" data-refids=" GTD_SCADA_Supervisorycontrolanddataacquisition_53457272_T001003940"> 
+                  <span class="ph" data-xtrc="ph:1">SCADA - Supervisory control and data
+                     acquisition</span>
+                  </a></li>
+            <li class="topicref tocentry" id="toc-GTD_Securitypolicy_53457272_T001003955"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_Securitypolicy_53457272_T001003955" data-refids=" GTD_Securitypolicy_53457272_T001003955"> Security policy</a></li>
+            <li class="topicref tocentry" id="toc-GTD_TCP_IP_Transmissioncontrolprotocol_Internetprotocol_53457272_T001003951"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_TCP_IP_Transmissioncontrolprotocol_Internetprotocol_53457272_T001003951" data-refids=" GTD_TCP_IP_Transmissioncontrolprotocol_Internetprotocol_53457272_T001003951"> 
+                  <span class="ph" data-xtrc="ph:1">TCP/IP - Transmission control protocol/Internet
+                     protocol</span>
+                  </a></li>
+            <li class="topicref tocentry" id="toc-GTD_ULPconnectivity_53457272_T001003956"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_ULPconnectivity_53457272_T001003956" data-refids=" GTD_ULPconnectivity_53457272_T001003956"> 
+                  <span class="ph" data-xtrc="ph:1">ULP</span> connectivity</a></li>
+            <li class="topicref tocentry" id="toc-GTD_VPN_Virtualprivatenetwork_53457272_T001003945"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_VPN_Virtualprivatenetwork_53457272_T001003945" data-refids=" GTD_VPN_Virtualprivatenetwork_53457272_T001003945"> VPN - Virtual private network</a></li>
+            <li class="topicref tocentry" id="toc-GTD_IEEE_802.15.4_Zigbee_DD00941149"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_IEEE_802.15.4_Zigbee_DD00941149" data-refids=" GTD_IEEE_802.15.4_Zigbee_DD00941149"> 
+                  <span class="ph" data-xtrc="ph:1">Zigbee</span>
+                  </a></li>
+         </ul>
+      </li>
+   </ul>
+</div>    <noscript>
+<div class="map bookmap" data-product="SchneiderElectric" data-id="D-SE-0060243" lang="en" data-xtrc="bookmap:1" data-xtrf="harp://606efaa34659bd000198cf58/pr/ORIGINAL/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml">
+   <ul id="toc" class="expandable">
+      <li class="topicref part tocentry" data-product="SchneiderElectric" id="toc-Definition_Important_Information_0000417345.XML"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/Definition_Important_Information_0000417345.XML" data-refids=" Definition_Important_Information_0000417345.XML"> Safety Information</a></li>
+      <li class="topicref part tocentry" data-product="SchneiderElectric" id="toc-TPC_MTZCybersec_NovaCybersecurityGuide_BibInfo_53457272_T001003922"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_MTZCybersec_NovaCybersecurityGuide_BibInfo_53457272_T001003922" data-refids=" TPC_MTZCybersec_NovaCybersecurityGuide_BibInfo_53457272_T001003922"> About the Document</a></li>
+      <li class="topicref part tocentry" data-product="SchneiderElectric" id="toc-CHP_MTZCybersec_Introduction_53457272_T001003927"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/CHP_MTZCybersec_Introduction_53457272_T001003927" data-refids=" CHP_MTZCybersec_Introduction_53457272_T001003927"> An Introduction to Cybersecurity</a><ul class="toclevel">
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_MTZCybersec_CybersecurityPresentation_53457272_T001003962"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_MTZCybersec_CybersecurityPresentation_53457272_T001003962" data-refids=" TPC_MTZCybersec_CybersecurityPresentation_53457272_T001003962"> An Introduction to Cybersecurity</a></li>
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-PacT_Series_Master_Range_0000674478"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/PacT_Series_Master_Range_0000674478" data-refids=" PacT_Series_Master_Range_0000674478"> 
+                  <span class="ph" data-xtrc="ph:1">
+                     <span class="ph" data-xtrc="ph:4" data-xtrf="harp://606efaa34659bd000198cf58/pr/ORIGINAL/English/DEF_S_Master_Range_Pact_Series_0000556639.xml">PacT Series</span> Master Range</span>
+                  
+                  </a></li>
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_MTZCybersec_CybersecurityforNovaproducts_53457272_T001003928"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_MTZCybersec_CybersecurityforNovaproducts_53457272_T001003928" data-refids=" TPC_MTZCybersec_CybersecurityforNovaproducts_53457272_T001003928"> Why Cybersecurity Is Relevant for <span class="ph" data-xtrc="ph:1">MasterPacT, ComPacT,
+                     and PowerPacT</span>
+                  Circuit Breakers</a></li>
+         </ul>
+      </li>
+      <li class="topicref part tocentry" data-product="SchneiderElectric" id="toc-CHP_Cybersec_Reco_Plan_Install_53457272_T001003924"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/CHP_Cybersec_Reco_Plan_Install_53457272_T001003924" data-refids=" CHP_Cybersec_Reco_Plan_Install_53457272_T001003924"> Cybersecurity Recommendations for System Design, Planning and
+            Installation</a><ul class="toclevel">
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_Protect_Confidential_Info_53457272_T001003967"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_Protect_Confidential_Info_53457272_T001003967" data-refids=" TPC_Protect_Confidential_Info_53457272_T001003967"> Identifying and Protecting Sensitive and Critical Information
+                  and Operations</a></li>
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_Design_password_policy_53457272_T001003925"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_Design_password_policy_53457272_T001003925" data-refids=" TPC_Design_password_policy_53457272_T001003925"> Designing a Password Policy</a></li>
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-CybSec_PinCodePolicy_DD00710916"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/CybSec_PinCodePolicy_DD00710916" data-refids=" CybSec_PinCodePolicy_DD00710916"> Designing a PIN Code Policy</a></li>
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_Cybersecurity_training_53457272_T001003964"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_Cybersecurity_training_53457272_T001003964" data-refids=" TPC_Cybersecurity_training_53457272_T001003964"> Training</a></li>
+         </ul>
+      </li>
+      <li class="topicref part tocentry" data-product="SchneiderElectric" id="toc-CHP_Cybersec_Local_Access_53457272_T001003966"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/CHP_Cybersec_Local_Access_53457272_T001003966" data-refids=" CHP_Cybersec_Local_Access_53457272_T001003966"> Cybersecurity Recommendations for Local Access</a><ul class="toclevel">
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_Restrict_access_local_53457272_T001003932"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_Restrict_access_local_53457272_T001003932" data-refids=" TPC_Restrict_access_local_53457272_T001003932"> Restricting Local Access to the <span class="ph" data-xtrc="ph:1">MasterPacT, ComPacT,
+                     and PowerPacT</span>
+                  Circuit Breaker</a></li>
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_Access_MicrologicX_HMI_53457272_T001003929"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_Access_MicrologicX_HMI_53457272_T001003929" data-refids=" TPC_Access_MicrologicX_HMI_53457272_T001003929"> Recommendations for Protecting Local Access to the <span class="ph" data-xtrc="ph:1">
+                     <span class="ph" data-xtrc="ph:2" data-xtrf="harp://606efaa34659bd000198cf58/pr/ORIGINAL/English/DEF_S_Micrologic_354b1ab7_T000232285.xml">MicroLogic</span>
+                     </span>
+                  HMI</a></li>
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_Access_via_NFC_53457272_T001003963"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_Access_via_NFC_53457272_T001003963" data-refids=" TPC_Access_via_NFC_53457272_T001003963"> Recommendations for Protecting Access Through <span class="ph" data-xtrc="ph:1">NFC</span> (<span class="ph" data-xtrc="ph:2">MasterPacT MTZ</span>
+                  )</a></li>
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_Access_via_Bluetooth_53457272_T001003930"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_Access_via_Bluetooth_53457272_T001003930" data-refids=" TPC_Access_via_Bluetooth_53457272_T001003930"> Recommendations for Protecting Access Through <span class="ph" data-xtrc="ph:1">Bluetooth<sup class="ph sup" data-xtrc="sup:1">®</sup>
+                     </span> Wireless Technology (<span class="ph" data-xtrc="ph:2">MasterPacT MTZ</span>
+                  )</a></li>
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_Access_via_USB_53457272_T001003931"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_Access_via_USB_53457272_T001003931" data-refids=" TPC_Access_via_USB_53457272_T001003931"> Recommendations for Protecting Access to the <span class="ph" data-xtrc="ph:1">MicroLogic</span>
+                  Control Unit Through <span class="ph" data-xtrc="ph:2">USB</span> Port (<span class="ph" data-xtrc="ph:3">MasterPacT MTZ</span>
+                  )</a></li>
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_Cyber_Protecting_Access_via_Test_Port_0000548840"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_Cyber_Protecting_Access_via_Test_Port_0000548840" data-refids=" TPC_Cyber_Protecting_Access_via_Test_Port_0000548840"> Recommendations for Protecting Access to the <span class="ph" data-xtrc="ph:1">
+                     <span class="ph" data-xtrc="ph:2" data-xtrf="harp://606efaa34659bd000198cf58/pr/ORIGINAL/English/DEF_S_Micrologic_354b1ab7_T000232285.xml">MicroLogic</span>
+                     </span>
+                  Trip Unit Through Test Port</a></li>
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_Cyber_Protect_Access_via_FDM121_0000548838"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_Cyber_Protect_Access_via_FDM121_0000548838" data-refids=" TPC_Cyber_Protect_Access_via_FDM121_0000548838"> Recommendations for Protecting Access to the <span class="ph" data-xtrc="ph:1">
+                     <span class="ph" data-xtrc="ph:2" data-xtrf="harp://606efaa34659bd000198cf58/pr/ORIGINAL/English/DEF_S_Micrologic_354b1ab7_T000232285.xml">MicroLogic</span>
+                     </span>
+                  Control or Trip Unit Through <span class="ph" data-xtrc="ph:2">FDM121 Display</span>
+                  
+                  </a></li>
+         </ul>
+      </li>
+      <li class="topicref part tocentry" data-product="SchneiderElectric" id="toc-CHP_Cybersec_Remote_Access_53457272_T001003968"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/CHP_Cybersec_Remote_Access_53457272_T001003968" data-refids=" CHP_Cybersec_Remote_Access_53457272_T001003968"> Cybersecurity Recommendations for Remote Access</a><ul class="toclevel">
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_Restrict_access_remote_53457272_T001003969"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_Restrict_access_remote_53457272_T001003969" data-refids=" TPC_Restrict_access_remote_53457272_T001003969"> Restricting Remote Access to the <span class="ph" data-xtrc="ph:1">MasterPacT, ComPacT,
+                     and PowerPacT</span>
+                  Circuit Breaker</a></li>
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_Network_segregation_53457272_T001003933"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_Network_segregation_53457272_T001003933" data-refids=" TPC_Network_segregation_53457272_T001003933"> Separating OT Network from Corporate Network</a></li>
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_Access_via_Ethernet_53457272_T001003965"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_Access_via_Ethernet_53457272_T001003965" data-refids=" TPC_Access_via_Ethernet_53457272_T001003965"> Recommendations for Protecting Remote Access to the <span class="ph" data-xtrc="ph:1">
+                     <span class="ph" data-xtrc="ph:2" data-xtrf="harp://606efaa34659bd000198cf58/pr/ORIGINAL/English/DEF_S_Micrologic_354b1ab7_T000232285.xml">MicroLogic</span>
+                     </span>
+                  Trip Unit or Control Unit Through <span class="ph" data-xtrc="ph:2">Ethernet</span>
+                  </a></li>
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_Access_via_Modbus_53457272_T001003971"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_Access_via_Modbus_53457272_T001003971" data-refids=" TPC_Access_via_Modbus_53457272_T001003971"> Recommendations for Protecting Remote Access to the <span class="ph" data-xtrc="ph:1">
+                     <span class="ph" data-xtrc="ph:2" data-xtrf="harp://606efaa34659bd000198cf58/pr/ORIGINAL/English/DEF_S_Micrologic_354b1ab7_T000232285.xml">MicroLogic</span>
+                     </span>
+                  Trip Unit or Control Unit Through <span class="ph" data-xtrc="ph:2">Modbus-SL</span>
+                  </a></li>
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-MicAct_Reco_Access_Zigbee_DD00926849"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/MicAct_Reco_Access_Zigbee_DD00926849" data-refids=" MicAct_Reco_Access_Zigbee_DD00926849"> Recommendations for Protecting Access Through <span class="ph" data-xtrc="ph:1">
+                     <span class="ph" data-xtrc="ph:2" data-xtrf="harp://606efaa34659bd000198cf58/pr/ORIGINAL/English/DEF_MicAct_%20Zigbee_DD00803686.xml">Zigbee</span>
+                     
+                     </span>
+                  Wireless Technology (<span class="ph" data-xtrc="ph:2">MasterPacT MTZ</span>
+                  )</a></li>
+         </ul>
+      </li>
+      <li class="topicref part tocentry" data-product="SchneiderElectric" id="toc-CHP_Reco_Updates_53457272_T001003923"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/CHP_Reco_Updates_53457272_T001003923" data-refids=" CHP_Reco_Updates_53457272_T001003923"> Cybersecurity Recommendations for Firmware Updates and Digital
+            Modules</a><ul class="toclevel">
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_Install_Firmware_53457272_T001003926"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_Install_Firmware_53457272_T001003926" data-refids=" TPC_Install_Firmware_53457272_T001003926"> Installing Firmware Updates</a></li>
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_Buy_and_install_Digital_Module_53457272_T001003934"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_Buy_and_install_Digital_Module_53457272_T001003934" data-refids=" TPC_Buy_and_install_Digital_Module_53457272_T001003934"> Purchasing and Installing <span class="ph" data-xtrc="ph:1">Digital Modules
+                     (<span class="ph" data-xtrc="ph:2">MasterPacT MTZ</span>
+                     )</span>
+                  </a></li>
+            <li class="topicref chapter tocentry" data-product="SchneiderElectric" id="toc-TPC_Cybersec_portal_53457272_T001003972"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/TPC_Cybersec_portal_53457272_T001003972" data-refids=" TPC_Cybersec_portal_53457272_T001003972"> Schneider Electric Cybersecurity Support Portal</a></li>
+         </ul>
+      </li>
+      <li class="topicref part tocentry" data-product="SchneiderElectric" id="toc-Cyber_Rec_IFE_Disposal_0000940268"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/Cyber_Rec_IFE_Disposal_0000940268" data-refids=" Cyber_Rec_IFE_Disposal_0000940268"> Cybersecurity Recommendations for Disposal or Decommissioning</a></li>
+      <li class="topicref glossarylist tocentry" data-product="SchneiderElectric" id="toc-glossarylist"><span class="topichead">Glossary</span><ul class="toclevel">
+            <li class="topicref tocentry" id="toc-GTC_BCIM_DD01296598"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTC_BCIM_DD01296598" data-refids=" GTC_BCIM_DD01296598"> 
+                  <span class="ph" data-xtrc="ph:1">BCIM</span>
+                  </a></li>
+            <li class="topicref tocentry" id="toc-GTD_BLE_Bluetoothlowenergy_53457272_T001003949"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_BLE_Bluetoothlowenergy_53457272_T001003949" data-refids=" GTD_BLE_Bluetoothlowenergy_53457272_T001003949"> 
+                  <span class="ph" data-xtrc="ph:1">Bluetooth Low Energy</span>
+                  </a></li>
+            <li class="topicref tocentry" id="toc-GTD_BSCM_Plus_module_DD00817036"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_BSCM_Plus_module_DD00817036" data-refids=" GTD_BSCM_Plus_module_DD00817036"> 
+                  <span class="ph" data-xtrc="ph:1">BSCM Modbus SL/ULP</span>
+                  module</a></li>
+            <li class="topicref tocentry" id="toc-GTD_EIFE_interface_53457272_T001003944"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_EIFE_interface_53457272_T001003944" data-refids=" GTD_EIFE_interface_53457272_T001003944"> 
+                  <span class="ph" data-xtrc="ph:1">EIFE</span> interface</a></li>
+            <li class="topicref tocentry" id="toc-GTD_FTP_FileTransferProtocol_53457272_T001003960"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_FTP_FileTransferProtocol_53457272_T001003960" data-refids=" GTD_FTP_FileTransferProtocol_53457272_T001003960"> FTP - File Transfer Protocol</a></li>
+            <li class="topicref tocentry" id="toc-GTD_FTPS-FileTransferProtocolSecure_0000565920"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_FTPS-FileTransferProtocolSecure_0000565920" data-refids=" GTD_FTPS-FileTransferProtocolSecure_0000565920"> FTPS - File Transfer Protocol
+                  Secure</a></li>
+            <li class="topicref tocentry" id="toc-GTD_HMI_Human_machineinterface_53457272_T001003946"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_HMI_Human_machineinterface_53457272_T001003946" data-refids=" GTD_HMI_Human_machineinterface_53457272_T001003946"> HMI - Human-machine interface</a></li>
+            <li class="topicref tocentry" id="toc-GTD_HTTP_HypertextTransferProtocol_53457272_T001003958"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_HTTP_HypertextTransferProtocol_53457272_T001003958" data-refids=" GTD_HTTP_HypertextTransferProtocol_53457272_T001003958"> HTTP - Hypertext Transfer Protocol</a></li>
+            <li class="topicref tocentry" id="toc-GTD_HTTPS_HypertextTransferProtocolSecure_53457272_T001003959"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_HTTPS_HypertextTransferProtocolSecure_53457272_T001003959" data-refids=" GTD_HTTPS_HypertextTransferProtocolSecure_53457272_T001003959"> HTTPS - Hypertext Transfer Protocol Secure</a></li>
+            <li class="topicref tocentry" id="toc-GTD_IEC_61850Protocol_53457272_T001003961"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_IEC_61850Protocol_53457272_T001003961" data-refids=" GTD_IEC_61850Protocol_53457272_T001003961"> IEC 61850 Protocol</a></li>
+            <li class="topicref tocentry" id="toc-GTD_IFE_interface_53457272_T001003941"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_IFE_interface_53457272_T001003941" data-refids=" GTD_IFE_interface_53457272_T001003941"> 
+                  <span class="ph" data-xtrc="ph:1">IFE</span> interface</a></li>
+            <li class="topicref tocentry" id="toc-GTD_IFE_server_53457272_T001003942"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_IFE_server_53457272_T001003942" data-refids=" GTD_IFE_server_53457272_T001003942"> 
+                  <span class="ph" data-xtrc="ph:1">IFE</span> server</a></li>
+            <li class="topicref tocentry" id="toc-GTD_IFMinterface_53457272_T001003943"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_IFMinterface_53457272_T001003943" data-refids=" GTD_IFMinterface_53457272_T001003943"> 
+                  <span class="ph" data-xtrc="ph:1">IFM</span> interface</a></li>
+            <li class="topicref tocentry" id="toc-GTD_IMU_Intelligentmodularunit_53457272_T001003938"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_IMU_Intelligentmodularunit_53457272_T001003938" data-refids=" GTD_IMU_Intelligentmodularunit_53457272_T001003938"> IMU - Intelligent modular unit</a></li>
+            <li class="topicref tocentry" id="toc-GTD_IP_Internetprotocol_53457272_T001003952"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_IP_Internetprotocol_53457272_T001003952" data-refids=" GTD_IP_Internetprotocol_53457272_T001003952"> IP - Internet protocol</a></li>
+            <li class="topicref tocentry" id="toc-GTD_IT_Informationtechnology_53457272_T001003937"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_IT_Informationtechnology_53457272_T001003937" data-refids=" GTD_IT_Informationtechnology_53457272_T001003937"> IT - Information technology</a></li>
+            <li class="topicref tocentry" id="toc-GTD_LAN_Localareanetwork_53457272_T001003936"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_LAN_Localareanetwork_53457272_T001003936" data-refids=" GTD_LAN_Localareanetwork_53457272_T001003936"> LAN - Local area network</a></li>
+            <li class="topicref tocentry" id="toc-GTD_ModbusTCP_IP_53457272_T001003957"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_ModbusTCP_IP_53457272_T001003957" data-refids=" GTD_ModbusTCP_IP_53457272_T001003957"> Modbus TCP/IP</a></li>
+            <li class="topicref tocentry" id="toc-GTD_NFC_Nearfieldcommunication_53457272_T001003948"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_NFC_Nearfieldcommunication_53457272_T001003948" data-refids=" GTD_NFC_Nearfieldcommunication_53457272_T001003948"> 
+                  <span class="ph" data-xtrc="ph:1">NFC - Near field communication</span>
+                  </a></li>
+            <li class="topicref tocentry" id="toc-GTD_OT_Operationaltechnology_53457272_T001003939"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_OT_Operationaltechnology_53457272_T001003939" data-refids=" GTD_OT_Operationaltechnology_53457272_T001003939"> OT - Operational technology</a></li>
+            <li class="topicref tocentry" id="toc-GTD_Pairingcode_53457272_T001003947"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_Pairingcode_53457272_T001003947" data-refids=" GTD_Pairingcode_53457272_T001003947"> Pairing code</a></li>
+            <li class="topicref tocentry" id="toc-GTD_PKI_Publickeyinfrastructure_53457272_T001003950"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_PKI_Publickeyinfrastructure_53457272_T001003950" data-refids=" GTD_PKI_Publickeyinfrastructure_53457272_T001003950"> PKI - Public key infrastructure</a></li>
+            <li class="topicref tocentry" id="toc-GTD_RBAC_Role_basedaccesscontrol_53457272_T001003954"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_RBAC_Role_basedaccesscontrol_53457272_T001003954" data-refids=" GTD_RBAC_Role_basedaccesscontrol_53457272_T001003954"> RBAC - Role-based access control</a></li>
+            <li class="topicref tocentry" id="toc-GTD_SCADA_Supervisorycontrolanddataacquisition_53457272_T001003940"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_SCADA_Supervisorycontrolanddataacquisition_53457272_T001003940" data-refids=" GTD_SCADA_Supervisorycontrolanddataacquisition_53457272_T001003940"> 
+                  <span class="ph" data-xtrc="ph:1">SCADA - Supervisory control and data
+                     acquisition</span>
+                  </a></li>
+            <li class="topicref tocentry" id="toc-GTD_Securitypolicy_53457272_T001003955"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_Securitypolicy_53457272_T001003955" data-refids=" GTD_Securitypolicy_53457272_T001003955"> Security policy</a></li>
+            <li class="topicref tocentry" id="toc-GTD_TCP_IP_Transmissioncontrolprotocol_Internetprotocol_53457272_T001003951"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_TCP_IP_Transmissioncontrolprotocol_Internetprotocol_53457272_T001003951" data-refids=" GTD_TCP_IP_Transmissioncontrolprotocol_Internetprotocol_53457272_T001003951"> 
+                  <span class="ph" data-xtrc="ph:1">TCP/IP - Transmission control protocol/Internet
+                     protocol</span>
+                  </a></li>
+            <li class="topicref tocentry" id="toc-GTD_ULPconnectivity_53457272_T001003956"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_ULPconnectivity_53457272_T001003956" data-refids=" GTD_ULPconnectivity_53457272_T001003956"> 
+                  <span class="ph" data-xtrc="ph:1">ULP</span> connectivity</a></li>
+            <li class="topicref tocentry" id="toc-GTD_VPN_Virtualprivatenetwork_53457272_T001003945"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_VPN_Virtualprivatenetwork_53457272_T001003945" data-refids=" GTD_VPN_Virtualprivatenetwork_53457272_T001003945"> VPN - Virtual private network</a></li>
+            <li class="topicref tocentry" id="toc-GTD_IEEE_802.15.4_Zigbee_DD00941149"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_IEEE_802.15.4_Zigbee_DD00941149" data-refids=" GTD_IEEE_802.15.4_Zigbee_DD00941149"> 
+                  <span class="ph" data-xtrc="ph:1">Zigbee</span>
+                  </a></li>
+         </ul>
+      </li>
+   </ul>
+</div>    </noscript>
+</div>
+<script type="text/javascript" src="/pactcybersecurity/_theme/scripts/lib/jstree/jstree.min.js"></script>
+          </div>
+        <div class="col-sm-8 col-xs-12" id="topicView">
+
+
+
+<noscript>
+<div id="noscript-notice">
+<p>For the best experience of this site, please enable Javascript for the <code>productinfo.se.com</code> domain.</p>
+</div>
+</noscript>
+
+          <div class="row">
+            <div id="breadcrumbContent">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-12 text-right bookpartno">
+              DOCA0122EN-11
+            </div>
+          </div>
+          <!--This is for the table expand code-->
+          <div class="closeBtnText" style="display:none">Close</div>
+          <div class="clickToExpandText" style="display:none">Click to expand the table</div>
+          <div class="clickToExpandLink" style="display:none">Expand Table</div>
+
+ 
+      
+          <div class="row" id="viewerContent" data-portalKey="606efafa4659bd000198d6a9"
+            data-itemKey="68d25f2d53ebb1650049ee2a" data-projectKey="606efaa34659bd000198cf58"
+            data-parentKey="68d25f2c53ebb1650049edca">
+            <span style="display: none;" data-documentIdentifier="CybersecurityRecommendationsForIFEI-87B271CC endhere" data-documentTitle="PacT Series MasterPacT, ComPacT, PowerPacT – Cybersecurity Guide titleendhere"> </span>
+
+            <div class="col-xs-12 content-container">
+<div class="itemPreview"><a name="CybersecurityRecommendationsForIFEI-87B271CC" class="xmlId"></a><article class="topic concept" data-id="CybersecurityRecommendationsForIFEI-87B271CC" lang="en" data-xtrc="concept:1" data-xtrf="harp://606efaa34659bd000198cf58/pr/ORIGINAL/English/Cyber_Rec_IFE_Disposal_0000940268.xml">
+      <h1 class="title" data-xtrc="title:1" lang="en">Cybersecurity Recommendations for Disposal or Decommissioning</h1>
+      <div class="body conbody" data-xtrc="conbody:1" lang="en">
+         <p class="p" data-xtrc="p:1" lang="en">The <span class="ph" data-xtrc="ph:1" lang="en"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_EIFE_interface_53457272_T001003944#gl_D_SE_0060290.9" class="xref">EIFE</a></span> and <span class="ph" data-xtrc="ph:2" lang="en"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_IFE_interface_53457272_T001003941#gl_D_SE_0060290.8" class="xref">IFE</a></span> interfaces and <a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_IFE_server_53457272_T001003942#gl_D_SE_0060290.21" class="xref"><span class="ph" data-xtrc="ph:3" lang="en">IFE</span> server</a> contain confidential information configured during commissioning,
+            recent data values and logs. For example, this information can include
+            passwords or measured power consumptions.</p>
+         <p class="p" data-xtrc="p:2" lang="en">It is required to perform a factory reset before disposing of the <span class="ph" data-xtrc="ph:4" lang="en"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_EIFE_interface_53457272_T001003944#gl_D_SE_0060290.9" class="xref">EIFE</a></span> or <span class="ph" data-xtrc="ph:5" lang="en"><a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_IFE_interface_53457272_T001003941#gl_D_SE_0060290.8" class="xref">IFE</a></span> interface, or <a href="/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/GTD_IFE_server_53457272_T001003942#gl_D_SE_0060290.21" class="xref"><span class="ph" data-xtrc="ph:6" lang="en">IFE</span> server</a>. For more information, refer to the relevant user guide for your
+            interface.</p>
+      </div>
+   </article>
+</div>            </div>
+          </div>
+<script type="text/javascript">
+  var refId = 'Cyber_Rec_IFE_Disposal_0000940268';
+  $(document).ready(function() {
+
+  function updateFeedbackTabPosition() {
+    var viewportWidth, viewportHeight, offsetLeft, offsetTop;
+
+    offsetLeft = window.scrollX || window.pageXOffset || 0;
+    offsetTop  = window.scrollY || window.pageYOffset || 0;
+
+    if (window.visualViewport) {
+      viewportWidth  = window.visualViewport.width;
+      viewportHeight = window.visualViewport.height;
+      offsetLeft     = window.visualViewport.offsetLeft;
+      offsetTop      = window.visualViewport.offsetTop;
+    } else {
+      viewportWidth  = window.innerWidth  || document.documentElement.clientWidth;
+      viewportHeight = window.innerHeight || document.documentElement.clientHeight;
+    }
+
+    var tab    = $('#feedbackTab');
+    var tabH   = tab.outerHeight() || 80;
+    var tabW   = tab.outerWidth()  || 40;
+
+    tab.css({
+      left:      (offsetLeft + viewportWidth - tabW) + 'px',
+      top:       (offsetTop + (viewportHeight / 2) - (tabH / 2)) + 'px',
+      right:     'auto',
+      transform: 'none'
+    });
+
+    var comp  = $('#feedbackComponent');
+    var compW = comp.outerWidth() || 300;
+    var compH = comp.outerHeight() || 150;
+
+    comp.css({
+      left:      (offsetLeft + viewportWidth - tabW - compW - 5) + 'px',
+      top:       (offsetTop + (viewportHeight / 2) - (compH / 2)) + 'px',
+      right:     'auto',
+      transform: 'none'
+    });
+  }
+
+  if (window.visualViewport) {
+    window.visualViewport.addEventListener('scroll', updateFeedbackTabPosition);
+    window.visualViewport.addEventListener('resize', updateFeedbackTabPosition);
+  } else {
+    $(window).on('scroll resize', updateFeedbackTabPosition);
+  }
+
+  $(document).on('touchend touchmove', updateFeedbackTabPosition);
+
+  updateFeedbackTabPosition();
+  $(window).on('load', updateFeedbackTabPosition);
+  setTimeout(updateFeedbackTabPosition, 100);
+  setTimeout(updateFeedbackTabPosition, 500);
+
+    function sendFeedback(feedback, type) {
+      $.ajax({
+        url : HARPPortal.getPortalRpcUrl('feedback'),
+        type : type,
+        data : JSON.stringify(feedback),
+        contentType : 'application/json',
+      });
+    }
+
+    function confirmFeedback(fromNegative) {
+      $('#feedbackComponent').children().fadeOut(500);
+      var confirmHtml = '<button class="feedbackClose">&times;</button><div class="feedbackContent">' + $('#feedbackConfirm').html() + '</div>';
+      $('#feedbackComponent').html($(confirmHtml).fadeIn(500));
+    }
+
+    function closeFeedback() {
+      $('#feedbackComponent').fadeOut(300);
+    }
+
+    function closeFeedbackAndHideTab() {
+      $('#feedbackComponent').fadeOut(300);
+      $('#feedbackTab').fadeOut(300);
+    }
+
+    function resetFeedbackComponent() {
+      $('#feedbackInput').val('');
+      $('#feedbackComponent').html(
+        '<button class="feedbackClose">&times;</button><div class="feedbackContent">' +
+        $('#feedbackHelpful').html() +
+        '</div>'
+      );
+    }
+
+    // Toggle feedback component visibility
+    $('#feedbackTab').click(function() {
+      if ($('#feedbackComponent').is(':visible')) {
+        $('#feedbackComponent').fadeOut(300);
+      } else {
+        resetFeedbackComponent();
+        $('#feedbackComponent').fadeIn(300);
+      }
+    });
+
+    // Close button handler using event delegation
+    $(document).on('click', '.feedbackClose', function(event) {
+      closeFeedback();
+      resetFeedbackComponent();
+    });
+    // Use event delegation for dynamically added buttons
+    $(document).on('click', '.feedbackButton', function(event) {
+      var feedback = {}, contentElement = $("#viewerContent");
+
+      feedback.id = $('body').attr('data-pageId');
+      feedback.topicUseful = this.value;
+      feedback.portalKey = contentElement.attr("data-portalKey");
+      feedback.topicKey = contentElement.attr("data-itemKey");
+      feedback.projectKey = contentElement.attr("data-projectKey");
+      feedback.parentKey = contentElement.attr("data-parentKey");
+      feedback.refId = refId;
+
+      sendFeedback(feedback, 'POST');
+
+      $('#feedbackComponent').children().fadeOut(500);
+      var commentHtml = '<button class="feedbackClose">&times;</button><div class="feedbackContent">' + $('#feedbackComment').html() + '</div>';
+      $('#feedbackComponent').html($(commentHtml).fadeIn(500));
+
+      $(document).off('click', '#commentButton').on('click', '#commentButton', function() {
+        $('#feedbackComponent').off('keypress');
+        var comment = $("#feedbackInput").val().trim();
+        if (comment !== "") {
+          feedback.comment = comment;
+          sendFeedback(feedback, 'PUT');
+        }
+        confirmFeedback(true);
+      });
+
+      $('#feedbackInput').focus();
+
+      $('#feedbackComponent').off('keypress').on('keypress', function(e) {
+        if (e.which === 13) {
+          $('#commentButton').trigger('click');
+        }
+      });
+    });
+  });
+</script>
+
+<div id="feedbackTab">
+  <span>Feedback</span>
+</div>
+
+<div id="feedbackComponent">
+  <button class="feedbackClose">&times;</button>
+  <div class="feedbackContent">
+  </div>
+</div>
+
+<div id="feedbackHelpful" style="display: none">
+  <p>Was this helpful?</p>
+  <div id="buttonDiv">
+    <button class="btn btn-primary btn-xs feedbackButton" value="true">Yes</button>
+    <button class="btn btn-primary btn-xs feedbackButton" value="false">No</button>
+  </div>
+</div>
+
+<div id="feedbackConfirm" style="display: none">
+  <p>Thank you for the feedback!</p>
+  <p><a href="https://www.se.com/ww/en/work/support" target="_blank">Click Here for Added Support</a></p>
+</div>
+
+<div id="feedbackComment" style="display: none">
+  <label for="feedbackInput">Tell us why!</label><br>
+  <textarea rows="4" id="feedbackInput"></textarea><br>
+  <button class="btn btn-primary btn-xs" id="commentButton">Send</button>
+</div>
+
+<div class="row docFooterRow">
+  <div class="col-sm-4">
+  <p class="hidden-xs" id="qrcodeLink">
+    <span class="glyphicon glyphicon-qrcode"
+          title="Show QR code for this page"></span>
+    Show QR code for this page
+  </p>
+  <img data-src="/qrgen?url=https%3A%2F%2Fproductinfo.se.com%2Fpactcybersecurity%2Fdoca0122-cybersecurity-guide%2FEnglish%2FBM_novA_Cybersecurity%2520Guide_53457272_T001003726.xml%2F%24%2FCyber_Rec_IFE_Disposal_0000940268&size=180"
+       id="qrcode"
+       style="width: 180px; height: 180px;"
+       alt="QR Code is a registered trademark of DENSO WAVE INCORPORATED in Japan and other countries."
+       title="QR Code is a registered trademark of DENSO WAVE INCORPORATED in Japan and other countries.">
+<script>
+  $(function() {
+    var $qr = $('#qrcode')
+    , $link = $('#qrcodeLink')
+    , on = $qr.is('visible')
+    , shown = false;
+    ;
+
+    function show() {
+      var pos = $link.position();
+      $qr.css({
+        position: 'absolute',
+        left: pos.left + 'px',
+        top: pos.top + 'px'
+      });
+      // Defer the image rendering until requested.
+      $qr.attr('src', $qr.attr('data-src'));
+      $qr.fadeIn();
+      on = true;
+      shown = true;
+    }
+
+    function toggle() {
+      if (on) {
+        $qr.fadeOut();
+        on = false;
+      } else {
+        show();
+      }
+    }
+
+    $link.click(toggle);
+    $qr.click(toggle);
+  });
+</script>
+  </div>
+</div>
+ 		  
+		  
+
+<div class="row" style="margin-top: 10px;">
+  <div class="col-xs-6">
+    <a href="#" id="contactInfoButton"
+        title="Contact Information"
+        onclick="return false;"
+        data-dialog="#contactInfoDialog"
+        data-toggle="modal"
+        data-target="#contactInfoDialog">Contact Information</a>
+  </div>
+  <div class="col-xs-6 text-right">
+      <a href="#" id="legalInfoButton"
+         title="Legal Information"
+         onclick="return false;"
+         data-toggle="modal"
+         data-target="#legalInfoDialog">Legal Information</a>
+  </div>
+</div>
+
+<!-- Privacy Policy link -->
+<div class="row">
+  <div class="col-xs-12 text-right">
+    <a href="https://www.se.com/ww/en/about-us/legal/data-privacy.jsp" title="Privacy Policy" id="privacyPolicyButton" target="_blank" rel="noreferrer noopener">Privacy Policy</a>
+  </div>
+</div>
+
+<!-- OneTrust Cookies Settings link -->
+<div class="row">
+  <div class="col-xs-12 text-right">
+    <a title="Change your cookie setting" class="ot-sdk-show-settings" id="cookieSettingsButton">Change your cookie settings</a>
+  </div>
+</div>
+
+
+
+<div class="modal fade" tabindex="-1" role="dialog" id="contactInfoDialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">Contact Information</h4>
+        </div>
+      <div class="modal-body">
+          <div class="address"><div class="org">Schneider Electric</div><div class="addressdetails"><div class="thoroughfare">35 rue Joseph Monier</div><div class="locality"><span class="localityname">Rueil Malmaison</span> <span class="postalcode">92500</span></div><div class="country">France</div></div><div class="contactnumbers"><div class="contactnumber">+ 33 (0) 1 41 29
+70 00</div></div><div class="urls"><div class="url"><a href="https://www.se.com" target="_blank">www.se.com</a></div></div></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" tabindex="-1" role="dialog" id="legalInfoDialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">Legal Information</h4>
+        </div>
+      <div class="modal-body">
+<p>
+The information provided in this document contains general descriptions, technical characteristics and/or recommendations related to products/solutions.
+</p><p>
+This document is not intended as a substitute for a detailed study or operational and site-specific development or schematic plan. It is not to be used for determining suitability or reliability of the products/solutions for specific user applications. It is the duty of any such user to perform or have any professional expert of its choice (integrator, specifier or the like) perform the appropriate and comprehensive risk analysis, evaluation and testing of the products/solutions with respect to the relevant specific application or use thereof.
+</p><p>
+The Schneider Electric brand and any trademarks of Schneider Electric and its subsidiaries referred to in this document are the property of Schneider Electric or its subsidiaries. All other brands may be trademarks of their respective owner.
+</p>
+<p>
+This document and its content are protected under applicable copyright laws and provided for informative use only. No part of this document may be reproduced or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise), for any purpose, without the prior written permission of Schneider Electric.
+</p>
+<p>
+Schneider Electric does not grant any right or license for commercial use of the document or its content, except for a non-exclusive and personal license to consult it on an &quot;as is&quot; basis.
+</p>
+<p>
+Electrical equipment should be installed, operated, serviced, and maintained only by qualified personnel. No responsibility is assumed by Schneider Electric for any consequences arising out of the use of this material.
+</p>
+<p>
+Schneider Electric reserves the right to make changes or updates with respect to or in the content of this document or the format thereof, at any time without notice.
+</p>
+<p><b>
+To the extent permitted by applicable law, no responsibility or liability is assumed by Schneider Electric and its subsidiaries for any errors or omissions in the informational content of this document, as well as any non-intended use or misuse of the content thereof.
+</b></p>
+<p>
+   <span class="ph" data-xtrc="ph:4"></span>
+   
+   
+   
+   <p class="data bookrights">© 2023<span class="data bookowner">
+         <span class="data organization">Schneider Electric</span>
+         </span></p>
+</p>      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+    <div>
+
+
+
+<script>
+(function() {
+  var serverTime = new Date(1792101722571);
+  window.tdinfo = {
+    userToken: null,
+    serverTime: serverTime,
+    timeSkewMS: Date.now() - serverTime.getTime()
+  };
+}());
+</script>
+<noscript><img src="https://productinfo.se.com/akam/13/pixel_577932d3?a=dD04NDMwNzA1YzRhYTRmYjczYmNmZTQ5MTg4ZTFmZDI5MjViNTFlMDkyJmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript></body>
+</html>

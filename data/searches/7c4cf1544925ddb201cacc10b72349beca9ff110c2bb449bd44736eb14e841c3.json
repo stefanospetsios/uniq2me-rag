@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "7c4cf1544925ddb201cacc10b72349beca9ff110c2bb449bd44736eb14e841c3",
+  "cachedAt": "2026-10-15T21:40:37Z",
+  "observedAt": "2026-10-15T21:40:37Z",
+  "originRunId": "qwen3-38804802602",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-7-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "7",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Software Development Lifecycle official implementation configuration documentation",
+    "time_range": ""
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792100373876,
+    "end": 1792100374742
+  },
+  "outputDigest": "sha256:eb34382de893ee27fdf4cb7b2fae98118e38aac153d75217b6d44b854dab9a75",
+  "resultUrls": [
+    "https://dga.gov.sa/sites/default/files/2024-06/Guideline%20for%20Software%20Development%20Life%20Cycle%20%28SDLC%29%20Methodology-V1.0_0.pdf",
+    "https://dsu.edu/policy/software-development-lifecycle.html",
+    "https://leanware.co/insights/sdlc-documentation-guide",
+    "https://orca.security/resources/blog/sdlc-phases-best-practices/",
+    "https://plane.so/blog/software-development-life-cycle-sdlc-stages-and-models",
+    "https://www.atlassian.com/agile/software-development/sdlc",
+    "https://www.geeksforgeeks.org/software-engineering/software-development-life-cycle-sdlc/",
+    "https://www.ibm.com/think/topics/sdlc",
+    "https://www.microsoft.com/en/power-platform/topics/phases-of-the-software-development-lifecycle",
+    "https://www.sdlcforms.com/PDFClientsDownload/_SDLCforms_Creating_Your_Own_SDLC_V3.10.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Software Development Lifecycle official implementation configuration documentation\",\n  \"results\": [\n    {\n      \"title\": \"Software Development Life Cycle Documentation Guide | 2025\",\n      \"url\": \"https://leanware.co/insights/sdlc-documentation-guide\",\n      \"content\": \"8 Αυγ 2025 ... It includes requirements, design decisions, implementation details, test plans, deployment instructions, and maintenance records. These ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"What is Software Development Life Cycle (SDLC)? Complete Guide\",\n      \"url\": \"https://www.atlassian.com/agile/software-development/sdlc\",\n      \"content\": \"Common SDLC phases include planning, feasibility, design, implementation, testing, deployment, and maintenance. Different models like waterfall, Agile, ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"SDLC: Core Phases and Best Practices Explained - Orca Security\",\n      \"url\": \"https://orca.security/resources/blog/sdlc-phases-best-practices/\",\n      \"content\": \"31 Ιουλ 2026 ... SDLC stands for software development life cycle, the set of activities that take software from a plan to a running system somebody maintains ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"What is the Software Development Lifecycle (SDLC)? - IBM\",\n      \"url\": \"https://www.ibm.com/think/topics/sdlc\",\n      \"content\": \"Each phase of the SDLC has its own objectives and deliverables that guide the next phase. Taken together, the phases of the SDLC form a roadmap that helps ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Software development life cycle (SDLC): Stages and models - Plane\",\n      \"url\": \"https://plane.so/blog/software-development-life-cycle-sdlc-stages-and-models\",\n      \"content\": \"1 Ιουλ 2026 ... The software development life cycle (SDLC) gives teams the structure to manage each step with clarity and consistency. I",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "7"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "dga.gov.sa",
+      "dsu.edu",
+      "leanware.co",
+      "orca.security",
+      "plane.so",
+      "www.atlassian.com",
+      "www.geeksforgeeks.org",
+      "www.ibm.com",
+      "www.microsoft.com",
+      "www.sdlcforms.com"
+    ]
+  }
+}

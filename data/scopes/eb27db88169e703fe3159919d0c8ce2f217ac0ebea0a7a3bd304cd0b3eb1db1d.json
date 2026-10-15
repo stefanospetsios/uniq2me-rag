@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-scope",
+  "cachedAt": "2026-10-15T20:55:08Z",
+  "scopeId": "0",
+  "fingerprint": "eb27db88169e703fe3159919d0c8ce2f217ac0ebea0a7a3bd304cd0b3eb1db1d",
+  "originRunId": "qwen3-38804802602",
+  "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "scope-admitted",
+    "publisher": null,
+    "host": null
+  },
+  "corpus": {
+    "sources": {
+      "0-source-1": {
+        "type": "technical-doc",
+        "title": "OS deployment documentation - Configuration Manager",
+        "publisher": "Microsoft",
+        "url": "https://learn.microsoft.com/en-us/intune/configmgr/osd/",
+        "language": "en",
+        "jurisdiction": "US",
+        "applicability": "Windows operating system deployment, provisioning methods, and automation tasks for enterprise workstations",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "0-source-1",
+        "byteDigest": "sha256:cace0df81b539a67a68f00c7480e73224bb2e27968a6192b2b32a05448b20b2a",
+        "textDigest": "sha256:d09f6b27a0c5220fe048580e13625f0bbfde3987b5de624704afaf88fa160ef6",
+        "finalUrl": "https://learn.microsoft.com/en-us/intune/configmgr/osd/",
+        "retrievedAt": "2026-10-15T20:53:15Z",
+        "contentType": "text/html",
+        "snapshotPath": "source-cace0df81b539a67a68f00c7480e73224bb2e27968a6192b2b32a05448b20b2a.bin",
+        "textPath": "source-d09f6b27a0c5220fe048580e13625f0bbfde3987b5de624704afaf88fa160ef6.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "OS deployment documentation section",
+            "text": "Use Configuration Manager to deploy Windows via different methods and automate tasks."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "0-source-2": {
+        "type": "technical-doc",
+        "title": "DR 3170-001, End User Workstation Configurations",
+        "publisher": "USDA",
+        "url": "https://www.usda.gov/sites/default/files/documents/dr-3170-001-end-user-workstation-configurations.pdf",
+        "language": "en",
+        "jurisdiction": "US",
+        "applicability": "Workstation standards covering IT infrastructure components, interoperability, portability, and scalability requirements for endpoint inventory and configurations",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "0-source-2",
+        "byteDigest": "sha256:dc8b6300ef0e6306adc384630159fd4fc07d4af5bafcb25ec6ade151d48f72f6",
+        "textDigest": "sha256:2a39098fba1be097052299269ebdd26bf43e704ee68b7d2be9e30e393d591632",
+        "finalUrl": "https://www.usda.gov/sites/default/files/documents/dr-3170-001-end-user-workstation-configurations.pdf",
+        "retrievedAt": "2026-10-15T20:53:15Z",
+        "contentType": "application/pdf",
+        "snapshotPath": "source-dc8b6300ef0e6306adc384630159fd4fc07d4af5bafcb25ec6ade151d48f72f6.bin",
+        "textPath": "source-2a39098fba1be097052299269ebdd26bf43e704ee68b7d2be9e30e393d591632.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Section 5 Policy",
+            "text": "All USDA Mission Areas, agencies, and staff offices will comply with the latest version of NIST, Special Publication (SP) 800-53 r5, Security and Privacy Controls for Information Systems and Organizations"
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "0-source-3": {
+        "type": "guidance",
+        "title": "Hardening Information — Implementing a Zero Trust Architecture",
+        "publisher": "NIST",
+        "url": "https://pages.nist.gov/zero-trust-architecture/VolumeC/Hardening.html",
+        "language": "en",
+        "jurisdiction": "US",
+        "applicability": "Security configuration standards including DISA STIGs for infrastructure hardening, relevant to device encryption and endpoint security configurations",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "0-source-3",
+        "byteDigest": "sha256:f6c6b933ec672979afac8909bad34feb57d6e8fe44fbb88ebc84ad453d432ca8",
+        "textDigest": "sha256:7d8077d44eda389927bd1c856b44ca085d9350ee0ab20e44a447cac99243ddbd",
+        "finalUrl": "https://pages.nist.gov/zero-trust-architecture/VolumeC/Hardening.html",
+        "retrievedAt": "2026-10-15T20:53:16Z",
+        "contentType": "text/html",
+        "snapshotPath": "source-f6c6b933ec672979afac8909bad34feb57d6e8fe44fbb88ebc84ad453d432ca8.bin",
+        "textPath": "source-7d8077d44eda389927bd1c856b44ca085d9350ee0ab20e44a447cac99243ddbd.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Infrastructure Hardening section",
+            "text": "Security Technical Implementation Guides (STIGs) are security configuration standards from the Defense Information Systems Agency (DISA). They contain technical guidelines on how to harden information systems."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "0-source-4": {
+        "type": "technical-doc",
+        "title": "3.4.1: Establish and maintain baseline configurations and inventories",
+        "publisher": "NIST",
+        "url": "https://csf.tools/reference/nist-sp-800-171/r2/3-4/3-4-1/",
+        "language": "en",
+        "jurisdiction": "US",
+        "applicability": "Baseline configurations including system components, version management, and update/patch information for workstations and endpoint inventory management",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "0-source-4",
+        "byteDigest": "sha256:2b34eb1f53978dc158e121861c9fabd6a0c4bd8ac8370d148f8581dc3f39f549",
+        "textDigest": "sha256:27c36e343231be5da1c551a9843092792254cf44860cc0919a91ac6434e8b83a",
+        "finalUrl": "https://csf.tools/reference/nist-sp-800-171/r2/3-4/3-4-1/",
+        "retrievedAt": "2026-10-15T20:53:17Z",
+        "contentType": "text/html; charset=UTF-8",
+        "snapshotPath": "source-2b34eb1f53978dc158e121861c9fabd6a0c4bd8ac8370d148f8581dc3f39f549.bin",
+        "textPath": "source-27c36e343231be5da1c551a9843092792254cf44860cc0919a91ac6434e8b83a.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Discussion section",
+            "text": "Baseline configurations include information about system components (e.g., standard software packages installed on workstations, notebook computers, servers, network components, or mobile devices; current version numbers and update and patch information"
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      }
+    },
+    "concerns": [
+      {
+        "id": "0-concern-1",
+        "sfsId": "0",
+        "description": "Maintaining documented baseline configurations for all workstation systems throughout their development life cycles, including hardware, software, firmware, and documentation",
+        "sourceRefs": [
+          {
+            "sourceId": "0-source-4",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "0-concern-2",
+        "sfsId": "0",
+        "description": "Compliance with security standards including NIST SP 800-53 r5 for workstation configurations, covering security and privacy controls for information systems",
+        "sourceRefs": [
+          {
+            "sourceId": "0-source-2",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "0-concern-3",
+        "sfsId": "0",
+        "description": "Implementation of OS hardening through Security Technical Implementation Guides (STIGs) and compliance checking tools for workstation security configuration",
+        "sourceRefs": [
+          {
+            "sourceId": "0-source-3",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "0-concern-4",
+        "sfsId": "0",
+        "description": "Establishment of standardized deployment methods for operating systems through automated tools that support workstation provisioning and configuration management",
+        "sourceRefs": [
+          {
+            "sourceId": "0-source-1",
+            "passageId": "p1"
+          }
+        ]
+      }
+    ],
+    "queries": [
+      {
+        "scope": "0",
+        "toolId": "searxng_web_search",
+        "input": {
+          "query": "Operating System and Workstation Environment official implementation configuration documentation",
+          "max_results": 8,
+          "safesearch": 1,
+          "time_range": ""
+        },
+        "outputDigest": "sha256:425bff56f6035a7a59db5e656c7b39c5bfca01afae331f841955c4fb7fd47208",
+        "callId": "sources-0-1-discovery"
+      },
+      {
+        "scope": "0",
+        "toolId": "websearch_web_search",
+        "input": {
+          "query": "operating systems workstations endpoint inventory provisioning patching diskless clients remote desktops shared storage device encryption endpoint logging official maintainer implementation configuration documentation",
+          "max_results": 8
+        },
+        "outputDigest": "sha256:4eb384b894029e463c8b64202f92f04b867ac93b50a062655b97a590d47617c9",
+        "callId": "sources-0-1-discovery"
+      }
+    ],
+    "limitations": [
+      {
+        "scope": "0",
+        "description": "Brave search engine suspended due to too many requests during searxng discovery"
+      },
+      {
+        "scope": "0",
+        "description": "Publication and effective dates not explicitly stated in observed document metadata"
+      },
+      {
+        "scope": "0",
+        "description": "USDA document URL shows PDF format but actual publication date requires PDF text extraction verification"
+      },
+      {
+        "scope": "0",
+        "description": "NIST references require confirmation of current applicability to Greek context through legal scope research"
+      }
+    ],
+    "admissionVersion": 2,
+    "observedResultUrls": [
+      "https://csf.tools/reference/nist-sp-800-171/r2/3-4/3-4-1/",
+      "https://learn.microsoft.com/en-us/intune/configmgr/osd/",
+      "https://pages.nist.gov/zero-trust-architecture/VolumeC/Hardening.html",
+      "https://www.usda.gov/sites/default/files/documents/dr-3170-001-end-user-workstation-configurations.pdf"
+    ]
+  },
+  "files": {
+    "snapshots/source-cace0df81b539a67a68f00c7480e73224bb2e27968a6192b2b32a05448b20b2a.bin": "sha256:cace0df81b539a67a68f00c7480e73224bb2e27968a6192b2b32a05448b20b2a",
+    "snapshots/source-d09f6b27a0c5220fe048580e13625f0bbfde3987b5de624704afaf88fa160ef6.txt": "sha256:d09f6b27a0c5220fe048580e13625f0bbfde3987b5de624704afaf88fa160ef6",
+    "snapshots/source-dc8b6300ef0e6306adc384630159fd4fc07d4af5bafcb25ec6ade151d48f72f6.bin": "sha256:dc8b6300ef0e6306adc384630159fd4fc07d4af5bafcb25ec6ade151d48f72f6",
+    "snapshots/source-2a39098fba1be097052299269ebdd26bf43e704ee68b7d2be9e30e393d591632.txt": "sha256:2a39098fba1be097052299269ebdd26bf43e704ee68b7d2be9e30e393d591632",
+    "snapshots/source-f6c6b933ec672979afac8909bad34feb57d6e8fe44fbb88ebc84ad453d432ca8.bin": "sha256:f6c6b933ec672979afac8909bad34feb57d6e8fe44fbb88ebc84ad453d432ca8",
+    "snapshots/source-7d8077d44eda389927bd1c856b44ca085d9350ee0ab20e44a447cac99243ddbd.txt": "sha256:7d8077d44eda389927bd1c856b44ca085d9350ee0ab20e44a447cac99243ddbd",
+    "snapshots/source-2b34eb1f53978dc158e121861c9fabd6a0c4bd8ac8370d148f8581dc3f39f549.bin": "sha256:2b34eb1f53978dc158e121861c9fabd6a0c4bd8ac8370d148f8581dc3f39f549",
+    "snapshots/source-27c36e343231be5da1c551a9843092792254cf44860cc0919a91ac6434e8b83a.txt": "sha256:27c36e343231be5da1c551a9843092792254cf44860cc0919a91ac6434e8b83a"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "e974fb30db2cf60c9557cc5e89e7f92d3e544b53ca9f5cb6db3c140d542aa28d",
+  "cachedAt": "2026-10-15T21:40:37Z",
+  "observedAt": "2026-10-15T21:40:37Z",
+  "originRunId": "qwen3-38804802602",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-7-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "7",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "source control CI/CD build provenance release approval deployment rollback decommissioning official maintainer implementation documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792100374683,
+    "end": 1792100375780
+  },
+  "outputDigest": "sha256:d9ac84e7dc4775acf93fda1fb86ddaac19764b99df9e16505d8aec9f713d4bd3",
+  "resultUrls": [
+    "https://github.com/microsoft/code-with-engineering-playbook/blob/main/docs/CI-CD/continuous-delivery.md",
+    "https://github.com/myorg/*",
+    "https://google.github.io/building-secure-and-reliable-systems/raw/ch14.html",
+    "https://microsoft.github.io/zerotrustassessment/docs/workshop-guidance/devsecops/DS_117",
+    "https://owasp.github.io/DevSecOpsGuideline/2-Process/2-6-Deploy/2-6-1-Deploy/",
+    "https://token.actions.githubusercontent.com"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Define secure release governance and rollback procedures | Microsoft Zero Trust\",\n      \"url\": \"https://microsoft.github.io/zerotrustassessment/docs/workshop-guidance/devsecops/DS_117\",\n      \"content\": \"Define secure release governance and rollback procedures | Microsoft Zero Trust\\n\\n# Define secure release governance and rollback procedures\\n\\nImplementation Effort: Medium – Configuring deployment approvals, security gates, release manifests, and tested rollback procedures is a multi-step effort coordinated across release and platform teams. User Impact: Low – Release governance and rollback controls apply to deployment pipelines and approvers; end users are not affected. Lifecycle Stage: Deploy\\n\\n## Overview​\\n\\nDefine a formal release governance and rollback process for production deployments, with approvals, security gates, artifact traceability, and tested rollback steps.\\n\\nWithout formal release governance, deployments happen through informal processes and the organization discovers problems only after they reach users. In a Zero Trust context, every production deployment is a trust decision that should be explicitly verified rather than implicitly assumed safe because it passed a CI pipeline.\\n\\nUse platform-native controls to enforce that model. In GitHub, configure environment protection rules for production environments that require designated reviewers, restrict which branches can deploy, and enforce wait timers or required checks before deployment.\\n\\nIn Azure DevOps, distinguish between platform models: if you still use Classic Release pipelines, configure approvals and gates; for YAML pipelines, use Environments with Approvals and checks such as manual approvals, branch control, business hours, and REST or Azure Function checks. Maintain a release manifest that records the exact artifact version, Git commit SHA, approver identity, artifact attestation or provenance record where available, and timestamps of all",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "7"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "github.com",
+      "google.github.io",
+      "microsoft.github.io",
+      "owasp.github.io",
+      "token.actions.githubusercontent.com"
+    ]
+  }
+}

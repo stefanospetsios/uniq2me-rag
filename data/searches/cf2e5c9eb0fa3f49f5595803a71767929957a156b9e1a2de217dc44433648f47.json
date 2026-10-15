@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "cf2e5c9eb0fa3f49f5595803a71767929957a156b9e1a2de217dc44433648f47",
+  "cachedAt": "2026-10-15T20:57:05Z",
+  "observedAt": "2026-10-15T20:57:05Z",
+  "originRunId": "qwen3-38804802602",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-1-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "1",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Administrator and Master Keys official implementation configuration documentation",
+    "time_range": ""
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792097760368,
+    "end": 1792097761782
+  },
+  "outputDigest": "sha256:1bda0f01a0c516b4758c519462bbfb80d92e7258bbdbf0657dbe71e1aa0af1a7",
+  "resultUrls": [
+    "https://aws.amazon.com/kms/",
+    "https://community.cyberark.com/s/article/PAM-SH-About-the-Administrator-and-Master-Accounts",
+    "https://docs.aws.amazon.com/iam/",
+    "https://docs.aws.amazon.com/kms/",
+    "https://docs.min.io/aistor/reference/cli/admin/mc-admin-kms-key/",
+    "https://docs.paloaltonetworks.com/ngfw/administration/certificate-management/master-key-encryption/configure-master-key",
+    "https://www.gsa.gov/system/files/Key-Management-%5BCIO-IT%20Security-09-43-Revision%205%5D-04--6-2023.pdf",
+    "https://www.ibm.com/docs/en/linux-on-systems?topic=utilities-master-key-administration"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Administrator and Master Keys official implementation configuration documentation\",\n  \"results\": [\n    {\n      \"title\": \"Configure a Master Key - Palo Alto Networks TechDocs\",\n      \"url\": \"https://docs.paloaltonetworks.com/ngfw/administration/certificate-management/master-key-encryption/configure-master-key\",\n      \"content\": \"πριν από 3 ημέρες ... The key must contain exactly 16 characters. Record and store your master key in a secure, access-controlled location. You will need this key to ...\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"AWS Key Management Service Documentation\",\n      \"url\": \"https://docs.aws.amazon.com/kms/\",\n      \"content\": \"AWS Key Management Service Documentation AWS Key Management Service (AWS KMS) is an encryption and key management service scaled for the cloud. AWS KMS keys and functionality are used by other AWS services, and you can use them to protect data in your own applications that use AWS.\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"AWS Identity and Access Management Documentation\",\n      \"url\": \"https://docs.aws.amazon.com/iam/\",\n      \"content\": \"AWS Identity and Access Management Documentation AWS Identity and Access Management (IAM) is a web service for securely controlling access to AWS services. With IAM, you can centrally manage users, security credentials such as access keys, and permissions that control which AWS resources users and applications can access.\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"CCA Master Key administration: choosing the right method or tool\",\n      \"url\": \"https://www.ibm.com/docs/en/linux-on-systems?topic=utilities-master-key-administration\",\n      \"content\": \"A TKE can be used to change the master keys for all the CEX*C adapters in a group, across multiple domains and IBM Z®. · TKE administration is a fully tested and ...\",\n      \"engines\": [\n        \"google c",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "aws.amazon.com",
+      "community.cyberark.com",
+      "docs.aws.amazon.com",
+      "docs.min.io",
+      "docs.paloaltonetworks.com",
+      "www.gsa.gov",
+      "www.ibm.com"
+    ]
+  }
+}

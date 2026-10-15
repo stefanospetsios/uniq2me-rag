@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T20:53:15Z",
+  "originRunId": "qwen3-38804802602",
+  "source": {
+    "id": "0-source-2",
+    "type": "technical-doc",
+    "title": "DR 3170-001, End User Workstation Configurations",
+    "publisher": "USDA",
+    "url": "https://www.usda.gov/sites/default/files/documents/dr-3170-001-end-user-workstation-configurations.pdf",
+    "language": "en",
+    "jurisdiction": "US",
+    "applicability": "Workstation standards covering IT infrastructure components, interoperability, portability, and scalability requirements for endpoint inventory and configurations",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "Section 5 Policy",
+        "text": "All USDA Mission Areas, agencies, and staff offices will comply with the latest version of NIST, Special Publication (SP) 800-53 r5, Security and Privacy Controls for Information Systems and Organizations"
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:dc8b6300ef0e6306adc384630159fd4fc07d4af5bafcb25ec6ade151d48f72f6",
+    "textDigest": "sha256:2a39098fba1be097052299269ebdd26bf43e704ee68b7d2be9e30e393d591632",
+    "finalUrl": "https://www.usda.gov/sites/default/files/documents/dr-3170-001-end-user-workstation-configurations.pdf",
+    "retrievedAt": "2026-10-15T20:53:15Z",
+    "contentType": "application/pdf",
+    "snapshotPath": "source-dc8b6300ef0e6306adc384630159fd4fc07d4af5bafcb25ec6ade151d48f72f6.bin",
+    "textPath": "source-2a39098fba1be097052299269ebdd26bf43e704ee68b7d2be9e30e393d591632.txt"
+  },
+  "files": {
+    "snapshots/source-dc8b6300ef0e6306adc384630159fd4fc07d4af5bafcb25ec6ade151d48f72f6.bin": "sha256:dc8b6300ef0e6306adc384630159fd4fc07d4af5bafcb25ec6ade151d48f72f6",
+    "snapshots/source-2a39098fba1be097052299269ebdd26bf43e704ee68b7d2be9e30e393d591632.txt": "sha256:2a39098fba1be097052299269ebdd26bf43e704ee68b7d2be9e30e393d591632"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.usda.gov/sites/default/files/documents/dr-3170-001-end-user-workstation-configurations.pdf",
+  "language": "en",
+  "retrievedAt": "2026-10-15T20:53:15Z",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T20:55:08Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": "                            U.S. DEPARTMENT OF AGRICULTURE\n                                  WASHINGTON, D.C. 20250\n\n                                                                 NUMBER:\n DEPARTMENTAL REGULATION                                         DR 3170-001\n                                                                 DATE:\n SUBJECT: End User Workstation Configurations                    October 13, 2022\n OPI: Office of the Chief Information Officer, Client            EXPIRATION DATE:\n Experience Center                                               October 13, 2027\n\n\n\nSection                                                                                    Page\n\n1.   Purpose                                                                                   1\n2.   Scope         ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "USDA",
+    "host": "www.usda.gov"
+  }
+}

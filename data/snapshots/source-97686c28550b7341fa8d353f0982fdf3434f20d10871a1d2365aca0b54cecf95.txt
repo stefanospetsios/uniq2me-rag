@@ -1,0 +1,1666 @@
+Software Security Code of Practice - Implementation Guidance | Theme 1: Secure design and development | National Cyber Security Centre
+ 
+ 
+ 
+ 
+ 
+icons/chevron/16px/black
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+Skip to main content
+ 
+ 
+ 
+ 
+ 
+
+
+ Please enable JavaScript in your web browser to get the best experience.
+
+
+
+
+ 
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Home
+ 
+
+
+ 
+Utility navigation
+
+
+ 
+ 
+ 
+About NCSC
+ 
+
+
+ 
+ 
+Report an incident
+ 
+
+
+ 
+ 
+Contact us
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+
+
+ 
+ Open Search 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ Menu 
+ 
+
+
+ 
+Main navigation
+
+
+ 
+ 
+ Advice & guidance 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+Back
+Advice & guidance
+
+
+Our advice & guidance covers a broad range of topics
+
+
+
+
+ 
+ 
+ Find information for... 
+ 
+ 
+ 
+ You & your family 
+ 
+
+
+ 
+ 
+ Small to medium sized organisations 
+ 
+
+
+ 
+ 
+ Large organisations 
+ 
+
+
+ 
+ 
+ Self employed & sole traders 
+ 
+
+
+ 
+ 
+ Public sector 
+ 
+
+
+ 
+ 
+ Cyber security professionals 
+ 
+
+
+ 
+ 
+ All advice and guidance articles 
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+ Popular topics 
+ 
+ 
+ 
+ Artificial intelligence 
+ 
+
+
+ 
+ 
+ Cyber attack 
+ 
+
+
+ 
+ 
+ Frontier AI 
+ 
+
+
+ 
+ 
+ Passkeys 
+ 
+
+
+ 
+ 
+ Phishing 
+ 
+
+
+ 
+ 
+ All topics 
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+ Other resources 
+ 
+ 
+ 
+ Glossary of terms 
+ 
+
+
+ 
+ 
+ Infographics 
+ 
+
+
+ 
+ 
+ Verify an NCSC contact 
+ 
+
+
+ 
+ 
+ Heightened cyber threat information 
+ 
+
+
+ 
+ 
+ Cyber Governance for Boards 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ Respond to a cyber attack 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+Back
+Respond to a cyber attack
+
+
+Resources for individuals and organisations in the UK who have experienced an online scam or cyber attack.
+
+
+
+
+ 
+ 
+ Find advice for... 
+ 
+ 
+ 
+ Advice for medium to large organisations 
+ 
+
+
+ 
+ 
+ Advice for sole traders and small businesses 
+ 
+
+
+ 
+ 
+ Advice for individuals 
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+ Respond to... 
+ 
+ 
+ 
+ Hacked account 
+ 
+
+
+ 
+ 
+ Infected device 
+ 
+
+
+ 
+ 
+ Ransomware attack 
+ 
+
+
+ 
+ 
+ Suspicious messages 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ Find a product or service 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+Back
+Find a product or service
+
+
+Find a range of products & services from NCSC and certified 3rd party suppliers
+
+
+
+
+ 
+ 
+ In this section 
+ 
+ 
+ 
+ Products & services overview 
+ 
+
+
+ 
+ 
+ Browse cyber security services 
+ 
+
+
+ 
+ 
+ NCSC assured services 
+ 
+
+
+ 
+ 
+ Assuring technology 
+ 
+
+
+ 
+ 
+ Search assured providers 
+ 
+
+
+ 
+ 
+ Cyber Essentials 
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+ Useful links 
+ 
+ 
+ 
+ Active Cyber Defence services 
+ 
+
+
+ 
+ 
+ MyNCSC 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ Education & skills 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+Back
+Education & skills
+
+
+Working with industry, government and academia to support the next generation of researchers, students and cyber security professionals
+
+
+
+
+ 
+ 
+ Find information for... 
+ 
+ 
+ 
+ Schools 
+ 
+
+
+ 
+ 
+ Higher education 
+ 
+
+
+ 
+ 
+ Professional skills training 
+ 
+
+
+ 
+ 
+ Working with the NCSC 
+ 
+
+
+ 
+ 
+ Research & academia 
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+ Education & academia resources 
+ 
+ 
+ 
+ Cyber Skills 
+ 
+
+
+ 
+ 
+ Training resources for school staff 
+ 
+
+
+ 
+ 
+ Resources for higher education institutions 
+ 
+
+
+ 
+ 
+ Cyber Security Body of Knowledge (CyBOK) 
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+ Industry & skill resources 
+ 
+ 
+ 
+ CYBERUK 2027 
+ 
+
+
+ 
+ 
+ NCSC for StartUps 
+ 
+
+
+ 
+ 
+ Industry 100 
+ 
+
+
+ 
+ 
+ Cyber League 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ News 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+Back
+News
+
+
+All the latest information to help you keep track of what's happening
+
+
+
+
+ 
+ 
+ In this section 
+ 
+ 
+ 
+ News 
+ 
+
+
+ 
+ 
+ Blogs 
+ 
+
+
+ 
+ 
+ Speeches 
+ 
+
+
+ 
+ 
+ Reports & advisories 
+ 
+
+
+ 
+ 
+ Malware analysis reports 
+ 
+
+
+ 
+ 
+ CYBERUK 2027 
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+ Stay up to date 
+ 
+ 
+ 
+ The NCSC's Cyber Series podcast 
+ 
+
+
+ 
+ 
+ Subscribe 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+About NCSC
+ 
+
+
+ 
+ 
+Report an incident
+ 
+
+
+ 
+ 
+Contact us
+ 
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ Close Search 
+ 
+
+
+Search
+
+
+
+
+Popular Searches
+
+
+ 
+Passkeys
+
+
+ 
+Training
+
+
+ 
+Cyber Essentials
+
+
+ 
+AI
+
+
+ 
+Phishing
+
+
+ 
+Cyber Assessment Framework
+
+
+
+
+
+
+ 
+ 
+ 
+
+
+ 
+Guidance
+
+
+Software Security Code of Practice - Implementation Guidance
+
+
+ Helps technology vendors to develop solutions that demonstrate conformance with the Software Security Code of Practice.
+
+
+
+
+
+
+
+
+
+
+Pages
+
+
+ 
+ 
+ Software Security Code of Practice - Implementation Guidance 
+
+
+ 
+ About the Software Security Code of Practice 
+
+
+
+
+ 
+ Theme 1: Secure design and development 
+
+
+
+
+ 
+ Theme 2: Build environment security 
+
+
+
+
+ 
+ Theme 3: Secure deployment and maintenance 
+
+
+
+
+ 
+ Theme 4: Communication with customers 
+
+
+
+
+ 
+ Appendix 1: Secure development frameworks 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+Page 3 of 7
+
+
+Theme 1: Secure design and development
+
+
+
+
+ 
+ DragonImages via Getty Images
+
+
+
+
+
+
+
+
+Good security engineering means building technologies that remain usable and resilient throughout their lifetime, even in the face of a cyber attack. Achieving this outcome needs to begin in the design and development phase so that security is ‘baked’ into the software. Ensuring that engineering processes and practices minimise both the likelihood and impact of a security compromise plays an essential part in gaining assurance in vendor competence, and the software they produce.
+
+
+Developers are not necessarily security experts and the security toolbox available to them can make it hard to navigate cyber security technical complexities, leading to implementation mistakes that could have been avoided. Support to developers can be through access to experts, training, positive security cultures and processes, as well as the availability of up-to-date tools and technology such as use of hardware, compiler and programming language features that make it harder to produce exploitable code. The tools made available to developers should consider usability, ease of maintenance, functionality and cost.  
+
+
+
+
+
+
+
+
+
+
+ 
+Principle 1.1 Follow an established secure development framework
+
+
+
+
+Using a secure development framework across your engineering projects will provide a consistent and repeatable way to support developers to ensure security and user need has been considered at all stages. A proactive approach to building security into software should incorporate people, processes and technology aspects. If a secure development framework is not followed throughout the life cycle, security might be ‘bolted on’ at the end of the development process, causing delays and more cost.
+
+
+You may wish to publish a description of which development framework you are using, and which claims have been implemented. You should be able to demonstrate conformance to a secure development framework across your development and deployment activities. A good secure development framework should include the following topics as a minimum:
+
+
+Threat modelling:
+ techniques used to understand how the software might be attacked or fail in some other way.
+
+
+Requirements capture:
+ understanding and recording security and user needs.
+
+
+Governance & roles:
+ the approach to managing and mitigating risks associated with the organisation’s ability to develop and maintain secure-by-design digital technologies.
+
+
+Secure coding practices:
+ best practices to prevent common vulnerabilities such as SQL injection and cross-site scripting.
+
+
+Test strategy:
+ consistent approaches to verification that have sufficient rigour and coverage, including all products, updates and patches.
+
+
+Data management:
+ understanding what data exists and how it should be appropriately protected throughout its life cycle.
+
+
+Configuration management:
+ consistent approaches to tracking changes, implementing version control, and enabling reproducibility.
+
+
+The most appropriate framework for your organisation is a business decision based on what will fit best with your 
+culture
+ and existing processes. A selection of frameworks that are available ‘off the shelf' are listed in Appendix A.
+
+
+Further reading
+ 
+
+
+Secure Software Lifecycle Knowledge Area (CYBOK) (PDF)
+
+
+Securing the Software Supply Chain: Recommended Practices Guide for Developers (CISA) 
+
+
+Cyber security governance guidance (NCSC) 
+
+
+What GDPR means for cyber security (NCSC) 
+
+
+Secure by Design Principles (Cabinet Office) 
+
+
+Service Manual (GOV.UK) 
+
+
+Developer Security Toolkit (Open University)
+
+
+OWASP Application Security Verification Standard (ASVS)
+
+
+
+
+
+
+
+
+ 
+ 
+Principle 1.2 Understand the composition of the software and assess risks linked to the ingestion and maintenance of third-party components throughout the development lifecycle
+
+
+
+
+in recent years there has been a 
+significant increase in the number of cyber attacks resulting from vulnerabilities within the supply chain
+. These attacks can result in devastating, expensive and long-term ramifications for affected organisations, their supply chains, and customers.
+
+
+Software vendors often rely upon suppliers and third-party libraries to deliver their software. These dependencies can be complex, so securing the supply chain can be hard because vulnerabilities can be inherent, introduced or exploited at any point within it.
+
+
+In software development, dependency chains relate to the set of packages (including internal, direct third-party and transitive dependencies) that software requires to function. An attacker can take advantage of these dependencies and execute malicious code from an attacker-controlled package, or exploit a flaw that has been introduced in error by the original developers.
+
+
+As a software vendor, your first step should be to identify all the components used across all your software. This inventory should be used to ensure that all components are regularly checked for known vulnerabilities, and used for any incident management events that may occur.
+
+
+You should ensure that:
+
+
+You identify who is responsible for selection and security of third-party supplied goods, and consider the security attributes (such as provenance of the software, frequency of updates, how many maintainers, and geographic location of contributors).
+
+
+You capture all the third-party software components, including compilers and build systems. Components may come from a supplier with whom you have a contractual relationship, or they may be Free Open-Source Software (FOSS). An inventory can take any format that suits the processes and culture of the organisation, such as a software bill of materials (SBOM).
+
+
+You share security requirements with your suppliers. Your inventory should be validated and regularly updated as needed.
+
+
+You have the ability to share your inventory with your customers in the best format, so that, in the event that it is appropriate to do so, they have a validated and up-to-date list of all the third-party components in your software for their own supply chain security needs.
+
+
+Each third-party component of the software is up to date when first integrated into the product, and then regularly checked for vulnerabilities for the lifespan of the product. Not all your components will be provided through a contractual arrangement by a supplier who provides you with confidence that they have supply chain security measures in place. Therefore regular testing of 
+all 
+your third-party components and dependencies needs to be in place. You should be able to demonstrate that adequate testing has been carried out on each component.
+
+
+You can prioritise and test if a new vulnerability or attack is discovered outside of your regular testing cadence, to minimise the risk of the vulnerability being exploited.
+
+
+You can manage and deploy updates to third-party components and libraries provided by suppliers, and carry out any remediation required if vulnerabilities that can be exploited are discovered. Responding to these instances, and 
+effectively communicating with customers
+ is as important as discovery. You should carry out any remediation required (for example developing and issuing updates and patches) in a timely way and report these to your customers.
+
+
+Further reading
+ 
+
+
+SBOMs and the importance of inventory (NCSC) 
+
+
+Securing the Software Supply Chain: Recommended Practices Guide for Developers (CISA)
+
+
+Supply chain security guidance (NCSC) 
+
+
+How to assess and gain confidence in your supply chain cyber security (NCSC)   
+
+
+Securing HTTP-based APIs (NCSC)
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+Principle 1.3 Have a clear process for testing software and software updates before distribution
+
+
+
+
+Testing during software development helps you gain confidence that your code is functioning as intended. It can help you to identify and mitigate known vulnerabilities on a regular basis. 
+
+
+You should ensure that:
+
+
+Your tests include all individual components of your software, as well as the final software package. Your process includes testing defined security and functional requirements. Baseline levels of code coverage should be achieved on all code that is checked in, before new code is committed. Missing components and stages of your development process could mean that you miss important places where vulnerabilities exist.
+
+
+The results of testing are documented, and all discovered anomalies and vulnerabilities should be analysed and addressed. Your test plan is regularly reviewed against all these aspects to ensure that it continues to provide you with the confidence you need in your software. When a security issue is found, consider writing a new test for it. If you are experiencing a high number of false positives, consider correcting or removing failing tests. Consider testing your test regime on code which you know contains security flaws, so you can check it is functioning correctly.
+
+
+You test regularly; the more frequently you can test your code, the more confidence you can have in its security. Regular security testing does not have to get in the way of continuous delivery; it should take place throughout the life cycle of your software, not just in the development phase. Automating security testing where possible will provide you with easily repeatable, scalable security measures. Skilled testers can then concentrate on finding subtle and uncommon weaknesses.
+
+
+Your testing regime employs a range of different approaches that verify different aspects of the development life cycle. As a minimum, your testing approach should include:
+
+
+ 
+Static & Dynamic Analysis:
+ automated testing carried out on all code prior to check-in and for each release using a standard set of company-approved tools.
+
+
+Peer/code review:
+ having two or more people review code to check its quality and security. This is a collaborative exercise that is general good practice as it promotes clean and maintainable code and encourages knowledge sharing.
+
+
+Unit testing:
+ testing which focuses on individual units or components of software. This should be used to check that each unit is operating as it is intended before it is integrated into the whole system.
+
+
+Integration testing:
+ testing which focuses on the whole system of the software once components have been brought together. It will look for unintended consequences and employ techniques such as ‘fuzzing’.
+
+
+Point-in-time assessments:
+ Manual testing (such as ‘penetration testing’ or ‘software security assessment’) which is relatively slow and resource intensive. However it does allow security specialists to use their ingenuity in ways that aren’t possible for other types of testing.
+
+
+
+
+Further reading
+ 
+
+
+Secure development guidance: continually test your security (NCSC) 
+
+
+Secure development guidance: produce clean & maintainable code (NCSC) 
+
+
+
+
+
+
+
+
+ 
+ 
+Principle 1.4 Follow ‘secure by design’ and ‘secure by default’ principles throughout the development lifecycle of the software
+
+
+
+
+‘Secure by design’ is an approach to software development that integrates security measures from the very beginning of the development lifecycle until deployment. This principle helps to create more resilient and secure software.
+
+
+You should ensure that:
+
+
+A structured process, such as threat modelling, should consider security threats from an adversarial perspective. By understanding what might go wrong, early in the development cycle, these aspects can be given focus and addressed.
+
+
+You mandate strong authentication such as multi-factor authentication (MFA) for privileged users. Your software should make phishing-resistant MFA opt-out (rather than opt-in) for privileged users. It should be easy for users of your software to set up MFA. Your choice of extra factor should be made based on the context and user experience of your software. We recommend choosing the strongest factor available as per the NCSC guidance.
+
+
+You change any default passwords in your toolset, following best practice. Administrators change or set up their own (strong) password during installation and configuration (or even better, other strong forms of authentication are established). You follow 
+NCSC Password Guidance
+ to enable users to set up a strong password for their accounts.
+
+
+You validate input data. All input data is verified, as early as possible, and any error handling output is clear and does not expose internal information that could be exploited. Use prepared statements with parameterised queries as standard practice. Character wildcards should not be permitted. Syntactic validation is in place that enforces correct syntax for structured fields, such as the set of characters that are permitted. Semantic validation is in place that enforces correctness of values in the context of the software, such as minimum and maximum inputs (like start dates and end dates) and ranges.
+
+
+You securely store credentials. You identify all credentials that would cause harm in the wrong hands (examples include passwords, certificates and API keys). You should avoid hard-coded credentials in your software. 
+
+
+You protect sensitive data (such as personal, financial and medical information). If there is a significant risk of unauthorised access, either at rest or in transit, you should ensure that sensitive data is encrypted using well established standardised cryptography.
+
+
+Further reading 
+ 
+
+
+Secure by design principles (NCSC) 
+
+
+Multi-factor authentication for your corporate online services (NCSC) 
+
+
+Passkeys: what you need to know
+
+
+Authentication methods: choosing the right type (NCSC)
+
+
+Password administration for system owners (NCSC)
+
+
+Securing HTTP-based APIs - Input validation (NCSC)
+
+
+Device Security Guidance: Protect data at rest and in transit (NCSC) 
+
+
+Using TLS to protect data (NCSC)
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+Previous page:
+
+
+About the Software Security Code of Practice
+ 
+ 
+ 
+Next page:
+
+
+Theme 2: Build environment security
+ 
+ 
+ 
+
+
+ 
+
+
+ 
+ 
+
+
+
+
+ 
+
+
+Published
+ 
+7 May 2025
+
+
+Reviewed
+ 
+7 May 2025
+
+
+Version
+ 1.0
+
+
+Written for
+Small & medium sized organisations
+
+
+Large organisations
+
+
+Public sector
+
+
+Cyber security professionals
+
+
+
+
+Share and print this article
+ 
+ 
+ 
+ 
+
+
+ 
+ Share 
+ 
+ 
+Share
+ 
+ 
+ 
+ 
+
+
+ 
+ Close share options 
+ 
+
+
+ 
+ 
+ 
+ 
+
+
+ 
+Share on
+Facebook
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+Share on
+LinkedIn
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+Share on
+X
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+Copy Link
+ 
+
+
+
+
+ Was this article helpful?
+
+
+ 
+ 
+Yes 
+the article was helpful
+ 
+
+
+ 
+ 
+No 
+the article was not helpful
+ 
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ Close Feedback Form 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+
+
+ 
+ Back to top 
+ 
+
+
+ 
+Share
+ 
+ 
+ 
+ 
+
+
+ 
+ Close share options 
+ 
+
+
+ 
+ 
+ 
+ 
+
+
+ 
+Share on
+Facebook
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+Share on
+LinkedIn
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+Share on
+X
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+Copy Link
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Home
+ 
+
+
+Follow us
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+X
+ 
+
+
+ 
+ 
+ 
+ 
+
+
+ 
+LinkedIn
+ 
+
+
+ 
+ 
+ 
+ 
+
+
+ 
+Instagram
+ 
+
+
+ 
+ 
+ 
+ 
+
+
+ 
+Threads
+ 
+
+
+ 
+ 
+ 
+ 
+
+
+ 
+RSS
+ 
+
+
+ 
+
+
+
+
+About this website
+
+
+ 
+ 
+ 
+Privacy notice
+ 
+
+
+ 
+ 
+Cookies
+ 
+
+
+ 
+ 
+Accessibility
+ 
+
+
+ 
+ 
+Terms & conditions
+ 
+
+
+ 
+ 
+Social media policy
+ 
+
+
+ 
+
+
+Contact the NCSC
+
+
+ 
+ 
+ 
+Report an incident
+ 
+
+
+ 
+ 
+Report suspicious messages or websites
+ 
+
+
+ 
+ 
+Verify an NCSC contact
+ 
+
+
+ 
+ 
+Report a vulnerability
+ 
+
+
+ 
+ 
+Contact the press office
+ 
+
+
+ 
+ 
+Can't find what you're looking for?
+ 
+
+
+ 
+
+
+Useful links
+
+
+ 
+ 
+ 
+GCHQ
+ 
+
+
+ 
+ 
+MI5
+ 
+
+
+ 
+ 
+SIS
+ 
+
+
+ 
+ 
+NPSA
+ 
+
+
+ 
+ 
+GOV.UK
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+

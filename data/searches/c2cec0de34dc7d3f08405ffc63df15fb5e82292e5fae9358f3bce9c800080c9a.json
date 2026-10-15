@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "c2cec0de34dc7d3f08405ffc63df15fb5e82292e5fae9358f3bce9c800080c9a",
+  "cachedAt": "2026-10-15T21:10:45Z",
+  "observedAt": "2026-10-15T21:10:45Z",
+  "originRunId": "qwen3-38804802602",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-2-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "2",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "time_range": "",
+    "query": "Backup and Disaster Recovery Plan official implementation configuration documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792098543922,
+    "end": 1792098545182
+  },
+  "outputDigest": "sha256:bf509fb609a88e9b913a151e9b021871af8c19baca9061858f3cd41b91eb8fbc",
+  "resultUrls": [
+    "https://cloudian.com/guides/disaster-recovery/disaster-recovery-5-key-features-and-building-your-dr-plan/",
+    "https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html",
+    "https://docs.cloud.google.com/backup-disaster-recovery/docs",
+    "https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery",
+    "https://secureframe.com/blog/disaster-recovery-plan",
+    "https://www.acronis.com/en/blog/posts/disaster-recovery-plan/",
+    "https://www.darktrace.com/cyber-ai-glossary/cloud-backup-and-disaster-recovery",
+    "https://www.giac.org/paper/gsec/1733/disaster-recovery-plan-strategies-processes/103137",
+    "https://www.linkedin.com/pulse/complete-devops-disaster-recovery-backup-guide-hamza-shaukat-li4rf",
+    "https://www.veeam.com/blog/disaster-recovery-as-a-service-guide.html"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Backup and Disaster Recovery Plan official implementation configuration documentation\",\n  \"results\": [\n    {\n      \"title\": \"Backup and DR documentation - Google Cloud Documentation\",\n      \"url\": \"https://docs.cloud.google.com/backup-disaster-recovery/docs\",\n      \"content\": \"... disaster recovery, business continuity, and development and test activity. ... Configure a backup plan · Protect an application · Different ways to access your ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Complete DevOps Disaster Recovery & Backup Implementation Guide\",\n      \"url\": \"https://www.linkedin.com/pulse/complete-devops-disaster-recovery-backup-guide-hamza-shaukat-li4rf\",\n      \"content\": \"21 Αυγ 2025 ... Step 1: Define Business Requirements · Recovery Point Objective (RPO): Maximum acceptable data loss timeframe · Recovery Time Objective (RTO): ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Architecture strategies for disaster recovery - Azure - Microsoft Learn\",\n      \"url\": \"https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery\",\n      \"content\": \"19 Νοε 2025 ... This article outlines the key strategies for disaster recovery, emphasizing resilient workload design, data integrity, and clearly defined ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"What is a disaster recovery plan (DRP) and how to create one?\",\n      \"url\": \"https://www.acronis.com/en/blog/posts/disaster-recovery-plan/\",\n      \"content\": \"14 Σεπ 2023 ... Public cloud DR services are available pay-as-you-go and can be accessed from anywhere. Data Center Disaster Recovery Plan. This type of plan ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Disaster Recovery Plan (DRP): Steps, Examples & How to Write One ...\",\n      \"url\": \"https://secureframe.com/blog/disaster-recovery-plan\",\n      \"content\": \"πριν από 8 ημέρες ... A disast",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "2"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "cloudian.com",
+      "docs.aws.amazon.com",
+      "docs.cloud.google.com",
+      "learn.microsoft.com",
+      "secureframe.com",
+      "www.acronis.com",
+      "www.darktrace.com",
+      "www.giac.org",
+      "www.linkedin.com",
+      "www.veeam.com"
+    ]
+  }
+}

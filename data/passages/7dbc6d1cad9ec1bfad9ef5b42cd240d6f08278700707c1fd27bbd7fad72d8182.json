@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "7dbc6d1cad9ec1bfad9ef5b42cd240d6f08278700707c1fd27bbd7fad72d8182",
+  "cachedAt": "2026-10-15T21:08:42Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://docs.databricks.com/aws/en/lakehouse-architecture/deployment-guide/account-setup",
+  "finalUrl": "https://docs.databricks.com/aws/en/lakehouse-architecture/deployment-guide/account-setup",
+  "language": "en",
+  "publisher": "Databricks",
+  "title": "Phase 1: Design account and identity strategy | Databricks on AWS",
+  "retrievedAt": "2026-10-15T21:04:59Z",
+  "byteDigest": "sha256:270120fc357948997aa9f117290eb21f0f516d1bf1b879b83fde5baa0b8d0a24",
+  "textDigest": "sha256:acaa78e9201832b9587f0c149d4448fce7942f36e639019fe318589ad937ab47",
+  "sourceId": "1-source-4",
+  "passageId": "p1",
+  "locator": "Best practices for administrative roles",
+  "quotation": "Limit account admin privileges to two or three trusted individuals.",
+  "originalText": "Limit account admin privileges to two or three trusted individuals.",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:08:42Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Databricks",
+    "host": "docs.databricks.com"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "08239f9866466d95fe9bbf152919f2481d0179be0bb998844702406cdb4283c3",
+  "cachedAt": "2026-10-15T21:52:44Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://ccf.dev/main/architecture/cryptography.html",
+  "finalUrl": "https://ccf.dev/main/architecture/cryptography.html",
+  "language": "en",
+  "publisher": "Microsoft Confidential Consortium Framework",
+  "title": "CCF Cryptography Architecture",
+  "retrievedAt": "2026-10-15T21:50:47Z",
+  "byteDigest": "sha256:024b242744988c9c2c5f69c2697ce30cc93ec728dd6d4c186dd9146e0257e26e",
+  "textDigest": "sha256:b0228838d86e622d54f42e31aed28e828110df55d4492001b07b9a9b6c1fa2d0",
+  "sourceId": "A-source-4",
+  "passageId": "p2",
+  "locator": "Algorithms and Curves section",
+  "quotation": "Authenticated encryption in CCF relies on AES256-GCM. Ledger authentication relies on Merkle trees using SHA2-256.",
+  "originalText": "Authenticated encryption in CCF relies on AES256-GCM. Ledger authentication relies on Merkle trees using SHA2-256.",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:52:44Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "A"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Microsoft Confidential Consortium Framework",
+    "host": "ccf.dev"
+  }
+}

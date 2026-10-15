@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "c307c5360a39226274aca1bc23bfb0cea372ae5c9b2ad0590b084c155a8287c1",
+  "cachedAt": "2026-10-15T21:46:13Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://baseline.openssf.org/maintainers.html",
+  "finalUrl": "https://baseline.openssf.org/maintainers.html",
+  "language": "en",
+  "publisher": "Open Source Security Foundation (OpenSSF)",
+  "title": "Implementation Guidance for Maintainers",
+  "retrievedAt": "2026-10-15T21:43:48Z",
+  "byteDigest": "sha256:b6eb6b0b6092c2a2bc16b635ae02b6ed9cd36cafea878f58ff1f8b628f5a9f3d",
+  "textDigest": "sha256:95468756b1bb428ceb53ab57bd6d4cd30532c69b07b0b5fc14fca346e52a0781",
+  "sourceId": "8-source-3",
+  "passageId": "p1",
+  "locator": "Evaluation tooling section",
+  "quotation": "Several tools are available to help you automate the process. LFX Insights provides automated measurement and reporting of a variety of project metrics, including Baseline controls.",
+  "originalText": "your project following the example-full.yml template.\n\n\n\n\n\n\n\nEvaluation tooling\n\n\n\n\n\nSeveral tools are available to help you automate the process.\n\n\n\n\n\n\n  \nLFX Insights\n provides automated measurement and reporting of a variety of project metrics, including Baseline controls.\nIf your project is not already included in LFX Insights, you can \nadd it\n.\nYour project does not need to be a part of",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:46:13Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Open Source Security Foundation (OpenSSF)",
+    "host": "baseline.openssf.org"
+  }
+}

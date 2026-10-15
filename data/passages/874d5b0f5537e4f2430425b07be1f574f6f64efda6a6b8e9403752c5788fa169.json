@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "874d5b0f5537e4f2430425b07be1f574f6f64efda6a6b8e9403752c5788fa169",
+  "cachedAt": "2026-10-15T21:12:03Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://cloud.google.com/backup-disaster-recovery/docs/deployment/deployment-plan",
+  "finalUrl": "https://docs.cloud.google.com/backup-disaster-recovery/docs/deployment/deployment-plan",
+  "language": "en",
+  "publisher": "Google LLC",
+  "title": "Set up and plan a backup/recovery appliance deployment | Backup and DR | Google Cloud Documentation",
+  "retrievedAt": "2026-10-15T21:10:48Z",
+  "byteDigest": "sha256:533b3c7faf07c090eb410e75cd04e7244f7b433339b0eb764f6d4173c853e577",
+  "textDigest": "sha256:c2b191851e9ca0d85ecc571f18923a02c422ed883256666d82f24ca85c89cf6c",
+  "sourceId": "2-source-3",
+  "passageId": "p1",
+  "locator": "Introduction section",
+  "quotation": "Backup and DR for VMware VMs and SAP HANA, IBM Db2, Oracle, and Microsoft SQL Server databases that run inside Compute Engine instances requires a Backup and DR appliance management console and one or more backup/recovery appliances.",
+  "originalText": "categories, then you don't need a backup/recovery appliance.\n\n\n\n\n\nBackup and DR for VMware VMs and SAP HANA, IBM Db2, Oracle, and\nMicrosoft SQL Server databases that run inside Compute Engine instances\nrequires a Backup and DR appliance management console and one or\nmore backup/recovery appliances. When using this setup, you need to\nchoose the size of your backup/recovery appliances to match the applications that\nyou back up. The flow for",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:12:03Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "2"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Google LLC",
+    "host": "cloud.google.com"
+  }
+}

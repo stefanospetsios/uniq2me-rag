@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "9cdd9d9b4fa641da15c6359f9b92a31870dbebbe778d730a5adb34302c3b22e5",
+  "cachedAt": "2026-10-15T21:22:19Z",
+  "observedAt": "2026-10-15T21:22:19Z",
+  "originRunId": "qwen3-38804802602",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-4-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "4",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Data Storage and Handling official implementation configuration documentation",
+    "time_range": ""
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792099288814,
+    "end": 1792099289907
+  },
+  "outputDigest": "sha256:d645691b837063b70f9abdfde833934743ee16081fef200e73abeb6e84d91133",
+  "resultUrls": [
+    "https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en",
+    "https://i.dell.com/sites/doccontent/shared-content/data-sheets/en/Documents/Services-Storage-Implementation-Datasheet-English.pdf",
+    "https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/data-management-check-list",
+    "https://sdaia.gov.sa/en/SDAIA/about/Documents/DataManagementPersonalDataProtectionStandards.pdf",
+    "https://www.techtarget.com/it-infrastructure/tip/How-to-develop-and-implement-a-data-storage-plan"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Data Storage and Handling official implementation configuration documentation\",\n  \"results\": [\n    {\n      \"title\": \"Storage Implementation - Dell\",\n      \"url\": \"https://i.dell.com/sites/doccontent/shared-content/data-sheets/en/Documents/Services-Storage-Implementation-Datasheet-English.pdf\",\n      \"content\": \"We provide a wide range of standard storage implementation options to meet your needs, no ... We perform on-site installation of all PowerVault storage.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"How to develop and implement a data storage plan | TechTarget\",\n      \"url\": \"https://www.techtarget.com/it-infrastructure/tip/How-to-develop-and-implement-a-data-storage-plan\",\n      \"content\": \"31 Μαρ 2021 ... This will ensure administrators properly configure all systems and processes associated with data storage and they perform as needed. If data ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Data protection explained - European Commission\",\n      \"url\": \"https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en\",\n      \"content\": \"staff management and payroll administration; accessing or consulting a contacts database containing personal data; shredding documents containing personal data ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Checklist for data management and governance - Dynamics 365\",\n      \"url\": \"https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/data-management-check-list\",\n      \"content\": \"23 Ιαν 2024 ... In this article. Data governance and architecture; Data modeling; Data storage; Configuration data and data migration; Data integration; Data ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Data Management and Personal Data Protection Standards\",\n      \"url\": \"https://sdaia.gov.sa/en/SDAIA/about/Documents/DataManagementPersonalDataProtec",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "4"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "commission.europa.eu",
+      "i.dell.com",
+      "learn.microsoft.com",
+      "sdaia.gov.sa",
+      "www.techtarget.com"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "a013db4dbaa8b070be11929c5120126d4ce6e423dbb2d48136368128bfbba7ba",
+  "cachedAt": "2026-10-15T21:43:46Z",
+  "observedAt": "2026-10-15T21:43:46Z",
+  "originRunId": "qwen3-38804802602",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-8-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "8",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "risk management secure coding official maintainer implementation documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792100537128,
+    "end": 1792100538148
+  },
+  "outputDigest": "sha256:67547996ffd427a0b6d7119baa88ce7d5d078476300fa86dabb3540e8d497143",
+  "resultUrls": [
+    "https://baseline.openssf.org/maintainers.html",
+    "https://pages.nist.gov/nccoe-devsecops/appendix-c.html",
+    "https://schema.org",
+    "https://www.ncsc.gov.uk/",
+    "https://www.ncsc.gov.uk/collection/software-security-code-of-practice-implementation-guidance/theme-1-secure-design-development"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Implementation Guidance for Maintainers | Open Source Project Security Baseline\",\n      \"url\": \"https://baseline.openssf.org/maintainers.html\",\n      \"content\": \"Implementation Guidance for Maintainers | Open Source Project Security Baseline\\n\\n# Implementation Guidance for Maintainers\\n\\nAre you a project maintainer looking to evaluate your project against the OSPS Baseline? This page contains guidance to help you do it quickly. Your feedback is always welcome in the issues.\\n\\nThe Baseline website includes a Markdown-formatted checklist that you can use in a repository issue to track the controls by level. See the main page for links to the checklist.\\n\\n## Use Security Insights\\n\\nThe Security Insights project maintains a specification for projects to report information about their security in a machine-processable way. Many tools for Baseline evaluation will use this to evaluate controls that are not easily machine-auditable via platform APIs.\\n\\nTo get started with Security Insights:\\n\\n- Adopt the Security Insights specification by creating a security-insights.yml file in your repository.\\n- Populate the security-insights.yml file with security data for your project following the example-full.yml template.\\n\\n## Evaluation tooling\\n\\nSeveral tools are available to help you automate the process.\\n\\n- LFX Insights provides automated measurement and reporting of a variety of project metrics, including Baseline controls. If your project is not already included in LFX Insights, you can add it. Your project does not need to be a part of the Linux Foundation.\\n- Privateer Plugin for GitHub Repositories performs automated checks of some Baseline controls. This is what powers the LFX Insights evaluation. It is also available as a GitHub Action.\\n\\n## Additional information\\n\\n- OpenSSF case study for how GUAC used LFX Insights to quickly evaluate against levels 1 and 2.\\n\\n- OpenSSF Security Baseline SIG\\n- openssf-sig-security-ba",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "baseline.openssf.org",
+      "pages.nist.gov",
+      "schema.org",
+      "www.ncsc.gov.uk"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "7e442a3281146cf17cad5e604d34481c5377389f8734fff2db7168444ed2b58d",
+  "cachedAt": "2026-10-15T21:24:37Z",
+  "observedAt": "2026-10-15T21:24:37Z",
+  "originRunId": "qwen3-38804802602",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-5-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "5",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "Official maintainer documentation for network segmentation firewalls security groups and VPN configuration"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792099441658,
+    "end": 1792099442665
+  },
+  "outputDigest": "sha256:d7503abc3a0dea178ab88647128f2159c90933b232e749f09e828d5cf4eefb8c",
+  "resultUrls": [
+    "https://docs.netgate.com/pfsense/en/latest/vpn/index.html",
+    "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/pdf/configuring_firewalls_and_packet_filters/red_hat_enterprise_linux-9-configuring_firewalls_and_packet_filters-en-us.pdf",
+    "https://isc.sans.edu/diary/End+of+Days+for+MS-CHAPv2/13807",
+    "https://www.cloudcracker.com/blog/2012/07/29/cracking-ms-chap-v2/",
+    "https://www.cloudcracker.com/blog/2012/07/29/cracking-ms-chap-v2/."
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Virtual Private Networks | pfSense Documentation\",\n      \"url\": \"https://docs.netgate.com/pfsense/en/latest/vpn/index.html\",\n      \"content\": \"Virtual Private Networks | pfSense Documentation\\n\\n# Virtual Private Networks¶\\n\\n- Common deployments\\n- Choosing a VPN solution\\n- Remote Access Mobile VPN Client Compatibility\\n- VPNs and Firewall Rules\\n- IPv6 VPN and Firewall Rules\\n- VPN Scaling\\n\\n- OpenVPN\\n\\n- OpenVPN Data Channel Offload (DCO)\\n- OpenVPN Configuration Options\\n- OpenVPN Firewall Rules\\n- OpenVPN clients and Internet Access\\n- Assigning OpenVPN Interfaces\\n- OpenVPN and Multi-WAN\\n- OpenVPN and High Availability\\n- Sharing a Port with OpenVPN and a Web Server\\n- Controlling Client Parameters via RADIUS\\n- OpenVPN Adapter Address ICMP Behavior\\n- OpenVPN and Certificates\\n\\n- IPsec\\n\\n- IPsec Terminology\\n- IPsec Configuration\\n- Choosing a Mobile IPsec Style\\n- NAT with IPsec Phase 2 Networks\\n- Routed IPsec (VTI)\\n- IPsec and firewall rules\\n- Using IPsec with Multiple Subnets\\n- Configuring IPsec Keep Alive\\n- Testing IPsec Connectivity\\n- Client Routing and Gateway Considerations\\n- Configuring Third Party IPsec Devices\\n- Accessing Firewall Services over IPsec\\n\\n- WireGuard\\n\\n- WireGuard Settings\\n- Design Considerations\\n- WireGuard Limitations\\n- Configure a WireGuard Tunnel\\n- Assign a WireGuard Interface\\n- WireGuard and Rules / NAT\\n- WireGuard Routing\\n- WireGuard Overview\\n\\nVPNs provide a means of tunneling traffic through an encrypted connection, preventing it from being seen or modified in transit. pfSense® software offers several VPN options: IPsec, OpenVPN, WireGuard and L2TP. This section provides an overview of VPN usage, the pros and cons of each type of VPN, and how to decide which is the best fit for a particular environment. Subsequent sections discuss each VPN option in detail.\\n\\nL2TP is purely a tunneling protocol and does not offer any encryption of its own. It is typically combined ",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "docs.netgate.com",
+      "docs.redhat.com",
+      "isc.sans.edu",
+      "www.cloudcracker.com"
+    ]
+  }
+}

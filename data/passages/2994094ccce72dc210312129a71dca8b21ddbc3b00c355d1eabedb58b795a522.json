@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "2994094ccce72dc210312129a71dca8b21ddbc3b00c355d1eabedb58b795a522",
+  "cachedAt": "2026-10-15T21:52:44Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://cryptography.io/en/latest/",
+  "finalUrl": "https://cryptography.io/en/latest/",
+  "language": "en",
+  "publisher": "PyCA (Python Cryptographic Authority)",
+  "title": "pyca/cryptography Documentation",
+  "retrievedAt": "2026-10-15T21:50:47Z",
+  "byteDigest": "sha256:b2563fc61277fe541982d92e86fe5e6d212375d976776726a6b0b1296d160747",
+  "textDigest": "sha256:052fc5203fed4631816f4548fd31ecdf9931777d2b73542e7fd4db141d303903",
+  "sourceId": "A-source-3",
+  "passageId": "p1",
+  "locator": "Introduction section",
+  "quotation": "cryptography includes both high level recipes and low level interfaces to common cryptographic algorithms such as symmetric ciphers, message digests, and key derivation functions.",
+  "originalText": "pyca/cryptography\n\n\n\n      \n\n            \n View page source\n\n      \n\n\n\n  \n\n  \n\n\n\n\n\n          \n\n           \n\n             \n  \n\n\nWelcome to \npyca/cryptography\n\n\n\n\n\ncryptography\n includes both high level recipes and low level interfaces to\ncommon cryptographic algorithms such as symmetric ciphers, message digests, and\nkey derivation functions. For example, to encrypt something with\n\ncryptography\n’s high level symmetric encryption recipe:\n\n\n\n\n>>> \nfrom\n \ncryptography.fernet\n \nimport\n \nFernet\n\n\n>>> \n# Put this somewhere safe!\n\n\n>>>",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:52:44Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "A"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "PyCA (Python Cryptographic Authority)",
+    "host": "cryptography.io"
+  }
+}

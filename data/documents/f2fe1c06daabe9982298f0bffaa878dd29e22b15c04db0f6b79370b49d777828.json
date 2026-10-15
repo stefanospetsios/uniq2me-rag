@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T21:54:24Z",
+  "originRunId": "qwen3-38804802602",
+  "source": {
+    "id": "B-source-3",
+    "type": "guidance",
+    "title": "OWASP Firmware Security Testing Methodology",
+    "publisher": "OWASP Foundation",
+    "url": "https://github.com/scriptingxss/owasp-fstm",
+    "language": "en",
+    "jurisdiction": "International",
+    "applicability": "Technical methodology addressing firmware provenance verification, secure update processes, and vulnerability assessment for IoT device firmware",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:b0624dec9680f334b996578f87941653c29642c80faeea8c7aa7e32d51c60cc1",
+    "textDigest": "sha256:f918a5e869aa69b825d4ec3cb9ac87f654edb6a8d49095d3688ed7a3bb68f184",
+    "finalUrl": "https://github.com/scriptingxss/owasp-fstm",
+    "retrievedAt": "2026-10-15T21:54:24Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-b0624dec9680f334b996578f87941653c29642c80faeea8c7aa7e32d51c60cc1.bin",
+    "textPath": "source-f918a5e869aa69b825d4ec3cb9ac87f654edb6a8d49095d3688ed7a3bb68f184.txt"
+  },
+  "files": {
+    "snapshots/source-b0624dec9680f334b996578f87941653c29642c80faeea8c7aa7e32d51c60cc1.bin": "sha256:b0624dec9680f334b996578f87941653c29642c80faeea8c7aa7e32d51c60cc1",
+    "snapshots/source-f918a5e869aa69b825d4ec3cb9ac87f654edb6a8d49095d3688ed7a3bb68f184.txt": "sha256:f918a5e869aa69b825d4ec3cb9ac87f654edb6a8d49095d3688ed7a3bb68f184"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://github.com/scriptingxss/owasp-fstm",
+  "language": "en",
+  "retrievedAt": "2026-10-15T21:54:24Z",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:54:24Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": "\n\n\n\n  \n\n\n\n\n\n\n\n\n\n  \n\n    \n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n  \n\n\n  \n\n\n    \n\n    \n\n    \n\n    \n\n  \n\n\n\n\n  \n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \nGitHub - scriptingxss/owasp-fstm: The Firmware Security Testing Methodology (FSTM) is composed of nine stages tailored to enable security researchers, software developers, consultants, and Information Security professionals with conducting firmware security assessments. · GitHub\n\n\n\n\n  \n\n  \n\n  \n\n  \n\n\n    \n  \n\n\n\n  \n\n\n\n    \n\n\n\n  \n\n  \n\n  \n\n  \n\n\n    \n\n\n\n\n\n\n\n\n\n  \n\n\n  \n\n\n\n\n    \n\n\n  \n\n    \n\n\n    \n\n      \n\n\n      \n\n\n    \n\n    \n\n    \n\n\n      \n\n  \n\n  \n\n\n\n\n      \n\n\n\n\n        ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "B"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "OWASP Foundation",
+    "host": "github.com"
+  }
+}

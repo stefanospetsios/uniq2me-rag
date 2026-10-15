@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "375b735d23cf4bc14d7db895f189fe012cbbb66b68a918edc002fece4521b345",
+  "cachedAt": "2026-10-15T21:08:42Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://www.canada.ca/en/government/system/digital-government/policies-standards/enterprise-it-service-common-configurations/account.html",
+  "finalUrl": "https://www.canada.ca/en/government/system/digital-government/policies-standards/enterprise-it-service-common-configurations/account.html",
+  "language": "en",
+  "publisher": "Government of Canada",
+  "title": "Account Management Configuration Requirements - Canada.ca",
+  "retrievedAt": "2026-10-15T21:04:56Z",
+  "byteDigest": "sha256:7c4996b0a182b875fa80a12c07ece285629080457e0e397b6d974fcabcd54c98",
+  "textDigest": "sha256:9c4300dae59d9c85c1cf77335234109889780c5f1e708badde27f824ff7a3d11",
+  "sourceId": "1-source-2",
+  "passageId": "p1",
+  "locator": "4.3",
+  "quotation": "Establish separate and dedicated user accounts to be used solely for duties that require privileged access.",
+  "originalText": "Establish separate and dedicated user accounts to be used solely for duties that require privileged access.",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:08:42Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Government of Canada",
+    "host": "www.canada.ca"
+  }
+}

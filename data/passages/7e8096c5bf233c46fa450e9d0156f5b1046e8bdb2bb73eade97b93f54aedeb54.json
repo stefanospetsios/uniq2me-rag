@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "7e8096c5bf233c46fa450e9d0156f5b1046e8bdb2bb73eade97b93f54aedeb54",
+  "cachedAt": "2026-10-15T21:12:03Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://docs.aws.amazon.com/aws-backup/latest/devguide/creating-a-backup-plan.html",
+  "finalUrl": "https://docs.aws.amazon.com/aws-backup/latest/devguide/creating-a-backup-plan.html",
+  "language": "en",
+  "publisher": "Amazon Web Services",
+  "title": "Create a backup plan - AWS Backup",
+  "retrievedAt": "2026-10-15T21:10:45Z",
+  "byteDigest": "sha256:77ef818ab1ad32d836de1e144ceb7ed1a2c64182d3c6fb69ef693022ab59f338",
+  "textDigest": "sha256:6aaa8b121369316541a944cf36f234a964f5e918ba006a92a5d90198329d8d15",
+  "sourceId": "2-source-1",
+  "passageId": "p1",
+  "locator": "Backup window configuration section",
+  "quotation": "Complete within defaults to 7 days. Ensure that there is enough time for the backup up to complete even if the job starts at the end of the start window.",
+  "originalText": "window of time for the backup to start.\n\n\n\n            \n\n\n\n              \nComplete within\n defaults to 7 days. Ensure that there is enough time for\n                the backup up to complete even if the job starts at the end of the start window.\n\n\n\n            \n\n\n\n        \n\n\n\n          \nContinuous backups and point-in-time recovery (PITR)\n:\n You can select \nEnable\n              continuous backups for point-in-time recovery (PITR)\n. To verify which\n            resources are supported for",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:12:03Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "2"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Amazon Web Services",
+    "host": "docs.aws.amazon.com"
+  }
+}

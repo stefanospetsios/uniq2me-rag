@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T21:04:59Z",
+  "originRunId": "qwen3-38804802602",
+  "source": {
+    "id": "1-source-5",
+    "type": "guidance",
+    "title": "Secure access practices for administrators in Microsoft Entra ID",
+    "publisher": "Microsoft",
+    "url": "https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/security-planning",
+    "language": "en",
+    "jurisdiction": "Global",
+    "applicability": "Microsoft Entra ID environments implementing secure administrative access including role-based separation, emergency break-glass accounts, and just-in-time privilege escalation with MFA enforcement",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "Stage 3: Take control of administrator activity > Implement Privileged Identity Management (PIM) for JIT",
+        "text": "Time-limited activation of privileged roles works by enabling you to:\n\n\n\n\n\n\nActivate administrator privileges to do a specific task"
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:a842b52e9598487672a1bc47d6e55696f6978a749abfddccaaf0973b52fdfcaf",
+    "textDigest": "sha256:471799906774fa55ee472ed44271fc669a9e81552d8065e3d2729323bb45f7ec",
+    "finalUrl": "https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/security-planning",
+    "retrievedAt": "2026-10-15T21:04:59Z",
+    "contentType": "text/html",
+    "snapshotPath": "source-a842b52e9598487672a1bc47d6e55696f6978a749abfddccaaf0973b52fdfcaf.bin",
+    "textPath": "source-471799906774fa55ee472ed44271fc669a9e81552d8065e3d2729323bb45f7ec.txt"
+  },
+  "files": {
+    "snapshots/source-a842b52e9598487672a1bc47d6e55696f6978a749abfddccaaf0973b52fdfcaf.bin": "sha256:a842b52e9598487672a1bc47d6e55696f6978a749abfddccaaf0973b52fdfcaf",
+    "snapshots/source-471799906774fa55ee472ed44271fc669a9e81552d8065e3d2729323bb45f7ec.txt": "sha256:471799906774fa55ee472ed44271fc669a9e81552d8065e3d2729323bb45f7ec"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/security-planning",
+  "language": "en",
+  "retrievedAt": "2026-10-15T21:04:59Z",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:08:42Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": " \n\n\t\t\n\n\t\t\t\n\t\t\n\n\t\t\t\nSecure access practices for administrators in Microsoft Entra ID - Microsoft Entra ID | Microsoft Learn\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n \n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n \n\n\t\t\t\n\n\t\t\t \n\t\t\t\n\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t \n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\t\t\t\n\n\t\t\t\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\t\t\n\n\t\n\t\t\t\n\n\t\t\t\t\n\n\t\t\n\n\t\t\t\n\t\t\n\n\t\t\tSkip to main content\n\t\t\n\n\t\n\t\t\n\n\t\t\tSkip to Ask Learn chat experience\n\t\t\n\n\t\n\n\t\t\t\n\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\t\n\n\t\t\t\t\t\nThis browser is no longer supported.\n\n\n\n\t\t\t\t\t\n\n\t\t\t\t\t\tUpgrade to Microsoft Edge to take a",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "Microsoft",
+    "host": "learn.microsoft.com"
+  }
+}

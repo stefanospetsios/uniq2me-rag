@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Implementation Guidance for Maintainers | Open Source Project Security Baseline</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Implementation Guidance for Maintainers" />
+<meta name="author" content="OpenSSF Security Baseline SIG" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="The Open Source Project Security (OSPS) Baseline is a set of security controls that projects should meet to demonstrate a strong security posture. The controls are organized by maturity level and category." />
+<meta property="og:description" content="The Open Source Project Security (OSPS) Baseline is a set of security controls that projects should meet to demonstrate a strong security posture. The controls are organized by maturity level and category." />
+<link rel="canonical" href="https://baseline.openssf.org/maintainers.html" />
+<meta property="og:url" content="https://baseline.openssf.org/maintainers.html" />
+<meta property="og:site_name" content="Open Source Project Security Baseline" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Implementation Guidance for Maintainers" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"OpenSSF Security Baseline SIG"},"description":"The Open Source Project Security (OSPS) Baseline is a set of security controls that projects should meet to demonstrate a strong security posture. The controls are organized by maturity level and category.","headline":"Implementation Guidance for Maintainers","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://baseline.openssf.org/assets/logo.svg"},"name":"OpenSSF Security Baseline SIG"},"url":"https://baseline.openssf.org/maintainers.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link id="main-stylesheet" rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://baseline.openssf.org/feed.xml" title="Open Source Project Security Baseline" />
+</head>
+<body><header class="site-header">
+    <div class="wrapper header-wrapper">
+      <a class="site-logo" href="https://openssf.org">
+        <img src="/assets/logo.svg" alt="OpenSSF" height="85">
+      </a>
+      <a class="site-title" rel="author" href="/">Open Source Project Security Baseline</a>
+    </div>
+    <div class="wrapper">
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items"><a class="nav-item" href="/">About</a><a class="nav-item" href="/versions/2026-08-28.html">Current Version</a><a class="nav-item" href="/maintainers.html">Maintainer Guidance</a><a class="nav-item" href="/faq.html">Frequently Asked Questions</a><a class="nav-item" href="/maintenance.html">Maintenance Process</a>
+</div>
+      </nav>
+    </div>
+</header><main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Implementation Guidance for Maintainers</h1>
+  </header>
+
+  <div class="post-content">
+    <p>Are you a project maintainer looking to evaluate your project against the OSPS Baseline?
+This page contains guidance to help you do it quickly.
+Your feedback is always welcome in the <a href="https://github.com/ossf/security-baseline/issues">issues</a>.</p>
+
+<p>The Baseline website includes a Markdown-formatted checklist that you can use in a repository issue to track the controls by level.
+See the <a href="/">main page</a> for links to the checklist.</p>
+
+<h2 id="use-security-insights">Use Security Insights</h2>
+
+<p>The <a href="https://github.com/ossf/security-insights">Security Insights project</a> maintains a specification for projects to report information about their security in a machine-processable way.
+Many tools for Baseline evaluation will use this to evaluate controls that are not easily machine-auditable via platform APIs.</p>
+
+<p>To get started with Security Insights:</p>
+
+<ul>
+  <li>Adopt the Security Insights specification by creating a security-insights.yml file in your repository.</li>
+  <li>Populate the security-insights.yml file with security data for your project following the example-full.yml template.</li>
+</ul>
+
+<h2 id="evaluation-tooling">Evaluation tooling</h2>
+
+<p>Several tools are available to help you automate the process.</p>
+
+<ul>
+  <li><a href="https://insights.linuxfoundation.org/">LFX Insights</a> provides automated measurement and reporting of a variety of project metrics, including Baseline controls.
+If your project is not already included in LFX Insights, you can <a href="https://github.com/linuxfoundation/insights/discussions/categories/project-onboardings?discussions_q=is:open+category:%22Project+onboardings%22+sort:top">add it</a>.
+Your project does not need to be a part of the Linux Foundation.</li>
+  <li><a href="https://github.com/revanite-io/pvtr-github-repo">Privateer Plugin for GitHub Repositories</a> performs automated checks of some Baseline controls.
+This is what powers the LFX Insights evaluation.
+It is also available as a <a href="https://github.com/marketplace/actions/osps-security-assessment">GitHub Action</a>.</li>
+</ul>
+
+<h2 id="additional-information">Additional information</h2>
+
+<ul>
+  <li>OpenSSF case study for how <a href="https://openssf.org/blog/2025/08/14/case-study-how-lfx-insights-and-osps-baseline-validated-guacs-security-in-under-an-hour/">GUAC used LFX Insights</a> to quickly evaluate against levels 1 and 2.</li>
+</ul>
+
+  </div>
+
+</article>
+
+      </div>
+    </main>      <link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <ul class="contact-list">
+          <li class="p-name">OpenSSF Security Baseline SIG</li>
+          <li><a class="u-email" href="mailto:openssf-sig-security-baseline+subscribe@lists.openssf.org">openssf-sig-security-baseline+subscribe@lists.openssf.org</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <p>The Open Source Project Security (OSPS) Baseline is a set of security  controls that projects should meet to demonstrate a strong security posture.  The controls are organized by maturity level and category.
+</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li>
+    <a rel="me" href="https://github.com/ossf" target="_blank" title="OpenSSF GitHub">
+      <span class="grey fa-brands fa-github fa-lg"></span>
+    </a>
+  </li><li>
+    <a rel="me" href="https://x.com/openssf" target="_blank" title="OpenSSF at X (formerly Twitter)">
+      <span class="grey fa-brands fa-x-twitter fa-lg"></span>
+    </a>
+  </li><li>
+    <a rel="me" href="https://bsky.app/profile/openssf.org" target="_blank" title="OpenSSF at BlueSky">
+      <span class="grey fa-brands fa-bluesky fa-lg"></span>
+    </a>
+  </li><li>
+    <a rel="me" href="https://www.linkedin.com/company/openssf/" target="_blank" title="OpenSSF at LinkedIn">
+      <span class="grey fa-brands fa-linkedin fa-lg"></span>
+    </a>
+  </li>
+  <li>
+    <a href="https://baseline.openssf.org/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+    
+    <div class="wrapper">
+        Copyright © OSPS Baseline contributors, a Series of LF Projects, LLC.
+        For website terms of use, trademark policy, and other project policies please see <a href="https://lfprojects.org">https://lfprojects.org</a>.
+        This site is open source. View or contribute at <a href="https://github.com/ossf/security-baseline">GitHub</a>.
+    </div>
+
+  </div>
+
+</footer>    
+</body>
+
+</html>

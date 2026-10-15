@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "69ccc75542ae4f06e9d741c0269aed50d76784dcd5def122488bab9721a871b2",
+  "cachedAt": "2026-10-15T21:39:19Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://www.ic3.gov/CSA/2024/240822.pdf",
+  "finalUrl": "https://www.ic3.gov/CSA/2024/240822.pdf",
+  "language": "en",
+  "publisher": "Cybersecurity and Infrastructure Security Agency (CISA) in cooperation with ASD's ACSC, FBI, NSA, NCSC-UK, CCCS, NCSC-NZ, NISC, NCSC-Korea, CSA, AIVD, MIVD",
+  "title": "Best Practices for Event Logging and Threat Detection",
+  "retrievedAt": "2026-10-15T21:35:36Z",
+  "byteDigest": "sha256:4a085afc89a8b38890e67f5ade465c8607ac8854d6c920421ecfeb2557486811",
+  "textDigest": "sha256:1f1f9cadacadb2f5008dc836a3c463e6cba62afbaae4248c8d7fa2cb0c8d1d72",
+  "sourceId": "6-source-1",
+  "passageId": "p3",
+  "locator": "page 12",
+  "quotation": "ASD’s ACSC and co-authors recommend that organisations consider implementing user and entity behavioural analytics capabilities to enable automated detection of behavioural anomalies on networks, devices, or accounts. SIEMs can detect anomalous activity by comparing event logs to a baseline of business-as-usual traffic and activity.",
+  "originalText": "relevant threats\n     Detecting living off the land techniques\n     ASD’s ACSC and co-authors recommend that organisations consider implementing user and entity\n     behavioural analytics capabilities to enable automated detection of behavioural anomalies on\n     networks, devices, or accounts. SIEMs can detect anomalous activity by comparing event logs to a\n     baseline of business-as-usual traffic and activity. Behavioural analytics plays a key role in detecting\n     malicious actors employing LOTL techniques. Below is a case study that shows how threat actors\n     leveraged LOTL",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:39:19Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Cybersecurity and Infrastructure Security Agency (CISA) in cooperation with ASD's ACSC, FBI, NSA, NCSC-UK, CCCS, NCSC-NZ, NISC, NCSC-Korea, CSA, AIVD, MIVD",
+    "host": "www.ic3.gov"
+  }
+}

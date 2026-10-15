@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "80cfc24840b4074442533ad1cd02ef1e4508a9392687ab46029adbdb7871e6fb",
+  "cachedAt": "2026-10-15T21:31:52Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://docs.netgate.com/pfsense/en/latest/vpn/index.html",
+  "finalUrl": "https://docs.netgate.com/pfsense/en/latest/vpn/index.html",
+  "language": "en",
+  "publisher": "Netgate (pfSense)",
+  "title": "Virtual Private Networks Documentation",
+  "retrievedAt": "2026-10-15T21:24:44Z",
+  "byteDigest": "sha256:1000517d6560b099c10e1d02b60977f9ec72abb0542ceaabefc0d45cb8c1b01b",
+  "textDigest": "sha256:857d2b9da9a8020205b0cefd474d82c07647627cd44956addf757b4d67f765f4",
+  "sourceId": "5-source-4",
+  "passageId": "p1",
+  "locator": "article/heading/page",
+  "quotation": "VPNs provide a means of tunneling traffic through an encrypted connection, preventing it from being seen or modified in transit. pfSense® software offers several VPN options: IPsec, OpenVPN, WireGuard and L2TP. This section provides an overview of VPN usage, the pros and cons of each type of VPN, and how to decide which is the best fit for a particular environment.",
+  "originalText": "L2TP Server Configuration\n\n\n\n\n\n\nTroubleshooting Cisco VPN Pass Through\n\n\n\n\n\n\n\n\n\n\n\n\nVPNs provide a means of tunneling traffic through an encrypted connection,\npreventing it from being seen or modified in transit. pfSense® software offers\nseveral VPN options: IPsec, OpenVPN, WireGuard and L2TP. This section provides\nan overview of VPN usage, the pros and cons of each type of VPN, and how to\ndecide which is the best fit for a particular environment. Subsequent sections\ndiscuss each VPN option in detail.\n\n\n\n\nL2TP is purely a tunneling protocol and does not offer any encryption of its\nown. It",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:31:52Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Netgate (pfSense)",
+    "host": "docs.netgate.com"
+  }
+}

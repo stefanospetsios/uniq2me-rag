@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "96c3039f438af184f065972532c1fc60cf5b002cd3eea8a56a1dce95a22a9b80",
+  "cachedAt": "2026-10-15T21:52:44Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://specs.blockchainssc.org/kms/",
+  "finalUrl": "https://specs.blockchainssc.org/kms/",
+  "language": "en",
+  "publisher": "Blockchain Security Standard Council (BSSC)",
+  "title": "Key Management Standard for Blockchains",
+  "retrievedAt": "2026-10-15T21:50:46Z",
+  "byteDigest": "sha256:dcecf8b8ead8864f9baac4dbf45be00cec0183ec953d6acdd6cf845c628cd5c7",
+  "textDigest": "sha256:f9a6bc18bf71a0b3f4137dcaee769fc363e630996e0c24155d3ecc3cfd499bf0",
+  "sourceId": "A-source-1",
+  "passageId": "p1",
+  "locator": "Key Storage section",
+  "quotation": "Keys MUST be stored encrypted at rest",
+  "originalText": "Keys MUST be stored encrypted at rest",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:52:44Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "A"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Blockchain Security Standard Council (BSSC)",
+    "host": "specs.blockchainssc.org"
+  }
+}

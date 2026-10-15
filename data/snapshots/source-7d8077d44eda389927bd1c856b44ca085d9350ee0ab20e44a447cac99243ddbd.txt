@@ -1,0 +1,3535 @@
+
+
+
+
+
+
+
+
+  
+
+    
+
+    
+
+
+    
+Hardening Information — Implementing a Zero Trust Architecture Project  documentation
+
+  
+  
+  
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+  
+  
+
+  
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  
+  
+
+  
+
+
+
+  
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  
+
+  
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  
+
+  
+  
+  
+
+
+  
+  
+  
+Skip to main content
+
+
+
+  
+  
+
+
+
+  
+  
+
+    
+Back to top
+
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+    
+
+
+
+    
+
+
+
+  
+
+  
+
+  
+Ctrl
++
+K
+
+
+
+
+
+  
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+  
+    
+
+
+
+  
+
+    
+
+  
+
+  
+  
+  
+
+    
+      
+
+
+
+    
+
+        
+
+
+
+            
+ 
+Build Implementation Instructions
+
+
+
+        
+ Hardening Information
+
+
+
+    
+
+
+
+
+
+
+
+    
+  
+
+
+
+  
+  
+
+    
+    
+  
+
+
+
+  
+  
+
+  
+    
+
+      
+
+    
+
+  
+
+
+
+
+
+    
+
+  
+
+  
+
+    
+
+      
+      
+      
+      
+
+        
+
+  
+  
+
+    
+    
+    
+    
+  
+
+
+
+  
+    
+
+        
+
+
+  
+    
+  
+
+
+
+  
+  
+  
+  
+  
+  
+    
+Implementing a Zero Trust Architecture Project  documentation
+
+
+
+  
+
+
+
+
+        
+
+        
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+
+        
+
+
+
+        
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+
+        
+
+
+
+
+
+
+
+        
+
+
+ 
+
+
+
+        
+
+    
+
+        
+        
+
+            
+
+                
+
+                    Implementing a Zero Trust Architecture: Full Document
+                
+
+            
+
+
+
+        
+
+        
+
+
+Executive Summary
+
+
+
+
+Introduction to the Guide
+
+
+
+
+Project Overview
+
+
+
+
+Architecture and Builds
+
+
+Builds Implemented
+
+
+
+
+Build Architecture Details
+
+
+Enterprise 1 Build 1 (E1B1) - EIG Crawl - Okta Identity Cloud and Ivanti Access ZSO as PEs
+
+
+
+
+Enterprise 2 Build 1 (E2B1) - EIG Crawl - Ping Identity Ping Federate as PE
+
+
+
+
+Enterprise 3 Build 1 (E3B1) - EIG Crawl - Azure AD Conditional Access (later renamed 
+Entra Conditional Access
+) as PE
+
+
+
+
+Enterprise 1 Build 2 (E1B2) - EIG Run - Zscaler ZPA Central Authority (CA) as PE
+
+
+
+
+Enterprise 3 Build 2 (E3B2) - EIG Run - Microsoft Azure AD Conditional Access (later renamed 
+Entra Conditional Access
+), Microsoft Intune, Forescout eyeControl, and Forescout eyeExtend as PEs
+
+
+
+
+Enterprise 1 Build 3 (E1B3) - SDP - Zscaler ZPA CA as PE
+
+
+
+
+Enterprise 2 Build 3 (E2B3) — Microsegmentation - Cisco ISE, Cisco Secure Workload, and Ping Identity Ping Federate as PEs
+
+
+
+
+Enterprise 3 Build 3 (E3B3) - SDP and Microsegmentation - Microsoft Azure AD Conditional Access (later renamed 
+Entra Conditional Access
+), Microsoft Intune, Microsoft Sentinel, Forescout eyeControl, and Forescout eyeExtend as PEs
+
+
+
+
+Enterprise 4 Build 3 (E4B3) - EIG Run - IBM Security Verify as PE
+
+
+
+
+Enterprise 1 Build 4 (E1B4) - SDP - Appgate SDP Controller as PE
+
+
+
+
+Enterprise 2 Build 4 (E2B4) - SDP and SASE - Symantec Cloud Secure Web Gateway, Symantec ZTNA, and Symantec Cloud Access Security Broker as PEs
+
+
+
+
+Enterprise 3 Build 4 (E3B4) - SDP - F5 BIG-IP, F5 NGINX Plus, Forescout eyeControl, and Forescout eyeExtend as PEs
+
+
+
+
+Enterprise 4 Build 4 (E4B4) - SDP, Microsegmentation, and EIG - VMware Workspace ONE Access, VMware Unified Access Gateway, and VMware NSX-T as PEs
+
+
+
+
+Enterprise 1 Build 5 (E1B5) - SASE and Microsegmentation - PAN NGFW and PAN Prisma Access as PEs
+
+
+
+
+Enterprise 2 Build 5 (E2B5) - SDP and SASE - Lookout SSE and Okta Identity Cloud as PEs
+
+
+
+
+Enterprise 3 Build 5 (E3B5) - SDP and SASE - Microsoft Entra Conditional Access (formerly called Azure AD Conditional Access) and Microsoft Security Service Edge as PEs
+
+
+
+
+Enterprise 4 Build 5 (E4B5) - SDP and Microsegmentation - AWS Verified Access and Amazon VPC Lattice as PEs
+
+
+
+
+Enterprise 1 Build 6 (E1B6) - SDP and Microsegmentation - Ivanti Neurons for Zero Trust Access as PE
+
+
+
+
+Enterprise 2 Build 6 (E2B6) - SASE - Google Chrome Enterprise Premium (CEP) - Access Context Manager as PE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Build Implementation Instructions
+
+
+Enterprise 1 Build 1 (E1B1) - EIG Crawl - Okta Identity Cloud and Ivanti Access ZSO as PEs Product Guides
+
+
+
+
+Enterprise 2 Build 1 (E2B1) - EIG Crawl - Ping Identity Ping Federate as PE Product Guides
+
+
+
+
+Enterprise 3 Build 1 (E3B1) - EIG Crawl - Azure AD Conditional Access (later renamed Entra Conditional Access) as PE Product Guides
+
+
+
+
+Enterprise 1 Build 2 (E1B2) - EIG Run - Zscaler ZPA Central Authority (CA) as PE Product Guides
+
+
+
+
+Enterprise 3 Build 2 (E3B2) - EIG Run - Microsoft Azure AD Conditional Access (later renamed Entra Conditional Access), Microsoft Intune, Forescout eyeControl, and Forescout eyeExtend as PEs Product Guides
+
+
+
+
+Enterprise 1 Build 3 (E1B3) - SDP - Zscaler ZPA CA as PE Product Guides
+
+
+
+
+Enterprise 2 Build 3 (E2B3) - Microsegmentation - Cisco ISE, Cisco Secure Workload, and Ping Identity Ping Federate as PEs Product Guides
+
+
+
+
+Enterprise 3 Build 3 (E3B3) - SDP and Microsegmentation - Microsoft Azure AD Conditional Access (later renamed Entra Conditional Access), Microsoft Intune, Microsoft Sentinel, Forescout eyeControl, and Forescout eyeExtend as PEs Product Guides
+
+
+
+
+Enterprise 4 Build 3 (E4B3) - EIG Run - IBM Security Verify as PE Product Guides
+
+
+
+
+Enterprise 1 Build 4 (E1B4) - SDP - Appgate SDP Controller as PE Product Guides
+
+
+
+
+Enterprise 2 Build 4 (E2B4) - SDP and SASE - Symantec Cloud Secure Web Gateway, Symantec ZTNA, and Symantec Cloud Access Security Broker as PEs Product Guides
+
+
+
+
+Enterprise 3 Build 4 (E3B4) - SDP - F5 BIG-IP, F5 NGINX Plus, Forescout eyeControl, and Forescout eyeExtend as PEs Product Guides
+
+
+
+
+Enterprise 4 Build 4 (E4B4) - SDP, Microsegmentation, and EIG - VMware Workspace ONE Access, VMware Unified Access Gateway, and VMware NSX-T as PEs Product Guides
+
+
+
+
+Enterprise 1 Build 5 (E1B5) - SASE and Microsegmentation - PAN NGFW and PAN Prisma Access as PEs Product Guides
+
+
+
+
+Enterprise 2 Build 5 (E2B5) - SDP and SASE - Lookout SSE and Okta Identity Cloud as PEs Product Guides
+
+
+
+
+Enterprise 3 Build 5 (E3B5) - SDP and SASE - Microsoft Entra Conditional Access (formerly Azure AD Conditional Access) and Microsoft Security Service Edge as PEs Product Guides
+
+
+
+
+Enterprise 4 Build 5 (E4B5) - SDP and Microsegmentation - AWS Verified Access and Amazon VPC Lattice as PE
+
+
+
+
+Enterprise 1 Build 6 (E1B6) - SDP and Microsegmentation - Ivanti Neurons for Zero Trust Access as PEs Product Guides
+
+
+
+
+Enterprise 2 Build 6 (E2B6) - SASE - Google Chrome Enterprise Premium (CEP) - Access Context Manager as PE
+
+
+
+
+Hardening Information
+
+
+
+
+
+
+
+
+
+
+General Findings
+
+
+
+
+Functional Demonstrations
+
+
+Demonstration Terminology
+
+
+
+
+Use Case A: Discovery and Identification of IDs, Assets, and Data Flows
+
+
+
+
+Use Case B: Enterprise-ID Access
+
+
+
+
+Use Case C: Collaboration: Federated-ID Access
+
+
+
+
+Use Case D: Other-ID Access
+
+
+
+
+Use Case E: Guest: No-ID Access
+
+
+
+
+Use Case F: Confidence Level
+
+
+
+
+Use Case G: Service-Service Interactions
+
+
+
+
+Use Case H: Data Level Security Scenarios
+
+
+
+
+Functional Demonstration Result Summaries
+
+
+
+
+Functional Demonstration Results
+
+
+EIG Crawl Phase Demonstration Results
+
+
+
+
+EIG Run Phase Demonstration Results
+
+
+
+
+SDP, Microsegmentation, and SASE Phase Demonstration Results
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Risk and Compliance Management
+
+
+Risks Addressed by the ZTA Reference Architecture
+
+
+
+
+ZTA Security Mapping Context and Terminology
+
+
+
+
+Mappings
+
+
+
+
+
+
+
+
+
+
+Zero Trust Journey Takeaways
+
+
+
+
+Glossary
+
+
+
+
+Acronyms
+
+
+
+
+Change Log
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+  
+  
+  
+
+  
+
+
+
+  
+  
+
+
+
+
+
+      
+
+
+
+      
+      
+
+        
+        
+
+
+
+
+
+
+          
+
+            
+
+              
+              
+
+
+
+  
+    
+
+      
+        
+
+  
+
+
+
+
+
+      
+    
+
+
+
+  
+  
+    
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+
+    
+
+  
+
+  
+
+      
+      
+      
+      
+
+  
+
+
+
+  
+
+  
+
+
+.rst
+
+
+
+
+
+
+
+      
+      
+      
+      
+      
+
+
+
+  
+
+
+
+  
+
+  
+
+
+.pdf
+
+
+
+
+
+
+
+      
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+      
+    
+
+
+
+  
+
+
+
+
+
+
+
+
+              
+              
+
+
+
+    
+Hardening Information
+
+
+
+    
+
+    
+
+        
+
+            
+            
+
+                
+ Contents 
+
+
+
+            
+
+
+
+            
+
+                
+
+
+Infrastructure Hardening Applicable to All Builds
+
+
+Windows Hardening
+
+
+
+
+Linux Hardening
+
+
+
+
+Cisco Switch Hardening (Catalyst 9300 and Cisco 3850)
+
+
+
+
+Cisco Wireless Access Point Controller Hardening
+
+
+
+
+Mobile Device Hardening
+
+
+
+
+Palo Alto Networks Firewall Hardening (PAN 5250 NGFW)
+
+
+
+
+Enterprise Services and Resources Hardening
+
+
+
+
+
+
+
+
+
+
+Hardening Information Provided by Collaborating Vendors Applied to the Builds
+
+
+Appgate
+
+
+Appgate SDP Controller and Gateway Hardening
+
+
+
+
+Appgate SDP Client Hardening
+
+
+
+
+
+
+
+
+
+
+AWS
+
+
+
+
+Broadcom
+
+
+Symantec DLP Management Server Hardening
+
+
+
+
+SpanVA
+
+
+
+
+
+
+
+
+
+
+Cisco Systems
+
+
+
+
+DigiCert
+
+
+
+
+F5
+
+
+
+
+Google
+
+
+
+
+Ivanti
+
+
+
+
+Lookout
+
+
+
+
+Mandiant MSV
+
+
+
+
+Microsoft
+
+
+
+
+Okta
+
+
+
+
+Omnissa
+
+
+
+
+Palo Alto Networks (PAN)
+
+
+
+
+Ping Identity
+
+
+
+
+Tenable
+
+
+TLS Server
+
+
+
+
+Storage Manager (SQL)
+
+
+
+
+Security Engine Node
+
+
+
+
+Directory Listener
+
+
+
+
+Forest
+
+
+
+
+Domain
+
+
+
+
+Authentication
+
+
+
+
+TLS for Alerting
+
+
+
+
+
+
+
+
+
+
+Zscaler
+
+
+
+
+
+
+
+
+
+
+
+            
+
+        
+
+
+
+    
+
+
+
+
+
+
+
+
+              
+                
+
+
+
+
+                
+
+                  
+  
+
+
+Hardening Information
+#
+
+
+
+
+
+
+Note
+
+
+
+
+This page is supplementary material for the 
+NIST SP 1800-35 publication
+.
+
+
+
+
+
+
+
+
+This section documents how to secure the zero trust technology environments in this project’s builds. The first part provides steps to secure infrastructure baseline components such as operating systems, switches, access points, firewalls, and enterprise services and resources that are applicable to all builds. The second part provides steps recommended by collaborators to secure the configuration baselines for their technologies used in each build. Links to applicable hardening documentation are provided when available. Otherwise, the recommended hardening steps are described.
+
+
+
+
+
+
+Infrastructure Hardening Applicable to All Builds
+#
+
+
+
+
+This section describes the hardening of infrastructure devices that are applicable to all builds.
+
+
+
+
+Security Technical Implementation Guides (STIGs) are security configuration standards from the Defense Information Systems Agency (DISA). They contain technical guidelines on how to harden information systems. STIGs can be downloaded from the 
+official STIGs webpage
+ and viewed using the STIG Viewing Tools, which can be downloaded from the 
+official STIG Viewing Tools webpage
+.
+
+
+
+
+DISA provides instructions for implementing and validating security requirements. Group Policy Objects (GPOs) can be used to assist with implementing STIG settings. The GPO package can be downloaded from the 
+official STIGs Group Policy Objects webpage
+ and deployed in the enterprise environment. The GPO reports enable reviewing GPO configuration from a browser. They can be found in the Reports folder in the downloaded GPO package under the desired OS and/or application.
+
+
+
+
+If deploying in an IaaS environment, templates already implementing a hardened baseline may be available. For example, AWS provides Amazon Machine Images (AMI) for a variety of hardening standards, such as CIS Benchmarks.
+
+
+
+
+
+
+Windows Hardening
+#
+
+
+
+
+
+
+Download STIGs for your applicable OS
+
+
+
+
+
+
+Copy and unzip the STIG file to the endpoint to be hardened.
+
+
+
+
+
+
+Run the SCAP Compliance Checker (SCC) tool:
+
+
+
+
+
+
+
+
+
+
+
+
+Open the SCC tool and click Select 
+Local Scan
+ under 
+Scan Type
+.
+
+
+
+
+
+
+Check appropriate OS and/or application versions boxes in the 
+Content
+ area.
+
+
+
+
+
+
+Under 
+Stream Details
+ -> 
+Profile
+, select 
+Mac1_Public
+ for non-sensitive environments.
+
+
+
+
+
+
+Go back to the 
+Scan
+ section on the left and click 
+Start Scan
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Once the scan is complete, click 
+Results
+ -> 
+Open Results Directory
+ and select the most recent Results directory.
+
+
+
+
+
+
+Open the HTML summary file and click on the 
+Non-Compliance
+ tab.
+
+
+
+
+
+
+Scroll down to the 
+Results
+ section and click on the any of the links with remediation information.
+
+
+
+
+
+
+Follow the instructions to perform the remediation.
+
+
+
+
+
+
+In Windows domain environments, create a GPO and group policies as shown in the remediation information.
+
+
+
+
+
+
+Go to the 
+Group Policy Management
+ tool on your Domain Controller (via 
+Server Manager
+), and attach/link the GPO to any of the OUs in your environment.
+
+
+
+
+
+
+Make sure to move any computers you want to harden to the OU with the GPO attached.
+
+
+
+
+
+
+Go to each of the computers/endpoints and run 
+gpupdate
+ 
+/force
+.
+
+
+
+
+
+
+Verify that the Group Policy Object was applied by running and viewing the output of 
+gpresult
+ 
+/r
+.
+
+
+
+
+
+
+
+
+Optionally, you can run the SCC tool after applying the GPO to verify that there are no CAT 1 issues to be fixed.
+
+
+
+
+These hardening standards have been applied to the AD domain and all domain-connected Windows computers in each Enterprise, including systems that host services provided by collaborators.
+
+
+
+
+
+
+
+
+Linux Hardening
+#
+
+
+
+
+Use a compliance checking tool like SCC or OpenSCAP to scan the system against the applicable DISA STIG or CIS Benchmark. The following instructions use OpenSCAP to remediate system policies that are out of compliance with the selected profile.
+
+
+
+
+
+
+Install the OpenSCAP tool (oscap) and SCAP Security Guide.
+
+
+
+
+
+
+OpenSCAP can be installed using the instructions at the 
+OpenSCAP Base webpage
+
+
+
+
+
+
+The latest official SCAP Security Guide profiles can be downloaded from the 
+ComplianceAsCode GitHub repository
+.
+
+
+
+
+
+
+
+
+
+
+
+
+View possible profiles by running oscap info /path/to/profile/<Name_of_Profile>.xml.
+
+
+
+
+
+
+To run an initial oscap scan and compare the current system against a specific profile, run the command 
+oscap
+ 
+xccdf
+ 
+eval
+ 
+--profile
+ 
+xccdf_org.ssgproject.content_profile_stig
+ 
+--results
+ 
+results.xml
+ 
+/path/to/profile/<Name_of_Profile>.xml
+
+
+
+
+
+
+Remediate non-compliant policies by running 
+oscap
+ 
+xccdf
+ 
+remediate
+ 
+--results
+ 
+remediation-results.xml
+ 
+results.xml
+.
+
+
+
+
+
+
+Remediation can be completed during the initial oscap scan by running 
+oscap
+ 
+xccdf
+ 
+eval
+ 
+--remediate
+ 
+--profile
+ 
+xccdf_org.ssgproject.content_profile_stig
+ 
+--results-arf
+ 
+results.xml
+ 
+/path/to/profile/<Name_of_Profile>.xml
+.
+
+
+
+
+
+
+
+
+These hardening standards have been applied to Linux-based computers in each enterprise, including systems that host services provided by collaborators.
+
+
+
+
+
+
+
+
+Cisco Switch Hardening (Catalyst 9300 and Cisco 3850)
+#
+
+
+
+
+Hardening recommendations for Cisco routers and switches are described at the following link:
+
+
+
+
+
+
+Official STIG Download webpage
+
+
+
+
+
+
+
+
+
+
+
+
+Cisco Wireless Access Point Controller Hardening
+#
+
+
+
+
+Hardening recommendations for Cisco Wireless Access Point Controller is described at the following link:
+
+
+
+
+
+
+Official STIG Download webpage
+
+
+
+
+
+
+
+
+
+
+
+
+Mobile Device Hardening
+#
+
+
+
+
+Microsoft’s recommendations for mobile device hardening can be found at the following links:
+
+
+
+
+
+
+iOS - 
+iOS/iPadOS security configuration framework - Microsoft Intune | Microsoft Learn
+
+
+
+
+
+
+Android - 
+Android Enterprise security configuration framework - Microsoft Intune | Microsoft Learn
+
+
+
+
+
+
+
+
+Note that STIGs for iOS and Android devices are available at the following links:
+
+
+
+
+
+
+iOS - 
+Official STIG Download webpage
+
+
+
+
+
+
+Android - 
+Official STIG Download webpage
+
+
+
+
+
+
+
+
+Pushing these STIGs to a mobile device requires creating policies to address each of the individual items listed in the STIG. These policies may be created manually, but endpoint management solutions sometimes provide pre-created policies that allow customers to easily apply the STIGs as baselines. If such pre-created policies are not available and users want to apply baseline STIGs for the mobile device and MDM in question, they will need to create the hardening profile baseline policies manually.
+
+
+
+
+
+
+
+
+Palo Alto Networks Firewall Hardening (PAN 5250 NGFW)
+#
+
+
+
+
+Device hardening guidelines for Palo Alto Networks (PAN) Next Generation Firewalls and Panorama management devices, which are detailed in the PANW Common Criteria Evaluated Configuration Guides (CCECGs), can be found at the following links. Note that this documentation also includes guidelines for enabling FIPS mode, but FIPS was not enabled for this project’s deployment:
+
+
+
+
+
+
+CCECG for 
+Palo Alto Networks PA-220, PA-400, PA-800, PA-3200, PA-3400, PA-5200, PA-5400, PA-5450, PA-7000, and VM Series Next-Generation Firewall with PAN-OS 10.2
+ - 
+Common Criteria Evaluated Configuration Guide (CCECG) for Next-Generation Firewalls with PAN-OS 10.2 PDF
+
+
+
+
+
+
+CCECG for Palo Alto Networks M-200, M-300, M-600, and M-700 Hardware, and Virtual Appliances all running Panorama 10.2
+
+
+
+
+
+
+
+
+
+
+
+
+Enterprise Services and Resources Hardening
+#
+
+
+
+
+This section describes the steps taken to harden various enterprise services and resources used in the project. For all services below, the OS’s are hardened according to the 
+Windows Hardening
+ section or 
+Linux Hardening
+ section. No applicable DISA STIGs or CIS Benchmarks exist for these services.:
+
+
+
+
+
+
+Certificate Authority (CA)
+
+
+
+
+
+
+The Root CA is kept offline unless needed. Microsoft hardening recommendations are applied.
+
+
+
+
+
+
+Microsoft’s recommendations for CA hardening can be found here: 
+Securing PKI: Technical Controls for Securing PKI | Microsoft Learn
+
+
+
+
+
+
+
+
+
+
+
+
+Dynamic Host Configuration Protocol (DHCP)
+
+
+
+
+
+
+In addition to the OS hardening referenced in the 
+Windows Hardening
+ section, Microsoft provides more recommendations at the following link: 
+Building the Totally Network Isolated Root Certification Authority
+
+
+
+
+
+
+
+
+
+
+
+
+Domain Name System (DNS)
+
+
+
+
+
+
+Microsoft provides DNS hardening recommendations in its Secure DNS Deployment Guide, which is at the following link: 
+Secure DNS Deployment Guide
+
+
+
+
+
+
+
+
+
+
+
+
+Remote Authentication Dial-In User Service (RADIUS)
+
+
+
+
+
+
+Microsoft Network Policy Server (NPS) best practices are followed. They can be found at: 
+Network Policy Server Best Practices
+.
+
+
+
+
+
+
+
+
+
+
+
+
+Server Message Block (SMB)/Secure File Transfer Protocol (SFTP)
+
+
+
+
+
+
+Microsoft recommends accessing the following link for information on SMB security enhancements: 
+SMB security enhancements
+
+
+
+
+
+
+
+
+
+
+
+
+Windows Server Update Services (WSUS)
+
+
+
+
+
+
+In addition to performing the standard Windows Hardening referenced above, Microsoft recommends following their recommended WSUS best practices, which can be found at the following link: 
+Windows Server Update Services best practices
+
+
+
+
+
+
+
+
+
+
+
+
+GitLab Enterprise
+
+
+
+
+
+
+GitLab Enterprise is hardened according to the guidelines provided by GitLab at the following link: 
+Secure GitLab
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hardening Information Provided by Collaborating Vendors Applied to the Builds
+#
+
+
+
+
+This section describes the custom device hardening steps that our collaborators recommend be performed for their products used in the builds. For details regarding which of these products are in each build, please refer to the 
+Build Architecture Details
+.
+
+
+
+
+
+
+Appgate
+#
+
+
+
+
+
+
+Appgate SDP Controller and Gateway Hardening
+#
+
+
+The 
+Appgate Admin Guide
+ provides Appgate SDP Appliance hardening steps and is updated with every version of Appgate. Critical items to configure include:
+
+
+
+
+
+
+Restrict access to Controller’s port 8443
+.
+
+
+
+
+
+
+Enable UDP-TCP Single Packet Authorization (SPA
+).
+
+
+
+
+
+
+Disable SSH to appliances
+.
+
+
+
+
+
+
+Enable MFA for admin access
+.
+
+
+
+
+
+
+Use SAML/OIDC with MFA for admin UI authentication.
+
+
+
+
+
+
+Configure granular policies to grant access based on device type, device security, user role, etc.
+
+
+
+
+
+
+Configure granular entitlements using FQDN or IP and specific protocol and port numbers.
+
+
+
+
+
+
+Forward logs to an enterprise SIEM so they can be aggregated with the enterprise logs, monitored, and generate alerts.
+
+
+
+
+
+
+
+
+
+
+
+
+Appgate SDP Client Hardening
+#
+
+
+The 
+Appgate Admin Guide
+ provides Appgate SDP Client hardening steps and is updated with every version of Appgate. Critical items to configure include:
+
+
+
+
+
+
+Install and configure the Appgate Client using enterprise device management tools, see 
+this link
+ for more details.
+
+
+
+
+
+
+Use SAML/OIDC with MFA, or certificate-based authentication (including smartcard/PIV/CAC) for client authentication.
+
+
+
+
+
+
+Configure ring fencing to block incoming traffic to client devices.
+
+
+
+
+
+
+Enable Tamper Proofing to prevent local admins from multi-homing their devices.
+
+
+
+
+
+
+Use certificate authentication for headless and always-on clients.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AWS
+#
+
+
+
+
+For information on relevant AWS configuration information, please review the following AWS documentation.
+
+
+
+
+
+
+AWS Cloud Security
+
+
+
+
+
+
+Best Practices for Security, Identity, & Compliance
+
+
+
+
+
+
+AVA Security in Verified Access
+
+
+
+
+
+
+Security in Amazon VPC Lattice
+
+
+
+
+
+
+
+
+
+
+
+
+Broadcom
+#
+
+
+
+
+The majority of services provided by Broadcom (with Symantec products) for this project are hosted in the cloud, and hardening is managed by Broadcom. Two on-prem instances of Symantec offerings were deployed: the Symantec DLP Management Server and SpanVA.
+
+
+
+
+
+
+Symantec DLP Management Server Hardening
+#
+
+
+Guidelines for hardening aspects of Symantec DLP capabilities are as follows:
+
+
+
+
+
+
+Firewall ports: 
+Corporate firewall configuration
+
+
+
+
+
+
+Services: 
+Windows security lockdown guidelines
+
+
+
+
+
+
+Service account configuration: 
+Windows Administrative security settings
+
+
+
+
+
+
+
+
+
+
+
+
+SpanVA
+#
+
+
+SpanVA hardening guidelines are located on: 
+SpanVA
+
+
+
+
+The SpanVA appliance comes hardened out of the box; only necessary firewall ports are open and all externally facing services, including SSH, are turned off.
+
+
+
+
+
+
+
+
+
+
+Cisco Systems
+#
+
+
+
+
+Note that in addition to the Cisco hardening recommendations provided in this section, information regarding hardening of Cisco switches and wireless access point controllers used in the network infrastructure of all builds are provided in the 
+Cisco Switch Hardening (Catalyst 9300 and Cisco 3850)
+ and 
+Cisco Wireless Access Point Controller Hardening
+ sections.
+
+
+
+
+Cisco provides hardening recommendations for ISE and SNA at the links below:
+
+
+
+
+
+
+ISE - 
+Cisco ISE STIG Y24M10 Checklist Details
+ and/or 
+Cisco ISE STIG Y24M10
+
+
+
+
+
+
+SNA - 
+Compliant Product - Cisco Secure Network Analytics
+
+
+
+
+
+
+
+
+
+
+
+
+DigiCert
+#
+
+
+
+
+The DigiCert services used in this project are cloud-based, and hardening is managed by DigiCert. At this time, DigiCert does not have specific hardening recommendations for users regarding its CertCentral TLS Manager. DigiCert-managed solutions run on a secure infrastructure that complies with strict security processes and standards. Specific hardening actions are listed below:
+
+
+
+
+
+
+Server Hardening
+
+
+
+
+
+
+Network Time Protocol (NTP) configuration
+
+
+
+
+
+
+Host-based intrusion detection system installation and configuration
+
+
+
+
+
+
+AV/EDR installation and configuration
+
+
+
+
+
+
+Event monitoring system installation and configuration
+
+
+
+
+
+
+Logging configuration
+
+
+
+
+
+
+Hosts.allow and hosts.deny configuration
+
+
+
+
+
+
+Warning banner configuration
+
+
+
+
+
+
+Permissions configuration
+
+
+
+
+
+
+Applying OS patches and hotfixes
+
+
+
+
+
+
+Disabling of standard and/or unneeded network services
+
+
+
+
+
+
+Disabling of standard and/or unneeded OS services
+
+
+
+
+
+
+Least privilege for user and administrative roles (through role-based access control)
+
+
+
+
+
+
+Password policy compliance
+
+
+
+
+
+
+Account lockout policy
+
+
+
+
+
+
+Enabling MFA for accounts
+
+
+
+
+
+
+Encryption at rest
+
+
+
+
+
+
+
+
+
+
+
+
+Network Hardening
+
+
+
+
+
+
+Blocking unnecessary networks
+
+
+
+
+
+
+Disabling unneeded network services
+
+
+
+
+
+
+Applying patches and hotfixes
+
+
+
+
+
+
+Changing or removing default passwords
+
+
+
+
+
+
+Logging configuration
+
+
+
+
+
+
+NTP configuration
+
+
+
+
+
+
+Least privilege for user and administrative roles (RBAC)
+
+
+
+
+
+
+Password policy compliance
+
+
+
+
+
+
+Account lockout policy
+
+
+
+
+
+
+Enabling MFA for accounts
+
+
+
+
+
+
+
+
+
+
+
+
+Application Hardening
+
+
+
+
+
+
+Disabling unneeded services or components
+
+
+
+
+
+
+Applying patches and hotfixes
+
+
+
+
+
+
+Least privilege for user and administrative roles (RBAC)
+
+
+
+
+
+
+Changing or removing default passwords
+
+
+
+
+
+
+Account lockout policy
+
+
+
+
+
+
+Enabling MFA for accounts
+
+
+
+
+
+
+Logging configuration
+
+
+
+
+
+
+
+
+
+
+
+
+Database Hardening
+
+
+
+
+
+
+Applying patches and hotfixes
+
+
+
+
+
+
+Changing or removing default passwords
+
+
+
+
+
+
+Logging configuration
+
+
+
+
+
+
+NTP configuration
+
+
+
+
+
+
+Least privilege for user and administrative roles (RBAC)
+
+
+
+
+
+
+Password policy compliance
+
+
+
+
+
+
+Account lockout policy
+
+
+
+
+
+
+Enabling MFA for accounts
+
+
+
+
+
+
+Encryption as appropriate (per data classification policy)
+
+
+
+
+
+
+Encryption at rest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+F5
+#
+
+
+
+
+F5’s hardening recommendations for its systems can be found at the following link: 
+Hardening your F5 system
+. For information on hardening NGINX, please see 
+Security Controls
+.
+
+
+
+
+
+
+
+
+Google
+#
+
+
+
+
+A link to the STIG for Android mobile devices is provided in the 
+Mobile Device Hardening
+ section.
+
+
+
+
+
+
+
+
+Ivanti
+#
+
+
+
+
+Ivanti’s nZTA hardening information can be found in this portion of the Ivanti nZTA Admin Guide: 
+Working with Gateways
+
+
+
+
+Ivanti recommends implementing the relevant mobile device OS STIGs via the Ivanti Neurons for UEM (IN UEM) Platform for managed devices. The STIG controls are implemented through configurations and policies in the IN UEM Console.
+
+
+
+
+
+
+Log in to the IN UEM Console.
+
+
+
+
+
+
+Navigate to 
+Configurations
+ -> 
+Add New
+ -> select relevant OS -> select relevant configuration based on the STIG control implementation - > 
+Save Configuration
+ and apply to appropriate User/Device group.
+
+
+
+
+
+
+Navigate to 
+Policies
+ -> 
+Add New
+ -> select relevant policy (Custom) -> create device policy -> 
+Save Policy
+ and apply to appropriate User/Device group.
+
+
+
+
+
+
+
+
+The relevant mobile OSes STIGs Ivanti supports are: Apple iOS, Google Android, Samsung/Honeywell/Motorola/Zebra. The STIG Mobility Library can be found at the following link: 
+STIGs Document Library
+
+
+
+
+Ivanti publishes a STIG for Ivanti Sentry (formerly MobileIron Sentry). The Ivanti Sentry STIG specifies the hardening recommendations and step-by-step configurations for Ivanti Sentry configured for Tunnel or Access ZSO. The Ivanti Sentry STIG can be found at the following link: 
+Ivanti Sentry STIG download
+
+
+
+
+
+
+
+
+Lookout
+#
+
+
+
+
+The Lookout SSE hardening information can be found at the following link: 
+Lookout Cloud Security Platform Administrator Guide
+
+
+
+
+
+
+
+
+Mandiant MSV
+#
+
+
+
+
+The Mandiant Security Validation (MSV) platform has been hardened using the STIG for each core component. MSV is currently available in two flavors: General Availability (GA) and STIG. The STIG release is by request only, specifically created to support the strict deployment requirements of the Department of Defense. To make these improvements more widely available, Mandiant Engineering is merging the STIG and GA releases to create a single STIG-based version. Its increased security and hardening measures will not impact functionality and performance.
+
+
+
+
+
+
+
+
+Microsoft
+#
+
+
+
+
+Note that in addition to the Microsoft hardening recommendations provided in this section, information regarding hardening of the Windows OS and various enterprise services used in the network infrastructure of all builds is provided in the 
+Windows Hardening
+ and 
+Enterprise Services and Resources Hardening
+ sections.
+
+
+
+
+All admin consoles for Azure AD (note that the product name “Azure AD” was later changed to “Entra ID”), Azure AD Conditional Access, Azure AD Identity Governance, Azure AD MFA, Azure AD Identity Protection, Azure AD Application Proxy, Defender for Apps, Defender for Cloud, Intune, Defender for Endpoint, Defender for Identity, Entra Permissions Management, Purview DLP, Purview Information Protection, Purview Information Protection Scanner Intune VPN Tunnel, Azure Arc, Azure Automanage, Intune Privilege Access Workstations (PAW), Azure Virtual Desktop Windows 365, Sentinel, and Azure-IaaS are cloud-based and hosted by Microsoft.
+
+
+
+
+Best practices for securing Microsoft Entra can be found at the following link: 
+Best practices to secure with Microsoft Entra ID - Microsoft Entra | Microsoft Learn
+
+
+
+
+Best practices for securing Microsoft Entra privileged roles can be found at the following link: 
+Best practices for Microsoft Entra roles - Microsoft Entra ID | Microsoft Learn
+
+
+
+
+Best practices for securing break glass accounts for Microsoft Entra can be found at the following link: 
+Manage emergency access admin accounts - Microsoft Entra ID | Microsoft Learn
+
+
+
+
+Security best practices for Azure IaaS can be found at the following link: 
+Security best practices for IaaS workloads in Azure
+
+
+
+
+The Windows hardening guide for Intune and Defender for Endpoint can be found at the following link: 
+Hardening Windows Clients with Microsoft Intune and Defender for Endpoint
+
+
+
+
+The Microsoft user application hardening guide can be found at the following link: 
+Essential Eight user application hardening
+
+
+
+
+The Microsoft Privilege Access Workstation hardening guide can be found at the following link: 
+Privileged access deployment
+
+
+
+
+The Azure Virtual Desktop hardening guide can be found at the following link: 
+Azure security baseline for Azure Virtual Desktop
+
+
+
+
+The Windows 365 hardening guide can be found at the following link: 
+Security guidelines
+
+
+
+
+
+
+
+
+Okta
+#
+
+
+
+
+Okta Identity Cloud is being hosted on a cloud platform which has options of FedRAMP High, FedRAMP Moderate, and DoD Impact Level 4 (IL4). For the hardening details, please refer to 
+Okta Security Techincal Whitepaper
+
+
+
+
+
+
+
+
+Omnissa
+#
+
+
+
+
+Omnissa disables unnecessary ports, protocols, and services as part of baseline hardening standards. It follows industry best practices in applying secure configurations to managed servers.
+
+
+
+
+For Workspace ONE UEM, Workspace ONE Assist, and Omnissa RemoteHelp servers that use Windows operating systems, server configurations can be hardened using GPO policies (such as account policies, user rights, security options, event log settings, app restrictions). Workspace ONE UEM, Workspace ONE Access, and Workspace ONE Intelligence Linux-based servers use Amazon Linux 2 images for system hardening. The Amazon Linux 2 images include default security configurations, such as limited remote access using SSH key pairs, remote root login disablement, reduced non-critical package installation, and automatic security related updates. This hardening information can be found at 
+Workspace ONE Cloud Services Security
+.
+
+
+
+
+An overview of the security controls implemented within Workspace ONE commercial cloud services and their alignment with the NIST SP 800-171 standards can be found at the following link: 
+Workspace ONE Cloud Services Alignment with NIST SP 800-171
+.
+
+
+
+
+Note that after the VMware End User Computing division products were implemented at NCCoE, VMware was acquired by Broadcom, then the VMware End User Computing Division was divested and reformed under a new entity, Omnissa LLC.
+
+
+
+
+
+
+
+
+Palo Alto Networks (PAN)
+#
+
+
+
+
+Links to device hardening guidelines for Palo Alto Networks (PANW) Next Generation Firewalls and Panorama management devices are provided in the 
+Palo Alto Networks Firewall Hardening (PAN 5250 NGFW)
+ section.
+
+
+
+
+Strata Cloud Manager is used by organizations to manage their NGFWs and SASE environments from a single interface. Strata Cloud Manager has best practice security checks built into it to allow organizations to assess their Panorama, NGFW, and Panorama-managed Prisma Access security configurations against best practices and remediate any failed checks. To use Strata Cloud Manager to perform best practice checks, see this link: 
+Built-In Best Practices
+
+
+
+
+To configure a security policy that is shared across NGFWs and Prisma Access, see this link: 
+Manage: NGFW and Prisma Access
+
+
+
+
+
+
+
+
+Ping Identity
+#
+
+
+
+
+The OS is hardened according to the appropriate OS Hardening section above. A product-specific security hardening guide is available at: 
+PingFederate Security Hardening Guide
+
+
+
+
+
+
+
+
+Tenable
+#
+
+
+
+
+The on-premises architecture for Tenable Identity Exposure (formerly known as Tenable.ad) uses the Microsoft Windows Server platform and is spread across three dedicated servers for optimal performance and security. Tenable recommends using Windows Server 2022 with the latest patches applied. The three servers that make up the Tenable Identity Exposure Platform are Storage Manager (SQL Server), Security Engine Node, and the Directory Listener. Each of these servers can be configured with additional hardened settings to ensure that the platform is deployed in the most secure manner. These and other additional hardened settings are described in the subsections below.
+
+
+
+
+
+
+TLS Server
+#
+
+
+Tenable recommends customers use 
+TLS with Peer Verification
+ when installing Tenable Identity Exposure in a production environment. This makes the platform more resistant to man-in-the-middle attacks.
+
+
+
+
+
+
+
+
+Storage Manager (SQL)
+#
+
+
+Tenable recommends that after installation completes, the customer should create a new account in SQL for database access and disable the default service account (SA). In addition, it is recommended to change the port for SQL to something other than the default SQL port. These changes will reduce the likelihood of a threat actor accessing the SQL data. Please reference 
+How to change Tenable.AD SQL Service account Password Knowledge Article
+
+
+
+
+
+
+
+
+Security Engine Node
+#
+
+
+Tenable recommends that customers change the default username and password for RabbitMQ administration. Please refer to 
+Changing the default RabbitMQ password
+
+
+
+
+Tenable recommends that customers use a 
+custom certificate
+ to enforce HTTPS for portal access in Internet Information Services (IIS).
+
+
+
+
+
+
+
+
+Directory Listener
+#
+
+
+Tenable recommends that customers install a client certificate on the directory listener to enable LDAPS between the directory listener and the domain controller.
+
+
+
+
+
+
+
+
+Forest
+#
+
+
+Tenable recommends that customers 
+secure the service account and enforce Kerberos authentication
+. This configuration will allow the customer to add the account to the protected users group for additional security protection.
+
+
+
+
+
+
+
+
+Domain
+#
+
+
+Tenable recommends that customers configure 
+LDAPS
+ for the domain configuration to ensure all communications are secure. In addition, Tenable recommends using the FQDN for the hostname of the Primary Domain Controller emulator (PDCe) instead of the IP address. This is a requirement to enforce Kerberos authentication.
+
+
+
+
+
+
+
+
+Authentication
+#
+
+
+Tenable recommends that customers use 
+SAML
+ with enforcement of MFA for all users who need to connect to the portal.
+
+
+
+
+
+
+
+
+TLS for Alerting
+#
+
+
+Tenable recommends that customers configure TLS for SMTP and syslog using the application services module 
+Trusted Certificate Authorities
+.
+
+
+
+
+
+
+
+
+
+
+Zscaler
+#
+
+
+
+
+Hardening recommendations for on-premises components such as Zscaler Client Connector can be found at the following link: 
+About Quick Wins and OS Hardening
+
+
+
+
+Zscaler only deploys its public cloud nodes within accredited and hardened data centers that meet Zscaler’s standards for physical security. Zscaler has achieved FedRAMP High and Impact Level 5 accreditation for Zscaler’s Federal Customers.
+
+
+
+
+In addition, Zscaler holds globally recognized certifications that cover locations where data is stored: SSAE 16/SOC 2 Type II, ISO 27001, ISO 27018, and others.
+
+
+
+
+
+
+
+
+
+
+
+                
+
+              
+
+              
+              
+              
+              
+                
+
+                  
+
+
+    
+
+      
+
+      
+
+        
+previous
+
+
+
+        
+Enterprise 2 Build 6 (E2B6) - SASE - Google Chrome Enterprise Premium (CEP) - Access Context Manager as PE
+
+
+
+      
+
+
+
+    
+
+    
+
+      
+
+        
+next
+
+
+
+        
+General Findings
+
+
+
+      
+
+
+
+      
+
+    
+
+
+
+
+
+                
+
+              
+            
+
+
+
+            
+            
+              
+                
+
+
+
+  
+
+  
+
+    
+ Contents
+  
+
+
+
+  
+
+    
+
+
+Infrastructure Hardening Applicable to All Builds
+
+
+Windows Hardening
+
+
+
+
+Linux Hardening
+
+
+
+
+Cisco Switch Hardening (Catalyst 9300 and Cisco 3850)
+
+
+
+
+Cisco Wireless Access Point Controller Hardening
+
+
+
+
+Mobile Device Hardening
+
+
+
+
+Palo Alto Networks Firewall Hardening (PAN 5250 NGFW)
+
+
+
+
+Enterprise Services and Resources Hardening
+
+
+
+
+
+
+
+
+
+
+Hardening Information Provided by Collaborating Vendors Applied to the Builds
+
+
+Appgate
+
+
+Appgate SDP Controller and Gateway Hardening
+
+
+
+
+Appgate SDP Client Hardening
+
+
+
+
+
+
+
+
+
+
+AWS
+
+
+
+
+Broadcom
+
+
+Symantec DLP Management Server Hardening
+
+
+
+
+SpanVA
+
+
+
+
+
+
+
+
+
+
+Cisco Systems
+
+
+
+
+DigiCert
+
+
+
+
+F5
+
+
+
+
+Google
+
+
+
+
+Ivanti
+
+
+
+
+Lookout
+
+
+
+
+Mandiant MSV
+
+
+
+
+Microsoft
+
+
+
+
+Okta
+
+
+
+
+Omnissa
+
+
+
+
+Palo Alto Networks (PAN)
+
+
+
+
+Ping Identity
+
+
+
+
+Tenable
+
+
+TLS Server
+
+
+
+
+Storage Manager (SQL)
+
+
+
+
+Security Engine Node
+
+
+
+
+Directory Listener
+
+
+
+
+Forest
+
+
+
+
+Domain
+
+
+
+
+Authentication
+
+
+
+
+TLS for Alerting
+
+
+
+
+
+
+
+
+
+
+Zscaler
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+              
+            
+          
+
+
+
+          
+
+            
+
+
+  
+    By NIST
+
+
+
+  
+
+
+
+
+
+          
+
+        
+
+      
+
+    
+
+
+
+  
+
+
+
+  
+  
+
+  
+
+
+
+
+
+    
+
+      
+
+        
+
+          
+Disclaimer:
+ Certain commercial equipment, instruments, or
+          materials are identified in this documentation to foster understanding. Such
+          identification does not imply recommendation or endorsement by the National
+          Institute of Standards and Technology, nor does it imply that the materials
+          or equipment identified are necessarily the best available for the purpose.
+        
+
+
+
+      
+
+
+
+    
+
+
+
+
+
+  
+
+
+

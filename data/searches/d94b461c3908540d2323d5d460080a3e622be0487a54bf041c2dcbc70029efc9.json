@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "d94b461c3908540d2323d5d460080a3e622be0487a54bf041c2dcbc70029efc9",
+  "cachedAt": "2026-10-15T20:53:14Z",
+  "observedAt": "2026-10-15T20:53:14Z",
+  "originRunId": "qwen3-38804802602",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-0-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "0",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Operating System and Workstation Environment official implementation configuration documentation",
+    "time_range": ""
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792097550629,
+    "end": 1792097551552
+  },
+  "outputDigest": "sha256:425bff56f6035a7a59db5e656c7b39c5bfca01afae331f841955c4fb7fd47208",
+  "resultUrls": [
+    "https://csf.tools/reference/nist-sp-800-171/r2/3-4/3-4-1/",
+    "https://github.com/diegosommier/enterprise-workstation-deployment",
+    "https://learn.microsoft.com/en-us/intune/configmgr/osd/",
+    "https://learn.microsoft.com/en-us/windows/deployment/",
+    "https://pages.nist.gov/zero-trust-architecture/VolumeC/Hardening.html",
+    "https://wiki.osdev.org/Getting_Started",
+    "https://www.sciencedirect.com/topics/computer-science/configuration-documentation",
+    "https://www.usda.gov/sites/default/files/documents/dr-3170-001-end-user-workstation-configurations.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Operating System and Workstation Environment official implementation configuration documentation\",\n  \"results\": [\n    {\n      \"title\": \"Configuration Documentation - an overview | ScienceDirect Topics\",\n      \"url\": \"https://www.sciencedirect.com/topics/computer-science/configuration-documentation\",\n      \"content\": \"The lack of a configuration management system, or its low-quality implementation, can be expensive for an organization and possibly have catastrophic consequences like a complete failure of system components.\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"OS deployment documentation - Configuration Manager\",\n      \"url\": \"https://learn.microsoft.com/en-us/intune/configmgr/osd/\",\n      \"content\": \"OS deployment documentation Use Configuration Manager to deploy Windows via different methods and automate tasks.\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Windows deployment documentation | Microsoft Learn\",\n      \"url\": \"https://learn.microsoft.com/en-us/windows/deployment/\",\n      \"content\": \"Windows Deployment Documentation Learn about deploying and updating Windows devices in your organization.\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Hardening Information — Implementing a Zero Trust Architecture ... - NIST\",\n      \"url\": \"https://pages.nist.gov/zero-trust-architecture/VolumeC/Hardening.html\",\n      \"content\": \"This section describes the hardening of infrastructure devices that are applicable to all builds. Security Technical Implementation Guides (STIGs) are security configuration standards from the Defense Information Systems Agency (DISA). They contain technical guidelines on how to harden information systems.\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"PDF DR 3170-001, End User Workstation Configurations - USDA\",\n      \"url\": \"https://www.usda.gov/sites/default/files/documents/",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "csf.tools",
+      "github.com",
+      "learn.microsoft.com",
+      "pages.nist.gov",
+      "wiki.osdev.org",
+      "www.sciencedirect.com",
+      "www.usda.gov"
+    ]
+  }
+}

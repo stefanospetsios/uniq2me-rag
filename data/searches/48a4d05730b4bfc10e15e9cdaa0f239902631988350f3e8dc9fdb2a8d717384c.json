@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "48a4d05730b4bfc10e15e9cdaa0f239902631988350f3e8dc9fdb2a8d717384c",
+  "cachedAt": "2026-10-15T21:47:24Z",
+  "observedAt": "2026-10-15T21:47:24Z",
+  "originRunId": "qwen3-38804802602",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-9-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "9",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Software Security Auditing official implementation configuration documentation",
+    "time_range": ""
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792100785367,
+    "end": 1792100786247
+  },
+  "outputDigest": "sha256:24048591e6a6ddd2d079a5d20774dfc475b747d3b439e4e1e6df57c5384298bf",
+  "resultUrls": [
+    "https://watchdogsecurity.io/iso-27001/configuration-management",
+    "https://www.complianceautomator.com/compliance/iso27001-documentation-for-enterprise-software",
+    "https://www.complianceautomator.com/compliance/iso27001-documentation-for-software-company",
+    "https://www.ibm.com/docs/en/was/9.0.5?topic=security-auditing-infrastructure",
+    "https://www.sentinelone.com/cybersecurity-101/cybersecurity/software-security-audit/"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Software Security Auditing official implementation configuration documentation\",\n  \"results\": [\n    {\n      \"title\": \"Software Security Audit: Process & Best Practices - SentinelOne\",\n      \"url\": \"https://www.sentinelone.com/cybersecurity-101/cybersecurity/software-security-audit/\",\n      \"content\": \"24 Ιουλ 2025 ... Assess Configuration & Deployment Practices: Secure code can also be breached through misconfigured servers or with open ports. Specifically, ...\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"ISO 27001 Documentation for Enterprise Software: Complete ...\",\n      \"url\": \"https://www.complianceautomator.com/compliance/iso27001-documentation-for-enterprise-software\",\n      \"content\": \"Summary Managing information security in enterprise software environments requires a systematic approach that goes beyond basic security measures. ISO 27001 provides the framework, but successful implementation hinges on comprehensive documentation that addresses the unique challenges of software-based business operations.\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"ISO 27001 Documentation for Software Companies: A Complete Guide\",\n      \"url\": \"https://www.complianceautomator.com/compliance/iso27001-documentation-for-software-company\",\n      \"content\": \"Complete guide to iso 27001 documentation for software company. Learn requirements, best practices, and get ready-to-use templates. Updated for 2026.\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Auditing the security infrastructure - IBM\",\n      \"url\": \"https://www.ibm.com/docs/en/was/9.0.5?topic=security-auditing-infrastructure\",\n      \"content\": \"The default implementation write to a binary text-file based log. Use this topic to customize your security auditing subsystem. Procedure. Enable the security ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"ISO ",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "9"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "watchdogsecurity.io",
+      "www.complianceautomator.com",
+      "www.ibm.com",
+      "www.sentinelone.com"
+    ]
+  }
+}

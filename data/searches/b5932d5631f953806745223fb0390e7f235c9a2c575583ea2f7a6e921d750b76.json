@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "b5932d5631f953806745223fb0390e7f235c9a2c575583ea2f7a6e921d750b76",
+  "cachedAt": "2026-10-15T21:50:46Z",
+  "observedAt": "2026-10-15T21:50:46Z",
+  "originRunId": "qwen3-38804802602",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-A-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "A",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "cryptography encryption blockchain official implementation configuration documentation key lifecycle digital signatures certificates"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792100998285,
+    "end": 1792100999397
+  },
+  "outputDigest": "sha256:c014b59f61da06984d0a44e75776b1147f15b13ecb95eadfe198ba12b4e4e49d",
+  "resultUrls": [
+    "https://ccf.dev/main/architecture/cryptography.html",
+    "https://cryptography.io/en/latest/",
+    "https://csrc.nist.gov/glossary",
+    "https://csrc.nist.gov/pubs/sp/800/108/r1/upd1/final",
+    "https://docs.polkadot.com/reference/parachains/cryptography.md",
+    "https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki",
+    "https://hyperledger.github.io/fabric-sdk-node/main/CryptoSuite.html",
+    "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.140-3.pdf",
+    "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf",
+    "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+    "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-90Ar1.pdf",
+    "https://specs.blockchainssc.org/glossary",
+    "https://specs.blockchainssc.org/kms/",
+    "https://www.cisa.gov/sites/default/files/publications/data_backup_options.pdf",
+    "https://www.iso.org/standard/53456.html",
+    "https://www.iso.org/standard/72891.html",
+    "https://www.rfc-editor.org/rfc/rfc2119.html",
+    "https://www.rfc-editor.org/rfc/rfc8174.html"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Key Management Standard for Blockchains\",\n      \"url\": \"https://specs.blockchainssc.org/kms/\",\n      \"content\": \"Key Management Standard for Blockchains\\n\\n## BSSC Specification\\n\\n## Summary\\n\\nThe Key Management Standard (KMS) is a set of security requirements for managing cryptographic keys used in blockchains, in order to minimise risks due to malicious attacks or accidental mis-use.\\n\\n## Table of Contents\\n\\n- Summary\\n- Introduction\\n\\n- Purpose\\n- Audience\\n- Scope\\n- Conformance\\n- Definitions\\n\\n- Principles of Key Management\\n- Key Lifecycle\\n\\n- Pre-Operational Lifecycle Stages\\n- Operational Lifecycle Stages\\n- Post-Operational Lifecycle Stages\\n- General Requirements\\n- Lifecycle Stage Specific Requirements\\n\\n- Key Generation\\n- Key Derivation\\n- Key Storage\\n- Key Distribution\\n- Key Usage\\n- Key Retirement\\n- Key Destruction\\n- Key Custody\\n- References\\n- Document Status and Feedback\\n\\n- Disclaimer of Warranty and Liability\\n\\n## Introduction\\n\\nDistributed Ledger Technology and blockchain rely on cryptography to provide a range of security services for data processing and storage. Cryptography enables nodes in a blockchain network to agree on the state of the shared ledger and effect a state transition in a secure manner. This opens many opportunities across multiple industry sectors with the most prominent currently being financial services, with its concepts of cryptocurrency and tokenization.\\n\\nAn analogy can be drawn between physical keys and cryptographic keys. A physical key can open a safe just like a cryptographic key can authenticate a blockchain transaction changing ledger state. In both cases, the security of either solution approaches zero when keys are compromised.\\n\\nKey management governs the states and state transition of cryptographic key material throughout its entire lifecycle. In many cases, automated systems support key management and those systems are commonly known as key management s",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "A"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "ccf.dev",
+      "cryptography.io",
+      "csrc.nist.gov",
+      "docs.polkadot.com",
+      "github.com",
+      "hyperledger.github.io",
+      "nvlpubs.nist.gov",
+      "specs.blockchainssc.org",
+      "www.cisa.gov",
+      "www.iso.org",
+      "www.rfc-editor.org"
+    ]
+  }
+}

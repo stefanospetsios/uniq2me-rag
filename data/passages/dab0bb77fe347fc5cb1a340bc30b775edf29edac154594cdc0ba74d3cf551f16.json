@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "dab0bb77fe347fc5cb1a340bc30b775edf29edac154594cdc0ba74d3cf551f16",
+  "cachedAt": "2026-10-15T21:08:42Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/security-planning",
+  "finalUrl": "https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/security-planning",
+  "language": "en",
+  "publisher": "Microsoft",
+  "title": "Secure access practices for administrators in Microsoft Entra ID",
+  "retrievedAt": "2026-10-15T21:04:59Z",
+  "byteDigest": "sha256:a842b52e9598487672a1bc47d6e55696f6978a749abfddccaaf0973b52fdfcaf",
+  "textDigest": "sha256:471799906774fa55ee472ed44271fc669a9e81552d8065e3d2729323bb45f7ec",
+  "sourceId": "1-source-5",
+  "passageId": "p1",
+  "locator": "Stage 3: Take control of administrator activity > Implement Privileged Identity Management (PIM) for JIT",
+  "quotation": "Time-limited activation of privileged roles works by enabling you to:\n\n\n\n\n\n\nActivate administrator privileges to do a specific task",
+  "originalText": "Time-limited activation of privileged roles works by enabling you to:\n\n\n\n\n\n\nActivate administrator privileges to do a specific task",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:08:42Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Microsoft",
+    "host": "learn.microsoft.com"
+  }
+}

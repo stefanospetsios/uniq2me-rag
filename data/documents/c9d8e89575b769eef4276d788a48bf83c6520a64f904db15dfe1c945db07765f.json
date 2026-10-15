@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T21:50:47Z",
+  "originRunId": "qwen3-38804802602",
+  "source": {
+    "id": "A-source-2",
+    "type": "technical-doc",
+    "title": "Hyperledger Fabric SDK for Node.js Class: CryptoSuite",
+    "publisher": "Hyperledger Foundation",
+    "url": "https://hyperledger.github.io/fabric-sdk-node/main/CryptoSuite.html",
+    "language": "en",
+    "jurisdiction": "International",
+    "applicability": "Implementation of cryptographic operations (signing, encryption, hashing) in Hyperledger Fabric blockchain applications, including key management interfaces and algorithms",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "Class description",
+        "text": "Abstract class for a suite of crypto algorithms used by the SDK to perform digital signing, encryption/decryption and secure hashing. A complete suite includes support for asymmetric keys (such as ECDSA or RSA), symmetric keys (such as AES) and secure hash (such as SHA2/3)."
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:858f6738f4ac1e38cd75bbc594d063696f1eb23135b5ae9df5371c3ad4466ac9",
+    "textDigest": "sha256:b3c9c091afa0e834546643014814e7465d5205c1772692c43a7bde679b020e5f",
+    "finalUrl": "https://hyperledger.github.io/fabric-sdk-node/main/CryptoSuite.html",
+    "retrievedAt": "2026-10-15T21:50:47Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-858f6738f4ac1e38cd75bbc594d063696f1eb23135b5ae9df5371c3ad4466ac9.bin",
+    "textPath": "source-b3c9c091afa0e834546643014814e7465d5205c1772692c43a7bde679b020e5f.txt"
+  },
+  "files": {
+    "snapshots/source-858f6738f4ac1e38cd75bbc594d063696f1eb23135b5ae9df5371c3ad4466ac9.bin": "sha256:858f6738f4ac1e38cd75bbc594d063696f1eb23135b5ae9df5371c3ad4466ac9",
+    "snapshots/source-b3c9c091afa0e834546643014814e7465d5205c1772692c43a7bde679b020e5f.txt": "sha256:b3c9c091afa0e834546643014814e7465d5205c1772692c43a7bde679b020e5f"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://hyperledger.github.io/fabric-sdk-node/main/CryptoSuite.html",
+  "language": "en",
+  "retrievedAt": "2026-10-15T21:50:47Z",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:52:44Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": "\n\n\n\n\n\n\t\n\n\t\n\n\t\nHyperledger Fabric SDK for Node.js Class: CryptoSuite\n\n\n\t\n\n\t\n\n\n\t\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n\n\t\t\nHyperledger Fabric SDK for Node.js\n\n\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n        \n\n\t\n\n\n\n\t\n\n\t\t\n\n\t\t\t\n\t\t\t\n\n\t\t\t\t\nModules\n\n\t\t\t\t\n\n\t\t\t\t\t\nfabric-network\n\n\n\n\t\t\t\t\n\n\t\t\t\n\n\n\n\t\t\t\n\t\t\t\n\n\t\t\t\t\nClasses\n\n\t\t\t\t\n\n\t\t\t\t\t\nAffiliationService\n\n\nBaseClient\n\n\nBlockDecoder\n\n\nChaincodeEvent\n\n\nChannel\n\n\nClient\n\n\nCommit\n\n\nCommitter\n\n\nCryptoKeyStore\n\n\nCryptoSuite\n\n\nCryptoSuite_ECDSA_AES\n\n\nCryptoSuite_PKCS11\n\n\nDiscoverer\n\n\nDiscoveryHandler\n\n\nDiscoveryService\n\n\nECDSA_KEY\n\n\nEndorsement\n\n\nEndorser\n\n\nEndpoint\n\n\nEventer\n\n\nEventInfo\n\n\nEventService\n\n\nFabricCAClient\n\n\nFabricCAServices\n\n\nHash\n\n\nIdentity\n\n\nIdentityContext\n\n\nIdentityService\n\n\nInMemoryKeyValueStore\n\n\nKey\n\n\nKeyValueStore\n\n\nfabric-network.DefaultCheckpointers\n\n\nfabric-network.FabricError\n\n\nfabr",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "A"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "Hyperledger Foundation",
+    "host": "hyperledger.github.io"
+  }
+}

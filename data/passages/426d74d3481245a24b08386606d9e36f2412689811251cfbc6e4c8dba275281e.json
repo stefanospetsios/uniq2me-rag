@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "426d74d3481245a24b08386606d9e36f2412689811251cfbc6e4c8dba275281e",
+  "cachedAt": "2026-10-15T21:17:29Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://pages.nist.gov/800-63-3/sp800-63b.html",
+  "finalUrl": "https://pages.nist.gov/800-63-3/sp800-63b.html",
+  "language": "en",
+  "publisher": "National Institute of Standards and Technology (NIST)",
+  "title": "NIST Special Publication 800-63B: Digital Identity Guidelines - Authentication and Lifecycle Management",
+  "retrievedAt": "2026-10-15T21:13:30Z",
+  "byteDigest": "sha256:27446e1728bd1a348975e5360fc7a1e26f2155c062978d5d83f867b3f8f9e53a",
+  "textDigest": "sha256:6285e7ef55c0e050ff7b7a3733034b209fb0265a3d247f7fcc3f36af77ac31a7",
+  "sourceId": "3-source-2",
+  "passageId": "p1",
+  "locator": "Section 2 (Introduction)",
+  "quotation": "establishes that a subject is actually who they claim to be",
+  "originalText": "establishes that a subject is actually who they claim to be",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:17:29Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "3"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "National Institute of Standards and Technology (NIST)",
+    "host": "pages.nist.gov"
+  }
+}

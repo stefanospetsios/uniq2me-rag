@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "8d0a8dba36b75411895e27461b1e0cd1bcb02417610bc606c34d086f54e1bb0e",
+  "cachedAt": "2026-10-15T21:54:21Z",
+  "observedAt": "2026-10-15T21:54:21Z",
+  "originRunId": "qwen3-38804802602",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-B-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "B",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "hardware security IoT device inventory secure boot firmware provenance updates physical access environmental safeguards official maintainer documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792101186712,
+    "end": 1792101188081
+  },
+  "outputDigest": "sha256:f808f283ab415369070d3d77f1cc6b6d6fdadda12448d99ffee64a3f78a02914",
+  "resultUrls": [
+    "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-213A.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"IoT Device Cybersecurity Guidance for the Federal Government: IoT Device Cybersecurity Requirement Catalog\",\n      \"url\": \"https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-213A.pdf\",\n\n...1088681 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_1418e01ee001UUvKqUo5CuYOvZ\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "B"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "nvlpubs.nist.gov"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "9ff78ebaa5441122841fb0751acfea3d3c11acad65039ea4d9fe9a8642d80c16",
+  "cachedAt": "2026-10-15T21:46:13Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://www.enisa.europa.eu/sites/default/files/2026-07/ENISA_Secure_By_Design_and_Default_Playbook_v1.pdf",
+  "finalUrl": "https://www.enisa.europa.eu/sites/default/files/2026-07/ENISA_Secure_By_Design_and_Default_Playbook_v1.pdf",
+  "language": "en",
+  "publisher": "European Union Agency for Cybersecurity (ENISA)",
+  "title": "ENISA Secure by Design and Default Playbook",
+  "retrievedAt": "2026-10-15T21:43:50Z",
+  "byteDigest": "sha256:c0dc5132d162f1a06f0adab350226070a176d24b9b826a85b5874961633d357d",
+  "textDigest": "sha256:1aed8c8ede21fe29720b039e335e8bc2e6ce2f358d1c85e3d76133b883e42ad4",
+  "sourceId": "8-source-5",
+  "passageId": "p1",
+  "locator": "Section 2.2/Risk management activities",
+  "quotation": "Risk management activities establish the security context by clarifying important considerations, including what needs to be protected, the threats of concern and the acceptable level of residual risk given the product's intended purpose and security impact.",
+  "originalText": "design and default\n     principles and risk management activities.\n\n     Risk management activities establish the security context by clarifying important considerations,\n     including what needs to be protected, the threats of concern and the acceptable level of residual risk\n     given the product’s intended purpose and security impact. Secure by design and default principles\n     translate this context into practical security decisions that are applied throughout the processes of the\n     product life cycle, from",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:46:13Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "European Union Agency for Cybersecurity (ENISA)",
+    "host": "www.enisa.europa.eu"
+  }
+}

@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-scope",
+  "cachedAt": "2026-10-15T21:31:52Z",
+  "scopeId": "5",
+  "fingerprint": "ef1759c81a1ae1ee9d36a38bb8cf5bc6cdaa9e0187be947562b82257de8330bc",
+  "originRunId": "qwen3-38804802602",
+  "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "scope-admitted",
+    "publisher": null,
+    "host": null
+  },
+  "corpus": {
+    "sources": {
+      "5-source-1": {
+        "type": "technical-doc",
+        "title": "Azure network security best practices",
+        "publisher": "Microsoft",
+        "url": "https://learn.microsoft.com/en-us/azure/security/fundamentals/network-best-practices",
+        "language": "en",
+        "jurisdiction": "US (cloud provider)",
+        "applicability": "Microsoft Azure cloud environments",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "5-source-1",
+        "byteDigest": "sha256:d74de7ebe8a34672d1a6bf48e6e4efc40aeb22616d1aac3383b5f204d2f0be8d",
+        "textDigest": "sha256:f51fd692dfc37f99f53f1df3297b08b9bd162c74373c14d84e64d73dec3d2ada",
+        "finalUrl": "https://learn.microsoft.com/en-us/azure/security/fundamentals/network-best-practices",
+        "retrievedAt": "2026-10-15T21:24:38Z",
+        "contentType": "text/html",
+        "snapshotPath": "source-d74de7ebe8a34672d1a6bf48e6e4efc40aeb22616d1aac3383b5f204d2f0be8d.bin",
+        "textPath": "source-f51fd692dfc37f99f53f1df3297b08b9bd162c74373c14d84e64d73dec3d2ada.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "article/heading/page",
+            "text": "When you use network security groups for network access control between subnets, you can put resources that belong to the same security zone or role in their own subnets."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "5-source-2": {
+        "type": "guidance",
+        "title": "Zero Trust Microsegmentation Guidance",
+        "publisher": "Cloud Security Alliance",
+        "url": "https://cloudsecurityalliance.org/artifacts/zero-trust-microsegmentation-guidance",
+        "language": "en",
+        "jurisdiction": "International",
+        "applicability": "General zero trust microsegmentation controls including firewalls and ACLs",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "5-source-2",
+        "byteDigest": "sha256:2a5c2762cb70384bf506bd1dde35e16dd0f5b44c7b0bcda400826531302f2db0",
+        "textDigest": "sha256:f09ee2b2e5f37d59bee32635dd85a885204ae945d01fd6a7a240a30811e53ff9",
+        "finalUrl": "https://cloudsecurityalliance.org/artifacts/zero-trust-microsegmentation-guidance",
+        "retrievedAt": "2026-10-15T21:24:39Z",
+        "contentType": "text/html; charset=utf-8",
+        "snapshotPath": "source-2a5c2762cb70384bf506bd1dde35e16dd0f5b44c7b0bcda400826531302f2db0.bin",
+        "textPath": "source-f09ee2b2e5f37d59bee32635dd85a885204ae945d01fd6a7a240a30811e53ff9.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "article/heading/page",
+            "text": "Microsegmentation is a foundational Zero Trust strategy that enforces explicit, fine-grained communication controls between systems. By reducing unnecessary reachability, it aids with lateral movement prevention, contains threats, and minimizes blast radius."
+          },
+          {
+            "id": "p2",
+            "locator": "article/heading/page",
+            "text": "Boundaries may be expressed through zones, routes, VLANs/VXLANs, security groups, labels, tags, Kubernetes network policies, host controls, hypervisor controls, firewalls, gateways, or other enforcement points. This model is often strongest for deterministic containment, local east-west control, regulatory boundaries, and OT/ICS zones and conduits."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "5-source-3": {
+        "type": "technical-doc",
+        "title": "Network and Environment Capabilities",
+        "publisher": "National Security Agency",
+        "url": "https://www.nsa.gov/Cybersecurity/ZIG/Capabilities/Network-and-Environment/",
+        "language": "en",
+        "jurisdiction": "US",
+        "applicability": "US Department of Defense Zero Trust Framework implementation",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "5-source-3",
+        "byteDigest": "sha256:458c74a40d598b2fc942b6a20c277c47f698962ae67f884ae1dcd45f222f9e05",
+        "textDigest": "sha256:afe10b60f1bdc96c72326874b3aae37a4653d17a9be4e917f6e6dd070c8b62bd",
+        "finalUrl": "https://www.nsa.gov/Cybersecurity/ZIG/Capabilities/Network-and-Environment/",
+        "retrievedAt": "2026-10-15T21:24:42Z",
+        "contentType": "text/html; charset=utf-8",
+        "snapshotPath": "source-458c74a40d598b2fc942b6a20c277c47f698962ae67f884ae1dcd45f222f9e05.bin",
+        "textPath": "source-afe10b60f1bdc96c72326874b3aae37a4653d17a9be4e917f6e6dd070c8b62bd.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "article/heading/page",
+            "text": "Tailor the control access policies to address each driver's specifics, whether for regulatory compliance or data security requirements."
+          },
+          {
+            "id": "p2",
+            "locator": "article/heading/page",
+            "text": "Role-Based Access Control (RBAC), where permissions are assigned based on the role of the User/PE/NPE. Attribute-Based Access Control (ABAC), where a combination of several factors related to User/PE/NPE, data, and the environment are leveraged to restrict or allow network access based on a set of predefined rules and conditions."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "5-source-4": {
+        "type": "technical-doc",
+        "title": "Virtual Private Networks Documentation",
+        "publisher": "Netgate (pfSense)",
+        "url": "https://docs.netgate.com/pfsense/en/latest/vpn/index.html",
+        "language": "en",
+        "jurisdiction": "Open-source project",
+        "applicability": "pfSense firewall configuration for IPsec, OpenVPN, and WireGuard",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "5-source-4",
+        "byteDigest": "sha256:1000517d6560b099c10e1d02b60977f9ec72abb0542ceaabefc0d45cb8c1b01b",
+        "textDigest": "sha256:857d2b9da9a8020205b0cefd474d82c07647627cd44956addf757b4d67f765f4",
+        "finalUrl": "https://docs.netgate.com/pfsense/en/latest/vpn/index.html",
+        "retrievedAt": "2026-10-15T21:24:44Z",
+        "contentType": "text/html",
+        "snapshotPath": "source-1000517d6560b099c10e1d02b60977f9ec72abb0542ceaabefc0d45cb8c1b01b.bin",
+        "textPath": "source-857d2b9da9a8020205b0cefd474d82c07647627cd44956addf757b4d67f765f4.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "article/heading/page",
+            "text": "VPNs provide a means of tunneling traffic through an encrypted connection, preventing it from being seen or modified in transit. pfSense® software offers several VPN options: IPsec, OpenVPN, WireGuard and L2TP. This section provides an overview of VPN usage, the pros and cons of each type of VPN, and how to decide which is the best fit for a particular environment."
+          },
+          {
+            "id": "p2",
+            "locator": "article/heading/page",
+            "text": "PPTP relies upon MS-CHAPv2 which has been completely compromised. Intercepted traffic can be decrypted by a third party 100% of the time, so consider any traffic carried in PPTP unencrypted. Migrate to another VPN type as soon as possible."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "5-source-5": {
+        "type": "technical-doc",
+        "title": "Red Hat Enterprise Linux 9 Configuring firewalls and packet filters",
+        "publisher": "Red Hat",
+        "url": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/pdf/configuring_firewalls_and_packet_filters/red_hat_enterprise_linux-9-configuring_firewalls_and_packet_filters-en-us.pdf",
+        "language": "en",
+        "jurisdiction": "Vendor-specific",
+        "applicability": "RHEL 9 firewall configuration using firewalld and nftables",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "5-source-5",
+        "byteDigest": "sha256:6a0c6c6263855737e371ab7580b7cdb84feb81ceda1cb5e72dea8f5f2fba5a33",
+        "textDigest": "sha256:fbe949828eb71ebc07f1e897cdb25ec6daecc04698b26a76e2044e7878de8b6d",
+        "finalUrl": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/pdf/configuring_firewalls_and_packet_filters/red_hat_enterprise_linux-9-configuring_firewalls_and_packet_filters-en-us.pdf",
+        "retrievedAt": "2026-10-15T21:24:50Z",
+        "contentType": "application/pdf",
+        "snapshotPath": "source-6a0c6c6263855737e371ab7580b7cdb84feb81ceda1cb5e72dea8f5f2fba5a33.bin",
+        "textPath": "source-fbe949828eb71ebc07f1e897cdb25ec6daecc04698b26a76e2044e7878de8b6d.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "article/heading/page",
+            "text": "firewalld uses the concepts of zones, policies, and services to simplify traffic management. Zones logically separate a network. Network interfaces and sources can be assigned to a zone. Policies are used to deny or allow traffic flowing between zones."
+          },
+          {
+            "id": "p2",
+            "locator": "article/heading/page",
+            "text": "          4. Intrazone traffic (within the same zone) is allowed by default.\n\n           5. Interzone traffic (from zone to zone) is denied by default."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      }
+    },
+    "concerns": [
+      {
+        "id": "5-concern-1",
+        "sfsId": "5",
+        "description": "Network segmentation implementation: Verify logical segmentation of network boundaries into subnets where resources in the same security zone or role are grouped together, with network security groups controlling access between subnets.",
+        "sourceRefs": [
+          {
+            "sourceId": "5-source-1",
+            "passageId": "p1"
+          },
+          {
+            "sourceId": "5-source-2",
+            "passageId": "p2"
+          }
+        ]
+      },
+      {
+        "id": "5-concern-2",
+        "sfsId": "5",
+        "description": "Microsegmentation enforcement: Verify implementation of fine-grained communication controls between systems through topology-defined or connection-defined segmentation models to prevent lateral movement and reduce attack surface.",
+        "sourceRefs": [
+          {
+            "sourceId": "5-source-2",
+            "passageId": "p1"
+          },
+          {
+            "sourceId": "5-source-2",
+            "passageId": "p2"
+          }
+        ]
+      },
+      {
+        "id": "5-concern-3",
+        "sfsId": "5",
+        "description": "Granular network access control: Verify implementation of role-based or attribute-based network access rules aligned with identified communities of interest and regulatory requirements to control traffic between network zones.",
+        "sourceRefs": [
+          {
+            "sourceId": "5-source-3",
+            "passageId": "p1"
+          },
+          {
+            "sourceId": "5-source-3",
+            "passageId": "p2"
+          }
+        ]
+      },
+      {
+        "id": "5-concern-4",
+        "sfsId": "5",
+        "description": "Secure remote access implementation: Verify implementation of properly configured encrypted VPN solutions (IPsec, OpenVPN, WireGuard) with strict firewall rules and absence of insecure protocols like PPTP for remote connectivity.",
+        "sourceRefs": [
+          {
+            "sourceId": "5-source-4",
+            "passageId": "p1"
+          },
+          {
+            "sourceId": "5-source-4",
+            "passageId": "p2"
+          }
+        ]
+      },
+      {
+        "id": "5-concern-5",
+        "sfsId": "5",
+        "description": "Network zone-based traffic management: Verify assignment of network interfaces to appropriate security zones with proper default behavior for intra-zone and inter-zone traffic according to Zero Trust principles.",
+        "sourceRefs": [
+          {
+            "sourceId": "5-source-5",
+            "passageId": "p1"
+          },
+          {
+            "sourceId": "5-source-5",
+            "passageId": "p2"
+          }
+        ]
+      }
+    ],
+    "queries": [
+      {
+        "scope": "5",
+        "toolId": "searxng_web_search",
+        "input": {
+          "max_results": 8,
+          "safesearch": 1,
+          "time_range": "",
+          "query": "Networking and VPNs official implementation configuration documentation network inventory segmentation firewalls security groups routing remote access zero trust traffic controls"
+        },
+        "outputDigest": "sha256:24fb48d310d2e3053d9a0bd01b2f740c1d5904186758f6d757eb49441aa40c3c",
+        "callId": "sources-5-1-discovery"
+      },
+      {
+        "scope": "5",
+        "toolId": "websearch_web_search",
+        "input": {
+          "query": "Official maintainer documentation for network segmentation firewalls security groups and VPN configuration",
+          "max_results": 5
+        },
+        "outputDigest": "sha256:d7503abc3a0dea178ab88647128f2159c90933b232e749f09e828d5cf4eefb8c",
+        "callId": "sources-5-1-discovery"
+      }
+    ],
+    "limitations": [
+      {
+        "scope": "5",
+        "description": "Brave search engine was unresponsive (Suspended: too many requests)"
+      },
+      {
+        "scope": "5",
+        "description": "Publication dates not specified in search results for most documents"
+      },
+      {
+        "scope": "5",
+        "description": "Vendor-specific applicability limitations for Zscaler, pfSense and Red Hat documentation"
+      },
+      {
+        "scope": "5",
+        "description": "Excluded unavailable discovery candidate: 5-source-6 https://www.zscaler.com/resources/brochures/zscaler-digital-transformation-admin-study-guide.pdf: Source exceeds the 25 MB snapshot limit"
+      },
+      {
+        "scope": "5",
+        "description": "Some documents reference future dates (2026) indicating potential test environment or forward-dated documentation"
+      }
+    ],
+    "admissionVersion": 2,
+    "observedResultUrls": [
+      "https://cloudsecurityalliance.org/artifacts/zero-trust-microsegmentation-guidance",
+      "https://docs.netgate.com/pfsense/en/latest/vpn/index.html",
+      "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/pdf/configuring_firewalls_and_packet_filters/red_hat_enterprise_linux-9-configuring_firewalls_and_packet_filters-en-us.pdf",
+      "https://learn.microsoft.com/en-us/azure/security/fundamentals/network-best-practices",
+      "https://www.nsa.gov/Cybersecurity/ZIG/Capabilities/Network-and-Environment/"
+    ]
+  },
+  "files": {
+    "snapshots/source-d74de7ebe8a34672d1a6bf48e6e4efc40aeb22616d1aac3383b5f204d2f0be8d.bin": "sha256:d74de7ebe8a34672d1a6bf48e6e4efc40aeb22616d1aac3383b5f204d2f0be8d",
+    "snapshots/source-f51fd692dfc37f99f53f1df3297b08b9bd162c74373c14d84e64d73dec3d2ada.txt": "sha256:f51fd692dfc37f99f53f1df3297b08b9bd162c74373c14d84e64d73dec3d2ada",
+    "snapshots/source-2a5c2762cb70384bf506bd1dde35e16dd0f5b44c7b0bcda400826531302f2db0.bin": "sha256:2a5c2762cb70384bf506bd1dde35e16dd0f5b44c7b0bcda400826531302f2db0",
+    "snapshots/source-f09ee2b2e5f37d59bee32635dd85a885204ae945d01fd6a7a240a30811e53ff9.txt": "sha256:f09ee2b2e5f37d59bee32635dd85a885204ae945d01fd6a7a240a30811e53ff9",
+    "snapshots/source-458c74a40d598b2fc942b6a20c277c47f698962ae67f884ae1dcd45f222f9e05.bin": "sha256:458c74a40d598b2fc942b6a20c277c47f698962ae67f884ae1dcd45f222f9e05",
+    "snapshots/source-afe10b60f1bdc96c72326874b3aae37a4653d17a9be4e917f6e6dd070c8b62bd.txt": "sha256:afe10b60f1bdc96c72326874b3aae37a4653d17a9be4e917f6e6dd070c8b62bd",
+    "snapshots/source-1000517d6560b099c10e1d02b60977f9ec72abb0542ceaabefc0d45cb8c1b01b.bin": "sha256:1000517d6560b099c10e1d02b60977f9ec72abb0542ceaabefc0d45cb8c1b01b",
+    "snapshots/source-857d2b9da9a8020205b0cefd474d82c07647627cd44956addf757b4d67f765f4.txt": "sha256:857d2b9da9a8020205b0cefd474d82c07647627cd44956addf757b4d67f765f4",
+    "snapshots/source-6a0c6c6263855737e371ab7580b7cdb84feb81ceda1cb5e72dea8f5f2fba5a33.bin": "sha256:6a0c6c6263855737e371ab7580b7cdb84feb81ceda1cb5e72dea8f5f2fba5a33",
+    "snapshots/source-fbe949828eb71ebc07f1e897cdb25ec6daecc04698b26a76e2044e7878de8b6d.txt": "sha256:fbe949828eb71ebc07f1e897cdb25ec6daecc04698b26a76e2044e7878de8b6d"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "66f71e2f9d74457a4dee125ee73a0464ec16671426a98cec361b87f32fa7fe6e",
+  "cachedAt": "2026-10-15T21:13:24Z",
+  "observedAt": "2026-10-15T21:13:24Z",
+  "originRunId": "qwen3-38804802602",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-3-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "3",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Authentication and Authorization official implementation configuration documentation site:owasp.org OR site:nist.gov OR site:cisa.gov OR site:ietf.org OR site:rfc-editor.org"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792098734418,
+    "end": 1792098736331
+  },
+  "outputDigest": "sha256:909d598ee2938a960a69f22ffd471acfd2d6a18287c826f22e67d02c035137f6",
+  "resultUrls": [
+    "https://pages.nist.gov/800-63-3/sp800-63b.html",
+    "https://www.rfc-editor.org/info/rfc2865/",
+    "https://www.rfc-editor.org/info/rfc3127/",
+    "https://www.rfc-editor.org/info/rfc4962/",
+    "https://www.rfc-editor.org/info/rfc6749/",
+    "https://www.rfc-editor.org/info/rfc9200/",
+    "https://www.rfc-editor.org/info/rfc9237/",
+    "https://www.rfc-editor.org/rfc/rfc8705"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Authentication and Authorization official implementation configuration documentation site:owasp.org OR site:nist.gov OR site:cisa.gov OR site:ietf.org OR site:rfc-editor.org\",\n  \"results\": [\n    {\n      \"title\": \"RFC 4962: Guidance for Authentication, Authorization, and ...\",\n      \"url\": \"https://www.rfc-editor.org/info/rfc4962/\",\n      \"content\": \"This document provides guidance to designers of Authentication, Authorization, and Accounting (AAA) key management protocols. The guidance is also useful to ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"RFC 9200: Authentication and Authorization for Constrained ...\",\n      \"url\": \"https://www.rfc-editor.org/info/rfc9200/\",\n      \"content\": \"This specification defines a framework for authentication and authorization in Internet of Things (IoT) environments called ACE-OAuth.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"RFC 2865: Remote Authentication Dial In User Service (RADIUS)\",\n      \"url\": \"https://www.rfc-editor.org/info/rfc2865/\",\n      \"content\": \"This document describes a protocol for carrying authentication, authorization, and configuration ... Implementation Note This memo documents the RADIUS protocol.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"RFC 8705: OAuth 2.0 Mutual-TLS Client Authentication and ...\",\n      \"url\": \"https://www.rfc-editor.org/rfc/rfc8705\",\n      \"content\": \"This document describes OAuth client authentication and certificate-bound access and refresh tokens using mutual Transport Layer Security (TLS) ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"RFC 3127: Authentication, Authorization, and Accounting: Protocol ...\",\n      \"url\": \"https://www.rfc-editor.org/info/rfc3127/\",\n      \"content\": \"RFC 3127: Authentication, Authorization, and Accounting: Protocol Evaluation · 1 NAI Support - The document [1] indicates that RADIUS specifies the NA",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "3"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "pages.nist.gov",
+      "www.rfc-editor.org"
+    ]
+  }
+}

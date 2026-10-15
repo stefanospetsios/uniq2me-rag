@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-scope",
+  "cachedAt": "2026-10-15T21:42:02Z",
+  "scopeId": "7",
+  "fingerprint": "1005f5b90533be88e49eb03cc9dd4b4a6d7b712a9c365392bd88997020732d0f",
+  "originRunId": "qwen3-38804802602",
+  "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "7"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "scope-admitted",
+    "publisher": null,
+    "host": null
+  },
+  "corpus": {
+    "sources": {
+      "7-source-1": {
+        "type": "guidance",
+        "title": "Deploy - OWASP DevSecOps Guideline",
+        "publisher": "OWASP Foundation",
+        "url": "https://owasp.github.io/DevSecOpsGuideline/2-Process/2-6-Deploy/2-6-1-Deploy/",
+        "language": "en",
+        "jurisdiction": "International",
+        "applicability": "Covers deployment governance, admission control, GitOps, progressive delivery, rollback procedures, and environment security for software lifecycle management",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "7-source-1",
+        "byteDigest": "sha256:0a14ba444c864b86b22d6210569d5a4bd6e525bbd46aa18f7c634b1fa76ad229",
+        "textDigest": "sha256:7d44ff4a8a7a7c1dd7e4ac10896a334e06bb406eb31c7f501265b7b6774b5538",
+        "finalUrl": "https://owasp.github.io/DevSecOpsGuideline/2-Process/2-6-Deploy/2-6-1-Deploy/",
+        "retrievedAt": "2026-10-15T21:40:37Z",
+        "contentType": "text/html; charset=utf-8",
+        "snapshotPath": "source-0a14ba444c864b86b22d6210569d5a4bd6e525bbd46aa18f7c634b1fa76ad229.bin",
+        "textPath": "source-7d44ff4a8a7a7c1dd7e4ac10896a334e06bb406eb31c7f501265b7b6774b5538.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Rollback procedures section",
+            "text": "Rollback is a git revert — fast, auditable, and not dependent on tribal knowledge."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "7-source-2": {
+        "type": "technical-doc",
+        "title": "Define secure release governance and rollback procedures | Microsoft Zero Trust",
+        "publisher": "Microsoft",
+        "url": "https://microsoft.github.io/zerotrustassessment/docs/workshop-guidance/devsecops/DS_117",
+        "language": "en",
+        "jurisdiction": "United States",
+        "applicability": "Implementation guidance for release approval workflows, security gates, artifact traceability, and tested rollback procedures in deployment pipelines",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "7-source-2",
+        "byteDigest": "sha256:b24e0cdbed2ea846c4137aebdf730067c55cc0a14e6eec85e2dbec0a4eb85f45",
+        "textDigest": "sha256:e2905f585c93ecbf71c7874ff70afb0da69d9c1f5719c2476be599571b3d5beb",
+        "finalUrl": "https://microsoft.github.io/zerotrustassessment/docs/workshop-guidance/devsecops/DS_117",
+        "retrievedAt": "2026-10-15T21:40:37Z",
+        "contentType": "text/html; charset=utf-8",
+        "snapshotPath": "source-b24e0cdbed2ea846c4137aebdf730067c55cc0a14e6eec85e2dbec0a4eb85f45.bin",
+        "textPath": "source-e2905f585c93ecbf71c7874ff70afb0da69d9c1f5719c2476be599571b3d5beb.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Overview section",
+            "text": "Define a formal release governance and rollback process for production deployments, with approvals, security gates, artifact traceability, and tested rollback steps."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "7-source-3": {
+        "type": "technical-doc",
+        "title": "Continuous Delivery - Code with Engineering Playbook",
+        "publisher": "Microsoft",
+        "url": "https://github.com/microsoft/code-with-engineering-playbook/blob/main/docs/CI-CD/continuous-delivery.md",
+        "language": "en",
+        "jurisdiction": "United States",
+        "applicability": "Comprehensive coverage of release strategy, environment promotion, zero-downtime deployments, blue-green/canary techniques, and rollback implementation",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "7-source-3",
+        "byteDigest": "sha256:ed0f7b47076d2476dff20041a2c15c67e70feb9a265cb727003de556f95707be",
+        "textDigest": "sha256:b84fc8b5e6e23f0cb2eca6b5b4c31af603ff3e36953f931282c92a4a482a59d3",
+        "finalUrl": "https://github.com/microsoft/code-with-engineering-playbook/blob/main/docs/CI-CD/continuous-delivery.md",
+        "retrievedAt": "2026-10-15T21:40:38Z",
+        "contentType": "text/html; charset=utf-8",
+        "snapshotPath": "source-ed0f7b47076d2476dff20041a2c15c67e70feb9a265cb727003de556f95707be.bin",
+        "textPath": "source-b84fc8b5e6e23f0cb2eca6b5b4c31af603ff3e36953f931282c92a4a482a59d3.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Rolling-Back Releases section",
+            "text": "Your release strategy should account for rollback scenarios in the event of unexpected failures following a deployment."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      }
+    },
+    "concerns": [
+      {
+        "id": "7-concern-1",
+        "sfsId": "7",
+        "description": "Formal release governance process with documented approval workflows, security gates, and artifact traceability for production deployments",
+        "sourceRefs": [
+          {
+            "sourceId": "7-source-2",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "7-concern-2",
+        "sfsId": "7",
+        "description": "Documented and tested rollback procedures that identify last known-good artifacts, storage locations, provenance verification, and redeployment steps",
+        "sourceRefs": [
+          {
+            "sourceId": "7-source-1",
+            "passageId": "p1"
+          },
+          {
+            "sourceId": "7-source-3",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "7-concern-3",
+        "sfsId": "7",
+        "description": "Deployment strategies using progressive techniques (blue-green/canary) and immutable artifact references to minimize user impact and simplify rollback",
+        "sourceRefs": [
+          {
+            "sourceId": "7-source-1",
+            "passageId": "p1"
+          },
+          {
+            "sourceId": "7-source-3",
+            "passageId": "p1"
+          }
+        ]
+      }
+    ],
+    "queries": [
+      {
+        "scope": "7",
+        "toolId": "searxng_web_search",
+        "input": {
+          "query": "Software Development Lifecycle official implementation configuration documentation",
+          "max_results": 10,
+          "safesearch": 1,
+          "time_range": ""
+        },
+        "outputDigest": "sha256:eb34382de893ee27fdf4cb7b2fae98118e38aac153d75217b6d44b854dab9a75",
+        "callId": "sources-7-1-discovery"
+      },
+      {
+        "scope": "7",
+        "toolId": "websearch_web_search",
+        "input": {
+          "query": "source control CI/CD build provenance release approval deployment rollback decommissioning official maintainer implementation documentation",
+          "max_results": 10
+        },
+        "outputDigest": "sha256:d9ac84e7dc4775acf93fda1fb86ddaac19764b99df9e16505d8aec9f713d4bd3",
+        "callId": "sources-7-1-discovery"
+      }
+    ],
+    "limitations": [
+      {
+        "scope": "7",
+        "description": "Publication dates not verifiable from search snippets; all set to null per observed precision"
+      },
+      {
+        "scope": "7",
+        "description": "Microsoft sources focus on Azure/Cloud environments but address universal SDLC principles"
+      },
+      {
+        "scope": "7",
+        "description": "OWASP guidance requires version confirmation through repository commit history"
+      },
+      {
+        "scope": "7",
+        "description": "GitHub blob URLs may point to specific code versions rather than canonical documentation landing pages"
+      },
+      {
+        "scope": "7",
+        "description": "No Greek-language technical implementation documents observed for this scope"
+      }
+    ],
+    "admissionVersion": 2,
+    "observedResultUrls": [
+      "https://github.com/microsoft/code-with-engineering-playbook/blob/main/docs/CI-CD/continuous-delivery.md",
+      "https://microsoft.github.io/zerotrustassessment/docs/workshop-guidance/devsecops/DS_117",
+      "https://owasp.github.io/DevSecOpsGuideline/2-Process/2-6-Deploy/2-6-1-Deploy/"
+    ]
+  },
+  "files": {
+    "snapshots/source-0a14ba444c864b86b22d6210569d5a4bd6e525bbd46aa18f7c634b1fa76ad229.bin": "sha256:0a14ba444c864b86b22d6210569d5a4bd6e525bbd46aa18f7c634b1fa76ad229",
+    "snapshots/source-7d44ff4a8a7a7c1dd7e4ac10896a334e06bb406eb31c7f501265b7b6774b5538.txt": "sha256:7d44ff4a8a7a7c1dd7e4ac10896a334e06bb406eb31c7f501265b7b6774b5538",
+    "snapshots/source-b24e0cdbed2ea846c4137aebdf730067c55cc0a14e6eec85e2dbec0a4eb85f45.bin": "sha256:b24e0cdbed2ea846c4137aebdf730067c55cc0a14e6eec85e2dbec0a4eb85f45",
+    "snapshots/source-e2905f585c93ecbf71c7874ff70afb0da69d9c1f5719c2476be599571b3d5beb.txt": "sha256:e2905f585c93ecbf71c7874ff70afb0da69d9c1f5719c2476be599571b3d5beb",
+    "snapshots/source-ed0f7b47076d2476dff20041a2c15c67e70feb9a265cb727003de556f95707be.bin": "sha256:ed0f7b47076d2476dff20041a2c15c67e70feb9a265cb727003de556f95707be",
+    "snapshots/source-b84fc8b5e6e23f0cb2eca6b5b4c31af603ff3e36953f931282c92a4a482a59d3.txt": "sha256:b84fc8b5e6e23f0cb2eca6b5b4c31af603ff3e36953f931282c92a4a482a59d3"
+  }
+}

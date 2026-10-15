@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "d7761750a153a414f5545571e1640d3275091c822368aaa9ba77780719de0f39",
+  "cachedAt": "2026-10-15T21:31:52Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://docs.netgate.com/pfsense/en/latest/vpn/index.html",
+  "finalUrl": "https://docs.netgate.com/pfsense/en/latest/vpn/index.html",
+  "language": "en",
+  "publisher": "Netgate (pfSense)",
+  "title": "Virtual Private Networks Documentation",
+  "retrievedAt": "2026-10-15T21:24:44Z",
+  "byteDigest": "sha256:1000517d6560b099c10e1d02b60977f9ec72abb0542ceaabefc0d45cb8c1b01b",
+  "textDigest": "sha256:857d2b9da9a8020205b0cefd474d82c07647627cd44956addf757b4d67f765f4",
+  "sourceId": "5-source-4",
+  "passageId": "p2",
+  "locator": "article/heading/page",
+  "quotation": "PPTP relies upon MS-CHAPv2 which has been completely compromised. Intercepted traffic can be decrypted by a third party 100% of the time, so consider any traffic carried in PPTP unencrypted. Migrate to another VPN type as soon as possible.",
+  "originalText": "device that utilizes PPTP is no longer secure.\n\n\n\n\nPPTP relies upon MS-CHAPv2 which has been completely compromised. Intercepted\ntraffic can be decrypted by a third party 100% of the time, so consider any\ntraffic carried in PPTP unencrypted. Migrate to another VPN type as soon as\npossible. More information on the PPTP security compromise can be found at\n\nhttps://isc.sans.edu/diary/End+of+Days+for+MS-CHAPv2/13807\n and\n\nhttps://www.cloudcracker.com/blog/2012/07/29/cracking-ms-chap-v2/\n.\n\n\n\n\n\n\n\n\n\n           \n\n\n\n          \n\n\n\n          \n\n      \n\n      \n\n        \n\n          Next\n\n\n\n          \nCommon deployments\n\n        \n\n\n\n        \n\n      \n\n\n\n      \n\n        \n\n        \n\n          Previous\n\n\n\n          \nMulti-Link PPPoE (MLPPP)\n\n        \n\n\n\n      \n\n\n\n    \n\n\n\n  \n\n    Was this page",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:31:52Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Netgate (pfSense)",
+    "host": "docs.netgate.com"
+  }
+}

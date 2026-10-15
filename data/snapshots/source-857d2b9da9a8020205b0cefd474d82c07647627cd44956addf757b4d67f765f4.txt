@@ -1,0 +1,1517 @@
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+Virtual Private Networks | pfSense Documentation
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+
+  
+    
+
+    
+
+  
+
+  
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+    
+
+    
+
+    
+
+    
+
+    
+ 
+  
+
+  
+
+  
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+    
+
+      
+
+        
+
+          
+
+            
+Netgate Logo
+
+            
+
+            
+
+            
+
+          
+
+          Netgate Docs
+        
+
+      
+
+
+
+      
+
+        
+Appliances
+
+
+
+        
+Platforms
+
+
+
+        
+Support
+
+
+
+        
+Training
+
+
+
+      
+
+    
+
+
+
+  
+
+
+ 
+  
+
+    
+
+      
+
+              
+
+                latest
+              
+
+
+
+
+
+  
+
+    
+
+    
+
+    
+
+  
+
+
+
+
+
+              
+
+
+Preface
+
+
+
+
+Introduction
+
+
+
+
+Releases
+
+
+
+
+Product Manuals
+
+
+
+
+Networking Concepts
+
+
+
+
+IPv6
+
+
+
+
+Hardware
+
+
+
+
+Installing and Upgrading
+
+
+
+
+Configuration
+
+
+
+
+Netgate
+®
+ Nexus
+
+
+
+
+Backup and Recovery
+
+
+
+
+Interface Types and Configuration
+
+
+
+
+User Management and Authentication
+
+
+
+
+Certificate Management
+
+
+
+
+Firewall
+
+
+
+
+Network Address Translation
+
+
+
+
+Routing
+
+
+
+
+Bridging
+
+
+
+
+Virtual LANs (VLANs)
+
+
+
+
+Multiple WAN Connections
+
+
+
+
+Virtual Private Networks
+
+
+Common deployments
+
+
+
+
+Choosing a VPN solution
+
+
+
+
+Remote Access Mobile VPN Client Compatibility
+
+
+
+
+VPNs and Firewall Rules
+
+
+
+
+IPv6 VPN and Firewall Rules
+
+
+
+
+VPN Scaling
+
+
+
+
+OpenVPN
+
+
+
+
+IPsec
+
+
+
+
+WireGuard
+
+
+
+
+PPTP Warning
+
+
+
+
+
+
+
+
+
+
+IPsec
+
+
+
+
+L2TP VPN
+
+
+
+
+OpenVPN
+
+
+
+
+WireGuard
+
+
+
+
+Services
+
+
+
+
+DHCP
+
+
+
+
+DNS
+
+
+
+
+Dynamic DNS
+
+
+
+
+NTPD
+
+
+
+
+Traffic Shaper
+
+
+
+
+Captive Portal
+
+
+
+
+High Availability
+
+
+
+
+System Monitoring
+
+
+
+
+Monitoring Graphs
+
+
+
+
+System Logs
+
+
+
+
+Diagnostics
+
+
+
+
+Packages
+
+
+
+
+Virtualization
+
+
+
+
+Wireless
+
+
+
+
+Cellular Wireless
+
+
+
+
+Troubleshooting
+
+
+
+
+pfSense® software Configuration Recipes
+
+
+
+
+
+
+References
+
+
+
+
+
+
+Menu Guide
+
+
+
+
+Glossary of Terms
+
+
+
+
+Development
+
+
+
+
+References
+
+
+
+
+Licensing
+
+
+
+
+
+
+Recipes
+
+
+
+
+
+
+pfSense® software Configuration Recipes
+
+
+
+
+
+
+        
+
+
+
+      
+
+
+
+    
+
+
+    
+
+          
+
+          
+The pfSense Documentation
+
+      
+
+
+      
+
+        
+
+          
+
+  
+
+      
+Docs
+ »
+
+
+
+      
+pfSense® software
+ 
+
+
+
+      
+
+              
+ Give Feedback
+
+      
+
+
+
+  
+
+    
+
+    
+
+      
+
+        Next
+
+
+
+        
+Common deployments
+
+      
+
+
+
+      
+
+    
+
+
+
+    
+
+      
+
+      
+
+        Previous
+
+
+
+        
+Multi-Link PPPoE (MLPPP)
+
+      
+
+
+
+    
+
+
+
+    
+
+  
+
+
+
+
+
+
+
+          
+
+           
+
+            
+
+              
+On This Page
+
+              
+
+
+Virtual Private Networks
+
+
+PPTP Warning
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+             
+  
+
+
+Virtual Private Networks
+¶
+
+
+
+
+
+
+
+
+Common deployments
+
+
+
+
+Choosing a VPN solution
+
+
+
+
+Remote Access Mobile VPN Client Compatibility
+
+
+
+
+VPNs and Firewall Rules
+
+
+
+
+IPv6 VPN and Firewall Rules
+
+
+
+
+VPN Scaling
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OpenVPN
+
+
+OpenVPN Data Channel Offload (DCO)
+
+
+
+
+OpenVPN Configuration Options
+
+
+
+
+OpenVPN Firewall Rules
+
+
+
+
+OpenVPN clients and Internet Access
+
+
+
+
+Assigning OpenVPN Interfaces
+
+
+
+
+OpenVPN and Multi-WAN
+
+
+
+
+OpenVPN and High Availability
+
+
+
+
+Sharing a Port with OpenVPN and a Web Server
+
+
+
+
+Controlling Client Parameters via RADIUS
+
+
+
+
+OpenVPN Adapter Address ICMP Behavior
+
+
+
+
+OpenVPN and Certificates
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IPsec
+
+
+IPsec Terminology
+
+
+
+
+IPsec Configuration
+
+
+
+
+Choosing a Mobile IPsec Style
+
+
+
+
+NAT with IPsec Phase 2 Networks
+
+
+
+
+Routed IPsec (VTI)
+
+
+
+
+IPsec and firewall rules
+
+
+
+
+Using IPsec with Multiple Subnets
+
+
+
+
+Configuring IPsec Keep Alive
+
+
+
+
+Testing IPsec Connectivity
+
+
+
+
+Client Routing and Gateway Considerations
+
+
+
+
+Configuring Third Party IPsec Devices
+
+
+
+
+Accessing Firewall Services over IPsec
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+WireGuard
+
+
+WireGuard Settings
+
+
+
+
+Design Considerations
+
+
+
+
+WireGuard Limitations
+
+
+
+
+Configure a WireGuard Tunnel
+
+
+
+
+Assign a WireGuard Interface
+
+
+
+
+WireGuard and Rules / NAT
+
+
+
+
+WireGuard Routing
+
+
+
+
+WireGuard Overview
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+See also
+
+
+
+
+
+
+L2TP Server Configuration
+
+
+
+
+
+
+Troubleshooting Cisco VPN Pass Through
+
+
+
+
+
+
+
+
+
+
+
+
+VPNs provide a means of tunneling traffic through an encrypted connection,
+preventing it from being seen or modified in transit. pfSense® software offers
+several VPN options: IPsec, OpenVPN, WireGuard and L2TP. This section provides
+an overview of VPN usage, the pros and cons of each type of VPN, and how to
+decide which is the best fit for a particular environment. Subsequent sections
+discuss each VPN option in detail.
+
+
+
+
+L2TP is purely a tunneling protocol and does not offer any encryption of its
+own. It is typically combined with another method of encryption such as IPsec in
+transport mode. Because of this, it doesn’t fit in with most of the discussion
+in this chapter. See 
+L2TP VPN
+ for more information on L2TP.
+
+
+
+
+
+
+PPTP Warning
+¶
+
+
+
+
+pfSense software does not include a PPTP server. Despite the attraction of its
+convenience, PPTP 
+must not be used
+ under any circumstances because it is no
+longer secure. This is not specific to the implementation of PPTP that was in
+pfSense software; Any device that utilizes PPTP is no longer secure.
+
+
+
+
+PPTP relies upon MS-CHAPv2 which has been completely compromised. Intercepted
+traffic can be decrypted by a third party 100% of the time, so consider any
+traffic carried in PPTP unencrypted. Migrate to another VPN type as soon as
+possible. More information on the PPTP security compromise can be found at
+
+https://isc.sans.edu/diary/End+of+Days+for+MS-CHAPv2/13807
+ and
+
+https://www.cloudcracker.com/blog/2012/07/29/cracking-ms-chap-v2/
+.
+
+
+
+
+
+
+
+
+
+           
+
+
+
+          
+
+
+
+          
+
+      
+
+      
+
+        
+
+          Next
+
+
+
+          
+Common deployments
+
+        
+
+
+
+        
+
+      
+
+
+
+      
+
+        
+
+        
+
+          Previous
+
+
+
+          
+Multi-Link PPPoE (MLPPP)
+
+        
+
+
+
+      
+
+
+
+    
+
+
+
+  
+
+    Was this page helpful?
+    
+
+        
+
+        
+
+        
+
+        
+
+        
+
+    
+
+  
+
+
+
+  
+
+    
+Documentation Feedback
+
+
+
+    
+
+        For assistance in solving software problems, please post your question on the 
+Netgate Forum
+.
+        If you see anything that's wrong or missing with the documentation, please suggest an edit by using the feedback
+        button in the upper right corner so it can be improved.
+    
+
+
+
+  
+
+
+
+
+  
+
+
+  
+
+    
+
+        
+        © 2026 Electric Sheep Fencing LLC and Rubicon Communications LLC. All Rights Reserved.
+        
+
+
+
+        
+  
+Your Privacy Choices
+ |
+        
+Privacy Policy
+ | 
+Cookie Policy
+ | 
+Notice at Collection
+ | 
+Legal
+This page was last updated on May 01 2023.
+
+
+
+    
+
+
+
+  
+
+
+
+
+  
+    
+
+   
+
+  
+
+    
+
+        
+
+            
+Other Resources
+
+            
+            
+ 
+Platforms Overview
+
+
+
+            
+            
+ 
+TNSR Solutions
+
+
+
+            
+            
+ 
+pfSense Solutions
+
+
+
+            
+            
+ 
+Appliances
+
+
+
+            
+            
+ 
+Find a Partner
+
+
+
+            
+            
+ 
+Support Plans
+
+
+
+            
+            
+ 
+Training
+
+
+
+            
+            
+ 
+Professional Services
+
+
+
+            
+            
+ 
+Blog
+
+
+
+            
+            
+ 
+Resource Library
+
+
+
+            
+            
+ 
+ Security Information
+
+
+
+            
+            
+ 
+About Us
+
+
+
+            
+            
+ 
+Careers
+
+
+
+            
+            
+ 
+Contact Us
+
+
+
+            
+        
+
+    
+
+
+
+    
+
+            
+
+                
+
+
+
+                
+
+
+
+                
+
+
+
+                
+
+
+
+                
+
+
+
+            
+
+
+            
+Our Mission
+
+            
+We provide leading-edge network security at a fair price - regardless of organizational size or network sophistication. We believe that an open-source security model offers disruptive pricing along with the agility required to quickly address emerging threats.
+
+
+
+
+            
+Subscribe to our Newsletter
+
+            
+Product information, software announcements, and special offers. See our 
+newsletter archive
+ for past announcements.
+
+
+
+            
+
+            
+
+            
+
+            
+
+    
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+      
+
+
+
+    
+
+  
+
+
+
+    
+
+    
+
+      
+ Additional Resources
+
+      v: latest
+      
+
+    
+
+    
+
+      
+
+        
+Languages
+
+        
+en
+
+      
+
+      
+
+        
+Versions
+
+        
+latest
+
+      
+
+      
+
+      
+
+        
+Software Documentation
+
+        
+          
+pfSense
+
+        
+          
+TNSR
+
+        
+      
+
+      
+
+        
+Product Manuals
+
+          
+
+            
+
+              
+
+                
+pfSense
+
+              
+                
+All Manuals
+
+              
+                
+Amazon AWS
+
+              
+                
+Microsoft Azure
+
+              
+                
+Netgate 1100
+
+              
+                
+Netgate 2100
+
+              
+                
+Netgate 4100
+
+              
+                
+Netgate 4200
+
+              
+                
+Netgate 6100
+
+              
+                
+Netgate 8200
+
+              
+                
+Netgate 8300
+
+              
+                
+Netgate 1537
+
+              
+                
+Netgate 1541
+
+              
+              
+
+            
+
+
+
+          
+
+          
+
+            
+
+              
+
+                  
+TNSR
+
+                
+                  
+All Platforms
+
+                
+                  
+Amazon AWS
+
+                
+                  
+Microsoft Azure
+
+                
+                  
+Netgate 6100 Max
+
+                
+                  
+Netgate 8200
+
+                
+                  
+Netgate 8300
+
+                
+                  
+Netgate 1537 1U
+
+                
+                  
+Netgate 1541 1U
+
+                
+                
+
+            
+
+          
+
+
+
+      
+
+    
+
+
+
+  
+
+
+
+    
+
+    
+ 
+
+
+

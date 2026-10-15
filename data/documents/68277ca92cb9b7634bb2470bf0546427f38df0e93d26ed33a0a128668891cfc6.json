@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T21:54:27Z",
+  "originRunId": "qwen3-38804802602",
+  "source": {
+    "id": "B-source-5",
+    "type": "technical-doc",
+    "title": "Guide for Security-Focused Configuration Management of Information Technology Systems",
+    "publisher": "National Institute of Standards and Technology (NIST)",
+    "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-128.pdf",
+    "language": "en",
+    "jurisdiction": "United States",
+    "applicability": "Technical specification for configuration management processes applicable to maintaining hardware/IoT device security postures including inventory control and change verification",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:ee97c5be0a5a1c70165bf960c67042c5ed1bcb186aeb592eada60e512ab35a70",
+    "textDigest": "sha256:a8fbf3671c146329df8ab3f840f8b77f6020694d780874f98ab8d8038574ce55",
+    "finalUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-128.pdf",
+    "retrievedAt": "2026-10-15T21:54:27Z",
+    "contentType": "application/pdf",
+    "snapshotPath": "source-ee97c5be0a5a1c70165bf960c67042c5ed1bcb186aeb592eada60e512ab35a70.bin",
+    "textPath": "source-a8fbf3671c146329df8ab3f840f8b77f6020694d780874f98ab8d8038574ce55.txt"
+  },
+  "files": {
+    "snapshots/source-ee97c5be0a5a1c70165bf960c67042c5ed1bcb186aeb592eada60e512ab35a70.bin": "sha256:ee97c5be0a5a1c70165bf960c67042c5ed1bcb186aeb592eada60e512ab35a70",
+    "snapshots/source-a8fbf3671c146329df8ab3f840f8b77f6020694d780874f98ab8d8038574ce55.txt": "sha256:a8fbf3671c146329df8ab3f840f8b77f6020694d780874f98ab8d8038574ce55"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-128.pdf",
+  "language": "en",
+  "retrievedAt": "2026-10-15T21:54:27Z",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:54:27Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": "      NIST Special Publication 800-128\n\n\n   Guide for Security-Focused\n Configuration Management of\n         Information Systems\n                                       Arnold Johnson\n                                       Kelley Dempsey\n                                              Ron Ross\n                                         Sarbari Gupta\n                                         Dennis Bailey\n\n\n       This publication is available free of charge from:\n              https://doi.org/10.6028/NIST.SP.800-128\n\n\nINFORMATION SECURITY\n\f                       NIST Special Publication 800-128\n\n          Guide for Security-Focused\n        Configuration Management of\n                Information Systems\n                                                              Arnold Johnson\n                 ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "B"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "National Institute of Standards and Technology (NIST)",
+    "host": "nvlpubs.nist.gov"
+  }
+}

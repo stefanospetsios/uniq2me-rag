@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "47f5d1557ba3d8f254db6da3c488f239b23774e161408fe81d647aa13e232dc9",
+  "cachedAt": "2026-10-15T22:05:53Z",
+  "observedAt": "2026-10-15T22:05:53Z",
+  "originRunId": "qwen3-38804802602",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-C-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "C",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "APIs official maintainer implementation configuration documentation MQTT protocols service integration interface authentication authorization input validation data exchange mock APIs integration testing"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792101915349,
+    "end": 1792101916638
+  },
+  "outputDigest": "sha256:d3eeed0b09386d519569aaa84901247705c912f163a5a59ff9f5f9b84f29f8ef",
+  "resultUrls": [
+    "https://github.com/asyncapi/spec/blob/master/spec/asyncapi.md",
+    "https://github.com/microcks/api-tooling.git",
+    "https://microcks.io/documentation/guides/usage/async-protocols/mqtt-support/"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"MQTT Mocking & Testing\",\n      \"url\": \"https://microcks.io/documentation/guides/usage/async-protocols/mqtt-support/\",\n      \"content\": \"MQTT Mocking & Testing\\n\\n## MQTT Mocking & Testing\\n\\n🗓️ Last updated on May 13, 2024 | 7 | Improve this page\\n\\n## Overview\\n\\nThis guide shows you how to use the Message Queuing Telemetry Transport (MQTT) protocol with Microcks. MQTT is a standard messaging protocol for the Internet of Things (IoT). It is used today in a wide variety of industries, such as automotive, manufacturing, telecommunications, oil and gas, etc.\\n\\nMicrocks supports MQTT as a protocol binding for AsyncAPI. That means that Microcks can connect to an MQTT broker for publishing mock messages as soon as it receives a valid AsyncAPI Specification and to any MQTT broker in your organization to check that flowing messages are compliant with the schema described within your specification.\\n\\nLet’s start! 🚀\\n\\n## 1. Set up the MQTT broker connection\\n\\nThe first mandatory step here is to set up Microcks so that it will be able to connect to an MQTT broker for sending mock messages. Microcks has been tested successfully with ActiveMQ Artemis as well as Eclipse Mosquitto with MQTT protocol version `3.1.1`. Both can be deployed as containerized workloads on your Kubernetes cluster. Microcks does not provide any installation scripts or procedures; please refer to the projects or related products documentation.\\n\\nIf you have used the Operator based installation of Microcks, you’ll need to add some extra properties to your `MicrocksInstall` custom resource. The fragment below shows the important ones:\\n\\n```yaml\\napiVersion: microcks.github.io/v1alpha1\\nkind: MicrocksInstall\\nmetadata:\\n  name: microcks\\nspec:\\n  [...]\\n  features:\\n    async:\\n      enabled: true\\n      [...]\\n      mqtt:\\n        url: mqtt-broker.app.example.com:1883\\n        username: microcks\\n        password: microcks\\n\\n```\\n\\nThe `async` feature should, of",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "C"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "github.com",
+      "microcks.io"
+    ]
+  }
+}

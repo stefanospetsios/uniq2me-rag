@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T22:08:48Z",
+  "originRunId": "qwen3-38804802602",
+  "source": {
+    "id": "D-source-1",
+    "type": "technical-doc",
+    "title": "ISO 27001 Roles And Responsibilities: Your Step-by-Step Guide (2026)",
+    "publisher": "Konfirmity",
+    "url": "https://www.konfirmity.com/blog/iso-27001-roles-and-responsibilities",
+    "language": "en",
+    "jurisdiction": "International",
+    "applicability": "Organizations implementing ISO 27001 for information security governance, covering role assignment, policy documentation, and accountability structures",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:d7a01b42d59d5202908d75cec60813c5e2d6f0bd9d1042c24c36133159cdce83",
+    "textDigest": "sha256:1566024d4333535a39526d710591da99012df061094b7519cf9ed91ea67ec428",
+    "finalUrl": "https://www.konfirmity.com/blog/iso-27001-roles-and-responsibilities",
+    "retrievedAt": "2026-10-15T22:08:48Z",
+    "contentType": "text/html",
+    "snapshotPath": "source-d7a01b42d59d5202908d75cec60813c5e2d6f0bd9d1042c24c36133159cdce83.bin",
+    "textPath": "source-1566024d4333535a39526d710591da99012df061094b7519cf9ed91ea67ec428.txt"
+  },
+  "files": {
+    "snapshots/source-d7a01b42d59d5202908d75cec60813c5e2d6f0bd9d1042c24c36133159cdce83.bin": "sha256:d7a01b42d59d5202908d75cec60813c5e2d6f0bd9d1042c24c36133159cdce83",
+    "snapshots/source-1566024d4333535a39526d710591da99012df061094b7519cf9ed91ea67ec428.txt": "sha256:1566024d4333535a39526d710591da99012df061094b7519cf9ed91ea67ec428"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.konfirmity.com/blog/iso-27001-roles-and-responsibilities",
+  "language": "en",
+  "retrievedAt": "2026-10-15T22:08:48Z",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T22:08:48Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": "ISO 27001 Roles And Responsibilities: Your Step-by-Step Guide (2026) | Konfirmity\n\n\nPLATFORM\n\n\nFRAMEWORK\n\n\nRESOURCES\n\n\nCONTACT\n\n\n\n\n\n\n\n\n<\n Go Back\n\n\nLeadership & Strategy\n\n\nPart of the\n \nISO 27001\n \ncompliance guide\n\n\n\n\nISO 27001 Roles And Responsibilities: Your Step-by-Step Guide (2026)\n\n\nAmit Gupta\n\n\nUpdated 2026-10-09\n\n\n\n\n\n\n\n\nTable of Contents\n\n\n\n\n1\nWhat ISO 27001 Says About Roles & Responsibilities\n2\nHow to Set Up Roles & Responsibilities (Step‑by‑Step)\n3\nHow Roles & Responsibilities Tie Into Broader ISO 27001 Requirements\n4\nCommon Challenges & Pitfalls\n5\nWhy Roles & Responsibilities Matter for Companies Selling to Enterprise Clients\n6\nSample Structure of a Roles & Responsibilities Matrix\n7\nMaintenance: Reviewing, Updating and Auditing Roles & Responsibilities\n8\nConclusion\n9\nFAQs\n\n\nRequ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "D"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Konfirmity",
+    "host": "www.konfirmity.com"
+  }
+}

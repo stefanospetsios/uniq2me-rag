@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "1d78bd81e410e160e7995091e1ecc3512fef21da1a7bc27241cf08d16930184f",
+  "cachedAt": "2026-10-15T20:55:08Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://learn.microsoft.com/en-us/intune/configmgr/osd/",
+  "finalUrl": "https://learn.microsoft.com/en-us/intune/configmgr/osd/",
+  "language": "en",
+  "publisher": "Microsoft",
+  "title": "OS deployment documentation - Configuration Manager",
+  "retrievedAt": "2026-10-15T20:53:15Z",
+  "byteDigest": "sha256:cace0df81b539a67a68f00c7480e73224bb2e27968a6192b2b32a05448b20b2a",
+  "textDigest": "sha256:d09f6b27a0c5220fe048580e13625f0bbfde3987b5de624704afaf88fa160ef6",
+  "sourceId": "0-source-1",
+  "passageId": "p1",
+  "locator": "OS deployment documentation section",
+  "quotation": "Use Configuration Manager to deploy Windows via different methods and automate tasks.",
+  "originalText": "Use Configuration Manager to deploy Windows via different methods and automate tasks.",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T20:55:08Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Microsoft",
+    "host": "learn.microsoft.com"
+  }
+}

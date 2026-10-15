@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "aedb30b6748612dfc39efd577fd08d395a87ff255f72745a1ee1d53fbcd35fbe",
+  "cachedAt": "2026-10-15T21:54:21Z",
+  "observedAt": "2026-10-15T21:54:21Z",
+  "originRunId": "qwen3-38804802602",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-B-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "B",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Hardware-Oriented Security and IoT Auditing official implementation configuration documentation",
+    "time_range": ""
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792101185930,
+    "end": 1792101187461
+  },
+  "outputDigest": "sha256:3be11c7c7c392a67e91bad0151a730a5d10af50b8b38c50847a3f7ee027d649d",
+  "resultUrls": [
+    "https://dodcio.defense.gov/Portals/0/Documents/CMMC/AssessmentGuideL2.pdf",
+    "https://github.com/scriptingxss/owasp-fstm",
+    "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-128.pdf",
+    "https://www.cisa.gov/resources-tools/resources/enhanced-visibility-and-hardening-guidance-communications-infrastructure",
+    "https://www.dsci.in/files/content/knowledge-centre/2023/IoT-Security-Guide.pdf",
+    "https://www.etsi.org/deliver/etsi_ts/103700_103799/103701/02.01.01_60/ts_103701v020101p.pdf",
+    "https://www.mdpi.com/2079-9292/14/20/3972",
+    "https://www.sciencedirect.com/science/article/pii/S0164121226000671"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Hardware-Oriented Security and IoT Auditing official implementation configuration documentation\",\n  \"results\": [\n    {\n      \"title\": \"PDF IoT SECURITY GUIDE\",\n      \"url\": \"https://www.dsci.in/files/content/knowledge-centre/2023/IoT-Security-Guide.pdf\",\n      \"content\": \"In this context, we aim to present a wide spectrum of technological perspectives on IoT Security through our IoT Security Guidebook. This guidebook is a comprehensive document that covers IoT communication protocols as well as advice for building architectures for designing and developing IoT applications. Furthermore, the document highlights existing security architectures used across various ...\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Guide for Security-Focused Configuration Management of ...\",\n      \"url\": \"https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-128.pdf\",\n      \"content\": \"10 Οκτ 2019 ... Attribution would, however, be appreciated by NIST. National Institute of Standards and Technology Special Publication 800-128. Natl. Inst.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"CMMC Assessment Guide\",\n      \"url\": \"https://dodcio.defense.gov/Portals/0/Documents/CMMC/AssessmentGuideL2.pdf\",\n      \"content\": \"[a] security configuration settings for information technology ... configuration documentation; system security plan; change control records; system audit.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"OWASP Firmware Security Testing Methodology - GitHub\",\n      \"url\": \"https://github.com/scriptingxss/owasp-fstm\",\n      \"content\": \"12 Ιουλ 2016 ... For requirements-driven security assessments, the OWASP IoT Security Verification Standard (ISVS) defines WHAT security controls must be ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"ETSI TS 103 701 V2.1.1 (2025-05)\",\n      \"url\": \"https://www.etsi.org/d",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "B"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "dodcio.defense.gov",
+      "github.com",
+      "nvlpubs.nist.gov",
+      "www.cisa.gov",
+      "www.dsci.in",
+      "www.etsi.org",
+      "www.mdpi.com",
+      "www.sciencedirect.com"
+    ]
+  }
+}

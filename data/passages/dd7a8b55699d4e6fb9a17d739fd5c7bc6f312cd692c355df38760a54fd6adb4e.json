@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "dd7a8b55699d4e6fb9a17d739fd5c7bc6f312cd692c355df38760a54fd6adb4e",
+  "cachedAt": "2026-10-15T22:04:59Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://www.infineon.com/dgdl/Infineon-PSoC_64_Secure_MCU_Secure_Boot_SDK_User_Guide-Software-v07_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0f8c361a7666",
+  "finalUrl": "https://www.infineon.com/assets/row/public/documents/30/44/infineon-psoc64-secure-boot-sdk-ug-usermanual-en.pdf",
+  "language": "en",
+  "publisher": "Infineon Technologies",
+  "title": "Secure Boot SDK user guide",
+  "retrievedAt": "2026-10-15T22:02:00Z",
+  "byteDigest": "sha256:1944f7ca3169fa6cd74e52efde73f8a418ea36d84826559b07be660bf3a05222",
+  "textDigest": "sha256:27ebf6332c6cfa501107afb263a146d2622f87b6cad53fe59cd62641fda03b1a",
+  "sourceId": "B-source-3",
+  "passageId": "p1",
+  "locator": "Section 2.2 Overview",
+  "quotation": "The PSOC™ 64 Secure Boot MCU line, based on the PSOC™ 6 MCU platform, features out-of-box security functionality. This line provides an isolated Root of Trust (RoT) with true attestation and provisioning services",
+  "originalText": "Boot SDK user guide\n\n2 Overview\n\n\n2                      Overview\nThe PSOC™ 64 Secure Boot MCU line, based on the PSOC™ 6 MCU platform, features out-of-box security\nfunctionality. This line provides an isolated Root of Trust (RoT) with true attestation and provisioning services.\nAdditionally, these MCUs offer a pre-configured secure execution environment that supports system software\nfor various IoT platforms and provides:\n•    Secure provisioning\n•    Secure",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T22:04:59Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "B"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Infineon Technologies",
+    "host": "www.infineon.com"
+  }
+}

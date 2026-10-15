@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "c4370ec3e2a7b26e1c7415307c73d1864f485b62985eac0a119e87bc3efb5b0f",
+  "cachedAt": "2026-10-15T22:07:09Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://github.com/asyncapi/spec/blob/master/spec/asyncapi.md",
+  "finalUrl": "https://github.com/asyncapi/spec/blob/master/spec/asyncapi.md",
+  "language": "en",
+  "publisher": "AsyncAPI Initiative",
+  "title": "AsyncAPI Specification",
+  "retrievedAt": "2026-10-15T22:05:55Z",
+  "byteDigest": "sha256:4fcecf3a41bb13ae0843a2dd3820580cfbb9437d9e7945d8e0edbedfd199b6ec",
+  "textDigest": "sha256:4664f54ebe263012e4610a0a831c4d11dcc55520eeba85d75163eb2168dc3af3",
+  "sourceId": "C-source-2",
+  "passageId": "p1",
+  "locator": "Introduction",
+  "quotation": "The AsyncAPI Specification is a project used to describe message-driven APIs in a machine-readable format. It's protocol-agnostic, so you can use it for APIs that work over any protocol (e.g., AMQP, MQTT, WebSockets, Kafka, STOMP, HTTP, Mercure, etc).",
+  "originalText": "under \nThe Apache License, Version 2.0\n.\n\n\n\n\nIntroduction\n\n\n\n\n\n\nThe AsyncAPI Specification is a project used to describe message-driven APIs in a machine-readable format. It’s protocol-agnostic, so you can use it for APIs that work over any protocol (e.g., AMQP, MQTT, WebSockets, Kafka, STOMP, HTTP, Mercure, etc).\n\n\n\n\nThe AsyncAPI Specification defines a set of fields that can be used in an AsyncAPI document to describe an \napplication\n's API. The document may",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T22:07:09Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "C"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "AsyncAPI Initiative",
+    "host": "github.com"
+  }
+}

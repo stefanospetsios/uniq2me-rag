@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T21:13:31Z",
+  "originRunId": "qwen3-38804802602",
+  "source": {
+    "id": "3-source-3",
+    "type": "guidance",
+    "title": "Identity Lifecycle Management Playbook",
+    "publisher": "U.S. Federal Chief Information Security Officer Council ICAM Subcommittee",
+    "url": "https://www.idmanagement.gov/playbooks/ilm/",
+    "language": "en",
+    "jurisdiction": "United States",
+    "applicability": "Implementation guidance for identity lifecycle management covering provisioning, access adjustment, and deprovisioning in federal zero-trust architectures",
+    "publicationDate": "2026-03-31",
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "Executive Summary",
+        "text": "managing the continuous lifecycle of digital identities"
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:916ee4888919178ce180b288169ae4e7a41f7e3ba47a73e1a7731570eac98c87",
+    "textDigest": "sha256:5e46cfc1f7b87becd9259e5ecb4dfc9c929148eec047bba75116f5241018059c",
+    "finalUrl": "https://www.idmanagement.gov/playbooks/ilm/",
+    "retrievedAt": "2026-10-15T21:13:31Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-916ee4888919178ce180b288169ae4e7a41f7e3ba47a73e1a7731570eac98c87.bin",
+    "textPath": "source-5e46cfc1f7b87becd9259e5ecb4dfc9c929148eec047bba75116f5241018059c.txt"
+  },
+  "files": {
+    "snapshots/source-916ee4888919178ce180b288169ae4e7a41f7e3ba47a73e1a7731570eac98c87.bin": "sha256:916ee4888919178ce180b288169ae4e7a41f7e3ba47a73e1a7731570eac98c87",
+    "snapshots/source-5e46cfc1f7b87becd9259e5ecb4dfc9c929148eec047bba75116f5241018059c.txt": "sha256:5e46cfc1f7b87becd9259e5ecb4dfc9c929148eec047bba75116f5241018059c"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.idmanagement.gov/playbooks/ilm/",
+  "language": "en",
+  "retrievedAt": "2026-10-15T21:13:31Z",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:17:29Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": "\n\n\n\n\n\n\n\n\n\n\n\n  \n\n  \n\n  \n\n  \n  \n  \n\n\n  \n\n  \n\n  \n\n  \n\n\n  \n\n  \n  \nIdentity Lifecycle Management Playbook - IDManagement\n\n  \n\n  \n\n  \n\n  \n\n  \n\n\n  \n\n  \n\n  \n\n  \n\n  \n\n\n  \n\n  \n\n  \n\n\n  \n\n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n\n  \n\n  \n\n  \n\n\n  \n\n  \n\n\n  \n\n\n  \n\n  \n\n  \n\n\n\n\n\n\n\n  \n\n\n\n  \nSkip to main content\n\n  \n\n    \n\n      \n\n        \n\n          \n\n            \n\n          \n\n\n\n          \n\n            \nAn official website of the United States government\n\n\n\n            \nHere’s how you know\n\n\n\n          \n\n\n\n          \n\n            \nHere's how you know\n\n          \n\n        \n\n\n\n      \n\n      \n\n        \n\n          \n\n            \n\n            \n\n              \n\n                \nThe .gov means it’s official.\n\n                \n\n                Federal Government websites often end in .gov or .mil. Before ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "3"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "U.S. Federal Chief Information Security Officer Council ICAM Subcommittee",
+    "host": "www.idmanagement.gov"
+  }
+}

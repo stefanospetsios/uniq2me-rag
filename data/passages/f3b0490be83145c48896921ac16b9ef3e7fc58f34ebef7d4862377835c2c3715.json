@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "f3b0490be83145c48896921ac16b9ef3e7fc58f34ebef7d4862377835c2c3715",
+  "cachedAt": "2026-10-15T21:23:31Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://docs.aws.amazon.com/wellarchitected/latest/framework/sus_sus_data_a2.html",
+  "finalUrl": "https://docs.aws.amazon.com/wellarchitected/latest/framework/sus_sus_data_a2.html",
+  "language": "en",
+  "publisher": "Amazon Web Services",
+  "title": "SUS04-BP01 Implement a data classification policy",
+  "retrievedAt": "2026-10-15T21:22:20Z",
+  "byteDigest": "sha256:6172cb3fcc6ccb69f31e83a7b67721b898cb01c1be31f95bf96f0c3a639984b8",
+  "textDigest": "sha256:d3aba3364bb214d1ed2b531dbade2c5aa88abc99136adb6f7bef5e21f87c9ee8",
+  "sourceId": "4-source-3",
+  "passageId": "p1",
+  "locator": "Best practice statement",
+  "quotation": "Classify data to understand its criticality to business outcomes and choose the right energy-efficient storage tier to store the data.",
+  "originalText": "guidance\nResources\n\n\nSUS04-BP01 Implement a data classification policy\n\n\n\n\nClassify data to understand its criticality to business \n    outcomes and choose the right energy-efficient storage tier \n    to store the data.\n\n\n\n    \nCommon anti-patterns:\n\n  \n\n\n\n     \n     \n  \n\n      \n\n        You do not identify data assets with similar characteristics \n        (such as sensitivity, business criticality, or regulatory \n        requirements) that are being processed or stored.",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:23:31Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "4"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Amazon Web Services",
+    "host": "docs.aws.amazon.com"
+  }
+}

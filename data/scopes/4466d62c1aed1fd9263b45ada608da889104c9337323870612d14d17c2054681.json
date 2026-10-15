@@ -1,0 +1,297 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-scope",
+  "cachedAt": "2026-10-15T21:08:42Z",
+  "scopeId": "1",
+  "fingerprint": "4466d62c1aed1fd9263b45ada608da889104c9337323870612d14d17c2054681",
+  "originRunId": "qwen3-38804802602",
+  "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "scope-admitted",
+    "publisher": null,
+    "host": null
+  },
+  "corpus": {
+    "sources": {
+      "1-source-1": {
+        "type": "guidance",
+        "title": "TECHNICAL IMPLEMENTATION GUIDANCE - ENISA",
+        "publisher": "ENISA (European Union Agency for Cybersecurity)",
+        "url": "https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf",
+        "language": "en",
+        "jurisdiction": "European Union",
+        "applicability": "Cybersecurity risk management for NIS2-relevant entities, specifically covering configuration settings for emergency administrative access as referenced in password management for privileged accounts",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "1-source-1",
+        "byteDigest": "sha256:f03186edb047ece269ab9deeb3f0ec6172582ccc577617f0eb79e9bf96a7021b",
+        "textDigest": "sha256:effbd5b01b9fc323fad9ab61fca97caa63acc7891c62076f42f8f6537096d36d",
+        "finalUrl": "https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf",
+        "retrievedAt": "2026-10-15T21:04:56Z",
+        "contentType": "application/pdf",
+        "snapshotPath": "source-f03186edb047ece269ab9deeb3f0ec6172582ccc577617f0eb79e9bf96a7021b.bin",
+        "textPath": "source-effbd5b01b9fc323fad9ab61fca97caa63acc7891c62076f42f8f6537096d36d.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "1.1.1(k)",
+            "text": "Documented policy on the security of network and information systems which contains the elements required by points 1.1.1 (a) to 1.1.1 (k) of the Annex to the regulation."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "1-source-2": {
+        "type": "guidance",
+        "title": "Account Management Configuration Requirements - Canada.ca",
+        "publisher": "Government of Canada",
+        "url": "https://www.canada.ca/en/government/system/digital-government/policies-standards/enterprise-it-service-common-configurations/account.html",
+        "language": "en",
+        "jurisdiction": "Canada",
+        "applicability": "Federal information systems requiring implementation of separation of duties, privileged account management, and emergency access procedures through time-limited credentials and just-in-time privilege escalation",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "1-source-2",
+        "byteDigest": "sha256:7c4996b0a182b875fa80a12c07ece285629080457e0e397b6d974fcabcd54c98",
+        "textDigest": "sha256:9c4300dae59d9c85c1cf77335234109889780c5f1e708badde27f824ff7a3d11",
+        "finalUrl": "https://www.canada.ca/en/government/system/digital-government/policies-standards/enterprise-it-service-common-configurations/account.html",
+        "retrievedAt": "2026-10-15T21:04:56Z",
+        "contentType": "text/html;charset=utf-8",
+        "snapshotPath": "source-7c4996b0a182b875fa80a12c07ece285629080457e0e397b6d974fcabcd54c98.bin",
+        "textPath": "source-9c4300dae59d9c85c1cf77335234109889780c5f1e708badde27f824ff7a3d11.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "4.3",
+            "text": "Establish separate and dedicated user accounts to be used solely for duties that require privileged access."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "1-source-3": {
+        "type": "technical-doc",
+        "title": "Limit user account management to the User Manager role",
+        "publisher": "SolarWinds",
+        "url": "https://documentation.solarwinds.com/en/success_center/dpa/content/dpa-limit-user-acct-mgmt-to-role.htm",
+        "language": "en",
+        "jurisdiction": "Global",
+        "applicability": "SolarWinds Database Performance Analyzer environments implementing strict separation of duties through role-based access controls where User Manager role exclusively manages user accounts",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "1-source-3",
+        "byteDigest": "sha256:6c108db9c322fa53d8eaaeb2241310dbdb241a7b56d57448972a7c9a801af7f6",
+        "textDigest": "sha256:ba49256a95ddb0520ebf9df2fd85b0097218c203d31364312aa6c2177e25bc31",
+        "finalUrl": "https://documentation.solarwinds.com/en/success_center/dpa/content/dpa-limit-user-acct-mgmt-to-role.htm",
+        "retrievedAt": "2026-10-15T21:04:58Z",
+        "contentType": "text/html; charset=UTF-8",
+        "snapshotPath": "source-6c108db9c322fa53d8eaaeb2241310dbdb241a7b56d57448972a7c9a801af7f6.bin",
+        "textPath": "source-ba49256a95ddb0520ebf9df2fd85b0097218c203d31364312aa6c2177e25bc31.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Title section",
+            "text": "Limit user account management to the User Manager role"
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "1-source-4": {
+        "type": "technical-doc",
+        "title": "Phase 1: Design account and identity strategy | Databricks on AWS",
+        "publisher": "Databricks",
+        "url": "https://docs.databricks.com/aws/en/lakehouse-architecture/deployment-guide/account-setup",
+        "language": "en",
+        "jurisdiction": "Global",
+        "applicability": "Databricks deployments requiring administrative role design patterns with segregated duties, emergency access procedures, and identity federation across account, workspace and data governance layers",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "1-source-4",
+        "byteDigest": "sha256:270120fc357948997aa9f117290eb21f0f516d1bf1b879b83fde5baa0b8d0a24",
+        "textDigest": "sha256:acaa78e9201832b9587f0c149d4448fce7942f36e639019fe318589ad937ab47",
+        "finalUrl": "https://docs.databricks.com/aws/en/lakehouse-architecture/deployment-guide/account-setup",
+        "retrievedAt": "2026-10-15T21:04:59Z",
+        "contentType": "text/html",
+        "snapshotPath": "source-270120fc357948997aa9f117290eb21f0f516d1bf1b879b83fde5baa0b8d0a24.bin",
+        "textPath": "source-acaa78e9201832b9587f0c149d4448fce7942f36e639019fe318589ad937ab47.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Best practices for administrative roles",
+            "text": "Limit account admin privileges to two or three trusted individuals."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "1-source-5": {
+        "type": "guidance",
+        "title": "Secure access practices for administrators in Microsoft Entra ID",
+        "publisher": "Microsoft",
+        "url": "https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/security-planning",
+        "language": "en",
+        "jurisdiction": "Global",
+        "applicability": "Microsoft Entra ID environments implementing secure administrative access including role-based separation, emergency break-glass accounts, and just-in-time privilege escalation with MFA enforcement",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "1-source-5",
+        "byteDigest": "sha256:a842b52e9598487672a1bc47d6e55696f6978a749abfddccaaf0973b52fdfcaf",
+        "textDigest": "sha256:471799906774fa55ee472ed44271fc669a9e81552d8065e3d2729323bb45f7ec",
+        "finalUrl": "https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/security-planning",
+        "retrievedAt": "2026-10-15T21:04:59Z",
+        "contentType": "text/html",
+        "snapshotPath": "source-a842b52e9598487672a1bc47d6e55696f6978a749abfddccaaf0973b52fdfcaf.bin",
+        "textPath": "source-471799906774fa55ee472ed44271fc669a9e81552d8065e3d2729323bb45f7ec.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Stage 3: Take control of administrator activity > Implement Privileged Identity Management (PIM) for JIT",
+            "text": "Time-limited activation of privileged roles works by enabling you to:\n\n\n\n\n\n\nActivate administrator privileges to do a specific task"
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      }
+    },
+    "concerns": [
+      {
+        "id": "1-concern-1",
+        "sfsId": "1",
+        "description": "Documented policies must exist for the management of privileged accounts defining assignment, usage, monitoring and revocation procedures.",
+        "sourceRefs": [
+          {
+            "sourceId": "1-source-1",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "1-concern-2",
+        "sfsId": "1",
+        "description": "Administrative roles must be separated from regular user accounts to enforce the principle of least privilege and prevent unauthorized privilege escalation.",
+        "sourceRefs": [
+          {
+            "sourceId": "1-source-2",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "1-concern-3",
+        "sfsId": "1",
+        "description": "The number of privileged administrator accounts should be strictly limited to a minimal number of trusted personnel to reduce risk exposure.",
+        "sourceRefs": [
+          {
+            "sourceId": "1-source-4",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "1-concern-4",
+        "sfsId": "1",
+        "description": "Privileged access should be granted on a time-limited basis through just-in-time activation mechanisms to minimize exposure windows.",
+        "sourceRefs": [
+          {
+            "sourceId": "1-source-5",
+            "passageId": "p1"
+          }
+        ]
+      }
+    ],
+    "queries": [
+      {
+        "scope": "1",
+        "toolId": "searxng_web_search",
+        "input": {
+          "query": "emergency access official maintainer implementation configuration documentation",
+          "time_range": "",
+          "safesearch": 1,
+          "max_results": 10
+        },
+        "outputDigest": "sha256:04bf68a295d04ff14d469608383d065d33c47ccdcbc407fc9aa9e12639c6f71d",
+        "callId": "sources-1-2-discovery"
+      },
+      {
+        "scope": "1",
+        "toolId": "websearch_web_search",
+        "input": {
+          "query": "separation of duties administrator accounts official implementation configuration documentation",
+          "max_results": 10
+        },
+        "outputDigest": "sha256:a0a634111343dbd30cbb3a62ae7890f0653a29d08b4e94b99672f502836dc02d",
+        "callId": "sources-1-2-discovery"
+      }
+    ],
+    "limitations": [
+      {
+        "scope": "1",
+        "description": "Unresponsive 'brave' search engine: too many requests"
+      },
+      {
+        "scope": "1",
+        "description": "Unresponsive 'duckduckgo' search engine: CAPTCHA"
+      },
+      {
+        "scope": "1",
+        "description": "Publication dates could not be verified from observed snippets; ENISA document URL contains '2025-06' but exact publication date requires full document access"
+      },
+      {
+        "scope": "1",
+        "description": "Vendor-specific implementations (SolarWinds, Databricks, Microsoft) require adaptation for non-product environments while maintaining core principles"
+      },
+      {
+        "scope": "1",
+        "description": "Canada document applies specifically to Canadian federal systems though references broadly applicable standards (NIST, FIPS)"
+      },
+      {
+        "scope": "1",
+        "description": "ENISA guidance version 1.0 appears to be a draft document pending final adoption"
+      },
+      {
+        "scope": "1",
+        "description": "Source 1-source-3 provides limited technical detail on account management in the observed excerpt, focusing primarily on role designation rather than implementation specifics"
+      }
+    ],
+    "admissionVersion": 2,
+    "observedResultUrls": [
+      "https://docs.databricks.com/aws/en/lakehouse-architecture/deployment-guide/account-setup",
+      "https://documentation.solarwinds.com/en/success_center/dpa/content/dpa-limit-user-acct-mgmt-to-role.htm",
+      "https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/security-planning",
+      "https://www.canada.ca/en/government/system/digital-government/policies-standards/enterprise-it-service-common-configurations/account.html",
+      "https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf"
+    ]
+  },
+  "files": {
+    "snapshots/source-f03186edb047ece269ab9deeb3f0ec6172582ccc577617f0eb79e9bf96a7021b.bin": "sha256:f03186edb047ece269ab9deeb3f0ec6172582ccc577617f0eb79e9bf96a7021b",
+    "snapshots/source-effbd5b01b9fc323fad9ab61fca97caa63acc7891c62076f42f8f6537096d36d.txt": "sha256:effbd5b01b9fc323fad9ab61fca97caa63acc7891c62076f42f8f6537096d36d",
+    "snapshots/source-7c4996b0a182b875fa80a12c07ece285629080457e0e397b6d974fcabcd54c98.bin": "sha256:7c4996b0a182b875fa80a12c07ece285629080457e0e397b6d974fcabcd54c98",
+    "snapshots/source-9c4300dae59d9c85c1cf77335234109889780c5f1e708badde27f824ff7a3d11.txt": "sha256:9c4300dae59d9c85c1cf77335234109889780c5f1e708badde27f824ff7a3d11",
+    "snapshots/source-6c108db9c322fa53d8eaaeb2241310dbdb241a7b56d57448972a7c9a801af7f6.bin": "sha256:6c108db9c322fa53d8eaaeb2241310dbdb241a7b56d57448972a7c9a801af7f6",
+    "snapshots/source-ba49256a95ddb0520ebf9df2fd85b0097218c203d31364312aa6c2177e25bc31.txt": "sha256:ba49256a95ddb0520ebf9df2fd85b0097218c203d31364312aa6c2177e25bc31",
+    "snapshots/source-270120fc357948997aa9f117290eb21f0f516d1bf1b879b83fde5baa0b8d0a24.bin": "sha256:270120fc357948997aa9f117290eb21f0f516d1bf1b879b83fde5baa0b8d0a24",
+    "snapshots/source-acaa78e9201832b9587f0c149d4448fce7942f36e639019fe318589ad937ab47.txt": "sha256:acaa78e9201832b9587f0c149d4448fce7942f36e639019fe318589ad937ab47",
+    "snapshots/source-a842b52e9598487672a1bc47d6e55696f6978a749abfddccaaf0973b52fdfcaf.bin": "sha256:a842b52e9598487672a1bc47d6e55696f6978a749abfddccaaf0973b52fdfcaf",
+    "snapshots/source-471799906774fa55ee472ed44271fc669a9e81552d8065e3d2729323bb45f7ec.txt": "sha256:471799906774fa55ee472ed44271fc669a9e81552d8065e3d2729323bb45f7ec"
+  }
+}

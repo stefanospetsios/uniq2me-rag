@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "3319c3944de58bc383b52e55c451e76dd21ac691168df7731d54a1f51018b797",
+  "cachedAt": "2026-10-15T21:13:24Z",
+  "observedAt": "2026-10-15T21:13:24Z",
+  "originRunId": "qwen3-38804802602",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-3-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "3",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "identity management maintainer guide LDAP password MFA role-based access OR account lifecycle filetype:pdf"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792098735174,
+    "end": 1792098736608
+  },
+  "outputDigest": "sha256:693188cdd38efc84a3ba4635afe07a9c4842560f5538f626bccf885b83473f61",
+  "resultUrls": [
+    "https://learn.microsoft.com/en-us/entra/architecture/ops-guide-auth",
+    "https://www.idmanagement.gov/playbooks/ilm/"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Identity Lifecycle Management Playbook - IDManagement\",\n      \"url\": \"https://www.idmanagement.gov/playbooks/ilm/\",\n      \"content\": \"Identity Lifecycle Management Playbook - IDManagement\\n\\n# Identity Lifecycle Management Playbook\\n\\nThe Identity Lifecycle Management Working Group of the Federal Chief Information Security Officer Council ICAM Subcommittee developed this playbook to help federal agencies understand and plan identity lifecycle management initiatives.\\n\\nDate: March 31, 2026 - Version: 1.4\\n\\n#### Date: March 2026 - Version: 2.0 \\n\\nIdentity Lifecycle Management version table\\n\\n| Version Number | Date | Change Description |\\n| --- | --- | --- |\\n| 1.4 | 3/31/2026 | Major update incorporating Enhanced Authentication Standards, Federation Requirements, Privacy Impact Assessment Requirements, Incident Response Framework, and Performance Metrics aligned with NIST 800-63 standards. |\\n| 1.3 | 6/18/2024 | Incorporated Zero Trust elements. |\\n| 1.2 | 12/15/2022 | Minor editorial updates. |\\n| 1.1 | 10/11/2022 | Move 3rd party federation content to the Cloud Identity Playbook federation section. |\\n| 1.0 | 06/30/2022 | Initial Draft. |\\n\\n## Executive Summary\\n\\nThe Identity Lifecycle Management (ILM) Playbook assists federal agencies in modernizing their digital identity processes to meet Zero Trust Architecture mandates, such as those outlined in Executive Order 14028 and OMB M-22-09.\\n\\nCore Objective: The playbook guides agencies to shift from merely managing authenticators (e.g., verifying a valid PIV card) to managing the continuous lifecycle of digital identities. This identity-centric approach uses contextual data—such as user attributes, device health, and risk—to make access decisions, fundamentally supporting the “never trust, always verify” principle of Zero Trust.\\n\\nThe Identity Lifecycle Process: To strictly enforce the principle of least privilege, the playbook emphasizes automating three critical lifecy",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "3"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "learn.microsoft.com",
+      "www.idmanagement.gov"
+    ]
+  }
+}

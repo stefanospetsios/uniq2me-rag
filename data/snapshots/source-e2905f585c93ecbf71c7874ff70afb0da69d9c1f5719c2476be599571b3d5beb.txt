@@ -1,0 +1,748 @@
+
+
+
+
+
+
+
+
+
+
+Define secure release governance and rollback procedures | Microsoft Zero Trust
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to main content
+
+
+
+
+Microsoft Zero Trust
+Plan
+Learn
+Workshop Docs
+
+
+Workshop Videos
+
+
+
+
+FAQs
+General FAQs
+
+
+Partner FAQs
+
+
+
+
+
+
+English
+English
+
+
+日本語
+
+
+한국어
+
+
+简体中文
+
+
+繁體中文
+
+
+العربية
+
+
+Español
+
+
+Français
+
+
+Deutsch
+
+
+Português
+
+
+हिन्दी
+
+
+
+
+
+
+
+
+
+
+
+
+Introduction
+
+
+Workshop Guidance
+
+
+Workshop Delivery Guide
+
+
+Identity
+
+
+
+
+Devices
+
+
+
+
+AI
+
+
+
+
+Data
+
+
+
+
+Network
+
+
+
+
+Infrastructure
+
+
+
+
+Security Operations
+
+
+
+
+DevSecOps
+
+
+Define ownership and governance model for DevSecOps privileged groups
+
+
+Define developer platform roles and access model
+
+
+Discover and remediate ungoverned developer platform accounts
+
+
+Integrate DevOps platforms with Microsoft Entra ID
+
+
+Define developer access policies using Privileged Identity Management
+
+
+Configure default branch protection controls
+
+
+Review and reduce platform-level administrative permissions
+
+
+Establish organization-wide secure defaults for repository security
+
+
+Establish credential governance and blocking controls for developer platforms
+
+
+Adopt centralized enterprise identity model for source platforms
+
+
+Implement static analysis security testing (SAST)
+
+
+Enable secret scanning and push protection
+
+
+Evaluate and integrate third-party SAST and DAST tools
+
+
+Plan and implement emergency access for DevOps platforms
+
+
+Enable Dependabot alerts and security updates
+
+
+Configure dependency review in CI
+
+
+Implement SBOM generation in release pipelines
+
+
+Implement artifact signing and build provenance
+
+
+Configure Workload Identity Federation for keyless CI/CD
+
+
+Design pipeline-as-code standards
+
+
+Pin third-party pipeline components to immutable references
+
+
+Configure environment protection rules and approval gates
+
+
+Implement IaC scanning in CI pipelines
+
+
+Deploy policy-as-code for critical Azure resources
+
+
+Implement container image scanning in registry and pipeline
+
+
+Implement runtime container threat protection
+
+
+Connect DevOps environments to Defender for Cloud
+
+
+Configure code-to-cloud traceability
+
+
+Enable DevOps attack path analysis
+
+
+Establish centralized DevSecOps security dashboards
+
+
+Integrate security findings into developer workflows
+
+
+Establish repository security baseline standard
+
+
+Implement organization-wide repository governance policies
+
+
+Configure custom CodeQL query packs for organization-specific risks
+
+
+Configure custom secret patterns for organization-specific tokens
+
+
+Triage and remediate existing secret scanning alerts
+
+
+Establish ongoing credential rotation and hygiene process
+
+
+Establish code review and approval requirements
+
+
+Configure Dependabot auto-triage rules at organization level
+
+
+Design approved package registry and trusted publishing controls
+
+
+Design software supply chain security standards
+
+
+Enforce artifact integrity validation in deployment gates
+
+
+Migrate existing service principals to federated credentials
+
+
+Configure managed identity for Azure resource deployments
+
+
+Audit and eliminate plaintext secrets in pipeline definitions
+
+
+Harden build runners with ephemeral execution and least privilege
+
+
+Evaluate pipeline security posture against OWASP CI/CD Top 10
+
+
+Evaluate third-party SCA tools for advanced coverage
+
+
+Implement drift detection for deployed infrastructure
+
+
+Define approved base image policy and governance
+
+
+Implement container image signing and verification
+
+
+Establish hardened deployment trust relationships for CI/CD
+
+
+Establish prioritized onboarding model for DevOps posture coverage
+
+
+Design DevSecOps security triage and response process
+
+
+Define remediation SLAs and exception workflow for findings
+
+
+Establish DevSecOps metrics and reporting cadence
+
+
+Establish threat modeling for pipelines, IaC, and deployment architectures
+
+
+Establish developer security training and awareness program
+
+
+Deploy security champion program across development teams
+
+
+Map DevSecOps controls to compliance frameworks
+
+
+Establish DevSecOps compliance reporting and evidence collection
+
+
+Conduct periodic DevSecOps maturity assessment
+
+
+Triage and remediate existing code scanning alerts
+
+
+Implement DAST scanning in staging environments
+
+
+Define IaC security baseline standards and approved modules
+
+
+Configure IaC scanning PR annotations for developer feedback
+
+
+Configure Conditional Access policies for developer platform access
+
+
+Establish secure developer environment standards
+
+
+Integrate DevSecOps findings with centralized SIEM and SOC
+
+
+Define DevOps-specific security incident response playbooks
+
+
+Implement governance policies for AI-assisted code generation
+
+
+Implement open-source license compliance scanning
+
+
+Implement API security testing in CI/CD pipelines
+
+
+Define secure release governance and rollback procedures
+
+
+Establish unified vulnerability management workflow for DevSecOps findings
+
+
+Establish AI development tool governance and allowlisting
+
+
+Implement data protection controls for AI-assisted development
+
+
+Harden cloud development environments
+
+
+Implement automated secret rotation for pipeline and application secrets
+
+
+Implement supply chain security for AI/ML pipelines and model artifacts
+
+
+Secure CI/CD for untrusted contributions and fork pull requests
+
+
+Secure feature flag and progressive delivery controls
+
+
+Govern reusable pipeline templates and platform trust boundaries
+
+
+Define and use cryptography standards for DevSecOps
+
+
+Establish coordinated vulnerability disclosure program for DevOps
+
+
+Embed security requirements in developer workflows and backlog
+
+
+Adopt agentic AI vulnerability discovery (MDASH)
+
+
+Prevent credential exposure in non-code channels
+
+
+Right-size developer access to Azure with least-privilege RBAC
+
+
+Detect security control bypass and configuration drift
+
+
+Discover and inventory source code repositories across all platforms
+
+
+001: Design permissions and access
+
+
+002: Discover servers/infra for build/deploy code
+
+
+003: Harden servers/infra for build/deploy code
+
+
+004: Define Developer Workstation Policies
+
+
+005: Implement Defender for Servers to continuously monitor
+
+
+006: Harden target infra (Defender for Cloud)​
+
+
+007: Define developer access policies using Access Packages
+
+
+008: Implement access and PIM (JIT/JEA) policies for developers
+
+
+009: Define governance approach for groups with DevSecOps privileges​
+
+
+010: Discover existing GitHub Accounts and permissions
+
+
+011: Integrate GitHub with Entra ID​
+
+
+012: Remediate non-Entra ID accounts and assignments​
+
+
+013: Discover, review and adjust permissions based on role​
+
+
+014: Create process to periodically review unused/stale credentials​
+
+
+015: Design code publishing approach
+
+
+016: Configure publishing approach for deploying to Azure​
+
+
+017: Define developer access to Azure as needed​
+
+
+018: Design organization security and analysis settings​
+
+
+019: Decide if default or advanced custom setup for CodeQL​
+
+
+020: Deploy Github Advanced Security - CodeQL​
+
+
+021: Deploy Github Secret Scanning​
+
+
+022: Specify configuration settings for Dependabot​
+
+
+023: Integrate with Defender for DevOps​
+
+
+024: Triage results and remediate​
+
+
+025: Deploy GitHub Advanced Security - Dependabot​
+
+
+026: Evaluate SAST and DAST tools (3P)​
+
+
+027: Discover existing ADO accounts and permissions ​
+
+
+028: Remediate non-Entra ID accounts and assignments​
+
+
+029: Integrate Entra ID to ADO​
+
+
+030: Discover, review and adjust permissions based on role​
+
+
+031: Set up service connections to deploy to Azure ​
+
+
+032: Design code publishing approach​
+
+
+033: Configure publishing approach for deploying to Azure​
+
+
+034: Deploy GitHub Advanced Security for Azure DevOps​
+
+
+035: Integrate with Defender for DevOps​
+
+
+036: Triage results and remediate​
+
+
+037: Evaluate Dynamic Scanning (3P)​
+
+
+
+
+Version History
+
+
+
+
+Workshop Guided Videos
+
+
+
+
+Frequently Asked Questions (FAQs)
+
+
+
+
+
+
+
+
+
+
+Workshop Guidance
+
+
+DevSecOps
+
+
+Define secure release governance and rollback procedures
+
+
+On this page
+
+
+Define secure release governance and rollback procedures
+
+
+
+
+Implementation Effort:
+ Medium – Configuring deployment approvals, security gates, release manifests, and tested rollback procedures is a multi-step effort coordinated across release and platform teams.
+
+User Impact:
+ Low – Release governance and rollback controls apply to deployment pipelines and approvers; end users are not affected.
+
+Lifecycle Stage:
+ Deploy
+
+
+
+
+Overview
+​
+
+
+
+
+Define a formal release governance and rollback process for production deployments, with approvals, security gates, artifact traceability, and tested rollback steps.
+
+
+
+
+Without formal release governance, deployments happen through informal processes and the organization discovers problems only after they reach users. In a Zero Trust context, every production deployment is a trust decision that should be explicitly verified rather than implicitly assumed safe because it passed a CI pipeline.
+
+
+
+
+Use platform-native controls to enforce that model. In GitHub, configure environment protection rules for production environments that require designated reviewers, restrict which branches can deploy, and enforce wait timers or required checks before deployment.
+
+
+
+
+In Azure DevOps, distinguish between platform models: if you still use Classic Release pipelines, configure approvals and gates; for YAML pipelines, use Environments with Approvals and checks such as manual approvals, branch control, business hours, and REST or Azure Function checks. Maintain a release manifest that records the exact artifact version, Git commit SHA, approver identity, artifact attestation or provenance record where available, and timestamps of all gate evaluations so each deployment can be traced back to the approved build input.
+
+
+
+
+Define explicit rollback criteria — such as error rate thresholds, health probe failures, or critical security alerts — and document the rollback procedure for each production platform. The rollback plan should identify the last known-good artifact, where it is stored, how to verify its provenance, and how to redeploy it safely.
+
+
+
+
+Test rollback procedures periodically so the organization can revert to a known-good artifact under pressure without improvisation. Gating each release behind approvals and security checks supports Verify explicitly, while maintaining and testing rollback procedures supports Assume breach by ensuring the organization can recover quickly when a deployment proves harmful.
+
+
+
+
+Reference
+​
+
+
+
+
+
+
+Manage environments
+
+
+
+
+Using artifact attestations to establish provenance for builds
+
+
+
+
+Pipeline deployment approvals
+
+
+
+
+Set up staging environments in Azure App Service
+
+
+
+
+
+
+Edit this page
+
+
+
+
+
+
+Previous
+
+
+Implement API security testing in CI/CD pipelines
+
+
+Next
+
+
+Establish unified vulnerability management workflow for DevSecOps findings
+
+
+
+
+
+
+Overview
+
+
+Reference
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Docs
+
+
+Zero Trust Guidance Center
+
+
+Zero Trust Partner Kit
+
+
+Zero Trust Assessment Checks
+
+
+
+
+Microsoft
+
+
+Microsoft Zero Trust
+
+
+Zero Trust CISO Workshop
+
+
+Cybersecurity Reference Architectures
+
+
+
+
+More
+
+
+Privacy
+
+
+Terms of Use
+
+
+GitHub
+
+
+
+
+
+
+Built by the Microsoft Security → CxE Team
+
+
+
+
+
+
+
+
+
+
+

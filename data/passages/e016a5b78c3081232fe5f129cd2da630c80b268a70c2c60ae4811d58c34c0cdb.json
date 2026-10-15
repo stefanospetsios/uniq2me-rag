@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "e016a5b78c3081232fe5f129cd2da630c80b268a70c2c60ae4811d58c34c0cdb",
+  "cachedAt": "2026-10-15T21:48:14Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://help.aikido.dev/pentests/configure-a-pentest/leveraging-code-and-documentation",
+  "finalUrl": "https://help.aikido.dev/pentests/configure-a-pentest/leveraging-code-and-documentation",
+  "language": "en",
+  "publisher": "Aikido Security",
+  "title": "Leveraging Code and Documentation | Aikido",
+  "retrievedAt": "2026-10-15T21:47:26Z",
+  "byteDigest": "sha256:befb8596c197bf1f1f0708d6ab503af8dec59659b849383bef3b448fed1b29de",
+  "textDigest": "sha256:a0e25b0bfefa6d0d549e35bec6b3eced1f65a065fd02522c606acd5809075844",
+  "sourceId": "9-source-3",
+  "passageId": "p1",
+  "locator": "repositories/unlock-white-box-testing",
+  "quotation": "Connecting your repositories is the single most impactful step you can take. Instead of just poking at endpoints from the outside, the system analyzes the actual source code to understand how the application processes data.",
+  "originalText": "Connecting your repositories is the single most impactful step you can take. Instead of just poking at endpoints from the outside, the system analyzes the actual source code to understand how the application processes data.",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:48:14Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "9"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Aikido Security",
+    "host": "help.aikido.dev"
+  }
+}

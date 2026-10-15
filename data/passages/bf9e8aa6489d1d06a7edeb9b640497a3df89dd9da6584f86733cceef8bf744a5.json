@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "bf9e8aa6489d1d06a7edeb9b640497a3df89dd9da6584f86733cceef8bf744a5",
+  "cachedAt": "2026-10-15T21:31:52Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://cloudsecurityalliance.org/artifacts/zero-trust-microsegmentation-guidance",
+  "finalUrl": "https://cloudsecurityalliance.org/artifacts/zero-trust-microsegmentation-guidance",
+  "language": "en",
+  "publisher": "Cloud Security Alliance",
+  "title": "Zero Trust Microsegmentation Guidance",
+  "retrievedAt": "2026-10-15T21:24:39Z",
+  "byteDigest": "sha256:2a5c2762cb70384bf506bd1dde35e16dd0f5b44c7b0bcda400826531302f2db0",
+  "textDigest": "sha256:f09ee2b2e5f37d59bee32635dd85a885204ae945d01fd6a7a240a30811e53ff9",
+  "sourceId": "5-source-2",
+  "passageId": "p2",
+  "locator": "article/heading/page",
+  "quotation": "Boundaries may be expressed through zones, routes, VLANs/VXLANs, security groups, labels, tags, Kubernetes network policies, host controls, hypervisor controls, firewalls, gateways, or other enforcement points. This model is often strongest for deterministic containment, local east-west control, regulatory boundaries, and OT/ICS zones and conduits.",
+  "originalText": "Boundaries may be expressed through zones, routes, VLANs/VXLANs, security groups, labels, tags, Kubernetes network policies, host controls, hypervisor controls, firewalls, gateways, or other enforcement points. This model is often strongest for deterministic containment, local east-west control, regulatory boundaries, and OT/ICS zones and conduits.",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:31:52Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Cloud Security Alliance",
+    "host": "cloudsecurityalliance.org"
+  }
+}

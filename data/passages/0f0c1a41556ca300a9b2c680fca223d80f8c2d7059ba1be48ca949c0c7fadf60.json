@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "0f0c1a41556ca300a9b2c680fca223d80f8c2d7059ba1be48ca949c0c7fadf60",
+  "cachedAt": "2026-10-15T20:55:08Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://csf.tools/reference/nist-sp-800-171/r2/3-4/3-4-1/",
+  "finalUrl": "https://csf.tools/reference/nist-sp-800-171/r2/3-4/3-4-1/",
+  "language": "en",
+  "publisher": "NIST",
+  "title": "3.4.1: Establish and maintain baseline configurations and inventories",
+  "retrievedAt": "2026-10-15T20:53:17Z",
+  "byteDigest": "sha256:2b34eb1f53978dc158e121861c9fabd6a0c4bd8ac8370d148f8581dc3f39f549",
+  "textDigest": "sha256:27c36e343231be5da1c551a9843092792254cf44860cc0919a91ac6434e8b83a",
+  "sourceId": "0-source-4",
+  "passageId": "p1",
+  "locator": "Discussion section",
+  "quotation": "Baseline configurations include information about system components (e.g., standard software packages installed on workstations, notebook computers, servers, network components, or mobile devices; current version numbers and update and patch information",
+  "originalText": "Baseline configurations include information about system components (e.g., standard software packages installed on workstations, notebook computers, servers, network components, or mobile devices; current version numbers and update and patch information",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T20:55:08Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "NIST",
+    "host": "csf.tools"
+  }
+}

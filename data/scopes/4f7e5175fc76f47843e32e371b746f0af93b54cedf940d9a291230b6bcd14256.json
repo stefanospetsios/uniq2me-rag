@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-scope",
+  "cachedAt": "2026-10-15T21:52:44Z",
+  "scopeId": "A",
+  "fingerprint": "4f7e5175fc76f47843e32e371b746f0af93b54cedf940d9a291230b6bcd14256",
+  "originRunId": "qwen3-38804802602",
+  "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "A"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "scope-admitted",
+    "publisher": null,
+    "host": null
+  },
+  "corpus": {
+    "sources": {
+      "A-source-1": {
+        "type": "technical-doc",
+        "title": "Key Management Standard for Blockchains",
+        "publisher": "Blockchain Security Standard Council (BSSC)",
+        "url": "https://specs.blockchainssc.org/kms/",
+        "language": "en",
+        "jurisdiction": "International",
+        "applicability": "Blockchain cryptographic key lifecycle (generation, storage, distribution, usage, retirement, destruction), specifically applicable to entities managing cryptographic keys for blockchain state changes",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "A-source-1",
+        "byteDigest": "sha256:dcecf8b8ead8864f9baac4dbf45be00cec0183ec953d6acdd6cf845c628cd5c7",
+        "textDigest": "sha256:f9a6bc18bf71a0b3f4137dcaee769fc363e630996e0c24155d3ecc3cfd499bf0",
+        "finalUrl": "https://specs.blockchainssc.org/kms/",
+        "retrievedAt": "2026-10-15T21:50:46Z",
+        "contentType": "text/html; charset=utf-8",
+        "snapshotPath": "source-dcecf8b8ead8864f9baac4dbf45be00cec0183ec953d6acdd6cf845c628cd5c7.bin",
+        "textPath": "source-f9a6bc18bf71a0b3f4137dcaee769fc363e630996e0c24155d3ecc3cfd499bf0.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Key Storage section",
+            "text": "Keys MUST be stored encrypted at rest"
+          },
+          {
+            "id": "p2",
+            "locator": "Key Distribution section",
+            "text": "If private keys or key material need to be shared in an online protocol, they MUST be encrypted for the entirety of the distribution process."
+          },
+          {
+            "id": "p3",
+            "locator": "Key Usage section",
+            "text": "To ensure legitimate key usage, authorization to request a signature, define a message to be signed, or any other use of private keys MUST be restricted to intentionally authorized individuals or systems."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "A-source-2": {
+        "type": "technical-doc",
+        "title": "Hyperledger Fabric SDK for Node.js Class: CryptoSuite",
+        "publisher": "Hyperledger Foundation",
+        "url": "https://hyperledger.github.io/fabric-sdk-node/main/CryptoSuite.html",
+        "language": "en",
+        "jurisdiction": "International",
+        "applicability": "Implementation of cryptographic operations (signing, encryption, hashing) in Hyperledger Fabric blockchain applications, including key management interfaces and algorithms",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "A-source-2",
+        "byteDigest": "sha256:858f6738f4ac1e38cd75bbc594d063696f1eb23135b5ae9df5371c3ad4466ac9",
+        "textDigest": "sha256:b3c9c091afa0e834546643014814e7465d5205c1772692c43a7bde679b020e5f",
+        "finalUrl": "https://hyperledger.github.io/fabric-sdk-node/main/CryptoSuite.html",
+        "retrievedAt": "2026-10-15T21:50:47Z",
+        "contentType": "text/html; charset=utf-8",
+        "snapshotPath": "source-858f6738f4ac1e38cd75bbc594d063696f1eb23135b5ae9df5371c3ad4466ac9.bin",
+        "textPath": "source-b3c9c091afa0e834546643014814e7465d5205c1772692c43a7bde679b020e5f.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Class description",
+            "text": "Abstract class for a suite of crypto algorithms used by the SDK to perform digital signing, encryption/decryption and secure hashing. A complete suite includes support for asymmetric keys (such as ECDSA or RSA), symmetric keys (such as AES) and secure hash (such as SHA2/3)."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "A-source-3": {
+        "type": "technical-doc",
+        "title": "pyca/cryptography Documentation",
+        "publisher": "PyCA (Python Cryptographic Authority)",
+        "url": "https://cryptography.io/en/latest/",
+        "language": "en",
+        "jurisdiction": "International",
+        "applicability": "Cryptographic recipe and primitive implementations for Python applications, covering symmetric encryption, key derivation, X.509 certificates, and hazardous materials layer operations",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "A-source-3",
+        "byteDigest": "sha256:b2563fc61277fe541982d92e86fe5e6d212375d976776726a6b0b1296d160747",
+        "textDigest": "sha256:052fc5203fed4631816f4548fd31ecdf9931777d2b73542e7fd4db141d303903",
+        "finalUrl": "https://cryptography.io/en/latest/",
+        "retrievedAt": "2026-10-15T21:50:47Z",
+        "contentType": "text/html; charset=utf-8",
+        "snapshotPath": "source-b2563fc61277fe541982d92e86fe5e6d212375d976776726a6b0b1296d160747.bin",
+        "textPath": "source-052fc5203fed4631816f4548fd31ecdf9931777d2b73542e7fd4db141d303903.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Introduction section",
+            "text": "cryptography includes both high level recipes and low level interfaces to common cryptographic algorithms such as symmetric ciphers, message digests, and key derivation functions."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "A-source-4": {
+        "type": "technical-doc",
+        "title": "CCF Cryptography Architecture",
+        "publisher": "Microsoft Confidential Consortium Framework",
+        "url": "https://ccf.dev/main/architecture/cryptography.html",
+        "language": "en",
+        "jurisdiction": "International",
+        "applicability": "Cryptographic key management in blockchain consortium networks, including service identity, node encryption keys, ledger secrets, and recovery mechanisms for distributed ledger systems",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "A-source-4",
+        "byteDigest": "sha256:024b242744988c9c2c5f69c2697ce30cc93ec728dd6d4c186dd9146e0257e26e",
+        "textDigest": "sha256:b0228838d86e622d54f42e31aed28e828110df55d4492001b07b9a9b6c1fa2d0",
+        "finalUrl": "https://ccf.dev/main/architecture/cryptography.html",
+        "retrievedAt": "2026-10-15T21:50:47Z",
+        "contentType": "text/html; charset=utf-8",
+        "snapshotPath": "source-024b242744988c9c2c5f69c2697ce30cc93ec728dd6d4c186dd9146e0257e26e.bin",
+        "textPath": "source-b0228838d86e622d54f42e31aed28e828110df55d4492001b07b9a9b6c1fa2d0.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Ledger Secrets section",
+            "text": "The Ledger Secret symmetric key is used to encrypt and protect the integrity (using AES-GCM) of all write transactions executed by the service and recorded in the ledger."
+          },
+          {
+            "id": "p2",
+            "locator": "Algorithms and Curves section",
+            "text": "Authenticated encryption in CCF relies on AES256-GCM. Ledger authentication relies on Merkle trees using SHA2-256."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      }
+    },
+    "concerns": [
+      {
+        "id": "A-concern-1",
+        "sfsId": "A",
+        "description": "Cryptographic keys must be stored encrypted at rest with appropriate security mechanisms",
+        "sourceRefs": [
+          {
+            "sourceId": "A-source-1",
+            "passageId": "p1"
+          },
+          {
+            "sourceId": "A-source-4",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "A-concern-2",
+        "sfsId": "A",
+        "description": "Secure distribution protocols must protect cryptographic key material during transmission between authorized parties",
+        "sourceRefs": [
+          {
+            "sourceId": "A-source-1",
+            "passageId": "p2"
+          }
+        ]
+      },
+      {
+        "id": "A-concern-3",
+        "sfsId": "A",
+        "description": "Cryptographic key authorization must be restricted to properly vetted individuals or systems according to defined policies",
+        "sourceRefs": [
+          {
+            "sourceId": "A-source-1",
+            "passageId": "p3"
+          }
+        ]
+      },
+      {
+        "id": "A-concern-4",
+        "sfsId": "A",
+        "description": "Cryptographic implementations must use standardized algorithms with appropriate strength for specific contexts",
+        "sourceRefs": [
+          {
+            "sourceId": "A-source-4",
+            "passageId": "p2"
+          }
+        ]
+      },
+      {
+        "id": "A-concern-5",
+        "sfsId": "A",
+        "description": "Cryptographic keys must be managed consistently throughout their entire lifecycle including generation, storage, distribution, usage, retirement, and destruction",
+        "sourceRefs": [
+          {
+            "sourceId": "A-source-1",
+            "passageId": "p1"
+          }
+        ]
+      }
+    ],
+    "queries": [
+      {
+        "scope": "A",
+        "toolId": "searxng_web_search",
+        "input": {
+          "time_range": "",
+          "query": "cryptography encryption blockchain official implementation configuration documentation key lifecycle digital signatures certificates",
+          "max_results": 10,
+          "safesearch": 1
+        },
+        "outputDigest": "sha256:7204c99005a5d000564d7dedd6dd709df91ed13fd8d1c50fd0502b0798c309cb",
+        "callId": "sources-A-2-discovery"
+      },
+      {
+        "scope": "A",
+        "toolId": "websearch_web_search",
+        "input": {
+          "query": "cryptography encryption blockchain official implementation configuration documentation key lifecycle digital signatures certificates",
+          "max_results": 10
+        },
+        "outputDigest": "sha256:c014b59f61da06984d0a44e75776b1147f15b13ecb95eadfe198ba12b4e4e49d",
+        "callId": "sources-A-2-discovery"
+      }
+    ],
+    "limitations": [
+      {
+        "scope": "A",
+        "description": "Unresponsive engines during searxng search: [brave (too many requests), wikidata (timeout)]"
+      },
+      {
+        "scope": "A",
+        "description": "Truncated content in websearch result for Polkadot documentation (saved to local file for full access)"
+      },
+      {
+        "scope": "A",
+        "description": "Date precision unavailable for most documents as publication/effective dates not explicitly stated in observed content"
+      }
+    ],
+    "admissionVersion": 2,
+    "observedResultUrls": [
+      "https://ccf.dev/main/architecture/cryptography.html",
+      "https://cryptography.io/en/latest/",
+      "https://hyperledger.github.io/fabric-sdk-node/main/CryptoSuite.html",
+      "https://specs.blockchainssc.org/kms/"
+    ]
+  },
+  "files": {
+    "snapshots/source-dcecf8b8ead8864f9baac4dbf45be00cec0183ec953d6acdd6cf845c628cd5c7.bin": "sha256:dcecf8b8ead8864f9baac4dbf45be00cec0183ec953d6acdd6cf845c628cd5c7",
+    "snapshots/source-f9a6bc18bf71a0b3f4137dcaee769fc363e630996e0c24155d3ecc3cfd499bf0.txt": "sha256:f9a6bc18bf71a0b3f4137dcaee769fc363e630996e0c24155d3ecc3cfd499bf0",
+    "snapshots/source-858f6738f4ac1e38cd75bbc594d063696f1eb23135b5ae9df5371c3ad4466ac9.bin": "sha256:858f6738f4ac1e38cd75bbc594d063696f1eb23135b5ae9df5371c3ad4466ac9",
+    "snapshots/source-b3c9c091afa0e834546643014814e7465d5205c1772692c43a7bde679b020e5f.txt": "sha256:b3c9c091afa0e834546643014814e7465d5205c1772692c43a7bde679b020e5f",
+    "snapshots/source-b2563fc61277fe541982d92e86fe5e6d212375d976776726a6b0b1296d160747.bin": "sha256:b2563fc61277fe541982d92e86fe5e6d212375d976776726a6b0b1296d160747",
+    "snapshots/source-052fc5203fed4631816f4548fd31ecdf9931777d2b73542e7fd4db141d303903.txt": "sha256:052fc5203fed4631816f4548fd31ecdf9931777d2b73542e7fd4db141d303903",
+    "snapshots/source-024b242744988c9c2c5f69c2697ce30cc93ec728dd6d4c186dd9146e0257e26e.bin": "sha256:024b242744988c9c2c5f69c2697ce30cc93ec728dd6d4c186dd9146e0257e26e",
+    "snapshots/source-b0228838d86e622d54f42e31aed28e828110df55d4492001b07b9a9b6c1fa2d0.txt": "sha256:b0228838d86e622d54f42e31aed28e828110df55d4492001b07b9a9b6c1fa2d0"
+  }
+}

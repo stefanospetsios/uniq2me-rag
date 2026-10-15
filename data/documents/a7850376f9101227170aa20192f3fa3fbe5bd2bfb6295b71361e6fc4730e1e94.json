@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T21:24:38Z",
+  "originRunId": "qwen3-38804802602",
+  "source": {
+    "id": "5-source-1",
+    "type": "technical-doc",
+    "title": "Azure network security best practices",
+    "publisher": "Microsoft",
+    "url": "https://learn.microsoft.com/en-us/azure/security/fundamentals/network-best-practices",
+    "language": "en",
+    "jurisdiction": "US (cloud provider)",
+    "applicability": "Microsoft Azure cloud environments",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "article/heading/page",
+        "text": "When you use network security groups for network access control between subnets, you can put resources that belong to the same security zone or role in their own subnets."
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:d74de7ebe8a34672d1a6bf48e6e4efc40aeb22616d1aac3383b5f204d2f0be8d",
+    "textDigest": "sha256:f51fd692dfc37f99f53f1df3297b08b9bd162c74373c14d84e64d73dec3d2ada",
+    "finalUrl": "https://learn.microsoft.com/en-us/azure/security/fundamentals/network-best-practices",
+    "retrievedAt": "2026-10-15T21:24:38Z",
+    "contentType": "text/html",
+    "snapshotPath": "source-d74de7ebe8a34672d1a6bf48e6e4efc40aeb22616d1aac3383b5f204d2f0be8d.bin",
+    "textPath": "source-f51fd692dfc37f99f53f1df3297b08b9bd162c74373c14d84e64d73dec3d2ada.txt"
+  },
+  "files": {
+    "snapshots/source-d74de7ebe8a34672d1a6bf48e6e4efc40aeb22616d1aac3383b5f204d2f0be8d.bin": "sha256:d74de7ebe8a34672d1a6bf48e6e4efc40aeb22616d1aac3383b5f204d2f0be8d",
+    "snapshots/source-f51fd692dfc37f99f53f1df3297b08b9bd162c74373c14d84e64d73dec3d2ada.txt": "sha256:f51fd692dfc37f99f53f1df3297b08b9bd162c74373c14d84e64d73dec3d2ada"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://learn.microsoft.com/en-us/azure/security/fundamentals/network-best-practices",
+  "language": "en",
+  "retrievedAt": "2026-10-15T21:24:38Z",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:31:52Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": " \n\n\t\t\n\n\t\t\t\n\t\t\n\n\t\t\t\nAzure network security best practices | Microsoft Learn\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n \n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n \n\n\t\t\t\n\n\t\t\t \n\t\t\t\n\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t \n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\t\t\t\n\n\t\t\t\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\t\t\n\n\t\n\t\t\t\n\n\t\t\t\t\n\n\t\t\n\n\t\t\t\n\t\t\n\n\t\t\tSkip to main content\n\t\t\n\n\t\n\t\t\n\n\t\t\tSkip to Ask Learn chat experience\n\t\t\n\n\t\n\n\t\t\t\n\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\t\n\n\t\t\t\t\t\nThis browser is no longer supported.\n\n\n\n\t\t\t\t\t\n\n\t\t\t\t\t\tUpgrade to Microsoft Edge to take advantage of the latest f",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "Microsoft",
+    "host": "learn.microsoft.com"
+  }
+}

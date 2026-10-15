@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "e5d563c1fbcf07e91bcc5262a6f3ddaa5d57ed540a7595dff220c54f026f9e4e",
+  "cachedAt": "2026-10-15T21:10:45Z",
+  "observedAt": "2026-10-15T21:10:45Z",
+  "originRunId": "qwen3-38804802602",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-2-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "2",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "Backup and Disaster Recovery Plan official implementation configuration documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792098544555,
+    "end": 1792098545584
+  },
+  "outputDigest": "sha256:27252fdf963bd1c413e545c30b5afc420b7d95883d990a90eec122622c5f730f",
+  "resultUrls": [
+    "https://aws.amazon.com/solutions/guidance/backup-and-recovery-on-aws/",
+    "https://cloud.google.com/backup-disaster-recovery/docs/concepts/backup-plan",
+    "https://cloud.google.com/backup-disaster-recovery/docs/deployment/deployment-plan",
+    "https://console.aws.amazon.com/backup",
+    "https://docs.aws.amazon.com/aws-backup/latest/devguide/creating-a-backup-plan.html",
+    "https://docs.cloud.google.com/backup-disaster-recovery/docs/cloud-console/backup-plan",
+    "https://docs.cloud.google.com/backup-disaster-recovery/docs/cloud-console/backup-plan-create"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Backup plans overview  |  Backup and DR  |  Google Cloud Documentation\",\n      \"url\": \"https://cloud.google.com/backup-disaster-recovery/docs/concepts/backup-plan\",\n      \"content\": \"Backup plans overview | Backup and DR | Google Cloud Documentation\\n\\n# Backup plans overview Stay organized with collections Save and categorize content based on your preferences.\\n\\nBackup plans are centralized management tools that allow you to define advanced backup strategies for your Google Cloud resources. By using a backup plan, you can automate when and how your data is protected, ensuring consistent recovery points across your infrastructure.\\n\\nBackup plans are also referred to as backup policies. A key feature of the service is the capability for backup plan association to a workload to ensure consistent data protection.\\n\\n### Supported resource types\\n\\nBackup plans support the following vaulted resources:\\n\\n- Compute Engine instances\\n- Compute Engine disks\\n- Cloud SQL instances\\n- AlloyDB for PostgreSQL clusters\\n- Filestore instances\\n\\n## Core components of a backup plan\\n\\nThis section details the important components of Backup and DR backup plans.\\n\\n### Backup rules\\n\\nA backup plan consists of one or more backup rules that define the lifecycle of the backup. Multiple backup rules can be associated with a single backup plan. Attributes of backups plans are as follows:\\n\\n- Recurrence: Defines how often backups are taken\\n- - Hourly: Specify the frequency in hours\\n- Daily: Backups occur once every day\\n- Weekly: Select one or more specific days of the week\\n- Monthly: Select a specific day of the month (e.g., the 1st or 15th)\\n- Yearly: Backups occur once a year on a specified date\\n- Constraint: No two backup rules within a plan can be created with the same backup frequency period\\n- Backup Window: Defines the timeframe (in 24-hour format) during which the backup job must start\\n- - Duration: The window must be at least six ",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "2"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "aws.amazon.com",
+      "cloud.google.com",
+      "console.aws.amazon.com",
+      "docs.aws.amazon.com",
+      "docs.cloud.google.com"
+    ]
+  }
+}

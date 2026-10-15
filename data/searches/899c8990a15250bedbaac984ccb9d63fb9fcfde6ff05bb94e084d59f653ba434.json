@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "899c8990a15250bedbaac984ccb9d63fb9fcfde6ff05bb94e084d59f653ba434",
+  "cachedAt": "2026-10-15T21:18:31Z",
+  "observedAt": "2026-10-15T21:18:31Z",
+  "originRunId": "qwen3-38804802602",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-4-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "4",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Data Storage and Handling official implementation configuration documentation",
+    "time_range": ""
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792099061477,
+    "end": 1792099062621
+  },
+  "outputDigest": "sha256:94e7225f39b39e19c63ac7569218789b825ffcf137b674e711571ab9886aa38e",
+  "resultUrls": [
+    "https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en",
+    "https://i.dell.com/sites/doccontent/shared-content/data-sheets/en/Documents/Services-Storage-Implementation-Datasheet-English.pdf",
+    "https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/data-management-check-list",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12685206/",
+    "https://sdaia.gov.sa/en/SDAIA/about/Documents/DataManagementPersonalDataProtectionStandards.pdf",
+    "https://www.ibm.com/solutions/storage",
+    "https://www.milesight.com/development-platform/docs/en/user-guide/data-storage-setting.html",
+    "https://www.techtarget.com/it-infrastructure/tip/How-to-develop-and-implement-a-data-storage-plan"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Data Storage and Handling official implementation configuration documentation\",\n  \"results\": [\n    {\n      \"title\": \"Storage Implementation - Dell\",\n      \"url\": \"https://i.dell.com/sites/doccontent/shared-content/data-sheets/en/Documents/Services-Storage-Implementation-Datasheet-English.pdf\",\n      \"content\": \"We provide a wide range of standard storage implementation options to meet your needs, no ... We perform on-site installation of all PowerVault storage.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Data protection explained - European Commission\",\n      \"url\": \"https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en\",\n      \"content\": \"staff management and payroll administration; accessing or consulting a contacts database containing personal data; shredding documents containing personal data ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"How to develop and implement a data storage plan | TechTarget\",\n      \"url\": \"https://www.techtarget.com/it-infrastructure/tip/How-to-develop-and-implement-a-data-storage-plan\",\n      \"content\": \"31 Μαρ 2021 ... This will ensure administrators properly configure all systems and processes associated with data storage and they perform as needed. If data ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Data Management and Personal Data Protection Standards\",\n      \"url\": \"https://sdaia.gov.sa/en/SDAIA/about/Documents/DataManagementPersonalDataProtectionStandards.pdf\",\n      \"content\": \"milestones for implementation of Documents and Content Management processes. The activities shall, at minimum, incorporate what is needed to achieve the ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Checklist for data management and governance - Dynamics 365\",\n      \"url\": \"https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/data-managemen",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "4"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "commission.europa.eu",
+      "i.dell.com",
+      "learn.microsoft.com",
+      "pmc.ncbi.nlm.nih.gov",
+      "sdaia.gov.sa",
+      "www.ibm.com",
+      "www.milesight.com",
+      "www.techtarget.com"
+    ]
+  }
+}

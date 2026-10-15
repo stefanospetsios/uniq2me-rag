@@ -1,0 +1,349 @@
+ 
+ 
+ 
+3.4.1: Establish and maintain baseline configurations and inventories of organizational systems (including hardware, software, firmware, and documentation) throughout the respective system development life cycles – CSF Tools
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Skip to content
+ 
+ 
+ 
+
+
+
+
+ 
+Menu
+Home
+
+
+Blog
+
+
+Visualizations
+
+
+Login
+
+
+
+
+
+
+
+
+ 
+NIST Special Publication 800-171
+
+
+NIST SP 800-171, Revision 2
+
+
+3.4: Configuration Management
+
+
+3.4.1: Establish and maintain baseline configurations and inventories of organizational systems (including hardware, software, firmware, and documentation) throughout the respective system development life cycles
+
+
+Control Family:
+
+
+Configuration Management
+
+
+
+
+Control Type:
+
+
+Basic
+
+
+
+
+CSF v1.1 References:
+
+
+ID.AM-1
+
+
+ID.AM-2
+
+
+PR.DS-3
+
+
+PR.IP-1
+
+
+
+
+Threats Addressed:
+
+
+Tampering
+
+
+
+
+Next Version:
+
+
+NIST SP 800-171 Revision 3.0:
+
+
+03.04.01: Baseline Configuration
+
+
+
+
+Discussion
+
+
+Baseline configurations are documented, formally reviewed, and agreed-upon specifications for systems or configuration items within those systems. Baseline configurations serve as a basis for future builds, releases, and changes to systems. Baseline configurations include information about system components (e.g., standard software packages installed on workstations, notebook computers, servers, network components, or mobile devices; current version numbers and update and patch information on operating systems and applications; and configuration settings and parameters), network topology, and the logical placement of those components within the system architecture. Baseline configurations of systems also reflect the current enterprise architecture. Maintaining effective baseline configurations requires creating new baselines as organizational systems change over time. Baseline configuration maintenance includes reviewing and updating the baseline configuration when changes are made based on security risks and deviations from the established baseline configuration
+
+
+Organizations can implement centralized system component inventories that include components from multiple organizational systems. In such situations, organizations ensure that the resulting inventories include system-specific information required for proper component accountability (e.g., system association, system owner). Information deemed necessary for effective accountability of system components includes hardware inventory specifications, software license information, software version numbers, component owners, and for networked components or devices, machine names and network addresses. Inventory specifications include manufacturer, device type, model, serial number, and physical location.
+
+
+[SP 800-128] provides guidance on security-focused configuration management.
+
+
+Related Controls
+
+
+NIST Special Publication 800-53 Revision 5.2.0
+
+
+CM-2: Baseline Configuration
+
+
+CM-6: Configuration Settings
+
+
+CM-8: System Component Inventory
+
+
+CM-8(1): Updates During Installation and Removal
+
+
+
+
+Critical Security Controls Version 8.1
+
+
+4.1: Establish and Maintain a Secure Configuration Process
+
+
+
+
+NIST Special Publication 800-53 Revision 4
+
+
+CM-2: Baseline Configuration
+
+
+CM-6: Configuration Settings
+
+
+CM-8: Information System Component Inventory
+
+
+CM-8(1): Updates During Installations / Removals
+
+
+
+
+Critical Security Controls Version 7.1
+
+
+1.4: Maintain Detailed Asset Inventory
+
+
+2.1: Maintain Inventory of Authorized Software
+
+
+5.1: Establish Secure Configurations
+
+
+5.4: Deploy System Configuration Management Tools
+
+
+11.1: Maintain Standard Security Configurations for Network Devices
+
+
+
+
+ 
+ 
+
+
+
+
+ 
+ 
+ Search for: 
+ 
+ 
+ 
+ Search 
+ 
+Advanced Search
+
+
+Related Security Visualizations
+
+
+
+
+Sunburst Visualization of the Privacy Framework
+
+
+
+
+Node-Link Diagram of the Cybersecurity Framework v2.0 Mapped to Controls
+
+
+
+
+Adjacency Matrix of Controls in the Privacy Framework
+
+
+
+
+Frameworks and Controls
+
+
+NIST Cybersecurity Framework
+Cybersecurity Framework v1.1
+ [
+Summary
+]
+Cybersecurity Framework v2.0
+ [
+Summary
+]
+NIST Privacy Framework
+Privacy Framework v1.0
+ [
+Summary
+]
+NIST Special Publication 800-53
+NIST SP 800-53, Revision 4
+ [
+Summary
+]
+NIST SP 800-53, Revision 5.2.0
+ [
+Summary
+]
+NIST Special Publication 800-82
+NIST SP 800-82, Revision 3.0
+ [
+Summary
+]
+NIST Special Publication 800-171
+NIST SP 800-171, Revision 2
+ [
+Summary
+]
+3.1: Access Control
+3.2: Awareness and Training
+3.3: Audit and Accountability
+3.4: Configuration Management
+3.4.1: Establish and maintain baseline configurations and inventories of organizational systems (including hardware, software, firmware, and documentation) throughout the respective system development life cycles
+3.4.2: Establish and enforce security configuration settings for information technology products employed in organizational systems
+3.4.3: Track, review, approve or disapprove, and log changes to organizational systems
+3.4.4: Analyze the security impact of changes prior to implementation
+3.4.5: Define, document, approve, and enforce physical and logical access restrictions associated with changes to organizational systems
+3.4.6: Employ the principle of least functionality by configuring organizational systems to provide only essential capabilities
+3.4.7: Restrict, disable, or prevent the use of nonessential programs, functions, ports, protocols, and services
+3.4.8: Apply deny-by-exception (blacklisting) policy to prevent the use of unauthorized software or deny-all, permit-by-exception (whitelisting) policy to allow the execution of authorized software
+3.4.9: Control and monitor user-installed software
+3.5: Identification and Authentication
+3.6: Incident Response
+3.7: Maintenance
+3.8: Media Protection
+3.9: Personnel Security
+3.10: Physical Protection
+3.11: Risk Assessment
+3.12: Security Assessment
+3.13: System and Communications Protection
+3.14: System and Information Integrity
+NIST SP 800-171, Revision 3.0
+ [
+Summary
+]
+CSA Cloud Controls Matrix
+Cloud Controls Matrix v3.0.1
+ [
+Summary
+]
+Cloud Controls Matrix Version 4.0
+ [
+Summary
+]
+CIS Critical Security Controls
+Critical Security Controls v7.1
+ [
+Summary
+]
+Critical Security Controls v8.1
+ [
+Summary
+]
+STRIDE-LM Threat Model
+
+
+Home
+
+
+Blog
+
+
+Visualizations
+
+
+Privacy Policy
+
+
+Disclaimer
+
+
+ 
+© 2026 
+CSF Tools
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

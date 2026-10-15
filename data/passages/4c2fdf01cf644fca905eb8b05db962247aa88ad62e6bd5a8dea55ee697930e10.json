@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "4c2fdf01cf644fca905eb8b05db962247aa88ad62e6bd5a8dea55ee697930e10",
+  "cachedAt": "2026-10-15T21:23:31Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://docs.cloud.google.com/docs/security/implement-cdmc-framework",
+  "finalUrl": "https://docs.cloud.google.com/docs/security/implement-cdmc-framework",
+  "language": "en",
+  "publisher": "Google Cloud",
+  "title": "Implement CDMC Controls in BigQuery",
+  "retrievedAt": "2026-10-15T21:22:20Z",
+  "byteDigest": "sha256:ae0647fc9ec52792c5c7e73c310ff7b2a8251350d1a575aa86cc65e4cdf8e17a",
+  "textDigest": "sha256:6a0b3aa8d45b5bdc1576bad6f3c564a6bc6b3d4a225aa846b81609b9de1c8c66",
+  "sourceId": "4-source-2",
+  "passageId": "p1",
+  "locator": "CDMC Key Control 2",
+  "quotation": "The Ownership field in a data catalog must be populated for all sensitive data or otherwise reported to a defined workflow.",
+  "originalText": "is established for both migrated and\ncloud-generated data\n\n      \nThe \nOwnership\n field in a data catalog must be\npopulated for all sensitive data or otherwise reported to a defined\nworkflow.\n\n    \n\n    \n\n      \n3\n\n      \nData sourcing and consumption are governed and supported by\nautomation\n\n      \nA register of authoritative data sources and provisioning points\nmust be populated for all",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:23:31Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "4"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Google Cloud",
+    "host": "docs.cloud.google.com"
+  }
+}

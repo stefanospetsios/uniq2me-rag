@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "9425cb93fb4c3847ed1d61fcd167ff78eed92618c1b250f80f960ceb2401095a",
+  "cachedAt": "2026-10-15T20:53:14Z",
+  "observedAt": "2026-10-15T20:53:14Z",
+  "originRunId": "qwen3-38804802602",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-0-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "0",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "operating systems workstations endpoint inventory provisioning patching diskless clients remote desktops shared storage device encryption endpoint logging official maintainer implementation configuration documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792097551541,
+    "end": 1792097552973
+  },
+  "outputDigest": "sha256:4eb384b894029e463c8b64202f92f04b867ac93b50a062655b97a590d47617c9",
+  "resultUrls": [
+    "https://docs.netlockrmm.com/manual/all",
+    "https://www.manageengine.com/products/desktop-central/features.html"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"ManageEngine Endpoint Central features | Unified Endpoint Management and Security\",\n      \"url\": \"https://www.manageengine.com/products/desktop-central/features.html\",\n      \"content\": \"ManageEngine Endpoint Central features | Unified Endpoint Management and Security\\n\\n### FEATURES\\n\\n- Patch and update management\\n- Vulnerability remediation\\n- Endpoint Detection and Response\\n- Malware protection\\n- Browser security\\n- Application control & privilege mgmt\\n- Data security\\n- Secure Private Access\\n- IT asset management\\n- Application distribution\\n- Digital employee experience\\n- Remote access and troubleshooting\\n- OS imaging and deployment\\n- Configuration management\\n- Reporting and auditing\\n- Mobile Device Management\\n- Disk encryption management\\n- Server Management\\n\\nEndpoint Central is a unified endpoint management and security solution. Every feature below from patching to EDR to DLP is built into one platform.\\n\\n## Patch and update management\\n\\nSecure and stabilize operating systems, applications, and mobile apps with automated patches and updates.\\n\\n### Automated patching\\n\\n'Set-and-forget' automation of patching - right from scanning, detecting, and testing, to deploying the patches.\\n\\n99% first-pass success link\\n\\n### Test and approve\\n\\nTest patches for stability and compatibility on a testbed before deploying them.\\n\\nlink\\n\\n### User-centric deployment policies\\n\\nCustomize deployment schedules with pre- and post-deployment checks, installation time flexibility, and post-installation reboot options.\\n\\n### Third party patching\\n\\nInstall tested patches for third-party desktop applications and set up automatic updates for mobile apps.\\n\\n1100+ applications link\\n\\n### Decline patches\\n\\nPerform selective patching by declining problematic/less critical patches, temporarily or permanently.\\n\\n## Vulnerability remediation\\n\\nUtilize continual vulnerability intelligence, rigorous assessments, and rapid reme",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "docs.netlockrmm.com",
+      "www.manageengine.com"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T21:04:59Z",
+  "originRunId": "qwen3-38804802602",
+  "source": {
+    "id": "1-source-4",
+    "type": "technical-doc",
+    "title": "Phase 1: Design account and identity strategy | Databricks on AWS",
+    "publisher": "Databricks",
+    "url": "https://docs.databricks.com/aws/en/lakehouse-architecture/deployment-guide/account-setup",
+    "language": "en",
+    "jurisdiction": "Global",
+    "applicability": "Databricks deployments requiring administrative role design patterns with segregated duties, emergency access procedures, and identity federation across account, workspace and data governance layers",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "Best practices for administrative roles",
+        "text": "Limit account admin privileges to two or three trusted individuals."
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:270120fc357948997aa9f117290eb21f0f516d1bf1b879b83fde5baa0b8d0a24",
+    "textDigest": "sha256:acaa78e9201832b9587f0c149d4448fce7942f36e639019fe318589ad937ab47",
+    "finalUrl": "https://docs.databricks.com/aws/en/lakehouse-architecture/deployment-guide/account-setup",
+    "retrievedAt": "2026-10-15T21:04:59Z",
+    "contentType": "text/html",
+    "snapshotPath": "source-270120fc357948997aa9f117290eb21f0f516d1bf1b879b83fde5baa0b8d0a24.bin",
+    "textPath": "source-acaa78e9201832b9587f0c149d4448fce7942f36e639019fe318589ad937ab47.txt"
+  },
+  "files": {
+    "snapshots/source-270120fc357948997aa9f117290eb21f0f516d1bf1b879b83fde5baa0b8d0a24.bin": "sha256:270120fc357948997aa9f117290eb21f0f516d1bf1b879b83fde5baa0b8d0a24",
+    "snapshots/source-acaa78e9201832b9587f0c149d4448fce7942f36e639019fe318589ad937ab47.txt": "sha256:acaa78e9201832b9587f0c149d4448fce7942f36e639019fe318589ad937ab47"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://docs.databricks.com/aws/en/lakehouse-architecture/deployment-guide/account-setup",
+  "language": "en",
+  "retrievedAt": "2026-10-15T21:04:59Z",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:08:42Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": "Phase 1: Design account and identity strategy | Databricks on AWS\n\n\n\n\n\n\n\n\n\n\nSkip to main content\n\n\n\n\nGet started\nGuides\nDevelop\nReference\nResources\nRelease notes\nHelp\nSupport\nKnowledge Base\nCommunity\nTraining\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnglish\nEnglish\n日本語\nPortuguês\nFrançais\n\n\nAWS\nAzure\nGCP\nSAP\n\n\nTry Databricks\n\n\n\n\n\n\n\n\nArchitecture\nDatabricks well-architected framework\nProduction planning\nPhase 1: Account\n\n\nOn this page\n\n\nLast updated\n on \nOct 6, 2026\n\n\n\n\n\n\nPhase 1: Design account and identity strategy\n\n\n\n\nIn this phase, you design the foundational account administration and identity management strategy for your \nDatabricks\n account.\n\n\n\n\nUnderstand administrative boundaries\n​\n\n\n\n\nDatabricks\n administration is structured in four intentional layers that provide flexibility and control for securing dat",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "Databricks",
+    "host": "docs.databricks.com"
+  }
+}

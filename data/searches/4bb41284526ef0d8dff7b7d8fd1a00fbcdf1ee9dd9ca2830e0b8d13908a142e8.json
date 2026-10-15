@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "4bb41284526ef0d8dff7b7d8fd1a00fbcdf1ee9dd9ca2830e0b8d13908a142e8",
+  "cachedAt": "2026-10-15T21:32:48Z",
+  "observedAt": "2026-10-15T21:32:48Z",
+  "originRunId": "qwen3-38804802602",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-6-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "6",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Logging Monitoring and Incident Response official implementation configuration documentation site:europa.eu site:cyber.gov.gr site:et.gr site:nist.gov site:cisa.gov site:owasp.org site:kernel.org site:microsoft.com site:mozilla.org site:ietf.org site:rfc-editor.org site:docs.github.com site:docs.gitlab.com site:docs.docker.com site:kubernetes.io site:postgresql.org site:dev.mysql.com site:docs.python.org site:openssl.org site:oecd.org site:unesco.org site:cnil.fr site:cyber.gouv.fr site:github.com site:ssi.gouv.fr site:docs.aws.amazon.com site:cloud.google.com site:docs.redhat.com site:docs.ansible.com site:docs.ollama.com site:opencode.ai site:huggingface.co"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792099923998,
+    "end": 1792099934048
+  },
+  "outputDigest": "sha256:2e73a91f4fe5355e8e726ddd2183d81c2c167e6690c4abbc182204dd885c1d13",
+  "resultUrls": [],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Logging Monitoring and Incident Response official implementation configuration documentation site:europa.eu site:cyber.gov.gr site:et.gr site:nist.gov site:cisa.gov site:owasp.org site:kernel.org site:microsoft.com site:mozilla.org site:ietf.org site:rfc-editor.org site:docs.github.com site:docs.gitlab.com site:docs.docker.com site:kubernetes.io site:postgresql.org site:dev.mysql.com site:docs.python.org site:openssl.org site:oecd.org site:unesco.org site:cnil.fr site:cyber.gouv.fr site:github.com site:ssi.gouv.fr site:docs.aws.amazon.com site:cloud.google.com site:docs.redhat.com site:docs.ansible.com site:docs.ollama.com site:opencode.ai site:huggingface.co\",\n  \"results\": [],\n  \"unresponsive_engines\": [\n    [\n      \"brave\",\n      \"too many requests\"\n    ],\n    [\n      \"wikidata\",\n      \"timeout\"\n    ]\n  ]\n}",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": []
+  }
+}

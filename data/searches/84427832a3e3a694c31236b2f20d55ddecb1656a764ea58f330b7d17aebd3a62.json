@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "84427832a3e3a694c31236b2f20d55ddecb1656a764ea58f330b7d17aebd3a62",
+  "cachedAt": "2026-10-15T21:04:55Z",
+  "observedAt": "2026-10-15T21:04:55Z",
+  "originRunId": "qwen3-38804802602",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-1-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "1",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "separation of duties administrator accounts official implementation configuration documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792098202582,
+    "end": 1792098203835
+  },
+  "outputDigest": "sha256:a0a634111343dbd30cbb3a62ae7890f0653a29d08b4e94b99672f502836dc02d",
+  "resultUrls": [
+    "https://docs.databricks.com/aws/en/lakehouse-architecture/deployment-guide/account-setup",
+    "https://documentation.solarwinds.com/en/success_center/dpa/content/dpa-limit-user-acct-mgmt-to-role.htm",
+    "https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/security-planning",
+    "https://www.canada.ca/en/government/system/digital-government/policies-standards/enterprise-it-service-common-configurations/account.html"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Limit user account management to the User Manager role\",\n      \"url\": \"https://documentation.solarwinds.com/en/success_center/dpa/content/dpa-limit-user-acct-mgmt-to-role.htm\",\n      \"content\": \"Limit user account management to the User Manager role\\n\\n# Limit user account management to the User Manager role\\n\\nBy default, both the Administrator role and the User Manager role have privileges to create and manage DPA user accounts. To enforce a strict separation of duties, you can remove user account management privileges from the Administrator role. Only users with the User Manager role will be able to manage user accounts. \\n\\n1. Open the following file in a text editor:\\n\\n`DPA-install-dir\\\\iwc\\\\tomcat\\\\ignite_config\\\\idc\\\\system.properties` \\n2. Set the following property to `true`:\\n\\n`com.solarwinds.dpa.userManagement.strictSeparationOfDuties=true` \\n3. Save the file and restart DPA.\\n4. Assign the User Manager role to one or more DPA user accounts. \\n\\nWhen the `strictSeparationOfDuties` property is set to `true` and at least one DPA user is assigned the User Manager role, the Administrator role does not have privileges to create and manage user accounts. \\n\\nAfter you complete this procedure, Administrator role privileges vary depending on whether the User Manager role is assigned. This ensures that at least one DPA user has account management privileges:\\n\\n- If any DPA user is assigned the User Manager role, then the Administrator role does not have privileges to create and manage user accounts. \\n- If the User Manager role is not assigned to any user, then the Administrator role does have user account management privileges.\\n\\nThe Repository Owner always retains user account management privileges, regardless of whether the User Manager role is assigned.\"\n    },\n    {\n      \"title\": \"Account Management Configuration Requirements - Canada.ca\",\n      \"url\": \"https://www.canada.ca/en/government/system/digital-government/p",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "docs.databricks.com",
+      "documentation.solarwinds.com",
+      "learn.microsoft.com",
+      "www.canada.ca"
+    ]
+  }
+}

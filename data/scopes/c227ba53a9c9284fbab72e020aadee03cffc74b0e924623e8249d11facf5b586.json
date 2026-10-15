@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-scope",
+  "cachedAt": "2026-10-15T21:39:19Z",
+  "scopeId": "6",
+  "fingerprint": "c227ba53a9c9284fbab72e020aadee03cffc74b0e924623e8249d11facf5b586",
+  "originRunId": "qwen3-38804802602",
+  "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "scope-admitted",
+    "publisher": null,
+    "host": null
+  },
+  "corpus": {
+    "sources": {
+      "6-source-1": {
+        "type": "technical-doc",
+        "title": "Best Practices for Event Logging and Threat Detection",
+        "publisher": "Cybersecurity and Infrastructure Security Agency (CISA) in cooperation with ASD's ACSC, FBI, NSA, NCSC-UK, CCCS, NCSC-NZ, NISC, NCSC-Korea, CSA, AIVD, MIVD",
+        "url": "https://www.ic3.gov/CSA/2024/240822.pdf",
+        "language": "en",
+        "jurisdiction": "United States and international partners",
+        "applicability": "Organizations implementing event logging systems for network visibility and threat detection across cloud services, enterprise networks, operational technology, and mobility with moderate technical complexity",
+        "publicationDate": "2024-08-22",
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "6-source-1",
+        "byteDigest": "sha256:4a085afc89a8b38890e67f5ade465c8607ac8854d6c920421ecfeb2557486811",
+        "textDigest": "sha256:1f1f9cadacadb2f5008dc836a3c463e6cba62afbaae4248c8d7fa2cb0c8d1d72",
+        "finalUrl": "https://www.ic3.gov/CSA/2024/240822.pdf",
+        "retrievedAt": "2026-10-15T21:35:36Z",
+        "contentType": "application/pdf",
+        "snapshotPath": "source-4a085afc89a8b38890e67f5ade465c8607ac8854d6c920421ecfeb2557486811.bin",
+        "textPath": "source-1f1f9cadacadb2f5008dc836a3c463e6cba62afbaae4248c8d7fa2cb0c8d1d72.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "page 7",
+            "text": "Organisations should consider establishing an accurate and trustworthy time source and use this consistently across all systems to assist network defenders in identifying connections between event logs."
+          },
+          {
+            "id": "p2",
+            "locator": "page 11",
+            "text": "An event logging facility should enable the protection of logs from unauthorised modification and deletion. Ensure that only personnel with a justified requirement have permission to delete or modify event logs and view the audit logs for access to the centralised logging environment."
+          },
+          {
+            "id": "p3",
+            "locator": "page 12",
+            "text": "ASD’s ACSC and co-authors recommend that organisations consider implementing user and entity behavioural analytics capabilities to enable automated detection of behavioural anomalies on networks, devices, or accounts. SIEMs can detect anomalous activity by comparing event logs to a baseline of business-as-usual traffic and activity."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "6-source-2": {
+        "type": "technical-doc",
+        "title": "IBM Z Time Synchronization Implementation Guide",
+        "publisher": "IBM",
+        "url": "https://www.redbooks.ibm.com/redbooks/pdfs/sg248480.pdf",
+        "language": "en",
+        "jurisdiction": "United States",
+        "applicability": "Organizations requiring high-accuracy time synchronization through standard protocols (NTP, PTP, PPS) for log integrity in IBM Z mainframe environments",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "6-source-2",
+        "byteDigest": "sha256:c674148202321fc826f908e6dd7300e8b2fdc384c23e8d6ba8b34a6d0ecbe078",
+        "textDigest": "sha256:ed762518c97621726f2e9c992bb71af39374e0be49b1bc9db562c75253c3d94a",
+        "finalUrl": "https://www.redbooks.ibm.com/redbooks/pdfs/sg248480.pdf",
+        "retrievedAt": "2026-10-15T21:35:39Z",
+        "contentType": "application/pdf",
+        "snapshotPath": "source-c674148202321fc826f908e6dd7300e8b2fdc384c23e8d6ba8b34a6d0ecbe078.bin",
+        "textPath": "source-ed762518c97621726f2e9c992bb71af39374e0be49b1bc9db562c75253c3d94a.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "page 2",
+            "text": "Timestamps provide a way to confirm the precise time and sequence of events, ensuring the integrity of digital records and preventing disputes."
+          },
+          {
+            "id": "p2",
+            "locator": "page 3",
+            "text": "Time synchronization helps you maintain data integrity by ensuring that timestamps in databases and other storage systems are consistent and accurate. This is essential for data analysis, reporting, and forensic investigations."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      }
+    },
+    "concerns": [
+      {
+        "id": "6-concern-1",
+        "sfsId": "6",
+        "description": "Implementation of consistent time synchronization across systems to maintain log integrity and enable event correlation",
+        "sourceRefs": [
+          {
+            "sourceId": "6-source-1",
+            "passageId": "p1"
+          },
+          {
+            "sourceId": "6-source-2",
+            "passageId": "p1"
+          },
+          {
+            "sourceId": "6-source-2",
+            "passageId": "p2"
+          }
+        ]
+      },
+      {
+        "id": "6-concern-2",
+        "sfsId": "6",
+        "description": "Protection mechanisms to prevent unauthorized access, modification or deletion of event logs",
+        "sourceRefs": [
+          {
+            "sourceId": "6-source-1",
+            "passageId": "p2"
+          }
+        ]
+      },
+      {
+        "id": "6-concern-3",
+        "sfsId": "6",
+        "description": "Implementation of behavioral analytics for detection of anomalous activity across networks and systems",
+        "sourceRefs": [
+          {
+            "sourceId": "6-source-1",
+            "passageId": "p3"
+          }
+        ]
+      }
+    ],
+    "queries": [
+      {
+        "scope": "6",
+        "toolId": "searxng_web_search",
+        "input": {
+          "max_results": 10,
+          "safesearch": 1,
+          "time_range": "",
+          "query": "No specific evidence regarding time synchronization standards and implementation requirements official implementation configuration documentation logging monitoring incident response"
+        },
+        "outputDigest": "sha256:d0dcd528f1e5407a3d8124e1a8d50820d8448a2671cc4d8237bb613a4c95eaea",
+        "callId": "sources-6-2-discovery"
+      },
+      {
+        "scope": "6",
+        "toolId": "websearch_web_search",
+        "input": {
+          "query": "log integrity verification mechanisms technical documentation time synchronization standards implementation monitoring coverage thresholds metrics official guidance",
+          "max_results": 10
+        },
+        "outputDigest": "sha256:96f206c442f35f834016fb7622d31df68a8a04fbc3bd299fab37263a8987d88a",
+        "callId": "sources-6-2-discovery"
+      }
+    ],
+    "limitations": [
+      {
+        "scope": "6",
+        "description": "searxng search engines unresponsive: brave (too many requests), duckduckgo (CAPTCHA)"
+      },
+      {
+        "scope": "6",
+        "description": "IBM Redbook publication date not explicitly verified in result snippet"
+      },
+      {
+        "scope": "6",
+        "description": "Time synchronization documentation specific to enterprise mainframe environments requires adaptation for general organizational use"
+      },
+      {
+        "scope": "6",
+        "description": "Limited technical details about specific log integrity verification mechanisms beyond general protection principles"
+      },
+      {
+        "scope": "6",
+        "description": "Insufficient information about specific monitoring coverage thresholds and metrics beyond examples of anomalous behavior"
+      }
+    ],
+    "admissionVersion": 2,
+    "observedResultUrls": [
+      "https://www.ic3.gov/CSA/2024/240822.pdf",
+      "https://www.redbooks.ibm.com/redbooks/pdfs/sg248480.pdf"
+    ]
+  },
+  "files": {
+    "snapshots/source-4a085afc89a8b38890e67f5ade465c8607ac8854d6c920421ecfeb2557486811.bin": "sha256:4a085afc89a8b38890e67f5ade465c8607ac8854d6c920421ecfeb2557486811",
+    "snapshots/source-1f1f9cadacadb2f5008dc836a3c463e6cba62afbaae4248c8d7fa2cb0c8d1d72.txt": "sha256:1f1f9cadacadb2f5008dc836a3c463e6cba62afbaae4248c8d7fa2cb0c8d1d72",
+    "snapshots/source-c674148202321fc826f908e6dd7300e8b2fdc384c23e8d6ba8b34a6d0ecbe078.bin": "sha256:c674148202321fc826f908e6dd7300e8b2fdc384c23e8d6ba8b34a6d0ecbe078",
+    "snapshots/source-ed762518c97621726f2e9c992bb71af39374e0be49b1bc9db562c75253c3d94a.txt": "sha256:ed762518c97621726f2e9c992bb71af39374e0be49b1bc9db562c75253c3d94a"
+  }
+}

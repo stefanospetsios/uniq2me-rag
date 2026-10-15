@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T21:04:58Z",
+  "originRunId": "qwen3-38804802602",
+  "source": {
+    "id": "1-source-3",
+    "type": "technical-doc",
+    "title": "Limit user account management to the User Manager role",
+    "publisher": "SolarWinds",
+    "url": "https://documentation.solarwinds.com/en/success_center/dpa/content/dpa-limit-user-acct-mgmt-to-role.htm",
+    "language": "en",
+    "jurisdiction": "Global",
+    "applicability": "SolarWinds Database Performance Analyzer environments implementing strict separation of duties through role-based access controls where User Manager role exclusively manages user accounts",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "Title section",
+        "text": "Limit user account management to the User Manager role"
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:6c108db9c322fa53d8eaaeb2241310dbdb241a7b56d57448972a7c9a801af7f6",
+    "textDigest": "sha256:ba49256a95ddb0520ebf9df2fd85b0097218c203d31364312aa6c2177e25bc31",
+    "finalUrl": "https://documentation.solarwinds.com/en/success_center/dpa/content/dpa-limit-user-acct-mgmt-to-role.htm",
+    "retrievedAt": "2026-10-15T21:04:58Z",
+    "contentType": "text/html; charset=UTF-8",
+    "snapshotPath": "source-6c108db9c322fa53d8eaaeb2241310dbdb241a7b56d57448972a7c9a801af7f6.bin",
+    "textPath": "source-ba49256a95ddb0520ebf9df2fd85b0097218c203d31364312aa6c2177e25bc31.txt"
+  },
+  "files": {
+    "snapshots/source-6c108db9c322fa53d8eaaeb2241310dbdb241a7b56d57448972a7c9a801af7f6.bin": "sha256:6c108db9c322fa53d8eaaeb2241310dbdb241a7b56d57448972a7c9a801af7f6",
+    "snapshots/source-ba49256a95ddb0520ebf9df2fd85b0097218c203d31364312aa6c2177e25bc31.txt": "sha256:ba49256a95ddb0520ebf9df2fd85b0097218c203d31364312aa6c2177e25bc31"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://documentation.solarwinds.com/en/success_center/dpa/content/dpa-limit-user-acct-mgmt-to-role.htm",
+  "language": "en",
+  "retrievedAt": "2026-10-15T21:04:58Z",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:08:42Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": "\n\n\n    \n\n        \n\n        \n\n        \n\n        \n\n        \nLimit user account management to the User Manager role\n\n                \n\n\n\n\n\n\n\n\n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n    \n\n    \n\n\n\n\n    \n\n\n\n\n\n\n\n\n\n\n    \n\n    \n\n    \n\n\n\n    \n\n    \n\n    \n    \n\n\n\n  \n\n\n\n   \n\n   \n\n\n\n    \n\n    \n\n\n\n\n    \n\n        \n\n\n    \n\n        \n\n            \n\n                \nSolarWinds uses cookies on its websites to make your online experience easier and better.\n                        By using our website, you consent to our use of cookies. For more information on cookies, see\n                        our \nCookie\n                            Policy\n.\n\n            \n\n\n\n            \n\n                ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "SolarWinds",
+    "host": "documentation.solarwinds.com"
+  }
+}

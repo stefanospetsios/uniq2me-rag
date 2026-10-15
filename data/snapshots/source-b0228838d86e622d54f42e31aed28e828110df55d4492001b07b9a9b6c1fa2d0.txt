@@ -1,0 +1,1863 @@
+
+
+
+  
+
+    
+
+    
+
+
+
+
+    
+
+        
+Cryptography - CCF documentation
+
+      
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+
+
+
+  
+
+    
+    
+
+    
+
+
+
+  
+
+    
+Contents
+
+    
+
+      
+
+    
+
+  
+
+  
+
+    
+Menu
+
+    
+
+      
+
+      
+
+      
+
+    
+
+  
+
+  
+
+    
+Expand
+
+    
+
+      
+
+    
+
+  
+
+  
+
+    
+Light mode
+
+    
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+    
+
+  
+
+  
+
+    
+Dark mode
+
+    
+
+      
+
+      
+
+    
+
+  
+
+  
+
+    
+Auto light/dark, in light mode
+
+    
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+    
+
+  
+
+  
+
+    
+Auto light/dark, in dark mode
+
+    
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+    
+
+  
+
+  
+
+    
+
+      
+
+      
+
+      
+
+      
+
+    
+
+  
+
+  
+
+    
+
+      
+
+      
+
+      
+
+      
+
+      
+
+    
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+
+
+
+
+  
+
+    
+
+      
+
+        
+
+      
+
+    
+
+
+
+    
+
+      
+CCF  documentation
+
+
+
+    
+
+
+
+    
+
+      
+
+        
+
+          
+
+          
+
+          
+
+          
+
+        
+
+      
+
+
+
+      
+
+        
+
+      
+
+    
+
+
+
+  
+
+  
+
+    
+
+      
+      
+
+  
+  
+
+
+
+
+
+
+
+
+
+  
+Select Version:
+
+
+
+
+
+
+
+    
+
+      
+        main
+      
+    
+
+
+
+
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+  
+
+
+Overview
+
+
+What is CCF?
+
+
+
+
+Governance
+
+
+
+
+CCF threat model review
+
+
+
+
+Performance
+
+
+
+
+Glossary
+
+
+
+
+
+
+
+
+
+
+Build Apps
+
+
+Quick Start
+
+
+
+
+Install CCF
+
+
+
+
+C++ Application
+
+
+Example app (C++)
+
+
+
+
+Example app RPC API
+
+
+
+
+
+
+
+
+
+
+Example app (Rust)
+
+
+
+
+Rust API reference
+
+
+
+
+TypeScript Application
+
+
+
+
+JavaScript Application Bundle
+
+
+
+
+Logging
+
+
+
+
+Build CCF Applications
+
+
+
+
+Running CCF Applications
+
+
+
+
+User Authentication
+
+
+JWT Authentication
+
+
+
+
+Certificate Authentication
+
+
+
+
+
+
+
+
+
+
+Key-Value Store
+
+
+Key-Value Store How-To
+
+
+
+
+Key-Value Serialisation
+
+
+
+
+Key-Value Store API
+
+
+
+
+
+
+
+
+
+
+Developer API
+
+
+
+
+Cryptography API
+
+
+
+
+Release and compatibility policy
+
+
+
+
+7.x to 8.x Migration Guide
+
+
+
+
+Migrating from forwarding to redirection
+
+
+
+
+
+
+
+
+
+
+Use Apps
+
+
+Issuing Commands
+
+
+
+
+Verifying Transactions
+
+
+
+
+RPC API
+
+
+
+
+
+
+
+
+
+
+Operations
+
+
+Setup CCF Runtime Environment
+
+
+
+
+Running a CCF Service
+
+
+
+
+Configuration
+
+
+
+
+Command-Line Interface
+
+
+
+
+Ledger and Snapshots
+
+
+
+
+Data Persistence
+
+
+
+
+Code Upgrade
+
+
+
+
+Certificates
+
+
+
+
+Disaster Recovery
+
+
+
+
+Networking
+
+
+
+
+Platforms
+
+
+AMD SEV-SNP
+
+
+
+
+Insecure Virtual
+
+
+
+
+
+
+
+
+
+
+Troubleshooting CCF
+
+
+
+
+Resource Usage
+
+
+
+
+Operator RPC API
+
+
+
+
+
+
+
+
+
+
+Governance
+
+
+Constitution
+
+
+
+
+Proposing and Voting for a Proposal
+
+
+
+
+JavaScript Runtime Options
+
+
+
+
+Opening a Network
+
+
+
+
+Accepting Recovery and Submitting Shares
+
+
+
+
+Common Governance Operations
+
+
+
+
+Adding New Members
+
+
+
+
+Using Member Keys Stored in HSM
+
+
+
+
+Member RPC API
+
+
+Latest
+
+
+
+
+2024-07-01
+
+
+
+
+2023-06-01-preview
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Audit
+
+
+Receipts
+
+
+
+
+Built-in Maps
+
+
+
+
+Python Library
+
+
+
+
+Read-Write Permissions On KV Maps
+
+
+
+
+Reproducible Build
+
+
+
+
+
+
+
+
+
+
+Contribute
+
+
+Onboarding
+
+
+
+
+CCF Development Setup
+
+
+
+
+Build CCF from Source
+
+
+
+
+Release or patch a CCF release
+
+
+
+
+
+
+
+
+
+
+Architecture
+
+
+Consensus Protocol
+
+
+
+
+Cryptography
+
+
+
+
+Request Flow
+
+
+
+
+Threading
+
+
+
+
+Merkle Tree
+
+
+
+
+Ledger
+
+
+
+
+TLA+ Specifications
+
+
+
+
+Node-to-Node Channels
+
+
+
+
+Indexing
+
+
+
+
+Receipts
+
+
+
+
+TLS Internals
+
+
+
+
+TCP Internals
+
+
+
+
+
+
+
+
+
+
+Research
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+      
+    
+
+
+
+  
+
+  
+
+    
+
+      
+
+        
+
+          
+
+            
+
+          
+
+          
+Back to top
+
+        
+
+        
+
+          
+
+  
+
+    
+
+    
+View this page
+
+  
+
+
+
+
+
+
+
+            
+
+              
+
+              
+
+              
+
+              
+
+            
+
+          
+
+
+
+          
+
+            
+
+          
+
+        
+
+
+
+        
+
+          
+
+
+Cryptography
+¶
+
+
+
+
+
+
+Keys
+¶
+
+
+
+
+
+
+Tip
+
+
+
+
+See the 
+Summary Diagrams
+ for a detailed overview of the relationships between cryptographic keys in CCF.
+
+
+
+
+
+
+
+
+
+
+Service
+¶
+
+
+
+
+A CCF service/network has:
+
+
+
+
+
+
+A service/network identity public-key certificate (
+Service
+ 
+Identity
+ 
+Certificate
+), used as root of trust for 
+TLS
+ server authentication and receipt verification.
+
+
+
+
+
+
+A symmetric data-encryption key (
+Ledger
+ 
+Secret
+), used to encrypt and integrity protect all transactions/entries in the ledger.
+
+
+
+
+
+
+
+
+
+
+Note
+
+
+
+
+The service certificate, associated private key and data-encryption keys are shared by all nodes trusted to join the network.
+
+
+
+
+
+
+
+
+
+
+
+
+Node
+¶
+
+
+
+
+Each CCF node is identified by a public-key certificate (
+Node
+ 
+Identity
+ 
+Certificate
+) endorsed by an attestation report (
+Node
+ 
+Enclave
+ 
+Attestation
+ 
++
+ 
+Collaterals
+). This certificate is used to authenticate the node when it joins the network, and to periodically sign entries (
+Ledger
+ 
+Signatures
+) committed by the node to the ledger during its time as primary.
+
+
+
+
+Each node also has an encryption public-key (
+Node
+ 
+Encryption
+ 
+Public
+ 
+Key
+) used to share ledger secrets between the primary and backups nodes during a 
+live ledger rekey
+.
+
+
+
+
+
+
+
+
+Member
+¶
+
+
+
+
+Each CCF consortium member is similarly identified by a public-key certificate used for client authentication and command signing. Recovery members also have an encryption public-key (
+Member
+ 
+Encryption
+ 
+Public
+ 
+Key
+) used to encrypt recovery shares in the ledger.
+
+
+
+
+
+
+
+
+User
+¶
+
+
+
+
+Each CCF user is identified by a public-key certificate, used for 
+TLS
+ client authentication when they connect to the service. These keys are also used to sign user commands.
+
+
+
+
+
+
+
+
+Ephemeral Network Keys
+¶
+
+
+
+
+Each node-to-node pair establishes a symmetric key using an authenticated Diffie Hellman key exchange protocol. This key protects the integrity of consensus message headers exchanged between nodes. It is also use to encrypt forwarded write transactions from the backups to the primary node.
+
+
+
+
+
+
+
+
+
+
+Summary Diagrams
+¶
+
+
+
+
+
+
+Note
+
+
+
+
+The “
+” symbol indicates that the key never leaves the enclave memory, or in the case of the 
+Service
+ 
+Identity
+ 
+Private
+ 
+Key
+ and 
+Ledger
+ 
+Secret
+ is only shared between nodes over authenticated TLS.
+
+
+
+
+
+
+
+
+
+
+Identity Keys and Certificates
+¶
+
+
+
+
+The following diagram describes the relationships between identity keys of the service/network and nodes. The shared 
+Service Identity
+ (
+Service
+ 
+Identity
+ 
+Certificate
+) is the root of trust for the service and is assumed to be trusted by users who can connect to the service over TLS as well as verify the integrity of 
+transaction receipts
+.
+
+
+
+
+The primary node periodically signs the root of the Merkle Tree of all transactions (
+Ledger
+ 
+Signature
+) using its 
+Node
+ 
+Identity
+ 
+Private
+ 
+Key
+ and records it in the ledger. All public certificates and attestation reports (
+Node
+ 
+Enclave
+ 
+Attestation
+ 
++
+ 
+Collaterals
+) are also recorded in the ledger for audit.
+
+
+
+
+
+        flowchart TB
+    ServiceCert[fa:fa-scroll Service Identity Certificate] --contains--> ServicePubk[Service Identity Public Key]
+    ServicePubk -.- ServicePrivk[fa:fa-key Service Identity Private Key]
+    NodePubk[Node Identity Public Key] -.- NodePrivk[fa:fa-key Node Identity Private Key]
+    ServiceCert -- recorded in <br> ccf.gov.service.info --> Ledger[(fa:fa-book Ledger)]
+    NodeCert[fa:fa-scroll Node Identity Certificate] -- recorded in <br> ccf.gov.nodes.endorsed_certificates --> Ledger
+    ServicePrivk -- signs --> NodeCert
+    NodePrivk -- signs --> Signature[fa:fa-file-signature Ledger Signatures <br> over Merkle Tree root]
+    Signature -- recorded in <br> ccf.internal.signatures --> Ledger
+    Attestation[fa:fa-microchip Node Enclave Attestation <br> + Collaterals] -- contains hash of --> NodePubk
+    NodeCert -- contains --> NodePubk
+    Attestation -- recorded in <br> ccf.gov.nodes.info --> Ledger
+    
+
+
+
+
+Ledger Secrets
+¶
+
+
+
+
+The 
+Ledger
+ 
+Secret
+ symmetric key is used to encrypt and protect the integrity (using AES-GCM) of all write transactions executed by the service and recorded in the ledger.
+
+
+
+
+To be able to recover the ledger (see 
+Disaster Recovery
+), the ledger secret is also encrypted using an ephemeral 
+Ledger
+ 
+Secret
+ 
+Wrapping
+ 
+Key
+ and the resulting 
+Encrypted
+ 
+Ledger
+ 
+Secret
+ is recorded in the ledger. The 
+Ledger
+ 
+Secret
+ 
+Wrapping
+ 
+Key
+ is split into 
+k-of-n
+ 
+Recovery
+ 
+Shares
+ (with 
+k
+ the 
+service recovery threshold
+ and 
+n
+ the number of recovery members) and each recovery share is encrypted with the recovery member’s encryption public key. The resulting 
+Encrypted
+ 
+k-of-n
+ 
+Recovery
+ 
+Shares
+ are recorded in the ledger and can then be served to each recovery member by the recovered 
+public
+ service, who can then decrypt it (for example, 
+by using their encryption private key stored in a HSM
+) and then submit the decrypted share to the new service.
+
+
+
+
+Since the 
+Ledger
+ 
+Secret
+ can also be rotated by members (see 
+Rekeying Ledger
+), the old ledger secret (
+Previous
+ 
+Ledger
+ 
+Secret
+) is also encrypted with the new ledger secret and the resulting 
+Encrypted
+ 
+Previous
+ 
+Ledger
+ 
+Secret
+ is also recorded in the ledger. This allows recovery members to recover the entirety of the historical ledger by simply having access to their 
+most-recent
+ recovery shares.
+
+
+
+
+Each node also has an encryption public-key (
+Node
+ 
+Encryption
+ 
+Public
+ 
+Key
+) used to share ledger secrets between the primary and backups nodes during a 
+live ledger rekey
+.
+
+
+
+
+
+        flowchart TB
+    WrappingKey -- split into --> RecoveryShares{{fa:fa-helicopter k-of-n <br> Recovery Shares}}
+    MemberPublicKeys{{fa:fa-users Members Encryption <br> Public Keys}} --key--> F[/encrypts/]
+    RecoveryShares --in--> F[/encrypts/] --> EncryptedRecoveryShares{{fa:fa-lock Encrypted k-of-n <br> Recovery Shares}}
+    EncryptedRecoveryShares -- recorded in <br> ccf.internal.recovery_shares --> Ledger
+
+    WrappingKey[fa:fa-key Ledger Secret <br> Wrapping Key] --key--> N[/encrypts/]
+    LedgerSecret --in--> N[/encrypts/] --> EncryptedLedgerSecret[fa:fa-lock Encrypted <br> Ledger Secret]
+    EncryptedLedgerSecret -- recorded in ccf.internal --> Ledger[(fa:fa-book Ledger)]
+
+    PreviousLedgerSecret[fa:fa-key Previous <br> Ledger Secret] --in--> H[/encrypts/] --> EncryptedPreviousLedgerSecret[fa:fa-lock Encrypted Previous <br> Ledger Secret]
+    LedgerSecret --key--> H[/encrypts/]
+    EncryptedPreviousLedgerSecret -- recorded in <br> ccf.internal.<br>historical_encrypted_ledger_secret --> Ledger
+
+    LedgerSecret[fa:fa-key Ledger <br> Secret] -- "encrypts <br> (AES-GCM)" --> Transactions[fa:fa-lock All CCF Transactions]
+    style LedgerSecret stroke:black,stroke-width:3px
+    Transactions -- recorded in --> Ledger
+
+    LedgerSecret --in--> K[/encrypts/] --> NodeEncryptedLedgerSecrets{{fa:fa-lock Node Encrypted Ledger Secrets}}
+    NodeEncryptionPublicKeys{{Node Encryption <br> Public Keys}} --key--> K[/encrypt/]
+    NodeEncryptedLedgerSecrets{{fa:fa-lock Node Encrypted <br> Ledger Secrets}}
+    NodeEncryptedLedgerSecrets -- recorded in <br> ccf.internal.<br>encrypted_ledger_secrets --> Ledger
+    
+
+
+
+
+
+
+Algorithms and Curves
+¶
+
+
+
+
+Authenticated encryption in CCF relies on AES256-GCM. Ledger authentication relies on Merkle trees using SHA2-256.
+
+
+
+
+Public-key certificates, signatures, and ephemeral Diffie-Hellman key exchanges all rely on elliptic curves (except for the encryption of ledger secrets shared between nodes and member recovery shares, which uses 
+RSA OAEP
+). The supported curves are listed in 
+curve.h
+:
+
+
+
+
+
+
+  
+enum
+ 
+class
+ 
+CurveID
+ 
+:
+ 
+uint8_t
+
+
+  
+{
+
+
+    
+/// No curve
+
+
+    
+NONE
+ 
+=
+ 
+0
+,
+
+
+    
+/// The SECP384R1 curve
+
+
+    
+SECP384R1
+,
+
+
+    
+/// The SECP256R1 curve
+
+
+    
+SECP256R1
+,
+
+
+    
+/// The CURVE25519 curve
+
+
+    
+CURVE25519
+,
+
+
+    
+X25519
+,
+
+
+    
+/// The SECP521R1 curve
+
+
+    
+SECP521R1
+
+
+  
+};
+
+
+
+  
+DECLARE_JSON_ENUM
+(
+
+
+    
+CurveID
+,
+
+
+    
+{{
+CurveID
+::
+NONE
+,
+ 
+"None"
+},
+
+
+     
+{
+CurveID
+::
+SECP384R1
+,
+ 
+"Secp384R1"
+},
+
+
+     
+{
+CurveID
+::
+SECP256R1
+,
+ 
+"Secp256R1"
+},
+
+
+     
+{
+CurveID
+::
+CURVE25519
+,
+ 
+"Curve25519"
+},
+
+
+     
+{
+CurveID
+::
+X25519
+,
+ 
+"X25519"
+},
+
+
+     
+{
+CurveID
+::
+SECP521R1
+,
+ 
+"Secp521R1"
+}});
+
+
+
+  
+static
+ 
+constexpr
+ 
+CurveID
+ 
+service_identity_curve_choice
+ 
+=
+ 
+CurveID
+::
+SECP384R1
+;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The 
+service_identity_curve_choice
+ determines the curve used by CCF for the service and node identities. User and member certificates do not need to match this, and can be created on any supported curve.
+
+
+
+
+
+
+
+
+        
+
+      
+
+
+
+      
+
+        
+  
+        
+
+          
+
+              
+
+                
+
+                  
+Next
+
+                
+
+
+
+                
+Request Flow
+
+
+
+              
+
+
+
+              
+
+            
+
+          
+
+              
+
+              
+
+                
+
+                  
+Previous
+
+                
+
+
+
+                
+                
+Consensus Protocol
+
+
+
+                
+              
+
+
+
+            
+
+        
+
+
+
+        
+
+          
+
+            
+
+                Copyright © Microsoft
+            
+
+
+
+            Made with 
+Sphinx
+ and 
+@pradyunsg
+'s
+            
+            
+Furo
+
+            
+          
+
+
+
+          
+
+            
+          
+
+
+
+        
+
+
+
+        
+  
+
+
+      
+
+    
+
+
+
+    
+
+      
+      
+      
+
+        
+
+          
+
+            On this page
+          
+
+        
+
+
+
+        
+
+          
+
+            
+
+
+Cryptography
+
+
+Keys
+
+
+Service
+
+
+
+
+Node
+
+
+
+
+Member
+
+
+
+
+User
+
+
+
+
+Ephemeral Network Keys
+
+
+
+
+
+
+
+
+
+
+Summary Diagrams
+
+
+Identity Keys and Certificates
+
+
+
+
+Ledger Secrets
+
+
+
+
+
+
+
+
+
+
+Algorithms and Curves
+
+
+
+
+
+
+
+
+
+
+
+
+          
+
+
+
+        
+
+
+
+      
+
+
+
+      
+      
+    
+
+  
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+

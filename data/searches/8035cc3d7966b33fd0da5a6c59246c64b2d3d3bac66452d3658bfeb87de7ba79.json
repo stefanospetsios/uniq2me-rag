@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "8035cc3d7966b33fd0da5a6c59246c64b2d3d3bac66452d3658bfeb87de7ba79",
+  "cachedAt": "2026-10-15T22:05:53Z",
+  "observedAt": "2026-10-15T22:05:53Z",
+  "originRunId": "qwen3-38804802602",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-C-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "C",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Interfacing Protocols and APIs official implementation configuration documentation APIs MQTT service integration interface contracts trust boundaries authentication authorization input validation data exchange mock APIs integration testing site:ietf.org site:owasp.org site:mqtt.org site:nist.gov"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792101914625,
+    "end": 1792101924706
+  },
+  "outputDigest": "sha256:55e9436287ab135fcb4eb91013aaf02244332d1936a00c42c307739b2afaf876",
+  "resultUrls": [],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Interfacing Protocols and APIs official implementation configuration documentation APIs MQTT service integration interface contracts trust boundaries authentication authorization input validation data exchange mock APIs integration testing site:ietf.org site:owasp.org site:mqtt.org site:nist.gov\",\n  \"results\": [],\n  \"unresponsive_engines\": [\n    [\n      \"brave\",\n      \"too many requests\"\n    ],\n    [\n      \"duckduckgo\",\n      \"CAPTCHA\"\n    ],\n    [\n      \"wikidata\",\n      \"timeout\"\n    ]\n  ]\n}",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "C"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": []
+  }
+}

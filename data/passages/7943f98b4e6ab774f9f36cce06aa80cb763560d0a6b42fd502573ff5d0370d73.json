@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "7943f98b4e6ab774f9f36cce06aa80cb763560d0a6b42fd502573ff5d0370d73",
+  "cachedAt": "2026-10-15T22:07:09Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://microcks.io/documentation/guides/usage/async-protocols/mqtt-support/",
+  "finalUrl": "https://microcks.io/documentation/guides/usage/async-protocols/mqtt-support/",
+  "language": "en",
+  "publisher": "Microcks",
+  "title": "MQTT Mocking & Testing",
+  "retrievedAt": "2026-10-15T22:05:54Z",
+  "byteDigest": "sha256:392836386ff6da493d1e01d2d80bb15827c03d0aa63ad453d4b906b61e5aba5e",
+  "textDigest": "sha256:b59a13333d2b272debc0091355bca4e727ff63e79d1a9f86cbff130e0968d701",
+  "sourceId": "C-source-1",
+  "passageId": "p1",
+  "locator": "Overview",
+  "quotation": "Microcks supports MQTT as a protocol binding for \nAsyncAPI\n. That means that Microcks can connect to an MQTT broker for publishing mock messages as soon as it receives a valid \nAsyncAPI\n Specification and to any MQTT broker in your organization to check that flowing messages are compliant with the schema described within your specification.",
+  "originalText": "Microcks supports MQTT as a protocol binding for \nAsyncAPI\n. That means that Microcks can connect to an MQTT broker for publishing mock messages as soon as it receives a valid \nAsyncAPI\n Specification and to any MQTT broker in your organization to check that flowing messages are compliant with the schema described within your specification.",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T22:07:09Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "C"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Microcks",
+    "host": "microcks.io"
+  }
+}

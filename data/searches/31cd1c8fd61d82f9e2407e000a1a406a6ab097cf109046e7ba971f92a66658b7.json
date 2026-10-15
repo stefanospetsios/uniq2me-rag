@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "31cd1c8fd61d82f9e2407e000a1a406a6ab097cf109046e7ba971f92a66658b7",
+  "cachedAt": "2026-10-15T21:32:48Z",
+  "observedAt": "2026-10-15T21:32:48Z",
+  "originRunId": "qwen3-38804802602",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-6-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "6",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "logging monitoring audit trails incident response configuration technical documentation official maintainer site:europa.eu site:cyber.gov.gr site:owasp.org site:nist.gov site:cisa.gov"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792099925044,
+    "end": 1792099926274
+  },
+  "outputDigest": "sha256:95a5d6b3c8be21ddd82906325494cadb303a9d7a911ec569893fd58b9920ace3",
+  "resultUrls": [
+    "https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r3.pdf",
+    "https://www.cisa.gov/resources-tools/resources/best-practices-event-logging-and-threat-detection"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Best Practices for Event Logging and Threat Detection | CISA\",\n      \"url\": \"https://www.cisa.gov/resources-tools/resources/best-practices-event-logging-and-threat-detection\",\n      \"content\": \"Best Practices for Event Logging and Threat Detection | CISA\\n\\n# Best Practices for Event Logging and Threat Detection \\n\\nPublish Date August 21, 2024\\n\\nThis publication defines a baseline for event logging best practices to mitigate cyber threats. It was developed by the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC) in cooperation with the following international partners: \\n\\n- United States (US) Cybersecurity and Infrastructure Security Agency (CISA), the Federal Bureau of Investigation (FBI) and the National Security Agency (NSA).\\n- United Kingdom (UK) National Cyber Security Centre (NCSC-UK).\\n- Canadian Centre for Cyber Security (CCCS).\\n- New Zealand National Cyber Security Centre (NCSC-NZ) and Computer Emergency Response Team (CERT NZ).\\n- Japan National Center of Incident Readiness and Strategy for Cybersecurity (NISC) and Computer Emergency Response Team Coordination Center (JPCERT/CC).\\n- The Republic of Korea National Intelligence Services (NIS) and NIS’s National Cyber Security Center (NCSC-Korea).\\n- Singapore Cyber Security Agency (CSA).\\n- The Netherlands General Intelligence and Security Service (AIVD) and Military Intelligence and Security Service (MIVD).\\n\\nEvent logging supports the continued delivery of operations and improves the security and resilience of critical systems by enabling network visibility. This guidance makes recommendations that improve an organization’s resilience in the current cyber threat environment, with regard for resourcing constraints. The guidance is of moderate technical complexity and assumes a basic understanding of event logging.\\n\\n CISA Central 1-844-Say-CISA contact@cisa.dhs.gov\"\n    },\n    {\n      \"title\": \"Incident Response Recommendations and C",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "nvlpubs.nist.gov",
+      "www.cisa.gov"
+    ]
+  }
+}

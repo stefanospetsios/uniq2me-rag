@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "a6d75768b32e7ef408e5ddfc852410c2db819ad813426f947bb24fcd7fb9a3b0",
+  "cachedAt": "2026-10-15T21:31:52Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://cloudsecurityalliance.org/artifacts/zero-trust-microsegmentation-guidance",
+  "finalUrl": "https://cloudsecurityalliance.org/artifacts/zero-trust-microsegmentation-guidance",
+  "language": "en",
+  "publisher": "Cloud Security Alliance",
+  "title": "Zero Trust Microsegmentation Guidance",
+  "retrievedAt": "2026-10-15T21:24:39Z",
+  "byteDigest": "sha256:2a5c2762cb70384bf506bd1dde35e16dd0f5b44c7b0bcda400826531302f2db0",
+  "textDigest": "sha256:f09ee2b2e5f37d59bee32635dd85a885204ae945d01fd6a7a240a30811e53ff9",
+  "sourceId": "5-source-2",
+  "passageId": "p1",
+  "locator": "article/heading/page",
+  "quotation": "Microsegmentation is a foundational Zero Trust strategy that enforces explicit, fine-grained communication controls between systems. By reducing unnecessary reachability, it aids with lateral movement prevention, contains threats, and minimizes blast radius.",
+  "originalText": "Released:\n \n09/08/2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHome\n\n\nPublications\n\n\nZero Trust Microsegmentation Guidance\n\n\n\n\n\n\n\n\n\n  \nMicrosegmentation is a foundational \nZero Trust\n strategy that enforces explicit, fine-grained communication controls between systems. By reducing unnecessary reachability, it aids with lateral movement prevention, contains threats, and minimizes blast radius.\n\n\n\n\nThis guide provides a technical and strategic roadmap for implementing Zero Trust microsegmentation across environments. The environments covered include IT, OT, industrial control systems, IoT,",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:31:52Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Cloud Security Alliance",
+    "host": "cloudsecurityalliance.org"
+  }
+}

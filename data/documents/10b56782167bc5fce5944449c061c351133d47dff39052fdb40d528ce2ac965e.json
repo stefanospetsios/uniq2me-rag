@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T21:24:39Z",
+  "originRunId": "qwen3-38804802602",
+  "source": {
+    "id": "5-source-2",
+    "type": "guidance",
+    "title": "Zero Trust Microsegmentation Guidance",
+    "publisher": "Cloud Security Alliance",
+    "url": "https://cloudsecurityalliance.org/artifacts/zero-trust-microsegmentation-guidance",
+    "language": "en",
+    "jurisdiction": "International",
+    "applicability": "General zero trust microsegmentation controls including firewalls and ACLs",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "article/heading/page",
+        "text": "Microsegmentation is a foundational Zero Trust strategy that enforces explicit, fine-grained communication controls between systems. By reducing unnecessary reachability, it aids with lateral movement prevention, contains threats, and minimizes blast radius."
+      },
+      {
+        "id": "p2",
+        "locator": "article/heading/page",
+        "text": "Boundaries may be expressed through zones, routes, VLANs/VXLANs, security groups, labels, tags, Kubernetes network policies, host controls, hypervisor controls, firewalls, gateways, or other enforcement points. This model is often strongest for deterministic containment, local east-west control, regulatory boundaries, and OT/ICS zones and conduits."
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:2a5c2762cb70384bf506bd1dde35e16dd0f5b44c7b0bcda400826531302f2db0",
+    "textDigest": "sha256:f09ee2b2e5f37d59bee32635dd85a885204ae945d01fd6a7a240a30811e53ff9",
+    "finalUrl": "https://cloudsecurityalliance.org/artifacts/zero-trust-microsegmentation-guidance",
+    "retrievedAt": "2026-10-15T21:24:39Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-2a5c2762cb70384bf506bd1dde35e16dd0f5b44c7b0bcda400826531302f2db0.bin",
+    "textPath": "source-f09ee2b2e5f37d59bee32635dd85a885204ae945d01fd6a7a240a30811e53ff9.txt"
+  },
+  "files": {
+    "snapshots/source-2a5c2762cb70384bf506bd1dde35e16dd0f5b44c7b0bcda400826531302f2db0.bin": "sha256:2a5c2762cb70384bf506bd1dde35e16dd0f5b44c7b0bcda400826531302f2db0",
+    "snapshots/source-f09ee2b2e5f37d59bee32635dd85a885204ae945d01fd6a7a240a30811e53ff9.txt": "sha256:f09ee2b2e5f37d59bee32635dd85a885204ae945d01fd6a7a240a30811e53ff9"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://cloudsecurityalliance.org/artifacts/zero-trust-microsegmentation-guidance",
+  "language": "en",
+  "retrievedAt": "2026-10-15T21:24:39Z",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:31:52Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": "Zero Trust Microsegmentation Guidance | CSA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n  \n\n\n\n\n\n\n\nCSAI Foundation\nChapters\nEvents\nBlog\nSign in or Sign Up\n\n\n\n\n\n\nMembership\n\n\nMembership Benefits\n\n\nOur Member Community\n\n\nGet Involved\n\n\nBecome a Member\n\n\n\n\n\n\nMember-Exclusive Programs\n\n\nSTAR Enabled Solutions\n\n\nTrusted AI & Cloud Consultant\n\n\nTrusted Cloud Provider\n\n\nCertified STAR Auditors\n\n\nCSA Startup Showcase\n\n\n\n\n\n\nMember Portal\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSTAR Program\n\n\nSTAR Home\n\n\nSTAR Registry\n\n\nSTAR for AI\n\n\nSubmit to Registry\n\n\nProvide Feedback\n\n\nCertified STAR Auditors\n\n\nSTAR Enabled Solutions\n\n\n\n\nStay compliant in the cloud\n\n\nSTAR Auditor Training\n\n\nTraining for Government Agencies\n\n\n\n\n\n\nGovernance, Risk & Compliance Tools\n\n\nCloud Controls Matrix (CCM)\n\n\nConsensus Assessment Initiative Questionnaire (C",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "Cloud Security Alliance",
+    "host": "cloudsecurityalliance.org"
+  }
+}

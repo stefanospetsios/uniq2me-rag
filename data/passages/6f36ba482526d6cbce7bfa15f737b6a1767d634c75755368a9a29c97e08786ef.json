@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "6f36ba482526d6cbce7bfa15f737b6a1767d634c75755368a9a29c97e08786ef",
+  "cachedAt": "2026-10-15T21:12:03Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://docs.cloud.google.com/backup-disaster-recovery/docs/cloud-console/backup-plan-create",
+  "finalUrl": "https://docs.cloud.google.com/backup-disaster-recovery/docs/cloud-console/backup-plan-create",
+  "language": "en",
+  "publisher": "Google LLC",
+  "title": "Manage a backup plan | Backup and DR | Google Cloud Documentation",
+  "retrievedAt": "2026-10-15T21:10:46Z",
+  "byteDigest": "sha256:3129c90e9970bc22128e605aa74eb18df715a51e15a1a82f297534b7cbe46763",
+  "textDigest": "sha256:00f291c0c008b5e17f0da7b2072178151ca844a666c6beaec44f76b691e18034",
+  "sourceId": "2-source-2",
+  "passageId": "p1",
+  "locator": "Backup operations navigation",
+  "quotation": "Overview of backup vaults\n\n\nOverview of backup operations\n\n\nBack up Compute Engine instances\n\n\nConfigure application-consistent backups",
+  "originalText": "Edit a backup plan\n\n\n\n\n  \n\n        \nBack up your data\n\n      \n\n\n\n\n\n\n  \nOverview of backup vaults\n\n\n\n\n  \nOverview of backup operations\n\n\n\n\n  \nBack up Compute Engine instances\n\n\n\n\n  \nConfigure application-consistent backups\n\n\n\n\n  \nProtect new resources using the default backup plan\n\n\n\n\n  \nMigrate a Compute Engine instance backup configuration from the appliance management console to a backup vault\n\n\n\n\n  \nAutomate",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:12:03Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "2"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Google LLC",
+    "host": "docs.cloud.google.com"
+  }
+}

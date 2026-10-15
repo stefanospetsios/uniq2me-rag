@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "d70e69b3cca3fd81b436027542e856258918517651e4208ca38cb098c356af4d",
+  "cachedAt": "2026-10-15T21:39:19Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://www.redbooks.ibm.com/redbooks/pdfs/sg248480.pdf",
+  "finalUrl": "https://www.redbooks.ibm.com/redbooks/pdfs/sg248480.pdf",
+  "language": "en",
+  "publisher": "IBM",
+  "title": "IBM Z Time Synchronization Implementation Guide",
+  "retrievedAt": "2026-10-15T21:35:39Z",
+  "byteDigest": "sha256:c674148202321fc826f908e6dd7300e8b2fdc384c23e8d6ba8b34a6d0ecbe078",
+  "textDigest": "sha256:ed762518c97621726f2e9c992bb71af39374e0be49b1bc9db562c75253c3d94a",
+  "sourceId": "6-source-2",
+  "passageId": "p1",
+  "locator": "page 2",
+  "quotation": "Timestamps provide a way to confirm the precise time and sequence of events, ensuring the integrity of digital records and preventing disputes.",
+  "originalText": "and beyond\n              Timestamps and regulatory compliance are intertwined. Timestamps provide a way to\n              confirm the precise time and sequence of events, ensuring the integrity of digital records and\n              preventing disputes. The integrity of digital records is also important in industries that are\n              subject to regulatory oversight, where accurate record-keeping is required.\n\n              In the financial sector,",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:39:19Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "IBM",
+    "host": "www.redbooks.ibm.com"
+  }
+}

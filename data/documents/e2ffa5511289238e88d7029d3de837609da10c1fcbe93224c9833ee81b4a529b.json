@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T21:10:45Z",
+  "originRunId": "qwen3-38804802602",
+  "source": {
+    "id": "2-source-1",
+    "type": "technical-doc",
+    "title": "Create a backup plan - AWS Backup",
+    "publisher": "Amazon Web Services",
+    "url": "https://docs.aws.amazon.com/aws-backup/latest/devguide/creating-a-backup-plan.html",
+    "language": "en",
+    "jurisdiction": "United States",
+    "applicability": "AWS services including EC2, EBS, S3, and other supported resources requiring backup configuration",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "Backup window configuration section",
+        "text": "Complete within defaults to 7 days. Ensure that there is enough time for the backup up to complete even if the job starts at the end of the start window."
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:77ef818ab1ad32d836de1e144ceb7ed1a2c64182d3c6fb69ef693022ab59f338",
+    "textDigest": "sha256:6aaa8b121369316541a944cf36f234a964f5e918ba006a92a5d90198329d8d15",
+    "finalUrl": "https://docs.aws.amazon.com/aws-backup/latest/devguide/creating-a-backup-plan.html",
+    "retrievedAt": "2026-10-15T21:10:45Z",
+    "contentType": "text/html",
+    "snapshotPath": "source-77ef818ab1ad32d836de1e144ceb7ed1a2c64182d3c6fb69ef693022ab59f338.bin",
+    "textPath": "source-6aaa8b121369316541a944cf36f234a964f5e918ba006a92a5d90198329d8d15.txt"
+  },
+  "files": {
+    "snapshots/source-77ef818ab1ad32d836de1e144ceb7ed1a2c64182d3c6fb69ef693022ab59f338.bin": "sha256:77ef818ab1ad32d836de1e144ceb7ed1a2c64182d3c6fb69ef693022ab59f338",
+    "snapshots/source-6aaa8b121369316541a944cf36f234a964f5e918ba006a92a5d90198329d8d15.txt": "sha256:6aaa8b121369316541a944cf36f234a964f5e918ba006a92a5d90198329d8d15"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://docs.aws.amazon.com/aws-backup/latest/devguide/creating-a-backup-plan.html",
+  "language": "en",
+  "retrievedAt": "2026-10-15T21:10:45Z",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:12:03Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": "\n    \nCreate a backup plan - AWS Backup\n \n\n\nView a markdown version of this page\n\n\n\n\nCreate a backup plan - AWS Backup\n\n\nDocumentation\nAWS Backup\nDeveloper Guide\n\n\nCreate backup plans using the AWS Backup console\nCreate backup plans using the AWS CLI\n\n\nCreate a backup plan\n\n\n\n\nYou can create a backup plan using the AWS Backup console, API, CLI, SDK, or an AWS CloudFormation\n      template.\n\n\nTopics\nCreate backup plans using the AWS Backup console\n\n\n\n\nCreate backup plans using the AWS CLI\n\n\n\n\nBackup plan options and configuration\n\n\n\n\nCloudFormation templates for backup plans\n\n\n\n\nDelete a backup plan\n\n\n\n\nUpdate a backup plan\n\n\n\n\n\n\n\n      \nCreate backup plans using the AWS Backup console\n\n\n\n      \nOpen the AWS Backup console at \nhttps://console.aws.amazon.com/backup\n. From the dashboard, choo",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "2"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "Amazon Web Services",
+    "host": "docs.aws.amazon.com"
+  }
+}

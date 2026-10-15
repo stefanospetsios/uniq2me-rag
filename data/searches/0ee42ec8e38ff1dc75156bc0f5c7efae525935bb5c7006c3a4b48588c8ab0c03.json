@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "0ee42ec8e38ff1dc75156bc0f5c7efae525935bb5c7006c3a4b48588c8ab0c03",
+  "cachedAt": "2026-10-15T21:22:19Z",
+  "observedAt": "2026-10-15T21:22:19Z",
+  "originRunId": "qwen3-38804802602",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-4-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "4",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "data classification data ownership storage implementation official documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792099289419,
+    "end": 1792099290280
+  },
+  "outputDigest": "sha256:76ce9e83189d605a2c5d052c28051d32be89e3429747eb866cd2290bd2c370fd",
+  "resultUrls": [
+    "https://docs.aws.amazon.com/wellarchitected/latest/framework/sus_sus_data_a2.html",
+    "https://docs.cloud.google.com/docs/security/implement-cdmc-framework"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Implement CDMC controls in BigQuery  |  Security  |  Google Cloud Documentation\",\n      \"url\": \"https://docs.cloud.google.com/docs/security/implement-cdmc-framework\",\n      \"content\": \"Implement CDMC controls in BigQuery | Security | Google Cloud Documentation\\n\\n Implement CDMC controls in BigQuery\\n\\nThis document describes how to implement the 14 Cloud Data Management Capabilities (CDMC) key controls in a BigQuery data warehouse to help protect and govern sensitive data. Organizations deploy cloud data warehouses to store sensitive information for business analytics, requiring rigorous governance and regulatory compliance.\\n\\nThe CDMC Key Controls Framework was published primarily for cloud service providers and technology providers. The framework describes 14 key controls that providers can implement to let their customers effectively manage and govern sensitive data in the cloud. The controls were written by the CDMC Working Group, with more than 300 professionals participating from more than 100 firms. While writing the framework, the CDMC Working Group considered many of the legal and regulatory requirements that exist.\\n\\nThis BigQuery and Knowledge Catalog reference architecture was assessed and certified against the CDMC Key Controls Framework as a CDMC Certified Cloud Solution. The reference architecture uses various Google Cloud services and features as well as public libraries to implement the CDMC key controls and recommended automation. This document explains how you can implement the key controls to help protect sensitive data in a BigQuery data warehouse.\\n\\n## Architecture\\n\\nThe following Google Cloud reference architecture aligns with the CDMC Key Controls Framework Test Specifications v1.1.1. The numbers in the diagram represent the key controls that are addressed with Google Cloud services.\\n\\nThe reference architecture builds on the secured data warehouse blueprint, which provides an architecture that hel",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "4"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "docs.aws.amazon.com",
+      "docs.cloud.google.com"
+    ]
+  }
+}

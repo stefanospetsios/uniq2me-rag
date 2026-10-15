@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "981f4ac8eb8b1081fe381a57cd3ec843ddb440c9fe78e1c726e2db6f12f6b488",
+  "cachedAt": "2026-10-15T21:52:44Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://ccf.dev/main/architecture/cryptography.html",
+  "finalUrl": "https://ccf.dev/main/architecture/cryptography.html",
+  "language": "en",
+  "publisher": "Microsoft Confidential Consortium Framework",
+  "title": "CCF Cryptography Architecture",
+  "retrievedAt": "2026-10-15T21:50:47Z",
+  "byteDigest": "sha256:024b242744988c9c2c5f69c2697ce30cc93ec728dd6d4c186dd9146e0257e26e",
+  "textDigest": "sha256:b0228838d86e622d54f42e31aed28e828110df55d4492001b07b9a9b6c1fa2d0",
+  "sourceId": "A-source-4",
+  "passageId": "p1",
+  "locator": "Ledger Secrets section",
+  "quotation": "The Ledger Secret symmetric key is used to encrypt and protect the integrity (using AES-GCM) of all write transactions executed by the service and recorded in the ledger.",
+  "originalText": "in <br> ccf.gov.nodes.info --> Ledger\n    \n\n\n\n\nLedger Secrets\n¶\n\n\n\n\nThe \nLedger\n \nSecret\n symmetric key is used to encrypt and protect the integrity (using AES-GCM) of all write transactions executed by the service and recorded in the ledger.\n\n\n\n\nTo be able to recover the ledger (see \nDisaster Recovery\n), the ledger secret is also encrypted using an ephemeral \nLedger\n \nSecret\n \nWrapping\n \nKey\n and",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:52:44Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "A"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Microsoft Confidential Consortium Framework",
+    "host": "ccf.dev"
+  }
+}

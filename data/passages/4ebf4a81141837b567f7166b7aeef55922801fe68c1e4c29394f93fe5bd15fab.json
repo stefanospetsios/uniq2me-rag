@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "4ebf4a81141837b567f7166b7aeef55922801fe68c1e4c29394f93fe5bd15fab",
+  "cachedAt": "2026-10-15T21:31:52Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://www.nsa.gov/Cybersecurity/ZIG/Capabilities/Network-and-Environment/",
+  "finalUrl": "https://www.nsa.gov/Cybersecurity/ZIG/Capabilities/Network-and-Environment/",
+  "language": "en",
+  "publisher": "National Security Agency",
+  "title": "Network and Environment Capabilities",
+  "retrievedAt": "2026-10-15T21:24:42Z",
+  "byteDigest": "sha256:458c74a40d598b2fc942b6a20c277c47f698962ae67f884ae1dcd45f222f9e05",
+  "textDigest": "sha256:afe10b60f1bdc96c72326874b3aae37a4653d17a9be4e917f6e6dd070c8b62bd",
+  "sourceId": "5-source-3",
+  "passageId": "p2",
+  "locator": "article/heading/page",
+  "quotation": "Role-Based Access Control (RBAC), where permissions are assigned based on the role of the User/PE/NPE. Attribute-Based Access Control (ABAC), where a combination of several factors related to User/PE/NPE, data, and the environment are leveraged to restrict or allow network access based on a set of predefined rules and conditions.",
+  "originalText": "approved Enterprise standards and CONOPS.\n\n  \n\n  \n\n   \n\n   \nEstablish permission rules:\n\n\n   \n\n    \nRole-Based Access Control (RBAC), where permissions are assigned based on the role of the User/PE/NPE.\n\n\n\n    \nAttribute-Based Access Control (ABAC), where a combination of several factors related to User/PE/NPE, data, and the environment are leveraged to restrict or allow network access based on a set of predefined rules and conditions.\n\n\n\n    \nDiscretionary-Based Access Control (DBAC), where controls are implemented based on specific rules and privileges granted to a specific requestor.\n\n\n\n   \n\n\n   \nDefine contextual access requirements:\n\n\n   \n\n    \nConsolidate and",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:31:52Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "National Security Agency",
+    "host": "www.nsa.gov"
+  }
+}

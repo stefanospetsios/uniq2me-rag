@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T22:01:59Z",
+  "originRunId": "qwen3-38804802602",
+  "source": {
+    "id": "B-source-1",
+    "type": "technical-doc",
+    "title": "Device security principles for manufacturers: Constrain the use of all device interfaces",
+    "publisher": "National Cyber Security Centre (NCSC)",
+    "url": "https://www.ncsc.gov.uk/collection/device-security-principles-for-manufacturers/constrain-the-use-of-all-device-interfaces",
+    "language": "en",
+    "jurisdiction": "United Kingdom",
+    "applicability": "Provides authoritative guidelines for manufacturers on securing device interfaces, including explicit requirements for disabling unnecessary services, mitigating interface misuse, and managing physical and logical interfaces to prevent unauthorized access and exfiltration",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "Guideline 8.1",
+        "text": "It shall be made clear which services are running over both logical and external physical interfaces, and whether the user or organisation can disable those services"
+      },
+      {
+        "id": "p2",
+        "locator": "Guideline 8.4",
+        "text": "The manufacturer shall state which mitigations against interface misuse are available"
+      },
+      {
+        "id": "p3",
+        "locator": "Guideline 8.4 Example",
+        "text": "A device is left unattended and an attacker takes the opportunity to physically attack the device to gain access. The device is using an IOMMU which prevents an unsophisticated actor from successfully conducting a Direct Memory Access attack"
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:4419bbe40fdb7a502f52756a6cd4f45f1c416393c49e66a2cfe0668ccbbdcec4",
+    "textDigest": "sha256:fe7c0c20f316a857ae168b860653a9885c68ce2b087043bcbc8fba133a423eed",
+    "finalUrl": "https://www.ncsc.gov.uk/collection/device-security-principles-for-manufacturers/constrain-the-use-of-all-device-interfaces",
+    "retrievedAt": "2026-10-15T22:01:59Z",
+    "contentType": "text/html; charset=UTF-8",
+    "snapshotPath": "source-4419bbe40fdb7a502f52756a6cd4f45f1c416393c49e66a2cfe0668ccbbdcec4.bin",
+    "textPath": "source-fe7c0c20f316a857ae168b860653a9885c68ce2b087043bcbc8fba133a423eed.txt"
+  },
+  "files": {
+    "snapshots/source-4419bbe40fdb7a502f52756a6cd4f45f1c416393c49e66a2cfe0668ccbbdcec4.bin": "sha256:4419bbe40fdb7a502f52756a6cd4f45f1c416393c49e66a2cfe0668ccbbdcec4",
+    "snapshots/source-fe7c0c20f316a857ae168b860653a9885c68ce2b087043bcbc8fba133a423eed.txt": "sha256:fe7c0c20f316a857ae168b860653a9885c68ce2b087043bcbc8fba133a423eed"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.ncsc.gov.uk/collection/device-security-principles-for-manufacturers/constrain-the-use-of-all-device-interfaces",
+  "language": "en",
+  "retrievedAt": "2026-10-15T22:01:59Z",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T22:04:59Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": "Device security principles for manufacturers | 8. Constrain the use of all device interfaces | National Cyber Security Centre\n \n \n \n \n \nicons/chevron/16px/black\n \n \n \n \n \n \n\n\n \n \nSkip to main content\n \n \n \n \n \n\n\n Please enable JavaScript in your web browser to get the best experience.\n\n\n\n\n \n\n\n\n\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nHome\n \n\n\n \nUtility navigation\n\n\n \n \n \nAbout NCSC\n \n\n\n \n \nReport an incident\n \n\n\n \n \nContact us\n \n\n\n \n \n\n\n \n \n \n \n\n\n \n Open Search \n \n \n \n \n \n\n\n \n Menu \n \n\n\n \nMain navigation\n\n\n \n \n Advice & guidance \n \n \n \n\n\n \n \n \n \n \n\n\n \nBack\nAdvice & guidance\n\n\nOur advice & guidance covers a broad range of topics\n\n\n\n\n \n \n Find information for... \n \n \n \n You & your family \n \n\n\n \n \n Small to medium sized organisations \n \n\n\n \n \n Large organisations \n \n\n\n \n \n",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "B"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "National Cyber Security Centre (NCSC)",
+    "host": "www.ncsc.gov.uk"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T20:57:06Z",
+  "originRunId": "qwen3-38804802602",
+  "source": {
+    "id": "1-source-3",
+    "type": "technical-doc",
+    "title": "AWS Key Management Service Documentation",
+    "publisher": "Amazon Web Services",
+    "url": "https://docs.aws.amazon.com/kms/",
+    "language": "en",
+    "jurisdiction": "Global",
+    "applicability": "AWS cloud environments for encryption key management, rotation, and audit logging",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:8ccb7e30058cabc6c216cfaa060a7bac018e9a5d23ec8962541dd57c9ed29a16",
+    "textDigest": "sha256:7f3154a0e9224a6fc4478495b16a59e488c7c56b3a6ec9ecbeba78b66bbd9294",
+    "finalUrl": "https://docs.aws.amazon.com/kms/",
+    "retrievedAt": "2026-10-15T20:57:06Z",
+    "contentType": "text/html",
+    "snapshotPath": "source-8ccb7e30058cabc6c216cfaa060a7bac018e9a5d23ec8962541dd57c9ed29a16.bin",
+    "textPath": "source-7f3154a0e9224a6fc4478495b16a59e488c7c56b3a6ec9ecbeba78b66bbd9294.txt"
+  },
+  "files": {
+    "snapshots/source-8ccb7e30058cabc6c216cfaa060a7bac018e9a5d23ec8962541dd57c9ed29a16.bin": "sha256:8ccb7e30058cabc6c216cfaa060a7bac018e9a5d23ec8962541dd57c9ed29a16",
+    "snapshots/source-7f3154a0e9224a6fc4478495b16a59e488c7c56b3a6ec9ecbeba78b66bbd9294.txt": "sha256:7f3154a0e9224a6fc4478495b16a59e488c7c56b3a6ec9ecbeba78b66bbd9294"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://docs.aws.amazon.com/kms/",
+  "language": "en",
+  "retrievedAt": "2026-10-15T20:57:06Z",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T20:57:06Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": "\n\n\n\n\n  \n\n    \n\n    \n\n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n\n    \n\n    \n    \n\n    \n\n    \n\n    \n\n     \n\n\n    \n\n  \n\n  \n\n    \n\n    \n\n    \n\n        \n\n            \nAWS Key Management Service Documentation\n\n\n\n            \nAWS Key Management Service (AWS KMS) is an encryption and key management service scaled for the cloud. AWS KMS keys and functionality are used by other AWS services, and you can use them to protect data in your own applications that use AWS.\n\n\n\n        \n\n        \n\n            \n\n                \n\n                    \n\n                        \n\n                            \nDeveloper Guide\n\n\n\n                            \n Provides conceptual overviews of AWS Key Management Service and explains how to use it to protect data in your own applications that use AWS.\n\n\n\n    ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Amazon Web Services",
+    "host": "docs.aws.amazon.com"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "c7280c73e61e2c25bddeb6ba872f4424cb848ab6ebe463c2804c090fc2f1efbc",
+  "cachedAt": "2026-10-15T22:01:59Z",
+  "observedAt": "2026-10-15T22:01:59Z",
+  "originRunId": "qwen3-38804802602",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-B-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "B",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "exposed interfaces protection device retirement procedures official implementation configuration documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792101585022,
+    "end": 1792101586423
+  },
+  "outputDigest": "sha256:60e7737c9765d0a11e84f688f45ebc0725f91e6ed248c0ed43ee1ea1c6c85653",
+  "resultUrls": [
+    "https://labs.etsi.org/rep/stan4cra/en-304-625/-/commit/e54a99b58c6818ba1e9fa393eacb46290eb3de59",
+    "https://schema.org",
+    "https://www.cisa.gov/news-events/directives/bod-23-02-implementation-guidance-mitigating-risk-internet-exposed-management-interfaces",
+    "https://www.cisa.gov/news-events/directives/bod-26-02-mitigating-risk-end-support-edge-devices",
+    "https://www.ncsc.gov.uk/",
+    "https://www.ncsc.gov.uk/collection/device-security-principles-for-manufacturers/constrain-the-use-of-all-device-interfaces",
+    "https://www.productinfo.schneider-electric.com/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/Cyber_Rec_IFE_Disposal_0000940268",
+    "https://www.security.gov.uk/policy-and-guidance/secure-by-design/activities/retiring-service-components-securely/"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Device security principles for manufacturers\",\n      \"url\": \"https://www.ncsc.gov.uk/collection/device-security-principles-for-manufacturers/constrain-the-use-of-all-device-interfaces\",\n      \"content\": \"Skip to main content\\n\\nGuidance\\n\\n# Device security principles for manufacturers\\n\\nPrinciples to guide manufacturers in the design of secure, enterprise-connected devices.\\n\\n## Pages\\n\\nPage 9 of 12\\n\\n## 8. Constrain the use of all device interfaces\\n\\nInterfaces, both logical and physical, are the gateways through which the device communicates with external entities. Interfaces have services which run over them; USB can provide both power and data, or a network interface can provide DNS and IP as services.\\n\\nEnsuring devices only possess the interfaces necessary to operate, and appropriately validating use of interfaces, will restrict what an attacker can do. If a device has lots of open interfaces, whether network or physical, an attacker is more likely to discover a vulnerability to compromise the device. This is particularly true if unnecessary interfaces are available.\\n\\n---\\n\\n## Guideline 8.1: It shall be made clear which services are running over both logical and external physical interfaces, and whether the user or organisation can disable those services\\n\\nThis guideline applies to all devices.\\n\\nWhen a device is first set up, any running services that aren’t essential will increase the attack surface of the device. In this context, services of interfaces include functionality such as: transfer of power and data over Thunderbolt, connection to a terminal via a Serial port, or IPv6 over Wi-Fi. Being able to easily identify which services are running on a device and are exposed over an interface allows organisations to lock down device interfaces more effectively.\\n\\nExample: An organisation wants its devices to be managed only by a device management platform. A settings menu or interface on the devices shows th",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "B"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "labs.etsi.org",
+      "schema.org",
+      "www.cisa.gov",
+      "www.ncsc.gov.uk",
+      "www.productinfo.schneider-electric.com",
+      "www.security.gov.uk"
+    ]
+  }
+}

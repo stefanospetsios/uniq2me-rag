@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T20:57:06Z",
+  "originRunId": "qwen3-38804802602",
+  "source": {
+    "id": "1-source-1",
+    "type": "technical-doc",
+    "title": "Configure a Master Key - Palo Alto Networks TechDocs",
+    "publisher": "Palo Alto Networks",
+    "url": "https://docs.paloaltonetworks.com/ngfw/administration/certificate-management/master-key-encryption/configure-master-key",
+    "language": "en",
+    "jurisdiction": "Global",
+    "applicability": "Palo Alto Networks next-generation firewalls for certificate management and encryption",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:ff68063632ee81bc1dd292dec761d3a8c5d7984647b6227ee209efdd698ec6ae",
+    "textDigest": "sha256:360df94786ea159a23ea6a1e12ad77d0b3dd326b8abc7bdad9918db4a1a2f874",
+    "finalUrl": "https://docs.paloaltonetworks.com/ngfw/administration/certificate-management/master-key-encryption/configure-master-key",
+    "retrievedAt": "2026-10-15T20:57:06Z",
+    "contentType": "text/html",
+    "snapshotPath": "source-ff68063632ee81bc1dd292dec761d3a8c5d7984647b6227ee209efdd698ec6ae.bin",
+    "textPath": "source-360df94786ea159a23ea6a1e12ad77d0b3dd326b8abc7bdad9918db4a1a2f874.txt"
+  },
+  "files": {
+    "snapshots/source-ff68063632ee81bc1dd292dec761d3a8c5d7984647b6227ee209efdd698ec6ae.bin": "sha256:ff68063632ee81bc1dd292dec761d3a8c5d7984647b6227ee209efdd698ec6ae",
+    "snapshots/source-360df94786ea159a23ea6a1e12ad77d0b3dd326b8abc7bdad9918db4a1a2f874.txt": "sha256:360df94786ea159a23ea6a1e12ad77d0b3dd326b8abc7bdad9918db4a1a2f874"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://docs.paloaltonetworks.com/ngfw/administration/certificate-management/master-key-encryption/configure-master-key",
+  "language": "en",
+  "retrievedAt": "2026-10-15T20:57:06Z",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T20:57:06Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": "\n\n\n\n\n\n\n    \n\n\n\n    \n\n    \n\n    \n\n    \n\n\n\n\n\n\n\n\n    \n\n\n    \n\n\t\n\n\t\n\n\t\n    \n\n    \n\n    \n\n\n\n    \n\n    \n\n    \n\n    \n\n    \n\n\n\n    \n\n\n    \n\n\n    \n\n        \n\n        \t\n                \n                \n                    \n\n                \n        \t\n        \t\n\n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n    \n\n    \n\n    \n    \n\n    \n\n    \n\n\n    \nConfigure a Master Key\n\n\n\n    \n\n          \n        \n\n\n\n\n\n\n\n\n\t\n\t\n\t\n\n  \n\n  \n\n  \n    \n\n      \n      \n      \n\n      \n\n      \n    \n\n      \n      \n      \n\n      \n\n      \n    \n\n      \n      \n      \n\n      \n\n      \n    \n\n      \n      \n      \n\n      \n\n      \n    \n\n      \n      \n      \n\n      \n\n      \n    \n\n      \n      \n      \n\n      \n\n      \n    \n\n      \n      \n      \n\n      \n\n      \n    \n  \n\n  \n\n    \n  \n\n    \n  \n\n    \n  \n\n    \n  \n\n    \n  \n\n    \n  \n\n    \n  \n\n\n\n\n\t\n\t\n\t\n\n  \n\n ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Palo Alto Networks",
+    "host": "docs.paloaltonetworks.com"
+  }
+}

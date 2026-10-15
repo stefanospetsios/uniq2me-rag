@@ -1,0 +1,1407 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Key Management Standard for Blockchains
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Key Management Standard, version 1
+
+
+
+
+BSSC Specification
+
+
+
+
+
+  
+This Version
+
+  
+https://specs.blockchainssc.org/kms/v1.html
+
+  
+Date
+
+  
+2025-05-13
+
+  
+Editors
+
+  
+Mark Nesbitt (Turnkey), Akshar Rawal (Coinbase), John Kemp (BSSC)
+
+  
+Contributors
+
+  
+JP Antunes (Halborn), Michael Be (Kraken), Michal Bajor (Kraken), Piotr Cielas (Halborn), Max Courchesne-Mackie (Figment), Joel Kerr (Coinbase), Greg Kohn (BSSC),  Chaals Nevile (BSSC), Matan Nevo (Fireblocks), Annalea Sanders (Figment), Uday Shanmugan (BitGo), Max Zinkus (Anchorage Digital)
+
+  
+Latest Version URL
+
+  
+https://specs.blockchainssc.org/kms/
+
+
+
+
+
+ Copyright ©2025 Blockchain Security Standards Council (BSSC) Inc. All Rights Reserved.
+
+
+
+
+
+
+
+
+
+
+
+  
+Summary
+
+
+
+  
+The Key Management Standard (KMS) is a set of security requirements for managing cryptographic keys used in blockchains, in order to minimise risks due to
+    malicious attacks or accidental mis-use.
+
+
+
+  
+
+
+  
+
+  
+Table of Contents
+
+
+
+
+  
+
+  
+Summary
+
+
+
+  
+Introduction
+
+    
+Purpose
+
+
+
+    
+Audience
+
+
+
+    
+Scope
+
+
+
+
+
+  
+Conformance
+
+
+
+  
+Definitions
+
+    
+Principles of Key Management
+
+
+
+    
+Key Lifecycle
+
+      
+Pre-Operational Lifecycle Stages
+
+
+
+      
+Operational Lifecycle Stages
+
+
+
+      
+Post-Operational Lifecycle Stages
+
+
+
+
+
+
+
+  
+General Requirements
+
+
+
+  
+Lifecycle Stage Specific Requirements
+
+    
+Key Generation
+
+
+
+    
+Key Derivation
+
+
+
+    
+Key Storage
+
+
+
+    
+Key Distribution
+
+
+
+    
+Key Usage
+
+
+
+    
+Key Retirement
+
+
+
+    
+Key Destruction
+
+
+
+
+
+  
+Key Custody
+
+
+
+  
+References
+
+
+
+  
+Document Status and Feedback
+
+    
+Disclaimer of Warranty and Liability
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+Introduction
+
+
+
+
+Distributed Ledger Technology and blockchain rely on cryptography to provide a range of security services for data processing and storage. Cryptography enables nodes in a blockchain network to agree on the state of the shared ledger and effect a state transition in a secure manner. This opens many opportunities across multiple industry sectors with the most prominent currently being financial services, with its concepts of cryptocurrency and tokenization.
+
+
+
+
+An analogy can be drawn between physical keys and cryptographic keys. A physical key can open a safe just like a cryptographic key can authenticate a blockchain transaction changing ledger state. In both cases, the security of either solution approaches zero when keys are compromised.
+
+
+
+
+Key management governs the states and state transition of cryptographic key material throughout its entire lifecycle. In many cases, automated systems support key management and those systems are commonly known as key management systems.
+
+
+
+
+
+
+
+Purpose
+
+
+
+
+The expanding adoption of DLT and blockchain in regulated and non-regulated industries along with the growing value of digital assets and low entry requirements puts individuals and organizations in a position where they often must take ownership of or start managing cryptographic material to interact with the ledger.
+
+
+
+
+The purpose of this key management standard is to provide requirements to securely manage blockchain cryptographic keys.
+
+
+
+
+This standard intends to supplement other industry and federal key management guidelines, thus compliance with this standard does not imply compliance with any other key management standard.
+
+
+
+
+
+
+
+
+
+Audience
+
+
+
+
+The requirements in this document are intended for those who hold, manage and use 
+Cryptographic Keys
+, or develop relevant workflow processes and policies.
+
+
+
+
+The authors believe the specification will be particularly important to DLT application architects and administrators, and owners and managers of digital assets such as cryptocurrency 
+Tokens
+.
+
+
+
+
+
+
+
+
+
+Scope
+
+
+
+
+This standard applies to any cryptographic key that can be used to participate in a state change on a blockchain. The standard covers the entire lifecycle of a key, from generation to retirement. Note that 
+Key Custody
+ is outside the scope of this specification.
+
+
+
+
+
+
+
+
+
+
+
+Conformance
+
+
+
+
+The key words "MUST", "MUST NOT", "SHOULD", "SHOULD NOT", and "MAY" in this document MUST be interpreted as described in [
+RFC2119
+] as modified by [
+RFC8174
+]
+when they appear in all capitals, as shown here.
+
+
+
+
+
+
+
+
+
+Definitions
+
+
+
+
+This standard relies on the following terms, as defined in the BSSC Specification Glossary [
+glossary
+].
+
+
+
+
+
+
+Authenticatio
+n
+
+
+
+
+Blockchain
+
+
+
+
+Cryptographic Key
+
+
+
+
+Key Derivation
+
+
+
+
+
+
+Other terms specific to cryptography, privacy and cybersecurity standards in this document use the definitions given in the 
+NIST Computer Security Resource Center's Glossary
+ [
+CSRC
+].
+
+
+
+
+
+
+
+Principles of Key Management
+
+
+
+
+Secure key management requires avoiding two potentially negative outcomes: 
+key misuse
+ and unintentional 
+key destruction.
+  Measures to prevent one of these outcomes frequently increase the likelihood of the other.  A secure key management system ensures both outcomes are avoided.
+
+
+
+
+Key Misuse
+
+
+
+
+Commonly thought of as "key theft." Key Misuse can occur through failure of confidentiality of the private key material itself, for example, if an attacker is able to exfiltrate a private key.  Key Misuse can also occur through a security failure in the systems authorizing use of the Key, for example, if an attacker is able to request a signature over a payload within attacker control, or even where an authorised holder of a Key uses it for a purpose that is not covered by the authority given to them (also known as "insider threat").
+
+
+
+
+Key Destruction
+
+
+
+
+Key Destruction occurs when key management systems fail to maintain the integrity or availability of private key material, due to either unintentional system failure or malicious actions of an attacker.  Key destruction results in the loss of ability to use the private key.
+
+
+
+
+
+
+
+
+
+Key Lifecycle
+
+
+
+
+There are many ways to describe an overall lifecycle of a Key. This specification uses the following descriptions of the stages, to match the 
+stage-specific requirements
+ outlined below:
+
+
+
+
+
+
+
+Pre-operational Lifecycle Stages
+
+
+
+
+Generation: Key creation, key ceremonies, user registration and authentication, and the technologies, procedures, and associated documentation needed to set up the environment needed to create cryptographic keys.
+
+
+
+
+Derivation: Creating child keys derived from a previously generated master key or shared secret.
+
+
+
+
+
+
+
+
+
+
+
+Operational Lifecycle Stages
+
+
+
+
+Storage: Keeping Keys and Key Material confidential and available in operational and post-operational states, including key backup and recovery processes.
+
+
+
+
+Distribution: Securely distributing Keys and Key Material between authorized parties, applications, and systems.
+
+
+
+
+Usage: The key's 
+cryptoperiod
+, during which the key is actively employed for cryptographic operations such as authentication, encryption/decryption, integrity, or signing.
+
+
+
+
+
+
+
+
+
+
+
+Post-Operational Lifecycle Stages
+
+
+
+
+Retirement: When a key reaches the end of its cryptoperiod.
+
+
+
+
+Destruction: Permanently removing keys, key materials and all associated records from a system.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+General Requirements
+
+
+
+
+These requirements apply to all stages of the 
+Key Lifecycle
+.
+
+
+
+
+
+
+A change management process MUST be created and enforced for every component of the key management process.
+
+
+
+The change management process MUST include an audit trail of all changes that includes the proposer and approver(s) of the change.
+
+
+
+
+The change management process MUST require at least one proposer and at least one approver, preventing the same individual from acting as both proposer and approver.
+
+
+
+
+The change management process SHOULD include technical controls that prevent any single individual, regardless of role or administrator status, from performing any actions that would allow for key misuse or key destruction.
+
+
+
+
+The change management process MUST include requirements for testing all changes prior to their activation.
+
+
+
+
+
+
+
+
+
+
+Every component of the key management process MUST be auditable.
+
+
+
+Critical Actions
+ SHOULD produce a record with sufficient information and context to determine when they took place and which entities authorised and/or executed them.
+
+
+
+
+Logs MUST NOT compromise the confidentiality of key material or other sensitive values.
+
+
+
+
+Non-digital processes MUST be documented to show transparent, repeatable procedures.
+
+
+
+
+Audit logs MUST be protected against tampering and unauthorized access.
+
+
+
+
+
+
+
+
+
+
+Automated components of a key management systems SHOULD have monitoring and alerting in place that enables analysis and prompt response to security incidents, operational failures, or abnormal system behavior.
+
+
+
+
+The principle of least privilege SHOULD be applied to all components of the key management process.  The principle of least privilege requires that all authorized actions in the system be reviewed and restricted to the minimal authorization levels necessary for functioning of the system.
+
+
+
+
+The holders of keys that govern 
+Privileged Roles
+ SHOULD be catalogued and analyzed to ensure single individuals holding multiple roles do not have excessive access.
+
+
+
+
+Access controls MUST be reviewed regularly to ensure they remain appropriate.
+
+
+
+
+A threat model SHOULD be created and maintained that is scoped to the entirety of the key management process, including all online and offline components.
+
+
+
+A threat model MUST include identification of potential threats and vulnerabilities in key management processes.
+
+
+
+
+A threat model MUST include recommended controls for these risks and documentation of whether the controls were implemented.
+
+
+
+
+A threat model SHOULD be accompanied by periodic testing of threats and controls, such as audits or penetration tests.
+
+
+
+
+
+
+
+
+
+
+An incident response plan SHOULD be created that is scoped to the entirety of the key management process.
+
+
+
+An incident response plan MUST include guidelines for responding to situations of increased risk or actual occurrence of key misuse and key destruction.
+
+
+
+
+An incident response plan SHOULD include the capability to immediately deactivate critical automated components of the system.
+
+
+
+
+An incident response plan SHOULD include the capability to immediately revoke access to a system, including physical/local and network/remote access.
+
+
+
+
+The response plan MUST include steps for notifying affected parties and regulatory bodies, as required.
+
+
+
+
+Keys suspected or known to have been compromised MUST be immediately removed from active use.
+
+
+
+
+Keys suspected or known to have been compromised MUST be promptly retired.
+
+
+
+
+Keys suspected or known to have been at increased risk of compromise SHOULD be promptly retired.
+
+
+
+
+
+
+
+
+
+
+A backup and recovery strategy SHOULD be created, employed, and regularly tested to ensure that cryptographic keys are properly maintained through their lifecycles.
+
+
+
+Backup and recovery procedures MUST be appropriately documented.
+
+
+
+
+Backup and recovery systems MUST be separate from primary systems.
+
+
+
+
+Backup and recovery systems MUST be held to an equivalent security standard as primary systems.
+
+
+
+
+Backup and recovery systems SHOULD use strategies such as [
+3-2-1
+] and include geographically separate and access-controlled locations.
+
+
+
+
+
+
+
+
+
+
+A disaster recovery plan SHOULD be created that is scoped to the entirety of the key management process.
+
+
+
+A disaster recovery plan MUST define redundancy for components of the system whose destruction could result in key misuse or key destruction.
+
+
+
+
+A disaster recovery plan SHOULD require geographic redundancy for components of the system whose destruction could result in key misuse or key destruction.
+
+
+
+
+A disaster recovery plan SHOULD be exercised on a regular cadence to ensure capacity for disaster recovery.
+
+
+
+
+A disaster recovery plan MUST include threat modelling to ensure components of the disaster recovery infrastructure do not represent a vector for key misuse or key destruction.
+
+
+
+
+
+
+
+
+
+
+Hardware used for Key management SHOULD be dedicated solely to that purpose.
+
+
+
+
+Hardware used for Key Management SHOULD be restricted to the minimal feature set necessary to accomplish the key management operation.
+
+
+
+
+Software performing key management operations SHOULD operate in a manner dedicated to key management.
+
+
+
+
+Components of software used for Key Management, including persistent state, code functionality, and included dependencies, SHOULD be restricted to the minimal feature set necessary to accomplish the key management operation.
+
+
+
+Cryptographic code MUST be thoroughly vetted through methods such as code review, auditing, static or dynamic testing, fuzzing, formal verification, or rigorous proofs
+
+
+
+
+Cryptographic code SHOULD be open source with a long track record of widespread use, reliable performance, and consistent developer support.
+
+
+
+
+
+
+
+
+
+
+Access to cryptographic keys MUST be restricted based on user roles and responsibilities, ensuring that only authorized personnel have access.
+
+
+
+
+Keys that control the ability to perform 
+Critical Actions
+ SHOULD prevent any single individual from having unilateral access to private keys.
+
+
+
+
+Private Key Material SHOULD be handled with the same security standards as a fully constituted Private Key.
+
+
+
+
+
+
+
+
+
+
+
+Lifecycle Stage-Specific Requirements
+
+
+
+
+These requirements are specific to the named stages of the 
+Key Lifecycle
+.
+
+
+
+
+
+
+
+Key Generation
+
+
+
+
+
+
+Key generation ceremonies MAY include the users for whom a key is generated, and auditors of the generation process. Such ceremonies MAY be automated, manual, or a combination of manual and automated procedures.
+
+
+
+
+Keys MUST be generated in secure environments to prevent unauthorized access during the generation process.
+
+
+
+
+Cryptographic keys MUST be generated using secure algorithms and appropriate sizing for the usage, using strong random number generators
+
+
+
+Cryptographic keys, initialization vectors and other numbers requiring randomness to remain secure, MUST be generated using a random number generator which can produce sufficient entropy to ensure that outputs are indistinguishable from random noise. Cryptographic security rests on randomness so the importance of key generation is paramount to the overall security of any cryptographically-based financial solution. Following the recommendations in [
+NIST SP 800-90A
+] can help achieve this.
+
+
+
+
+Hardware random number generators SHOULD be used as a source of entropy for cryptographic operations requiring randomness, including key generation.
+
+
+
+
+
+
+
+
+
+
+When keys are generated using Distributed Key Generation algorithms (i.e. using a 
+Multisig
+ process), each participant MUST maintain the standards defined above
+
+
+
+
+
+
+
+
+
+
+
+Key Derivation
+
+
+
+
+
+
+In cases where a key is derived from a password, a well-established and secure Key Derivation Function MUST be chosen.
+
+
+
+
+Child private keys derived in hierarchical deterministic wallets MUST be derived using applicable standards, such as [
+BIP-32
+], and SHOULD be 
+Hardened
+ where appropriate to meet security requirements.
+
+
+
+
+A unique "salt" value MUST be used when deriving keys from a password or shared secret that has less entropy than the level expected for the derived key.
+
+
+
+
+Any passwords or shared secrets used to derive a key SHOULD have at least as much entropy as expected for the derived key.
+
+
+
+
+Any passwords or shared secrets used to derive a key that will have the ability to cause a blockchain state change MUST have at least as much entropy as expected for the derived key.
+
+
+
+
+Relevant context information, like labels or identifiers to differentiate keys used for different purposes, SHOULD be incorporated when deriving multiple keys from a single shared secret
+
+
+
+
+NIST Special Publication 800-108 [
+NIST-SP-800-108
+] SHOULD be consulted for detailed guidelines on KDF selection, implementation, and usage.
+
+
+
+
+
+
+
+
+
+
+
+Key Storage
+
+
+
+
+
+
+Keys MUST be stored encrypted at rest
+
+
+
+
+Keys SHOULD be stored in Hardware Security Modules (HSMs) OR on secure elements with FIPS 140 L3 [
+FIPS-140-3
+] or CC EAL 4+ certifications [
+ISO-IEC-15408
+] OR in encrypted databases with strong access controls.
+
+
+
+
+The environment storing the keys MUST be physically secured
+
+
+
+
+HSMs MAY be used for secure storage.
+
+
+
+HSMs SHOULD be FIPS 140-2 Level 3 [
+FIPS-140-3
+] certified or better.
+
+
+
+
+HSMs SHOULD be maintained in an environment secured against unauthorized physical access.
+
+
+
+
+HSMs SHOULD be disconnected from other digital systems when not in active use.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Key Distribution
+
+
+
+
+
+
+If private keys or key material need to be shared in an online protocol, they MUST be encrypted for the entirety of the distribution process.
+
+
+
+
+If a password is required to decrypt a key, the password MUST be shared in a separate channel to that used to transport the key
+
+
+
+
+Distribution methods MUST include mechanisms for key authentication at destination to ensure the integrity and authenticity of the keys throughout the process.
+
+
+
+
+In cases where physical distribution of key material is required, a transport method secure from unauthorized physical access MUST be used.
+
+
+
+
+Access to Key Encryption Keys SHOULD be limited to the minimum number of individuals or systems necessary for managing Data Encryption Keys.
+
+
+
+
+Data Encryption Keys SHOULD only be distributed to the systems or services that need immediate access to the encrypted data.
+
+
+
+
+Keys or key shares SHOULD be distributed via a separate channel to that used to exchange data encrypted with those keys (out-of-band key distribution).
+
+
+
+
+
+
+
+
+
+
+
+Key Usage
+
+
+
+
+
+
+To ensure legitimate key usage, authorization to request a signature, define a message to be signed, or any other use of private keys MUST be restricted to intentionally authorized individuals or systems.  This authorization set SHOULD be clearly defined, regularly reviewed, and modified as needed.
+
+
+
+
+Keyholder onboarding, operation, and offboarding policies MUST be clearly defined and reviewed
+
+
+
+
+Access and usage logging MUST be implemented with automated alerting or regular manual reviews
+
+
+
+
+Critical key management operations MUST require appropriate and proportionate controls such as a specified quorum, approval groups, or ceremonies where two or more authorized individuals are present. Generally, the higher the potential impact of key misuse or destruction, the stricter the controls ought to be.
+
+
+
+
+If key management is performed by a service provider that is not the owner of the key, the key SHOULD only be usable with explicit involvement or approval from the key owner.
+
+
+
+
+Where 
+Private Key Material
+ is decrypted from storage into plaintext, plaintext access MUST be time-limited and access-controlled, and the plaintext copies must be made unavailable as soon after use as is possible.
+
+
+
+
+Although some types of keys cannot be rotated, in particular some cryptocurrency asset keys, periodic key rotation may help prevent compromise under some conditions (most notably, key exhaustion). If you rotate key shards or shares of asset private keys, or keys encrypting full asset private keys or key shards or shares, the following statements apply:
+
+
+
+Keys MUST be rotated based on set triggers defined in incident response plans or on a defined schedule, considering the sensitivity of the data and risk assessment.
+
+
+
+
+Automated key rotation mechanisms MUST be implemented where possible to reduce human error.
+
+
+
+
+Rotation MUST include methods of key validation to ensure access to the private key is maintained post rotation
+
+
+
+
+
+
+
+
+
+
+Keys MUST be used strictly for their intended purpose, and Key Usage Policies, if available, SHOULD be enforced.
+
+
+
+
+Single-Purpose Keys SHOULD be preferred for enhanced security (limited scope in case of compromise), ease of auditing and compliance (e.g: 
+NIST SP 800-57
+ and ISO/IEC 11770 [
+ISO-IEC-11770
+] recommend key single-use and usage segregation), and reduced risk of Key Misuse.
+
+
+
+
+Multi-Purpose Keys can be used in some scenarios. These MUST enforce strong access controls and usage policies that ensure the key is used exclusively as intended, in the predetermined environments they are designed to operate in (ie: low risk or resource constrained).
+
+
+
+
+
+
+
+
+
+
+
+Key Retirement
+
+
+
+
+It is sometimes necessary to retire a key from active use.
+
+
+
+
+
+
+Retired keys SHOULD have all value and privileges removed prior to retirement.
+
+
+
+
+Retired keys SHOULD be retained offline if not regularly needed.
+
+
+
+
+Retired keys MUST have redundant copies not explicitly maintained for backup securely destroyed using methods such as zeroization or physical destruction of hardware.
+
+
+
+
+Retired keys SHOULD continue to meet standards for key storage, including access controls and encryption at rest.
+
+
+
+
+
+
+
+
+
+
+
+Key Destruction
+
+
+
+
+
+
+A key used for blockchain state change SHOULD NOT be destroyed, as blockchain addresses typically do not expire and could receive funds in the future.
+
+
+
+
+In the event that a key used for blockchain state change is being destroyed by an agent that manages the key on behalf of a key owner, the key SHOULD be provided to the key owner prior to deletion.
+
+
+
+
+Destruction processes MUST be documented and auditable.
+
+
+
+
+Destruction MUST use irreversible processes such as zeroization or hardware destruction.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Key Custody
+
+
+
+
+A particularly complex topic in blockchain-based systems is custody, which is out of scope of this standard. These requirements apply to any party involved in the handling or management of cryptographic keys, including building hardware or software that end users can use to independently manage cryptographic keys.
+
+
+
+
+
+
+
+
+
+
+
+
+References
+
+
+
+
+
+
+
+[3-2-1]
+
+
+"Data Backup Options", US-CERT, 2012. 
+https://www.cisa.gov/sites/default/files/publications/data_backup_options.pdf
+
+
+
+[BIP-32]
+
+
+"Hierarchical Deterministic Wallets", Pieter Wuille, 2011-2020. 
+https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki
+
+
+
+[CSRC]
+
+
+"Computer Security Resource Center Glossary", NIST. 
+https://csrc.nist.gov/glossary
+
+
+
+[FIPS 140-3]
+
+
+"Security Requirements for Cryptographic Modules", NIST, 2019. 
+https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.140-3.pdf
+
+
+
+[glossary]
+
+
+"BSSC Specification Glossary", BSSC 2025. 
+https://specs.blockchainssc.org/glossary
+
+
+
+[ISO-IEC-11770]
+
+
+"Information technology — Security techniques — Key management", ISO 2010. 
+https://www.iso.org/standard/53456.html
+
+
+
+[ISO-IEC-15408]
+
+
+"Information security, cybersecurity and privacy protection — Evaluation criteria for IT security", ISO, 2022. 
+https://www.iso.org/standard/72891.html
+
+
+
+[NIST-SP-800-57]
+
+
+"NIST Special Publication 800-57: Recommendation for Key Management: Part 1 - General, revision 5" Elaine Barker, NIST 2020. 
+https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf
+
+
+
+[NIST-SP-800-90A]
+
+
+"NIST Special Publication 800-90A: Recommendation for Random Number Generation Using Deterministic Random Bit Generators", Elaine Barker, John Kelsey, NIST 2015. 
+https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-90Ar1.pdf
+
+
+
+[NIST-SP-800-108]
+
+
+"NIST SP 800-108 Rev. 1: Recommendation for Key Derivation Using Pseudorandom Functions" NIST, 2022. 
+https://csrc.nist.gov/pubs/sp/800/108/r1/upd1/final
+
+
+
+[NIST-SP-800-131A]
+
+
+"NIST SP 800-131A Rev 2.: Transitioning the Use of Cryptographic Algorithms and Key Lengths",  Elaine Barker, Allen Roginsky, NIST 2019. 
+https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf
+
+
+
+[RFC2119]
+
+
+"Key words for use in RFCs to Indicate Requirement Levels", S. Bradner, IETF 1997.
+
+https://www.rfc-editor.org/rfc/rfc2119.html
+
+
+
+[RFC8174]
+
+
+"Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words", B. Leiba, IETF 2017.
+
+https://www.rfc-editor.org/rfc/rfc8174.html
+
+
+
+
+
+
+
+Document Status and Feedback
+
+
+
+
+This document is the BSSC Key Management Standard version 1, developed by the Technical Working Group of the 
+Blockchain Security Standard Council
+ (BSSC Inc.).
+
+
+
+
+
+The BSSC requests feedback on this document, which can be provided through our 
+contact form
+.
+
+
+
+
+
+The BSSC may publish a new version of this specification, or another specification, that obsoletes this version,
+in response to feedback received or other developments in the ecosystem.
+
+
+
+
+
+
+
+Disclaimer of Warranty and Liability
+
+
+
+
+NO WARRANTIES: THIS SPECIFICATION IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, COMPLETENESS AND NONINFRINGEMENT OF THIRD PARTY RIGHTS. IN NO EVENT SHALL BSSC, ITS MEMBERS OR ITS CONTRIBUTORS BE LIABLE FOR ANY CLAIM, OR ANY DIRECT, SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES, OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THE SPECIFICATION.
+
+
+
+
+THIRD PARTY RIGHTS: Without limiting the generality of the foregoing, BSSC ASSUMES NO RESPONSIBILITY TO COMPILE, CONFIRM, UPDATE OR MAKE PUBLIC ANY THIRD PARTY ASSERTIONS OF PATENT OR OTHER INTELLECTUAL PROPERTY RIGHTS THAT MIGHT NOW OR IN THE FUTURE BE INFRINGED BY AN IMPLEMENTATION OF THE SPECIFICATION IN ITS CURRENT, OR IN ANY FUTURE FORM. IF ANY SUCH RIGHTS ARE DESCRIBED ON THE SPECIFICATION, LICENSOR TAKES NO POSITION AS TO THE VALIDITY OR INVALIDITY OF SUCH ASSERTIONS, OR THAT ALL SUCH ASSERTIONS THAT HAVE OR MAY BE MADE ARE SO LISTED.
+
+
+
+
+
+
+
+

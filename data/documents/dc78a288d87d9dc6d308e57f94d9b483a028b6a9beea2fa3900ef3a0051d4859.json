@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T21:50:47Z",
+  "originRunId": "qwen3-38804802602",
+  "source": {
+    "id": "A-source-4",
+    "type": "technical-doc",
+    "title": "CCF Cryptography Architecture",
+    "publisher": "Microsoft Confidential Consortium Framework",
+    "url": "https://ccf.dev/main/architecture/cryptography.html",
+    "language": "en",
+    "jurisdiction": "International",
+    "applicability": "Cryptographic key management in blockchain consortium networks, including service identity, node encryption keys, ledger secrets, and recovery mechanisms for distributed ledger systems",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "Ledger Secrets section",
+        "text": "The Ledger Secret symmetric key is used to encrypt and protect the integrity (using AES-GCM) of all write transactions executed by the service and recorded in the ledger."
+      },
+      {
+        "id": "p2",
+        "locator": "Algorithms and Curves section",
+        "text": "Authenticated encryption in CCF relies on AES256-GCM. Ledger authentication relies on Merkle trees using SHA2-256."
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:024b242744988c9c2c5f69c2697ce30cc93ec728dd6d4c186dd9146e0257e26e",
+    "textDigest": "sha256:b0228838d86e622d54f42e31aed28e828110df55d4492001b07b9a9b6c1fa2d0",
+    "finalUrl": "https://ccf.dev/main/architecture/cryptography.html",
+    "retrievedAt": "2026-10-15T21:50:47Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-024b242744988c9c2c5f69c2697ce30cc93ec728dd6d4c186dd9146e0257e26e.bin",
+    "textPath": "source-b0228838d86e622d54f42e31aed28e828110df55d4492001b07b9a9b6c1fa2d0.txt"
+  },
+  "files": {
+    "snapshots/source-024b242744988c9c2c5f69c2697ce30cc93ec728dd6d4c186dd9146e0257e26e.bin": "sha256:024b242744988c9c2c5f69c2697ce30cc93ec728dd6d4c186dd9146e0257e26e",
+    "snapshots/source-b0228838d86e622d54f42e31aed28e828110df55d4492001b07b9a9b6c1fa2d0.txt": "sha256:b0228838d86e622d54f42e31aed28e828110df55d4492001b07b9a9b6c1fa2d0"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://ccf.dev/main/architecture/cryptography.html",
+  "language": "en",
+  "retrievedAt": "2026-10-15T21:50:47Z",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:52:44Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": "\n\n\n  \n\n    \n\n    \n\n\n\n\n    \n\n        \nCryptography - CCF documentation\n\n      \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n    \n\n\n\n\n  \n\n    \n    \n\n    \n\n\n\n  \n\n    \nContents\n\n    \n\n      \n\n    \n\n  \n\n  \n\n    \nMenu\n\n    \n\n      \n\n      \n\n      \n\n    \n\n  \n\n  \n\n    \nExpand\n\n    \n\n      \n\n    \n\n  \n\n  \n\n    \nLight mode\n\n    \n\n      \n\n      \n\n      \n\n      \n\n      \n\n      \n\n      \n\n      \n\n      \n\n    \n\n  \n\n  \n\n    \nDark mode\n\n    \n\n      \n\n      \n\n    \n\n  \n\n  \n\n    \nAuto light/dark, in light mode\n\n    \n\n      \n\n      \n\n      \n\n      \n\n      \n\n      \n\n      \n\n      \n\n      \n\n      \n\n    \n\n  \n\n  \n\n    \nAuto light/dark, in dark mode\n\n    \n\n      \n\n      \n\n      \n\n      \n\n      \n\n      \n\n      \n\n      \n\n      \n\n      \n\n    \n\n  \n\n  \n\n    \n\n      \n\n      \n\n      \n\n      \n\n    \n\n  \n\n  \n\n    \n\n      \n",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "A"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "Microsoft Confidential Consortium Framework",
+    "host": "ccf.dev"
+  }
+}

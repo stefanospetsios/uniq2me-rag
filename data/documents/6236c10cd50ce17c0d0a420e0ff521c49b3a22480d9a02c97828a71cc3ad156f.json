@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T21:13:30Z",
+  "originRunId": "qwen3-38804802602",
+  "source": {
+    "id": "3-source-2",
+    "type": "guidance",
+    "title": "NIST Special Publication 800-63B: Digital Identity Guidelines - Authentication and Lifecycle Management",
+    "publisher": "National Institute of Standards and Technology (NIST)",
+    "url": "https://pages.nist.gov/800-63-3/sp800-63b.html",
+    "language": "en",
+    "jurisdiction": "United States",
+    "applicability": "Technical standards for authentication processes, authenticator assurance levels (AAL), and digital identity management within federal systems",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "Section 2 (Introduction)",
+        "text": "establishes that a subject is actually who they claim to be"
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:27446e1728bd1a348975e5360fc7a1e26f2155c062978d5d83f867b3f8f9e53a",
+    "textDigest": "sha256:6285e7ef55c0e050ff7b7a3733034b209fb0265a3d247f7fcc3f36af77ac31a7",
+    "finalUrl": "https://pages.nist.gov/800-63-3/sp800-63b.html",
+    "retrievedAt": "2026-10-15T21:13:30Z",
+    "contentType": "text/html",
+    "snapshotPath": "source-27446e1728bd1a348975e5360fc7a1e26f2155c062978d5d83f867b3f8f9e53a.bin",
+    "textPath": "source-6285e7ef55c0e050ff7b7a3733034b209fb0265a3d247f7fcc3f36af77ac31a7.txt"
+  },
+  "files": {
+    "snapshots/source-27446e1728bd1a348975e5360fc7a1e26f2155c062978d5d83f867b3f8f9e53a.bin": "sha256:27446e1728bd1a348975e5360fc7a1e26f2155c062978d5d83f867b3f8f9e53a",
+    "snapshots/source-6285e7ef55c0e050ff7b7a3733034b209fb0265a3d247f7fcc3f36af77ac31a7.txt": "sha256:6285e7ef55c0e050ff7b7a3733034b209fb0265a3d247f7fcc3f36af77ac31a7"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://pages.nist.gov/800-63-3/sp800-63b.html",
+  "language": "en",
+  "retrievedAt": "2026-10-15T21:13:30Z",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:17:29Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": "\n\n\n\n\n    \n\n    \n\n    \n\n    \n\n    \n\n\n    \n\n    \n\n    \n\n    \n\n\n    \n\n    \n\n    \n\n    \n\n\n    \n\n    \n\n    \n\n    \n\n\n    \n\n    \n\n\n    \n    \nNIST Special Publication 800-63B\n\n    \n\n    \n\n    \n    \n\n    \n\n    \n\n\n\n\n\n\n\n\n  \n\n    \n\n    \nHome\n\n\n\n    \nSP 800-63-3\n\n\n\n    \nSP 800-63A\n\n\n\n    \nSP 800-63B\n\n\n\n    \nSP 800-63C\n\n\n\n    \n\n      \nComment\n\n      \n\n        \n\n        \nGet help with leaving a comment\n\n      \n\n    \n\n\n\n  \n\n\n\n\n\n\n\n  \n\n    \n\n\nThis revision of NIST SP 800-63 has been superseded by \nNIST SP 800-63-4\n as of August 1, 2025. Please refer to those documents for the current guidelines.\n\n\n\n\n\n\n\nThu, 15 Oct 2026 20:03:25 +0000\n\n\n\n\n\n\n\n  \n NIST Special Publication 800-63B\n\n\n\n\n  \n\n\n\n\n  \nDigital Identity Guidelines\n\n\n\n\n  \nAuthentication and Lifecycle Management\n\n\n\n\n  \n\n\n\n\n  \nPaul A. Grassi  \n\n\n\nJames L. ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "3"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "National Institute of Standards and Technology (NIST)",
+    "host": "pages.nist.gov"
+  }
+}

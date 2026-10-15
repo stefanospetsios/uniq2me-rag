@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "ef02ad16a4d916081afa32e6d99e3e5c5a766db40114ce01e8eb1a4ffa7af9db",
+  "cachedAt": "2026-10-15T21:04:55Z",
+  "observedAt": "2026-10-15T21:04:55Z",
+  "originRunId": "qwen3-38804802602",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-1-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "1",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "emergency access official maintainer implementation configuration documentation",
+    "time_range": ""
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792098201930,
+    "end": 1792098202879
+  },
+  "outputDigest": "sha256:04bf68a295d04ff14d469608383d065d33c47ccdcbc407fc9aa9e12639c6f71d",
+  "resultUrls": [
+    "https://csrc.nist.gov/files/pubs/sp/800/53/r5/ipd/docs/sp800-53r5-draft-controls-markup.pdf",
+    "https://docs.kernel.org/filesystems/nfs/nfsd-maintainer-entry-profile.html",
+    "https://github.com/openjs-foundation/security-wg/blob/main/docs/npm-security-best-practices.md",
+    "https://itdock.io/resources/mfa-documentation-template-for-msps",
+    "https://security.cms.gov/policy-guidance/access-control-ac",
+    "https://www.arc-it.net/html/servicepackages/sp38.html",
+    "https://www.ariso.org.au/products/guideline-firmware-software-and-configuration-management-of-operational-rail-assets/",
+    "https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf",
+    "https://www.facilityos.com/blog/emergency-management-guide",
+    "https://www.standardsforhighways.co.uk/tses/attachments/536b9a3d-e8be-4c24-8177-c32d24d48526"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"emergency access official maintainer implementation configuration documentation\",\n  \"results\": [\n    {\n      \"title\": \"GD 368 Infrastructure requirements for emergency access and ...\",\n      \"url\": \"https://www.standardsforhighways.co.uk/tses/attachments/536b9a3d-e8be-4c24-8177-c32d24d48526\",\n      \"content\": \"The following documents, in whole or in part, are normative references for this document and are indispensable for its application. For dated references, only ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"TECHNICAL IMPLEMENTATION GUIDANCE - ENISA\",\n      \"url\": \"https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf\",\n      \"content\": \"passwords for emergency administrative access). ... • Establish, document and maintain configuration settings respecting the access control policy.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Enterprise Emergency Management for Facilities, EHS, & Security\",\n      \"url\": \"https://www.facilityos.com/blog/emergency-management-guide\",\n      \"content\": \"28 Σεπ 2022 ... This guide explores innovative emergency management strategies and how to apply leading solutions and software in your facility. What is ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"security-wg/docs/npm-security-best-practices.md at main - GitHub\",\n      \"url\": \"https://github.com/openjs-foundation/security-wg/blob/main/docs/npm-security-best-practices.md\",\n      \"content\": \"... options could allow an attacker to reset MFA on the maintainer's npm account. ... Access Tokens: Emergency access removal and Token revocation. There are ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"NFSD Maintainer Entry Profile - The Linux Kernel documentation\",\n      \"url\": \"https://docs.kernel.org/filesystems/nfs/nfsd-maintainer-entry-",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "csrc.nist.gov",
+      "docs.kernel.org",
+      "github.com",
+      "itdock.io",
+      "security.cms.gov",
+      "www.arc-it.net",
+      "www.ariso.org.au",
+      "www.enisa.europa.eu",
+      "www.facilityos.com",
+      "www.standardsforhighways.co.uk"
+    ]
+  }
+}

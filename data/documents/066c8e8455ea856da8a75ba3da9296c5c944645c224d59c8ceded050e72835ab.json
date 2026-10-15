@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T21:24:50Z",
+  "originRunId": "qwen3-38804802602",
+  "source": {
+    "id": "5-source-5",
+    "type": "technical-doc",
+    "title": "Red Hat Enterprise Linux 9 Configuring firewalls and packet filters",
+    "publisher": "Red Hat",
+    "url": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/pdf/configuring_firewalls_and_packet_filters/red_hat_enterprise_linux-9-configuring_firewalls_and_packet_filters-en-us.pdf",
+    "language": "en",
+    "jurisdiction": "Vendor-specific",
+    "applicability": "RHEL 9 firewall configuration using firewalld and nftables",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "article/heading/page",
+        "text": "firewalld uses the concepts of zones, policies, and services to simplify traffic management. Zones logically separate a network. Network interfaces and sources can be assigned to a zone. Policies are used to deny or allow traffic flowing between zones."
+      },
+      {
+        "id": "p2",
+        "locator": "article/heading/page",
+        "text": "          4. Intrazone traffic (within the same zone) is allowed by default.\n\n           5. Interzone traffic (from zone to zone) is denied by default."
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:6a0c6c6263855737e371ab7580b7cdb84feb81ceda1cb5e72dea8f5f2fba5a33",
+    "textDigest": "sha256:fbe949828eb71ebc07f1e897cdb25ec6daecc04698b26a76e2044e7878de8b6d",
+    "finalUrl": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/pdf/configuring_firewalls_and_packet_filters/red_hat_enterprise_linux-9-configuring_firewalls_and_packet_filters-en-us.pdf",
+    "retrievedAt": "2026-10-15T21:24:50Z",
+    "contentType": "application/pdf",
+    "snapshotPath": "source-6a0c6c6263855737e371ab7580b7cdb84feb81ceda1cb5e72dea8f5f2fba5a33.bin",
+    "textPath": "source-fbe949828eb71ebc07f1e897cdb25ec6daecc04698b26a76e2044e7878de8b6d.txt"
+  },
+  "files": {
+    "snapshots/source-6a0c6c6263855737e371ab7580b7cdb84feb81ceda1cb5e72dea8f5f2fba5a33.bin": "sha256:6a0c6c6263855737e371ab7580b7cdb84feb81ceda1cb5e72dea8f5f2fba5a33",
+    "snapshots/source-fbe949828eb71ebc07f1e897cdb25ec6daecc04698b26a76e2044e7878de8b6d.txt": "sha256:fbe949828eb71ebc07f1e897cdb25ec6daecc04698b26a76e2044e7878de8b6d"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/pdf/configuring_firewalls_and_packet_filters/red_hat_enterprise_linux-9-configuring_firewalls_and_packet_filters-en-us.pdf",
+  "language": "en",
+  "retrievedAt": "2026-10-15T21:24:50Z",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:31:52Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": "           Red Hat Enterprise Linux 9\n\n     Configuring firewalls and packet filters\n\nManaging the firewalld service, the nftables framework, and XDP packet filtering\n                                     features\n\n\n\n\n                                                          Last Updated: 2026-10-08\n\f\fRed Hat Enterprise Linux 9 Configuring firewalls and packet filters\nManaging the firewalld service, the nftables framework, and XDP packet filtering features\n\fLegal Notice\nCopyright © Red Hat.\n\nExcept as otherwise noted below, the text of and illustrations in this documentation are licensed by\nRed Hat under the Creative Commons Attribution–Share Alike 3.0 Unported license . If you\ndistribute this document or an adaptation of it, you must provide the URL for the original version.\n\nRed Hat, as t",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "Red Hat",
+    "host": "docs.redhat.com"
+  }
+}

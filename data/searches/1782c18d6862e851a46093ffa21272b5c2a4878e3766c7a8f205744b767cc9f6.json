@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "1782c18d6862e851a46093ffa21272b5c2a4878e3766c7a8f205744b767cc9f6",
+  "cachedAt": "2026-10-15T22:08:47Z",
+  "observedAt": "2026-10-15T22:08:47Z",
+  "originRunId": "qwen3-38804802602",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-D-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "D",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "security governance official maintainer implementation documentation procedures"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792102041198,
+    "end": 1792102042342
+  },
+  "outputDigest": "sha256:98487717bc0addb98cbac6ef4158e5e86be47d37832eb1bed72988e0ae9448d1",
+  "resultUrls": [
+    "https://contribute.cncf.io/projects/best-practices/governance/templates/governance-maintainer.md",
+    "https://oss-vulnerability-guide.openssf.org/maintainer-guide.html"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Guide to implementing a coordinated vulnerability disclosure process for open source projects | OSS Vulnerability Guide\",\n      \"url\": \"https://oss-vulnerability-guide.openssf.org/maintainer-guide.html\",\n      \"content\": \"Guide to implementing a coordinated vulnerability disclosure process for open source projects | OSS Vulnerability Guide\\n\\n- About this guide\\n- Who’s a vulnerability reporter (aka “finder”)?\\n- What does the vulnerability reporter want?\\n- Establish project’s vulnerability handling expectations (aka “Security Policy”)\\n- Create a vulnerability management team (VMT)\\n- Set up report intake\\n- Enable private patch development\\n- Establish a CNA contact\\n- Create an embargo list\\n- Select communication templates\\n- Runbook\\n- Response process\\n\\n## Before you begin\\n\\nThis guide is intended to help open source project maintainers create and maintain a coordinated vulnerability response process.\\n\\nNo software is perfect. Software is written by people or artificial intelligence, and both sometimes make mistakes. This is true for closed source as well as open source software. For open source software (OSS), this problem can be more challenging due to the very factors that make OSS so powerful - highly distributed development by multiple contributors. At some point in the life of your project, someone–a user, a contributor, or a security researcher–will find a vulnerability that affects the safety and usefulness of your project. Applying this guide will help you be ready.\\n\\n### About this guide\\n\\nThis guide was produced by the contributions of individuals and the Open Source Security Foundation Vulnerability Disclosure Working Group. The OpenSSF Vulnerability Disclosure Working Group believes coordinated vulnerability disclosure (sometimes called “responsible disclosure”) is the appropriate model for most open source projects. The advice in this guide follows that model. Not all advice in this guide applies to al",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "D"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "contribute.cncf.io",
+      "oss-vulnerability-guide.openssf.org"
+    ]
+  }
+}

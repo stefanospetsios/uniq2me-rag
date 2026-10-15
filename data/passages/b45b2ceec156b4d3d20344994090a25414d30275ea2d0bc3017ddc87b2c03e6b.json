@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "b45b2ceec156b4d3d20344994090a25414d30275ea2d0bc3017ddc87b2c03e6b",
+  "cachedAt": "2026-10-15T21:08:42Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://documentation.solarwinds.com/en/success_center/dpa/content/dpa-limit-user-acct-mgmt-to-role.htm",
+  "finalUrl": "https://documentation.solarwinds.com/en/success_center/dpa/content/dpa-limit-user-acct-mgmt-to-role.htm",
+  "language": "en",
+  "publisher": "SolarWinds",
+  "title": "Limit user account management to the User Manager role",
+  "retrievedAt": "2026-10-15T21:04:58Z",
+  "byteDigest": "sha256:6c108db9c322fa53d8eaaeb2241310dbdb241a7b56d57448972a7c9a801af7f6",
+  "textDigest": "sha256:ba49256a95ddb0520ebf9df2fd85b0097218c203d31364312aa6c2177e25bc31",
+  "sourceId": "1-source-3",
+  "passageId": "p1",
+  "locator": "Title section",
+  "quotation": "Limit user account management to the User Manager role",
+  "originalText": "Limit user account management to the User Manager role",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:08:42Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "SolarWinds",
+    "host": "documentation.solarwinds.com"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "d8f4b0b7e6d663675209bc287322efa1d11b583aefdd1bfd1d2bdbe71e795e91",
+  "cachedAt": "2026-10-15T21:17:29Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://www.idmanagement.gov/playbooks/ilm/",
+  "finalUrl": "https://www.idmanagement.gov/playbooks/ilm/",
+  "language": "en",
+  "publisher": "U.S. Federal Chief Information Security Officer Council ICAM Subcommittee",
+  "title": "Identity Lifecycle Management Playbook",
+  "retrievedAt": "2026-10-15T21:13:31Z",
+  "byteDigest": "sha256:916ee4888919178ce180b288169ae4e7a41f7e3ba47a73e1a7731570eac98c87",
+  "textDigest": "sha256:5e46cfc1f7b87becd9259e5ecb4dfc9c929148eec047bba75116f5241018059c",
+  "sourceId": "3-source-3",
+  "passageId": "p1",
+  "locator": "Executive Summary",
+  "quotation": "managing the continuous lifecycle of digital identities",
+  "originalText": "managing the continuous lifecycle of digital identities",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:17:29Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "3"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "U.S. Federal Chief Information Security Officer Council ICAM Subcommittee",
+    "host": "www.idmanagement.gov"
+  }
+}

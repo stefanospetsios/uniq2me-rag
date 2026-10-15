@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T21:43:48Z",
+  "originRunId": "qwen3-38804802602",
+  "source": {
+    "id": "8-source-2",
+    "type": "technical-doc",
+    "title": "Red Hat Secure Software Development Lifecycle",
+    "publisher": "Red Hat",
+    "url": "https://access.redhat.com/security/rh_security_declaration_sdl",
+    "language": "en",
+    "jurisdiction": "Global",
+    "applicability": "Internal SDLC process addressing risk assessment, vulnerability management, and security testing protocols for enterprise open source software development. Provides structured framework for dependency and secrets handling.",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "Red Hat Secure Development Lifecycle section",
+        "text": "Red Hat maintains a software development lifecycle (SDLC) process that addresses risk assessment, vulnerability assessment, and security testing protocols of Red Hat software. Red Hat's SDLC process follows the \nNIST SP 800-218 Secure Software Development Framework\n, conducting security reviews related to secure architecture, secure pipeline, threat modeling, Static and Dynamic Application Security Testing, antimalware scanning,  penetration testing, and incident"
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [
+      "p1"
+    ],
+    "byteDigest": "sha256:187cfd4e92561b6ed36d363c465e00337ffdfefbc0911af5fc45b2456ecde183",
+    "textDigest": "sha256:c3e49d56e70097b1edfddcb21d2be339df477bb3a5f0b2582f720a5e14b5d73b",
+    "finalUrl": "https://access.redhat.com/security/rh_security_declaration_sdl",
+    "retrievedAt": "2026-10-15T21:43:48Z",
+    "contentType": "text/html; charset=UTF-8",
+    "snapshotPath": "source-187cfd4e92561b6ed36d363c465e00337ffdfefbc0911af5fc45b2456ecde183.bin",
+    "textPath": "source-c3e49d56e70097b1edfddcb21d2be339df477bb3a5f0b2582f720a5e14b5d73b.txt"
+  },
+  "files": {
+    "snapshots/source-187cfd4e92561b6ed36d363c465e00337ffdfefbc0911af5fc45b2456ecde183.bin": "sha256:187cfd4e92561b6ed36d363c465e00337ffdfefbc0911af5fc45b2456ecde183",
+    "snapshots/source-c3e49d56e70097b1edfddcb21d2be339df477bb3a5f0b2582f720a5e14b5d73b.txt": "sha256:c3e49d56e70097b1edfddcb21d2be339df477bb3a5f0b2582f720a5e14b5d73b"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://access.redhat.com/security/rh_security_declaration_sdl",
+  "language": "en",
+  "retrievedAt": "2026-10-15T21:43:48Z",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:46:13Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": "\n\n\n  \n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \nRed Hat Security Declaration - Secure Software Development Life Cycle | Red Hat Customer Portal\n\n    \n\n\n\n\n    \n\n    \n\n    \n\n    \n\n    \n\n\n    \n\n    \n\n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n    \n\n    \n    \n\n              \n    \n\n    \n\n    \n    \n\n    \n\n\n    \n    \n\n    \n\n    \n\n    \n\n    \n\n    \n    \n\n    \n\n    \n    \n\n    \n\n    \n\n    \n\n\n    \n\n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n\n    \n\n\n    \n\n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n\n    \n\n    \n\n    \n  \n\n  \n\n    \n      \n\n    \n\n\n  \n\n    \n\n\n      \n\n\n\n    \n\n        \n\n\n\n    \n\n\n\n    \n\n\n\n    \n\n\n        \n\n        \n\n\n            \nSkip to navigation\n\n            \nSkip to main content\n\n\n            \n      \n\n        \n\n          Utilities\n        \n\n\n\n        \n\n      ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "Red Hat",
+    "host": "access.redhat.com"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T21:10:46Z",
+  "originRunId": "qwen3-38804802602",
+  "source": {
+    "id": "2-source-2",
+    "type": "technical-doc",
+    "title": "Manage a backup plan | Backup and DR | Google Cloud Documentation",
+    "publisher": "Google LLC",
+    "url": "https://docs.cloud.google.com/backup-disaster-recovery/docs/cloud-console/backup-plan-create",
+    "language": "en",
+    "jurisdiction": "United States",
+    "applicability": "Google Cloud resources including Compute Engine, Cloud SQL, AlloyDB, and Filestore requiring backup configuration",
+    "publicationDate": "2026-10-09",
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "Backup operations navigation",
+        "text": "Overview of backup vaults\n\n\nOverview of backup operations\n\n\nBack up Compute Engine instances\n\n\nConfigure application-consistent backups"
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:3129c90e9970bc22128e605aa74eb18df715a51e15a1a82f297534b7cbe46763",
+    "textDigest": "sha256:00f291c0c008b5e17f0da7b2072178151ca844a666c6beaec44f76b691e18034",
+    "finalUrl": "https://docs.cloud.google.com/backup-disaster-recovery/docs/cloud-console/backup-plan-create",
+    "retrievedAt": "2026-10-15T21:10:46Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-3129c90e9970bc22128e605aa74eb18df715a51e15a1a82f297534b7cbe46763.bin",
+    "textPath": "source-00f291c0c008b5e17f0da7b2072178151ca844a666c6beaec44f76b691e18034.txt"
+  },
+  "files": {
+    "snapshots/source-3129c90e9970bc22128e605aa74eb18df715a51e15a1a82f297534b7cbe46763.bin": "sha256:3129c90e9970bc22128e605aa74eb18df715a51e15a1a82f297534b7cbe46763",
+    "snapshots/source-00f291c0c008b5e17f0da7b2072178151ca844a666c6beaec44f76b691e18034.txt": "sha256:00f291c0c008b5e17f0da7b2072178151ca844a666c6beaec44f76b691e18034"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://docs.cloud.google.com/backup-disaster-recovery/docs/cloud-console/backup-plan-create",
+  "language": "en",
+  "retrievedAt": "2026-10-15T21:10:46Z",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:12:03Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": "\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n      \n\n      \n        \n\n      \n\n    \n\n      \nManage a backup plan  |  Backup and DR  |  Google Cloud Documentation\n\n\n\n\n  \n\n  \n\n  \n\n  \n    \n    \n\n    \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n    \n    \n    \n\n\n\n\n\n    \n  \n\n    \n\n  \n\n  \n    \n\n  \n  \n    \n\n      \n      Skip to main content\n    \n\n    \n\n      \n\n        \n\n\n\n\n  \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n    \n\n      \n\n        \n\n        \n\n        \n\n\n\n  \n\n  \n  \n\n    \n    \n\n    \n    \n\n  \n\n  \n\n\n\n\n\n\n\n\n\n        \n\n         ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "2"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "Google LLC",
+    "host": "docs.cloud.google.com"
+  }
+}

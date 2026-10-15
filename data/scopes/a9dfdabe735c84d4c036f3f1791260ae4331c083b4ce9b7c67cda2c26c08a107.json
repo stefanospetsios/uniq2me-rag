@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-scope",
+  "cachedAt": "2026-10-15T21:48:14Z",
+  "scopeId": "9",
+  "fingerprint": "a9dfdabe735c84d4c036f3f1791260ae4331c083b4ce9b7c67cda2c26c08a107",
+  "originRunId": "qwen3-38804802602",
+  "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "9"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "scope-admitted",
+    "publisher": null,
+    "host": null
+  },
+  "corpus": {
+    "sources": {
+      "9-source-1": {
+        "type": "technical-doc",
+        "title": "Auditing the security infrastructure",
+        "publisher": "IBM",
+        "url": "https://www.ibm.com/docs/en/was/9.0.5?topic=security-auditing-infrastructure",
+        "language": "en",
+        "jurisdiction": "US",
+        "applicability": "IBM WebSphere Application Server security subsystem configuration",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "9-source-1",
+        "byteDigest": "sha256:6a04e38d179b31b5314668daaae3610004b7d624e92dfcce5f5d3fe2638c434c",
+        "textDigest": "sha256:98030d1b50496bcc39289f28efd26ae8e862f11b416079914f79308d68f7fe11",
+        "finalUrl": "https://www.ibm.com/docs/en/was/9.0.5?topic=security-auditing-infrastructure",
+        "retrievedAt": "2026-10-15T21:47:25Z",
+        "contentType": "text/html; charset=utf-8",
+        "snapshotPath": "source-6a04e38d179b31b5314668daaae3610004b7d624e92dfcce5f5d3fe2638c434c.bin",
+        "textPath": "source-98030d1b50496bcc39289f28efd26ae8e862f11b416079914f79308d68f7fe11.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "procedure/protect-your-security-audit-data",
+            "text": "It is important to secure and ensure the data integrity of the recorded audit data. To ensure that access to the data is restricted and tamper proof, you can encrypt and sign your audit data."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "9-source-3": {
+        "type": "guidance",
+        "title": "Leveraging Code and Documentation | Aikido",
+        "publisher": "Aikido Security",
+        "url": "https://help.aikido.dev/pentests/configure-a-pentest/leveraging-code-and-documentation",
+        "language": "en",
+        "jurisdiction": "US",
+        "applicability": "White-box penetration testing configuration using repository integration",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "9-source-3",
+        "byteDigest": "sha256:befb8596c197bf1f1f0708d6ab503af8dec59659b849383bef3b448fed1b29de",
+        "textDigest": "sha256:a0e25b0bfefa6d0d549e35bec6b3eced1f65a065fd02522c606acd5809075844",
+        "finalUrl": "https://help.aikido.dev/pentests/configure-a-pentest/leveraging-code-and-documentation",
+        "retrievedAt": "2026-10-15T21:47:26Z",
+        "contentType": "text/html; charset=utf-8",
+        "snapshotPath": "source-befb8596c197bf1f1f0708d6ab503af8dec59659b849383bef3b448fed1b29de.bin",
+        "textPath": "source-a0e25b0bfefa6d0d549e35bec6b3eced1f65a065fd02522c606acd5809075844.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "repositories/unlock-white-box-testing",
+            "text": "Connecting your repositories is the single most impactful step you can take. Instead of just poking at endpoints from the outside, the system analyzes the actual source code to understand how the application processes data."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "9-source-4": {
+        "type": "technical-doc",
+        "title": "hadriansecurity/OpenHack - Lightweight, file-based workspace for source-guided whitebox security review",
+        "publisher": "Hadrian Security",
+        "url": "https://github.com/hadriansecurity/OpenHack/",
+        "language": "en",
+        "jurisdiction": "US",
+        "applicability": "Open-source framework for structured security review scenarios and triage",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "9-source-4",
+        "byteDigest": "sha256:419d9e953f4b49dd0c6964c9451cfb546575e78db18c1187d8ce1d5842365f17",
+        "textDigest": "sha256:e6d9ca40e7509bbe07b3ac994c3b1caebb0663c29f263ae2b40bda834a82177b",
+        "finalUrl": "https://github.com/hadriansecurity/OpenHack/",
+        "retrievedAt": "2026-10-15T21:47:27Z",
+        "contentType": "text/html; charset=utf-8",
+        "snapshotPath": "source-419d9e953f4b49dd0c6964c9451cfb546575e78db18c1187d8ce1d5842365f17.bin",
+        "textPath": "source-e6d9ca40e7509bbe07b3ac994c3b1caebb0663c29f263ae2b40bda834a82177b.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "core-concepts/the-core-idea",
+            "text": "The core idea: checkpointed, scenario-first review. Recon discovers surfaces, a router agent turns them into scoped scenarios, expert agents prove or reject each scenario, and an independent triage agent decides which verified candidates become final findings."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      }
+    },
+    "concerns": [
+      {
+        "id": "9-concern-1",
+        "sfsId": "9",
+        "description": "Audit log integrity must be secured through encryption and signing to ensure data is tamper-proof and access-restricted",
+        "sourceRefs": [
+          {
+            "sourceId": "9-source-1",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "9-concern-2",
+        "sfsId": "9",
+        "description": "White-box security testing requires full source code visibility to move from external endpoint scanning to internal vulnerability analysis",
+        "sourceRefs": [
+          {
+            "sourceId": "9-source-3",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "9-concern-3",
+        "sfsId": "9",
+        "description": "Security review must implement checkpointed, scenario-first methodology with independent triage decisions for verified findings",
+        "sourceRefs": [
+          {
+            "sourceId": "9-source-4",
+            "passageId": "p1"
+          }
+        ]
+      }
+    ],
+    "queries": [
+      {
+        "scope": "9",
+        "toolId": "searxng_web_search",
+        "input": {
+          "query": "Software Security Auditing official implementation configuration documentation",
+          "safesearch": 1,
+          "time_range": ""
+        },
+        "outputDigest": "sha256:24048591e6a6ddd2d079a5d20774dfc475b747d3b439e4e1e6df57c5384298bf",
+        "callId": "sources-9-1-discovery"
+      },
+      {
+        "scope": "9",
+        "toolId": "websearch_web_search",
+        "input": {
+          "query": "penetration testing white-box review official maintainer implementation configuration documentation",
+          "max_results": 5
+        },
+        "outputDigest": "sha256:9324f6b8cb7b083ffd434b93a627e6e27dd5260419ca55e04e4a543fbc7e3383",
+        "callId": "sources-9-1-discovery"
+      }
+    ],
+    "limitations": [
+      {
+        "scope": "9",
+        "description": "Brave search engine reported 'too many requests' during searxng discovery"
+      },
+      {
+        "scope": "9",
+        "description": "Publication dates not explicitly stated in observed document metadata"
+      },
+      {
+        "scope": "9",
+        "description": "GitHub-hosted documentation requires verification of maintainer authority through project context"
+      },
+      {
+        "scope": "9",
+        "description": "Excluded unavailable discovery candidate: 9-source-2 https://docs.pwnkit.com/white-box-mode/: <urlopen error [Errno -2] Name or service not known>"
+      }
+    ],
+    "admissionVersion": 2,
+    "observedResultUrls": [
+      "https://github.com/hadriansecurity/OpenHack/",
+      "https://help.aikido.dev/pentests/configure-a-pentest/leveraging-code-and-documentation",
+      "https://www.ibm.com/docs/en/was/9.0.5?topic=security-auditing-infrastructure"
+    ]
+  },
+  "files": {
+    "snapshots/source-6a04e38d179b31b5314668daaae3610004b7d624e92dfcce5f5d3fe2638c434c.bin": "sha256:6a04e38d179b31b5314668daaae3610004b7d624e92dfcce5f5d3fe2638c434c",
+    "snapshots/source-98030d1b50496bcc39289f28efd26ae8e862f11b416079914f79308d68f7fe11.txt": "sha256:98030d1b50496bcc39289f28efd26ae8e862f11b416079914f79308d68f7fe11",
+    "snapshots/source-befb8596c197bf1f1f0708d6ab503af8dec59659b849383bef3b448fed1b29de.bin": "sha256:befb8596c197bf1f1f0708d6ab503af8dec59659b849383bef3b448fed1b29de",
+    "snapshots/source-a0e25b0bfefa6d0d549e35bec6b3eced1f65a065fd02522c606acd5809075844.txt": "sha256:a0e25b0bfefa6d0d549e35bec6b3eced1f65a065fd02522c606acd5809075844",
+    "snapshots/source-419d9e953f4b49dd0c6964c9451cfb546575e78db18c1187d8ce1d5842365f17.bin": "sha256:419d9e953f4b49dd0c6964c9451cfb546575e78db18c1187d8ce1d5842365f17",
+    "snapshots/source-e6d9ca40e7509bbe07b3ac994c3b1caebb0663c29f263ae2b40bda834a82177b.txt": "sha256:e6d9ca40e7509bbe07b3ac994c3b1caebb0663c29f263ae2b40bda834a82177b"
+  }
+}

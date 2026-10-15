@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <!-- Cookie Banner -->
+  <script type="text/javascript" src="https://embeds.iubenda.com/widgets/c2c5b870-f765-4b21-9b08-48ffdcfd42f4.js"></script>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-N2P5PS2');</script>
+  <!-- End Google Tag Manager -->
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Virtual Private Networks | pfSense Documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/tabs.css?v=a5c4661c" />
+      <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=4eb95397" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/jquery.pan.css?v=75b1fd0c" />
+
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="canonical" href="https://docs.netgate.com/pfsense/en/latest/vpn/index.html" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=c6e86fd7"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../_static/copybutton.js?v=eda7f11f"></script>
+        <script src="../_static/custom.js?v=9a9bb30e"></script>
+        <script src="../_static/js/jquery.pan.js?v=82abcaef"></script>
+        <script src="../_static/js/pan-init.js?v=7e534068"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Common deployments" href="common-deployments.html" />
+    <link rel="prev" title="Multi-Link PPPoE (MLPPP)" href="../multiwan/mlppp.html" /> 
+  <!-- Cookie Consent DB -->
+  <script type="text/javascript">var _iub = _iub || {}; _iub.cons_instructions = _iub.cons_instructions || []; _iub.cons_instructions.push(["init", {api_key: "8wQof9FlEvVusqyKGwJiYgZKxZt2pdLa"}]);</script><script type="text/javascript" src="https://cdn.iubenda.com/cons/iubenda_cons.js" async></script>
+  <style>
+    .iubenda-tp-btn.iubenda-cs-preferences-link {
+      display: none !important;
+    }
+    .iubenda-cs-preferences-link.iubenda-tp-btn {
+      display: none !important;
+    }
+    button.iubenda-cs-preferences-link.iubenda-tp-btn[data-tp-float] {
+      display: none !important;
+    }
+  </style>
+</head>
+
+<body class="wy-body-for-nav">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N2P5PS2"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <div class="custom-top-nav">
+    <div class="custom-top-nav-container">
+      <div class="custom-top-nav-home">
+        <a href="https://docs.netgate.com">
+          <svg role="img" aria-labelledby="netgate-logo-svg" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 62.6 62.6" style="width: 30px;height: 30px;vertical-align: middle;">
+            <title id="netgate-logo-svg">Netgate Logo</title>
+            <path class="st1" d="M12,16V9.7h12.5l13.1,20v-20h11.7v16h10.1V6.6c0-3.4-2.7-6.1-6.1-6.1H6.2c-3.4,0-6.1,2.7-6.1,6.1V16H12z"></path>
+            <path class="st2" d="M49.2,35.4v15.1H37.1L23.7,29.7v20.8H12v-5.4H0.1v8.6c0,3.4,2.7,6.1,6.1,6.1h47.1c3.4,0,6.1-2.7,6.1-6.1V35.4 H49.2z"></path>
+            <polygon class="st0" points="12,35.4 16,30.5 12,25.7 0.1,25.7 0.1,35.4 "></polygon>
+          </svg>
+          Netgate Docs
+        </a>
+      </div>
+      <ul>
+        <li><a href="https://www.netgate.com/appliances" target="_blank">Appliances</a></li>
+        <li><a href="https://www.netgate.com/tnsr-vs-pfsense-software" target="_blank">Platforms</a></li>
+        <li><a href="https://www.netgate.com/support" target="_blank">Support</a></li>
+        <li><a href="https://www.netgate.com/training" target="_blank">Training</a></li>
+      </ul>
+    </div>
+  </div> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+              <div class="version">
+                latest
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search The pfSense Docs" aria-label="Search The pfSense docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../preface/index.html">Preface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../releases/index.html">Releases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../product-manuals.html">Product Manuals</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../network/index.html">Networking Concepts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../network/ipv6/index.html">IPv6</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../hardware/index.html">Hardware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../install/index.html">Installing and Upgrading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../config/index.html">Configuration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nexus/index.html">Netgate<sup>®</sup> Nexus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../backup/index.html">Backup and Recovery</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../interfaces/index.html">Interface Types and Configuration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../usermanager/index.html">User Management and Authentication</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../certificates/index.html">Certificate Management</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../firewall/index.html">Firewall</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nat/index.html">Network Address Translation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../routing/index.html">Routing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bridges/index.html">Bridging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vlan/index.html">Virtual LANs (VLANs)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../multiwan/index.html">Multiple WAN Connections</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Virtual Private Networks</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="common-deployments.html">Common deployments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="selection.html">Choosing a VPN solution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ra-client-compatibility.html">Remote Access Mobile VPN Client Compatibility</a></li>
+<li class="toctree-l2"><a class="reference internal" href="firewall-rules.html">VPNs and Firewall Rules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ipv6.html">IPv6 VPN and Firewall Rules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="performance.html">VPN Scaling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="openvpn/index.html">OpenVPN</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ipsec/index.html">IPsec</a></li>
+<li class="toctree-l2"><a class="reference internal" href="wireguard/index.html">WireGuard</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#pptp-warning">PPTP Warning</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="ipsec/index.html">IPsec</a></li>
+<li class="toctree-l1"><a class="reference internal" href="l2tp/index.html">L2TP VPN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="openvpn/index.html">OpenVPN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="wireguard/index.html">WireGuard</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../services/index.html">Services</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../services/dhcp/index.html">DHCP</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../services/dns/index.html">DNS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../services/dyndns/index.html">Dynamic DNS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../services/ntpd/index.html">NTPD</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../trafficshaper/index.html">Traffic Shaper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../captiveportal/index.html">Captive Portal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../highavailability/index.html">High Availability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../monitoring/index.html">System Monitoring</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../monitoring/graphs/index.html">Monitoring Graphs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../monitoring/logs/index.html">System Logs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../diagnostics/index.html">Diagnostics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../packages/index.html">Packages</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../virtualization/index.html">Virtualization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../wireless/index.html">Wireless</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cellular/index.html">Cellular Wireless</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../troubleshooting/index.html">Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipes/index.html">pfSense® software Configuration Recipes</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">References</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../menuguide/index.html">Menu Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossary of Terms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../development/index.html">Development</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../references/index.html">References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../licensing/index.html">Licensing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Recipes</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../recipes/index.html">pfSense® software Configuration Recipes</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu"  style="background: #1475CF" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">The pfSense Documentation</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content style-external-links">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="/">Docs</a> &raquo;</li>
+      <li><a href="/pfsense/en/latest">pfSense® software</a> </li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://redmine.pfsense.org/projects/pfsense-docs/issues/new?issue[description]=*Page:*%20https://docs.netgate.com/pfsense/en/latest/vpn/index.html%0A%0A*Feedback:*&issue[subject]=Feedback%20on%20Virtual Private Networks" class="fa fa-bug"> Give Feedback</a>
+      </li>
+  </ul><div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+    <hr class="top">
+    <div class="rst-footer-button-next">
+      <div class="rst-footer-button-text">
+        Next<br />
+        <a href="common-deployments.html" title="Common deployments">Common deployments</a>
+      </div>
+      <a class="rst-footer-button-arrow" href="common-deployments.html" title="Common deployments" accesskey="n" rel="next"><span class="fa fa-angle-right"></span></a>
+    </div>
+    <div class="rst-footer-button-prev">
+      <a class="rst-footer-button-arrow" href="../multiwan/mlppp.html" title="Multi-Link PPPoE (MLPPP)" accesskey="p" rel="prev"><span class="fa fa-angle-left"></span></a>
+      <div class="rst-footer-button-text">
+        Previous<br />
+        <a href="../multiwan/mlppp.html" title="Multi-Link PPPoE (MLPPP)" accesskey="p" rel="prev">Multi-Link PPPoE (MLPPP)</a>
+      </div>
+    </div>
+    <hr class="bottom">
+  </div>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            <nav class="docs-sidebar-section" id="local-table-of-contents" role="navigation" aria-labelledby="local-table-of-contents-title">
+              <h4 id="local-table-of-contents-title" class="docs-sidebar-section-title">On This Page</h4>
+              <ul>
+<li><a class="reference internal" href="#">Virtual Private Networks</a><ul>
+<li><a class="reference internal" href="#pptp-warning">PPTP Warning</a></li>
+</ul>
+</li>
+</ul>
+
+            </nav>
+             
+  <section id="virtual-private-networks">
+<h1>Virtual Private Networks<a class="headerlink" href="#virtual-private-networks" title="Link to this heading">¶</a></h1>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="common-deployments.html">Common deployments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="selection.html">Choosing a VPN solution</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ra-client-compatibility.html">Remote Access Mobile VPN Client Compatibility</a></li>
+<li class="toctree-l1"><a class="reference internal" href="firewall-rules.html">VPNs and Firewall Rules</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ipv6.html">IPv6 VPN and Firewall Rules</a></li>
+<li class="toctree-l1"><a class="reference internal" href="performance.html">VPN Scaling</a></li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="openvpn/index.html">OpenVPN</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="openvpn/dco.html">OpenVPN Data Channel Offload (DCO)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="openvpn/configure.html">OpenVPN Configuration Options</a></li>
+<li class="toctree-l2"><a class="reference internal" href="openvpn/firewall-rules.html">OpenVPN Firewall Rules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="openvpn/nat.html">OpenVPN clients and Internet Access</a></li>
+<li class="toctree-l2"><a class="reference internal" href="openvpn/assign.html">Assigning OpenVPN Interfaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="openvpn/multi-wan.html">OpenVPN and Multi-WAN</a></li>
+<li class="toctree-l2"><a class="reference internal" href="openvpn/ha.html">OpenVPN and High Availability</a></li>
+<li class="toctree-l2"><a class="reference internal" href="openvpn/port-share.html">Sharing a Port with OpenVPN and a Web Server</a></li>
+<li class="toctree-l2"><a class="reference internal" href="openvpn/client-parameters-radius.html">Controlling Client Parameters via RADIUS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="openvpn/icmp.html">OpenVPN Adapter Address ICMP Behavior</a></li>
+<li class="toctree-l2"><a class="reference internal" href="openvpn/index.html#openvpn-and-certificates">OpenVPN and Certificates</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="ipsec/index.html">IPsec</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="ipsec/terms.html">IPsec Terminology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ipsec/configure.html">IPsec Configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ipsec/mobile-choices.html">Choosing a Mobile IPsec Style</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ipsec/phase-2-nat.html">NAT with IPsec Phase 2 Networks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ipsec/routed-vti.html">Routed IPsec (VTI)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ipsec/firewall-rules.html">IPsec and firewall rules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ipsec/multiple-subnets.html">Using IPsec with Multiple Subnets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ipsec/keep-alive.html">Configuring IPsec Keep Alive</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ipsec/test-connectivity.html">Testing IPsec Connectivity</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ipsec/client-routing.html">Client Routing and Gateway Considerations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ipsec/compatibility.html">Configuring Third Party IPsec Devices</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ipsec/access-firewall-over-ipsec.html">Accessing Firewall Services over IPsec</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="wireguard/index.html">WireGuard</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="wireguard/settings.html">WireGuard Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="wireguard/design.html">Design Considerations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="wireguard/limitations.html">WireGuard Limitations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="wireguard/configure.html">Configure a WireGuard Tunnel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="wireguard/assign.html">Assign a WireGuard Interface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="wireguard/rules.html">WireGuard and Rules / NAT</a></li>
+<li class="toctree-l2"><a class="reference internal" href="wireguard/routing.html">WireGuard Routing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="wireguard/index.html#wireguard-overview">WireGuard Overview</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="l2tp/configuration.html"><span class="doc">L2TP Server Configuration</span></a></p></li>
+<li><p><a class="reference internal" href="../troubleshooting/cisco-vpn-passthrough.html"><span class="doc">Troubleshooting Cisco VPN Pass Through</span></a></p></li>
+</ul>
+</div>
+<p>VPNs provide a means of tunneling traffic through an encrypted connection,
+preventing it from being seen or modified in transit. pfSense® software offers
+several VPN options: IPsec, OpenVPN, WireGuard and L2TP. This section provides
+an overview of VPN usage, the pros and cons of each type of VPN, and how to
+decide which is the best fit for a particular environment. Subsequent sections
+discuss each VPN option in detail.</p>
+<p>L2TP is purely a tunneling protocol and does not offer any encryption of its
+own. It is typically combined with another method of encryption such as IPsec in
+transport mode. Because of this, it doesn’t fit in with most of the discussion
+in this chapter. See <a class="reference internal" href="l2tp/index.html"><span class="doc">L2TP VPN</span></a> for more information on L2TP.</p>
+<section id="pptp-warning">
+<span id="pptp-insecure"></span><h2>PPTP Warning<a class="headerlink" href="#pptp-warning" title="Link to this heading">¶</a></h2>
+<p>pfSense software does not include a PPTP server. Despite the attraction of its
+convenience, PPTP <strong>must not be used</strong> under any circumstances because it is no
+longer secure. This is not specific to the implementation of PPTP that was in
+pfSense software; Any device that utilizes PPTP is no longer secure.</p>
+<p>PPTP relies upon MS-CHAPv2 which has been completely compromised. Intercepted
+traffic can be decrypted by a third party 100% of the time, so consider any
+traffic carried in PPTP unencrypted. Migrate to another VPN type as soon as
+possible. More information on the PPTP security compromise can be found at
+<a class="reference external" href="https://isc.sans.edu/diary/End+of+Days+for+MS-CHAPv2/13807">https://isc.sans.edu/diary/End+of+Days+for+MS-CHAPv2/13807</a> and
+<a class="reference external" href="https://www.cloudcracker.com/blog/2012/07/29/cracking-ms-chap-v2/">https://www.cloudcracker.com/blog/2012/07/29/cracking-ms-chap-v2/</a>.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+      <hr class="top">
+      <div class="rst-footer-button-next">
+        <div class="rst-footer-button-text">
+          Next<br />
+          <a href="common-deployments.html" title="Common deployments">Common deployments</a>
+        </div>
+        <a class="rst-footer-button-arrow" href="common-deployments.html" title="Common deployments" accesskey="n" rel="next"><span class="fa fa-angle-right"></span></a>
+      </div>
+      <div class="rst-footer-button-prev">
+        <a class="rst-footer-button-arrow" href="../multiwan/mlppp.html" title="Multi-Link PPPoE (MLPPP)" accesskey="p" rel="prev"><span class="fa fa-angle-left"></span></a>
+        <div class="rst-footer-button-text">
+          Previous<br />
+          <a href="../multiwan/mlppp.html" title="Multi-Link PPPoE (MLPPP)" accesskey="p" rel="prev">Multi-Link PPPoE (MLPPP)</a>
+        </div>
+      </div>
+    </div>
+  <div id="page-rating">
+    Was this page helpful?
+    <fieldset class="rating">
+        <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Excellent documentation"></label>
+        <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Good documentation"></label>
+        <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="OK documentation"></label>
+        <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Poor documentation"></label>
+        <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Unusable documentation"></label>
+    </fieldset>
+  </div>
+  <div class="admonition feedback">
+    <p class="first admonition-title">Documentation Feedback</p>
+    <p>
+        For assistance in solving software problems, please post your question on the <a href="https://forum.netgate.com">Netgate Forum</a>.
+        If you see anything that's wrong or missing with the documentation, please suggest an edit by using the feedback
+        button in the upper right corner so it can be improved.
+    </p>
+  </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; 2026 Electric Sheep Fencing LLC and Rubicon Communications LLC. All Rights Reserved.
+        <br/>
+        <a href='#' class='iubenda-cs-preferences-link'>  <img style='width: 2rem' src="data:image/svg+xml;charset=UTF-8,%3csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 30 14' style='enable-background:new 0 0 30 14;' xml:space='preserve'%3e%3cstyle type='text/css'%3e .st0%7bfill-rule:evenodd;clip-rule:evenodd;fill:%23FFFFFF;%7d .st1%7bfill-rule:evenodd;clip-rule:evenodd;fill:%230066FF;%7d .st2%7bfill:%23FFFFFF;%7d .st3%7bfill:%230066FF;%7d %3c/style%3e%3cg%3e%3cg id='final---dec.11-2020_1_'%3e%3cg id='_x30_208-our-toggle_2_' transform='translate(-1275.000000, -200.000000)'%3e%3cg id='Final-Copy-2_2_' transform='translate(1275.000000, 200.000000)'%3e%3cpath class='st0' d='M7.4,12.8h6.8l3.1-11.6H7.4C4.2,1.2,1.6,3.8,1.6,7S4.2,12.8,7.4,12.8z'/%3e%3c/g%3e%3c/g%3e%3c/g%3e%3cg id='final---dec.11-2020'%3e%3cg id='_x30_208-our-toggle' transform='translate(-1275.000000, -200.000000)'%3e%3cg id='Final-Copy-2' transform='translate(1275.000000, 200.000000)'%3e%3cpath class='st1' d='M22.6,0H7.4c-3.9,0-7,3.1-7,7s3.1,7,7,7h15.2c3.9,0,7-3.1,7-7S26.4,0,22.6,0z M1.6,7c0-3.2,2.6-5.8,5.8-5.8 h9.9l-3.1,11.6H7.4C4.2,12.8,1.6,10.2,1.6,7z'/%3e%3cpath id='x' class='st2' d='M24.6,4c0.2,0.2,0.2,0.6,0,0.8l0,0L22.5,7l2.2,2.2c0.2,0.2,0.2,0.6,0,0.8c-0.2,0.2-0.6,0.2-0.8,0 l0,0l-2.2-2.2L19.5,10c-0.2,0.2-0.6,0.2-0.8,0c-0.2-0.2-0.2-0.6,0-0.8l0,0L20.8,7l-2.2-2.2c-0.2-0.2-0.2-0.6,0-0.8 c0.2-0.2,0.6-0.2,0.8,0l0,0l2.2,2.2L23.8,4C24,3.8,24.4,3.8,24.6,4z'/%3e%3cpath id='y' class='st3' d='M12.7,4.1c0.2,0.2,0.3,0.6,0.1,0.8l0,0L8.6,9.8C8.5,9.9,8.4,10,8.3,10c-0.2,0.1-0.5,0.1-0.7-0.1l0,0 L5.4,7.7c-0.2-0.2-0.2-0.6,0-0.8c0.2-0.2,0.6-0.2,0.8,0l0,0L8,8.6l3.8-4.5C12,3.9,12.4,3.9,12.7,4.1z'/%3e%3c/g%3e%3c/g%3e%3c/g%3e%3c/g%3e%3c/svg%3e" alt="California Consumer Privacy Act (CCPA) Opt-Out Icon"/>Your Privacy Choices</a> |
+        <a href="https://www.iubenda.com/privacy-policy/39208731">Privacy Policy</a> | <a href=
+        "https://www.iubenda.com/privacy-policy/39208731/cookie-policy">Cookie Policy</a> | <a href='#' class='iubenda-cs-uspr-link'>Notice at Collection</a> | <a href="https://www.netgate.com/company/legal/">Legal</a><p>This page was last updated on May 01 2023.</p>
+    </p>
+  </div>
+
+  
+    <!-- Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. -->
+   
+
+  <div class="flex-grid-half">
+    <div class="col">
+        <ul class="list-icons">
+            <h5>Other Resources</h5>
+            
+            <li><i class="fa fa-caret-right"></i> <a href="https://www.netgate.com/tnsr-vs-pfsense-software" target="_blank">Platforms Overview</a></li>
+            
+            <li><i class="fa fa-caret-right"></i> <a href="https://www.tnsr.com" target="_blank">TNSR Solutions</a></li>
+            
+            <li><i class="fa fa-caret-right"></i> <a href="https://www.netgate.com/pfsense-plus-software" target="_blank">pfSense Solutions</a></li>
+            
+            <li><i class="fa fa-caret-right"></i> <a href="https://www.netgate.com/appliances" target="_blank">Appliances</a></li>
+            
+            <li><i class="fa fa-caret-right"></i> <a href="https://www.netgate.com/partner-locator" target="_blank">Find a Partner</a></li>
+            
+            <li><i class="fa fa-caret-right"></i> <a href="https://www.netgate.com/support" target="_blank">Support Plans</a></li>
+            
+            <li><i class="fa fa-caret-right"></i> <a href="https://www.netgate.com/training" target="_blank">Training</a></li>
+            
+            <li><i class="fa fa-caret-right"></i> <a href="https://www.netgate.com/our-services/professional-services" target="_blank">Professional Services</a></li>
+            
+            <li><i class="fa fa-caret-right"></i> <a href="https://www.netgate.com/blog" target="_blank">Blog</a></li>
+            
+            <li><i class="fa fa-caret-right"></i> <a href="https://www.netgate.com/resources" target="_blank">Resource Library</a></li>
+            
+            <li><i class="fa fa-caret-right"></i> <a href="https://www.netgate.com/security" target="_blank"> Security Information</a></li>
+            
+            <li><i class="fa fa-caret-right"></i> <a href="https://www.netgate.com/about-us" target="_blank">About Us</a></li>
+            
+            <li><i class="fa fa-caret-right"></i> <a href="https://www.netgate.com/careers" target="_blank">Careers</a></li>
+            
+            <li><i class="fa fa-caret-right"></i> <a href="https://www.netgate.com/contact-us" target="_blank">Contact Us</a></li>
+            
+        </ul>
+    </div>
+    <div class="col">
+            <ul class="social-icons">
+                <li><a href="https://www.twitter.com/NetgateUSA" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.youtube.com/c/netgateofficial" target="_blank" title="Youtube"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="https://www.reddit.com/r/netgate" target="_blank" title="Reddit"><i class="fa fa-reddit"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/netgate" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://www.netgate.com/blog/" target="_blank" title="Blog"><i class="fa fa-rss"></i></a></li>
+            </ul>
+
+            <h5>Our Mission</h5>
+            <p>We provide leading-edge network security at a fair price - regardless of organizational size or network sophistication. We believe that an open-source security model offers disruptive pricing along with the agility required to quickly address emerging threats.</p>
+
+            <h5>Subscribe to our Newsletter</h5>
+            <p>Product information, software announcements, and special offers. See our <a style="text-decoration: underline;" href="https://www.netgate.com/resources/newsletters/">newsletter archive</a> for past announcements.</p>
+            <!--[if lte IE 8]>
+            <script charset="utf-8" type="text/javascript" async defer src="https://js.hsforms.net/forms/v2-legacy.js" onload="load_newsletter();"></script>
+            <![endif]-->
+            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+            <script>
+               function callIubInstruction() {
+                _iub.cons_instructions.push(["load",{
+                  submitElement: document.getElementsByClassName("hs-button")[0],
+                  form: {
+                    selector: document.getElementById("hsForm_8804b380-ea07-48c7-a9d9-4034e24980a4"),
+                    map: {
+                      subject: {
+                        first_name: "firstname",
+                        last_name: "lastname",
+                        email: "email"
+                      },
+                      preferences: {
+                        marketing_subscription: "LEGAL_CONSENT.subscription_type_4401193",
+                        process_data: "LEGAL_CONSENT.processing",
+                      }
+                    }
+                  },
+                  consent: {
+                    legal_notices: [
+                      {
+                        identifier: 'privacy_policy',
+                      },
+                      {
+                        identifier: 'cookie_policy',
+                      }
+                    ],
+                  }
+                }]);
+              };
+              hbspt.forms.create({
+                region: "na1",
+                portalId: "1826203",
+                formId: "8804b380-ea07-48c7-a9d9-4034e24980a4",
+                onFormReady: callIubInstruction,
+                onFormSubmitted: function(){_iub.cons.sendFromLocalStorage()},
+              });
+            </script>
+            <script>
+              (function () {
+                function hide() {
+                  document.querySelectorAll('.iubenda-cs-preferences-link.iubenda-tp-btn')
+                    .forEach(function (el) {
+                      el.style.setProperty('display', 'none', 'important');
+                    });
+                }
+                hide();
+                new MutationObserver(hide).observe(document.body, { childList: true, subtree: true });
+              })();
+            </script>
+    </div>
+</div>
+
+</footer>
+
+        </div>
+      </div>
+    </section>
+  </div>
+    <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="Versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      <span class="fa fa-book"> Additional Resources</span>
+      v: latest
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      <dl>
+        <dt>Languages</dt>
+        <dd><a href="/pfsense/en/latest/">en</a></dd>
+      </dl>
+      <dl>
+        <dt>Versions</dt>
+        <dd><a href="/pfsense/en/latest/">latest</a></dd>
+      </dl>
+      <hr />
+      <dl>
+        <dt>Software Documentation</dt>
+        
+          <dd><a href="/pfsense/en/latest">pfSense</a></dd>
+        
+          <dd><a href="/tnsr/en/latest">TNSR</a></dd>
+        
+      </dl>
+      <dl>
+        <dt>Product Manuals</dt>
+          <dd>
+            <div class="select-style">
+              <select name="pfsense-products" onchange="location = this.value;">
+                <option value="" disabled selected>pfSense</option>
+              
+                <option  value="/pfsense/en/latest/solutions/">All Manuals</option>
+              
+                <option  value="/pfsense/en/latest/solutions/aws-vpn-appliance">Amazon AWS</option>
+              
+                <option  value="/pfsense/en/latest/solutions/azure-appliance">Microsoft Azure</option>
+              
+                <option  value="/pfsense/en/latest/solutions/sg-1100">Netgate 1100</option>
+              
+                <option  value="/pfsense/en/latest/solutions/netgate-2100">Netgate 2100</option>
+              
+                <option  value="/pfsense/en/latest/solutions/netgate-4100">Netgate 4100</option>
+              
+                <option  value="/pfsense/en/latest/solutions/netgate-4200">Netgate 4200</option>
+              
+                <option  value="/pfsense/en/latest/solutions/netgate-6100">Netgate 6100</option>
+              
+                <option  value="/pfsense/en/latest/solutions/netgate-8200">Netgate 8200</option>
+              
+                <option  value="/pfsense/en/latest/solutions/netgate-8300">Netgate 8300</option>
+              
+                <option  value="/pfsense/en/latest/solutions/xg-1537">Netgate 1537</option>
+              
+                <option  value="/pfsense/en/latest/solutions/xg-1541">Netgate 1541</option>
+              
+              </select>
+            </div>
+          </dd>
+          <dd>
+            <div class="select-style">
+              <select name="tnsr-products" onchange="location = this.value;">
+                  <option value="" disabled selected>TNSR</option>
+                
+                  <option  value="/tnsr/en/latest/platforms">All Platforms</option>
+                
+                  <option  value="/tnsr/en/latest/platforms/aws">Amazon AWS</option>
+                
+                  <option  value="/tnsr/en/latest/platforms/azure">Microsoft Azure</option>
+                
+                  <option  value="/tnsr/en/latest/platforms/netgate-6100">Netgate 6100 Max</option>
+                
+                  <option  value="/tnsr/en/latest/platforms/netgate-8200">Netgate 8200</option>
+                
+                  <option  value="/tnsr/en/latest/platforms/netgate-8300">Netgate 8300</option>
+                
+                  <option  value="/tnsr/en/latest/platforms/xg-1537-1u">Netgate 1537 1U</option>
+                
+                  <option  value="/tnsr/en/latest/platforms/xg-1541-1u">Netgate 1541 1U</option>
+                
+                </select>
+            </dd>
+          </div>
+      </dl>
+    </div>
+  </div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+    <!-- Theme Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-42478704-7', 'auto');
+    ga('send', 'pageview');
+    </script> 
+
+</body>
+</html>

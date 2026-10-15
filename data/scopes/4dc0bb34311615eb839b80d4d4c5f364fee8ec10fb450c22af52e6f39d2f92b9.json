@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-scope",
+  "cachedAt": "2026-10-15T21:23:31Z",
+  "scopeId": "4",
+  "fingerprint": "4dc0bb34311615eb839b80d4d4c5f364fee8ec10fb450c22af52e6f39d2f92b9",
+  "originRunId": "qwen3-38804802602",
+  "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "4"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "scope-admitted",
+    "publisher": null,
+    "host": null
+  },
+  "corpus": {
+    "sources": {
+      "4-source-1": {
+        "type": "guidance",
+        "title": "Data Management Checklist - Dynamics 365 Implementation Guide",
+        "publisher": "Microsoft Corporation",
+        "url": "https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/data-management-check-list",
+        "language": "en",
+        "jurisdiction": "Global",
+        "applicability": "Provides implementation guidance for data governance, storage architecture, configuration data management, and data integration processes in enterprise systems",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "4-source-1",
+        "byteDigest": "sha256:bd98d18c00e8a41815bd9388c2d5ce8f4fdc3beb823eb14d9cef5256568b0356",
+        "textDigest": "sha256:6dc4f9e87f399f4e3a07818dd6d35de1b09e91a798207e13282d1943ef600ef0",
+        "finalUrl": "https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/data-management-check-list",
+        "retrievedAt": "2026-10-15T21:18:33Z",
+        "contentType": "text/html",
+        "snapshotPath": "source-bd98d18c00e8a41815bd9388c2d5ce8f4fdc3beb823eb14d9cef5256568b0356.bin",
+        "textPath": "source-6dc4f9e87f399f4e3a07818dd6d35de1b09e91a798207e13282d1943ef600ef0.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "cacheReuse": {
+          "originRunId": "qwen3-38804802602",
+          "cacheCommit": null,
+          "reusedAt": "2026-10-15T21:22:19Z",
+          "webRecheckedThisRun": true
+        },
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Data governance and architecture task list",
+            "text": "Define a data architecture that shows a holistic view of your data repositories, their relationships, and ownership. Identify the data owners, systems, and conceptual flow between systems during your design and analysis phases."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "4-source-2": {
+        "type": "technical-doc",
+        "title": "Implement CDMC Controls in BigQuery",
+        "publisher": "Google Cloud",
+        "url": "https://docs.cloud.google.com/docs/security/implement-cdmc-framework",
+        "language": "en",
+        "jurisdiction": "Global",
+        "applicability": "Detailed implementation guide for Cloud Data Management Capabilities key controls addressing data classification, ownership, retention, encryption, and lifecycle management in cloud storage environments",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "4-source-2",
+        "byteDigest": "sha256:ae0647fc9ec52792c5c7e73c310ff7b2a8251350d1a575aa86cc65e4cdf8e17a",
+        "textDigest": "sha256:6a0b3aa8d45b5bdc1576bad6f3c564a6bc6b3d4a225aa846b81609b9de1c8c66",
+        "finalUrl": "https://docs.cloud.google.com/docs/security/implement-cdmc-framework",
+        "retrievedAt": "2026-10-15T21:22:20Z",
+        "contentType": "text/html; charset=utf-8",
+        "snapshotPath": "source-ae0647fc9ec52792c5c7e73c310ff7b2a8251350d1a575aa86cc65e4cdf8e17a.bin",
+        "textPath": "source-6a0b3aa8d45b5bdc1576bad6f3c564a6bc6b3d4a225aa846b81609b9de1c8c66.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "CDMC Key Control 2",
+            "text": "The Ownership field in a data catalog must be populated for all sensitive data or otherwise reported to a defined workflow."
+          },
+          {
+            "id": "p2",
+            "locator": "CDMC Key Control 11",
+            "text": "Data retention, archiving, and purging must be managed according to a defined retention schedule."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "4-source-3": {
+        "type": "guidance",
+        "title": "SUS04-BP01 Implement a data classification policy",
+        "publisher": "Amazon Web Services",
+        "url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/sus_sus_data_a2.html",
+        "language": "en",
+        "jurisdiction": "Global",
+        "applicability": "AWS Well-Architected Framework guidance on implementing data classification policies including storage handling, sensitivity levels, and retention requirements for cloud environments",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "4-source-3",
+        "byteDigest": "sha256:6172cb3fcc6ccb69f31e83a7b67721b898cb01c1be31f95bf96f0c3a639984b8",
+        "textDigest": "sha256:d3aba3364bb214d1ed2b531dbade2c5aa88abc99136adb6f7bef5e21f87c9ee8",
+        "finalUrl": "https://docs.aws.amazon.com/wellarchitected/latest/framework/sus_sus_data_a2.html",
+        "retrievedAt": "2026-10-15T21:22:20Z",
+        "contentType": "text/html",
+        "snapshotPath": "source-6172cb3fcc6ccb69f31e83a7b67721b898cb01c1be31f95bf96f0c3a639984b8.bin",
+        "textPath": "source-d3aba3364bb214d1ed2b531dbade2c5aa88abc99136adb6f7bef5e21f87c9ee8.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Best practice statement",
+            "text": "Classify data to understand its criticality to business outcomes and choose the right energy-efficient storage tier to store the data."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      }
+    },
+    "concerns": [
+      {
+        "id": "4-concern-1",
+        "sfsId": "4",
+        "description": "Data ownership must be established and documented for all data assets",
+        "sourceRefs": [
+          {
+            "sourceId": "4-source-1",
+            "passageId": "p1"
+          },
+          {
+            "sourceId": "4-source-2",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "4-concern-2",
+        "sfsId": "4",
+        "description": "Data must be classified according to sensitivity and business criticality levels",
+        "sourceRefs": [
+          {
+            "sourceId": "4-source-2",
+            "passageId": "p1"
+          },
+          {
+            "sourceId": "4-source-3",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "4-concern-3",
+        "sfsId": "4",
+        "description": "Data retention schedules must be defined and managed for all data categories",
+        "sourceRefs": [
+          {
+            "sourceId": "4-source-2",
+            "passageId": "p2"
+          }
+        ]
+      }
+    ],
+    "queries": [
+      {
+        "scope": "4",
+        "toolId": "searxng_web_search",
+        "input": {
+          "query": "Data Storage and Handling official implementation configuration documentation",
+          "max_results": 5,
+          "safesearch": 1,
+          "time_range": ""
+        },
+        "outputDigest": "sha256:d645691b837063b70f9abdfde833934743ee16081fef200e73abeb6e84d91133",
+        "callId": "sources-4-2-discovery"
+      },
+      {
+        "scope": "4",
+        "toolId": "websearch_web_search",
+        "input": {
+          "query": "data classification data ownership storage implementation official documentation",
+          "max_results": 3
+        },
+        "outputDigest": "sha256:76ce9e83189d605a2c5d052c28051d32be89e3429747eb866cd2290bd2c370fd",
+        "callId": "sources-4-2-discovery"
+      }
+    ],
+    "limitations": [
+      {
+        "scope": "4",
+        "description": "Unresponsive engines during searxng_web_search: brave (too many requests), duckduckgo (CAPTCHA)"
+      },
+      {
+        "scope": "4",
+        "description": "Dell Services Storage Implementation Datasheet contains implementation procedures but lacks sufficient detail for data classification/retention policy requirements"
+      },
+      {
+        "scope": "4",
+        "description": "No Greek-specific technical implementation documentation found - topic scope focuses on vendor-agnostic technical implementation standards rather than national adaptations"
+      },
+      {
+        "scope": "4",
+        "description": "Excluded optional discovery candidate: Source URL was not observed in search results: https://learn.microsoft.com/en-us/purview/retention"
+      },
+      {
+        "scope": "4",
+        "description": "Excluded optional discovery candidate: Source URL was not observed in search results: https://csrc.nist.gov/publications/detail/sp/800-60/rev-2/final"
+      },
+      {
+        "scope": "4",
+        "description": "Some documents came from prior fetched snapshots with original retrieval dates; their current web contents were not rechecked in this run."
+      }
+    ],
+    "admissionVersion": 2,
+    "observedResultUrls": [
+      "https://docs.aws.amazon.com/wellarchitected/latest/framework/sus_sus_data_a2.html",
+      "https://docs.cloud.google.com/docs/security/implement-cdmc-framework",
+      "https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/data-management-check-list"
+    ]
+  },
+  "files": {
+    "snapshots/source-bd98d18c00e8a41815bd9388c2d5ce8f4fdc3beb823eb14d9cef5256568b0356.bin": "sha256:bd98d18c00e8a41815bd9388c2d5ce8f4fdc3beb823eb14d9cef5256568b0356",
+    "snapshots/source-6dc4f9e87f399f4e3a07818dd6d35de1b09e91a798207e13282d1943ef600ef0.txt": "sha256:6dc4f9e87f399f4e3a07818dd6d35de1b09e91a798207e13282d1943ef600ef0",
+    "snapshots/source-ae0647fc9ec52792c5c7e73c310ff7b2a8251350d1a575aa86cc65e4cdf8e17a.bin": "sha256:ae0647fc9ec52792c5c7e73c310ff7b2a8251350d1a575aa86cc65e4cdf8e17a",
+    "snapshots/source-6a0b3aa8d45b5bdc1576bad6f3c564a6bc6b3d4a225aa846b81609b9de1c8c66.txt": "sha256:6a0b3aa8d45b5bdc1576bad6f3c564a6bc6b3d4a225aa846b81609b9de1c8c66",
+    "snapshots/source-6172cb3fcc6ccb69f31e83a7b67721b898cb01c1be31f95bf96f0c3a639984b8.bin": "sha256:6172cb3fcc6ccb69f31e83a7b67721b898cb01c1be31f95bf96f0c3a639984b8",
+    "snapshots/source-d3aba3364bb214d1ed2b531dbade2c5aa88abc99136adb6f7bef5e21f87c9ee8.txt": "sha256:d3aba3364bb214d1ed2b531dbade2c5aa88abc99136adb6f7bef5e21f87c9ee8"
+  }
+}

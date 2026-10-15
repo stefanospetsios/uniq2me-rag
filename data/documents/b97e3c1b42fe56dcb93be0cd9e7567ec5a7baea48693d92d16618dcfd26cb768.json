@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T22:14:28Z",
+  "originRunId": "qwen3-38804802602",
+  "source": {
+    "id": "D-source-1",
+    "type": "technical-doc",
+    "title": "NIST Cybersecurity Framework: Policy Template Guide",
+    "publisher": "Center for Internet Security (CIS)",
+    "url": "https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/files/uploads/2024/08/cis-ms-isac-nist-cybersecurity-framework-policy-template-guide-2024.pdf",
+    "language": "en",
+    "jurisdiction": "International adoption",
+    "applicability": "Organizations implementing NIST CSF governance; defines documented roles/responsibilities through GV.RR-02 (role assignment), GV.SC-02 (supplier oversight), PR.AT-01/02 (workforce awareness), with concrete policy implementation templates",
+    "publicationDate": "2024-08",
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:efa168a67f450cd78a36c60f6f1df0f357bb94250fec565cf3437c42fe762ebf",
+    "textDigest": "sha256:aecdd4c4c49363b7876368deb0f925cca34018614ce14c88c0079c0606b1d515",
+    "finalUrl": "https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/files/uploads/2024/08/cis-ms-isac-nist-cybersecurity-framework-policy-template-guide-2024.pdf",
+    "retrievedAt": "2026-10-15T22:14:28Z",
+    "contentType": "application/pdf",
+    "snapshotPath": "source-efa168a67f450cd78a36c60f6f1df0f357bb94250fec565cf3437c42fe762ebf.bin",
+    "textPath": "source-aecdd4c4c49363b7876368deb0f925cca34018614ce14c88c0079c0606b1d515.txt"
+  },
+  "files": {
+    "snapshots/source-efa168a67f450cd78a36c60f6f1df0f357bb94250fec565cf3437c42fe762ebf.bin": "sha256:efa168a67f450cd78a36c60f6f1df0f357bb94250fec565cf3437c42fe762ebf",
+    "snapshots/source-aecdd4c4c49363b7876368deb0f925cca34018614ce14c88c0079c0606b1d515.txt": "sha256:aecdd4c4c49363b7876368deb0f925cca34018614ce14c88c0079c0606b1d515"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/files/uploads/2024/08/cis-ms-isac-nist-cybersecurity-framework-policy-template-guide-2024.pdf",
+  "language": "en",
+  "retrievedAt": "2026-10-15T22:14:28Z",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T22:14:28Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": "NIST Cybersecurity Framework\n\n\n\nPolicy Template\nGuide\n\fContents\nIntroduction                                                                    1\n\nNIST Function: Govern                                                           2\nGovern: Organizational Context (GV.OC) 2\nGovern: Risk Management Strategy (GV.RM) 3\nGovern: Roles, Responsibilities, and Authorities (GV.RR) 4\nGovern: Policy (GV.PO) 5\nGovern: Oversight (GV.OV) 5\nGovern: Cybersecurity Supply Chain Risk Management (GV.SC)   6\n\nNIST Function: Identify                                                         8\nIdentify: Asset Management (ID.AM) 8\nIdentify: Risk Assessment (ID.RA) 9\nIdentify: Improvement (ID.IM) 11\n\nNIST Function: Protect                                                         13\nProtect: Identity Management and Access ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "D"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Center for Internet Security (CIS)",
+    "host": "www.cisecurity.org"
+  }
+}

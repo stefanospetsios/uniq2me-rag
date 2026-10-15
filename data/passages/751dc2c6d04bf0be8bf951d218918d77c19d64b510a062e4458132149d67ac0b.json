@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "751dc2c6d04bf0be8bf951d218918d77c19d64b510a062e4458132149d67ac0b",
+  "cachedAt": "2026-10-15T21:08:42Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf",
+  "finalUrl": "https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf",
+  "language": "en",
+  "publisher": "ENISA (European Union Agency for Cybersecurity)",
+  "title": "TECHNICAL IMPLEMENTATION GUIDANCE - ENISA",
+  "retrievedAt": "2026-10-15T21:04:56Z",
+  "byteDigest": "sha256:f03186edb047ece269ab9deeb3f0ec6172582ccc577617f0eb79e9bf96a7021b",
+  "textDigest": "sha256:effbd5b01b9fc323fad9ab61fca97caa63acc7891c62076f42f8f6537096d36d",
+  "sourceId": "1-source-1",
+  "passageId": "p1",
+  "locator": "1.1.1(k)",
+  "quotation": "Documented policy on the security of network and information systems which contains the elements required by points 1.1.1 (a) to 1.1.1 (k) of the Annex to the regulation.",
+  "originalText": "for managing policy exceptions.\n\nEXAMPLES OF EVIDENCE\n\n         •   Documented policy on the security of network and information systems which contains the elements\n             required by points 1.1.1 (a) to 1.1.1 (k) of the Annex to the regulation.\n         •   The date of the formal approval by the management bodies of the relevant entities, indicated in the policy\n             on the security of network and",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:08:42Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "ENISA (European Union Agency for Cybersecurity)",
+    "host": "www.enisa.europa.eu"
+  }
+}

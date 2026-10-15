@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T21:24:42Z",
+  "originRunId": "qwen3-38804802602",
+  "source": {
+    "id": "5-source-3",
+    "type": "technical-doc",
+    "title": "Network and Environment Capabilities",
+    "publisher": "National Security Agency",
+    "url": "https://www.nsa.gov/Cybersecurity/ZIG/Capabilities/Network-and-Environment/",
+    "language": "en",
+    "jurisdiction": "US",
+    "applicability": "US Department of Defense Zero Trust Framework implementation",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "article/heading/page",
+        "text": "Tailor the control access policies to address each driver's specifics, whether for regulatory compliance or data security requirements."
+      },
+      {
+        "id": "p2",
+        "locator": "article/heading/page",
+        "text": "Role-Based Access Control (RBAC), where permissions are assigned based on the role of the User/PE/NPE. Attribute-Based Access Control (ABAC), where a combination of several factors related to User/PE/NPE, data, and the environment are leveraged to restrict or allow network access based on a set of predefined rules and conditions."
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:458c74a40d598b2fc942b6a20c277c47f698962ae67f884ae1dcd45f222f9e05",
+    "textDigest": "sha256:afe10b60f1bdc96c72326874b3aae37a4653d17a9be4e917f6e6dd070c8b62bd",
+    "finalUrl": "https://www.nsa.gov/Cybersecurity/ZIG/Capabilities/Network-and-Environment/",
+    "retrievedAt": "2026-10-15T21:24:42Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-458c74a40d598b2fc942b6a20c277c47f698962ae67f884ae1dcd45f222f9e05.bin",
+    "textPath": "source-afe10b60f1bdc96c72326874b3aae37a4653d17a9be4e917f6e6dd070c8b62bd.txt"
+  },
+  "files": {
+    "snapshots/source-458c74a40d598b2fc942b6a20c277c47f698962ae67f884ae1dcd45f222f9e05.bin": "sha256:458c74a40d598b2fc942b6a20c277c47f698962ae67f884ae1dcd45f222f9e05",
+    "snapshots/source-afe10b60f1bdc96c72326874b3aae37a4653d17a9be4e917f6e6dd070c8b62bd.txt": "sha256:afe10b60f1bdc96c72326874b3aae37a4653d17a9be4e917f6e6dd070c8b62bd"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.nsa.gov/Cybersecurity/ZIG/Capabilities/Network-and-Environment/",
+  "language": "en",
+  "retrievedAt": "2026-10-15T21:24:42Z",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:31:52Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": "\n\n\n\n\n \n\n\n\n\n\n\n\n\tNetwork and Environment Capabilities\n\n\n\n\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n\n\t\n\n\t\n\n\n\n\n\n\n\n\n        \n        \n        \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n\n        \n\n            An official website of the United States government \n        \nHere's how you know \n        \n\n                \n\n                \n\n            \n\n\n\n        \n\n\n\n        \n\n            \n\n                \n\n                \n Official websites use .gov \n\n\nA \n.gov\n website belongs to an official government organization in the United States.\n\n\n\n            \n\n\n\n            \n\n                \n\n                \nSecure .gov websites use HTTPS\n\n\n A \nlock (\nlock \n \n)\n or \n https://\n means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.\n\n\n\n\n\n            \n\n\n\n\n        \n\n\n\n    \n\n\n\n\n\n\n\n\n\n\n\n",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "National Security Agency",
+    "host": "www.nsa.gov"
+  }
+}

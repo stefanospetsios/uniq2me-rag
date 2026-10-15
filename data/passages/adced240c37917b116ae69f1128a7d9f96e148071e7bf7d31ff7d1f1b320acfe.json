@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "adced240c37917b116ae69f1128a7d9f96e148071e7bf7d31ff7d1f1b320acfe",
+  "cachedAt": "2026-10-15T21:17:29Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://www.rfc-editor.org/info/rfc6749/",
+  "finalUrl": "https://www.rfc-editor.org/info/rfc6749/",
+  "language": "en",
+  "publisher": "RFC Editor (IETF)",
+  "title": "RFC 6749: The OAuth 2.0 Authorization Framework",
+  "retrievedAt": "2026-10-15T21:13:29Z",
+  "byteDigest": "sha256:3c305d8ffb25fa2146fe344a8342570922e71324e71194093a91ec625ea79b0b",
+  "textDigest": "sha256:4cc79117136d3fc701e0ee3bc9fa7f7fafca65ec3b63f801a931dd844dd309a8",
+  "sourceId": "3-source-1",
+  "passageId": "p1",
+  "locator": "Abstract",
+  "quotation": "obtain limited access to an HTTP service",
+  "originalText": "obtain limited access to an HTTP service",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:17:29Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "3"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "RFC Editor (IETF)",
+    "host": "www.rfc-editor.org"
+  }
+}

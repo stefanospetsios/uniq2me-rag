@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T21:18:32Z",
+  "originRunId": "qwen3-38804802602",
+  "source": {
+    "id": "4-source-1",
+    "type": "technical-doc",
+    "title": "Services Storage Implementation Datasheet",
+    "publisher": "Dell Technologies",
+    "url": "https://i.dell.com/sites/doccontent/shared-content/data-sheets/en/Documents/Services-Storage-Implementation-Datasheet-English.pdf",
+    "language": "en",
+    "jurisdiction": "Global",
+    "applicability": "Covers on-site installation of storage systems, configuration procedures, and implementation workflows for enterprise storage solutions including PowerVault",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:ff0bc5c6dd1c4e90a08b805e8164dbb169c9623983f652953c39f18da81ae383",
+    "textDigest": "sha256:00a929162e17fdf69014a2a6bb994c443d67cce5d617110b4a6651da5f449e82",
+    "finalUrl": "https://i.dell.com/sites/doccontent/shared-content/data-sheets/en/Documents/Services-Storage-Implementation-Datasheet-English.pdf",
+    "retrievedAt": "2026-10-15T21:18:32Z",
+    "contentType": "application/pdf",
+    "snapshotPath": "source-ff0bc5c6dd1c4e90a08b805e8164dbb169c9623983f652953c39f18da81ae383.bin",
+    "textPath": "source-00a929162e17fdf69014a2a6bb994c443d67cce5d617110b4a6651da5f449e82.txt"
+  },
+  "files": {
+    "snapshots/source-ff0bc5c6dd1c4e90a08b805e8164dbb169c9623983f652953c39f18da81ae383.bin": "sha256:ff0bc5c6dd1c4e90a08b805e8164dbb169c9623983f652953c39f18da81ae383",
+    "snapshots/source-00a929162e17fdf69014a2a6bb994c443d67cce5d617110b4a6651da5f449e82.txt": "sha256:00a929162e17fdf69014a2a6bb994c443d67cce5d617110b4a6651da5f449e82"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://i.dell.com/sites/doccontent/shared-content/data-sheets/en/Documents/Services-Storage-Implementation-Datasheet-English.pdf",
+  "language": "en",
+  "retrievedAt": "2026-10-15T21:18:32Z",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:18:32Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": "                                                                                                                                      Serv\n\n\n\n                                                                                                                                      Serv\n\n\n                                                          Storage Implementation\n\n\n\nLiberate your IT staff from the rigors\nof implementation\n\nGet your new storage into production faster.                      Let us deal with the complexity\nYou have spent valuable resources acquiring the right             We can provide the expert knowledge and resources to get\ntechnology for your organization. Implementing new                your new storage products up and running quickly. Dell\nstorage products quickly without ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "4"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Dell Technologies",
+    "host": "i.dell.com"
+  }
+}

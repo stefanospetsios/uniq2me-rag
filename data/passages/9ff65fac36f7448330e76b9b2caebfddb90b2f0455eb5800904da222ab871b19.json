@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "9ff65fac36f7448330e76b9b2caebfddb90b2f0455eb5800904da222ab871b19",
+  "cachedAt": "2026-10-15T22:04:59Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://www.productinfo.schneider-electric.com/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/Cyber_Rec_IFE_Disposal_0000940268",
+  "finalUrl": "https://productinfo.se.com/pactcybersecurity/doca0122-cybersecurity-guide/English/BM_novA_Cybersecurity%20Guide_53457272_T001003726.xml/$/Cyber_Rec_IFE_Disposal_0000940268",
+  "language": "en",
+  "publisher": "Schneider Electric",
+  "title": "Cybersecurity Recommendations for Disposal or Decommissioning",
+  "retrievedAt": "2026-10-15T22:02:02Z",
+  "byteDigest": "sha256:7d960df68e47281c0b71f150e9e446905e2d55d280ff5109fc359df7fb9c886d",
+  "textDigest": "sha256:3ef1edb8c058fd50fda3fe33fc2d652e426168a94cdda09cf285c05c4f97fb97",
+  "sourceId": "B-source-5",
+  "passageId": "p1",
+  "locator": "Cybersecurity Recommendations for Disposal",
+  "quotation": "It is required to perform a factory reset before disposing of the \nEIFE\n or \nIFE\n interface, or \nIFE\n server\n. For more information, refer to the relevant user guide for your\n            interface",
+  "originalText": "It is required to perform a factory reset before disposing of the \nEIFE\n or \nIFE\n interface, or \nIFE\n server\n. For more information, refer to the relevant user guide for your\n            interface",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T22:04:59Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "B"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Schneider Electric",
+    "host": "www.productinfo.schneider-electric.com"
+  }
+}

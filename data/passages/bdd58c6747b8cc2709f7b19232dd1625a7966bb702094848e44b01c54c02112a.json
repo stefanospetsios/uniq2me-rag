@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "bdd58c6747b8cc2709f7b19232dd1625a7966bb702094848e44b01c54c02112a",
+  "cachedAt": "2026-10-15T21:23:31Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://docs.cloud.google.com/docs/security/implement-cdmc-framework",
+  "finalUrl": "https://docs.cloud.google.com/docs/security/implement-cdmc-framework",
+  "language": "en",
+  "publisher": "Google Cloud",
+  "title": "Implement CDMC Controls in BigQuery",
+  "retrievedAt": "2026-10-15T21:22:20Z",
+  "byteDigest": "sha256:ae0647fc9ec52792c5c7e73c310ff7b2a8251350d1a575aa86cc65e4cdf8e17a",
+  "textDigest": "sha256:6a0b3aa8d45b5bdc1576bad6f3c564a6bc6b3d4a225aa846b81609b9de1c8c66",
+  "sourceId": "4-source-2",
+  "passageId": "p2",
+  "locator": "CDMC Key Control 11",
+  "quotation": "Data retention, archiving, and purging must be managed according to a defined retention schedule.",
+  "originalText": "11\n\n      \nThe data lifecycle is planned and managed\n\n      \nData retention, archiving, and purging must be managed according\nto a defined retention schedule.\n\n    \n\n    \n\n      \n12\n\n      \nData quality is managed\n\n      \nData quality measurement must be enabled for sensitive data with\nmetrics distributed when available.\n\n    \n\n    \n\n      \n13\n\n      \nCost management principles are established",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:23:31Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "4"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Google Cloud",
+    "host": "docs.cloud.google.com"
+  }
+}

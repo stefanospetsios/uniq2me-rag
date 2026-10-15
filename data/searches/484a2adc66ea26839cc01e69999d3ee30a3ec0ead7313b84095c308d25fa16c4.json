@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "484a2adc66ea26839cc01e69999d3ee30a3ec0ead7313b84095c308d25fa16c4",
+  "cachedAt": "2026-10-15T22:08:47Z",
+  "observedAt": "2026-10-15T22:08:47Z",
+  "originRunId": "qwen3-38804802602",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-D-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "D",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Roles Responsibilities Authorities Security Policy official implementation configuration documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792102040612,
+    "end": 1792102041443
+  },
+  "outputDigest": "sha256:f6f98a9e1f9958f1a8adee1765f7ac3e25443027a961d32b548620e53d58cedf",
+  "resultUrls": [
+    "https://27kay.com/blog/iso-27001-clause-5-3-roles/",
+    "https://advisera.com/iso27001/clause-5-3-organizational-roles-responsibilities-and-authorities/",
+    "https://hightable.io/iso-27001-annex-a-5-2-information-security-roles-and-responsibilities/",
+    "https://www.isms.online/iso-27001/requirements-2022/5-3-organisational-roles-responsibilities-authorities-2022/",
+    "https://www.konfirmity.com/blog/iso-27001-roles-and-responsibilities"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Roles Responsibilities Authorities Security Policy official implementation configuration documentation\",\n  \"results\": [\n    {\n      \"title\": \"ISO 27001 Roles And Responsibilities: Your Step-by-Step Guide (2026)\",\n      \"url\": \"https://www.konfirmity.com/blog/iso-27001-roles-and-responsibilities\",\n      \"content\": \"Implementing ISO 27001 Roles And Responsibilities is foundational for strong security, effective risk management and credibility with enterprise clients. By clearly defining who owns what, documenting responsibilities, providing training and periodically auditing compliance, organisations transform the standard from a document into an ...\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"ISO 27001 Clause 5.3 Roles & Responsibilities | ISMS.online\",\n      \"url\": \"https://www.isms.online/iso-27001/requirements-2022/5-3-organisational-roles-responsibilities-authorities-2022/\",\n      \"content\": \"15 Σεπ 2025 ... Clarity around organisational roles and their authorities isn't just regulatory fluff—it's the operational backbone for any serious Information ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"ISO 27001 Annex A 5.2 Roles and Responsibilities Explained\",\n      \"url\": \"https://hightable.io/iso-27001-annex-a-5-2-information-security-roles-and-responsibilities/\",\n      \"content\": \"πριν από 7 ημέρες ... Update the Board of Directors' Terms of Reference to include specific oversight of the Information Security Management System (ISMS). Document ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"ISO 27001 Clause 5.3 – Organizational roles, responsibilities and ...\",\n      \"url\": \"https://advisera.com/iso27001/clause-5-3-organizational-roles-responsibilities-and-authorities/\",\n      \"content\": \"Job descriptions · Coordination of the ISMS so that it is compliant with ISO 27001 – usually performed by a security manager (e.g., CISO) · ",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "D"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "27kay.com",
+      "advisera.com",
+      "hightable.io",
+      "www.isms.online",
+      "www.konfirmity.com"
+    ]
+  }
+}

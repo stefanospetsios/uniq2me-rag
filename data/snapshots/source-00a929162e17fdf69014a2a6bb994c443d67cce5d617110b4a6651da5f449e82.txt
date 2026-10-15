@@ -1,0 +1,111 @@
+                                                                                                                                      Serv
+
+
+
+                                                                                                                                      Serv
+
+
+                                                          Storage Implementation
+
+
+
+Liberate your IT staff from the rigors
+of implementation
+
+Get your new storage into production faster.                      Let us deal with the complexity
+You have spent valuable resources acquiring the right             We can provide the expert knowledge and resources to get
+technology for your organization. Implementing new                your new storage products up and running quickly. Dell
+storage products quickly without disrupting operations or         Certified Technicians use proven methodologies to minimize
+end users is key to begin realizing returns on your investment.   provisioning time.
+Unfortunately, taking the time to set up the systems yourself
+can be costly, time and resource intensive, and an inefficient    Because we do this so many times, we have developed best
+use of your IT staff’s time.                                      practices that we have integrated into our process. Our
+                                                                  method of execution has become second nature to our
+If you have one storage array connected to one server             technicians. We have the people, technology, and process
+and running one application, storage installation is simple       finely tuned to perform an implementation with exceptional
+and it makes sense to do it yourself. But when that single        efficiency.
+storage array is attached to multiple servers running multiple
+applications, complexity emerges. And if three or more arrays     Finally, when a project is complete, we can provide your IT staff
+are in the mix, a simple installation is transformed into a       with a product orientation to get you familiarized more quickly
+complex implementation.                                           with your new technology. We can focus on only the aspects
+                                                                  of the hardware and software that are pertinent to your specific
+                                                                  application. This saves you the time you would have spent
+                                                                  rummaging through all of the owner’s manuals to figure out
+                                                                  which section applies to your unique scenario.
+
+
+
+
+                             When the simple becomes complex, Dell has the answer.
+Methodically overcoming challenges concealed within the details                                                                                    Compellent Implementation
+We provide a wide range of standard storage implementation options to meet your needs, no                                                          Dell Services ensures your new
+matter how many locations you have throughout the world. Our standard implementation                                                               Dell Compellent storage system is
+services meet most organizations requirements but we can design a custom solution if needed.                                                       installed properly, configured per
+Whichever level of service you choose, you’ll get the comprehensive planning and careful                                                           the design specifications, and that
+                                                                                                                                                   your data is migrated safely from
+execution needed to fully provision your new Dell storage.
+                                                                                                                                                   your legacy storage system without
+                                                                                                                                                   disrupting operations or end-users.
+Project Management: – We provide you with a single point of contact who taps our deep                                                              No need for your IT staff to spend
+technical expertise as required for specific tasks as your storage deployment project moves                                                        time researching correct processes
+through the each phase of implementation.                                                                                                          and advanced configuration task
+                                                                                                                                                   sequences, or purchasing the
+Planning: We make sure we understand the technical requirements of your environment                                                                correct tools. We can reduce costs
+and the applications that will be running in the environment. We confirm whether or not this                                                       and relieve your IT department of
+implementation is part of a larger consolidation or virtualization project and how many servers                                                    the time consuming implementation
+will be attached. We validate how many arrays are needed to do the job. And what the back-                                                         tasks that otherwise divert valuable
+up and recovery strategy is. Once the target environment is acknowledged as stable, we then                                                        IT resources from business critical
+                                                                                                                                                   activities. We bring two unmatched
+produce a detailed action plan for completing the implementation as well as specific timing.
+                                                                                                                                                   values to every implementation:
+                                                                                                                                                   deep knowledge of our products
+Finally, we conduct a detailed readiness review which includes the scope of the services
+                                                                                                                                                   and broad experience deploying
+and the specific implementation steps as well as confirming that all new hardware has been                                                         them. We do 1000’s of
+received and is located in close proximity to the installation site.                                                                               deployments every year across the
+                                                                                                                                                   globe, in just about every type of
+Installation: We mount your storage products in a rack, and finish the cabling. We then                                                            customer environment. From this
+connect them to your network. We perform on-site installation of all PowerVault storage                                                            vast experience we have acquired
+systems, as well as Dell Compellent and Dell EqualLogic, DAS, and SAN solutions. We also                                                           best practices that are integrated
+install all PowerVault Fibre Channel and ISCSI storage hardware and software to create a robust                                                    into our processes. As a result
+storage network to meet the needs of your enterprise.                                                                                              we are very well aware of what
+                                                                                                                                                   undocumented activity must occur
+                                                                                                                                                   to avoid mistakes. So, in addition to
+Testing: We test the overall functionality and production readiness of the implemented
+                                                                                                                                                   doing it right the first time, we rarely
+hardware and software solution. Once all is deemed well, your new storage is fully provisioned
+                                                                                                                                                   encounter situations or issues for
+and online.
+                                                                                                                                                   which we are not prepared.
+
+Product Orientation: We make sure your staff is familiar with how your new storage arrays and
+applications are designed to operate in your environment.                                                                                          EqualLogic deployment
+                                                                                                                                                   This service is designed for those
+Optional Factory Rack & Stack: Direct from the factory, you can receive your storage                                                               who plan to integrate EqualLogic
+products fully racked & cabled. This configuration service provides a consistent, high                                                             storage into a complex environment
+quality and repeatable solution for delivering fully configured racks to your site, ready for                                                      where there are multiple
+implementation. Beginning with a mutually agreed design that is used as a blueprint, we                                                            applications or large storage arrays.
+can consolidate all hardware in the fulfillment center. Racks, servers, storage, switches and                                                      Even though EqualLogic storage is
+power are all merged along with third party components or customer consigned stock ready                                                           designed for simplified installation,
+for the building of the rack. Qualified and experienced engineers run the end to end process                                                       if the environment is complex, the
+                                                                                                                                                   implementation is complex. We can
+and once all components are racked, the system can be powered on, tested and configured
+                                                                                                                                                   provide the same level of planning,
+to your specifications.
+                                                                                                                                                   rack & stack, installation, and
+                                                                                                                                                   integration, we provide for any Dell
+Remote Deployment: Through a secure Internet connection, we can remotely configure your                                                            storage product.
+new server to your specifications. This service is a cost effective and efficient way to integrate
+your new Dell storage products into your environment.
+
+For more information about any of our service offerings, please contact your
+Dell representative or visit dell.com/services
+
+
+Availability varies by country. To learn more, customers and Dell Channel Partners should contact your sales representative for more
+                                                                                                                                                                                          Serv
+information. © 2010 Dell Inc. All rights reserved. Trademarks and trade names may be used in this document to refer to either the entities
+claiming the marks and names or their products. Specifications are correct at date of publication but are subject to availability or change
+without notice at any time. Dell and its affiliates cannot be responsible for errors or omissions in typography or photography. Dell’s Terms and
+Conditions of Sales and Service apply and are available on request. Dell service offerings do not affect consumer’s statutory rights. V062810
+

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "0263020cf0ca99136792f4b25db1debe4f62f1a00b4789eff36e991618a19277",
+  "cachedAt": "2026-10-15T21:24:37Z",
+  "observedAt": "2026-10-15T21:24:37Z",
+  "originRunId": "qwen3-38804802602",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-5-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "5",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "time_range": "",
+    "query": "Networking and VPNs official implementation configuration documentation network inventory segmentation firewalls security groups routing remote access zero trust traffic controls"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792099440964,
+    "end": 1792099441952
+  },
+  "outputDigest": "sha256:24fb48d310d2e3053d9a0bd01b2f740c1d5904186758f6d757eb49441aa40c3c",
+  "resultUrls": [
+    "https://aviatrix.ai/zero-trust-networking/",
+    "https://cloudsecurityalliance.org/artifacts/zero-trust-microsegmentation-guidance",
+    "https://learn.microsoft.com/en-us/azure/security/fundamentals/network-best-practices",
+    "https://pangolin.net/news/secure-remote-access",
+    "https://shieldworkz.com/blogs/the-ultimate-guide-to-zero-trust-security-for-industrial-control-systems",
+    "https://www.nsa.gov/Cybersecurity/ZIG/Capabilities/Network-and-Environment/",
+    "https://www.paloaltonetworks.com/cyberpedia/what-is-network-segmentation",
+    "https://www.zscaler.com/resources/brochures/zscaler-digital-transformation-admin-study-guide.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Networking and VPNs official implementation configuration documentation network inventory segmentation firewalls security groups routing remote access zero trust traffic controls\",\n  \"results\": [\n    {\n      \"title\": \"Azure network security best practices | Microsoft Learn\",\n      \"url\": \"https://learn.microsoft.com/en-us/azure/security/fundamentals/network-best-practices\",\n      \"content\": \"20 Ιουλ 2026 ... Learn Azure network security best practices for segmentation, Zero Trust, routing, DDoS protection, remote access, and private connectivity.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Zero Trust Microsegmentation Guidance | CSA\",\n      \"url\": \"https://cloudsecurityalliance.org/artifacts/zero-trust-microsegmentation-guidance\",\n      \"content\": \"... security groups, network policies, firewalls, gateways, or enforcement proximity. ... Typical Controls: Layer‑3 firewalls, Access Control Lists (ACLs) ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Network and Environment Capabilities - National Security Agency\",\n      \"url\": \"https://www.nsa.gov/Cybersecurity/ZIG/Capabilities/Network-and-Environment/\",\n      \"content\": \"Capability 5.1 — Data Flow Mapping. DoW CIO Zero Trust Framework. Content in this table is sourced from authoritative DoW Zero Trust Framework documentation ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Zero Trust Networking: Complete Guide for Cloud Environments\",\n      \"url\": \"https://aviatrix.ai/zero-trust-networking/\",\n      \"content\": \"Zero Trust networking enables identity-first, least-privilege access across cloud workloads, users, and devices—beyond legacy perimeter security. Read more.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"The Ultimate Guide to Zero Trust Security for Industrial Control ...\",\n      \"url\": \"https://shieldworkz.com/blogs/the-ultimate-guide-to-zero-trust-security-for-i",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "aviatrix.ai",
+      "cloudsecurityalliance.org",
+      "learn.microsoft.com",
+      "pangolin.net",
+      "shieldworkz.com",
+      "www.nsa.gov",
+      "www.paloaltonetworks.com",
+      "www.zscaler.com"
+    ]
+  }
+}

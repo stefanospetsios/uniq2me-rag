@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "09b542136048d790a7f4533a5b2e7442bf49430645d5dab39139e82bbbd67e17",
+  "cachedAt": "2026-10-15T21:47:24Z",
+  "observedAt": "2026-10-15T21:47:24Z",
+  "originRunId": "qwen3-38804802602",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-9-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "9",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "penetration testing white-box review official maintainer implementation configuration documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792100786020,
+    "end": 1792100786987
+  },
+  "outputDigest": "sha256:9324f6b8cb7b083ffd434b93a627e6e27dd5260419ca55e04e4a543fbc7e3383",
+  "resultUrls": [
+    "http://localhost:8080",
+    "https://api.example.com",
+    "https://app.example.com",
+    "https://docs.bugb.io/cxg/guides/pentest/",
+    "https://docs.pwnkit.com/features/",
+    "https://docs.pwnkit.com/white-box-mode/",
+    "https://example.com",
+    "https://github.com/example/app.git",
+    "https://github.com/hadriansecurity/OpenHack/",
+    "https://help.aikido.dev/pentests/configure-a-pentest/leveraging-code-and-documentation"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"White-box Mode | pwnkit\",\n      \"url\": \"https://docs.pwnkit.com/white-box-mode/\",\n      \"content\": \"White-box Mode | pwnkit Skip to content\\n\\n# White-box Mode\\n\\nWhite-box mode gives pwnkit’s attack agent access to the application source code in addition to the running target. Instead of probing the application purely over HTTP, the agent can read source files, trace data flows, and identify vulnerabilities that are invisible from the outside — hardcoded credentials, server-side logic flaws, unsafe deserialization buried in helper modules, and authentication bypasses hidden behind layers of middleware.\\n\\nThis is the same general approach used by top white-box benchmark agents such as Shannon. The benchmark page is the canonical place for exact score comparisons because pwnkit’s retained artifact-backed tally and older historical publication line are tracked separately there.\\n\\n## How to use it\\n\\nPass the`--repo` flag alongside your target:\\n\\n```\\npwnkit scan --target http://localhost:8080 --repo ./my-app\\n```\\n\\nThe`--repo` path should point to the root of the application source code — the same code running behind the target URL. This can be a local checkout, a cloned repository, or a mounted volume in CI.\\n\\nIn the benchmark runner, the equivalent flag is`--white-box`, which automatically sets the repo path to the challenge directory:\\n\\n```\\ntsx src/xbow-runner.ts --agentic --white-box\\n```\\n\\n## What changes in white-box mode\\n\\nWhen`--repo` is provided, two things happen:\\n\\nAdditional tools become available. The agent gains`read_file` and`run_command` alongside its standard`bash` tool.`read_file` returns numbered source lines from any file within the scoped directory.`run_command` allows code analysis commands —`grep`,`rg`,`find`,`cat`,`jq`,`foxguard`,`semgrep`, and others — restricted to the scoped directory for safety.\\n\\nThe prompt gains a source analysis phase. Before touching the target over HTTP, the agent execu",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "9"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "api.example.com",
+      "app.example.com",
+      "docs.bugb.io",
+      "docs.pwnkit.com",
+      "example.com",
+      "github.com",
+      "help.aikido.dev",
+      "localhost"
+    ]
+  }
+}

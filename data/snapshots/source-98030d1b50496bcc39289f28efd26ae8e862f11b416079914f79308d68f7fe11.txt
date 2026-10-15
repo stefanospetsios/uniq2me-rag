@@ -1,0 +1,479 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Auditing the security infrastructure
+
+
+
+
+
+
+Auditing the security infrastructure
+
+
+
+
+
+
+
+You can use the Auditing Facility to report and track auditable events to ensure the
+integrity of your system.
+
+
+
+
+
+Before you begin
+
+
+
+
+Before enabling the security auditing subsystem, you must enable global security in your
+environment.
+
+
+
+About this task
+
+
+
+
+
+
+Note:
+ The security auditing subsystem has been introduced as part of the security infrastructure.
+The primary responsibility of the security infrastructure is to prevent unauthorized access and
+usage of resources. Utilizing security auditing has two primary goals: 
+
+
+Confirming the effectiveness and integrity of the existing security configuration.
+
+
+
+
+
+Identifying areas where improvement to the security configuration might be needed.
+
+
+
+
+
+
+Security auditing achieves these goals by providing the infrastructure that allows you to
+implement your code to capture and store supported auditable security events. During run time, all
+code other than the Java™ EE 5 application code is considered to be trusted. Each time a Java EE 5
+application accesses a secured resource, any internal application server process with an audit point
+included can be recorded as an auditable event.
+
+
+
+
+
+The security auditing subsystem has the ability to capture the following types of auditable
+events: 
+
+
+Authentication
+
+
+
+
+
+Authorization
+
+
+
+
+
+Principal/Credential Mapping
+
+
+
+
+
+Audit policy management
+
+
+
+
+
+Delegation
+
+
+
+
+
+
+
+
+
+
+
+
+
+These types of events can be recorded into audit log files. Each audit log has the option to be
+signed and encrypted to ensure data integrity. These audit log files can be analyzed to discover
+breaches over the existing security mechanisms and to discover potential weaknesses in the current
+security infrastructure. Security event audit records are also useful for providing evidence of
+accountability and nonrepudiation as well as vulnerability analysis. The security auditing
+configuration provides four default filters, a default audit service provider, and a default event
+factory. The default implementation write to a binary text-file based log. Use this topic to
+customize your security auditing subsystem.
+
+
+
+
+
+
+
+
+Procedure
+
+
+
+
+
+
+Enable the security auditing
+subsystem
+.
+ 
+
+
+
+Security auditing will not be performed unless the audit security subsystem has been enabled.
+Global security must be enabled for the security audit subsystem to function, as no security
+auditing occurs if global security is not also enabled.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Assign the auditor role to a user
+ 
+
+
+
+A user with the auditor role is required to enable and configure the security auditing subsystem.
+It is important to require strict access control for security policy management. The auditor role
+has been created providing granularity to allow for separation of the auditing role from the
+authority of the administrator. When Security Auditing is initially enabled, the cell administrator
+has auditor privileges. If the environment requires separation of privileges, then changes will need
+to be made to the default role assignments.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Create security auditing event
+type filters
+.
+ 
+
+
+
+You can configure event type filters to only record a specific subset of auditable event types in
+your audit logs. Filtering the event types that are recorded makes for easier analysis of your audit
+records by ensuring only those records important to your environment are archived.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Configure the audit service provider.
+ 
+
+
+
+The audit service provider is used to format the audit data object that was passed to it before
+outputting the data to a repository. A default audit service provider implementation is in included.
+See 
+Configuring the default audit service providers for security auditing
+ for more details on the default implementation. A third
+party implementation can also be coded and used. See 
+Configuring a third party audit service providers for security auditing
+
+for more details on this implementation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Configure audit event factories for security
+auditing
+.
+ 
+
+
+
+The audit event factory gathers the data associated with the auditable events and creates an
+audit data object. The audit data object is then sent to the audit service provider to be formatted
+and recorded to the repository.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Protect your security audit
+data
+.
+ 
+
+
+
+It is important to secure and ensure the data integrity of the recorded audit data. To ensure
+that access to the data is restricted and tamper proof, you can encrypt and sign your audit data.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Configure security audit subsystem failure
+notifications
+.
+ 
+
+
+
+Notifications can be enabled to generate alerts when the security auditing subsystem experiences
+a failure. Notifications can be configured to record an alert in the System logs or can be
+configured to send an alert through email to a specified list of recipients.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Results
+
+
+
+
+After successfully completing this task, you audit data will be recorded for the selected
+auditable events that were specified in the configuration.
+
+
+
+What to do next
+
+
+
+
+After configuring security auditing, you can analyze your audit data for potential
+weaknesses in the current security infrastructure and to discover security breaches that may have
+occurred over the existing security mechanisms. You can also use the security auditing subsystem to
+provide data for problem determination. If the default audit service provider was selected, the
+resulting binary audit log file can be read using the Audit Reader.
+
+
+
+
+
+
+
+
+
+
+
+
+Enabling the security auditing subsystem
+
+Security auditing will not be performed unless the audit security subsystem has been enabled. Global security must be enabled for the security audit subsystem to function, as no security auditing occurs if global security is not also enabled.
+
+
+
+
+Creating security auditing event type filters
+
+Event type filters are used to specify the types of auditable security events that are audited. Default event type filters are included with the product, but you can also configure new event type filters to specify a subset of auditable event types to be recorded by the security auditing subsystem.
+
+
+
+
+Configuring security audit subsystem failure notifications
+
+Notifications can be generated by a failure of the security audit subsystem. The security audit subsystem notifications can alert auditors that the security audit system is no longer recording auditable security events. Notifications are generated by a failure of the auditing subsystem, they are not related to any auditable security events or event outcome that has occurred. Notifications triggered by an event or an event outcome are not supported.
+
+
+
+
+Configuring the default audit service providers for security auditing
+
+The audit service provider is used to format the audit data object that was sent by the audit event factory. After being formatted, the audit data is recorded to the repository defined in the audit service provider configuration.
+
+
+
+
+Configuring a third party audit service providers for security auditing
+
+The audit service provider is used to format the audit data object that was sent by the audit event factory. In addition to the default audit service provider, you may use a third party implementation as your audit service provider.
+
+
+
+
+Configuring audit event factories for security auditing
+
+The audit event factory collects the data associated with the auditable security events and builds the audit data object. The object is then sent to the audit service provider to be formatted and recorded to a specified repository.
+
+
+
+
+Protecting your security audit data
+
+The security auditing subsystem allows for protection of your security audit data by increasing the assurance that the audit data has not been tampered or modified outside of the auditing facility. This option also protects the confidentiality of the data. The audit data is protected by encrypting and signing the recording data.
+
+
+
+
+Using the audit reader
+
+The audit reader is a utility that can be used to read the binary audit logs generated by the default binary emitter implementation. The audit reader parses the audit log to generate an HTML report. The audit reader is invoked using wsadmin commands and is not accessible using the administrative console.
+
+
+
+
+
+
+
+Related tasks
+
+
+
+
+Task overview: Securing resources
+
+
+
+
+
+
+
+
+
+Related reference
+
+
+
+
+Administrative roles
+
+
+
+
+
+
+
+
+
+Related information
+
+
+
+
+Configuring auditable events using
+scripting
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "0b7225b9054d427f20f735820c41f6bb6957a8369d731595911eb70e25e71d0b",
+  "cachedAt": "2026-10-15T21:50:46Z",
+  "observedAt": "2026-10-15T21:50:46Z",
+  "originRunId": "qwen3-38804802602",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-A-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "A",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "time_range": "",
+    "query": "cryptography encryption blockchain official implementation configuration documentation key lifecycle digital signatures certificates"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792100997593,
+    "end": 1792101007607
+  },
+  "outputDigest": "sha256:7204c99005a5d000564d7dedd6dd709df91ed13fd8d1c50fd0502b0798c309cb",
+  "resultUrls": [
+    "https://azure.github.io/IoTTrainingPack/modules/Certificates101/02_x509.html",
+    "https://rublon.com/blog/public-key-infrastructure/",
+    "https://specs.blockchainssc.org/kms/",
+    "https://www.cryptomathic.com/blog/exploring-the-lifecycle-of-a-cryptographic-key-",
+    "https://www.encryptionconsulting.com/best-practices-for-key-management-in-2026/",
+    "https://www.globalsign.com/en/blog/8-best-practices-cryptographic-key-management",
+    "https://www.keyfactor.com/education-center/what-is-cryptography-how-to-protect-data-in-the-digital-age/",
+    "https://www.oloid.com/blog/explained-the-fundamentals-of-public-key-infrastructure-pki",
+    "https://www.splunk.com/en_us/blog/learn/key-management.html",
+    "https://www.upguard.com/compliance/iso-27001/8-24"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"cryptography encryption blockchain official implementation configuration documentation key lifecycle digital signatures certificates\",\n  \"results\": [\n    {\n      \"title\": \"Key Management in Cryptography: A Complete Introduction - Splunk\",\n      \"url\": \"https://www.splunk.com/en_us/blog/learn/key-management.html\",\n      \"content\": \"24 Φεβ 2025 ... Now the key must be certified — an authentication using digital signatures (issued by a third-party certification authority) that unambiguously ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"8 Best Practices for Cryptographic Key Management - GlobalSign\",\n      \"url\": \"https://www.globalsign.com/en/blog/8-best-practices-cryptographic-key-management\",\n      \"content\": \"31 Ιαν 2025 ... It is important to assign a dedicated crypto-period for each key. For key lifecycle management, your organization should implement a solution ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Exploring the Lifecycle of a Cryptographic Key - Cryptomathic\",\n      \"url\": \"https://www.cryptomathic.com/blog/exploring-the-lifecycle-of-a-cryptographic-key-\",\n      \"content\": \"19 Μαρ 2019 ... For manual distribution, which is by far the most common method of shared key distribution in the payments space, key encryption keys (KEKs) ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"What Is Cryptography? Complete Guide to Data Protection - Keyfactor\",\n      \"url\": \"https://www.keyfactor.com/education-center/what-is-cryptography-how-to-protect-data-in-the-digital-age/\",\n      \"content\": \"It underpins the protocols that protect data in transit (TLS/SSL), secure data at rest (disk and database encryption), authenticate users and machines (digital ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"ISO 27001 Control 8.24: Use of Cryptography | UpGuard\",\n      \"url\": \"https://www.upguard.com/compliance/iso-27001/8-2",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "A"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "azure.github.io",
+      "rublon.com",
+      "specs.blockchainssc.org",
+      "www.cryptomathic.com",
+      "www.encryptionconsulting.com",
+      "www.globalsign.com",
+      "www.keyfactor.com",
+      "www.oloid.com",
+      "www.splunk.com",
+      "www.upguard.com"
+    ]
+  }
+}

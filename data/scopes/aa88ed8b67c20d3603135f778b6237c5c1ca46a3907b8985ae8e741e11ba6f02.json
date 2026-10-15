@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-scope",
+  "cachedAt": "2026-10-15T21:12:03Z",
+  "scopeId": "2",
+  "fingerprint": "aa88ed8b67c20d3603135f778b6237c5c1ca46a3907b8985ae8e741e11ba6f02",
+  "originRunId": "qwen3-38804802602",
+  "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "2"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "scope-admitted",
+    "publisher": null,
+    "host": null
+  },
+  "corpus": {
+    "sources": {
+      "2-source-1": {
+        "type": "technical-doc",
+        "title": "Create a backup plan - AWS Backup",
+        "publisher": "Amazon Web Services",
+        "url": "https://docs.aws.amazon.com/aws-backup/latest/devguide/creating-a-backup-plan.html",
+        "language": "en",
+        "jurisdiction": "United States",
+        "applicability": "AWS services including EC2, EBS, S3, and other supported resources requiring backup configuration",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "2-source-1",
+        "byteDigest": "sha256:77ef818ab1ad32d836de1e144ceb7ed1a2c64182d3c6fb69ef693022ab59f338",
+        "textDigest": "sha256:6aaa8b121369316541a944cf36f234a964f5e918ba006a92a5d90198329d8d15",
+        "finalUrl": "https://docs.aws.amazon.com/aws-backup/latest/devguide/creating-a-backup-plan.html",
+        "retrievedAt": "2026-10-15T21:10:45Z",
+        "contentType": "text/html",
+        "snapshotPath": "source-77ef818ab1ad32d836de1e144ceb7ed1a2c64182d3c6fb69ef693022ab59f338.bin",
+        "textPath": "source-6aaa8b121369316541a944cf36f234a964f5e918ba006a92a5d90198329d8d15.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Backup window configuration section",
+            "text": "Complete within defaults to 7 days. Ensure that there is enough time for the backup up to complete even if the job starts at the end of the start window."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "2-source-2": {
+        "type": "technical-doc",
+        "title": "Manage a backup plan | Backup and DR | Google Cloud Documentation",
+        "publisher": "Google LLC",
+        "url": "https://docs.cloud.google.com/backup-disaster-recovery/docs/cloud-console/backup-plan-create",
+        "language": "en",
+        "jurisdiction": "United States",
+        "applicability": "Google Cloud resources including Compute Engine, Cloud SQL, AlloyDB, and Filestore requiring backup configuration",
+        "publicationDate": "2026-10-09",
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "2-source-2",
+        "byteDigest": "sha256:3129c90e9970bc22128e605aa74eb18df715a51e15a1a82f297534b7cbe46763",
+        "textDigest": "sha256:00f291c0c008b5e17f0da7b2072178151ca844a666c6beaec44f76b691e18034",
+        "finalUrl": "https://docs.cloud.google.com/backup-disaster-recovery/docs/cloud-console/backup-plan-create",
+        "retrievedAt": "2026-10-15T21:10:46Z",
+        "contentType": "text/html; charset=utf-8",
+        "snapshotPath": "source-3129c90e9970bc22128e605aa74eb18df715a51e15a1a82f297534b7cbe46763.bin",
+        "textPath": "source-00f291c0c008b5e17f0da7b2072178151ca844a666c6beaec44f76b691e18034.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Backup operations navigation",
+            "text": "Overview of backup vaults\n\n\nOverview of backup operations\n\n\nBack up Compute Engine instances\n\n\nConfigure application-consistent backups"
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "2-source-3": {
+        "type": "technical-doc",
+        "title": "Set up and plan a backup/recovery appliance deployment | Backup and DR | Google Cloud Documentation",
+        "publisher": "Google LLC",
+        "url": "https://cloud.google.com/backup-disaster-recovery/docs/deployment/deployment-plan",
+        "language": "en",
+        "jurisdiction": "United States",
+        "applicability": "Google Cloud VMware VMs and database workloads requiring backup/recovery appliance configuration",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "2-source-3",
+        "byteDigest": "sha256:533b3c7faf07c090eb410e75cd04e7244f7b433339b0eb764f6d4173c853e577",
+        "textDigest": "sha256:c2b191851e9ca0d85ecc571f18923a02c422ed883256666d82f24ca85c89cf6c",
+        "finalUrl": "https://docs.cloud.google.com/backup-disaster-recovery/docs/deployment/deployment-plan",
+        "retrievedAt": "2026-10-15T21:10:48Z",
+        "contentType": "text/html; charset=utf-8",
+        "snapshotPath": "source-533b3c7faf07c090eb410e75cd04e7244f7b433339b0eb764f6d4173c853e577.bin",
+        "textPath": "source-c2b191851e9ca0d85ecc571f18923a02c422ed883256666d82f24ca85c89cf6c.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Introduction section",
+            "text": "Backup and DR for VMware VMs and SAP HANA, IBM Db2, Oracle, and Microsoft SQL Server databases that run inside Compute Engine instances requires a Backup and DR appliance management console and one or more backup/recovery appliances."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      }
+    },
+    "concerns": [
+      {
+        "id": "2-concern-1",
+        "sfsId": "2",
+        "description": "Backup completion timeframes must be configured to ensure backups finish within recovery time objectives, including sufficient time for completion even when starting at the end of the backup window.",
+        "sourceRefs": [
+          {
+            "sourceId": "2-source-1",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "2-concern-2",
+        "sfsId": "2",
+        "description": "Documented procedures for configuring application-consistent backups and protecting Compute Engine instances form part of the backup plan implementation requirements.",
+        "sourceRefs": [
+          {
+            "sourceId": "2-source-2",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "2-concern-3",
+        "sfsId": "2",
+        "description": "Specialized backup infrastructure requirements exist for VMware VMs and specific database workloads including SAP HANA, IBM Db2, Oracle, and Microsoft SQL Server.",
+        "sourceRefs": [
+          {
+            "sourceId": "2-source-3",
+            "passageId": "p1"
+          }
+        ]
+      }
+    ],
+    "queries": [
+      {
+        "scope": "2",
+        "toolId": "searxng_web_search",
+        "input": {
+          "safesearch": 1,
+          "time_range": "",
+          "query": "Backup and Disaster Recovery Plan official implementation configuration documentation",
+          "max_results": 10
+        },
+        "outputDigest": "sha256:bf509fb609a88e9b913a151e9b021871af8c19baca9061858f3cd41b91eb8fbc",
+        "callId": "sources-2-1-discovery"
+      },
+      {
+        "scope": "2",
+        "toolId": "websearch_web_search",
+        "input": {
+          "query": "Backup and Disaster Recovery Plan official implementation configuration documentation",
+          "max_results": 10
+        },
+        "outputDigest": "sha256:27252fdf963bd1c413e545c30b5afc420b7d95883d990a90eec122622c5f730f",
+        "callId": "sources-2-1-discovery"
+      }
+    ],
+    "limitations": [
+      {
+        "scope": "2",
+        "description": "Brave search engine was unresponsive due to too many requests"
+      },
+      {
+        "scope": "2",
+        "description": "DuckDuckGo search engine returned CAPTCHA challenge"
+      },
+      {
+        "scope": "2",
+        "description": "Search results focused on major cloud providers; additional maintainer documentation may exist for other platforms"
+      }
+    ],
+    "admissionVersion": 2,
+    "observedResultUrls": [
+      "https://cloud.google.com/backup-disaster-recovery/docs/deployment/deployment-plan",
+      "https://docs.aws.amazon.com/aws-backup/latest/devguide/creating-a-backup-plan.html",
+      "https://docs.cloud.google.com/backup-disaster-recovery/docs/cloud-console/backup-plan-create"
+    ]
+  },
+  "files": {
+    "snapshots/source-77ef818ab1ad32d836de1e144ceb7ed1a2c64182d3c6fb69ef693022ab59f338.bin": "sha256:77ef818ab1ad32d836de1e144ceb7ed1a2c64182d3c6fb69ef693022ab59f338",
+    "snapshots/source-6aaa8b121369316541a944cf36f234a964f5e918ba006a92a5d90198329d8d15.txt": "sha256:6aaa8b121369316541a944cf36f234a964f5e918ba006a92a5d90198329d8d15",
+    "snapshots/source-3129c90e9970bc22128e605aa74eb18df715a51e15a1a82f297534b7cbe46763.bin": "sha256:3129c90e9970bc22128e605aa74eb18df715a51e15a1a82f297534b7cbe46763",
+    "snapshots/source-00f291c0c008b5e17f0da7b2072178151ca844a666c6beaec44f76b691e18034.txt": "sha256:00f291c0c008b5e17f0da7b2072178151ca844a666c6beaec44f76b691e18034",
+    "snapshots/source-533b3c7faf07c090eb410e75cd04e7244f7b433339b0eb764f6d4173c853e577.bin": "sha256:533b3c7faf07c090eb410e75cd04e7244f7b433339b0eb764f6d4173c853e577",
+    "snapshots/source-c2b191851e9ca0d85ecc571f18923a02c422ed883256666d82f24ca85c89cf6c.txt": "sha256:c2b191851e9ca0d85ecc571f18923a02c422ed883256666d82f24ca85c89cf6c"
+  }
+}

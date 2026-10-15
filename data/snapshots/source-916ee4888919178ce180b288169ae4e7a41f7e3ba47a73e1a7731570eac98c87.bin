@@ -1,0 +1,1484 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+  <!-- Basic Page Needs
+    ================================================== -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  
+  <!-- Comment out for AMP testing
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self';
+  script-src 'report-sample' 'self' https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js https://www.google-analytics.com/analytics.js;
+  style-src 'report-sample' 'self';
+  object-src 'none';
+  base-uri 'self';
+  connect-src 'self' https://search.usa.gov https://www.google-analytics.com;
+  font-src 'self';
+  frame-src 'self';
+  img-src 'self';
+  child-src 'self';
+  manifest-src 'self';
+  media-src 'self';
+  prefetch-src 'self';
+  form-action 'self' https://search.usa.gov;
+  worker-src 'none';">
+-->
+
+  <!-- Mobile Specific Metas
+    ================================================== -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Title and meta description
+    ================================================== -->
+  
+  <title>Identity Lifecycle Management Playbook - IDManagement</title>
+  <meta property="og:title" content="Modernize Federal Identities">
+  <meta property="og:url" content="https://www.idmanagement.gov">
+  <!-- <meta name="description" content="IDManagement.gov is a collaboration between the Federal CIO Council and GSA to develop and share leading practices in protecting federal IT systems."> -->
+  <meta property="og:image" content="https://www.idmanagement.gov/assets/logo/logo-gsa.png">
+  <meta property="og:description" content="IDManagement.gov is a collaboration between the Federal CIO Council and GSA to develop and share leading practices in protecting federal IT systems.">
+
+  <meta name="twitter:card" content="https://www.idmanagement.gov/assets/logo/logo-gsa.png" />
+  <meta name="twitter:image" content="https://www.idmanagement.gov/assets/logo/logo-gsa.png" />
+  <meta name="twitter:site" content="@" />
+  <meta name="twitter:title" content="Modernize Federal Identities" />
+  <meta name="twitter:description" content="IDManagement.gov is a collaboration between the Federal CIO Council and GSA to develop and share leading practices in protecting federal IT systems." />
+
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://www.idmanagement.gov/playbooks/ilm/" />
+  <meta property="og:url" content="https://www.idmanagement.gov/playbooks/ilm/" />
+
+  <!-- Favicons
+    ================================================== -->
+
+  <!-- 128x128 -->
+  <link rel="shortcut icon" type="image/ico" href="/assets/img/favicons/favicon.ico">
+  <link rel="icon" type="image/png" href="/assets/img/favicons/favicon.png">
+  <!-- 192x192, as recommended for Android http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android-->
+  <!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicons/favicon-192.png">
+  <link rel="apple-touch-icon-precomposed" href="/assets/img/favicons/favicon-57.png">
+  <!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/img/favicons/favicon-72.png">
+  <!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/img/favicons/favicon-114.png">
+  <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/img/favicons/favicon-144.png">
+
+  <!-- Custom CSS and USWDS 3.5.0 |================================================== -->
+  <link rel="stylesheet" href="/assets/css/uswds.min.css">
+  <link rel="stylesheet" href="/assets/css/index.css">
+
+  <!-- Sitemap.xml -->
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+
+  <script src="/assets/js/search.js?1792091661055497956"></script>
+
+  <!-- Bootstrap 5 CSS Library removed, not used, using USWDS only. (cjb) -->
+  <!-- USWDS-INIT - prevents component content from "flashing" or "shifting"  -->
+  <script src="/assets/js/uswds-init.min.js"></script>
+</head>
+
+
+<body>
+  
+
+<div class="page-landing-page layout-demo ">
+  <a class="usa-skipnav" href="#main-content" aria-label="Skip to main content">Skip to main content</a>
+  <div class="usa-banner">
+    <div class="usa-accordion">
+      <header class="usa-banner__header">
+        <div class="usa-banner__inner">
+          <div class="grid-col-auto">
+            <img src="/assets/img/us_flag_small.png"  class="usa-banner__header-flag" alt="U.S. flag">
+          </div>
+          <div class="grid-col-fill tablet:grid-col-auto">
+            <p class="usa-banner__header-text">An official website of the United States government</p>
+            <p class="usa-banner__header-action" aria-hidden="true">Here’s how you know</p>
+          </div>
+          <button class="usa-accordion__button usa-banner__button" aria-expanded="false" aria-controls="gov-banner">
+            <span class="usa-banner__button-text">Here's how you know</span>
+          </button>
+        </div>
+      </header>
+      <div class="usa-banner__content usa-accordion__content" id="gov-banner">
+        <div class="grid-row grid-gap-lg">
+          <div class="usa-banner__guidance tablet:grid-col-6">
+            <img src="/assets/img/icon-dot-gov.svg" class="usa-banner__icon usa-media-block__img" alt="Dot gov">
+            <div class="usa-media-block__body">
+              <p>
+                <strong>The .gov means it’s official.</strong>
+                <br>
+                Federal Government websites often end in .gov or .mil. Before sharing sensitive information, make sure
+                you’re on a Federal Government site.
+              </p>
+            </div>
+          </div>
+          <div class="usa-banner__guidance tablet:grid-col-6">
+            <img src="/assets/img/icon-https.svg" class="usa-banner__icon usa-media-block__img" alt="Https">
+            <div class="usa-media-block__body">
+              <p>
+                <strong>The site is secure.</strong>
+                <br>
+                The <strong>https://</strong> ensures that you are connecting to the official website and that any
+                information you provide is encrypted and transmitted securely.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="usa-overlay"></div>
+</div>
+
+  
+  
+
+<header class="usa-header usa-header--extended" role="banner">
+  <div class="usa-navbar">
+    <div class="usa-logo" id="extended-logo">
+  <!-- <em class="usa-logo__text"><a href="/" title="IDManagement" aria-label="IDManagement" style="padding:5px;">IDManagement</a></em>-->
+  <em class="usa-logo__text"><a href="/" title="Home" aria-label="Home"><img fetchpriority="high" class="gsa-logo" src="/assets/logo/idm-gsa-250-star-logo.png" alt="GSA 250 Star Logo | IDManagement" /></a></em> 
+</div>
+
+    <button class="usa-menu-btn">Menu</button>
+  </div>
+  <nav role="navigation" class="usa-nav">
+    <div class="usa-nav__inner">
+      <button class="usa-nav__close"><img src="/assets/img/usa-icons/close.svg" alt="close"></button>
+      <ul class="usa-nav__primary usa-accordion">
+        
+        
+        
+        
+        <li class="usa-nav__primary-item">
+          <a class="usa-nav__link"
+            href="/" aria-label="Home"><span>Home</span></a>
+        </li>
+        
+        
+        
+        
+        <li class="usa-nav__primary-item" role="listitem">
+          <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
+            aria-controls="primary-nav-2"><span>FICAM</span></button>
+          <ul id="primary-nav-2" class="usa-nav__submenu">
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/arch/" aria-label="FICAM Architecture">FICAM Architecture</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/pqc/" aria-label="Post Quantum Cryptography">Post Quantum Cryptography</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/zero-trust/" aria-label="Zero Trust">Zero Trust</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/icamsolutions/" aria-label="GSA ICAM Solutions Roadmap">GSA ICAM Solutions Roadmap</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/icam-fibf/" aria-label="ICAM Federal Integrated Business Framework">ICAM Federal Integrated Business Framework</a>
+            </li>
+            
+          </ul>
+        </li>
+        
+        
+        
+        
+        <li class="usa-nav__primary-item" role="listitem">
+          <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
+            aria-controls="primary-nav-3"><span>Partners</span></button>
+          <ul id="primary-nav-3" class="usa-nav__submenu">
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/vendors/" aria-label="Vendors">Vendors</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/acquisition-professionals/" aria-label="Acquisition Professionals">Acquisition Professionals</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/program-managers/" aria-label="Program Managers">Program Managers</a>
+            </li>
+            
+          </ul>
+        </li>
+        
+        
+        
+        
+        <li class="usa-nav__primary-item" role="listitem">
+          <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
+            aria-controls="primary-nav-4"><span>Implement</span></button>
+          <ul id="primary-nav-4" class="usa-nav__submenu">
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/implement/" aria-label="ICAM Configuration Guides">ICAM Configuration Guides</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/implement/trust-fcpca/" aria-label="Enterprise Trust of the FCPCA">Enterprise Trust of the FCPCA</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/implement/scl-windows/" aria-label="Smart Card Logon For Windows Domains">Smart Card Logon For Windows Domains</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/implement/scl-macos/" aria-label="Smart Card Logon for MacOS">Smart Card Logon for MacOS</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/implement/scl-ssh/" aria-label="Smart Card Logon for SSH">Smart Card Logon for SSH</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/implement/scl-firefox/" aria-label="Smart Card Logon for Firefox">Smart Card Logon for Firefox</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/implement/whfb/" aria-label="Windows Hello for Business">Windows Hello for Business</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/implement/cba-azure/" aria-label="Certificate-Based Authentication">Certificate-Based Authentication</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/implement/outlook/" aria-label="Sign and Encrypt Email in Outlook">Sign and Encrypt Email in Outlook</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/fpki/notifications/" aria-label="FPKI Ecosystem Changes">FPKI Ecosystem Changes</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/implement/fpkicite/" aria-label="FPKI Test Environment">FPKI Test Environment</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/implement/mapping-of-sp800-53-ia-to-sp-800-63/" aria-label="Mapping of SP800-53 IA to SP 800-63">Mapping of SP800-53 IA to SP 800-63</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/implement/yubikey-guide/" aria-label="Okta Yubikey Implementation Guide">Okta Yubikey Implementation Guide</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/implement/gsa-guide/" aria-label="GSA Implementation Guide for Passkeys (FIDO2)">GSA Implementation Guide for Passkeys (FIDO2)</a>
+            </li>
+            
+          </ul>
+        </li>
+        
+        
+        
+        
+        <li class="usa-nav__primary-item" role="listitem">
+          <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
+            aria-controls="primary-nav-5"><span>Functions</span></button>
+          <ul id="primary-nav-5" class="usa-nav__submenu">
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/ficam/" aria-label="FICAM Program">FICAM Program</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/fpki/" aria-label="Federal PKI Program">Federal PKI Program</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/fips201ep/" aria-label="FIPS 201 Evaluation Program">FIPS 201 Evaluation Program</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/pivcardbody/" aria-label="PIV Card Body Approval Procedures">PIV Card Body Approval Procedures</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/gsapkissp/" aria-label="GSA PKI SSP Program">GSA PKI SSP Program</a>
+            </li>
+            
+          </ul>
+        </li>
+        
+        
+        
+        
+        
+        <li class="usa-nav__primary-item">
+          <a class="usa-nav__link usa-current"
+            href="/playbooks/" aria-label="Playbooks"><span>Playbooks</span></a>
+        </li>
+        
+        
+        
+        
+        <li class="usa-nav__primary-item" role="listitem">
+          <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
+            aria-controls="primary-nav-7"><span>University</span></button>
+          <ul id="primary-nav-7" class="usa-nav__submenu">
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/university/" aria-label="Introduction">Introduction</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/university/pki/" aria-label="PKI 101">PKI 101</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/university/fpki/" aria-label="FPKI 101">FPKI 101</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/university/pacs/" aria-label="PACS 101">PACS 101</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/university/piv/" aria-label="PIV 101">PIV 101</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/university/pivi/" aria-label="PIV-I 101">PIV-I 101</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/university/pm/" aria-label="ICAM PM 101">ICAM PM 101</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/university/policymatrix/" aria-label="ICAM Policy Matrix">ICAM Policy Matrix</a>
+            </li>
+            
+          </ul>
+        </li>
+        
+        
+        
+        
+        <li class="usa-nav__primary-item" role="listitem">
+          <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
+            aria-controls="primary-nav-8"><span>Experiments</span></button>
+          <ul id="primary-nav-8" class="usa-nav__submenu">
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/experiments/" aria-label="Experiments">Experiments</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/experiments/cdns/paper1/" aria-label="CDN Reliability">CDN Reliability</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/experiments/cdns/paper2/" aria-label="CDN Attack Vectors">CDN Attack Vectors</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/experiments/cdns/paper3/" aria-label="Personal Security">Personal Security</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/experiments/pid/bestpractice/" aria-label="PIAM Identity Proofing">PIAM Identity Proofing</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/experiments/pid/service/" aria-label="PIAM Service">PIAM Service</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/experiments/pid/framework/" aria-label="PIAM Framework">PIAM Framework</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/experiments/pid/process/" aria-label="PIAM Process">PIAM Process</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/experiments/gsa-mpiv-experiment/" aria-label="Mobile PIV (mPIV) Experiment">Mobile PIV (mPIV) Experiment</a>
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              <a href="/experiments/gsa-pqc-experiment/" aria-label="Shatterproof Digital Identity - GSA PQC Experiment">Shatterproof Digital Identity - GSA PQC Experiment</a>
+            </li>
+            
+          </ul>
+        </li>
+        
+        
+      </ul>
+      <div class="usa-nav__secondary">
+        <ul class="usa-nav__secondary-links">
+          
+          <li class="usa-nav__secondary-item">
+            <a href="/contact-us/" aria-label="Contact Us">Contact Us</a>
+          </li>
+          
+          <li class="usa-nav__secondary-item">
+            <a href="/about-us/" aria-label="About Us">About Us</a>
+          </li>
+          
+          <li class="usa-nav__secondary-item">
+            <a href="/contribute/" aria-label="Contribute">Contribute</a>
+          </li>
+          
+        </ul>
+        
+
+
+  
+    <form id="search_form" class="usa-search usa-search--small" action="/search" accept-charset="UTF-8" method="get" role="search">
+  
+
+    <div role="search">
+      <label class="usa-sr-only" for="extended-search-field-small">Search small</label>
+      <input class="usa-input usagov-search-autocomplete" id="extended-search-field-small" type="search" name="query" autocomplete="off" >
+      <button class="usa-button" type="submit">
+         <img src="/assets/img/usa-icons-bg/search--white.svg" class="usa-search__submit-icon" alt="Search">
+</button>
+    </div>
+  </form>
+
+
+      </div>
+    </div>
+  </nav>
+</header>
+
+  
+  
+
+<div class="usa-section gsa-usa-section">
+  <div class="grid-container">
+    <div class="grid-row grid-gap flex-align-start">
+      
+      
+        <div class="usa-layout-docs__sidenav desktop:grid-col-3 usa-sticky-sidenav gsa-mobile">
+          
+
+<nav aria-label="Secondary navigation">
+  <ul class="usa-sidenav">
+    
+      
+      
+      
+    <li class="usa-sidenav__item">
+      <a href="/playbooks/"
+         
+          >
+         Introduction
+      </a>
+      
+    </li>
+    
+      
+      
+      
+    <li class="usa-sidenav__item">
+      <a href="/playbooks/cloud/"
+         
+          >
+         Cloud Identity Playbook
+      </a>
+      
+    </li>
+    
+      
+      
+      
+    <li class="usa-sidenav__item">
+      <a href="/playbooks/dds/"
+         
+          >
+         Delegated Digital Signature Playbook
+      </a>
+      
+    </li>
+    
+      
+      
+      
+    <li class="usa-sidenav__item">
+      <a href="/playbooks/signfedregister/"
+         
+          >
+         Digitally Sign a Federal Register Notice
+      </a>
+      
+    </li>
+    
+      
+      
+      
+    <li class="usa-sidenav__item">
+      <a href="/playbooks/signword/"
+         
+          >
+         Digitally Sign a Word Document
+      </a>
+      
+    </li>
+    
+      
+      
+      
+    <li class="usa-sidenav__item">
+      <a href="/playbooks/dw/"
+         
+          >
+         Digital Worker Identity Playbook
+      </a>
+      
+    </li>
+    
+      
+      
+      
+    <li class="usa-sidenav__item">
+      <a href="/playbooks/sso/"
+         
+          >
+         Enterprise Single Sign-On Playbook
+      </a>
+      
+    </li>
+    
+      
+      
+      
+    <li class="usa-sidenav__item">
+      <a href="/playbooks/altauthn/"
+         
+          >
+         Phishing-Resistant Authenticator Playbook
+      </a>
+      
+    </li>
+    
+      
+      
+      
+    <li class="usa-sidenav__item">
+      <a href="/docs/playbook-identity-governance-framework.pdf"
+         
+          >
+         ICAM Governance Framework
+      </a>
+      
+    </li>
+    
+      
+      
+      
+    <li class="usa-sidenav__item">
+      <a href="/playbooks/idfraud/"
+         
+          >
+         Identity Fraud Detection Playbook
+      </a>
+      
+    </li>
+    
+      
+      
+      
+    <li class="usa-sidenav__item">
+      <a href="/playbooks/ilm/"
+          class="usa-current" 
+          >
+         Identity Lifecycle Management Playbook
+      </a>
+      
+      <ul class="usa-sidenav__sublist">
+        
+  <li>
+    <a href="#executive-summary" >Executive Summary </a>
+  </li>
+
+  <li>
+    <a href="#key-terms" >Key Terms </a>
+  </li>
+
+  <li>
+    <a href="#disclaimer" >Disclaimer </a>
+  </li>
+
+  <li>
+    <a href="#identity-lifecycle-management-101" >Identity Lifecycle Management 101 </a>
+  </li>
+
+  <li>
+    <a href="#stage-1---creation-provisioning" >Stage 1. Creation (Provisioning) </a>
+  </li>
+
+  <li>
+    <a href="#stage-2---modification-managementaccess-adjustment" >Stage 2. Modification (Management/Access Adjustment) </a>
+  </li>
+
+  <li>
+    <a href="#stage-3---deletion-deprovisioningrevocation" >Stage 3. Deletion (Deprovisioning/Revocation) </a>
+  </li>
+
+  <li>
+    <a href="#shifting-the-focus-from-managing-authenticator-lifecycles-to-managing-identity-lifecycles" >Shifting Focus from Authenticators to Identities </a>
+  </li>
+
+  <li>
+    <a href="#implementing-ilm" >Implementing ILM </a>
+  </li>
+
+  <li>
+    <a href="#step-1-create-and-document-an-agency-ilm-policy-that-follows-zta-and-iga-best-practices" >Step 1. Create and Document an Agency ILM Policy </a>
+  </li>
+
+  <li>
+    <a href="#step-2-architect-the-solution" >Step 2. Architect the Solution </a>
+  </li>
+
+  <li>
+    <a href="#step-3-create-the-master-user-record" >Step 3. Create the Master User Record </a>
+  </li>
+
+  <li>
+    <a href="#step-4-integrate-with-agency-enterprise-services" >Step 4. Integrate with Agency Enterprise Services </a>
+  </li>
+
+  <li>
+    <a href="#summary" >Summary </a>
+  </li>
+
+  <li>
+    <a href="#appendix-a-policies-standards-and-guidance" >Appendix A. Policies, Standards, and Guidance </a>
+  </li>
+
+      </ul>
+      
+    </li>
+    
+      
+      
+      
+    <li class="usa-sidenav__item">
+      <a href="/playbooks/pam/"
+         
+          >
+         Privileged Identity Playbook
+      </a>
+      
+    </li>
+    
+  </ul>
+</nav>
+
+        </div>
+      
+
+      <main class="usa-layout-docs usa-layout-docs__main usa-prose desktop:grid-col-9" id="main-content">
+        
+          <h1>Identity Lifecycle Management Playbook</h1>
+        
+        <p><strong>The Identity Lifecycle Management Working Group of the Federal Chief Information Security Officer Council ICAM Subcommittee developed this playbook to help federal agencies understand and plan identity lifecycle management initiatives.</strong></p>
+
+<p><strong>Date: March 31, 2026 - Version: 1.4</strong></p>
+
+<p><br /></p>
+<div class="usa-accordion usa-accordion--bordered">
+  <h4 class="usa-accordion__heading">
+    <button type="button" class="usa-accordion__button" aria-expanded="false" aria-controls="v-a1">
+      Date: March 2026 - Version: 2.0
+    </button>
+  </h4>
+  <div id="v-a1" class="usa-accordion__content usa-prose">
+    <table>
+    <caption>Identity Lifecycle Management version table</caption>
+    <thead>
+    <tr>
+        <th scope="col">
+        Version Number
+        </th>
+        <th scope="col">
+        Date
+        </th>
+        <th scope="col">
+        Change Description
+        </th>
+    </tr>
+    </thead>
+     <tr>
+        <th scope="row">
+        1.4
+        </th>
+        <td>3/31/2026</td>
+        <td>Major update incorporating Enhanced Authentication Standards, Federation Requirements, Privacy Impact Assessment Requirements, Incident Response Framework, and Performance Metrics aligned with NIST 800-63 standards.</td>
+    </tr>
+     <tr>
+        <th scope="row">
+        1.3
+        </th>
+        <td>6/18/2024</td>
+        <td>Incorporated Zero Trust elements.</td>
+    </tr>
+      <tr>
+        <th scope="row">
+        1.2
+        </th>
+        <td>12/15/2022</td>
+        <td>Minor editorial updates.</td>
+    </tr>
+    <tr>
+        <th scope="row">
+        1.1
+        </th>
+        <td>10/11/2022</td>
+        <td>Move 3rd party federation content to the Cloud Identity Playbook federation section.</td>
+    </tr>
+    <tr>
+        <th scope="row">
+        1.0
+        </th>
+        <td>06/30/2022</td>
+        <td>Initial Draft.</td>
+    </tr>
+    </table>
+  </div>
+</div>
+
+<h2 id="executive-summary">Executive Summary</h2>
+
+<p>The <strong>Identity Lifecycle Management (ILM) Playbook</strong> assists federal agencies in modernizing their digital identity processes to meet Zero Trust Architecture mandates, such as those outlined in Executive Order 14028 and OMB M-22-09.</p>
+
+<p><strong>Core Objective</strong>: The playbook guides agencies to <strong>shift from merely managing authenticators</strong> (e.g., verifying a valid PIV card) <strong>to managing the continuous lifecycle of digital identities</strong>. This identity-centric approach uses contextual data—such as user attributes, device health, and risk—to make access decisions, fundamentally supporting the “never trust, always verify” principle of Zero Trust.</p>
+
+<p><strong>The Identity Lifecycle Process</strong>: To strictly enforce the principle of least privilege, the playbook emphasizes automating three critical lifecycle stages:</p>
+
+<ul>
+  <li><strong>Creation (Provisioning):</strong> Conducting rigorous identity proofing and granting only the minimum necessary access when a user is onboarded.</li>
+  <li><strong>Modification (Access Adjustment):</strong> Dynamically adjusting and auditing access rights when user roles or device postures change.</li>
+  <li><strong>Deletion (Deprovisioning/Revocation):</strong> Immediately revoking access upon a user’s departure to prevent vulnerable “orphaned” accounts.</li>
+</ul>
+
+<p><strong>Four-Step Implementation Strategy</strong>: To reach advanced and optimal Zero Trust maturity, agencies should follow four key steps:</p>
+
+<ol>
+  <li><strong>Document an ILM Policy:</strong> Establish policies that designate HR systems as the authoritative source of truth for identity creation and termination.</li>
+  <li><strong>Architect a Solution:</strong> Implement a Virtual Directory or Identity Governance and Administration (IGA) tool to aggregate and centralize user data.</li>
+  <li><strong>Create a Master User Record (MUR):</strong> Build a centralized repository that links all user attributes, entitlements, and authenticators (including both standard PIV cards and alternative FIDO2 credentials) into a single view.</li>
+  <li><strong>Integrate Enterprise Services:</strong> Connect the MUR with enterprise tools like Single Sign-On (SSO) to automate access management and enable secure, attribute-based cross-agency federation.</li>
+</ol>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>The Identity Lifecycle Management (ILM) Playbook is a practical guide on identity lifecycle management to help federal agencies understand how to shift the focus from managing access based on authenticators to managing the lifecycle of identities as outlined in section III of OMB Memo 19-17, Enabling Mission Delivery through Improved Identity, Credential, and Access Management (ICAM). This focus shift is supported by OMB Memo 22-09, Moving the U.S. Government Toward Zero Trust Cybersecurity Principles.</p>
+
+<p>Driven by Executive Order 14028, Improving the Nation’s Cybersecurity, OMB M-22-09 mandates that departments and agencies shall enforce the transition to a Zero Trust Architecture (ZTA). The <a href="https://www.cisa.gov/resources-tools/resources/zero-trust-maturity-model" target="_blank" rel="noopener noreferrer" class="usa-link usa-link--external">CISA Zero Trust Maturity Model</a> (ZTMM) defines the five pillars of a ZTA and OMB M-22-09 describes federal strategic goals and agency actions for each pillar.</p>
+
+<p>This playbook focuses on the M-22-09 Identity Pillar and its associated actions described below. These actions enable agencies to achieve zero trust security goals and support the identity strategic goal for agency staff to use “enterprise-managed identities to access the applications they use in their work. Phishing-resistant MFA protects those personnel from sophisticated online attacks.” These actions are:</p>
+
+<ol>
+  <li>Agencies must employ centralized identity management systems for agency users that can be integrated into applications and common platforms.</li>
+  <li>Agencies must use strong MFA throughout their enterprise.
+    <ul>
+      <li>MFA must be enforced at the application layer, instead of the network layer.</li>
+      <li>For agency staff, contractors, and partners, phishing-resistant MFA is required.</li>
+      <li>For public users, phishing-resistant MFA must be an option.</li>
+      <li>Password policies must not require use of special characters or regular rotation.</li>
+    </ul>
+  </li>
+  <li>When authorizing users to access resources, agencies must consider at least one device-level signal alongside identity information about the authenticated user.</li>
+</ol>
+
+<p>Agencies can use this playbook to:</p>
+
+<ol>
+  <li>Understand identity lifecycle management, and identify the steps to create and integrate identity lifecycle management within an agency.</li>
+  <li>Expand current PIV infrastructure for alternative phishing-resistant authenticators such as FIDO2-based authenticators.</li>
+  <li>Integrate centralized identity management systems to ensure identity lifecycle management consistency across the enterprise.</li>
+</ol>
+
+<h3 id="audience-and-stakeholder-engagement">Audience and Stakeholder Engagement</h3>
+
+<p>This playbook is designed for identity program managers and enterprise and application architects interested in modernizing their identity management process. Other IT program participants, including program managers and application teams, may find value in incorporating this playbook approach in their planning to meet the target maturity levels required by the Federal Zero Trust Strategy.</p>
+
+<p>The table below lists secondary stakeholders and how to engage them.</p>
+
+<p><strong>Table 1: Stakeholder Table</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Stakeholder</strong></th>
+      <th><strong>Stakeholder Type</strong></th>
+      <th><strong>Engagement Point</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Agency ICAM Governance</td>
+      <td>Governance Body</td>
+      <td>Reduce risk through lifecycle management and meet the intent of OMB M-19-17 and M-22-09.</td>
+    </tr>
+    <tr>
+      <td>Application Owners</td>
+      <td>Office</td>
+      <td>ICAM service consolidation and modernization to identity-centric security processes.</td>
+    </tr>
+    <tr>
+      <td>Human Resources</td>
+      <td>Office</td>
+      <td>Authoritative attribute source for employment status to automate onboarding, offboarding, and identity lifecycle consistency.</td>
+    </tr>
+    <tr>
+      <td>Security/Vetting</td>
+      <td>Office</td>
+      <td>Eligibility, visibility, audit, reporting, and authoritative attribute source to support the MUR and the OMB M-21-31 event logging requirements.</td>
+    </tr>
+    <tr>
+      <td>Training</td>
+      <td>Office</td>
+      <td>Authoritative attribute source for security awareness and role-based training status to ensure conditional access and identity lifecycle consistency.</td>
+    </tr>
+    <tr>
+      <td>Service Desk</td>
+      <td>Office</td>
+      <td>Support Staff to facilitate phishing-resistant authenticator enrollment, self-service authenticator management, and identity lifecycle consistency.</td>
+    </tr>
+    <tr>
+      <td>User</td>
+      <td>Office</td>
+      <td>All user types doing business with the federal government.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="key-terms">Key Terms</h3>
+
+<p>Below are key terms used throughout this Playbook. Where possible, the source of the definition is identified at the end. Definitions with no attribution are unique to this document.</p>
+
+<p><strong>Attribute</strong> - A quality or characteristic ascribed to someone or something. An identity attribute is an attribute about the identity of a subscriber (e.g., name, date of birth, address). [NIST SP 800-63-4]</p>
+
+<p><strong>Authoritative Source</strong> - An entity that has access to or verified copies of accurate information from an issuing source such that a CSP has high confidence that the source can confirm the validity of the identity attributes or evidence supplied by an applicant during identity proofing. An issuing source may also be an authoritative source. Often, authoritative sources are determined by a policy decision of the agency or CSP before they can be used in the identity proofing validation phase. [NIST SP 800-63-4]</p>
+
+<p><strong>Card Management System (CMS)</strong> - The system that manages the lifecycle of a PIV Card application. [FIPS 201-3]</p>
+
+<p><strong>Credential Management System</strong> - The system that manages the lifecycle of entity credentials used for authentication. [NISTIR 7497]</p>
+
+<p><strong>Derived PIV Credential</strong> - An X.509 Derived PIV Authentication certificate, which is issued in accordance with the requirements specified in [NIST SP 800-157] where the PIV Authentication certificate on the Applicant’s PIV Card serves as the original credential. The Derived PIV Credential is an additional common identity credential under HSPD-12 and FIPS 201 that is issued by a federal department or agency and that is used with mobile devices. [NIST SP 800-157]</p>
+
+<p><strong>Alternative Phishing-Resistant Credential</strong> - A credential that is equivalent to PIV, per NIST AAL3 requirements, and issued to identities where PIV is not accessible, such as mobile, interim, or external, use cases.</p>
+
+<p><strong>Federal Enterprise Identity</strong> - The unique representation of an employee, a contractor, an enterprise user, such as a mission or business partner, a device, or a technology that a Federal agency manages to achieve its mission and business objectives. [OMB M-19-17] This is also known as Workforce Identity.</p>
+
+<p><strong>Federation</strong> - A process that allows for the conveyance of identity and authentication information across a set of networked systems. [NIST SP 800-63-4]</p>
+
+<p><strong>Fast Identity Online (FIDO)</strong> - A set of standards created by the FIDO Alliance to gain adoption for stronger and simpler authentication technology over usernames/passwords and other legacy methods for signing into online services. [FIDO Alliance]</p>
+
+<p><strong>FIDO2</strong> - A joint project between the FIDO Alliance and the W3C standards organizations. It is a protocol that offers strong passwordless multi-factor authentication, such as biometric features, hardware keys, smart cards, or Trusted Platform Modules (TPM), and asymmetric key encryption. The FIDO2 protocol combines the FIDO Alliance’s Client to Authenticator Protocol (CTAP) and W3C’s WebAuthn API. [FIDO Alliance] Authenticators that use FIDO2 and meet all requirements for AAL3 can be used as an alternative to PIV.</p>
+
+<p><strong>Identity</strong> - An attribute or set of attributes that uniquely describes a subject within a given context. Also known as a digital identity. [NIST SP 800-63-4]</p>
+
+<p><strong>Identity Lifecycle Management</strong> - The administrative and technical activities required to manage a digital identity throughout its lifecycle - creation, modification, and deactivation.</p>
+
+<p><strong>Identity Management System (IDMS)</strong> - One or more systems or applications that manage the identity proofing, registration, and issuance processes.[FIPS 201-3]</p>
+
+<p><strong>Identity Governance and Administration (IGA) System</strong> - A set of policies, processes, and technologies designed to manage digital identities and access across an agency. It aims to streamline identity management by providing a centralized approach to managing user identities, their access rights, and entitlements. IGA helps agencies maintain identity security by ensuring that a user’s identity is appropriately managed, and that access control mechanisms are in place to prevent inappropriate access to applications and data. Through identity lifecycle management and automation, IGA systems ensure identities and access privileges are up-to-date and aligned with business and mission needs. Similar to Account Management System.</p>
+
+<p><strong>Identity Proofing</strong> - The processes used to collect, validate, and verify information about a subject to establish assurance in the subject’s claimed identity. [NIST SP 800-63-4]</p>
+
+<p><strong>Master User Record (MUR)</strong> - A centralized data repository that hosts a record of all entitlements entities (users) have been granted. It includes attributes about trust, credentials, access and permission authorization, accounts, and training for specific roles and responsibilities. Also known as an Entitlement Catalog or Identity Warehouse. [DoS &amp; DoD]</p>
+
+<p><strong>Persona</strong> - An electronic identity that can be unambiguously associated with a single person or non-person entity (NPE). A single person or NPE may have multiple personas, with each persona being managed by the same or different organizations. [CNSSI 4009-2015]</p>
+
+<p><strong>Passkeys</strong> - A FIDO authentication credential based on FIDO standards, that allows a user to sign in to apps and websites with the same process that they use to unlock their device (biometrics, PIN, or pattern). Passkeys are FIDO cryptographic credentials that are tied to a user’s account on a website or application. With passkeys, users no longer need to enter usernames and passwords or additional factors. Instead, a user approves a sign-in with the same process they use to unlock their device (for example, biometrics, PIN, pattern). [FIDO Alliance]</p>
+
+<p><strong>Public Identity</strong> - The unique representation of a subject that a Federal agency interacts with, but does not directly manage, in order to achieve its mission and business objectives. Public identity may also refer to a mechanism of trust used to render services to the American public. [OMB M-19-17]</p>
+
+<p><strong>PIV Identity Account</strong> - The logical record containing credentialing information for a given PIV cardholder. This is stored within the issuer’s identity management system and includes PIV enrollment data, cardholder identity attributes, and information regarding the cardholder’s PIV Card and any derived PIV credentials bound to the account. [FIPS 201-3]</p>
+
+<p><strong>Orphan Account</strong> - A user or system account that remains active in IT systems, software, or database but is not linked to a valid, current digital identity or identifiable subject. These accounts typically lack authoritative governance within an IDMS and represent a significant security risk, such as unauthorized access or data breaches.</p>
+
+<p><strong>Vetting</strong> - The process by which covered individuals undergo investigation, evaluation, and adjudication of whether they are, and remain over time, suitable or fit for Federal employment, eligible to occupy a sensitive position, eligible for access to classified information, eligible to serve as a nonappropriated fund employee or a contractor, eligible to serve in the military, or authorized to be issued a Federal credential. Vetting includes all steps in the end-to-end process, including determining need (appropriate position designation), validating need (existence of a current investigation or adjudication), collecting background information via standard forms, investigative activity, adjudication, providing administrative due process or other procedural rights, and ongoing assessments to ensure that individuals continue to meet the applicable standards for the position for which they were favorably adjudicated. [EO 13764]</p>
+
+<h3 id="disclaimer">Disclaimer</h3>
+
+<p>U.S. Federal Executive Branch agencies can use this Playbook to plan identity lifecycle activities and services related to the FICAM Architecture Services Framework. This Playbook is not official policy, mandated action, or intended to provide authoritative information technology terms. It includes best practices to supplement and build on existing federal policies listed above and existing FICAM guidance and playbooks. Policies and guidelines with intersecting scopes are considered only to the extent that they relate to ICAM services. Privileged access management (e.g., superusers, domain administrators) and identities of public users of externally facing online services are out of scope for this Playbook.</p>
+
+<h2 id="identity-lifecycle-management-101">Identity Lifecycle Management 101</h2>
+
+<p>The purpose of good ILM is to ensure that information is accessed by the right users, at the right time, and for the right purposes. It is at the core of a ZTA since access to and protection of federal data relies on well managed digital identities, starting with the creation of the digital identity from a properly vetted/identity proofed individual and binding the identity with accounts created on multiple systems, modifying identity permissions due to changing positions/roles within the agency, and ending with deletion due to leaving the agency.</p>
+
+<p>This playbook has two sections.</p>
+
+<ol>
+  <li>
+    <p><strong>Identity Lifecycle Management Process:</strong> This section is an overview of identity lifecycle management and the distinct processes involved. It also gives a brief description of the similarities and differences in managing an authenticator versus managing an identity.</p>
+  </li>
+  <li>
+    <p><strong>Shifting the Focus from Managing Authenticators to Managing Identities:</strong> This second section outlines a four-step process that an agency can utilize to implement ILM and shift the focus from authenticator management to identity management:</p>
+    <ol>
+      <li>Document the purpose and goals of identity lifecycle management in an agency policy.</li>
+      <li>Architect a solution based on either using a virtual directory or an identity governance and administration (IGA) tool to support automated ILM and other ICAM activities.</li>
+      <li>Create a master user record (MUR) that aggregates digital identity attributes, entitlements, accounts, authenticators, and other information to support centralized identity lifecycle management.</li>
+      <li>Integrate identity lifecycle management into agency enterprise services.</li>
+    </ol>
+  </li>
+</ol>
+
+<p>Agencies are encouraged to tailor this process to fit their unique organizational structure, mission needs, and requirements.</p>
+
+<h3 id="identity-lifecycle-management-process">Identity Lifecycle Management Process</h3>
+
+<p>In ZTA, the Identity Lifecycle Management stages of creation, modification, and deletion are critical for enforcing the principle of least privilege, ensuring that access rights are automatically provisioned, adjusted, and revoked to prevent unauthorized access or lateral movement. These stages follow the Identity Governance and Administration (IGA) best practices:</p>
+
+<ul>
+  <li><strong>Creation (Provisioning):</strong> Occurs when a new user, machine or device is added. This involves identity proofing and assigning minimum necessary entitlements (least privilege) upon enrollment and provisioning of the authenticator.</li>
+  <li><strong>Modification (Management/Access Adjustment):</strong> Occurs when a user changes roles or a device’s posture changes. Access rights are dynamically updated to match the new role, reducing standing privileges that attackers exploit.</li>
+  <li><strong>Deletion (Deprovisioning/Revocation):</strong> Occurs when a user leaves or a device is retired. Immediate, automated deletion or suspension of accounts is crucial to remove dormant access pathways.</li>
+</ul>
+
+<p><strong>Figure 1: Identity Lifecycle Management Process</strong>
+<br /><br />
+<img src="/assets/playbooks/ilm playbook ss1.png" alt="identity lifecycle lifecycle management process." width="454" />
+<br /></p>
+
+<h3 id="stage-1---creation-provisioning">Stage 1 - Creation (Provisioning)</h3>
+
+<p>Creation (Provisioning) - At this stage, a new user has joined the agency. To ensure the person is who they say they are, they go through the IAL3 identity proofing process described in NIST SP 800-63A-4. Identity proofing at IAL3 meets the requirements for PIV eligibility and is mandatory for federal employees, contractors and anyone working for, or on behalf of, the government.</p>
+
+<p>Upon successful identity proofing, the new user’s information is added to a Master User Record for that user and a digital identity is created. At this point, the identity is bound to one or more phishing-resistant, multi-factor authenticators such as a PIV card or FIDO2 token and user accounts are created for the IT systems that the user will need based on the user’s roles. The authentication level requirements are also based on the user’s roles and systems that the user will need to access. PIV cards and FIDO2 tokens are AAL3 authenticators, meeting all the AAL3 requirements listed in NIST SP 800-63B-4 including phishing-resistance, MFA, and non-exportability. In some cases, an AAL2 authenticator may be acceptable, allowing for the use of syncable authenticators. The last step in the Creation stage is that the user’s digital identity is bound to all authenticators assigned to the user and the user’s attributes, credentials, access and permission authorizations, accounts, and training for their specific roles and responsibilities are entered into the agency Master User Record (MUR) repository.</p>
+
+<h3 id="stage-2---modification-managementaccess-adjustment">Stage 2 - Modification (Management/Access Adjustment)</h3>
+
+<p>Modification (Management/Access Adjustment) - Once the digital identity has been created and the authenticators issued, ILM stage 2 is a continuous evaluation and improvement process. The initial user accounts are created. These accounts are monitored and maintained, with access permissions being adjusted as jobs and roles change, new accounts are created as needed to accommodate the new jobs and roles, and the MUR is updated accordingly. All system accesses are continuously monitored to ensure correct permissions are in place and information is accessed by the right users, at the right time, and for the right purposes as mandated in M-22-09. Much, if not all, of the steps in this stage are automated using the centralized identity management system that is integrated into applications and common platforms as specified in OMB M-22-09 Identity Pillar action item #1.</p>
+
+<h3 id="stage-3---deletion-deprovisioningrevocation">Stage 3 - Deletion (Deprovisioning/Revocation)</h3>
+
+<p>Deletion (Deprovisioning/Revocation) - Of critical importance is the deletion of digital identities and the deactivation, including suspension, archiving, or deletion of associated accounts and authenticators when a user leaves the agency. Automating this stage to remove user information from the agency MUR ensures that there are no orphaned accounts once someone is no longer part of the agency.</p>
+
+<h3 id="piv-alternative-authenticators">PIV Alternative Authenticators</h3>
+
+<p>A PIV card is the result of identity proofing/vetting. After identity proofing and initial identity vetting are complete (to include interim eligibility through favorable review of fingerprint results and initiation of required investigation), a human identity is bound to a PIV card through the public key infrastructure certificate issued on the PIV smart card. The smart card is bound to the digital identity in an agency’s MUR and enterprise identity management system. This can then be provisioned to other directories, applications, physical access control systems, and single sign-on systems. Without this binding, the PIV card is just a physical identification badge.</p>
+
+<p>The process used to bind a PIV to a digital identity is the same process an agency can use to bind other PKI and Non-PKI Derived PIV authenticators. Federal Information Processing Standard (FIPS) 201-3 section 2.10 states the following on Derived PIV authenticators, which must meet AAL2 or higher as defined in the NIST SP 800-64B-4 Digital Identity Guidelines.</p>
+
+<ol>
+  <li>Binding and issuing of Derived PIV authenticators shall use valid PIV Cards to establish cardholder identity.</li>
+  <li>Derived PIV authenticators shall meet the requirements for Authenticator Assurance Level (AAL) 2 or 3 specified in NIST Special Publication 800-63B-4.</li>
+  <li>Derived PIV authenticators shall be bound to the cardholder’s PIV identity account only by the issuing department or agency responsible for managing the PIV identity account in the agency’s enterprise identity management system.</li>
+</ol>
+
+<p>Derived PIV authenticators are not embedded in the PIV card, but are stand-alone authenticators integrated into a variety of devices or platforms. This binding of multiple Derived PIV authenticators is possible through creating a Master User Record. These Derived PIV authenticators can include a stand-alone Fast ID Online (FIDO) 2 using Web Authentication (WebAuthN) mentioned in OMB Memo 22-09.</p>
+
+<p>The most common way to integrate non-PKI-derived authenticators is through a modern Single Sign On tool or operating system that supports FIDO2 or WebAuthN. Derived PIV authenticators play an important role in environments where a smart card is not cost effective or supported such as chrome operating system, mobile devices, and secure offices. Per OPM, December 2020 guidance if the PIV authenticator is suspended or revoked, any associated derived authenticators must also be suspended or revoked.</p>
+
+<h2 id="shifting-the-focus-from-managing-authenticator-lifecycles-to-managing-identity-lifecycles">Shifting the Focus from Managing Authenticator Lifecycles to Managing Identity Lifecycles</h2>
+
+<p>A key theme in NIST SP 800-207 and the CISA ZTMM, and reflected in OMB M-22-09, is for federal agencies to shift the focus from managing the lifecycle of authenticators to managing the lifecycle of identities where the user identity, its attributes, and associated context (device, risk) drive access decisions in a mature zero trust environment.</p>
+
+<p>The CISA ZTMM stages of maturity are:</p>
+
+<ul>
+  <li><strong>Traditional:</strong> Fragmented user accounts, manual provisioning.</li>
+  <li><strong>Advanced:</strong> Centralized identity management for all users and NPEs.</li>
+  <li><strong>Optimal:</strong> Fully automated lifecycle management with just-in-time (JIT) and just-enough access (JEA) based on real-time risk assessment.</li>
+</ul>
+
+<p>A comparison of identity-centric versus authenticator-centric lifecycle management is shown in Table 3.</p>
+
+<p><strong>Table 3: Identity-Centric Vs. Authenticator-Centric</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Feature</strong></th>
+      <th><strong>Identity-Centric</strong></th>
+      <th><strong>Authenticator-Centric</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Primary Focus</td>
+      <td>The User/Entity and their attributes</td>
+      <td>The authenticator (e.g., password, PIV, FIDO2 token, etc.)</td>
+    </tr>
+    <tr>
+      <td>Access Decision</td>
+      <td>Contextual (User + Device + Time + Risk) supporting the “never trust, always verify” principle of Zero-Trust</td>
+      <td>Binary (valid/invalid token)</td>
+    </tr>
+    <tr>
+      <td>Management Scope</td>
+      <td>Entire lifecycle (Creation → Modification → Deletion)</td>
+      <td>Authenticator issuance/expiration</td>
+    </tr>
+    <tr>
+      <td>ZT Maturity</td>
+      <td>Advanced/Optimal</td>
+      <td>Traditional</td>
+    </tr>
+    <tr>
+      <td>Security Metric</td>
+      <td>Least privilege &amp; Continuous validation</td>
+      <td>Phishing-resistant MFA</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="usa-alert usa-alert--info">
+<div class="usa-alert__body">
+<h4 class="usa-alert__heading">Myth Busted - A PIV Card is my only option</h4>
+<p class="usa-alert__text">
+While an employee using PIV is the ultimate security goal, what happens when a PIV is either not available or not compatible with the access requirements? Employees lose PIV cards and it may take days, weeks, or months for an employee to receive their new or replacement PIV. An agency should have a phishing-resistant alternative when a PIV card is not available. Allowing username and password as a backup option should not be the default policy exception as OMB-22-09 mandates phishing-resistant MFA for all workforce access. Under the NIST SP 800-63-4 guidelines, agencies should utilize FIDO2-based hardware tokens or syncable authenticators, such as passkeys, to maintain an AAL2 or higher during PIV unavailability.
+</p>
+</div>
+</div>
+
+<h3 id="key-shifts-required">Key Shifts Required</h3>
+
+<ol>
+  <li><strong>Centralization:</strong> Shifting from fragmented systems to a unified, central identity management system.</li>
+  <li><strong>Context-Aware Access:</strong> Authentication must move beyond one-time verification to continuous monitoring of user behavior and device health.</li>
+  <li><strong>Automated Governance:</strong> Implementing IGA tools to automatically revoke access when roles change or users leave (See figure 4).</li>
+  <li><strong>NPE Management:</strong> Treating bots, applications, and services (NPEs) as identities with their own lifecycle and access policies.</li>
+</ol>
+
+<p><strong>Figure 2: ILM Automation</strong>
+<br /><br />
+<img src="/assets/playbooks/ilm playbook ss2.png" alt="ilm automation." width="454" />
+<br /></p>
+
+<h3 id="implementing-ilm">Implementing ILM</h3>
+
+<p>This section outlines a four-step process for implementing ILM in an agency.</p>
+
+<h4 id="step-1-create-and-document-an-agency-ilm-policy-that-follows-zta-and-iga-best-practices">Step 1: Create and document an agency ILM policy that follows ZTA and IGA best practices.</h4>
+
+<p>An effective Agency Identity Lifecycle Management (ILM) policy, aligned with Zero Trust Architecture (ZTA - NIST SP 800-207) and Identity Governance and Administration (IGA) best practices, must treat identity as the new security perimeter. It moves away from static, role-based access towards dynamic, context-aware authorization. This policy should incorporate and enable the following foundational principles:</p>
+
+<ul>
+  <li><strong>Authoritative Source of Truth:</strong> The HR/personnel system is the sole driver of identity creation and termination.</li>
+  <li><strong>Never Trust, Always Verify (ZTA):</strong> There is no implicit trust based on network location or past behavior. Every session requires authentication and authorization.</li>
+  <li><strong>Principle of Least Privilege:</strong> Users are granted the minimum access necessary to perform their function and only for the time needed.</li>
+  <li><strong>Unified Identity View:</strong> The policy dictates comprehensive governance over all entities (human and NPEs, including AI agents) that have access to agency data.</li>
+</ul>
+
+<p>The agency ILM policy document identifies the roles and responsibilities required to implement the ILM process. It is a good practice to coordinate the document through the agency’s ICAM governance body to ensure all interested stakeholders are aware of the initiative and their respective responsibilities. This document should complement or be included in the agency’s existing ICAM policy. For more information on ICAM program management or the ICAM governance body, see the <a href="https://www.idmanagement.gov/university/pm/" target="_blank" rel="noopener noreferrer" class="usa-link usa-link--external">ICAM Program Management 101</a>, <a href="https://www.idmanagement.gov/playbooks/" target="_blank" rel="noopener noreferrer" class="usa-link usa-link--external">ICAM Governance Framework Playbook</a>, and the <a href="https://www.idmanagement.gov/icam-fibf/" target="_blank" rel="noopener noreferrer" class="usa-link usa-link--external">ICAM Federal Integrated Business Framework</a>. The agency policy should include the following elements.</p>
+
+<ol>
+  <li>
+    <p>Outline the purpose of implementing ILM.</p>
+  </li>
+  <li>The roles and responsibilities associated with the ILM process. These roles and responsibilities can be identified and tailored to meet the needs of individual agencies. Some examples include:
+    <ul>
+      <li>Training Office to gather security training status.</li>
+      <li>Security/Vetting Office to gather PIV eligibility status.</li>
+      <li>HR Office to gather employment information status, perform identity proofing, and issue authenticators.</li>
+      <li>Application Owners to identify entitlements that are appropriate to a role and assigned to a user.</li>
+    </ul>
+  </li>
+  <li>
+    <p>Specific steps, actions, and requirements each stage of the ILM process that aligns with the FICAM architecture identity management services, ZTA/IGA best practices, and all applicable federal laws, regulations, and guidelines such as M-22-09, M-19-17, NIST SP 800-207, NIST SP 800-63-4, and CISA ZTMM. Whenever possible, the applicable driver for the requirement should be identified with the requirement. For example:</p>
+
+    <ul>
+      <li><strong>Stage 1, Creation (Provisioning):</strong>
+        <ul>
+          <li>Rigorous Verification: Adherence to NIST SP 800-63A-4 requirements for identity proofing at IAL3 before creating a digital identity.</li>
+          <li>Unique Identifier Generation: Creating a persistent, unique identifier that remains with the entity, regardless of role changes using an MUR.</li>
+          <li>Automated Provisioning: “Day One” access is automated based on HR data, removing manual ticket requests.</li>
+          <li>Birthright Access: Automatically provisioning baseline, essential system permissions to new employees, contractors, or partners immediately upon joining an organization, typically determined by their role, department, or job function. This streamlines onboarding and boosts productivity.</li>
+          <li>Phishing-Resistant MFA: All authenticators fulfill the OMB M-22-09 requirements for phishing-resistant MFA.</li>
+        </ul>
+      </li>
+      <li><strong>Stage 2, Modification (Management/Access Adjustment):</strong>
+        <ul>
+          <li>Automated Re-Provisioning: Triggered by HR attribute changes in the MUR (promotion, transfer, etc.).</li>
+          <li>Privilege Audit: Immediate removal of legacy access rights not required by the new role (to prevent “entitlement creep”).</li>
+          <li>Access Control protocols: Use of Attribute-based Access Controls or other access control model that allows the use of real-time changes to the content of the user’s MUR (department, project, risk score) to determine access, not just roles.</li>
+        </ul>
+      </li>
+      <li><strong>Stage 3, Deletion (Deprovisioning/Revocation):</strong>
+        <ul>
+          <li>Immediate Revocation: Automated, near-real-time revocation of access upon termination (within minutes).</li>
+          <li>Orphan Account Remediation: Automated identification and removal of accounts not linked to an active HR/MUR record.</li>
+          <li>Account Retirement/Archiving: Instead of immediate deletion, accounts are disabled to maintain audit logs, then archived per policy.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Other sections in the policy could include:</p>
+
+    <ul>
+      <li><strong>IGA Governance Elements</strong>
+        <ul>
+          <li>Automated Access Certification/Reviews: Regular, mandatory review of user entitlements by managers, with automated revocation if uncertified.</li>
+          <li>Segregation of Duties Policies: Automated detection and prevention of conflicting access rights (e.g., preventing a user from both initiating and approving a payment).</li>
+          <li>Workflow Automation: Standardized approval workflows for access requests beyond birthright, requiring manager and resource owner approval.</li>
+        </ul>
+      </li>
+      <li><strong>ZTA Integration Elements</strong>
+        <ul>
+          <li>Context-Aware Access (Conditional Access): Access decisions consider user identity, device health/posture, location, and behavior.</li>
+          <li>Just-in-time (JIT) Access: Privileged or highly sensitive access is temporary and granted on-demand, expiring automatically.</li>
+          <li>Continuous Monitoring and Risk Analytics: Real-time analysis of authentication logs to identify anomalies (e.g., “impossible travel”) and trigger automated re-authentication or revocation.</li>
+          <li>Non-Human Identity (NHI) Management: Governing bot, API, and service account lifecycles.</li>
+        </ul>
+      </li>
+      <li><strong>Auditing and Compliance</strong>
+        <ul>
+          <li>Centralized Logging: All lifecycle events must be logged in a tamper-proof system.</li>
+          <li>Audit Trail Retention: Maintaining records of who authorized access, why, and when, satisfying all FISMA/SOX/NIST requirements.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Appendices for a Glossary and all references used in the creation of the policy requirements.</li>
+  <li>Agency point of contact.</li>
+</ol>
+
+<p>An agency policy ensures an agency-wide commitment to implementing and operating an identity lifecycle management process.</p>
+
+<div class="usa-alert usa-alert--info">
+<div class="usa-alert__body">
+<h4 class="usa-alert__heading">Myth Busted - We don't need a specific policy for Identity Lifecycle Management</h4>
+<p class="usa-alert__text">
+While an agency doesn't need a stand-alone policy for ILM, either having a policy or integrating lifecycle management into your agency policy ensures a consistent approach with executive leadership support. Without leadership support, your ILM initiative may not achieve enterprise-wide adoption or meet the mandatory maturity levels required by the Federal Zero Trust Strategy. A documented policy is essential for full alignment of IGA/ZTA best practices.
+</p>
+</div>
+</div>
+
+<h4 id="step-2-architect-the-solution">Step 2: Architect the Solution</h4>
+
+<p>The solution is how your agency will implement ILM. Most solutions are based on two technologies.</p>
+
+<ol>
+  <li>
+    <p><strong>Virtual Directory</strong> - A virtual directory for ILM acts as a centralized abstraction layer, aggregating user data from multiple sources. An Enterprise Identity Store is an example of a virtual directory. Data sources include multiple Active Directory instances, application directories, cloud directories, Lightweight Directory Access Protocol (LDAP), Application Programming Interface (API), or System for Cross-domain Identity Management (SCIM) to aggregate data into a single, real-time view without needing data synchronization. A virtual directory is often necessary for large organizations that have user directories operated across multiple operational components or divisions. Some Single Sign-On tools, which perform access management, may also support a virtual directory capability.</p>
+  </li>
+  <li>
+    <p><strong>Identity Governance and Administration (IGA)</strong> - An IGA tool inventories, analyzes, and reports on access and entitlements within an enterprise. It has virtual directory features to aggregate identity information from multiple other directories. By integrating with authoritative sources and applications an IGA tool can report on who has access, what they can access, and why they have access. An IGA tool is a primary mechanism to perform access reviews. It can be a stand-alone tool or part of an IDMS suite.</p>
+  </li>
+</ol>
+
+<p>Each tool has a distinct purpose. Your agency should consider your overall ICAM architecture to understand the cost, overlapping capabilities, and talent necessary to implement and maintain an ILM capability to meet the advanced/optimal maturity levels targeted by the Federal Zero Trust Strategy.</p>
+
+<h4 id="step-3-create-the-master-user-record">Step 3: Create the Master User Record</h4>
+
+<p>A key element of lifecycle management is the concept and provisioning of a MUR. The MUR holds the identity attributes that are leveraged in the ILM. The attributes make the identity and are the principal function of the IGA. The identities in the MUR are required for CISA Continuous Diagnostics and Mitigation (CDM) agency reporting however, agencies may add additional logic to MUR and capture additional information e.g., the type of user, type of authenticator, expiration dates and other reporting factors that trigger the IGA for the purpose of phishing-resistant alternative identities and authenticators outside of federal employees, contractors and PIV. Figure 5 depicts a sample MUR architecture.</p>
+
+<p><strong>Figure 3: CISA CDM Master User Record Architecture</strong>
+<br /><br />
+<img src="/assets/playbooks/ilm playbook ss3.png" alt="cisa cdm master user record architecture." width="454" />
+<br /></p>
+
+<p>A MUR is a unique representation of a user’s accounts, personas, attributes, entitlements, and authenticators within an organization to ensure identity lifecycle consistency.</p>
+
+<p><strong>Figure 4: Account Aggregation Process to Create a Master User Record</strong>
+<br /><br />
+<img src="/assets/playbooks/ilm playbook ss4.png" alt="account aggregation process to create a master user record." width="454" />
+<br /></p>
+
+<p>A MUR aggregates user accounts, attributes, entitlements, and issued authenticators to understand in a single view the access and authorization of a specific user. Within the CISA CDM data model, a MUR contains aggregated attributes from multiple authoritative sources to achieve identity lifecycle consistency. The below table is an overview of authoritative sources, the object types, and attributes collected.</p>
+
+<p><strong>Table 2: Data Elements in the DHS CDM Master User Record</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Authoritative Attribute Source</strong></th>
+      <th><strong>Object Type</strong></th>
+      <th><strong>Attributes Collected</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Agency HR</td>
+      <td>Role</td>
+      <td>Job Title, Department, Component, Location, Manager, User Type (Gov, Contractor, Non-Person, Other)</td>
+    </tr>
+    <tr>
+      <td>Agency HR</td>
+      <td>Status</td>
+      <td>Status (Active, Leave Type, Inactive, Suspended)</td>
+    </tr>
+    <tr>
+      <td>Agency IDMS</td>
+      <td>User</td>
+      <td>Unique Identifier (UserID), Full Name, Email</td>
+    </tr>
+    <tr>
+      <td>Agency IDMS</td>
+      <td>CRED</td>
+      <td>Authenticator Types Issued</td>
+    </tr>
+    <tr>
+      <td>Agency IDMS</td>
+      <td>Accounts</td>
+      <td>List of accounts associated with this user</td>
+    </tr>
+    <tr>
+      <td>Agency IDMS</td>
+      <td>PRIV</td>
+      <td>Privilege Type, Status, Associated System</td>
+    </tr>
+    <tr>
+      <td>Agency IDMS</td>
+      <td>Entitlement</td>
+      <td>Entitlement Type</td>
+    </tr>
+    <tr>
+      <td>Vetting System</td>
+      <td>TRUST</td>
+      <td>Eligibility, Status, Type of vetting completed</td>
+    </tr>
+    <tr>
+      <td>Training System</td>
+      <td>BEHAVE</td>
+      <td>Security Training Status, Training Types</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="authoritative-attribute-sources">Authoritative Attribute Sources</h3>
+
+<p>An authoritative attribute source is a repository or system that contains one or more attributes about an entity and is considered the primary or most reliable source for this information. For example, the most reliable source for an employee status attribute (active, leave, suspended, deactivated) is usually in a human resources system. The first step in identifying authoritative attribute sources is understanding what attributes are needed within your agency. This data analysis and collection process may include:</p>
+
+<ul>
+  <li>
+    <p><strong>Agency vetting system</strong> - Contains investigative and adjudicative results on suitability or fitness for federal employment, eligibility to occupy a sensitive position, eligibility for access to classified information, and eligibility for a federal phishing-resistant MFA authenticator (e.g., PIV). Vetting incorporates all steps in the end-to-end process, including:</p>
+
+    <ol>
+      <li>Determine the appropriate level of investigation needed for the position.</li>
+      <li>Validate whether the individual has been investigated to the necessary level and if so, if that investigation was favorably adjudicated.</li>
+      <li>Collect background information via standard forms.</li>
+      <li>Conduct the investigation.</li>
+      <li>Adjudicate the investigative information obtained.</li>
+      <li>Provide administrative due process or other procedural rights.</li>
+      <li>Perform ongoing assessments (including continuous vetting or reinvestigation) to ensure that individuals continue to meet the applicable standards for the position for which they were favorably adjudicated.</li>
+    </ol>
+
+    <p>Consult your Security/Vetting office on IT integration planning and implementation with ILM processes.</p>
+  </li>
+  <li>
+    <p><strong>Agency IDMS</strong> - One or more systems or applications that manage the identity proofing, registration, and issuance processes within an agency.</p>
+  </li>
+  <li>
+    <p><strong>Credential Management System</strong> - An agency’s system that manages the lifecycle of PIV, Tokens, and other authenticator types. This system would include the card management system for managing PIV authenticators.</p>
+  </li>
+  <li>
+    <p><strong>Application Analysis</strong> - Conducting an internal application analysis from the Single Sign-On Playbook to identify which attributes are used across which applications. For example, employee access is dependent on current and complete IT security training. The security training attribute is most likely in the agency’s training system, but specific to application access.</p>
+  </li>
+</ul>
+
+<p>Refer to NIST SP 800-63A-4 for additional information on authoritative sources for attributes that are used in creating a digital identity.</p>
+
+<p>To properly implement attribute changes, you should identify authoritative data sources that drive how the attribute change is implemented and are shared with connected systems. However, if there is not a process in place to drive the use of the authoritative data sources, the process will be inefficient and may result in vulnerabilities, like excess, “orphaned” accounts. An orphaned account is a potential risk because it is either unmanaged, not owned, or not linked to a digital identity.</p>
+
+<p><strong>Figure 5: Example of an Orphan Account</strong>
+<br /><br />
+<img src="/assets/playbooks/ilm playbook ss5.png" alt="example of an orphan account." width="454" />
+<br /></p>
+
+<p>An example of an orphaned account includes active employee accounts where the employee no longer works for the organization. Another example is a Microsoft service account for an application that no longer exists. It is recommended to keep a list of identity data that is available, know where it originates, and what systems are authoritative in that way. The most common pattern to integrate attributes into an ILM tool is based on connection methods of an authoritative attribute source.</p>
+
+<p>Legacy and on-premises applications most likely support LDAP.
+Cloud applications most likely support an API or SCIM.
+Modern federated applications should support the system for cross-domain identity management (SCIM) to facilitate automated provisioning and rapid revocation.</p>
+
+<div class="usa-alert usa-alert--warning">
+<div class="usa-alert__body">
+<h4 class="usa-alert__heading">No Orphaned Accounts</h4>
+<p class="usa-alert__text">
+Agencies should focus on identifying and reducing the number of orphaned accounts and especially orphaned accounts with privileged access.
+</p>
+</div>
+</div>
+
+<p>The main benefits of a master user record include:</p>
+
+<ol>
+  <li>A single view of all digital identities within an agency.</li>
+  <li>Identify users by vetting status, authenticator type, training status, privileged, and non-privileged accounts.</li>
+  <li>Aid in cyberstat reporting for ICAM questions.</li>
+  <li>A foundational element to implement more mature identity processes when integrated with other agency systems such as access management and information technology service management (ITSM).</li>
+</ol>
+
+<p>For specific information on how CISA CDM created a MUR including which tools they’ve used, go to the CDM document repository on MaxConnect.gov. A MUR is most often created using either a virtual directory, identity governance and administration (IGA) tool, or potentially a Single Sign-On tool if it also supports a virtual directory capability to maintain identity lifecycle consistency.</p>
+
+<h4 id="step-4-integrate-with-agency-enterprise-services">Step 4. Integrate with Agency Enterprise Services</h4>
+
+<p>An agency can further leverage the benefits of an automated ILM by integrating the MUR with other agency enterprise ICAM IGA services. This integration can aid agencies to automate provisioning, de-provisioning, and reporting as well as in federating both within and external to an agency. In this context, the federation is transferring identity and authentication between networked systems rather than relying on siloed information specific to the target application to achieve the required FAL.</p>
+
+<p><strong>Figure 6: ILM Integration with Single Sign-On</strong>
+<br /><br />
+<img src="/assets/playbooks/ilm playbook ss6.png" alt="ilm integration with single sign-on." width="454" />
+<br /></p>
+
+<p>The following is an example of the benefits of a MUR and integration with an access management tool for a cross-agency federation use case.</p>
+
+<p>Use Case - An agency employee needs to collaborate with another government agency. The other government agency application requires a specific human resources attribute to access the application. The application is federated with the employee’s home agency and allows a partner agency to use their home single sign-on to authenticate to the tool.</p>
+
+<ol>
+  <li>The agency adds the human resources attribute to the individual employee record using a bulk update in the MUR.</li>
+  <li>The MUR is available to the Single Sign-On tool in an assertion protocol.</li>
+  <li>The Single Sign-On adds the additional human resource attribute in an assertion to the partner application to facilitate authentication and authorization in the partner application.</li>
+</ol>
+
+<p>Make attributes available for authorization decisions. Federation is not only accepting credentials as proof from other agencies but also making your identity credentials available to other agencies.</p>
+
+<ul>
+  <li>Attributes are available to your agency via SSO assertions.</li>
+  <li>Focus on the best practice of using assertion protocols rather than exposing attributes externally.</li>
+  <li>Focus on authorization through federation rather than on PIV. PIV is a static authenticator with static attributes. SSO with Federation is dynamic-based on the SSO integration with a master user record. It is easier to update a directory than a PIV credential.</li>
+</ul>
+
+<p>See the Cloud Identity Playbook Federation section for more information on federation and using trust frameworks for government, mission partner, or public identity federation as required by M-22-09.</p>
+
+<h2 id="summary">Summary</h2>
+
+<p>The ILM playbook outlined an identity lifecycle process and four steps to create a MUR and lifecycle process within your agency. ILM is the evolution of an identity from creation to deletion. There are specific steps within each lifecycle phase of the IGA, create - provision deactivate process. A master user record is the core of ILM and acts as an aggregation point of identity data for all agency users. A master user record integrated with IGA access management tools provides a foundational path for more mature ICAM processes resulting in efficiently managing the identity and all their accounts, authenticators, and access to move toward a mature Zero Trust architecture.</p>
+
+<h2 id="appendix-a-policies-standards-and-guidance">Appendix A. Policies, Standards, and Guidance</h2>
+
+<h3 id="federal-policies">Federal Policies</h3>
+
+<ol>
+  <li><a href="https://www.federalregister.gov/documents/2021/05/17/2021-10460/improving-the-nations-cybersecurity" target="_blank" rel="noopener noreferrer" class="usa-link usa-link--external">Executive Order 14028 - Improving the Nation’s Cybersecurity</a></li>
+  <li><a href="https://zerotrust.cyber.gov/downloads/M-22-09%20Federal%20Zero%20Trust%20Strategy.pdf" target="_blank" rel="noopener noreferrer" class="usa-link usa-link--external">OMB Memo 22-09 - Moving the U.S. Government Toward Zero Trust Cybersecurity Principles</a></li>
+  <li><a href="https://www.whitehouse.gov/wp-content/uploads/2021/08/M-21-31-Improving-the-Federal-Governments-Investigative-and-Remediation-Capabilities-Related-to-Cybersecurity-Incidents.pdf" target="_blank" rel="noopener noreferrer" class="usa-link usa-link--external">OMB Memo 21-31 - Improving the Federal Government’s Investigation and Remediation Capabilities Related to Cybersecurity Incidents</a></li>
+  <li><a href="https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf" target="_blank" rel="noopener noreferrer" class="usa-link usa-link--external">OMB Memo 19-17 - Enabling Mission Delivery through Improved Identity, Credential, and Access Management</a></li>
+</ol>
+
+<h3 id="government-standards">Government Standards</h3>
+
+<ol>
+  <li><a href="https://csrc.nist.gov/publications/detail/fips/201/3/final" target="_blank" rel="noopener noreferrer" class="usa-link usa-link--external">Federal Information Processing Standard 201 - Personal Identity Verification of Federal Employees and Contractors</a></li>
+  <li><a href="https://pages.nist.gov/800-63-3/" target="_blank" rel="noopener noreferrer" class="usa-link usa-link--external">NIST Special Publication 800-63 - Digital identity Guidelines</a></li>
+  <li><a href="https://csrc.nist.gov/publications/detail/sp/800-157/final" target="_blank" rel="noopener noreferrer" class="usa-link usa-link--external">NIST Special Publication 800-157 - Guidelines for Derived PIV Credentials</a></li>
+</ol>
+
+<h3 id="government-wide-guidance">Government-Wide Guidance</h3>
+
+<ol>
+  <li><a href="/arch/" target="_blank" rel="noopener noreferrer" class="usa-link">FICAM Architecture</a></li>
+  <li><a href="/docs/playbook-identity-governance-framework.pdf" target="_blank" rel="noopener noreferrer" class="usa-link">ICAM Governance Framework</a></li>
+  <li><a href="https://pages.nist.gov/800-63-3/" target="_blank" rel="noopener noreferrer" class="usa-link usa-link--external">NIST Special Publication 800-63 Additional Information Sources Including Conformance Criteria</a></li>
+  <li><a href="https://csrc.nist.gov/publications/detail/nistir/8149/final" target="_blank" rel="noopener noreferrer" class="usa-link usa-link--external">NIST Interagency Report 8149 - Developing Trust Frameworks to Support Identity Federations</a></li>
+  <li><a href="https://www.opm.gov/suitability/suitability-executive-agent/policy/cred-standards.pdf" target="_blank" rel="noopener noreferrer" class="usa-link usa-link--external">OPM Credentialing Standards Procedures for Issuing Personal Identity Verification Cards under HSPD-12 and New Requirement for Suspension or Revocation of Eligibility for PIV Credentials</a></li>
+</ol>
+
+<h3 id="references">References</h3>
+
+<ol>
+  <li><a href="https://dodcio.defense.gov/Portals/0/Documents/Cyber/DoD_Enterprise_ICAM_Reference_Design.pdf" target="_blank" rel="noopener noreferrer" class="usa-link usa-link--external">Department of Defense ICAM Reference Design</a></li>
+  <li><a href="https://community.max.gov/download/attachments/1843519190/CDM-ARCH-2017-01.1.1-MUR-FUNCT-DESCR%2012082017.pdf?version=1&amp;modificationDate=1568732697362&amp;api=v2" target="_blank" rel="noopener noreferrer" class="usa-link usa-link--external">DHS CDM Max.gov Page</a></li>
+  <li><a href="https://bok.idpro.org/article/id/31/" target="_blank" rel="noopener noreferrer" class="usa-link usa-link--external">IDPro Body of Knowledge - An Overview of Digital Identity Lifecycle</a></li>
+  <li><a href="https://scim.cloud/" target="_blank" rel="noopener noreferrer" class="usa-link usa-link--external">System for Cross-domain Identity Management (SCIM)</a></li>
+</ol>
+
+      </main>
+    </div>
+  </div>
+</div>
+
+
+  <!-- GSA Back-to-top button with ID: gsabtt -->
+<button class="gsa-back-to-top shadow-3" onclick="gsaTop()" id="gsabtt" aria-label="Back to Top"> Top </button>
+
+<div class="usa-identifier">
+  <section class="usa-identifier__section usa-identifier__section--masthead" aria-label="Agency identifier">
+    <div class="usa-identifier__container">
+      <div class="usa-identifier__logos">
+        <a href="https://www.gsa.gov" class="usa-identifier__logo" aria-label="GSA Seal logo">
+          <img fetchpriority="high" class="usa-identifier__logo-img" src="/assets/logo/logo-gsa.png" alt="U.S. General Services Administration logo" role="img"/>
+        </a>
+        <a href="https://www.cio.gov" class="usa-identifier__logo" aria-label="CIO logo">
+          <img fetchpriority="high" class="usa-identifier__logo-img" src="/assets/logo/logo-cio-white.png" alt="The CIO Council logo" role="img"/>
+        </a>
+      </div>
+      <div class="usa-identifier__identity">
+        <p class="usa-identifier__identity-domain">IDManagement.gov</p>
+        <p class="usa-identifier__identity-disclaimer">
+          An official website of the
+          <a href="https://www.gsa.gov">U.S. General Services Administration</a>
+        </p>
+      </div>
+    </div>
+  </section>
+  <nav class="usa-identifier__section usa-identifier__section--required-links" aria-label="Important links">
+    <div class="usa-identifier__container">
+      <ul class="usa-identifier__required-links-list">
+        <li class="usa-identifier__required-links-item">
+          <a href="/about-us/" class="usa-identifier__required-link usa-link" aria-label="About IDM">About IDM</a>
+        </li>
+        <li class="usa-identifier__required-links-item">
+          <a href="https://www.gsa.gov/website-information/accessibility-statement" class="usa-identifier__required-link usa-link" aria-label="Accessibility support">Accessibility support</a>
+        </li>
+        <li class="usa-identifier__required-links-item">
+          <a href="https://www.gsa.gov/reference/freedom-of-information-act-foia" class="usa-identifier__required-link usa-link" aria-label="FOIA requests">FOIA requests</a>
+        </li>
+        <li class="usa-identifier__required-links-item">
+          <a href="https://www.gsa.gov/reference/civil-rights-programs/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002" class="usa-identifier__required-link usa-link" aria-label="No FEAR Act data">No FEAR Act data</a>
+        </li>
+        <li class="usa-identifier__required-links-item">
+          <a href="https://www.gsaig.gov/" class="usa-identifier__required-link usa-link" aria-label="Office of the Inspector General">Office of the Inspector General</a>
+        </li>
+        <li class="usa-identifier__required-links-item">
+          <a href="https://www.gsa.gov/about-gsa/newsroom/budget-and-performance" class="usa-identifier__required-link usa-link" aria-label="Performance reports">Performance reports</a>
+        </li>
+        <li class="usa-identifier__required-links-item">
+          <a href="https://www.gsa.gov/website-information/website-policies" class="usa-identifier__required-link usa-link" aria-label="Privacy policy">Privacy policy</a>
+        </li>
+        <li class="usa-identifier__required-links-item">
+          <a href="https://www.idmanagement.gov/license/" class="usa-identifier__required-link usa-link" aria-label="License">License</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <section class="usa-identifier__section usa-identifier__section--usagov" aria-label="U.S. government information and services,,,">
+    <div class="usa-identifier__container">
+      <div class="usa-identifier__usagov-description">
+        Looking for U.S. government information and services?
+      </div>
+      <a href="https://www.usa.gov" class="usa-link" aria-label="Visit USA.gov">Visit USA.gov</a>
+      <p class="footer-logo-text">This site is a collaboration between GSA and the Federal CIO Council. It is managed by the Federal Identity and Cybersecurity Division in the GSA Office of Government-wide Policy.</p>
+      
+
+<small><a href="https://github.com/GSA/idmanagement.gov/edit/federalist-pages/_playbooks/playbook-ilm.md" class="usa-sidenav-edit" target="_blank" rel="noopener noreferrer">Edit this page</a></small>
+
+    </div>
+  </section>
+</div>
+
+
+  <!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
+
+<script
+  id="_fed_an_ua_tag"
+  src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA"
+></script>
+
+
+
+
+<script src="/assets/js/uswds.min.js"></script>
+<script src="/assets/js/app.js"></script>
+
+</body>
+
+</html>

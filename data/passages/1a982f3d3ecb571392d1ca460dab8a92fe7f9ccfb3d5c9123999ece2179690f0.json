@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "1a982f3d3ecb571392d1ca460dab8a92fe7f9ccfb3d5c9123999ece2179690f0",
+  "cachedAt": "2026-10-15T21:31:52Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://www.nsa.gov/Cybersecurity/ZIG/Capabilities/Network-and-Environment/",
+  "finalUrl": "https://www.nsa.gov/Cybersecurity/ZIG/Capabilities/Network-and-Environment/",
+  "language": "en",
+  "publisher": "National Security Agency",
+  "title": "Network and Environment Capabilities",
+  "retrievedAt": "2026-10-15T21:24:42Z",
+  "byteDigest": "sha256:458c74a40d598b2fc942b6a20c277c47f698962ae67f884ae1dcd45f222f9e05",
+  "textDigest": "sha256:afe10b60f1bdc96c72326874b3aae37a4653d17a9be4e917f6e6dd070c8b62bd",
+  "sourceId": "5-source-3",
+  "passageId": "p1",
+  "locator": "article/heading/page",
+  "quotation": "Tailor the control access policies to address each driver's specifics, whether for regulatory compliance or data security requirements.",
+  "originalText": "Tailor the control access policies to address each driver's specifics, whether for regulatory compliance or data security requirements.",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:31:52Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "National Security Agency",
+    "host": "www.nsa.gov"
+  }
+}

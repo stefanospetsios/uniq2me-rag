@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "822750936d809819db161da70e394bdee45fa006c9fc6af87413c8c8250f0743",
+  "cachedAt": "2026-10-15T21:39:19Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://www.ic3.gov/CSA/2024/240822.pdf",
+  "finalUrl": "https://www.ic3.gov/CSA/2024/240822.pdf",
+  "language": "en",
+  "publisher": "Cybersecurity and Infrastructure Security Agency (CISA) in cooperation with ASD's ACSC, FBI, NSA, NCSC-UK, CCCS, NCSC-NZ, NISC, NCSC-Korea, CSA, AIVD, MIVD",
+  "title": "Best Practices for Event Logging and Threat Detection",
+  "retrievedAt": "2026-10-15T21:35:36Z",
+  "byteDigest": "sha256:4a085afc89a8b38890e67f5ade465c8607ac8854d6c920421ecfeb2557486811",
+  "textDigest": "sha256:1f1f9cadacadb2f5008dc836a3c463e6cba62afbaae4248c8d7fa2cb0c8d1d72",
+  "sourceId": "6-source-1",
+  "passageId": "p1",
+  "locator": "page 7",
+  "quotation": "Organisations should consider establishing an accurate and trustworthy time source and use this consistently across all systems to assist network defenders in identifying connections between event logs.",
+  "originalText": "as software and Software-as-a-Service (SaaS) logs.\nTimestamp consistency\nOrganisations should consider establishing an accurate and trustworthy time source and use this\nconsistently across all systems to assist network defenders in identifying connections between event\nlogs. This should also include using the same date-time format across all systems. Where possible,\norganisations should use multiple accurate time sources in case the primary",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:39:19Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Cybersecurity and Infrastructure Security Agency (CISA) in cooperation with ASD's ACSC, FBI, NSA, NCSC-UK, CCCS, NCSC-NZ, NISC, NCSC-Korea, CSA, AIVD, MIVD",
+    "host": "www.ic3.gov"
+  }
+}

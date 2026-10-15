@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T21:35:36Z",
+  "originRunId": "qwen3-38804802602",
+  "source": {
+    "id": "6-source-1",
+    "type": "technical-doc",
+    "title": "Best Practices for Event Logging and Threat Detection",
+    "publisher": "Cybersecurity and Infrastructure Security Agency (CISA) in cooperation with ASD's ACSC, FBI, NSA, NCSC-UK, CCCS, NCSC-NZ, NISC, NCSC-Korea, CSA, AIVD, MIVD",
+    "url": "https://www.ic3.gov/CSA/2024/240822.pdf",
+    "language": "en",
+    "jurisdiction": "United States and international partners",
+    "applicability": "Organizations implementing event logging systems for network visibility and threat detection across cloud services, enterprise networks, operational technology, and mobility with moderate technical complexity",
+    "publicationDate": "2024-08-22",
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "page 7",
+        "text": "Organisations should consider establishing an accurate and trustworthy time source and use this consistently across all systems to assist network defenders in identifying connections between event logs."
+      },
+      {
+        "id": "p2",
+        "locator": "page 11",
+        "text": "An event logging facility should enable the protection of logs from unauthorised modification and deletion. Ensure that only personnel with a justified requirement have permission to delete or modify event logs and view the audit logs for access to the centralised logging environment."
+      },
+      {
+        "id": "p3",
+        "locator": "page 12",
+        "text": "ASD’s ACSC and co-authors recommend that organisations consider implementing user and entity behavioural analytics capabilities to enable automated detection of behavioural anomalies on networks, devices, or accounts. SIEMs can detect anomalous activity by comparing event logs to a baseline of business-as-usual traffic and activity."
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:4a085afc89a8b38890e67f5ade465c8607ac8854d6c920421ecfeb2557486811",
+    "textDigest": "sha256:1f1f9cadacadb2f5008dc836a3c463e6cba62afbaae4248c8d7fa2cb0c8d1d72",
+    "finalUrl": "https://www.ic3.gov/CSA/2024/240822.pdf",
+    "retrievedAt": "2026-10-15T21:35:36Z",
+    "contentType": "application/pdf",
+    "snapshotPath": "source-4a085afc89a8b38890e67f5ade465c8607ac8854d6c920421ecfeb2557486811.bin",
+    "textPath": "source-1f1f9cadacadb2f5008dc836a3c463e6cba62afbaae4248c8d7fa2cb0c8d1d72.txt"
+  },
+  "files": {
+    "snapshots/source-4a085afc89a8b38890e67f5ade465c8607ac8854d6c920421ecfeb2557486811.bin": "sha256:4a085afc89a8b38890e67f5ade465c8607ac8854d6c920421ecfeb2557486811",
+    "snapshots/source-1f1f9cadacadb2f5008dc836a3c463e6cba62afbaae4248c8d7fa2cb0c8d1d72.txt": "sha256:1f1f9cadacadb2f5008dc836a3c463e6cba62afbaae4248c8d7fa2cb0c8d1d72"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.ic3.gov/CSA/2024/240822.pdf",
+  "language": "en",
+  "retrievedAt": "2026-10-15T21:35:36Z",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:39:19Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": "Best practices for\nevent logging and\nthreat detection\n\f\fTable of contents\nExecutive summary                                                                                      \b4\n\nIntroduction                                                                                           \b5\n  Audience                                                                                             \b5\nBest practices                                                                                         \b5\n  Enterprise-approved event logging policy                                                             \b5\n     Event log quality                                                                                 \b5\n     Captured event log details                                                          ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "Cybersecurity and Infrastructure Security Agency (CISA) in cooperation with ASD's ACSC, FBI, NSA, NCSC-UK, CCCS, NCSC-NZ, NISC, NCSC-Korea, CSA, AIVD, MIVD",
+    "host": "www.ic3.gov"
+  }
+}

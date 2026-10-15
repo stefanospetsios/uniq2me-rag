@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T20:53:17Z",
+  "originRunId": "qwen3-38804802602",
+  "source": {
+    "id": "0-source-4",
+    "type": "technical-doc",
+    "title": "3.4.1: Establish and maintain baseline configurations and inventories",
+    "publisher": "NIST",
+    "url": "https://csf.tools/reference/nist-sp-800-171/r2/3-4/3-4-1/",
+    "language": "en",
+    "jurisdiction": "US",
+    "applicability": "Baseline configurations including system components, version management, and update/patch information for workstations and endpoint inventory management",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "Discussion section",
+        "text": "Baseline configurations include information about system components (e.g., standard software packages installed on workstations, notebook computers, servers, network components, or mobile devices; current version numbers and update and patch information"
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:2b34eb1f53978dc158e121861c9fabd6a0c4bd8ac8370d148f8581dc3f39f549",
+    "textDigest": "sha256:27c36e343231be5da1c551a9843092792254cf44860cc0919a91ac6434e8b83a",
+    "finalUrl": "https://csf.tools/reference/nist-sp-800-171/r2/3-4/3-4-1/",
+    "retrievedAt": "2026-10-15T20:53:17Z",
+    "contentType": "text/html; charset=UTF-8",
+    "snapshotPath": "source-2b34eb1f53978dc158e121861c9fabd6a0c4bd8ac8370d148f8581dc3f39f549.bin",
+    "textPath": "source-27c36e343231be5da1c551a9843092792254cf44860cc0919a91ac6434e8b83a.txt"
+  },
+  "files": {
+    "snapshots/source-2b34eb1f53978dc158e121861c9fabd6a0c4bd8ac8370d148f8581dc3f39f549.bin": "sha256:2b34eb1f53978dc158e121861c9fabd6a0c4bd8ac8370d148f8581dc3f39f549",
+    "snapshots/source-27c36e343231be5da1c551a9843092792254cf44860cc0919a91ac6434e8b83a.txt": "sha256:27c36e343231be5da1c551a9843092792254cf44860cc0919a91ac6434e8b83a"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://csf.tools/reference/nist-sp-800-171/r2/3-4/3-4-1/",
+  "language": "en",
+  "retrievedAt": "2026-10-15T20:53:17Z",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T20:55:08Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": " \n \n \n3.4.1: Establish and maintain baseline configurations and inventories of organizational systems (including hardware, software, firmware, and documentation) throughout the respective system development life cycles – CSF Tools\n \n \n \n \n \n \n \n \n \n \n \n \n \n \nSkip to content\n \n \n \n\n\n\n\n \nMenu\nHome\n\n\nBlog\n\n\nVisualizations\n\n\nLogin\n\n\n\n\n\n\n\n\n \nNIST Special Publication 800-171\n\n\nNIST SP 800-171, Revision 2\n\n\n3.4: Configuration Management\n\n\n3.4.1: Establish and maintain baseline configurations and inventories of organizational systems (including hardware, software, firmware, and documentation) throughout the respective system development life cycles\n\n\nControl Family:\n\n\nConfiguration Management\n\n\n\n\nControl Type:\n\n\nBasic\n\n\n\n\nCSF v1.1 References:\n\n\nID.AM-1\n\n\nID.AM-2\n\n\nPR.DS-3\n\n\nPR.IP-1\n\n\n\n\nThreats Add",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "NIST",
+    "host": "csf.tools"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "6567048a18212cf13404f1235f1cee91883d6290ae096da396bbee630a04bbb4",
+  "cachedAt": "2026-10-15T20:57:05Z",
+  "observedAt": "2026-10-15T20:57:05Z",
+  "originRunId": "qwen3-38804802602",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-1-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "1",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "privileged access official maintainer implementation configuration documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792097760964,
+    "end": 1792097761880
+  },
+  "outputDigest": "sha256:5176dc46e90e6e45e3ca9b90df4544e9908416ad23b75b36710ce96760419976",
+  "resultUrls": [
+    "https://aka.ms/securedworkstationgit",
+    "https://jsarray.com/images/page-icons/visual-studio-code.png%60",
+    "https://learn.microsoft.com/en-us/security/privileged-access-workstations/privileged-access-deployment",
+    "https://learn.microsoft.com/en-us/security/zero-trust/adopt/implement-privileged-access-identity"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Deploying a privileged access solution - Privileged access | Microsoft Learn\",\n      \"url\": \"https://learn.microsoft.com/en-us/security/privileged-access-workstations/privileged-access-deployment\",\n      \"content\": \"# Deploying a privileged access solution - Privileged access | Microsoft Learn\\n\\nThis document guides you through implementing the technical components of the privileged access strategy, including secure accounts, workstations and devices, and interface security (with conditional access policy).\\n\\nThis guidance sets up all of the profiles for all three security levels and should be assigned your organizations roles based on the Privileged access security levels guidance. Microsoft recommends configuring them in the order described in the rapid modernization plan (RAMP)\\n\\n## License requirements\\n\\nThe concepts covered in this guide assume you have Microsoft 365 Enterprise E5 or an equivalent product. Some of the recommendations in this guide can be implemented with other licenses. For more information, see Microsoft 365 Enterprise licensing.\\n\\nTo automate license provisioning, consider group-based licensing for your users.\\n\\n## Microsoft Entra configuration\\n\\nMicrosoft Entra ID manages users, groups, and devices for your administrator workstations. Enable identity services and features with an administrator account.\\n\\nWhen you create the secured workstation administrator account, you expose the account to your current workstation. Make sure you use a known safe device to do this initial configuration and all global configuration. To reduce the attack exposure for the first-time experience, consider following the guidance to prevent malware infections.\\n\\nRequire multifactor authentication, at least for your administrators. See Conditional Access: Require MFA for administrators for implementation guidance.\\n\\n### Microsoft Entra users and groups\\n\\n1. From the Azure portal, browse to Microsoft Entra ID > Users",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "aka.ms",
+      "jsarray.com",
+      "learn.microsoft.com"
+    ]
+  }
+}

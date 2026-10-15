@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "104c4b1b2f08e1f0ea4bcca6195b9b5d9f8feea26f2cc2245e622e5f97ff3195",
+  "cachedAt": "2026-10-15T21:23:31Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/data-management-check-list",
+  "finalUrl": "https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/data-management-check-list",
+  "language": "en",
+  "publisher": "Microsoft Corporation",
+  "title": "Data Management Checklist - Dynamics 365 Implementation Guide",
+  "retrievedAt": "2026-10-15T21:18:33Z",
+  "byteDigest": "sha256:bd98d18c00e8a41815bd9388c2d5ce8f4fdc3beb823eb14d9cef5256568b0356",
+  "textDigest": "sha256:6dc4f9e87f399f4e3a07818dd6d35de1b09e91a798207e13282d1943ef600ef0",
+  "sourceId": "4-source-1",
+  "passageId": "p1",
+  "locator": "Data governance and architecture task list",
+  "quotation": "Define a data architecture that shows a holistic view of your data repositories, their relationships, and ownership. Identify the data owners, systems, and conceptual flow between systems during your design and analysis phases.",
+  "originalText": "Define a data architecture that shows a holistic view of your data repositories, their relationships, and ownership. Identify the data owners, systems, and conceptual flow between systems during your design and analysis phases.",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:23:31Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "4"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Microsoft Corporation",
+    "host": "learn.microsoft.com"
+  }
+}

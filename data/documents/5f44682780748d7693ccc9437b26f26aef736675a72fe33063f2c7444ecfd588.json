@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T21:43:47Z",
+  "originRunId": "qwen3-38804802602",
+  "source": {
+    "id": "8-source-1",
+    "type": "technical-doc",
+    "title": "Security Development Lifecycle (SDL) Practices",
+    "publisher": "Microsoft",
+    "url": "https://www.microsoft.com/en-us/securityengineering/sdl/practices",
+    "language": "en",
+    "jurisdiction": "Global",
+    "applicability": "Official implementation framework for building secure software and services. Covers threat modeling, secure coding practices, requirements capture, and risk management throughout development lifecycle. Intended for organizational adoption.",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "section/Security risks",
+        "text": "Security risks (and the need to mitigate them) can occur at any point in the development lifecycle: Design – ensure that the design doesn't naturally allow attackers to easily gain unauthorized access to the workload, its data, or other business assets in the organization."
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [
+      "p1"
+    ],
+    "byteDigest": "sha256:2b2b090fa85acd7c5bf3dd825356038f07e47f1c1bd108842b11663a6004f221",
+    "textDigest": "sha256:036f8a40af78d6c8f9f317af5eafac6b6368c0a98c271366b0806dd877f860b6",
+    "finalUrl": "https://www.microsoft.com/en-us/securityengineering/sdl/practices",
+    "retrievedAt": "2026-10-15T21:43:47Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-2b2b090fa85acd7c5bf3dd825356038f07e47f1c1bd108842b11663a6004f221.bin",
+    "textPath": "source-036f8a40af78d6c8f9f317af5eafac6b6368c0a98c271366b0806dd877f860b6.txt"
+  },
+  "files": {
+    "snapshots/source-2b2b090fa85acd7c5bf3dd825356038f07e47f1c1bd108842b11663a6004f221.bin": "sha256:2b2b090fa85acd7c5bf3dd825356038f07e47f1c1bd108842b11663a6004f221",
+    "snapshots/source-036f8a40af78d6c8f9f317af5eafac6b6368c0a98c271366b0806dd877f860b6.txt": "sha256:036f8a40af78d6c8f9f317af5eafac6b6368c0a98c271366b0806dd877f860b6"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.microsoft.com/en-us/securityengineering/sdl/practices",
+  "language": "en",
+  "retrievedAt": "2026-10-15T21:43:47Z",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:46:13Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": "\n\n\n\n  \n\n    \n    \n\n    \n\n\n\n        \n            \n                    \n                            \n                        \n                \n        \n\n    \n\n\n\n\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n    \n    \n    \n    \n    \n    \n\n    \n\n    \n\n\n    \n\n    \n\n    \n\n    \n        \n    \n\n\n\n\n\n    \n\n    \n\n\n    \n\n\n    \n        \n\n    \n    \n\n    \n\n    \n    \n\n    \n\n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n    \n\n\n  \n  \n\n  \n    \n\n\n    \n        \n        \n    \n\n    \n\n    \n    \n    \n        \n\n        \n\n        \n\n        \n\n        \n\n    \n\n    \n\n \nMicrosoft Security Development Lifecycle Practices\n\n\n  \n\n\n\n    \n        \n\n    \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n    \n        \n    \n\n    \n\n\n    \n\n\n    \n    \n\n\n\n\n\n\n\n    \n        \n    \n\n\n\n\n\n    \n\n    \n    \n\n\n\n\n\n\n    \n        \n\n    \n\n   ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "Microsoft",
+    "host": "www.microsoft.com"
+  }
+}

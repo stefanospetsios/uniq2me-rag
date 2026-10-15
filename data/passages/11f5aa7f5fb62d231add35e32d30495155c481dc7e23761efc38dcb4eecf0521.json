@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "11f5aa7f5fb62d231add35e32d30495155c481dc7e23761efc38dcb4eecf0521",
+  "cachedAt": "2026-10-15T22:04:59Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://www.st.com/content/st_com/en/ecosystems/stm32trust.html",
+  "finalUrl": "https://www.st.com/content/st_com/en/ecosystems/stm32trust.html",
+  "language": "en",
+  "publisher": "STMicroelectronics",
+  "title": "STM32Trust",
+  "retrievedAt": "2026-10-15T22:02:01Z",
+  "byteDigest": "sha256:9c8af1c6bbf5a10a9971cc299a70a6507be5546302fbfab5db8ea8a83e3253c2",
+  "textDigest": "sha256:0255e2b67285960bbc45f2434723642c00ec0c0e1867786dcd19f4c6b375b945",
+  "sourceId": "B-source-4",
+  "passageId": "p2",
+  "locator": "Security Functions",
+  "quotation": "1. Secure boot\n\n\n \n Ability to ensure the authenticity and integrity of an application that runs inside a device.",
+  "originalText": "1. Secure boot\n\n\n \n Ability to ensure the authenticity and integrity of an application that runs inside a device.",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T22:04:59Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "B"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "STMicroelectronics",
+    "host": "www.st.com"
+  }
+}

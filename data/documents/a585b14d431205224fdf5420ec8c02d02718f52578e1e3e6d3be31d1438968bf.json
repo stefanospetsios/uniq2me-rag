@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T21:35:39Z",
+  "originRunId": "qwen3-38804802602",
+  "source": {
+    "id": "6-source-2",
+    "type": "technical-doc",
+    "title": "IBM Z Time Synchronization Implementation Guide",
+    "publisher": "IBM",
+    "url": "https://www.redbooks.ibm.com/redbooks/pdfs/sg248480.pdf",
+    "language": "en",
+    "jurisdiction": "United States",
+    "applicability": "Organizations requiring high-accuracy time synchronization through standard protocols (NTP, PTP, PPS) for log integrity in IBM Z mainframe environments",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "page 2",
+        "text": "Timestamps provide a way to confirm the precise time and sequence of events, ensuring the integrity of digital records and preventing disputes."
+      },
+      {
+        "id": "p2",
+        "locator": "page 3",
+        "text": "Time synchronization helps you maintain data integrity by ensuring that timestamps in databases and other storage systems are consistent and accurate. This is essential for data analysis, reporting, and forensic investigations."
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:c674148202321fc826f908e6dd7300e8b2fdc384c23e8d6ba8b34a6d0ecbe078",
+    "textDigest": "sha256:ed762518c97621726f2e9c992bb71af39374e0be49b1bc9db562c75253c3d94a",
+    "finalUrl": "https://www.redbooks.ibm.com/redbooks/pdfs/sg248480.pdf",
+    "retrievedAt": "2026-10-15T21:35:39Z",
+    "contentType": "application/pdf",
+    "snapshotPath": "source-c674148202321fc826f908e6dd7300e8b2fdc384c23e8d6ba8b34a6d0ecbe078.bin",
+    "textPath": "source-ed762518c97621726f2e9c992bb71af39374e0be49b1bc9db562c75253c3d94a.txt"
+  },
+  "files": {
+    "snapshots/source-c674148202321fc826f908e6dd7300e8b2fdc384c23e8d6ba8b34a6d0ecbe078.bin": "sha256:c674148202321fc826f908e6dd7300e8b2fdc384c23e8d6ba8b34a6d0ecbe078",
+    "snapshots/source-ed762518c97621726f2e9c992bb71af39374e0be49b1bc9db562c75253c3d94a.txt": "sha256:ed762518c97621726f2e9c992bb71af39374e0be49b1bc9db562c75253c3d94a"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.redbooks.ibm.com/redbooks/pdfs/sg248480.pdf",
+  "language": "en",
+  "retrievedAt": "2026-10-15T21:35:39Z",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:39:19Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": "                  Front cover\n\n\n\nIBM Z Time Synchronization\nImplementation Guide\n\nBill White\nDonald Crabtree\nGatto Gobehi\nSteve Guendert\nClay Kaiser\nOctavian Lascu\n\n\n\n\n                                Redbooks\n\f\fIBM Redbooks\n\nIBM Z Time Synchronization Implementation Guide\n\nJune 2025\n\n\n\n\n                                        SG24-8480-02\n\f Note: Before using this information and the product it supports, read the information in “Notices” on page v.\n\n\n\n\nThird Edition (June 2025)\n\nThis edition applies to IBM Server Time Protocol (STP) for IBM Z platform and covers IBM z17, IBM z16, and\nIBM z15 server generations.\n\n\n\n\n© Copyright International Business Machines Corporation 2023, 2025. All rights reserved.\nNote to U.S. Government Users Restricted Rights -- Use, duplication or disclosure restri",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "IBM",
+    "host": "www.redbooks.ibm.com"
+  }
+}

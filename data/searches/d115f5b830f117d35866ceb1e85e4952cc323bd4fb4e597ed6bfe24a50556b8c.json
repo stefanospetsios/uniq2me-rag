@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "d115f5b830f117d35866ceb1e85e4952cc323bd4fb4e597ed6bfe24a50556b8c",
+  "cachedAt": "2026-10-15T21:18:31Z",
+  "observedAt": "2026-10-15T21:18:31Z",
+  "originRunId": "qwen3-38804802602",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-4-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "4",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "data classification network-attached storage cloud storage document management encryption retention deletion official configuration guides"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792099062198,
+    "end": 1792099063259
+  },
+  "outputDigest": "sha256:7cca69ce591f931a703f9cb0260001eeea39bd03e1b17139107c2b3c6b8bdbfe",
+  "resultUrls": [
+    "https://learn.microsoft.com/en-us/purview/retention"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Learn about retention policies & labels to retain or delete | Microsoft Learn\",\n      \"url\": \"https://learn.microsoft.com/en-us/purview/retention\",\n\n...1141904 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_1416d95d90015ru0QYQEvfipnT\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "4"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "learn.microsoft.com"
+    ]
+  }
+}

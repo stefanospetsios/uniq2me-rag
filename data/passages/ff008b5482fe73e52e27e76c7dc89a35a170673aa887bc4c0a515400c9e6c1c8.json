@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "ff008b5482fe73e52e27e76c7dc89a35a170673aa887bc4c0a515400c9e6c1c8",
+  "cachedAt": "2026-10-15T21:48:14Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://github.com/hadriansecurity/OpenHack/",
+  "finalUrl": "https://github.com/hadriansecurity/OpenHack/",
+  "language": "en",
+  "publisher": "Hadrian Security",
+  "title": "hadriansecurity/OpenHack - Lightweight, file-based workspace for source-guided whitebox security review",
+  "retrievedAt": "2026-10-15T21:47:27Z",
+  "byteDigest": "sha256:419d9e953f4b49dd0c6964c9451cfb546575e78db18c1187d8ce1d5842365f17",
+  "textDigest": "sha256:e6d9ca40e7509bbe07b3ac994c3b1caebb0663c29f263ae2b40bda834a82177b",
+  "sourceId": "9-source-4",
+  "passageId": "p1",
+  "locator": "core-concepts/the-core-idea",
+  "quotation": "The core idea: checkpointed, scenario-first review. Recon discovers surfaces, a router agent turns them into scoped scenarios, expert agents prove or reject each scenario, and an independent triage agent decides which verified candidates become final findings.",
+  "originalText": "tool provides the durable workflow and review artifacts.\n\n\n\n\nThe core idea:\n checkpointed, scenario-first review. Recon discovers surfaces,\na router agent turns them into scoped scenarios, expert agents prove or reject\neach scenario, and an independent triage agent decides which verified candidates\nbecome final findings. The human approves every phase transition.\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\nQuick Start\n\n\n\n\n\n\nWarning\n\n\nRunning OpenHack against an entire codebase with the full expert scope can use\na lot of",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:48:14Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "9"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Hadrian Security",
+    "host": "github.com"
+  }
+}

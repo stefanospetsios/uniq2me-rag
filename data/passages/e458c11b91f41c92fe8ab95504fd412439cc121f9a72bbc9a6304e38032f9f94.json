@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "e458c11b91f41c92fe8ab95504fd412439cc121f9a72bbc9a6304e38032f9f94",
+  "cachedAt": "2026-10-15T21:52:44Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://hyperledger.github.io/fabric-sdk-node/main/CryptoSuite.html",
+  "finalUrl": "https://hyperledger.github.io/fabric-sdk-node/main/CryptoSuite.html",
+  "language": "en",
+  "publisher": "Hyperledger Foundation",
+  "title": "Hyperledger Fabric SDK for Node.js Class: CryptoSuite",
+  "retrievedAt": "2026-10-15T21:50:47Z",
+  "byteDigest": "sha256:858f6738f4ac1e38cd75bbc594d063696f1eb23135b5ae9df5371c3ad4466ac9",
+  "textDigest": "sha256:b3c9c091afa0e834546643014814e7465d5205c1772692c43a7bde679b020e5f",
+  "sourceId": "A-source-2",
+  "passageId": "p1",
+  "locator": "Class description",
+  "quotation": "Abstract class for a suite of crypto algorithms used by the SDK to perform digital signing, encryption/decryption and secure hashing. A complete suite includes support for asymmetric keys (such as ECDSA or RSA), symmetric keys (such as AES) and secure hash (such as SHA2/3).",
+  "originalText": "newCryptoSuite\n\n\nORDERER\n\n\nPEER\n\n\nsetLogger\n\n\nUSER\n\n\n\n\t\t\t\t\n\n\t\t\t\n\n\n\n\t\t\t\n\t\t\n\n        \n            \n\n                \n\n                    \n\n                        \n\n                        \n\n                            \n\n                        \n\n\n\n                    \n\n\n\n                \n\n            \n\n\n\n        \n\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\n\n\t\n\t\t\n\n\t\t\t\n\n\t\nClass: CryptoSuite\n\n\n\n\n\n\n\n\n    \n        \n\n        CryptoSuite\n        \n\n\n\n        \n            \nAbstract class for a suite of crypto algorithms used by the SDK to perform digital signing,\nencryption/decryption and secure hashing. A complete suite includes support for asymmetric\nkeys (such as ECDSA or RSA), symmetric keys (such as AES) and secure hash (such as\nSHA2/3).\n\nThe SDK provides a default implementation based on ECDSA + SHA2/3. An alternative\nimplementation can be specified using the \"crypto-suite-software\" configuration setting, poi",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:52:44Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "A"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Hyperledger Foundation",
+    "host": "hyperledger.github.io"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T21:32:48Z",
+  "originRunId": "qwen3-38804802602",
+  "source": {
+    "id": "6-source-1",
+    "type": "technical-doc",
+    "title": "Best Practices for Event Logging and Threat Detection",
+    "publisher": "Cybersecurity and Infrastructure Security Agency (CISA)",
+    "url": "https://www.cisa.gov/resources-tools/resources/best-practices-event-logging-and-threat-detection",
+    "language": "en",
+    "jurisdiction": "United States (with ASD's ACSC, FBI, NSA, NCSC-UK, CCCS, NCSC-NZ, NISC, NCSC-Korea, CSA, AIVD, MIVD)",
+    "applicability": "Organizations implementing event logging systems for network visibility and threat detection in operational environments with moderate technical complexity",
+    "publicationDate": "2024-08-21",
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:50d588162ecc807505292a22f2d97ad4aef58a1307f4834d2cca94c35f870060",
+    "textDigest": "sha256:1db85bd0f88572c0898c20af44287e2f9c9171058ea2fd6abf3aaa626cbbaff4",
+    "finalUrl": "https://www.cisa.gov/resources-tools/resources/best-practices-event-logging-and-threat-detection",
+    "retrievedAt": "2026-10-15T21:32:48Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-50d588162ecc807505292a22f2d97ad4aef58a1307f4834d2cca94c35f870060.bin",
+    "textPath": "source-1db85bd0f88572c0898c20af44287e2f9c9171058ea2fd6abf3aaa626cbbaff4.txt"
+  },
+  "files": {
+    "snapshots/source-50d588162ecc807505292a22f2d97ad4aef58a1307f4834d2cca94c35f870060.bin": "sha256:50d588162ecc807505292a22f2d97ad4aef58a1307f4834d2cca94c35f870060",
+    "snapshots/source-1db85bd0f88572c0898c20af44287e2f9c9171058ea2fd6abf3aaa626cbbaff4.txt": "sha256:1db85bd0f88572c0898c20af44287e2f9c9171058ea2fd6abf3aaa626cbbaff4"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.cisa.gov/resources-tools/resources/best-practices-event-logging-and-threat-detection",
+  "language": "en",
+  "retrievedAt": "2026-10-15T21:32:48Z",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:32:48Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": "\n\n\n\n\n\n  \n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \nBest Practices for Event Logging and Threat Detection | CISA\n\n    \n\n\n\n\n\n\n    \n\n\n\n\n\n\n\n\n\n\n  \n\n  \n\n    \n\n\n  \nSkip to main content\n\n\n\n\n\n    \n\n\n      \n\n    \n\n\n\n    \n      \n\n\n  \n  \n\n    \n\n      \n\n        \n\n      \n\n\n\n      \n\n        \nAn official website of the United States government\n\n\n\n              \nHere’s how you know\n\n\n\n\n\n        \n\n          \nHere’s how you know\n\n        \n\n          \n\n\n\n  \n\n      \n\n      \n\n                  \n\n            \n\n            \n\n              \n\n                \nOfficial websites use .gov\n\n                \n A \n.gov\n website belongs to an official government organization in the United States.\n              \n\n\n\n            \n\n\n\n          \n\n\n\n                  \n\n            \n\n            \n\n              \n\n                \nSecure .",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Cybersecurity and Infrastructure Security Agency (CISA)",
+    "host": "www.cisa.gov"
+  }
+}

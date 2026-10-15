@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T21:54:23Z",
+  "originRunId": "qwen3-38804802602",
+  "source": {
+    "id": "B-source-2",
+    "type": "technical-doc",
+    "title": "ETSI TS 103 701 V2.1.1 (2025-05)",
+    "publisher": "European Telecommunications Standards Institute (ETSI)",
+    "url": "https://www.etsi.org/deliver/etsi_ts/103700_103799/103701/02.01.01_60/ts_103701v020101p.pdf",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "Specifies hardware implementation requirements for secure IoT device setup including secure boot verification, hardware trust anchors, and protection against physical interface exploitation",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:25afe7ad6273bbf1df96522a1a6f94b6ba4308d01201bef6f1ed134e91c78797",
+    "textDigest": "sha256:5bdfef2be6e4cc504ca734dcc77db12416743153a3af2f0158146843e51e1421",
+    "finalUrl": "https://www.etsi.org/deliver/etsi_ts/103700_103799/103701/02.01.01_60/ts_103701v020101p.pdf",
+    "retrievedAt": "2026-10-15T21:54:23Z",
+    "contentType": "application/pdf",
+    "snapshotPath": "source-25afe7ad6273bbf1df96522a1a6f94b6ba4308d01201bef6f1ed134e91c78797.bin",
+    "textPath": "source-5bdfef2be6e4cc504ca734dcc77db12416743153a3af2f0158146843e51e1421.txt"
+  },
+  "files": {
+    "snapshots/source-25afe7ad6273bbf1df96522a1a6f94b6ba4308d01201bef6f1ed134e91c78797.bin": "sha256:25afe7ad6273bbf1df96522a1a6f94b6ba4308d01201bef6f1ed134e91c78797",
+    "snapshots/source-5bdfef2be6e4cc504ca734dcc77db12416743153a3af2f0158146843e51e1421.txt": "sha256:5bdfef2be6e4cc504ca734dcc77db12416743153a3af2f0158146843e51e1421"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.etsi.org/deliver/etsi_ts/103700_103799/103701/02.01.01_60/ts_103701v020101p.pdf",
+  "language": "en",
+  "retrievedAt": "2026-10-15T21:54:23Z",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:54:23Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": "       ETSI TS 103 701 V2.1.1 (2025-05)\n\n\n\n\nTECHNICAL SPECIFICATION\n\n\n\n\n                Cyber Security (CYBER);\n      Cyber Security for Consumer Internet of Things:\n    Conformance Assessment of Baseline Requirements\n\f                                                                2                             ETSI TS 103 701 V2.1.1 (2025-05)\n\n\n\n\n                                                            Reference\n                                                       RTS/CYBER-00143\n\n                                                            Keywords\n                                                   cybersecurity, IoT, privacy\n\n\n\n\n                                                               ETSI\n                                                  650 Route des Lucioles\n               ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "B"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "European Telecommunications Standards Institute (ETSI)",
+    "host": "www.etsi.org"
+  }
+}

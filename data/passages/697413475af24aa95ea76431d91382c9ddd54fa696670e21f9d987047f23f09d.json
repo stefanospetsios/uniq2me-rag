@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "697413475af24aa95ea76431d91382c9ddd54fa696670e21f9d987047f23f09d",
+  "cachedAt": "2026-10-15T21:46:13Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://access.redhat.com/security/rh_security_declaration_sdl",
+  "finalUrl": "https://access.redhat.com/security/rh_security_declaration_sdl",
+  "language": "en",
+  "publisher": "Red Hat",
+  "title": "Red Hat Secure Software Development Lifecycle",
+  "retrievedAt": "2026-10-15T21:43:48Z",
+  "byteDigest": "sha256:187cfd4e92561b6ed36d363c465e00337ffdfefbc0911af5fc45b2456ecde183",
+  "textDigest": "sha256:c3e49d56e70097b1edfddcb21d2be339df477bb3a5f0b2582f720a5e14b5d73b",
+  "sourceId": "8-source-2",
+  "passageId": "p1",
+  "locator": "Red Hat Secure Development Lifecycle section",
+  "quotation": "Red Hat maintains a software development lifecycle (SDLC) process that addresses risk assessment, vulnerability assessment, and security testing protocols of Red Hat software. Red Hat's SDLC process follows the \nNIST SP 800-218 Secure Software Development Framework\n, conducting security reviews related to secure architecture, secure pipeline, threat modeling, Static and Dynamic Application Security Testing, antimalware scanning,  penetration testing, and incident",
+  "originalText": "root causes of vulnerabilities to prevent future recurrences. Red Hat maintains a software development lifecycle (SDLC) process that addresses risk assessment, vulnerability assessment, and security testing protocols of Red Hat software. Red Hat’s SDLC process follows the \nNIST SP 800-218 Secure Software Development Framework\n, conducting security reviews related to secure architecture, secure pipeline, threat modeling, Static and Dynamic Application Security Testing, antimalware scanning,  penetration testing, and incident response throughout the supported life cycle of Red Hat Software.\n\n\n\n\nAdditionally, Red Hat has an internal process designed to ensure that our software supply chain",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:46:13Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Red Hat",
+    "host": "access.redhat.com"
+  }
+}

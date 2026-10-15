@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "3c73453b27d5bd257f8d670a7f27ec76230c08e86fbf6a10df789569fd9b9c02",
+  "cachedAt": "2026-10-15T21:31:52Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://learn.microsoft.com/en-us/azure/security/fundamentals/network-best-practices",
+  "finalUrl": "https://learn.microsoft.com/en-us/azure/security/fundamentals/network-best-practices",
+  "language": "en",
+  "publisher": "Microsoft",
+  "title": "Azure network security best practices",
+  "retrievedAt": "2026-10-15T21:24:38Z",
+  "byteDigest": "sha256:d74de7ebe8a34672d1a6bf48e6e4efc40aeb22616d1aac3383b5f204d2f0be8d",
+  "textDigest": "sha256:f51fd692dfc37f99f53f1df3297b08b9bd162c74373c14d84e64d73dec3d2ada",
+  "sourceId": "5-source-1",
+  "passageId": "p1",
+  "locator": "article/heading/page",
+  "quotation": "When you use network security groups for network access control between subnets, you can put resources that belong to the same security zone or role in their own subnets.",
+  "originalText": "When you use network security groups for network access control between subnets, you can put resources that belong to the same security zone or role in their own subnets.",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:31:52Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Microsoft",
+    "host": "learn.microsoft.com"
+  }
+}

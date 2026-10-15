@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "426ece0239e94974b62197891b8f8a80eb6373691d6d1b340332b593d133df73",
+  "cachedAt": "2026-10-15T21:39:19Z",
+  "originRunId": "qwen3-38804802602",
+  "sourceUrl": "https://www.redbooks.ibm.com/redbooks/pdfs/sg248480.pdf",
+  "finalUrl": "https://www.redbooks.ibm.com/redbooks/pdfs/sg248480.pdf",
+  "language": "en",
+  "publisher": "IBM",
+  "title": "IBM Z Time Synchronization Implementation Guide",
+  "retrievedAt": "2026-10-15T21:35:39Z",
+  "byteDigest": "sha256:c674148202321fc826f908e6dd7300e8b2fdc384c23e8d6ba8b34a6d0ecbe078",
+  "textDigest": "sha256:ed762518c97621726f2e9c992bb71af39374e0be49b1bc9db562c75253c3d94a",
+  "sourceId": "6-source-2",
+  "passageId": "p2",
+  "locator": "page 3",
+  "quotation": "Time synchronization helps you maintain data integrity by ensuring that timestamps in databases and other storage systems are consistent and accurate. This is essential for data analysis, reporting, and forensic investigations.",
+  "originalText": "devices communicate\n              effectively and efficiently.\n           򐂰 Data integrity\n              Time synchronization helps you maintain data integrity by ensuring that timestamps in\n              databases and other storage systems are consistent and accurate. This is essential for\n              data analysis, reporting, and forensic investigations.\n           򐂰 Global coordination\n              In a global environment, you can use time synchronization to coordinate activities and\n              events across different time zones. It ensures that all",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38804802602",
+    "sourceOriginRunId": "qwen3-38804802602",
+    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
+    "recordedAt": "2026-10-15T21:39:19Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "IBM",
+    "host": "www.redbooks.ibm.com"
+  }
+}
