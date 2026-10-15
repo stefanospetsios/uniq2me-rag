@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "abf8f1f1e3a504ebc3ce779da3e8630b661c5224a87a1eb3bc8f86f307ab502f",
+  "cachedAt": "2026-10-15T19:53:34Z",
+  "observedAt": "2026-10-15T19:53:34Z",
+  "originRunId": "qwen3-38797190227",
+  "foundIn": {
+    "runId": "qwen3-38797190227",
+    "controllerCommit": "39c54e6b4bdfd6f41bbaa40f45a996e730ef6233",
+    "phase": "preflight",
+    "callId": "direct-mcp-probe",
+    "invocation": 1,
+    "scopeId": null,
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "Ollama keep_alive official documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": null,
+  "outputDigest": "sha256:9f4c287b9b0cc39f6f043262639d4ae9df0027ccc2538163f799d643750c22c7",
+  "resultUrls": [
+    "http://localhost:11434",
+    "http://localhost:11434/api/blobs/sha256:29fdb92e57cf0827ded04ae6461b5931d01fa595843f55d36f5b275a52087dd2",
+    "http://localhost:11434/api/chat",
+    "http://localhost:11434/api/copy",
+    "http://localhost:11434/api/create",
+    "http://localhost:11434/api/delete",
+    "http://localhost:11434/api/embed",
+    "http://localhost:11434/api/embeddings",
+    "http://localhost:11434/api/generate",
+    "http://localhost:11434/api/ps",
+    "http://localhost:11434/api/pull",
+    "http://localhost:11434/api/push",
+    "http://localhost:11434/api/show",
+    "http://localhost:11434/api/tags",
+    "http://localhost:11434/api/version",
+    "http://localhost:11434/v1/systemone",
+    "http://localhost:11434;",
+    "https://docs.ollama.com/api",
+    "https://docs.ollama.com/cli",
+    "https://docs.ollama.com/faq",
+    "https://github.com/ollama/ollama/blob/main/docs/api.md",
+    "https://github.com/ollama/ollama/blob/main/docs/openapi.yaml",
+    "https://github.com/ollama/ollama/pull/2258",
+    "https://my.proxy.example.com",
+    "https://ollama.com",
+    "https://ollama.com/install.sh",
+    "https://ollama.com/settings/keys",
+    "https://opensource.org/licenses/MIT",
+    "https://proxy.example.com`"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\"content\": [{\"type\": \"text\", \"text\": \"{\\n  \\\"results\\\": [\\n    {\\n      \\\"title\\\": \\\"FAQ - Ollama\\\",\\n      \\\"url\\\": \\\"https://docs.ollama.com/faq\\\",\\n      \\\"content\\\": \\\"FAQ - Ollama\\\\n\\\\n# FAQ\\\\n\\\\nHow can I upgrade Ollama?\\\\n\\\\nOllama on macOS and Windows will automatically download updates. Click on the taskbar or menubar item and then click “Restart to update” to apply the update. Updates can also be installed by downloading the latest version manually. On Linux, re-run the install script:\\\\n\\\\n```\\\\ncurl -fsSL https://ollama.com/install.sh | sh\\\\n\\\\n```\\\\n\\\\nHow can I view the logs?\\\\n\\\\nReview the Troubleshooting docs for more about using logs.\\\\n\\\\nIs my GPU compatible with Ollama?\\\\n\\\\nPlease refer to the GPU docs.\\\\n\\\\nHow can I specify the context window size?\\\\n\\\\nBy default, Ollama uses a context window size of 4096 tokens. This can be overridden with the `OLLAMA_CONTEXT_LENGTH` environment variable. For example, to set the default context window to 8K, use:\\\\n\\\\n```\\\\nOLLAMA_CONTEXT_LENGTH=8192 ollama serve\\\\n\\\\n```\\\\n\\\\nTo change this when using `ollama run`, use `/set parameter`:\\\\n\\\\n```\\\\n/set parameter num_ctx 4096\\\\n\\\\n```\\\\n\\\\nWhen using the API, specify the `num_ctx` parameter:\\\\n\\\\n```\\\\ncurl http://localhost:11434/api/generate -d '{\\\\n  \\\\\\\"model\\\\\\\": \\\\\\\"llama3.2\\\\\\\",\\\\n  \\\\\\\"prompt\\\\\\\": \\\\\\\"Why is the sky blue?\\\\\\\",\\\\n  \\\\\\\"options\\\\\\\": {\\\\n    \\\\\\\"num_ctx\\\\\\\": 4096\\\\n  }\\\\n}'\\\\n\\\\n```\\\\n\\\\nHow can I tell if my model was loaded onto the GPU?\\\\n\\\\nUse the `ollama ps` command to see what models are currently loaded into memory.\\\\n\\\\n```\\\\nollama ps\\\\n\\\\n```\\\\n\\\\nOutput:\\\\n\\\\n```\\\\nNAME        ID            SIZE    PROCESSOR   UNTIL\\\\nllama3:70b  bcfb190ca3a7  42 GB   100% GPU    4 minutes from now\\\\n\\\\n```\\\\n\\\\nThe `Processor` column will show which memory the model was loaded into:\\\\n\\\\n- `100% GPU` means the model was loaded entirely into the GPU\\\\n- `100% CPU` means the model was loaded entirely in system memory\\\\n- `48%/52% CPU/GPU` mea",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [],
+    "phases": [
+      "preflight"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "docs.ollama.com",
+      "github.com",
+      "localhost",
+      "my.proxy.example.com",
+      "ollama.com",
+      "opensource.org",
+      "proxy.example.com`"
+    ]
+  }
+}

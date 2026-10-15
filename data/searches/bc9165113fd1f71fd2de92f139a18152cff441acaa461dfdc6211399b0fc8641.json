@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "bc9165113fd1f71fd2de92f139a18152cff441acaa461dfdc6211399b0fc8641",
+  "cachedAt": "2026-10-15T19:55:41Z",
+  "observedAt": "2026-10-15T19:55:41Z",
+  "originRunId": "qwen3-38797190227",
+  "foundIn": {
+    "runId": "qwen3-38797190227",
+    "controllerCommit": "39c54e6b4bdfd6f41bbaa40f45a996e730ef6233",
+    "phase": "preflight",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "runner-smoke",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": null,
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "Ollama context length configuration documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792094058564,
+    "end": 1792094059164
+  },
+  "outputDigest": "sha256:419f0586dd430688a83d4c00bbd26ddb017311701fa18f810e6fc435f9f7601a",
+  "resultUrls": [
+    "http://localhost:11434",
+    "http://localhost:11434/api/chat",
+    "http://localhost:11434/api/generate",
+    "http://localhost:11434;",
+    "https://docs.ollama.com/context-length",
+    "https://docs.ollama.com/faq",
+    "https://docs.ollama.com/modelfile",
+    "https://github.com/ollama/ollama/issues/5902",
+    "https://github.com/ollama/ollama/pull/8938",
+    "https://my.proxy.example.com",
+    "https://ollama.com/install.sh",
+    "https://ollama.com/settings/keys",
+    "https://proxy.example.com`"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Context length - Ollama\",\n      \"url\": \"https://docs.ollama.com/context-length\",\n      \"content\": \"Context length - Ollama\\n\\n# Context length\\n\\nContext length is the maximum number of tokens that the model has access to in memory.\\n\\nOllama defaults to the following context lengths based on VRAM:\\n\\n- < 24 GiB VRAM: 4k context\\n- 24-48 GiB VRAM: 32k context\\n- >= 48 GiB VRAM: 256k context\\n\\nTasks which require large context like web search, agents, and coding tools should be set to at least 64000 tokens.\\n\\nSetting context length\\n\\nSetting a larger context length will increase the amount of memory required to run a model. Ensure you have enough VRAM available to increase the context length. Cloud models are set to their maximum context length by default.\\n\\nApp\\n\\nChange the slider in the Ollama app under settings to your desired context length.\\n\\nCLI\\n\\nIf editing the context length for Ollama is not possible, the context length can also be updated when serving Ollama.\\n\\n```\\nOLLAMA_CONTEXT_LENGTH=64000 ollama serve\\n\\n```\\n\\nCheck allocated context length and model offloading\\n\\nFor best performance, use the maximum context length for a model, and avoid offloading the model to CPU. Verify the split under `PROCESSOR` using `ollama ps`.\\n\\n```\\nollama ps\\n\\n```\\n\\n```\\nNAME             ID              SIZE      PROCESSOR    CONTEXT    UNTIL\\ngemma4:latest    c6eb396dbd59    9.6 GB    100% GPU     131072     2 minutes from now\\n\\n```\"\n    },\n    {\n      \"title\": \"FAQ - Ollama\",\n      \"url\": \"https://docs.ollama.com/faq\",\n      \"content\": \"FAQ - Ollama\\n\\n# FAQ\\n\\nHow can I upgrade Ollama?\\n\\nOllama on macOS and Windows will automatically download updates. Click on the taskbar or menubar item and then click “Restart to update” to apply the update. Updates can also be installed by downloading the latest version manually. On Linux, re-run the install script:\\n\\n```\\ncurl -fsSL https://ollama.com/install.sh | sh\\n\\n```\\n\\nHow ",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [],
+    "phases": [
+      "preflight"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "docs.ollama.com",
+      "github.com",
+      "localhost",
+      "my.proxy.example.com",
+      "ollama.com",
+      "proxy.example.com`"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "54003e5e2d1bd3cace281576289943a970ee4c5821cfafb2d51f8ffa3bb8a751",
+  "cachedAt": "2026-10-15T19:55:41Z",
+  "observedAt": "2026-10-15T19:55:41Z",
+  "originRunId": "qwen3-38797190227",
+  "foundIn": {
+    "runId": "qwen3-38797190227",
+    "controllerCommit": "39c54e6b4bdfd6f41bbaa40f45a996e730ef6233",
+    "phase": "preflight",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "runner-smoke",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": null,
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Ollama context length configuration"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792094058085,
+    "end": 1792094064990
+  },
+  "outputDigest": "sha256:d36b8d592ccfe89a4b0fe2488a505ebf49ea30eec0bb8b97ce0f9247c1cc2f53",
+  "resultUrls": [
+    "https://docs.ollama.com/context-length",
+    "https://localllm.in/blog/local-llm-increase-context-length-ollama",
+    "https://www.ssdnodes.com/learn/ollama-context-length-num-ctx"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Ollama context length configuration\",\n  \"results\": [\n    {\n      \"title\": \"Context length - Ollama documentation\",\n      \"url\": \"https://docs.ollama.com/context-length\",\n      \"content\": \"Context length is the maximum number of tokens that the model has access to in memory. Ollama defaults to the following context lengths based on VRAM: < 24 GiB VRAM: 4k context 24-48 GiB VRAM: 32k context >= 48 GiB VRAM: 256k context\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"How to increase context length of local LLMs in Ollama | LocalLLM.in\",\n      \"url\": \"https://localllm.in/blog/local-llm-increase-context-length-ollama\",\n      \"content\": \"Learn how to manage and increase context window size in Ollama for better local LLM performance. Comprehensive guide covering checking, setting, and optimizing context lengths for all models.\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Ollama context length: set num_ctx and size RAM - SSD Nodes\",\n      \"url\": \"https://www.ssdnodes.com/learn/ollama-context-length-num-ctx\",\n      \"content\": \"πριν από 6 ημέρες ... The Ollama context length is the number of tokens a loaded model can hold in memory at once, and num_ctx is the option that sets it. Ollama ...\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    }\n  ],\n  \"unresponsive_engines\": [\n    [\n      \"brave\",\n      \"Suspended: too many requests\"\n    ]\n  ]\n}",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [],
+    "phases": [
+      "preflight"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "docs.ollama.com",
+      "localllm.in",
+      "www.ssdnodes.com"
+    ]
+  }
+}
