@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "c085d834fc07fe745205a2a7106c2bbe7a621ccb188270a41155086e9620e4f4",
+  "cachedAt": "2026-10-15T19:58:53Z",
+  "observedAt": "2026-10-15T19:58:53Z",
+  "originRunId": "qwen3-38797190227",
+  "foundIn": {
+    "runId": "qwen3-38797190227",
+    "controllerCommit": "39c54e6b4bdfd6f41bbaa40f45a996e730ef6233",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-0-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "0",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "official maintainer documentation for workstation provisioning patch management device encryption endpoint logging site:*.eu site:*.gr"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792094198071,
+    "end": 1792094199269
+  },
+  "outputDigest": "sha256:74fa0af89e48a86072c46f622e69edecddfa9355cff18644b2b13b0096684d0f",
+  "resultUrls": [
+    "https://documentation.stormshield.eu/SES/v7.2/en/Content/PDF/ses-en-administration_guide-v7.2.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Stormshield Endpoint Security Administration guide\",\n      \"url\": \"https://documentation.stormshield.eu/SES/v7.2/en/Content/PDF/ses-en-administration_guide-v7.2.pdf\",\n\n...621595 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_141235de2001oVv563OL6Oe0PJ\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "documentation.stormshield.eu"
+    ]
+  }
+}

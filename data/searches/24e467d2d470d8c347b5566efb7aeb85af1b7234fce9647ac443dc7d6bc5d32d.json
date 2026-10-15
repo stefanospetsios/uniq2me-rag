@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "24e467d2d470d8c347b5566efb7aeb85af1b7234fce9647ac443dc7d6bc5d32d",
+  "cachedAt": "2026-10-15T19:58:53Z",
+  "observedAt": "2026-10-15T19:58:53Z",
+  "originRunId": "qwen3-38797190227",
+  "foundIn": {
+    "runId": "qwen3-38797190227",
+    "controllerCommit": "39c54e6b4bdfd6f41bbaa40f45a996e730ef6233",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-0-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "0",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Operating System and Workstation Environment official implementation configuration documentation endpoint inventory provisioning patching diskless clients remote desktops shared storage device encryption endpoint logging site:*.gov site:*.org",
+    "time_range": ""
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792094197280,
+    "end": 1792094198708
+  },
+  "outputDigest": "sha256:8d39e306c55924f682afc1a466bc01e1b33b447cc97e60bab82412c7e0e9047c",
+  "resultUrls": [],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Operating System and Workstation Environment official implementation configuration documentation endpoint inventory provisioning patching diskless clients remote desktops shared storage device encryption endpoint logging site:*.gov site:*.org\",\n  \"results\": [],\n  \"unresponsive_engines\": [\n    [\n      \"brave\",\n      \"too many requests\"\n    ],\n    [\n      \"duckduckgo\",\n      \"unexpected crash\"\n    ]\n  ]\n}",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": []
+  }
+}

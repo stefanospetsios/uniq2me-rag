@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T20:08:09Z",
+  "originRunId": "qwen3-38797190227",
+  "source": {
+    "id": "1-source-4",
+    "type": "technical-doc",
+    "title": "Plan a Privileged Identity Management deployment",
+    "publisher": "Microsoft Corporation",
+    "url": "https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-deployment-plan",
+    "language": "en",
+    "jurisdiction": "International",
+    "applicability": "Microsoft Entra ID implementation guidance for time-bound privileged role activation, approval workflows, emergency access management, and audit trail configuration for administrator accounts",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:c34042e5f2dcbda2d7de4cd4050902fe2069de461364b27369485a6d174f8acb",
+    "textDigest": "sha256:dede52a0515194f5255ab29ea4f050943422e030b2ed3dc14d6ef397e7c80f71",
+    "finalUrl": "https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-deployment-plan",
+    "retrievedAt": "2026-10-15T20:08:09Z",
+    "contentType": "text/html",
+    "snapshotPath": "source-c34042e5f2dcbda2d7de4cd4050902fe2069de461364b27369485a6d174f8acb.bin",
+    "textPath": "source-dede52a0515194f5255ab29ea4f050943422e030b2ed3dc14d6ef397e7c80f71.txt"
+  },
+  "files": {
+    "snapshots/source-c34042e5f2dcbda2d7de4cd4050902fe2069de461364b27369485a6d174f8acb.bin": "sha256:c34042e5f2dcbda2d7de4cd4050902fe2069de461364b27369485a6d174f8acb",
+    "snapshots/source-dede52a0515194f5255ab29ea4f050943422e030b2ed3dc14d6ef397e7c80f71.txt": "sha256:dede52a0515194f5255ab29ea4f050943422e030b2ed3dc14d6ef397e7c80f71"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-deployment-plan",
+  "language": "en",
+  "retrievedAt": "2026-10-15T20:08:09Z",
+  "foundIn": {
+    "runId": "qwen3-38797190227",
+    "sourceOriginRunId": "qwen3-38797190227",
+    "controllerCommit": "39c54e6b4bdfd6f41bbaa40f45a996e730ef6233",
+    "recordedAt": "2026-10-15T20:08:09Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": " \n\n\t\t\n\n\t\t\t\n\t\t\n\n\t\t\t\nPlan a Privileged Identity Management deployment - Microsoft Entra ID Governance | Microsoft Learn\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n \n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n \n\n\t\t\t\n\n\t\t\t \n\t\t\t\n\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t \n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\t\t\t\n\n\t\t\t\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\t\t\n\n\t\n\t\t\t\n\n\t\t\t\t\n\n\t\t\n\n\t\t\t\n\t\t\n\n\t\t\tSkip to main content\n\t\t\n\n\t\n\t\t\n\n\t\t\tSkip to Ask Learn chat experience\n\t\t\n\n\t\n\n\t\t\t\n\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\t\n\n\t\t\t\t\t\nThis browser is no longer supported.\n\n\n\n\t\t\t\t\t\n\n\t\t\t\t\t\tUpgrade to Microsoft Edge to take advantage of",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Microsoft Corporation",
+    "host": "learn.microsoft.com"
+  }
+}

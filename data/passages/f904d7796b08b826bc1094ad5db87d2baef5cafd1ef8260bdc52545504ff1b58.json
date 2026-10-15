@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "f904d7796b08b826bc1094ad5db87d2baef5cafd1ef8260bdc52545504ff1b58",
+  "cachedAt": "2026-10-15T20:03:24Z",
+  "originRunId": "qwen3-38797190227",
+  "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-123.pdf",
+  "finalUrl": "https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-123.pdf",
+  "language": "en",
+  "publisher": "National Institute of Standards and Technology (NIST)",
+  "title": "NIST Special Publication 800-123: Guide to General Server Security",
+  "retrievedAt": "2026-10-15T19:58:59Z",
+  "byteDigest": "sha256:182ae5d23011108fba08c3a56c5029b8a26a428480ae38ac61877f6f3365db41",
+  "textDigest": "sha256:d58e190a4fcb808d3a039023f252b982c6855162d22736170526b8ae015d6d0f",
+  "sourceId": "0-source-1",
+  "passageId": "p3",
+  "locator": "Executive Summary (ES-3)",
+  "quotation": "Configuring, protecting, and analyzing log files on an ongoing and frequent basis",
+  "originalText": "Configuring, protecting, and analyzing log files on an ongoing and frequent basis",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38797190227",
+    "sourceOriginRunId": "qwen3-38797190227",
+    "controllerCommit": "39c54e6b4bdfd6f41bbaa40f45a996e730ef6233",
+    "recordedAt": "2026-10-15T20:03:24Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "National Institute of Standards and Technology (NIST)",
+    "host": "nvlpubs.nist.gov"
+  }
+}

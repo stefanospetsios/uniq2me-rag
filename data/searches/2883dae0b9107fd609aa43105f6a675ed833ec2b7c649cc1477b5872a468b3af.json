@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "2883dae0b9107fd609aa43105f6a675ed833ec2b7c649cc1477b5872a468b3af",
+  "cachedAt": "2026-10-15T20:05:11Z",
+  "observedAt": "2026-10-15T20:05:11Z",
+  "originRunId": "qwen3-38797190227",
+  "foundIn": {
+    "runId": "qwen3-38797190227",
+    "controllerCommit": "39c54e6b4bdfd6f41bbaa40f45a996e730ef6233",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-1-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "1",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "privileged access official maintainer implementation configuration documentation",
+    "time_range": ""
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792094647873,
+    "end": 1792094649130
+  },
+  "outputDigest": "sha256:6c6c31011dbe4425b1d217fbe41ff56256929add8c2cc8b80d1d205410535607",
+  "resultUrls": [
+    "https://doc.traefik.io/traefik/v2.9/contributing/maintainers-guidelines/",
+    "https://docs.typo3.org/permalink/t3coreapi:privileges@main",
+    "https://support.wharton.upenn.edu/help/iam-standard",
+    "https://www.gammal.tech/blog/privileged-access-management-en.html",
+    "https://www.xonasystems.com/glossary/privileged-access-management-pam"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"privileged access official maintainer implementation configuration documentation\",\n  \"results\": [\n    {\n      \"title\": \"Privileged access management for growing companies | Gammal Tech\",\n      \"url\": \"https://www.gammal.tech/blog/privileged-access-management-en.html\",\n      \"content\": \"πριν από 3 ημέρες ... Privileged access management, or PAM, is the set of processes and tools used to control elevated access to important systems. A practical ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Backend privileges: administrators and System Maintainers\",\n      \"url\": \"https://docs.typo3.org/permalink/t3coreapi:privileges@main\",\n      \"content\": \"To give other users system privileges, you can add them in the System > Settings > Manage System Maintainers configuration. Alternatively, the website can be ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Privileged Access Management (PAM) - XONA Systems\",\n      \"url\": \"https://www.xonasystems.com/glossary/privileged-access-management-pam\",\n      \"content\": \"PAM secures elevated access. In OT/ICS, it requires safe, credential-free access, session control, and compliance with CPS-specific protocols.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Identity and Access Management Standard\",\n      \"url\": \"https://support.wharton.upenn.edu/help/iam-standard\",\n      \"content\": \"4 Ιουν 2025 ... Services must document all privileged access along with the criteria for that access in the service. Services must have established and ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Traefik Maintainer's Guidelines Documentation\",\n      \"url\": \"https://doc.traefik.io/traefik/v2.9/contributing/maintainers-guidelines/\",\n      \"content\": \"For that purpose, we use a dedicated Discord server where you are invited once you have become the official maintainer. Maintainers Activity¶. In order to keep ...\",\n",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "doc.traefik.io",
+      "docs.typo3.org",
+      "support.wharton.upenn.edu",
+      "www.gammal.tech",
+      "www.xonasystems.com"
+    ]
+  }
+}

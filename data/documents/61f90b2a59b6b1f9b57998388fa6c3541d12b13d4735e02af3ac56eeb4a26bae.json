@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T20:08:09Z",
+  "originRunId": "qwen3-38797190227",
+  "source": {
+    "id": "1-source-3",
+    "type": "technical-doc",
+    "title": "Phase 3-Enforce privileged access policies",
+    "publisher": "Microsoft Corporation",
+    "url": "https://learn.microsoft.com/en-us/security/zero-trust/adopt/implement-privileged-access-enforce",
+    "language": "en",
+    "jurisdiction": "International",
+    "applicability": "Conditional Access policy implementation for privileged role activation, device compliance requirements, Microsoft Defender for Endpoint integration, and network restriction configuration for administrative interfaces",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:274646c9ee96b5f3db0375b267ba30e31122509ad0a0e2136f31068f5e9cfb81",
+    "textDigest": "sha256:feeceac614a589b13b64c3af157990f57fe45cc17ec6c99144540bcc496b40b8",
+    "finalUrl": "https://learn.microsoft.com/en-us/security/zero-trust/adopt/implement-privileged-access-enforce",
+    "retrievedAt": "2026-10-15T20:08:09Z",
+    "contentType": "text/html",
+    "snapshotPath": "source-274646c9ee96b5f3db0375b267ba30e31122509ad0a0e2136f31068f5e9cfb81.bin",
+    "textPath": "source-feeceac614a589b13b64c3af157990f57fe45cc17ec6c99144540bcc496b40b8.txt"
+  },
+  "files": {
+    "snapshots/source-274646c9ee96b5f3db0375b267ba30e31122509ad0a0e2136f31068f5e9cfb81.bin": "sha256:274646c9ee96b5f3db0375b267ba30e31122509ad0a0e2136f31068f5e9cfb81",
+    "snapshots/source-feeceac614a589b13b64c3af157990f57fe45cc17ec6c99144540bcc496b40b8.txt": "sha256:feeceac614a589b13b64c3af157990f57fe45cc17ec6c99144540bcc496b40b8"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://learn.microsoft.com/en-us/security/zero-trust/adopt/implement-privileged-access-enforce",
+  "language": "en",
+  "retrievedAt": "2026-10-15T20:08:09Z",
+  "foundIn": {
+    "runId": "qwen3-38797190227",
+    "sourceOriginRunId": "qwen3-38797190227",
+    "controllerCommit": "39c54e6b4bdfd6f41bbaa40f45a996e730ef6233",
+    "recordedAt": "2026-10-15T20:08:09Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": " \n\n\t\t\n\n\t\t\t\n\t\t\n\n\t\t\t\nPhase 3-Enforce privileged access policies | Microsoft Learn\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n \n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n \n\t\t\t\n\n\t\t\t \n\t\t\t\n\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t \n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\t\t\t\n\n\t\t\t\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\t\t\n\n\t\n\t\t\t\n\n\t\t\t\t\n\n\t\t\n\n\t\t\t\n\t\t\n\n\t\t\tSkip to main content\n\t\t\n\n\t\n\t\t\n\n\t\t\tSkip to Ask Learn chat experience\n\t\t\n\n\t\n\n\t\t\t\n\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\t\n\n\t\t\t\t\t\nThis browser is no longer supported.\n\n\n\n\t\t\t\t\t\n\n\t\t\t\t\t\tUpgrade to Microsoft Edge to take advantage of the latest features, security updates, and t",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Microsoft Corporation",
+    "host": "learn.microsoft.com"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "7c735c850acf3a2642f1a27425d59bad7853732d8b2766f0800bc13fb50fb131",
+  "cachedAt": "2026-10-15T20:03:24Z",
+  "originRunId": "qwen3-38797190227",
+  "sourceUrl": "https://www.enisa.europa.eu/sites/default/files/publications/WP2018%20O.2.2.5%20-%20Security%20Measures.pdf",
+  "finalUrl": "https://www.enisa.europa.eu/sites/default/files/publications/WP2018%20O.2.2.5%20-%20Security%20Measures.pdf",
+  "language": "en",
+  "publisher": "European Union Agency for Cybersecurity (ENISA)",
+  "title": "Reinforcing trust and security in the area of electronic communications and online services (WP2018 O.2.2.5 - Security Measures)",
+  "retrievedAt": "2026-10-15T19:59:00Z",
+  "byteDigest": "sha256:f558cdc270ac97f4d78fc6810248576214f7756db3cb152f7db211f4903402ac",
+  "textDigest": "sha256:4de582fc723e0aa687bf4abfc1f7fbef7a84746f5f58e1c16cf6d8a35d03f8d2",
+  "sourceId": "0-source-2",
+  "passageId": "p3",
+  "locator": "Section 8.2.7",
+  "quotation": "External storage use limitation",
+  "originalText": "External storage use limitation",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38797190227",
+    "sourceOriginRunId": "qwen3-38797190227",
+    "controllerCommit": "39c54e6b4bdfd6f41bbaa40f45a996e730ef6233",
+    "recordedAt": "2026-10-15T20:03:24Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "European Union Agency for Cybersecurity (ENISA)",
+    "host": "www.enisa.europa.eu"
+  }
+}

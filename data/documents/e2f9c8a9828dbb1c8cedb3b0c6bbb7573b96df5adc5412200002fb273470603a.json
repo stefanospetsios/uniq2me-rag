@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T20:05:17Z",
+  "originRunId": "qwen3-38797190227",
+  "source": {
+    "id": "1-source-4",
+    "type": "technical-doc",
+    "title": "Setting up your new instance: Creating an admin account",
+    "publisher": "Mastodon Project",
+    "url": "https://github.com/mastodon/documentation/blob/main/content/en/admin/setup.md",
+    "language": "en",
+    "jurisdiction": "International",
+    "applicability": "Admin account creation and role assignment in decentralized social network infrastructure",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:5c55baff32431e071113d02a06b66504bffd1765cd1332005c0089ed9228a92f",
+    "textDigest": "sha256:71ae9e9fe3b99847ad2ec451e613188ece8b351b722fe5a9492b27c15bc9a0a9",
+    "finalUrl": "https://github.com/mastodon/documentation/blob/main/content/en/admin/setup.md",
+    "retrievedAt": "2026-10-15T20:05:17Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-5c55baff32431e071113d02a06b66504bffd1765cd1332005c0089ed9228a92f.bin",
+    "textPath": "source-71ae9e9fe3b99847ad2ec451e613188ece8b351b722fe5a9492b27c15bc9a0a9.txt"
+  },
+  "files": {
+    "snapshots/source-5c55baff32431e071113d02a06b66504bffd1765cd1332005c0089ed9228a92f.bin": "sha256:5c55baff32431e071113d02a06b66504bffd1765cd1332005c0089ed9228a92f",
+    "snapshots/source-71ae9e9fe3b99847ad2ec451e613188ece8b351b722fe5a9492b27c15bc9a0a9.txt": "sha256:71ae9e9fe3b99847ad2ec451e613188ece8b351b722fe5a9492b27c15bc9a0a9"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://github.com/mastodon/documentation/blob/main/content/en/admin/setup.md",
+  "language": "en",
+  "retrievedAt": "2026-10-15T20:05:17Z",
+  "foundIn": {
+    "runId": "qwen3-38797190227",
+    "sourceOriginRunId": "qwen3-38797190227",
+    "controllerCommit": "39c54e6b4bdfd6f41bbaa40f45a996e730ef6233",
+    "recordedAt": "2026-10-15T20:05:17Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": "\n\n\n\n  \n\n\n\n\n\n\n\n\n\n  \n\n    \n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n  \n\n\n  \n\n\n    \n\n    \n\n    \n\n    \n\n  \n\n\n\n\n  \n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \ndocumentation/content/en/admin/setup.md at main · mastodon/documentation · GitHub\n\n\n\n\n  \n\n  \n\n  \n\n  \n\n\n    \n  \n\n\n\n  \n\n\n\n    \n\n\n\n  \n\n  \n\n  \n\n  \n\n\n    \n\n\n\n\n\n\n\n\n\n  \n\n\n  \n\n\n\n\n    \n\n\n  \n\n    \n\n\n    \n\n      \n\n\n      \n\n\n    \n\n    \n\n    \n\n\n      \n\n  \n\n  \n\n\n\n\n      \n\n\n\n\n        \n\n\n\n  \n\n  \n\n  \n\n  \n\n\n  \n\n\n      \n\n\n    \n\n\n  \n\n\n  \n\n  \n\n\n\n    \n\n    \n\n  \n\n\n\n  \n\n\n\n  \n\n\n  \n\n  \n\n\n  \n\n  \n\n  \n\n\n\n\n\n\n\n\n  \n\n\n  \n\n\n  \n\n    \n\n      \n\n\n\n      \n\n    \n\n      \nSkip to content\n\n\n      \n\n    \n\n\n      ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Mastodon Project",
+    "host": "github.com"
+  }
+}

@@ -1,0 +1,1856 @@
+ <!DOCTYPE html>
+		<html
+			class="layout layout-holy-grail   show-table-of-contents conceptual show-breadcrumb default-focus"
+			lang="en-us"
+			dir="ltr"
+			data-authenticated="false"
+			data-auth-status-determined="false"
+			data-target="docs"
+			x-ms-format-detection="none"
+		>
+			
+		<head>
+			<title>Deploying a privileged access solution - Privileged access | Microsoft Learn</title>
+			<meta charset="utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<meta name="color-scheme" content="light dark" />
+
+			<meta name="description" content="Configuring and deploying components of a privileged access solution" />
+			<link rel="canonical" href="https://learn.microsoft.com/en-us/security/privileged-access-workstations/privileged-access-deployment" /> 
+
+			<!-- Non-customizable open graph and sharing-related metadata -->
+			<meta name="twitter:card" content="summary_large_image" />
+			<meta name="twitter:site" content="@MicrosoftLearn" />
+			<meta property="og:type" content="website" />
+			<meta property="og:image:alt" content="Microsoft Learn" />
+			<meta property="og:image" content="https://learn.microsoft.com/en-us/media/open-graph-image.png" />
+			<!-- Page specific open graph and sharing-related metadata -->
+			<meta property="og:title" content="Deploying a privileged access solution - Privileged access" />
+			<meta property="og:url" content="https://learn.microsoft.com/en-us/security/privileged-access-workstations/privileged-access-deployment" />
+			<meta property="og:description" content="Configuring and deploying components of a privileged access solution" />
+			<meta name="platform_id" content="48ce9a6d-b1ab-d55b-1c41-2f661637b182" /> 
+			<meta name="locale" content="en-us" />
+			 
+			<meta name="uhfHeaderId" content="MSDocsHeader-Security" />
+
+			<meta name="page_type" content="conceptual" />
+
+			<!--page specific meta tags-->
+			
+
+			<!-- custom meta tags -->
+			
+		<meta name="breadcrumb_path" content="/security/breadcrumb/toc.json" />
+	
+		<meta name="feedback_system" content="None" />
+	
+		<meta name="feedback_help_link_type" content="" />
+	
+		<meta name="ms.author" content="raynew" />
+	
+		<meta name="author" content="rayne-wiselman" />
+	
+		<meta name="ms.service" content="security" />
+	
+		<meta name="ms.subservice" content="privileged-access" />
+	
+		<meta name="ms.topic" content="how-to" />
+	
+		<meta name="ms.date" content="2024-06-20T00:00:00Z" />
+	
+		<meta name="ms.reviewer" content="frasim" />
+	
+		<meta name="document_id" content="c43f9aaa-a605-13ce-38b2-b5e51d0dee34" />
+	
+		<meta name="document_version_independent_id" content="c43f9aaa-a605-13ce-38b2-b5e51d0dee34" />
+	
+		<meta name="updated_at" content="2026-05-05T22:03:00Z" />
+	
+		<meta name="original_content_git_url" content="https://github.com/MicrosoftDocs/security-pr/blob/live/security-docs/privileged-access-workstations/privileged-access-deployment.md" />
+	
+		<meta name="gitcommit" content="https://github.com/MicrosoftDocs/security-pr/blob/50878baeae9cacda7ead8f2173e442f0d5f32393/security-docs/privileged-access-workstations/privileged-access-deployment.md" />
+	
+		<meta name="git_commit_id" content="50878baeae9cacda7ead8f2173e442f0d5f32393" />
+	
+		<meta name="site_name" content="Docs" />
+	
+		<meta name="depot_name" content="MSDN.security-docs" />
+	
+		<meta name="schema" content="Conceptual" />
+	
+		<meta name="toc_rel" content="toc.json" />
+	
+		<meta name="pdf_url_template" content="https://learn.microsoft.com/pdfstore/en-us/MSDN.security-docs/{branchName}{pdfName}" />
+	
+		<meta name="feedback_product_url" content="" />
+	
+		<meta name="feedback_help_link_url" content="" />
+	
+		<meta name="word_count" content="4588" />
+	
+		<meta name="asset_id" content="privileged-access-workstations/privileged-access-deployment" />
+	
+		<meta name="moniker_range_name" content="" />
+	
+		<meta name="item_type" content="Content" />
+	
+		<meta name="source_path" content="security-docs/privileged-access-workstations/privileged-access-deployment.md" />
+	
+		<meta name="previous_tlsh_hash" content="50DC96E2A50C8503EFE32A07292BF70882F0D588FEF0BAC42562A956C05C2EB33AA818EFD353974D6377469312D3AD5F25E7BB3E416E63E5525464B9802C51936A8C77F6D7" />
+	
+		<meta name="github_feedback_content_git_url" content="https://github.com/MicrosoftDocs/security/blob/main/security-docs/privileged-access-workstations/privileged-access-deployment.md" />
+	
+		<meta name="markdown_url" content="https://learn.microsoft.com/en-us/security/privileged-access-workstations/privileged-access-deployment?accept=text/markdown" />
+	 
+		<meta name="cmProducts" content="https://microsoft-devrel.poolparty.biz/DevRelOfferingOntology/a72e95ff-4b4f-4cc1-90c6-7dcba67ff05f" data-source="generated" />
+	
+		<meta name="cmProducts" content="https://microsoft-devrel.poolparty.biz/DevRelOfferingOntology/1433a524-c01f-4b87-beab-670c040dea4f" data-source="generated" />
+	
+		<meta name="cmProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/bcbcbad5-4208-4783-8035-8481272c98b8" data-source="generated" />
+	
+		<meta name="spProducts" content="https://microsoft-devrel.poolparty.biz/DevRelOfferingOntology/24dc3ccd-591a-4415-a1fe-8759afafcb12" data-source="generated" />
+	
+		<meta name="spProducts" content="https://microsoft-devrel.poolparty.biz/DevRelOfferingOntology/312f1f05-a431-4193-8a4d-e6245d5966de" data-source="generated" />
+	
+		<meta name="spProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/43b2e5aa-8a6d-4de2-a252-692232e5edc8" data-source="generated" />
+	
+
+			<!-- Apply persisted/system theme before first paint to prevent wrong-theme flash when scripts are deferred. -->
+			<script id="theme-preference">
+				(function () {
+			try {
+				var stored = localStorage.getItem('theme');
+				var theme = /^(light|dark|high-contrast)$/.test(stored)
+					? stored
+					: matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+				document.documentElement.classList.add('theme-' + theme);
+			} catch (e) {}
+		})();;
+			</script>
+
+			<script id="atlas-layout-preferences">
+				(function () {
+			try {
+				var state = JSON.parse(localStorage.getItem('atlas-layout-preferences') || '{}');
+				var view = state["docs-layout-persistence"] || {};
+				var excludesKey = "";
+				var blocked = {};
+				if (excludesKey) {
+					var exclusions = JSON.parse(localStorage.getItem('atlas-layout-exclusions') || '{}');
+					if (Object.prototype.hasOwnProperty.call(exclusions, excludesKey)) {
+						var scoped = exclusions[excludesKey];
+						if (scoped) {
+							if (typeof scoped === 'object') blocked = scoped;
+						}
+					}
+				}
+				var html = document.documentElement;
+				for (var c in view) {
+					if (Object.prototype.hasOwnProperty.call(blocked, c)) continue;
+					if (view[c]) html.classList.add(c);
+					else html.classList.remove(c);
+				}
+			} catch (e) {}
+		})();;
+			</script>
+
+			<!-- assets and js globals -->
+			
+			<link rel="stylesheet" href="/static/assets/0.4.03572.8300-4153e208/styles/site.css" />
+			
+			<script src="https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js"></script>
+			<!-- Keep this URL in sync with oneDSScriptSelector in instrumentation/one-ds.ts. -->
+			<script async src="https://js.monitor.azure.com/scripts/c/ms.jsll-4.min.js"></script>
+			
+
+			<!-- msdocs global object -->
+			<script id="msdocs-script">
+		var msDocs = {
+  "environment": {
+    "accessLevel": "online",
+    "azurePortalHostname": "portal.azure.com",
+    "reviewFeatures": false,
+    "supportLevel": "production",
+    "systemContent": true,
+    "siteName": "learn",
+    "legacyHosting": false
+  },
+  "data": {
+    "contentLocale": "en-us",
+    "contentDir": "ltr",
+    "userLocale": "en-us",
+    "userDir": "ltr",
+    "pageTemplate": "Conceptual",
+    "layoutStateStorageKey": "docs-layout-persistence",
+    "brand": "",
+    "context": {},
+    "standardFeedback": false,
+    "showFeedbackReport": false,
+    "feedbackHelpLinkType": "",
+    "feedbackHelpLinkUrl": "",
+    "feedbackSystem": "None",
+    "feedbackGitHubRepo": "",
+    "feedbackProductUrl": "",
+    "extendBreadcrumb": false,
+    "isEditDisplayable": false,
+    "isPrivateUnauthorized": false,
+    "hideViewSource": false,
+    "isPermissioned": false,
+    "hasRecommendations": true
+  },
+  "functions": {}
+};;
+	</script>
+
+			<!-- base scripts, msdocs global should be before this -->
+			<script
+				src="/static/assets/0.4.03572.8300-4153e208/scripts/en-us/index-docs.js"
+				async
+			></script>
+			
+
+			<!-- json-ld -->
+			
+		<script >bazadebezolkohpepadr="906183553"</script><script type="text/javascript" src="https://learn.microsoft.com/akam/13/3603431b"  defer></script></head>
+	
+			<body
+				id="body"
+				data-bi-name="body"
+				class="layout-body "
+				lang="en-us"
+				dir="ltr"
+			>
+				<header class="layout-body-header background-color-body-medium">
+		<div class="header-holder has-default-focus">
+			
+		<a
+			href="#main"
+			
+			style="z-index: 1070"
+			class="outline-color-text visually-hidden-until-focused position-fixed inner-focus focus-visible top-0 left-0 right-0 padding-xs text-align-center background-color-body"
+			
+		>
+			Skip to main content
+		</a>
+	
+		<a
+			href="#"
+			data-skip-to-ask-learn
+			style="z-index: 1070"
+			class="outline-color-text visually-hidden-until-focused position-fixed inner-focus focus-visible top-0 left-0 right-0 padding-xs text-align-center background-color-body"
+			hidden
+		>
+			Skip to Ask Learn chat experience
+		</a>
+	
+
+			<div hidden id="cookie-consent-holder" data-test-id="cookie-consent-container"></div>
+			<!-- Unsupported browser warning -->
+			<div
+				id="unsupported-browser"
+				style="background-color: white; color: black; padding: 16px; border-bottom: 1px solid grey;"
+				hidden
+			>
+				<div style="max-width: 800px; margin: 0 auto;">
+					<p style="font-size: 24px">This browser is no longer supported.</p>
+					<p style="font-size: 16px; margin-top: 16px;">
+						Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support.
+					</p>
+					<div style="margin-top: 12px;">
+						<a
+							href="https://go.microsoft.com/fwlink/p/?LinkID=2092881 "
+							style="background-color: #0078d4; border: 1px solid #0078d4; color: white; padding: 6px 12px; border-radius: 2px; display: inline-block;"
+						>
+							Download Microsoft Edge
+						</a>
+						<a
+							href="https://learn.microsoft.com/en-us/lifecycle/faq/internet-explorer-microsoft-edge"
+							style="background-color: white; padding: 6px 12px; border: 1px solid #505050; color: #171717; border-radius: 2px; display: inline-block;"
+						>
+							More info about Internet Explorer and Microsoft Edge
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- site header -->
+			<div
+				id="ms--site-header"
+				data-test-id="site-header-wrapper"
+				itemscope="itemscope"
+				itemtype="http://schema.org/Organization"
+			>
+				<div
+					id="ms--mobile-nav"
+					class="site-header display-none-tablet padding-inline-none gap-none"
+					data-bi-name="mobile-header"
+					data-test-id="mobile-header"
+				></div>
+				<div
+					id="ms--primary-nav"
+					class="site-header display-none display-flex-tablet"
+					data-bi-name="L1-header"
+					data-test-id="primary-header"
+				></div>
+				<div
+					id="ms--secondary-nav"
+					class="site-header display-none display-flex-tablet"
+					data-bi-name="L2-header"
+					data-test-id="secondary-header"
+					
+				></div>
+			</div>
+			
+		<!-- banner -->
+		<div data-banner>
+			<div id="disclaimer-holder"></div>
+			
+		</div>
+		<!-- banner end -->
+	
+		</div>
+	</header>
+				 <section
+					id="layout-body-menu"
+					class="layout-body-menu border-right display-flex background-color-body-medium"
+					data-bi-name="menu"
+			  >
+					
+		<div
+			id="left-container"
+			class="left-container display-none padding-none display-block-tablet width-full display-none-until-layout-restored"
+			data-toc-container="true"
+		>
+			<div
+				id="ms--toc-content"
+				class="padding-left-sm padding-right-none padding-bottom-sm height-full"
+			>
+				<nav
+					id="affixed-left-container"
+					class="margin-top-xxs-tablet position-sticky display-flex flex-direction-column width-full"
+					aria-label="Primary"
+					data-bi-name="left-toc"
+					role="navigation"
+				>
+					<div
+						id="ms--collapsible-toc-header"
+						class="display-flex flex-direction-row-reverse justify-content-center align-items-center margin-bottom-xxs margin-right-xxs"
+					>
+						<button
+							type="button"
+							class="button button-clear button-sm inner-focus"
+							data-collapsible-toc-toggle
+							aria-expanded="true"
+							hidden
+							aria-controls="ms--toc-content"
+							aria-label="Table of contents"
+						>
+							<span class="icon icon-mirrored-rtl" aria-hidden="true">
+								<span
+									class="docon docon-panel-left-contract display-none-layout-menu-collapsed"
+								></span>
+								<span
+									class="docon docon-panel-left-expand display-none display-inline-layout-menu-collapsed"
+								></span>
+							</span>
+						</button>
+						<div
+							id="ms--collapsible-toc-moniker-slot"
+							class="flex-grow-1 display-none-layout-menu-collapsed"
+						></div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	
+			  </section>
+
+				<main
+					id="main"
+					role="main"
+					class="layout-body-main "
+					data-bi-name="content"
+					lang="en-us"
+					dir="ltr"
+				>
+					
+			<div
+		id="ms--content-header"
+		class="content-header default-focus border-bottom-none"
+		data-bi-name="content-header"
+	>
+		<div class="content-header-controls margin-xxs margin-inline-sm-tablet">
+			<button
+				type="button"
+				class="contents-button button button-sm margin-right-xxs"
+				data-bi-name="contents-expand"
+				aria-haspopup="true"
+				data-contents-button
+			>
+				<span class="icon" aria-hidden="true"><span class="docon docon-menu"></span></span>
+				<span class="contents-expand-title"> Table of contents </span>
+			</button>
+			<button
+				type="button"
+				class="ap-collapse-behavior ap-expanded button button-sm"
+				data-bi-name="ap-collapse"
+				aria-controls="action-panel"
+			>
+				<span class="icon" aria-hidden="true"><span class="docon docon-exit-mode"></span></span>
+				<span>Exit editor mode</span>
+			</button>
+		</div>
+	</div> 
+		<div
+			id="action-panel"
+			role="region"
+			aria-label="Action Panel"
+			class="action-panel"
+			tabindex="-1"
+		></div>
+	
+			<div
+				data-main-column
+				class="reading-width margin-inline-auto layout-padding padding-top-none padding-top-sm-tablet padding-bottom-sm"
+			>
+				<div>
+					
+		<div id="article-header" class="background-color-body margin-bottom-xs display-none-print">
+			<div class="display-flex align-items-center justify-content-space-between">
+				
+		<details
+			id="article-header-breadcrumbs-overflow-popover"
+			class="popover popover-left"
+			data-for="article-header-breadcrumbs"
+		>
+			<summary
+				class="button button-clear button-primary button-sm inner-focus"
+				aria-label="All breadcrumbs"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-more"></span>
+				</span>
+			</summary>
+			<div id="article-header-breadcrumbs-overflow" class="popover-content"></div>
+		</details>
+
+		<bread-crumbs
+			id="article-header-breadcrumbs"
+			role="group"
+			aria-label="Breadcrumbs"
+			data-test-id="article-header-breadcrumbs"
+			class="overflow-hidden flex-grow-1 margin-right-sm margin-right-md-tablet margin-right-lg-desktop margin-left-negative-xxs padding-left-xxs"
+		></bread-crumbs>
+	 
+		<div
+			id="article-header-page-actions"
+			class="opacity-none margin-left-auto display-flex flex-wrap-no-wrap align-items-stretch"
+		>
+			
+		<button
+			class="button button-sm border-none inner-focus display-none-tablet flex-shrink-0 "
+			data-bi-name="ask-learn-assistant-entry"
+			data-test-id="ask-learn-assistant-modal-entry-mobile"
+			data-ask-learn-modal-entry
+			
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-label="Ask Learn"
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+		</button>
+		<button
+			class="button button-sm display-none display-inline-flex-tablet display-none-desktop flex-shrink-0 margin-right-xxs border-color-ask-learn "
+			data-bi-name="ask-learn-assistant-entry"
+			
+			data-test-id="ask-learn-assistant-modal-entry-tablet"
+			data-ask-learn-modal-entry
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+		<button
+			class="button button-sm display-none flex-shrink-0 display-inline-flex-desktop margin-right-xxs border-color-ask-learn "
+			data-bi-name="ask-learn-assistant-entry"
+			
+			data-test-id="ask-learn-assistant-flyout-entry"
+			data-ask-learn-flyout-entry
+			data-flyout-button="toggle"
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-controls="ask-learn-flyout"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+	 
+
+			<details class="popover popover-right" id="article-header-page-actions-overflow">
+				<summary
+					class="justify-content-flex-start button button-clear button-sm button-primary inner-focus"
+					aria-label="More actions"
+					aria-expanded="false"
+					title="More actions"
+				>
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-more-vertical"></span>
+					</span>
+				</summary>
+				<div class="popover-content">
+					
+		<button
+			type="button"
+			id="ms--focus-mode-button"
+			data-focus-mode
+			data-bi-name="focus-mode-entry"
+			data-page-action-item="overflow-all"
+			data-popover-close
+			class="button button-clear button-sm button-block justify-content-flex-start text-align-left inner-focus display-none display-inline-flex-tablet"
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-glasses"></span>
+			</span>
+			<span>Reading mode</span>
+		</button>
+	 
+		<button
+			data-page-action-item="overflow-mobile"
+			type="button"
+			class="display-block-layout-menu-collapsed button-block button-sm inner-focus button button-clear display-none-tablet justify-content-flex-start text-align-left"
+			data-bi-name="contents-expand"
+			data-contents-button
+			data-popover-close
+		>
+			<span class="icon" aria-hidden="true"
+				><span class="docon docon-editor-list-bullet"></span
+			></span>
+			<span class="contents-expand-title">Table of contents</span>
+		</button>
+	 
+		<a
+			id="lang-link-overflow"
+			class="button-sm inner-focus button button-clear button-block justify-content-flex-start text-align-left"
+			data-bi-name="language-toggle"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-read-in-link
+			href="#"
+			hidden
+		>
+			<span class="icon" aria-hidden="true" data-read-in-link-icon>
+				<span class="docon docon-locale-globe"></span>
+			</span>
+			<span data-read-in-link-text>Read in English</span>
+		</a>
+	
+					
+		<button
+			type="button"
+			class="collection button button-clear button-sm button-block justify-content-flex-start text-align-left inner-focus"
+			data-list-type="collection"
+			data-bi-name="collection"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-popover-close
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-circle-addition"></span>
+			</span>
+			<span class="collection-status">Add</span>
+		</button>
+	 
+		<button
+			type="button"
+			class="collection button button-block button-clear button-sm justify-content-flex-start text-align-left inner-focus"
+			data-list-type="plan"
+			data-bi-name="plan"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-popover-close
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-circle-addition"></span>
+			</span>
+			<span class="plan-status">Add to Plans</span>
+		</button>
+	 
+					
+		<a
+			data-contenteditbtn
+			class="button button-clear button-block button-sm inner-focus justify-content-flex-start text-align-left text-decoration-none"
+			data-bi-name="edit"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			hidden
+			href="https://github.com/MicrosoftDocs/security/blob/main/security-docs/privileged-access-workstations/privileged-access-deployment.md"
+			data-original_content_git_url="https://github.com/MicrosoftDocs/security-pr/blob/live/security-docs/privileged-access-workstations/privileged-access-deployment.md"
+			data-original_content_git_url_template="{repo}/blob/{branch}/security-docs/privileged-access-workstations/privileged-access-deployment.md"
+			data-pr_repo=""
+			data-pr_branch=""
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-edit-outline"></span>
+			</span>
+			<span>Edit</span>
+		</a>
+	  
+		<hr class="margin-block-xxs" />
+		
+				<button
+					class="button button-block button-clear button-sm justify-content-flex-start text-align-left inner-focus"
+					type="button"
+					data-bi-name="copy-markdown"
+					data-page-action-item="overflow-all"
+					data-copy-markdown
+					data-copy-state="idle"
+					data-check-hidden="true"
+				>
+					<span class="icon color-primary" aria-hidden="true">
+						<span data-show-when="idle" class="docon docon-code-lang"></span>
+						<span data-show-when="loading" class="loader" hidden></span>
+						<span data-show-when="success" class="docon docon-check-mark" hidden></span>
+					</span>
+					<span>Copy Markdown</span>
+				</button>
+		   
+				<button
+					class="button button-block button-clear button-sm justify-content-flex-start text-align-left inner-focus"
+					type="button"
+					data-bi-name="print"
+					data-page-action-item="overflow-all"
+					data-popover-close
+					data-print-page
+					data-check-hidden="true"
+				>
+					<span class="icon color-primary" aria-hidden="true">
+						<span class="docon docon-print"></span>
+					</span>
+					<span>Print</span>
+				</button>
+		  
+	
+				</div>
+			</details>
+		</div>
+	
+			</div>
+		</div>
+	  
+		<!-- privateUnauthorizedTemplate is hidden by default -->
+		<div unauthorized-private-section data-bi-name="permission-content-unauthorized-private" hidden>
+			<hr class="hr margin-top-xs margin-bottom-sm" />
+			<div class="notification notification-info">
+				<div class="notification-content">
+					<p class="margin-top-none notification-title">
+						<span class="icon" aria-hidden="true"
+							><span class="docon docon-exclamation-circle-solid"></span
+						></span>
+						<span>Note</span>
+					</p>
+					<p class="margin-top-none authentication-determined not-authenticated">
+						Access to this page requires authorization. You can try <a class="docs-sign-in" href="#" data-bi-name="permission-content-sign-in">signing in</a> or <a  class="docs-change-directory" data-bi-name="permisson-content-change-directory">changing directories</a>.
+					</p>
+					<p class="margin-top-none authentication-determined authenticated">
+						Access to this page requires authorization. You can try <a class="docs-change-directory" data-bi-name="permisson-content-change-directory">changing directories</a>.
+					</p>
+				</div>
+			</div>
+		</div>
+	
+					<div class="content"><h1 id="privileged-access-deployment">Privileged access deployment</h1></div>
+					
+		<div
+			id="article-metadata"
+			data-bi-name="article-metadata"
+			data-test-id="article-metadata"
+			class="page-metadata-container display-flex gap-xxs justify-content-space-between align-items-center flex-wrap-wrap"
+		>
+			 
+				<div
+					id="user-feedback"
+					class="margin-block-xxs display-none display-none-print"
+					hidden
+					data-hide-on-archived
+				>
+					
+		<button
+			id="user-feedback-button"
+			data-test-id="conceptual-feedback-button"
+			class="button button-sm button-clear button-primary display-none"
+			type="button"
+			data-bi-name="user-feedback-button"
+			data-user-feedback-button
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-like"></span>
+			</span>
+			<span>Feedback</span>
+		</button>
+	
+				</div>
+		  
+		</div>
+	 
+		<div data-id="ai-summary" class="display-none-print">
+			<div id="ms--ai-summary-cta" class="margin-top-xs display-flex align-items-center">
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-sparkle-fill gradient-text-vivid"></span>
+				</span>
+				<button
+					id="ms--ai-summary"
+					type="button"
+					class="tag tag-sm tag-suggestion margin-left-xxs"
+					data-test-id="ai-summary-cta"
+					data-bi-name="ai-summary-cta"
+					data-an="ai-summary"
+				>
+					<span class="ai-summary-cta-text">
+						Summarize this article for me
+					</span>
+				</button>
+			</div>
+			<!-- Slot where the client will render the summary card after the user clicks the CTA -->
+			<div id="ms--ai-summary-header" class="margin-top-xs"></div>
+		</div>
+	 
+		<nav
+			id="center-doc-outline"
+			class="doc-outline display-none-desktop display-none-print margin-bottom-sm"
+			data-bi-name="intopic toc"
+			aria-label="In this article"
+		>
+			<h2 id="ms--in-this-article" class="title is-6 margin-block-xs">
+				In this article
+			</h2>
+		</nav>
+	 <div class="content"><p>This document guides you through implementing the technical components of the <a href="privileged-access-strategy" data-linktype="relative-path">privileged access strategy</a>, including secure accounts, workstations and devices, and interface security (with conditional access policy).</p>
+<p><img src="media/privileged-access-deployment/privileged-access-deployment-profile-summary.png" alt="Summary of security level profiles" data-linktype="relative-path"></p>
+<p>This guidance sets up all of the profiles for all three security levels and should be assigned your organizations roles based on the <a href="privileged-access-security-levels" data-linktype="relative-path">Privileged access security levels</a> guidance. Microsoft recommends configuring them in the order described in the <a href="security-rapid-modernization-plan" data-linktype="relative-path">rapid modernization plan (RAMP)</a></p>
+<h2 id="license-requirements">License requirements</h2>
+<p>The concepts covered in this guide assume you have Microsoft 365 Enterprise E5 or an equivalent product. Some of the recommendations in this guide can be implemented with other licenses. For more information, see <a href="https://www.microsoft.com/licensing/product-licensing/microsoft-365-enterprise" data-linktype="external">Microsoft 365 Enterprise licensing</a>.</p>
+<p>To automate license provisioning, consider <a href="/en-us/azure/active-directory/enterprise-users/licensing-groups-assign" data-linktype="absolute-path">group-based licensing</a> for your users.</p>
+<p><a name="azure-active-directory-configuration"></a></p>
+<h2 id="microsoft-entra-configuration">Microsoft Entra configuration</h2>
+<p>Microsoft Entra ID manages users, groups, and devices for your administrator workstations. Enable identity services and features with an <a href="/en-us/azure/active-directory/roles/permissions-reference" data-linktype="absolute-path">administrator account</a>.</p>
+<p>When you create the secured workstation administrator account, you expose the account to your current workstation. Make sure you use a known safe device to do this initial configuration and all global configuration. To reduce the attack exposure for the first-time experience, consider following the <a href="/en-us/windows/security/threat-protection/intelligence/prevent-malware-infection" data-linktype="absolute-path">guidance to prevent malware infections</a>.</p>
+<p>Require multifactor authentication, at least for your administrators. See <a href="/en-us/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa" data-linktype="absolute-path">Conditional Access: Require MFA for administrators</a> for implementation guidance.</p>
+<p><a name="azure-ad-users-and-groups"></a></p>
+<h3 id="microsoft-entra-users-and-groups">Microsoft Entra users and groups</h3>
+<ol>
+<li><p>From the Azure portal, browse to <strong>Microsoft Entra ID</strong> &gt; <strong>Users</strong> &gt; <strong>New user</strong>.</p>
+</li>
+<li><p>Enter:</p>
+<ul>
+<li><strong>Name</strong> - Secure Workstation User</li>
+<li><strong>User name</strong> - <code>secure-ws-user@contoso.com</code></li>
+<li><strong>Directory role</strong> - <strong>Limited administrator</strong> and select the <strong>Intune Administrator</strong> role.</li>
+<li><strong>Usage Location</strong> - For example <strong>United Kingdom</strong>, or your desired location from the list.</li>
+</ul>
+</li>
+<li><p>Select <strong>Create</strong>.</p>
+</li>
+</ol>
+<p>Create your device administrator user.</p>
+<ol>
+<li><p>Enter:</p>
+<ul>
+<li><strong>Name</strong> - Secure Workstation Administrator</li>
+<li><strong>User name</strong> - <code>secure-ws-admin@contoso.com</code></li>
+<li><strong>Directory role</strong> - <strong>Limited administrator</strong> and select the <strong>Intune Administrator</strong> role.</li>
+<li><strong>Usage Location</strong> - For example <strong>United Kingdom</strong>, or your desired location from the list.</li>
+</ul>
+</li>
+<li><p>Select <strong>Create</strong>.</p>
+</li>
+</ol>
+<p>Next, you create four groups: <strong>Secure Workstation Users</strong>, <strong>Secure Workstation Admins</strong>, <strong>Emergency BreakGlass</strong> and <strong>Secure Workstation Devices</strong>.</p>
+<p>From the Azure portal, browse to <strong>Microsoft Entra ID</strong> &gt; <strong>Groups</strong> &gt; <strong>New group</strong>.</p>
+<ol>
+<li><p>For the workstation users group, you might want to configure <a href="/en-us/azure/active-directory/enterprise-users/licensing-groups-assign" data-linktype="absolute-path">group-based licensing</a> to automate provisioning of licenses to users.</p>
+</li>
+<li><p>For the workstation users group, enter:</p>
+<ul>
+<li><strong>Group type</strong> - Security</li>
+<li><strong>Group name</strong> - Secure Workstation Users</li>
+<li><strong>Membership type</strong> - Assigned</li>
+</ul>
+</li>
+<li><p>Add your secure workstation user: <code>secure-ws-user@contoso.com</code></p>
+</li>
+<li><p>You can add any other users that use secure workstations.</p>
+</li>
+<li><p>Select <strong>Create</strong>.</p>
+</li>
+<li><p>For the Privileged Workstation Admins group, enter:</p>
+<ul>
+<li><strong>Group type</strong> - Security</li>
+<li><strong>Group name</strong> - Secure Workstation Admins</li>
+<li><strong>Membership type</strong> - Assigned</li>
+</ul>
+</li>
+<li><p>Add your secure workstation user: <code>secure-ws-admin@contoso.com</code></p>
+</li>
+<li><p>You can add any other users that manage secure workstations.</p>
+</li>
+<li><p>Select <strong>Create</strong>.</p>
+</li>
+<li><p>For the Emergency BreakGlass group, enter:</p>
+<ul>
+<li><strong>Group type</strong> - Security</li>
+<li><strong>Group name</strong> - Emergency BreakGlass</li>
+<li><strong>Membership type</strong> - Assigned</li>
+</ul>
+</li>
+<li><p>Select <strong>Create</strong>.</p>
+</li>
+<li><p>Add Emergency Access accounts to this group.</p>
+</li>
+<li><p>For the workstation devices group, enter:</p>
+<ul>
+<li><strong>Group type</strong> - Security</li>
+<li><strong>Group name</strong> - Secure Workstation Devices</li>
+<li><strong>Membership type</strong> - Dynamic Device</li>
+<li><strong>Dynamic Membership rules</strong> - <code>(device.devicePhysicalIds -any _ -contains "[OrderID]:PAW")</code></li>
+</ul>
+</li>
+<li><p>Select <strong>Create</strong>.</p>
+</li>
+</ol>
+<p><a name="azure-ad-device-configuration"></a></p>
+<h3 id="microsoft-entra-device-configuration">Microsoft Entra device configuration</h3>
+<p><a name="specify-who-can-join-devices-to-azure-ad"></a></p>
+<h4 id="specify-who-can-join-devices-to-microsoft-entra-id">Specify who can join devices to Microsoft Entra ID</h4>
+<p>Configure your devices setting in Active Directory to allow your administrative security group to join devices to your domain. To configure this setting from the Azure portal:</p>
+<ol>
+<li>Go to <strong>Microsoft Entra ID</strong> &gt; <strong>Devices</strong> &gt; <strong>Device settings</strong>.</li>
+<li>Choose <strong>Selected</strong> under <strong>Users may join devices to Microsoft Entra ID</strong>, and then select the "Secure Workstation Users" group.</li>
+</ol>
+<h4 id="remove-local-admin-rights">Remove local admin rights</h4>
+<p>This method requires that users of the VIP, DevOps, and Privileged workstations have no administrator rights on their machines. To configure this setting from the Azure portal:</p>
+<ol>
+<li>Go to <strong>Microsoft Entra ID</strong> &gt; <strong>Devices</strong> &gt; <strong>Device settings</strong>.</li>
+<li>Select <strong>None</strong> under <strong>Additional local administrators on Microsoft Entra joined devices</strong>.</li>
+</ol>
+<p>Refer to <a href="/en-us/azure/active-directory/devices/assign-local-admin" data-linktype="absolute-path">How to manage the local administrators group on Microsoft Entra joined devices</a> for details on how to manage members of the local administrators group.</p>
+<h4 id="require-multifactor-authentication-to-join-devices">Require multifactor authentication to join devices</h4>
+<p>To further strengthen the process of joining devices to Microsoft Entra ID:</p>
+<ol>
+<li>Go to <strong>Microsoft Entra ID</strong> &gt; <strong>Devices</strong> &gt; <strong>Device settings</strong>.</li>
+<li>Select <strong>Yes</strong> under <strong>Require Multi-Factor Auth to join devices</strong>.</li>
+<li>Select <strong>Save</strong>.</li>
+</ol>
+<h4 id="configure-mobile-device-management">Configure mobile device management</h4>
+<p>From the Azure portal:</p>
+<ol>
+<li>Browse to <strong>Microsoft Entra ID</strong> &gt; <strong>Mobility (MDM and MAM)</strong> &gt; <strong>Microsoft Intune</strong>.</li>
+<li>Change the <strong>MDM user scope</strong> setting to <strong>All</strong>.</li>
+<li>Select <strong>Save</strong>.</li>
+</ol>
+<p>These steps allow you to manage any device with Microsoft Intune. For more information, see <a href="/en-us/mem/intune/enrollment/quickstart-setup-auto-enrollment" data-linktype="absolute-path">Set up automatic enrollment for Windows 10/11 devices</a>. You create Intune configuration and compliance policies in a future step.</p>
+<p><a name="azure-ad-conditional-access"></a></p>
+<h3 id="microsoft-entra-conditional-access">Microsoft Entra Conditional Access</h3>
+<p>Microsoft Entra Conditional Access can help restrict privileged administrative tasks to compliant devices. Predefined members of the <strong>Secure Workstation Users</strong> group are required to perform multifactor authentication when signing in to cloud applications. A best practice is to exclude emergency access accounts from the policy. For more information, see <a href="/en-us/azure/active-directory/roles/security-emergency-access" data-linktype="absolute-path">Manage emergency access accounts in Microsoft Entra ID</a>.</p>
+<h4 id="conditional-access-only-allowing-secured-workstation-ability-to-access-azure-portal">Conditional Access only allowing secured workstation ability to access Azure portal</h4>
+<p>Organizations should block Privileged Users from being able to connect to cloud management interfaces, portals, and PowerShell, from non-PAW devices.</p>
+<p>To block unauthorized devices from being able to access cloud management interfaces, follow the guidance in the article <a href="/en-us/azure/active-directory/conditional-access/concept-condition-filters-for-devices#create-a-conditional-access-policy" data-linktype="absolute-path">Conditional Access: Filters for Devices (preview)</a>. It's essential that while deploying this feature you consider, <a href="/en-us/azure/active-directory/roles/security-emergency-access" data-linktype="absolute-path">emergency access account</a> functionality. These accounts should be used only for extreme cases and the account managed through policy.</p>
+<div class="NOTE">
+<p>Note</p>
+<p>You will need to create a user group, and include your emergency user that can bypass the Conditional Access policy. For our example we have a security group called <strong>Emergency BreakGlass</strong></p>
+</div>
+<p>This policy set ensures that your Administrators must use a device that is able to present a specific device attribute value, that MFA is satisfied, and the device is marked as compliant by Microsoft Intune and Microsoft Defender for Endpoint.</p>
+<p>Organizations should also consider blocking legacy authentication protocols in their environments. For more information about blocking legacy authentication protocols, see the article, <a href="/en-us/azure/active-directory/conditional-access/block-legacy-authentication" data-linktype="absolute-path">How to: Block legacy authentication to Microsoft Entra ID with Conditional Access</a>.</p>
+<h2 id="microsoft-intune-configuration">Microsoft Intune configuration</h2>
+<h3 id="device-enrollment-deny-byod">Device enrollment deny BYOD</h3>
+<p>In our sample, we recommend that BYOD devices not be permitted. Using <a href="/en-us/mem/intune/enrollment/windows-enrollment-methods" data-linktype="absolute-path">Intune BYOD enrollment</a> allows users to enroll devices that are less, or not trusted. However it's important to note that in organizations that have a limited budget to purchase new devices, looking to use existing hardware fleet, or considering non-windows devices, might consider the BYOD capability in Intune to deploy the Enterprise profile.</p>
+<p>The following guidance configures enrollment for deployments that deny BYOD access.</p>
+<h3 id="set-enrollment-restrictions-preventing-byod">Set enrollment restrictions preventing BYOD</h3>
+<ol>
+<li>In the <a href="https://go.microsoft.com/fwlink/?linkid=2109431" data-linktype="external">Microsoft Intune admin center</a>, choose &gt; <strong>Devices</strong> &gt; <strong>Enrollment restrictions</strong> &gt; choose the default restriction <strong>All Users</strong></li>
+<li>Select <strong>Properties</strong> &gt; Platform settings <strong>Edit</strong></li>
+<li>Select <strong>Block</strong> for All types, except Windows MDM.</li>
+<li>Select <strong>Block</strong> for all Personally owned items.</li>
+</ol>
+<h3 id="create-an-autopilot-deployment-profile">Create an Autopilot deployment profile</h3>
+<p>After creating a device group, you must create a deployment profile to configure the Autopilot devices.</p>
+<ol>
+<li><p>In the <a href="https://go.microsoft.com/fwlink/?linkid=2109431" data-linktype="external">Microsoft Intune admin center</a>, choose <strong>Device enrollment</strong> &gt; <strong>Windows enrollment</strong> &gt; <strong>Deployment Profiles</strong> &gt; <strong>Create Profile</strong>.</p>
+</li>
+<li><p>Enter:</p>
+<ul>
+<li>Name - <strong>Secure workstation deployment profile</strong>.</li>
+<li>Description - <strong>Deployment of secure workstations</strong>.</li>
+<li>Set <strong>Convert all targeted devices to Autopilot</strong> to <strong>Yes</strong>. This setting makes sure that all devices in the list get registered with the Autopilot deployment service. Allow 48 hours for the registration to be processed.</li>
+</ul>
+</li>
+<li><p>Select <strong>Next</strong>.</p>
+<ul>
+<li>For <strong>Deployment mode</strong>, choose <a href="/en-us/mem/autopilot/self-deploying" data-linktype="absolute-path"><strong>Self-Deploying (Preview)</strong></a>. Devices with this profile are associated with the user who enrolls the device. During the deployment, it's advisable to use the Self-Deployment mode features to include:
+<ul>
+<li>Enrolls the device in Intune Microsoft Entra automatic MDM enrollment, and only allow for a device to be accessed until all policies, applications, certificates, and networking profiles are provisioned on the device.</li>
+<li>User credentials are required to enroll the device. It's essential to note that deploying a device in the <strong>Self-Deploying</strong> mode allows you to deploy laptops in a shared model. No user assignment happens until the device is assigned to a user for the first time. As a result, any user policies such as BitLocker won't be enabled until a user assignment is completed. For more information about how to sign in to a secured device, see <a href="/en-us/mem/intune/configuration/device-profile-assign" data-linktype="absolute-path">selected profiles</a>.</li>
+</ul>
+</li>
+<li>Select your Language (Region), User account type <strong>standard</strong>.</li>
+</ul>
+</li>
+<li><p>Select <strong>Next</strong>.</p>
+<ul>
+<li>Select a scope tag if you have preconfigured one.</li>
+</ul>
+</li>
+<li><p>Select <strong>Next</strong>.</p>
+</li>
+<li><p>Choose <strong>Assignments</strong> &gt; <strong>Assign to</strong> &gt; <strong>Selected Groups</strong>. In <strong>Select groups to include</strong>, choose <strong>Secure Workstation Devices</strong>.</p>
+</li>
+<li><p>Select <strong>Next</strong>.</p>
+</li>
+<li><p>Select <strong>Create</strong> to create the profile. The Autopilot deployment profile is now available to assign to devices.</p>
+</li>
+</ol>
+<p>Device enrollment in Autopilot provides a different user experience based on device type and role. In our deployment example, we illustrate a model where the secured devices are bulk deployed and can be shared, but when used for the first time, the device is assigned to a user. For more information, see <a href="/en-us/autopilot/registration-overview" data-linktype="absolute-path">Windows Autopilot registration</a>.</p>
+<h3 id="enrollment-status-page">Enrollment Status Page</h3>
+<p>The Enrollment Status Page (ESP) displays provisioning progress after a new device is enrolled. To ensure that devices are fully configured before use, Intune provides a means to <strong>Block device use until all apps and profiles are installed</strong>.</p>
+<h4 id="create-and-assign-enrollment-status-page-profile">Create and assign enrollment status page profile</h4>
+<ol>
+<li>In the <a href="https://go.microsoft.com/fwlink/?linkid=2109431" data-linktype="external">Microsoft Intune admin center</a>, choose <strong>Devices</strong> &gt; <strong>Windows</strong> &gt; <strong>Windows enrollment</strong> &gt; <strong>Enrollment Status Page</strong> &gt; <strong>Create profile</strong>.</li>
+<li>Provide a <strong>Name</strong> and <strong>Description</strong>.</li>
+<li>Choose <strong>Create</strong>.</li>
+<li>Choose the new profile in the <strong>Enrollment Status Page</strong> list.</li>
+<li>Set <strong>Show app profile installation progress</strong> to <strong>Yes</strong>.</li>
+<li>Set <strong>Block device use until all apps and profiles are installed</strong> to <strong>Yes</strong>.</li>
+<li>Choose <strong>Assignments</strong> &gt; <strong>Select groups</strong> &gt; choose <code>Secure Workstation</code> group &gt; <strong>Select</strong> &gt; <strong>Save</strong>.</li>
+<li>Choose <strong>Settings</strong> &gt; choose the settings you want to apply to this profile &gt; <strong>Save</strong>.</li>
+</ol>
+<h3 id="configure-windows-update">Configure Windows Update</h3>
+<p>Keeping Windows 10 up to date is one of the most important things you can do. To maintain Windows in a secure state, you deploy an <a href="/en-us/windows/deployment/update/waas-quick-start" data-linktype="absolute-path">update ring</a> to manage the pace that updates are applied to workstations.</p>
+<p>This guidance recommends that you create a new update ring and change the following default settings:</p>
+<ol>
+<li><p>In the <a href="https://go.microsoft.com/fwlink/?linkid=2109431" data-linktype="external">Microsoft Intune admin center</a>, choose <strong>Devices</strong> &gt; <strong>Software updates</strong> &gt; <strong>Windows 10 Update Rings</strong>.</p>
+</li>
+<li><p>Enter:</p>
+<ul>
+<li>Name - <strong>Azure-managed workstation updates</strong></li>
+<li>Servicing channel - <strong>Semi-annual channel</strong></li>
+<li>Quality update deferral (days) - <strong>3</strong></li>
+<li>Feature update deferral period (days) - <strong>3</strong></li>
+<li>Automatic update behavior - <strong>Auto install and reboot without end-user control</strong></li>
+<li>Block user from pausing Windows updates - <strong>Block</strong></li>
+<li>Require user's approval to restart outside of work hours - <strong>Required</strong></li>
+<li>Allow user to restart (engaged restart) - <strong>Required</strong></li>
+<li>Transition users to engaged restart after an auto-restart (days) - <strong>3</strong></li>
+<li>Snooze engaged restart reminder (days) - <strong>3</strong></li>
+<li>Set deadline for pending restarts (days) - <strong>3</strong></li>
+</ul>
+</li>
+<li><p>Select <strong>Create</strong>.</p>
+</li>
+<li><p>On the <strong>Assignments</strong> tab, add the <strong>Secure Workstations</strong> group.</p>
+</li>
+</ol>
+<p>For more information about Windows Update policies, see <a href="/en-us/windows/client-management/mdm/policy-csp-update" data-linktype="absolute-path">Policy CSP - Update</a>.</p>
+<h3 id="microsoft-defender-for-endpoint-intune-integration">Microsoft Defender for Endpoint Intune integration</h3>
+<p><a href="/en-us/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection" data-linktype="absolute-path">Microsoft Defender for Endpoint</a> and Microsoft Intune work together to help prevent security breaches. They can also limit the impact of breaches. These capabilities provide real-time threat detection and enable extensive auditing and logging of the end-point devices.</p>
+<p>To configure integration of Windows Defender for Endpoint and Microsoft Intune:</p>
+<ol>
+<li><p>In the <a href="https://go.microsoft.com/fwlink/?linkid=2109431" data-linktype="external">Microsoft Intune admin center</a>, choose <strong>Endpoint Security</strong> &gt; <strong>Microsoft Defender ATP</strong>.</p>
+</li>
+<li><p>In step 1 under <strong>Configuring Windows Defender ATP</strong>, select <strong>Connect Windows Defender ATP to Microsoft Intune in the Windows Defender Security Center</strong>.</p>
+</li>
+<li><p>In the Windows Defender Security Center:</p>
+<ol>
+<li>Select <strong>Settings</strong> &gt; <strong>Advanced features</strong>.</li>
+<li>For <strong>Microsoft Intune connection</strong>, choose <strong>On</strong>.</li>
+<li>Select <strong>Save preferences</strong>.</li>
+</ol>
+</li>
+<li><p>After a connection is established, return to Microsoft Intune and select <strong>Refresh</strong> at the top.</p>
+</li>
+<li><p>Set <strong>Connect Windows devices version(20H2) 19042.450 and above to Windows Defender ATP</strong> to <strong>On</strong>.</p>
+</li>
+<li><p>Select <strong>Save</strong>.</p>
+</li>
+</ol>
+<h3 id="create-the-device-configuration-profile-to-onboard-windows-devices">Create the device configuration profile to onboard Windows devices</h3>
+<ol>
+<li><p>Sign in to the <a href="https://go.microsoft.com/fwlink/?linkid=2109431" data-linktype="external">Microsoft Intune admin center</a>, choose <strong>Endpoint security</strong> &gt; <strong>Endpoint detection and response</strong> &gt; <strong>Create profile</strong>.</p>
+</li>
+<li><p>For <strong>Platform</strong>, select <strong>Windows 10 and Later</strong>.</p>
+</li>
+<li><p>For <strong>Profile type</strong>, select <strong>Endpoint detection and response</strong>, and then select <strong>Create</strong>.</p>
+</li>
+<li><p>On the <strong>Basics</strong> page, enter a <em>PAW - Defender for Endpoint</em> in the Name field and <em>Description</em> (optional) for the profile, then choose <strong>Next</strong>.</p>
+</li>
+<li><p>On the <strong>Configuration settings</strong> page, configure the following option in <strong>Endpoint Detection and Response</strong>:</p>
+<ul>
+<li><p><strong>Sample sharing for all files</strong>: Returns or sets the Microsoft Defender Advanced Threat Protection Sample Sharing configuration parameter.</p>
+<p><a href="/en-us/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints-sccm" data-linktype="absolute-path">Onboard Windows 10 machines using Microsoft Endpoint Configuration Manager</a> has more details on these Microsoft Defender ATP settings.</p>
+</li>
+</ul>
+</li>
+<li><p>Select <strong>Next</strong> to open the <strong>Scope tags</strong> page. Scope tags are optional. Select <strong>Next</strong> to continue.</p>
+</li>
+<li><p>On the <strong>Assignments</strong> page, select <em>Secure Workstation</em> group. For more information on assigning profiles, see <a href="/en-us/mem/intune/configuration/device-profile-assign" data-linktype="absolute-path">Assign user and device profiles</a>.</p>
+<p>Select <strong>Next</strong>.</p>
+</li>
+<li><p>On the <strong>Review + create</strong> page, when you're done, choose <strong>Create</strong>. The new profile is displayed in the list when you select the policy type for the profile you created.
+<strong>OK</strong>, and then <strong>Create</strong> to save your changes, which creates the profile.</p>
+</li>
+</ol>
+<p>For more information, see <a href="/en-us/Windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection" data-linktype="absolute-path">Windows Defender Advanced Threat Protection</a>.</p>
+<h3 id="finish-workstation-profile-hardening">Finish workstation profile hardening</h3>
+<p>To successfully complete the hardening of the solution, download and execute the appropriate script. Find the download links for your desired <strong>profile level</strong>:</p>
+<table>
+<thead>
+<tr>
+<th>Profile</th>
+<th>Download location</th>
+<th>Filename</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Enterprise</td>
+<td><a href="https://aka.ms/securedworkstationgit" data-linktype="external">https://aka.ms/securedworkstationgit</a></td>
+<td><code>Enterprise-Workstation-Windows10-(20H2).ps1</code></td>
+</tr>
+<tr>
+<td>Specialized</td>
+<td><a href="https://aka.ms/securedworkstationgit" data-linktype="external">https://aka.ms/securedworkstationgit</a></td>
+<td><code>Specialized-Windows10-(20H2).ps1</code></td>
+</tr>
+<tr>
+<td>Privileged</td>
+<td><a href="https://aka.ms/securedworkstationgit" data-linktype="external">https://aka.ms/securedworkstationgit</a></td>
+<td><code>Privileged-Windows10-(20H2).ps1</code></td>
+</tr>
+</tbody>
+</table>
+<div class="NOTE">
+<p>Note</p>
+<p>The removal of of admin rights and access, as well as, Application execution control (AppLocker) are managed by the policy profiles that are deployed.</p>
+</div>
+<p>After the script successfully executes, you can make updates to profiles and policies in Intune. The scripts create policies and profiles for you, but you must assign the policies to your <strong>Secure Workstations</strong> device group.</p>
+<ul>
+<li>Here's where you can find the Intune device configuration profiles created by the scripts: <strong>Azure portal</strong> &gt; <strong>Microsoft Intune</strong> &gt; <strong>Device configuration</strong> &gt; <strong>Profiles</strong>.</li>
+<li>Here's where you can find the Intune device compliance policies created by the scripts: <strong>Azure portal</strong> &gt; <strong>Microsoft Intune</strong> &gt; <strong>Device Compliance</strong> &gt; <strong>Policies</strong>.</li>
+</ul>
+<p>Run the Intune data export script <code>DeviceConfiguration_Export.ps1</code> from the <a href="https://github.com/microsoftgraph/powershell-intune-samples/tree/master/DeviceConfiguration" data-linktype="external">DeviceConfiguration GitHub repository</a> to export all current Intune profiles for comparison, and evaluation of the profiles.</p>
+<h2 id="set-rules-in-the-endpoint-protection-configuration-profile-for-microsoft-defender-firewall">Set rules in the Endpoint Protection Configuration Profile for Microsoft Defender Firewall</h2>
+<p>Windows Firewall policy settings are included in the Endpoint Protection Configuration Profile. The behavior of the policy applied in described in the following table.</p>
+<table>
+<thead>
+<tr>
+<th>Profile</th>
+<th>Inbound Rules</th>
+<th>Outbound Rules</th>
+<th>Merge behavior</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Enterprise</td>
+<td>Block</td>
+<td>Allow</td>
+<td>Allow</td>
+</tr>
+<tr>
+<td>Specialized</td>
+<td>Block</td>
+<td>Allow</td>
+<td>Block</td>
+</tr>
+<tr>
+<td>Privileged</td>
+<td>Block</td>
+<td>Block</td>
+<td>Block</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Enterprise</strong>: This configuration is the most permissive as it mirrors the default behavior of a Windows Install. All inbound traffic is blocked except for rules that are explicitly defined in the local policy rules as merging of local rules is set to allowed. All outbound traffic is allowed.</p>
+<p><strong>Specialized</strong>: This configuration is more restrictive as it ignores all locally defined rules on the device. All inbound traffic is blocked including locally defined rules the policy includes two rules to allow Delivery Optimization to function as designed. All outbound traffic is allowed.</p>
+<p><strong>Privileged</strong>: All inbound traffic is blocked including locally defined rules the policy includes two rules to allow Delivery Optimization to function as designed. Outbound traffic is also blocked apart from explicit rules that allow DNS, DHCP, NTP, NSCI, HTTP, and HTTPS traffic. This configuration not only reduces the attack surface presented by the device to the network it limits the outbound connections that the device can establish to only those connections required to administer cloud services.</p>
+<table>
+<thead>
+<tr>
+<th>Rule</th>
+<th>Direction</th>
+<th>Action</th>
+<th>Application / Service</th>
+<th>Protocol</th>
+<th>Local Ports</th>
+<th>Remote Ports</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>World Wide Web Services (HTTP Traffic-out)</td>
+<td>Outbound</td>
+<td>Allow</td>
+<td>All</td>
+<td>TCP</td>
+<td>All ports</td>
+<td>80</td>
+</tr>
+<tr>
+<td>World Wide Web Services (HTTPS Traffic-out)</td>
+<td>Outbound</td>
+<td>Allow</td>
+<td>All</td>
+<td>TCP</td>
+<td>All ports</td>
+<td>443</td>
+</tr>
+<tr>
+<td>Core Networking - Dynamic Host Configuration Protocol for IPv6(DHCPV6-Out)</td>
+<td>Outbound</td>
+<td>Allow</td>
+<td>%SystemRoot%\system32\svchost.exe</td>
+<td>TCP</td>
+<td>546</td>
+<td>547</td>
+</tr>
+<tr>
+<td>Core Networking - Dynamic Host Configuration Protocol for IPv6(DHCPV6-Out)</td>
+<td>Outbound</td>
+<td>Allow</td>
+<td>Dhcp</td>
+<td>TCP</td>
+<td>546</td>
+<td>547</td>
+</tr>
+<tr>
+<td>Core Networking - Dynamic Host Configuration Protocol for IPv6(DHCP-Out)</td>
+<td>Outbound</td>
+<td>Allow</td>
+<td>%SystemRoot%\system32\svchost.exe</td>
+<td>TCP</td>
+<td>68</td>
+<td>67</td>
+</tr>
+<tr>
+<td>Core Networking - Dynamic Host Configuration Protocol for IPv6(DHCP-Out)</td>
+<td>Outbound</td>
+<td>Allow</td>
+<td>Dhcp</td>
+<td>TCP</td>
+<td>68</td>
+<td>67</td>
+</tr>
+<tr>
+<td>Core Networking - DNS (UDP-Out)</td>
+<td>Outbound</td>
+<td>Allow</td>
+<td>%SystemRoot%\system32\svchost.exe</td>
+<td>UDP</td>
+<td>All Ports</td>
+<td>53</td>
+</tr>
+<tr>
+<td>Core Networking - DNS (UDP-Out)</td>
+<td>Outbound</td>
+<td>Allow</td>
+<td>Dnscache</td>
+<td>UDP</td>
+<td>All Ports</td>
+<td>53</td>
+</tr>
+<tr>
+<td>Core Networking - DNS (TCP-Out)</td>
+<td>Outbound</td>
+<td>Allow</td>
+<td>%SystemRoot%\system32\svchost.exe</td>
+<td>TCP</td>
+<td>All Ports</td>
+<td>53</td>
+</tr>
+<tr>
+<td>Core Networking - DNS (TCP-Out)</td>
+<td>Outbound</td>
+<td>Allow</td>
+<td>Dnscache</td>
+<td>TCP</td>
+<td>All Ports</td>
+<td>53</td>
+</tr>
+<tr>
+<td>NSCI Probe (TCP-Out)</td>
+<td>Outbound</td>
+<td>Allow</td>
+<td>%SystemRoot%\system32\svchost.exe</td>
+<td>TCP</td>
+<td>All ports</td>
+<td>80</td>
+</tr>
+<tr>
+<td>NSCI Probe - DNS (TCP-Out)</td>
+<td>Outbound</td>
+<td>Allow</td>
+<td>NlaSvc</td>
+<td>TCP</td>
+<td>All ports</td>
+<td>80</td>
+</tr>
+<tr>
+<td>Windows Time (UDP-Out)</td>
+<td>Outbound</td>
+<td>Allow</td>
+<td>%SystemRoot%\system32\svchost.exe</td>
+<td>TCP</td>
+<td>All ports</td>
+<td>80</td>
+</tr>
+<tr>
+<td>Windows Time Probe - DNS (UDP-Out)</td>
+<td>Outbound</td>
+<td>Allow</td>
+<td>W32Time</td>
+<td>UDP</td>
+<td>All ports</td>
+<td>123</td>
+</tr>
+<tr>
+<td>Delivery Optimization (TCP-In)</td>
+<td>Inbound</td>
+<td>Allow</td>
+<td>%SystemRoot%\system32\svchost.exe</td>
+<td>TCP</td>
+<td>7680</td>
+<td>All ports</td>
+</tr>
+<tr>
+<td>Delivery Optimization (TCP-In)</td>
+<td>Inbound</td>
+<td>Allow</td>
+<td>DoSvc</td>
+<td>TCP</td>
+<td>7680</td>
+<td>All ports</td>
+</tr>
+<tr>
+<td>Delivery Optimization (UDP-In)</td>
+<td>Inbound</td>
+<td>Allow</td>
+<td>%SystemRoot%\system32\svchost.exe</td>
+<td>UDP</td>
+<td>7680</td>
+<td>All ports</td>
+</tr>
+<tr>
+<td>Delivery Optimization (UDP-In)</td>
+<td>Inbound</td>
+<td>Allow</td>
+<td>DoSvc</td>
+<td>UDP</td>
+<td>7680</td>
+<td>All ports</td>
+</tr>
+</tbody>
+</table>
+<div class="NOTE">
+<p>Note</p>
+<p>There are two rules defined for each rule in the Microsoft Defender Firewall configuration. To restrict the inbound and outbound rules to Windows Services, e.g. DNS Client, both the service name, DNSCache, and the executable path, C:\Windows\System32\svchost.exe, need to be defined as separate rule rather than a single rule that is possible using Group Policy.</p>
+</div>
+<p>You can make additional changes to the management of both inbound and outbound rules as needed for your permitted and blocked services. For more information, see <a href="/en-us/windows/security/threat-protection/windows-firewall/create-windows-firewall-rules-in-intune" data-linktype="absolute-path">Firewall configuration service</a>.</p>
+<h3 id="url-lock-proxy">URL lock proxy</h3>
+<p>Restrictive URL traffic management includes:</p>
+<ul>
+<li>Deny All outbound traffic except selected Azure and Microsoft services including Azure Cloud Shell and the ability to allow self-service password reset.</li>
+<li>The Privileged profile restricts the endpoints on the internet that the device can connect to using the following URL Lock Proxy configuration.</li>
+</ul>
+<pre><code>[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings]
+"ProxyEnable"=dword:00000001
+"ProxyServer"="127.0.0.2:8080"
+"ProxyOverride"="*.azure.com;*.azure.net;*.microsoft.com;*.windowsupdate.com;*.microsoftonline.com;*.microsoftonline.cn;*.windows.net;*.windowsazure.com;*.windowsazure.cn;*.azure.cn;*.loganalytics.io;*.applicationinsights.io;*.vsassets.io;*.azure-automation.net;*.visualstudio.com,portal.office.com;*.aspnetcdn.com;*.sharepointonline.com;*.msecnd.net;*.msocdn.com;*.webtrends.com"
+"AutoDetect"=dword:00000000
+</code></pre>
+<p>The endpoints listed in the ProxyOverride list are limited to those endpoints needed to authenticate to Microsoft Entra ID and access Azure or Office 365 management interfaces. To extend to other cloud services, add their administration URL to the list. This approach is designed to limit access to the wider internet to protect privileged users from internet-based attacks. If this approach is deemed too restrictive, then consider using the following approach for the privileged role.</p>
+<h2 id="enable-microsoft-defender-for-cloud-apps-urls-restricted-list-to-approved-urls-allow-most">Enable Microsoft Defender for Cloud Apps, URLs restricted list to approved URLs (Allow most)</h2>
+<p>In our roles deployment it's recommended that for Enterprise, and Specialized deployments, where a strict <em>deny all</em> web browsing isn't desirable, that using the capabilities of a cloud access security broker (CASB) such as <a href="/en-us/cloud-app-security/what-is-cloud-app-security" data-linktype="absolute-path">Microsoft Defender for Cloud Apps</a> be utilized to block access to risky, and questionable web sites. The solution addresses a simple way to block applications and websites that have been curated. This solution is similar to getting access to the blocklist from sites such as the Spamhaus Project who maintains <a href="https://www.spamhaus.org/dbl/" data-linktype="external">the Domain Blocklist (DBL)</a>: a good resource to use as an advanced set of rules to implement for blocking sites.</p>
+<p>The solution provides you:</p>
+<ul>
+<li>Visibility: detect all cloud services; assign each a risk ranking; identify all users and non-Microsoft apps able to sign in</li>
+<li>Data security: identify and control sensitive information (DLP); respond to classification labels on content</li>
+<li>Threat protection: offer adaptive access control (AAC); provide user and entity behavior analysis (UEBA); mitigate malware</li>
+<li>Compliance: supply reports and dashboards to demonstrate cloud governance; assist efforts to conform to data residency and regulatory compliance requirements</li>
+</ul>
+<p>Enable Defender for Cloud Apps and connect to Defender ATP to block access the risky URLs:</p>
+<ul>
+<li>In <a href="https://securitycenter.windows.com" data-linktype="external">Microsoft Defender Security Center</a> &gt; Settings &gt; Advanced features, set Microsoft Defender for Cloud Apps integration &gt; <strong>ON</strong></li>
+<li>In <a href="https://securitycenter.windows.com" data-linktype="external">Microsoft Defender Security Center</a>  &gt; Settings &gt; Advanced features, set Custom network indicators &gt;  <strong>ON</strong></li>
+<li>In <a href="https://portal.cloudappsecurity.com" data-linktype="external">Microsoft Defender for Cloud Apps portal</a> &gt; Settings &gt; Microsoft Defender for Endpoint &gt; Select <strong>Enforce app access</strong></li>
+</ul>
+<h2 id="manage-local-applications">Manage local applications</h2>
+<p>The secure workstation moves to a truly hardened state when local applications are removed, including productivity applications. Here, you add Visual Studio Code to allow connection to Azure DevOps for GitHub to manage code repositories.</p>
+<h3 id="configuring-the-company-portal-your-for-custom-apps">Configuring the Company Portal your for custom apps</h3>
+<p>An Intune-managed copy of the <a href="/en-us/mem/intune/apps/store-apps-company-portal-autopilot" data-linktype="absolute-path">Company Portal</a> gives you on-demand access to additional tools that you can push down to users of the secured workstations.</p>
+<p>In a secured mode, application installation is restricted to managed applications delivered by Company Portal. However, installing the Company Portal requires access to Microsoft Store. In your secured solution, you <a href="/en-us/mem/intune/apps/store-apps-company-portal-autopilot" data-linktype="absolute-path">add and assign the Windows 10 Company Portal app for Autopilot provisioned devices</a>.</p>
+<div class="NOTE">
+<p>Note</p>
+<p>Make sure you assign the Company Portal app to the <strong>Secure Workstation Device Tag</strong> group used to assign the Autopilot profile.</p>
+</div>
+<h3 id="deploy-applications-using-intune">Deploy applications using Intune</h3>
+<p>In some situations, applications like the Microsoft Visual Studio Code are required on the secured workstation. The following example provides instructions to install Microsoft Visual Studio Code to users in the security group <strong>Secure Workstation Users</strong>.</p>
+<p>Visual Studio Code is provided as an EXE package so it needs to be packaged as an <code>.intunewin</code> format file for deployment using Microsoft Intune using the <a href="https://github.com/Microsoft/Microsoft-Win32-Content-Prep-Tool" data-linktype="external">Microsoft Win32 Content Prep Tool</a>.</p>
+<p>Download the Microsoft Win32 Content Prep Tool locally to a workstation and copy it to a directory for packaging, for example, C:\Packages. Then create a Source and Output directory under C:\Packages.</p>
+<h4 id="package-microsoft-visual-studio-code">Package Microsoft Visual Studio Code</h4>
+<ol>
+<li>Download the offline installer <a href="https://aka.ms/win32-x64-user-stable" data-linktype="external">Visual Studio Code for Windows 64-bit</a>.</li>
+<li>Copy the downloaded Visual Studio Code exe file to <code>C:\Packages\Source</code></li>
+<li>Open a PowerShell console and navigate to <code>C:\Packages</code></li>
+<li>Type <code>.\IntuneWinAppUtil.exe -c C:\Packages\Source\ -s C:\Packages\Source\VSCodeUserSetup-x64-1.51.1.exe -o C:\Packages\Output\VSCodeUserSetup-x64-1.51.1</code></li>
+<li>Type <code>Y</code> to create the new output folder. The intunewin file for Visual Studio Code is created in this folder.</li>
+</ol>
+<h4 id="upload-vs-code-to-microsoft-intune">Upload VS Code to Microsoft Intune</h4>
+<ol>
+<li>In the <strong>Microsoft Intune admin center</strong>, browse to <strong>Apps</strong> &gt; <strong>Windows</strong> &gt; <strong>Add</strong></li>
+<li>Under <strong>Select app type</strong>, choose <strong>Windows app (Win32)</strong></li>
+<li>Click <strong>Select app package file</strong>, click <strong>Select a file</strong>, then select the <code>VSCodeUserSetup-x64-1.51.1.intunewin</code> from <code>C:\Packages\Output\VSCodeUserSetup-x64-1.51.1</code>. Click <strong>OK</strong></li>
+<li>Enter <code>Visual Studio Code 1.51.1</code> in the Name field</li>
+<li>Enter a description for Visual Studio Code in the <strong>Description</strong> field</li>
+<li>Enter <code>Microsoft Corporation</code> in the <strong>Publisher</strong> Field</li>
+<li>Download <code>https://jsarray.com/images/page-icons/visual-studio-code.png</code> and select image for the logo. Select <strong>Next</strong></li>
+<li>Enter <code>VSCodeSetup-x64-1.51.1.exe /SILENT</code> in the <strong>Install command</strong> field</li>
+<li>Enter <code>C:\Program Files\Microsoft VS Code\unins000.exe</code> in the <strong>Uninstall command</strong> field</li>
+<li>Select <strong>Determine behavior based on return codes</strong> from the <strong>Device Restart behavior</strong> dropdown list. Select <strong>Next</strong></li>
+<li>Select <strong>64-bit</strong> from the <strong>Operating system architecture</strong> checkbox dropdown</li>
+<li>Select <strong>Windows 10 1903</strong> from the <strong>Minimum operating system</strong> checkbox dropdown. Select <strong>Next</strong></li>
+<li>Select <strong>Manually configure</strong> detection rules from the <strong>Rules format</strong> dropdown list</li>
+<li>Click <strong>Add</strong> and then select <strong>File</strong> from the <strong>Rule type</strong> dropdown</li>
+<li>Enter <code>C:\Program Files\Microsoft VS Code</code> in the <strong>Path</strong> field</li>
+<li>Enter <code>unins000.exe</code> in the <strong>File or folder</strong> field</li>
+<li>Select <strong>File or folder exists</strong> from the dropdown list, Select <strong>OK</strong> and then select <strong>Next</strong></li>
+<li>Select <strong>Next</strong> as there are no dependencies on this package</li>
+<li>Select <strong>Add Group</strong> under <strong>Available for enrolled devices</strong>, add <strong>Privileged Users group</strong>.  Click <strong>Select</strong> to confirm group. Select <strong>Next</strong></li>
+<li>Click <strong>Create</strong></li>
+</ol>
+<h3 id="use-powershell-to-create-custom-apps-and-settings">Use PowerShell to create custom apps and settings</h3>
+<p>There are some configuration settings that we recommend, including two Defender for Endpoint recommendations that must be set using PowerShell. These configuration changes can't be set via policies in Intune.</p>
+<p>You can also use PowerShell to extend host management capabilities. The <a href="https://aka.ms/securedworkstationgit" data-linktype="external">PAW-DeviceConfig.ps1</a> script from GitHub is an example script that configures the following settings:</p>
+<ul>
+<li>Removes Internet Explorer</li>
+<li>Removes PowerShell 2.0</li>
+<li>Removes Windows Media Player</li>
+<li>Removes Work Folders Client</li>
+<li>Removes XPS Printing</li>
+<li>Enables and configures Hibernate</li>
+<li>Implements registry fix to enable AppLocker DLL rule processing</li>
+<li>Implements registry settings for two Microsoft Defender for Endpoint recommendations that can't be set using Endpoint Manager.
+<ul>
+<li>Require users to elevate when setting a network's location</li>
+<li>Prevent saving of network credentials</li>
+</ul>
+</li>
+<li>Disable Network Location Wizard - prevents users from setting network location as Private and therefore increasing the attack surface exposed in Windows Firewall</li>
+<li>Configures Windows Time to use NTP and sets the Auto Time service to Automatic</li>
+<li>Downloads and sets the desktop background to a specific image to easily identify the device as a ready-to-use, privileged workstation.</li>
+</ul>
+<p>The <a href="https://aka.ms/securedworkstationgit" data-linktype="external">PAW-DeviceConfig.ps1</a> script from GitHub.</p>
+<ol>
+<li>Download the script <a href="https://aka.ms/securedworkstationgit" data-linktype="external">PAW-DeviceConfig.ps1</a> to a local device.</li>
+<li>Browse to the <strong>Azure portal</strong> &gt; <strong>Microsoft Intune</strong> &gt; <strong>Device configuration</strong> &gt; <strong>PowerShell scripts</strong> &gt; <strong>Add</strong>.
+vProvide a <strong>Name</strong> for the script and specify the <strong>Script location</strong>.</li>
+<li>Select <strong>Configure</strong>.
+<ol>
+<li>Set <strong>Run this script using the logged on credentials</strong> to <strong>No</strong>.</li>
+<li>Select <strong>OK</strong>.</li>
+</ol>
+</li>
+<li>Select <strong>Create</strong>.</li>
+<li>Select <strong>Assignments</strong> &gt; <strong>Select groups</strong>.
+<ol>
+<li>Add the security group <strong>Secure Workstations</strong>.</li>
+<li>Select <strong>Save</strong>.</li>
+</ol>
+</li>
+</ol>
+<h2 id="validate-and-test-your-deployment-with-your-first-device">Validate and test your deployment with your first device</h2>
+<p>This enrollment assumes that you use a physical computing device. It's recommended that as part of the procurement process that the OEM, Reseller, distributor, or partner <a href="/en-us/mem/autopilot/add-devices" data-linktype="absolute-path">register devices in Windows Autopilot</a>.</p>
+<p>However for testing it's possible to stand up <a href="/en-us/windows/deployment/windows-autopilot/demonstrate-deployment-on-vm" data-linktype="absolute-path">Virtual Machines</a> as a test scenario. However note enrollment of personally joined devices need to be revised to allow this method of joining a client.</p>
+<p>This method works for Virtual Machines or physical devices that haven't been previously registered.</p>
+<ol>
+<li>Start the device and wait for the username dialog to be presented</li>
+<li>Press <code>SHIFT + F10</code> to display command prompt</li>
+<li>Type <code>PowerShell</code> press Enter</li>
+<li>Type <code>Set-ExecutionPolicy RemoteSigned</code> press Enter</li>
+<li>Type <code>Install-Script Get-WindowsAutopilotInfo</code> press Enter</li>
+<li>Type <code>Y</code> and click Enter to accept PATH environment change</li>
+<li>Type <code>Y</code> and click Enter to install NuGet provider</li>
+<li>Type <code>Y</code> to trust the repository</li>
+<li>Type Run <code>Get-WindowsAutoPilotInfo -GroupTag PAW –outputfile C:\device1.csv</code></li>
+<li>Copy the CSV from the Virtual Machine or Physical device</li>
+</ol>
+<h2 id="import-devices-into-autopilot">Import devices into Autopilot</h2>
+<ol>
+<li><p>In the <strong>Microsoft Intune admin center</strong>, go to <strong>Devices</strong> &gt; <strong>Windows Devices</strong> &gt; <strong>Windows enrollment</strong> &gt; <strong>Devices</strong></p>
+</li>
+<li><p>Select <strong>Import</strong> and choose your CSV file.</p>
+</li>
+<li><p>Wait for the <code>Group Tag</code> to be updated to <code>PAW</code> and the <code>Profile Status</code> to change to <code>Assigned</code>.</p>
+<div class="NOTE">
+<p>Note</p>
+<p>The Group Tag is used by the Secure Workstation dynamic group to make the device a member of its group,</p>
+</div>
+</li>
+<li><p>Add the device to the <strong>Secure Workstations</strong> security group.</p>
+</li>
+<li><p>On the Windows 10 device you wish to configure, go to <strong>Windows Settings</strong> &gt; <strong>Update &amp; Security</strong> &gt; <strong>Recovery</strong>.</p>
+<ol>
+<li>Choose <strong>Get started</strong> under <strong>Reset this PC</strong>.</li>
+<li>Follow the prompts to reset and reconfigure the device with the profile and compliance policies configured.</li>
+</ol>
+</li>
+</ol>
+<p>After you configure the device, complete a review and check the configuration. Confirm that the first device is configured correctly before continuing your deployment.</p>
+<h3 id="assign-devices">Assign devices</h3>
+<p>To assign devices and users, you need to map the <a href="/en-us/mem/intune/configuration/device-profile-assign" data-linktype="absolute-path">selected profiles</a> to your security group. All new users who require permissions to the service must be added to the security group as well.</p>
+<h2 id="using-microsoft-defender-for-endpoint-to-monitor-and-respond-to-security-incidents">Using Microsoft Defender for Endpoint to monitor and respond to security incidents</h2>
+<ul>
+<li>Continuously observe and monitor vulnerabilities and misconfigurations</li>
+<li>Utilize Microsoft Defender for Endpoint to prioritize dynamic threats in the wild</li>
+<li>Drive correlation of vulnerabilities with endpoint detection and response (EDR) alerts</li>
+<li>Use the dashboard to identify machine-level vulnerability during investigations</li>
+<li>Push out remediations to Intune</li>
+</ul>
+<p>Configure your <a href="https://securitycenter.windows.com/machines" data-linktype="external">Microsoft Defender Security Center</a>. Using guidance at <a href="/en-us/windows/security/threat-protection/microsoft-defender-atp/tvm-dashboard-insights" data-linktype="absolute-path">Threat &amp; Vulnerability Management dashboard overview</a>.</p>
+<h3 id="monitoring-application-activity-using-advanced-threat-hunting">Monitoring application activity using Advanced Threat Hunting</h3>
+<p>Starting at the specialized workstation, AppLocker is enabled for monitoring of application activity on a workstation. By default Defender for Endpoint captures AppLocker events and Advanced Hunting Queries can be used to determine what applications, scripts, DLL files are being blocked by AppLocker.</p>
+<div class="NOTE">
+<p>Note</p>
+<p>The Specialized and Privileged workstation profiles contain the AppLocker policies. Deployment of the policies is required for monitoring of application activity on a client.</p>
+</div>
+<p>From the Microsoft Defender Security Center Advanced Hunting pane, use the following query to return AppLocker events</p>
+<pre><code class="lang-Kusto">DeviceEvents
+| where Timestamp &gt; ago(7d) and
+ActionType startswith "AppControl"
+| summarize Machines=dcount(DeviceName) by ActionType
+| order by Machines desc
+</code></pre>
+<h2 id="monitoring">Monitoring</h2>
+<ul>
+<li>Understand how to review your <a href="/en-us/windows/security/threat-protection/microsoft-defender-atp/tvm-exposure-score" data-linktype="absolute-path">Exposure Score</a></li>
+<li>Review <a href="/en-us/windows/security/threat-protection/microsoft-defender-atp/tvm-security-recommendation" data-linktype="absolute-path">Security recommendation</a></li>
+<li>Manage security <a href="/en-us/windows/security/threat-protection/microsoft-defender-atp/tvm-remediation" data-linktype="absolute-path">remediations</a></li>
+<li>Manage <a href="/en-us/windows/security/threat-protection/microsoft-defender-atp/overview-endpoint-detection-response" data-linktype="absolute-path">endpoint detection and response</a></li>
+<li>Monitor profiles with <a href="/en-us/mem/intune/configuration/device-profile-monitor" data-linktype="absolute-path">Intune profile monitoring</a>.</li>
+</ul>
+<h2 id="next-steps">Next steps</h2>
+<ul>
+<li><a href="overview" data-linktype="relative-path">Securing privileged access overview</a></li>
+<li><a href="privileged-access-strategy" data-linktype="relative-path">Privileged access strategy</a></li>
+<li><a href="privileged-access-success-criteria" data-linktype="relative-path">Measuring success</a></li>
+<li><a href="privileged-access-security-levels" data-linktype="relative-path">Security levels</a></li>
+<li><a href="privileged-access-accounts" data-linktype="relative-path">Privileged access accounts</a></li>
+<li><a href="privileged-access-intermediaries" data-linktype="relative-path">Intermediaries</a></li>
+<li><a href="privileged-access-interfaces" data-linktype="relative-path">Interfaces</a></li>
+<li><a href="privileged-access-devices" data-linktype="relative-path">Privileged access devices</a></li>
+<li><a href="privileged-access-access-model" data-linktype="relative-path">Enterprise access model</a></li>
+</ul>
+</div>
+					
+		<div
+			id="ms--inline-notifications"
+			class="margin-block-xs"
+			data-bi-name="inline-notification"
+		></div>
+	 
+		<div
+			id="assertive-live-region"
+			role="alert"
+			aria-live="assertive"
+			class="visually-hidden"
+			aria-relevant="additions"
+			aria-atomic="true"
+		></div>
+		<div
+			id="polite-live-region"
+			role="status"
+			aria-live="polite"
+			class="visually-hidden"
+			aria-relevant="additions"
+			aria-atomic="true"
+		></div>
+	
+					
+				</div>
+				
+		<div id="ms--additional-resources-mobile" class="display-none-print">
+			<hr class="hr" hidden />
+			<h2 id="ms--additional-resources-mobile-heading" class="title is-3" hidden>
+				Additional resources
+			</h2>
+			
+		<section
+			id="right-rail-recommendations-mobile"
+			class=""
+			data-bi-name="recommendations"
+			hidden
+		></section>
+	 
+		<section
+			id="right-rail-training-mobile"
+			class=""
+			data-bi-name="learning-resource-card"
+			hidden
+		></section>
+	 
+		<section
+			id="right-rail-events-mobile"
+			class=""
+			data-bi-name="events-card"
+			hidden
+		></section>
+	
+		</div>
+	 
+		<div
+			id="article-metadata-footer"
+			data-bi-name="article-metadata-footer"
+			data-test-id="article-metadata-footer"
+			class="page-metadata-container"
+		>
+			<hr class="hr" />
+			<ul class="metadata page-metadata" data-bi-name="page info" lang="en-us" dir="ltr">
+				<li class="visibility-hidden-visual-diff">
+			<span class="badge badge-sm text-wrap-pretty">
+				<span>Last updated on <local-time format="twoDigitNumeric"
+		datetime="2024-06-20T08:00:00.000Z"
+		data-article-date-source="calculated"
+		class="is-invisible"
+	>
+		2024-06-20
+	</local-time></span>
+			</span>
+		</li>
+			</ul>
+		</div>
+	
+			</div>
+		
+				</main>
+				<aside
+					id="layout-body-aside"
+					class="layout-body-aside  "
+					data-bi-name="aside"
+					aria-label="Additional resources"
+			  >
+					
+		<div
+			id="ms--additional-resources"
+			class="right-container padding-sm display-none display-block-desktop height-full"
+			data-bi-name="pageactions"
+		>
+			<div id="affixed-right-container" data-bi-name="right-column">
+				
+		<nav
+			id="side-doc-outline"
+			class="doc-outline border-bottom padding-bottom-xs margin-bottom-xs scrollbar-width-thin"
+			data-bi-name="intopic toc"
+			aria-label="In this article"
+		>
+			<h3>In this article</h3>
+		</nav>
+	
+				<!-- Feedback -->
+				
+			</div>
+		</div>
+	
+			  </aside> <section
+					id="layout-body-flyout"
+					class="layout-body-flyout "
+					data-bi-name="flyout"
+			  >
+					 <div
+	class="height-full border-left background-color-body-medium"
+	id="ask-learn-flyout"
+></div>
+			  </section> <div class="layout-body-footer " data-bi-name="layout-footer">
+		<footer
+			id="footer"
+			data-test-id="footer"
+			data-bi-name="footer"
+			class="footer-layout padding-xs padding-sm-desktop has-default-focus border-top"
+			role="contentinfo"
+		>
+			<div class="display-flex gap-xs flex-wrap-wrap is-full-height padding-right-lg-desktop">
+				
+		<a
+			data-mscc-ic="false"
+			href="#"
+			data-bi-name="select-locale"
+			class="locale-selector-link flex-shrink-0 button button-sm button-clear external-link-indicator"
+			id=""
+			title=""
+			><span class="icon" aria-hidden="true"
+				><span class="docon docon-world"></span></span
+			><span class="local-selector-link-text">en-us</span></a
+		>
+	 <div class="ccpa-privacy-link" data-ccpa-privacy-link hidden>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://aka.ms/yourcaliforniaprivacychoices"
+			data-bi-name="your-privacy-choices"
+			class="button button-sm button-clear flex-shrink-0 external-link-indicator"
+			id=""
+			title=""
+			>
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 30 14"
+			xml:space="preserve"
+			height="16"
+			width="43"
+			aria-hidden="true"
+			focusable="false"
+		>
+			<path
+				d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z"
+				style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff"
+			></path>
+			<path
+				d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z"
+				style="fill-rule:evenodd;clip-rule:evenodd;fill:#06f"
+			></path>
+			<path
+				d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z"
+				style="fill:#fff"
+			></path>
+			<path
+				d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z"
+				style="fill:#06f"
+			></path>
+		</svg>
+	
+			<span>Your Privacy Choices</span></a
+		>
+	
+	</div>
+				<div class="flex-shrink-0">
+		<div class="dropdown has-caret-up">
+			<button
+				data-test-id="theme-selector-button"
+				class="dropdown-trigger button button-clear button-sm inner-focus theme-dropdown-trigger"
+				aria-controls="{{ themeMenuId }}"
+				aria-haspopup="true"
+				aria-expanded="false"
+				data-bi-name="theme"
+			>
+				<span class="icon" aria-hidden="true"><span class="docon docon-sun"></span></span>
+				<span>Theme</span>
+				<span class="icon expanded-indicator" aria-hidden="true">
+					<span class="docon docon-chevron-down-light"></span>
+				</span>
+			</button>
+			<div class="dropdown-menu" id="{{ themeMenuId }}" role="menu">
+				<ul class="theme-selector padding-xxs" data-test-id="theme-dropdown-menu" role="none">
+					<li class="theme display-block" role="none">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							role="menuitemradio"
+							aria-checked="false"
+							data-theme-to="light"
+							tabindex="-1"
+						>
+							<span class="theme-light margin-right-xxs">
+								<span
+									class="theme-selector-icon border display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span> Light </span>
+						</button>
+					</li>
+					<li class="theme display-block" role="none">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							role="menuitemradio"
+							aria-checked="false"
+							data-theme-to="dark"
+							tabindex="-1"
+						>
+							<span class="theme-dark margin-right-xxs">
+								<span
+									class="border theme-selector-icon display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span> Dark </span>
+						</button>
+					</li>
+					<li class="theme display-block" role="none">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							role="menuitemradio"
+							aria-checked="false"
+							data-theme-to="high-contrast"
+							tabindex="-1"
+						>
+							<span class="theme-high-contrast margin-right-xxs">
+								<span
+									class="border theme-selector-icon display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span> High contrast </span>
+						</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+			</div>
+			<ul class="links" data-bi-name="footerlinks">
+				<li class="manage-cookies-holder" hidden=""></li>
+				<li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/principles-for-ai-generated-content"
+			data-bi-name="aiDisclaimer"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>AI Disclaimer</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/previous-versions/"
+			data-bi-name="archivelink"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Previous Versions</a
+		>
+	
+	</li> <li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/MicrosoftLearnBlog"
+			data-bi-name="bloglink"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Blog</a
+		>
+	
+	</li> <li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/contribute"
+			data-bi-name="contributorGuide"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Contribute</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://go.microsoft.com/fwlink/?LinkId=521839"
+			data-bi-name="privacy"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Privacy</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://go.microsoft.com/fwlink/?linkid=2259814"
+			data-bi-name="consumer-health-privacy"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Consumer Health Privacy</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/legal/termsofuse"
+			data-bi-name="termsofuse"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Terms of Use</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://www.microsoft.com/legal/intellectualproperty/Trademarks/"
+			data-bi-name="trademarks"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Trademarks</a
+		>
+	
+	</li>
+				<li>&copy; Microsoft 2026</li>
+			</ul>
+		</footer>
+	</footer>
+			<noscript><img src="https://learn.microsoft.com/akam/13/pixel_3603431b?a=dD02ZmMzZDU5YzFlYjU4NTkxNjViYTg0YjFmMDRjZTExMTU1OWZiNTg2JmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript></body>
+		</html>

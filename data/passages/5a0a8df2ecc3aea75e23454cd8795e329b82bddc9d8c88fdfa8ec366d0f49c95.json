@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "5a0a8df2ecc3aea75e23454cd8795e329b82bddc9d8c88fdfa8ec366d0f49c95",
+  "cachedAt": "2026-10-15T20:03:24Z",
+  "originRunId": "qwen3-38797190227",
+  "sourceUrl": "https://www.enisa.europa.eu/sites/default/files/publications/WP2018%20O.2.2.5%20-%20Security%20Measures.pdf",
+  "finalUrl": "https://www.enisa.europa.eu/sites/default/files/publications/WP2018%20O.2.2.5%20-%20Security%20Measures.pdf",
+  "language": "en",
+  "publisher": "European Union Agency for Cybersecurity (ENISA)",
+  "title": "Reinforcing trust and security in the area of electronic communications and online services (WP2018 O.2.2.5 - Security Measures)",
+  "retrievedAt": "2026-10-15T19:59:00Z",
+  "byteDigest": "sha256:f558cdc270ac97f4d78fc6810248576214f7756db3cb152f7db211f4903402ac",
+  "textDigest": "sha256:4de582fc723e0aa687bf4abfc1f7fbef7a84746f5f58e1c16cf6d8a35d03f8d2",
+  "sourceId": "0-source-2",
+  "passageId": "p2",
+  "locator": "Section 8.2.1",
+  "quotation": "Limited users’ privileges in operating systems",
+  "originalText": "Limited users’ privileges in operating systems",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38797190227",
+    "sourceOriginRunId": "qwen3-38797190227",
+    "controllerCommit": "39c54e6b4bdfd6f41bbaa40f45a996e730ef6233",
+    "recordedAt": "2026-10-15T20:03:24Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "European Union Agency for Cybersecurity (ENISA)",
+    "host": "www.enisa.europa.eu"
+  }
+}

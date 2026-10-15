@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T19:59:00Z",
+  "originRunId": "qwen3-38797190227",
+  "source": {
+    "id": "0-source-2",
+    "type": "guidance",
+    "title": "Reinforcing trust and security in the area of electronic communications and online services (WP2018 O.2.2.5 - Security Measures)",
+    "publisher": "European Union Agency for Cybersecurity (ENISA)",
+    "url": "https://www.enisa.europa.eu/sites/default/files/publications/WP2018%20O.2.2.5%20-%20Security%20Measures.pdf",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "Addresses endpoint security considerations including device encryption implementation (Section 4.3), operational logging requirements (Section 5.2), and remote access security (Section 4.5) as specified in scope keyWords. Covers patching guidance (Section 4.2) and shared storage risks (Section 4.4) within the 2018 threat landscape context.",
+    "publicationDate": "2018-11",
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "Section 8.2.9",
+        "text": "Full disk encryption"
+      },
+      {
+        "id": "p2",
+        "locator": "Section 8.2.1",
+        "text": "Limited users’ privileges in operating systems"
+      },
+      {
+        "id": "p3",
+        "locator": "Section 8.2.7",
+        "text": "External storage use limitation"
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:f558cdc270ac97f4d78fc6810248576214f7756db3cb152f7db211f4903402ac",
+    "textDigest": "sha256:4de582fc723e0aa687bf4abfc1f7fbef7a84746f5f58e1c16cf6d8a35d03f8d2",
+    "finalUrl": "https://www.enisa.europa.eu/sites/default/files/publications/WP2018%20O.2.2.5%20-%20Security%20Measures.pdf",
+    "retrievedAt": "2026-10-15T19:59:00Z",
+    "contentType": "application/pdf",
+    "snapshotPath": "source-f558cdc270ac97f4d78fc6810248576214f7756db3cb152f7db211f4903402ac.bin",
+    "textPath": "source-4de582fc723e0aa687bf4abfc1f7fbef7a84746f5f58e1c16cf6d8a35d03f8d2.txt"
+  },
+  "files": {
+    "snapshots/source-f558cdc270ac97f4d78fc6810248576214f7756db3cb152f7db211f4903402ac.bin": "sha256:f558cdc270ac97f4d78fc6810248576214f7756db3cb152f7db211f4903402ac",
+    "snapshots/source-4de582fc723e0aa687bf4abfc1f7fbef7a84746f5f58e1c16cf6d8a35d03f8d2.txt": "sha256:4de582fc723e0aa687bf4abfc1f7fbef7a84746f5f58e1c16cf6d8a35d03f8d2"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.enisa.europa.eu/sites/default/files/publications/WP2018%20O.2.2.5%20-%20Security%20Measures.pdf",
+  "language": "en",
+  "retrievedAt": "2026-10-15T19:59:00Z",
+  "foundIn": {
+    "runId": "qwen3-38797190227",
+    "sourceOriginRunId": "qwen3-38797190227",
+    "controllerCommit": "39c54e6b4bdfd6f41bbaa40f45a996e730ef6233",
+    "recordedAt": "2026-10-15T20:03:24Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": "Reinforcing trust and security in\nthe area of electronic\ncommunications and online\nservices\nSketching the notion of “state-of-the-art” for SMEs\nin security of personal data processing\n\nDECEMBER 2018\n\n\nwww.enisa.europa.eu   European Union Agency For Network and Information Security\n\f                            Reinforcing trust and security in the area of electronic communications and online services\n                                                                                                        December 2018\n\n\n\n\nAbout ENISA\n\n    The European Union Agency for Network and Information Security (ENISA) is a centre of network and\n    information security expertise for the EU, its member states, the private sector and EU citizens. ENISA\n    works with these groups to develop advice and re",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "European Union Agency for Cybersecurity (ENISA)",
+    "host": "www.enisa.europa.eu"
+  }
+}

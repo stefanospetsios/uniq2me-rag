@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T19:58:59Z",
+  "originRunId": "qwen3-38797190227",
+  "source": {
+    "id": "0-source-1",
+    "type": "technical-doc",
+    "title": "NIST Special Publication 800-123: Guide to General Server Security",
+    "publisher": "National Institute of Standards and Technology (NIST)",
+    "url": "https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-123.pdf",
+    "language": "en",
+    "jurisdiction": "United States",
+    "applicability": "Covers fundamental security practices for network-facing systems. Relevant to diskless client architectures and server-provisioned workstations described in scope keyDescription. Includes sections on patch management (Section 3.1.3), configuration controls (Section 3.2), and operational logging (Section 3.4.4).",
+    "publicationDate": "2008-07",
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "Executive Summary (ES-3)",
+        "text": "Testing and applying patches in a timely manner"
+      },
+      {
+        "id": "p2",
+        "locator": "Executive Summary (ES-2)",
+        "text": "Remove or disable unnecessary services, applications, and network protocols"
+      },
+      {
+        "id": "p3",
+        "locator": "Executive Summary (ES-3)",
+        "text": "Configuring, protecting, and analyzing log files on an ongoing and frequent basis"
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:182ae5d23011108fba08c3a56c5029b8a26a428480ae38ac61877f6f3365db41",
+    "textDigest": "sha256:d58e190a4fcb808d3a039023f252b982c6855162d22736170526b8ae015d6d0f",
+    "finalUrl": "https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-123.pdf",
+    "retrievedAt": "2026-10-15T19:58:59Z",
+    "contentType": "application/pdf",
+    "snapshotPath": "source-182ae5d23011108fba08c3a56c5029b8a26a428480ae38ac61877f6f3365db41.bin",
+    "textPath": "source-d58e190a4fcb808d3a039023f252b982c6855162d22736170526b8ae015d6d0f.txt"
+  },
+  "files": {
+    "snapshots/source-182ae5d23011108fba08c3a56c5029b8a26a428480ae38ac61877f6f3365db41.bin": "sha256:182ae5d23011108fba08c3a56c5029b8a26a428480ae38ac61877f6f3365db41",
+    "snapshots/source-d58e190a4fcb808d3a039023f252b982c6855162d22736170526b8ae015d6d0f.txt": "sha256:d58e190a4fcb808d3a039023f252b982c6855162d22736170526b8ae015d6d0f"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-123.pdf",
+  "language": "en",
+  "retrievedAt": "2026-10-15T19:58:59Z",
+  "foundIn": {
+    "runId": "qwen3-38797190227",
+    "sourceOriginRunId": "qwen3-38797190227",
+    "controllerCommit": "39c54e6b4bdfd6f41bbaa40f45a996e730ef6233",
+    "recordedAt": "2026-10-15T20:03:24Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": "                          Special Publication 800-123\n\n\n\n\nGuide to General Server\nSecurity\n\nRecommendations of the National Institute\nof Standards and Technology\n\n\nKaren Scarfone\nWayne Jansen\nMiles Tracy\n\fNIST Special Publication 800-123   Guide to General Server Security\n\n                                   Recommendations of the National\n                                   Institute of Standards and Technology\n\n                                   Karen Scarfone\n                                   Wayne Jansen\n                                   Miles Tracy\n\n\n\n\n    C O M P U T E R                               S E C U R I T Y\n\n                                   Computer Security Division\n                                   Information Technology Laboratory\n                                   Nat",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "National Institute of Standards and Technology (NIST)",
+    "host": "nvlpubs.nist.gov"
+  }
+}

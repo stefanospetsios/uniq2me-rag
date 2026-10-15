@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "623ebaf29c70b7ae135e33ad91dddec89c222a598d7f29cc61e67b4f12c10ed8",
+  "cachedAt": "2026-10-15T20:05:11Z",
+  "observedAt": "2026-10-15T20:05:11Z",
+  "originRunId": "qwen3-38797190227",
+  "foundIn": {
+    "runId": "qwen3-38797190227",
+    "controllerCommit": "39c54e6b4bdfd6f41bbaa40f45a996e730ef6233",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-1-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "1",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "administrator accounts official maintainer implementation configuration documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792094648465,
+    "end": 1792094649627
+  },
+  "outputDigest": "sha256:30e55e14ef49d523d61e857a821fd834a358e9aac7fcee65a2f47d8148bd2741",
+  "resultUrls": [
+    "https://docs.drone.io/server/user/admin/",
+    "https://docs.typo3.org/m/typo3/reference-coreapi/main/en-us/Administration/UserManagement/BackendPrivileges/Index.html",
+    "https://docs.typo3.org/m/typo3/tutorial-getting-started/main/en-us/Administration/BackendUsers/Administrator.html",
+    "https://en.wikibooks.org/wiki/OpenSSH/Client_Configuration_Files",
+    "https://gerrit.googlesource.com/gerrit/+/HEAD/Documentation/config-accounts.txt",
+    "https://github.com/mastodon/documentation/blob/main/content/en/admin/setup.md",
+    "https://my-site.ddev.site/typo3/install.php%60"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Backend privileges: administrators and System Maintainers — TYPO3 Explained main\\n        documentation\",\n      \"url\": \"https://docs.typo3.org/m/typo3/reference-coreapi/main/en-us/Administration/UserManagement/BackendPrivileges/Index.html\",\n      \"content\": \"Backend privileges: administrators and System Maintainers — TYPO3 Explained main documentation\\n\\n# Backend privileges: administrators and System Maintainers \\n\\nThe following chapters cover modules that will only be available for backend users with specific access privileges.\\n\\nIn addition to configuring access rights for backend users or groups as described in Setting up user group permissions, there are \\\"superuser\\\" rights which can be activated for each user.\\n\\nIf a backend user has been created for editing in the backend, he or she should usually not get access to admin or system modules.\\n\\nYou should only give a backend user as much access as is needed. This makes the job easier by automatically deactivating modules and GUI elements that the user does not have access to. It also makes it impossible for a user to damage the system by accidentally doing things he or she should not have been able to do in the first place.\\n\\n## Administrators \\n\\n Administrators have access to the System modules, including Permissions, Backend User, Log etc.) \\n\\n## System maintainers \\n\\nThe first backend admin created during installation will automatically be a system maintainer as well. To give other users system privileges, you can add them in the System > Settings > Manage System Maintainers configuration. Alternatively, the website can be set to \\\"Development\\\" mode in the Install Tool. This will give all admin users system maintainer access.\\n\\n System Maintainers are the only users who are able to see and access System modules, including the System > Extensions module. \\n\\nSystem Maintainers are persisted within the \\n\\nconfig/\\n\\nsystem/\\n\\nsettings.\\n\\nphp\\n\\n as \\n\\n $GLOB",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "docs.drone.io",
+      "docs.typo3.org",
+      "en.wikibooks.org",
+      "gerrit.googlesource.com",
+      "github.com",
+      "my-site.ddev.site"
+    ]
+  }
+}

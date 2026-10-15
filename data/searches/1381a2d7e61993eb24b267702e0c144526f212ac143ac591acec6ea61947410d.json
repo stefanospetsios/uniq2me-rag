@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "1381a2d7e61993eb24b267702e0c144526f212ac143ac591acec6ea61947410d",
+  "cachedAt": "2026-10-15T19:58:53Z",
+  "observedAt": "2026-10-15T19:58:53Z",
+  "originRunId": "qwen3-38797190227",
+  "foundIn": {
+    "runId": "qwen3-38797190227",
+    "controllerCommit": "39c54e6b4bdfd6f41bbaa40f45a996e730ef6233",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-0-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "0",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "NIST SP 800-123 workstation security endpoint inventory provisioning patching device encryption site:nist.gov",
+    "time_range": ""
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792094231627,
+    "end": 1792094232600
+  },
+  "outputDigest": "sha256:28da534be8330dcb006ce68121a8344e45a0901a167a926c6a8b1748783fe7ac",
+  "resultUrls": [
+    "https://csrc.nist.gov/publications",
+    "https://csrc.nist.gov/publications/final-pubs",
+    "https://csrc.nist.gov/pubs/sp/800/123/final",
+    "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-123.pdf",
+    "https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-123.pdf",
+    "https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=900179",
+    "https://www.nist.gov/publications/guide-general-server-security",
+    "https://www.nist.gov/publications/guide-general-server-security-0"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"NIST SP 800-123 workstation security endpoint inventory provisioning patching device encryption site:nist.gov\",\n  \"results\": [\n    {\n      \"title\": \"NIST SP 800-123, Guide to General Server Security\",\n      \"url\": \"https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-123.pdf\",\n      \"content\": \"This Special Publication 800-series reports on ITL's research, guidance, and outreach efforts in computer security and its collaborative activities with ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"PDF NIST SP 800-123, Guide to General Server Security\",\n      \"url\": \"https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-123.pdf\",\n      \"content\": \"Other NIST documents, such as Special Publication (SP) 800-45 Version 2, Guidelines on Electronic Mail Security and SP 800-44 Version 2, Guidelines on Securing Public Web Servers, provide recommendations for particular types of servers.\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"SP 800-123, Guide to General Server Security | CSRC\",\n      \"url\": \"https://csrc.nist.gov/pubs/sp/800/123/final\",\n      \"content\": \"The purpose of this document is to assist organizations in understanding the fundamental activities performed as part of securing and maintaining the security of servers that provide services over network communications as a main function. The document discusses the need to secure servers and provides recommendations for selecting, implementing, and maintaining the necessary security controls.\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Guide to general server security: | NIST\",\n      \"url\": \"https://www.nist.gov/publications/guide-general-server-security-0\",\n      \"content\": \"Author (s) K A Scarfone, W Jansen, M Tracy Citation - NIST SP 800-123 Report Number NIST SP 800-123 Pub Type\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Guide to Gener",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "csrc.nist.gov",
+      "nvlpubs.nist.gov",
+      "tsapps.nist.gov",
+      "www.nist.gov"
+    ]
+  }
+}

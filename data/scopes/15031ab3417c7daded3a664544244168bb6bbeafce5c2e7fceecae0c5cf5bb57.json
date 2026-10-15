@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-scope",
+  "cachedAt": "2026-10-15T20:03:24Z",
+  "scopeId": "0",
+  "fingerprint": "15031ab3417c7daded3a664544244168bb6bbeafce5c2e7fceecae0c5cf5bb57",
+  "originRunId": "qwen3-38797190227",
+  "controllerCommit": "39c54e6b4bdfd6f41bbaa40f45a996e730ef6233",
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "scope-admitted",
+    "publisher": null,
+    "host": null
+  },
+  "corpus": {
+    "sources": {
+      "0-source-1": {
+        "type": "technical-doc",
+        "title": "NIST Special Publication 800-123: Guide to General Server Security",
+        "publisher": "National Institute of Standards and Technology (NIST)",
+        "url": "https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-123.pdf",
+        "language": "en",
+        "jurisdiction": "United States",
+        "applicability": "Covers fundamental security practices for network-facing systems. Relevant to diskless client architectures and server-provisioned workstations described in scope keyDescription. Includes sections on patch management (Section 3.1.3), configuration controls (Section 3.2), and operational logging (Section 3.4.4).",
+        "publicationDate": "2008-07",
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "0-source-1",
+        "byteDigest": "sha256:182ae5d23011108fba08c3a56c5029b8a26a428480ae38ac61877f6f3365db41",
+        "textDigest": "sha256:d58e190a4fcb808d3a039023f252b982c6855162d22736170526b8ae015d6d0f",
+        "finalUrl": "https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-123.pdf",
+        "retrievedAt": "2026-10-15T19:58:59Z",
+        "contentType": "application/pdf",
+        "snapshotPath": "source-182ae5d23011108fba08c3a56c5029b8a26a428480ae38ac61877f6f3365db41.bin",
+        "textPath": "source-d58e190a4fcb808d3a039023f252b982c6855162d22736170526b8ae015d6d0f.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Executive Summary (ES-3)",
+            "text": "Testing and applying patches in a timely manner"
+          },
+          {
+            "id": "p2",
+            "locator": "Executive Summary (ES-2)",
+            "text": "Remove or disable unnecessary services, applications, and network protocols"
+          },
+          {
+            "id": "p3",
+            "locator": "Executive Summary (ES-3)",
+            "text": "Configuring, protecting, and analyzing log files on an ongoing and frequent basis"
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "0-source-2": {
+        "type": "guidance",
+        "title": "Reinforcing trust and security in the area of electronic communications and online services (WP2018 O.2.2.5 - Security Measures)",
+        "publisher": "European Union Agency for Cybersecurity (ENISA)",
+        "url": "https://www.enisa.europa.eu/sites/default/files/publications/WP2018%20O.2.2.5%20-%20Security%20Measures.pdf",
+        "language": "en",
+        "jurisdiction": "European Union",
+        "applicability": "Addresses endpoint security considerations including device encryption implementation (Section 4.3), operational logging requirements (Section 5.2), and remote access security (Section 4.5) as specified in scope keyWords. Covers patching guidance (Section 4.2) and shared storage risks (Section 4.4) within the 2018 threat landscape context.",
+        "publicationDate": "2018-11",
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "0-source-2",
+        "byteDigest": "sha256:f558cdc270ac97f4d78fc6810248576214f7756db3cb152f7db211f4903402ac",
+        "textDigest": "sha256:4de582fc723e0aa687bf4abfc1f7fbef7a84746f5f58e1c16cf6d8a35d03f8d2",
+        "finalUrl": "https://www.enisa.europa.eu/sites/default/files/publications/WP2018%20O.2.2.5%20-%20Security%20Measures.pdf",
+        "retrievedAt": "2026-10-15T19:59:00Z",
+        "contentType": "application/pdf",
+        "snapshotPath": "source-f558cdc270ac97f4d78fc6810248576214f7756db3cb152f7db211f4903402ac.bin",
+        "textPath": "source-4de582fc723e0aa687bf4abfc1f7fbef7a84746f5f58e1c16cf6d8a35d03f8d2.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Section 8.2.9",
+            "text": "Full disk encryption"
+          },
+          {
+            "id": "p2",
+            "locator": "Section 8.2.1",
+            "text": "Limited users’ privileges in operating systems"
+          },
+          {
+            "id": "p3",
+            "locator": "Section 8.2.7",
+            "text": "External storage use limitation"
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      }
+    },
+    "concerns": [
+      {
+        "id": "0-concern-1",
+        "sfsId": "0",
+        "description": "Patches must be tested and applied in a timely manner for operating systems",
+        "sourceRefs": [
+          {
+            "sourceId": "0-source-1",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "0-concern-2",
+        "sfsId": "0",
+        "description": "Unnecessary services, applications, and network protocols must be removed or disabled on workstations",
+        "sourceRefs": [
+          {
+            "sourceId": "0-source-1",
+            "passageId": "p2"
+          }
+        ]
+      },
+      {
+        "id": "0-concern-3",
+        "sfsId": "0",
+        "description": "Log files must be configured, protected, and analyzed on an ongoing and frequent basis",
+        "sourceRefs": [
+          {
+            "sourceId": "0-source-1",
+            "passageId": "p3"
+          }
+        ]
+      },
+      {
+        "id": "0-concern-4",
+        "sfsId": "0",
+        "description": "Full disk encryption must be implemented for workstation device security",
+        "sourceRefs": [
+          {
+            "sourceId": "0-source-2",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "0-concern-5",
+        "sfsId": "0",
+        "description": "Users' privileges must be limited in workstation operating systems",
+        "sourceRefs": [
+          {
+            "sourceId": "0-source-2",
+            "passageId": "p2"
+          }
+        ]
+      },
+      {
+        "id": "0-concern-6",
+        "sfsId": "0",
+        "description": "External storage use must be limited on workstations to prevent unsecured data exposure",
+        "sourceRefs": [
+          {
+            "sourceId": "0-source-2",
+            "passageId": "p3"
+          }
+        ]
+      }
+    ],
+    "queries": [
+      {
+        "scope": "0",
+        "toolId": "searxng_web_search",
+        "input": {
+          "query": "Operating System and Workstation Environment official implementation configuration documentation endpoint inventory provisioning patching diskless clients remote desktops shared storage device encryption endpoint logging site:*.gov site:*.org",
+          "max_results": 8,
+          "safesearch": 0,
+          "time_range": ""
+        },
+        "outputDigest": "sha256:8d39e306c55924f682afc1a466bc01e1b33b447cc97e60bab82412c7e0e9047c",
+        "callId": "sources-0-1-discovery"
+      },
+      {
+        "scope": "0",
+        "toolId": "websearch_web_search",
+        "input": {
+          "query": "official maintainer documentation for workstation provisioning patch management device encryption endpoint logging site:*.eu site:*.gr",
+          "max_results": 8
+        },
+        "outputDigest": "sha256:74fa0af89e48a86072c46f622e69edecddfa9355cff18644b2b13b0096684d0f",
+        "callId": "sources-0-1-discovery"
+      },
+      {
+        "scope": "0",
+        "toolId": "searxng_web_search",
+        "input": {
+          "max_results": 8,
+          "query": "NIST SP 800-123 workstation security endpoint inventory provisioning patching device encryption site:nist.gov",
+          "safesearch": 0,
+          "time_range": ""
+        },
+        "outputDigest": "sha256:28da534be8330dcb006ce68121a8344e45a0901a167a926c6a8b1748783fe7ac",
+        "callId": "sources-0-1-discovery"
+      },
+      {
+        "scope": "0",
+        "toolId": "websearch_web_search",
+        "input": {
+          "max_results": 8,
+          "query": "ENISA endpoint security guidelines workstation provisioning device encryption site:europa.eu site:cyber.gov.gr"
+        },
+        "outputDigest": "sha256:ee19bf60bbfadb097446fe5feb72b1e48cf1dd86ad3578c9ca832042f9763dc5",
+        "callId": "sources-0-1-discovery"
+      }
+    ],
+    "limitations": [
+      {
+        "scope": "0",
+        "description": "NIST SP 800-123 focuses primarily on servers rather than workstations; relevance limited to diskless client/server provisioning models described in scope"
+      },
+      {
+        "scope": "0",
+        "description": "ENISA 2018 publication predates NIS2 Directive implementation; newer ENISA guidance may exist but was not observed in search results"
+      },
+      {
+        "scope": "0",
+        "description": "No observed Greek-specific implementation documentation meeting official domain requirements"
+      },
+      {
+        "scope": "0",
+        "description": "Brave search engine unresponsive during discovery phase (reported in tool output)"
+      },
+      {
+        "scope": "0",
+        "description": "Excluded optional discovery candidate: Source URL was not observed in search results: https://www.enisa.europa.eu/publications/enisa-threat-landscape-for-physical-and-endpoint-security-2018"
+      },
+      {
+        "scope": "0",
+        "description": "ENISA 2018 working paper predates NIS2 Directive implementation; newer ENISA guidance may exist but was not observed in search results"
+      },
+      {
+        "scope": "0",
+        "description": "NIST SP 800-123 (2008) focuses primarily on servers; relevance to workstations limited to diskless client/server provisioning models as described in document applicability note."
+      },
+      {
+        "scope": "0",
+        "description": "ENISA 2018 guidance predates NIS2 Directive implementation (2022/2555); newer ENISA guidance may exist but was not observed in search results."
+      }
+    ],
+    "admissionVersion": 2,
+    "observedResultUrls": [
+      "https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-123.pdf",
+      "https://www.enisa.europa.eu/sites/default/files/publications/WP2018%20O.2.2.5%20-%20Security%20Measures.pdf"
+    ]
+  },
+  "files": {
+    "snapshots/source-182ae5d23011108fba08c3a56c5029b8a26a428480ae38ac61877f6f3365db41.bin": "sha256:182ae5d23011108fba08c3a56c5029b8a26a428480ae38ac61877f6f3365db41",
+    "snapshots/source-d58e190a4fcb808d3a039023f252b982c6855162d22736170526b8ae015d6d0f.txt": "sha256:d58e190a4fcb808d3a039023f252b982c6855162d22736170526b8ae015d6d0f",
+    "snapshots/source-f558cdc270ac97f4d78fc6810248576214f7756db3cb152f7db211f4903402ac.bin": "sha256:f558cdc270ac97f4d78fc6810248576214f7756db3cb152f7db211f4903402ac",
+    "snapshots/source-4de582fc723e0aa687bf4abfc1f7fbef7a84746f5f58e1c16cf6d8a35d03f8d2.txt": "sha256:4de582fc723e0aa687bf4abfc1f7fbef7a84746f5f58e1c16cf6d8a35d03f8d2"
+  }
+}

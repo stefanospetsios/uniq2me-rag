@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T20:08:08Z",
+  "originRunId": "qwen3-38797190227",
+  "source": {
+    "id": "1-source-2",
+    "type": "technical-doc",
+    "title": "Deploying a privileged access solution",
+    "publisher": "Microsoft Corporation",
+    "url": "https://learn.microsoft.com/en-us/security/privileged-access-workstations/privileged-access-deployment",
+    "language": "en",
+    "jurisdiction": "International",
+    "applicability": "Implementation guidance for privileged access workstations including emergency break-glass accounts, separation of duties configuration, audit trail requirements, and revocation workflows for administrative systems",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:d2e30f81b240da6479549c73e043ce8cb96962de768e19bc83cb054fbd0adb76",
+    "textDigest": "sha256:0a67387bb0e4899ad5511af0ef20ba5b733e95d6efeff790b9268e82446ecfde",
+    "finalUrl": "https://learn.microsoft.com/en-us/security/privileged-access-workstations/privileged-access-deployment",
+    "retrievedAt": "2026-10-15T20:08:08Z",
+    "contentType": "text/html",
+    "snapshotPath": "source-d2e30f81b240da6479549c73e043ce8cb96962de768e19bc83cb054fbd0adb76.bin",
+    "textPath": "source-0a67387bb0e4899ad5511af0ef20ba5b733e95d6efeff790b9268e82446ecfde.txt"
+  },
+  "files": {
+    "snapshots/source-d2e30f81b240da6479549c73e043ce8cb96962de768e19bc83cb054fbd0adb76.bin": "sha256:d2e30f81b240da6479549c73e043ce8cb96962de768e19bc83cb054fbd0adb76",
+    "snapshots/source-0a67387bb0e4899ad5511af0ef20ba5b733e95d6efeff790b9268e82446ecfde.txt": "sha256:0a67387bb0e4899ad5511af0ef20ba5b733e95d6efeff790b9268e82446ecfde"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://learn.microsoft.com/en-us/security/privileged-access-workstations/privileged-access-deployment",
+  "language": "en",
+  "retrievedAt": "2026-10-15T20:08:08Z",
+  "foundIn": {
+    "runId": "qwen3-38797190227",
+    "sourceOriginRunId": "qwen3-38797190227",
+    "controllerCommit": "39c54e6b4bdfd6f41bbaa40f45a996e730ef6233",
+    "recordedAt": "2026-10-15T20:08:08Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": " \n\n\t\t\n\n\t\t\t\n\t\t\n\n\t\t\t\nDeploying a privileged access solution - Privileged access | Microsoft Learn\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n \n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n \n\t\t\t\n\n\t\t\t \n\t\t\t\n\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t \n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\t\t\t\n\n\t\t\t\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\t\t\n\n\t\n\t\t\t\n\n\t\t\t\t\n\n\t\t\n\n\t\t\t\n\t\t\n\n\t\t\tSkip to main content\n\t\t\n\n\t\n\t\t\n\n\t\t\tSkip to Ask Learn chat experience\n\t\t\n\n\t\n\n\t\t\t\n\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\t\n\n\t\t\t\t\t\nThis browser is no longer supported.\n\n\n\n\t\t\t\t\t\n\n\t\t\t\t\t\tUpgrade to Microsoft Edge to take advantage of the latest features, securit",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Microsoft Corporation",
+    "host": "learn.microsoft.com"
+  }
+}

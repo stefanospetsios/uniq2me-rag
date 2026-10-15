@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "532f76babfebbdde73bb07a69356713017b5c3a427f3ec097769f27c558cac23",
+  "cachedAt": "2026-10-15T19:58:53Z",
+  "observedAt": "2026-10-15T19:58:53Z",
+  "originRunId": "qwen3-38797190227",
+  "foundIn": {
+    "runId": "qwen3-38797190227",
+    "controllerCommit": "39c54e6b4bdfd6f41bbaa40f45a996e730ef6233",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-0-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "0",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "ENISA endpoint security guidelines workstation provisioning device encryption site:europa.eu site:cyber.gov.gr"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792094232367,
+    "end": 1792094233776
+  },
+  "outputDigest": "sha256:ee19bf60bbfadb097446fe5feb72b1e48cf1dd86ad3578c9ca832042f9763dc5",
+  "resultUrls": [
+    "https://www.enisa.europa.eu/sites/default/files/publications/WP2018%20O.2.2.5%20-%20Security%20Measures.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Reinforcing trust and security in the area of electronic communications and online services\",\n      \"url\": \"https://www.enisa.europa.eu/sites/default/files/publications/WP2018%20O.2.2.5%20-%20Security%20Measures.pdf\",\n\n...717492 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_14123e4ae001stZctHQfSWlSOX\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "www.enisa.europa.eu"
+    ]
+  }
+}

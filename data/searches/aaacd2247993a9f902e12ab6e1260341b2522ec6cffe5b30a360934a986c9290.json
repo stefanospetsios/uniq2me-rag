@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "aaacd2247993a9f902e12ab6e1260341b2522ec6cffe5b30a360934a986c9290",
+  "cachedAt": "2026-10-15T20:08:07Z",
+  "observedAt": "2026-10-15T20:08:07Z",
+  "originRunId": "qwen3-38797190227",
+  "foundIn": {
+    "runId": "qwen3-38797190227",
+    "controllerCommit": "39c54e6b4bdfd6f41bbaa40f45a996e730ef6233",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "callId": "sources-1-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "1",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Administrator and Master Keys official implementation configuration documentation site:nist.gov OR site:cisa.gov OR site:owasp.org OR site:microsoft.com OR site:github.com",
+    "time_range": ""
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792094822360,
+    "end": 1792094823219
+  },
+  "outputDigest": "sha256:99b41a99ebb5a69b5afdd82d63c6318bb96551d24b513492b8a7a745943ad708",
+  "resultUrls": [
+    "https://learn.microsoft.com/en-us/aspnet/core/security/data-protection/configuration/overview?view=aspnetcore-10.0",
+    "https://learn.microsoft.com/en-us/azure/azure-functions/security-concepts",
+    "https://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-atrest",
+    "https://learn.microsoft.com/en-us/azure/security/fundamentals/key-management",
+    "https://learn.microsoft.com/en-us/purview/rights-management-byok",
+    "https://learn.microsoft.com/en-us/sql/relational-databases/security/encryption/sql-server-and-database-encryption-keys-database-engine?view=sql-server-ver17",
+    "https://learn.microsoft.com/en-us/sql/t-sql/statements/create-master-key-transact-sql?view=sql-server-ver17",
+    "https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/configure"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Administrator and Master Keys official implementation configuration documentation site:nist.gov OR site:cisa.gov OR site:owasp.org OR site:microsoft.com OR site:github.com\",\n  \"results\": [\n    {\n      \"title\": \"Overview of key management in Azure | Microsoft Learn\",\n      \"url\": \"https://learn.microsoft.com/en-us/azure/security/fundamentals/key-management\",\n      \"content\": \"Overview of Azure key management solutions. Compare Azure Key Vault, Managed HSM, Cloud HSM, Payment HSM, and Payment HSM v2 by compliance, pricing, and capabilities.\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Bring your own key for the Azure Rights Management service root key\",\n      \"url\": \"https://learn.microsoft.com/en-us/purview/rights-management-byok\",\n      \"content\": \"26 Αυγ 2026 ... Use the information in this article if you've decided to configure your tenant to use your own root key for the Azure Rights Management ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"CREATE MASTER KEY (Transact-SQL) - SQL Server - Microsoft Learn\",\n      \"url\": \"https://learn.microsoft.com/en-us/sql/t-sql/statements/create-master-key-transact-sql?view=sql-server-ver17\",\n      \"content\": \"21 Σεπ 2026 ... The master key password is unknown to Microsoft and not discoverable after creation. For this reason, creating a database master key before ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"SQL Server & database encryption keys - Microsoft Learn\",\n      \"url\": \"https://learn.microsoft.com/en-us/sql/relational-databases/security/encryption/sql-server-and-database-encryption-keys-database-engine?view=sql-server-ver17\",\n      \"content\": \"6 Οκτ 2026 ... The service master key is the root of the SQL Server encryption hierarchy. SQL Server generates the SMK the first time the instance starts, and ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\":",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "learn.microsoft.com"
+    ]
+  }
+}

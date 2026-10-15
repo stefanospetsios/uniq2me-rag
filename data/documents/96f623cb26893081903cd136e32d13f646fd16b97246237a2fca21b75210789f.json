@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-15T20:08:08Z",
+  "originRunId": "qwen3-38797190227",
+  "source": {
+    "id": "1-source-1",
+    "type": "technical-doc",
+    "title": "Overview of key management in Azure",
+    "publisher": "Microsoft Corporation",
+    "url": "https://learn.microsoft.com/en-us/azure/security/fundamentals/key-management",
+    "language": "en",
+    "jurisdiction": "International",
+    "applicability": "Azure Key Vault and managed HSM implementation for cryptographic master keys, secret rotation policies, access control separation, and emergency recovery procedures for cloud environments",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:71646a69012a4617d960da81f0862ec626c6497827ae96704527b8d7211ff8f8",
+    "textDigest": "sha256:926f7b7be03f337a4d3a9a29f43cbb44d16f31795045c7e010fcbeabb1ae93c3",
+    "finalUrl": "https://learn.microsoft.com/en-us/azure/security/fundamentals/key-management",
+    "retrievedAt": "2026-10-15T20:08:08Z",
+    "contentType": "text/html",
+    "snapshotPath": "source-71646a69012a4617d960da81f0862ec626c6497827ae96704527b8d7211ff8f8.bin",
+    "textPath": "source-926f7b7be03f337a4d3a9a29f43cbb44d16f31795045c7e010fcbeabb1ae93c3.txt"
+  },
+  "files": {
+    "snapshots/source-71646a69012a4617d960da81f0862ec626c6497827ae96704527b8d7211ff8f8.bin": "sha256:71646a69012a4617d960da81f0862ec626c6497827ae96704527b8d7211ff8f8",
+    "snapshots/source-926f7b7be03f337a4d3a9a29f43cbb44d16f31795045c7e010fcbeabb1ae93c3.txt": "sha256:926f7b7be03f337a4d3a9a29f43cbb44d16f31795045c7e010fcbeabb1ae93c3"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://learn.microsoft.com/en-us/azure/security/fundamentals/key-management",
+  "language": "en",
+  "retrievedAt": "2026-10-15T20:08:08Z",
+  "foundIn": {
+    "runId": "qwen3-38797190227",
+    "sourceOriginRunId": "qwen3-38797190227",
+    "controllerCommit": "39c54e6b4bdfd6f41bbaa40f45a996e730ef6233",
+    "recordedAt": "2026-10-15T20:08:08Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "task": null
+  },
+  "originalText": " \n\n\t\t\n\n\t\t\t\n\t\t\n\n\t\t\t\nOverview of key management in Azure | Microsoft Learn\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n \n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n \n\n\t\t\t\n\n\t\t\t \n\t\t\t\n\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t \n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\t\t\t\n\n\t\t\t\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\t\t\n\n\t\n\t\t\t\n\n\t\t\t\t\n\n\t\t\n\n\t\t\t\n\t\t\n\n\t\t\tSkip to main content\n\t\t\n\n\t\n\t\t\n\n\t\t\tSkip to Ask Learn chat experience\n\t\t\n\n\t\n\n\t\t\t\n\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\t\n\n\t\t\t\t\t\nThis browser is no longer supported.\n\n\n\n\t\t\t\t\t\n\n\t\t\t\t\t\tUpgrade to Microsoft Edge to take advantage of the latest fea",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Microsoft Corporation",
+    "host": "learn.microsoft.com"
+  }
+}
