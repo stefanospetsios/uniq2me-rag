@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-17T10:40:24Z",
+  "originRunId": "qwen3-39025326785",
+  "source": {
+    "id": "0-source-5",
+    "type": "guidance",
+    "title": "JC 2025 29 Guide on DORA Oversight Activities",
+    "publisher": "European Banking Authority",
+    "url": "https://eba.europa.eu/sites/default/files/2025-07/32044d65-455e-4fff-82d0-aa0d8ac2799f/JC%202025%2029%20%20DORA%20Oversight%20Guide.pdf",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "Joint Committee guidance on oversight framework for critical ICT third-party service providers under Articles 31-44",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:01c3d885a23c1beb473f4fc3aa423f1674a651afac74bf8f365a5b6659f1ee96",
+    "textDigest": "sha256:fb67fe9fc19366534375c497ca2820195a95acbfbe57d15c602fded6c483d767",
+    "finalUrl": "https://eba.europa.eu/sites/default/files/2025-07/32044d65-455e-4fff-82d0-aa0d8ac2799f/JC%202025%2029%20%20DORA%20Oversight%20Guide.pdf",
+    "retrievedAt": "2026-10-17T10:40:24Z",
+    "contentType": "application/pdf",
+    "snapshotPath": "source-01c3d885a23c1beb473f4fc3aa423f1674a651afac74bf8f365a5b6659f1ee96.bin",
+    "textPath": "source-fb67fe9fc19366534375c497ca2820195a95acbfbe57d15c602fded6c483d767.txt"
+  },
+  "files": {
+    "snapshots/source-01c3d885a23c1beb473f4fc3aa423f1674a651afac74bf8f365a5b6659f1ee96.bin": "sha256:01c3d885a23c1beb473f4fc3aa423f1674a651afac74bf8f365a5b6659f1ee96",
+    "snapshots/source-fb67fe9fc19366534375c497ca2820195a95acbfbe57d15c602fded6c483d767.txt": "sha256:fb67fe9fc19366534375c497ca2820195a95acbfbe57d15c602fded6c483d767"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://eba.europa.eu/sites/default/files/2025-07/32044d65-455e-4fff-82d0-aa0d8ac2799f/JC%202025%2029%20%20DORA%20Oversight%20Guide.pdf",
+  "language": "en",
+  "retrievedAt": "2026-10-17T10:40:24Z",
+  "foundIn": {
+    "runId": "qwen3-39025326785",
+    "sourceOriginRunId": "qwen3-39025326785",
+    "controllerCommit": "cc329937095f08510f36e3acf902ee7f6b45adc8",
+    "recordedAt": "2026-10-17T10:40:24Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "originalText": "JC 2025 29\n\n15 July 2025\n\n\n\n\n Digital Operational Resilience Act (DORA):\n Oversight of critical third-party providers\n\nGuide on oversight activities\n\fPublic document\nThis guide does not produce any legal effect and cannot, in any way, replace the legal requirements laid down in the\nrelevant applicable EU law.\n\nMoreover, this guide aims to provide a user-friendly overview of DORA oversight on critical ICT-third party service\nproviders. In this context, certain provisions of DORA and delegated and implementing acts have been summarised\nand/or omitted. For the complete description of the DORA oversight and the full text of the relevant provisions\nincluded in DORA and in delegated and implementing acts, please consult the Official Journal of the EU ELI:\nhttp://data.europa.eu/eli/reg/2022/2554/",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "European Banking Authority",
+    "host": "eba.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}
