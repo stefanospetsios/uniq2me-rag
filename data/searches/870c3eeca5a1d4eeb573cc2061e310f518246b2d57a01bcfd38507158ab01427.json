@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "870c3eeca5a1d4eeb573cc2061e310f518246b2d57a01bcfd38507158ab01427",
+  "cachedAt": "2026-10-17T08:14:42Z",
+  "observedAt": "2026-10-17T08:14:42Z",
+  "originRunId": "qwen3-39016085901",
+  "foundIn": {
+    "runId": "qwen3-39016085901",
+    "controllerCommit": "fcf8ce2b0b856e4ac2c0959ba3c3e2b91b06190b",
+    "phase": "preflight",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "runner-smoke",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": null,
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Ollama context window size"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792224801673,
+    "end": 1792224802693
+  },
+  "outputDigest": "sha256:3174787300147db0356566231f8af9f7d7cf6005da425048ecb99daa7d6d191c",
+  "resultUrls": [
+    "https://docs.ollama.com/context-length",
+    "https://docs.ollama.com/faq",
+    "https://localllm.in/blog/local-llm-increase-context-length-ollama",
+    "https://stouf.medium.com/fixing-context-limits-in-opencode-ollama-1d820b332b41",
+    "https://www.serverman.co.uk/ai/ollama/ollama-context-window/"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Ollama context window size\",\n  \"results\": [\n    {\n      \"title\": \"Context length - Ollama documentation\",\n      \"url\": \"https://docs.ollama.com/context-length\",\n      \"content\": \"Setting a larger context length will increase the amount of memory required to run a model. Ensure you have enough VRAM available to increase the context length. Cloud models are set to their maximum context length by default. ... Change the slider in the Ollama app under settings to your desired context length.\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Ollama Context Window: How to Set num_ctx - Serverman\",\n      \"url\": \"https://www.serverman.co.uk/ai/ollama/ollama-context-window/\",\n      \"content\": \"Ollama's default context window is 4,096 tokens — roughly 3,000 words. When a conversation, document, or agent loop exceeds that limit, Ollama silently ...\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"How to increase context length of local LLMs in Ollama | LocalLLM.in\",\n      \"url\": \"https://localllm.in/blog/local-llm-increase-context-length-ollama\",\n      \"content\": \"Learn how to manage and increase context window size in Ollama for better local LLM performance. Comprehensive guide covering checking, setting, and optimizing context lengths for all models.\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"FAQ - Ollama documentation\",\n      \"url\": \"https://docs.ollama.com/faq\",\n      \"content\": \"Please refer to the GPU docs. ​. How can I specify the context window size? By default, Ollama uses a context window size of 4096 tokens. This can be ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Fixing Context Limits in OpenCode + Ollama - Medium\",\n      \"url\": \"https://stouf.medium.com/fixing-context-limits-in-opencode-ollama-1d820b332b41\",\n      \"content\": \"17 Ιαν 2026 ... When serving ",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [],
+    "phases": [
+      "preflight"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "docs.ollama.com",
+      "localllm.in",
+      "stouf.medium.com",
+      "www.serverman.co.uk"
+    ]
+  }
+}

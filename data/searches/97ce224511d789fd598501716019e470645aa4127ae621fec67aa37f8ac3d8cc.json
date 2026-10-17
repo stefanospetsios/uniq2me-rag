@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "97ce224511d789fd598501716019e470645aa4127ae621fec67aa37f8ac3d8cc",
+  "cachedAt": "2026-10-17T08:12:28Z",
+  "observedAt": "2026-10-17T08:12:28Z",
+  "originRunId": "qwen3-39016085901",
+  "foundIn": {
+    "runId": "qwen3-39016085901",
+    "controllerCommit": "fcf8ce2b0b856e4ac2c0959ba3c3e2b91b06190b",
+    "phase": "preflight",
+    "callId": "direct-mcp-probe",
+    "invocation": 1,
+    "scopeId": null,
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "Ollama keep_alive official documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": null,
+  "outputDigest": "sha256:da86e0772d8d9347beb06d99faefcaf72e97f72799a9f773da491852271ff3c6",
+  "resultUrls": [
+    "http://localhost:11434",
+    "http://localhost:11434/api/blobs/sha256:29fdb92e57cf0827ded04ae6461b5931d01fa595843f55d36f5b275a52087dd2",
+    "http://localhost:11434/api/chat",
+    "http://localhost:11434/api/copy",
+    "http://localhost:11434/api/create",
+    "http://localhost:11434/api/delete",
+    "http://localhost:11434/api/embed",
+    "http://localhost:11434/api/embeddings",
+    "http://localhost:11434/api/generate",
+    "http://localhost:11434/api/ps",
+    "http://localhost:11434/api/pull",
+    "http://localhost:11434/api/push",
+    "http://localhost:11434/api/show",
+    "http://localhost:11434/api/tags",
+    "http://localhost:11434/api/version",
+    "http://localhost:11434/v1/systemone",
+    "http://localhost:11434;",
+    "https://docs.ollama.com/api",
+    "https://docs.ollama.com/faq",
+    "https://github.com/ollama/ollama/blob/main/api/types.go",
+    "https://github.com/ollama/ollama/blob/main/docs/api.md",
+    "https://github.com/ollama/ollama/blob/main/docs/openapi.yaml",
+    "https://my.proxy.example.com",
+    "https://ollama.com",
+    "https://ollama.com/install.sh",
+    "https://ollama.com/library",
+    "https://ollama.com/settings/keys",
+    "https://ollama.readthedocs.io/en/api/",
+    "https://opensource.org/licenses/MIT",
+    "https://proxy.example.com`"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\"content\": [{\"type\": \"text\", \"text\": \"{\\n  \\\"results\\\": [\\n    {\\n      \\\"title\\\": \\\"docs/api.md\\\",\\n      \\\"url\\\": \\\"https://github.com/ollama/ollama/blob/main/docs/api.md\\\",\\n      \\\"content\\\": \\\"# docs/api.md\\\\n\\\\n- Branch: main\\\\n- Repository: ollama/ollama\\\\n\\\\n---\\\\n\\\\n# API\\\\n\\\\n> Note: Ollama's API docs are moving to https://docs.ollama.com/api\\\\n\\\\n## Endpoints\\\\n\\\\n- Generate a completion\\\\n- Generate a chat completion\\\\n- Create a Model\\\\n- List Local Models\\\\n- Show Model Information\\\\n- Copy a Model\\\\n- Delete a Model\\\\n- Pull a Model\\\\n- Push a Model\\\\n- Generate Embeddings\\\\n- List Running Models\\\\n- Version\\\\n\\\\n## Conventions\\\\n\\\\n### Model names\\\\n\\\\nModel names follow a `model:tag` format, where `model` can have an optional namespace such as `example/model`. Some examples are `orca-mini:3b-q8_0` and `llama3:70b`. The tag is optional and, if not provided, will default to `latest`. The tag is used to identify a specific version.\\\\n\\\\n### Durations\\\\n\\\\nAll durations are returned in nanoseconds.\\\\n\\\\n### Streaming responses\\\\n\\\\nCertain endpoints stream responses as JSON objects. Streaming can be disabled by providing `{\\\\\\\"stream\\\\\\\": false}` for these endpoints.\\\\n\\\\n## Generate a completion\\\\n\\\\n```\\\\nPOST /api/generate\\\\n```\\\\n\\\\nGenerate a response for a given prompt with a provided model. This is a streaming endpoint, so there will be a series of responses. The final response object will include statistics and additional data from the request.\\\\n\\\\n### Parameters\\\\n\\\\n- `model`: (required) the model name\\\\n- `prompt`: the prompt to generate a response for\\\\n- `suffix`: the text after the model response\\\\n- `images`: (optional) a list of base64-encoded images (for multimodal models such as `llava`)\\\\n- `think`: (for thinking models) should the model think before responding? Can be a boolean or a thinking level (`\\\\\\\"low\\\\\\\"`, `\\\\\\\"medium\\\\\\\"`, `\\\\\\\"high\\\\\\\"`, or `\\\\\\\"max\\\\\\\"`).\\\\n\\\\nAdvanced parameters (optional):\\\\n\\\\n- `format`: the format to",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [],
+    "phases": [
+      "preflight"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "docs.ollama.com",
+      "github.com",
+      "localhost",
+      "my.proxy.example.com",
+      "ollama.com",
+      "ollama.readthedocs.io",
+      "opensource.org",
+      "proxy.example.com`"
+    ]
+  }
+}

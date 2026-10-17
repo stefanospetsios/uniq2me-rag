@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "36879f40d55a80d982f0a57fa20228fff138d038995d8977f55378f0bb6c69cf",
+  "cachedAt": "2026-10-17T08:12:28Z",
+  "observedAt": "2026-10-17T08:12:28Z",
+  "originRunId": "qwen3-39016085901",
+  "foundIn": {
+    "runId": "qwen3-39016085901",
+    "controllerCommit": "fcf8ce2b0b856e4ac2c0959ba3c3e2b91b06190b",
+    "phase": "preflight",
+    "callId": "direct-mcp-probe",
+    "invocation": 1,
+    "scopeId": null,
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Ollama keep_alive official documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": null,
+  "outputDigest": "sha256:b503035efb45c3c668225cd82e966cf21538aa6d8a008142442738deb8a163e0",
+  "resultUrls": [
+    "https://bluegrid.io/glossary/ai/ollama-keep-alive/",
+    "https://docs.ollama.com/index",
+    "https://markaicode.com/ollama-keep-alive-memory-management/",
+    "https://ollama.readthedocs.io/en/",
+    "https://ollama.readthedocs.io/en/api/",
+    "https://www.llamafactory.cn"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\"content\": [{\"type\": \"text\", \"text\": \"{\\n  \\\"query\\\": \\\"Ollama keep_alive official documentation\\\",\\n  \\\"results\\\": [\\n    {\\n      \\\"title\\\": \\\"API Reference - Ollama English Documentation\\\",\\n      \\\"url\\\": \\\"https://ollama.readthedocs.io/en/api/\\\",\\n      \\\"content\\\": \\\"Parameters model: name of model to generate embeddings from prompt: text to generate embeddings for Advanced parameters: options: additional model parameters listed in the documentation for the Modelfile such as temperature keep_alive: controls how long the model will stay loaded into memory following the request (default: 5m) Examples Request ...\\\",\\n      \\\"engines\\\": [\\n        \\\"google cse\\\",\\n        \\\"duckduckgo\\\"\\n      ]\\n    },\\n    {\\n      \\\"title\\\": \\\"Ollama documentation - Ollama\\\",\\n      \\\"url\\\": \\\"https://docs.ollama.com/index\\\",\\n      \\\"content\\\": \\\"Local models Download Ollama and run a model on your computer. Browse the model library for coding, vision, embeddings, and reasoning models.\\\",\\n      \\\"engines\\\": [\\n        \\\"duckduckgo\\\"\\n      ]\\n    },\\n    {\\n      \\\"title\\\": \\\"Configure Ollama Keep-Alive: Memory Management for Always-On Models ...\\\",\\n      \\\"url\\\": \\\"https://markaicode.com/ollama-keep-alive-memory-management/\\\",\\n      \\\"content\\\": \\\"Configure Ollama keep_alive to control GPU/RAM usage, prevent model eviction, and run always-on LLMs. Tested on Ollama 0.6, CUDA 12, macOS & Ubuntu.\\\",\\n      \\\"engines\\\": [\\n        \\\"duckduckgo\\\"\\n      ]\\n    },\\n    {\\n      \\\"title\\\": \\\"Home - Ollama English Documentation\\\",\\n      \\\"url\\\": \\\"https://ollama.readthedocs.io/en/\\\",\\n      \\\"content\\\": \\\"ollama 的中英文文档，中文文档由 llamafactory.cn 翻译 Documentation Getting Started Quickstart Examples Importing models Linux Documentation Windows Documentation Docker Documentation Reference API Reference Modelfile Reference OpenAI Compatibility Resources Troubleshooting Guide FAQ Development guide Other For more resources see: https://www.llamafactory.cn\\\",\\n      \\\"engines\\\": [\\n        ",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [],
+    "phases": [
+      "preflight"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "bluegrid.io",
+      "docs.ollama.com",
+      "markaicode.com",
+      "ollama.readthedocs.io",
+      "www.llamafactory.cn"
+    ]
+  }
+}
