@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "8e8e1966d0362068ed413e373d7b206c0ba7fb49042e65eb24ba42bda97285ba",
+  "cachedAt": "2026-10-17T06:55:50Z",
+  "observedAt": "2026-10-17T06:55:50Z",
+  "originRunId": "qwen3-38995572810",
+  "foundIn": {
+    "runId": "qwen3-38995572810",
+    "controllerCommit": "01db40a04a8b34138dee548d202a050a92d29c57",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-0-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "0",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "EBA Guidelines on ICT risk management under DORA official document"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792220074654,
+    "end": 1792220075651
+  },
+  "outputDigest": "sha256:562e73a149dfcb0047f0605fea5c57cb9d758e9fcc296d331e1ef7b37ebf44b6",
+  "resultUrls": [
+    "https://eba.europa.eu/sites/default/files/2026-05/c8fb6168-0aef-42f6-8da9-114a8baf21b9/Consolidated%20version%20of%20EBA%20ameding%20Guidelines%20on%20ICT%20and%20security%20risk%20management.pdf",
+    "https://eur-lex.europa.eu/legal-con",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1774",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1774,",
+    "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/internal-governance/guidelines-ict-and-security-risk-management",
+    "https://www.eba.europa.eu/publications-and-media/press-releases/eba-amends-its-guidelines-ict-and-security-risk-management-measures-context-dora-application",
+    "https://www.eba.europa.eu/sites/default/files/2025-02/23684f95-f669-4852-94a0-dac6c2ae67ad/Final%20report%20on%20amending%20GLs%20on%20ICT%20risk%20and%20security.pdf",
+    "https://www.eba.europa.eu/sites/default/files/documents/10180/2522896/32a28233-12f5-49c8-9bb5-f8744ccb4e92/Final%20Guidelines%20on%20ICT%20and%20security%20risk%20management.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"EBA Guidelines on ICT and security risk\",\n      \"url\": \"https://eba.europa.eu/sites/default/files/2026-05/c8fb6168-0aef-42f6-8da9-114a8baf21b9/Consolidated%20version%20of%20EBA%20ameding%20Guidelines%20on%20ICT%20and%20security%20risk%20management.pdf\",\n      \"content\": \"EBA/GL/2019/04 (consolidated version)\\n\\n19 May 2026\\n\\nO\\n\\n## EBA Guidelines on ICT and security risk\\n\\n## management\\n\\nGuidelines on ICT and security risk management Application date\\n\\n➢ O\\n\\n30.06.2020\\n\\n| ➢ Amended by: | | |\\n| --- | --- | --- |\\n| ➢ A1 | EBA/GL/2025/02 | 20.05.2025 |\\n| | EBA/GL/2019/04 (consolidated version) | 19.05.2026 |\\n\\n## Compliance and reporting obligations\\n\\n### Status of these guidelines\\n\\nO\\n\\n1. This document contains guidelines issued pursuant to Article 16 of Regulation (EU) No 1093/2010 1. In accordance with Article 16(3) of Regulation (EU) No 1093/2010, competent authorities and financial institutions must make every effort to comply with the guidelines.\\n\\n2. Guidelines set out the EBA’s view of appropriate supervisory practices within the European System of Financial Supervision or of how European Union law should be applied in a particular area. Competent authorities as defined in Article 4(2) of Regulation (EU) No 1093/2010 and to whom guidelines apply should comply by incorporating them into their practices as appropriate (e.g. by amending their legal framework or their supervisory processes), including where guidelines are directed primarily at institutions.\\n\\n### Reporting requirements\\n\\nA1\\n\\n3. According to Article 16(3) of Regulation (EU) No 1093/2010, competent authorities must notify the EBA as to whether they comply or intend to comply with these guidelines, or otherwise with reasons for non-compliance, by 20.05.2025. In the absence of any notification by this deadline, competent authorities will be considered by the EBA to be non-compliant. Notifications should be sent by submitting the form avail",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "eba.europa.eu",
+      "eur-lex.europa.eu",
+      "www.eba.europa.eu"
+    ]
+  }
+}

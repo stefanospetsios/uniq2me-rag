@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "b131daad40ae5cc32b12459247a2c7c55ec839013883b020365bea94b059d31c",
+  "cachedAt": "2026-10-17T06:55:50Z",
+  "observedAt": "2026-10-17T06:55:50Z",
+  "originRunId": "qwen3-38995572810",
+  "foundIn": {
+    "runId": "qwen3-38995572810",
+    "controllerCommit": "01db40a04a8b34138dee548d202a050a92d29c57",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-0-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "0",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Regulation (EU) 2022/2554 DORA Applicability proportionality governance site:eur-lex.europa.eu"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792220074007,
+    "end": 1792220078356
+  },
+  "outputDigest": "sha256:26a467580f33de78ab389f98cd34e880af1f86cfe952caa119d73f91ad42c479",
+  "resultUrls": [
+    "http://data.europa.eu/eli/reg/2024/1689/oj",
+    "http://data.europa.eu/eli/reg/2024/1689/oj.",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52025PC0837",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52025IP0286",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:C_202602617",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401772"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Regulation (EU) 2022/2554 DORA Applicability proportionality governance site:eur-lex.europa.eu\",\n  \"results\": [\n    {\n      \"title\": \"Regulation (EU) 2022/2554 - Publications Office - European Union\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554\",\n      \"content\": \"27 Δεκ 2022 ... homogenous and coherent application of all components of ICT risk management by the Union financial sector. (15) Directive (EU) 2016/1148 of ...\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Impact of artificial intelligence on the financial sector - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52025IP0286\",\n      \"content\": \"24 Απρ 2026 ... 2024, ELI: http://data.europa.eu/eli/reg/2024/1689/oj. Page 2. — having regard to Regulation (EU) 2022/2554 of the European Parliament and of ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Commission Delegated Regulation (EU) 2024/1772 of 13 ... - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401772\",\n      \"content\": \"13 Μαρ 2024 ... Regulation (EU) 2022/2554 aims to harmonise and streamline reporting requirements for ICT-related incidents and.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"C/2026/2617 - EUR-Lex - European Union\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:C_202602617\",\n      \"content\": \"8 Μαΐ 2026 ... Under Regulation (EU) 2022/2554 of the European Parliament and of ... — Individual decisions adopted under the applicable Union law within the ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Digital Omnibus proposal - EUR-Lex - European Union\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52025PC0837\",\n      \"content\": \"They do so by appending into the Regulation existing rules. The t",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "data.europa.eu",
+      "eur-lex.europa.eu"
+    ]
+  }
+}

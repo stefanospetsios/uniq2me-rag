@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-17T06:55:51Z",
+  "originRunId": "qwen3-38995572810",
+  "source": {
+    "id": "0-source-3",
+    "type": "law",
+    "title": "Commission Implementing Regulation (EU) 2024/1774 of 13 March 2024 on ICT risk management tools, methods, processes and policies pursuant to DORA",
+    "publisher": "Publications Office of the European Union",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1774",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "Binding technical standards specifying requirements for ICT risk management frameworks under DORA Articles 3-5, with specific provisions for management body accountability, proportionality considerations, and governance oversight.",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:06f5e9eab7b238463e874e1fb4aec0a278d0504fcf412a16e2040136039b247f",
+    "textDigest": "sha256:c3e86efefb5afed5a72ac6c01f3f120f6a2a4886d8a91f0d095e83d278b26196",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1774",
+    "retrievedAt": "2026-10-17T06:55:51Z",
+    "contentType": "text/html; charset=UTF-8",
+    "snapshotPath": "source-06f5e9eab7b238463e874e1fb4aec0a278d0504fcf412a16e2040136039b247f.bin",
+    "textPath": "source-c3e86efefb5afed5a72ac6c01f3f120f6a2a4886d8a91f0d095e83d278b26196.txt"
+  },
+  "files": {
+    "snapshots/source-06f5e9eab7b238463e874e1fb4aec0a278d0504fcf412a16e2040136039b247f.bin": "sha256:06f5e9eab7b238463e874e1fb4aec0a278d0504fcf412a16e2040136039b247f",
+    "snapshots/source-c3e86efefb5afed5a72ac6c01f3f120f6a2a4886d8a91f0d095e83d278b26196.txt": "sha256:c3e86efefb5afed5a72ac6c01f3f120f6a2a4886d8a91f0d095e83d278b26196"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1774",
+  "language": "en",
+  "retrievedAt": "2026-10-17T06:55:51Z",
+  "foundIn": {
+    "runId": "qwen3-38995572810",
+    "sourceOriginRunId": "qwen3-38995572810",
+    "controllerCommit": "01db40a04a8b34138dee548d202a050a92d29c57",
+    "recordedAt": "2026-10-17T06:55:51Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "originalText": "\n\n\n\n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n\n\n\n\n    \n\n\n\n    \n\n    \n\n        \nJavaScript is disabled\n\n\n\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    \n\n\n\n",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": false,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Publications Office of the European Union",
+    "host": "eur-lex.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

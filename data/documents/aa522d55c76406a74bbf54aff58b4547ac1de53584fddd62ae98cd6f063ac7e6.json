@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-17T06:55:51Z",
+  "originRunId": "qwen3-38995572810",
+  "source": {
+    "id": "0-source-2",
+    "type": "guidance",
+    "title": "Final report on amending Guidelines on ICT risk and security management (EBA/GL/2025/02)",
+    "publisher": "European Banking Authority",
+    "url": "https://www.eba.europa.eu/sites/default/files/2025-02/23684f95-f669-4852-94a0-dac6c2ae67ad/Final%20report%20on%20amending%20GLs%20on%20ICT%20risk%20and%20security.pdf",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "Official interpretation of DORA Articles 3-5 regarding proportionality, simplified framework application, and management body responsibilities for ICT risk oversight. Specifies requirements for governance structures, accountability, and risk management frameworks.",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:c828d5622e56c7f30d5bda8531e30f6160c4de984cb6312c8c815ad802dad453",
+    "textDigest": "sha256:69867d4303293a14e9eff9e9923ca5cf61c64a6f66b3162cabbda017f028bd7a",
+    "finalUrl": "https://www.eba.europa.eu/sites/default/files/2025-02/23684f95-f669-4852-94a0-dac6c2ae67ad/Final%20report%20on%20amending%20GLs%20on%20ICT%20risk%20and%20security.pdf",
+    "retrievedAt": "2026-10-17T06:55:51Z",
+    "contentType": "application/pdf",
+    "snapshotPath": "source-c828d5622e56c7f30d5bda8531e30f6160c4de984cb6312c8c815ad802dad453.bin",
+    "textPath": "source-69867d4303293a14e9eff9e9923ca5cf61c64a6f66b3162cabbda017f028bd7a.txt"
+  },
+  "files": {
+    "snapshots/source-c828d5622e56c7f30d5bda8531e30f6160c4de984cb6312c8c815ad802dad453.bin": "sha256:c828d5622e56c7f30d5bda8531e30f6160c4de984cb6312c8c815ad802dad453",
+    "snapshots/source-69867d4303293a14e9eff9e9923ca5cf61c64a6f66b3162cabbda017f028bd7a.txt": "sha256:69867d4303293a14e9eff9e9923ca5cf61c64a6f66b3162cabbda017f028bd7a"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.eba.europa.eu/sites/default/files/2025-02/23684f95-f669-4852-94a0-dac6c2ae67ad/Final%20report%20on%20amending%20GLs%20on%20ICT%20risk%20and%20security.pdf",
+  "language": "en",
+  "retrievedAt": "2026-10-17T06:55:51Z",
+  "foundIn": {
+    "runId": "qwen3-38995572810",
+    "sourceOriginRunId": "qwen3-38995572810",
+    "controllerCommit": "01db40a04a8b34138dee548d202a050a92d29c57",
+    "recordedAt": "2026-10-17T06:55:51Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "originalText": "EBA/GL /2025/02\n\n11/02/2025\n\n\n\n\nFinal Report\n\nGuidelines\namending Guidelines EBA/GL/2019/04 on ICT and security risk\nmanagement\n\fFINAL REPORT ON GUIDELINES AMENDING GUIDELINES EBA/GL/2019/04\n\n\n\n\nContents\n\n1.Background and rationale                                      6\n2.Guidelines                                                    7\n\n\n\n\n                                                                2\n\fFINAL REPORT ON GUIDELINES AMENDING GUIDELINES EBA/GL/2019/04\n\n\n\n\n1. Background and rationale\n\n1. On 27 November 2019, the EBA published the Guidelines on ICT and security risk management\n   (EBA/GL/2019/04) which were built on the provisions of Article 74 of Directive 2013/36/EU (CRD)1\n   and Article 95(3) of Directive (EU) 2015/2366 (PSD2)2 . These Guidelines establish requirements for\n ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "European Banking Authority",
+    "host": "www.eba.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

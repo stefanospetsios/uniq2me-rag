@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "cba2795edeb6dcc677c39ce21ca85487bdbafaa71208b50a8e75ec36e87a81a2",
+  "cachedAt": "2026-10-17T06:59:30Z",
+  "observedAt": "2026-10-17T06:59:30Z",
+  "originRunId": "qwen3-38995572810",
+  "foundIn": {
+    "runId": "qwen3-38995572810",
+    "controllerCommit": "01db40a04a8b34138dee548d202a050a92d29c57",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-0-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "0",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "DORA: Applicability, proportionality and governance DORA official implementation guidance"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792220166738,
+    "end": 1792220168177
+  },
+  "outputDigest": "sha256:c08d12cc962e2a4038646761dd96680b81422c12876b638cc651d048efba2f18",
+  "resultUrls": [
+    "https://eba.europa.eu/sites/default/files/2025-07/32044d65-455e-4fff-82d0-aa0d8ac2799f/JC%202025%2029%20%20DORA%20Oversight%20Guide.pdf",
+    "https://finance.ec.europa.eu/regulation-and-supervision/financial-services-legislation/implementing-and-delegated-acts/digital-operational-resilience-regulation_en",
+    "https://www.eba.europa.eu/regulation-and-policy/single-rulebook/interactive-single-rulebook/17716",
+    "https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/digital-operational-resilience-act-dora"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Digital Operational Resilience Regulation - Finance - European Commission\",\n      \"url\": \"https://finance.ec.europa.eu/regulation-and-supervision/financial-services-legislation/implementing-and-delegated-acts/digital-operational-resilience-regulation_en\",\n      \"content\": \"Digital Operational Resilience Regulation - Finance - European Commission\\n\\n# Implementing and delegated acts - DORA\\n\\nFind links to implementing and delegated acts for Regulation 2022/2554/EU on digital operational resilience. \\n\\nThe Regulation on Digital Operational Resilience (DORA) gives the Commission the power to adopt delegated and implementing acts to specify how competent authorities and market participants need to comply with the obligations laid down in the regulation.\\n\\n## Latest \\n\\n1. 2 July 2025\\n\\nPublication in the Official Journal\\n\\nCommission Delegated Regulation (EU) 2025/532 of 24 March 2025 supplementing Regulation (EU) 2022/2554 with regard to regulatory technical standards specifying the elements that a financial entity has to determine and assess when subcontracting ICT services supporting critical or important functions\\n2. 24 March 2025\\n\\nPublication in the Official Journal\\n\\nCommission Delegated Regulation (EU) 2025/420 of 16 December 2024 supplementing Regulation (EU) 2022/2554 with regard to regulatory technical standards to specify the criteria for determining the composition of the joint examination team ensuring a balanced participation of staff members from the ESAs and from the relevant competent authorities, their designation, tasks and working arrangements\\n3. 20 February 2025\\n\\nPublication in the Official Journal\\n\\nCommission Delegated Regulation (EU) 2025/301 of 23 October 2024 supplementing Regulation (EU) 2022/2554 with regard to regulatory technical standards specifying the content and time limits for the initial notification of, and intermediate and final report on, major ICT-related incidents, and the conte",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "eba.europa.eu",
+      "finance.ec.europa.eu",
+      "www.eba.europa.eu",
+      "www.esma.europa.eu"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-download-retry",
+  "id": "0827b01083200f4a4e166bdc93a9c05c10ee442c94565cbc3b0e1d85f434c027",
+  "cachedAt": "2026-10-17T06:59:32Z",
+  "originRunId": "qwen3-38995572810",
+  "sourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+  "candidate": {
+    "type": "law",
+    "title": "Regulation (EU) 2022/2554 of the European Parliament and of the Council on digital operational resilience in the financial sector (DORA)",
+    "publisher": "Publications Office of the European Union",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "Primary legal instrument establishing ICT risk management requirements for financial entities (Articles 1-5, 16), defining critical ICT third-party providers, and setting governance obligations for management bodies. Defines entity scope, proportionality considerations, and simplified framework applicability.",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "id": "0-source-1"
+  },
+  "language": "en",
+  "scopeId": "0",
+  "status": "downloaded-awaiting-evidence",
+  "firstFailedAt": "2026-10-17T06:55:51Z",
+  "firstFailureContext": {
+    "runId": "qwen3-38995572810",
+    "controllerCommit": "01db40a04a8b34138dee548d202a050a92d29c57",
+    "phase": "prepare"
+  },
+  "lastAttemptAt": "2026-10-17T06:59:32Z",
+  "attempts": 2,
+  "lastError": null,
+  "foundIn": {
+    "runId": "qwen3-38995572810",
+    "controllerCommit": "01db40a04a8b34138dee548d202a050a92d29c57",
+    "phase": "prepare"
+  },
+  "retryOnNextRun": false,
+  "originalText": null,
+  "evidenceAdmitted": false,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "downloaded-awaiting-evidence",
+    "publisher": "Publications Office of the European Union",
+    "host": "eur-lex.europa.eu"
+  },
+  "byteDigest": "sha256:85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c",
+  "textDigest": "sha256:1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786"
+}

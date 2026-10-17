@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "77680c14df02da91710350d274afb0912c24748ac3f8c561d61d15f1bd606613",
+  "cachedAt": "2026-10-17T06:59:30Z",
+  "observedAt": "2026-10-17T06:59:30Z",
+  "originRunId": "qwen3-38995572810",
+  "foundIn": {
+    "runId": "qwen3-38995572810",
+    "controllerCommit": "01db40a04a8b34138dee548d202a050a92d29c57",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-0-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "0",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA full text DORA: Applicability, proportionality and governance",
+    "time_range": ""
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792220165984,
+    "end": 1792220167125
+  },
+  "outputDigest": "sha256:b3dc6e33872fb89c333882e058095c3f60546c045d71cbbb6e0b4f03b31e7cef",
+  "resultUrls": [
+    "http://data.europa.eu/eli/reg/2024/1689/oj",
+    "http://data.europa.eu/eli/reg/2024/1689/oj.",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52025PC0837",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52026PC0502",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52025IP0286",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202500295&qid=1744360929803"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA full text DORA: Applicability, proportionality and governance\",\n  \"results\": [\n    {\n      \"title\": \"Regulation (EU) 2022/2554 - Publications Office - European Union\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554\",\n      \"content\": \"27 Δεκ 2022 ... The proportionate character of the ICT risk management framework covering those financial entities should not be altered by the regulatory ...\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Impact of artificial intelligence on the financial sector - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52025IP0286\",\n      \"content\": \"24 Απρ 2026 ... 2024, ELI: http://data.europa.eu/eli/reg/2024/1689/oj. Page 2. — having regard to Regulation (EU) 2022/2554 of the European Parliament and of ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Digital Omnibus proposal - EUR-Lex - European Union\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52025PC0837\",\n      \"content\": \"At the same time, the proposed amendments remain technical in their nature, seeking to adjust the regulatory framework but not to amend its underlying ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"COM(2026) 502 final - EUR-Lex - European Union\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52026PC0502\",\n      \"content\": \"The Commission proposes a Regulation as the optimal legal instrument for the accomplishment of the proposal's objectives, given its capacity to ensure uniform ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Commission Delegated Regulation (EU) 2025/295 of 24 ... - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202500295&qid=1744360929803\",\n      \"c",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "data.europa.eu",
+      "eur-lex.europa.eu"
+    ]
+  }
+}

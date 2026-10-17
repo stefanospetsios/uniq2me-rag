@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-17T06:59:32Z",
+  "originRunId": "qwen3-38995572810",
+  "source": {
+    "id": "0-source-2",
+    "type": "law",
+    "title": "Digital Operational Resilience Regulation - Implementing and Delegated Acts",
+    "publisher": "European Commission",
+    "url": "https://finance.ec.europa.eu/regulation-and-supervision/financial-services-legislation/implementing-and-delegated-acts/digital-operational-resilience-regulation_en",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "Official listing of all binding implementing and delegated acts under DORA Regulation (EU) 2022/2554, including Commission Implementing Regulation (EU) 2024/1774 on ICT risk management tools and methods specified in Articles 3-5.",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:edcdbffa5df13ac5662979ccbfd7285d470a6fa6468ad2afed3d2cad37788b1b",
+    "textDigest": "sha256:7d870e35871fe6385aa473cb72d9e6c21901bfa463bda6185bc682fc3de0250a",
+    "finalUrl": "https://finance.ec.europa.eu/regulation-and-supervision/financial-services-legislation/implementing-and-delegated-acts/digital-operational-resilience-regulation_en",
+    "retrievedAt": "2026-10-17T06:59:32Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-edcdbffa5df13ac5662979ccbfd7285d470a6fa6468ad2afed3d2cad37788b1b.bin",
+    "textPath": "source-7d870e35871fe6385aa473cb72d9e6c21901bfa463bda6185bc682fc3de0250a.txt"
+  },
+  "files": {
+    "snapshots/source-edcdbffa5df13ac5662979ccbfd7285d470a6fa6468ad2afed3d2cad37788b1b.bin": "sha256:edcdbffa5df13ac5662979ccbfd7285d470a6fa6468ad2afed3d2cad37788b1b",
+    "snapshots/source-7d870e35871fe6385aa473cb72d9e6c21901bfa463bda6185bc682fc3de0250a.txt": "sha256:7d870e35871fe6385aa473cb72d9e6c21901bfa463bda6185bc682fc3de0250a"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://finance.ec.europa.eu/regulation-and-supervision/financial-services-legislation/implementing-and-delegated-acts/digital-operational-resilience-regulation_en",
+  "language": "en",
+  "retrievedAt": "2026-10-17T06:59:32Z",
+  "foundIn": {
+    "runId": "qwen3-38995572810",
+    "sourceOriginRunId": "qwen3-38995572810",
+    "controllerCommit": "01db40a04a8b34138dee548d202a050a92d29c57",
+    "recordedAt": "2026-10-17T06:59:32Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "originalText": "\n\n\n  \n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \nDigital Operational Resilience Regulation - Finance - European Commission\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n  \n\n  \n\n          \nSkip to main content\n\n\n        \n\n\n    \n\n\n      \n\n          \n\n  \n    \n\n        \n\n      \n\n        \n\n          \n\n            \n\n                    \n\n                                \n  \n\n\n\n              \n\n                  \nen\nSelect your language\n\n\nClose\n\n\nbg\nбългарски\n\n\nes\nespañol\n\n\ncs\nčeština\n\n\nda\ndansk\n\n\nde\nDeutsch\n\n\net\neesti\n\n\nel\nελληνικά\n\n\nen\nEnglish\n\n\nfr\nfrançais\n\n\nga\nGaeilge\n\n\nhr\nhrvatski\n\n\nit\nitaliano\n\n\nlv\nlatviešu\n\n\nlt\nlietuvių\n\n\nhu\nmagyar\n\n\nmt\nMalti\n\n\nnl\nNederlands\n\n\npl\npolski\n\n\npt\nportuguês\n\n\nro\nromână\n\n\nsk\nslovenčina\n\n\nsl\nslovenščina\n\n\nfi\nsuomi\n\n\nsv\nsvenska\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n  \n\n\nSearch\n\n",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "European Commission",
+    "host": "finance.ec.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}
