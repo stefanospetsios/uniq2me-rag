@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "fe4595a5f94a2634a02c02cfe9a1544d8f26a170a7e518a5dba9a9749b7fe3fc",
+  "cachedAt": "2026-10-17T11:06:14Z",
+  "observedAt": "2026-10-17T11:06:14Z",
+  "originRunId": "qwen3-39027246178",
+  "foundIn": {
+    "runId": "qwen3-39027246178",
+    "controllerCommit": "d89be5fa1db8a5d843a884c3c22f6358220c8789",
+    "phase": "preflight",
+    "callId": "direct-mcp-probe",
+    "invocation": 1,
+    "scopeId": null,
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Ollama keep_alive official documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": null,
+  "outputDigest": "sha256:c94cc7dd7de8c6e5549bada94c37f4e8702386df22fff7eab7931a0a4e15e92a",
+  "resultUrls": [
+    "http://localhost:11434/api/chat",
+    "https://bluegrid.io/glossary/ai/ollama-keep-alive/",
+    "https://docs.sillytavern.app/",
+    "https://docs.sillytavern.app/.",
+    "https://docs.spring.io/spring-ai/reference/api/chat/ollama-chat.html",
+    "https://ollama.readthedocs.io/en/api/",
+    "https://ollama.readthedocs.io/en/faq/",
+    "https://www.reddit.com/r/SillyTavernAI/comments/1s5nqc3/how_do_you_actually_pass_keep_alive_to_ollama/"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\"content\": [{\"type\": \"text\", \"text\": \"{\\n  \\\"query\\\": \\\"Ollama keep_alive official documentation\\\",\\n  \\\"results\\\": [\\n    {\\n      \\\"title\\\": \\\"API Reference - Ollama English Documentation\\\",\\n      \\\"url\\\": \\\"https://ollama.readthedocs.io/en/api/\\\",\\n      \\\"content\\\": \\\"If the messages array is empty and the keep_alive parameter is set to 0 , a model will be unloaded from memory. Request. curl http://localhost:11434/api/chat -d ...\\\",\\n      \\\"engines\\\": [\\n        \\\"google cse\\\"\\n      ]\\n    },\\n    {\\n      \\\"title\\\": \\\"Ollama Keep Alive - BlueGrid.io\\\",\\n      \\\"url\\\": \\\"https://bluegrid.io/glossary/ai/ollama-keep-alive/\\\",\\n      \\\"content\\\": \\\"It is controlled by the OLLAMA_KEEP_ALIVE environment variable or the keep_alive field in individual API requests. The default value is 5 minutes. Extended ...\\\",\\n      \\\"engines\\\": [\\n        \\\"google cse\\\"\\n      ]\\n    },\\n    {\\n      \\\"title\\\": \\\"Ollama Chat :: Spring AI Reference\\\",\\n      \\\"url\\\": \\\"https://docs.spring.io/spring-ai/reference/api/chat/ollama-chat.html\\\",\\n      \\\"content\\\": \\\"chat is the property prefix that configures the Ollama chat model. It includes the Ollama request (advanced) parameters such as the model , keep-alive , and ...\\\",\\n      \\\"engines\\\": [\\n        \\\"google cse\\\"\\n      ]\\n    },\\n    {\\n      \\\"title\\\": \\\"How do you actually pass keep_alive to ollama : r/SillyTavernAI\\\",\\n      \\\"url\\\": \\\"https://www.reddit.com/r/SillyTavernAI/comments/1s5nqc3/how_do_you_actually_pass_keep_alive_to_ollama/\\\",\\n      \\\"content\\\": \\\"28 Μαρ 2026 ... You can find a lot of information for common issues in the SillyTavern Docs: https://docs.sillytavern.app/. The best place for fast help with ...\\\",\\n      \\\"engines\\\": [\\n        \\\"google cse\\\"\\n      ]\\n    },\\n    {\\n      \\\"title\\\": \\\"FAQ - Ollama English Documentation\\\",\\n      \\\"url\\\": \\\"https://ollama.readthedocs.io/en/faq/\\\",\\n      \\\"content\\\": \\\"By default, Ollama uses a context window size of 2048 tokens. To change this when using ollama",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [],
+    "phases": [
+      "preflight"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "bluegrid.io",
+      "docs.sillytavern.app",
+      "docs.spring.io",
+      "localhost",
+      "ollama.readthedocs.io",
+      "www.reddit.com"
+    ]
+  }
+}

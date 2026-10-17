@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "013efc0f288e213ec7d85264d1a6c47345bc26a20eaa0f7cc56823abc81747b0",
+  "cachedAt": "2026-10-17T11:07:26Z",
+  "observedAt": "2026-10-17T11:07:26Z",
+  "originRunId": "qwen3-39027246178",
+  "foundIn": {
+    "runId": "qwen3-39027246178",
+    "controllerCommit": "d89be5fa1db8a5d843a884c3c22f6358220c8789",
+    "phase": "preflight",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "runner-smoke",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": null,
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Ollama context window size documentation site:docs.ollama.com"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792235219103,
+    "end": 1792235219772
+  },
+  "outputDigest": "sha256:800364266eb5b7bc62d7bc7e4ac6d0377e3becc4e3e566c0bc09d48ba443fabd",
+  "resultUrls": [
+    "https://docs.ollama.com/context-length",
+    "https://docs.ollama.com/faq",
+    "https://docs.ollama.com/index"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Ollama context window size documentation site:docs.ollama.com\",\n  \"results\": [\n    {\n      \"title\": \"FAQ - Ollama\",\n      \"url\": \"https://docs.ollama.com/faq\",\n      \"content\": \"By default, Ollama uses a context window size of 4096 tokens. This can be overridden with the OLLAMA_CONTEXT_LENGTH environment variable. For example, to set the default context window to 8K, use:\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Ollama documentation - Ollama\",\n      \"url\": \"https://docs.ollama.com/index\",\n      \"content\": \"Local models Download Ollama and run a model on your computer. Browse the model library for coding, vision, embeddings, and reasoning models.\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Context length - Ollama\",\n      \"url\": \"https://docs.ollama.com/context-length\",\n      \"content\": \"Change the slider in the Ollama app under settings to your desired context length. ... If editing the context length for Ollama is not possible, the context length can also be updated when serving Ollama. ... For best performance, use the maximum context length for a model, and avoid offloading the model to CPU.\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    }\n  ],\n  \"unresponsive_engines\": [\n    [\n      \"brave\",\n      \"Suspended: too many requests\"\n    ],\n    [\n      \"google cse\",\n      \"too many requests\"\n    ]\n  ]\n}",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [],
+    "phases": [
+      "preflight"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "docs.ollama.com"
+    ]
+  }
+}
