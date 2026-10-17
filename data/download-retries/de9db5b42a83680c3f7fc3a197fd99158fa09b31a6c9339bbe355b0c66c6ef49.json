@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-download-retry",
+  "id": "de9db5b42a83680c3f7fc3a197fd99158fa09b31a6c9339bbe355b0c66c6ef49",
+  "cachedAt": "2026-10-17T17:30:18Z",
+  "originRunId": "qwen3-39051987553",
+  "sourceUrl": "https://eur-lex.europa.eu/eli/reg_del/2024/1774/oj/eng",
+  "candidate": {
+    "type": "law",
+    "title": "Commission Delegated Regulation (EU) 2024/1774 of 13 March 2024 supplementing Regulation (EU) 2022/2554 of the European Parliament and of the Council with regard to regulatory technical standards specifying ICT risk management tools, methods, processes, and policies and the simplified ICT risk management framework (Text with EEA relevance)",
+    "publisher": "European Commission",
+    "url": "https://eur-lex.europa.eu/eli/reg_del/2024/1774/oj/eng",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "Financial entities subject to Regulation (EU) 2022/2554, with simplified provisions for smaller/less complex entities",
+    "publicationDate": "2024-06-25",
+    "effectiveDate": "2024-07-15",
+    "redistribution": "metadata-and-short-passages",
+    "id": "1-source-2"
+  },
+  "language": "en",
+  "scopeId": "1",
+  "status": "pending-download",
+  "firstFailedAt": "2026-10-17T17:30:18Z",
+  "firstFailureContext": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "prepare"
+  },
+  "lastAttemptAt": "2026-10-17T17:30:18Z",
+  "attempts": 1,
+  "lastError": "Source document is unavailable or incomplete: JavaScript/bot challenge page; retry the document download",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "prepare"
+  },
+  "retryOnNextRun": true,
+  "originalText": null,
+  "evidenceAdmitted": false,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "pending-download",
+    "publisher": "European Commission",
+    "host": "eur-lex.europa.eu"
+  }
+}

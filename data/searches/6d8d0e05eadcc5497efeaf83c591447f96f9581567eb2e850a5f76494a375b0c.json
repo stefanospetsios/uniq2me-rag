@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "6d8d0e05eadcc5497efeaf83c591447f96f9581567eb2e850a5f76494a375b0c",
+  "cachedAt": "2026-10-17T18:11:45Z",
+  "observedAt": "2026-10-17T18:11:45Z",
+  "originRunId": "qwen3-39051987553",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-7-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "7",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "site:eba.europa.eu DORA Regulation (EU) 2022/2554 incident reporting competent authority notification reporting templates crisis communications payment incidents"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792260618157,
+    "end": 1792260618799
+  },
+  "outputDigest": "sha256:b757410d5ad05ed681647b4186ea1a8e3c6db9609c34691661244616a85145a6",
+  "resultUrls": [
+    "https://eba.europa.eu/sites/default/files/2026-09/3039fc09-0b6e-4468-99bb-e27ae88bcf85/DORA%20IR%20-%20Operational%20Instructions_for%20publication%20%281%29.pdf",
+    "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/joint-technical-standards-major-incident-reporting",
+    "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/payment-services-and-electronic-money/guidelines-major-incidents-reporting-under-psd2",
+    "https://www.eba.europa.eu/publications-and-media/press-releases/esas-published-second-batch-policy-products-under-dora",
+    "https://www.eba.europa.eu/regulation-and-policy/single-rulebook/interactive-single-rulebook/17716"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Digital operational resilience Regulation (DORA) | European Banking Authority\",\n      \"url\": \"https://www.eba.europa.eu/regulation-and-policy/single-rulebook/interactive-single-rulebook/17716\",\n      \"content\": \"Digital operational resilience Regulation (DORA) | European Banking Authority\\n\\n# Digital operational resilience Regulation (DORA) \\n\\n- CHAPTER I: General provisions \\n\\n- Article 1: Subject matter \\n- Article 2: Scope \\n- Article 3: Definitions \\n- Article 4: Proportionality principle \\n- CHAPTER II: ICT risk management \\n\\n- Section: I \\n\\n- Article 5: Governance and organisation \\n- Section: 2 \\n\\n- Article 6: ICT risk management framework \\n- Article 7: ICT systems, protocols and tools \\n- Article 8: Identification \\n- Article 9: Protection and prevention \\n- Article 10: Detection \\n- Article 11: Response and recovery \\n- Article 12: Backup policies and procedures, restoration and recovery procedures and methods \\n- Article 13: Learning and evolving \\n- Article 14: Communication \\n- Article 15: Further harmonisation of ICT risk management tools, methods, processes and policies \\n- Article 16: Simplified ICT risk management framework \\n- CHAPTER III: ICT-related incident management, classification and reporting \\n\\n- Article 17: ICT-related incident management process \\n- Article 18: Classification of ICT-related incidents and cyber threats \\n- Article 19: Reporting of major ICT-related incidents and voluntary notification of significant cyber threats \\n- Article 20: Harmonisation of reporting content and templates \\n- Article 21: Centralisation of reporting of major ICT-related incidents \\n- Article 22: Supervisory feedback \\n- Article 23: Operational or security payment-related incidents concerning credit institutions, payment institutions, account information service providers, and electronic money institutions \\n- CHAPTER IV: Digital operational resilience testing \\n\\n- Article 24: General requirements for the ",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "7"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "eba.europa.eu",
+      "www.eba.europa.eu"
+    ]
+  }
+}

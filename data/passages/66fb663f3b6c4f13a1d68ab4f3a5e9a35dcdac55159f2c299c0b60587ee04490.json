@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "66fb663f3b6c4f13a1d68ab4f3a5e9a35dcdac55159f2c299c0b60587ee04490",
+  "cachedAt": "2026-10-17T18:08:22Z",
+  "originRunId": "qwen3-39051987553",
+  "sourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+  "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+  "language": "en",
+  "publisher": "European Union",
+  "title": "Regulation (EU) 2022/2554 of the European Parliament and of the Council on digital operational resilience in the financial sector (DORA)",
+  "retrievedAt": "2026-10-17T06:59:32Z",
+  "byteDigest": "sha256:85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c",
+  "textDigest": "sha256:1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786",
+  "sourceId": "6-source-1",
+  "passageId": "p1",
+  "locator": "Recital 21",
+  "quotation": "In order to maintain full control over ICT risk, financial entities need to have comprehensive capabilities to enable a strong and effective ICT risk management, as well as specific mechanisms and policies for handling all ICT-related incidents and for reporting major ICT-related incidents.",
+  "originalText": "horizontal framework establishing a digital oversight authority.\n\n\n\n\n     (21)    In order to maintain full control over ICT risk, financial entities need to have comprehensive capabilities to enable a\n             strong and effective ICT risk management, as well as specific mechanisms and policies for handling all ICT-related\n             incidents and for reporting major ICT-related incidents. Likewise, financial entities should have policies in place for\n             the testing of ICT systems, controls and processes, as well as for managing ICT third-party risk.",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "sourceOriginRunId": "qwen3-38995572810",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "recordedAt": "2026-10-17T18:08:22Z",
+    "webRecheckedThisRun": false,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "European Union",
+    "host": "eur-lex.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

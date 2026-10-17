@@ -3,14 +3,14 @@
   "cachedAt": "2026-10-17T06:59:33Z",
   "originRunId": "qwen3-38995572810",
   "source": {
-    "id": "1-source-4",
+    "id": "8-source-2",
     "type": "guidance",
-    "title": "Article 6: ICT risk management framework",
-    "publisher": "European Banking Authority (EBA)",
+    "title": "Digital operational resilience Regulation (DORA) - Article 11: Response and recovery",
+    "publisher": "European Banking Authority",
     "url": "https://www.eba.europa.eu/regulation-and-policy/single-rulebook/interactive-single-rulebook/17716",
     "language": "en",
     "jurisdiction": "European Union",
-    "applicability": "Official EBA implementation guidance for DORA Article 6 covering risk framework components, documentation requirements and assurance functions",
+    "applicability": "Official EBA guidance implementing Article 11 requirements for ICT business continuity arrangements, crisis management, and recovery procedures for financial entities under DORA.",
     "publicationDate": null,
     "effectiveDate": null,
     "redistribution": "metadata-and-short-passages",
@@ -18,13 +18,13 @@
     "passages": [
       {
         "id": "p1",
-        "locator": "Article 6 title",
-        "text": "Article 6: ICT risk management framework"
+        "locator": "EBA Interactive Rulebook Section",
+        "text": "Article 11: Response and recovery"
       },
       {
         "id": "p2",
-        "locator": "Chapter II Section 2",
-        "text": "Section: 2\n\nArticle 6: ICT risk management framework"
+        "locator": "EBA Interactive Rulebook Section",
+        "text": "Article 24: General requirements for the performance of digital operational resilience testing"
       }
     ],
     "quotationMatchPolicy": "unicode-typography-v1",
@@ -46,10 +46,10 @@
   "language": "en",
   "retrievedAt": "2026-10-17T06:59:33Z",
   "foundIn": {
-    "runId": "qwen3-39027246178",
+    "runId": "qwen3-39051987553",
     "sourceOriginRunId": "qwen3-38995572810",
-    "controllerCommit": "d89be5fa1db8a5d843a884c3c22f6358220c8789",
-    "recordedAt": "2026-10-17T11:20:54Z",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "recordedAt": "2026-10-17T18:18:32Z",
     "webRecheckedThisRun": false,
     "phase": "prepare",
     "frameworkId": "dora",
@@ -63,13 +63,13 @@
       "en"
     ],
     "scopeIds": [
-      "1"
+      "8"
     ],
     "phases": [
       "prepare"
     ],
     "status": "fetched-and-passage-checked",
-    "publisher": "European Banking Authority (EBA)",
+    "publisher": "European Banking Authority",
     "host": "www.eba.europa.eu",
     "frameworkIds": [
       "dora"

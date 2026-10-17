@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "bb386b58d920dd4a99e0c056b836d928229486464089b31b99231462df2c3e3d",
+  "cachedAt": "2026-10-17T18:32:03Z",
+  "observedAt": "2026-10-17T18:32:03Z",
+  "originRunId": "qwen3-39051987553",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-A-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "A",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "site:eur-lex.europa.eu 32022R2554 Regulation (EU) 2022/2554 DORA full text",
+    "time_range": ""
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792261747390,
+    "end": 1792261748754
+  },
+  "outputDigest": "sha256:f36826d54d23622c1a66ed4510f1f605353234e64338634eee34bccf9b316c2c",
+  "resultUrls": [],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"site:eur-lex.europa.eu 32022R2554 Regulation (EU) 2022/2554 DORA full text\",\n  \"results\": [],\n  \"unresponsive_engines\": [\n    [\n      \"brave\",\n      \"Suspended: too many requests\"\n    ],\n    [\n      \"duckduckgo\",\n      \"CAPTCHA\"\n    ],\n    [\n      \"google cse\",\n      \"Suspended: too many requests\"\n    ],\n    [\n      \"wikipedia\",\n      \"HTTP error\"\n    ]\n  ]\n}",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "A"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": []
+  }
+}

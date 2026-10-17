@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "960bdd155cc2d66781688ccb9d15c1e583ee7769e5e873a3ebf0453c99780de6",
+  "cachedAt": "2026-10-17T17:10:06Z",
+  "observedAt": "2026-10-17T17:10:06Z",
+  "originRunId": "qwen3-39051987553",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-0-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "0",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "time_range": "",
+    "query": "site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA full text entity scope proportionality management body simplified framework applicability governance"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792256917698,
+    "end": 1792256918775
+  },
+  "outputDigest": "sha256:3898a1453011a1b2c9a2647aea69ebbcb6677671f5c7ecbd723cc0327a37eaa5",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/",
+    "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng",
+    "https://eur-lex.europa.eu/legal-content/EN/HIS/?uri=oj:JOL_2022_333_R_0001",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+    "https://eur-lex.europa.eu/legal-content/TH/LSU/?uri=celex%3A32022R2554"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA full text entity scope proportionality management body simplified framework applicability governance\",\n  \"results\": [\n    {\n      \"title\": \"Regulation - 2022/2554 - EN - DORA - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng\",\n      \"content\": \"The management body of the financial entity shall define, approve, oversee and be responsible for the implementation of all arrangements related to the ICT risk management framework referred to in Article 6 (1).\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Regulation (EU) 2022/2554 of the European Parliament and of ...\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/TH/LSU/?uri=celex%3A32022R2554\",\n      \"content\": \"Regulation (EU) 2022/2554 lays down uniform rules on the security of network and information systems of financial entities, such as banks, insurance companies and investment firms.\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Publications Office - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554\",\n      \"content\": \"The webpage provides access to the Digital Operational Resilience Act (DORA), a regulation enhancing digital resilience for EU financial entities.\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Regulation - 2022/2554 - EN - DORA - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/HIS/?uri=oj:JOL_2022_333_R_0001\",\n      \"content\": \"COM (2020) 595: Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on digital operational resilience for the financial sector and amending Regulations (EC) No 1060/2009, (EU) No 648/2012, (EU) No 600/2014 and (EU) No 909/2014\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"EUR-Lex — Access to European Union law — choose your language\",\n      \"url\": \"https://eur-l",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "eur-lex.europa.eu"
+    ]
+  }
+}

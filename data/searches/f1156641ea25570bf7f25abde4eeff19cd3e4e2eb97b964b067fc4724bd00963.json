@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "f1156641ea25570bf7f25abde4eeff19cd3e4e2eb97b964b067fc4724bd00963",
+  "cachedAt": "2026-10-17T18:58:24Z",
+  "observedAt": "2026-10-17T18:58:24Z",
+  "originRunId": "qwen3-39051987553",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-E-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "E",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "time_range": "",
+    "query": "site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA Provider contracts subcontracting exit"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792263411661,
+    "end": 1792263412441
+  },
+  "outputDigest": "sha256:260994ddf27f4b3250f0d4fc9f9703c4fcfcde847cd84957883f6a957f576aa8",
+  "resultUrls": [],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA Provider contracts subcontracting exit\",\n  \"results\": [],\n  \"unresponsive_engines\": [\n    [\n      \"brave\",\n      \"Suspended: too many requests\"\n    ],\n    [\n      \"duckduckgo\",\n      \"CAPTCHA\"\n    ],\n    [\n      \"google cse\",\n      \"Suspended: too many requests\"\n    ],\n    [\n      \"wikipedia\",\n      \"HTTP error\"\n    ]\n  ]\n}",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "E"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": []
+  }
+}

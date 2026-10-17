@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "6a970f7cc7ce83831a0633534ea0f18b3c991d820f76cc95974eb645cc084d8c",
+  "cachedAt": "2026-10-17T18:09:37Z",
+  "observedAt": "2026-10-17T18:09:37Z",
+  "originRunId": "qwen3-39051987553",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-7-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "7",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "time_range": "",
+    "query": "site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA incident reporting competent authority notification templates payment incidents"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792260534778,
+    "end": 1792260536617
+  },
+  "outputDigest": "sha256:8438a4a0258b66b3cf9e6f1a4216327694ab0d55e2d35dc3a13cc3858a861825",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng",
+    "https://eur-lex.europa.eu/eli/reg_impl/2025/302/oj/eng/pdf",
+    "https://eur-lex.europa.eu/legal-content/EN/HIS/?uri=oj:JOL_2022_333_R_0001",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+    "https://eur-lex.europa.eu/legal-content/ENG/LSU/?uri=oj:JOL_2022_333_R_0001"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA incident reporting competent authority notification templates payment incidents\",\n  \"results\": [\n    {\n      \"title\": \"Regulation - 2022/2554 - EN - DORA - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng\",\n      \"content\": \"The competent authorities shall consider the application of the proportionality principle by financial entities when reviewing the consistency of the ICT risk management framework on the basis of the reports submitted upon the request of competent authorities pursuant to Article 6 (5) and Article 16 (2).\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Regulation (EU) 2022/2554 of the European Parliament and of ...\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/ENG/LSU/?uri=oj:JOL_2022_333_R_0001\",\n      \"content\": \"Regulation (EU) 2022/2554 lays down uniform rules on the security of network and information systems of financial entities, such as banks, insurance companies and investment firms.\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Regulation - 2022/2554 - EN - DORA - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/HIS/?uri=oj:JOL_2022_333_R_0001\",\n      \"content\": \"COM (2020) 595: Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on digital operational resilience for the financial sector and amending Regulations (EC) No 1060/2009, (EU) No 648/2012, (EU) No 600/2014 and (EU) No 909/2014\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Publications Office - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554\",\n      \"content\": \"Consequently, credit institutions, e-money institutions, payment institutions and account information service providers, as referred to in Article 33(1) of that Directive, should, from the date of application of this Regulation, report pur",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "7"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "eur-lex.europa.eu"
+    ]
+  }
+}

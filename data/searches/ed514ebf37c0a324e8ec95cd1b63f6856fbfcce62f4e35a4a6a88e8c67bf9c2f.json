@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "ed514ebf37c0a324e8ec95cd1b63f6856fbfcce62f4e35a4a6a88e8c67bf9c2f",
+  "cachedAt": "2026-10-17T18:21:17Z",
+  "observedAt": "2026-10-17T18:21:17Z",
+  "originRunId": "qwen3-39051987553",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-9-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "9",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA full text DORA: Backup, restoration and recovery",
+    "time_range": ""
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792261140514,
+    "end": 1792261141382
+  },
+  "outputDigest": "sha256:366a40593c591605dc827688ab01abb2dc17290d72d7eabcc4699b2821053820",
+  "resultUrls": [],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA full text DORA: Backup, restoration and recovery\",\n  \"results\": [],\n  \"unresponsive_engines\": [\n    [\n      \"brave\",\n      \"too many requests\"\n    ],\n    [\n      \"duckduckgo\",\n      \"CAPTCHA\"\n    ],\n    [\n      \"google cse\",\n      \"too many requests\"\n    ],\n    [\n      \"wikipedia\",\n      \"HTTP error\"\n    ]\n  ]\n}",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "9"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": []
+  }
+}

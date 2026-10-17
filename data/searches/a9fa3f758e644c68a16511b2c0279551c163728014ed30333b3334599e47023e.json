@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "a9fa3f758e644c68a16511b2c0279551c163728014ed30333b3334599e47023e",
+  "cachedAt": "2026-10-17T18:25:07Z",
+  "observedAt": "2026-10-17T18:25:07Z",
+  "originRunId": "qwen3-39051987553",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-9-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "9",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "time_range": "",
+    "query": "Regulation (EU) 2022/2554 Article 12 backup restoration recovery"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792261319438,
+    "end": 1792261323840
+  },
+  "outputDigest": "sha256:9de966525162781097e92689e58ddde4787bbe2c1c70f1a76f1c4dceaa046650",
+  "resultUrls": [],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Regulation (EU) 2022/2554 Article 12 backup restoration recovery\",\n  \"results\": [],\n  \"unresponsive_engines\": [\n    [\n      \"brave\",\n      \"Suspended: too many requests\"\n    ],\n    [\n      \"duckduckgo\",\n      \"CAPTCHA\"\n    ],\n    [\n      \"google cse\",\n      \"Suspended: too many requests\"\n    ],\n    [\n      \"wikipedia\",\n      \"HTTP error\"\n    ]\n  ]\n}",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "9"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": []
+  }
+}

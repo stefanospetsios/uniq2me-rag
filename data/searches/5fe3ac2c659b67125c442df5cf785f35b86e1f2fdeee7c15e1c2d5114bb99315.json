@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "5fe3ac2c659b67125c442df5cf785f35b86e1f2fdeee7c15e1c2d5114bb99315",
+  "cachedAt": "2026-10-17T18:32:03Z",
+  "observedAt": "2026-10-17T18:32:03Z",
+  "originRunId": "qwen3-39051987553",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-A-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "A",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "DORA Regulation (EU) 2022/2554 site:eba.europa.eu lessons learned staff training threat intelligence sharing"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792261711567,
+    "end": 1792261712729
+  },
+  "outputDigest": "sha256:a1b846619c366e6502542477a7897c4a3d2a469c9562f1b93cf74fe4480c3450",
+  "resultUrls": [
+    "https://eba.europa.eu/sites/default/files/2024-12/c1454b59-15cc-445e-be14-966e3338cedc/ESA%202024%2035%20DORA%20Dry%20Run%20exercise%20summary%20report%20for%20publication.pdf",
+    "https://www.eba.europa.eu/sites/default/files/document_library/1055296/BSG%202023%2003%20%28BSG%20own%20initiative%20paper%20on%20DORA%29.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"BSG own initiative paper on DORA\",\n      \"url\": \"https://www.eba.europa.eu/sites/default/files/document_library/1055296/BSG%202023%2003%20%28BSG%20own%20initiative%20paper%20on%20DORA%29.pdf\",\n      \"content\": \"BSG own initiative paper \\nBSG 2023 03 \\n5 May 2023 \\n\\n## BSG own initiative paper on DORA\\n\\n#### Main challenges and recommendations\\n\\n### 1. EXECUTIVE SUMMARY\\n\\n1. The BSG welcomes the DORA legislative package which establishes a comprehensive \\nframework on digital operational resilience for EU financial entities by streamlining and \\nstrengthening the existing patchwork of relevant provisions across EU financial services \\nlegislation. \\n2. DORA reflects the key role of information and communication technology (ICT) for the \\nprovision of financial services and the significant economic and systemic risk posed by the \\npotential disruption of critical ICT systems (e.g., due to technical faults, operational error, or \\ncybercrime). It contains a broad range of measures aimed at improving the robustness of \\nfinancial-sector ICT infrastructures, covering both in-house systems and services outsourced \\nto third-party providers (TPPs). \\n3. The ESAs, mostly through the Joint Committee, have been tasked with 16 new mandates to \\nissue technical standards, guidelines and reports within the next twelve to eighteen months. \\n4. The BSG welcomes the introduction of the DORA framework and is looking forward to \\nsupporting the EBA in the exercise of its mandate. \\n5. The objective of the Own Initiative Paper is to provide early advice and recommendations to \\nthe EBA (and to the other ESAs) on the macro challenges that DORA will bring for regulators, \\nfinancial institutions, ICT service providers and consumers. \\n\\n### 2. INTRODUCTION\\n\\n6. The European Commission adopted a Digital Finance Package on 24 September 2020, which includes a proposal for a Regulation on “digital operational resilience for the financial sector” (",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "A"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "eba.europa.eu",
+      "www.eba.europa.eu"
+    ]
+  }
+}

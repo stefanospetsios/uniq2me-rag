@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-scope",
+  "cachedAt": "2026-10-17T18:18:32Z",
+  "scopeId": "8",
+  "fingerprint": "32471629a6b9743c27dda17248d7d03778d6f7952df2d4c7d5f079d857a00b50",
+  "originRunId": "qwen3-39051987553",
+  "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "scope-admitted",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ]
+  },
+  "corpus": {
+    "sources": {
+      "8-source-1": {
+        "type": "law",
+        "title": "Regulation (EU) 2022/2554 of the European Parliament and of the Council on digital operational resilience for the financial sector",
+        "publisher": "European Union",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+        "language": "en",
+        "jurisdiction": "European Union",
+        "applicability": "Applies to financial entities including credit institutions, payment institutions, electronic money institutions, insurance undertakings, and other defined entities under Article 2, covering ICT business continuity and crisis response requirements in Article 11.",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "8-source-1",
+        "byteDigest": "sha256:85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c",
+        "textDigest": "sha256:1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786",
+        "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+        "retrievedAt": "2026-10-17T06:59:32Z",
+        "contentType": "application/pdf",
+        "snapshotPath": "source-85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c.bin",
+        "textPath": "source-1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "cacheReuse": {
+          "originRunId": "qwen3-38995572810",
+          "cacheCommit": null,
+          "reusedAt": "2026-10-17T18:16:32Z",
+          "webRecheckedThisRun": false
+        },
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Recital 26",
+            "text": "testing defence capabilities and business continuity, which contributes to increasing the trust of customers, suppliers and business partners."
+          },
+          {
+            "id": "p2",
+            "locator": "Article 11(f)",
+            "text": "ensure the continuity of critical or important functions, through business continuity plans and response and recovery measures, which include, at least, back-up and restoration measures;"
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "8-source-2": {
+        "type": "guidance",
+        "title": "Digital operational resilience Regulation (DORA) - Article 11: Response and recovery",
+        "publisher": "European Banking Authority",
+        "url": "https://www.eba.europa.eu/regulation-and-policy/single-rulebook/interactive-single-rulebook/17716",
+        "language": "en",
+        "jurisdiction": "European Union",
+        "applicability": "Official EBA guidance implementing Article 11 requirements for ICT business continuity arrangements, crisis management, and recovery procedures for financial entities under DORA.",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "8-source-2",
+        "byteDigest": "sha256:cd12b523b725f1a4db6b20d566702b2fb9f8ffea615be57cf5e1e0242d059788",
+        "textDigest": "sha256:92ca26634eec2648a8d1dc3f33abe2eae9fe0a9cb3f1e317f4736cd114a112a4",
+        "finalUrl": "https://www.eba.europa.eu/regulation-and-policy/single-rulebook/interactive-single-rulebook/17716",
+        "retrievedAt": "2026-10-17T06:59:33Z",
+        "contentType": "text/html; charset=UTF-8",
+        "snapshotPath": "source-cd12b523b725f1a4db6b20d566702b2fb9f8ffea615be57cf5e1e0242d059788.bin",
+        "textPath": "source-92ca26634eec2648a8d1dc3f33abe2eae9fe0a9cb3f1e317f4736cd114a112a4.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "cacheReuse": {
+          "originRunId": "qwen3-38995572810",
+          "cacheCommit": "3914eee0fd0d649f8e79dcdc8fcfcc65d158df13",
+          "reusedAt": "2026-10-17T18:16:32Z",
+          "webRecheckedThisRun": false
+        },
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "EBA Interactive Rulebook Section",
+            "text": "Article 11: Response and recovery"
+          },
+          {
+            "id": "p2",
+            "locator": "EBA Interactive Rulebook Section",
+            "text": "Article 24: General requirements for the performance of digital operational resilience testing"
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      }
+    },
+    "concerns": [
+      {
+        "id": "8-concern-1",
+        "sfsId": "8",
+        "description": "Requirement to establish business continuity arrangements for critical functions covering various disruptive scenarios",
+        "sourceRefs": [
+          {
+            "sourceId": "8-source-1",
+            "passageId": "p2"
+          },
+          {
+            "sourceId": "8-source-2",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "8-concern-2",
+        "sfsId": "8",
+        "description": "Obligation to implement crisis management procedures as part of business continuity arrangements",
+        "sourceRefs": [
+          {
+            "sourceId": "8-source-1",
+            "passageId": "p2"
+          }
+        ]
+      },
+      {
+        "id": "8-concern-3",
+        "sfsId": "8",
+        "description": "Requirement for regular testing of business continuity and response procedures through exercises covering disruptive scenarios",
+        "sourceRefs": [
+          {
+            "sourceId": "8-source-1",
+            "passageId": "p1"
+          },
+          {
+            "sourceId": "8-source-2",
+            "passageId": "p2"
+          }
+        ]
+      },
+      {
+        "id": "8-concern-4",
+        "sfsId": "8",
+        "description": "Need to ensure availability of associated ICT systems during disruptive incidents as part of business continuity arrangements",
+        "sourceRefs": [
+          {
+            "sourceId": "8-source-1",
+            "passageId": "p2"
+          }
+        ]
+      }
+    ],
+    "queries": [
+      {
+        "scope": "8",
+        "toolId": "searxng_web_search",
+        "input": {
+          "safesearch": 1,
+          "time_range": "",
+          "query": "site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA full text DORA: ICT business continuity and crisis response"
+        },
+        "outputDigest": "sha256:25116caadda15af18b2865c8ff25704bd17f7b4e9a97f81effda06bd23e74df2",
+        "callId": "sources-8-1-discovery",
+        "reusedScopeObservation": true
+      },
+      {
+        "scope": "8",
+        "toolId": "websearch_web_search",
+        "input": {
+          "query": "DORA: ICT business continuity and crisis response official implementation guidance site:eba.europa.eu OR site:EIOPA.europa.eu",
+          "max_results": 8
+        },
+        "outputDigest": "sha256:e9ea0918322b311baee4c1185d9bbe77d193f80bd2b2fc44575616774ce32114",
+        "callId": "sources-8-1-discovery",
+        "reusedScopeObservation": true
+      },
+      {
+        "scope": "8",
+        "toolId": "searxng_web_search",
+        "input": {
+          "query": "site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA full text DORA: ICT business continuity and crisis response",
+          "max_results": 5
+        },
+        "outputDigest": "sha256:34d9ee507039b870970110339750026c9ddda58f50d765e7dd239bd701950a72",
+        "callId": "sources-8-2-discovery"
+      },
+      {
+        "scope": "8",
+        "toolId": "websearch_web_search",
+        "input": {
+          "query": "site:eba.europa.eu DORA DORA, Regulation (EU) 2022/2554, ICT business continuity, business impact analysis, crisis management, response plans, continuity exercises",
+          "max_results": 5
+        },
+        "outputDigest": "sha256:30e01638c8d486600265247eb5f3211494b46dd2a7b2eb13bbbfec15338d8f28",
+        "callId": "sources-8-2-discovery"
+      }
+    ],
+    "limitations": [
+      {
+        "scope": "8",
+        "description": "Brave, Google CSE, and Wikipedia engines reported unresponsive during searxng_web_search (too many requests/HTTP error)"
+      },
+      {
+        "scope": "8",
+        "description": "EIOPA document content was truncated in websearch results preventing full assessment of relevance to business continuity scope"
+      },
+      {
+        "scope": "8",
+        "description": "No national implementation documentation observed for Greek jurisdiction as DORA directly applies EU-wide without national transposition"
+      },
+      {
+        "scope": "8",
+        "description": "Business continuity arrangements apply to financial entities regulated under DORA (credit institutions, payment institutions, insurance undertakers, etc.) as specified in Article 2"
+      },
+      {
+        "scope": "8",
+        "description": "Proportionality principle applies: requirements adapt based on entity size, risk profile, and nature/scale of operations per Article 4"
+      },
+      {
+        "scope": "8",
+        "description": "Certain micro-enterprises may qualify for simplified ICT risk management framework per Article 16"
+      },
+      {
+        "scope": "8",
+        "description": "Some source URLs were observed in earlier discovery calls for this same scope; original tool provenance is retained."
+      },
+      {
+        "scope": "8",
+        "description": "Some documents came from prior fetched snapshots with original retrieval dates; their current web contents were not rechecked in this run."
+      }
+    ],
+    "admissionVersion": 2,
+    "observedResultUrls": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+      "https://www.eba.europa.eu/regulation-and-policy/single-rulebook/interactive-single-rulebook/17716"
+    ],
+    "frameworkId": "dora"
+  },
+  "files": {
+    "snapshots/source-85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c.bin": "sha256:85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c",
+    "snapshots/source-1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786.txt": "sha256:1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786",
+    "snapshots/source-cd12b523b725f1a4db6b20d566702b2fb9f8ffea615be57cf5e1e0242d059788.bin": "sha256:cd12b523b725f1a4db6b20d566702b2fb9f8ffea615be57cf5e1e0242d059788",
+    "snapshots/source-92ca26634eec2648a8d1dc3f33abe2eae9fe0a9cb3f1e317f4736cd114a112a4.txt": "sha256:92ca26634eec2648a8d1dc3f33abe2eae9fe0a9cb3f1e317f4736cd114a112a4"
+  }
+}

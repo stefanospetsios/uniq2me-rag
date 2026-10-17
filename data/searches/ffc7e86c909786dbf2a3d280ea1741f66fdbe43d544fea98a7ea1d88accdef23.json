@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "ffc7e86c909786dbf2a3d280ea1741f66fdbe43d544fea98a7ea1d88accdef23",
+  "cachedAt": "2026-10-17T18:42:37Z",
+  "observedAt": "2026-10-17T18:42:37Z",
+  "originRunId": "qwen3-39051987553",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-C-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "C",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "site:eba.europa.eu \"Threat-Led Penetration Testing\" DORA guidance"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792262415450,
+    "end": 1792262416334
+  },
+  "outputDigest": "sha256:d196a02edadf308f634b0a5e628b0a14eade9510dec82a243c738ecea14a5d24",
+  "resultUrls": [
+    "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/joint-regulatory-technical-standards-specifying-elements-related-threat-led-penetration-tests",
+    "https://www.eba.europa.eu/sites/default/files/2024-07/427a52cf-5772-4b69-8eb5-d121c90c470a/JC%202024-29%20-%20Final%20report_DORA%20RTS%20on%20TLPT.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Joint Regulatory Technical Standards specifying elements related to threat led penetration tests | European Banking Authority\",\n      \"url\": \"https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/joint-regulatory-technical-standards-specifying-elements-related-threat-led-penetration-tests\",\n      \"content\": \"Joint Regulatory Technical Standards specifying elements related to threat led penetration tests | European Banking Authority\\n\\n# Joint Regulatory Technical Standards specifying elements related to threat led penetration tests \\n\\n- Status: Final draft RTS/ITS adopted by the EBA and submitted to the European Commission\\n\\nThese Regulatory Technical Standards (RTS) specify further:\\n\\n- the criteria used for identifying financial entities required to perform threat-led penetration testing (TLPT),\\n- the requirements and standards governing the use of internal testers,\\n- the requirements in relation to scope, testing methodology and approach for each phase of the testing, results, closure and remediation stages, and\\n- the type of supervisory and other relevant cooperation needed for the implementation of TLPT and for the facilitation of mutual recognition.\\n\\n### Summary of document history\\n\\n## Joint draft Regulatory Technical Standards specifying elements related to threat led penetration tests\\n\\n- Status: In force\\n- Application date: 08/07/2025 \\n- Compliance deadline: \\n\\n###### Joint Regulatory Technical Standards specifying elements related to threat led penetration tests\\n\\n (2.81 MB - PDF) \\n\\nThe three European Supervisory Authorities (EBA, EIOPA and ESMA – the ESAs) published today the second batch of policy products under the Digital Operational Resilience Act (DORA). This batch consists of four final draft regulatory technical standards (RTS), one set of Implementing Technical Standards (ITS) and 2 guidelines , all of which aim at enhancing the digital operational ",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "C"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "www.eba.europa.eu"
+    ]
+  }
+}

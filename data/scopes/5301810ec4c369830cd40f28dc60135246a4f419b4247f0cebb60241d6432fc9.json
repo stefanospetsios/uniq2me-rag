@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-scope",
+  "cachedAt": "2026-10-17T18:08:22Z",
+  "scopeId": "6",
+  "fingerprint": "5301810ec4c369830cd40f28dc60135246a4f419b4247f0cebb60241d6432fc9",
+  "originRunId": "qwen3-39051987553",
+  "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "scope-admitted",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ]
+  },
+  "corpus": {
+    "sources": {
+      "6-source-1": {
+        "type": "law",
+        "title": "Regulation (EU) 2022/2554 of the European Parliament and of the Council on digital operational resilience in the financial sector (DORA)",
+        "publisher": "European Union",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+        "language": "en",
+        "jurisdiction": "European Union",
+        "applicability": "Applies to all financial entities within the EU as defined in Article 2(1-33); establishes binding requirements for ICT incident management and classification in Articles 17 and 18",
+        "publicationDate": "2022-12-27",
+        "effectiveDate": "2023-01-13",
+        "redistribution": "metadata-and-short-passages",
+        "id": "6-source-1",
+        "byteDigest": "sha256:85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c",
+        "textDigest": "sha256:1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786",
+        "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+        "retrievedAt": "2026-10-17T06:59:32Z",
+        "contentType": "application/pdf",
+        "snapshotPath": "source-85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c.bin",
+        "textPath": "source-1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "cacheReuse": {
+          "originRunId": "qwen3-38995572810",
+          "cacheCommit": "3914eee0fd0d649f8e79dcdc8fcfcc65d158df13",
+          "reusedAt": "2026-10-17T18:05:18Z",
+          "webRecheckedThisRun": false
+        },
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Recital 21",
+            "text": "In order to maintain full control over ICT risk, financial entities need to have comprehensive capabilities to enable a strong and effective ICT risk management, as well as specific mechanisms and policies for handling all ICT-related incidents and for reporting major ICT-related incidents."
+          },
+          {
+            "id": "p2",
+            "locator": "Article 18(1)",
+            "text": "Financial entities shall classify ICT-related incidents and shall determine their impact based on the following criteria:"
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "6-source-2": {
+        "type": "guidance",
+        "title": "Regulatory Technical Standards on criteria for the classification of ICT-related incidents",
+        "publisher": "European Banking Authority",
+        "url": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/regulatory-technical-standards-criteria-classification-ict-related-incidents",
+        "language": "en",
+        "jurisdiction": "European Union",
+        "applicability": "Official EBA technical guidance implementing RTS 2024/1772, providing operational definitions, materiality thresholds, and classification workflows for credit institutions and payment service providers",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "6-source-2",
+        "byteDigest": "sha256:48a8e5ec0a95641c74add955d2e759e3ea46b25eddc3da991d2273fd6886ecab",
+        "textDigest": "sha256:48c6d7ec45fdbdb486662f3bacaf70feaa22a5978b406de3b831c176d938a90c",
+        "finalUrl": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/regulatory-technical-standards-criteria-classification-ict-related-incidents",
+        "retrievedAt": "2026-10-17T18:03:34Z",
+        "contentType": "text/html; charset=UTF-8",
+        "snapshotPath": "source-48a8e5ec0a95641c74add955d2e759e3ea46b25eddc3da991d2273fd6886ecab.bin",
+        "textPath": "source-48c6d7ec45fdbdb486662f3bacaf70feaa22a5978b406de3b831c176d938a90c.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "cacheReuse": {
+          "originRunId": "qwen3-39051987553",
+          "cacheCommit": null,
+          "reusedAt": "2026-10-17T18:05:18Z",
+          "webRecheckedThisRun": true
+        },
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Executive Summary",
+            "text": "These Regulatory Technical Standards specify the criteria for the classification of major ICT-related incidents, the approach for the classification of major incidents, the materiality thresholds of each classification criterion, the criteria and materiality thresholds for determining significant cyber threats, the criteria for competent authorities to assess the relevance of incidents to competent authorities in other Member States and the details of the incidents to be shared in this regard."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      }
+    },
+    "concerns": [
+      {
+        "id": "6-concern-1",
+        "sfsId": "6",
+        "description": "Requirement to establish documented ICT incident handling policies covering ownership, tracking, and response procedures for incidents affecting critical functions",
+        "sourceRefs": [
+          {
+            "sourceId": "6-source-1",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "6-concern-2",
+        "sfsId": "6",
+        "description": "Requirement to classify ICT incidents using standardized criteria and materiality thresholds distinguishing ordinary incidents, major incidents, and significant cyber threats",
+        "sourceRefs": [
+          {
+            "sourceId": "6-source-1",
+            "passageId": "p2"
+          },
+          {
+            "sourceId": "6-source-2",
+            "passageId": "p1"
+          }
+        ]
+      }
+    ],
+    "queries": [
+      {
+        "scope": "6",
+        "toolId": "searxng_web_search",
+        "input": {
+          "query": "site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA Incident management and classification ICT incident classification major incidents significant cyber threats root cause",
+          "max_results": 5,
+          "safesearch": 1,
+          "time_range": ""
+        },
+        "outputDigest": "sha256:4364b08119b17425a2f5efc2fdb3dd89edec2ace68ae934c2f8a96e541e20e2a",
+        "callId": "sources-6-1-discovery",
+        "reusedScopeObservation": true
+      },
+      {
+        "scope": "6",
+        "toolId": "websearch_web_search",
+        "input": {
+          "query": "DORA Regulation (EU) 2022/2554 Incident management classification ICT incident ICT-related incidents major incidents significant cyber threats root cause site:eba.europa.eu",
+          "max_results": 5
+        },
+        "outputDigest": "sha256:ec020eeb888eb7e1eaff85f6fbd0422506a1b0666e957ac7904a9ee237893c67",
+        "callId": "sources-6-1-discovery",
+        "reusedScopeObservation": true
+      },
+      {
+        "scope": "6",
+        "toolId": "searxng_web_search",
+        "input": {
+          "max_results": 5,
+          "safesearch": 0,
+          "time_range": "",
+          "query": "site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA full text DORA: Incident management and classification"
+        },
+        "outputDigest": "sha256:8e7b3d4427866ba49ea81897fdb8072b9038ff607137d53e579fd5c63085d542",
+        "callId": "sources-6-2-discovery"
+      },
+      {
+        "scope": "6",
+        "toolId": "websearch_web_search",
+        "input": {
+          "query": "DORA: Incident management and classification DORA official implementation guidance",
+          "max_results": 5
+        },
+        "outputDigest": "sha256:fa9891c9581c3dea53ae4617c97e859b9d5fe6a512f12b12f2184d3a7a5c1dbd",
+        "callId": "sources-6-2-discovery"
+      }
+    ],
+    "limitations": [
+      {
+        "scope": "6",
+        "description": "Both searxng_web_search and websearch_web_search executed successfully; CELEX-based URLs confirmed to resolve without bot challenges"
+      },
+      {
+        "scope": "6",
+        "description": "Unresponsive search engines persist: brave (too many requests), google cse (too many requests), wikipedia (HTTP error)"
+      },
+      {
+        "scope": "6",
+        "description": "EBA guidance documents lack explicit publication dates but remain current via authoritative URLs verified through search MCPs"
+      },
+      {
+        "scope": "6",
+        "description": "Excluded optional discovery candidate: Source URL was not observed in search results: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32024R1772"
+      },
+      {
+        "scope": "6",
+        "description": "EBA guidance documents lack explicit publication dates but remain current via authoritative URLs"
+      },
+      {
+        "scope": "6",
+        "description": "Classification thresholds reference RTS 2024/1772 which is implemented but not the primary law"
+      },
+      {
+        "scope": "6",
+        "description": "Excluded optional fetched source 6-source-3 (https://www.eba.europa.eu/regulation-and-policy/single-rulebook/interactive-single-rulebook/17716): Source only contains regulatory article listing without substantive content; necessary evidence provided by 6-source-1 and 6-source-2"
+      },
+      {
+        "scope": "6",
+        "description": "Some source URLs were observed in earlier discovery calls for this same scope; original tool provenance is retained."
+      },
+      {
+        "scope": "6",
+        "description": "Some documents came from prior fetched snapshots with original retrieval dates; their current web contents were not rechecked in this run."
+      }
+    ],
+    "admissionVersion": 2,
+    "observedResultUrls": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+      "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/regulatory-technical-standards-criteria-classification-ict-related-incidents"
+    ],
+    "frameworkId": "dora"
+  },
+  "files": {
+    "snapshots/source-85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c.bin": "sha256:85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c",
+    "snapshots/source-1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786.txt": "sha256:1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786",
+    "snapshots/source-48a8e5ec0a95641c74add955d2e759e3ea46b25eddc3da991d2273fd6886ecab.bin": "sha256:48a8e5ec0a95641c74add955d2e759e3ea46b25eddc3da991d2273fd6886ecab",
+    "snapshots/source-48c6d7ec45fdbdb486662f3bacaf70feaa22a5978b406de3b831c176d938a90c.txt": "sha256:48c6d7ec45fdbdb486662f3bacaf70feaa22a5978b406de3b831c176d938a90c"
+  }
+}

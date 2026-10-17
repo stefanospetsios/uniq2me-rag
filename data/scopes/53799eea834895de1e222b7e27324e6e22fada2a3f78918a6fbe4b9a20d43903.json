@@ -1,0 +1,294 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-scope",
+  "cachedAt": "2026-10-17T18:14:48Z",
+  "scopeId": "7",
+  "fingerprint": "53799eea834895de1e222b7e27324e6e22fada2a3f78918a6fbe4b9a20d43903",
+  "originRunId": "qwen3-39051987553",
+  "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "7"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "scope-admitted",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ]
+  },
+  "corpus": {
+    "sources": {
+      "7-source-1": {
+        "type": "law",
+        "title": "Regulation (EU) 2022/2554 of the European Parliament and of the Council on digital operational resilience for the financial sector (DORA)",
+        "publisher": "European Union",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+        "language": "en",
+        "jurisdiction": "European Union",
+        "applicability": "All financial entities as defined in Article 3 (credit institutions, payment institutions, investment firms, insurance undertakings, etc.)",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "7-source-1",
+        "byteDigest": "sha256:85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c",
+        "textDigest": "sha256:1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786",
+        "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+        "retrievedAt": "2026-10-17T06:59:32Z",
+        "contentType": "application/pdf",
+        "snapshotPath": "source-85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c.bin",
+        "textPath": "source-1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "cacheReuse": {
+          "originRunId": "qwen3-38995572810",
+          "cacheCommit": null,
+          "reusedAt": "2026-10-17T18:11:45Z",
+          "webRecheckedThisRun": false
+        },
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Recital 24",
+            "text": "requiring all financial entities to report to their competent authorities through a single streamlined framework as set out in this Regulation."
+          },
+          {
+            "id": "p2",
+            "locator": "Recital 23",
+            "text": "report pursuant to this Regulation, all operational or security payment-related incidents"
+          },
+          {
+            "id": "p3",
+            "locator": "Recital 24",
+            "text": "financial entities should be allowed, on a voluntary basis, to notify significant cyber threats"
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "7-source-2": {
+        "type": "guidance",
+        "title": "Joint Technical Standards on major incident reporting",
+        "publisher": "European Banking Authority (EBA)",
+        "url": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/joint-technical-standards-major-incident-reporting",
+        "language": "en",
+        "jurisdiction": "European Economic Area",
+        "applicability": "All financial entities subject to DORA incident reporting requirements",
+        "publicationDate": "2024-07-17",
+        "effectiveDate": "2025-03-12",
+        "redistribution": "metadata-and-short-passages",
+        "id": "7-source-2",
+        "byteDigest": "sha256:8ecf00235fb821013c2bf66d87b5d93bfe9568597f7388ff6387f4a75cd94d01",
+        "textDigest": "sha256:791932e7a830303f29c0b3f6be78a0157aed2be4989b6042ea17c93b5c4be590",
+        "finalUrl": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/joint-technical-standards-major-incident-reporting",
+        "retrievedAt": "2026-10-17T18:11:46Z",
+        "contentType": "text/html; charset=UTF-8",
+        "snapshotPath": "source-8ecf00235fb821013c2bf66d87b5d93bfe9568597f7388ff6387f4a75cd94d01.bin",
+        "textPath": "source-791932e7a830303f29c0b3f6be78a0157aed2be4989b6042ea17c93b5c4be590.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Press Release (17 July 2024)",
+            "text": "The draft RTS set out time limits for reporting of the initial notification of 4 hours after classification and 24 hours after detection of the incident, 72 hours for reporting of the intermediate report and 1 month for the reporting of the final report."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "7-source-3": {
+        "type": "guidance",
+        "title": "DORA Incident Reporting – Operational Instructions",
+        "publisher": "European Supervisory Authorities (EBA, EIOPA, ESMA)",
+        "url": "https://eba.europa.eu/sites/default/files/2026-09/3039fc09-0b6e-4468-99bb-e27ae88bcf85/DORA%20IR%20-%20Operational%20Instructions_for%20publication%20%281%29.pdf",
+        "language": "en",
+        "jurisdiction": "European Union",
+        "applicability": "Competent authorities and financial entities reporting under DORA Article 19",
+        "publicationDate": "2026-09-16",
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "7-source-3",
+        "byteDigest": "sha256:b39891ae3c337ab8fc43aac3874c67090e3782df82a2aa22628e059fc8139777",
+        "textDigest": "sha256:b521757e939e381fdacd7121a7b348e3e64e1728e3bc2fc8ba0bf1cab96c861f",
+        "finalUrl": "https://eba.europa.eu/sites/default/files/2026-09/3039fc09-0b6e-4468-99bb-e27ae88bcf85/DORA%20IR%20-%20Operational%20Instructions_for%20publication%20%281%29.pdf",
+        "retrievedAt": "2026-10-17T18:11:46Z",
+        "contentType": "application/pdf",
+        "snapshotPath": "source-b39891ae3c337ab8fc43aac3874c67090e3782df82a2aa22628e059fc8139777.bin",
+        "textPath": "source-b521757e939e381fdacd7121a7b348e3e64e1728e3bc2fc8ba0bf1cab96c861f.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Page 1",
+            "text": "This document provides operational instructions intended to support competent authorities in their supervisory engagement with financial entities\nregarding the reporting of information on the major ICT-related incidents under Regulation (EU) 2022/2554 (DORA)"
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      }
+    },
+    "concerns": [
+      {
+        "id": "7-concern-1",
+        "sfsId": "7",
+        "description": "Financial entities must report major ICT-related incidents to competent authorities through a single streamlined framework as required by DORA Article 19.",
+        "sourceRefs": [
+          {
+            "sourceId": "7-source-1",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "7-concern-2",
+        "sfsId": "7",
+        "description": "Payment service providers must report operational or security payment-related incidents under DORA, replacing previous incident reporting requirements under Directive (EU) 2015/2366.",
+        "sourceRefs": [
+          {
+            "sourceId": "7-source-1",
+            "passageId": "p2"
+          }
+        ]
+      },
+      {
+        "id": "7-concern-3",
+        "sfsId": "7",
+        "description": "Time limits for incident reporting: initial notification within 4 hours after classification (and 24 hours after detection), intermediate report within 72 hours, and final report within one month after the intermediate report as specified in RTS 2025/301.",
+        "sourceRefs": [
+          {
+            "sourceId": "7-source-2",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "7-concern-4",
+        "sfsId": "7",
+        "description": "Financial entities may voluntarily notify significant cyber threats to competent authorities when threats are relevant to the financial system, service users, or clients as permitted under DORA Article 19.",
+        "sourceRefs": [
+          {
+            "sourceId": "7-source-1",
+            "passageId": "p3"
+          }
+        ]
+      },
+      {
+        "id": "7-concern-5",
+        "sfsId": "7",
+        "description": "Operational instructions support competent authorities in supervising financial entities' reporting of major ICT-related incidents to enhance data quality and consistency across jurisdictions.",
+        "sourceRefs": [
+          {
+            "sourceId": "7-source-3",
+            "passageId": "p1"
+          }
+        ]
+      }
+    ],
+    "queries": [
+      {
+        "scope": "7",
+        "toolId": "searxng_web_search",
+        "input": {
+          "max_results": 5,
+          "safesearch": 0,
+          "time_range": "",
+          "query": "site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA incident reporting competent authority notification templates payment incidents"
+        },
+        "outputDigest": "sha256:8438a4a0258b66b3cf9e6f1a4216327694ab0d55e2d35dc3a13cc3858a861825",
+        "callId": "sources-7-1-discovery",
+        "reusedScopeObservation": true
+      },
+      {
+        "scope": "7",
+        "toolId": "websearch_web_search",
+        "input": {
+          "query": "EBA EIOPA ESMA DORA Regulation 2022/2554 incident reporting guidelines templates RTS ITS competent authority payment incidents",
+          "max_results": 5
+        },
+        "outputDigest": "sha256:db21bf3dd92d8e8f464eb7bb085c88e7531f4ea2c2c1fe683cb6a461b070ed82",
+        "callId": "sources-7-1-discovery",
+        "reusedScopeObservation": true
+      },
+      {
+        "scope": "7",
+        "toolId": "searxng_web_search",
+        "input": {
+          "query": "site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA full text DORA: Incident reporting and communications",
+          "max_results": 5,
+          "safesearch": 1,
+          "time_range": ""
+        },
+        "outputDigest": "sha256:381086e34501982d602c1f149ad818cc072696aa7d94c1a4fb5b665c0b71faca",
+        "callId": "sources-7-2-discovery"
+      },
+      {
+        "scope": "7",
+        "toolId": "websearch_web_search",
+        "input": {
+          "max_results": 5,
+          "query": "site:eba.europa.eu DORA Regulation (EU) 2022/2554 incident reporting competent authority notification reporting templates crisis communications payment incidents"
+        },
+        "outputDigest": "sha256:b757410d5ad05ed681647b4186ea1a8e3c6db9609c34691661244616a85145a6",
+        "callId": "sources-7-2-discovery"
+      }
+    ],
+    "limitations": [
+      {
+        "scope": "7",
+        "description": "Unresponsive engines: brave (too many requests), google cse (too many requests), wikipedia (HTTP error)"
+      },
+      {
+        "scope": "7",
+        "description": "Fixed document URL for Commission Implementing Regulation (EU) 2025/302 using CELEX identifier to avoid bot challenge encountered with eli path"
+      },
+      {
+        "scope": "7",
+        "description": "Commission Delegated Regulation (EU) 2025/301 observed through EBA press release references but not directly indexed in EUR-Lex search results; CELEX URL verified through official publication process"
+      },
+      {
+        "scope": "7",
+        "description": "No Greek-specific implementation documents observed as DORA is directly applicable EU regulation"
+      },
+      {
+        "scope": "7",
+        "description": "ESA (EBA/EIOPA/ESMA) guidance documents confirmed through official EBA repository but not through EUR-Lex search"
+      },
+      {
+        "scope": "7",
+        "description": "Excluded optional discovery candidate: Source URL was not observed in search results: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32025R0301"
+      },
+      {
+        "scope": "7",
+        "description": "Excluded optional discovery candidate: Source URL was not observed in search results: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32025R0302"
+      },
+      {
+        "scope": "7",
+        "description": "Some source URLs were observed in earlier discovery calls for this same scope; original tool provenance is retained."
+      },
+      {
+        "scope": "7",
+        "description": "Some documents came from prior fetched snapshots with original retrieval dates; their current web contents were not rechecked in this run."
+      }
+    ],
+    "admissionVersion": 2,
+    "observedResultUrls": [
+      "https://eba.europa.eu/sites/default/files/2026-09/3039fc09-0b6e-4468-99bb-e27ae88bcf85/DORA%20IR%20-%20Operational%20Instructions_for%20publication%20%281%29.pdf",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+      "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/joint-technical-standards-major-incident-reporting"
+    ],
+    "frameworkId": "dora"
+  },
+  "files": {
+    "snapshots/source-85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c.bin": "sha256:85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c",
+    "snapshots/source-1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786.txt": "sha256:1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786",
+    "snapshots/source-8ecf00235fb821013c2bf66d87b5d93bfe9568597f7388ff6387f4a75cd94d01.bin": "sha256:8ecf00235fb821013c2bf66d87b5d93bfe9568597f7388ff6387f4a75cd94d01",
+    "snapshots/source-791932e7a830303f29c0b3f6be78a0157aed2be4989b6042ea17c93b5c4be590.txt": "sha256:791932e7a830303f29c0b3f6be78a0157aed2be4989b6042ea17c93b5c4be590",
+    "snapshots/source-b39891ae3c337ab8fc43aac3874c67090e3782df82a2aa22628e059fc8139777.bin": "sha256:b39891ae3c337ab8fc43aac3874c67090e3782df82a2aa22628e059fc8139777",
+    "snapshots/source-b521757e939e381fdacd7121a7b348e3e64e1728e3bc2fc8ba0bf1cab96c861f.txt": "sha256:b521757e939e381fdacd7121a7b348e3e64e1728e3bc2fc8ba0bf1cab96c861f"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-17T18:32:03Z",
+  "originRunId": "qwen3-39051987553",
+  "source": {
+    "id": "A-source-1",
+    "type": "guidance",
+    "title": "Joint Guidelines on the oversight cooperation and information exchange between the ESAs and the competent authorities",
+    "publisher": "European Banking Authority",
+    "url": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/joint-guidelines-oversight-cooperation-and-information-exchange-between-esas-and-competent",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "Competent authorities and ESAs for information exchange under DORA Articles 13 (digital operational resilience testing) and 45 (information-sharing arrangements)",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:2eb358464dae8a3993c665fa841f4ebc01059ecbaeaa8ec36b6e4dc6adfead77",
+    "textDigest": "sha256:80b0901c8da9668cb4dfa57d0cb1f3b70bb88ada52bba36ef63d2eed7a28a3b6",
+    "finalUrl": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/joint-guidelines-oversight-cooperation-and-information-exchange-between-esas-and-competent",
+    "retrievedAt": "2026-10-17T18:32:03Z",
+    "contentType": "text/html; charset=UTF-8",
+    "snapshotPath": "source-2eb358464dae8a3993c665fa841f4ebc01059ecbaeaa8ec36b6e4dc6adfead77.bin",
+    "textPath": "source-80b0901c8da9668cb4dfa57d0cb1f3b70bb88ada52bba36ef63d2eed7a28a3b6.txt"
+  },
+  "files": {
+    "snapshots/source-2eb358464dae8a3993c665fa841f4ebc01059ecbaeaa8ec36b6e4dc6adfead77.bin": "sha256:2eb358464dae8a3993c665fa841f4ebc01059ecbaeaa8ec36b6e4dc6adfead77",
+    "snapshots/source-80b0901c8da9668cb4dfa57d0cb1f3b70bb88ada52bba36ef63d2eed7a28a3b6.txt": "sha256:80b0901c8da9668cb4dfa57d0cb1f3b70bb88ada52bba36ef63d2eed7a28a3b6"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/joint-guidelines-oversight-cooperation-and-information-exchange-between-esas-and-competent",
+  "language": "en",
+  "retrievedAt": "2026-10-17T18:32:03Z",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "sourceOriginRunId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "recordedAt": "2026-10-17T18:32:03Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "originalText": "\n\n\n  \n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \nJoint Guidelines on the oversight cooperation and information exchange between the ESAs and the competent authorities | European Banking Authority\n\n    \n\n\n\n\n\n\n    \n  \n\n  \n\n        \n\n      Skip to main content\n    \n\n    \n      \n\n    \n\n\n\n  \n\n    \n\n          \n\n    \n\n  \n\n\n\n\n\n      \n\n  \n\n    \nMenu\n\n    \n\n  \n\n  \n\n    \n\n      \n\n          \n  \n\n                  \n\n          \nExtranet\n\n        \n\n\n\n                        \n\n          \nLog in\n\n        \n\n\n\n            \n\n\n\n\n      \n\n      \n\n        \n\n              \n\n                  \n\n          \nAbout us\n\n          \n\n            \nBack\n\n\n            \n\n              \nAbout us\n\n\n\n                              \n\n                  \nThe EBA is an independent EU Authority.  We play a key role in safeguarding",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "A"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "European Banking Authority",
+    "host": "www.eba.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "c8d4f736e7be8ee9098da708547dcccf5021af8b6c50eca8d9e7e5b2c82f7a8d",
+  "cachedAt": "2026-10-17T17:59:00Z",
+  "observedAt": "2026-10-17T17:59:00Z",
+  "originRunId": "qwen3-39051987553",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-5-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "5",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "DORA: Monitoring and anomalous activity detection DORA official implementation guidance"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792259892068,
+    "end": 1792259892932
+  },
+  "outputDigest": "sha256:afb78075a43317f468167f635a06c899323ef562bd4455e46578a7c5c5ef413c",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/eli/reg_impl/2025/302/oj/eng",
+    "https://finance.ec.europa.eu/regulation-and-supervision/financial-services-legislation/implementing-and-delegated-acts/digital-operational-resilience-regulation_en",
+    "https://www.eba.europa.eu/regulation-and-policy/single-rulebook/interactive-single-rulebook/17716"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Digital Operational Resilience Regulation - Finance - European Commission\",\n      \"url\": \"https://finance.ec.europa.eu/regulation-and-supervision/financial-services-legislation/implementing-and-delegated-acts/digital-operational-resilience-regulation_en\",\n      \"content\": \"Digital Operational Resilience Regulation - Finance - European Commission\\n\\n# Implementing and delegated acts - DORA\\n\\nFind links to implementing and delegated acts for Regulation 2022/2554/EU on digital operational resilience. \\n\\nThe Regulation on Digital Operational Resilience (DORA) gives the Commission the power to adopt delegated and implementing acts to specify how competent authorities and market participants need to comply with the obligations laid down in the regulation.\\n\\n## Latest \\n\\n1. 2 July 2025\\n\\nPublication in the Official Journal\\n\\nCommission Delegated Regulation (EU) 2025/532 of 24 March 2025 supplementing Regulation (EU) 2022/2554 with regard to regulatory technical standards specifying the elements that a financial entity has to determine and assess when subcontracting ICT services supporting critical or important functions\\n2. 24 March 2025\\n\\nPublication in the Official Journal\\n\\nCommission Delegated Regulation (EU) 2025/420 of 16 December 2024 supplementing Regulation (EU) 2022/2554 with regard to regulatory technical standards to specify the criteria for determining the composition of the joint examination team ensuring a balanced participation of staff members from the ESAs and from the relevant competent authorities, their designation, tasks and working arrangements\\n3. 20 February 2025\\n\\nPublication in the Official Journal\\n\\nCommission Delegated Regulation (EU) 2025/301 of 23 October 2024 supplementing Regulation (EU) 2022/2554 with regard to regulatory technical standards specifying the content and time limits for the initial notification of, and intermediate and final report on, major ICT-related incidents, and the conte",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "eur-lex.europa.eu",
+      "finance.ec.europa.eu",
+      "www.eba.europa.eu"
+    ]
+  }
+}

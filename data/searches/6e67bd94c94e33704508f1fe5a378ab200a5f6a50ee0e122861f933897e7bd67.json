@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "6e67bd94c94e33704508f1fe5a378ab200a5f6a50ee0e122861f933897e7bd67",
+  "cachedAt": "2026-10-17T17:44:49Z",
+  "observedAt": "2026-10-17T17:44:49Z",
+  "originRunId": "qwen3-39051987553",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-3-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "3",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA full text Protection access data security"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792259062034,
+    "end": 1792259063625
+  },
+  "outputDigest": "sha256:cce67e1e0ad8f01f96b43b83c3f7e3bf8eda2a267a347ca4c97d1e7a9f042764",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/legal-content/En/TXT/?uri=CELEX%3A32022R2554"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Regulation - 2022/2554 - EN - DORA - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/En/TXT/?uri=CELEX%3A32022R2554\",\n\n...1602293 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_14af6ff42001In1qht0Q4GBozz\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "3"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "eur-lex.europa.eu"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "1e1594a4789be621cb6b282d2f0ae985d6ece6bfafe5b48f086123200ae7582c",
+  "cachedAt": "2026-10-17T18:05:18Z",
+  "observedAt": "2026-10-17T18:05:18Z",
+  "originRunId": "qwen3-39051987553",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-6-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "6",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "DORA: Incident management and classification DORA official implementation guidance"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792260267131,
+    "end": 1792260268024
+  },
+  "outputDigest": "sha256:fa9891c9581c3dea53ae4617c97e859b9d5fe6a512f12b12f2184d3a7a5c1dbd",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/eli/reg_impl/2025/302/oj/eng",
+    "https://finance.ec.europa.eu/regulation-and-supervision/financial-services-legislation/implementing-and-delegated-acts/digital-operational-resilience-regulation_en"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Digital Operational Resilience Regulation - Finance - European Commission\",\n      \"url\": \"https://finance.ec.europa.eu/regulation-and-supervision/financial-services-legislation/implementing-and-delegated-acts/digital-operational-resilience-regulation_en\",\n      \"content\": \"Digital Operational Resilience Regulation - Finance - European Commission\\n\\n# Implementing and delegated acts - DORA\\n\\nFind links to implementing and delegated acts for Regulation 2022/2554/EU on digital operational resilience. \\n\\nThe Regulation on Digital Operational Resilience (DORA) gives the Commission the power to adopt delegated and implementing acts to specify how competent authorities and market participants need to comply with the obligations laid down in the regulation.\\n\\n## Latest \\n\\n1. 2 July 2025\\n\\nPublication in the Official Journal\\n\\nCommission Delegated Regulation (EU) 2025/532 of 24 March 2025 supplementing Regulation (EU) 2022/2554 with regard to regulatory technical standards specifying the elements that a financial entity has to determine and assess when subcontracting ICT services supporting critical or important functions\\n2. 24 March 2025\\n\\nPublication in the Official Journal\\n\\nCommission Delegated Regulation (EU) 2025/420 of 16 December 2024 supplementing Regulation (EU) 2022/2554 with regard to regulatory technical standards to specify the criteria for determining the composition of the joint examination team ensuring a balanced participation of staff members from the ESAs and from the relevant competent authorities, their designation, tasks and working arrangements\\n3. 20 February 2025\\n\\nPublication in the Official Journal\\n\\nCommission Delegated Regulation (EU) 2025/301 of 23 October 2024 supplementing Regulation (EU) 2022/2554 with regard to regulatory technical standards specifying the content and time limits for the initial notification of, and intermediate and final report on, major ICT-related incidents, and the conte",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "eur-lex.europa.eu",
+      "finance.ec.europa.eu"
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "e0282bf90a9382946276b05c1b8a0a32e769fece1d4c730fc47f19bb4a3d35e2",
+  "cachedAt": "2026-10-17T18:58:24Z",
+  "observedAt": "2026-10-17T18:58:24Z",
+  "originRunId": "qwen3-39051987553",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-E-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "E",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA Provider contracts subcontracting exit"
+  },
+  "executionStatus": "error",
+  "toolTiming": {
+    "start": 1792263412606,
+    "end": 1792263412952
+  },
+  "outputDigest": "sha256:12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+  "resultUrls": [],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": "Error executing tool web_search: Ollama's web search rate limit was reached. Try again later.",
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "E"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": []
+  }
+}

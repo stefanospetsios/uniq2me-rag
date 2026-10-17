@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "6a23589aad8985d41e4ff8d7d47be62978ee86853e327812c56b274beb85ccda",
+  "cachedAt": "2026-10-17T18:28:15Z",
+  "observedAt": "2026-10-17T18:28:15Z",
+  "originRunId": "qwen3-39051987553",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-A-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "A",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "DORA official implementation guidance for staff readiness and information sharing site:eba.europa.eu site:ecb.europa.eu"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792261527148,
+    "end": 1792261528127
+  },
+  "outputDigest": "sha256:18316250b22cd101e16d78aca1c7e95aead42202ccfe356658e77978b1b088b7",
+  "resultUrls": [
+    "https://www.eba.europa.eu/activities/direct-supervision-and-oversight/digital-operational-resilience-act/preparation-dora-application",
+    "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/joint-guidelines-oversight-cooperation-and-information-exchange-between-esas-and-competent",
+    "https://www.eba.europa.eu/sites/default/files/2024-11/e0701aa1-d1a5-4996-8b30-5a933d15058e/JC%20GL%20on%20oversight%20cooperation_EN%20Final.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Preparations for reporting of DORA registers of information | European Banking Authority\",\n      \"url\": \"https://www.eba.europa.eu/activities/direct-supervision-and-oversight/digital-operational-resilience-act/preparation-dora-application\",\n      \"content\": \"Preparations for reporting of DORA registers of information | European Banking Authority\\n\\n# Preparations for reporting of DORA registers of information \\n\\nThe Digital Operational Resilience Act (DORA) became applicable on 17 January 2025. From that date all financial entities in its scope will need to have a comprehensive register of their contractual arrangements with ICT third-party service providers available at entity, sub-consolidated and consolidated levels. \\n\\nThe registers of information will serve for:\\n\\n- financial entities to monitor their ICT third-party risk,\\n- the EU competent authorities to supervise ICT and third-party risk management at the financial entities and\\n- the ESAs to designate the critical ICT third-party service provides (CTPP) which will be subject to an EU-level oversight.\\n\\nThis page provides a set of resources to help the financial entities to be ready with the preparation and submission of the registers of information to the competent authorities that will provide the collected registers to the ESAs for the purposes of designation of the CTPPs. The resources provided cover both official reporting starting form 2025 and preparatory dry run exercise the ESAs carried out in 2024\\n\\n### PREPARATIONS FOR OFFICIAL REPORTING OF REGISTERS\\n\\n- ESAs Decision on reporting of information for CTPP designation\\n- ITS on the registers of information - Adopted and published in the Official Journal of the EU\\n- Data Model for DORA RoI\\n- Reporting technical package\\n\\n- Validation rules - Please download the file and search for DORA under ‘Frameworks’\\n- Data Point Model Dictionary (updated 21 March 2025)\\n- Data Point Model table layout and data po",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "A"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "www.eba.europa.eu"
+    ]
+  }
+}

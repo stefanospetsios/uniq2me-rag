@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "ed10f140f5a9a4c8f11cc636b629cbd74e758b15a5a92f65041dcc0b28ce3833",
+  "cachedAt": "2026-10-17T17:54:22Z",
+  "observedAt": "2026-10-17T17:54:22Z",
+  "originRunId": "qwen3-39051987553",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-4-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "4",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "32022R2554 site:eur-lex.europa.eu",
+    "time_range": ""
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792259589938,
+    "end": 1792259590813
+  },
+  "outputDigest": "sha256:5fdbea7dcbcfcafa724e2ed6fe61e466abae8104f18d82e4e24a5d4bcd799a7e",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng",
+    "https://eur-lex.europa.eu/eli/reg/2022/2554/oj?locale=de",
+    "https://eur-lex.europa.eu/legal-content/EN/HIS/?uri=oj:JOL_2022_333_R_0001",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+    "https://eur-lex.europa.eu/legal-content/ENG/LSU/?uri=oj:JOL_2022_333_R_0001"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"32022R2554 site:eur-lex.europa.eu\",\n  \"results\": [\n    {\n      \"title\": \"Regulation - 2022/2554 - EN - DORA - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng\",\n      \"content\": \"2. The ICT risk management framework shall include at least strategies, policies, procedures, ICT protocols and tools that are necessary to duly and adequately protect all information assets and ICT assets, including computer software, hardware, servers, as well as to protect all relevant physical components and infrastructures, such as premises, data centres and sensitive designated areas, to ...\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Regulation - 2022/2554 - EN - DORA - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/HIS/?uri=oj:JOL_2022_333_R_0001\",\n      \"content\": \"Completed (Adopted act: 32022R2554) Type: Ordinary legislative procedure (COD) More information about this procedure What is an Ordinary legislative procedure\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Regulation (EU) 2022/2554 of the European Parliament and of ...\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/ENG/LSU/?uri=oj:JOL_2022_333_R_0001\",\n      \"content\": \"Digital operational resilience for the financial sector SUMMARY OF: Regulation (EU) 2022/2554 on digital operational resilience for the financial sector WHAT IS THE AIM OF THE REGULATION? Regulation (EU) 2022/2554 lays down uniform rules on the security of network and information systems of financial entities, such as banks, insurance companies and investment firms. It covers a wide range of ...\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Publications Office - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554\",\n      \"content\": \"The webpage provides access to the Digital Operational Resilience Act (DORA), a regulation enhancing digital resil",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "4"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "eur-lex.europa.eu"
+    ]
+  }
+}

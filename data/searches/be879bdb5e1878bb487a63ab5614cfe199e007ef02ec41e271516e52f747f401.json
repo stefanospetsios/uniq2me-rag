@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "be879bdb5e1878bb487a63ab5614cfe199e007ef02ec41e271516e52f747f401",
+  "cachedAt": "2026-10-17T18:59:57Z",
+  "observedAt": "2026-10-17T18:59:57Z",
+  "originRunId": "qwen3-39051987553",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-F-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "F",
+    "repoId": null
+  },
+  "toolId": "websearch_web_fetch",
+  "request": {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554"
+  },
+  "executionStatus": "error",
+  "toolTiming": {
+    "start": 1792263563258,
+    "end": 1792263563437
+  },
+  "outputDigest": "sha256:12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+  "resultUrls": [],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": "Error executing tool web_fetch: Ollama's web search rate limit was reached. Try again later.",
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "F"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": []
+  }
+}

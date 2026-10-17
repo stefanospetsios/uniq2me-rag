@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "9dd14907125d3342838f90a2841a0cf33c2bb5d9c63463ea3f39f5aa0abdc56d",
+  "cachedAt": "2026-10-17T17:57:54Z",
+  "observedAt": "2026-10-17T17:57:54Z",
+  "originRunId": "qwen3-39051987553",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-5-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "5",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "site:eur-lex.europa.eu Regulation (EU) 2022/2554 Article 10 monitoring detection mechanisms alert thresholds logging anomalous activity ICT incidents",
+    "time_range": ""
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792259772855,
+    "end": 1792259774394
+  },
+  "outputDigest": "sha256:72c040441f644bf4462bd2937b6a976246627f5e47a63f2e0afa1ba8714a5510",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/eli/reg/2022/2554/corrigendum/2025-11-21/oj/eng/pdf",
+    "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng",
+    "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng/pdf",
+    "https://eur-lex.europa.eu/legal-content/DE/LSU/?uri=CELEX:32022R2554",
+    "https://eur-lex.europa.eu/legal-content/EN/HIS/?uri=oj:JOL_2022_333_R_0001",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32025R0302",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=PI_COM:C(2024)1519",
+    "https://eur-lex.europa.eu/legal-content/ENG/LSU/?uri=oj:JOL_2022_333_R_0001"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"site:eur-lex.europa.eu Regulation (EU) 2022/2554 Article 10 monitoring detection mechanisms alert thresholds logging anomalous activity ICT incidents\",\n  \"results\": [\n    {\n      \"title\": \"Regulation - 2022/2554 - EN - DORA - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng\",\n      \"content\": \"Regulation (EU) 2022/2554 of the European Parliament and of the Council of 14 December 2022 on digital operational resilience for the financial sector and amending Regulations (EC) No 1060/2009, (EU) No 648/2012, (EU) No 600/2014, (EU) No 909/2014 and (EU) 2016/1011 (Text with EEA relevance)\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Regulation (EU) 2022/2554 of the European Parliament and of ...\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/ENG/LSU/?uri=oj:JOL_2022_333_R_0001\",\n      \"content\": \"Regulation (EU) 2022/2554 lays down uniform rules on the security of network and information systems of financial entities, such as banks, insurance companies and investment firms.\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Regulation - 2022/2554 - EN - DORA - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/HIS/?uri=oj:JOL_2022_333_R_0001\",\n      \"content\": \"COM (2020) 595: Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on digital operational resilience for the financial sector and amending Regulations (EC) No 1060/2009, (EU) No 648/2012, (EU) No 600/2014 and (EU) No 909/2014\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Publications Office - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng/pdf\",\n      \"content\": \"Financial supervisors should in turn pass on details of major ICT-related incidents to public non- financial authorities (such as competent authorities and single points of contact under Directive (EU) 2022/2555, national data protection authorities, and",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "eur-lex.europa.eu"
+    ]
+  }
+}

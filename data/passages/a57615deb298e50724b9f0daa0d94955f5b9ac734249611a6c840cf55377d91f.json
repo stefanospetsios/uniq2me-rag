@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "a57615deb298e50724b9f0daa0d94955f5b9ac734249611a6c840cf55377d91f",
+  "cachedAt": "2026-10-17T18:08:22Z",
+  "originRunId": "qwen3-39051987553",
+  "sourceUrl": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/regulatory-technical-standards-criteria-classification-ict-related-incidents",
+  "finalUrl": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/regulatory-technical-standards-criteria-classification-ict-related-incidents",
+  "language": "en",
+  "publisher": "European Banking Authority",
+  "title": "Regulatory Technical Standards on criteria for the classification of ICT-related incidents",
+  "retrievedAt": "2026-10-17T18:03:34Z",
+  "byteDigest": "sha256:48a8e5ec0a95641c74add955d2e759e3ea46b25eddc3da991d2273fd6886ecab",
+  "textDigest": "sha256:48c6d7ec45fdbdb486662f3bacaf70feaa22a5978b406de3b831c176d938a90c",
+  "sourceId": "6-source-2",
+  "passageId": "p1",
+  "locator": "Executive Summary",
+  "quotation": "These Regulatory Technical Standards specify the criteria for the classification of major ICT-related incidents, the approach for the classification of major incidents, the materiality thresholds of each classification criterion, the criteria and materiality thresholds for determining significant cyber threats, the criteria for competent authorities to assess the relevance of incidents to competent authorities in other Member States and the details of the incidents to be shared in this regard.",
+  "originalText": "These Regulatory Technical Standards specify the criteria for the classification of major ICT-related incidents, the approach for the classification of major incidents, the materiality thresholds of each classification criterion, the criteria and materiality thresholds for determining significant cyber threats, the criteria for competent authorities to assess the relevance of incidents to competent authorities in other Member States and the details of the incidents to be shared in this regard.",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "sourceOriginRunId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "recordedAt": "2026-10-17T18:08:22Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "European Banking Authority",
+    "host": "www.eba.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

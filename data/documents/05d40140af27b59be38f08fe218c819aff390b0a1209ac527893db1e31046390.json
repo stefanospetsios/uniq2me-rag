@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-17T18:11:46Z",
+  "originRunId": "qwen3-39051987553",
+  "source": {
+    "id": "7-source-2",
+    "type": "guidance",
+    "title": "Joint Technical Standards on major incident reporting",
+    "publisher": "European Banking Authority (EBA)",
+    "url": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/joint-technical-standards-major-incident-reporting",
+    "language": "en",
+    "jurisdiction": "European Economic Area",
+    "applicability": "All financial entities subject to DORA incident reporting requirements",
+    "publicationDate": "2024-07-17",
+    "effectiveDate": "2025-03-12",
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "Press Release (17 July 2024)",
+        "text": "The draft RTS set out time limits for reporting of the initial notification of 4 hours after classification and 24 hours after detection of the incident, 72 hours for reporting of the intermediate report and 1 month for the reporting of the final report."
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:8ecf00235fb821013c2bf66d87b5d93bfe9568597f7388ff6387f4a75cd94d01",
+    "textDigest": "sha256:791932e7a830303f29c0b3f6be78a0157aed2be4989b6042ea17c93b5c4be590",
+    "finalUrl": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/joint-technical-standards-major-incident-reporting",
+    "retrievedAt": "2026-10-17T18:11:46Z",
+    "contentType": "text/html; charset=UTF-8",
+    "snapshotPath": "source-8ecf00235fb821013c2bf66d87b5d93bfe9568597f7388ff6387f4a75cd94d01.bin",
+    "textPath": "source-791932e7a830303f29c0b3f6be78a0157aed2be4989b6042ea17c93b5c4be590.txt"
+  },
+  "files": {
+    "snapshots/source-8ecf00235fb821013c2bf66d87b5d93bfe9568597f7388ff6387f4a75cd94d01.bin": "sha256:8ecf00235fb821013c2bf66d87b5d93bfe9568597f7388ff6387f4a75cd94d01",
+    "snapshots/source-791932e7a830303f29c0b3f6be78a0157aed2be4989b6042ea17c93b5c4be590.txt": "sha256:791932e7a830303f29c0b3f6be78a0157aed2be4989b6042ea17c93b5c4be590"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/joint-technical-standards-major-incident-reporting",
+  "language": "en",
+  "retrievedAt": "2026-10-17T18:11:46Z",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "sourceOriginRunId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "recordedAt": "2026-10-17T18:14:48Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "originalText": "\n\n\n  \n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \nJoint Technical Standards on major incident reporting | European Banking Authority\n\n    \n\n\n\n\n\n\n    \n  \n\n  \n\n        \n\n      Skip to main content\n    \n\n    \n      \n\n    \n\n\n\n  \n\n    \n\n          \n\n    \n\n  \n\n\n\n\n\n      \n\n  \n\n    \nMenu\n\n    \n\n  \n\n  \n\n    \n\n      \n\n          \n  \n\n                  \n\n          \nExtranet\n\n        \n\n\n\n                        \n\n          \nLog in\n\n        \n\n\n\n            \n\n\n\n\n      \n\n      \n\n        \n\n              \n\n                  \n\n          \nAbout us\n\n          \n\n            \nBack\n\n\n            \n\n              \nAbout us\n\n\n\n                              \n\n                  \nThe EBA is an independent EU Authority.  We play a key role in safeguarding the integrity and robustness of the EU banking sector to suppor",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "7"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "European Banking Authority (EBA)",
+    "host": "www.eba.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

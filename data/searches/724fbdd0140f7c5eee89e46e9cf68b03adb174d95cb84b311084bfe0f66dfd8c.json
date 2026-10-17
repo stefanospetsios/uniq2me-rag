@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "724fbdd0140f7c5eee89e46e9cf68b03adb174d95cb84b311084bfe0f66dfd8c",
+  "cachedAt": "2026-10-17T17:54:22Z",
+  "observedAt": "2026-10-17T17:54:22Z",
+  "originRunId": "qwen3-39051987553",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-4-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "4",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "DORA Regulation (EU) 2022/2554 ICT change management secure development vulnerability management patch management ICT lifecycle site:eur-lex.europa.eu"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792259590990,
+    "end": 1792259592109
+  },
+  "outputDigest": "sha256:5b72f7d2a190f1ed566ec8edbc9198b76d3e784ba813ef69f1d6d57c41d2cbdf",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=PI_COM%3AC%282024%291532"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"-\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=PI_COM%3AC%282024%291532\",\n\n...397889 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_14aff0faa001sAbHBxxxioCtkX\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "4"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "eur-lex.europa.eu"
+    ]
+  }
+}

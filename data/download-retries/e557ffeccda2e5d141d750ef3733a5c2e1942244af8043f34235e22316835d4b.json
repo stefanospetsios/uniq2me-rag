@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-download-retry",
+  "id": "e557ffeccda2e5d141d750ef3733a5c2e1942244af8043f34235e22316835d4b",
+  "cachedAt": "2026-10-17T18:03:34Z",
+  "originRunId": "qwen3-39051987553",
+  "sourceUrl": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng",
+  "candidate": {
+    "type": "law",
+    "title": "Digital operational resilience for the financial sector",
+    "publisher": "European Union",
+    "url": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "All financial entities within the EU as defined in Article 2(1-33); establishes mandatory incident management requirements including Articles 17-18 for ICT incident classification",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "id": "6-source-1"
+  },
+  "language": "en",
+  "scopeId": "6",
+  "status": "pending-download",
+  "firstFailedAt": "2026-10-17T18:03:34Z",
+  "firstFailureContext": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "prepare"
+  },
+  "lastAttemptAt": "2026-10-17T18:03:34Z",
+  "attempts": 1,
+  "lastError": "Source document is unavailable or incomplete: JavaScript/bot challenge page; retry the document download",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "prepare"
+  },
+  "retryOnNextRun": true,
+  "originalText": null,
+  "evidenceAdmitted": false,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "pending-download",
+    "publisher": "European Union",
+    "host": "eur-lex.europa.eu"
+  }
+}

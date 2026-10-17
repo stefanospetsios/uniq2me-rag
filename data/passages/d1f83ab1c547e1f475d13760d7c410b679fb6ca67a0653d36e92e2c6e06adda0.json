@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "d1f83ab1c547e1f475d13760d7c410b679fb6ca67a0653d36e92e2c6e06adda0",
+  "cachedAt": "2026-10-17T18:18:32Z",
+  "originRunId": "qwen3-39051987553",
+  "sourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+  "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+  "language": "en",
+  "publisher": "European Union",
+  "title": "Regulation (EU) 2022/2554 of the European Parliament and of the Council on digital operational resilience for the financial sector",
+  "retrievedAt": "2026-10-17T06:59:32Z",
+  "byteDigest": "sha256:85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c",
+  "textDigest": "sha256:1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786",
+  "sourceId": "8-source-1",
+  "passageId": "p2",
+  "locator": "Article 11(f)",
+  "quotation": "ensure the continuity of critical or important functions, through business continuity plans and response and recovery measures, which include, at least, back-up and restoration measures;",
+  "originalText": "key dependencies on ICT third-party service providers;\n\n     (f) ensure the continuity of critical or important functions, through business continuity plans and response and recovery\n         measures, which include, at least, back-up and restoration measures;\n\n     (g) test, on a regular basis, the plans and measures referred to in point (f), as well as the effectiveness of the controls\n         implemented in",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "sourceOriginRunId": "qwen3-38995572810",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "recordedAt": "2026-10-17T18:18:32Z",
+    "webRecheckedThisRun": false,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "European Union",
+    "host": "eur-lex.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

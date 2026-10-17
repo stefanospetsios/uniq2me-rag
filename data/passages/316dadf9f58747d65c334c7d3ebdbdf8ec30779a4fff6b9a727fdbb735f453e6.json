@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "316dadf9f58747d65c334c7d3ebdbdf8ec30779a4fff6b9a727fdbb735f453e6",
+  "cachedAt": "2026-10-17T18:14:48Z",
+  "originRunId": "qwen3-39051987553",
+  "sourceUrl": "https://eba.europa.eu/sites/default/files/2026-09/3039fc09-0b6e-4468-99bb-e27ae88bcf85/DORA%20IR%20-%20Operational%20Instructions_for%20publication%20%281%29.pdf",
+  "finalUrl": "https://eba.europa.eu/sites/default/files/2026-09/3039fc09-0b6e-4468-99bb-e27ae88bcf85/DORA%20IR%20-%20Operational%20Instructions_for%20publication%20%281%29.pdf",
+  "language": "en",
+  "publisher": "European Supervisory Authorities (EBA, EIOPA, ESMA)",
+  "title": "DORA Incident Reporting – Operational Instructions",
+  "retrievedAt": "2026-10-17T18:11:46Z",
+  "byteDigest": "sha256:b39891ae3c337ab8fc43aac3874c67090e3782df82a2aa22628e059fc8139777",
+  "textDigest": "sha256:b521757e939e381fdacd7121a7b348e3e64e1728e3bc2fc8ba0bf1cab96c861f",
+  "sourceId": "7-source-3",
+  "passageId": "p1",
+  "locator": "Page 1",
+  "quotation": "This document provides operational instructions intended to support competent authorities in their supervisory engagement with financial entities\nregarding the reporting of information on the major ICT-related incidents under Regulation (EU) 2022/2554 (DORA)",
+  "originalText": "This document provides operational instructions intended to support competent authorities in their supervisory engagement with financial entities\nregarding the reporting of information on the major ICT-related incidents under Regulation (EU) 2022/2554 (DORA)",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "sourceOriginRunId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "recordedAt": "2026-10-17T18:14:48Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "7"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "European Supervisory Authorities (EBA, EIOPA, ESMA)",
+    "host": "eba.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

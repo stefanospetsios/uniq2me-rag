@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-17T18:42:39Z",
+  "originRunId": "qwen3-39051987553",
+  "source": {
+    "id": "C-source-3",
+    "type": "law",
+    "title": "Regulation (EU) 2022/2554 of the European Parliament and of the Council on digital operational resilience in the financial sector (DORA)",
+    "publisher": "European Union",
+    "url": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "All ICT third-party service providers and financial entities listed in Annex I under scope of DORA",
+    "publicationDate": "2022-12-27",
+    "effectiveDate": "2023-01-13",
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:153b3cab036dd73a4f8567db84ecb2b12afdf5d4b73267788e0b6d8bf70c4ef9",
+    "textDigest": "sha256:b90581d774e8e30365d3c3195914331c41983689853a0403ccd7e46a5f1cc009",
+    "finalUrl": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng",
+    "retrievedAt": "2026-10-17T18:42:39Z",
+    "contentType": "text/html; charset=UTF-8",
+    "snapshotPath": "source-153b3cab036dd73a4f8567db84ecb2b12afdf5d4b73267788e0b6d8bf70c4ef9.bin",
+    "textPath": "source-b90581d774e8e30365d3c3195914331c41983689853a0403ccd7e46a5f1cc009.txt"
+  },
+  "files": {
+    "snapshots/source-153b3cab036dd73a4f8567db84ecb2b12afdf5d4b73267788e0b6d8bf70c4ef9.bin": "sha256:153b3cab036dd73a4f8567db84ecb2b12afdf5d4b73267788e0b6d8bf70c4ef9",
+    "snapshots/source-b90581d774e8e30365d3c3195914331c41983689853a0403ccd7e46a5f1cc009.txt": "sha256:b90581d774e8e30365d3c3195914331c41983689853a0403ccd7e46a5f1cc009"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng",
+  "language": "en",
+  "retrievedAt": "2026-10-17T18:42:39Z",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "sourceOriginRunId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "recordedAt": "2026-10-17T18:42:39Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "originalText": "  \n \n \n \n \n \n \n \n \n \n \n \n \n \n        \n\n        \n\n        \n\n        \n\n        \n        \n\n        \n \n \n \n \n                \n\n            \n \n \n        \n\n        \n \n\n\n \n \n \n \n \n \n\n\n\n \n \n \n \n \n\n \n \n \n \nRegulation - 2022/2554 - EN - DORA - EUR-Lex\n \n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "C"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "European Union",
+    "host": "eur-lex.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

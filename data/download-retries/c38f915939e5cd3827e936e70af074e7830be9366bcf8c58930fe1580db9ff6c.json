@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-download-retry",
+  "id": "c38f915939e5cd3827e936e70af074e7830be9366bcf8c58930fe1580db9ff6c",
+  "cachedAt": "2026-10-17T18:03:34Z",
+  "originRunId": "qwen3-39051987553",
+  "sourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=PI_COM:C(2024)1519",
+  "candidate": {
+    "type": "law",
+    "title": "Classification of ICT incidents and significant cyber threats",
+    "publisher": "European Union",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=PI_COM:C(2024)1519",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "Binding regulatory technical standards under DORA Article 17(13) implementing classification criteria for major ICT-related incidents and significant cyber threats (Commission Delegated Regulation (EU) 2024/1772)",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "id": "6-source-2"
+  },
+  "language": "en",
+  "scopeId": "6",
+  "status": "pending-download",
+  "firstFailedAt": "2026-10-17T18:03:34Z",
+  "firstFailureContext": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "prepare"
+  },
+  "lastAttemptAt": "2026-10-17T18:03:34Z",
+  "attempts": 1,
+  "lastError": "Source document is unavailable or incomplete: JavaScript/bot challenge page; retry the document download",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "prepare"
+  },
+  "retryOnNextRun": true,
+  "originalText": null,
+  "evidenceAdmitted": false,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "pending-download",
+    "publisher": "European Union",
+    "host": "eur-lex.europa.eu"
+  }
+}

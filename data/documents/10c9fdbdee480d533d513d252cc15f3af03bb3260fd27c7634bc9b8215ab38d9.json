@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-17T17:10:07Z",
+  "originRunId": "qwen3-39051987553",
+  "source": {
+    "id": "0-source-3",
+    "type": "guidance",
+    "title": "DORA 136 - 3193: Scope application guidance regarding regulated and non-regulated activities",
+    "publisher": "European Insurance and Occupational Pensions Authority",
+    "url": "https://www.eiopa.europa.eu/qa-regulation/questions-and-answers-database/dora-136-3193_en",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "Insurance sector entities under DORA, specifically addressing Article 2 scope determination and proportionality considerations for mixed-activity entities",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:d2f18412e69eed8d53894cb10da4497b74d32725ef69fd4f1f58f4311633a6fc",
+    "textDigest": "sha256:ac69ade43a222188108395be26b4bd7819ed329ba15fab29f0f0b109280d7bbb",
+    "finalUrl": "https://www.eiopa.europa.eu/qa-regulation/questions-and-answers-database/dora-136-3193_en",
+    "retrievedAt": "2026-10-17T17:10:07Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-d2f18412e69eed8d53894cb10da4497b74d32725ef69fd4f1f58f4311633a6fc.bin",
+    "textPath": "source-ac69ade43a222188108395be26b4bd7819ed329ba15fab29f0f0b109280d7bbb.txt"
+  },
+  "files": {
+    "snapshots/source-d2f18412e69eed8d53894cb10da4497b74d32725ef69fd4f1f58f4311633a6fc.bin": "sha256:d2f18412e69eed8d53894cb10da4497b74d32725ef69fd4f1f58f4311633a6fc",
+    "snapshots/source-ac69ade43a222188108395be26b4bd7819ed329ba15fab29f0f0b109280d7bbb.txt": "sha256:ac69ade43a222188108395be26b4bd7819ed329ba15fab29f0f0b109280d7bbb"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.eiopa.europa.eu/qa-regulation/questions-and-answers-database/dora-136-3193_en",
+  "language": "en",
+  "retrievedAt": "2026-10-17T17:10:07Z",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "sourceOriginRunId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "recordedAt": "2026-10-17T17:10:07Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "originalText": "\n\n\n  \n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \nDORA 136 - 3193 - European Insurance and Occupational Pensions Authority\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n  \n\n  \n\n          \nSkip to main content\n\n\n        \n\n\n    \n\n\n      \n\n          \n\n  \n      \n\n      \n\n        \n\n          \n\n            \n\n                    \n\n                                          \n  \n\n\n\n              \n\n                  \nEnglish\nSelect your language\n\n\nClose\n\n\nbg\nбългарски\n\n\nes\nespañol\n\n\ncs\nčeština\n\n\nda\ndansk\n\n\nde\nDeutsch\n\n\net\neesti\n\n\nel\nελληνικά\n\n\nen\nEnglish\n\n\nfr\nfrançais\n\n\nga\nGaeilge\n\n\nhr\nhrvatski\n\n\nit\nitaliano\n\n\nlv\nlatviešu\n\n\nlt\nlietuvių\n\n\nhu\nmagyar\n\n\nmt\nMalti\n\n\nnl\nNederlands\n\n\npl\npolski\n\n\npt\nportuguês\n\n\nro\nromână\n\n\nsk\nslovenčina\n\n\nsl\nslovenščina\n\n\nfi\nsuomi\n\n\nsv\nsvenska\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n  \n\n\nSearch",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "European Insurance and Occupational Pensions Authority",
+    "host": "www.eiopa.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

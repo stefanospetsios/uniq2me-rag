@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "cca29c6a283211c0c0dbd344e5859e81f4c56d6051cbcb6a213996a97a0abfdc",
+  "cachedAt": "2026-10-17T18:42:37Z",
+  "observedAt": "2026-10-17T18:42:37Z",
+  "originRunId": "qwen3-39051987553",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-C-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "C",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "site:eur-lex.europa.eu Commission Delegated Regulation 2025/1190 TLPT requirements"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792262400146,
+    "end": 1792262400949
+  },
+  "outputDigest": "sha256:a2648402bc5d7504a02c49e1aaa88628597247f22cd654069f7a6253db5e45a5",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/eli/reg_del/2025/1190/oj/eng"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Delegated regulation - EU - 2025/1190 - EN - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/eli/reg_del/2025/1190/oj/eng\",\n\n...444083 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_14b29ebb30015tsdTNEYu80uyM\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "C"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "eur-lex.europa.eu"
+    ]
+  }
+}

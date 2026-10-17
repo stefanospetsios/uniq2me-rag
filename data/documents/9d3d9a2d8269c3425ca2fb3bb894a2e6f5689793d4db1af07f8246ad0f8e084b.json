@@ -3,14 +3,14 @@
   "cachedAt": "2026-10-17T06:59:32Z",
   "originRunId": "qwen3-38995572810",
   "source": {
-    "id": "1-source-1",
+    "id": "8-source-1",
     "type": "law",
-    "title": "Regulation (EU) 2022/2554 on digital operational resilience for the financial sector",
+    "title": "Regulation (EU) 2022/2554 of the European Parliament and of the Council on digital operational resilience for the financial sector",
     "publisher": "European Union",
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
     "language": "en",
     "jurisdiction": "European Union",
-    "applicability": "All financial entities within EU jurisdiction as defined in Article 2",
+    "applicability": "Applies to financial entities including credit institutions, payment institutions, electronic money institutions, insurance undertakings, and other defined entities under Article 2, covering ICT business continuity and crisis response requirements in Article 11.",
     "publicationDate": null,
     "effectiveDate": null,
     "redistribution": "metadata-and-short-passages",
@@ -18,18 +18,13 @@
     "passages": [
       {
         "id": "p1",
-        "locator": "Recital 21",
-        "text": "financial entities need to have comprehensive capabilities to enable a strong and effective ICT risk management, as well as specific mechanisms and policies for handling all ICT-related incidents and for reporting major ICT-related incidents."
+        "locator": "Recital 26",
+        "text": "testing defence capabilities and business continuity, which contributes to increasing the trust of customers, suppliers and business partners."
       },
       {
         "id": "p2",
-        "locator": "Recital 21",
-        "text": "financial entities should have policies in place for the testing of ICT systems, controls and processes, as well as for managing ICT third-party risk."
-      },
-      {
-        "id": "p3",
-        "locator": "Article 6",
-        "text": "ICT risk management framework"
+        "locator": "Article 11(f)",
+        "text": "ensure the continuity of critical or important functions, through business continuity plans and response and recovery measures, which include, at least, back-up and restoration measures;"
       }
     ],
     "quotationMatchPolicy": "unicode-typography-v1",
@@ -51,10 +46,10 @@
   "language": "en",
   "retrievedAt": "2026-10-17T06:59:32Z",
   "foundIn": {
-    "runId": "qwen3-39027246178",
+    "runId": "qwen3-39051987553",
     "sourceOriginRunId": "qwen3-38995572810",
-    "controllerCommit": "d89be5fa1db8a5d843a884c3c22f6358220c8789",
-    "recordedAt": "2026-10-17T11:20:54Z",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "recordedAt": "2026-10-17T18:18:32Z",
     "webRecheckedThisRun": false,
     "phase": "prepare",
     "frameworkId": "dora",
@@ -68,7 +63,7 @@
       "en"
     ],
     "scopeIds": [
-      "1"
+      "8"
     ],
     "phases": [
       "prepare"

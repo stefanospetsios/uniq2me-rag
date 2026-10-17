@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-17T18:42:38Z",
+  "originRunId": "qwen3-39051987553",
+  "source": {
+    "id": "C-source-2",
+    "type": "technical-doc",
+    "title": "Final Report on Joint Regulatory Technical Standards for Threat-Led Penetration Testing (DORA RTS)",
+    "publisher": "European Banking Authority",
+    "url": "https://www.eba.europa.eu/sites/default/files/2024-07/427a52cf-5772-4b69-8eb5-d121c90c470a/JC%202024-29%20-%20Final%20report_DORA%20RTS%20on%20TLPT.pdf",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "Financial entities under DORA Articles 26-27",
+    "publicationDate": "2024-07",
+    "effectiveDate": "2025-07-08",
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:84ea70258ab587dcf70261d70b61d29d5fbddabb4b8b1f5bbe170828175935e3",
+    "textDigest": "sha256:e0e45aeba1a3b08d2cceb6ac698a64be3d47b6943e2bc6a4c08c8f604c75fcf9",
+    "finalUrl": "https://www.eba.europa.eu/sites/default/files/2024-07/427a52cf-5772-4b69-8eb5-d121c90c470a/JC%202024-29%20-%20Final%20report_DORA%20RTS%20on%20TLPT.pdf",
+    "retrievedAt": "2026-10-17T18:42:38Z",
+    "contentType": "application/pdf",
+    "snapshotPath": "source-84ea70258ab587dcf70261d70b61d29d5fbddabb4b8b1f5bbe170828175935e3.bin",
+    "textPath": "source-e0e45aeba1a3b08d2cceb6ac698a64be3d47b6943e2bc6a4c08c8f604c75fcf9.txt"
+  },
+  "files": {
+    "snapshots/source-84ea70258ab587dcf70261d70b61d29d5fbddabb4b8b1f5bbe170828175935e3.bin": "sha256:84ea70258ab587dcf70261d70b61d29d5fbddabb4b8b1f5bbe170828175935e3",
+    "snapshots/source-e0e45aeba1a3b08d2cceb6ac698a64be3d47b6943e2bc6a4c08c8f604c75fcf9.txt": "sha256:e0e45aeba1a3b08d2cceb6ac698a64be3d47b6943e2bc6a4c08c8f604c75fcf9"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.eba.europa.eu/sites/default/files/2024-07/427a52cf-5772-4b69-8eb5-d121c90c470a/JC%202024-29%20-%20Final%20report_DORA%20RTS%20on%20TLPT.pdf",
+  "language": "en",
+  "retrievedAt": "2026-10-17T18:42:38Z",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "sourceOriginRunId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "recordedAt": "2026-10-17T18:42:38Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "originalText": "JC 2024 29\n\n17 July 2024\n\n\n\n\nFinal Report\n\nDraft Regulatory Technical Standards specifying elements related to\nthreat led penetration tests under Article 26(11) of Regulation (EU)\n2022/2554\n\f                                     Contents\n1. Executive Summary                              2\n2. Background and rationale                       4\n3. Draft Regulatory Technical Standards          20\n4. Impact assessment                             61\n5. Feedback from the ESAs’ Stakeholders Groups   68\n6. Feedback on the public consultation           77\n\n\n\n\n                                             1\n\f1. Executive Summary\n\nReasons for publication\n\n  1. Regulation (EU) 2022/2554 of the European Parliament and of the Council of 14 December\n     2022 on digital operational resilience for the financia",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "C"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "European Banking Authority",
+    "host": "www.eba.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

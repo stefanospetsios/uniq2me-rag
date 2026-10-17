@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "c46e5beb7afee4a620932048acce4c4752bef3be15ac495a51b9c5829154a650",
+  "cachedAt": "2026-10-17T17:10:06Z",
+  "observedAt": "2026-10-17T17:10:06Z",
+  "originRunId": "qwen3-39051987553",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-0-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "0",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "DORA Regulation (EU) 2022/2554 applicability proportionality governance site:eba.europa.eu OR site:eiopa.europa.eu OR site:esma.europa.eu"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792256918854,
+    "end": 1792256919784
+  },
+  "outputDigest": "sha256:42ef67123b574c77c6f4ccacb6e58d1fb1c3140bf64496a84f2474cb98406351",
+  "resultUrls": [
+    "https://eba.europa.eu/sites/default/files/2025-07/32044d65-455e-4fff-82d0-aa0d8ac2799f/JC%202025%2029%20%20DORA%20Oversight%20Guide.pdf",
+    "https://www.eba.europa.eu/regulation-and-policy/single-rulebook/interactive-single-rulebook/17716",
+    "https://www.eiopa.europa.eu/qa-regulation/questions-and-answers-database/dora-136-3193_en",
+    "https://www.esma.europa.eu/sites/default/files/library/ESMA22-106-4405_SMSG_advice_on_DORA.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Digital operational resilience Regulation (DORA) | European Banking Authority\",\n      \"url\": \"https://www.eba.europa.eu/regulation-and-policy/single-rulebook/interactive-single-rulebook/17716\",\n      \"content\": \"Digital operational resilience Regulation (DORA) | European Banking Authority\\n\\n# Digital operational resilience Regulation (DORA) \\n\\n- CHAPTER I: General provisions \\n\\n- Article 1: Subject matter \\n- Article 2: Scope \\n- Article 3: Definitions \\n- Article 4: Proportionality principle \\n- CHAPTER II: ICT risk management \\n\\n- Section: I \\n\\n- Article 5: Governance and organisation \\n- Section: 2 \\n\\n- Article 6: ICT risk management framework \\n- Article 7: ICT systems, protocols and tools \\n- Article 8: Identification \\n- Article 9: Protection and prevention \\n- Article 10: Detection \\n- Article 11: Response and recovery \\n- Article 12: Backup policies and procedures, restoration and recovery procedures and methods \\n- Article 13: Learning and evolving \\n- Article 14: Communication \\n- Article 15: Further harmonisation of ICT risk management tools, methods, processes and policies \\n- Article 16: Simplified ICT risk management framework \\n- CHAPTER III: ICT-related incident management, classification and reporting \\n\\n- Article 17: ICT-related incident management process \\n- Article 18: Classification of ICT-related incidents and cyber threats \\n- Article 19: Reporting of major ICT-related incidents and voluntary notification of significant cyber threats \\n- Article 20: Harmonisation of reporting content and templates \\n- Article 21: Centralisation of reporting of major ICT-related incidents \\n- Article 22: Supervisory feedback \\n- Article 23: Operational or security payment-related incidents concerning credit institutions, payment institutions, account information service providers, and electronic money institutions \\n- CHAPTER IV: Digital operational resilience testing \\n\\n- Article 24: General requirements for the ",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "eba.europa.eu",
+      "www.eba.europa.eu",
+      "www.eiopa.europa.eu",
+      "www.esma.europa.eu"
+    ]
+  }
+}

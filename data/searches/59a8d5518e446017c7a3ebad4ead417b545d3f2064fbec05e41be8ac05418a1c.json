@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "59a8d5518e446017c7a3ebad4ead417b545d3f2064fbec05e41be8ac05418a1c",
+  "cachedAt": "2026-10-17T18:09:37Z",
+  "observedAt": "2026-10-17T18:09:37Z",
+  "originRunId": "qwen3-39051987553",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-7-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "7",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "EBA EIOPA ESMA DORA Regulation 2022/2554 incident reporting guidelines templates RTS ITS competent authority payment incidents"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792260535753,
+    "end": 1792260536804
+  },
+  "outputDigest": "sha256:db21bf3dd92d8e8f464eb7bb085c88e7531f4ea2c2c1fe683cb6a461b070ed82",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ%3AL_202500302"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"II Non-legislative acts, Regulations\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ%3AL_202500302\",\n\n...136654 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_14b0d79e2001f1F3G23BYCbHwG\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "7"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "eur-lex.europa.eu"
+    ]
+  }
+}

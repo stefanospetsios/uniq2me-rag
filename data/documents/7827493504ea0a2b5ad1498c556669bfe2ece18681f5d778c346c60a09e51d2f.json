@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-17T17:32:28Z",
+  "originRunId": "qwen3-39051987553",
+  "source": {
+    "id": "2-source-2",
+    "type": "law",
+    "title": "Regulation (EU) 2024/1774 - Implementing Technical Standards under DORA",
+    "publisher": "European Commission",
+    "url": "https://ec.europa.eu/finance/docs/level-2-measures/dora-regulation-rts--2024-1532_en.pdf",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "Specifies requirements for Articles 7-8 on ICT risk management frameworks and critical functions",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:914093e796b6ee371d5e35d487cdae0630094d1e834ea127819bfdc420bf3bbc",
+    "textDigest": "sha256:4ea774207902331b52b4934b76ce46ad90868fb95807fcad3ea66e967d825954",
+    "finalUrl": "https://ec.europa.eu/finance/docs/level-2-measures/dora-regulation-rts--2024-1532_en.pdf",
+    "retrievedAt": "2026-10-17T17:32:28Z",
+    "contentType": "application/pdf",
+    "snapshotPath": "source-914093e796b6ee371d5e35d487cdae0630094d1e834ea127819bfdc420bf3bbc.bin",
+    "textPath": "source-4ea774207902331b52b4934b76ce46ad90868fb95807fcad3ea66e967d825954.txt"
+  },
+  "files": {
+    "snapshots/source-914093e796b6ee371d5e35d487cdae0630094d1e834ea127819bfdc420bf3bbc.bin": "sha256:914093e796b6ee371d5e35d487cdae0630094d1e834ea127819bfdc420bf3bbc",
+    "snapshots/source-4ea774207902331b52b4934b76ce46ad90868fb95807fcad3ea66e967d825954.txt": "sha256:4ea774207902331b52b4934b76ce46ad90868fb95807fcad3ea66e967d825954"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://ec.europa.eu/finance/docs/level-2-measures/dora-regulation-rts--2024-1532_en.pdf",
+  "language": "en",
+  "retrievedAt": "2026-10-17T17:32:28Z",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "sourceOriginRunId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "recordedAt": "2026-10-17T17:32:28Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "originalText": "                             EUROPEAN\n                             COMMISSION\n\n\n\n\n                                                    Brussels, 13.3.2024\n                                                    C(2024) 1532 final\n\n\n\n\n                  COMMISSION DELEGATED REGULATION (EU) …/...\n\n                                         of 13.3.2024\n\n       supplementing Regulation (EU) 2022/2554 of the European Parliament and of the\n     Council with regard to regulatory technical standards specifying ICT risk management\n        tools, methods, processes, and policies and the simplified ICT risk management\n                                           framework\n\n\n\n\n                                  (Text with EEA relevance)\n\n\n\n\nEN                                                                     ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "2"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "European Commission",
+    "host": "ec.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

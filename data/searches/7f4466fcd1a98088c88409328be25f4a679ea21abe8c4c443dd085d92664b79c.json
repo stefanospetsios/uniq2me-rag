@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "7f4466fcd1a98088c88409328be25f4a679ea21abe8c4c443dd085d92664b79c",
+  "cachedAt": "2026-10-17T18:25:07Z",
+  "observedAt": "2026-10-17T18:25:07Z",
+  "originRunId": "qwen3-39051987553",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-9-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "9",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "DORA Regulation (EU) 2022/2554 Article 12 official implementation guidance backup policies restoration recovery point time"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792261293530,
+    "end": 1792261295261
+  },
+  "outputDigest": "sha256:124eb7e5b5362c3b5c86dadf4c34e4c4d80ccedc93ed8a7bec3c8ac609e12966",
+  "resultUrls": [
+    "https://www.bafin.de/SharedDocs/Downloads/EN/Anlage/dl_2024_07_08_Aufsichtsmitteilung_Umsetzungshinweise_DORA_en.pdf?__blob=publicationFile&v=3",
+    "https://www.eiopa.europa.eu/qa-regulation/questions-and-answers-database/dora038-2991_en"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"DORA038 - 2991 - European Insurance and Occupational Pensions Authority\",\n      \"url\": \"https://www.eiopa.europa.eu/qa-regulation/questions-and-answers-database/dora038-2991_en\",\n      \"content\": \"DORA038 - 2991 - European Insurance and Occupational Pensions Authority\\n\\n# Q&A\\n\\nRegulation Reference: (EU) 2022/2554 - Digital Operational Resilience Act (DORA) \\n\\nTopic: Other DORA topics \\n\\nArticle: 12\\n\\nStatus: Final\\n\\nDate of submission: 14 Feb 2024\\n\\n## Question\\n\\nArt. 12 III DORA: When restoring backup data using own systems, financial entities shall use ICT systems that are physically and logically segregated from the source ICT system. What does DORA mean by \\\"recovering backed-up data using own systems\\\"? What does \\\"own systems\\\" mean? What is the source ICT system? The productive system whose data is backed-up or the system where the backed-up data is stored?\\n\\n## EIOPA answer\\n\\nThe terms “own systems” and “source ICT systems” are not defined in DORA. However, in order to understand the policy intention behind Article 12(3) of DORA, the provisions should be understood as restoring the backup data by using ICT systems for which the financial entity has full control and responsibility. When the financial entity restores the backup data, it shall use ICT systems that are not directly connected with the main one and that are securely protected from any unauthorized access or ICT corruption.\"\n    },\n    {\n      \"title\": \"Aufsichtsmitteilung Umsetzungshinweise DORA\",\n      \"url\": \"https://www.bafin.de/SharedDocs/Downloads/EN/Anlage/dl_2024_07_08_Aufsichtsmitteilung_Umsetzungshinweise_DORA_en.pdf?__blob=publicationFile&v=3\",\n\n...798027 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_14b190c9b001bMnfdJ6lTmvGTm\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "9"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "www.bafin.de",
+      "www.eiopa.europa.eu"
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-17T18:03:34Z",
+  "originRunId": "qwen3-39051987553",
+  "source": {
+    "id": "6-source-2",
+    "type": "guidance",
+    "title": "Regulatory Technical Standards on criteria for the classification of ICT-related incidents",
+    "publisher": "European Banking Authority",
+    "url": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/regulatory-technical-standards-criteria-classification-ict-related-incidents",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "Official EBA technical guidance implementing RTS 2024/1772, providing operational definitions, materiality thresholds, and classification workflows for credit institutions and payment service providers",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "Executive Summary",
+        "text": "These Regulatory Technical Standards specify the criteria for the classification of major ICT-related incidents, the approach for the classification of major incidents, the materiality thresholds of each classification criterion, the criteria and materiality thresholds for determining significant cyber threats, the criteria for competent authorities to assess the relevance of incidents to competent authorities in other Member States and the details of the incidents to be shared in this regard."
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:48a8e5ec0a95641c74add955d2e759e3ea46b25eddc3da991d2273fd6886ecab",
+    "textDigest": "sha256:48c6d7ec45fdbdb486662f3bacaf70feaa22a5978b406de3b831c176d938a90c",
+    "finalUrl": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/regulatory-technical-standards-criteria-classification-ict-related-incidents",
+    "retrievedAt": "2026-10-17T18:03:34Z",
+    "contentType": "text/html; charset=UTF-8",
+    "snapshotPath": "source-48a8e5ec0a95641c74add955d2e759e3ea46b25eddc3da991d2273fd6886ecab.bin",
+    "textPath": "source-48c6d7ec45fdbdb486662f3bacaf70feaa22a5978b406de3b831c176d938a90c.txt"
+  },
+  "files": {
+    "snapshots/source-48a8e5ec0a95641c74add955d2e759e3ea46b25eddc3da991d2273fd6886ecab.bin": "sha256:48a8e5ec0a95641c74add955d2e759e3ea46b25eddc3da991d2273fd6886ecab",
+    "snapshots/source-48c6d7ec45fdbdb486662f3bacaf70feaa22a5978b406de3b831c176d938a90c.txt": "sha256:48c6d7ec45fdbdb486662f3bacaf70feaa22a5978b406de3b831c176d938a90c"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/regulatory-technical-standards-criteria-classification-ict-related-incidents",
+  "language": "en",
+  "retrievedAt": "2026-10-17T18:03:34Z",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "sourceOriginRunId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "recordedAt": "2026-10-17T18:08:22Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "originalText": "\n\n\n  \n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \nRegulatory Technical Standards on criteria for the classification of ICT-related incidents | European Banking Authority\n\n    \n\n\n\n\n\n\n    \n  \n\n  \n\n        \n\n      Skip to main content\n    \n\n    \n      \n\n    \n\n\n\n  \n\n    \n\n          \n\n    \n\n  \n\n\n\n\n\n      \n\n  \n\n    \nMenu\n\n    \n\n  \n\n  \n\n    \n\n      \n\n          \n  \n\n                  \n\n          \nExtranet\n\n        \n\n\n\n                        \n\n          \nLog in\n\n        \n\n\n\n            \n\n\n\n\n      \n\n      \n\n        \n\n              \n\n                  \n\n          \nAbout us\n\n          \n\n            \nBack\n\n\n            \n\n              \nAbout us\n\n\n\n                              \n\n                  \nThe EBA is an independent EU Authority.  We play a key role in safeguarding the integrity and robustne",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "European Banking Authority",
+    "host": "www.eba.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

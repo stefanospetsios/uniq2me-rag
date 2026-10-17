@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "a11e4460053af4a970a88a17dc65e53e4d62f9c085cc65f31b9857c146d26247",
+  "cachedAt": "2026-10-17T18:03:33Z",
+  "observedAt": "2026-10-17T18:03:33Z",
+  "originRunId": "qwen3-39051987553",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-6-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "6",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "DORA Regulation (EU) 2022/2554 Incident management classification ICT incident ICT-related incidents major incidents significant cyber threats root cause site:eba.europa.eu"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792260090979,
+    "end": 1792260091819
+  },
+  "outputDigest": "sha256:ec020eeb888eb7e1eaff85f6fbd0422506a1b0666e957ac7904a9ee237893c67",
+  "resultUrls": [
+    "http://data.europa.eu/eli/dir/2015/2366/oj",
+    "http://data.europa.eu/eli/dir/2015/2366/oj).",
+    "http://data.europa.eu/eli/reg/2022/2554/oj",
+    "http://data.europa.eu/eli/reg/2022/2554/oj).",
+    "http://data.europa.eu/eli/reg_del/2024/1772/oj",
+    "http://data.europa.eu/eli/reg_del/2024/1772/oj).",
+    "http://data.europa.eu/eli/reg_del/2025/301/oj",
+    "http://data.europa.eu/eli/reg_del/2025/301/oj).",
+    "http://data.europa.eu/eli/reg_impl/2025/302/oj",
+    "http://data.europa.eu/eli/reg_impl/2025/302/oj).",
+    "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/regulatory-technical-standards-criteria-classification-ict-related-incidents",
+    "https://www.eba.europa.eu/regulation-and-policy/single-rulebook/interactive-single-rulebook/17716",
+    "https://www.eba.europa.eu/regulation-and-policy/single-rulebook/interactive-single-rulebook/17741",
+    "https://www.eba.europa.eu/sites/default/files/2026-06/29b60c21-4ff3-4e1e-9308-7c8225d5cc01/ESAs%202025%20report%20on%20major%20ICT-related%20incidents.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Digital operational resilience Regulation (DORA) | European Banking Authority\",\n      \"url\": \"https://www.eba.europa.eu/regulation-and-policy/single-rulebook/interactive-single-rulebook/17716\",\n      \"content\": \"Digital operational resilience Regulation (DORA) | European Banking Authority\\n\\n# Digital operational resilience Regulation (DORA) \\n\\n- CHAPTER I: General provisions \\n\\n- Article 1: Subject matter \\n- Article 2: Scope \\n- Article 3: Definitions \\n- Article 4: Proportionality principle \\n- CHAPTER II: ICT risk management \\n\\n- Section: I \\n\\n- Article 5: Governance and organisation \\n- Section: 2 \\n\\n- Article 6: ICT risk management framework \\n- Article 7: ICT systems, protocols and tools \\n- Article 8: Identification \\n- Article 9: Protection and prevention \\n- Article 10: Detection \\n- Article 11: Response and recovery \\n- Article 12: Backup policies and procedures, restoration and recovery procedures and methods \\n- Article 13: Learning and evolving \\n- Article 14: Communication \\n- Article 15: Further harmonisation of ICT risk management tools, methods, processes and policies \\n- Article 16: Simplified ICT risk management framework \\n- CHAPTER III: ICT-related incident management, classification and reporting \\n\\n- Article 17: ICT-related incident management process \\n- Article 18: Classification of ICT-related incidents and cyber threats \\n- Article 19: Reporting of major ICT-related incidents and voluntary notification of significant cyber threats \\n- Article 20: Harmonisation of reporting content and templates \\n- Article 21: Centralisation of reporting of major ICT-related incidents \\n- Article 22: Supervisory feedback \\n- Article 23: Operational or security payment-related incidents concerning credit institutions, payment institutions, account information service providers, and electronic money institutions \\n- CHAPTER IV: Digital operational resilience testing \\n\\n- Article 24: General requirements for the ",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "data.europa.eu",
+      "www.eba.europa.eu"
+    ]
+  }
+}

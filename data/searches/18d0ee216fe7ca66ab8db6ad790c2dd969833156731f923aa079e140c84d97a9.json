@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "18d0ee216fe7ca66ab8db6ad790c2dd969833156731f923aa079e140c84d97a9",
+  "cachedAt": "2026-10-17T18:56:38Z",
+  "observedAt": "2026-10-17T18:56:38Z",
+  "originRunId": "qwen3-39051987553",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-E-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "E",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "site:eba.europa.eu DORA DORA, Regulation (EU) 2022/2554, ICT contracts, service levels, subcontracting, audit rights, termination rights, exit strategy"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792263234697,
+    "end": 1792263235957
+  },
+  "outputDigest": "sha256:96c5112a85f909a04be5afb22a57571c1b0df6a0e8c98de4a71be9c7c4aa29de",
+  "resultUrls": [
+    "https://www.eba.europa.eu/sites/default/files/2024-07/f724684d-74c8-4f7d-a467-3df456c73b26/JC%202024-53_Final%20report%20DORA%20RTS%20on%20subcontracting.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Final report\",\n      \"url\": \"https://www.eba.europa.eu/sites/default/files/2024-07/f724684d-74c8-4f7d-a467-3df456c73b26/JC%202024-53_Final%20report%20DORA%20RTS%20on%20subcontracting.pdf\",\n\n...129098 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_14b36a974001RVHvOq7g0R8BJ0\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "E"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "www.eba.europa.eu"
+    ]
+  }
+}

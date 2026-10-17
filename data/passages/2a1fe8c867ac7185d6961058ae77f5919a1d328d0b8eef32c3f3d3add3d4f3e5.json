@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "2a1fe8c867ac7185d6961058ae77f5919a1d328d0b8eef32c3f3d3add3d4f3e5",
+  "cachedAt": "2026-10-17T18:14:48Z",
+  "originRunId": "qwen3-39051987553",
+  "sourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+  "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+  "language": "en",
+  "publisher": "European Union",
+  "title": "Regulation (EU) 2022/2554 of the European Parliament and of the Council on digital operational resilience for the financial sector (DORA)",
+  "retrievedAt": "2026-10-17T06:59:32Z",
+  "byteDigest": "sha256:85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c",
+  "textDigest": "sha256:1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786",
+  "sourceId": "7-source-1",
+  "passageId": "p1",
+  "locator": "Recital 24",
+  "quotation": "requiring all financial entities to report to their competent authorities through a single streamlined framework as set out in this Regulation.",
+  "originalText": "to harmonise\n            the ICT-related incident reporting regime by requiring all financial entities to report to their competent authorities\n            through a single streamlined framework as set out in this Regulation. In addition, the ESAs should be empowered to\n            further specify relevant elements for the ICT-related incident reporting framework, such as taxonomy, timeframes,\n            data sets, templates",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "sourceOriginRunId": "qwen3-38995572810",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "recordedAt": "2026-10-17T18:14:48Z",
+    "webRecheckedThisRun": false,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "7"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "European Union",
+    "host": "eur-lex.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-download-retry",
+  "id": "4685b9e20018f8866b2ec1015a76cb01890eef1fd8c5acaa05946c58ec7bb836",
+  "cachedAt": "2026-10-17T17:57:54Z",
+  "originRunId": "qwen3-39051987553",
+  "sourceUrl": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng",
+  "candidate": {
+    "type": "law",
+    "title": "Regulation (EU) 2022/2554 of the European Parliament and of the Council of 14 December 2022 on digital operational resilience for the financial sector and amending Regulations (EC) No 1060/2009, (EU) No 648/2012, (EU) No 600/2014, (EU) No 909/2014 and (EU) 2016/1011",
+    "publisher": "European Union",
+    "url": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "All financial entities within the EU as defined in Article 2, including critical ICT third-party service providers",
+    "publicationDate": "2022-12-14",
+    "effectiveDate": "2025-01-17",
+    "redistribution": "metadata-and-short-passages",
+    "id": "5-source-1"
+  },
+  "language": "en",
+  "scopeId": "5",
+  "status": "pending-download",
+  "firstFailedAt": "2026-10-17T17:57:54Z",
+  "firstFailureContext": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "prepare"
+  },
+  "lastAttemptAt": "2026-10-17T17:57:54Z",
+  "attempts": 1,
+  "lastError": "Source document is unavailable or incomplete: JavaScript/bot challenge page; retry the document download",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "prepare"
+  },
+  "retryOnNextRun": true,
+  "originalText": null,
+  "evidenceAdmitted": false,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "pending-download",
+    "publisher": "European Union",
+    "host": "eur-lex.europa.eu"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-download-retry",
+  "id": "d95ed4400b9ea30afbc02ac5ea4abe4c2d1bf7304190de034b3b07f35add7353",
+  "cachedAt": "2026-10-17T18:42:39Z",
+  "originRunId": "qwen3-39051987553",
+  "sourceUrl": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng",
+  "candidate": {
+    "type": "law",
+    "title": "Regulation (EU) 2022/2554 of the European Parliament and of the Council of 8 December 2022 on digital operational resilience in the financial sector (DORA)",
+    "publisher": "European Union",
+    "url": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "All ICT third-party service providers and financial entities listed in Annex I under scope of DORA",
+    "publicationDate": "2022-12-27",
+    "effectiveDate": "2023-01-13",
+    "redistribution": "metadata-and-short-passages",
+    "id": "C-source-2"
+  },
+  "language": "en",
+  "scopeId": "C",
+  "status": "downloaded-awaiting-evidence",
+  "firstFailedAt": "2026-10-17T18:39:44Z",
+  "firstFailureContext": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "prepare"
+  },
+  "lastAttemptAt": "2026-10-17T18:42:39Z",
+  "attempts": 2,
+  "lastError": null,
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "prepare"
+  },
+  "retryOnNextRun": false,
+  "originalText": null,
+  "evidenceAdmitted": false,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "C"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "downloaded-awaiting-evidence",
+    "publisher": "European Union",
+    "host": "eur-lex.europa.eu"
+  },
+  "byteDigest": "sha256:153b3cab036dd73a4f8567db84ecb2b12afdf5d4b73267788e0b6d8bf70c4ef9",
+  "textDigest": "sha256:b90581d774e8e30365d3c3195914331c41983689853a0403ccd7e46a5f1cc009"
+}

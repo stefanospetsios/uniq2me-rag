@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "cf1a840b2134bf061e3ae16778ee095d12e666ea69c4494cf68efcc3268c2b83",
+  "cachedAt": "2026-10-17T18:08:22Z",
+  "originRunId": "qwen3-39051987553",
+  "sourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+  "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+  "language": "en",
+  "publisher": "European Union",
+  "title": "Regulation (EU) 2022/2554 of the European Parliament and of the Council on digital operational resilience in the financial sector (DORA)",
+  "retrievedAt": "2026-10-17T06:59:32Z",
+  "byteDigest": "sha256:85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c",
+  "textDigest": "sha256:1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786",
+  "sourceId": "6-source-1",
+  "passageId": "p2",
+  "locator": "Article 18(1)",
+  "quotation": "Financial entities shall classify ICT-related incidents and shall determine their impact based on the following criteria:",
+  "originalText": "Financial entities shall classify ICT-related incidents and shall determine their impact based on the following criteria:",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "sourceOriginRunId": "qwen3-38995572810",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "recordedAt": "2026-10-17T18:08:22Z",
+    "webRecheckedThisRun": false,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "European Union",
+    "host": "eur-lex.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

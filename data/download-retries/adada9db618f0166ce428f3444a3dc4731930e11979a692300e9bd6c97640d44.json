@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-download-retry",
+  "id": "adada9db618f0166ce428f3444a3dc4731930e11979a692300e9bd6c97640d44",
+  "cachedAt": "2026-10-17T18:09:37Z",
+  "originRunId": "qwen3-39051987553",
+  "sourceUrl": "https://eur-lex.europa.eu/eli/reg_impl/2025/302/oj/eng/pdf",
+  "candidate": {
+    "type": "law",
+    "title": "Commission Implementing Regulation (EU) 2025/302 of 23 October 2024 laying down standard forms and procedures for incident reporting under DORA",
+    "publisher": "European Union",
+    "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/302/oj/eng/pdf",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "Financial entities required to report major ICT-related incidents under Article 19(5) of DORA, including outsourced reporting arrangements",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "id": "7-source-2"
+  },
+  "language": "en",
+  "scopeId": "7",
+  "status": "pending-download",
+  "firstFailedAt": "2026-10-17T18:09:37Z",
+  "firstFailureContext": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "prepare"
+  },
+  "lastAttemptAt": "2026-10-17T18:09:37Z",
+  "attempts": 1,
+  "lastError": "Source document is unavailable or incomplete: JavaScript/bot challenge page; retry the document download",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "prepare"
+  },
+  "retryOnNextRun": true,
+  "originalText": null,
+  "evidenceAdmitted": false,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "7"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "pending-download",
+    "publisher": "European Union",
+    "host": "eur-lex.europa.eu"
+  }
+}

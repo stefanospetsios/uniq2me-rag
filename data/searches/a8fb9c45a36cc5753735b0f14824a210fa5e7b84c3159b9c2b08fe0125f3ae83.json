@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "a8fb9c45a36cc5753735b0f14824a210fa5e7b84c3159b9c2b08fe0125f3ae83",
+  "cachedAt": "2026-10-17T17:30:18Z",
+  "observedAt": "2026-10-17T17:30:18Z",
+  "originRunId": "qwen3-39051987553",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-1-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "1",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "Regulation (EU) 2022/2554 Article 6 ICT risk management framework Commission Delegated Regulation 2024/1774 official documents"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792258086674,
+    "end": 1792258087882
+  },
+  "outputDigest": "sha256:cbc997a688ad27b145d9d93ccb12a4d3e8db8fc6c6c7ffab2f2f74f0414ab3f4",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/eli/reg_del/2024/1774/oj/eng"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Delegated regulation - EU - 2024/1774 - EN - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/eli/reg_del/2024/1774/oj/eng\",\n\n...705625 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_14ae81bc7001iGItGtBaL0r2LB\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "eur-lex.europa.eu"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "fff73f0fafe83ee1b68cd2400d595f80bce39cd99fd999b5527865504fe7023d",
+  "cachedAt": "2026-10-17T18:18:32Z",
+  "originRunId": "qwen3-39051987553",
+  "sourceUrl": "https://www.eba.europa.eu/regulation-and-policy/single-rulebook/interactive-single-rulebook/17716",
+  "finalUrl": "https://www.eba.europa.eu/regulation-and-policy/single-rulebook/interactive-single-rulebook/17716",
+  "language": "en",
+  "publisher": "European Banking Authority",
+  "title": "Digital operational resilience Regulation (DORA) - Article 11: Response and recovery",
+  "retrievedAt": "2026-10-17T06:59:33Z",
+  "byteDigest": "sha256:cd12b523b725f1a4db6b20d566702b2fb9f8ffea615be57cf5e1e0242d059788",
+  "textDigest": "sha256:92ca26634eec2648a8d1dc3f33abe2eae9fe0a9cb3f1e317f4736cd114a112a4",
+  "sourceId": "8-source-2",
+  "passageId": "p2",
+  "locator": "EBA Interactive Rulebook Section",
+  "quotation": "Article 24: General requirements for the performance of digital operational resilience testing",
+  "originalText": "Article 24: General requirements for the performance of digital operational resilience testing",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "sourceOriginRunId": "qwen3-38995572810",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "recordedAt": "2026-10-17T18:18:32Z",
+    "webRecheckedThisRun": false,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "European Banking Authority",
+    "host": "www.eba.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

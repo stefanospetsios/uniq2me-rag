@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "7ba4813eeb558856671aa0e623dd436a9d085941464c8d80eaf1fa2b2d3546da",
+  "cachedAt": "2026-10-17T18:14:48Z",
+  "originRunId": "qwen3-39051987553",
+  "sourceUrl": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/joint-technical-standards-major-incident-reporting",
+  "finalUrl": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/joint-technical-standards-major-incident-reporting",
+  "language": "en",
+  "publisher": "European Banking Authority (EBA)",
+  "title": "Joint Technical Standards on major incident reporting",
+  "retrievedAt": "2026-10-17T18:11:46Z",
+  "byteDigest": "sha256:8ecf00235fb821013c2bf66d87b5d93bfe9568597f7388ff6387f4a75cd94d01",
+  "textDigest": "sha256:791932e7a830303f29c0b3f6be78a0157aed2be4989b6042ea17c93b5c4be590",
+  "sourceId": "7-source-2",
+  "passageId": "p1",
+  "locator": "Press Release (17 July 2024)",
+  "quotation": "The draft RTS set out time limits for reporting of the initial notification of 4 hours after classification and 24 hours after detection of the incident, 72 hours for reporting of the intermediate report and 1 month for the reporting of the final report.",
+  "originalText": "The draft RTS set out time limits for reporting of the initial notification of 4 hours after classification and 24 hours after detection of the incident, 72 hours for reporting of the intermediate report and 1 month for the reporting of the final report.",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "sourceOriginRunId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "recordedAt": "2026-10-17T18:14:48Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "7"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "European Banking Authority (EBA)",
+    "host": "www.eba.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

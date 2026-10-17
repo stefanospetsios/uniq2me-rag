@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "0e00339b70b38b86a17bfd3889c442e2c8d9fab56835dc92808a4487e4a1b3fd",
+  "cachedAt": "2026-10-17T18:50:52Z",
+  "observedAt": "2026-10-17T18:50:52Z",
+  "originRunId": "qwen3-39051987553",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-D-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "D",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "DORA: ICT third-party risk, concentration and register DORA official implementation guidance site:eba.europa.eu OR site:esma.europa.eu OR site:eiopa.europa.eu"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792262896978,
+    "end": 1792262898096
+  },
+  "outputDigest": "sha256:83fe3a48a7a04fd7fd142fee0779c3e52064dc3a41ebe4b15151dc551933145c",
+  "resultUrls": [
+    "https://eba.europa.eu/sites/default/files/2026-02/4ba5c76d-7d54-4fc4-9747-ababfff9c4e6/OJ_L_202402956_EN_TXT.pdf",
+    "https://www.eba.europa.eu/activities/direct-supervision-and-oversight/digital-operational-resilience-act/preparation-dora-application",
+    "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/implementing-technical-standards-establish-templates-register-information",
+    "https://www.eba.europa.eu/regulation-and-policy/single-rulebook/interactive-single-rulebook/17716"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Preparations for reporting of DORA registers of information | European Banking Authority\",\n      \"url\": \"https://www.eba.europa.eu/activities/direct-supervision-and-oversight/digital-operational-resilience-act/preparation-dora-application\",\n      \"content\": \"Preparations for reporting of DORA registers of information | European Banking Authority\\n\\n# Preparations for reporting of DORA registers of information \\n\\nThe Digital Operational Resilience Act (DORA) became applicable on 17 January 2025. From that date all financial entities in its scope will need to have a comprehensive register of their contractual arrangements with ICT third-party service providers available at entity, sub-consolidated and consolidated levels. \\n\\nThe registers of information will serve for:\\n\\n- financial entities to monitor their ICT third-party risk,\\n- the EU competent authorities to supervise ICT and third-party risk management at the financial entities and\\n- the ESAs to designate the critical ICT third-party service provides (CTPP) which will be subject to an EU-level oversight.\\n\\nThis page provides a set of resources to help the financial entities to be ready with the preparation and submission of the registers of information to the competent authorities that will provide the collected registers to the ESAs for the purposes of designation of the CTPPs. The resources provided cover both official reporting starting form 2025 and preparatory dry run exercise the ESAs carried out in 2024\\n\\n### PREPARATIONS FOR OFFICIAL REPORTING OF REGISTERS\\n\\n- ESAs Decision on reporting of information for CTPP designation\\n- ITS on the registers of information - Adopted and published in the Official Journal of the EU\\n- Data Model for DORA RoI\\n- Reporting technical package\\n\\n- Validation rules - Please download the file and search for DORA under ‘Frameworks’\\n- Data Point Model Dictionary (updated 21 March 2025)\\n- Data Point Model table layout and data po",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "D"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "eba.europa.eu",
+      "www.eba.europa.eu"
+    ]
+  }
+}
