@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "a1d7ead1bf7907cb43248d05637dc16a208c59bf2037863aacf99ff25655f36f",
+  "cachedAt": "2026-10-17T11:44:58Z",
+  "observedAt": "2026-10-17T11:44:58Z",
+  "originRunId": "qwen3-39027246178",
+  "foundIn": {
+    "runId": "qwen3-39027246178",
+    "controllerCommit": "d89be5fa1db8a5d843a884c3c22f6358220c8789",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-5-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "5",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA full text DORA: Monitoring and anomalous activity detection"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792237304116,
+    "end": 1792237305173
+  },
+  "outputDigest": "sha256:8ec97bfa68651b76a4ca8bf85cc3a4818f970fee896b49be32373d193552d359",
+  "resultUrls": [],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA full text DORA: Monitoring and anomalous activity detection\",\n  \"results\": [],\n  \"unresponsive_engines\": [\n    [\n      \"brave\",\n      \"too many requests\"\n    ],\n    [\n      \"duckduckgo\",\n      \"CAPTCHA\"\n    ],\n    [\n      \"google cse\",\n      \"too many requests\"\n    ],\n    [\n      \"wikipedia\",\n      \"HTTP error\"\n    ]\n  ]\n}",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": []
+  }
+}

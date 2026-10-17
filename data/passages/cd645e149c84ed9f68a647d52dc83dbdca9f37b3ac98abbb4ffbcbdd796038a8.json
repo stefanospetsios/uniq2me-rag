@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "cd645e149c84ed9f68a647d52dc83dbdca9f37b3ac98abbb4ffbcbdd796038a8",
+  "cachedAt": "2026-10-17T11:20:54Z",
+  "originRunId": "qwen3-39027246178",
+  "sourceUrl": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/regulatory-technical-standards-ict-risk-management-framework-and-simplified-ict-risk-management",
+  "finalUrl": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/regulatory-technical-standards-ict-risk-management-framework-and-simplified-ict-risk-management",
+  "language": "en",
+  "publisher": "European Banking Authority (EBA)",
+  "title": "Regulatory Technical Standards on ICT risk management framework and on simplified ICT risk management framework",
+  "retrievedAt": "2026-10-17T08:18:03Z",
+  "byteDigest": "sha256:9a71c8b99ee93acae8d40db9ff5d3b792023d8028fa65e70ea3ba3d7c61d892b",
+  "textDigest": "sha256:60abe1232630b526e8e7a318beeec1e0531282b55ad22d46458b55e298357688",
+  "sourceId": "1-source-3",
+  "passageId": "p2",
+  "locator": "Page content",
+  "quotation": "These elements are complementary to those identified in DORA. The RTS identify the key elements that financial entities subject to the simplified regime and of lower scale, risk, size and complexity would need to have in place, setting out a simplified ICT risk management framework.",
+  "originalText": "These elements are complementary to those identified in DORA. The RTS identify the key elements that financial entities subject to the simplified regime and of lower scale, risk, size and complexity would need to have in place, setting out a simplified ICT risk management framework.",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-39027246178",
+    "sourceOriginRunId": "qwen3-39016085901",
+    "controllerCommit": "d89be5fa1db8a5d843a884c3c22f6358220c8789",
+    "recordedAt": "2026-10-17T11:20:54Z",
+    "webRecheckedThisRun": false,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "European Banking Authority (EBA)",
+    "host": "www.eba.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

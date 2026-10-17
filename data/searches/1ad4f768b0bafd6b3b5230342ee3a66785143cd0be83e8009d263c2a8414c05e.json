@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "1ad4f768b0bafd6b3b5230342ee3a66785143cd0be83e8009d263c2a8414c05e",
+  "cachedAt": "2026-10-17T12:04:14Z",
+  "observedAt": "2026-10-17T12:04:14Z",
+  "originRunId": "qwen3-39027246178",
+  "foundIn": {
+    "runId": "qwen3-39027246178",
+    "controllerCommit": "d89be5fa1db8a5d843a884c3c22f6358220c8789",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-8-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "8",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "time_range": "",
+    "query": "site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA full text DORA: ICT business continuity and crisis response"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792238496775,
+    "end": 1792238502277
+  },
+  "outputDigest": "sha256:4a1a95eba8eafa2ee4190b2e576581e7f15ff7348597f1d0a95868e781899381",
+  "resultUrls": [],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA full text DORA: ICT business continuity and crisis response\",\n  \"results\": [],\n  \"unresponsive_engines\": [\n    [\n      \"brave\",\n      \"Suspended: too many requests\"\n    ],\n    [\n      \"duckduckgo\",\n      \"CAPTCHA\"\n    ],\n    [\n      \"google cse\",\n      \"Suspended: too many requests\"\n    ],\n    [\n      \"wikipedia\",\n      \"HTTP error\"\n    ]\n  ]\n}",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": []
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "56761c814f19b9f8525669854447e3bd937f463c1d7313af226fc76b2db39812",
+  "cachedAt": "2026-10-17T11:24:49Z",
+  "observedAt": "2026-10-17T11:24:49Z",
+  "originRunId": "qwen3-39027246178",
+  "foundIn": {
+    "runId": "qwen3-39027246178",
+    "controllerCommit": "d89be5fa1db8a5d843a884c3c22f6358220c8789",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-2-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "2",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "site:eur-lex.europa.eu eli/reg_del/2024/1774/oj/eng DORA ICT assets services dependency mapping"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792236205716,
+    "end": 1792236206541
+  },
+  "outputDigest": "sha256:80d8e7a19d1f23c4de2f886c2e6cecc7e7ba72f95967199b094f0cdcb9fdf960",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/eli/reg_del/2024/1773/oj/eng",
+    "https://eur-lex.europa.eu/eli/reg_del/2024/2024/oj/eng",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202401774",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024R1774R(02",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024R1774R(02)",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401774"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"site:eur-lex.europa.eu eli/reg_del/2024/1774/oj/eng DORA ICT assets services dependency mapping\",\n  \"results\": [\n    {\n      \"title\": \"Delegated regulation - EU - 2024/1774 - EN - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202401774\",\n      \"content\": \"for ICT assets or services operated by an ICT third-party service provider, the identification and implementation of requirements to maintain digital operational resilience, in accordance with the results of the data classification and ICT risk assessment.\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"COMMISSION DELEGATED REGULATION (EU) 2024/1774 of 13 March 2024 - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401774\",\n      \"content\": \"COMMISSION DELEGATED REGULATION (EU) 2024/1774 of 13 March 2024 supplementing Regulation (EU) 2022/2554 of the European Parliament and of the Council with regard to regulatory technical standards specifying ICT risk management tools, methods, processes, and policies and the simplified ICT risk management framework\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Delegated regulation - EU - 2024/2024 - EN - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/eli/reg_del/2024/2024/oj/eng\",\n      \"content\": \"Replacement of CELEX identifiers by short titles - experimental feature. It replaces clickable CELEX identifiers of treaties and case-law by short titles.\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Delegated regulation - EU - 2024/1773 - EN - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/eli/reg_del/2024/1773/oj/eng\",\n      \"content\": \"Commission Delegated Regulation (EU) 2024/1773 of 13 March 2024 supplementing Regulation (EU) 2022/2554 of the European Parliament and of the Council with regard to regulatory technical standards specifying the detailed content of the policy regarding contractu",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "2"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "eur-lex.europa.eu"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-17T12:24:45Z",
+  "originRunId": "qwen3-39027246178",
+  "source": {
+    "id": "B-source-2",
+    "type": "technical-doc",
+    "title": "Joint Regulatory Technical Standards specifying elements related to threat led penetration tests (EBA/GL/2024/02)",
+    "publisher": "European Banking Authority",
+    "url": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/joint-regulatory-technical-standards-specifying-elements-related-threat-led-penetration-tests",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "Contextual boundary documentation distinguishing standard testing requirements (Article 24-25) from conditional TLPT regime (Article 26) for critical ICT third-party service providers and designated financial entities",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:a9b49e7fe128c3be9a25df94aed15ab460e9b87da1f125323f5814af3c727e63",
+    "textDigest": "sha256:b38341b6a9d69ff3490da310d3425978293866a9d1930abe3095cb7ac2ec91e4",
+    "finalUrl": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/joint-regulatory-technical-standards-specifying-elements-related-threat-led-penetration-tests",
+    "retrievedAt": "2026-10-17T12:24:45Z",
+    "contentType": "text/html; charset=UTF-8",
+    "snapshotPath": "source-a9b49e7fe128c3be9a25df94aed15ab460e9b87da1f125323f5814af3c727e63.bin",
+    "textPath": "source-b38341b6a9d69ff3490da310d3425978293866a9d1930abe3095cb7ac2ec91e4.txt"
+  },
+  "files": {
+    "snapshots/source-a9b49e7fe128c3be9a25df94aed15ab460e9b87da1f125323f5814af3c727e63.bin": "sha256:a9b49e7fe128c3be9a25df94aed15ab460e9b87da1f125323f5814af3c727e63",
+    "snapshots/source-b38341b6a9d69ff3490da310d3425978293866a9d1930abe3095cb7ac2ec91e4.txt": "sha256:b38341b6a9d69ff3490da310d3425978293866a9d1930abe3095cb7ac2ec91e4"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/joint-regulatory-technical-standards-specifying-elements-related-threat-led-penetration-tests",
+  "language": "en",
+  "retrievedAt": "2026-10-17T12:24:45Z",
+  "foundIn": {
+    "runId": "qwen3-39027246178",
+    "sourceOriginRunId": "qwen3-39027246178",
+    "controllerCommit": "d89be5fa1db8a5d843a884c3c22f6358220c8789",
+    "recordedAt": "2026-10-17T12:24:45Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "originalText": "\n\n\n  \n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \nJoint Regulatory Technical Standards specifying elements related to threat led penetration tests | European Banking Authority\n\n    \n\n\n\n\n\n\n    \n  \n\n  \n\n        \n\n      Skip to main content\n    \n\n    \n      \n\n    \n\n\n\n  \n\n    \n\n          \n\n    \n\n  \n\n\n\n\n\n      \n\n  \n\n    \nMenu\n\n    \n\n  \n\n  \n\n    \n\n      \n\n          \n  \n\n                  \n\n          \nExtranet\n\n        \n\n\n\n                        \n\n          \nLog in\n\n        \n\n\n\n            \n\n\n\n\n      \n\n      \n\n        \n\n              \n\n                  \n\n          \nAbout us\n\n          \n\n            \nBack\n\n\n            \n\n              \nAbout us\n\n\n\n                              \n\n                  \nThe EBA is an independent EU Authority.  We play a key role in safeguarding the integrity and ro",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "B"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "European Banking Authority",
+    "host": "www.eba.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

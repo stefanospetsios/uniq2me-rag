@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "e463f85aaa908623224363d43bb45e46e1968c73dba1f9d06059f6d2231e164b",
+  "cachedAt": "2026-10-17T11:24:49Z",
+  "observedAt": "2026-10-17T11:24:49Z",
+  "originRunId": "qwen3-39027246178",
+  "foundIn": {
+    "runId": "qwen3-39027246178",
+    "controllerCommit": "d89be5fa1db8a5d843a884c3c22f6358220c8789",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-2-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "2",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "site:eba.europa.eu DORA ICT risk management tools methods processes policies asset inventory dependency mapping"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792236206392,
+    "end": 1792236207741
+  },
+  "outputDigest": "sha256:d61ab6685a9afb21f543cfb4dd4fa152105ad50301817e14f1bce88e2fb77820",
+  "resultUrls": [
+    "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/regulatory-technical-standards-ict-risk-management-framework-and-simplified-ict-risk-management",
+    "https://www.eba.europa.eu/regulation-and-policy/single-rulebook/interactive-single-rulebook/17716",
+    "https://www.eba.europa.eu/sites/default/files/documents/10180/2522896/32a28233-12f5-49c8-9bb5-f8744ccb4e92/Final%20Guidelines%20on%20ICT%20and%20security%20risk%20management.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Regulatory Technical Standards on ICT risk management framework and on simplified ICT risk management framework | European Banking Authority\",\n      \"url\": \"https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/regulatory-technical-standards-ict-risk-management-framework-and-simplified-ict-risk-management\",\n      \"content\": \"Regulatory Technical Standards on ICT risk management framework and on simplified ICT risk management framework | European Banking Authority\\n\\n# Regulatory Technical Standards on ICT risk management framework and on simplified ICT risk management framework \\n\\n- Status: Adopted and published in the Official Journal of the EU\\n\\nThe Regulatory Technical Standards on ICT risk management framework identify further elements related to ICT risk management with a view to harmonise tools, methods, processes and policies. These elements are complementary to those identified in DORA. The RTS identify the key elements that financial entities subject to the simplified regime and of lower scale, risk, size and complexity would need to have in place, setting out a simplified ICT risk management framework. The RTS ensure the ICT risk management requirements are harmonised among the different financial sectors. \\n\\n### Summary of document history\\n\\n Previous versions Current version Ongoing versions \\n\\n## Draft Regulatory Technical Standards on ICT risk management framework and on simplified ICT risk management framework\\n\\n- Status: In force\\n- Application date: 15/07/2024 \\n- Compliance deadline: \\n\\n###### Draft RTS on ICT Risk Management Framework and on simplified ICT Risk Management Framework\\n\\n (1.74 MB - PDF) \\n\\nThe three European Supervisory Authorities (EBA, EIOPA and ESMA – the ESAs) published today the first set of final draft technical standards under the Digital Operational Resilience Act (DORA) aimed at enhancing the digital operational resilience of the EU f",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "2"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "www.eba.europa.eu"
+    ]
+  }
+}

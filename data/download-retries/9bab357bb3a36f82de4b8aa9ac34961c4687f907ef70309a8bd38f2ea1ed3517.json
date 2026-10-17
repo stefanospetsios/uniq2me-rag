@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-download-retry",
+  "id": "9bab357bb3a36f82de4b8aa9ac34961c4687f907ef70309a8bd38f2ea1ed3517",
+  "cachedAt": "2026-10-17T11:38:08Z",
+  "originRunId": "qwen3-39027246178",
+  "sourceUrl": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj",
+  "candidate": {
+    "type": "law",
+    "title": "Regulation (EU) 2022/2554 of the European Parliament and of the Council of 14 December 2022 on digital operational resilience for the financial sector and amending Regulations (EC) No 1060/2009, (EU) No 648/2012, (EU) No 600/2014, (EU) No 909/2014 and (EU) 2016/1011 (Text with EEA relevance)",
+    "publisher": "European Union",
+    "url": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "Mandatory primary instrument for all DORA SFS areas including secure change, development and vulnerability management (Articles 7, 9, 15)",
+    "publicationDate": "2022-12-27",
+    "effectiveDate": "2023-01-17",
+    "redistribution": "metadata-and-short-passages",
+    "id": "4-source-2"
+  },
+  "language": "en",
+  "scopeId": "4",
+  "status": "pending-download",
+  "firstFailedAt": "2026-10-17T11:34:46Z",
+  "firstFailureContext": {
+    "runId": "qwen3-39027246178",
+    "controllerCommit": "d89be5fa1db8a5d843a884c3c22f6358220c8789",
+    "phase": "prepare"
+  },
+  "lastAttemptAt": "2026-10-17T11:38:08Z",
+  "attempts": 2,
+  "lastError": "Source document is unavailable or incomplete: JavaScript/bot challenge page; retry the document download",
+  "foundIn": {
+    "runId": "qwen3-39027246178",
+    "controllerCommit": "d89be5fa1db8a5d843a884c3c22f6358220c8789",
+    "phase": "prepare"
+  },
+  "retryOnNextRun": true,
+  "originalText": null,
+  "evidenceAdmitted": false,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "4"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "pending-download",
+    "publisher": "European Union",
+    "host": "eur-lex.europa.eu"
+  }
+}

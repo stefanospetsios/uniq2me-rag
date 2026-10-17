@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "6217c8368f04e528c7ecbf1fc502977bbf356a5ee16c311b415b4d56b41b9447",
+  "cachedAt": "2026-10-17T11:23:10Z",
+  "observedAt": "2026-10-17T11:23:10Z",
+  "originRunId": "qwen3-39027246178",
+  "foundIn": {
+    "runId": "qwen3-39027246178",
+    "controllerCommit": "d89be5fa1db8a5d843a884c3c22f6358220c8789",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-2-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "2",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "DORA ICT risk management tools methods processes policies official guidance dependency mapping"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792236077049,
+    "end": 1792236078353
+  },
+  "outputDigest": "sha256:5e2bf816a9b57d523a47bbf9e73247f1d14d56f047e8e37821d7671858067783",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/eli/reg_del/2024/1774/oj/eng"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Delegated regulation - EU - 2024/1774 - EN - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/eli/reg_del/2024/1774/oj/eng\",\n\n...991540 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_14998450f001lm9U0WIw7HFYp8\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "2"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "eur-lex.europa.eu"
+    ]
+  }
+}

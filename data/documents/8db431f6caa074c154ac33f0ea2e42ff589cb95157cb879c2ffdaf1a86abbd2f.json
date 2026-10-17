@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-17T12:01:23Z",
+  "originRunId": "qwen3-39027246178",
+  "source": {
+    "id": "7-source-3",
+    "type": "law",
+    "title": "Commission Delegated Regulation (EU) 2025/301 of 23 October 2024 supplementing Regulation (EU) 2022/2554 with regard to regulatory technical standards specifying content and time limits for incident reports",
+    "publisher": "European Commission",
+    "url": "https://webgate.ec.europa.eu/regdel/web/delegatedActs/2503/documents/latest?lang=en",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "Financial entities under DORA for incident reporting timelines, content requirements for initial/intermediate/final reports and voluntary notifications",
+    "publicationDate": "2024-10-23",
+    "effectiveDate": "2025-01-17",
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:b4745b800f4204da41982f6ac63189c971eb0c8fb0f006da1fb23d62efd61897",
+    "textDigest": "sha256:2bbc4fa6d267894348a8371cb32d97387043bd4c9bbd2f04739390267b6ba8f8",
+    "finalUrl": "https://webgate.ec.europa.eu/regdel/web/delegatedActs/2503/documents/latest?lang=en",
+    "retrievedAt": "2026-10-17T12:01:23Z",
+    "contentType": "application/octet-stream",
+    "snapshotPath": "source-b4745b800f4204da41982f6ac63189c971eb0c8fb0f006da1fb23d62efd61897.bin",
+    "textPath": "source-2bbc4fa6d267894348a8371cb32d97387043bd4c9bbd2f04739390267b6ba8f8.txt"
+  },
+  "files": {
+    "snapshots/source-b4745b800f4204da41982f6ac63189c971eb0c8fb0f006da1fb23d62efd61897.bin": "sha256:b4745b800f4204da41982f6ac63189c971eb0c8fb0f006da1fb23d62efd61897",
+    "snapshots/source-2bbc4fa6d267894348a8371cb32d97387043bd4c9bbd2f04739390267b6ba8f8.txt": "sha256:2bbc4fa6d267894348a8371cb32d97387043bd4c9bbd2f04739390267b6ba8f8"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://webgate.ec.europa.eu/regdel/web/delegatedActs/2503/documents/latest?lang=en",
+  "language": "en",
+  "retrievedAt": "2026-10-17T12:01:23Z",
+  "foundIn": {
+    "runId": "qwen3-39027246178",
+    "sourceOriginRunId": "qwen3-39027246178",
+    "controllerCommit": "d89be5fa1db8a5d843a884c3c22f6358220c8789",
+    "recordedAt": "2026-10-17T12:01:23Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "originalText": "                              EUROPEAN\n                              COMMISSION\n\n\n\n\n                                                      Brussels, 23.10.2024\n                                                      C(2024) 6901 final\n\n\n\n\n                  COMMISSION DELEGATED REGULATION (EU) …/...\n\n                                          of 23.10.2024\n\n       supplementing Regulation (EU) 2022/2554 of the European Parliament and of the\n     Council with regard to regulatory technical standards specifying the content and time\n     limits for the initial notification of, and intermediate and final report on, major ICT-\n      related incidents, and the content of the voluntary notification for significant cyber\n                                                threats\n\n\n\n                       ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "7"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "European Commission",
+    "host": "webgate.ec.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "845563d5e722d57bc033365e5e845dababd57ad3362267306acb3017f3939623",
+  "cachedAt": "2026-10-17T11:20:54Z",
+  "originRunId": "qwen3-39027246178",
+  "sourceUrl": "https://www.eba.europa.eu/regulation-and-policy/single-rulebook/interactive-single-rulebook/17716",
+  "finalUrl": "https://www.eba.europa.eu/regulation-and-policy/single-rulebook/interactive-single-rulebook/17716",
+  "language": "en",
+  "publisher": "European Banking Authority (EBA)",
+  "title": "Article 6: ICT risk management framework",
+  "retrievedAt": "2026-10-17T06:59:33Z",
+  "byteDigest": "sha256:cd12b523b725f1a4db6b20d566702b2fb9f8ffea615be57cf5e1e0242d059788",
+  "textDigest": "sha256:92ca26634eec2648a8d1dc3f33abe2eae9fe0a9cb3f1e317f4736cd114a112a4",
+  "sourceId": "1-source-4",
+  "passageId": "p1",
+  "locator": "Article 6 title",
+  "quotation": "Article 6: ICT risk management framework",
+  "originalText": "Article 6: ICT risk management framework",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-39027246178",
+    "sourceOriginRunId": "qwen3-38995572810",
+    "controllerCommit": "d89be5fa1db8a5d843a884c3c22f6358220c8789",
+    "recordedAt": "2026-10-17T11:20:54Z",
+    "webRecheckedThisRun": false,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "European Banking Authority (EBA)",
+    "host": "www.eba.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

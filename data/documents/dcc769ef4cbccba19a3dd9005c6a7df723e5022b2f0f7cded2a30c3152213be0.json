@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-17T11:34:46Z",
+  "originRunId": "qwen3-39027246178",
+  "source": {
+    "id": "4-source-1",
+    "type": "guidance",
+    "title": "Final report on draft RTS on ICT Risk Management Framework and on simplified ICT Risk Management Framework",
+    "publisher": "European Banking Authority (EBA)",
+    "url": "https://www.eba.europa.eu/sites/default/files/2024-01/bf5a2976-1a48-44f3-b5a7-56acd23ba55c/JC%202023%2086%20-%20Final%20report%20on%20draft%20RTS%20on%20ICT%20Risk%20Management%20Framework%20and%20on%20simplified%20ICT%20Risk%20Management%20Framework.pdf",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "Financial entities under DORA Articles 7, 9, 15 for ICT risk management framework development, change management, and vulnerability handling",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:a21892fe24cf4743b1000affdf345808f474f2eefdffe1be2f4ea0426f5571a3",
+    "textDigest": "sha256:16e6248f78a2c24ee6074fd2317d4a58f63d35942b4fc018d84a9f6d5550b627",
+    "finalUrl": "https://www.eba.europa.eu/sites/default/files/2024-01/bf5a2976-1a48-44f3-b5a7-56acd23ba55c/JC%202023%2086%20-%20Final%20report%20on%20draft%20RTS%20on%20ICT%20Risk%20Management%20Framework%20and%20on%20simplified%20ICT%20Risk%20Management%20Framework.pdf",
+    "retrievedAt": "2026-10-17T11:34:46Z",
+    "contentType": "application/pdf",
+    "snapshotPath": "source-a21892fe24cf4743b1000affdf345808f474f2eefdffe1be2f4ea0426f5571a3.bin",
+    "textPath": "source-16e6248f78a2c24ee6074fd2317d4a58f63d35942b4fc018d84a9f6d5550b627.txt"
+  },
+  "files": {
+    "snapshots/source-a21892fe24cf4743b1000affdf345808f474f2eefdffe1be2f4ea0426f5571a3.bin": "sha256:a21892fe24cf4743b1000affdf345808f474f2eefdffe1be2f4ea0426f5571a3",
+    "snapshots/source-16e6248f78a2c24ee6074fd2317d4a58f63d35942b4fc018d84a9f6d5550b627.txt": "sha256:16e6248f78a2c24ee6074fd2317d4a58f63d35942b4fc018d84a9f6d5550b627"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.eba.europa.eu/sites/default/files/2024-01/bf5a2976-1a48-44f3-b5a7-56acd23ba55c/JC%202023%2086%20-%20Final%20report%20on%20draft%20RTS%20on%20ICT%20Risk%20Management%20Framework%20and%20on%20simplified%20ICT%20Risk%20Management%20Framework.pdf",
+  "language": "en",
+  "retrievedAt": "2026-10-17T11:34:46Z",
+  "foundIn": {
+    "runId": "qwen3-39027246178",
+    "sourceOriginRunId": "qwen3-39027246178",
+    "controllerCommit": "d89be5fa1db8a5d843a884c3c22f6358220c8789",
+    "recordedAt": "2026-10-17T11:34:46Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "originalText": "JC 2023 86\n\n10 01 2024\n\n\n\n\n                       Final report\n\nDraft Regulatory Technical Standards\nto further harmonise ICT risk management tools, methods,\nprocesses and policies as mandated under Articles 15 and 16(3) of\nRegulation (EU) 2022/2554\n\f                                      Contents\n1. Executive Summary                              2\n2. Background and rationale                       7\n3. Draft regulatory technical standards          36\n4. Accompanying documents                        90\n\n\n\n\n                                                      1\n\f1. Executive Summary\nReasons for publication\n\n  1. Regulation (EU) 2022/2554 of the European Parliament and of the Council of 14 December\n     2022 on digital operational resilience for the financial sector and amending Regulations (",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "4"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "European Banking Authority (EBA)",
+    "host": "www.eba.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

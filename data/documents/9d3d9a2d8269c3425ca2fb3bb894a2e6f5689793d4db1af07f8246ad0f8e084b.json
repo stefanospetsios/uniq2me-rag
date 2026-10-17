@@ -3,28 +3,33 @@
   "cachedAt": "2026-10-17T06:59:32Z",
   "originRunId": "qwen3-38995572810",
   "source": {
-    "id": "0-source-1",
+    "id": "1-source-1",
     "type": "law",
-    "title": "Regulation (EU) 2022/2554 of the European Parliament and of the Council of 14 December 2022 on digital operational resilience for the financial sector",
+    "title": "Regulation (EU) 2022/2554 on digital operational resilience for the financial sector",
     "publisher": "European Union",
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
     "language": "en",
     "jurisdiction": "European Union",
-    "applicability": "Defines core scope (Articles 2-3), proportionality principle (Article 4), simplified framework for smaller providers (Article 5), and management body accountability (Article 16). Directly applicable to all financial entities in EU.",
-    "publicationDate": "2022-12-27",
-    "effectiveDate": "2025-01-17",
+    "applicability": "All financial entities within EU jurisdiction as defined in Article 2",
+    "publicationDate": null,
+    "effectiveDate": null,
     "redistribution": "metadata-and-short-passages",
     "sourceStatus": "fetched-and-passage-checked",
     "passages": [
       {
         "id": "p1",
         "locator": "Recital 21",
-        "text": "allowing for a proportionate application of requirements for certain financial entities, particularly microenterprises, as well as financial entities subject to a simplified ICT risk management framework."
+        "text": "financial entities need to have comprehensive capabilities to enable a strong and effective ICT risk management, as well as specific mechanisms and policies for handling all ICT-related incidents and for reporting major ICT-related incidents."
       },
       {
         "id": "p2",
         "locator": "Recital 21",
-        "text": "To facilitate an efficient supervision of institutions for occupational retirement provision that is proportionate and addresses the need to reduce administrative burdens on the competent authorities, the relevant national supervisory arrangements in respect of such financial entities should take into account their size and overall risk profile, and the nature, scale and complexity of their services, activities and operations"
+        "text": "financial entities should have policies in place for the testing of ICT systems, controls and processes, as well as for managing ICT third-party risk."
+      },
+      {
+        "id": "p3",
+        "locator": "Article 6",
+        "text": "ICT risk management framework"
       }
     ],
     "quotationMatchPolicy": "unicode-typography-v1",
@@ -46,10 +51,10 @@
   "language": "en",
   "retrievedAt": "2026-10-17T06:59:32Z",
   "foundIn": {
-    "runId": "qwen3-39018925827",
+    "runId": "qwen3-39027246178",
     "sourceOriginRunId": "qwen3-38995572810",
-    "controllerCommit": "96e901cb0a947cd3694f606f3ac28deffcf5a88b",
-    "recordedAt": "2026-10-17T09:00:57Z",
+    "controllerCommit": "d89be5fa1db8a5d843a884c3c22f6358220c8789",
+    "recordedAt": "2026-10-17T11:20:54Z",
     "webRecheckedThisRun": false,
     "phase": "prepare",
     "frameworkId": "dora",
@@ -63,7 +68,7 @@
       "en"
     ],
     "scopeIds": [
-      "0"
+      "1"
     ],
     "phases": [
       "prepare"

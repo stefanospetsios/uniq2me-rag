@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-download-retry",
+  "id": "fbbe1d0dd1227d5f219613f8215d7cca44abb66d85f0147b565c5bfabdcdbe16",
+  "cachedAt": "2026-10-17T11:14:04Z",
+  "originRunId": "qwen3-39027246178",
+  "sourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401774",
+  "candidate": {
+    "type": "law",
+    "title": "Commission Delegated Regulation (EU) 2024/1774 of 13 March 2024 supplementing Regulation (EU) 2022/2554 on ICT risk management framework",
+    "publisher": "European Union",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401774",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "Specifies ICT risk management tools, methods, processes and policies for financial entities under Article 6 of DORA",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "id": "1-source-2"
+  },
+  "language": "en",
+  "scopeId": "1",
+  "status": "pending-download",
+  "firstFailedAt": "2026-10-17T11:14:04Z",
+  "firstFailureContext": {
+    "runId": "qwen3-39027246178",
+    "controllerCommit": "d89be5fa1db8a5d843a884c3c22f6358220c8789",
+    "phase": "prepare"
+  },
+  "lastAttemptAt": "2026-10-17T11:14:04Z",
+  "attempts": 1,
+  "lastError": "Source document is unavailable or incomplete: JavaScript/bot challenge page; retry the document download",
+  "foundIn": {
+    "runId": "qwen3-39027246178",
+    "controllerCommit": "d89be5fa1db8a5d843a884c3c22f6358220c8789",
+    "phase": "prepare"
+  },
+  "retryOnNextRun": true,
+  "originalText": null,
+  "evidenceAdmitted": false,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "pending-download",
+    "publisher": "European Union",
+    "host": "eur-lex.europa.eu"
+  }
+}

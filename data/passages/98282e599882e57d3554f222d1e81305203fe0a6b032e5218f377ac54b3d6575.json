@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "98282e599882e57d3554f222d1e81305203fe0a6b032e5218f377ac54b3d6575",
+  "cachedAt": "2026-10-17T11:13:12Z",
+  "originRunId": "qwen3-39027246178",
+  "sourceUrl": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-amends-its-guidelines-ict-and-security-risk-management-measures-context-dora-application",
+  "finalUrl": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-amends-its-guidelines-ict-and-security-risk-management-measures-context-dora-application",
+  "language": "en",
+  "publisher": "European Banking Authority",
+  "title": "Amended Guidelines on ICT and security risk management measures in the context of DORA application",
+  "retrievedAt": "2026-10-17T11:10:30Z",
+  "byteDigest": "sha256:c70c23a609a1b326b12e02f0961c87fd56c647f7365922896b7e1a241e952f6b",
+  "textDigest": "sha256:fb8ebace18333a6487fd89b1a868ef0f82150abe78c72db771612f76cb58071a",
+  "sourceId": "0-source-3",
+  "passageId": "p2",
+  "locator": "Press release",
+  "quotation": "DORA has introduced harmonised requirements on ICT risk management that apply to financial entities across the banking, securities/markets, insurance and pensions sectors.",
+  "originalText": "DORA has introduced harmonised requirements on ICT risk management that apply to financial entities across the banking, securities/markets, insurance and pensions sectors.",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-39027246178",
+    "sourceOriginRunId": "qwen3-39027246178",
+    "controllerCommit": "d89be5fa1db8a5d843a884c3c22f6358220c8789",
+    "recordedAt": "2026-10-17T11:13:12Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "European Banking Authority",
+    "host": "www.eba.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

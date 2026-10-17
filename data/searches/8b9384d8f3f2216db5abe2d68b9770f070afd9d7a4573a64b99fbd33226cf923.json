@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "8b9384d8f3f2216db5abe2d68b9770f070afd9d7a4573a64b99fbd33226cf923",
+  "cachedAt": "2026-10-17T11:38:07Z",
+  "observedAt": "2026-10-17T11:38:07Z",
+  "originRunId": "qwen3-39027246178",
+  "foundIn": {
+    "runId": "qwen3-39027246178",
+    "controllerCommit": "d89be5fa1db8a5d843a884c3c22f6358220c8789",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-4-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "4",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "DORA: Secure change, development and vulnerability management DORA official implementation guidance"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792236907497,
+    "end": 1792236908372
+  },
+  "outputDigest": "sha256:65c2e636537921f9675bffb246b1bd1e6f2cb224ff81e1087b7afe0e5b944a42",
+  "resultUrls": [
+    "https://finance.ec.europa.eu/regulation-and-supervision/financial-services-legislation/implementing-and-delegated-acts/digital-operational-resilience-regulation_en",
+    "https://www.bafin.de/SharedDocs/Downloads/EN/Anlage/dl_2024_07_08_Aufsichtsmitteilung_Umsetzungshinweise_DORA_en.pdf?__blob=publicationFile&v=3"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Digital Operational Resilience Regulation - Finance - European Commission\",\n      \"url\": \"https://finance.ec.europa.eu/regulation-and-supervision/financial-services-legislation/implementing-and-delegated-acts/digital-operational-resilience-regulation_en\",\n      \"content\": \"Digital Operational Resilience Regulation - Finance - European Commission\\n\\n# Implementing and delegated acts - DORA\\n\\nFind links to implementing and delegated acts for Regulation 2022/2554/EU on digital operational resilience. \\n\\nThe Regulation on Digital Operational Resilience (DORA) gives the Commission the power to adopt delegated and implementing acts to specify how competent authorities and market participants need to comply with the obligations laid down in the regulation.\\n\\n## Latest \\n\\n1. 2 July 2025\\n\\nPublication in the Official Journal\\n\\nCommission Delegated Regulation (EU) 2025/532 of 24 March 2025 supplementing Regulation (EU) 2022/2554 with regard to regulatory technical standards specifying the elements that a financial entity has to determine and assess when subcontracting ICT services supporting critical or important functions\\n2. 24 March 2025\\n\\nPublication in the Official Journal\\n\\nCommission Delegated Regulation (EU) 2025/420 of 16 December 2024 supplementing Regulation (EU) 2022/2554 with regard to regulatory technical standards to specify the criteria for determining the composition of the joint examination team ensuring a balanced participation of staff members from the ESAs and from the relevant competent authorities, their designation, tasks and working arrangements\\n3. 20 February 2025\\n\\nPublication in the Official Journal\\n\\nCommission Delegated Regulation (EU) 2025/301 of 23 October 2024 supplementing Regulation (EU) 2022/2554 with regard to regulatory technical standards specifying the content and time limits for the initial notification of, and intermediate and final report on, major ICT-related incidents, and the conte",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "4"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "finance.ec.europa.eu",
+      "www.bafin.de"
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-17T11:10:30Z",
+  "originRunId": "qwen3-39027246178",
+  "source": {
+    "id": "0-source-3",
+    "type": "guidance",
+    "title": "Amended Guidelines on ICT and security risk management measures in the context of DORA application",
+    "publisher": "European Banking Authority",
+    "url": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-amends-its-guidelines-ict-and-security-risk-management-measures-context-dora-application",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "Provides official supervisory guidance on ICT risk management governance and proportionality, clarifying requirements for management body accountability under DORA Articles 4, 5, and 16; narrows scope to DORA-covered entities",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "Press release",
+        "text": "The European Banking Authority (EBA) narrowed down the scope of its existing Guidelines on ICT and security risk management measures, due to the application of harmonised ICT risk management requirements under the Digital Operational Resilience Act (DORA) from 17 January 2025."
+      },
+      {
+        "id": "p2",
+        "locator": "Press release",
+        "text": "DORA has introduced harmonised requirements on ICT risk management that apply to financial entities across the banking, securities/markets, insurance and pensions sectors."
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:c70c23a609a1b326b12e02f0961c87fd56c647f7365922896b7e1a241e952f6b",
+    "textDigest": "sha256:fb8ebace18333a6487fd89b1a868ef0f82150abe78c72db771612f76cb58071a",
+    "finalUrl": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-amends-its-guidelines-ict-and-security-risk-management-measures-context-dora-application",
+    "retrievedAt": "2026-10-17T11:10:30Z",
+    "contentType": "text/html; charset=UTF-8",
+    "snapshotPath": "source-c70c23a609a1b326b12e02f0961c87fd56c647f7365922896b7e1a241e952f6b.bin",
+    "textPath": "source-fb8ebace18333a6487fd89b1a868ef0f82150abe78c72db771612f76cb58071a.txt"
+  },
+  "files": {
+    "snapshots/source-c70c23a609a1b326b12e02f0961c87fd56c647f7365922896b7e1a241e952f6b.bin": "sha256:c70c23a609a1b326b12e02f0961c87fd56c647f7365922896b7e1a241e952f6b",
+    "snapshots/source-fb8ebace18333a6487fd89b1a868ef0f82150abe78c72db771612f76cb58071a.txt": "sha256:fb8ebace18333a6487fd89b1a868ef0f82150abe78c72db771612f76cb58071a"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-amends-its-guidelines-ict-and-security-risk-management-measures-context-dora-application",
+  "language": "en",
+  "retrievedAt": "2026-10-17T11:10:30Z",
+  "foundIn": {
+    "runId": "qwen3-39027246178",
+    "sourceOriginRunId": "qwen3-39027246178",
+    "controllerCommit": "d89be5fa1db8a5d843a884c3c22f6358220c8789",
+    "recordedAt": "2026-10-17T11:13:12Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "originalText": "\n\n\n  \n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \nThe EBA amends its Guidelines on ICT and security risk management measures in the context of DORA application | European Banking Authority\n\n    \n\n\n\n\n\n\n    \n  \n\n  \n\n        \n\n      Skip to main content\n    \n\n    \n      \n\n    \n\n\n\n  \n\n    \n\n          \n\n    \n\n  \n\n\n\n\n\n      \n\n  \n\n    \nMenu\n\n    \n\n  \n\n  \n\n    \n\n      \n\n          \n  \n\n                  \n\n          \nExtranet\n\n        \n\n\n\n                        \n\n          \nLog in\n\n        \n\n\n\n            \n\n\n\n\n      \n\n      \n\n        \n\n              \n\n                  \n\n          \nAbout us\n\n          \n\n            \nBack\n\n\n            \n\n              \nAbout us\n\n\n\n                              \n\n                  \nThe EBA is an independent EU Authority.  We play a key role in safeguarding t",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "European Banking Authority",
+    "host": "www.eba.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

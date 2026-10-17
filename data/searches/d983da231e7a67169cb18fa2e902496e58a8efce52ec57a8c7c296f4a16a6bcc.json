@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "d983da231e7a67169cb18fa2e902496e58a8efce52ec57a8c7c296f4a16a6bcc",
+  "cachedAt": "2026-10-17T12:27:47Z",
+  "observedAt": "2026-10-17T12:27:47Z",
+  "originRunId": "qwen3-39027246178",
+  "foundIn": {
+    "runId": "qwen3-39027246178",
+    "controllerCommit": "d89be5fa1db8a5d843a884c3c22f6358220c8789",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-C-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "C",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "site:eba.europa.eu DORA DORA, Regulation (EU) 2022/2554, TLPT applicability, threat-led penetration testing, tester requirements, critical functions, testing safeguards"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792239931618,
+    "end": 1792239932778
+  },
+  "outputDigest": "sha256:8ce52df3326ad17e03668c42672c14e85de0d168b2314c24588104234d7c1f13",
+  "resultUrls": [
+    "https://eba.europa.eu/sites/default/files/2024-07/427a52cf-5772-4b69-8eb5-d121c90c470a/JC%202024-29%20-%20Final%20report_DORA%20RTS%20on%20TLPT.pdf",
+    "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/joint-regulatory-technical-standards-specifying-elements-related-threat-led-penetration-tests",
+    "https://www.eba.europa.eu/regulation-and-policy/single-rulebook/interactive-single-rulebook/17716",
+    "https://www.eba.europa.eu/regulation-and-policy/single-rulebook/interactive-single-rulebook/17750"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Article 27\",\n      \"url\": \"https://www.eba.europa.eu/regulation-and-policy/single-rulebook/interactive-single-rulebook/17750\",\n      \"content\": \"Article 27 | European Banking Authority\\n\\nDescription\\n\\nRequirements for testers for the carrying out of TLPT\\n\\nSource\\n\\nEUR-Lex\"\n    },\n    {\n      \"title\": \"Digital operational resilience Regulation (DORA) | European Banking Authority\",\n      \"url\": \"https://www.eba.europa.eu/regulation-and-policy/single-rulebook/interactive-single-rulebook/17716\",\n      \"content\": \"Digital operational resilience Regulation (DORA) | European Banking Authority\\n\\n# Digital operational resilience Regulation (DORA) \\n\\n- CHAPTER I: General provisions \\n\\n- Article 1: Subject matter \\n- Article 2: Scope \\n- Article 3: Definitions \\n- Article 4: Proportionality principle \\n- CHAPTER II: ICT risk management \\n\\n- Section: I \\n\\n- Article 5: Governance and organisation \\n- Section: 2 \\n\\n- Article 6: ICT risk management framework \\n- Article 7: ICT systems, protocols and tools \\n- Article 8: Identification \\n- Article 9: Protection and prevention \\n- Article 10: Detection \\n- Article 11: Response and recovery \\n- Article 12: Backup policies and procedures, restoration and recovery procedures and methods \\n- Article 13: Learning and evolving \\n- Article 14: Communication \\n- Article 15: Further harmonisation of ICT risk management tools, methods, processes and policies \\n- Article 16: Simplified ICT risk management framework \\n- CHAPTER III: ICT-related incident management, classification and reporting \\n\\n- Article 17: ICT-related incident management process \\n- Article 18: Classification of ICT-related incidents and cyber threats \\n- Article 19: Reporting of major ICT-related incidents and voluntary notification of significant cyber threats \\n- Article 20: Harmonisation of reporting content and templates \\n- Article 21: Centralisation of reporting of major ICT-related incidents \\n- Article 22: Supervis",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "C"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "eba.europa.eu",
+      "www.eba.europa.eu"
+    ]
+  }
+}

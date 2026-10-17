@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "5ed2ece7ebbc004e05449981a2dada1cd4ee946a45214131ce6b2d0012933095",
+  "cachedAt": "2026-10-17T12:11:21Z",
+  "observedAt": "2026-10-17T12:11:21Z",
+  "originRunId": "qwen3-39027246178",
+  "foundIn": {
+    "runId": "qwen3-39027246178",
+    "controllerCommit": "d89be5fa1db8a5d843a884c3c22f6358220c8789",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-9-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "9",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "DORA Regulation (EU) 2022/2554 Article 12 official guidance backup policies restoration recovery time point redundant capacity data reconciliation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792238861836,
+    "end": 1792238863226
+  },
+  "outputDigest": "sha256:d481d1c22a4e069fc56e9cce5a04dea2ff9d0972685ea33d33912d0409af6809",
+  "resultUrls": [
+    "https://www.bafin.de/SharedDocs/Downloads/EN/Anlage/dl_2024_07_08_Aufsichtsmitteilung_Umsetzungshinweise_DORA_en.pdf?__blob=publicationFile&v=3",
+    "https://www.eba.europa.eu/regulation-and-policy/single-rulebook/interactive-single-rulebook/17716",
+    "https://www.eiopa.europa.eu/qa-regulation/questions-and-answers-database/dora038-2991_en"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"DORA038 - 2991 - European Insurance and Occupational Pensions Authority\",\n      \"url\": \"https://www.eiopa.europa.eu/qa-regulation/questions-and-answers-database/dora038-2991_en\",\n      \"content\": \"DORA038 - 2991 - European Insurance and Occupational Pensions Authority\\n\\n# Q&A\\n\\nRegulation Reference: (EU) 2022/2554 - Digital Operational Resilience Act (DORA) \\n\\nTopic: Other DORA topics \\n\\nArticle: 12\\n\\nStatus: Final\\n\\nDate of submission: 14 Feb 2024\\n\\n## Question\\n\\nArt. 12 III DORA: When restoring backup data using own systems, financial entities shall use ICT systems that are physically and logically segregated from the source ICT system. What does DORA mean by \\\"recovering backed-up data using own systems\\\"? What does \\\"own systems\\\" mean? What is the source ICT system? The productive system whose data is backed-up or the system where the backed-up data is stored?\\n\\n## EIOPA answer\\n\\nThe terms “own systems” and “source ICT systems” are not defined in DORA. However, in order to understand the policy intention behind Article 12(3) of DORA, the provisions should be understood as restoring the backup data by using ICT systems for which the financial entity has full control and responsibility. When the financial entity restores the backup data, it shall use ICT systems that are not directly connected with the main one and that are securely protected from any unauthorized access or ICT corruption.\"\n    },\n    {\n      \"title\": \"Digital operational resilience Regulation (DORA) | European Banking Authority\",\n      \"url\": \"https://www.eba.europa.eu/regulation-and-policy/single-rulebook/interactive-single-rulebook/17716\",\n      \"content\": \"Digital operational resilience Regulation (DORA) | European Banking Authority\\n\\n# Digital operational resilience Regulation (DORA) \\n\\n- CHAPTER I: General provisions \\n\\n- Article 1: Subject matter \\n- Article 2: Scope \\n- Article 3: Definitions \\n- Article 4: Proportionality principle \\n- ",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "9"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "www.bafin.de",
+      "www.eba.europa.eu",
+      "www.eiopa.europa.eu"
+    ]
+  }
+}

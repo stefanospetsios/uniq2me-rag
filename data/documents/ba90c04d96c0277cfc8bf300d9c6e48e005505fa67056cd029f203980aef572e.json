@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-17T12:01:23Z",
+  "originRunId": "qwen3-39027246178",
+  "source": {
+    "id": "7-source-4",
+    "type": "guidance",
+    "title": "DORA Incident Reporting – Operational Instructions",
+    "publisher": "European Supervisory Authorities (ESMA, EBA, EIOPA)",
+    "url": "https://www.esma.europa.eu/sites/default/files/2026-09/DORA_Incident_reporting_-_Operational_instructions.pdf",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "Competent authorities and financial entities for implementation of DORA incident reporting requirements (RTS/ITS 2025/301 and 2025/302)",
+    "publicationDate": "2026-09-16",
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:b39891ae3c337ab8fc43aac3874c67090e3782df82a2aa22628e059fc8139777",
+    "textDigest": "sha256:b521757e939e381fdacd7121a7b348e3e64e1728e3bc2fc8ba0bf1cab96c861f",
+    "finalUrl": "https://www.esma.europa.eu/sites/default/files/2026-09/DORA_Incident_reporting_-_Operational_instructions.pdf",
+    "retrievedAt": "2026-10-17T12:01:23Z",
+    "contentType": "application/pdf",
+    "snapshotPath": "source-b39891ae3c337ab8fc43aac3874c67090e3782df82a2aa22628e059fc8139777.bin",
+    "textPath": "source-b521757e939e381fdacd7121a7b348e3e64e1728e3bc2fc8ba0bf1cab96c861f.txt"
+  },
+  "files": {
+    "snapshots/source-b39891ae3c337ab8fc43aac3874c67090e3782df82a2aa22628e059fc8139777.bin": "sha256:b39891ae3c337ab8fc43aac3874c67090e3782df82a2aa22628e059fc8139777",
+    "snapshots/source-b521757e939e381fdacd7121a7b348e3e64e1728e3bc2fc8ba0bf1cab96c861f.txt": "sha256:b521757e939e381fdacd7121a7b348e3e64e1728e3bc2fc8ba0bf1cab96c861f"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.esma.europa.eu/sites/default/files/2026-09/DORA_Incident_reporting_-_Operational_instructions.pdf",
+  "language": "en",
+  "retrievedAt": "2026-10-17T12:01:23Z",
+  "foundIn": {
+    "runId": "qwen3-39027246178",
+    "sourceOriginRunId": "qwen3-39027246178",
+    "controllerCommit": "d89be5fa1db8a5d843a884c3c22f6358220c8789",
+    "recordedAt": "2026-10-17T12:01:23Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "originalText": "                                                                                                                                           16 September 2026\n\n\n\nDORA Incident Reporting – Operational Instructions\nPURPOSE:\nThis document provides operational instructions intended to support competent authorities in their supervisory engagement with financial entities\nregarding the reporting of information on the major ICT-related incidents under Regulation (EU) 2022/2554 (DORA), to enhance data quality and\npromote greater consistency across jurisdictions.\nThe instructions are provided on ‘best efforts’ basis by the ESAs staff and therefore they do not represent any legal interpretation, nor do they represent\nofficial stance of the ESAs. These instructions have been agreed with the relevant com",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "7"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "European Supervisory Authorities (ESMA, EBA, EIOPA)",
+    "host": "www.esma.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

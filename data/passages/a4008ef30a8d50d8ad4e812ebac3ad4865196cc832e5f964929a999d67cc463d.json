@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "a4008ef30a8d50d8ad4e812ebac3ad4865196cc832e5f964929a999d67cc463d",
+  "cachedAt": "2026-10-17T11:20:54Z",
+  "originRunId": "qwen3-39027246178",
+  "sourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+  "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+  "language": "en",
+  "publisher": "European Union",
+  "title": "Regulation (EU) 2022/2554 on digital operational resilience for the financial sector",
+  "retrievedAt": "2026-10-17T06:59:32Z",
+  "byteDigest": "sha256:85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c",
+  "textDigest": "sha256:1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786",
+  "sourceId": "1-source-1",
+  "passageId": "p2",
+  "locator": "Recital 21",
+  "quotation": "financial entities should have policies in place for the testing of ICT systems, controls and processes, as well as for managing ICT third-party risk.",
+  "originalText": "incidents and for reporting major ICT-related incidents. Likewise, financial entities should have policies in place for\n             the testing of ICT systems, controls and processes, as well as for managing ICT third-party risk. The digital\n             operational resilience baseline for financial entities should be increased while also allowing for a proportionate\n             application of requirements for certain financial entities, particularly",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-39027246178",
+    "sourceOriginRunId": "qwen3-38995572810",
+    "controllerCommit": "d89be5fa1db8a5d843a884c3c22f6358220c8789",
+    "recordedAt": "2026-10-17T11:20:54Z",
+    "webRecheckedThisRun": false,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "European Union",
+    "host": "eur-lex.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

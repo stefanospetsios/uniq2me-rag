@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-scope",
+  "cachedAt": "2026-10-17T11:13:12Z",
+  "scopeId": "0",
+  "fingerprint": "dd78b44718cfe94a6a0bb596c21b2bd472c5755e0a71eacbe85e847efadae8b2",
+  "originRunId": "qwen3-39027246178",
+  "controllerCommit": "d89be5fa1db8a5d843a884c3c22f6358220c8789",
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "scope-admitted",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ]
+  },
+  "corpus": {
+    "sources": {
+      "0-source-1": {
+        "type": "law",
+        "title": "Regulation (EU) 2022/2554 of the European Parliament and of the Council on digital operational resilience for the financial sector",
+        "publisher": "European Union",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+        "language": "en",
+        "jurisdiction": "European Union",
+        "applicability": "Directly applicable to financial entities across EU Member States as defined in Articles 2-3; establishes entity scope, proportionality principles, governance requirements, and simplified framework provisions under Articles 1, 2, 3, 4, 5, and 16",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "0-source-1",
+        "byteDigest": "sha256:85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c",
+        "textDigest": "sha256:1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786",
+        "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+        "retrievedAt": "2026-10-17T06:59:32Z",
+        "contentType": "application/pdf",
+        "snapshotPath": "source-85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c.bin",
+        "textPath": "source-1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "cacheReuse": {
+          "originRunId": "qwen3-38995572810",
+          "cacheCommit": "5184f62a27e5f9d715e02fd2a53173063a48826f",
+          "reusedAt": "2026-10-17T11:12:10Z",
+          "webRecheckedThisRun": false
+        },
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "recital (13)",
+            "text": "Financial entities should follow the same approach and the same principle-based rules when addressing ICT risk taking into account their size and overall risk profile, and the nature, scale and complexity of their services, activities and operations."
+          },
+          {
+            "id": "p2",
+            "locator": "recital (21)",
+            "text": "In order to maintain full control over ICT risk, financial entities need to have comprehensive capabilities to enable a strong and effective ICT risk management, as well as specific mechanisms and policies for handling all ICT-related incidents and for reporting major ICT-related incidents."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "0-source-2": {
+        "type": "law",
+        "title": "Regulatory Technical Standards on ICT risk management framework and on simplified ICT risk management framework",
+        "publisher": "European Banking Authority",
+        "url": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/regulatory-technical-standards-ict-risk-management-framework-and-simplified-ict-risk-management",
+        "language": "en",
+        "jurisdiction": "European Union",
+        "applicability": "Specifies binding requirements for ICT risk management framework implementation, including proportionality considerations and simplified framework application as mandated by DORA Articles 5-16; applicable from 15 July 2024",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "0-source-2",
+        "byteDigest": "sha256:9a71c8b99ee93acae8d40db9ff5d3b792023d8028fa65e70ea3ba3d7c61d892b",
+        "textDigest": "sha256:60abe1232630b526e8e7a318beeec1e0531282b55ad22d46458b55e298357688",
+        "finalUrl": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/regulatory-technical-standards-ict-risk-management-framework-and-simplified-ict-risk-management",
+        "retrievedAt": "2026-10-17T08:18:03Z",
+        "contentType": "text/html; charset=UTF-8",
+        "snapshotPath": "source-9a71c8b99ee93acae8d40db9ff5d3b792023d8028fa65e70ea3ba3d7c61d892b.bin",
+        "textPath": "source-60abe1232630b526e8e7a318beeec1e0531282b55ad22d46458b55e298357688.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "cacheReuse": {
+          "originRunId": "qwen3-39016085901",
+          "cacheCommit": "5184f62a27e5f9d715e02fd2a53173063a48826f",
+          "reusedAt": "2026-10-17T11:12:10Z",
+          "webRecheckedThisRun": false
+        },
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "RTS summary",
+            "text": "The Regulatory Technical Standards on ICT risk management framework identify further elements related to ICT risk management with a view to harmonise tools, methods, processes and policies. These elements are complementary to those identified in DORA."
+          },
+          {
+            "id": "p2",
+            "locator": "RTS summary",
+            "text": "The RTS identify the key elements that financial entities subject to the simplified regime and of lower scale, risk, size and complexity would need to have in place, setting out a simplified ICT risk management framework."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "0-source-3": {
+        "type": "guidance",
+        "title": "Amended Guidelines on ICT and security risk management measures in the context of DORA application",
+        "publisher": "European Banking Authority",
+        "url": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-amends-its-guidelines-ict-and-security-risk-management-measures-context-dora-application",
+        "language": "en",
+        "jurisdiction": "European Union",
+        "applicability": "Provides official supervisory guidance on ICT risk management governance and proportionality, clarifying requirements for management body accountability under DORA Articles 4, 5, and 16; narrows scope to DORA-covered entities",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "0-source-3",
+        "byteDigest": "sha256:c70c23a609a1b326b12e02f0961c87fd56c647f7365922896b7e1a241e952f6b",
+        "textDigest": "sha256:fb8ebace18333a6487fd89b1a868ef0f82150abe78c72db771612f76cb58071a",
+        "finalUrl": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-amends-its-guidelines-ict-and-security-risk-management-measures-context-dora-application",
+        "retrievedAt": "2026-10-17T11:10:30Z",
+        "contentType": "text/html; charset=UTF-8",
+        "snapshotPath": "source-c70c23a609a1b326b12e02f0961c87fd56c647f7365922896b7e1a241e952f6b.bin",
+        "textPath": "source-fb8ebace18333a6487fd89b1a868ef0f82150abe78c72db771612f76cb58071a.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "cacheReuse": {
+          "originRunId": "qwen3-39027246178",
+          "cacheCommit": null,
+          "reusedAt": "2026-10-17T11:12:10Z",
+          "webRecheckedThisRun": true
+        },
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Press release",
+            "text": "The European Banking Authority (EBA) narrowed down the scope of its existing Guidelines on ICT and security risk management measures, due to the application of harmonised ICT risk management requirements under the Digital Operational Resilience Act (DORA) from 17 January 2025."
+          },
+          {
+            "id": "p2",
+            "locator": "Press release",
+            "text": "DORA has introduced harmonised requirements on ICT risk management that apply to financial entities across the banking, securities/markets, insurance and pensions sectors."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      }
+    },
+    "concerns": [
+      {
+        "id": "0-concern-1",
+        "sfsId": "0",
+        "description": "Determine whether the assessed legal entity qualifies for proportionality considerations based on size, risk profile, and operational complexity under DORA",
+        "sourceRefs": [
+          {
+            "sourceId": "0-source-1",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "0-concern-2",
+        "sfsId": "0",
+        "description": "Verify applicability of the simplified ICT risk management framework for financial entities of lower scale, risk, size, and complexity",
+        "sourceRefs": [
+          {
+            "sourceId": "0-source-2",
+            "passageId": "p2"
+          }
+        ]
+      },
+      {
+        "id": "0-concern-3",
+        "sfsId": "0",
+        "description": "Confirm management body accountability for comprehensive ICT risk management capabilities and incident reporting mechanisms",
+        "sourceRefs": [
+          {
+            "sourceId": "0-source-1",
+            "passageId": "p2"
+          },
+          {
+            "sourceId": "0-source-3",
+            "passageId": "p1"
+          }
+        ]
+      }
+    ],
+    "queries": [
+      {
+        "scope": "0",
+        "toolId": "searxng_web_search",
+        "input": {
+          "query": "site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA full text DORA: Applicability, proportionality and governance",
+          "max_results": 5,
+          "safesearch": 1,
+          "time_range": ""
+        },
+        "outputDigest": "sha256:b79d501f1d808a4032cf3ab36bb76d742c89cf33ba12a5410c6529d395fc7c65",
+        "callId": "sources-0-1-discovery",
+        "reusedScopeObservation": true
+      },
+      {
+        "scope": "0",
+        "toolId": "websearch_web_search",
+        "input": {
+          "query": "site:eba.europa.eu DORA Regulation (EU) 2022/2554 entity scope proportionality management body simplified framework applicability governance",
+          "max_results": 5
+        },
+        "outputDigest": "sha256:e63a2b691e5ae437618c68f1e875056b923f591a3c1a49f1aa1df69613fafde4",
+        "callId": "sources-0-1-discovery",
+        "reusedScopeObservation": true
+      },
+      {
+        "scope": "0",
+        "toolId": "searxng_web_search",
+        "input": {
+          "query": "site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA full text DORA: Applicability, proportionality and governance",
+          "max_results": 8,
+          "safesearch": 1
+        },
+        "outputDigest": "sha256:29852593e512cf6a72c50f840b88c9172ba5aa50d51ac30a1ad3a60402701be5",
+        "callId": "sources-0-2-discovery"
+      },
+      {
+        "scope": "0",
+        "toolId": "websearch_web_search",
+        "input": {
+          "query": "site:eba.europa.eu DORA DORA, Regulation (EU) 2022/2554, entity scope, proportionality, management body, simplified framework, applicability, governance",
+          "max_results": 8
+        },
+        "outputDigest": "sha256:e0e9561f88c3ca562407e118653a1eafce4b0bb2c513214a4d0caa1e8818e374",
+        "callId": "sources-0-2-discovery"
+      }
+    ],
+    "limitations": [
+      {
+        "scope": "0",
+        "description": "brave, google cse, wikipedia engines were unresponsive during searxng search per reported unresponsive_engines"
+      },
+      {
+        "scope": "0",
+        "description": "Exact publication and effective dates not explicitly observed in search results; to be verified during document download phase"
+      },
+      {
+        "scope": "0",
+        "description": "Search focused on EU-level implementation; national competent authority guidance not required for DORA's direct applicability regime"
+      },
+      {
+        "scope": "0",
+        "description": "Replaced JavaScript-challenged URL (https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng) with verified CELEX PDF alternative per searxng discovery results"
+      },
+      {
+        "scope": "0",
+        "description": "Source 3 (EBA Guidelines) is a press release announcing amended guidelines rather than the regulatory text itself"
+      },
+      {
+        "scope": "0",
+        "description": "Specific criteria for simplified framework implementation require reference to full RTS document beyond provided excerpt"
+      },
+      {
+        "scope": "0",
+        "description": "No observed national implementation guidance since DORA establishes directly applicable EU framework"
+      },
+      {
+        "scope": "0",
+        "description": "Some source URLs were observed in earlier discovery calls for this same scope; original tool provenance is retained."
+      },
+      {
+        "scope": "0",
+        "description": "Some documents came from prior fetched snapshots with original retrieval dates; their current web contents were not rechecked in this run."
+      }
+    ],
+    "admissionVersion": 2,
+    "observedResultUrls": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+      "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/regulatory-technical-standards-ict-risk-management-framework-and-simplified-ict-risk-management",
+      "https://www.eba.europa.eu/publications-and-media/press-releases/eba-amends-its-guidelines-ict-and-security-risk-management-measures-context-dora-application"
+    ],
+    "frameworkId": "dora"
+  },
+  "files": {
+    "snapshots/source-85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c.bin": "sha256:85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c",
+    "snapshots/source-1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786.txt": "sha256:1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786",
+    "snapshots/source-9a71c8b99ee93acae8d40db9ff5d3b792023d8028fa65e70ea3ba3d7c61d892b.bin": "sha256:9a71c8b99ee93acae8d40db9ff5d3b792023d8028fa65e70ea3ba3d7c61d892b",
+    "snapshots/source-60abe1232630b526e8e7a318beeec1e0531282b55ad22d46458b55e298357688.txt": "sha256:60abe1232630b526e8e7a318beeec1e0531282b55ad22d46458b55e298357688",
+    "snapshots/source-c70c23a609a1b326b12e02f0961c87fd56c647f7365922896b7e1a241e952f6b.bin": "sha256:c70c23a609a1b326b12e02f0961c87fd56c647f7365922896b7e1a241e952f6b",
+    "snapshots/source-fb8ebace18333a6487fd89b1a868ef0f82150abe78c72db771612f76cb58071a.txt": "sha256:fb8ebace18333a6487fd89b1a868ef0f82150abe78c72db771612f76cb58071a"
+  }
+}

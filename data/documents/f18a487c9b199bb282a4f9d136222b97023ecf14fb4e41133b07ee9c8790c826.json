@@ -3,14 +3,14 @@
   "cachedAt": "2026-10-17T08:18:03Z",
   "originRunId": "qwen3-39016085901",
   "source": {
-    "id": "0-source-2",
-    "type": "law",
+    "id": "1-source-3",
+    "type": "guidance",
     "title": "Regulatory Technical Standards on ICT risk management framework and on simplified ICT risk management framework",
-    "publisher": "European Union",
+    "publisher": "European Banking Authority (EBA)",
     "url": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/regulatory-technical-standards-ict-risk-management-framework-and-simplified-ict-risk-management",
     "language": "en",
     "jurisdiction": "European Union",
-    "applicability": "Specifies requirements for standard and simplified ICT risk management frameworks under DORA Articles 5 and 16, applicable to financial entities based on size, risk, and complexity",
+    "applicability": "Harmonises ICT risk management requirements across financial sectors; identifies elements for standard and simplified frameworks under Articles 6 and 16 of DORA",
     "publicationDate": null,
     "effectiveDate": null,
     "redistribution": "metadata-and-short-passages",
@@ -18,8 +18,13 @@
     "passages": [
       {
         "id": "p1",
-        "locator": "Regulatory Technical Standards description",
-        "text": "The RTS identify the key elements that financial entities subject to the simplified regime and of lower scale, risk, size and complexity would need to have in place, setting out a simplified ICT risk management framework."
+        "locator": "Page content",
+        "text": "The Regulatory Technical Standards on ICT risk management framework identify further elements related to ICT risk management with a view to harmonise tools, methods, processes and policies."
+      },
+      {
+        "id": "p2",
+        "locator": "Page content",
+        "text": "These elements are complementary to those identified in DORA. The RTS identify the key elements that financial entities subject to the simplified regime and of lower scale, risk, size and complexity would need to have in place, setting out a simplified ICT risk management framework."
       }
     ],
     "quotationMatchPolicy": "unicode-typography-v1",
@@ -41,11 +46,11 @@
   "language": "en",
   "retrievedAt": "2026-10-17T08:18:03Z",
   "foundIn": {
-    "runId": "qwen3-39016085901",
+    "runId": "qwen3-39027246178",
     "sourceOriginRunId": "qwen3-39016085901",
-    "controllerCommit": "fcf8ce2b0b856e4ac2c0959ba3c3e2b91b06190b",
-    "recordedAt": "2026-10-17T08:20:03Z",
-    "webRecheckedThisRun": true,
+    "controllerCommit": "d89be5fa1db8a5d843a884c3c22f6358220c8789",
+    "recordedAt": "2026-10-17T11:20:54Z",
+    "webRecheckedThisRun": false,
     "phase": "prepare",
     "frameworkId": "dora",
     "task": null
@@ -58,13 +63,13 @@
       "en"
     ],
     "scopeIds": [
-      "0"
+      "1"
     ],
     "phases": [
       "prepare"
     ],
     "status": "fetched-and-passage-checked",
-    "publisher": "European Union",
+    "publisher": "European Banking Authority (EBA)",
     "host": "www.eba.europa.eu",
     "frameworkIds": [
       "dora"

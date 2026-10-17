@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-download-retry",
+  "id": "f85d8ce552ce70b171f5a3922e66a094270bdadc6ed4c7699fd48a5e945484e7",
+  "cachedAt": "2026-10-17T11:10:30Z",
+  "originRunId": "qwen3-39027246178",
+  "sourceUrl": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng",
+  "candidate": {
+    "type": "law",
+    "title": "Regulation (EU) 2022/2554 of the European Parliament and of the Council on digital operational resilience for the financial sector",
+    "publisher": "European Union",
+    "url": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "Directly applicable to financial entities across EU Member States as defined in Articles 2-3; establishes entity scope, proportionality principles, governance requirements, and simplified framework provisions under Articles 1, 2, 3, 4, 5, and 16",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "id": "0-source-1"
+  },
+  "language": "en",
+  "scopeId": "0",
+  "status": "pending-download",
+  "firstFailedAt": "2026-10-17T11:10:30Z",
+  "firstFailureContext": {
+    "runId": "qwen3-39027246178",
+    "controllerCommit": "d89be5fa1db8a5d843a884c3c22f6358220c8789",
+    "phase": "prepare"
+  },
+  "lastAttemptAt": "2026-10-17T11:10:30Z",
+  "attempts": 1,
+  "lastError": "Source document is unavailable or incomplete: JavaScript/bot challenge page; retry the document download",
+  "foundIn": {
+    "runId": "qwen3-39027246178",
+    "controllerCommit": "d89be5fa1db8a5d843a884c3c22f6358220c8789",
+    "phase": "prepare"
+  },
+  "retryOnNextRun": true,
+  "originalText": null,
+  "evidenceAdmitted": false,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "pending-download",
+    "publisher": "European Union",
+    "host": "eur-lex.europa.eu"
+  }
+}
