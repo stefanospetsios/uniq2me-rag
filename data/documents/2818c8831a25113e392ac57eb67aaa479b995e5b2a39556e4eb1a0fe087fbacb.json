@@ -40,10 +40,10 @@
   "language": "en",
   "retrievedAt": "2026-10-15T19:53:34Z",
   "foundIn": {
-    "runId": "qwen3-39018925827",
+    "runId": "qwen3-39025326785",
     "sourceOriginRunId": "qwen3-38797190227",
-    "controllerCommit": "96e901cb0a947cd3694f606f3ac28deffcf5a88b",
-    "recordedAt": "2026-10-17T08:55:53Z",
+    "controllerCommit": "cc329937095f08510f36e3acf902ee7f6b45adc8",
+    "recordedAt": "2026-10-17T10:36:44Z",
     "webRecheckedThisRun": false,
     "phase": "preflight",
     "frameworkId": "dora",
