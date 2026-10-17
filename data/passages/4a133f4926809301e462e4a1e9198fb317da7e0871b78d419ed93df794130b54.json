@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "4a133f4926809301e462e4a1e9198fb317da7e0871b78d419ed93df794130b54",
+  "cachedAt": "2026-10-17T06:52:26Z",
+  "originRunId": "qwen3-38995572810",
+  "sourceUrl": "https://docs.ollama.com/faq",
+  "finalUrl": "https://docs.ollama.com/faq",
+  "language": "en",
+  "publisher": "Ollama",
+  "title": "Ollama FAQ",
+  "retrievedAt": "2026-10-15T19:53:34Z",
+  "byteDigest": "sha256:a90732364e9c5bac7432f57dd20d9d61180e018594790e48dc26f704c348d334",
+  "textDigest": "sha256:1778168ee6f0c44222705704677ee240344e65d11a08624b5c4d8aa5402ac5e9",
+  "sourceId": null,
+  "passageId": "p1",
+  "locator": "heading or paragraph",
+  "quotation": "By default, Ollama uses a context window size of 4096 tokens.",
+  "originalText": "By default, Ollama uses a context window size of 4096 tokens.",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-38995572810",
+    "sourceOriginRunId": "qwen3-38797190227",
+    "controllerCommit": "01db40a04a8b34138dee548d202a050a92d29c57",
+    "recordedAt": "2026-10-17T06:52:26Z",
+    "webRecheckedThisRun": false,
+    "phase": "preflight",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [],
+    "phases": [
+      "preflight"
+    ],
+    "status": "passage-checked",
+    "publisher": "Ollama",
+    "host": "docs.ollama.com",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

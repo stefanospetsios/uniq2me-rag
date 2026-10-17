@@ -17,7 +17,7 @@
     "passages": [
       {
         "id": "p1",
-        "locator": "paragraph",
+        "locator": "heading or paragraph",
         "text": "By default, Ollama uses a context window size of 4096 tokens."
       }
     ],
@@ -40,12 +40,13 @@
   "language": "en",
   "retrievedAt": "2026-10-15T19:53:34Z",
   "foundIn": {
-    "runId": "qwen3-38804802602",
+    "runId": "qwen3-38995572810",
     "sourceOriginRunId": "qwen3-38797190227",
-    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
-    "recordedAt": "2026-10-15T20:51:18Z",
+    "controllerCommit": "01db40a04a8b34138dee548d202a050a92d29c57",
+    "recordedAt": "2026-10-17T06:52:26Z",
     "webRecheckedThisRun": false,
     "phase": "preflight",
+    "frameworkId": "dora",
     "task": null
   },
   "originalText": "FAQ - Ollama\n\n\nDocumentation Index\n\n\nFetch the complete documentation index at:\n \n/llms.txt\n\n\nUse this file to discover all available pages before exploring further.\n\n\nSkip to main content\nOllama\n home page\n\n\n\n\nSearch...\n\n\n\n\n⌘\nK\n\n\n\n\nGet started\n\n\n\n\nWelcome\n\n\n\n\n\n\nQuickstart\n\n\n\n\n\n\nCloud\n\n\n\n\n\n\n\n\nCapabilities\n\n\n\n\nStreaming\n\n\n\n\n\n\nThinking\n\n\n\n\n\n\nStructured Outputs\n\n\n\n\n\n\nDecision\n\n\n\n\n\n\nVision\n\n\n\n\n\n\nEmbeddings\n\n\n\n\n\n\nTool calling\n\n\n\n\n\n\nWeb search\n\n\n\n\n\n\n\n\nMore information\n\n\n\n\nCLI Reference\n\n\n\n\n\n\nModelfile Reference\n\n\n\n\n\n\nContext length\n\n\n\n\n\n\nLinux\n\n\n\n\n\n\nmacOS\n\n\n\n\n\n\nWindows\n\n\n\n\n\n\nDocker\n\n\n\n\n\n\nImporting a Model\n\n\n\n\n\n\nFAQ\n\n\n\n\n\n\nHardware support\n\n\n\n\n\n\nTroubleshooting\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSign in\n\n\n\n\n\n\n\n\nDownload\n\n\n\n\n\n\n\n\n\n\n\n\nGuide\n\n\nIntegrations\n\n\nAPI Reference\n\n\n\n\n\n\n\n\nOllama\n home page\n\n\n\n\nSearch...\n\n\n\n\n⌘\nK\n",
@@ -61,6 +62,9 @@
     ],
     "status": "fetched-and-passage-checked",
     "publisher": "Ollama",
-    "host": "docs.ollama.com"
+    "host": "docs.ollama.com",
+    "frameworkIds": [
+      "dora"
+    ]
   }
 }

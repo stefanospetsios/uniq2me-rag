@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "7f0d09524c7cd8427d7b1e434c824cf595a21ee5ebc05304c406914af4aedd4d",
+  "cachedAt": "2026-10-17T06:52:26Z",
+  "observedAt": "2026-10-17T06:52:26Z",
+  "originRunId": "qwen3-38995572810",
+  "foundIn": {
+    "runId": "qwen3-38995572810",
+    "controllerCommit": "01db40a04a8b34138dee548d202a050a92d29c57",
+    "phase": "preflight",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "runner-smoke",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": null,
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "time_range": "year",
+    "query": "Ollama context length configuration"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792219906006,
+    "end": 1792219906755
+  },
+  "outputDigest": "sha256:28c978c891033c7d82e8dec47f5450210390ebda05670576f4b9c64cae04ed53",
+  "resultUrls": [
+    "https://adhdecode.com/articles/ollama/ollama-model-context-length-configuration/",
+    "https://gigagpu.com/ollama-context-length-configuration/",
+    "https://github.com/microsoft/vscode/issues/299907",
+    "https://mljourney.com/ollama-parameters-guide-temperature-context-memory-and-gpu-settings/",
+    "https://www.urhoba.net/en/post/ollama-context-length-memory-management"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Ollama context length configuration\",\n  \"results\": [\n    {\n      \"title\": \"Ollama Context Length Configuration - GIGAGPU\",\n      \"url\": \"https://gigagpu.com/ollama-context-length-configuration/\",\n      \"content\": \"Ollama Context Length Configuration Configure Ollama context length for different use cases. Covers num_ctx parameter, VRAM impact calculations, per-request overrides, Modelfile defaults, and long-context model selection on GPU servers.\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Ollama Context Length: OLLAMA_CONTEXT_LENGTH and num_ctx\",\n      \"url\": \"https://www.urhoba.net/en/post/ollama-context-length-memory-management\",\n      \"content\": \"Context Length and Memory Management Why does the model seem to \\\"forget\\\" long text? Learn what context length is, the defaults Ollama picks from your VRAM, and what a bigger context costs in memory.\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Ollama Context Length: Configure num_ctx for Models (2026)\",\n      \"url\": \"https://adhdecode.com/articles/ollama/ollama-model-context-length-configuration/\",\n      \"content\": \"The num_ctx parameter directly controls the context_length parameter within the model's configuration file. When you run ollama run <model> --num-ctx <value>, Ollama creates or updates a modelfile for that specific run, setting the context length.\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Ollama Parameters Guide: Temperature, Context, Memory and GPU Settings\",\n      \"url\": \"https://mljourney.com/ollama-parameters-guide-temperature-context-memory-and-gpu-settings/\",\n      \"content\": \"Ollama has a large set of parameters that control how models behave, how much memory they use, and how they run on your hardware. Most users never touch these and get reasonable results — but knowing what's available and what each setting does unlocks significantly better outcomes for spe",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [],
+    "phases": [
+      "preflight"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "adhdecode.com",
+      "gigagpu.com",
+      "github.com",
+      "mljourney.com",
+      "www.urhoba.net"
+    ]
+  }
+}
