@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "c6b43e32e6a2b7ca9e62d8112db2477de1753da0a8b5baacfae57223fee2b8df",
+  "cachedAt": "2026-10-17T08:55:53Z",
+  "observedAt": "2026-10-17T08:55:53Z",
+  "originRunId": "qwen3-39018925827",
+  "foundIn": {
+    "runId": "qwen3-39018925827",
+    "controllerCommit": "96e901cb0a947cd3694f606f3ac28deffcf5a88b",
+    "phase": "preflight",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "runner-smoke",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": null,
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "Ollama FAQ 4096 tokens"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792227326334,
+    "end": 1792227327066
+  },
+  "outputDigest": "sha256:058a23f28e457fd99bdf7237d6d4260c26bae16e6062b6e675ccb53d8b74c382",
+  "resultUrls": [
+    "http://localhost:11434",
+    "http://localhost:11434/api/chat",
+    "http://localhost:11434/api/generate",
+    "http://localhost:11434;",
+    "https://docs.ollama.com/faq",
+    "https://my.proxy.example.com",
+    "https://ollama.com/install.sh",
+    "https://ollama.com/settings/keys",
+    "https://proxy.example.com`"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"FAQ - Ollama\",\n      \"url\": \"https://docs.ollama.com/faq\",\n      \"content\": \"FAQ - Ollama\\n\\n# FAQ\\n\\nHow can I upgrade Ollama?\\n\\nOllama on macOS and Windows will automatically download updates. Click on the taskbar or menubar item and then click “Restart to update” to apply the update. Updates can also be installed by downloading the latest version manually. On Linux, re-run the install script:\\n\\n```\\ncurl -fsSL https://ollama.com/install.sh | sh\\n\\n```\\n\\nHow can I view the logs?\\n\\nReview the Troubleshooting docs for more about using logs.\\n\\nIs my GPU compatible with Ollama?\\n\\nPlease refer to the GPU docs.\\n\\nHow can I specify the context window size?\\n\\nBy default, Ollama uses a context window size of 4096 tokens. This can be overridden with the `OLLAMA_CONTEXT_LENGTH` environment variable. For example, to set the default context window to 8K, use:\\n\\n```\\nOLLAMA_CONTEXT_LENGTH=8192 ollama serve\\n\\n```\\n\\nTo change this when using `ollama run`, use `/set parameter`:\\n\\n```\\n/set parameter num_ctx 4096\\n\\n```\\n\\nWhen using the API, specify the `num_ctx` parameter:\\n\\n```\\ncurl http://localhost:11434/api/generate -d '{\\n  \\\"model\\\": \\\"llama3.2\\\",\\n  \\\"prompt\\\": \\\"Why is the sky blue?\\\",\\n  \\\"options\\\": {\\n    \\\"num_ctx\\\": 4096\\n  }\\n}'\\n\\n```\\n\\nHow can I tell if my model was loaded onto the GPU?\\n\\nUse the `ollama ps` command to see what models are currently loaded into memory.\\n\\n```\\nollama ps\\n\\n```\\n\\nOutput:\\n\\n```\\nNAME        ID            SIZE    PROCESSOR   UNTIL\\nllama3:70b  bcfb190ca3a7  42 GB   100% GPU    4 minutes from now\\n\\n```\\n\\nThe `Processor` column will show which memory the model was loaded into:\\n\\n- `100% GPU` means the model was loaded entirely into the GPU\\n- `100% CPU` means the model was loaded entirely in system memory\\n- `48%/52% CPU/GPU` means the model was loaded partially onto both the GPU and into system memory\\n\\nHow do I configure Ollama server?\\n\\nOllama server can be configured with ",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [],
+    "phases": [
+      "preflight"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "docs.ollama.com",
+      "localhost",
+      "my.proxy.example.com",
+      "ollama.com",
+      "proxy.example.com`"
+    ]
+  }
+}

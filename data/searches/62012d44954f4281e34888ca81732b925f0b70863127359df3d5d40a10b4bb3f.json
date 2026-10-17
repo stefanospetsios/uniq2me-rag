@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "62012d44954f4281e34888ca81732b925f0b70863127359df3d5d40a10b4bb3f",
+  "cachedAt": "2026-10-17T08:53:55Z",
+  "observedAt": "2026-10-17T08:53:55Z",
+  "originRunId": "qwen3-39018925827",
+  "foundIn": {
+    "runId": "qwen3-39018925827",
+    "controllerCommit": "96e901cb0a947cd3694f606f3ac28deffcf5a88b",
+    "phase": "preflight",
+    "callId": "direct-mcp-probe",
+    "invocation": 1,
+    "scopeId": null,
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Ollama keep_alive official documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": null,
+  "outputDigest": "sha256:91dd1f9f58f2ec4749a3aa257e82b12dcfabe79d7f34fb0aee209d7ed1a72425",
+  "resultUrls": [
+    "http://localhost:11434/api/chat",
+    "https://bluegrid.io/glossary/ai/ollama-keep-alive/",
+    "https://docs.openwebui.com/getting-started/quick-start/connect-a-provider/starting-with-ollama/",
+    "https://docs.sillytavern.app/",
+    "https://docs.sillytavern.app/.",
+    "https://docs.spring.io/spring-ai/reference/api/chat/ollama-chat.html",
+    "https://ollama.readthedocs.io/en/api/",
+    "https://www.reddit.com/r/SillyTavernAI/comments/1s5nqc3/how_do_you_actually_pass_keep_alive_to_ollama/"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\"content\": [{\"type\": \"text\", \"text\": \"{\\n  \\\"query\\\": \\\"Ollama keep_alive official documentation\\\",\\n  \\\"results\\\": [\\n    {\\n      \\\"title\\\": \\\"API Reference - Ollama English Documentation\\\",\\n      \\\"url\\\": \\\"https://ollama.readthedocs.io/en/api/\\\",\\n      \\\"content\\\": \\\"If the messages array is empty and the keep_alive parameter is set to 0 , a model will be unloaded from memory. Request. curl http://localhost:11434/api/chat -d ...\\\",\\n      \\\"engines\\\": [\\n        \\\"google cse\\\"\\n      ]\\n    },\\n    {\\n      \\\"title\\\": \\\"Ollama Keep Alive - BlueGrid.io\\\",\\n      \\\"url\\\": \\\"https://bluegrid.io/glossary/ai/ollama-keep-alive/\\\",\\n      \\\"content\\\": \\\"It is controlled by the OLLAMA_KEEP_ALIVE environment variable or the keep_alive field in individual API requests. The default value is 5 minutes. Extended ...\\\",\\n      \\\"engines\\\": [\\n        \\\"google cse\\\"\\n      ]\\n    },\\n    {\\n      \\\"title\\\": \\\"Ollama Chat :: Spring AI Reference\\\",\\n      \\\"url\\\": \\\"https://docs.spring.io/spring-ai/reference/api/chat/ollama-chat.html\\\",\\n      \\\"content\\\": \\\"chat is the property prefix that configures the Ollama chat model. It includes the Ollama request (advanced) parameters such as the model , keep-alive , and ...\\\",\\n      \\\"engines\\\": [\\n        \\\"google cse\\\"\\n      ]\\n    },\\n    {\\n      \\\"title\\\": \\\"How do you actually pass keep_alive to ollama : r/SillyTavernAI\\\",\\n      \\\"url\\\": \\\"https://www.reddit.com/r/SillyTavernAI/comments/1s5nqc3/how_do_you_actually_pass_keep_alive_to_ollama/\\\",\\n      \\\"content\\\": \\\"28 Μαρ 2026 ... You can find a lot of information for common issues in the SillyTavern Docs: https://docs.sillytavern.app/. The best place for fast help with ...\\\",\\n      \\\"engines\\\": [\\n        \\\"google cse\\\"\\n      ]\\n    },\\n    {\\n      \\\"title\\\": \\\"Ollama - Open WebUI\\\",\\n      \\\"url\\\": \\\"https://docs.openwebui.com/getting-started/quick-start/connect-a-provider/starting-with-ollama/\\\",\\n      \\\"content\\\": \\\"... keep_alive=0 generate call to every Ollama node",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [],
+    "phases": [
+      "preflight"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "bluegrid.io",
+      "docs.openwebui.com",
+      "docs.sillytavern.app",
+      "docs.spring.io",
+      "localhost",
+      "ollama.readthedocs.io",
+      "www.reddit.com"
+    ]
+  }
+}

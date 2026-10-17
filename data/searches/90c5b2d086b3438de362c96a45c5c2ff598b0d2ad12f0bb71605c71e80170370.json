@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "90c5b2d086b3438de362c96a45c5c2ff598b0d2ad12f0bb71605c71e80170370",
+  "cachedAt": "2026-10-17T08:55:53Z",
+  "observedAt": "2026-10-17T08:55:53Z",
+  "originRunId": "qwen3-39018925827",
+  "foundIn": {
+    "runId": "qwen3-39018925827",
+    "controllerCommit": "96e901cb0a947cd3694f606f3ac28deffcf5a88b",
+    "phase": "preflight",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "runner-smoke",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": null,
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Ollama context window size site:docs.ollama.com"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792227325691,
+    "end": 1792227326762
+  },
+  "outputDigest": "sha256:865f6ceb0e8594e050c487eee47e78ccf60441a7c3173bf8c74b39c0119321e0",
+  "resultUrls": [
+    "https://docs.ollama.com/context-length"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Ollama context window size site:docs.ollama.com\",\n  \"results\": [\n    {\n      \"title\": \"Context length - Ollama\",\n      \"url\": \"https://docs.ollama.com/context-length\",\n      \"content\": \"Change the slider in the Ollama app under settings to your desired context length. ... If editing the context length for Ollama is not possible, the context length can also be updated when serving Ollama. ... For best performance, use the maximum context length for a model, and avoid offloading the model to CPU.\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    }\n  ],\n  \"unresponsive_engines\": [\n    [\n      \"brave\",\n      \"Suspended: too many requests\"\n    ],\n    [\n      \"google cse\",\n      \"too many requests\"\n    ]\n  ]\n}",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [],
+    "phases": [
+      "preflight"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "docs.ollama.com"
+    ]
+  }
+}
