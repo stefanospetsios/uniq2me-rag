@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "ee2ab9819ef6b89b4e9e51ce54142d8daab8503c3f8a71453dfbf16495b0080c",
+  "cachedAt": "2026-10-17T08:20:03Z",
+  "originRunId": "qwen3-39016085901",
+  "sourceUrl": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/regulatory-technical-standards-ict-risk-management-framework-and-simplified-ict-risk-management",
+  "finalUrl": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/regulatory-technical-standards-ict-risk-management-framework-and-simplified-ict-risk-management",
+  "language": "en",
+  "publisher": "European Union",
+  "title": "Regulatory Technical Standards on ICT risk management framework and on simplified ICT risk management framework",
+  "retrievedAt": "2026-10-17T08:18:03Z",
+  "byteDigest": "sha256:9a71c8b99ee93acae8d40db9ff5d3b792023d8028fa65e70ea3ba3d7c61d892b",
+  "textDigest": "sha256:60abe1232630b526e8e7a318beeec1e0531282b55ad22d46458b55e298357688",
+  "sourceId": "0-source-2",
+  "passageId": "p1",
+  "locator": "Regulatory Technical Standards description",
+  "quotation": "The RTS identify the key elements that financial entities subject to the simplified regime and of lower scale, risk, size and complexity would need to have in place, setting out a simplified ICT risk management framework.",
+  "originalText": "The RTS identify the key elements that financial entities subject to the simplified regime and of lower scale, risk, size and complexity would need to have in place, setting out a simplified ICT risk management framework.",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-39016085901",
+    "sourceOriginRunId": "qwen3-39016085901",
+    "controllerCommit": "fcf8ce2b0b856e4ac2c0959ba3c3e2b91b06190b",
+    "recordedAt": "2026-10-17T08:20:03Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "European Union",
+    "host": "www.eba.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

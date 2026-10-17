@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-17T08:21:36Z",
+  "originRunId": "qwen3-39016085901",
+  "source": {
+    "id": "1-source-2",
+    "type": "law",
+    "title": "Commission Delegated Regulation (EU) 2024/1773 on ICT risk management framework and on simplified ICT risk management framework",
+    "publisher": "Publications Office of the European Union",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401773",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "Financial entities subject to DORA, with specific provisions for entities operating under simplified ICT risk management framework",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:3ea757f8b0ec46b760d128607c07a4f272fdb1fd8dae4ec1ff50121d227cafaa",
+    "textDigest": "sha256:c3e86efefb5afed5a72ac6c01f3f120f6a2a4886d8a91f0d095e83d278b26196",
+    "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401773",
+    "retrievedAt": "2026-10-17T08:21:36Z",
+    "contentType": "text/html; charset=UTF-8",
+    "snapshotPath": "source-3ea757f8b0ec46b760d128607c07a4f272fdb1fd8dae4ec1ff50121d227cafaa.bin",
+    "textPath": "source-c3e86efefb5afed5a72ac6c01f3f120f6a2a4886d8a91f0d095e83d278b26196.txt"
+  },
+  "files": {
+    "snapshots/source-3ea757f8b0ec46b760d128607c07a4f272fdb1fd8dae4ec1ff50121d227cafaa.bin": "sha256:3ea757f8b0ec46b760d128607c07a4f272fdb1fd8dae4ec1ff50121d227cafaa",
+    "snapshots/source-c3e86efefb5afed5a72ac6c01f3f120f6a2a4886d8a91f0d095e83d278b26196.txt": "sha256:c3e86efefb5afed5a72ac6c01f3f120f6a2a4886d8a91f0d095e83d278b26196"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401773",
+  "language": "en",
+  "retrievedAt": "2026-10-17T08:21:36Z",
+  "foundIn": {
+    "runId": "qwen3-39016085901",
+    "sourceOriginRunId": "qwen3-39016085901",
+    "controllerCommit": "fcf8ce2b0b856e4ac2c0959ba3c3e2b91b06190b",
+    "recordedAt": "2026-10-17T08:21:36Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "originalText": "\n\n\n\n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n\n\n\n\n    \n\n\n\n    \n\n    \n\n        \nJavaScript is disabled\n\n\n\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    \n\n\n\n",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": false,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Publications Office of the European Union",
+    "host": "eur-lex.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

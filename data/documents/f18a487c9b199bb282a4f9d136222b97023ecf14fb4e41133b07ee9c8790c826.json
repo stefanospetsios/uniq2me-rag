@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-17T08:18:03Z",
+  "originRunId": "qwen3-39016085901",
+  "source": {
+    "id": "0-source-2",
+    "type": "law",
+    "title": "Regulatory Technical Standards on ICT risk management framework and on simplified ICT risk management framework",
+    "publisher": "European Union",
+    "url": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/regulatory-technical-standards-ict-risk-management-framework-and-simplified-ict-risk-management",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "Specifies requirements for standard and simplified ICT risk management frameworks under DORA Articles 5 and 16, applicable to financial entities based on size, risk, and complexity",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "Regulatory Technical Standards description",
+        "text": "The RTS identify the key elements that financial entities subject to the simplified regime and of lower scale, risk, size and complexity would need to have in place, setting out a simplified ICT risk management framework."
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:9a71c8b99ee93acae8d40db9ff5d3b792023d8028fa65e70ea3ba3d7c61d892b",
+    "textDigest": "sha256:60abe1232630b526e8e7a318beeec1e0531282b55ad22d46458b55e298357688",
+    "finalUrl": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/regulatory-technical-standards-ict-risk-management-framework-and-simplified-ict-risk-management",
+    "retrievedAt": "2026-10-17T08:18:03Z",
+    "contentType": "text/html; charset=UTF-8",
+    "snapshotPath": "source-9a71c8b99ee93acae8d40db9ff5d3b792023d8028fa65e70ea3ba3d7c61d892b.bin",
+    "textPath": "source-60abe1232630b526e8e7a318beeec1e0531282b55ad22d46458b55e298357688.txt"
+  },
+  "files": {
+    "snapshots/source-9a71c8b99ee93acae8d40db9ff5d3b792023d8028fa65e70ea3ba3d7c61d892b.bin": "sha256:9a71c8b99ee93acae8d40db9ff5d3b792023d8028fa65e70ea3ba3d7c61d892b",
+    "snapshots/source-60abe1232630b526e8e7a318beeec1e0531282b55ad22d46458b55e298357688.txt": "sha256:60abe1232630b526e8e7a318beeec1e0531282b55ad22d46458b55e298357688"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/regulatory-technical-standards-ict-risk-management-framework-and-simplified-ict-risk-management",
+  "language": "en",
+  "retrievedAt": "2026-10-17T08:18:03Z",
+  "foundIn": {
+    "runId": "qwen3-39016085901",
+    "sourceOriginRunId": "qwen3-39016085901",
+    "controllerCommit": "fcf8ce2b0b856e4ac2c0959ba3c3e2b91b06190b",
+    "recordedAt": "2026-10-17T08:20:03Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "originalText": "\n\n\n  \n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \nRegulatory Technical Standards on ICT risk management framework and on simplified ICT risk management framework | European Banking Authority\n\n    \n\n\n\n\n\n\n    \n  \n\n  \n\n        \n\n      Skip to main content\n    \n\n    \n      \n\n    \n\n\n\n  \n\n    \n\n          \n\n    \n\n  \n\n\n\n\n\n      \n\n  \n\n    \nMenu\n\n    \n\n  \n\n  \n\n    \n\n      \n\n          \n  \n\n                  \n\n          \nExtranet\n\n        \n\n\n\n                        \n\n          \nLog in\n\n        \n\n\n\n            \n\n\n\n\n      \n\n      \n\n        \n\n              \n\n                  \n\n          \nAbout us\n\n          \n\n            \nBack\n\n\n            \n\n              \nAbout us\n\n\n\n                              \n\n                  \nThe EBA is an independent EU Authority.  We play a key role in safeguarding the i",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "European Union",
+    "host": "www.eba.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

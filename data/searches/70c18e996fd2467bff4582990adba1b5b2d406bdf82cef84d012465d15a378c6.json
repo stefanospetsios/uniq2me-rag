@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "70c18e996fd2467bff4582990adba1b5b2d406bdf82cef84d012465d15a378c6",
+  "cachedAt": "2026-10-17T08:28:52Z",
+  "observedAt": "2026-10-17T08:28:52Z",
+  "originRunId": "qwen3-39016085901",
+  "foundIn": {
+    "runId": "qwen3-39016085901",
+    "controllerCommit": "fcf8ce2b0b856e4ac2c0959ba3c3e2b91b06190b",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-1-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "1",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "time_range": "",
+    "query": "site:eur-lex.europa.eu Regulation (EU) 2024/1773 DORA ICT risk management framework"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792225505367,
+    "end": 1792225509634
+  },
+  "outputDigest": "sha256:9613afd87cf2786f79aed4743490d1adf7ca52582833cd1ede2b1d44d47feb6f",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/eli/reg_del/2024/1772/oj/eng",
+    "https://eur-lex.europa.eu/eli/reg_del/2024/1773/oj/eng",
+    "https://eur-lex.europa.eu/eli/reg_del/2024/1774/oj/eng",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202401774",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401774"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"site:eur-lex.europa.eu Regulation (EU) 2024/1773 DORA ICT risk management framework\",\n  \"results\": [\n    {\n      \"title\": \"Delegated regulation - EU - 2024/1773 - EN - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/eli/reg_del/2024/1773/oj/eng\",\n      \"content\": \"Commission Delegated Regulation (EU) 2024/1773 of 13 March 2024 supplementing Regulation (EU) 2022/2554 of the European Parliament and of the Council with regard to regulatory technical standards specifying the detailed content of the policy regarding contractual arrangements on the use of ICT services supporting critical or important functions ...\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Delegated regulation - EU - 2024/1774 - EN - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202401774\",\n      \"content\": \"Commission Delegated Regulation (EU) 2024/1774 of 13 March 2024 supplementing Regulation (EU) 2022/2554 of the European Parliament and of the Council with regard to regulatory technical standards specifying ICT risk management tools, methods, processes, and policies and the simplified ICT risk management framework\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"COMMISSION DELEGATED REGULATION (EU) 2024/1774 of 13 March 2024 - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401774\",\n      \"content\": \"COMMISSION DELEGATED REGULATION (EU) 2024/1774 of 13 March 2024 supplementing Regulation (EU) 2022/2554 of the European Parliament and of the Council with regard to regulatory technical standards specifying ICT risk management tools, methods, processes, and policies and the simplified ICT risk management framework (Text with EEA relevance)\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Delegated regulation - EU - 2024/1774 - EN - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/eli/reg_del/2024/17",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "eur-lex.europa.eu"
+    ]
+  }
+}

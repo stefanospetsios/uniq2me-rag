@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "7fa48b0cfabe5044175c4c07e15bc081a26a4f68d3e3477441b808c227633a29",
+  "cachedAt": "2026-10-17T08:18:03Z",
+  "observedAt": "2026-10-17T08:18:03Z",
+  "originRunId": "qwen3-39016085901",
+  "foundIn": {
+    "runId": "qwen3-39016085901",
+    "controllerCommit": "fcf8ce2b0b856e4ac2c0959ba3c3e2b91b06190b",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-0-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "0",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "time_range": "",
+    "query": "site:eur-lex.europa.eu Regulation (EU) 2022/2554 entity scope proportionality management body simplified framework"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792224991379,
+    "end": 1792224993343
+  },
+  "outputDigest": "sha256:b4ec1aab7e298d62840f042f8a438efeb4e152f290860f0f9137e9ced31e977c",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/EN/legal-content/summary/insurance-and-reinsurance.html",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52025PC0837",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52026PC0321",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+    "https://eur-lex.europa.eu/resource.html?uri=cellar:03aee288-f75c-11f0-b9bc-01aa75ed71a1.0001.02/DOC_1&format=PDF"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"site:eur-lex.europa.eu Regulation (EU) 2022/2554 entity scope proportionality management body simplified framework\",\n  \"results\": [\n    {\n      \"title\": \"Regulation (EU) 2022/2554 - Publications Office - European Union\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554\",\n      \"content\": \"27 Δεκ 2022 ... ... law, it is also appropriate to subject those financial entities to a simplified ICT risk management framework under this Regulation. The ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"on THE 28TH REGIME CORPORATE LEGAL FRAMEWORK - 'EU ...\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52026PC0321\",\n      \"content\": \"The urgency to improve business conditions in the EU was also stressed by the European Council, which called on the Commission in 2025 to propose, “in line with ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Digital Omnibus proposal - EUR-Lex - European Union\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52025PC0837\",\n      \"content\": \"The proposal is part of the Commission's agenda for the simplification of the EU's regulatory framework. The wide-scope of amended acts shows the clear ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Strasbourg, 20.1.2026 COM(2026) 11 final 2026/0011 (COD ...\",\n      \"url\": \"https://eur-lex.europa.eu/resource.html?uri=cellar:03aee288-f75c-11f0-b9bc-01aa75ed71a1.0001.02/DOC_1&format=PDF\",\n      \"content\": \"20 Ιαν 2026 ... Regulation (EU) 2022/2554 of the European Parliament and of the ... whose products fall within the scope of Regulation (EU) 2024/2847 do not face.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Insurance and reinsurance | EUR-Lex - European Union\",\n      \"url\": \"https://eur-lex.europa.eu/EN/legal-content/summary/insurance-and-reinsurance.html\",\n      ",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "eur-lex.europa.eu"
+    ]
+  }
+}

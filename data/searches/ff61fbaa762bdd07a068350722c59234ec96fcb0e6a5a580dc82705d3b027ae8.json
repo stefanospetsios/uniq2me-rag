@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "ff61fbaa762bdd07a068350722c59234ec96fcb0e6a5a580dc82705d3b027ae8",
+  "cachedAt": "2026-10-17T08:28:52Z",
+  "observedAt": "2026-10-17T08:28:52Z",
+  "originRunId": "qwen3-39016085901",
+  "foundIn": {
+    "runId": "qwen3-39016085901",
+    "controllerCommit": "fcf8ce2b0b856e4ac2c0959ba3c3e2b91b06190b",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-1-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "1",
+    "repoId": null
+  },
+  "toolId": "websearch_web_fetch",
+  "request": {
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32024R1773"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792225506269,
+    "end": 1792225506759
+  },
+  "outputDigest": "sha256:1b01db9711cac107798517287bade414de4dfb42696f07b54266f1e6ff1889a5",
+  "resultUrls": [
+    "http://data.europa.eu/eli/reg/2010/1093/oj",
+    "http://data.europa.eu/eli/reg/2010/1093/oj).",
+    "http://data.europa.eu/eli/reg/2010/1094/oj",
+    "http://data.europa.eu/eli/reg/2010/1094/oj).",
+    "http://data.europa.eu/eli/reg/2010/1095/oj",
+    "http://data.europa.eu/eli/reg/2010/1095/oj).",
+    "http://data.europa.eu/eli/reg/2016/679/oj",
+    "http://data.europa.eu/eli/reg/2016/679/oj).",
+    "http://data.europa.eu/eli/reg/2018/1725/oj",
+    "http://data.europa.eu/eli/reg/2018/1725/oj).",
+    "http://data.europa.eu/eli/reg/2022/2554/oj",
+    "http://data.europa.eu/eli/reg/2022/2554/oj.",
+    "http://data.europa.eu/eli/reg_del/2024/1773/oj"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"title\": \"II Non-legislative acts, Regulations\",\n  \"content\": \"COMMISSION DELEGATED REGULATION (EU) 2024/1773 \\nof 13 March 2024 \\nsupplementing Regulation (EU) 2022/2554 of the European Parliament and of the Council with \\nregard to regulatory technical standards specifying the detailed content of the policy regarding \\ncontractual arrangements on the use of ICT services supporting critical or important functions \\nprovided by ICT third-party service providers \\n\\n(Text with EEA relevance)\\n\\nTHE EUROPEAN COMMISSION,\\n\\nHaving regard to the Treaty on the Functioning of the European Union,\\n\\nHaving regard to Regulation (EU) 2022/2554 of the European Parliament and of the Council of 14 December 2022 on digital operational resilience for the financial sector and amending Regulations (EC) No 1060/2009, (EU) No 648/2012, (EU) No 600/2014, (EU) No 909/2014 and (EU) 2016/1011 ( 1), and in particular Article 28(10), third subparagraph, thereof,\\n\\nWhereas:\\n\\n(1) The framework on digital operational resilience for the financial sector established by Regulation (EU) 2022/2554 requires that financial entities set out certain key principles to manage ICT third-party risk, which are of particular importance when financial entities engage with ICT third-party service providers to support their critical or important functions.\\n\\n(2) Financial entities, as part of their ICT risk management framework, are to adopt, and regularly review, a strategy on ICT third-party risk. In accordance with Article 28(2) of Regulation (EU) 2022/2554, that strategy is to include a policy on the use of ICT services supporting critical or important functions provided by ICT third-party service providers. It is to apply on an individual and, where relevant, on a sub-consolidated and consolidated basis.\\n\\n(3) Financial entities vary widely in size, structure, and internal organisation and in the nature and complexity of their activities and operations. It is necessary to take into account that d",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "data.europa.eu"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "f398a6c3a5b61fb827530433ece0491e9346c9dfb7f2f82713e3aad9622530b3",
+  "cachedAt": "2026-10-17T08:20:03Z",
+  "originRunId": "qwen3-39016085901",
+  "sourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+  "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+  "language": "en",
+  "publisher": "European Union",
+  "title": "Regulation (EU) 2022/2554 of the European Parliament and of the Council on digital operational resilience for the financial sector (DORA)",
+  "retrievedAt": "2026-10-17T06:59:32Z",
+  "byteDigest": "sha256:85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c",
+  "textDigest": "sha256:1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786",
+  "sourceId": "0-source-1",
+  "passageId": "p1",
+  "locator": "recital (13)",
+  "quotation": "Financial entities should follow the same approach and the same principle-based rules when addressing ICT risk taking into account their size and overall risk profile, and the nature, scale and complexity of their services, activities and operations.",
+  "originalText": "to jeopardise the soundness\n            of financial entities.\n\n\n\n\n     (13)   Financial entities should follow the same approach and the same principle-based rules when addressing ICT risk\n            taking into account their size and overall risk profile, and the nature, scale and complexity of their services,\n            activities and operations. Consistency contributes to enhancing confidence in the financial system and preserving its\n            stability especially in times of high reliance on ICT systems, platforms and infrastructures,",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-39016085901",
+    "sourceOriginRunId": "qwen3-38995572810",
+    "controllerCommit": "fcf8ce2b0b856e4ac2c0959ba3c3e2b91b06190b",
+    "recordedAt": "2026-10-17T08:20:03Z",
+    "webRecheckedThisRun": false,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "European Union",
+    "host": "eur-lex.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

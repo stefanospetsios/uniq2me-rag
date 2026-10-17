@@ -5,16 +5,30 @@
   "source": {
     "id": "0-source-1",
     "type": "law",
-    "title": "Regulation (EU) 2022/2554 of the European Parliament and of the Council on digital operational resilience in the financial sector (DORA)",
-    "publisher": "Publications Office of the European Union",
+    "title": "Regulation (EU) 2022/2554 of the European Parliament and of the Council on digital operational resilience for the financial sector (DORA)",
+    "publisher": "European Union",
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
     "language": "en",
     "jurisdiction": "European Union",
-    "applicability": "Primary legal instrument establishing ICT risk management requirements for financial entities (Articles 1-5, 16), defining critical ICT third-party providers, and setting governance obligations for management bodies. Defines entity scope, proportionality considerations, and simplified framework applicability.",
+    "applicability": "Applies to financial entities within the EU financial sector as defined in Article 3, establishing framework for ICT risk management, incident handling, and oversight responsibilities",
     "publicationDate": null,
     "effectiveDate": null,
     "redistribution": "metadata-and-short-passages",
-    "sourceStatus": "fetched-awaiting-passage-check",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "recital (13)",
+        "text": "Financial entities should follow the same approach and the same principle-based rules when addressing ICT risk taking into account their size and overall risk profile, and the nature, scale and complexity of their services, activities and operations."
+      },
+      {
+        "id": "p2",
+        "locator": "recital (21)",
+        "text": "In order to maintain full control over ICT risk, financial entities need to have comprehensive capabilities to enable a strong and effective ICT risk management, as well as specific mechanisms and policies for handling all ICT-related incidents and for reporting major ICT-related incidents."
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
     "byteDigest": "sha256:85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c",
     "textDigest": "sha256:1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786",
     "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
@@ -32,11 +46,11 @@
   "language": "en",
   "retrievedAt": "2026-10-17T06:59:32Z",
   "foundIn": {
-    "runId": "qwen3-38995572810",
+    "runId": "qwen3-39016085901",
     "sourceOriginRunId": "qwen3-38995572810",
-    "controllerCommit": "01db40a04a8b34138dee548d202a050a92d29c57",
-    "recordedAt": "2026-10-17T06:59:32Z",
-    "webRecheckedThisRun": true,
+    "controllerCommit": "fcf8ce2b0b856e4ac2c0959ba3c3e2b91b06190b",
+    "recordedAt": "2026-10-17T08:20:03Z",
+    "webRecheckedThisRun": false,
     "phase": "prepare",
     "frameworkId": "dora",
     "task": null
@@ -54,8 +68,8 @@
     "phases": [
       "prepare"
     ],
-    "status": "fetched-awaiting-passage-check",
-    "publisher": "Publications Office of the European Union",
+    "status": "fetched-and-passage-checked",
+    "publisher": "European Union",
     "host": "eur-lex.europa.eu",
     "frameworkIds": [
       "dora"

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "ce31d658914df605683c2340788cdbaa7a10c2602a4e33bcd47f8c016b29aa2b",
+  "cachedAt": "2026-10-17T08:21:36Z",
+  "observedAt": "2026-10-17T08:21:36Z",
+  "originRunId": "qwen3-39016085901",
+  "foundIn": {
+    "runId": "qwen3-39016085901",
+    "controllerCommit": "fcf8ce2b0b856e4ac2c0959ba3c3e2b91b06190b",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-1-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "1",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "Regulation (EU) 2022/2554 article 6 ICT risk management framework official implementation documents site:eba.europa.eu site:esma.europa.eu site:eiopa.europa.eu"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792225218587,
+    "end": 1792225219820
+  },
+  "outputDigest": "sha256:1548704825fafb638f8db44f86fb2c3173bc8c2a01998d31cc071f955e1b7e3d",
+  "resultUrls": [
+    "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/regulatory-technical-standards-ict-risk-management-framework-and-simplified-ict-risk-management",
+    "https://www.eba.europa.eu/regulation-and-policy/single-rulebook/interactive-single-rulebook",
+    "https://www.eiopa.europa.eu/digital-operational-resilience-act-dora_en",
+    "https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/digital-operational-resilience-act-dora",
+    "https://www.esma.europa.eu/sites/default/files/2024-01/JC_2023_86_-_Final_report_on_draft_RTS_on_ICT_Risk_Management_Framework_and_on_simplified_ICT_Risk_Management_Framework.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Regulatory Technical Standards on ICT risk management framework and on simplified ICT risk management framework | European Banking Authority\",\n      \"url\": \"https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/regulatory-technical-standards-ict-risk-management-framework-and-simplified-ict-risk-management\",\n      \"content\": \"Regulatory Technical Standards on ICT risk management framework and on simplified ICT risk management framework | European Banking Authority\\n\\n# Regulatory Technical Standards on ICT risk management framework and on simplified ICT risk management framework \\n\\n- Status: Adopted and published in the Official Journal of the EU\\n\\nThe Regulatory Technical Standards on ICT risk management framework identify further elements related to ICT risk management with a view to harmonise tools, methods, processes and policies. These elements are complementary to those identified in DORA. The RTS identify the key elements that financial entities subject to the simplified regime and of lower scale, risk, size and complexity would need to have in place, setting out a simplified ICT risk management framework. The RTS ensure the ICT risk management requirements are harmonised among the different financial sectors. \\n\\n### Summary of document history\\n\\n Previous versions Current version Ongoing versions \\n\\n## Draft Regulatory Technical Standards on ICT risk management framework and on simplified ICT risk management framework\\n\\n- Status: In force\\n- Application date: 15/07/2024 \\n- Compliance deadline: \\n\\n###### Draft RTS on ICT Risk Management Framework and on simplified ICT Risk Management Framework\\n\\n (1.74 MB - PDF) \\n\\nThe three European Supervisory Authorities (EBA, EIOPA and ESMA – the ESAs) published today the first set of final draft technical standards under the Digital Operational Resilience Act (DORA) aimed at enhancing the digital operational resilience of the EU f",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "www.eba.europa.eu",
+      "www.eiopa.europa.eu",
+      "www.esma.europa.eu"
+    ]
+  }
+}
