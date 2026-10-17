@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "9d91ad46670d832b325ed481ceaad122ee1e9479686015756cc005a0087c83c6",
+  "cachedAt": "2026-10-17T09:00:57Z",
+  "originRunId": "qwen3-39018925827",
+  "sourceUrl": "https://www.centralbank.ie/regulation/digital-operational-resilience-act-dora/dora---frequently-asked-questions",
+  "finalUrl": "https://www.centralbank.ie/regulation/digital-operational-resilience-act-dora/dora---frequently-asked-questions",
+  "language": "en",
+  "publisher": "Central Bank of Ireland",
+  "title": "DORA - Frequently Asked Questions | Central Bank of Ireland",
+  "retrievedAt": "2026-10-17T08:04:57Z",
+  "byteDigest": "sha256:334f3c6b51f12286b4aebf2018aeed743eb4d6498a3bfc3bec7b8411d487cc5b",
+  "textDigest": "sha256:766c380ec8c4d14582e51b532e13e9149acbe9600be96e2ecc5d29e86c712014",
+  "sourceId": "0-source-2",
+  "passageId": "p1",
+  "locator": "Proportionality section",
+  "quotation": "A simplified RMF is provided for certain types of FEs",
+  "originalText": "A simplified RMF is provided for certain types of FEs",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-39018925827",
+    "sourceOriginRunId": "qwen3-38995572810",
+    "controllerCommit": "96e901cb0a947cd3694f606f3ac28deffcf5a88b",
+    "recordedAt": "2026-10-17T09:00:57Z",
+    "webRecheckedThisRun": false,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Central Bank of Ireland",
+    "host": "www.centralbank.ie",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

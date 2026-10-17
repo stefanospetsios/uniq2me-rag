@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "e5120ba167bc2b2c40ecc11e3d98325d0d6f84dda4c9c3e2f4c2e8bb91b6b3fb",
+  "cachedAt": "2026-10-17T09:12:42Z",
+  "observedAt": "2026-10-17T09:12:42Z",
+  "originRunId": "qwen3-39018925827",
+  "foundIn": {
+    "runId": "qwen3-39018925827",
+    "controllerCommit": "96e901cb0a947cd3694f606f3ac28deffcf5a88b",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-1-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "1",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "DORA: ICT risk framework and assurance ESA publish final draft technical standards under DORA"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792228136956,
+    "end": 1792228138201
+  },
+  "outputDigest": "sha256:e94027fa440e273f63092eec266dfce9e473e35e58f3f0a4294c1ccbe1298efe",
+  "resultUrls": [
+    "https://www.esma.europa.eu/document/final-report-draft-rts-ict-risk-management-framework-and-simplified-ict-risk-management",
+    "https://www.esma.europa.eu/press-news/esma-news/esas-publish-first-set-rules-under-dora-ict-and-third-party-risk-management",
+    "https://www.esma.europa.eu/press-news/esma-news/esas-published-second-batch-policy-products-under-dora",
+    "https://www.esma.europa.eu/sites/default/files/2024-01/JC_2023_86_-_Final_report_on_draft_RTS_on_ICT_Risk_Management_Framework_and_on_simplified_ICT_Risk_Management_Framework.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"ESAs publish first set of rules under DORA for ICT and third-party risk management and incident classification\",\n      \"url\": \"https://www.esma.europa.eu/press-news/esma-news/esas-publish-first-set-rules-under-dora-ict-and-third-party-risk-management\",\n      \"content\": \"ESAs publish first set of rules under DORA for ICT and third-party risk management and incident classification\\n\\n# ESAs publish first set of rules under DORA for ICT and third-party risk management and incident classification \\n\\n 17/01/2024\\n\\nThe three European Supervisory Authorities (EBA, EIOPA and ESMA – the ESAs) published today the first set of final draft technical standards under the DORA aimed at enhancing the digital operational resilience of the EU financial sector by strengthening financial entities’ Information and Communication Technology (ICT) and third-party risk management and incident reporting frameworks.\\n\\nThe joint final draft technical standards include:\\n\\n- Regulatory Technical Standards (RTS) on ICT risk management framework and on simplified ICT risk management framework;\\n- RTS on criteria for the classification of ICT-related incidents;\\n- RTS to specify the policy on ICT services supporting critical or important functions provided by ICT third-party service providers (TPPs); and \\n- Implementing Technical Standards (ITS) to establish the templates for the register of information.\\n\\n#### RTS on ICT risk management framework and on simplified ICT risk management framework\\n\\nThe draft RTS on ICT risk management framework identify further elements related to ICT risk management with a view to harmonise tools, methods, processes and policies. These elements are complementary to those identified in DORA. The RTS identify the key elements that financial entities subject to the simplified regime and of lower scale, risk, size and complexity would need to have in place, setting out a simplified ICT risk management framework. The RTS ensu",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "www.esma.europa.eu"
+    ]
+  }
+}

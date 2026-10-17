@@ -1,0 +1,249 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-scope",
+  "cachedAt": "2026-10-17T09:00:57Z",
+  "scopeId": "0",
+  "fingerprint": "850743823424e077b114a131471fb53e924efdf85ab3a291e3c8bb9d730c9c60",
+  "originRunId": "qwen3-39018925827",
+  "controllerCommit": "96e901cb0a947cd3694f606f3ac28deffcf5a88b",
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "scope-admitted",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ]
+  },
+  "corpus": {
+    "sources": {
+      "0-source-1": {
+        "type": "law",
+        "title": "Regulation (EU) 2022/2554 of the European Parliament and of the Council of 14 December 2022 on digital operational resilience for the financial sector",
+        "publisher": "European Union",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+        "language": "en",
+        "jurisdiction": "European Union",
+        "applicability": "Defines core scope (Articles 2-3), proportionality principle (Article 4), simplified framework for smaller providers (Article 5), and management body accountability (Article 16). Directly applicable to all financial entities in EU.",
+        "publicationDate": "2022-12-27",
+        "effectiveDate": "2025-01-17",
+        "redistribution": "metadata-and-short-passages",
+        "id": "0-source-1",
+        "byteDigest": "sha256:85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c",
+        "textDigest": "sha256:1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786",
+        "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+        "retrievedAt": "2026-10-17T06:59:32Z",
+        "contentType": "application/pdf",
+        "snapshotPath": "source-85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c.bin",
+        "textPath": "source-1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "cacheReuse": {
+          "originRunId": "qwen3-38995572810",
+          "cacheCommit": "84449778c945f17c98c57de19ecad664d8ec3a95",
+          "reusedAt": "2026-10-17T08:59:58Z",
+          "webRecheckedThisRun": false
+        },
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Recital 21",
+            "text": "allowing for a proportionate application of requirements for certain financial entities, particularly microenterprises, as well as financial entities subject to a simplified ICT risk management framework."
+          },
+          {
+            "id": "p2",
+            "locator": "Recital 21",
+            "text": "To facilitate an efficient supervision of institutions for occupational retirement provision that is proportionate and addresses the need to reduce administrative burdens on the competent authorities, the relevant national supervisory arrangements in respect of such financial entities should take into account their size and overall risk profile, and the nature, scale and complexity of their services, activities and operations"
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "0-source-2": {
+        "type": "guidance",
+        "title": "DORA - Frequently Asked Questions | Central Bank of Ireland",
+        "publisher": "Central Bank of Ireland",
+        "url": "https://www.centralbank.ie/regulation/digital-operational-resilience-act-dora/dora---frequently-asked-questions",
+        "language": "en",
+        "jurisdiction": "Ireland",
+        "applicability": "National implementation guidance showing proportionality application (e.g., reduced incident reporting scope for smaller entities), management body resource allocation examples, and simplified framework eligibility criteria based on entity size/criticality.",
+        "publicationDate": "2026-02-12",
+        "effectiveDate": "2025-01-17",
+        "redistribution": "metadata-and-short-passages",
+        "id": "0-source-2",
+        "byteDigest": "sha256:334f3c6b51f12286b4aebf2018aeed743eb4d6498a3bfc3bec7b8411d487cc5b",
+        "textDigest": "sha256:766c380ec8c4d14582e51b532e13e9149acbe9600be96e2ecc5d29e86c712014",
+        "finalUrl": "https://www.centralbank.ie/regulation/digital-operational-resilience-act-dora/dora---frequently-asked-questions",
+        "retrievedAt": "2026-10-17T08:04:57Z",
+        "contentType": "text/html; charset=utf-8",
+        "snapshotPath": "source-334f3c6b51f12286b4aebf2018aeed743eb4d6498a3bfc3bec7b8411d487cc5b.bin",
+        "textPath": "source-766c380ec8c4d14582e51b532e13e9149acbe9600be96e2ecc5d29e86c712014.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "cacheReuse": {
+          "originRunId": "qwen3-38995572810",
+          "cacheCommit": "84449778c945f17c98c57de19ecad664d8ec3a95",
+          "reusedAt": "2026-10-17T08:59:58Z",
+          "webRecheckedThisRun": false
+        },
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Proportionality section",
+            "text": "A simplified RMF is provided for certain types of FEs"
+          },
+          {
+            "id": "p2",
+            "locator": "Proportionality section",
+            "text": "Some specific requirements do not apply for microenterprises"
+          },
+          {
+            "id": "p3",
+            "locator": "Proportionality section",
+            "text": "The rules relating to the ICT Risk Management Framework (RMF) are required to be implemented proportionally, taking into account their size and overall risk profile and the nature, scale, and complexity of their activities and operations"
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      }
+    },
+    "concerns": [
+      {
+        "id": "0-concern-1",
+        "sfsId": "0",
+        "description": "Determination of financial entity scope under DORA Article 2-3, including exemptions and group boundary considerations",
+        "sourceRefs": [
+          {
+            "sourceId": "0-source-1",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "0-concern-2",
+        "sfsId": "0",
+        "description": "Application of proportionality principle per Article 4 based on entity size, risk profile, and operational complexity",
+        "sourceRefs": [
+          {
+            "sourceId": "0-source-1",
+            "passageId": "p2"
+          },
+          {
+            "sourceId": "0-source-2",
+            "passageId": "p3"
+          }
+        ]
+      },
+      {
+        "id": "0-concern-3",
+        "sfsId": "0",
+        "description": "Eligibility criteria for simplified ICT risk management framework under Article 5 for microenterprises and smaller entities",
+        "sourceRefs": [
+          {
+            "sourceId": "0-source-1",
+            "passageId": "p1"
+          },
+          {
+            "sourceId": "0-source-2",
+            "passageId": "p1"
+          },
+          {
+            "sourceId": "0-source-2",
+            "passageId": "p2"
+          }
+        ]
+      },
+      {
+        "id": "0-concern-4",
+        "sfsId": "0",
+        "description": "Management body accountability requirements per Article 16 including ownership, resourcing and ICT-risk oversight responsibilities",
+        "sourceRefs": [
+          {
+            "sourceId": "0-source-1",
+            "passageId": "p2"
+          }
+        ]
+      }
+    ],
+    "queries": [
+      {
+        "scope": "0",
+        "toolId": "searxng_web_search",
+        "input": {
+          "query": "site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA full text DORA: Applicability, proportionality and governance",
+          "max_results": 5,
+          "safesearch": 0,
+          "time_range": ""
+        },
+        "outputDigest": "sha256:87e9553d12373f37e5c36d7a38e84509116b9265620720db5cb15d6c6ffe4f11",
+        "callId": "sources-0-1-discovery"
+      },
+      {
+        "scope": "0",
+        "toolId": "websearch_web_search",
+        "input": {
+          "query": "DORA: Applicability, proportionality and governance DORA official implementation guidance",
+          "max_results": 5
+        },
+        "outputDigest": "sha256:9adf66647cb98ab107adcc9d8051d37e8260e76a8edd5755f4e733111dc8142c",
+        "callId": "sources-0-1-discovery"
+      }
+    ],
+    "limitations": [
+      {
+        "scope": "0",
+        "description": "All documents reference 2025-01-17 application date; no post-implementation updates observed beyond February 2026"
+      },
+      {
+        "scope": "0",
+        "description": "National guidance limited to Irish example; other member state implementations not retrieved in this scope"
+      },
+      {
+        "scope": "0",
+        "description": "Central Bank of Ireland FAQ represents national interpretation, not binding EU-level guidance"
+      },
+      {
+        "scope": "0",
+        "description": "Greece-specific implementation guidance excluded per DORA profile override"
+      },
+      {
+        "scope": "0",
+        "description": "Observed search results truncated (7 unresponsive engines); possible relevant documents missed"
+      },
+      {
+        "scope": "0",
+        "description": "Excluded optional discovery candidate: Source URL was not observed in search results: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32024R1774"
+      },
+      {
+        "scope": "0",
+        "description": "Excluded optional discovery candidate: Source URL was not observed in search results: https://www.eba.europa.eu/regulation-and-policy/operational-resilience-and-cybersecurity/digital-operational-resilience-act-dora/guidelines-on-the-application-of-the-proportionality-principle-under-dora"
+      },
+      {
+        "scope": "0",
+        "description": "Excluded optional discovery candidate: Source URL was not observed in search results: https://www.eba.europa.eu/regulation-and-policy/operational-resilience-and-cybersecurity/digital-operational-resilience-act-dora/joint-esa-guidelines-on-outsourcing-arrangements"
+      },
+      {
+        "scope": "0",
+        "description": "Some documents came from prior fetched snapshots with original retrieval dates; their current web contents were not rechecked in this run."
+      }
+    ],
+    "admissionVersion": 2,
+    "observedResultUrls": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+      "https://www.centralbank.ie/regulation/digital-operational-resilience-act-dora/dora---frequently-asked-questions"
+    ],
+    "frameworkId": "dora"
+  },
+  "files": {
+    "snapshots/source-85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c.bin": "sha256:85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c",
+    "snapshots/source-1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786.txt": "sha256:1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786",
+    "snapshots/source-334f3c6b51f12286b4aebf2018aeed743eb4d6498a3bfc3bec7b8411d487cc5b.bin": "sha256:334f3c6b51f12286b4aebf2018aeed743eb4d6498a3bfc3bec7b8411d487cc5b",
+    "snapshots/source-766c380ec8c4d14582e51b532e13e9149acbe9600be96e2ecc5d29e86c712014.txt": "sha256:766c380ec8c4d14582e51b532e13e9149acbe9600be96e2ecc5d29e86c712014"
+  }
+}

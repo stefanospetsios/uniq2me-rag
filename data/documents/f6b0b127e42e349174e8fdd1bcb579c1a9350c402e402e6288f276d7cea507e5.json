@@ -3,18 +3,37 @@
   "cachedAt": "2026-10-17T08:04:57Z",
   "originRunId": "qwen3-38995572810",
   "source": {
-    "id": "0-source-4",
+    "id": "0-source-2",
     "type": "guidance",
-    "title": "DORA - Frequently Asked Questions - Central Bank of Ireland",
+    "title": "DORA - Frequently Asked Questions | Central Bank of Ireland",
     "publisher": "Central Bank of Ireland",
     "url": "https://www.centralbank.ie/regulation/digital-operational-resilience-act-dora/dora---frequently-asked-questions",
     "language": "en",
-    "jurisdiction": "European Union (Ireland implementation context)",
-    "applicability": "National supervisory guidance clarifying entity scope determinations, proportionality application (including simplified framework eligibility), and management body responsibilities specific to financial entities",
-    "publicationDate": null,
-    "effectiveDate": null,
+    "jurisdiction": "Ireland",
+    "applicability": "National implementation guidance showing proportionality application (e.g., reduced incident reporting scope for smaller entities), management body resource allocation examples, and simplified framework eligibility criteria based on entity size/criticality.",
+    "publicationDate": "2026-02-12",
+    "effectiveDate": "2025-01-17",
     "redistribution": "metadata-and-short-passages",
-    "sourceStatus": "fetched-awaiting-passage-check",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "Proportionality section",
+        "text": "A simplified RMF is provided for certain types of FEs"
+      },
+      {
+        "id": "p2",
+        "locator": "Proportionality section",
+        "text": "Some specific requirements do not apply for microenterprises"
+      },
+      {
+        "id": "p3",
+        "locator": "Proportionality section",
+        "text": "The rules relating to the ICT Risk Management Framework (RMF) are required to be implemented proportionally, taking into account their size and overall risk profile and the nature, scale, and complexity of their activities and operations"
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
     "byteDigest": "sha256:334f3c6b51f12286b4aebf2018aeed743eb4d6498a3bfc3bec7b8411d487cc5b",
     "textDigest": "sha256:766c380ec8c4d14582e51b532e13e9149acbe9600be96e2ecc5d29e86c712014",
     "finalUrl": "https://www.centralbank.ie/regulation/digital-operational-resilience-act-dora/dora---frequently-asked-questions",
@@ -32,11 +51,11 @@
   "language": "en",
   "retrievedAt": "2026-10-17T08:04:57Z",
   "foundIn": {
-    "runId": "qwen3-38995572810",
+    "runId": "qwen3-39018925827",
     "sourceOriginRunId": "qwen3-38995572810",
-    "controllerCommit": "01db40a04a8b34138dee548d202a050a92d29c57",
-    "recordedAt": "2026-10-17T08:04:57Z",
-    "webRecheckedThisRun": true,
+    "controllerCommit": "96e901cb0a947cd3694f606f3ac28deffcf5a88b",
+    "recordedAt": "2026-10-17T09:00:57Z",
+    "webRecheckedThisRun": false,
     "phase": "prepare",
     "frameworkId": "dora",
     "task": null
@@ -54,7 +73,7 @@
     "phases": [
       "prepare"
     ],
-    "status": "fetched-awaiting-passage-check",
+    "status": "fetched-and-passage-checked",
     "publisher": "Central Bank of Ireland",
     "host": "www.centralbank.ie",
     "frameworkIds": [
