@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "f387a72e0139cb03d69a66f0dd1d06d3b44c3b0891b05fa6f34662432d40cb46",
+  "cachedAt": "2026-10-17T08:00:45Z",
+  "observedAt": "2026-10-17T08:00:45Z",
+  "originRunId": "qwen3-38995572810",
+  "foundIn": {
+    "runId": "qwen3-38995572810",
+    "controllerCommit": "01db40a04a8b34138dee548d202a050a92d29c57",
+    "phase": "preflight",
+    "callId": "direct-mcp-probe",
+    "invocation": 1,
+    "scopeId": null,
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Ollama keep_alive official documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": null,
+  "outputDigest": "sha256:2538cc515297e2a4cf1a88227176aee1efd555b37f83b93a52123fe6843749c3",
+  "resultUrls": [
+    "http://localhost:11434/api/chat",
+    "https://bluegrid.io/glossary/ai/ollama-keep-alive/",
+    "https://docs.openwebui.com/getting-started/quick-start/connect-a-provider/starting-with-ollama/",
+    "https://docs.spring.io/spring-ai/reference/api/chat/ollama-chat.html",
+    "https://ollama.readthedocs.io/en/api/",
+    "https://www.reddit.com/r/LocalLLaMA/comments/1of82gr/keep_ollama_alive_w_multiple_clients/"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\"content\": [{\"type\": \"text\", \"text\": \"{\\n  \\\"query\\\": \\\"Ollama keep_alive official documentation\\\",\\n  \\\"results\\\": [\\n    {\\n      \\\"title\\\": \\\"API Reference - Ollama English Documentation\\\",\\n      \\\"url\\\": \\\"https://ollama.readthedocs.io/en/api/\\\",\\n      \\\"content\\\": \\\"If the messages array is empty and the keep_alive parameter is set to 0 , a model will be unloaded from memory. Request. curl http://localhost:11434/api/chat -d ...\\\",\\n      \\\"engines\\\": [\\n        \\\"google cse\\\"\\n      ]\\n    },\\n    {\\n      \\\"title\\\": \\\"Ollama Keep Alive - BlueGrid.io\\\",\\n      \\\"url\\\": \\\"https://bluegrid.io/glossary/ai/ollama-keep-alive/\\\",\\n      \\\"content\\\": \\\"It is controlled by the OLLAMA_KEEP_ALIVE environment variable or the keep_alive field in individual API requests. The default value is 5 minutes. Extended ...\\\",\\n      \\\"engines\\\": [\\n        \\\"google cse\\\"\\n      ]\\n    },\\n    {\\n      \\\"title\\\": \\\"Ollama Chat :: Spring AI Reference\\\",\\n      \\\"url\\\": \\\"https://docs.spring.io/spring-ai/reference/api/chat/ollama-chat.html\\\",\\n      \\\"content\\\": \\\"chat is the property prefix that configures the Ollama chat model. It includes the Ollama request (advanced) parameters such as the model , keep-alive , and ...\\\",\\n      \\\"engines\\\": [\\n        \\\"google cse\\\"\\n      ]\\n    },\\n    {\\n      \\\"title\\\": \\\"Keep Ollama Alive w/ Multiple Clients : r/LocalLLaMA - Reddit\\\",\\n      \\\"url\\\": \\\"https://www.reddit.com/r/LocalLLaMA/comments/1of82gr/keep_ollama_alive_w_multiple_clients/\\\",\\n      \\\"content\\\": \\\"24 Οκτ 2025 ... If you set OLLAMA_KEEP_ALIVE -1 in your environment, and clients don't request with keep_alive, the model stays forever. If you use clients that ...\\\",\\n      \\\"engines\\\": [\\n        \\\"google cse\\\"\\n      ]\\n    },\\n    {\\n      \\\"title\\\": \\\"Ollama - Open WebUI\\\",\\n      \\\"url\\\": \\\"https://docs.openwebui.com/getting-started/quick-start/connect-a-provider/starting-with-ollama/\\\",\\n      \\\"content\\\": \\\"... keep_alive=0 generate call to every Ollama node serving th",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [],
+    "phases": [
+      "preflight"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "bluegrid.io",
+      "docs.openwebui.com",
+      "docs.spring.io",
+      "localhost",
+      "ollama.readthedocs.io",
+      "www.reddit.com"
+    ]
+  }
+}

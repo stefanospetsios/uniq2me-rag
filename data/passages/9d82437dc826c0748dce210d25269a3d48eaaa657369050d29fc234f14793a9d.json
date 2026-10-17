@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "recordType": "source-passage",
   "id": "9d82437dc826c0748dce210d25269a3d48eaaa657369050d29fc234f14793a9d",
-  "cachedAt": "2026-10-15T20:51:18Z",
-  "originRunId": "qwen3-38804802602",
+  "cachedAt": "2026-10-17T08:02:10Z",
+  "originRunId": "qwen3-38995572810",
   "sourceUrl": "https://docs.ollama.com/faq",
   "finalUrl": "https://docs.ollama.com/faq",
   "language": "en",
@@ -20,12 +20,13 @@
   "excerptKind": "exact-quotation",
   "quotationMatchPolicy": "unicode-typography-v1",
   "foundIn": {
-    "runId": "qwen3-38804802602",
+    "runId": "qwen3-38995572810",
     "sourceOriginRunId": "qwen3-38797190227",
-    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
-    "recordedAt": "2026-10-15T20:51:18Z",
+    "controllerCommit": "01db40a04a8b34138dee548d202a050a92d29c57",
+    "recordedAt": "2026-10-17T08:02:10Z",
     "webRecheckedThisRun": false,
     "phase": "preflight",
+    "frameworkId": "dora",
     "task": null
   },
   "filters": {
@@ -38,6 +39,9 @@
     ],
     "status": "passage-checked",
     "publisher": "Ollama",
-    "host": "docs.ollama.com"
+    "host": "docs.ollama.com",
+    "frameworkIds": [
+      "dora"
+    ]
   }
 }

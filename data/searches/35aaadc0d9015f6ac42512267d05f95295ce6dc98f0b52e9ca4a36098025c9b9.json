@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "35aaadc0d9015f6ac42512267d05f95295ce6dc98f0b52e9ca4a36098025c9b9",
+  "cachedAt": "2026-10-17T08:02:10Z",
+  "observedAt": "2026-10-17T08:02:10Z",
+  "originRunId": "qwen3-38995572810",
+  "foundIn": {
+    "runId": "qwen3-38995572810",
+    "controllerCommit": "01db40a04a8b34138dee548d202a050a92d29c57",
+    "phase": "preflight",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "runner-smoke",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": null,
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Ollama context window size setting environment variable"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792224101308,
+    "end": 1792224102909
+  },
+  "outputDigest": "sha256:31a6fe126f562d71c102ed7fd372f782088a8237c3b0babf24a10427d0bf8af0",
+  "resultUrls": [
+    "https://docs.ollama.com/context-length",
+    "https://docs.ollama.com/faq",
+    "https://localllm.in/blog/local-llm-increase-context-length-ollama",
+    "https://modelpiper.com/blog/ollama-environment-variables",
+    "https://www.serverman.co.uk/ai/ollama/ollama-context-window/"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Ollama context window size setting environment variable\",\n  \"results\": [\n    {\n      \"title\": \"FAQ - Ollama documentation\",\n      \"url\": \"https://docs.ollama.com/faq\",\n      \"content\": \"By default, Ollama uses a context window size of 4096 tokens. This can be overridden with the OLLAMA_CONTEXT_LENGTH environment variable. For example, to set the default context window to 8K, use:\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Ollama Environment Variables: The Complete Reference (2026)\",\n      \"url\": \"https://modelpiper.com/blog/ollama-environment-variables\",\n      \"content\": \"Ollama environment variables are settings the Ollama server reads at startup to control networking, model storage, memory behavior, and inference performance. Ollama v0.32.5 reads 26 OLLAMA_ variables plus the GPU selection and proxy variables it inherits from the environment.\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Ollama Context Window: How to Set num_ctx - Serverman\",\n      \"url\": \"https://www.serverman.co.uk/ai/ollama/ollama-context-window/\",\n      \"content\": \"Environment variable set but model still uses 4,096 18. Context increased but responses are extremely slow 19. OOM crash when loading model with large context 20. OLLAMA_NUM_CTX not working on newer Ollama 21. Frequently Asked Questions 22. What is Ollama's default context window size? 23. What happens when a conversation exceeds Ollama's ...\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"How to increase context length of local LLMs in Ollama | LocalLLM.in\",\n      \"url\": \"https://localllm.in/blog/local-llm-increase-context-length-ollama\",\n      \"content\": \"Learn how to manage and increase context window size in Ollama for better local LLM performance. Comprehensive guide covering checking, setting, and optimizing context lengths for all models.\",\n      \"e",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [],
+    "phases": [
+      "preflight"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "docs.ollama.com",
+      "localllm.in",
+      "modelpiper.com",
+      "www.serverman.co.uk"
+    ]
+  }
+}
