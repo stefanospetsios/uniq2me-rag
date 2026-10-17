@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "23050b5f6352ea960e2ec5057636a6a0bc199c7f585fb6ebd175f3c4782230c4",
+  "cachedAt": "2026-10-17T17:06:41Z",
+  "observedAt": "2026-10-17T17:06:41Z",
+  "originRunId": "qwen3-39051987553",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "preflight",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "runner-smoke",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": null,
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Ollama FAQ documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792256728492,
+    "end": 1792256729431
+  },
+  "outputDigest": "sha256:a891551f63e4e610012c0f770ed799a04e8238ac10af1ac985f363db93d13969",
+  "resultUrls": [
+    "https://docs.ollama.com/faq",
+    "https://docs.ollama.com/macos",
+    "https://ollama.com/"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Ollama FAQ documentation\",\n  \"results\": [\n    {\n      \"title\": \"FAQ - Ollama documentation\",\n      \"url\": \"https://docs.ollama.com/faq\",\n      \"content\": \"Ollama can run in local only mode by disabling Ollama's cloud features. By turning off Ollama's cloud features, you will lose the ability to use Ollama's cloud models and web search.\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Ollama · Run AI models locally and in the cloud\",\n      \"url\": \"https://ollama.com/\",\n      \"content\": \"Ollama is the most popular way to build with open models. ... Access the latest open models with complete privacy locally or in the cloud. Your prompts are never ...\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"macOS - Ollama documentation\",\n      \"url\": \"https://docs.ollama.com/macos\",\n      \"content\": \"Upon startup, the Ollama app will verify the ollama CLI is present in your PATH, and if not detected, will prompt for permission to create a link in /usr/local/ ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    }\n  ],\n  \"unresponsive_engines\": [\n    [\n      \"brave\",\n      \"Suspended: too many requests\"\n    ]\n  ]\n}",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [],
+    "phases": [
+      "preflight"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "docs.ollama.com",
+      "ollama.com"
+    ]
+  }
+}

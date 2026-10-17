@@ -17,7 +17,7 @@
     "passages": [
       {
         "id": "p1",
-        "locator": "heading or paragraph",
+        "locator": "paragraph",
         "text": "By default, Ollama uses a context window size of 4096 tokens."
       }
     ],
@@ -40,10 +40,10 @@
   "language": "en",
   "retrievedAt": "2026-10-15T19:53:34Z",
   "foundIn": {
-    "runId": "qwen3-39027246178",
+    "runId": "qwen3-39051987553",
     "sourceOriginRunId": "qwen3-38797190227",
-    "controllerCommit": "d89be5fa1db8a5d843a884c3c22f6358220c8789",
-    "recordedAt": "2026-10-17T11:07:26Z",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "recordedAt": "2026-10-17T17:06:41Z",
     "webRecheckedThisRun": false,
     "phase": "preflight",
     "frameworkId": "dora",

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "6965dc563f0aa7b08bb683ec0d842f7a9a6c948ff8cde8f0db6bd2506f21d21c",
+  "cachedAt": "2026-10-17T17:04:47Z",
+  "observedAt": "2026-10-17T17:04:47Z",
+  "originRunId": "qwen3-39051987553",
+  "foundIn": {
+    "runId": "qwen3-39051987553",
+    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
+    "phase": "preflight",
+    "callId": "direct-mcp-probe",
+    "invocation": 1,
+    "scopeId": null,
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Ollama keep_alive official documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": null,
+  "outputDigest": "sha256:03386bfde9e5c9d3bd99d544842e7ec9d0db72ac96a75f20a22f365a4dbb5fad",
+  "resultUrls": [
+    "http://localhost:11434/api/chat",
+    "https://bluegrid.io/glossary/ai/ollama-keep-alive/",
+    "https://docs.openwebui.com/getting-started/quick-start/connect-a-provider/starting-with-ollama/",
+    "https://docs.spring.io/spring-ai/reference/api/chat/ollama-chat.html",
+    "https://ollama.readthedocs.io/en/api/",
+    "https://ollama.readthedocs.io/en/faq/"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\"content\": [{\"type\": \"text\", \"text\": \"{\\n  \\\"query\\\": \\\"Ollama keep_alive official documentation\\\",\\n  \\\"results\\\": [\\n    {\\n      \\\"title\\\": \\\"API Reference - Ollama English Documentation\\\",\\n      \\\"url\\\": \\\"https://ollama.readthedocs.io/en/api/\\\",\\n      \\\"content\\\": \\\"If the messages array is empty and the keep_alive parameter is set to 0 , a model will be unloaded from memory. Request. curl http://localhost:11434/api/chat -d ...\\\",\\n      \\\"engines\\\": [\\n        \\\"google cse\\\"\\n      ]\\n    },\\n    {\\n      \\\"title\\\": \\\"Ollama Keep Alive - BlueGrid.io\\\",\\n      \\\"url\\\": \\\"https://bluegrid.io/glossary/ai/ollama-keep-alive/\\\",\\n      \\\"content\\\": \\\"It is controlled by the OLLAMA_KEEP_ALIVE environment variable or the keep_alive field in individual API requests. The default value is 5 minutes. Extended ...\\\",\\n      \\\"engines\\\": [\\n        \\\"google cse\\\"\\n      ]\\n    },\\n    {\\n      \\\"title\\\": \\\"Ollama Chat :: Spring AI Reference\\\",\\n      \\\"url\\\": \\\"https://docs.spring.io/spring-ai/reference/api/chat/ollama-chat.html\\\",\\n      \\\"content\\\": \\\"chat is the property prefix that configures the Ollama chat model. It includes the Ollama request (advanced) parameters such as the model , keep-alive , and ...\\\",\\n      \\\"engines\\\": [\\n        \\\"google cse\\\"\\n      ]\\n    },\\n    {\\n      \\\"title\\\": \\\"FAQ - Ollama English Documentation\\\",\\n      \\\"url\\\": \\\"https://ollama.readthedocs.io/en/faq/\\\",\\n      \\\"content\\\": \\\"By default, Ollama uses a context window size of 2048 tokens. To change this when using ollama run , use /set parameter : /set parameter num_ctx 4096. When ...\\\",\\n      \\\"engines\\\": [\\n        \\\"google cse\\\"\\n      ]\\n    },\\n    {\\n      \\\"title\\\": \\\"Ollama - Open WebUI\\\",\\n      \\\"url\\\": \\\"https://docs.openwebui.com/getting-started/quick-start/connect-a-provider/starting-with-ollama/\\\",\\n      \\\"content\\\": \\\"... keep_alive=0 generate call to every Ollama node serving that model. This ... Ollama's context length documentation). num_ctx is an Open WebUI a",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [],
+    "phases": [
+      "preflight"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "bluegrid.io",
+      "docs.openwebui.com",
+      "docs.spring.io",
+      "localhost",
+      "ollama.readthedocs.io"
+    ]
+  }
+}
