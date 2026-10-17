@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-17T08:04:57Z",
+  "originRunId": "qwen3-38995572810",
+  "source": {
+    "id": "0-source-3",
+    "type": "guidance",
+    "title": "Digital Operational Resilience Act (DORA) - European Securities and Markets Authority Overview",
+    "publisher": "European Securities and Markets Authority (ESMA)",
+    "url": "https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/digital-operational-resilience-act-dora",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "Contextual guidance covering DORA applicability to financial entities, proportionality considerations, and governance requirements including management body accountability for ICT risk oversight",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:9b0d7fb7ca824d708215733b80b50b057026a733e0688aac276020437df74379",
+    "textDigest": "sha256:e2bf756c70001f2a6b063aa81b47b19734f468c08324e435328125f0bc1b395b",
+    "finalUrl": "https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/digital-operational-resilience-act-dora",
+    "retrievedAt": "2026-10-17T08:04:57Z",
+    "contentType": "text/html; charset=UTF-8",
+    "snapshotPath": "source-9b0d7fb7ca824d708215733b80b50b057026a733e0688aac276020437df74379.bin",
+    "textPath": "source-e2bf756c70001f2a6b063aa81b47b19734f468c08324e435328125f0bc1b395b.txt"
+  },
+  "files": {
+    "snapshots/source-9b0d7fb7ca824d708215733b80b50b057026a733e0688aac276020437df74379.bin": "sha256:9b0d7fb7ca824d708215733b80b50b057026a733e0688aac276020437df74379",
+    "snapshots/source-e2bf756c70001f2a6b063aa81b47b19734f468c08324e435328125f0bc1b395b.txt": "sha256:e2bf756c70001f2a6b063aa81b47b19734f468c08324e435328125f0bc1b395b"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/digital-operational-resilience-act-dora",
+  "language": "en",
+  "retrievedAt": "2026-10-17T08:04:57Z",
+  "foundIn": {
+    "runId": "qwen3-38995572810",
+    "sourceOriginRunId": "qwen3-38995572810",
+    "controllerCommit": "01db40a04a8b34138dee548d202a050a92d29c57",
+    "recordedAt": "2026-10-17T08:04:57Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "originalText": "\n\n\n\n\n  \n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \nDigital Operational Resilience Act (DORA)\n\n    \n\n\n\n\n    \n  \n\n  \n\n        \n\n      Skip to main content\n    \n\n    \n      \n\n    \n\n\n\n    \n\n    \n\n      \n\n        \n\n          \n\n            \n\n          \n\n        \n\n\n\n        \n\n          \n\n  \n    \n      \n\n  \n\n              \nSearch\n\n\n\n        \n  \n\n\n\n        \n\n\n\n\n\n  \n\n\n\n\n\n\n\n  \n\n\n  \n\n\n\n\n        \n\n\n\n      \n\n\n\n    \n\n\n\n  \n\n\n\n  \n\n    \n\n      \n\n        \n\n  \n    \n      \n\n      \n\n    \n\n    \n\n    \n\n    \n\n        \n\n      \n\n            \n\n                About ESMA\n          \n\n                \nToggle submenu\n\n          \n\n\n\n    \n\n      \n\n      \n\n  \n\n               \n\n        \n\n      \n\n            \n\n                Governance Structure\n          \n\n                \nToggle submenu\n\n          \n\n\n\n    \n\n      \n\n      \n\n  \n\n       ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "European Securities and Markets Authority (ESMA)",
+    "host": "www.esma.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

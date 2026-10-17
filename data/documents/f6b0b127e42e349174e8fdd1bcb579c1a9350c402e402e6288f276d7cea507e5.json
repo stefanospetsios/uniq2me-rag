@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-17T08:04:57Z",
+  "originRunId": "qwen3-38995572810",
+  "source": {
+    "id": "0-source-4",
+    "type": "guidance",
+    "title": "DORA - Frequently Asked Questions - Central Bank of Ireland",
+    "publisher": "Central Bank of Ireland",
+    "url": "https://www.centralbank.ie/regulation/digital-operational-resilience-act-dora/dora---frequently-asked-questions",
+    "language": "en",
+    "jurisdiction": "European Union (Ireland implementation context)",
+    "applicability": "National supervisory guidance clarifying entity scope determinations, proportionality application (including simplified framework eligibility), and management body responsibilities specific to financial entities",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:334f3c6b51f12286b4aebf2018aeed743eb4d6498a3bfc3bec7b8411d487cc5b",
+    "textDigest": "sha256:766c380ec8c4d14582e51b532e13e9149acbe9600be96e2ecc5d29e86c712014",
+    "finalUrl": "https://www.centralbank.ie/regulation/digital-operational-resilience-act-dora/dora---frequently-asked-questions",
+    "retrievedAt": "2026-10-17T08:04:57Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-334f3c6b51f12286b4aebf2018aeed743eb4d6498a3bfc3bec7b8411d487cc5b.bin",
+    "textPath": "source-766c380ec8c4d14582e51b532e13e9149acbe9600be96e2ecc5d29e86c712014.txt"
+  },
+  "files": {
+    "snapshots/source-334f3c6b51f12286b4aebf2018aeed743eb4d6498a3bfc3bec7b8411d487cc5b.bin": "sha256:334f3c6b51f12286b4aebf2018aeed743eb4d6498a3bfc3bec7b8411d487cc5b",
+    "snapshots/source-766c380ec8c4d14582e51b532e13e9149acbe9600be96e2ecc5d29e86c712014.txt": "sha256:766c380ec8c4d14582e51b532e13e9149acbe9600be96e2ecc5d29e86c712014"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.centralbank.ie/regulation/digital-operational-resilience-act-dora/dora---frequently-asked-questions",
+  "language": "en",
+  "retrievedAt": "2026-10-17T08:04:57Z",
+  "foundIn": {
+    "runId": "qwen3-38995572810",
+    "sourceOriginRunId": "qwen3-38995572810",
+    "controllerCommit": "01db40a04a8b34138dee548d202a050a92d29c57",
+    "recordedAt": "2026-10-17T08:04:57Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "originalText": "\n\n\n\n\n\n\n\n        \n\n        \n\n        \n\n        \n\n        \n\n    \n    \n\n    \n\n    \n\n\n    \n\n\tDORA - Frequently Asked Questions | Central Bank of Ireland\n\n\n        \n\n        \n\n        \n\n        \n\n        \n\n    \n    \n\n    \n        \n\n    \n\n\n\n    \n\n    \n\n        \n\n    \n\n    \n\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n        \n            \n\n        \n        \n            \n\n                \n\n                    \n\n                        \n\n                            \nIt appears JavaScript is disabled. To get the most out of the\n                website we recommend enabling JavaScript in your browser.\n                        \n\n\n\n                        \nClose\n\n                    \n\n\n\n                \n\n\n\n            \n\n\n        \n\n        \n\n            \n\n\n\n\n\n    \n\n        \n\n            \n\n                Access To Cash",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Central Bank of Ireland",
+    "host": "www.centralbank.ie",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}
