@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "8d220e5549e0745e16edc17937f759f84a7620b8dac910a5199b4a77d16adbee",
+  "cachedAt": "2026-10-18T04:57:02Z",
+  "observedAt": "2026-10-18T04:57:02Z",
+  "originRunId": "qwen3-39097458867",
+  "foundIn": {
+    "runId": "qwen3-39097458867",
+    "controllerCommit": "4390e673ff99e6952d96f9183f2bad63bbce2caa",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-2-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "2",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA full text DORA: ICT assets, services and dependency mapping critical or important functions asset inventory dependency mapping information assets legacy systems",
+    "time_range": ""
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792299398336,
+    "end": 1792299399392
+  },
+  "outputDigest": "sha256:74f169280d94e942719c431e5ac69b1f82e457a92c3bf10d8c7b927f444d1369",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng",
+    "https://eur-lex.europa.eu/legal-content/EN/HIS/?uri=oj:JOL_2022_333_R_0001",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32022R2554&os=wtmb%26ref%3Dapp&ref=app",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+    "https://eur-lex.europa.eu/legal-content/TH/LSU/?uri=celex%3A32022R2554"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA full text DORA: ICT assets, services and dependency mapping critical or important functions asset inventory dependency mapping information assets legacy systems\",\n  \"results\": [\n    {\n      \"title\": \"Regulation - 2022/2554 - EN - DORA - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng\",\n      \"content\": \"As part of the ICT risk management framework referred to in Article 6 (1), financial entities shall identify, classify and adequately document all ICT supported business functions, roles and responsibilities, the information assets and ICT assets supporting those functions, and their roles and dependencies in relation to ICT risk.\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Regulation - 2022/2554 - EN - DORA - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/HIS/?uri=oj:JOL_2022_333_R_0001\",\n      \"content\": \"COM (2020) 595: Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on digital operational resilience for the financial sector and amending Regulations (EC) No 1060/2009, (EU) No 648/2012, (EU) No 600/2014 and (EU) No 909/2014\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Regulation (EU) 2022/2554 of the European Parliament and of ...\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/TH/LSU/?uri=celex%3A32022R2554\",\n      \"content\": \"Regulation (EU) 2022/2554 lays down uniform rules on the security of network and information systems of financial entities, such as banks, insurance companies and investment firms.\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Publications Office - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554\",\n      \"content\": \"The Union Oversight Framework ('Oversight Framework') established by this Regulation applies to all critical ICT third-party service pro",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "2"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "eur-lex.europa.eu"
+    ]
+  }
+}

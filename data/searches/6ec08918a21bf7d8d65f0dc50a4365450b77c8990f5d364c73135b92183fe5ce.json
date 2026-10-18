@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "6ec08918a21bf7d8d65f0dc50a4365450b77c8990f5d364c73135b92183fe5ce",
+  "cachedAt": "2026-10-18T05:11:31Z",
+  "observedAt": "2026-10-18T05:11:31Z",
+  "originRunId": "qwen3-39097458867",
+  "foundIn": {
+    "runId": "qwen3-39097458867",
+    "controllerCommit": "4390e673ff99e6952d96f9183f2bad63bbce2caa",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-3-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "3",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "site:eba.europa.eu DORA, Regulation (EU) 2022/2554, identity and access management, authentication, encryption, network security, data protection, physical security"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792300244447,
+    "end": 1792300245691
+  },
+  "outputDigest": "sha256:f68d3276e4fbe7a8d072b1993cdc290badf7ba856b0e5d32b59066ced8a29387",
+  "resultUrls": [
+    "https://www.eba.europa.eu/regulation-and-policy/single-rulebook/interactive-single-rulebook/17716",
+    "https://www.eba.europa.eu/sites/default/files/documents/10180/2522896/32a28233-12f5-49c8-9bb5-f8744ccb4e92/Final%20Guidelines%20on%20ICT%20and%20security%20risk%20management.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Digital operational resilience Regulation (DORA) | European Banking Authority\",\n      \"url\": \"https://www.eba.europa.eu/regulation-and-policy/single-rulebook/interactive-single-rulebook/17716\",\n      \"content\": \"Digital operational resilience Regulation (DORA) | European Banking Authority\\n\\n# Digital operational resilience Regulation (DORA) \\n\\n- CHAPTER I: General provisions \\n\\n- Article 1: Subject matter \\n- Article 2: Scope \\n- Article 3: Definitions \\n- Article 4: Proportionality principle \\n- CHAPTER II: ICT risk management \\n\\n- Section: I \\n\\n- Article 5: Governance and organisation \\n- Section: 2 \\n\\n- Article 6: ICT risk management framework \\n- Article 7: ICT systems, protocols and tools \\n- Article 8: Identification \\n- Article 9: Protection and prevention \\n- Article 10: Detection \\n- Article 11: Response and recovery \\n- Article 12: Backup policies and procedures, restoration and recovery procedures and methods \\n- Article 13: Learning and evolving \\n- Article 14: Communication \\n- Article 15: Further harmonisation of ICT risk management tools, methods, processes and policies \\n- Article 16: Simplified ICT risk management framework \\n- CHAPTER III: ICT-related incident management, classification and reporting \\n\\n- Article 17: ICT-related incident management process \\n- Article 18: Classification of ICT-related incidents and cyber threats \\n- Article 19: Reporting of major ICT-related incidents and voluntary notification of significant cyber threats \\n- Article 20: Harmonisation of reporting content and templates \\n- Article 21: Centralisation of reporting of major ICT-related incidents \\n- Article 22: Supervisory feedback \\n- Article 23: Operational or security payment-related incidents concerning credit institutions, payment institutions, account information service providers, and electronic money institutions \\n- CHAPTER IV: Digital operational resilience testing \\n\\n- Article 24: General requirements for the ",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "3"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "www.eba.europa.eu"
+    ]
+  }
+}

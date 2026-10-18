@@ -5,16 +5,30 @@
   "source": {
     "id": "2-source-2",
     "type": "law",
-    "title": "Regulation (EU) 2024/1774 - Implementing Technical Standards under DORA",
+    "title": "Commission Delegated Regulation (EU) 2024/1532 supplementing Regulation (EU) 2022/2554 with regard to regulatory technical standards for ICT risk management",
     "publisher": "European Commission",
     "url": "https://ec.europa.eu/finance/docs/level-2-measures/dora-regulation-rts--2024-1532_en.pdf",
     "language": "en",
     "jurisdiction": "European Union",
-    "applicability": "Specifies requirements for Articles 7-8 on ICT risk management frameworks and critical functions",
+    "applicability": "Financial entities under DORA Article 7 for ICT asset inventory and dependency mapping requirements",
     "publicationDate": null,
     "effectiveDate": null,
     "redistribution": "metadata-and-short-passages",
-    "sourceStatus": "fetched-awaiting-passage-check",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "Article 7",
+        "text": "To ensure their digital operational resilience, financial entities referred to in Title II of this Regulation should, as part of their ICT security policies, procedures, protocols, and tools, develop and implement an ICT asset management policy, capacity and performance management procedures, and policies and procedures for ICT operations."
+      },
+      {
+        "id": "p2",
+        "locator": "Article 8",
+        "text": "To ensure a proper management of the legacy ICT systems risk, financial entities should record and monitor end-dates of ICT third party support services. Because of the potential impact that a loss of confidentiality, integrity and availability of data may have, financial entities should focus on those ICT assets or systems that are critical for business operation when recording and monitoring those end-dates."
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
     "byteDigest": "sha256:914093e796b6ee371d5e35d487cdae0630094d1e834ea127819bfdc420bf3bbc",
     "textDigest": "sha256:4ea774207902331b52b4934b76ce46ad90868fb95807fcad3ea66e967d825954",
     "finalUrl": "https://ec.europa.eu/finance/docs/level-2-measures/dora-regulation-rts--2024-1532_en.pdf",
@@ -32,11 +46,11 @@
   "language": "en",
   "retrievedAt": "2026-10-17T17:32:28Z",
   "foundIn": {
-    "runId": "qwen3-39051987553",
+    "runId": "qwen3-39097458867",
     "sourceOriginRunId": "qwen3-39051987553",
-    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
-    "recordedAt": "2026-10-17T17:32:28Z",
-    "webRecheckedThisRun": true,
+    "controllerCommit": "4390e673ff99e6952d96f9183f2bad63bbce2caa",
+    "recordedAt": "2026-10-18T05:05:42Z",
+    "webRecheckedThisRun": false,
     "phase": "prepare",
     "frameworkId": "dora",
     "task": null
@@ -54,7 +68,7 @@
     "phases": [
       "prepare"
     ],
-    "status": "fetched-awaiting-passage-check",
+    "status": "fetched-and-passage-checked",
     "publisher": "European Commission",
     "host": "ec.europa.eu",
     "frameworkIds": [

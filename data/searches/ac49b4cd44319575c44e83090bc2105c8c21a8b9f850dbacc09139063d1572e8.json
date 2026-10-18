@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "ac49b4cd44319575c44e83090bc2105c8c21a8b9f850dbacc09139063d1572e8",
+  "cachedAt": "2026-10-18T05:14:41Z",
+  "observedAt": "2026-10-18T05:14:41Z",
+  "originRunId": "qwen3-39097458867",
+  "foundIn": {
+    "runId": "qwen3-39097458867",
+    "controllerCommit": "4390e673ff99e6952d96f9183f2bad63bbce2caa",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-4-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "4",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "site:eba.europa.eu DORA DORA, Regulation (EU) 2022/2554, ICT change management, secure development, vulnerability management, patch management, ICT lifecycle"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792300459259,
+    "end": 1792300460583
+  },
+  "outputDigest": "sha256:e277d754c1503ee138207e80cbb0f0f7bf1f9e994d506687cd6e641a711f6f52",
+  "resultUrls": [
+    "https://www.eba.europa.eu/sites/default/files/documents/10180/2522896/32a28233-12f5-49c8-9bb5-f8744ccb4e92/Final%20Guidelines%20on%20ICT%20and%20security%20risk%20management.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"FINAL REPORT\",\n      \"url\": \"https://www.eba.europa.eu/sites/default/files/documents/10180/2522896/32a28233-12f5-49c8-9bb5-f8744ccb4e92/Final%20Guidelines%20on%20ICT%20and%20security%20risk%20management.pdf\",\n\n...853047 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_14d6eaa25001y1cQMJdi9ksoB1\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "4"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "www.eba.europa.eu"
+    ]
+  }
+}

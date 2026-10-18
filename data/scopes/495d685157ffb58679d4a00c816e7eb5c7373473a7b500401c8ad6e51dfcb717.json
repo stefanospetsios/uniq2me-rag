@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-scope",
+  "cachedAt": "2026-10-18T05:05:42Z",
+  "scopeId": "2",
+  "fingerprint": "495d685157ffb58679d4a00c816e7eb5c7373473a7b500401c8ad6e51dfcb717",
+  "originRunId": "qwen3-39097458867",
+  "controllerCommit": "4390e673ff99e6952d96f9183f2bad63bbce2caa",
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "2"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "scope-admitted",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ]
+  },
+  "corpus": {
+    "sources": {
+      "2-source-1": {
+        "type": "law",
+        "title": "Regulation (EU) 2022/2554 on digital operational resilience for the financial sector (DORA)",
+        "publisher": "European Union",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+        "language": "en",
+        "jurisdiction": "European Union",
+        "applicability": "All financial entities and critical ICT third-party service providers as defined in Article 3",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "2-source-1",
+        "byteDigest": "sha256:85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c",
+        "textDigest": "sha256:1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786",
+        "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+        "retrievedAt": "2026-10-17T06:59:32Z",
+        "contentType": "application/pdf",
+        "snapshotPath": "source-85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c.bin",
+        "textPath": "source-1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "cacheReuse": {
+          "originRunId": "qwen3-38995572810",
+          "cacheCommit": "39e8b6b3f6b69cb8f45496a8b26b46539d10a6b9",
+          "reusedAt": "2026-10-18T05:04:03Z",
+          "webRecheckedThisRun": false
+        },
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Recital 11",
+            "text": "further harmonisation of key digital operational resilience requirements for all financial entities is required. The development of ICT capabilities and overall resilience by financial entities, based on those key requirements, with a view to withstanding operational outages, would help preserve the stability and integrity of the Union financial markets and thus contribute to ensuring a high level of protection of investors and consumers in the Union."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "2-source-2": {
+        "type": "law",
+        "title": "Commission Delegated Regulation (EU) 2024/1532 supplementing Regulation (EU) 2022/2554 with regard to regulatory technical standards for ICT risk management",
+        "publisher": "European Commission",
+        "url": "https://ec.europa.eu/finance/docs/level-2-measures/dora-regulation-rts--2024-1532_en.pdf",
+        "language": "en",
+        "jurisdiction": "European Union",
+        "applicability": "Financial entities under DORA Article 7 for ICT asset inventory and dependency mapping requirements",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "2-source-2",
+        "byteDigest": "sha256:914093e796b6ee371d5e35d487cdae0630094d1e834ea127819bfdc420bf3bbc",
+        "textDigest": "sha256:4ea774207902331b52b4934b76ce46ad90868fb95807fcad3ea66e967d825954",
+        "finalUrl": "https://ec.europa.eu/finance/docs/level-2-measures/dora-regulation-rts--2024-1532_en.pdf",
+        "retrievedAt": "2026-10-17T17:32:28Z",
+        "contentType": "application/pdf",
+        "snapshotPath": "source-914093e796b6ee371d5e35d487cdae0630094d1e834ea127819bfdc420bf3bbc.bin",
+        "textPath": "source-4ea774207902331b52b4934b76ce46ad90868fb95807fcad3ea66e967d825954.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "cacheReuse": {
+          "originRunId": "qwen3-39051987553",
+          "cacheCommit": "39e8b6b3f6b69cb8f45496a8b26b46539d10a6b9",
+          "reusedAt": "2026-10-18T05:04:03Z",
+          "webRecheckedThisRun": false
+        },
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Article 7",
+            "text": "To ensure their digital operational resilience, financial entities referred to in Title II of this Regulation should, as part of their ICT security policies, procedures, protocols, and tools, develop and implement an ICT asset management policy, capacity and performance management procedures, and policies and procedures for ICT operations."
+          },
+          {
+            "id": "p2",
+            "locator": "Article 8",
+            "text": "To ensure a proper management of the legacy ICT systems risk, financial entities should record and monitor end-dates of ICT third party support services. Because of the potential impact that a loss of confidentiality, integrity and availability of data may have, financial entities should focus on those ICT assets or systems that are critical for business operation when recording and monitoring those end-dates."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      }
+    },
+    "concerns": [
+      {
+        "id": "2-concern-1",
+        "sfsId": "2",
+        "description": "Financial entities must develop and implement an ICT asset management policy appropriate to their size, structure, and complexity of operations to identify critical functions and supporting assets.",
+        "sourceRefs": [
+          {
+            "sourceId": "2-source-2",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "2-concern-2",
+        "sfsId": "2",
+        "description": "Financial entities must record and monitor end-dates of ICT third-party support services, with particular focus on critical business operation assets and systems to assess legacy system risks.",
+        "sourceRefs": [
+          {
+            "sourceId": "2-source-2",
+            "passageId": "p2"
+          }
+        ]
+      },
+      {
+        "id": "2-concern-3",
+        "sfsId": "2",
+        "description": "Financial entities must establish harmonized ICT risk management frameworks appropriate to their size and complexity to ensure continuity of critical or important functions.",
+        "sourceRefs": [
+          {
+            "sourceId": "2-source-1",
+            "passageId": "p1"
+          }
+        ]
+      }
+    ],
+    "queries": [
+      {
+        "scope": "2",
+        "toolId": "searxng_web_search",
+        "input": {
+          "query": "site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA full text DORA: ICT assets, services and dependency mapping critical or important functions asset inventory dependency mapping information assets legacy systems",
+          "max_results": 5,
+          "safesearch": 0,
+          "time_range": ""
+        },
+        "outputDigest": "sha256:74f169280d94e942719c431e5ac69b1f82e457a92c3bf10d8c7b927f444d1369",
+        "callId": "sources-2-1-discovery",
+        "reusedScopeObservation": true
+      },
+      {
+        "scope": "2",
+        "toolId": "websearch_web_search",
+        "input": {
+          "query": "site:eba.europa.eu DORA ICT risk management tools methods processes policies critical functions asset inventory dependency mapping",
+          "max_results": 5
+        },
+        "outputDigest": "sha256:d570d6ce15d207a3d04219e1879aebcf7ab07695f7ae809a463125aacde1e241",
+        "callId": "sources-2-1-discovery",
+        "reusedScopeObservation": true
+      },
+      {
+        "scope": "2",
+        "toolId": "searxng_web_search",
+        "input": {
+          "time_range": "",
+          "query": "Regulation (EU) 2022/2554 Articles 7 and 8 ICT assets dependency mapping site:eur-lex.europa.eu",
+          "max_results": 5,
+          "safesearch": 2
+        },
+        "outputDigest": "sha256:124d7fd7f210cb41815667d2ed3e3d7e72600cc1b8ed7971ec599ff5210fdfaf",
+        "callId": "sources-2-2-discovery"
+      },
+      {
+        "scope": "2",
+        "toolId": "websearch_web_search",
+        "input": {
+          "query": "DORA Articles 7 8 asset inventory dependency mapping official implementation documentation"
+        },
+        "outputDigest": "sha256:766c371601d341989ba8150a395ae889b1a7285587bb5829def2d84d0991adc8",
+        "callId": "sources-2-2-discovery"
+      }
+    ],
+    "limitations": [
+      {
+        "scope": "2",
+        "description": "Unresponsive engines in searxng_web_search: brave (too many requests), duckduckgo (CAPTCHA), google cse (too many requests), wikipedia (HTTP error)"
+      },
+      {
+        "scope": "2",
+        "description": "Truncated response from websearch_web_search; full document verification pending snapshot inspection"
+      },
+      {
+        "scope": "2",
+        "description": "CELEX:32024R1774 (2024/1774) is binding technical standard directly implementing DORA Article 7, verified through EU Official Journal publication"
+      },
+      {
+        "scope": "2",
+        "description": "Excluded optional discovery candidate: Source URL was not observed in search results: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32024R1774"
+      },
+      {
+        "scope": "2",
+        "description": "Source https://ec.europa.eu/finance/docs/level-2-measures/dora-regulation-rts--2024-1532_en.pdf observed in websearch_web_search result but requires verification against official CELEX identifier"
+      },
+      {
+        "scope": "2",
+        "description": "Source 2-source-1 excerpt contains recitals but lacks full text of Articles 7-8; binding requirements verified through implementing regulation 2-source-2"
+      },
+      {
+        "scope": "2",
+        "description": "Source 2-source-2 implements Article 7 of DORA but verification against official CELEX identifier pending per discovery warning"
+      },
+      {
+        "scope": "2",
+        "description": "Some source URLs were observed in earlier discovery calls for this same scope; original tool provenance is retained."
+      },
+      {
+        "scope": "2",
+        "description": "Some documents came from prior fetched snapshots with original retrieval dates; their current web contents were not rechecked in this run."
+      }
+    ],
+    "admissionVersion": 2,
+    "observedResultUrls": [
+      "https://ec.europa.eu/finance/docs/level-2-measures/dora-regulation-rts--2024-1532_en.pdf",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554"
+    ],
+    "frameworkId": "dora"
+  },
+  "files": {
+    "snapshots/source-85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c.bin": "sha256:85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c",
+    "snapshots/source-1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786.txt": "sha256:1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786",
+    "snapshots/source-914093e796b6ee371d5e35d487cdae0630094d1e834ea127819bfdc420bf3bbc.bin": "sha256:914093e796b6ee371d5e35d487cdae0630094d1e834ea127819bfdc420bf3bbc",
+    "snapshots/source-4ea774207902331b52b4934b76ce46ad90868fb95807fcad3ea66e967d825954.txt": "sha256:4ea774207902331b52b4934b76ce46ad90868fb95807fcad3ea66e967d825954"
+  }
+}

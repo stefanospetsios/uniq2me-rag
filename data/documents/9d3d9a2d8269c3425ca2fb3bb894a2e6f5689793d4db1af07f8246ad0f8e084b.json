@@ -3,14 +3,14 @@
   "cachedAt": "2026-10-17T06:59:32Z",
   "originRunId": "qwen3-38995572810",
   "source": {
-    "id": "8-source-1",
+    "id": "2-source-1",
     "type": "law",
-    "title": "Regulation (EU) 2022/2554 of the European Parliament and of the Council on digital operational resilience for the financial sector",
+    "title": "Regulation (EU) 2022/2554 on digital operational resilience for the financial sector (DORA)",
     "publisher": "European Union",
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
     "language": "en",
     "jurisdiction": "European Union",
-    "applicability": "Applies to financial entities including credit institutions, payment institutions, electronic money institutions, insurance undertakings, and other defined entities under Article 2, covering ICT business continuity and crisis response requirements in Article 11.",
+    "applicability": "All financial entities and critical ICT third-party service providers as defined in Article 3",
     "publicationDate": null,
     "effectiveDate": null,
     "redistribution": "metadata-and-short-passages",
@@ -18,13 +18,8 @@
     "passages": [
       {
         "id": "p1",
-        "locator": "Recital 26",
-        "text": "testing defence capabilities and business continuity, which contributes to increasing the trust of customers, suppliers and business partners."
-      },
-      {
-        "id": "p2",
-        "locator": "Article 11(f)",
-        "text": "ensure the continuity of critical or important functions, through business continuity plans and response and recovery measures, which include, at least, back-up and restoration measures;"
+        "locator": "Recital 11",
+        "text": "further harmonisation of key digital operational resilience requirements for all financial entities is required. The development of ICT capabilities and overall resilience by financial entities, based on those key requirements, with a view to withstanding operational outages, would help preserve the stability and integrity of the Union financial markets and thus contribute to ensuring a high level of protection of investors and consumers in the Union."
       }
     ],
     "quotationMatchPolicy": "unicode-typography-v1",
@@ -46,10 +41,10 @@
   "language": "en",
   "retrievedAt": "2026-10-17T06:59:32Z",
   "foundIn": {
-    "runId": "qwen3-39051987553",
+    "runId": "qwen3-39097458867",
     "sourceOriginRunId": "qwen3-38995572810",
-    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
-    "recordedAt": "2026-10-17T18:18:32Z",
+    "controllerCommit": "4390e673ff99e6952d96f9183f2bad63bbce2caa",
+    "recordedAt": "2026-10-18T05:05:42Z",
     "webRecheckedThisRun": false,
     "phase": "prepare",
     "frameworkId": "dora",
@@ -63,7 +58,7 @@
       "en"
     ],
     "scopeIds": [
-      "8"
+      "2"
     ],
     "phases": [
       "prepare"

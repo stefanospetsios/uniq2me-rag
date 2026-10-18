@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "aad2c174c56fe16d32cb2675ca759767020c19207e4e93deee97c6367e42038b",
+  "cachedAt": "2026-10-18T05:04:03Z",
+  "observedAt": "2026-10-18T05:04:03Z",
+  "originRunId": "qwen3-39097458867",
+  "foundIn": {
+    "runId": "qwen3-39097458867",
+    "controllerCommit": "4390e673ff99e6952d96f9183f2bad63bbce2caa",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-2-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "2",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "DORA Articles 7 8 asset inventory dependency mapping official implementation documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792299710679,
+    "end": 1792299711825
+  },
+  "outputDigest": "sha256:766c371601d341989ba8150a395ae889b1a7285587bb5829def2d84d0991adc8",
+  "resultUrls": [
+    "https://ec.europa.eu/finance/docs/level-2-measures/dora-regulation-rts--2024-1532_en.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"-\",\n      \"url\": \"https://ec.europa.eu/finance/docs/level-2-measures/dora-regulation-rts--2024-1532_en.pdf\",\n\n...458173 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_14d633d4f001mfB0SK7AqMh0sL\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "2"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "ec.europa.eu"
+    ]
+  }
+}

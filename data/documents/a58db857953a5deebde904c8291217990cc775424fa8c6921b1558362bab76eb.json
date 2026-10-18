@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-18T04:49:09Z",
+  "originRunId": "qwen3-39097458867",
+  "source": {
+    "id": "1-source-4",
+    "type": "guidance",
+    "title": "Guide on DORA oversight of critical third-party providers activities",
+    "publisher": "European Supervisory Authorities",
+    "url": "https://www.eba.europa.eu/regulation-and-policy/operational-resilience",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "Critical ICT third-party service providers and financial entities using their services",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:5c011b92f673fa770514f00e3ec9a4ef83f7e1c0748483ca5c7be3152a7e2317",
+    "textDigest": "sha256:c9817ab16b30cba6fb98acafca39edab2f4c7d0205c7314944486fac5b2eedb4",
+    "finalUrl": "https://www.eba.europa.eu/regulation-and-policy/operational-resilience",
+    "retrievedAt": "2026-10-18T04:49:09Z",
+    "contentType": "text/html; charset=UTF-8",
+    "snapshotPath": "source-5c011b92f673fa770514f00e3ec9a4ef83f7e1c0748483ca5c7be3152a7e2317.bin",
+    "textPath": "source-c9817ab16b30cba6fb98acafca39edab2f4c7d0205c7314944486fac5b2eedb4.txt"
+  },
+  "files": {
+    "snapshots/source-5c011b92f673fa770514f00e3ec9a4ef83f7e1c0748483ca5c7be3152a7e2317.bin": "sha256:5c011b92f673fa770514f00e3ec9a4ef83f7e1c0748483ca5c7be3152a7e2317",
+    "snapshots/source-c9817ab16b30cba6fb98acafca39edab2f4c7d0205c7314944486fac5b2eedb4.txt": "sha256:c9817ab16b30cba6fb98acafca39edab2f4c7d0205c7314944486fac5b2eedb4"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.eba.europa.eu/regulation-and-policy/operational-resilience",
+  "language": "en",
+  "retrievedAt": "2026-10-18T04:49:09Z",
+  "foundIn": {
+    "runId": "qwen3-39097458867",
+    "sourceOriginRunId": "qwen3-39097458867",
+    "controllerCommit": "4390e673ff99e6952d96f9183f2bad63bbce2caa",
+    "recordedAt": "2026-10-18T04:49:09Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "originalText": "\n\n\n  \n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \nOperational resilience | European Banking Authority\n\n    \n\n\n\n\n\n\n    \n  \n\n  \n\n        \n\n      Skip to main content\n    \n\n    \n      \n\n    \n\n\n\n  \n\n    \n\n          \n\n    \n\n  \n\n\n\n\n\n      \n\n  \n\n    \nMenu\n\n    \n\n  \n\n  \n\n    \n\n      \n\n          \n  \n\n                  \n\n          \nExtranet\n\n        \n\n\n\n                        \n\n          \nLog in\n\n        \n\n\n\n            \n\n\n\n\n      \n\n      \n\n        \n\n              \n\n                  \n\n          \nAbout us\n\n          \n\n            \nBack\n\n\n            \n\n              \nAbout us\n\n\n\n                              \n\n                  \nThe EBA is an independent EU Authority.  We play a key role in safeguarding the integrity and robustness of the EU banking sector to support financial stability in the ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "European Supervisory Authorities",
+    "host": "www.eba.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

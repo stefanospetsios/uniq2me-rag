@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "30a04729a8be54b10d83311653479fb5a13f2e9ba520eb9456b56f2d8d0c6fdd",
+  "cachedAt": "2026-10-18T05:05:42Z",
+  "originRunId": "qwen3-39097458867",
+  "sourceUrl": "https://ec.europa.eu/finance/docs/level-2-measures/dora-regulation-rts--2024-1532_en.pdf",
+  "finalUrl": "https://ec.europa.eu/finance/docs/level-2-measures/dora-regulation-rts--2024-1532_en.pdf",
+  "language": "en",
+  "publisher": "European Commission",
+  "title": "Commission Delegated Regulation (EU) 2024/1532 supplementing Regulation (EU) 2022/2554 with regard to regulatory technical standards for ICT risk management",
+  "retrievedAt": "2026-10-17T17:32:28Z",
+  "byteDigest": "sha256:914093e796b6ee371d5e35d487cdae0630094d1e834ea127819bfdc420bf3bbc",
+  "textDigest": "sha256:4ea774207902331b52b4934b76ce46ad90868fb95807fcad3ea66e967d825954",
+  "sourceId": "2-source-2",
+  "passageId": "p1",
+  "locator": "Article 7",
+  "quotation": "To ensure their digital operational resilience, financial entities referred to in Title II of this Regulation should, as part of their ICT security policies, procedures, protocols, and tools, develop and implement an ICT asset management policy, capacity and performance management procedures, and policies and procedures for ICT operations.",
+  "originalText": "informed and prepared in a changing landscape.\n     (7)   To ensure their digital operational resilience, financial entities referred to in Title II of\n           this Regulation should, as part of their ICT security policies, procedures, protocols,\n           and tools, develop and implement an ICT asset management policy, capacity and\n           performance management procedures, and policies and procedures for ICT operations.\n           Those policies and procedures are necessary to ensure the monitoring of the status of\n           ICT assets throughout their lifecycles, so that those assets are used",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-39097458867",
+    "sourceOriginRunId": "qwen3-39051987553",
+    "controllerCommit": "4390e673ff99e6952d96f9183f2bad63bbce2caa",
+    "recordedAt": "2026-10-18T05:05:42Z",
+    "webRecheckedThisRun": false,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "2"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "European Commission",
+    "host": "ec.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

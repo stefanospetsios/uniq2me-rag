@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "e919660c0b7968a058bf51d8fd6f01986527bbe2c5ba4def62c3850049dd9e66",
+  "cachedAt": "2026-10-18T04:53:58Z",
+  "observedAt": "2026-10-18T04:53:58Z",
+  "originRunId": "qwen3-39097458867",
+  "foundIn": {
+    "runId": "qwen3-39097458867",
+    "controllerCommit": "4390e673ff99e6952d96f9183f2bad63bbce2caa",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-1-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "1",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "DORA: ICT risk framework and assurance DORA official implementation guidance"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792299188259,
+    "end": 1792299188969
+  },
+  "outputDigest": "sha256:80255421ec6adbcfd143af52ccef374d5e5dd55e127b8c5af915b1fa5e2cd89f",
+  "resultUrls": [
+    "https://www.eba.europa.eu/activities/direct-supervision-and-oversight/digital-operational-resilience-act",
+    "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/regulatory-technical-standards-ict-risk-management-framework-and-simplified-ict-risk-management",
+    "https://www.eiopa.europa.eu/digital-operational-resilience-act-dora_en",
+    "https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/digital-operational-resilience-act-dora",
+    "https://www.regulation-dora.eu/pdf/rts-ict-risk-management.html"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"DORA: ICT risk framework and assurance DORA official implementation guidance\",\n  \"results\": [\n    {\n      \"title\": \"Digital Operational Resilience Act (DORA) - European Insurance and ...\",\n      \"url\": \"https://www.eiopa.europa.eu/digital-operational-resilience-act-dora_en\",\n      \"content\": \"The Digital Operational Resilience Act (DORA) is a regulation introduced by the European Union to strengthen the digital resilience of financial entities. It entered into application on 17 Jan 2025 and ensures that banks, insurance companies, investment firms and other financial entities can withstand, respond to, and recover from ICT (Information and Communication Technology) disruptions ...\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Digital Operational Resilience Act - European Banking Authority\",\n      \"url\": \"https://www.eba.europa.eu/activities/direct-supervision-and-oversight/digital-operational-resilience-act\",\n      \"content\": \"The Digital Operational Resilience Act (DORA) establishes an EU-wide oversight framework for critical ICT (information and communication technology) third-party providers (CTPPs) to ensure that the financial sector remains secure and resilient against ICT disruptions. Under DORA, the European Supervisory Authorities (EBA, EIOPA and ESMA) are responsible for designating third-party providers as ...\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Regulatory Technical Standards on ICT risk management framework and on ...\",\n      \"url\": \"https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/regulatory-technical-standards-ict-risk-management-framework-and-simplified-ict-risk-management\",\n      \"content\": \"The Regulatory Technical Standards on ICT risk management framework identify further elements related to ICT risk management with a view to harmonise tools, methods, processes and policies. These elements are complementary to t",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "www.eba.europa.eu",
+      "www.eiopa.europa.eu",
+      "www.esma.europa.eu",
+      "www.regulation-dora.eu"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "c235101f5c5c92ab057c3d5d961bcf6d669cee027bd69ca588e97ede204023ed",
+  "cachedAt": "2026-10-18T05:05:42Z",
+  "originRunId": "qwen3-39097458867",
+  "sourceUrl": "https://ec.europa.eu/finance/docs/level-2-measures/dora-regulation-rts--2024-1532_en.pdf",
+  "finalUrl": "https://ec.europa.eu/finance/docs/level-2-measures/dora-regulation-rts--2024-1532_en.pdf",
+  "language": "en",
+  "publisher": "European Commission",
+  "title": "Commission Delegated Regulation (EU) 2024/1532 supplementing Regulation (EU) 2022/2554 with regard to regulatory technical standards for ICT risk management",
+  "retrievedAt": "2026-10-17T17:32:28Z",
+  "byteDigest": "sha256:914093e796b6ee371d5e35d487cdae0630094d1e834ea127819bfdc420bf3bbc",
+  "textDigest": "sha256:4ea774207902331b52b4934b76ce46ad90868fb95807fcad3ea66e967d825954",
+  "sourceId": "2-source-2",
+  "passageId": "p2",
+  "locator": "Article 8",
+  "quotation": "To ensure a proper management of the legacy ICT systems risk, financial entities should record and monitor end-dates of ICT third party support services. Because of the potential impact that a loss of confidentiality, integrity and availability of data may have, financial entities should focus on those ICT assets or systems that are critical for business operation when recording and monitoring those end-dates.",
+  "originalText": "availability, authenticity, integrity, and confidentiality of\n           data.\n     (8)   To ensure a proper management of the legacy ICT systems risk, financial entities\n           should record and monitor end-dates of ICT third party support services. Because of\n           the potential impact that a loss of confidentiality, integrity and availability of data may\n           have, financial entities should focus on those ICT assets or systems that are critical for\n           business operation when recording and monitoring those end-dates.\n\n     3\n           Regulation (EU) No 1025/2012 of the European Parliament and of the Council of 25 October 2012 on\n           European standardisation, amending Council",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-39097458867",
+    "sourceOriginRunId": "qwen3-39051987553",
+    "controllerCommit": "4390e673ff99e6952d96f9183f2bad63bbce2caa",
+    "recordedAt": "2026-10-18T05:05:42Z",
+    "webRecheckedThisRun": false,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "2"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "European Commission",
+    "host": "ec.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "0c76ee663d295e1cd4cec6ef13d6cc70d005302a5d6fcb3dc5bcc3af107a6421",
+  "cachedAt": "2026-10-18T05:04:03Z",
+  "observedAt": "2026-10-18T05:04:03Z",
+  "originRunId": "qwen3-39097458867",
+  "foundIn": {
+    "runId": "qwen3-39097458867",
+    "controllerCommit": "4390e673ff99e6952d96f9183f2bad63bbce2caa",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-2-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "2",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "time_range": "",
+    "query": "Regulation (EU) 2022/2554 Articles 7 and 8 ICT assets dependency mapping site:eur-lex.europa.eu"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792299710065,
+    "end": 1792299710991
+  },
+  "outputDigest": "sha256:124d7fd7f210cb41815667d2ed3e3d7e72600cc1b8ed7971ec599ff5210fdfaf",
+  "resultUrls": [],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Regulation (EU) 2022/2554 Articles 7 and 8 ICT assets dependency mapping site:eur-lex.europa.eu\",\n  \"results\": [],\n  \"unresponsive_engines\": [\n    [\n      \"brave\",\n      \"too many requests\"\n    ],\n    [\n      \"duckduckgo\",\n      \"CAPTCHA\"\n    ],\n    [\n      \"google cse\",\n      \"too many requests\"\n    ],\n    [\n      \"wikipedia\",\n      \"HTTP error\"\n    ]\n  ]\n}",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "2"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": []
+  }
+}

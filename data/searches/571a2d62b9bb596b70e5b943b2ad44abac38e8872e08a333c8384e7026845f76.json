@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "571a2d62b9bb596b70e5b943b2ad44abac38e8872e08a333c8384e7026845f76",
+  "cachedAt": "2026-10-18T05:17:56Z",
+  "observedAt": "2026-10-18T05:17:56Z",
+  "originRunId": "qwen3-39097458867",
+  "foundIn": {
+    "runId": "qwen3-39097458867",
+    "controllerCommit": "4390e673ff99e6952d96f9183f2bad63bbce2caa",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-4-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "4",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "time_range": "",
+    "query": "site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA full text DORA: Secure change, development and vulnerability management"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792300598008,
+    "end": 1792300598960
+  },
+  "outputDigest": "sha256:5a1fb7018b0b560ee07fe2d4a19a69b0d1798a45842468b2d00e56f7d6035f02",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/",
+    "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng",
+    "https://eur-lex.europa.eu/eli/reg/2022/2554/oj?locale=de",
+    "https://eur-lex.europa.eu/legal-content/EN/HIS/?uri=oj:JOL_2022_333_R_0001",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+    "https://eur-lex.europa.eu/legal-content/ES/TXT/PDF/?uri=CELEX%3A32022R2554",
+    "https://eur-lex.europa.eu/legal-content/IT/LSU/?uri=uriserv:OJ.L_.2022.333.01.0001.01.ITA",
+    "https://eur-lex.europa.eu/legal-content/TH/LSU/?uri=celex%3A32022R2554"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA full text DORA: Secure change, development and vulnerability management\",\n  \"results\": [\n    {\n      \"title\": \"Regulation - 2022/2554 - EN - DORA - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng\",\n      \"content\": \"Regulation (EU) 2022/2554 of the European Parliament and of the Council of 14 December 2022 on digital operational resilience for the financial sector and amending Regulations (EC) No 1060/2009, (EU) No 648/2012, (EU) No 600/2014, (EU) No 909/2014 and (EU) 2016/1011 (Text with EEA relevance)\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Regulation - 2022/2554 - EN - DORA - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/HIS/?uri=oj:JOL_2022_333_R_0001\",\n      \"content\": \"COM (2020) 595: Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on digital operational resilience for the financial sector and amending Regulations (EC) No 1060/2009, (EU) No 648/2012, (EU) No 600/2014 and (EU) No 909/2014\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Regulation (EU) 2022/2554 of the European Parliament and of ...\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/TH/LSU/?uri=celex%3A32022R2554\",\n      \"content\": \"Regulation (EU) 2022/2554 lays down uniform rules on the security of network and information systems of financial entities, such as banks, insurance companies and investment firms.\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Publications Office - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554\",\n      \"content\": \"The webpage provides access to the Digital Operational Resilience Act (DORA), a regulation enhancing digital resilience for EU financial entities.\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Verordnung - 2022/2554 - DE - EUR-Lex\",",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "4"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "eur-lex.europa.eu"
+    ]
+  }
+}

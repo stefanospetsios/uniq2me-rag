@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "dd49eaa06fa15b6dc77df4150e7a3d61ca96d37b27d0191c2a95d1e8dee98bfb",
+  "cachedAt": "2026-10-18T05:05:42Z",
+  "originRunId": "qwen3-39097458867",
+  "sourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+  "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+  "language": "en",
+  "publisher": "European Union",
+  "title": "Regulation (EU) 2022/2554 on digital operational resilience for the financial sector (DORA)",
+  "retrievedAt": "2026-10-17T06:59:32Z",
+  "byteDigest": "sha256:85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c",
+  "textDigest": "sha256:1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786",
+  "sourceId": "2-source-1",
+  "passageId": "p1",
+  "locator": "Recital 11",
+  "quotation": "further harmonisation of key digital operational resilience requirements for all financial entities is required. The development of ICT capabilities and overall resilience by financial entities, based on those key requirements, with a view to withstanding operational outages, would help preserve the stability and integrity of the Union financial markets and thus contribute to ensuring a high level of protection of investors and consumers in the Union.",
+  "originalText": "by a comprehensive ICT or operational risk framework, further\n             harmonisation of key digital operational resilience requirements for all financial entities is required. The\n             development of ICT capabilities and overall resilience by financial entities, based on those key requirements, with a\n             view to withstanding operational outages, would help preserve the stability and integrity of the Union financial\n             markets and thus contribute to ensuring a high level of protection of investors and consumers in the Union. Since\n             this Regulation aims to contribute to the smooth functioning of the internal market, it should be based on",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-39097458867",
+    "sourceOriginRunId": "qwen3-38995572810",
+    "controllerCommit": "4390e673ff99e6952d96f9183f2bad63bbce2caa",
+    "recordedAt": "2026-10-18T05:05:42Z",
+    "webRecheckedThisRun": false,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "2"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "European Union",
+    "host": "eur-lex.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}
