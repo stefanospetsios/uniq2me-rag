@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "353ca2fc99e3cf771ba6012e76cd117383e5fc2ff0e9c2ade16f91a813eda4d1",
+  "cachedAt": "2026-10-18T04:37:26Z",
+  "observedAt": "2026-10-18T04:37:26Z",
+  "originRunId": "qwen3-39097458867",
+  "foundIn": {
+    "runId": "qwen3-39097458867",
+    "controllerCommit": "4390e673ff99e6952d96f9183f2bad63bbce2caa",
+    "phase": "preflight",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "runner-smoke",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": null,
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "time_range": "",
+    "query": "Ollama context window size setting"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792298206410,
+    "end": 1792298207492
+  },
+  "outputDigest": "sha256:95c96531bc95136003ec563a4e5e44adcde9822dcfe5807942dc548a2c50e856",
+  "resultUrls": [
+    "https://docs.ollama.com/context-length",
+    "https://llmconfigurator.com/en/guides/context-window-guide",
+    "https://localllm.in/blog/local-llm-increase-context-length-ollama",
+    "https://lumadock.com/tutorials/ollama-context-window",
+    "https://www.serverman.co.uk/ai/ollama/ollama-context-window/"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Ollama context window size setting\",\n  \"results\": [\n    {\n      \"title\": \"Ollama Context Window: How to Set num_ctx - Serverman\",\n      \"url\": \"https://www.serverman.co.uk/ai/ollama/ollama-context-window/\",\n      \"content\": \"Ollama defaults to 4,096 tokens — when it fills, your model silently forgets. Fix it with num_ctx, OLLAMA_CONTEXT_LENGTH, and the per-request API option.\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"How to Increase Context Length of Local LLMs in Ollama\",\n      \"url\": \"https://localllm.in/blog/local-llm-increase-context-length-ollama\",\n      \"content\": \"Learn how to manage and increase context window size in Ollama for better local LLM performance. Comprehensive guide covering checking, setting, and optimizing context lengths for all models.\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Context length - Ollama\",\n      \"url\": \"https://docs.ollama.com/context-length\",\n      \"content\": \"Setting a larger context length will increase the amount of memory required to run a model. Ensure you have enough VRAM available to increase the context length. Cloud models are set to their maximum context length by default. ... Change the slider in the Ollama app under settings to your desired context length.\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"How to change the Ollama context window (num_ctx) - LumaDock\",\n      \"url\": \"https://lumadock.com/tutorials/ollama-context-window\",\n      \"content\": \"Change the Ollama context window with OLLAMA_CONTEXT_LENGTH, /set parameter num_ctx, API options or a Modelfile.\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Context Window & VRAM: 4K vs 32K vs 128K Tokens (2026)\",\n      \"url\": \"https://llmconfigurator.com/en/guides/context-window-guide\",\n      \"content\": \"How context length costs VRAM through the KV cache: what 4K, 8K, 32K and 128K add to an 8B model, how to set num_ctx",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [],
+    "phases": [
+      "preflight"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "docs.ollama.com",
+      "llmconfigurator.com",
+      "localllm.in",
+      "lumadock.com",
+      "www.serverman.co.uk"
+    ]
+  }
+}

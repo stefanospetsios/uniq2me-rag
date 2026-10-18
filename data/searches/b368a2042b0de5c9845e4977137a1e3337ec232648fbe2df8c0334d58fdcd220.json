@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "b368a2042b0de5c9845e4977137a1e3337ec232648fbe2df8c0334d58fdcd220",
+  "cachedAt": "2026-10-18T04:35:12Z",
+  "observedAt": "2026-10-18T04:35:12Z",
+  "originRunId": "qwen3-39097458867",
+  "foundIn": {
+    "runId": "qwen3-39097458867",
+    "controllerCommit": "4390e673ff99e6952d96f9183f2bad63bbce2caa",
+    "phase": "preflight",
+    "callId": "direct-mcp-probe",
+    "invocation": 1,
+    "scopeId": null,
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Ollama keep_alive official documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": null,
+  "outputDigest": "sha256:9f2c61940cc08b81172b4c465f3342623ff95575b9ee765694db1017cf8bba00",
+  "resultUrls": [],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\"content\": [{\"type\": \"text\", \"text\": \"{\\n  \\\"query\\\": \\\"Ollama keep_alive official documentation\\\",\\n  \\\"results\\\": [],\\n  \\\"unresponsive_engines\\\": [\\n    [\\n      \\\"brave\\\",\\n      \\\"too many requests\\\"\\n    ],\\n    [\\n      \\\"duckduckgo\\\",\\n      \\\"CAPTCHA\\\"\\n    ],\\n    [\\n      \\\"google cse\\\",\\n      \\\"too many requests\\\"\\n    ]\\n  ]\\n}\"}], \"structuredContent\": {\"query\": \"Ollama keep_alive official documentation\", \"results\": [], \"unresponsive_engines\": [[\"brave\", \"too many requests\"], [\"duckduckgo\", \"CAPTCHA\"], [\"google cse\", \"too many requests\"]]}, \"isError\": false}",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [],
+    "phases": [
+      "preflight"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": []
+  }
+}
