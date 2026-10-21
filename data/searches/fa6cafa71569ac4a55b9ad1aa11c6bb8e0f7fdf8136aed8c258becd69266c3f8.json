@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "fa6cafa71569ac4a55b9ad1aa11c6bb8e0f7fdf8136aed8c258becd69266c3f8",
+  "cachedAt": "2026-10-21T20:52:35Z",
+  "observedAt": "2026-10-21T20:52:35Z",
+  "originRunId": "qwen3-39673455804",
+  "foundIn": {
+    "runId": "qwen3-39673455804",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "phase": "preflight",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "runner-smoke",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": null,
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Ollama FAQ context window size"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792615933884,
+    "end": 1792615934848
+  },
+  "outputDigest": "sha256:e967497b234a56462b28f20dd6650b8ede57007baa0df0dd9dcc35dc9305a3ef",
+  "resultUrls": [
+    "https://docs.ollama.com/context-length",
+    "https://docs.ollama.com/faq",
+    "https://www.serverman.co.uk/ai/ollama/ollama-context-window/"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Ollama FAQ context window size\",\n  \"results\": [\n    {\n      \"title\": \"FAQ - Ollama documentation\",\n      \"url\": \"https://docs.ollama.com/faq\",\n      \"content\": \"By default, Ollama uses a context window size of 4096 tokens. This can be overridden with the OLLAMA_CONTEXT_LENGTH environment variable. For example, to set the default context window to 8K, use:\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Ollama Context Window: How to Set num_ctx - Serverman\",\n      \"url\": \"https://www.serverman.co.uk/ai/ollama/ollama-context-window/\",\n      \"content\": \"Ollama's default context window is 4,096 tokens — roughly 3,000 words. When a conversation, document, or agent loop exceeds that limit, Ollama silently ...\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Context length - Ollama documentation\",\n      \"url\": \"https://docs.ollama.com/context-length\",\n      \"content\": \"OLLAMA_CONTEXT_LENGTH=64000 ollama serve · ollama ps · NAME ID SIZE PROCESSOR CONTEXT UNTIL ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    }\n  ],\n  \"unresponsive_engines\": [\n    [\n      \"brave\",\n      \"Suspended: too many requests\"\n    ]\n  ]\n}",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [],
+    "phases": [
+      "preflight"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "docs.ollama.com",
+      "www.serverman.co.uk"
+    ]
+  }
+}
