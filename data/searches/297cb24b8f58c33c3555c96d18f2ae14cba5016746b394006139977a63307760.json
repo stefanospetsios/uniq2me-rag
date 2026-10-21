@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "297cb24b8f58c33c3555c96d18f2ae14cba5016746b394006139977a63307760",
+  "cachedAt": "2026-10-21T21:43:33Z",
+  "observedAt": "2026-10-21T21:43:33Z",
+  "originRunId": "qwen3-39673455804",
+  "foundIn": {
+    "runId": "qwen3-39673455804",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-6-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "6",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "DORA Regulation (EU) 2022/2554 incident classification official ESA guidance"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792618913696,
+    "end": 1792618914533
+  },
+  "outputDigest": "sha256:cb3f240aac94c713cda72dfb4e8f96e50df11402533ac1d826386693e995ece0",
+  "resultUrls": [
+    "http://data.europa.eu/eli/dir/2015/2366/oj",
+    "http://data.europa.eu/eli/dir/2015/2366/oj).",
+    "http://data.europa.eu/eli/reg/2010/1093/oj",
+    "http://data.europa.eu/eli/reg/2010/1093/oj).",
+    "http://data.europa.eu/eli/reg/2010/1094/oj",
+    "http://data.europa.eu/eli/reg/2010/1094/oj).",
+    "http://data.europa.eu/eli/reg/2010/1095/oj",
+    "http://data.europa.eu/eli/reg/2010/1095/oj).",
+    "http://data.europa.eu/eli/reg/2022/2554/oj",
+    "http://data.europa.eu/eli/reg/2022/2554/oj.",
+    "http://data.europa.eu/eli/reg_del/2018/959/oj",
+    "http://data.europa.eu/eli/reg_del/2018/959/oj).",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=PI_COM%3AC%282024%291519",
+    "https://finance.ec.europa.eu/regulation-and-supervision/financial-services-legislation/implementing-and-delegated-acts/digital-operational-resilience-regulation_en",
+    "https://op.europa.eu/en/publication-detail/-/publication/fa35ec94-328d-11ef-a61b-01aa75ed71a1/language-en",
+    "https://www.esma.europa.eu/document/dora-incident-reporting-operational-instructions",
+    "https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/digital-operational-resilience-act-dora"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Commission Delegated Regulation (EU) 2024/1772 of 13 March 2024 supplementing Regulation (EU) 2022/2554 of the European Parliament and of the Council with regard to regulatory technical standards specifying the criteria for the classification of ICT-related incidents and cyber threats, setting out materiality thresholds and specifying the details of reports of major incidents - Publications Office of the EU\",\n      \"url\": \"https://op.europa.eu/en/publication-detail/-/publication/fa35ec94-328d-11ef-a61b-01aa75ed71a1/language-en\",\n      \"content\": \"Commission Delegated Regulation (EU) 2024/1772 of 13 March 2024 supplementing Regulation (EU) 2022/2554 of the European Parliament and of the Council with regard to regulatory technical standards specifying the criteria for the classification of ICT-related incidents and cyber threats, setting out materiality thresholds and specifying the details of reports of major incidents - Publications Office of the EU\\n\\n# Commission Delegated Regulation (EU) 2024/1772 of 13 March 2024 supplementing Regulation (EU) 2022/2554 of the European Parliament and of the Council with regard to regulatory technical standards specifying the criteria for the classification of ICT-related incidents and cyber threats, setting out materiality thresholds and specifying the details of reports of major incidents \\n\\n# Commission Delegated Regulation (EU) 2024/1772 of 13 March 2024 supplementing Regulation (EU) 2022/2554 of the European Parliament and of the Council with regard to regulatory technical standards specifying the criteria for the classification of ICT-related incidents and cyber threats, setting out materiality thresholds and specifying the details of reports of major incidents \\n\\n##### Bulgarian (bg) \\n\\n fmx pdf html \\n\\n##### Spanish (es) \\n\\n fmx pdf html \\n\\n##### Czech (cs) \\n\\n fmx pdf html \\n\\n##### German (de) \\n\\n##### Estonian (et) \\n\\n##### Greek (el) \\n\\n##### English (en) \\n\\n##### Frenc",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "data.europa.eu",
+      "eur-lex.europa.eu",
+      "finance.ec.europa.eu",
+      "op.europa.eu",
+      "www.esma.europa.eu"
+    ]
+  }
+}

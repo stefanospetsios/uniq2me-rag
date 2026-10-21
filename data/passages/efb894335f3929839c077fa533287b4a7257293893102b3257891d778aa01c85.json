@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "efb894335f3929839c077fa533287b4a7257293893102b3257891d778aa01c85",
+  "cachedAt": "2026-10-21T21:47:12Z",
+  "originRunId": "qwen3-39673455804",
+  "sourceUrl": "https://www.esma.europa.eu/document/dora-incident-reporting-operational-instructions",
+  "finalUrl": "https://www.esma.europa.eu/document/dora-incident-reporting-operational-instructions",
+  "language": "en",
+  "publisher": "European Securities and Markets Authority (ESMA)",
+  "title": "DORA Incident Reporting - Operational Instructions",
+  "retrievedAt": "2026-10-21T21:43:34Z",
+  "byteDigest": "sha256:14e574aea5f6dc528954e06d7ac1581a2b8704b1d3e4c47a28b1292cbb333175",
+  "textDigest": "sha256:dc297ec59804e8d7e20bdbf39ccc6514ce5932870f652c4a10c5cdf07e8b0eaa",
+  "sourceId": "6-source-3",
+  "passageId": "p1",
+  "locator": "Document Title",
+  "quotation": "DORA incident reporting - operational instructions",
+  "originalText": "DORA incident reporting - operational instructions",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-39673455804",
+    "sourceOriginRunId": "qwen3-39673455804",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "recordedAt": "2026-10-21T21:47:12Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "European Securities and Markets Authority (ESMA)",
+    "host": "www.esma.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

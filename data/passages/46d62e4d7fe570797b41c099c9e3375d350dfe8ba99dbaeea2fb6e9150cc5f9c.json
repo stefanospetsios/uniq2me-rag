@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "46d62e4d7fe570797b41c099c9e3375d350dfe8ba99dbaeea2fb6e9150cc5f9c",
+  "cachedAt": "2026-10-21T21:47:12Z",
+  "originRunId": "qwen3-39673455804",
+  "sourceUrl": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng",
+  "finalUrl": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng",
+  "language": "en",
+  "publisher": "Publications Office of the European Union",
+  "title": "Regulation (EU) 2022/2554 of the European Parliament and of the Council of 14 December 2022 on digital operational resilience for the financial sector",
+  "retrievedAt": "2026-10-17T18:42:39Z",
+  "byteDigest": "sha256:153b3cab036dd73a4f8567db84ecb2b12afdf5d4b73267788e0b6d8bf70c4ef9",
+  "textDigest": "sha256:b90581d774e8e30365d3c3195914331c41983689853a0403ccd7e46a5f1cc009",
+  "sourceId": "6-source-1",
+  "passageId": "p1",
+  "locator": "Title",
+  "quotation": "Regulation (EU) 2022/2554 of the European Parliament and of the Council of 14 December 2022 on digital operational resilience for the financial sector and amending Regulations (EC) No 1060/2009, (EU) No 648/2012, (EU) No 600/2014, (EU) No 909/2014 and (EU) 2016/1011 (Text with EEA relevance)",
+  "originalText": "versions\n\n   \n\n   \n\n      \n\n         \n \nHide consolidated versions\n\n   \n\n   \n\n      \n\n         \n\n            \n27/12/2022\n\n                  \n\n               \n\n            \n\n         \n\n\n\n         \n\n            \nLegal act\n\n         \n\n\n\n      \n\n   \n\n\n\n\n\n\t\n\t\n \n \n\n\n \n \n \n \n \n\n\n\n\n\n\t\n\t\t\t\n\n\t\t\t\t\n\n\t\t\t\t\t\t\n\t\n\n\n\n\n\n\n \n \n \n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\t\n\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n \n \n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\n\t\n\n\t\t\n\n\t\t\n\n   \n\n      \n\n            ​\n        \n\n\n\n      \nRegulation (EU) 2022/2554 of the European Parliament and of the Council of 14 December 2022 on digital operational resilience for the financial sector and amending Regulations (EC) No 1060/2009, (EU) No 648/2012, (EU) No 600/2014, (EU) No 909/2014 and (EU) 2016/1011 (Text with EEA relevance)\n\n\n\n      \nRegulation (EU) 2022/2554 of the European Parliament and of the Council of 14 December 2022 on digital operational resilience for the finan",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-39673455804",
+    "sourceOriginRunId": "qwen3-39051987553",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "recordedAt": "2026-10-21T21:47:12Z",
+    "webRecheckedThisRun": false,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Publications Office of the European Union",
+    "host": "eur-lex.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

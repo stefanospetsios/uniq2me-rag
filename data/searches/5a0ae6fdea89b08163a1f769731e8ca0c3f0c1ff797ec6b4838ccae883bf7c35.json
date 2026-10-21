@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "5a0ae6fdea89b08163a1f769731e8ca0c3f0c1ff797ec6b4838ccae883bf7c35",
+  "cachedAt": "2026-10-21T21:44:26Z",
+  "observedAt": "2026-10-21T21:44:26Z",
+  "originRunId": "qwen3-39673455804",
+  "foundIn": {
+    "runId": "qwen3-39673455804",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-6-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "6",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "DORA incident classification official implementation guidance",
+    "time_range": ""
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792619038306,
+    "end": 1792619039688
+  },
+  "outputDigest": "sha256:708b5175f2c70ef88827ec41b6b46a5e6a0ca5fb7dc273be38f9d0d72b48e0ed",
+  "resultUrls": [],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"DORA incident classification official implementation guidance\",\n  \"results\": [],\n  \"unresponsive_engines\": [\n    [\n      \"brave\",\n      \"Suspended: too many requests\"\n    ],\n    [\n      \"duckduckgo\",\n      \"CAPTCHA\"\n    ],\n    [\n      \"google cse\",\n      \"Suspended: too many requests\"\n    ]\n  ]\n}",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": []
+  }
+}

@@ -3,14 +3,14 @@
   "cachedAt": "2026-10-17T06:59:33Z",
   "originRunId": "qwen3-38995572810",
   "source": {
-    "id": "8-source-2",
+    "id": "0-source-2",
     "type": "guidance",
-    "title": "Digital operational resilience Regulation (DORA) - Article 11: Response and recovery",
+    "title": "Digital operational resilience Regulation (DORA) | European Banking Authority",
     "publisher": "European Banking Authority",
     "url": "https://www.eba.europa.eu/regulation-and-policy/single-rulebook/interactive-single-rulebook/17716",
     "language": "en",
     "jurisdiction": "European Union",
-    "applicability": "Official EBA guidance implementing Article 11 requirements for ICT business continuity arrangements, crisis management, and recovery procedures for financial entities under DORA.",
+    "applicability": "Official implementation guidance covering management body accountability (Article 5), simplified framework requirements (Article 16), and proportionality principles (Article 4)",
     "publicationDate": null,
     "effectiveDate": null,
     "redistribution": "metadata-and-short-passages",
@@ -18,13 +18,18 @@
     "passages": [
       {
         "id": "p1",
-        "locator": "EBA Interactive Rulebook Section",
-        "text": "Article 11: Response and recovery"
+        "locator": "navigation menu",
+        "text": "Article 4: Proportionality principle"
       },
       {
         "id": "p2",
-        "locator": "EBA Interactive Rulebook Section",
-        "text": "Article 24: General requirements for the performance of digital operational resilience testing"
+        "locator": "navigation menu",
+        "text": "Article 5: Governance and organisation"
+      },
+      {
+        "id": "p3",
+        "locator": "navigation menu",
+        "text": "Article 16: Simplified ICT risk management framework"
       }
     ],
     "quotationMatchPolicy": "unicode-typography-v1",
@@ -46,10 +51,10 @@
   "language": "en",
   "retrievedAt": "2026-10-17T06:59:33Z",
   "foundIn": {
-    "runId": "qwen3-39051987553",
+    "runId": "qwen3-39673455804",
     "sourceOriginRunId": "qwen3-38995572810",
-    "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
-    "recordedAt": "2026-10-17T18:18:32Z",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "recordedAt": "2026-10-21T21:02:38Z",
     "webRecheckedThisRun": false,
     "phase": "prepare",
     "frameworkId": "dora",
@@ -63,7 +68,7 @@
       "en"
     ],
     "scopeIds": [
-      "8"
+      "0"
     ],
     "phases": [
       "prepare"

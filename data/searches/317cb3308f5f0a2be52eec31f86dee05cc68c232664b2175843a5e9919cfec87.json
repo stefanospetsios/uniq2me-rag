@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "317cb3308f5f0a2be52eec31f86dee05cc68c232664b2175843a5e9919cfec87",
+  "cachedAt": "2026-10-21T22:14:53Z",
+  "observedAt": "2026-10-21T22:14:53Z",
+  "originRunId": "qwen3-39673455804",
+  "foundIn": {
+    "runId": "qwen3-39673455804",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-A-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "A",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "site:eba.europa.eu DORA Regulation (EU) 2022/2554 lessons learned staff training security awareness threat intelligence sharing information sharing arrangements"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792620782581,
+    "end": 1792620783785
+  },
+  "outputDigest": "sha256:8db92df64e6b2db780cc24b66ef63b51df527d39e01a4b97cd6048f6fddcea3a",
+  "resultUrls": [
+    "https://eba.europa.eu/sites/default/files/2024-07/30e5ef75-b0a5-4ab0-8ce6-36c619c5e093/JC%202024-35%20-%20Final%20report%20on%20RTS%20on%20harmonisation%20of%20conditions%20for%20OVS%20conduct.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Final Report\",\n      \"url\": \"https://eba.europa.eu/sites/default/files/2024-07/30e5ef75-b0a5-4ab0-8ce6-36c619c5e093/JC%202024-35%20-%20Final%20report%20on%20RTS%20on%20harmonisation%20of%20conditions%20for%20OVS%20conduct.pdf\",\n\n...383520 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_1608668a70015XMX5B9PWoRw5s\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "A"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "eba.europa.eu"
+    ]
+  }
+}

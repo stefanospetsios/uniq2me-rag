@@ -3,23 +3,23 @@
   "cachedAt": "2026-10-17T06:59:32Z",
   "originRunId": "qwen3-38995572810",
   "source": {
-    "id": "2-source-1",
+    "id": "1-source-1",
     "type": "law",
-    "title": "Regulation (EU) 2022/2554 on digital operational resilience for the financial sector (DORA)",
+    "title": "Regulation (EU) 2022/2554 of the European Parliament and of the Council of 27 December 2022 on digital operational resilience for the financial sector (DORA)",
     "publisher": "European Union",
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
     "language": "en",
     "jurisdiction": "European Union",
-    "applicability": "All financial entities and critical ICT third-party service providers as defined in Article 3",
-    "publicationDate": null,
-    "effectiveDate": null,
+    "applicability": "All financial entities as defined in Article 2 (credit institutions, payment institutions, account information service providers, electronic money institutions, investment firms, insurance undertakings, etc.)",
+    "publicationDate": "2022-12-27",
+    "effectiveDate": "2023-01-13",
     "redistribution": "metadata-and-short-passages",
     "sourceStatus": "fetched-and-passage-checked",
     "passages": [
       {
         "id": "p1",
-        "locator": "Recital 11",
-        "text": "further harmonisation of key digital operational resilience requirements for all financial entities is required. The development of ICT capabilities and overall resilience by financial entities, based on those key requirements, with a view to withstanding operational outages, would help preserve the stability and integrity of the Union financial markets and thus contribute to ensuring a high level of protection of investors and consumers in the Union."
+        "locator": "recital (21)",
+        "text": "financial entities need to have comprehensive capabilities to enable a strong and effective ICT risk management, as well as specific mechanisms and policies for handling all ICT-related incidents and for reporting major ICT-related incidents. Likewise, financial entities should have policies in place for the testing of ICT systems, controls and processes, as well as for managing ICT third-party risk."
       }
     ],
     "quotationMatchPolicy": "unicode-typography-v1",
@@ -41,10 +41,10 @@
   "language": "en",
   "retrievedAt": "2026-10-17T06:59:32Z",
   "foundIn": {
-    "runId": "qwen3-39097458867",
+    "runId": "qwen3-39673455804",
     "sourceOriginRunId": "qwen3-38995572810",
-    "controllerCommit": "4390e673ff99e6952d96f9183f2bad63bbce2caa",
-    "recordedAt": "2026-10-18T05:05:42Z",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "recordedAt": "2026-10-21T21:07:07Z",
     "webRecheckedThisRun": false,
     "phase": "prepare",
     "frameworkId": "dora",
@@ -58,7 +58,7 @@
       "en"
     ],
     "scopeIds": [
-      "2"
+      "1"
     ],
     "phases": [
       "prepare"

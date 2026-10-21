@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "6b58c2ff4ff6731132cb8ea85f82729939fbb9723034b59ae1ecfac682aac7ad",
+  "cachedAt": "2026-10-21T21:32:42Z",
+  "observedAt": "2026-10-21T21:32:42Z",
+  "originRunId": "qwen3-39673455804",
+  "foundIn": {
+    "runId": "qwen3-39673455804",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-5-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "5",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "DORA official guidance ICT incident detection thresholds Regulation (EU) 2022/2554 article 10 monitoring mechanisms"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792618322880,
+    "end": 1792618324503
+  },
+  "outputDigest": "sha256:67765adbea5aeaf57d8657ee0ed7ff562a6f473768ac1557e82f98e5e10be880",
+  "resultUrls": [
+    "http://data.europa.eu/eli/dir/2002/58/oj",
+    "http://data.europa.eu/eli/dir/2002/58/oj).",
+    "http://data.europa.eu/eli/dir/2015/2366/oj",
+    "http://data.europa.eu/eli/dir/2015/2366/oj).",
+    "http://data.europa.eu/eli/reg/2010/1093/oj",
+    "http://data.europa.eu/eli/reg/2010/1093/oj).",
+    "http://data.europa.eu/eli/reg/2010/1094/oj",
+    "http://data.europa.eu/eli/reg/2010/1094/oj).",
+    "http://data.europa.eu/eli/reg/2010/1095/oj",
+    "http://data.europa.eu/eli/reg/2010/1095/oj).",
+    "http://data.europa.eu/eli/reg/2016/679/oj",
+    "http://data.europa.eu/eli/reg/2016/679/oj).",
+    "http://data.europa.eu/eli/reg/2018/1725/oj",
+    "http://data.europa.eu/eli/reg/2018/1725/oj).",
+    "http://data.europa.eu/eli/reg/2022/2554/oj",
+    "http://data.europa.eu/eli/reg/2022/2554/oj.",
+    "http://data.europa.eu/eli/reg_del/2018/959/oj",
+    "http://data.europa.eu/eli/reg_del/2018/959/oj).",
+    "http://data.europa.eu/eli/reg_del/2024/1772/oj",
+    "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng",
+    "https://eur-lex.europa.eu/eli/reg_del/2024/1772/oj/eng",
+    "https://www.eba.europa.eu/regulation-and-policy/single-rulebook/interactive-single-rulebook/17716"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Delegated regulation - EU - 2024/1772 - EN - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/eli/reg_del/2024/1772/oj/eng\",\n      \"content\": \"Delegated regulation - EU - 2024/1772 - EN - EUR-Lex\\n\\nCommission Delegated Regulation (EU) 2024/1772 of 13 March 2024 supplementing Regulation (EU) 2022/2554 of the European Parliament and of the Council with regard to regulatory technical standards specifying the criteria for the classification of ICT-related incidents and cyber threats, setting out materiality thresholds and specifying the details of reports of major incidents\\n\\nC/2024/1519\\n\\n OJ L, 2024/1772, 25.6.2024, ELI: http://data.europa.eu/eli/reg_del/2024/1772/oj (BG, ES, CS, DA, DE, ET, EL, EN, FR, GA, HR, IT, LV, LT, HU, MT, NL, PL, PT, RO, SK, SL, FI, SV) \\n\\n In force\\n\\nELI: http://data.europa.eu/eli/reg_del/2024/1772/oj \\n\\n Text \\n\\n| | Official Journal of the European Union | EN L series |\\n| --- | --- | --- |\\n\\n| 2024/1772 | 25.6.2024 |\\n| --- | --- |\\n\\n COMMISSION DELEGATED REGULATION (EU) 2024/1772\\n\\nof 13 March 2024 \\n\\nsupplementing Regulation (EU) 2022/2554 of the European Parliament and of the Council with regard to regulatory technical standards specifying the criteria for the classification of ICT-related incidents and cyber threats, setting out materiality thresholds and specifying the details of reports of major incidents\\n\\n(Text with EEA relevance)\\n\\nTHE EUROPEAN COMMISSION,\\n\\nHaving regard to the Treaty on the Functioning of the European Union,\\n\\nHaving regard to Regulation (EU) 2022/2554 of the European Parliament and of the Council of 14 December 2022 on digital operational resilience for the financial sector and amending Regulations (EC) No 1060/2009, (EU) No 648/2012, (EU) No 600/2014, (EU) No 909/2014 and (EU) 2016/1011 (1), and in particular Article 18(4), third subparagraph, thereof,\\n\\nWhereas:\\n\\n| (1) | Regulation (EU) 2022/2554 aims to harmonise and streamline reporting requirements ",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "data.europa.eu",
+      "eur-lex.europa.eu",
+      "www.eba.europa.eu"
+    ]
+  }
+}

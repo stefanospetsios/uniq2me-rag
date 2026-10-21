@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "4afa3908f08edcc68c2350f703a2dcab515c6ccc04bf3f80c91e469f8b98b726",
+  "cachedAt": "2026-10-21T22:38:19Z",
+  "observedAt": "2026-10-21T22:38:19Z",
+  "originRunId": "qwen3-39673455804",
+  "foundIn": {
+    "runId": "qwen3-39673455804",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-D-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "D",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "DORA: ICT third-party risk, concentration and register DORA official implementation guidance"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792622127162,
+    "end": 1792622128098
+  },
+  "outputDigest": "sha256:9d5b13caf2b8932369f956d58cc651e0e093564072cddd59feea678ff3faa0ce",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/eli/reg_impl/2024/2956/oj/eng",
+    "https://www.eba.europa.eu/activities/direct-supervision-and-oversight/digital-operational-resilience-act/preparation-dora-application"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Preparations for reporting of DORA registers of information | European Banking Authority\",\n      \"url\": \"https://www.eba.europa.eu/activities/direct-supervision-and-oversight/digital-operational-resilience-act/preparation-dora-application\",\n      \"content\": \"Preparations for reporting of DORA registers of information | European Banking Authority\\n\\n# Preparations for reporting of DORA registers of information \\n\\nThe Digital Operational Resilience Act (DORA) became applicable on 17 January 2025. From that date all financial entities in its scope will need to have a comprehensive register of their contractual arrangements with ICT third-party service providers available at entity, sub-consolidated and consolidated levels. \\n\\nThe registers of information will serve for:\\n\\n- financial entities to monitor their ICT third-party risk,\\n- the EU competent authorities to supervise ICT and third-party risk management at the financial entities and\\n- the ESAs to designate the critical ICT third-party service provides (CTPP) which will be subject to an EU-level oversight.\\n\\nThis page provides a set of resources to help the financial entities to be ready with the preparation and submission of the registers of information to the competent authorities that will provide the collected registers to the ESAs for the purposes of designation of the CTPPs. The resources provided cover both official reporting starting form 2025 and preparatory dry run exercise the ESAs carried out in 2024\\n\\n### PREPARATIONS FOR OFFICIAL REPORTING OF REGISTERS\\n\\n- ESAs Decision on reporting of information for CTPP designation\\n- ITS on the registers of information - Adopted and published in the Official Journal of the EU\\n- Data Model for DORA RoI\\n- Reporting technical package\\n\\n- Validation rules - Please download the file and search for DORA under ‘Frameworks’\\n- Data Point Model Dictionary (updated 21 March 2025)\\n- Data Point Model table layout and data po",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "D"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "eur-lex.europa.eu",
+      "www.eba.europa.eu"
+    ]
+  }
+}

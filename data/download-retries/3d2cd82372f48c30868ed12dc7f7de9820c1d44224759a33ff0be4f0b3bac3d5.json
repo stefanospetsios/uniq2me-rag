@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-download-retry",
+  "id": "3d2cd82372f48c30868ed12dc7f7de9820c1d44224759a33ff0be4f0b3bac3d5",
+  "cachedAt": "2026-10-21T21:43:35Z",
+  "originRunId": "qwen3-39673455804",
+  "sourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=PI_COM%3AC%282024%291519",
+  "candidate": {
+    "type": "guidance",
+    "title": "Explanatory Memorandum to PART-2024-256772V1 concerning Commission Delegated Regulation (EU) 2024/1772",
+    "publisher": "European Commission",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=PI_COM%3AC%282024%291519",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "Contextual guidance on implementation of incident classification criteria under DORA Articles 17-18, including root cause analysis, recurring incidents, and materiality threshold calculations",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "id": "6-source-3"
+  },
+  "language": "en",
+  "scopeId": "6",
+  "status": "pending-download",
+  "firstFailedAt": "2026-10-21T21:43:35Z",
+  "firstFailureContext": {
+    "runId": "qwen3-39673455804",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "phase": "prepare"
+  },
+  "lastAttemptAt": "2026-10-21T21:43:35Z",
+  "attempts": 1,
+  "lastError": "Source document is unavailable or incomplete: JavaScript/bot challenge page; retry the document download",
+  "foundIn": {
+    "runId": "qwen3-39673455804",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "phase": "prepare"
+  },
+  "retryOnNextRun": true,
+  "originalText": null,
+  "evidenceAdmitted": false,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "pending-download",
+    "publisher": "European Commission",
+    "host": "eur-lex.europa.eu"
+  }
+}

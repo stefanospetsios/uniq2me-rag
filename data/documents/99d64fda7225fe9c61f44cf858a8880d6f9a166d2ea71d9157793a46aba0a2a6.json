@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-21T22:06:24Z",
+  "originRunId": "qwen3-39673455804",
+  "source": {
+    "id": "9-source-4",
+    "type": "guidance",
+    "title": "Supervisory Notice Implementation Guidelines DORA",
+    "publisher": "German Federal Financial Supervisory Authority (BaFin)",
+    "url": "https://www.bafin.de/SharedDocs/Downloads/EN/Anlage/dl_2024_07_08_Aufsichtsmitteilung_Umsetzungshinweise_DORA_en.pdf?__blob=publicationFile&v=3",
+    "language": "en",
+    "jurisdiction": "Germany",
+    "applicability": "National implementation guidance covering Article 12 requirements for German financial entities including testing frequency and redundancy specifications",
+    "publicationDate": "2024-07-08",
+    "effectiveDate": "2024-07-08",
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:9aa56cba9634da436de9c73ad40a4d016a4d31e55d5da6116d351b7b6f33f256",
+    "textDigest": "sha256:d657e8ede55ad715cca5081a7c9f23b312f7a18cb2555d61b7544a93bdeb5b5c",
+    "finalUrl": "https://www.bafin.de/SharedDocs/Downloads/EN/Anlage/dl_2024_07_08_Aufsichtsmitteilung_Umsetzungshinweise_DORA_en.pdf?__blob=publicationFile&v=3",
+    "retrievedAt": "2026-10-21T22:06:24Z",
+    "contentType": "application/pdf",
+    "snapshotPath": "source-9aa56cba9634da436de9c73ad40a4d016a4d31e55d5da6116d351b7b6f33f256.bin",
+    "textPath": "source-d657e8ede55ad715cca5081a7c9f23b312f7a18cb2555d61b7544a93bdeb5b5c.txt"
+  },
+  "files": {
+    "snapshots/source-9aa56cba9634da436de9c73ad40a4d016a4d31e55d5da6116d351b7b6f33f256.bin": "sha256:9aa56cba9634da436de9c73ad40a4d016a4d31e55d5da6116d351b7b6f33f256",
+    "snapshots/source-d657e8ede55ad715cca5081a7c9f23b312f7a18cb2555d61b7544a93bdeb5b5c.txt": "sha256:d657e8ede55ad715cca5081a7c9f23b312f7a18cb2555d61b7544a93bdeb5b5c"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.bafin.de/SharedDocs/Downloads/EN/Anlage/dl_2024_07_08_Aufsichtsmitteilung_Umsetzungshinweise_DORA_en.pdf?__blob=publicationFile&v=3",
+  "language": "en",
+  "retrievedAt": "2026-10-21T22:06:24Z",
+  "foundIn": {
+    "runId": "qwen3-39673455804",
+    "sourceOriginRunId": "qwen3-39673455804",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "recordedAt": "2026-10-21T22:06:24Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "originalText": "        This translation is furnished for information purposes only. The original German text is\n        binding in all respects.\n\n\n\n\n                  Supervisory statement\n           Guidance notes on the implementation of DORA\n           for ICT risk management and ICT third-party risk\n                            management\n\n\n\n\nBanking Supervision\nPolicy Division for IT Supervision and Supervisory Support                            As of: June 2024\n\fTable of contents\n\nI.    Foreword                                                                                  4\n\n\nII.   Guidance notes on implementation                                                          7\n1.    Governance and organisation                                                                7\n      1.1    DORA requires ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "9"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "German Federal Financial Supervisory Authority (BaFin)",
+    "host": "www.bafin.de",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

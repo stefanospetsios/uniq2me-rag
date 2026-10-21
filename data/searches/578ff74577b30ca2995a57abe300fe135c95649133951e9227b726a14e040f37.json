@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "578ff74577b30ca2995a57abe300fe135c95649133951e9227b726a14e040f37",
+  "cachedAt": "2026-10-21T20:59:15Z",
+  "observedAt": "2026-10-21T20:59:15Z",
+  "originRunId": "qwen3-39673455804",
+  "foundIn": {
+    "runId": "qwen3-39673455804",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-0-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "0",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "site:eur-lex.europa.eu Commission Delegated Regulation (EU) 2024/1774"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792616329758,
+    "end": 1792616330729
+  },
+  "outputDigest": "sha256:940f6f24749a0c97bc3583cc73adc989b30cdfe6e4a1899bbb3dc4d14e209974",
+  "resultUrls": [
+    "https://en.wikipedia.org/wiki/Site%3Aeur-lex.europa.eu_Commission_Delegated_Regulation_(EU)_2024",
+    "https://eur-lex.europa.eu/eli/reg_del/2024/1774/2024-06-25/eng",
+    "https://eur-lex.europa.eu/eli/reg_del/2024/1774/oj/eng",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202401774",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401772"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"site:eur-lex.europa.eu Commission Delegated Regulation (EU) 2024/1774\",\n  \"results\": [\n    {\n      \"title\": \"Delegated regulation - EU - 2024/1774 - EN - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/eli/reg_del/2024/1774/oj/eng\",\n      \"content\": \"Commission Delegated Regulation (EU) 2024/1774 of 13 March 2024 supplementing Regulation (EU) 2022/2554 of the European Parliament and of the Council with regard to regulatory technical standards specifying ICT risk management tools, methods, processes, and policies and the simplified ICT risk management framework\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"EUR-Lex - 02024R1774-20240625 - EN - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/eli/reg_del/2024/1774/2024-06-25/eng\",\n      \"content\": \"Consolidated text: Commission Delegated Regulation (EU) 2024/1774 of 13 March 2024 supplementing Regulation (EU) 2022/2554 of the European Parliament and of the Council with regard to regulatory technical standards specifying ICT risk management tools, methods, processes, and policies and the simplified ICT risk management framework (Text with ...\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Sao Paulo\",\n      \"url\": \"https://en.wikipedia.org/wiki/Site%3Aeur-lex.europa.eu_Commission_Delegated_Regulation_(EU)_2024\",\n      \"content\": \"\",\n      \"engines\": [\n        \"wikipedia\"\n      ]\n    },\n    {\n      \"title\": \"L_202401774EN.000101.fmx.xml - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202401774\",\n      \"content\": \"25 Ιουν 2024 ... COMMISSION DELEGATED REGULATION (EU) 2024/1774. of 13 March 2024. supplementing Regulation (EU) 2022/2554 of the European Parliament and of ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"COMMISSION DELEGATED REGULATION (EU) 2024/1772 of 13 March 2024 - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "en.wikipedia.org",
+      "eur-lex.europa.eu"
+    ]
+  }
+}

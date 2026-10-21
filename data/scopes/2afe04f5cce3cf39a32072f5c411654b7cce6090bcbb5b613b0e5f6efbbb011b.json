@@ -1,0 +1,282 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-scope",
+  "cachedAt": "2026-10-21T21:47:12Z",
+  "scopeId": "6",
+  "fingerprint": "2afe04f5cce3cf39a32072f5c411654b7cce6090bcbb5b613b0e5f6efbbb011b",
+  "originRunId": "qwen3-39673455804",
+  "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "scope-admitted",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ]
+  },
+  "corpus": {
+    "sources": {
+      "6-source-1": {
+        "type": "law",
+        "title": "Regulation (EU) 2022/2554 of the European Parliament and of the Council of 14 December 2022 on digital operational resilience for the financial sector",
+        "publisher": "Publications Office of the European Union",
+        "url": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng",
+        "language": "en",
+        "jurisdiction": "European Union",
+        "applicability": "All financial entities within DORA scope, establishing foundational requirements for ICT incident management and classification under Articles 17-18",
+        "publicationDate": "2022-12-27",
+        "effectiveDate": "2025-01-17",
+        "redistribution": "metadata-and-short-passages",
+        "id": "6-source-1",
+        "byteDigest": "sha256:153b3cab036dd73a4f8567db84ecb2b12afdf5d4b73267788e0b6d8bf70c4ef9",
+        "textDigest": "sha256:b90581d774e8e30365d3c3195914331c41983689853a0403ccd7e46a5f1cc009",
+        "finalUrl": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng",
+        "retrievedAt": "2026-10-17T18:42:39Z",
+        "contentType": "text/html; charset=UTF-8",
+        "snapshotPath": "source-153b3cab036dd73a4f8567db84ecb2b12afdf5d4b73267788e0b6d8bf70c4ef9.bin",
+        "textPath": "source-b90581d774e8e30365d3c3195914331c41983689853a0403ccd7e46a5f1cc009.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "cacheReuse": {
+          "originRunId": "qwen3-39051987553",
+          "cacheCommit": "76ca7ec387f8eebb95faf958f7c9003d1c29cb59",
+          "reusedAt": "2026-10-21T21:44:26Z",
+          "webRecheckedThisRun": false
+        },
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Title",
+            "text": "Regulation (EU) 2022/2554 of the European Parliament and of the Council of 14 December 2022 on digital operational resilience for the financial sector and amending Regulations (EC) No 1060/2009, (EU) No 648/2012, (EU) No 600/2014, (EU) No 909/2014 and (EU) 2016/1011 (Text with EEA relevance)"
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "6-source-2": {
+        "type": "law",
+        "title": "Commission Delegated Regulation (EU) 2024/1772 of 13 March 2024 supplementing Regulation (EU) 2022/2554 with regard to regulatory technical standards specifying the criteria for the classification of ICT-related incidents and cyber threats",
+        "publisher": "Publications Office of the European Union",
+        "url": "https://op.europa.eu/en/publication-detail/-/publication/fa35ec94-328d-11ef-a61b-01aa75ed71a1/language-en",
+        "language": "en",
+        "jurisdiction": "European Union",
+        "applicability": "All financial entities subject to DORA, covering classification criteria, materiality thresholds, and major incident reporting requirements",
+        "publicationDate": "2024-06-25",
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "6-source-2",
+        "byteDigest": "sha256:3ca1ec92da759963a63a90bb5566f1307b53b6f38e27135413ce3c95c61bf900",
+        "textDigest": "sha256:1c523e6721472f8df937a903b67ed4ba4d6309613a194be4075015d0f4acb115",
+        "finalUrl": "https://op.europa.eu/en/publication-detail/-/publication/fa35ec94-328d-11ef-a61b-01aa75ed71a1/language-en",
+        "retrievedAt": "2026-10-21T21:43:34Z",
+        "contentType": "text/html;charset=UTF-8",
+        "snapshotPath": "source-3ca1ec92da759963a63a90bb5566f1307b53b6f38e27135413ce3c95c61bf900.bin",
+        "textPath": "source-1c523e6721472f8df937a903b67ed4ba4d6309613a194be4075015d0f4acb115.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "cacheReuse": {
+          "originRunId": "qwen3-39673455804",
+          "cacheCommit": null,
+          "reusedAt": "2026-10-21T21:44:26Z",
+          "webRecheckedThisRun": true
+        },
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Title",
+            "text": "Commission Delegated Regulation (EU) 2024/1772 of 13 March 2024 supplementing Regulation (EU) 2022/2554 of the European Parliament and of the Council with regard to regulatory technical standards specifying the criteria for the classification of ICT-related incidents and cyber threats, setting out materiality thresholds and specifying the details of reports of major incidents"
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "6-source-3": {
+        "type": "guidance",
+        "title": "DORA Incident Reporting - Operational Instructions",
+        "publisher": "European Securities and Markets Authority (ESMA)",
+        "url": "https://www.esma.europa.eu/document/dora-incident-reporting-operational-instructions",
+        "language": "en",
+        "jurisdiction": "European Union",
+        "applicability": "Financial entities subject to DORA for operational incident reporting procedures and templates",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "6-source-3",
+        "byteDigest": "sha256:14e574aea5f6dc528954e06d7ac1581a2b8704b1d3e4c47a28b1292cbb333175",
+        "textDigest": "sha256:dc297ec59804e8d7e20bdbf39ccc6514ce5932870f652c4a10c5cdf07e8b0eaa",
+        "finalUrl": "https://www.esma.europa.eu/document/dora-incident-reporting-operational-instructions",
+        "retrievedAt": "2026-10-21T21:43:34Z",
+        "contentType": "text/html; charset=UTF-8",
+        "snapshotPath": "source-14e574aea5f6dc528954e06d7ac1581a2b8704b1d3e4c47a28b1292cbb333175.bin",
+        "textPath": "source-dc297ec59804e8d7e20bdbf39ccc6514ce5932870f652c4a10c5cdf07e8b0eaa.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "cacheReuse": {
+          "originRunId": "qwen3-39673455804",
+          "cacheCommit": null,
+          "reusedAt": "2026-10-21T21:44:26Z",
+          "webRecheckedThisRun": true
+        },
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Document Title",
+            "text": "DORA incident reporting - operational instructions"
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      }
+    },
+    "concerns": [
+      {
+        "id": "6-concern-1",
+        "sfsId": "6",
+        "description": "Entities must establish incident handling workflows to record, handle, and track ICT-related incidents through an accountable process as mandated by DORA framework requirements",
+        "sourceRefs": [
+          {
+            "sourceId": "6-source-1",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "6-concern-2",
+        "sfsId": "6",
+        "description": "ICT-related incidents must be classified using specified criteria to distinguish ordinary incidents, major ICT-related incidents, and significant cyber threats pursuant to regulatory technical standards",
+        "sourceRefs": [
+          {
+            "sourceId": "6-source-2",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "6-concern-3",
+        "sfsId": "6",
+        "description": "Reporting of major incidents must follow operational procedures detailing required forms, deadlines, and recipients as specified in supervisory guidance",
+        "sourceRefs": [
+          {
+            "sourceId": "6-source-3",
+            "passageId": "p1"
+          }
+        ]
+      }
+    ],
+    "queries": [
+      {
+        "scope": "6",
+        "toolId": "searxng_web_search",
+        "input": {
+          "query": "Regulation (EU) 2022/2554 DORA incident management classification site:eur-lex.europa.eu",
+          "safesearch": 2,
+          "time_range": ""
+        },
+        "outputDigest": "sha256:797213ccadeefabe1ce21035320ae21dea74d774c5c531fdb6044cc3c4bc5c1e",
+        "callId": "sources-6-1-discovery",
+        "reusedScopeObservation": true
+      },
+      {
+        "scope": "6",
+        "toolId": "websearch_web_search",
+        "input": {
+          "query": "DORA Regulation (EU) 2022/2554 incident classification official ESA guidance"
+        },
+        "outputDigest": "sha256:cb3f240aac94c713cda72dfb4e8f96e50df11402533ac1d826386693e995ece0",
+        "callId": "sources-6-1-discovery",
+        "reusedScopeObservation": true
+      },
+      {
+        "scope": "6",
+        "toolId": "searxng_web_search",
+        "input": {
+          "safesearch": 1,
+          "query": "site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA Incident management classification",
+          "time_range": ""
+        },
+        "outputDigest": "sha256:640ffcf4242c7d375fd588983f0a31337557b9cff593f1f4252e84994fb9dd53",
+        "callId": "sources-6-2-discovery"
+      },
+      {
+        "scope": "6",
+        "toolId": "searxng_web_search",
+        "input": {
+          "query": "DORA incident classification official implementation guidance",
+          "time_range": "",
+          "safesearch": 1
+        },
+        "outputDigest": "sha256:708b5175f2c70ef88827ec41b6b46a5e6a0ca5fb7dc273be38f9d0d72b48e0ed",
+        "callId": "sources-6-2-discovery"
+      },
+      {
+        "scope": "6",
+        "toolId": "websearch_web_search",
+        "input": {
+          "query": "site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA Incident management classification"
+        },
+        "outputDigest": "sha256:4f598144583953a931c14adbe1cd14f6f8bcf043215889406cb004b35b8febaa",
+        "callId": "sources-6-2-discovery"
+      },
+      {
+        "scope": "6",
+        "toolId": "websearch_web_search",
+        "input": {
+          "query": "DORA incident classification official implementation guidance"
+        },
+        "outputDigest": "sha256:fbf1040a26fc3a30fa0b3bbe419d19213c3417ef7188beaf4559d8c3a6c5c08b",
+        "callId": "sources-6-2-discovery"
+      }
+    ],
+    "limitations": [
+      {
+        "scope": "6",
+        "description": "searxng_web_search encountered multiple engine failures (brave: too many requests, duckduckgo: CAPTCHA, google cse: too many requests, wikipedia: HTTP error)"
+      },
+      {
+        "scope": "6",
+        "description": "Primary DORA regulation (EU) 2022/2554 successfully retrieved through websearch_web_fetch despite searxng limitations"
+      },
+      {
+        "scope": "6",
+        "description": "Explanatory Memorandum (PI_COM:C(2024)1519) remains unavailable due to JavaScript challenge; coverage maintained through delegated regulation text"
+      },
+      {
+        "scope": "6",
+        "description": "Greek/French language versions not retrieved in current search"
+      },
+      {
+        "scope": "6",
+        "description": "Effective date for delegated regulation 2024/1772 inferred from publication context rather than explicit statement"
+      },
+      {
+        "scope": "6",
+        "description": "Some source URLs were observed in earlier discovery calls for this same scope; original tool provenance is retained."
+      },
+      {
+        "scope": "6",
+        "description": "Some documents came from prior fetched snapshots with original retrieval dates; their current web contents were not rechecked in this run."
+      }
+    ],
+    "admissionVersion": 2,
+    "observedResultUrls": [
+      "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng",
+      "https://op.europa.eu/en/publication-detail/-/publication/fa35ec94-328d-11ef-a61b-01aa75ed71a1/language-en",
+      "https://www.esma.europa.eu/document/dora-incident-reporting-operational-instructions"
+    ],
+    "frameworkId": "dora"
+  },
+  "files": {
+    "snapshots/source-153b3cab036dd73a4f8567db84ecb2b12afdf5d4b73267788e0b6d8bf70c4ef9.bin": "sha256:153b3cab036dd73a4f8567db84ecb2b12afdf5d4b73267788e0b6d8bf70c4ef9",
+    "snapshots/source-b90581d774e8e30365d3c3195914331c41983689853a0403ccd7e46a5f1cc009.txt": "sha256:b90581d774e8e30365d3c3195914331c41983689853a0403ccd7e46a5f1cc009",
+    "snapshots/source-3ca1ec92da759963a63a90bb5566f1307b53b6f38e27135413ce3c95c61bf900.bin": "sha256:3ca1ec92da759963a63a90bb5566f1307b53b6f38e27135413ce3c95c61bf900",
+    "snapshots/source-1c523e6721472f8df937a903b67ed4ba4d6309613a194be4075015d0f4acb115.txt": "sha256:1c523e6721472f8df937a903b67ed4ba4d6309613a194be4075015d0f4acb115",
+    "snapshots/source-14e574aea5f6dc528954e06d7ac1581a2b8704b1d3e4c47a28b1292cbb333175.bin": "sha256:14e574aea5f6dc528954e06d7ac1581a2b8704b1d3e4c47a28b1292cbb333175",
+    "snapshots/source-dc297ec59804e8d7e20bdbf39ccc6514ce5932870f652c4a10c5cdf07e8b0eaa.txt": "sha256:dc297ec59804e8d7e20bdbf39ccc6514ce5932870f652c4a10c5cdf07e8b0eaa"
+  }
+}

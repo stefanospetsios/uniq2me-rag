@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-download-retry",
+  "id": "d0d5550b73dc7b41c4f7329a274a254608076d7d8d010165f565ef90a72af72d",
+  "cachedAt": "2026-10-21T22:49:33Z",
+  "originRunId": "qwen3-39673455804",
+  "sourceUrl": "https://eur-lex.europa.eu/legal-content/En/TXT/?uri=CELEX%3A32022R2554",
+  "candidate": {
+    "type": "law",
+    "title": "Regulation (EU) 2022/2554 of the European Parliament and of the Council of 8 December 2022 on digital operational resilience for the financial sector (DORA)",
+    "publisher": "European Union",
+    "url": "https://eur-lex.europa.eu/legal-content/En/TXT/?uri=CELEX%3A32022R2554",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "Primary legal instrument establishing oversight duties for designated critical ICT third-party providers and supervised entities under Articles 31-44 and 46-56",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "id": "F-source-2"
+  },
+  "language": "en",
+  "scopeId": "F",
+  "status": "pending-download",
+  "firstFailedAt": "2026-10-21T22:49:33Z",
+  "firstFailureContext": {
+    "runId": "qwen3-39673455804",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "phase": "prepare"
+  },
+  "lastAttemptAt": "2026-10-21T22:49:33Z",
+  "attempts": 1,
+  "lastError": "Source document is unavailable or incomplete: JavaScript/bot challenge page; retry the document download",
+  "foundIn": {
+    "runId": "qwen3-39673455804",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "phase": "prepare"
+  },
+  "retryOnNextRun": true,
+  "originalText": null,
+  "evidenceAdmitted": false,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "F"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "pending-download",
+    "publisher": "European Union",
+    "host": "eur-lex.europa.eu"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-download-retry",
+  "id": "e64d47e572058605de703356258e0088750de8e8808bad1f08c4b5fe730d3038",
+  "cachedAt": "2026-10-21T20:59:15Z",
+  "originRunId": "qwen3-39673455804",
+  "sourceUrl": "https://eur-lex.europa.eu/eli/reg_del/2024/1774/oj/eng",
+  "candidate": {
+    "type": "law",
+    "title": "Commission Delegated Regulation (EU) 2024/1774 supplementing Regulation (EU) 2022/2554 with regulatory technical standards for ICT risk management framework",
+    "publisher": "European Commission",
+    "url": "https://eur-lex.europa.eu/eli/reg_del/2024/1774/oj/eng",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "Specifies ICT risk management requirements under Articles 5-9 and simplified framework under Article 16",
+    "publicationDate": "2024-06-25",
+    "effectiveDate": "2025-01-11",
+    "redistribution": "metadata-and-short-passages",
+    "id": "0-source-2"
+  },
+  "language": "en",
+  "scopeId": "0",
+  "status": "pending-download",
+  "firstFailedAt": "2026-10-21T20:59:15Z",
+  "firstFailureContext": {
+    "runId": "qwen3-39673455804",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "phase": "prepare"
+  },
+  "lastAttemptAt": "2026-10-21T20:59:15Z",
+  "attempts": 1,
+  "lastError": "Source document is unavailable or incomplete: JavaScript/bot challenge page; retry the document download",
+  "foundIn": {
+    "runId": "qwen3-39673455804",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "phase": "prepare"
+  },
+  "retryOnNextRun": true,
+  "originalText": null,
+  "evidenceAdmitted": false,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "pending-download",
+    "publisher": "European Commission",
+    "host": "eur-lex.europa.eu"
+  }
+}

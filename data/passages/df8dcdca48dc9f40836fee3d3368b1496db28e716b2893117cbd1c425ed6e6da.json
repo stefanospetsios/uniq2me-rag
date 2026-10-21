@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "df8dcdca48dc9f40836fee3d3368b1496db28e716b2893117cbd1c425ed6e6da",
+  "cachedAt": "2026-10-21T21:02:38Z",
+  "originRunId": "qwen3-39673455804",
+  "sourceUrl": "https://www.eba.europa.eu/regulation-and-policy/single-rulebook/interactive-single-rulebook/17716",
+  "finalUrl": "https://www.eba.europa.eu/regulation-and-policy/single-rulebook/interactive-single-rulebook/17716",
+  "language": "en",
+  "publisher": "European Banking Authority",
+  "title": "Digital operational resilience Regulation (DORA) | European Banking Authority",
+  "retrievedAt": "2026-10-17T06:59:33Z",
+  "byteDigest": "sha256:cd12b523b725f1a4db6b20d566702b2fb9f8ffea615be57cf5e1e0242d059788",
+  "textDigest": "sha256:92ca26634eec2648a8d1dc3f33abe2eae9fe0a9cb3f1e317f4736cd114a112a4",
+  "sourceId": "0-source-2",
+  "passageId": "p3",
+  "locator": "navigation menu",
+  "quotation": "Article 16: Simplified ICT risk management framework",
+  "originalText": "Article 16: Simplified ICT risk management framework",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-39673455804",
+    "sourceOriginRunId": "qwen3-38995572810",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "recordedAt": "2026-10-21T21:02:38Z",
+    "webRecheckedThisRun": false,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "European Banking Authority",
+    "host": "www.eba.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "7b4d1a82d5390f729029c28d1562d0fe4c6a58430c686f28f24a5c1d232d0bbc",
+  "cachedAt": "2026-10-21T21:01:07Z",
+  "observedAt": "2026-10-21T21:01:07Z",
+  "originRunId": "qwen3-39673455804",
+  "foundIn": {
+    "runId": "qwen3-39673455804",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-0-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "0",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA full text DORA: Applicability, proportionality and governance"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792616372410,
+    "end": 1792616373250
+  },
+  "outputDigest": "sha256:8ccaa7be0ff7e5aeaa0def2655449ceab5fcb94d2aa2c27d8dc4f55b50ec56fc",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/legal-content/EN-CS/TXT/?from=EN&uri=CELEX%3A32022R2554",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022R2554&from=EN",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52025IP0286",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+    "https://eur-lex.europa.eu/legal-content/FR-EN/TXT/?uri=CELEX%3A32022R2554"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA full text DORA: Applicability, proportionality and governance\",\n  \"results\": [\n    {\n      \"title\": \"Regulation (EU) 2022/2554 of the European Parliament and\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554\",\n      \"content\": \"27 Δεκ 2022 ... The proportionate character of the ICT risk management framework covering those financial entities should not be altered by the regulatory ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Regulation - 2022/2554 - EN - DORA - EUR-Lex - European Union\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/FR-EN/TXT/?uri=CELEX%3A32022R2554\",\n      \"content\": \"... application of the proportionality principle by ... fully responsible for the verification of compliance with the ICT risk management requirements.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"L_2022333EN.01000101.xml - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022R2554&from=EN\",\n      \"content\": \"REGULATION (EU) 2022/2554 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL. of ... To ensure full consistency with Directive (EU) 2022/2555, financial ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Regulation - 2022/2554 - EN - DORA - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN-CS/TXT/?from=EN&uri=CELEX%3A32022R2554\",\n      \"content\": \"To ensure full consistency with Directive (EU) 2022/2555, financial entities ... Article 11 of Regulation (EU) No 909/2014;, e) | v případě centrálních ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Impact of artificial intelligence on the financial sector - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52025IP0286\",\n      \"content\": \"24 Απρ 2026 ... having regard to Regulation (EU) 2024/1689 of t",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "eur-lex.europa.eu"
+    ]
+  }
+}

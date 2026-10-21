@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-scope",
+  "cachedAt": "2026-10-21T21:07:07Z",
+  "scopeId": "1",
+  "fingerprint": "de983bc9bbdae0995666fd0a664df9c16313c34d79a1f0b294d2cd0b6ed194d3",
+  "originRunId": "qwen3-39673455804",
+  "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "scope-admitted",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ]
+  },
+  "corpus": {
+    "sources": {
+      "1-source-1": {
+        "type": "law",
+        "title": "Regulation (EU) 2022/2554 of the European Parliament and of the Council of 27 December 2022 on digital operational resilience for the financial sector (DORA)",
+        "publisher": "European Union",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+        "language": "en",
+        "jurisdiction": "European Union",
+        "applicability": "All financial entities as defined in Article 2 (credit institutions, payment institutions, account information service providers, electronic money institutions, investment firms, insurance undertakings, etc.)",
+        "publicationDate": "2022-12-27",
+        "effectiveDate": "2023-01-13",
+        "redistribution": "metadata-and-short-passages",
+        "id": "1-source-1",
+        "byteDigest": "sha256:85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c",
+        "textDigest": "sha256:1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786",
+        "finalUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+        "retrievedAt": "2026-10-17T06:59:32Z",
+        "contentType": "application/pdf",
+        "snapshotPath": "source-85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c.bin",
+        "textPath": "source-1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "cacheReuse": {
+          "originRunId": "qwen3-38995572810",
+          "cacheCommit": null,
+          "reusedAt": "2026-10-21T21:06:30Z",
+          "webRecheckedThisRun": false
+        },
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "recital (21)",
+            "text": "financial entities need to have comprehensive capabilities to enable a strong and effective ICT risk management, as well as specific mechanisms and policies for handling all ICT-related incidents and for reporting major ICT-related incidents. Likewise, financial entities should have policies in place for the testing of ICT systems, controls and processes, as well as for managing ICT third-party risk."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "1-source-2": {
+        "type": "guidance",
+        "title": "EBA Regulatory Technical Standards on ICT Risk Management Framework and Simplified ICT Risk Management",
+        "publisher": "European Banking Authority (EBA)",
+        "url": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/regulatory-technical-standards-ict-risk-management-framework-and-simplified-ict-risk-management",
+        "language": "en",
+        "jurisdiction": "European Union",
+        "applicability": "Supervisory guidance for financial entities implementing DORA Article 6 requirements",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "1-source-2",
+        "byteDigest": "sha256:9a71c8b99ee93acae8d40db9ff5d3b792023d8028fa65e70ea3ba3d7c61d892b",
+        "textDigest": "sha256:60abe1232630b526e8e7a318beeec1e0531282b55ad22d46458b55e298357688",
+        "finalUrl": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/regulatory-technical-standards-ict-risk-management-framework-and-simplified-ict-risk-management",
+        "retrievedAt": "2026-10-17T08:18:03Z",
+        "contentType": "text/html; charset=UTF-8",
+        "snapshotPath": "source-9a71c8b99ee93acae8d40db9ff5d3b792023d8028fa65e70ea3ba3d7c61d892b.bin",
+        "textPath": "source-60abe1232630b526e8e7a318beeec1e0531282b55ad22d46458b55e298357688.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "cacheReuse": {
+          "originRunId": "qwen3-39016085901",
+          "cacheCommit": "76ca7ec387f8eebb95faf958f7c9003d1c29cb59",
+          "reusedAt": "2026-10-21T21:06:30Z",
+          "webRecheckedThisRun": false
+        },
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Regulatory Technical Standards description",
+            "text": "The Regulatory Technical Standards on ICT risk management framework identify further elements related to ICT risk management with a view to harmonise tools, methods, processes and policies. These elements are complementary to those identified in DORA."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      }
+    },
+    "concerns": [
+      {
+        "id": "1-concern-1",
+        "sfsId": "1",
+        "description": "Documented ICT risk management framework covering comprehensive capabilities, incident handling mechanisms, and policies for ICT systems testing and third-party risk management",
+        "sourceRefs": [
+          {
+            "sourceId": "1-source-1",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "1-concern-2",
+        "sfsId": "1",
+        "description": "Harmonized tools, methods, processes and policies for ICT risk management framework implementation",
+        "sourceRefs": [
+          {
+            "sourceId": "1-source-2",
+            "passageId": "p1"
+          }
+        ]
+      }
+    ],
+    "queries": [
+      {
+        "scope": "1",
+        "toolId": "searxng_web_search",
+        "input": {
+          "query": "site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA full text ICT risk framework and assurance",
+          "max_results": 8,
+          "safesearch": 0,
+          "time_range": ""
+        },
+        "outputDigest": "sha256:90cf9fe9dd602c2c76f91d657610f45b85b19d89469f5973b0e72188e292b8e0",
+        "callId": "sources-1-1-discovery",
+        "reusedScopeObservation": true
+      },
+      {
+        "scope": "1",
+        "toolId": "websearch_web_search",
+        "input": {
+          "query": "site:eba.europa.eu DORA Regulation (EU) 2022/2554 ICT risk management framework official guidance",
+          "max_results": 5
+        },
+        "outputDigest": "sha256:bfbcb5e4c7ab8c9b734f4ea07250b1b245024148119cecb1e078aa0bfcf8683c",
+        "callId": "sources-1-1-discovery",
+        "reusedScopeObservation": true
+      },
+      {
+        "scope": "1",
+        "toolId": "searxng_web_search",
+        "input": {
+          "safesearch": 2,
+          "time_range": "",
+          "query": "site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA full text DORA ICT risk framework and assurance",
+          "max_results": 8
+        },
+        "outputDigest": "sha256:90d069b8e56823f7893f25fe01c22c07fb91d9c9f503870cc72b534be7061ad3",
+        "callId": "sources-1-2-discovery"
+      },
+      {
+        "scope": "1",
+        "toolId": "websearch_web_search",
+        "input": {
+          "query": "DORA Regulation (EU) 2022/2554 ICT risk management framework risk tolerance digital operational resilience strategy internal audit assurance official implementation documentation",
+          "max_results": 8
+        },
+        "outputDigest": "sha256:379dbac9c045a9ed29319ac6369f550aa12a263d4a0a4115b892f31111e02bbf",
+        "callId": "sources-1-2-discovery"
+      }
+    ],
+    "limitations": [
+      {
+        "scope": "1",
+        "description": "Unresponsive engines during search: brave (too many requests), duckduckgo (CAPTCHA), wikipedia (HTTP error)"
+      },
+      {
+        "scope": "1",
+        "description": "No Greek language versions of primary DORA instruments observed in results (DORA applies EU-wide with English as authentic version)"
+      },
+      {
+        "scope": "1",
+        "description": "Delegated Regulation 2024/1774 HTML version triggered bot protection; PDF version confirmed as alternative accessible format"
+      },
+      {
+        "scope": "1",
+        "description": "EBA Guidelines on ICT risk management (amended 2025) provide supplementary context but were not included as binding sources take precedence for core requirements"
+      },
+      {
+        "scope": "1",
+        "description": "Excluded optional discovery candidate: Source URL was not observed in search results: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401774"
+      },
+      {
+        "scope": "1",
+        "description": "Regulation (EU) 2022/2554 publication date 2022-12-27 with effective date 2023-01-13 applies to all financial entities defined in Article 2"
+      },
+      {
+        "scope": "1",
+        "description": "EBA Regulatory Technical Standards adopt supplementary implementation details with application date 2024-07-15"
+      },
+      {
+        "scope": "1",
+        "description": "Delegated Regulation 2024/1774 provides supplementary technical context but binding requirements derive from primary DORA instrument and EBA RTS"
+      },
+      {
+        "scope": "1",
+        "description": "Some source URLs were observed in earlier discovery calls for this same scope; original tool provenance is retained."
+      },
+      {
+        "scope": "1",
+        "description": "Some documents came from prior fetched snapshots with original retrieval dates; their current web contents were not rechecked in this run."
+      }
+    ],
+    "admissionVersion": 2,
+    "observedResultUrls": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+      "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/regulatory-technical-standards-ict-risk-management-framework-and-simplified-ict-risk-management"
+    ],
+    "frameworkId": "dora"
+  },
+  "files": {
+    "snapshots/source-85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c.bin": "sha256:85307f9e2a0409826dd0f54489645935816d16e929f0db4db3ef15badd11d38c",
+    "snapshots/source-1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786.txt": "sha256:1de85f673af1bfeaa02a88a2cce2bdc6c45708068aa24a3c04291a94122e7786",
+    "snapshots/source-9a71c8b99ee93acae8d40db9ff5d3b792023d8028fa65e70ea3ba3d7c61d892b.bin": "sha256:9a71c8b99ee93acae8d40db9ff5d3b792023d8028fa65e70ea3ba3d7c61d892b",
+    "snapshots/source-60abe1232630b526e8e7a318beeec1e0531282b55ad22d46458b55e298357688.txt": "sha256:60abe1232630b526e8e7a318beeec1e0531282b55ad22d46458b55e298357688"
+  }
+}

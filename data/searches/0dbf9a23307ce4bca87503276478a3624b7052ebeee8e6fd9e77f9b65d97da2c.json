@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "0dbf9a23307ce4bca87503276478a3624b7052ebeee8e6fd9e77f9b65d97da2c",
+  "cachedAt": "2026-10-21T21:15:54Z",
+  "observedAt": "2026-10-21T21:15:54Z",
+  "originRunId": "qwen3-39673455804",
+  "foundIn": {
+    "runId": "qwen3-39673455804",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-3-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "3",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA full text DORA: Protection, access and data security",
+    "time_range": ""
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792617283609,
+    "end": 1792617285326
+  },
+  "outputDigest": "sha256:74e560e2f7846f6b75371f023d145dd0dfe6917e9f1307df541d837011f090d2",
+  "resultUrls": [
+    "http://data.europa.eu/eli/reg/2022/2554/oj",
+    "http://data.europa.eu/eli/reg/2022/2554/oj.",
+    "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng",
+    "https://eur-lex.europa.eu/legal-content/EL/ALL/?uri=CELEX:32022R2554",
+    "https://eur-lex.europa.eu/legal-content/EN-CS/TXT/?from=EN&uri=CELEX%3A32022R2554",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554",
+    "https://eur-lex.europa.eu/legal-content/FR-EN/TXT/?uri=CELEX%3A32022R2554"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"site:eur-lex.europa.eu Regulation (EU) 2022/2554 DORA full text DORA: Protection, access and data security\",\n  \"results\": [\n    {\n      \"title\": \"Regulation - 2022/2554 - EN - DORA - EUR-Lex - European Union\",\n      \"url\": \"https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng\",\n      \"content\": \"ELI: http://data.europa.eu/eli/reg/2022/2554/oj. Expand all. Collapse all ... European Data Protection Supervisor (EDPS) · European Data Protection Board ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Regulation (EU) 2022/2554 of the European Parliament and\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022R2554\",\n      \"content\": \"27 Δεκ 2022 ... Nonetheless, provisions tackling digital operational resilience and ICT security are not yet fully or consistently harmonised, despite digital ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Regulation - 2022/2554 - EN - DORA - EUR-Lex - European Union\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/FR-EN/TXT/?uri=CELEX%3A32022R2554\",\n      \"content\": \"(106) | The European Data Protection Supervisor was consulted in accordance with Article 42(1) of Regulation (EU) 2018/1725 of the European Parliament and ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Regulation - 2022/2554 - EN - DORA - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN-CS/TXT/?from=EN&uri=CELEX%3A32022R2554\",\n      \"content\": \"(106) | The European Data Protection Supervisor was consulted in accordance with Article 42(1) of Regulation (EU) 2018/1725 of the European Parliament and ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Κανονισμός - 2022/2554 - EN - EUR-Lex - European Union\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EL/ALL/?uri=CELEX:32022R2554\",\n      \"content\": \"ELI: http://data.europa.eu/eli/reg/2022/2554/oj. Expand all. Collapse all. ",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "3"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "data.europa.eu",
+      "eur-lex.europa.eu"
+    ]
+  }
+}

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "recordType": "source-download-retry",
   "id": "7323b5bbbf4757a07ddad4b15850a0a467f46096b0eb25fd2ed35a85eab78a20",
-  "cachedAt": "2026-10-20T08:43:28Z",
+  "cachedAt": "2026-10-21T21:53:19Z",
   "originRunId": "qwen3-39027246178",
   "sourceUrl": "https://eur-lex.europa.eu/legal-content/En/TXT/?uri=CELEX%3A32022R2554",
   "candidate": {
@@ -12,7 +12,7 @@
     "url": "https://eur-lex.europa.eu/legal-content/En/TXT/?uri=CELEX%3A32022R2554",
     "language": "en",
     "jurisdiction": "European Union",
-    "applicability": "All financial entities within the scope of Regulation (EU) 2022/2554 for establishing ICT risk management, incident reporting, resilience testing, etc.",
+    "applicability": "Core legal instrument establishing incident reporting obligations under DORA Articles 14, 19-23",
     "publicationDate": null,
     "effectiveDate": null,
     "redistribution": "metadata-and-short-passages",
@@ -27,13 +27,13 @@
     "controllerCommit": "d89be5fa1db8a5d843a884c3c22f6358220c8789",
     "phase": "prepare"
   },
-  "lastAttemptAt": "2026-10-20T08:43:28Z",
-  "attempts": 2,
+  "lastAttemptAt": "2026-10-21T21:53:19Z",
+  "attempts": 3,
   "lastError": "Source document is unavailable or incomplete: JavaScript/bot challenge page; retry the document download",
   "foundIn": {
-    "runId": "39395418158",
-    "controllerCommit": "dd9ca2ffba8889f720157d2287d8f29635f79d12",
-    "phase": "retry-downloads"
+    "runId": "qwen3-39673455804",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "phase": "prepare"
   },
   "retryOnNextRun": true,
   "originalText": null,
@@ -46,7 +46,7 @@
       "7"
     ],
     "phases": [
-      "retry-downloads"
+      "prepare"
     ],
     "status": "pending-download",
     "publisher": "European Union",

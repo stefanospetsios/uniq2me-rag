@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "ad685087a3d740d069673af6cdcea106c6bbe76afd30fb4913ac894123d7989a",
+  "cachedAt": "2026-10-21T21:47:12Z",
+  "originRunId": "qwen3-39673455804",
+  "sourceUrl": "https://op.europa.eu/en/publication-detail/-/publication/fa35ec94-328d-11ef-a61b-01aa75ed71a1/language-en",
+  "finalUrl": "https://op.europa.eu/en/publication-detail/-/publication/fa35ec94-328d-11ef-a61b-01aa75ed71a1/language-en",
+  "language": "en",
+  "publisher": "Publications Office of the European Union",
+  "title": "Commission Delegated Regulation (EU) 2024/1772 of 13 March 2024 supplementing Regulation (EU) 2022/2554 with regard to regulatory technical standards specifying the criteria for the classification of ICT-related incidents and cyber threats",
+  "retrievedAt": "2026-10-21T21:43:34Z",
+  "byteDigest": "sha256:3ca1ec92da759963a63a90bb5566f1307b53b6f38e27135413ce3c95c61bf900",
+  "textDigest": "sha256:1c523e6721472f8df937a903b67ed4ba4d6309613a194be4075015d0f4acb115",
+  "sourceId": "6-source-2",
+  "passageId": "p1",
+  "locator": "Title",
+  "quotation": "Commission Delegated Regulation (EU) 2024/1772 of 13 March 2024 supplementing Regulation (EU) 2022/2554 of the European Parliament and of the Council with regard to regulatory technical standards specifying the criteria for the classification of ICT-related incidents and cyber threats, setting out materiality thresholds and specifying the details of reports of major incidents",
+  "originalText": "Commission Delegated Regulation (EU) 2024/1772 of 13 March 2024 supplementing Regulation (EU) 2022/2554 of the European Parliament and of the Council with regard to regulatory technical standards specifying the criteria for the classification of ICT-related incidents and cyber threats, setting out materiality thresholds and specifying the details of reports of major incidents - Publications Office of the EU\n\n\n    \n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\n\t\t\t\n\n\t\t\t\n\t\t\n\t\t\n\t\t\n\t\n\n\n\n\t\n\t\t\n\t\t\n\t\t\n\n\t\t\t\n\n\t\t\t\n\t\t\n\t\n\n\n\n\n\n\n\n\n\n\n\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\n\t\t\n\n\n\t\n\n\t\t\n\n\n\t\n\n\t\t\n\n\n\t\n\n\t\t\n\n\n\t\n\n\t\t\n\n\n\t\n\n\t\t\n\n\n\t\n\n\t\t\n\n\n\t\n\n\t\t\n\n\n\t\n\n\t\t\n\n\n\t\n\n\t\t\n\n\n\t\n\n\t\t\n\n\n\t\n\n\t\t\n\n\n\t\n\n\t\t\n\n\n\t\n\n\t\t\n\n\n\t\n\n\t\t\n\n\n\t\n\n\t\t\n\n\n\t\n\n\t\t\n\n\n\t\n\n\t\t\n\n\n\t\n\n\t\t\n\n\n\t\n\n\t\t\n\n",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-39673455804",
+    "sourceOriginRunId": "qwen3-39673455804",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "recordedAt": "2026-10-21T21:47:12Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Publications Office of the European Union",
+    "host": "op.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

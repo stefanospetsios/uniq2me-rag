@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "fd667bb09d792e213ee997a09b05f41eeb622b78d0491946ae58fb7ffe727468",
+  "cachedAt": "2026-10-21T22:41:24Z",
+  "observedAt": "2026-10-21T22:41:24Z",
+  "originRunId": "qwen3-39673455804",
+  "foundIn": {
+    "runId": "qwen3-39673455804",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-E-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "E",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "DORA: Provider contracts, subcontracting and exit DORA official implementation guidance site:eba.europa.eu"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792622313037,
+    "end": 1792622314239
+  },
+  "outputDigest": "sha256:28db120d7ab852ee6f8818ea3b5df5d360d023e30ffcbfa4ae6159337adb1b11",
+  "resultUrls": [
+    "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/joint-regulatory-technical-subcontracting",
+    "https://www.eba.europa.eu/publications-and-media/press-releases/eba-publishes-its-final-guidelines-management-third-party-risk-delivering-more-proportionate-and",
+    "https://www.eba.europa.eu/regulation-and-policy/single-rulebook/interactive-single-rulebook/17755",
+    "https://www.eba.europa.eu/sites/default/files/2024-07/f724684d-74c8-4f7d-a467-3df456c73b26/JC%202024-53_Final%20report%20DORA%20RTS%20on%20subcontracting.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"The EBA publishes its final Guidelines on the management of third-party risk, delivering a more proportionate and consistent framework aligned with DORA | European Banking Authority\",\n      \"url\": \"https://www.eba.europa.eu/publications-and-media/press-releases/eba-publishes-its-final-guidelines-management-third-party-risk-delivering-more-proportionate-and\",\n      \"content\": \"The EBA publishes its final Guidelines on the management of third-party risk, delivering a more proportionate and consistent framework aligned with DORA | European Banking Authority\\n\\n# The EBA publishes its final Guidelines on the management of third-party risk, delivering a more proportionate and consistent framework aligned with DORA \\n\\n- Press Release\\n- 18 September 2026\\n\\nAs part of the European Banking Authority’s (EBA) ongoing efforts to simplify its regulatory framework, the Guidelines focus on third-party arrangements supporting critical or important functions (CIFs) namely the disruption of which would materially impair the performance of a financial entity. By concentrating on these higher-risk arrangements, the Guidelines reduce unnecessary operational and supervisory burdens for less material ones while maintaining sound risk management.\\n\\nThe Guidelines promote a holistic approach to third-party risk management across ICT and non-ICT services and cover the full lifecycle of third-party arrangements, including risk assessment and due diligence, contracting, subcontracting, monitoring, documentation and exit strategies. \\n\\nThey reflect stakeholders feedback received during the public consultation and through targeted outreach activities and take into account international standards, including the Basel Committee on Banking Supervision (BCBS) Principles for the Sound Management of Third-Party Risk.\\n\\nA two-year transitional period will support a smooth and proportionate implementation.\\n\\n#### Legal basis\\n\\nThe final Guidelines have been",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "E"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "www.eba.europa.eu"
+    ]
+  }
+}

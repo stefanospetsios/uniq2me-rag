@@ -1,0 +1,1733 @@
+        This translation is furnished for information purposes only. The original German text is
+        binding in all respects.
+
+
+
+
+                  Supervisory statement
+           Guidance notes on the implementation of DORA
+           for ICT risk management and ICT third-party risk
+                            management
+
+
+
+
+Banking Supervision
+Policy Division for IT Supervision and Supervisory Support                            As of: June 2024
+Table of contents
+
+I.    Foreword                                                                                  4
+
+
+II.   Guidance notes on implementation                                                          7
+1.    Governance and organisation                                                                7
+      1.1    DORA requires new strategy for digital operational readiness                        8
+      1.2    Comprehensive, but ICT-specific internal governance and control framework           9
+      1.3    Significant expansion of the management body’s tasks                                9
+
+2.    Information risk and information security management                                     10
+      2.1    Shift in emphasis from information security to ICT risk management                11
+      2.2    Stronger focus on analytical and control activities                               12
+      2.3    Strengthening of training and communication                                       13
+
+3.    IT operations                                                                            13
+      3.1    Stronger operational stability                                                    14
+      3.2    Classification of ICT systems and information                                     14
+      3.3    Expansion to include all changes to ICT systems                                   14
+      3.4    Segregated data retention and reconciliation of data backups                      15
+
+4.    ICT business continuity management                                                       16
+      4.1    Revised structure and contents of policies and plans                              16
+      4.2    Expansion of mandatory scenarios                                                  17
+      4.3    Regular review of ICT business continuity management                              18
+      4.4    Strengthening of crisis management and communication                              18
+
+5.    ICT project management and application development                                       19
+      5.1    Analogous requirements for ICT project management                                 19
+      5.2    Detailed stipulations regarding ICT system acquisition, development and
+             maintenance                                                                       20
+      5.3    Removal of the materiality threshold for ICT change management                    20
+
+6.    ICT third-party risk management                                                          21
+      6.1    Distinction vis-à-vis outsourcing                                                 21
+      6.2    Widening of the scope of contractual requirements                                 22
+
+
+Guidance notes on the implementation of DORA                                           Page 2 of 39
+      6.3    New rules on subcontracting                                        23
+      6.4    Extensive risk analysis and due diligence requirements             23
+      6.5    Changed exit requirements                                          24
+      6.6    Changes in governance of ICT third-party risk                      25
+      6.7    Notice on reporting obligations and information register           25
+
+7.    Operational information security                                          26
+      7.1    Stronger network security                                          26
+      7.2    Encryption of data even while in use                               27
+      7.3    Timely identification and handling of vulnerabilities              27
+
+8.    Identity and access management                                            29
+      8.1    Explicit identity management requirements                          29
+      8.2    Introduction of the “need-to-use” principle                        29
+
+
+
+III. Annex                                                                     31
+Minimum contractual clauses                                                     31
+
+
+
+
+Guidance notes on the implementation of DORA                            Page 3 of 39
+I. Foreword
+With DORA (Digital Operational Resilience Act), Regulation (EU) 2022/2554 on digital
+operational resilience for the financial sector, the European Union has established cross-
+financial sector European regulation in the areas of digital operational resilience, ICT risks and
+cybersecurity. This regulation entered into force on 16 January 2023 and will be applied from
+17 January 2025. All financial entities must comply with the DORA requirements from this
+date onwards.
+
+ICT risk management is at the heart of DORA. It is intended to provide financial entities with a
+framework enabling them to systematically identify, assess and manage their ICT risks. In
+principle, the ICT risk management requirements therefore relate to the same issues which
+the Federal Financial Supervisory Authority (Bundesanstalt für Finanzdienstleistungsaufsicht –
+BaFin) addresses through its supervisory requirements for IT (Supervisory Requirements for IT
+in Financial Institutions (Bankaufsichtliche Anforderungen an die IT – BAIT)/Supervisory
+Requirements for IT in Insurance Undertakings (Versicherungsaufsichtliche Anforderungen an
+die IT – VAIT/Supervisory Requirements for IT in Asset Management Companies
+(Kapitalverwaltungsaufsichtliche Anforderungen an die IT – KAIT)/Supervisory Requirements
+for IT in Payment Services and Electronic Money Institutions (Zahlungsdiensteaufsichtliche
+Anforderungen an die IT von Zahlungs- und E-Geld-Instituten – ZAIT)). Nonetheless, there are
+methodological differences in the approaches pursued in these sets of regulations; this may
+pose challenges with regard to compliance with the DORA requirements.
+
+This supervisory statement is intended to help financial entities implement the DORA
+requirements for ICT risk management (Chapter II) and ICT third-party risk management
+(Section I of Chapter V), including the relevant regulatory technical standards (RTS) 1. In
+particular, it is intended for entities supervised by BaFin which fall under the scope of the
+BAIT or the VAIT and will in future be required to comply, inter alia, with the ICT risk
+management requirements set out in Articles 5 to 15 of DORA. While these guidance notes
+only relate to the BAIT/VAIT, the supervisory requirements for asset management companies
+and for payment services and electronic money institutions (KAIT/ZAIT), which are not
+explicitly considered here, are similar in many cases. The guidance notes are thus generally
+relevant in these fields as well.
+
+These guidance notes on implementation are based on the findings of six working groups
+which were set up in 2023 and consisted of representatives of the financial industry, the
+Deutsche Bundesbank and BaFin. These working groups compared the requirements of
+DORA regarding the above-mentioned “standard ICT risk management framework” and the
+“key principles for sound management of ICT third-party risk” (Art. 28-30 of DORA) as well as
+the related draft RTS with the requirements of chapters 1 to 10 of the BAIT and VAIT in order
+to identify significant changes and any resulting need for action 2. The other chapters of
+DORA were not considered in this context (cf. Figure 1).
+
+
+
+
+1 The Level 2 texts must always be considered in conjunction with DORA. The European Commission will publish their
+
+final versions in the Official Journal of the European Union.
+2 The requirements for simplified ICT risk manag ement frameworks (Art. 16 of DORA) require a separate assessment and
+
+are not included in this analysis.
+
+Guidance notes on the implementation of DORA                                                              Page 4 of 39
+Figure 1: Key elements of DORA
+
+
+
+
+These guidance notes on implementation reflect the current status of the following RTS or
+draft RTS (Level 2 legal texts) as of the date of publication:
+
+    -   COMMISSION DELEGATED REGULATION (EU) 2024/1774 of 13 March 2024
+        supplementing Regulation (EU) 2022/2554 of the European Parliament and of the
+        Council with regard to regulatory technical standards specifying ICT risk management
+        tools, methods, processes, and policies and the simplified ICT risk management
+        framework (hereinafter: “RTS RMF”)
+    -   COMMISSION DELEGATED REGULATION (EU) 2024/1773 of 13 March 2024
+        supplementing Regulation (EU) 2022/2554 of the European Parliament and of the
+        Council with regard to regulatory technical standards specifying the detailed content
+        of the policy regarding contractual arrangements on the use of ICT services
+        supporting critical or important functions provided by ICT third-party service
+        providers (hereinafter: “RTS TPPol”)
+    -   Consultation Paper on Regulatory Technical Standards to specify the elements which
+        a financial entity needs to determine and assess when subcontracting ICT services
+        supporting critical or important functions as mandated by Article 30(5) of Regulation
+        (EU) 2022/2554 (hereinafter: “draft RTS SUB”)
+On account of the as yet uncompleted European legislative process, which ends with the
+publication of the legal text in the Official Journal of the European Union, there may be
+subsequent amendments to the draft version of RTS SUB.
+The proportionality principle is not explicitly explained in these guidance notes on
+implementation. The principle is prescribed in Art. 4 of DORA for Chapters II, III and IV. This
+ensures that financial entities can proceed in a risk-based fashion in their application of
+DORA. Nor do these guidance notes on implementation discuss the exemptions for
+microenterprises provided for in the individual articles.
+
+Equally, this analysis only refers to the definitions provided in Art. 3 of DORA where relevant.
+Neither the BAIT nor the VAIT provide a similar list of defined key terms.
+
+These guidance notes on implementation do not constitute a binding interpretation on the
+part of BaFin, nor do they give interpretations relating to the Q&A processes of the three
+
+
+Guidance notes on the implementation of DORA                                           Page 5 of 39
+European Supervisory Authorities (the European Banking Authority (EBA), the European
+Securities and Markets Authority (ESMA) and the European Insurance and Occupational
+Pensions Authority (EIOPA)).
+
+
+
+
+Guidance notes on the implementation of DORA                                    Page 6 of 39
+II. Guidance notes on implementation
+The following guidance notes on the implementation of the DORA requirements consist of
+the following sections: governance and organisation; information risk and information
+security management; IT operations; ICT business continuity management; IT project
+management and application development; ICT third-party risk management; operational
+information security; and identity and rights management.
+
+Overall, the BAIT and VAIT requirements largely match DORA’s requirements with regard to
+the “standard ICT risk management framework” (Art. 5-15 of DORA) and the “key principles
+for sound management of ICT third-party risk” (Art. 28-30 of DORA) as well as the relevant
+Level 2 legal texts or their drafts. In addition, due to its focus on digital operational resilience ,
+DORA includes requirements which are currently not present in the BAIT/VAIT.
+
+In light of this assessment and of DORA’s transposition in Germany through the German
+Financial Market Digitalisation Act (Finanzmarktdigitalisierungsgesetz – FinmadiG), BaFin
+intends to withdraw its supervisory requirements for IT (BAIT/VAIT/KAIT/ZAIT). In the case of
+financial entities which do not fall under the scope of DORA, it should be noted that
+measures to appropriately deal with IT/cyber risks are in any event required as part of a
+proper business organisation.
+
+
+
+1. Governance and organisation
+
+This section compares the requirements of Art. 5 and 6 of DORA and Art. 2(2) of RTS RMF
+relating to the governance and organisation of ICT risk management in DORA with those
+stipulated in the IT strategy (chapter 1) and IT governance (chapter 2) chapters of the
+BAIT/VAIT.
+
+DORA does not specify an IT strategy as it is required in chapter 1 of the BAIT/VAIT. Instead,
+DORA includes requirements relating to a digital operational resilience strategy (hereinafter:
+“DOR strategy”). Since these two strategies cover different aspects, the DOR strategy
+requirements are in some cases new.
+
+DORA focuses on the governance and organisation of ICT risk management, i.e. the effective
+and prudent management of ICT risk, in order to strengthen individual financial entities’ level
+of digital resilience by means of an internal governance and control framework. On the other
+hand, information security and related governance requirements are at the heart of the
+BAIT/VAIT requirements. The differences are also apparent in terms of the contents of the
+new DOR strategy as a central strategy for the ICT risk management framework, as well as the
+management body’s expanded tasks.
+
+Moreover, Art. 6(8)(g) of DORA refers to extensive additional requirements relating to digital
+operational resilience testing (cf. Chapter IV, Art. 24-27 of DORA). The findings of the tests
+described in these requirements are intended, inter alia, to mitigate ICT risks and attain
+specific ICT objectives. However, these guidance notes on implementation do not cover these
+additional requirements from Chapter IV.
+
+
+
+Guidance notes on the implementation of DORA                                               Page 7 of 39
+1.1 DORA requires new strategy for digital operational readiness
+
+DORA introduces a new DOR strategy (Art. 6(8) of DORA). This strategy focuses on ICT risk
+management, which also includes ICT third-party risk management. By way of comparison,
+the BAIT/VAIT set out IT strategy requirements, i.e. a functional and cross-cutting overall IT
+strategy which is considerably broader. These differences are also evident in the minimum
+requirements for the contents of the two strategies, meaning that the two strategies cannot
+be equated. Certain contents which the BAIT/VAIT require for an IT strategy are also included
+in DORA as part of its general, non-strategy-related requirements. These generally form part
+of its ICT governance requirements. For instance, the strategic development of the
+organisational and operational structure of IT (chapter 1.2 (a) of the BAIT/VAIT) has been
+incorporated in DORA as the ICT organisational requirements below the strategic level
+(Art. 5(2) and Art. 6(5) of DORA). The DOR strategy does not include any explicit comments
+regarding IT business continuity management such as are listed in the IT strategy in the
+BAIT/VAIT. However, the topic of ICT business continuity management is a requirement which
+is set out in the ICT risk management framework (see section 4) and is thus included in the
+management body's tasks (see section 1.3).
+
+Nor does the DOR strategy prescribe the implementation of the information securi ty
+requirements stipulated in the IT strategy in the context of established standards
+(chapter 1.2 (b) of the BAIT/VAIT). DORA does, however, considerably less prominently
+propose the consideration of established standards (Art. 2(2)(h) of RTS RMF) and likewise
+remains neutral with regard to standards in terms of its requirements and their
+implementation by financial entities.
+
+In terms of the objectives, responsibilities and the integration of information security in the
+organisational structure (chapter 1.2 (c) of the BAIT/VAIT), the DOR strategy contains
+corresponding requirements. The DOR strategy defines clear, verifiable information security
+objectives here. The ICT third-party risk strategy under Art. 28(2) of DORA and the optional
+strategy for the use of multiple ICT third-party providers set out in Art. 6(9) of DORA must be
+considered in relation to connections with ICT third-party risks. On the other hand, the
+embedding of information security in the organisational units is reflected in DORA at the
+level of the respective guidelines for ICT security.
+
+The strategic development of the IT architecture (chapter 1.2 (d) of the BAIT/VAIT) is
+comparable with the requirements of the DOR strategy in Art. 6(8) of DORA regarding the ICT
+reference architecture, incl. information on any changes which may be required for the
+attainment of specific business objectives. However, DORA introduces a new term “ICT
+reference architecture” which is not defined in Art. 3 of DORA, leading to possible difficulty in
+distinguishing between these two terms.
+
+Unlike the VAIT, DORA does not make any stipulation regarding the form of the document –
+whether it is drawn up separately or as part of the financial entity’s business strategy.
+However, the assumption that strategies may be combined as appropriate continues to
+apply. The topic of appropriate communication of an IT strategy (chapter 1.5 of the VAIT) is
+not covered in DORA. However, general sectoral governance requirements must be taken
+into consideration here.
+
+
+
+Guidance notes on the implementation of DORA                                           Page 8 of 39
+While DORA does not require an IT strategy as in the BAIT/VAIT, the continued existence of
+such a strategy is certainly necessary and sensible: both as a potential link between the
+business strategy and the DOR strategy and against the background of sectoral governance
+requirements for strategies.
+
+
+
+1.2 Comprehensive, but ICT-specific internal governance and control framework
+
+The internal ICT governance and control framework is a core area of focus in DORA. It should
+be noted that the general, non-ICT-specific governance requirements set out in the sectoral
+provisions continue to apply. DORA addresses the governance of the ICT risk management
+framework, i.e. the effective and prudent management of ICT risks and, as a result,
+strengthening the resilience of the respective financial entity. The focus is somewhat different
+in the BAIT/VAIT and relates, in particular, to information security and the associated
+governance requirements.
+
+DORA also requires an overall risk perspective, since ICT risk management is included in
+financial entities’ general risk management (Art. 6(1) of DORA). Like the BAIT/VAIT (cf.
+preliminary comments in chapter 4.2 of the VAIT, chapter 4.2 of the BAIT/VAIT), in this
+respect DORA emphasises the ultimate and overall responsibility of the management body
+(Art. 5(2)(a), (d) of DORA).
+
+With regard to the establishment of an ICT risk control function with responsibility for the
+management and oversight of ICT risk pursuant to Art. 6(4) of DORA (cf. section 2.2), DORA
+requires appropriate segregation and independence in relation to the various functions. In
+general, the BAIT/VAIT require the avoidance of conflicts of interest and incompatible
+activities within the organisational and operational structure of IT (chapter 2.4/2.7 of the
+BAIT/VAIT). DORA requires the three lines of defence model or the use of other internal
+models for risk management and control (Art. 6(4) of DORA).
+
+As well as the ICT risk control function, Art. 5(3) of DORA prescribes the establishment of a
+monitoring function which is to monitor contracts with ICT third-party service providers for
+the use of ICT services. This can either be performed by a role which is to be established for
+this purpose or else by a member of senior management (see also section 6.6).
+
+The general requirements for ICT security policies prescribed in Art. 2(2) of RTS RMF are not
+found in the BAIT/VAIT. However, there are certainly content and contextual overlaps
+between the individual ICT security policies and the BAIT/VAIT. Financial entities may need to
+make changes on account of the differences.
+
+DORA likewise considers technological advancements and the current and future threat level
+(chapter 2.3/2.4 of the BAIT/VAIT), although it uses different terms here (cf. inter alia recital
+no. 48 of DORA and Art. 2(2) of RTS RMF).
+
+
+
+1.3 Significant expansion of the management body’s tasks
+
+With detailed requirements and tasks, DORA assigns considerably greater responsibility to
+the management body (Art. 5(2) of DORA) and thus strengthens its role in the context of
+
+Guidance notes on the implementation of DORA                                            Page 9 of 39
+governance and organisation. At specific points, the BAIT/VAIT contain similar requirements
+as a task for the management board (such as IT strategy, provisions regarding the
+organisational and operational structure of IT, management of IT operations, IRM,
+information security policy, ISM, investigation of information security incidents, IT project
+management), but they are less extensive.
+
+Art. 5(4) of DORA requires members of the management body to have sufficient knowledge
+and skills regarding the ICT risks which are to be managed and also to actively keep the skills
+and knowledge up to date. There is no explicit equivalent requirement in the BAIT/VAIT;
+these circulars instead require, in general terms, appropriate quantitative and qualitative
+resources.
+
+In many cases, the management body of the financial entity is required to define, approve,
+oversee and assume responsibility for safeguards in connection with the ICT risk
+management framework (cf. in particular Art. 6(1) of DORA).
+
+       Under Art. 5(2)(b) of DORA, policies must be introduced in order to maintain high
+        standards in relation to DORA’s four protection objectives. These include the
+        information security policy set out in Art. 9(4)(a) of DORA, the ICT business continuity
+        policy and the ICT third-party risk management policy.
+       The ICT security policies listed in RTS RMF must likewise be approved by the
+        management body (Art. 2(2)(b) of RTS RMF). The BAIT/VAIT do not include any similar
+        requirement at the level of policies.
+       The avoidance of conflicts of interest by means of suitable organisational measures,
+        which is prescribed in chapter 2.4/2.7 of the BAIT/VAIT, also features in DORA's
+        requirements. While DORA does not explicitly mention the “avoidance of conflicts of
+        interest”, this follows from the governance requirements and is subsequently
+        specified, in particular, in Art. 2(2)(g) of RTS RMF. Under Art. 5(2)(c) of DORA, the
+        management body is responsible for setting clear tasks and responsibilities for all ICT-
+        related functions.
+       The implementation of the financial entity’s ICT business continuity policy and ICT
+        response and recovery plans must be periodically approved, overseen and reviewed.
+       As with the BAIT/VAIT, DORA requires appropriate resources in order to comply with
+        the digital operational resilience requirements; this includes the ICT skills for all staff.
+        The management body is responsible for ensuring this (Art. 5(2)(g) of DORA).
+       The internal ICT audit plans of the ICT audit department and significant changes to
+        these plans must be periodically approved and reviewed.
+
+
+
+2. Information risk and information security management
+
+This section compares the requirements for information risk and information security
+management as well as the ICT risk management framework in Art. 3, 5, 6, 8, 13, 14, 45 and
+49 of DORA and Art. 3-5 and 27 of RTS RMF with those in the information risk management
+and information security management chapters of the BAIT/VAIT.
+
+ICT risk management is of key significance for DORA in order to attain the objective of digital
+operational resilience. In comparison with the BAIT/VAIT, DORA places considerably greater
+emphasis on ICT risk management than information security. This is also evident in terms of
+
+Guidance notes on the implementation of DORA                                            Page 10 of 39
+the introduction of the ICT risk control function, which is to assume “responsibility for
+managing and overseeing ICT risk“. This resembles the information security officer (ISO) in
+the BAIT/VAIT. However, the ISO has greater responsibility for information security matters.
+
+In addition, DORA introduces new check and analysis requirements regarding ICT risks, new
+technologies, legacy systems, incidents and tests and related reporting obligations, including
+in relation to the supervisory authority. For instance, DORA stipulates an at least annual or
+else event-driven review of the ICT risk management framework. The supervisory authority
+may require this to be provided in the form of a report. Furthermore, DORA emphasises
+training obligations and communication strategies in the context of digital operational
+resilience.
+
+
+
+2.1 Shift in emphasis from information security to ICT risk management
+
+The significantly greater importance placed on ICT risk management over information
+security represents a fundamental shift in emphasis. According to DORA, ICT risk
+management serves as the basis for safeguarding digital operational resilience, and
+information security measures are to be used for this purpose. The BAIT/VAIT focus on
+information security measures and the risk assessment is of secondary significance. However,
+the measures actually required in practice in either case are not likely to differ significantly.
+Nevertheless, a stronger focus on the ICT risk on the basis of this shift in emphasis, with its
+corresponding prioritisation at the level of implementation, is certainly conceivable.
+
+Nor does DORA stipulate any ban on outsourcing ICT risk management functions. Art. 6(10)
+of DORA explicitly refers to the possibility of outsourcing “tasks of verifying compliance with
+ICT risk management requirements”. However, in the event of outsourcing, sectoral
+requirements3 must still be complied with in regard to outsourceability. In a specific
+outsourcing scenario, these sectoral provisions may certainly define requirements, conditions
+or limits for such outsourcing. In addition, the financial entity remains fully responsible for
+safeguarding ICT risk management.
+
+The definition of an information domain in accordance with chapter 3.3/3.4 of the BAIT/VAIT
+and the method for determination of the protection requirements in accordance with
+chapter 3.4/3.5 of the BAIT/VAIT are replaced by ICT asset management and classification of
+these assets. DORA refers here to the determination or identification and classification of ICT -
+based business functions as well as information assets and ICT assets which support these
+functions (Art. 8(1) of DORA and Art. 4 and 5 of RTS RMF). Critical assets and dependencies
+on ICT third-party service providers and risks resulting from cyber threats and ICT
+vulnerabilities must be identified. These are to be documented in inventories. The obligation
+to specify the configuration of information assets and ICT assets and the
+connections/interdependencies between these assets means that this resembles a
+configuration management database (CMDB). If coverage of DORA’s specific requirements is
+
+
+
+3 For instance, Circular 05/2023 (BA)
+                                  - Minimum Requirements for Risk Management (Mindestanforderungen an das
+Risikomanagement – MaRisk), Circular 2/2017 (VA) - Minimum Requirements under Supervisory Law on the System of
+Governance of Insurance Undertakings (Mindestanforderungen an die Geschäftsorganisation von
+Versicherungsunternehmen – MaGo) or outsourcing guidelines of the European Supervisory Authorit ies.
+
+Guidance notes on the implementation of DORA                                                        Page 11 of 39
+ensured, the methods for defining the information domain in conjunction with the
+requirement to manage IT system components via IT operations and determination of the
+protection requirements may be applied; however, other solutions are also conceivable.
+
+
+
+2.2 Stronger focus on analytical and control activities
+
+Art. 6(4) of DORA introduces an ICT risk control function which closely resembles the
+information security officer (ISO) required in chapter 4.4/4.5 of the BAIT/VAIT in terms of its
+status and independence. However, the former is not identical to the latter. The ISO is to be
+responsible for “all information security issues”, while the control function is to assume
+“responsibility for managing and overseeing ICT risk”. The transformation of the ISO into an
+ICT risk control function seems appropriate in order to reflect this change. If the goal is for
+the ISO to assume the tasks of the ICT risk control function which is to be set up, financial
+entities should ensure that the ISO likewise assumes the ICT risk management tasks. The less
+detailed information provided regarding the concrete tasks of the ICT risk control function
+also establishes scope for a revised set of tasks.
+
+DORA prescribes extensive new check and analysis requirements regarding ICT risks, new
+technologies, legacy systems, incidents and tests as well as related reporting obligations, in
+some cases also in relation to the supervisory authority. These include in particular:
+
+       A review of the ICT risk management framework under Art. 6(5) of DORA is to be
+        implemented at least once a year or on an event-driven basis upon the occurrence of
+        major ICT-related incidents and in case of conclusions derived from testing
+        (Chapter IV of DORA) or audits. This serves to continuously improve the ICT risk
+        management framework. The supervisory authority may require a review and request
+        a report on the review (Title II, Chapter V of RTS RMF).
+       Following major ICT-related incidents which disrupt core activities, the cause of the
+        disruption must be analysed and required improvements identified (Art. 13(2) of
+        DORA). The promptness in responding, any forensic analyses, escalation and
+        communication must also be covered.
+       The specific risks for all legacy ICT systems must be assessed at least annually
+        (Art. 8(7) in conjunction with Art. 3(3) of DORA). This risk assessment must be
+        conducted “in any case before and after connecting technologies, applications or
+        systems”.
+       Senior ICT staff are to report to the management body at least annually on findings
+        resulting from incidents and tests and put forward their related recommendations
+        (Art. 13(5) of DORA). In particular, this concerns cyber-attacks and other contingency-
+        related incidents as well as threat-led penetration testing (TLPT) and supervisory
+        reviews.
+
+It can be assumed that new processes must be established or existing ones revised in order
+to comply with these analytical and reporting obligations. In addition to the retrospective
+review of ICT-related incidents and past performance of the ICT risk management framework,
+new technological developments are also to be monitored, including in relation to cyber-
+attacks (Art. 13(7) DORA and Art. 3(1)(e) of RTS RMF). The effects arising from the use of new
+technologies for ICT security and digital operational resilience are to be examined here. A
+
+
+Guidance notes on the implementation of DORA                                         Page 12 of 39
+core area of focus is the monitoring of the “latest” ICT risk management processes in order to
+effectively combat new and existing forms of cyber-attacks.
+
+
+
+2.3 Strengthening of training and communication
+
+DORA places a considerably stronger emphasis than the BAIT/VAIT on training obligations.
+Financial entities are thus required to develop ICT security awareness programmes and digital
+operational resilience training for all employees and senior management staff (Art. 13(6) of
+DORA). In addition, the members of the management body are required to keep up -to-date
+with their knowledge and skills relating to ICT risks, including by means of specific training
+(Art. 5(4) of DORA). In general, this training is to be commensurate to the remit of their
+functions and also cover any ICT third-party service providers used.
+
+As part of the ICT risk management framework, financial entities must set up communication
+strategies4, policies and plans, at least for major ICT incidents and vulnerabilities, enabling a
+responsible disclosure of incidents and vulnerabilities (Art. 14 of DORA). They are to
+distinguish between the respective addressees, which explicitly include the general public.
+Financial entities must task at least one person with implementing the communication
+strategy for ICT-related incidents. This person will fulfil the public and media function for that
+purpose (Art. 14(3) of DORA).
+
+Financial entities may voluntarily participate in an exchange of information concerning cyber
+threats and information within trusted communities (Art. 45(1) of DORA). Financial entities
+must notify the supervisory authority of their participation in such information-sharing
+arrangements and of the cessation of their cooperation (Art. 45(3) of DORA). Under Art. 49(1)
+of DORA, supervisory authorities may offer crisis management and contingency exercises in
+order to practise a coordinated response and to develop communication channels.
+
+
+
+3. IT operations
+
+This section compares the stipulations in Art. 7, 8, 9 and 12 of DORA and Art. 4, 5, 8, 9 and 17
+of RTS RMF for the operation of IT systems with chapter 8, IT operations, of the BAIT/VAIT.
+
+IT operations have gained in significance in the context of stronger digital operational
+resilience. DORA includes more stringent requirements regarding up-to-date, reliable and
+technologically resilient ICT systems. Moreover, the detailed overview of ICT systems is more
+closely linked to the business functions. The ICT systems and information a nd their reciprocal
+impacts are now jointly identified, classified and documented in the form of an inventory. In
+addition, the volume of changes to these systems which must be taken into consideration
+within the scope of change management is greater than before. The backup and recovery of
+data are supplemented with requirements such as segregated systems and multiple checks
+following a recovery.
+
+
+
+4 In our view, the German version of DORA contains an error in the translation from the English, in Art. 14(2) DORA: The
+
+English phrase “communication policies” should be translated as “Kommunikationsleitlinien” instead of
+“Kommunikationsstrategien“.
+
+Guidance notes on the implementation of DORA                                                                Page 13 of 39
+3.1 Stronger operational stability
+
+Operational stability and the updating of ICT systems is a further area of focus in the context
+of digital operational resilience. This is emphasised in Art. 7 of DORA, which thus intensifies
+the existing requirements in the BAIT/VAIT. For instance, Art. 7 of DORA requires “updated
+ICT systems“ and accordingly exceeds the existing regulation, which mainly required
+updating of IT systems (chapter 8.3 of the BAIT/VAIT). In addition, the requirements as to the
+reliability (Art. 7(b) of DORA) and technological resilience (Art. 7(d) of DORA) of ICT systems
+have been expanded. ICT systems must ensure adequate information processing even during
+stressed market phases. The BAIT/VAIT do not emphasise these requirements as explicitly.
+
+In addition, capacity management, which is familiar from chapter 8.8 of the BAIT/VAIT, is
+expanded through Art. 7(c) of DORA in conjunction with Art. 9 of RTS RMF. For instance, this
+requires a greater volume of documentation than previously. Furthermore, measures must be
+determined for the optimisation of resources and resource shortages must be analysed and
+prevented before they occur, by means of appropriate monitoring. Art. 12(4) of DORA also
+requires redundant ICT capacities with resources, capabilities and functions which are
+adequate to ensure business needs.
+
+Checks for legacy ICT systems are now also more significant in the context of strengthening
+resilience. These systems already required management (chapter 8.3 of the BAIT/VAIT).
+However, in future they must be explicitly checked yearly and as of any change in the ICT risk
+and assessed for their level of ICT risk (Art. 8(7) of DORA).
+
+
+
+3.2 Classification of ICT systems and information
+
+As described in section 2.1, ICT systems and information used in business functions must be
+identified and classified. The reciprocal impacts of the ICT assets and their links to the
+business functions must be taken into consideration (Art. 8(1) of DORA in conjunction with
+Art. 4 of RTS RMF). This method combines the previously separate definition of an
+information domain and the listing of IT system components (chapters 3 and 8 of the
+BAIT/VAIT) and thus provides a holistic picture of ICT systems and information which was not
+previously available in this form.
+
+
+
+3.3 Expansion to include all changes to ICT systems
+
+The risk-based approach to change management already familiar from chapters 8.4 and 8.5
+of the BAIT/VAIT is required in an expanded form in DORA (Art. 9(4)(e), (f) of DORA in
+conjunction with Art. 17 of RTS RMF). The previous assessment was limited to significant
+changes. In future, this limitation will no longer apply. Under Art. 9(4)(e) of DORA, in future
+any changes to ICT systems will be in the scope of ICT change management and must be
+recorded, tested, assessed, approved, implemented and verified in a controlled manner. This
+means that financial entities must now consider a significantly greater volume of changes
+than previously.
+
+In addition, Art. 17 of RTS RMF includes stipulations regarding the minimum contents of the
+ICT change management process, such as check requirements, testing of these changes,
+
+Guidance notes on the implementation of DORA                                         Page 14 of 39
+impact analyses or fallback solutions. This exceeds the scope of the existing requirements.
+Section 5.3 provides further information on this point from the perspective of project
+management.
+
+
+
+3.4 Segregated data retention and reconciliation of data backups
+
+In principle, the data backup topic should already be familiar from the data backup
+procedures required in chapter 8.7 of the BAIT/VAIT. Art. 12 of DORA requires the definition
+of a policy for backup procedures as well as restoration and recovery procedures and
+methods. This expands the scope of the BAIT/VAIT requirements, which mainly required data
+backup procedures.
+
+DORA contains conceptual requirements which are analogous to the familiar data backup
+procedures (Art. 12(1)(a) of DORA). Policies and procedures must be developed and
+documented which ensure minimum downtime in the restoration of ICT systems and data as
+well as limited disruption and loss.
+
+In addition, the backup and restoration of data under Art. 12(2) of DORA requires financial
+entities to ensure that the security of the network and information systems and the
+availability, authenticity, integrity and confidentiality of data are not endangered. This
+requirement is not included in the BAIT/VAIT, particularly in relation to the security of
+systems (chapter 8.7 of the BAIT/VAIT).
+
+The backup and restoration procedures must be regularly tested in accordance with Art. 12(2)
+of DORA and chapter 8.7 of the BAIT/VAIT. In regard to the restoration of data, it must be
+noted that Art. 12(3) of DORA prescribes ICT systems which are physically and logically
+segregated from the source system. In the BAIT/VAIT, this is only listed as a possible
+requirement. DORA therefore goes beyond the existing stipulations in the BAIT/VAIT with
+regard to data retention.
+
+Moreover, regarding data recovery following ICT-related incidents, Art. 12(7) of DORA
+introduces data checks which include multiple checks and reconciliations in order to ensure
+that the highest possible level of data integrity is maintained. The BAIT/VAIT do not require
+data reconciliation and checks in this form.
+
+The reporting of unscheduled deviations from standard operations (disruptions) is already
+familiar from chapter 8.6 of the BAIT/VAIT. DORA uses the term “error” for these disruptions
+(Art. 8(2)(c) of RTS RMF). These errors must continue to be assessed by means of appropriate
+procedures and protocols, analogously to disruptions.
+
+In addition, within the scope of ICT risk management, DORA makes reference to extensive
+additional requirements relating to the treatment, classification and reporting of ICT-related
+incidents (cf. Chapter III, Art. 17-23 of DORA) and testing (cf. Chapter IV, Art. 24-27 of DORA).
+However, these guidance notes on implementation do not cover Chapters III and IV of DORA.
+
+
+
+
+Guidance notes on the implementation of DORA                                          Page 15 of 39
+4. ICT business continuity management
+
+This section compares the relevant ICT business continuity management/response and
+recovery requirements (hereinafter: “ICT business continuity management”) in Art. 11, 12 and
+14 of DORA and Art. 24 to 26 of RTS RMF with the IT operations and IT business continuity
+management chapters of the BAIT/VAIT (chapter 10 in each case).
+
+In summary, it should be noted that Art. 11 of DORA and Art. 24 to 26 of RTS RMF go beyond
+the scope of the requirements in chapter 10 of the BAIT/VAIT. Key differences relate to
+changes in the contents as well as the structure of the relevant policies and plans, with the
+ICT business continuity policy at the heart of this.
+
+In addition, the number of scenarios to be taken into consideration is greater than in the
+BAIT/VAIT: For example, the impacts of climate change and insider attacks must be included,
+particularly when developing ICT response and recovery plans.
+
+Further changes relate to the review of ICT business continuity management. In DORA, the
+management body is responsible for this with regard to the ICT business continuity policy
+and the ICT response and recovery plans, while this is not specified as such in the BAIT/VAIT.
+DORA prescribes periodic and at least annual intervals for the review and testing of the
+various ICT business continuity management plans and thus differs from the BAIT/VAIT.
+Moreover, through the establishment of a crisis management function and a stronger focus
+on (crisis) communication in general, DORA makes these requirements significantly more
+stringent in comparison to the BAIT/VAIT.
+
+In addition, DORA requires reporting to the competent authorities upon their request
+concerning the estimated aggregated annual costs and losses caused by major ICT-related
+incidents. Relevant details are specified in guidelines. This reporting is not covered by these
+guidance notes on implementation.
+
+
+
+4.1 Revised structure and contents of policies and plans
+
+As a central element of ICT business continuity management, Art. 11(1) of DORA introduces a
+new ICT business continuity policy which is an integral part of the overall business continuity
+policy and is based on identification requirements set out in Art. 8 of DORA (see section 2.2).
+The BAIT/VAIT do not include the phrase “ICT business continuity policy”. They use the
+phrase “business continuity plans” in their IT operations chapter and in the introduction to
+the IT service continuity management chapter (BAIT).
+
+The objectives of the ICT business continuity policy are listed in Art. 11(2) of DORA. As well as
+the requirement for it to be documented, this policy includes, in particular, the following:
+     an appropriate response to all ICT-related incidents for the purpose of damage
+       limitation, combined with the resumption of activities and the prioritisation of
+       recovery actions;
+     the activation of plans with containment measures, processes and technologies for
+       ICT-related incidents as well as
+
+
+
+
+Guidance notes on the implementation of DORA                                          Page 16 of 39
+       the mandatory estimation of preliminary impacts, damages and losses (as already
+        implemented, where applicable, within the scope of PSD2 reports on major
+        operational and security incidents);
+       setting out communication and crisis management actions.
+
+The components of the ICT business continuity policy are described in detail in Art. 24 of RTS
+RMF. A business impact analysis (BIA) and risk analysis must be taken into consideration for
+severe business disruptions when implementing the general business continuity policy. The
+risk analysis in DORA forms part of the BIA (Art. 11(5) of DORA and chapters 10.3, 10.4 of the
+VAIT). The relevant framework conditions must be specified in the business continuity policy.
+
+In determining the recovery time and recovery point objectives for each function, beside s the
+question of whether it is a critical or important function, financial entities are to take into
+account the potential overall impact on market efficiency (Art. 12(6) of DORA and chapter
+10.3/10.5 of the BAIT/VAIT). The latter is introduced in DORA.
+
+The business continuity plans specified in chapters 8.7, 10.1/8.7 of the BAIT/VAIT are not
+present in DORA in the same form. However, DORA does feature a similar construct in the
+ICT business continuity plans (Art. 11(4) of DORA). These plans must be periodically
+maintained (Art. 11(4) of DORA) and tested (see section 4.3). Art. 25 of RTS RMF prescribes
+more far-reaching requirements for the testing of ICT business continuity plans. Inter alia,
+outsourcing and contractual agreements with ICT third-party service providers must be
+included as of the creation, updating and testing of business continuity plans, particularly
+where this relates to critical or important functions (Art. 25(2) of RTS RMF). The findings of
+the above-mentioned BIA and the ICT risk assessment must be taken into account
+(Art. 3(1)(b) of DORA).
+
+The term “IT (business) contingency/continuity plans“ relating to restart, emergency
+operation and recovery plans (cf. in particular chapter 10.3/10.5 of the BAIT/VAIT) is not
+found in DORA. DORA introduces ICT response and recovery plans at this level (Art. 11(3)
+of DORA). These plans are specified in further detail in Art. 26 of RTS RMF.
+
+As with the ICT business continuity plans, the ICT response and recovery plans must be tested
+(Art. 11(6)(a) of DORA, see section 4.3). Art. 11(6)(b) of DORA likewise prescribes testing of
+crisis communication plans. Such a requirement is not found in the BAIT/VAIT. In DORA, the
+test findings are to be documented in writing and any deficiencies determined through the
+tests are to be analysed, remedied and reported to the management body.
+
+
+
+4.2 Expansion of mandatory scenarios
+
+The mandatory inclusion of specific scenarios is specified in DORA during creation of the ICT
+response and recovery plans (Art. 26(2) of RTS RMF) and linked with the components of the
+ICT business continuity policy as well as the general business continuity policy
+(Art. 24(1)(b)(i)(1) and Art. 25(2)(e) of RTS RMF). In addition, the number of scenarios which
+must be taken into consideration differs by comparison with the BAIT/VAIT. The following
+scenarios have been added:
+
+
+
+
+Guidance notes on the implementation of DORA                                          Page 17 of 39
+       impact of climate change and events associated with environmental degradation,
+        natural disasters, pandemics and physical attacks, including intrusions and terrorist
+        attacks;
+       insider attacks;
+       political and social instability, including, where relevant, in the ICT third-party service
+        provider’s jurisdiction and the location where the data are stored and processed and
+       widespread power outages.
+
+
+
+4.3 Regular review of ICT business continuity management
+
+The BAIT require a regular review of whether the (IT) contingency plans is effective and
+appropriate, while the VAIT require a regular review of whether the IT business continuity
+concept (incl. the IT contingency plans) is up-to-date; the VAIT require updating of the IT
+business continuity concept on an event-driven basis. In DORA, the management body or the
+financial entity is responsible for the approval and periodic oversight of the ICT business
+continuity policy and the ICT response and recovery plans (Art. 5(2)(e) of DORA and Art. 11(6)
+of DORA in regard to the review). However, the differences in the terms used must be noted
+here. It therefore not possible to easily draw a direct comparison.
+
+DORA does not contain any direct equivalent of the requirement in the BAIT of an at least
+annual review of the effectiveness and appropriateness of all relevant scenarios and activities.
+
+The periodic testing of ICT business continuity plans which is required in Art. 11(6)(a) of
+DORA does not have any direct equivalent in the BAIT/VAIT. The testing of the ICT response
+and recovery plans which is likewise required is analogous to the requirements for the annual
+(BAIT) or regular (VAIT) testing of the effectiveness of the IT contingency plans, since they
+overlap with these IT contingency plans. However, this testing must be carried out at least
+annually and in the event of any significant changes to ICT systems which support critical or
+important functions (Art. 11(6)(a) of DORA).
+
+As already discussed in section 2.2, the ICT risk management framework which includes ICT
+business continuity management must be checked at least annually or at a similar interval.
+
+
+
+4.4 Strengthening of crisis management and communication
+
+Art. 11(7) of DORA requires the establishment of a crisis management function. As of the
+activation of ICT business continuity plans or ICT response and recovery plans, inter alia this
+function is to specify clear procedures for the handling of internal and external crisis
+communication (Art. 14 of DORA).
+
+Communication and crisis management actions must be established, inter alia within the
+scope of the ICT business continuity policy and, in particular, in the context of ICT-related
+incidents. The purpose of these measures is to notify external stakeholders as well as involved
+internal staff (Art. 11(2)(e) in conjunction with Art. 14 and 19 of DORA; Art. 24(1)(a)(iv) and
+(b)(vi) of RTS RMF). For the purpose of implementation, communication strategies and
+policies must be developed which take into consideration the information requirements of
+
+
+Guidance notes on the implementation of DORA                                             Page 18 of 39
+the employees involved in the response and recovery and additional staff that need to be
+informed (Art. 14(2) of DORA).
+
+
+
+5. ICT project management and application development
+
+This section compares the stipulations in Art. 15, 16 and 17 of RTS RMF concerning ICT
+project and change management with the IT project management and application
+development requirements in chapter 7 of the BAIT/VAIT.
+
+Overall, it should be noted that the individual requirements with a specific IT security slant in
+RTS RMF are considerably more detailed than those in the chapter of the BAIT/VAIT on ICT
+projects and application development. The RTS clearly focuses on the i mplementation of
+suitable measures to fulfil the security goals and less on the governance of specific processes,
+as in the BAIT/VAIT. The measures listed in RTS RMF are minimum requirements and should
+not be considered exhaustive. Additional measures accompanying the minimum
+requirements may also be required here, in line with the principle of proportionality.
+
+Where the BAIT/VAIT have been implemented, the new regulatory system provides various
+degrees of freedom in terms of the implementation of the requi rements. DORA specifies
+fewer details and examples in relation to ICT project and change management. Instead, the
+level of security is defined by means of minimum requirements, but there is greater freedom
+as regards implementation. A moderate volume of additional work is nonetheless necessary,
+e.g. for source code analysis and in order to consider the removal of the materiality threshold
+during the implementation.
+
+
+
+5.1 Analogous requirements for ICT project management
+
+The basic requirements for an ICT project methodology (Art. 15 of RTS RMF) which must be
+fulfilled by means of a corresponding policy are also found in RTS RMF (Art. 15(1)-(3) of RTS
+RMF), analogously to chapter 7.3 of the BAIT/chapter 7.4 of the VAIT. Simplifications arise
+where correlations across multiple projects need to be considered. Here, the BAIT/VAIT
+currently prescribe that a risk assessment must be implemented in relation to the
+interdependencies between different ICT projects. DORA no longer requires this assessment.
+Instead, projects must be evaluated with a view to their impact on critical or important
+functions and communicated to the management body in accordance with their importance
+and the size of the project in question (Art. 15(5) of RTS RMF).
+
+Further simplifications arise due to the removal of the requirements as to the qualitative and
+quantitative resources and restrictions relating to the information security perspective, which
+merely requires compliance with the security objectives (Art. 15(1) of RTS RMF). Nor does RTS
+RMF include requirements relating to project documentation and lessons learned.
+
+
+
+
+Guidance notes on the implementation of DORA                                          Page 19 of 39
+5.2 Detailed stipulations regarding ICT system acquisition, development and
+    maintenance
+
+RTS RMF goes into significantly greater detail than the BAIT/VAIT and contains concrete
+minimum elements for an acquisition, development and maintenance policy (Art. 16(1) of RTS
+RMF). Unlike the BAIT/VAIT, the focus is less on documentation of application development
+and instead more on secure implementation (Art. 16(1)(a) and (c) of RTS RMF) and
+identification of the requirements necessary to implement the application (Art. 16(1)(b) of
+RTS RMF). Full documentation of requirements, in the sense of a technical concept or
+requirements specification document, is not explicitly stipulated.
+
+RTS RMF describes in great detail the measures to be implemented for testing of IT systems
+(Art. 16(2) of RTS RMF). For instance, in future security testing is required within the scope of
+the source code review for internet-exposed systems and applications (Art. 16(3) of RTS
+RMF).
+
+Here, the VAIT merely require the introduction of a standard process, without indicating
+concrete testing procedures or scenarios.
+
+Unlike the BAIT/VAIT, there are no longer any requirements relating to stress scenarios or
+documentation of testing. However, in case of changes, Art. 17 of RTS RMF requires an
+effective testing procedure, including quality assurance (Art. 17(1)(c)(ii) of RTS RMF), which
+does suggest documentation.
+
+RTS RMF contains highly specific requirements in relation to the handling of source code
+from application development. The source code must be checked for anomalies by means of
+static and dynamic testing prior to productive use (Art. 16(3) of RTS RMF). This also applies
+for source code created by third parties and for proprietary software (compiled source code)
+(Art. 16(8) of RTS RMF).
+
+End-user computing (EUC) is only implicitly included in RTS RMF. No distinction is made
+between EUC and bought-in (standard) applications. Instead, it is pointed out that
+developments outside of the IT function must be checked for risks (Art. 16(9) of RTS RMF).
+The key requirements for EUC continue to apply. Testing may be more extensive than
+previously due to the lack of a special status for EUC.
+
+
+
+5.3 Removal of the materiality threshold for ICT change management
+
+In the case of ICT change management (Art. 17 of RTS RMF), changes by comparison with the
+existing BAIT/VAIT requirements relate, in particular, to the assessment of changes to
+software, hardware, firmware, systems or security parameters (Art. 17(1) of RTS RMF). In
+particular, there is a change of perspective here, since data as an asset worthy of protection
+and the technology used are now the central point of focus (Art. 17(1) of RTS RMF). In
+contrast, the BAIT/VAIT consider the effect of the changes in the context of the overall IT
+organisation within the scope of an impact analysis. However, RTS RMF includes concrete
+requirements for the operational process for the handling of changes (Art. 17(1) of RTS RMF).
+It refers here, inter alia, to the separation of functions and roles (Art. 17(1)(b) of RTS RMF) as
+
+
+Guidance notes on the implementation of DORA                                           Page 20 of 39
+part of the change approval process. It does not describe or require the implementation of a
+concrete process.
+
+To date, chapter 7.1 of the BAIT/VAIT stipulated that significant changes must undergo a
+prescribed analysis process and that, depending on the materiality of the changes, further
+affected organisational units must be involved. RTS RMF no longer distinguishes between a
+material and non-material change. Accordingly, in future all changes in ICT systems must be
+recorded, tested, assessed, approved, implemented and verified in a controlled manner
+(Art. 17(1)(c) of RTS RMF). RTS RMF does not explicitly require the involvement of additional
+organisational units, which is stipulated in the BAIT/VAIT.
+
+
+
+6. ICT third-party risk management
+
+This section compares the ICT third-party risk management requirements set out in Art. 1, 5
+and Chapter V Section I (Art. 28-30) of DORA, RTS TPPol and draft RTS SUB with those in
+chapter 9 of the BAIT (“Outsourcing and other external procurement of IT services”) and
+chapter 9 of the VAIT (“Outsourcing of IT services and other service relationships in the area
+of IT services”). Excerpts of the Minimum Requirements for Risk Management
+(Mindestanforderungen an das Risikomanagement – MaRisk, section AT 9) and the Minimum
+Requirements under Supervisory Law on the System of Governance of Insurance
+Undertakings (Mindestanforderungen an die Geschäftsorganisation von
+Versicherungsunternehmen – MaGo, chapter 13) are also considered, since they are closely
+linked with the BAIT and VAIT requirements.
+
+Chapter V of DORA regulates the use of ICT services provided by ICT third-party service
+providers. A series of key principles for sound management of ICT third-party risk are defined
+for this purpose. These cover requirements for governance, the life cycle for obtaining ICT
+services, handling of specific ICT third-party risks and the minimum contractual contents. A
+list of these minimum contractual contents is attached as an annex to these guidance notes
+on implementation.
+
+
+
+6.1 Distinction vis-à-vis outsourcing
+
+ICT third-party risk management according to DORA supplements the existing sectoral
+provisions on outsourcing 5. Financial entities must thus continue to comply with the sectoral
+outsourcing requirements, i.e. the statutory requirements and the prescriptions e.g. in the
+MaRisk and MaGo remain applicable. They apply in parallel and on a complementary basis. It
+must thus be assumed that in many cases a contractual agreement on the usage of ICT
+services will also constitute outsourcing (and vice versa). Harmonisation of the requirements
+for ICT third-party risk management under DORA and the sectoral outsourcing requirements
+is a supervisory objective.
+
+
+
+
+5 DORA recital no. 29: “Consequently, it is necessary to set out certain key principles to guide financial entities’
+
+management of ICT third-party risk […]. Those principles are complementary to the sectoral law applicable to
+outsourcing.”
+
+Guidance notes on the implementation of DORA                                                                     Page 21 of 39
+For this reason, this chapter of the guidance notes on implementation does not only consider
+the key effects resulting from differences between DORA and the BAIT/VAIT and instead also
+covers the relevant sections of the MaRisk and MaGo.
+
+The definition of contractual arrangements for the use of ICT services (Art. 28(1)(a) in
+conjunction with Art. 3(21) of DORA) is significantly broader in scope than the previous
+outsourcing definitions, in particular because for financial entities it refers to all “ICT services
+to run their business operations”. This necessitates an assessment of all ICT-related third-
+party services and, at the level of implementation, uncertainties may arise regarding the
+correct classification. In addition, in many cases the scope of scenarios covered will likely be
+broader.
+
+The issue of whether the bought-in ICT service supports a critical or important function is
+particularly significant for the scope of the requirements which must be fulfilled. In such
+cases, the associated ICT third-party risks are assumed to be particularly significant. From a
+methodological and substantive point of view, the assessment of whether functions are
+“critical or important” is not identical with a materiality determination for outsourcing 6. The
+former is implemented on the basis of the effects resulting from a disruption or failed
+performance of the function in question (Art. 3(22) of DORA). Here too, the development of
+suitable criteria for classification (Art. 3(2) of RTS TPPol) and the assessment of all of the
+issues are necessary.
+
+
+6.2 Widening of the scope of contractual requirements
+
+DORA entails a significant widening of the scope of the contractual contents 7 which must be
+agreed with the ICT third-party service provider. These comprise, in particular:
+
+        formal requirements, including the format in question and documentation in one
+         document (Art. 30(1) of DORA and Art. 8(4) of RTS TPPol),
+        minimum contents for all contractual arrangements (Art. 30(2) of DORA),
+        minimum contents for contractual arrangements supporting critical or important
+         functions (Art. 30(3) of DORA and Art. 8ff. of RTS TPPol),
+        rights of termination (Art. 28(7) of DORA and Art. 7 of draft RTS SUB),
+        relevant contractual contents for requirements resulting from Art. 1(1)(a) and other
+         relevant legislation (Art. 8(1) of RTS TPPol),
+        review and, where applicable, testing rights (Art. 8(1) of RTS TPPol in conjunction with
+         Art. 1(1)(a)(iv) of DORA, Art. 8(2), Art. 8(3)(g) and (h) as well as Art. 3(8)(c) and (d) of
+         RTS TPPol),
+        obligation to include the relevant contractual contents when awarding subcontracts
+         for the support of critical or important functions (Art. 3(1)(c) of draft RTS SUB),
+        description and conditions under which subcontracting is permitted (Art. 30(2)(a) of
+         DORA, Art. 4 of draft RTS SUB),
+
+
+6 Or else an assessment of whether this involves an important function or insurance activity within the meaning of the
+
+German Insurance Supervision Act (Versicherungsaufsichtsgesetz – VAG).
+7 This list only includes requirements which are explicitly specified as minimum contractual contents at Level 1 or Level 2.
+
+Additional contractual contents which result from other requirements or which it would be prudent to agree have not
+been included.
+
+Guidance notes on the implementation of DORA                                                                   Page 22 of 39
+        a sufficient notification period in case of significant changes in subcontracting for
+         critical or important functions and an obligation not to implement any changes
+         during this period, as well as the right to require changes (Art. 6(1), (3) and (4) of draft
+         RTS SUB) and
+        measures and key indicators for monitoring performance, information security
+         requirements and compliance with policies and procedures of the financial entity and,
+         where appropriate, contractual penalties (Art. 9(1) of RTS TPPol).
+
+The significant expansion of the scope and of the contractual contents which must be agreed
+means that in many cases it will be necessary to renegotiate a large part of the contracts with
+ICT third-party service providers. In addition, the mandatory contractual contents also cover
+contractual arrangements which do not support critical or important functions or relate to
+critical or important outsourcing8.
+
+At the conclusion of a contract, standard contractual clauses should be taken into
+consideration which have been developed by public authorities for specific services (Art. 30(4)
+of DORA). However, no standard contractual clauses are currently available. Supervised
+entities should therefore not wait until standard contractual clauses are published before
+implementing the minimum contractual contents.
+
+No extended transitional periods are envisaged for the adjustment of existing contractual
+arrangements (risk analyses, contractual contents). Art. 3(1) of RTS TPPol states that a
+documented timeline for implementation is required and that implementation is to occur in a
+timely fashion. Changes to the contractual arrangements are to be made as soon as possible.
+
+
+
+6.3 New rules on subcontracting
+
+Subcontracting of critical or important functions is comprehensively regulated in draft RTS
+SUB, which was published in early December9. This RTS significantly expands the breadth and
+depth of regulation:
+
+        The financial entity must assess whether the ICT third-party service provider is able to
+         suitably select and appropriately monitor a subcontractor (Art. 3(1) of draft RTS SUB).
+        Contractual contents relating to subcontractors (Art. 4 of draft RTS SUB).
+        Documentation and monitoring of subcontracting chains (Art. 5 of draft RTS SUB).
+        Procedure in case of significant changes (Art. 6 of draft RTS SUB) and, where
+         applicable, related termination rights (Art. 7 of draft RTS SUB).
+
+
+
+6.4 Extensive risk analysis and due diligence requirements
+
+The volume of risk analysis and due diligence requirements has increased, particularly in the
+case of contractual arrangements relating to critical or important functions. Above all, this
+
+
+8 Or else an assessment of whether this involves an important function or an ins urance activity within the meaning of the
+
+VAG.
+9 Since the RTS on subcontracting is included in the group of RTS/ITS with an 18 -month processing time, changes should
+
+be expected even after the end of the consultation period on 4 March 2024.
+
+Guidance notes on the implementation of DORA                                                                Page 23 of 39
+relates to the content and depth of analysis. The contents relating to ICT services which do
+not support any critical or important functions are only listed in very general terms:
+
+         assessment of compliance with supervisory conditions (Art. 28(4) of DORA),
+         identification and assessment of all relevant risks, including the ICT concentration risk
+          (Art. 28(4) of DORA),
+         suitability of the ICT third-party service provider within the scope of due diligence
+          (Art. 28(4) of DORA),
+         identification and assessment of conflicts of interest 10 (Art. 28(4) of DORA) and
+         compliance with appropriate information security standards (Art. 28(5) of DORA).
+
+In the case of ICT services which support critical or important functions, there are also
+additional issues which require analysis. In some cases, these significantly exceed the scope
+of the existing requirements:
+
+         Concrete designation of a minimum list of risks which must be considered within the
+          scope of the ex ante risk analysis, including operational risks, legal risks, ICT risks,
+          reputational risks, confidentiality and data protection risks, risks linked to the
+          availability of data, risks linked to the location where the data is processed or stored,
+          the location of the ICT third-party service provider, concentration risk (Art. 5(2) of RTS
+          TPPol).
+         Concrete designation of a minimum list of factors which the ICT third-party service
+          provider is to fulfil, including its reputation, abilities, ICT risk management,
+          subcontracting, location, auditability, ESG requirements (Art. 6(1) of RTS TPPol).
+         Weighing of benefits and risks associated with subcontracting (Art. 29(2) of DORA,
+          Art. 1 of draft RTS SUB) and assessment of long and complex subcontracting chains
+          (Art. 29(2) of DORA).
+         Consideration of legal risks, i.e. the provisions of insolvency law (Art. 29(2) of DORA)
+          and, in the case of third-party countries, compliance with and the enforceability of
+          legal provisions and compliance with data protection rules (Art. 29(2) of DORA).
+         Assessment of whether the ICT third-party service provider has sufficient resources in
+          order to comply with statutory and regulatory requirements (Art. 3(4) of RTS TPPol)
+         Due consideration of the “most up-to-date and highest quality information security
+          standards” (Art. 28(5) of DORA).
+
+Equally, in the case of critical or important functions within the scope of due diligence, audit
+or assessment results of the ICT third-party service provider must be used where appropriate,
+even before a contract is concluded (Art. 6(3)(a) and (b) of RTS TPPol). Some third-party
+service providers are likely to find it challenging to provide such audit or assessment reports.
+
+
+
+6.5 Changed exit requirements
+
+The requirements for exit strategies/plans for ICT services that support critical or important
+functions have increased significantly. In particular, the expectations regarding the goals of
+the exit strategies have expanded significantly (Art. 28(8) of DORA). Financial entities must
+
+
+10 For ICT services which support critical or important functions, also Art. 7 of RTS TPPol.
+
+
+
+Guidance notes on the implementation of DORA                                                   Page 24 of 39
+thus be able to exit contractual arrangements without disruption to their business activities
+or detriment to services provided to clients and without limiting compliance with regulatory
+requirements. The exit plans must be based on plausible scenarios and appropriate
+assumptions (Art. 10 of RTS TPPol). In addition, these exit plans must be sufficiently tested
+and are to be periodically reviewed.
+
+The previous opening clause for outsourcing within a group or network of credit institutions
+(non-requirement of exit processes under section AT 9 chapter 15 (d) of the MaRisk) does not
+apply if the services in question are ICT services. However, it remains possible to take
+proportionality into consideration in the context of a reduced level of risk (where applicable)
+(Art. 1(e) of RTS TPPol 11). This also relates to ICT third-party service providers which are
+themselves supervised or monitored (Art. 1(g) of RTS TPPol).
+
+Under DORA, concentration risks are considered extensively and highly specifically, with the
+goal of identifying them and appropriately monitoring them. For this purpose, for contractual
+arrangements relating to critical or important functions, financial entities are to identify and
+assess whether the ICT third-party service provider would not be readily replaceable or
+whether multiple ICT services are procured from a given ICT third-party service provider.
+Where concentration risks are applicable, financial entities must weigh the benefits and costs
+of alternative solutions (Art. 29(1) of DORA). This concentration risk is included in the ex ante
+risk analysis under Art. 5 of RTS TPPol and in the analyses for subcontracting under
+Art. 3(1)(h) of draft RTS SUB.
+
+
+
+6.6 Changes in governance of ICT third-party risk
+
+Changes have arisen in the area of governance. In particular, the management body is
+involved to a greater extent, e.g. through the review of ICT third-party risks (Art. 28(2) of
+DORA) or the approval of the policy for the use of ICT services which support critical or
+important functions (Art. 5(2)(h) of DORA and Art. 3(1) of RTS TPPol), as well as reporting
+channels for the use of ICT services (Art. 5(2)(i) of DORA). Financial entities must establish a
+role in order to monitor the arrangements concluded with ICT third-party service providers
+on the use of ICT services (Art. 5(3) of DORA, see also section 1.2), which is analogous to the
+(central) outsourcing manager.
+
+
+
+6.7 Notice on reporting obligations and information register
+
+However, these guidance notes on implementation do not cover reporting obligations,
+particularly in relation to the information register, the annual report to the competent
+authorities and the reporting of planned contractual arrangements (Art. 28(3) of DORA).
+
+
+
+
+11 See recital no. 5 of RTS TPPol in relation to institutions affiliated in a network: “When applying the policy, ICT intra -
+
+group service providers, including those fully or collectively owned by financial entities within the same institutional
+protection scheme, should be considered as ICT third -party services providers.”
+
+Guidance notes on the implementation of DORA                                                                      Page 25 of 39
+7. Operational information security
+
+This section compares the requirements for data and system security measures set out in
+Art. 9 and 10 of DORA and Art. 6, 7, 10, 11, 12, 13, 14, 22 and 23 of RTS RMF with those on
+operational information security in chapter 5 of the BAIT/VAIT.
+
+In general, on the topic of operational information security in DORA, it must be noted that
+the requirements are specified in significantly greater detail than in chapter 5 of the
+BAIT/VAIT. The level of detail is similar to the explanatory notes provided in the BAIT/VAIT for
+the minimum requirements for appropriate information security measures and processes.
+
+Art. 11 of RTS RMF requires data and system security measures which ensure that:
+
+       hardening measures are implemented and periodically reviewed,
+       software and mobile data storage media are only used following authorisation (white-
+        list approach),
+       teleworking arrangements are in place which cover permitted devices and software,
+       processes are available for the secure deletion of information and the destruction of
+        data storage media and
+       measures have been implemented to protect against the intentional or inadvertent
+        loss or leak of data.
+
+In addition, more stringent requirements apply for ICT systems operated by ICT third-party
+service providers. These include:
+
+       the institution implementing manufacturers’ recommendations for the ICT systems
+        which it operates,
+       clearly setting out information security roles and responsibilities between financial
+        entities and ICT third-party service providers,
+       the financial entity retaining sufficient capabilities in order to manage and ensure the
+        security of the ICT solution used and
+       technical and organisational measures having been implemented in order to reduce
+        the risks for the financial entity’s own infrastructure which arise from the use of the
+        ICT third-party service provider.
+
+
+
+7.1 Stronger network security
+
+Art. 13 of RTS RMF stipulates network security requirements which are already familiar from
+chapters 4.3 and 5.2 of the BAIT/VAIT. In addition, there are detailed requirements e.g.
+relating to network segmentation and segregation, network access control and third-party
+device recognition, hardening of all network components and network architecture reviews. A
+greater volume of work is expected to arise in the implementation of the requirement in
+Art. 9(4)(b) of DORA for the automated isolation of information assets in the event of cyber-
+attacks. Further detail is provided on this point in Art. 13(1)(j) of RTS RMF.
+
+With the increasing stringency of network security requirements, the role of firewalls is also
+more strongly emphasised. For firewall rules, a life cycle including defined roles and
+responsibilities must be implemented and firewall recertification must thus be specified
+
+Guidance notes on the implementation of DORA                                          Page 26 of 39
+(Art. 13(1)(h) of RTS RMF). Firewall rules which support critical or important functions in ICT
+systems must be recertified at minimum on a semi-annual basis, analogously to the
+provisions for access management.
+
+The protection of information while in transit is particularly emphasised in Art. 14 of RTS RMF.
+However, this does not stipulate any specific requirements and instead requires policies and
+procedures which ensure protection while taking the risk profile into consideration (Art. 14(2)
+of RTS RMF). Another new element is the requirement in Art. 14(1)(c) of RTS RMF that
+confidentiality or non-disclosure arrangements for risks which cannot be technically
+mitigated must be concluded with staff of the financial entity and with the affected staff of
+the ICT third-party service providers.
+
+
+
+7.2 Encryption of data even while in use
+
+Art. 9 of DORA and Art. 6 and 7 of RTS RMF stipulate significantly more stringent
+requirements for the encryption of information than in chapter 5.2 of the BAIT/VAIT. Data
+must be encrypted in line with its level of criticality in any situation (at rest, in transit and in
+use). While chapter 5.2 of the BAIT/VAIT stipulates requirements regarding the encryption of
+stored data and during transfer in line with the protection requirements, the requirement in
+Art. 9(2) of DORA for encryption of data while “in use” is a new aspect whose implementation
+is likely to require a significant amount of work. These requirements specify that in those
+cases where encryption is not possible while data is in use, data must be processed in
+separate, specially protected environments or else other suitable measures must be
+implemented.
+
+Another new requirement is that cryptographic keys, which were not directly covered in the
+BAIT/VAIT, are now specifically dealt with in Art. 7 of RTS RMF. A policy and a procedure must
+be established for handling cryptographic keys along with measures for their protection. The
+entire life cycle, from generation to destruction, must be taken into consideration. Should
+keys be lost, damaged or compromised, financial entities must ensure that they can be
+replaced. Under Art. 7(4) of RTS RMF, at a minimum for those ICT assets which support critical
+or important functions, a register of all certificates and certificate-storing devices must be
+kept which is up-to-date at all times.
+
+
+
+7.3 Timely identification and handling of vulnerabilities
+
+Art. 10 of RTS RMF sets out how financial entities are to identify, deal with and handle
+vulnerabilities in a timely fashion. Financial entities must thus ensure that
+
+       ICT third-party service providers handle vulnerabilities which relate to the ICT systems
+        provided to the financial entity in question and report them to this financial entity in a
+        timely manner in the event of critical vulnerabilities and statistics and trends,
+       vulnerabilities are also responsibly and suitably communicated to external parties and,
+        where appropriate, to the general public,
+
+
+
+
+Guidance notes on the implementation of DORA                                            Page 27 of 39
+       automated vulnerability scans are implemented for the purpose of timely
+        identification, with an at least weekly vulnerability scan being required for ICT systems
+        which support critical or important functions,
+       externally procured and open-source software libraries are likewise included in the
+        vulnerability process.
+
+Vulnerabilities must be dealt with according to priority levels drawn up by the financial entity
+(Art. 10(2)(f) of RTS RMF), taking into consideration the criticality of the vulnerability, the
+classification of the asset and the risk profile. The patching of vulnerabilities must be
+prioritised over other measures. Where possible, available software and hardware patches
+and updates must be identified and evaluated by means of automated tools (Art. 10(4)(a) of
+RTS RMF). A separate procedure must be established for the installation of patches in case of
+“emergencies” (Art. 10(4)(b) of RTS RMF). If patches are not installed within the prescribed
+time limits, a defined escalation procedure must be initiated (Art. 10(4)(d) of RTS RMF).
+
+In DORA, the threats to the information domain which are familiar from Art. 5.3 of the
+BAIT/VAIT are not identified by means of “potentially security-related information” but
+instead via “anomalous activities” (Art. 10 of DORA).
+
+Using appropriate procedures, anomalous activities and behaviour must be detected for this
+purpose (Art. 10(1) of DORA); early warning indicators (Art. 17(3)(a) of DORA) must be
+identified and all detection mechanisms must be regularly tested (Art. 25 of DORA); and
+detected ICT-related incidents are to be handled within the expected resolution time, both
+during and outside normal working hours (Art. 23(2)(c) of RTS RMF). Sufficient technical and
+organisational resources are to be made available for this purpose.
+
+For the sake of completeness, it should be mentioned that, within the scope of ICT risk
+management, DORA makes reference to extensive additional requirements relating to the
+treatment, classification and reporting of ICT-related incidents (cf. Chapter III, Art. 17-23 of
+DORA) and testing (cf. Chapter IV, Art. 24-27 of DORA). However, these guidance notes on
+implementation do not cover Chapters III and IV of DORA. It is evident, though, that the
+identification of anomalous behaviour in particular exceeds the scope of the strong use case-
+driven approach in chapter 5.4 of the BAIT/VAIT.
+
+Art. 12 of RTS RMF stipulates extensive logging requirements by way of a basis for
+identification of anomalous activities.
+
+           The retention period for logs is based on the business and security requirements,
+            the purpose of retention and the risk profile of the affected ICT assets. It is
+            important that these decisions are sufficiently justified and documented.
+           Logs must be protected against tampering and deletion. Financial entities must
+            monitor any outage in the logging system and detect outages.
+           All of the financial entity’s ICT systems must be synchronised with a reliable
+            reference time.
+
+
+
+
+Guidance notes on the implementation of DORA                                          Page 28 of 39
+8. Identity and access management
+
+This section compares the stipulations relating to access management in Art. 18, 20 and 21 of
+RTS RMF with those in chapter 6 of the BAIT/VAIT.
+
+For identity and access management, it should be noted that DORA does not entail all that
+many changes by comparison with the BAIT/VAIT. Familiar processes such as the request,
+assignment and recertification processes remain as described in chapter 6 of the BAIT/VAIT.
+In terms of identity and access management, the existing requirements are actually more
+detailed than those set out in Chapter II of RTS RMF.
+
+
+
+8.1 Explicit identity management requirements
+
+Art. 20 of RTS RMF stipulates concrete identity management requirements. This was not
+explicitly required in the BAIT/VAIT, but they already set out identity management
+requirements as a basis for access management. The effort required to adjust existing
+processes is likely to be limited. Under Art. 20 of RTS RMF, identity management guidelines
+and procedures must be developed, documented and implemented. These guidelines must
+stipulate that
+
+       all employees (including employees of ICT third-party service providers) who access
+        information assets and ICT assets of the financial entity are each assigned a unique
+        identity,
+       they retain these assigned unique identities following any reorganisation a nd upon
+        expiry of the contractual relationship and
+       a lifecycle management process is introduced for identities and accounts, with
+        automated solutions ideally being implemented.
+
+
+
+8.2 Introduction of the “need-to-use” principle
+
+Access management (Art. 21 of RTS RMF) adds the “need-to-use” principle to the “need-to-
+know” and “least privilege” principles from chapter 6.2 of the BAIT/VAIT. However, the new
+principle mirrors the “need-to-know” and “least privilege” principles in chapter 6.2 of the
+BAIT/VAIT, so that this is not expected to require a significant volume of work. Other
+requirements include
+
+       ensuring a separation of functions,
+       largely limiting generic accounts so that activities can always be clearly allocated to a
+        specific person and
+       introducing controls in order to prevent unauthorised access.
+
+One new aspect relates to the recertification of access rights. This is to be implemented every
+six months for all authorisations relating to critical or important functions (Art. 21(1)(e)(iv) of
+RTS RMF). For all other authorisations, annual recertification is sufficient. It is not necessary to
+distinguish here between end user access and technical access.
+
+
+
+
+Guidance notes on the implementation of DORA                                            Page 29 of 39
+Privileged emergency access or administrative access may only be granted on a “need -to-
+use” and ad-hoc basis. Where possible, automated solutions are to be used for privileged
+access management (PAM). Privileged and remote access require strong authentication
+(based on leading practices) (Art. 21(1)(f)(ii) of RTS RMF).
+
+
+
+
+Guidance notes on the implementation of DORA                                     Page 30 of 39
+                                                                                                           Note
+III. Annex                                                                                                 The tabular overview of the minimum contractual clauses
+                                                                                                           has been updated.
+Minimum contractual clauses
+
+This table contains an overview of the contractual clauses that must be agreed between the financial institution and the ICT third -party service
+provider in accordance with DORA or RTS TPPol and draft RTS SUB. Contractual elements that should ideally be agreed but are not explicitly
+listed in the legal texts are not included in this list. (Status: 10 June 2024)
+
+
+Area                  Contractual clause                                          Location        Excerpt from the legal text                                                          cif 12
+
+Form                  Written, permanently accessible document                    Art. 30(1)      The rights and obligations of the financial entity and of the ICT third-party
+                                                                                  DORA            service provider shall be clearly allocated and set out in writing. The full
+                                                                                                  contract shall include the service level agreements and be documented in one
+                                                                                                  written document which shall be available to the parties on paper, or in a
+                                                                                                  document with another downloadable, durable and accessible format.
+Form                  Written document with date and signature for                Art. 8(4) RTS The policy shall ensure that material changes to the contractual agreement are         X
+                      significant changes                                         TPPol         to be formalised in a written document which is dated and signed by all parties
+                                                                                                and shall specify the renewal process for the contractual arrangements.
+ICT service           Clear and complete description of all functions and         Art. 30(2)(a)   a clear and complete description of all functions and ICT services to be
+description           ICT services                                                DORA            provided by the ICT third-party service provider, […]
+Subcontracting        Admissibility of subcontracting (“supporting critical or Art. 30(2)(a)      […] indicating whether subcontracting of an ICT service supporting a critical or     X
+                      important functions or essential parts thereof”) and     DORA               important function, or material parts thereof, is permitted and, when that is the
+                      subcontracting conditions                                                   case, the conditions applying to such subcontracting;
+Location              Locations (regions or countries) of processing,             Art. 30(2)(b)   the locations, namely the regions or countries, where the contracted or
+                      storage or provision                                        DORA            subcontracted functions and ICT services are to be provided and where data is
+                                                                                                  to be processed, including the storage location, […]
+
+
+
+
+12 Marking of the contractual requirements that are only necessary for ICT services supporting critical or important functions (cif).
+
+
+
+Guidance notes on the implementation of DORA                                                                                                                                 Page 31 of 39
+Area               Contractual clause                                       Location        Excerpt from the legal text                                                              cif 12
+
+Location           Notification of intended change of location              Art. 30(2)(b)   […] and the requirement for the ICT third-party service provider to notify the
+                                                                            DORA            financial entity in advance if it envisages changing such locations;
+Security           Information security objectives and data protection      Art. 30(2)(c)   provisions on availability, authenticity, integrity and confidentiality in relation to
+                                                                            DORA            the protection of data, including personal data;
+Access to data     Ensuring access to data (e.g. in case of insolvency),    Art. 30(2)(d)   provisions on ensuring access, recovery and return in an easily accessible
+                   restoration and return                                   DORA            format of personal and non-personal data processed by the financial entity in
+                                                                                            the event of the insolvency, resolution or discontinuation of the business
+                                                                                            operations of the ICT third-party service provider, or in the event of the
+                                                                                            termination of the contractual arrangements;
+ICT service        Descriptions of the service quality, including updates   Art. 30(2)(e)   service level descriptions, including updates and revisions thereof;
+description        and revisions                                            DORA
+ICT incident       Assistance in an ICT incident, setting costs             Art. 30(2)(f)   the obligation of the ICT third-party service provider to provide assistance to
+                                                                            DORA            the financial entity at no additional cost, or at a cost that is determined ex -ante,
+                                                                                            when an ICT incident that is related to the ICT service provided to the financial
+                                                                                            entity occurs;
+Supervision        Cooperation with competent authorities                   Art. 30(2)(g)   the obligation of the ICT third-party service provider to fully cooperate with the
+                                                                            DORA            competent authorities and the resolution authorities of the financial entity,
+                                                                                            including persons appointed by them;
+Termination        Termination rights and minimum notice periods in         Art. 30(2)(h)   termination rights and related minimum notice periods for the termination of
+                   line with the expectations of the competent              DORA            the contractual arrangements, in accordance with the expectations of
+                   authorities                                                              competent authorities and resolution authorities;
+Training           Participation in financial company awareness raising     Art. 30(2)(i)   the conditions for the participation of ICT third-party service providers in the
+                   and training on ICT security and digital operational     DORA            financial entities’ ICT security awareness programmes and digital operational
+                   resilience                                                               resilience training in accordance with Article 13(6).
+ICT service        Full description of service quality with precise         Art. 30(3)(a)   full service level descriptions, including updates and revisions thereof with        X
+description        quantitative and qualitative performance targets         DORA            precise quantitative and qualitative performance targets within the agreed
+                   (including updates and revisions)                                        service levels to allow effective monitoring by the financial entity of ICT services
+                                                                                            and enable appropriate corrective actions to be taken, without undue delay,
+                                                                                            when agreed service levels are not met;
+
+
+
+
+Guidance notes on the implementation of DORA                                                                                                                            Page 32 of 39
+Area                  Contractual clause                                       Location        Excerpt from the legal text                                                          cif 12
+
+Termination           Notice periods of the ICT third-party service provider   Art. 30(3)(b)   notice periods and reporting obligations of the ICT third-party service provider     X
+                                                                               DORA            to the financial entity, including notification of any development that might
+                                                                                               have a material impact on the ICT third-party service provider’s ability to
+                                                                                               effectively provide the ICT services supporting critical or important functions in
+                                                                                               line with agreed service levels;
+Reporting             Reporting obligations of the ICT service provider        Art. 30(3)(b)   notice periods and reporting obligations of the ICT third-party service provider     X
+                                                                               DORA            to the financial entity, including notification of any development that might
+                                                                                               have a material impact on the ICT third-party service provider’s ability to
+                                                                                               effectively provide the ICT services supporting critical or important functions in
+                                                                                               line with agreed service levels;
+BCM                   Implement and test business contingency plans            Art. 30(3)(c)   requirements for the ICT third-party service provider to implement and test          X
+                                                                               DORA            business contingency plans […]
+Security              ICT security measures (appropriate level of security, in Art. 30(3)(c)   requirements for the ICT third-party service provider […] to have in place ICT       X
+                      line with the financial entity’s legal framework)        DORA            security measures, tools and policies that provide an appropriate level of
+                                                                                               security for the provision of services by the financial entity in line with its
+                                                                                               regulatory framework;
+TLPT13                TLPT participation and cooperation                       Art. 30(3)(d)   the obligation of the ICT third-party service provider to participate and fully      X
+                                                                               DORA            cooperate in the financial entity’s TLPT as referred to in Articles 26 and 27;
+Monitoring            Right to continuously monitor the performance of the Art. 30(3)(e)       the right to monitor, on an ongoing basis, the ICT third-party service provider’s X
+                      ICT third-party service provider                     DORA                performance, which entails the following:
+Audit rights          Inspection rights for FU and CAs, including the right    Art.            unrestricted rights of access, inspection and audit by the financial entity, or an X
+                      to make copies                                           30(3)(e)(i)     appointed third party, and by the competent authority, and the right to take
+                                                                               DORA            copies of relevant documentation on-site if they are critical to the operations of
+                                                                                               the ICT third-party service provider, the effective exercise of which is not
+                                                                                               impeded or limited by other contractual arrangements or implementation
+                                                                                               policies;
+Audit rights          Restriction of audit rights in case of rights of other   Art.            the right to agree on alternative assurance levels if other clients’ rights are      X
+                      customers are affected                                   30(3)(e)(ii)    affected;
+                                                                               DORA
+
+
+
+
+13 For further optional contract content, see also Art. 26 (4) DORA.
+
+
+
+Guidance notes on the implementation of DORA                                                                                                                              Page 33 of 39
+Area               Contractual clause                                       Location        Excerpt from the legal text                                                         cif 12
+
+Audit rights       Full cooperation in on-site inspection and audit         Art.            the obligation of the ICT third-party service provider to fully cooperate during    X
+                                                                            30(3)(e)(iii)   the onsite inspections and audits performed by the competent authorities, the
+                                                                            DORA            Lead Overseer, financial entity or an appointed third party; and
+Audit rights       Obligation to share information on audit planning        Art.            the obligation to provide details on the scope, procedures to be followed and       X
+                                                                            30(3)(e)(iv)    frequency of such inspections and audits;
+                                                                            DORA
+Audit rights       Exercise of audit rights by independent third parties    Art. 30(3)      By way of derogation from point (e), the ICT third-party service provider and        X
+                   in financial entities that are microenterprises          DORA            the financial entity that is a microenterprise may agree that the financial entity’s
+                                                                                            rights of access, inspection and audit can be delegated to an independent third
+                                                                                            party, appointed by the ICT third-party service provider, and that the financial
+                                                                                            entity is able to request information and assurance on the ICT third-party
+                                                                                            service provider’s performance from the third party at any time.
+Audit rights       Information access, inspection, audit, and ICT testing   Art. 8(2) RTS The policy shall specify that the relevant contractual arrangements are to         X
+                   rights                                                   TPPol         include the right for the financial entity to access information, to carry out
+                                                                                          inspections and audits, and to perform tests on ICT. For that purpose, the
+                                                                                          policy shall require that the financial entity uses the following methods, without
+                                                                                          prejudice to the ultimate responsibility of the financial entity:
+Audit rights       Audit by internal audit or appointed third party         Art. 8(2)(a)    its own internal audit or an audit by an appointed third party;                     X
+                                                                            RTS TPPol
+Audit rights       Pooled audit and testing, including TLPT                 Art. 8(2)(b)    where appropriate, pooled audits and pooled ICT testing, including threat-led       X
+                                                                            RTS TPPol       penetration testing, that are organised jointly with other contracting financial
+                                                                                            entities or firms that use ICT services of the same ICT third-party service
+                                                                                            provider and that are performed by those contracting financial entities or firms
+                                                                                            or by a third party appointed by them;
+Audit rights       Third-party certifications                               Art. 8(2)(c)    where appropriate, third-party certifications;                                      X
+                                                                            RTS TPPol
+Audit rights       Audit by ICT third-party service provider internal       Art. 8(2)(d)    where appropriate, internal or third-party audit reports made available by the      X
+                   audit                                                    RTS TPPol       ICT third-party service provider.
+Audit rights       Expansion of the scope of testing/certification when     Art. 8(3)(g)    has the contractual right to request, with a frequency that is reasonable and       X
+                   using certifications or test reports provided by the     RTS TPPol       legitimate from a risk management perspective, modifications of the scope of
+                   service provider                                                         the certifications or audit reports to other relevant systems and controls;
+
+
+
+
+Guidance notes on the implementation of DORA                                                                                                                         Page 34 of 39
+Area               Contractual clause                                       Location        Excerpt from the legal text                                                           cif 12
+
+Audit rights       Retention of audit rights when using certifications or   Art. 8(3)(h)    has the contractual right to perform individual and pooled audits at its              X
+                   test reports provided by the service provider            RTS TPPol       discretion with regard to the contractual arrangements and execute those
+                                                                                            rights in line with the agreed frequency.
+Exit               Exit strategy ensuring continued provision of            Art.            during which the ICT third-party service provider will continue providing the         X
+                   functions                                                30(3)(f)(i)     respective functions, or ICT services, with a view to reducing the risk of
+                                                                            DORA            disruption at the financial entity or to ensure its effective resolution and
+                                                                                            restructuring;
+Exit               Exit strategy with adequate changeover option            Art. 30         allowing the financial entity to migrate to another ICT third-party service           X
+                                                                            (3)(f)(ii)      provider or change to in-house solutions consistent with the complexity of the
+                                                                            DORA            service provided.
+Exit               Exit strategies and a mandatory adequate transition      Art. 30(3)(f)   exit strategies, in particular the establishment of a mandatory adequate              X
+                   period                                                   DORA            transition period:
+Supervision        Cooperation with competent authorities                   Art. 3(8)(c)    The policy shall explicitly specify that the contractual arrangements: […] are to X
+                                                                            RTS TPPol       require that the ICT third party service providers cooperate with the competent
+                                                                                            authorities;
+Access to data     Access to data and premises                              Art. 3(8)(d)    The policy shall explicitly specify that the contractual arrangements: [...] are to   X
+                                                                            RTS TPPol       require that the financial entity, its auditors, and competent authorities have
+                                                                                            effective access to data and premises relating to the use of ICT services
+                                                                                            supporting critical or important functions.
+Other relevant     Relevant contractual clauses on requirements under       Art. 8(1) RTS The policy shall specify that the relevant contractual arrangement are to be in         X
+contractual        Art. 1(1)(a) DORA and other relevant laws                TPPol         written form and are to include all the elements referred to in Article 30(2) and
+clauses                                                                                   (3) of Regulation (EU) 2022/2554. The policy shall also include elements
+                                                                                          regarding requirements referred to in Article 1(1), point (a), of Regulation (EU)
+                                                                                          2022/2554, as well as other relevant Union and national law as appropriate.
+Other relevant     ICT risk management                                      Art. 1(1)(a)(i) [as appropriate, requirements applicable regarding] information and                   X
+contractual                                                                 DORA            communication technology (ICT) risk management;
+clauses - risk
+management
+Other relevant     Major ICT incident reporting                             Art.            [as appropriate, requirements applicable regarding] reporting of major ICT-         X
+contractual                                                                 1(1)(a)(ii)     related incidents and notifying, on a voluntary basis, significant cyber threats to
+clauses - ICT                                                               DORA            the competent authorities;
+incident
+
+
+
+
+Guidance notes on the implementation of DORA                                                                                                                           Page 35 of 39
+Area               Contractual clause                                       Location        Excerpt from the legal text                                                         cif 12
+
+Other relevant     Major payment incident reporting                         Art.            [as appropriate, requirements applicable regarding] reporting of major              X
+contractual                                                                 1(1)(a)(iii)    operational or security payment-related incidents to the competent authorities
+clauses - ICT                                                               DORA            by financial entities referred to in Article 2(1), points (a) to (d);
+incident
+Other relevant     DOR testing                                              Art.            [as appropriate, requirements applicable regarding] digital operational             X
+contractual                                                                 1(1)(a)(iv)     resilience testing
+clauses - DOR                                                               DORA
+testing
+Other relevant     Cyber information sharing                                Art.            [as appropriate, requirements applicable regarding] information and                 X
+contractual                                                                 1(1)(a)(v)      intelligence sharing in relation to cyber threats and vulnerabilities;
+clauses - cyber                                                             DORA
+information
+sharing
+Other relevant     Third-party risk management                              Art.            [as appropriate, requirements applicable regarding] measures for the sound          X
+contractual                                                                 1(1)(a)(vi)     management of ICT third-party risk
+clauses - risk                                                              DORA
+management
+Monitoring         Measures and key indicators to monitor performance, Art. 9(1) RTS The policy shall require that the contractual arrangements specify the measures X
+                   information security requirements and the financial TPPol         and key indicators to monitor, on an ongoing basis, the performance of ICT
+                   entity’s policies and process                                     third party service providers, including measures to monitor compliance with
+                                                                                     requirements regarding the confidentiality, availability, integrity and
+                                                                                     authenticity of data and information, and the compliance of the ICT third-party
+                                                                                     service providers with the financial entity’s relevant policies and procedures. [...]
+
+Monitoring         Measures for inadequate service quality                  Art. 9(1) RTS […] The policy shall also specify measures that apply when service level              X
+                                                                            TPPol         agreements are not met, including contractual penalties where appropriate.
+Termination        Safeguarding contractual termination rights              Art. 28(7)      Financial entities shall ensure that contractual arrangements on the use of ICT
+                                                                            DORA            services may be terminated in any of the following circumstances:
+Termination        Right of termination in the event of significant breach Art. 28(7)(a)    significant breach by the ICT third-party service provider of applicable laws,
+                   of existing rules                                       DORA             regulations or contractual terms;
+Termination        Right of termination in circumstances capable of         Art. 28(7)(b)   circumstances identified throughout the monitoring of ICT third-party risk that
+                   altering the performance                                 DORA            are deemed capable of altering the performance of the functions provided
+                                                                                            through the contractual arrangement, including material changes that affect
+                                                                                            the arrangement or the situation of the ICT third-party service provider;
+
+
+Guidance notes on the implementation of DORA                                                                                                                          Page 36 of 39
+Area               Contractual clause                                       Location        Excerpt from the legal text                                                         cif 12
+
+Termination        Right of termination in the event of evidence of         Art. 28(7)(c)   ICT third-party service provider’s evidenced weaknesses pertaining to its overall
+                   weaknesses in ICT risk management of the ICT third-      DORA            ICT risk management and in particular in the way it ensures the availability,
+                   party service provider                                                   authenticity, integrity and, confidentiality, of data, whether personal or
+                                                                                            otherwise sensitive data, or non-personal data;
+Termination        Right of termination in the event of evidence of         Art. 28(7)(d)   where the competent authority can no longer effectively supervise the financial
+                   weaknesses in ICT risk management of the ICT third-      DORA            entity as a result of the conditions of, or circumstances related to, the
+                   party service provider                                                   respective contractual arrangement.
+Subcontracting -   Termination rights in connection with subcontracting     Art. 7(1)       Without prejudice to the termination clauses set out in accordance with Article     X
+Termination                                                                 draft RTS       28 paragraph (10) of Regulation (EU) 2022/2554, the financial entity has a right
+                                                                            SUB             to terminate the agreement with the ICT third-party service provider in each of
+                                                                                            the following cases:
+Subcontracting -   Termination rights when implementing material            Art. 7(1)(a)    when the ICT third-party service provider implements material changes to            X
+Termination        changes to subcontracting without consent                draft RTS       subcontracting arrangements despite the objection of the financial entity, or
+                                                                            SUB             without approval within the notice period as referred to in Article 6,
+Subcontracting -   Termination rights in case of an explicitly prohibited   Art. 7(1)(b)    when the ICT third-party service provider subcontracts an ICT service               X
+Termination        subcontracting of critical or important functions        draft RTS       supporting a critical or important function explicitly not permitted to be
+                                                                            SUB             subcontracted by the contractual agreement.
+Subcontracting     Obligation to replicate relevant contract clauses in     Art. 3(1)(c)    that the relevant clauses of the contractual arrangements between the financial X
+                   case of subcontracting                                   draft RTS       entity and the ICT third-party service provider are replicated as appropriate in
+                                                                            SUB             the subcontracting arrangements between the ICT third-party service provider
+                                                                                            and its subcontractor to ensure that the financial entity is able to comply with
+                                                                                            its own obligations under Regulation (EU) 2022/2554;
+Subcontracting     Description and conditions under which                   Art. 4 draft    When describing in the written contractual arrangements the ICT services to be X
+                   subcontracting is permitted                              RTS SUB         provided by an ICT third-party service provider in accordance with Article
+                                                                                            30(2)(a) of Regulation (EU) 2022/2554, financial entities shall identify which ICT
+                                                                                            services support critical or important functions and which of those are eligible
+                                                                                            for subcontracting and under which conditions. In particular, and without
+                                                                                            prejudice to the final responsibility of the financial entity, for each ICT service
+                                                                                            eligible for subcontracting the written contractual agreement shall specify:
+Subcontracting -   Monitoring obligation with regard to the                 Art. 4(a)       that the ICT third-party service provider is required to monitor all             X
+Monitoring         subcontracting of critical or important functions        draft RTS       subcontracted ICT services supporting a critical or important function to ensure
+                                                                            SUB             that its contractual obligations with the financial entity are continuously met;
+
+
+
+
+Guidance notes on the implementation of DORA                                                                                                                         Page 37 of 39
+Area               Contractual clause                                        Location      Excerpt from the legal text                                                              cif 12
+
+Subcontracting -   Monitoring and reporting obligations towards the          Art. 4(b)     the monitoring and reporting obligations of the ICT third-party service provider X
+Monitoring and     financial entity                                          draft RTS     towards the financial entity;
+reporting                                                                    SUB
+obligations
+Subcontracting -   Assessment of all risks (incl. location-related ICT-risks) Art. 4(c)    that the ICT third-party service provider shall assess all risks, including ICT risks,   X
+Risk assessment                                                               draft RTS    associated with the location of the potential subcontractor and its parent
+                                                                              SUB          company and the location where the ICT service is provided from;
+Subcontracting -   Data processing and storage location of                   Art. 4(d)     the location and ownership of data processed or stored by the subcontractor,             X
+Location           subcontracted ICT services                                draft RTS     where relevant;
+                                                                             SUB
+Subcontracting -   Specification of the monitoring and reporting             Art. 4(e)     that the ICT third-party service provider is required to specify the monitoring          X
+Monitoring and     obligations of the subcontractor                          draft RTS     and reporting obligations of the subcontractor towards the ICT third-party
+reporting                                                                    SUB           service provider, and where relevant, towards the financial entity;
+obligations
+Subcontracting -   Obligation of continous service provision                 Art. 4(f)     that the ICT third-party service provider is required to ensure the continuous           X
+BCM                                                                          draft RTS     provision of the ICT services supporting critical or important functions, even in
+                                                                             SUB           case of failure by a subcontractor to meet its service levels or any other
+                                                                                           contractual obligations;
+Subcontracting -   BCM of the subcontractor                                  Art. 4(g)     the incident response and business continuity plans in accordance with Article           X
+BCM                                                                          draft RTS     11 of Regulation (EU) 2022/2554 and service levels to be met by the ICT
+                                                                             SUB           subcontractors;
+Subcontracting -   ICT security standards of the subcontractor               Art. 4(h)     the ICT security standards and any additional security features, where relevant,         X
+Security                                                                     draft RTS     to be met by the subcontractors in line with the RTS mandated by Article
+                                                                             SUB           28(10) of Regulation (EU) 2022/2554;
+Subcontracting -   Granting of comparable audit, information and access Art. 4(i) draft that the subcontractor shall grant to the financial entity and relevant                     X
+Audit rights &     rights                                               RTS SUB         competent and resolution authorities at least the same audit, inform ation and
+access to data                                                                          access rights as entity and relevant competent authorities by the ICT third-
+                                                                                        party service provider;
+Subcontracting -   Termination rights of the financial entity according to Art. 4(j) draft that the financial entity has termination rights in accordance with article 7, or in X
+Termination        article 7                                               RTS SUB         case the provision of services fails to meet service levels agreed by the financial
+                                                                                           entity.;
+
+
+
+
+Guidance notes on the implementation of DORA                                                                                                                            Page 38 of 39
+Area               Contractual clause                                     Location     Excerpt from the legal text                                                        cif 12
+
+Subcontracting -   Sufficient notice period in case of material changes in Art. 6(1)   In case of any material changes to the subcontracting arrangements, the            X
+Sufficient         subcontracting and obligation to make no changes        draft RTS   financial entity shall ensure, through the ICT contractual arrangement with its
+advance notice     within this period, as well as the right to demand      SUB         ICT third-party service provider, that it is informed with a sufficient advance
+                   changes                                                             notice period to assess the impact on the risks it is or might be exposed to, in
+                                                                                       particular where such changes might affect the ability of the ICT third-party
+                                                                                       service provider to meet its obligations under the contractual agreement, and
+                                                                                       with regard to changes considering the elements listed in Article 1.
+Subcontracting -   No changes to subcontracting during the notification Art. 6(3)      The financial entity shall require that the ICT third-party service provider       X
+Right to object    period or without consent                            draft RTS      implements the material changes only after the financial entity has either
+                                                                        SUB            approved or not objected to the changes by the end of the notice period.
+Subcontracting -   Right to request modifications to planned              Art. 6(4)    The financial entity shall have a right to request modifications to the proposed   X
+Right to object    subcontracting changes                                 draft RTS    subcontracting changes before their implementation if the risk assessment
+                                                                          SUB          referred to referred to in paragraph 1) concludes that the planned
+                                                                                       subcontracting or changes to subcontracting by the ICT third-party service
+                                                                                       provider exposes the financial entity to risks as specified in Article 3(1) that
+                                                                                       exceed its risk appetite.
+
+
+
+
+Guidance notes on the implementation of DORA                                                                                                                    Page 39 of 39
+

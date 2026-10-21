@@ -2,19 +2,19 @@
   "schemaVersion": 1,
   "recordType": "source-download-retry",
   "id": "50f313d0fc03b16e22829383a20e75b05094c1839822e8a45dc019456dea2554",
-  "cachedAt": "2026-10-20T08:43:27Z",
+  "cachedAt": "2026-10-21T21:53:19Z",
   "originRunId": "qwen3-39027246178",
   "sourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ%3AL_202500302",
   "candidate": {
     "type": "law",
-    "title": "Commission Implementing Regulation (EU) 2025/302 of 23 October 2024 laying down implementing technical standards for the application of Regulation (EU) 2022/2554 with regard to standard forms, templates, and procedures for incident reporting",
-    "publisher": "European Commission",
+    "title": "Commission Delegated Regulation (EU) 2025/302 of 28 February 2025 on standard forms and procedures for incident reporting",
+    "publisher": "European Union",
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ%3AL_202500302",
     "language": "en",
     "jurisdiction": "European Union",
-    "applicability": "All financial entities under DORA for reporting major ICT-related incidents and significant cyber threats using standardized forms",
-    "publicationDate": "2024-10-23",
-    "effectiveDate": "2025-01-17",
+    "applicability": "Mandatory templates for incident reporting under DORA Article 22",
+    "publicationDate": null,
+    "effectiveDate": null,
     "redistribution": "metadata-and-short-passages",
     "id": "7-source-2"
   },
@@ -27,13 +27,13 @@
     "controllerCommit": "d89be5fa1db8a5d843a884c3c22f6358220c8789",
     "phase": "prepare"
   },
-  "lastAttemptAt": "2026-10-20T08:43:27Z",
-  "attempts": 2,
+  "lastAttemptAt": "2026-10-21T21:53:19Z",
+  "attempts": 3,
   "lastError": "Source document is unavailable or incomplete: JavaScript/bot challenge page; retry the document download",
   "foundIn": {
-    "runId": "39395418158",
-    "controllerCommit": "dd9ca2ffba8889f720157d2287d8f29635f79d12",
-    "phase": "retry-downloads"
+    "runId": "qwen3-39673455804",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "phase": "prepare"
   },
   "retryOnNextRun": true,
   "originalText": null,
@@ -46,10 +46,10 @@
       "7"
     ],
     "phases": [
-      "retry-downloads"
+      "prepare"
     ],
     "status": "pending-download",
-    "publisher": "European Commission",
+    "publisher": "European Union",
     "host": "eur-lex.europa.eu"
   }
 }

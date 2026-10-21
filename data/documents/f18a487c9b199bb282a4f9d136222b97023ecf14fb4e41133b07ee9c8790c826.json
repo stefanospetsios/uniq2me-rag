@@ -3,14 +3,14 @@
   "cachedAt": "2026-10-17T08:18:03Z",
   "originRunId": "qwen3-39016085901",
   "source": {
-    "id": "1-source-3",
+    "id": "1-source-2",
     "type": "guidance",
-    "title": "Regulatory Technical Standards on ICT risk management framework and on simplified ICT risk management framework",
+    "title": "EBA Regulatory Technical Standards on ICT Risk Management Framework and Simplified ICT Risk Management",
     "publisher": "European Banking Authority (EBA)",
     "url": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/operational-resilience/regulatory-technical-standards-ict-risk-management-framework-and-simplified-ict-risk-management",
     "language": "en",
     "jurisdiction": "European Union",
-    "applicability": "Harmonises ICT risk management requirements across financial sectors; identifies elements for standard and simplified frameworks under Articles 6 and 16 of DORA",
+    "applicability": "Supervisory guidance for financial entities implementing DORA Article 6 requirements",
     "publicationDate": null,
     "effectiveDate": null,
     "redistribution": "metadata-and-short-passages",
@@ -18,13 +18,8 @@
     "passages": [
       {
         "id": "p1",
-        "locator": "Page content",
-        "text": "The Regulatory Technical Standards on ICT risk management framework identify further elements related to ICT risk management with a view to harmonise tools, methods, processes and policies."
-      },
-      {
-        "id": "p2",
-        "locator": "Page content",
-        "text": "These elements are complementary to those identified in DORA. The RTS identify the key elements that financial entities subject to the simplified regime and of lower scale, risk, size and complexity would need to have in place, setting out a simplified ICT risk management framework."
+        "locator": "Regulatory Technical Standards description",
+        "text": "The Regulatory Technical Standards on ICT risk management framework identify further elements related to ICT risk management with a view to harmonise tools, methods, processes and policies. These elements are complementary to those identified in DORA."
       }
     ],
     "quotationMatchPolicy": "unicode-typography-v1",
@@ -46,10 +41,10 @@
   "language": "en",
   "retrievedAt": "2026-10-17T08:18:03Z",
   "foundIn": {
-    "runId": "qwen3-39027246178",
+    "runId": "qwen3-39673455804",
     "sourceOriginRunId": "qwen3-39016085901",
-    "controllerCommit": "d89be5fa1db8a5d843a884c3c22f6358220c8789",
-    "recordedAt": "2026-10-17T11:20:54Z",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "recordedAt": "2026-10-21T21:07:07Z",
     "webRecheckedThisRun": false,
     "phase": "prepare",
     "frameworkId": "dora",

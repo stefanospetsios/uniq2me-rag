@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-download-retry",
+  "id": "bfc590d71bc551b9eb167d2663b389b572dedba539037275ff199715b39ff8ab",
+  "cachedAt": "2026-10-21T21:43:35Z",
+  "originRunId": "qwen3-39673455804",
+  "sourceUrl": "http://data.europa.eu/eli/reg/2022/2554/oj",
+  "candidate": {
+    "type": "law",
+    "title": "Regulation (EU) 2022/2554 of the European Parliament and of the Council of 14 December 2022 on digital operational resilience for the financial sector",
+    "publisher": "Publications Office of the European Union",
+    "url": "http://data.europa.eu/eli/reg/2022/2554/oj",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "All financial entities within DORA scope, establishing foundational requirements for ICT incident management and classification under Articles 17-18",
+    "publicationDate": "2022-12-27",
+    "effectiveDate": "2025-01-17",
+    "redistribution": "metadata-and-short-passages",
+    "id": "6-source-4"
+  },
+  "language": "en",
+  "scopeId": "6",
+  "status": "pending-download",
+  "firstFailedAt": "2026-10-21T21:43:35Z",
+  "firstFailureContext": {
+    "runId": "qwen3-39673455804",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "phase": "prepare"
+  },
+  "lastAttemptAt": "2026-10-21T21:43:35Z",
+  "attempts": 1,
+  "lastError": "Source document is unavailable or incomplete: JavaScript/bot challenge page; retry the document download",
+  "foundIn": {
+    "runId": "qwen3-39673455804",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "phase": "prepare"
+  },
+  "retryOnNextRun": true,
+  "originalText": null,
+  "evidenceAdmitted": false,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "pending-download",
+    "publisher": "Publications Office of the European Union",
+    "host": "data.europa.eu"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-21T22:49:28Z",
+  "originRunId": "qwen3-39673455804",
+  "source": {
+    "id": "F-source-1",
+    "type": "guidance",
+    "title": "JC 2025 29 Guide on DORA oversight activities",
+    "publisher": "European Securities and Markets Authority (ESMA)",
+    "url": "https://www.esma.europa.eu/sites/default/files/2025-07/JC_2025_29__DORA_Guide_on_oversight_activities.pdf",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "Provides binding oversight methodology for competent authorities under DORA Articles 31-44 and 46-56, including designation procedures, supervisory cooperation, and remediation requirements",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:26139c8afa8b6728e3e08ab2867d4677db72690c1dc84bf4c143129fdc1b944a",
+    "textDigest": "sha256:fb67fe9fc19366534375c497ca2820195a95acbfbe57d15c602fded6c483d767",
+    "finalUrl": "https://www.esma.europa.eu/sites/default/files/2025-07/JC_2025_29__DORA_Guide_on_oversight_activities.pdf",
+    "retrievedAt": "2026-10-21T22:49:28Z",
+    "contentType": "application/pdf",
+    "snapshotPath": "source-26139c8afa8b6728e3e08ab2867d4677db72690c1dc84bf4c143129fdc1b944a.bin",
+    "textPath": "source-fb67fe9fc19366534375c497ca2820195a95acbfbe57d15c602fded6c483d767.txt"
+  },
+  "files": {
+    "snapshots/source-26139c8afa8b6728e3e08ab2867d4677db72690c1dc84bf4c143129fdc1b944a.bin": "sha256:26139c8afa8b6728e3e08ab2867d4677db72690c1dc84bf4c143129fdc1b944a",
+    "snapshots/source-fb67fe9fc19366534375c497ca2820195a95acbfbe57d15c602fded6c483d767.txt": "sha256:fb67fe9fc19366534375c497ca2820195a95acbfbe57d15c602fded6c483d767"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.esma.europa.eu/sites/default/files/2025-07/JC_2025_29__DORA_Guide_on_oversight_activities.pdf",
+  "language": "en",
+  "retrievedAt": "2026-10-21T22:49:28Z",
+  "foundIn": {
+    "runId": "qwen3-39673455804",
+    "sourceOriginRunId": "qwen3-39673455804",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "recordedAt": "2026-10-21T22:49:28Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "originalText": "JC 2025 29\n\n15 July 2025\n\n\n\n\n Digital Operational Resilience Act (DORA):\n Oversight of critical third-party providers\n\nGuide on oversight activities\n\fPublic document\nThis guide does not produce any legal effect and cannot, in any way, replace the legal requirements laid down in the\nrelevant applicable EU law.\n\nMoreover, this guide aims to provide a user-friendly overview of DORA oversight on critical ICT-third party service\nproviders. In this context, certain provisions of DORA and delegated and implementing acts have been summarised\nand/or omitted. For the complete description of the DORA oversight and the full text of the relevant provisions\nincluded in DORA and in delegated and implementing acts, please consult the Official Journal of the EU ELI:\nhttp://data.europa.eu/eli/reg/2022/2554/",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "F"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "European Securities and Markets Authority (ESMA)",
+    "host": "www.esma.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}

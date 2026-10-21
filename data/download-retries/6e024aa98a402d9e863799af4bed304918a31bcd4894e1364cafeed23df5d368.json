@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-download-retry",
+  "id": "6e024aa98a402d9e863799af4bed304918a31bcd4894e1364cafeed23df5d368",
+  "cachedAt": "2026-10-21T21:37:12Z",
+  "originRunId": "qwen3-39673455804",
+  "sourceUrl": "https://eur-lex.europa.eu/eli/reg_del/2024/1772/oj/eng",
+  "candidate": {
+    "type": "law",
+    "title": "Commission Delegated Regulation (EU) 2024/1772 supplementing DORA with regulatory technical standards for ICT incident classification and materiality thresholds",
+    "publisher": "European Union",
+    "url": "https://eur-lex.europa.eu/eli/reg_del/2024/1772/oj/eng",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "Specifies implementation requirements for Article 10 detection mechanisms including materiality thresholds, service downtime criteria (2+ hours for critical services), and data loss impact assessments",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "id": "5-source-2"
+  },
+  "language": "en",
+  "scopeId": "5",
+  "status": "pending-download",
+  "firstFailedAt": "2026-10-21T21:32:42Z",
+  "firstFailureContext": {
+    "runId": "qwen3-39673455804",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "phase": "prepare"
+  },
+  "lastAttemptAt": "2026-10-21T21:37:12Z",
+  "attempts": 2,
+  "lastError": "Source document is unavailable or incomplete: JavaScript/bot challenge page; retry the document download",
+  "foundIn": {
+    "runId": "qwen3-39673455804",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "phase": "prepare"
+  },
+  "retryOnNextRun": true,
+  "originalText": null,
+  "evidenceAdmitted": false,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "pending-download",
+    "publisher": "European Union",
+    "host": "eur-lex.europa.eu"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "f27b8cd0201efa03537f57c1ac24ce92006e769077f1fd502305467b2f0c163d",
+  "cachedAt": "2026-10-21T22:46:52Z",
+  "observedAt": "2026-10-21T22:46:52Z",
+  "originRunId": "qwen3-39673455804",
+  "foundIn": {
+    "runId": "qwen3-39673455804",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-F-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "F",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "DORA Regulation (EU) 2022/2554 official implementation guidance ESA critical ICT provider oversight supervisory cooperation EBA guidance inspections remediation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792622671592,
+    "end": 1792622672561
+  },
+  "outputDigest": "sha256:49623b7571cda0ee78cf85b05b2fae3f2e86b687d8eb9e14a5716483b0159c73",
+  "resultUrls": [
+    "https://www.esma.europa.eu/sites/default/files/2025-07/JC_2025_29__DORA_Guide_on_oversight_activities.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"JC 2025 29 Guide on DORA oversight activities\",\n      \"url\": \"https://www.esma.europa.eu/sites/default/files/2025-07/JC_2025_29__DORA_Guide_on_oversight_activities.pdf\",\n\n...203447 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_160a33aaf001gTP1bS9L3tAM7J\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "F"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "www.esma.europa.eu"
+    ]
+  }
+}

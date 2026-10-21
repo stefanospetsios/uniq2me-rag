@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "7a5956d4d8060bf14bff1239418251a83f76346b83dadfba8b27c6506a95f1c8",
+  "cachedAt": "2026-10-21T22:12:43Z",
+  "observedAt": "2026-10-21T22:12:43Z",
+  "originRunId": "qwen3-39673455804",
+  "foundIn": {
+    "runId": "qwen3-39673455804",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": "dora",
+    "callId": "sources-A-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "A",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "site:eba.europa.eu DORA DORA, Regulation (EU) 2022/2554, lessons learned, staff training, security awareness, threat intelligence sharing, information sharing arrangements"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792620543485,
+    "end": 1792620544766
+  },
+  "outputDigest": "sha256:33851dc8ccc6a94bb08bfed8947a2c4b170e261067d7d407a554a43f12170548",
+  "resultUrls": [
+    "https://eba.europa.eu/sites/default/files/2024-12/c1454b59-15cc-445e-be14-966e3338cedc/ESA%202024%2035%20DORA%20Dry%20Run%20exercise%20summary%20report%20for%20publication.pdf",
+    "https://www.eba.europa.eu/sites/default/files/2024-12/7d38950b-c20f-4865-a2e2-e9f8a342996d/2024_12_18_dora_dry_run_summary_workshop_-_final.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"ESAs workshop on DORA dry run lessons learnt and\",\n      \"url\": \"https://www.eba.europa.eu/sites/default/files/2024-12/7d38950b-c20f-4865-a2e2-e9f8a342996d/2024_12_18_dora_dry_run_summary_workshop_-_final.pdf\",\n      \"content\": \"### ESAs workshop on DORA dry run lessons learnt and\\n\\ndata quality Wednesday, 18 December 2024, 10:00 – 13:00 CET Online\\n\\n#### Housekeeping\\n\\n1. Go to slido.com, enter event code #DORA2024 and your full name and organisation (e.g. “Mario Rossi (EIOPA)”) \\n2. Submit written comments/questions through Slido and upvote questions of interest submitted by other participants. \\n3. If your question is very popular, we will read it during the meeting The moderator will not accept inputs which are offensive or are specific to one entity Inputs related to areas of DORA not covered during this event, will be given a lower priority compared to those in scope We will try to archive all inputs \\n\\nPlease note that the meeting will be recorded on the basis of Article 29(1)(e) of Regulation (EU) 1094/2020. The recording will be published afterwards on the websites of EBA, EIOPA and ESMA for the purpose of facilitating the implementation of DORA. If you do not wish to be recorded, please send your question/s, if any, without stating your name.\\n\\n#### Agenda\\n\\n1. Opening remarks by Marc Andries, ESAs Director for DORA Joint Oversight \\n2. Overview of the dry run exercise \\n\\n• Focus on data quality assurance process and key findings 3. Key lessons learnt from the dry run exercise 4. Preparations for official reporting of the registers of information in 2025 \\n• Key changes in the requirements for the registers following the adoption of the ITS 5. Questions and answers \\n\\n## 1. Opening remarks\\n\\nMarc Andries, ESAs Director for DORA Joint Oversight\\n\\n#### Objectives and key take-aways of the dry run exercise\\n\\nTo help financial entities and competent authorities with their preparations for establishing and repor",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "A"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "eba.europa.eu",
+      "www.eba.europa.eu"
+    ]
+  }
+}

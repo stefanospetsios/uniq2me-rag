@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-21T21:43:34Z",
+  "originRunId": "qwen3-39673455804",
+  "source": {
+    "id": "6-source-2",
+    "type": "law",
+    "title": "Commission Delegated Regulation (EU) 2024/1772 of 13 March 2024 supplementing Regulation (EU) 2022/2554 with regard to regulatory technical standards specifying the criteria for the classification of ICT-related incidents and cyber threats",
+    "publisher": "Publications Office of the European Union",
+    "url": "https://op.europa.eu/en/publication-detail/-/publication/fa35ec94-328d-11ef-a61b-01aa75ed71a1/language-en",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "All financial entities subject to DORA, covering classification criteria, materiality thresholds, and major incident reporting requirements",
+    "publicationDate": "2024-06-25",
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "Title",
+        "text": "Commission Delegated Regulation (EU) 2024/1772 of 13 March 2024 supplementing Regulation (EU) 2022/2554 of the European Parliament and of the Council with regard to regulatory technical standards specifying the criteria for the classification of ICT-related incidents and cyber threats, setting out materiality thresholds and specifying the details of reports of major incidents"
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:3ca1ec92da759963a63a90bb5566f1307b53b6f38e27135413ce3c95c61bf900",
+    "textDigest": "sha256:1c523e6721472f8df937a903b67ed4ba4d6309613a194be4075015d0f4acb115",
+    "finalUrl": "https://op.europa.eu/en/publication-detail/-/publication/fa35ec94-328d-11ef-a61b-01aa75ed71a1/language-en",
+    "retrievedAt": "2026-10-21T21:43:34Z",
+    "contentType": "text/html;charset=UTF-8",
+    "snapshotPath": "source-3ca1ec92da759963a63a90bb5566f1307b53b6f38e27135413ce3c95c61bf900.bin",
+    "textPath": "source-1c523e6721472f8df937a903b67ed4ba4d6309613a194be4075015d0f4acb115.txt"
+  },
+  "files": {
+    "snapshots/source-3ca1ec92da759963a63a90bb5566f1307b53b6f38e27135413ce3c95c61bf900.bin": "sha256:3ca1ec92da759963a63a90bb5566f1307b53b6f38e27135413ce3c95c61bf900",
+    "snapshots/source-1c523e6721472f8df937a903b67ed4ba4d6309613a194be4075015d0f4acb115.txt": "sha256:1c523e6721472f8df937a903b67ed4ba4d6309613a194be4075015d0f4acb115"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://op.europa.eu/en/publication-detail/-/publication/fa35ec94-328d-11ef-a61b-01aa75ed71a1/language-en",
+  "language": "en",
+  "retrievedAt": "2026-10-21T21:43:34Z",
+  "foundIn": {
+    "runId": "qwen3-39673455804",
+    "sourceOriginRunId": "qwen3-39673455804",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "recordedAt": "2026-10-21T21:47:12Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": "dora",
+    "task": null
+  },
+  "originalText": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\t\n\t\t\n\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n\n\n        \nCommission Delegated Regulation (EU) 2024/1772 of 13 March 2024 supplementing Regulation (EU) 2022/2554 of the European Parliament and of the Council with regard to regulatory technical standards specifying the criteria for the classification of ICT-related incidents and cyber threats, setting out materiality thresholds and specifying the details of reports of major incidents - Publications Office of the EU\n\n\n    \n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "Publications Office of the European Union",
+    "host": "op.europa.eu",
+    "frameworkIds": [
+      "dora"
+    ]
+  }
+}
