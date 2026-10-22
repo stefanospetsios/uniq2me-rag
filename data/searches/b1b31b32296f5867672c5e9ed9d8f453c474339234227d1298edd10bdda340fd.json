@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "b1b31b32296f5867672c5e9ed9d8f453c474339234227d1298edd10bdda340fd",
+  "cachedAt": "2026-10-22T11:07:19Z",
+  "observedAt": "2026-10-22T11:07:19Z",
+  "originRunId": "qwen3-39673455804",
+  "foundIn": {
+    "runId": "qwen3-39673455804",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "phase": "finish-B-translate_el",
+    "invocation": 3,
+    "task": "translate_el",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": "dora",
+    "callId": "refine-translate_el-area-B-1-review",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": null,
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "DORA Regulation (EU) 2022/2554 resilience testing programme Greek translation Articles 24 25"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792667230938,
+    "end": 1792667232220
+  },
+  "outputDigest": "sha256:9eb17823c5bb68dc5e6f37ee4bcdf64bf33a4e4c7d6b331729a28124e8ba88f3",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/eli/reg/2022/2554/oj"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Regulation - 2022/2554 - EN - DORA - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/eli/reg/2022/2554/oj\",\n\n...569338 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_1634b27d9001McAUL8h73aQcgT\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [],
+    "phases": [
+      "finish-B-translate_el"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "eur-lex.europa.eu"
+    ]
+  }
+}

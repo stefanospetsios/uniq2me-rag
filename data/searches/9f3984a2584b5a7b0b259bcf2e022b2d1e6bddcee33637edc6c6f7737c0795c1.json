@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "9f3984a2584b5a7b0b259bcf2e022b2d1e6bddcee33637edc6c6f7737c0795c1",
+  "cachedAt": "2026-10-22T11:07:19Z",
+  "observedAt": "2026-10-22T11:07:19Z",
+  "originRunId": "qwen3-39673455804",
+  "foundIn": {
+    "runId": "qwen3-39673455804",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "phase": "finish-B-translate_el",
+    "invocation": 3,
+    "task": "translate_el",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": "dora",
+    "callId": "refine-translate_el-area-B-1-review",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": null,
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "DORA Regulation (EU) 2022/2554 resilience testing programme Articles 24 25 Greek translation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792667229092,
+    "end": 1792667230101
+  },
+  "outputDigest": "sha256:9e09625c145179c29f189dade0b08a579d9233836ed522b7c580c4f354abb22b",
+  "resultUrls": [],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"DORA Regulation (EU) 2022/2554 resilience testing programme Articles 24 25 Greek translation\",\n  \"results\": [],\n  \"unresponsive_engines\": [\n    [\n      \"brave\",\n      \"too many requests\"\n    ],\n    [\n      \"duckduckgo\",\n      \"CAPTCHA\"\n    ],\n    [\n      \"google cse\",\n      \"too many requests\"\n    ],\n    [\n      \"wikipedia\",\n      \"HTTP error\"\n    ]\n  ]\n}",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [],
+    "phases": [
+      "finish-B-translate_el"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": []
+  }
+}

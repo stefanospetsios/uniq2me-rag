@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "36cf66b0e1c2adfdfc1a5c281fb49ba67b2531b12e252a5a128c625587fdee06",
+  "cachedAt": "2026-10-22T11:07:19Z",
+  "observedAt": "2026-10-22T11:07:19Z",
+  "originRunId": "qwen3-39673455804",
+  "foundIn": {
+    "runId": "qwen3-39673455804",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "phase": "finish-B-translate_el",
+    "invocation": 3,
+    "task": "translate_el",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": "dora",
+    "callId": "refine-translate_el-area-B-1-review",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": null,
+    "repoId": null
+  },
+  "toolId": "websearch_web_fetch",
+  "request": {
+    "url": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj"
+  },
+  "executionStatus": "error",
+  "toolTiming": {
+    "start": 1792667232988,
+    "end": 1792667235444
+  },
+  "outputDigest": "sha256:12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+  "resultUrls": [],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": "Error executing tool web_fetch: This Ollama server does not expose /api/experimental/web_search or web_fetch. Check its version.",
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [],
+    "phases": [
+      "finish-B-translate_el"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": []
+  }
+}

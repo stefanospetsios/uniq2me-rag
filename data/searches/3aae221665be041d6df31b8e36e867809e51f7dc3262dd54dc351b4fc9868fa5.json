@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "3aae221665be041d6df31b8e36e867809e51f7dc3262dd54dc351b4fc9868fa5",
+  "cachedAt": "2026-10-22T11:05:41Z",
+  "observedAt": "2026-10-22T11:05:41Z",
+  "originRunId": "qwen3-39673455804",
+  "foundIn": {
+    "runId": "qwen3-39673455804",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "phase": "finish-9-translate_el",
+    "invocation": 3,
+    "task": "translate_el",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": "dora",
+    "callId": "refine-translate_el-area-9-2-review",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": null,
+    "repoId": null
+  },
+  "toolId": "github_search_code",
+  "request": {
+    "query": "9.json path:inputs/json"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792667108790,
+    "end": 1792667109065
+  },
+  "outputDigest": "sha256:ecd75a599748835c34f3be72901025430f02147d0cf2a0f2e8df1e580234c8d1",
+  "resultUrls": [],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\"total_count\":0,\"incomplete_results\":false,\"items\":[]}",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [],
+    "phases": [
+      "finish-9-translate_el"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": []
+  }
+}

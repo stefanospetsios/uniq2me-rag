@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "875205d2b54e5cb6cb6f3a47c13ee5b5899786a2d0db4b7545f9af7b2c742524",
+  "cachedAt": "2026-10-22T11:05:41Z",
+  "observedAt": "2026-10-22T11:05:41Z",
+  "originRunId": "qwen3-39673455804",
+  "foundIn": {
+    "runId": "qwen3-39673455804",
+    "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
+    "phase": "finish-9-translate_el",
+    "invocation": 3,
+    "task": "translate_el",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": "dora",
+    "callId": "refine-translate_el-area-9-2-review",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": null,
+    "repoId": null
+  },
+  "toolId": "github_search_code",
+  "request": {
+    "query": "inputs/json"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792667104875,
+    "end": 1792667106345
+  },
+  "outputDigest": "sha256:931644d2f2e907497c8424ead95d1136f66a51aa353791204a30a4810e51e47d",
+  "resultUrls": [
+    "http://github.com/nbio/csshttprequest",
+    "http://github.com/nbio/csshttprequest%7D",
+    "http://nb.io/hacks/csshttprequest/",
+    "http://nb.io/hacks/csshttprequest/%7D",
+    "https://api.github.com/repositories/1123498466/contents/apps/web/src/components/fields/inputs/json-input-field.tsx?ref=70a159aa550c09cbc3a9861ee3a126f6afcef60d",
+    "https://api.github.com/repositories/1263966480/contents/render/skills/compact/examples/inputs/json-input/product-compact-card.md?ref=37f095f64a914f85c2a8a7052d85856080eee442",
+    "https://api.github.com/repositories/1347603869/contents/packages/mantle_basic/example/lib/demos/inputs/json_input.dart?ref=c052f6aa5da9804975b0008061ba884b57081a87",
+    "https://api.github.com/repositories/163638912/contents/docker/alpine/Dockerfile?ref=ef3abacbe8d43831ef8cbcc651c4e8374c955b3a",
+    "https://api.github.com/repositories/163638912/contents/docker/fedora/Dockerfile?ref=ef3abacbe8d43831ef8cbcc651c4e8374c955b3a",
+    "https://api.github.com/repositories/163638912/contents/example/json-config.h?ref=ef3abacbe8d43831ef8cbcc651c4e8374c955b3a",
+    "https://api.github.com/repositories/163638912/contents/example/json.cpp?ref=ef3abacbe8d43831ef8cbcc651c4e8374c955b3a",
+    "https://api.github.com/repositories/1781085/contents/docs/manual/managing.tex?ref=b16fba39d02079eb089adc137ae5edd1f0cca277",
+    "https://api.github.com/repositories/19446839/contents/package/src/ui/views/inputs/JsonInputView.js?ref=bf61ea27bfedd62220a25a1c6081cd340afe2276",
+    "https://api.github.com/repositories/234535246/contents/src/inputs/json/tcp/Server.h?ref=8f26096c96781d570173a9d4fe6ffb77233b24a2",
+    "https://api.github.com/repositories/234535246/contents/src/inputs/json/udp/Server.h?ref=8f26096c96781d570173a9d4fe6ffb77233b24a2",
+    "https://api.github.com/repositories/247167654/contents/docs/_modules/index.html?ref=2e1dc660dde6974c1693147f528d7437019d9580",
+    "https://api.github.com/repositories/247167654/contents/docs/doc/inputs.html?ref=2e1dc660dde6974c1693147f528d7437019d9580",
+    "https://api.github.com/repositories/247167654/contents/docs/io/json.html?ref=2e1dc660dde6974c1693147f528d7437019d9580",
+    "https://api.github.com/repositories/247167654/contents/docs/io/yaml.html?ref=2e1dc660dde6974c1693147f528d7437019d9580",
+    "https://api.github.com/repositories/253400556/contents/fastapi_admin/widgets/inputs.py?ref=95b1c2e2f6c3263a31c82a2be622161b024be450",
+    "https://api.github.com/repositories/331620831/contents/docs/README.md?ref=4dae829c293a9ccc4cc3fe475ad41763daec2c84",
+    "https://api.github.com/repositories/331620831/contents/docs/usage.md?ref=4dae829c293a9ccc4cc3fe475ad41763daec2c84",
+    "https://api.github.com/repositories/339316247/contents/covid_data_bed.py?ref=4f9c825403ca2307bde1699ff536ef4301dde3da",
+    "https://api.github.com/repositories/42675733/contents/config/application.rb?ref=c9fad9ac4afdf1d77067a9696cbbedef61997efa",
+    "https://api.github.com/repositories/481071345/contents/agent/metrics_agent.go?ref=d9767360661761389255d47dd1b42cb9b6949b3c",
+    "https://api.github.com/repositories/52468722/contents/app/components/frost-bunsen-input-json.js?ref=0a4d323484e49aca86404204e4139a64d43829ad",
+    "https://api.github.com/repositories/526394207/contents/nop-treesitter/bench/c_harness.c?ref=490955799dbd23de65869dfa23d3a2fd68c207a5",
+    "https://api.github.com/repositories/578911163/contents/build/coverage/template/stubs/views/bootstrap/partials/inputs/json.blade.php.html?ref=a8f30149291d4b95402dda4225050cdf2f8cea6f",
+    "https://api.github.com/repositories/60276/contents/csshttprequest.gemspec?ref=9f35f1a0bad7233297021a93cb5aca6fca7e5a9a",
+    "https://api.github.com/repositories/729308541/contents/packages/widgets/package.json?ref=979c61b8a5dcce967e42955b8e55b0e5a7092c33",
+    "https://api.github.com/repositories/94896444/contents/src/gui/GuiWindow.cpp?ref=d94c9fa77c11afe7d04670d92b3930c417e19f4b",
+    "https://api.github.com/repositories/97062850/contents/CLAUDE.md?ref=c39af7d303b025280e2668a1b2d29913093593c9",
+    "https://api.github.com/repositories/97062850/contents/README.md?ref=c39af7d303b025280e2668a1b2d29913093593c9",
+    "https://api.github.com/repositories/97062850/contents/doc/Templates.md?ref=c39af7d303b025280e2668a1b2d29913093593c9",
+    "https://github.com/nlohmann/json/blob/develop/README.md"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\"total_count\":956,\"incomplete_results\":false,\"items\":[{\"name\":\"CLAUDE.md\",\"path\":\"CLAUDE.md\",\"sha\":\"54894f569f6c4fe0d73c3166382745a103519489\",\"repository\":\"glideapps/quicktype\",\"text_matches\":[{\"object_url\":\"https://api.github.com/repositories/97062850/contents/CLAUDE.md?ref=c39af7d303b025280e2668a1b2d29913093593c9\",\"object_type\":\"FileContent\",\"property\":\"content\",\"fragment\":\"\\n### Fixture layout and configuration\\n\\n- JSON inputs live in `test/inputs/json/`. `priority/` and `samples/` form the default input set; `misc/` is omitted under `QUICKTEST` and for languages with `skipMiscJSON`. Per-language `skipJSON` and `includeJSON` settings can further restrict inputs.\\n- JSON Schema inputs live in `test/inputs/schema/`. A `*.schema` can have a same-basename `.json` sample and numbered `.N.json` samples. Numbered `.N.fail.\\u003cfeature\\u003e.json` files are expected failures for languages that declare that feature; `.N.fail.json` files apply regardless of features. An expected-failure sample must make the generated program exit nonzero.\\n- `test/inputs/json/priority/keywords.json`, `test/inputs/schema/keyword-enum.schema`, and `test/inputs/schema/keyword-unions.schema` are generated by `test/make-keyword-tests.sh` from `test/keywords.txt`. Never edit them directly: add the keyword to `test/keywords.txt`, optionally followed by a tab and a JSON value for the JSON sample, then regenerate.\\n- New schema fixture tests should have at least one positive and one negative test case unless there is a compelling reason not to.\",\"matches\":[{\"text\":\"inputs/json\",\"indices\":[67,78]},{\"text\":\"inputs/json\",\"indices\":[665,676]}]}]},{\"name\":\"Templates.md\",\"path\":\"doc/Templates.md\",\"sha\":\"3fe02d04b8aef44b7c626957aa56db15f62b6918\",\"repository\":\"glideapps/quicktype\",\"text_matches\":[{\"object_url\":\"https://api.github.com/repositories/97062850/contents/doc/Templates.md?ref=c39af7d303b025280e2668a1b2d29913093593c9\",\"object_type\":\"FileContent\",\"property\":\"content\",\"fragment\":\"\\n## Invocation\\n",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [],
+    "phases": [
+      "finish-9-translate_el"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "frameworkIds": [
+      "dora"
+    ],
+    "hosts": [
+      "api.github.com",
+      "github.com",
+      "nb.io"
+    ]
+  }
+}
