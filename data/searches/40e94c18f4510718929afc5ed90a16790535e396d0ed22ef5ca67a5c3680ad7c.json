@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "originRunId": "manual-nis2-launch-2026-10-23",
+  "cachedAt": "2026-10-23T20:11:24Z",
+  "observedAt": "2026-10-23",
+  "toolId": "openai.web.run",
+  "request": {
+    "url": "https://cyber.gov.gr/nomothesia/elliniki-nomothesia-gia-tin-kyvernoasfaleia/",
+    "linkId": 39
+  },
+  "executionStatus": "completed",
+  "resultUrls": [
+    "https://cyber.gov.gr/wp-content/uploads/2024/12/ENOTHTA_5_%CE%9D%CE%9F%CE%9C%CE%9F%CE%98%CE%95%CE%A3%CE%99%CE%91_fek_a_195_2024-5160-2024-1.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "originalText": "Nόμος 5160/2024, 27 Νοεμβρίου 2024",
+  "excerptTruncated": false,
+  "excerptKind": "authority-index-link-text",
+  "title": "Law 5160/2024, Gazette A 195/2024",
+  "publisher": "Greek Government Gazette / National Cybersecurity Authority",
+  "sourceUrl": "https://cyber.gov.gr/wp-content/uploads/2024/12/ENOTHTA_5_%CE%9D%CE%9F%CE%9C%CE%9F%CE%98%CE%95%CE%A3%CE%99%CE%91_fek_a_195_2024-5160-2024-1.pdf",
+  "jurisdiction": "GR",
+  "limitation": "Observed linked PDF has 52 pages; title/date quoted from the authority index, not claimed as an admitted PDF passage.",
+  "admitted": false,
+  "foundIn": {
+    "phase": "nis2-launch-research",
+    "scopeId": "legal",
+    "provider": "OpenAI web.run",
+    "url": "https://cyber.gov.gr/nomothesia/elliniki-nomothesia-gia-tin-kyvernoasfaleia/"
+  },
+  "filters": {
+    "languages": [
+      "el"
+    ],
+    "scopeIds": [
+      "legal"
+    ],
+    "phases": [
+      "nis2-launch-research"
+    ],
+    "status": "discovery-seed-not-admitted",
+    "publisher": "Greek Government Gazette / National Cybersecurity Authority",
+    "host": "cyber.gov.gr",
+    "hosts": [
+      "cyber.gov.gr"
+    ],
+    "topics": [
+      "nis2"
+    ],
+    "frameworkIds": [
+      "air"
+    ]
+  },
+  "id": "40e94c18f4510718929afc5ed90a16790535e396d0ed22ef5ca67a5c3680ad7c",
+  "outputDigest": "sha256:820aec84c29104c928c65f49b586574e0440f225fef05418e007db9ff01ee571",
+  "recordedAt": "2026-10-23T20:11:24Z",
+  "observationTimePrecision": "day; exact save time is recordedAt"
+}

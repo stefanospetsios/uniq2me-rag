@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "originRunId": "manual-nis2-launch-2026-10-23",
+  "cachedAt": "2026-10-23T20:11:24Z",
+  "observedAt": "2026-10-23",
+  "toolId": "openai.web.run",
+  "request": {
+    "url": "https://cyber.gov.gr/nomothesia/elliniki-nomothesia-gia-tin-kyvernoasfaleia/"
+  },
+  "executionStatus": "completed",
+  "resultUrls": [
+    "https://cyber.gov.gr/nomothesia/elliniki-nomothesia-gia-tin-kyvernoasfaleia/"
+  ],
+  "resultUrlsTruncated": false,
+  "originalText": "Ελληνική Νομοθεσία για την Κυβερνοασφάλεια",
+  "excerptTruncated": false,
+  "excerptKind": "official-page-excerpt",
+  "title": "Greek legislation index",
+  "publisher": "Greek National Cybersecurity Authority",
+  "sourceUrl": "https://cyber.gov.gr/nomothesia/elliniki-nomothesia-gia-tin-kyvernoasfaleia/",
+  "jurisdiction": "GR",
+  "limitation": "Index includes Law 5160/2024, KYA 1689/2025, ministerial decision 1899/2025 and 2026 circulars.",
+  "admitted": false,
+  "foundIn": {
+    "phase": "nis2-launch-research",
+    "scopeId": "legal",
+    "provider": "OpenAI web.run",
+    "url": "https://cyber.gov.gr/nomothesia/elliniki-nomothesia-gia-tin-kyvernoasfaleia/"
+  },
+  "filters": {
+    "languages": [
+      "el"
+    ],
+    "scopeIds": [
+      "legal"
+    ],
+    "phases": [
+      "nis2-launch-research"
+    ],
+    "status": "discovery-seed-not-admitted",
+    "publisher": "Greek National Cybersecurity Authority",
+    "host": "cyber.gov.gr",
+    "hosts": [
+      "cyber.gov.gr"
+    ],
+    "topics": [
+      "nis2"
+    ],
+    "frameworkIds": [
+      "air"
+    ]
+  },
+  "id": "bc6613a8c80378bf97c0df70f85d38a8d1931afcbfcf0a7ce658558434b06595",
+  "outputDigest": "sha256:e1f9f22080a56a65db656dfa6d0d9b6f63dbd62c9484c63ea4c85c9bd2e9046c",
+  "recordedAt": "2026-10-23T20:11:24Z",
+  "observationTimePrecision": "day; exact save time is recordedAt"
+}

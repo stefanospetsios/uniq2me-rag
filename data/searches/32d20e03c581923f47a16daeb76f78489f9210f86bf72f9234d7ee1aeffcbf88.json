@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "originRunId": "manual-nis2-launch-2026-10-23",
+  "cachedAt": "2026-10-23T20:11:24Z",
+  "observedAt": "2026-10-23",
+  "toolId": "openai.web.run",
+  "request": {
+    "query": "site:enisa.europa.eu NIS2 technical implementation guidance 2025 2024 2690"
+  },
+  "executionStatus": "completed",
+  "resultUrls": [
+    "https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "originalText": "June 2025, version 1.0",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "title": "NIS2 Technical Implementation Guidance, June 2025 version 1.0",
+  "publisher": "ENISA",
+  "sourceUrl": "https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf",
+  "jurisdiction": "EU",
+  "limitation": "Implementation and evidence guidance for the categories covered by Regulation 2024/2690; distinguish guidance from binding law.",
+  "admitted": false,
+  "foundIn": {
+    "phase": "nis2-launch-research",
+    "scopeId": "legal",
+    "provider": "OpenAI web.run",
+    "url": "https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf"
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "legal"
+    ],
+    "phases": [
+      "nis2-launch-research"
+    ],
+    "status": "discovery-seed-not-admitted",
+    "publisher": "ENISA",
+    "host": "www.enisa.europa.eu",
+    "hosts": [
+      "www.enisa.europa.eu"
+    ],
+    "topics": [
+      "nis2"
+    ],
+    "frameworkIds": [
+      "air"
+    ]
+  },
+  "id": "32d20e03c581923f47a16daeb76f78489f9210f86bf72f9234d7ee1aeffcbf88",
+  "outputDigest": "sha256:b59fcba6d39760e2d32afa71cf7d50a27e4d6d35ee342a34eee63a835a6cce63",
+  "recordedAt": "2026-10-23T20:11:24Z",
+  "observationTimePrecision": "day; exact save time is recordedAt"
+}

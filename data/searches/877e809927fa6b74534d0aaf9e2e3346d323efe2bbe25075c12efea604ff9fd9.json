@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "originRunId": "manual-nis2-launch-2026-10-23",
+  "cachedAt": "2026-10-23T20:11:24Z",
+  "observedAt": "2026-10-23",
+  "toolId": "openai.web.run",
+  "request": {
+    "url": "https://messervices.cyber.gouv.fr/documents-ressources/20260317_NIS_V2_ReCyF_v2.5.pdf"
+  },
+  "executionStatus": "completed",
+  "resultUrls": [
+    "https://messervices.cyber.gouv.fr/documents-ressources/20260317_NIS_V2_ReCyF_v2.5.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "originalText": "DOCUMENT DE TRAVAIL",
+  "excerptTruncated": false,
+  "excerptKind": "official-pdf-excerpt",
+  "title": "ReCyF version 2.5, 17 March 2026",
+  "publisher": "ANSSI",
+  "sourceUrl": "https://messervices.cyber.gouv.fr/documents-ressources/20260317_NIS_V2_ReCyF_v2.5.pdf",
+  "jurisdiction": "FR",
+  "limitation": "Working document, not proof that French transposition legislation has been enacted.",
+  "admitted": false,
+  "foundIn": {
+    "phase": "nis2-launch-research",
+    "scopeId": "legal",
+    "provider": "OpenAI web.run",
+    "url": "https://messervices.cyber.gouv.fr/documents-ressources/20260317_NIS_V2_ReCyF_v2.5.pdf"
+  },
+  "filters": {
+    "languages": [
+      "fr"
+    ],
+    "scopeIds": [
+      "legal"
+    ],
+    "phases": [
+      "nis2-launch-research"
+    ],
+    "status": "discovery-seed-not-admitted",
+    "publisher": "ANSSI",
+    "host": "messervices.cyber.gouv.fr",
+    "hosts": [
+      "messervices.cyber.gouv.fr"
+    ],
+    "topics": [
+      "nis2"
+    ],
+    "frameworkIds": [
+      "air"
+    ]
+  },
+  "id": "877e809927fa6b74534d0aaf9e2e3346d323efe2bbe25075c12efea604ff9fd9",
+  "outputDigest": "sha256:0898a6e881e7b4e0b3e02b457fcc074fbad8d5cf10fd3b92be47df014bc9f151",
+  "recordedAt": "2026-10-23T20:11:24Z",
+  "observationTimePrecision": "day; exact save time is recordedAt"
+}

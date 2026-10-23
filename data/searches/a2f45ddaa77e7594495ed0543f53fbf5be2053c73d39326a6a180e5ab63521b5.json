@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "originRunId": "manual-nis2-launch-2026-10-23",
+  "cachedAt": "2026-10-23T20:11:24Z",
+  "observedAt": "2026-10-23",
+  "toolId": "openai.web.run",
+  "request": {
+    "url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng"
+  },
+  "executionStatus": "completed",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng"
+  ],
+  "resultUrlsTruncated": false,
+  "originalText": "JavaScript is disabled",
+  "excerptTruncated": false,
+  "excerptKind": "direct-open-bot-challenge",
+  "title": "Directive (EU) 2022/2555",
+  "publisher": "EUR-Lex",
+  "sourceUrl": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng",
+  "jurisdiction": "EU",
+  "limitation": "Browser returned a JavaScript challenge; this is not fetched legislative evidence.",
+  "admitted": false,
+  "foundIn": {
+    "phase": "nis2-launch-research",
+    "scopeId": "legal",
+    "provider": "OpenAI web.run",
+    "url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng"
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "legal"
+    ],
+    "phases": [
+      "nis2-launch-research"
+    ],
+    "status": "discovery-seed-not-admitted",
+    "publisher": "EUR-Lex",
+    "host": "eur-lex.europa.eu",
+    "hosts": [
+      "eur-lex.europa.eu"
+    ],
+    "topics": [
+      "nis2"
+    ],
+    "frameworkIds": [
+      "air"
+    ]
+  },
+  "id": "a2f45ddaa77e7594495ed0543f53fbf5be2053c73d39326a6a180e5ab63521b5",
+  "outputDigest": "sha256:698cc4457c4e7c7390f9ae226c5470f79f58ea7e086e97fe1a741b2b37226284",
+  "recordedAt": "2026-10-23T20:11:24Z",
+  "observationTimePrecision": "day; exact save time is recordedAt"
+}

@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "originRunId": "manual-nis2-launch-2026-10-23",
+  "cachedAt": "2026-10-23T20:11:24Z",
+  "observedAt": "2026-10-23",
+  "toolId": "openai.web.run",
+  "request": {
+    "query": "site:eur-lex.europa.eu 2022/2555 2024/2690 cybersecurity implementing regulation NIS2"
+  },
+  "executionStatus": "completed",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R2690"
+  ],
+  "resultUrlsTruncated": false,
+  "originalText": "Policy on the security of network and information systems",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "title": "Implementing Regulation (EU) 2024/2690",
+  "publisher": "EUR-Lex",
+  "sourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R2690",
+  "jurisdiction": "EU",
+  "limitation": "Check the covered provider categories; do not apply this implementing regulation universally.",
+  "admitted": false,
+  "foundIn": {
+    "phase": "nis2-launch-research",
+    "scopeId": "legal",
+    "provider": "OpenAI web.run",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R2690"
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "legal"
+    ],
+    "phases": [
+      "nis2-launch-research"
+    ],
+    "status": "discovery-seed-not-admitted",
+    "publisher": "EUR-Lex",
+    "host": "eur-lex.europa.eu",
+    "hosts": [
+      "eur-lex.europa.eu"
+    ],
+    "topics": [
+      "nis2"
+    ],
+    "frameworkIds": [
+      "air"
+    ]
+  },
+  "id": "2239a75314b0ca38f1050bd3a02ea55314acd9533832e7f1f46faffadbc83904",
+  "outputDigest": "sha256:1eb323baa4e0c87719552f1e27d6e5823b3d6bf86f40b6303d562e5bb76dce90",
+  "recordedAt": "2026-10-23T20:11:24Z",
+  "observationTimePrecision": "day; exact save time is recordedAt"
+}

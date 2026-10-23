@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "originRunId": "manual-nis2-launch-2026-10-23",
+  "cachedAt": "2026-10-23T20:11:24Z",
+  "observedAt": "2026-10-23",
+  "toolId": "openai.web.run",
+  "request": {
+    "url": "https://messervices.cyber.gouv.fr/nis2"
+  },
+  "executionStatus": "completed",
+  "resultUrls": [
+    "https://messervices.cyber.gouv.fr/nis2"
+  ],
+  "resultUrlsTruncated": false,
+  "originalText": "La transposition de la directive NIS 2 en France est en cours.",
+  "excerptTruncated": false,
+  "excerptKind": "official-page-excerpt",
+  "title": "NIS 2 / MesServicesCyber",
+  "publisher": "ANSSI",
+  "sourceUrl": "https://messervices.cyber.gouv.fr/nis2",
+  "jurisdiction": "FR",
+  "limitation": "Observed current wording. Verify the legislative status again at the pipeline source cutoff.",
+  "admitted": false,
+  "foundIn": {
+    "phase": "nis2-launch-research",
+    "scopeId": "legal",
+    "provider": "OpenAI web.run",
+    "url": "https://messervices.cyber.gouv.fr/nis2"
+  },
+  "filters": {
+    "languages": [
+      "fr"
+    ],
+    "scopeIds": [
+      "legal"
+    ],
+    "phases": [
+      "nis2-launch-research"
+    ],
+    "status": "discovery-seed-not-admitted",
+    "publisher": "ANSSI",
+    "host": "messervices.cyber.gouv.fr",
+    "hosts": [
+      "messervices.cyber.gouv.fr"
+    ],
+    "topics": [
+      "nis2"
+    ],
+    "frameworkIds": [
+      "air"
+    ]
+  },
+  "id": "0f09ba7cf5bf094c23d356397d2ffb452dab21479f772f3a159da1461f9ba854",
+  "outputDigest": "sha256:662d93018bdf654511a592a69489c9fb62ede24363878f35fdb63d00e31de773",
+  "recordedAt": "2026-10-23T20:11:24Z",
+  "observationTimePrecision": "day; exact save time is recordedAt"
+}

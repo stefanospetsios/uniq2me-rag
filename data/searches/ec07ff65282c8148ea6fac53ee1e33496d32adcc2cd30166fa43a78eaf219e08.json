@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "originRunId": "manual-nis2-launch-2026-10-23",
+  "cachedAt": "2026-10-23T20:11:24Z",
+  "observedAt": "2026-10-23",
+  "toolId": "openai.web.run",
+  "request": {
+    "query": "site:cyber.gov.gr 1689 2025 2186 1899 4250 2026 NIS2"
+  },
+  "executionStatus": "completed",
+  "resultUrls": [
+    "https://cyber.gov.gr/wp-content/uploads/2025/05/20250202186.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "originalText": "Εθνικό Πλαίσιο Απαιτήσεων Κυβερνοασφάλειας Βασικών και Σημαντικών Οντοτήτων.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "title": "KYA 1689/2025, Gazette B 2186",
+  "publisher": "Greek Government Gazette / National Cybersecurity Authority",
+  "sourceUrl": "https://cyber.gov.gr/wp-content/uploads/2025/05/20250202186.pdf",
+  "jurisdiction": "GR",
+  "limitation": "Observed official PDF; full fetch and passage admission must be performed by the live controller.",
+  "admitted": false,
+  "foundIn": {
+    "phase": "nis2-launch-research",
+    "scopeId": "legal",
+    "provider": "OpenAI web.run",
+    "url": "https://cyber.gov.gr/wp-content/uploads/2025/05/20250202186.pdf"
+  },
+  "filters": {
+    "languages": [
+      "el"
+    ],
+    "scopeIds": [
+      "legal"
+    ],
+    "phases": [
+      "nis2-launch-research"
+    ],
+    "status": "discovery-seed-not-admitted",
+    "publisher": "Greek Government Gazette / National Cybersecurity Authority",
+    "host": "cyber.gov.gr",
+    "hosts": [
+      "cyber.gov.gr"
+    ],
+    "topics": [
+      "nis2"
+    ],
+    "frameworkIds": [
+      "air"
+    ]
+  },
+  "id": "ec07ff65282c8148ea6fac53ee1e33496d32adcc2cd30166fa43a78eaf219e08",
+  "outputDigest": "sha256:283c11bf2d08ea83235866a7a783ed82493ae885369def29d0d353313a888154",
+  "recordedAt": "2026-10-23T20:11:24Z",
+  "observationTimePrecision": "day; exact save time is recordedAt"
+}
