@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "f8b4891cd5b9bab43d20714e798990ec81ccfeaf8e9c0547d96b123df56f3bc3",
+  "cachedAt": "2026-10-23T20:40:54Z",
+  "observedAt": "2026-10-23T20:40:54Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "preflight",
+    "callId": "direct-mcp-probe",
+    "invocation": 1,
+    "scopeId": null,
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Ollama keep_alive official documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": null,
+  "outputDigest": "sha256:c54bce5f497118ad0859c8f70dededa2468a28d70f6b63a86cf40542d3a93c28",
+  "resultUrls": [
+    "https://docs.ollama.com/api/chat",
+    "https://docs.ollama.com/api/embed",
+    "https://docs.ollama.com/api/introduction",
+    "https://docs.ollama.com/faq",
+    "https://github.com/ollama/ollama/issues/5272",
+    "https://ollama.com"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\"content\": [{\"type\": \"text\", \"text\": \"{\\n  \\\"query\\\": \\\"Ollama keep_alive official documentation\\\",\\n  \\\"results\\\": [\\n    {\\n      \\\"title\\\": \\\"FAQ - Ollama documentation\\\",\\n      \\\"url\\\": \\\"https://docs.ollama.com/faq\\\",\\n      \\\"content\\\": \\\"The OLLAMA_KEEP_ALIVE variable uses the same parameter types as the keep_alive parameter types mentioned above. Refer to the section explaining how to configure ...\\\",\\n      \\\"engines\\\": [\\n        \\\"google cse\\\"\\n      ]\\n    },\\n    {\\n      \\\"title\\\": \\\"Generate embeddings - Ollama documentation\\\",\\n      \\\"url\\\": \\\"https://docs.ollama.com/api/embed\\\",\\n      \\\"content\\\": \\\"... embeddings for. ​. keep_alive. string. Model keep-alive duration. ​. options. object. Runtime options that control text generation. Show child attributes ...\\\",\\n      \\\"engines\\\": [\\n        \\\"google cse\\\"\\n      ]\\n    },\\n    {\\n      \\\"title\\\": \\\"Introduction - Ollama documentation\\\",\\n      \\\"url\\\": \\\"https://docs.ollama.com/api/introduction\\\",\\n      \\\"content\\\": \\\"Use Ollama's official libraries with either a local server or the hosted API: ... For direct cloud access, set the host to https://ollama.com and supply your API ...\\\",\\n      \\\"engines\\\": [\\n        \\\"google cse\\\"\\n      ]\\n    },\\n    {\\n      \\\"title\\\": \\\"keep_alive and OLLAMA_KEEP_ALIVE not effective #5272 - GitHub\\\",\\n      \\\"url\\\": \\\"https://github.com/ollama/ollama/issues/5272\\\",\\n      \\\"content\\\": \\\"25 Ιουν 2024 ... I want the model to continue to exist, so I tried setting OLLAMA_KEEP_ALIVE=-1 in ollama.service, and also setting keep-alive=-1 when calling ...\\\",\\n      \\\"engines\\\": [\\n        \\\"google cse\\\"\\n      ]\\n    },\\n    {\\n      \\\"title\\\": \\\"Generate a chat message - Ollama documentation\\\",\\n      \\\"url\\\": \\\"https://docs.ollama.com/api/chat\\\",\\n      \\\"content\\\": \\\"String values are model-defined; supported names must match /api/show exactly. Numbers are not supported. ​. keep_alive.\\\",\\n      \\\"engines\\\": [\\n        \\\"google cse\\\"\\n      ]\\n    }\\n  ],\\n  \\\"unr",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [],
+    "phases": [
+      "preflight"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "docs.ollama.com",
+      "github.com",
+      "ollama.com"
+    ]
+  }
+}

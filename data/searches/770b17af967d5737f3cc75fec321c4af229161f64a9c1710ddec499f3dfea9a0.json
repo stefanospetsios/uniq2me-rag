@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "770b17af967d5737f3cc75fec321c4af229161f64a9c1710ddec499f3dfea9a0",
+  "cachedAt": "2026-10-23T20:43:06Z",
+  "observedAt": "2026-10-23T20:43:06Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "preflight",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "runner-smoke",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": null,
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Ollama FAQ"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792788130346,
+    "end": 1792788131540
+  },
+  "outputDigest": "sha256:51b9c7c3466af2f5a18cba3a6a9e76ea3cfa8670a8c835322db00bc870a92c08",
+  "resultUrls": [
+    "https://docs.ollama.com/capabilities/decision",
+    "https://docs.ollama.com/faq",
+    "https://docs.ollama.com/windows",
+    "https://ollama.com/",
+    "https://ollama.com/blog/transparent-pricing"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Ollama FAQ\",\n  \"results\": [\n    {\n      \"title\": \"FAQ - Ollama documentation\",\n      \"url\": \"https://docs.ollama.com/faq\",\n      \"content\": \"Ollama can run in local only mode by disabling Ollama's cloud features. By turning off Ollama's cloud features, you will lose the ability to use Ollama's cloud models and web search.\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Ollama · Run AI models locally and in the cloud\",\n      \"url\": \"https://ollama.com/\",\n      \"content\": \"Ollama is the easiest way to run and build with open AI models locally or in the cloud on macOS, Windows, and Linux.\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Decision - Ollama documentation\",\n      \"url\": \"https://docs.ollama.com/capabilities/decision\",\n      \"content\": \"ollama run answers questions about a state: text or JSON, piped in or given after the model name. Ask each question with --ask . It is answered yes or no, ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Windows - Ollama documentation\",\n      \"url\": \"https://docs.ollama.com/windows\",\n      \"content\": \"The Ollama install does not require Administrator, and installs in your home directory by default. You'll need at least 4GB of space for the binary install.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Ollama's transparent pricing\",\n      \"url\": \"https://ollama.com/blog/transparent-pricing\",\n      \"content\": \"31 Αυγ 2026 ... Ollama's new Pro, Max, and Team plans include a pool of usage credits that refreshes every month. Usage is consumed per token, at the rates ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    }\n  ],\n  \"unresponsive_engines\": [\n    [\n      \"brave\",\n      \"Suspended: too many requests\"\n    ]\n  ]\n}",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [],
+    "phases": [
+      "preflight"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "docs.ollama.com",
+      "ollama.com"
+    ]
+  }
+}
