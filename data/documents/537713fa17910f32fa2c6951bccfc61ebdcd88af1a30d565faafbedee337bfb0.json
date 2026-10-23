@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T23:05:22Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "D-source-2",
+    "type": "guidance",
+    "title": "Mapping NIS2 Obligations with ECSF Role Profiles",
+    "publisher": "European Union Agency for Cybersecurity (ENISA)",
+    "url": "https://www.enisa.europa.eu/sites/default/files/2025-06/Mapping%20NIS%202%20obligations%20with%20ECSF%20role%20profiles.pdf",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "NIS2 entities implementing role-specific cybersecurity responsibilities through the European Cybersecurity Skills Framework (ECSF) alignment",
+    "publicationDate": "2025-06",
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "Executive Summary",
+        "text": "Each role is mapped to its specific tasks, assisting entities in understanding what personnel capabilities are required to fulfil these obligations successfully."
+      },
+      {
+        "id": "p2",
+        "locator": "Introduction section",
+        "text": "To implement the directive effectively, entities should define internal cybersecurity roles and responsibilities aligned with its requirements7."
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:ae3300be1bb5dfb5a8fd43d268ab8ae9474cfba381ea2151c0ddbdb40051cc1b",
+    "textDigest": "sha256:981d3bd243637993b1ba0fa7ff5b967c0f1692a56856dc4e6b5bd5794f8077b6",
+    "finalUrl": "https://www.enisa.europa.eu/sites/default/files/2025-06/Mapping%20NIS%202%20obligations%20with%20ECSF%20role%20profiles.pdf",
+    "retrievedAt": "2026-10-23T23:05:22Z",
+    "contentType": "application/pdf",
+    "snapshotPath": "source-ae3300be1bb5dfb5a8fd43d268ab8ae9474cfba381ea2151c0ddbdb40051cc1b.bin",
+    "textPath": "source-981d3bd243637993b1ba0fa7ff5b967c0f1692a56856dc4e6b5bd5794f8077b6.txt"
+  },
+  "files": {
+    "snapshots/source-ae3300be1bb5dfb5a8fd43d268ab8ae9474cfba381ea2151c0ddbdb40051cc1b.bin": "sha256:ae3300be1bb5dfb5a8fd43d268ab8ae9474cfba381ea2151c0ddbdb40051cc1b",
+    "snapshots/source-981d3bd243637993b1ba0fa7ff5b967c0f1692a56856dc4e6b5bd5794f8077b6.txt": "sha256:981d3bd243637993b1ba0fa7ff5b967c0f1692a56856dc4e6b5bd5794f8077b6"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.enisa.europa.eu/sites/default/files/2025-06/Mapping%20NIS%202%20obligations%20with%20ECSF%20role%20profiles.pdf",
+  "language": "en",
+  "retrievedAt": "2026-10-23T23:05:22Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T23:08:14Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "CYBERSECURITY ROLES\nAND SKILLS FOR NIS2\nESSENTIAL AND\nIMPORTANT ENTITIES\nMapping NIS2 obligations to ECSF\nJUNE 2025\n                                   0\n\f                                                                               MAPPING NIS2 OBLIGATIONS TO ECSF\n                                                                                                         June 2025\n\n\n\n\nABOUT ENISA\n\nThe European Union Agency for Cybersecurity, ENISA, is the Union’s agency dedicated to\nachieving a high common level of cybersecurity across Europe. Established in 2004 and\nstrengthened by the EU Cybersecurity Act, the European Union Agency for Cybersecurity\ncontributes to EU cyber policy, enhances the trustworthiness of ICT products, services and\nprocesses with cybersecurity certification schemes, ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "D"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "European Union Agency for Cybersecurity (ENISA)",
+    "host": "www.enisa.europa.eu"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T21:37:36Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "5-source-3",
+    "type": "technical-doc",
+    "title": "AWS Site-to-Site VPN - AWS Documentation",
+    "publisher": "Amazon Web Services (AWS)",
+    "url": "https://docs.aws.amazon.com/vpn/latest/s2svpn/VPC_VPN.html",
+    "language": "en",
+    "jurisdiction": "Global",
+    "applicability": "Official configuration documentation for establishing secure network connectivity between AWS VPCs and on-premises networks. Implements routing rules, traffic segmentation, and security group integration required by the network boundary and remote access components of the scope.",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "What is AWS Site-to-Site VPN?",
+        "text": "By default, an instance that you launch within an Amazon VPC can't communicate with a local (AWS Cloud) network and a remote device — for example, this might be a site or an on-premises device. You can enable access to your remote devices from your VPC by creating an AWS Site-to-Site VPN (Site-to-Site VPN) connection, and configuring routing to pass traffic through the connection."
+      },
+      {
+        "id": "p2",
+        "locator": "Site-to-Site VPN features",
+        "text": "Each VPN connection includes two VPN tunnels which you can simultaneously use for high availability."
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:ae91ce815e487283055a07fce7b6f690088c50ac178b7d82cc811e7618247f4b",
+    "textDigest": "sha256:700679e760c60e453b6965fc929ac33bafcbce77b9d38ba564882011a37905fa",
+    "finalUrl": "https://docs.aws.amazon.com/vpn/latest/s2svpn/VPC_VPN.html",
+    "retrievedAt": "2026-10-23T21:37:36Z",
+    "contentType": "text/html",
+    "snapshotPath": "source-ae91ce815e487283055a07fce7b6f690088c50ac178b7d82cc811e7618247f4b.bin",
+    "textPath": "source-700679e760c60e453b6965fc929ac33bafcbce77b9d38ba564882011a37905fa.txt"
+  },
+  "files": {
+    "snapshots/source-ae91ce815e487283055a07fce7b6f690088c50ac178b7d82cc811e7618247f4b.bin": "sha256:ae91ce815e487283055a07fce7b6f690088c50ac178b7d82cc811e7618247f4b",
+    "snapshots/source-700679e760c60e453b6965fc929ac33bafcbce77b9d38ba564882011a37905fa.txt": "sha256:700679e760c60e453b6965fc929ac33bafcbce77b9d38ba564882011a37905fa"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://docs.aws.amazon.com/vpn/latest/s2svpn/VPC_VPN.html",
+  "language": "en",
+  "retrievedAt": "2026-10-23T21:37:36Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T21:52:36Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n    \nWhat is AWS Site-to-Site VPN? - AWS Site-to-Site VPN\n \n\n\nView a markdown version of this page\n\n\n\n\nWhat is AWS Site-to-Site VPN? - AWS Site-to-Site VPN\n\n\nDocumentation\nAWS VPN\nUser Guide\n\n\nConcepts\nSite-to-Site VPN features\nSite-to-Site VPN limitations\nSite-to-Site VPN resources\nPricing\n\n\nWhat is AWS Site-to-Site VPN?\n\n\n\n\nBy default, an instance that you launch within an Amazon VPC can't communicate with a local\n        (AWS Cloud) network and a remote device — for example, this might be a site or an\n        on-premises device. You can enable access to your remote devices from your VPC by creating\n        an AWS Site-to-Site VPN (Site-to-Site VPN) connection, and configuring routing to pass traffic through the\n        connection.\n\n\nAlthough the term \nVPN connection\n is a general term,",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "Amazon Web Services (AWS)",
+    "host": "docs.aws.amazon.com"
+  }
+}

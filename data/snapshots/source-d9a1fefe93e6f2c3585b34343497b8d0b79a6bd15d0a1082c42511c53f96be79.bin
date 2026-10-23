@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# " class="no-js"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# " class="no-js">
+<!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+<link rel="canonical" href="https://ised-isde.canada.ca/site/ised/en/implementation-guide-managers-artificial-intelligence-systems" />
+<meta http-equiv="content-language" content="en-CA" />
+<link rel="shortlink" href="https://ised-isde.canada.ca/site/ised/en/node/280" />
+<meta name="description" content="From: Innovation, Science and Economic Development Canada
+
+Supporting implementation of the Voluntary Code of Conduct for Advanced Generative Artificial Intelligence Systems" />
+<meta name="dcterms.title" content="Implementation guide for managers of Artificial intelligence systems" />
+<meta name="dcterms.description" content="From: Innovation, Science and Economic Development Canada
+
+Supporting implementation of the Voluntary Code of Conduct for Advanced Generative Artificial Intelligence Systems" />
+<meta name="dcterms.publisher" content="Innovation, Science and Economic Development Canada" />
+<meta name="dcterms.date" content="2025-03-06" />
+<meta name="dcterms.format" content="HTML" />
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<noscript><link rel="stylesheet" href="/site/ised/libraries/wet-boew/css/noscript.min.css" />
+</noscript><meta name="dcterms.language" title="ISO639-2" content="eng" />
+<meta name="author" content="" />
+<meta name="dcterms.type" title="ictype" content="" />
+<meta name="dcterms.spatial" title="ISO3166-1" content="" />
+<meta name="dcterms.spatial" title="gcgeonames" content="" />
+<meta name="dcterms.audience" title="icaudience" content="general public" />
+<meta name="dcterms.subject" title="gccore" content="" />
+<meta name="dcterms.subject" title="naics" content="" />
+<meta name="dcterms.created" title="W3CDTF" content="2025-02-26" />
+<meta name="dcterms.modified" title="W3CDTF" content="2025-03-06" />
+<meta name="dcterms.issued" title="W3CDTF" content="" />
+<meta name="dcterms.identifier" title="ICsiteProduct" content="048" />
+<link rel="shortcut icon" href="/site/ised/themes/custom/epic_theme/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" hreflang="en" href="https://ised-isde.canada.ca/site/ised/en/implementation-guide-managers-artificial-intelligence-systems" />
+<link rel="alternate" hreflang="fr" href="https://ised-isde.canada.ca/site/isde/fr/guide-mise-oeuvre-pour-gestionnaires-systemes-dintelligence-artificielle" />
+
+    <title>Implementation guide for managers of Artificial intelligence systems</title>
+    <link rel="stylesheet" media="all" href="/site/ised/sites/default/files/css/css_f7mRzvb2wMjbu75EMQzyy8CIEUmLREgPHaD8LdHL5Rs.css" />
+
+<!--[if gte IE 9]><!-->
+<link rel="stylesheet" media="all" href="/site/ised/sites/default/files/css/css_SxuESTKkIPM2BQlxOFDToPJW628IlSvfZlgLHx3Laok.css" />
+<!--<![endif]-->
+
+<!--[if lt IE 9]>
+<link rel="stylesheet" media="all" href="/site/ised/libraries/theme-gcweb/css/ie8-theme.min.css?tnbkme" />
+<![endif]-->
+<link rel="stylesheet" media="all" href="/site/ised/sites/default/files/css/css_PutnoShyduDhIITgMO9s2016tw_WmGSxX9uZZCZWjLs.css" />
+<link rel="stylesheet" media="all" href="/site/ised/sites/default/files/css/css_3QQSn6xcMSVfZzI8eoNPeiRDCdq8frdgo81qWPEWR8k.css" />
+
+    
+<!--[if lte IE 8]>
+<script src="/site/ised/sites/default/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+<script src="/site/ised/sites/default/files/js/js_USCrbMKgWyKsWupDm6IL7k_KwL4DrDx9Z-Ezdvkjm4A.js"></script>
+<script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" defer crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/releases/v6.1.0/js/v4-shims.js" defer crossorigin="anonymous"></script>
+
+    <style>
+caption {font-size: 100%; text-align: left}
+.normal {font-weight: normal;}
+</style>
+  </head>
+  <body class="anonymous implementation-guide-managers node-280 page published-yes path-node page-node-type-page has-glyphicons epic-theme theme-gcweb">
+    <nav aria-label="Skip links">
+      <ul id="wb-tphp">
+        <li class="wb-slc">
+          <a class="wb-sl" href="#wb-cont">
+            Skip to main content
+          </a>
+        </li>
+        <li class="wb-slc visible-sm visible-md visible-lg">
+          <a class="wb-sl" href="#wb-info">
+            Skip to "About this site"
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div id="sitewide-alert"></div>
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+  
+        <header class="navbar navbar-default" id="navbar">
+      <div id="wb-bnr" class="container">
+        <div class="row">
+          <section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
+            <h2 class="wb-inv">Language selection</h2>
+              <div class="region region-language-toggle">
+    <section class="language-switcher-language-url block block-wxt-library block-wxt-language-blocklanguage-interface clearfix" id="block-epic-theme-languageswitcher" data-block-plugin-id="wxt_language_block:language_interface">
+  
+      <div class="hidden">WxT Language switcher</div>
+    
+
+      <ul class="links list-inline mrgn-bttm-0">                    <li><a href="https://ised-isde.canada.ca/site/isde/fr/guide-mise-oeuvre-pour-gestionnaires-systemes-dintelligence-artificielle" class="language-link" lang="fr" hreflang="fr" data-drupal-link-system-path="node/280"><span class="hidden-xs">Français</span><abbr title="Français" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">fr</abbr></a></li></ul>
+  </section>
+
+  </div>
+
+          </section>
+        
+            <div class="region col-xs-9 col-sm-5 col-md-4 region-banner">
+      <div class="brand" property="publisher" typeof="GovernmentOrganization">
+    <a href="https://canada.ca/en.html" property="url">
+      <img id="header-logo" src='/site/ised/themes/custom/epic_theme/images/sig-blk-en.svg' alt="Government of Canada" property="logo" />
+      <span class="wb-inv"> /
+        <span lang="fr">Gouvernement du Canada</span>
+      </span>
+    </a>
+    <meta property="name" content="Government of Canada">
+    <meta property="areaServed" typeof="Country" content="Canada">
+    <link property="logo" href="/libraries/theme-gcweb/assets/wmms-blk.svg">
+  </div>
+
+  </div>
+
+            <div class="region col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-12 col-sm-5 col-md-4 region-search">
+    <section  class="wxt-search-canada-block-form block clearfix text-right" data-drupal-selector="wxt-search-canada-block-form" novalidate="novalidate" id="wb-srch" data-block-plugin-id="wxt_search_form_block">
+  
+      <h2 class="block-title">WxT Search form</h2>
+    
+
+      <form action="https://www.canada.ca/en/sr/srb.html#wb_land" method="get" id="wxt-search-canada-block-form" accept-charset="UTF-8" class="search-form search-block-form form-inline" role="search">
+  <div class="form-item js-form-item form-type-search js-form-type-search form-item-q js-form-item-q form-no-label form-group">
+      <label for="wb-srch-q" class="control-label sr-only"><span class="field-name">Search</span>
+    </label>
+  
+  
+  
+  <input data-drupal-selector="wb-srch-q" class="form-search form-control" placeholder="Search Canada.ca" type="search" id="wb-srch-q" name="q" value="" size="27" maxlength="128" />
+
+  
+  </div>
+<div class="submit form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-submit-container" id="edit-submit-container"><button class="btn-primary button js-form-submit form-submit btn icon-before" data-drupal-selector="wb-srch-sub" type="submit" id="wb-srch-sub" name="op" value="" title="Search"><span class="icon glyphicon glyphicon-search" aria-hidden="true"></span><span class="wb-inv">Search</span></button></div>
+<input data-drupal-selector="edit-cdn" type="hidden" name="cdn" value="canada" /><input data-drupal-selector="edit-st" type="hidden" name="st" value="s" /><input data-drupal-selector="edit-num" type="hidden" name="num" value="10" /><input data-drupal-selector="edit-langs" type="hidden" name="langs" value="eng" /><input data-drupal-selector="edit-st1rt" type="hidden" name="st1rt" value="0" /><input data-drupal-selector="edit-s5bm3ts21rch" type="hidden" name="s5bm3ts21rch" value="x" /><input data-drupal-selector="form-szqraiu-ticdmpxniwgzqzl1a4wew-v6-ci279q9-7w" type="hidden" name="form_build_id" value="form-szQRAIU-TicDmPXNiWgZQzl1A4WEW_v6_Ci279Q9_7w" /><input data-drupal-selector="edit-wxt-search-canada-block-form" type="hidden" name="form_id" value="wxt_search_canada_block_form" />
+</form>
+
+  </section>
+
+  </div>
+
+        </div>
+      </div>
+      <nav class="gcweb-menu" data-trgt="mb-pnl" typeof="SiteNavigationElement">
+        <div class="container">
+          <h2 class="wb-inv">Menu</h2>
+          <button type="button" aria-haspopup="true" aria-expanded="false"><span class="wb-inv">Main </span>Menu <span class="expicon glyphicon glyphicon-chevron-down"></span></button>
+              
+                      <ul role="menu" aria-orientation="vertical" data-ajax-replace="https://www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-en.html">
+                                  <li role="presentation">
+        <a href="https://ised-isde.canada.ca/site/ised/en" role="menuitem" data-drupal-link-system-path="&lt;front&gt;">Home</a>
+                  </li>
+        </ul>
+  
+
+
+
+
+        </div>
+      </nav>
+        <div class="region region-breadcrumb">
+        <nav id="wb-bc" property="breadcrumb" aria-labelledby="breadcrumbTitle">
+    <h2 id="breadcrumbTitle">You are here</h2>
+    <div class="container">
+      <ol class="breadcrumb">
+                              <li >
+                              <a href="https://www.canada.ca/en.html">Canada.ca</a>
+                          </li>
+                        </ol>
+  </div>
+</nav>
+
+
+  </div>
+
+    </header>
+  
+
+  <div class="container">
+    <div class="row">
+
+                              <div class="highlighted">  <div class="region region-highlighted">
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+</div>
+              
+            
+                  <main property="mainContentOfPage"  class="col-md-12 main-container container js-quickedit-main-content">
+
+                                <div class="region region-header">
+      
+  <h1 id="wb-cont">Implementation guide for managers of Artificial intelligence systems</h1>
+
+
+  </div>
+
+              
+      <section>
+
+                
+                
+                                      
+                  
+                          <a id="main-content"></a>
+            <div class="region region-content">
+      <article data-history-node-id="280" class="page full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+    <div class="row bs-1col-stacked">
+  
+
+  
+    <div class="col-sm-12 bs-region bs-region--main">
+    <section data-block-plugin-id="field_block:node:page:body" class="block block-layout-builder block-field-blocknodepagebody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><div class="tex2jax_process"><p class="gc-byline">From: <a href="/site/ised/en">Innovation, Science and Economic Development Canada</a></p>
+
+<p class="lead">Supporting implementation of the Voluntary Code of Conduct for Advanced Generative Artificial Intelligence Systems</p>
+
+<section id="toc-tdm">
+<h2>Table of contents</h2>
+
+<ul class="lst-none">
+	<li><a href="#s1">Introduction</a></li>
+	<li><a href="#s2">The AI system lifecycle</a></li>
+	<li><a href="#s3">Guidance for managers of AI systems</a>
+	<ul class="lst-none">
+		<li><a href="#s3.1">Best practices for safety</a></li>
+		<li><a href="#s3.2">Best practices for accountability</a></li>
+		<li><a href="#s3.3">Best practices for human oversight &amp; monitoring</a></li>
+		<li><a href="#s3.4">Best practices for transparency</a></li>
+		<li><a href="#s3.5">Best practices for validity &amp; robustness</a></li>
+	</ul>
+	</li>
+	<li><a href="#s4">Repository of relevant resources for managers of AI systems</a></li>
+</ul>
+</section>
+
+<section id="s1">
+<h2>Introduction</h2>
+
+<p>This guide is intended to help managers of artificial intelligence (AI) systems implement the Voluntary Code of Conduct on the Responsible Development and Management of Advanced Generative AI Systems (the Code).</p>
+
+<p>Managers of AI systems operate an AI system to provide a product or service to users. They may do so for internal business purposes, such as to triage resumes for the purpose of hiring employees; or for clients, such as in the provision of a service or a product to other businesses or individuals. Management of an AI system can include activities such as putting a system into operation, controlling its operation, controlling access, and monitoring its operation.</p>
+
+<p>The Code sets out six principles (Safety, Accountability, Transparency, Fairness &amp; Equity, Human Oversight &amp; Monitoring, and Validity &amp; Robustness) and eighteen measures that can be implemented by developers and managers of AI systems. These measures are in line with international initiatives to promote responsible AI, such as the G7 Hiroshima Process International Guiding Principles for Organizations Developing Advanced AI systems.</p>
+
+<p>By design, the Code's measures and principles are set out at a high level to enable flexible and practical implementation according to different company profiles and use cases. This guide aims to provide more granular advice and suggestions, aligned with the Code, to assist managers in operating their AI systems responsibly. It is not a checklist or a rigid set of steps. Rather, organizations are encouraged to use this information to inform their approach to responsible AI, tailored to their business operations and use cases, and in proportion to the risk profile of their activities.</p>
+
+<p>While the Code was originally designed to guide developers and managers of advanced generative AI systems, many of the measures contained in it describe responsible AI practices more generally. This guide may be appropriately used to inform the governance of a broad range of AI systems, including systems that are not generative.</p>
+
+<p>The suggestions set out in this guide are intended to be complementary to requirements under other policies and laws in Canada, such as Canadian privacy, competition, consumer protection and copyright law, which already apply to the commercial development and management of AI systems. Additionally, other policies may apply in particular sectors, such as rules for the development and operation of AI systems as medical devices. This guide is not intended to explain these policies, and managers are encouraged to familiarize themselves with their existing obligations under law and policy in Canada.</p>
+</section>
+
+<section id="s2">
+<h2>The AI system lifecycle</h2>
+
+<p>AI systems are complex technological systems comprised of different components, such as a model or models, and possibly including a user interface. Their creation and operation typically involve different actors, from entities engaged in data collection and curation, to model development, to system development and validation, to the management of AI systems post-deployment. Other factors that can impact the AI value chain and different roles within it include how the system is deployed, such as through an application programming interface (API) or other methods.<sup id="fn1-1-rf"><a class="fn-lnk" href="#fn1"><span class="wb-inv">Footnote </span>1</a></sup></p>
+
+<p>The development and operation of AI systems is complex and iterative, and different organizations may find that their activities or operations do not fit neatly into this guide. Managers are encouraged to apply this guidance as appropriate for their business operations.</p>
+
+<p>Safe and responsible AI governance begins with development, which includes preliminary stages such as ideation, planning, and design. AI developers are organizations or entities that design and develop AI systems and/or components of AI systems such as models. The developer of an AI system may be a separate entity than the manager of the AI system, or an entity may be both developer and manager. Additionally, there may be multiple developers for a single system or for system components throughout the AI value chain.</p>
+
+<p>Generally, development of an AI system is undertaken before deployment, starting with a problem statement, data collection and curation before moving to model and system design, model development, fine-tuning, and testing. Once the system is ready to be deployed, the developer may make their system available to downstream managers, who manage the system's operations as a product or service post deployment, or the developer may manage the system's operations themselves, to provide a product or service to their users or clients.</p>
+
+<p>Managers play a crucial governance role in the AI system lifecycle due to their place in the AI value chain. While managers cannot mitigate all risks&nbsp;– for example, they are not positioned to address all issues related to the model, or to end users' use of the system&nbsp;– managers of AI systems are well-positioned to address risks that arise from system-level design and operational choices, due to their proximity to the context of use. For example, managers can undertake a suite of activities, such as ensuring transparency in the system's design and operations, providing an accessible user experience, managing cybersecurity risks, identifying and addressing model drift, and identifying and reporting serious incidents. Managers are also generally well-positioned to notice and make other adjustments that may be required to continue to safely and transparently operate the system as (or as part of) a product or a service. To better understand their roles and responsibilities, and to ensure that they have the information they need to manage their system effectively, it is important that managers work with other entities in the AI value chain.</p>
+</section>
+
+<section id="s3">
+<h2>Guidance for managers of AI systems</h2>
+
+<p>The Code recommends a series of measures that managers can implement to ensure that AI systems are operated in a safe and responsible way. The following sections propose best practices to support the implementation of those measures, as a point of reference for organizations looking to put in place practices for responsible AI governance. While the Code is organized around six overarching principles, measures for managers are only recommended under five of these principles.</p>
+
+<p>As a preliminary step in responsible AI management, organizations should lay a proper foundation for AI governance. This starts with establishing a clear vision for how an organization is intending to use AI, for what purposes and in which context. Organizations should also consider their existing organizational structures and practices to determine how best to anchor their AI governance in them.</p>
+
+<p>Another important preliminary step for managers is to conduct appropriate due diligence when developing or procuring an AI system, in line with the measures contained in the Code, in advance of deployment of the system. Managers who procure AI systems should put in place rigorous procurement processes, as these decisions determine which systems will be deployed. Steps that managers may consider when procuring AI systems include:</p>
+
+<ul>
+	<li>Developing standardized evaluation criteria that assess technical capabilities, ethical considerations, and alignment with organizational values.</li>
+	<li>Requiring vendors to provide comprehensive documentation on system development, testing methodologies, and known limitations.</li>
+	<li>Creating cross-functional procurement committees that include technical, legal, ethical, and business stakeholders.</li>
+	<li>Requiring transparency in model architecture, training data sources, and performance metrics from vendors.</li>
+	<li>Implementing formal due diligence processes for vendor selection that evaluate their track record on responsible AI practices.</li>
+	<li>Addressing fairness and equity concerns by incorporating relevant performance metrics into vendor evaluation criteria, including bias testing results across diverse populations.</li>
+	<li>Requiring vendors to demonstrate compliance with relevant regulatory frameworks and industry standards.</li>
+</ul>
+
+<p>With these foundational elements in place, organizations can more effectively implement the best practices outlined in the following sections with respect to the management of AI systems.</p>
+
+<h3 id="s3.1">Best practices for safety</h3>
+
+<p>AI is a versatile family of technologies that are useful for many different purposes, including for integration into many different kinds of products and services. This means that the profile of organizations that manage AI systems will vary widely, from small and medium-sized to large companies, across different sectors and industries, and the systems that organizations manage will also vary widely, depending on the capabilities of the system and its context of use. It is therefore important that organizations spend time identifying the risks that can arise in their operational context. Understanding these risks is critical to the successful management of an AI system. Risks that an AI system might pose include lack of reliable outputs, sharing of proprietary information, system malfunction, failure for vulnerable or historically marginalized groups, vulnerabilities to malicious or misuse by users, or the creation of knock-on effects that can impact society at large. The safety risks associated with AI systems will differ depending on their context of use, and may be more or less serious depending on that context and how different actors are managing those risks.</p>
+
+<p>To mitigate risks and promote the safe use of AI systems, the Code recommends that managers of AI systems:</p>
+
+<p><b>Perform a comprehensive assessment of reasonably foreseeable potential adverse impacts, including risks associated with inappropriate or malicious use of the system.</b></p>
+
+<p>Steps that managers may consider to implement this measure include:</p>
+
+<ul>
+	<li>Identify and assess risks that may arise due to the operation of the system, including risks arising due to: i) the intended use(s) of the system; ii) unintended but reasonably foreseeable uses, misuses, or malicious uses; iii) other operational risks, and categorize those risks according to their likelihood, who or what may be affected, and the severity of impacts, including their magnitude and reach. This should be regularly reviewed and updated.</li>
+	<li>Consider a range of potential risks, including bias, data protection and privacy risks, risks arising from the use of the system for misinformation or other malicious purposes, cyber security, compliance and reputational risks.</li>
+	<li>Involve diverse internal stakeholders (including human resources, information technology, legal, compliance, product, customer service, and business units) in risk assessment processes to ensure multiple organizational perspectives are considered.</li>
+	<li>Identify and assess how fundamental rights may be negatively impacted by the operation of the AI system.</li>
+	<li>Identify and assess how vulnerable groups (such as children, the elderly, or historically marginalized groups) may be negatively impacted by the operation of the AI system.</li>
+	<li>Develop detailed impact scenarios across different user groups and use cases.</li>
+	<li>Conduct structured workshops with diverse stakeholders to identify potential impacts, including potential second and third-order effects of system deployment.</li>
+	<li>Implement regular horizon scanning for emerging risks and threat vectors, such as malicious attacks.</li>
+	<li>Conduct testing to identify vulnerabilities in the AI system and its deployment environment, including adversarial testing and regular testing for malfunctions.</li>
+</ul>
+
+<h3 id="s3.2">Best practices for accountability</h3>
+
+<p>As well as spending time identifying risks that can arise in their operational context, it is similarly important that organizations set in place policies and procedures to address those risks. This includes socializing this information with their employees, who may be tasked with maintaining the system, identifying and responding to incidents, engaging with end users, and monitoring its operations. Setting in place practices, policies, and procedures to manage and address risks will ensure that organizations and employees understand their responsibilities and can respond quickly and appropriately to incidents and issues when they arise.</p>
+
+<p>Ensuring that the organization, including its employees and others it engages with, understands its responsibilities and knows how to act should something go wrong, is foundational to responsible AI governance. Strong AI literacy across all levels of the organization enables better risk management.</p>
+
+<p>To establish these norms, it is important to establish and maintain a risk management framework. The Code recommends that managers of AI systems:</p>
+
+<p><b>Implement a comprehensive risk management framework proportionate to the nature and risk profile of activities. This includes establishing policies, procedures, and training to ensure that staff are familiar with their duties and the organization's risk management practices.</b></p>
+
+<p>Steps that managers may consider to implement this measure include:</p>
+
+<ul>
+	<li>Develop and maintain a risk management framework that explains how identified risks are being mitigated (by the manager or by others in the value chain), with whom decision-making authorities lie, and expected response timelines to address risks.</li>
+	<li>Set in place a policy identifying when to deactivate or cease the operations of systems, as well as a procedure for how to decommission systems in a manner that mitigates risk.</li>
+	<li>Set in place policies for staff, including training, to socialize organizational expectations, procedures, and authorities if an incident occurs. This training should be regularly updated to reflect the evolving nature of AI risks and best practices.</li>
+	<li>Provide role-specific training and upskilling opportunities. This could include, for example, general training for all employees on the responsible use of generative AI tools, and specialized instruction for technical teams on AI development, deployment, and maintenance.</li>
+	<li>Implement version control for the AI system and its components, and establish a formal change management process to track and assess the impact of updates and modifications.</li>
+	<li>Maintain a centralized repository of all AI system documentation including: risk assessments, incident reports, system modifications, user feedback, and performance metrics with an appropriate retention period.</li>
+	<li>Provide clear user guidance including acceptable use policies that outline appropriate system usage, prohibited activities, user responsibilities, and potential consequences of misuse. These guidelines should be easily accessible, written in plain language, and updated regularly.</li>
+</ul>
+
+<p>The organization's risk assessment and management frameworks will require regular review and updates to integrate new information, and to ensure that they continue to address organizational needs.</p>
+
+<p>To further promote a culture of accountability throughout the AI value chain and across the industry, the Code also recommends that managers of AI systems:</p>
+
+<p><b>Share information and best practices on risk management with firms playing complementary roles in the ecosystem.</b></p>
+
+<p>Steps that managers may consider to implement this measure include:</p>
+
+<ul>
+	<li>Publish de-identified risk assessment findings and mitigation strategies.</li>
+	<li>Collaborate with other organizations to develop standardized risk assessment tools.</li>
+	<li>Contribute to industry forums and working groups on AI risk management.</li>
+</ul>
+
+<h3 id="s3.3">Best practices for human oversight &amp; monitoring</h3>
+
+<p>Due to their place in the AI value chain, managers are best positioned to ensure that systems are not operating fully autonomously and that there is a human in the loop to monitor, update and maintain the system's operations. This role can also ensure that incidents are identified and addressed quickly when they arise, ensuring a smooth user experience and mitigating the risk that a small incident becomes a serious one.</p>
+
+<p>In this context, the Code recommends that managers of AI systems:</p>
+
+<p><b>Monitor the operation of the system for harmful uses or impacts after it is made available, including through the use of third party feedback channels, and inform the developers and/or implement usage controls as needed to mitigate harm.</b></p>
+
+<p>Steps that managers may consider to implement this measure include:</p>
+
+<ul>
+	<li>Establish ongoing monitoring and evaluation procedures for deployed AI systems.</li>
+	<li>Develop automated detection systems for potential harmful uses.</li>
+	<li>Monitor the AI system's performance across different demographic groups or other relevant categories.</li>
+	<li>Monitor user behaviour regarding the system, and provide a place for user feedback on their experience of the system.</li>
+	<li>Collect and analyze user feedback, incident reports, and other relevant data.</li>
+	<li>Conduct regular evaluations of model performance to detect and address model drift.</li>
+	<li>Create multiple feedback channels for users and affected parties.</li>
+	<li>Establish regular review procedures for reported incidents.</li>
+	<li>Implement mechanisms to address and mitigate harmful uses or impacts.</li>
+	<li>Maintain incident response teams with clear escalation procedures.</li>
+	<li>Establish protocols and communication channels for informing developers about identified issues or performance concerns, including sharing relevant monitoring data.</li>
+</ul>
+
+<h3 id="s3.4">Best practices for transparency</h3>
+
+<p>The place of managers in the AI value chain means that they are well-positioned to provide transparency regarding the system to users. Robust transparency practices can promote trust, enhance user satisfaction, mitigate risks of misuse and malfunction, and ensure that the system continues to perform as intended. To enhance transparency, the Code recommends that managers of AI systems:</p>
+
+<p><b>Ensure that systems that could be mistaken for humans are clearly and prominently identified as AI systems.</b></p>
+
+<p>Steps that managers may consider to implement this measure include:</p>
+
+<ul>
+	<li>Develop and implement standardized AI identification protocols for all interaction types (e.g., chatbots, email, phone), including consistent disclosure notices.</li>
+	<li>Provide free and accessible information to users about the nature and capabilities of AI systems, including information on how they are developed, operated and maintained.</li>
+	<li>Consider whether user interface choices, for example, the use of personal pronouns, self-attributions of mental states, or emotions by user-facing chatbots, are required and appropriate for the use case.</li>
+	<li>Establish processes to document when content was generated by an AI system, for example by adding standardized tags to AI outputs when they are stored or distributed.</li>
+</ul>
+
+<p>While it is crucial to maintain transparency with regard to when a product or service using AI could be mistaken for a human, it is equally important to ensure that end users know when AI is being used to shape their experience of an AI-enabled product or service, and how the AI system is contributing to their experience. This promotes user choice and enables users to better understand when they are engaging with an AI system, and what it is doing. It is also recommended to provide transparency regarding the capabilities, risks, and limitations of the system, and the manager's expectations for how users can use the system, as well as what is considered by the company to be misuse.</p>
+
+<h3 id="s3.5">Best practices for validity &amp; robustness</h3>
+
+<p>The performance of an AI system is valid when it performs as intended for the uses for which it was designed. A system is robust when it performs as intended across many different kinds of scenarios, including scenarios that are diverse or unusual. Validity and robustness therefore refer to the optimal and reliable performance of the system under many different kinds of conditions.</p>
+
+<p>To ensure AI systems perform optimally and reliably, managers should consider testing their system's performance against diverse real-world inputs and under adverse or challenging conditions, retesting after significant updates, identifying and documenting the system's limitations, and&nbsp;– especially in high-stakes applications where errors could have significant consequences&nbsp;– verifying critical outputs.</p>
+
+<p>While the measures discussed previously are recommended for managers of both public-facing and non-public facing AI systems, the Code additionally recommends that managers of public-facing AI systems take further steps to protect the validity and robustness of the system's operations, by:</p>
+
+<p><b>Performing an assessment of cyber-security risk and implementing proportionate measures to mitigate risks, including with regard to data poisoning.</b></p>
+
+<p>Steps that managers may consider to implement this measure include:</p>
+
+<ul>
+	<li>Implement comprehensive security testing protocols.</li>
+	<li>Create automated security scanning tools and procedures.</li>
+	<li>Establish regular security audit procedures.</li>
+	<li>Develop incident response plans for security breaches.</li>
+	<li>Maintain security monitoring systems for early threat detection.</li>
+	<li>Adopt general cybersecurity best practices.</li>
+</ul>
+</section>
+
+<section id="s4">
+<h2>Repository of relevant resources for managers of AI systems</h2>
+
+<p>Recognizing the important role that managers of AI systems play in AI governance, this guide sets out a starting place for organizations to seek information related to responsible AI.</p>
+
+<table class="table table-bordered">
+	<caption class="normal text-left">
+	<p>There are many existing resources to help AI businesses succeed at AI governance. The list below is a subset of resources that may be of particular interest to managers of AI systems looking to implement the measures found in the Code.</p>
+	</caption>
+	<thead class="bg-primary">
+		<tr>
+			<th scope="col">Organization</th>
+			<th scope="col">Document</th>
+			<th scope="col">Date</th>
+			<th scope="col">Short description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>International Standards Organization (ISO)</td>
+			<td>ISO/IEC 42001:2023&nbsp;– AI management system</td>
+			<td>2023</td>
+			<td>ISO 42001 sets out a standard for risk management for companies involved in developing, providing or using an AI system.</td>
+		</tr>
+		<tr>
+			<td>Digital Governance Standards Institute</td>
+			<td><a href="https://dgc-cgn.org/standards/find-a-standard/standards-in-automated-decision-systems-ai/cisoc101/">CAN/DGSI 101&nbsp;– Ethical Design and Use of Artificial Intelligence by Small and Medium Organizations</a></td>
+			<td>2025</td>
+			<td>Provides a framework for small and medium organisations to assess and manage risks with Ai systems and align with international and Canadian guidance on safe and responsible AI.</td>
+		</tr>
+		<tr>
+			<td>National Institute for Standards and Technology (NIST)</td>
+			<td><a href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf">NIST AI Risk Management Framework</a></td>
+			<td>2023</td>
+			<td>NIST is an Agency of the United States' Department of Commerce. NIST's RMF provides resources for understanding risks, impacts, and mitigation measures throughout the AI value chain.</td>
+		</tr>
+		<tr>
+			<td>National Institute for Standards and Technology (NIST)</td>
+			<td><a href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf">NIST AI 600-1 AI RMF Generative AI Profile</a></td>
+			<td>2024</td>
+			<td>This document is a cross-sectoral profile of and companion resource for the AI Risk Management Framework for Generative AI.</td>
+		</tr>
+		<tr>
+			<td>EU AI Office</td>
+			<td><a href="https://digital-strategy.ec.europa.eu/en/library/living-repository-foster-learning-and-exchange-ai-literacy">Living Repository of AI Literacy Practices</a></td>
+			<td>Living database</td>
+			<td>This repository provides examples of ongoing AI literacy practices among providers and deployers of AI systems.</td>
+		</tr>
+		<tr>
+			<td>EU AI Office</td>
+			<td><a href="https://digital-strategy.ec.europa.eu/en/policies/ai-code-practice">General-Purpose AI Code of Practice</a></td>
+			<td>2025 (Draft)</td>
+			<td>The Code is a guiding document for providers of general-purpose AI models in demonstrating compliance with the AI Act along the full life cycle of the models. While the code mostly apply to developers, it is also relevant for managers overseeing high-impact AI systems. It provides guidelines on risk assessment, mitigation, and governance.</td>
+		</tr>
+		<tr>
+			<td>Organisation for Economic Co-operation and Development (OECD)</td>
+			<td><a href="https://oecd.ai/en/incidents?search_terms=[]&amp;and_condition=false&amp;from_date=2014-01-01&amp;to_date=2025-02-17&amp;properties_config={&quot;principles&quot;:[],&quot;industries&quot;:[],&quot;harm_types&quot;:[],&quot;harm_levels&quot;:[],&quot;harmed_entities&quot;:[]}&amp;only_threats=false&amp;order_by=date&amp;num_results=20">OECD AI Incidents Monitor (AIM)</a></td>
+			<td>Living database</td>
+			<td>The OECD AI Incidents Monitor (AIM) documents AI incidents and hazards to help policymakers, AI practitioners, and all stakeholders worldwide gain valuable insights into the risks and harms of AI systems.</td>
+		</tr>
+		<tr>
+			<td>Organisation for Economic Co-operation and Development (OECD)</td>
+			<td><a href="https://oecd.ai/en/catalogue/overview">Catalogue of Tools &amp; Metrics for Trustworthy AI</a></td>
+			<td>Living database</td>
+			<td>This catalogue makes it easier to find tools and metrics by providing a one-stop-shop for helpful approaches, mechanisms and practices for trustworthy AI.</td>
+		</tr>
+		<tr>
+			<td>Organisation for Economic Co-operation and Development (OECD)</td>
+			<td><a href="https://www.oecd.org/en/publications/oecd-framework-for-the-classification-of-ai-systems_cb6d9eca-en.html">Framework for the Classification of AI systems</a></td>
+			<td>2022</td>
+			<td>A user-friendly tool to characterize the application of an AI system deployed in specific context. The framework classifies AI systems and applications along the following dimensions: People &amp; Planet, Economic Context, Data &amp; Input, AI Model and Task &amp; Output. Each one has its own properties and attributes or sub-dimensions relevant to assessing policy considerations of particular AI systems.</td>
+		</tr>
+		<tr>
+			<td>Massachusetts Institute of Technology (MIT)</td>
+			<td><a href="https://airisk.mit.edu/">MIT AI Risk Repository</a></td>
+			<td>Living database</td>
+			<td>A comprehensive living database of over 1000 AI risks categorized by their cause and risk domain.</td>
+		</tr>
+		<tr>
+			<td>AI Standards Hub</td>
+			<td><a href="https://aistandardshub.org/ai-standards-search/">Standards Database</a></td>
+			<td>Living Database</td>
+			<td>The Standards Database is a searchable catalogue covering more than 400&nbsp;relevant standards that are being developed or have been published by a range of prominent Standards Development Organisations.</td>
+		</tr>
+		<tr>
+			<td>UK Department for Science, Innovation and Technology's (DSIT)</td>
+			<td><a href="https://www.gov.uk/government/consultations/ai-management-essentials-tool/guidance-for-using-the-ai-management-essentials-tool">AI Management Essentials (AIME) tool</a></td>
+			<td>2024 (Draft)</td>
+			<td>
+			<p>AIME&nbsp;is a self-assessment tool that aims to help organisations assess and implement responsible AI management systems and processes.</p>
+
+			<p>AIME&nbsp;can be used by any organisation that develops, provides or uses services that utilise AI systems as part of its standard business operations.&nbsp;AIME&nbsp;is sector agnostic and may be used by organisations of different sizes. However, it is primarily intended for Small to medium-sized enterprises (SMEs) and start-ups that encounter barriers when navigating the evolving landscape of AI management standards and frameworks.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</section>
+
+<aside class="wb-fnote" role="note">
+<h2 id="fn">Footnotes</h2>
+
+<dl>
+	<dt>Footnote 1</dt>
+	<dd id="fn1">
+	<p>The OECD defines an&nbsp;<b>AI system</b>&nbsp;as: a machine-based system that, for explicit or implicit objectives, infers, from the input it receives, how to generate outputs such as predictions, content, recommendations, or decisions that can influence physical or virtual environments. Different AI systems vary in their levels of autonomy and adaptiveness after deployment.</p>
+
+	<p class="fn-rtn"><a href="#fn1-1-rf"><span class="wb-inv">Return to footnote </span>1<span class="wb-inv"> referrer</span></a></p>
+	</dd>
+</dl>
+</aside>
+</div></div>
+      
+  </section>
+
+  </div>
+  
+  
+</div>
+
+  </div>
+
+</article>
+
+
+  </div>
+
+          <div class="row">
+  <div class="pagedetails region region-content-footer">
+    <div class="row">
+      <section id="block-epic-theme-reportproblemblock" class="col-xs-12 col-sm-6 col-md-5 col-lg-4 pull-left block block-wxt-ext-webform block-report-problem-block clearfix" data-block-plugin-id="report_problem_block">
+  
+    
+
+      <a class="btn btn-default" href="https://ised-isde.canada.ca/site/ised/en/form/contact"><span class="glyphicon glyphicon-play">&nbsp;</span>Report a problem</a>
+  </section>
+<section id="block-epic-theme-datemodifiedblock" class="col-xs-12 pull-left block block-wxt-library block-date-modified-block clearfix" data-block-plugin-id="date_modified_block">
+  
+    
+
+      <div class="datemod mrgn-bttm-lg"><dl id="wb-dtmd">
+<dt>Date modified:</dt>
+<dd><time property="dateModified">2025-03-06</time></dd></dl></div>
+  </section>
+
+    </div>
+  </div>
+</div>
+
+              </section>
+
+      </main>
+
+                        
+                        
+    </div>
+  </div>
+
+
+
+
+
+  <div class="site-footer__contextual_footer gc-footer__contextual_footer gc-contextual">
+    <div class="container">
+      <div class="row">
+  <div class="region region-contextual-footer">
+    <div class="row">
+          <div class="contextual-footer">
+        <div class="container">
+            <nav role="navigation" aria-labelledby="block-ctxfootermenu1-menu" id="block-ctxfootermenu1" class="col-xs-12 col-sm-6 col-md-3 offset-md-9" data-block-plugin-id="menu_block:ctx-footer-menu-1">
+
+          
+  
+  <h2 class="visually-hidden" id="block-ctxfootermenu1-menu">pied de page bande ctx 1</h2>
+  
+
+            <h2 class="h3">ISED-ISDE</h2>
+    
+    
+              <ul class="menu nav list-group list-unstyled">
+                      <li>
+        <h3><a href="https://ised-isde.canada.ca/site/ised/en/contact-innovation-science-and-economic-development-canada">Contact ISED</a></h3>
+                        </li>
+        </ul>
+  
+
+
+  </nav>
+        </div>
+    </div>
+
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+
+
+            <footer id="wb-info">
+        <div class="gc-main-footer">
+          <div class="container">
+              <div class="region region-footer">
+    <nav id="block-epic-theme-footer" class="visible-xs visible-sm visible-md visible-lg wb-navcurr">
+  <h3>Government of Canada</h3>
+
+  <ul class="list-col-xs-1 list-col-sm-2 list-col-md-3">
+    <li><a href="https://www.canada.ca/en/contact.html">All contacts</a></li>
+    <li><a href="https://www.canada.ca/en/government/dept.html">Departments and agencies</a></li>
+    <li><a href="https://www.canada.ca/en/government/system.html">About government</a></li></ul>
+    <h4><span class="wb-inv">Themes and topics</span></h4>
+    <ul class="list-unstyled colcount-sm-2 colcount-md-3"><li><a href="https://www.canada.ca/en/services/jobs.html">Jobs</a></li>
+    <li><a href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and citizenship</a></li>
+    <li><a href="https://travel.gc.ca/">Travel and tourism</a></li>
+    <li><a href="https://www.canada.ca/en/services/business.html">Business</a></li>
+    <li><a href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
+    <li><a href="https://www.canada.ca/en/services/health.html">Health</a></li>
+    <li><a href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
+    <li><a href="https://www.canada.ca/en/services/environment.html">Environment and natural resources</a></li>
+    <li><a href="https://www.canada.ca/en/services/defence.html">National security and defence</a></li>
+    <li><a href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a></li>
+    <li><a href="https://www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a></li>
+    <li><a href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a></li>
+    <li><a href="https://international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a></li>
+    <li><a href="https://www.canada.ca/en/services/finance.html">Money and finance</a></li>
+    <li><a href="https://www.canada.ca/en/services/science.html">Science and innovation</a></li>
+    <li><a href="https://www.canada.ca/en/services/indigenous-peoples.html">Indigenous peoples</a></li>
+    <li><a href="https://www.canada.ca/en/services/veterans.html">Veterans and military</a></li>
+    <li><a href="https://www.canada.ca/en/services/youth.html">Youth</a></li>
+  </ul>
+
+</nav>
+<section id="block-siteimprove" data-block-plugin-id="block_content:9a1143c9-7853-4fce-8342-428e34731fcf" class="block block-block-content block-block-content9a1143c9-7853-4fce-8342-428e34731fcf clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><div class="tex2jax_process"><script type="text/javascript">
+/*<![CDATA[*/
+(function() {
+var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+sz.src = '//siteimproveanalytics.com/js/siteanalyze_8489.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+})();
+/*]]>*/
+</script>
+</div></div>
+      
+  </section>
+
+  </div>
+
+          </div>
+        </div>
+        <div class="brand">
+          <div class="container">
+            <div class="row ">
+                <div class="region region-branding">
+    <nav aria-labelledby="block-epic-theme-brand-menu" id="block-epic-theme-brand" data-block-plugin-id="system_menu_block:brand" class="col-md-10 ftr-urlt-lnk">
+      
+  <h2 class="wb-inv" id="block-epic-theme-brand-menu">Brand</h2>
+  
+
+          <ul>
+    <li><a href="https://www.canada.ca/en/social.html">Social media</a></li>
+    <li><a href="https://www.canada.ca/en/mobile.html">Mobile applications</a></li>
+    <li><a href="https://www.canada.ca/en/government/about.html">About Canada.ca</a></li>
+    <li><a href="https://www.ic.gc.ca/eic/site/icgc.nsf/eng/h_07033.html">Terms and conditions</a></li>
+    <li><a href="https://www.ic.gc.ca/eic/site/icgc.nsf/eng/h_07033.html#p1">Privacy</a></li>
+  </ul>
+
+  </nav>
+
+  </div>
+
+              <div class="col-xs-6 visible-sm visible-xs tofpg">
+                <a href="#wb-cont">Top of Page<span class="glyphicon glyphicon-chevron-up"></span></a>
+              </div>
+              <div class="col-xs-6 col-md-2 text-right">
+                <img src='/site/ised/themes/custom/epic_theme/images/wmms-blk.svg' alt='Symbol of the Government of Canada' />
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/site\/ised\/","scriptPath":null,"pathPrefix":"en\/","currentPath":"node\/280","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"library_attached":true,"mathjax":{"config_type":1,"config":{"tex2jax":{"inlineMath":[["$$","$$"],["\\(","\\)"]],"processEscapes":"true"},"showProcessingMessages":"false","messageStyle":"none"}},"bootstrap":{"forms_has_error_value_toggle":1,"modal_animation":1,"modal_backdrop":"true","modal_focus_input":1,"modal_keyboard":1,"modal_select_text":1,"modal_show":1,"modal_size":"","popover_enabled":1,"popover_animation":1,"popover_auto_close":1,"popover_container":"body","popover_content":"","popover_delay":"0","popover_html":0,"popover_placement":"right","popover_selector":"","popover_title":"","popover_trigger":"click","tooltip_enabled":1,"tooltip_animation":1,"tooltip_container":"body","tooltip_delay":"0","tooltip_html":0,"tooltip_placement":"auto left","tooltip_selector":"","tooltip_trigger":"hover"},"ajaxTrustedUrl":{"https:\/\/www.canada.ca\/en\/sr\/srb.html#wb_land":true},"appPath":{"en":"site\/ised","fr":"site\/isde"},"sitewideAlert":{"refreshInterval":15000,"automaticRefresh":true},"ised_chatbot":{"ised_program":"scms","chatbot_enabled":1,"interaction":false,"integrated":false},"ajax":[],"user":{"uid":0,"permissionsHash":"f7c49d3222a683982fb0c576bd1cf5970ae06388020d714389cb55b6d6062313"}}</script>
+<script src="/site/ised/sites/default/files/js/js_ww3DBc0mQndQ-l62GOAjPuDaVrnpy7T1HNOQmncjNwA.js"></script>
+
+<!--[if lt IE 9]>
+<script src="/site/ised/libraries/wet-boew/js/ie8-wet-boew.min.js?tnbkme"></script>
+<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<script src="/site/ised/libraries/wet-boew/js/wet-boew.min.js?tnbkme"></script>
+<!--<![endif]-->
+
+<!--[if lt IE 9]>
+<script src="/site/ised/libraries/wet-boew/js/ie8-wet-boew2.min.js?tnbkme"></script>
+<![endif]-->
+<script src="https://isedcdn.azureedge.net/ecd0033c-94de-4da8-aa3b-19ddf6fda/webchatbot/webchatbot.v2.2.5.min.js"></script>
+<script src="/site/ised/sites/default/files/js/js_nHeaBfnMhQYAqiPwS-JhiSdM5ys3FpkrA-F7O5FSNkY.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script src="/site/ised/sites/default/files/js/js_3yl7d-hT3ZWjnDT2sL_Dj1bJOjqqaXQrNCprpAYSo1U.js"></script>
+<script src="/site/ised/libraries/theme-gcweb/js/theme.min.js?tnbkme"></script>
+<script src="/site/ised/sites/default/files/js/js_5DLQNFV47gdUUZNjJq_PcFNglVoOkS4fkogb8yptc64.js"></script>
+<script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=fetch"></script>
+<script src="https://unpkg.com/react@16.12.0/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@16.12.0/umd/react-dom.production.min.js"></script>
+<script src="/site/ised/sites/default/files/js/js_VPYBt1CC6zgKIWjH6G-lyGzw6E9PW5UZi99Zj8ITYRE.js"></script>
+
+  </body>
+</html>

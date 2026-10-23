@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T23:01:30Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "D-source-1",
+    "type": "technical-doc",
+    "title": "NIST Cybersecurity Framework (CSF) 2.0",
+    "publisher": "National Institute of Standards and Technology (NIST)",
+    "url": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf",
+    "language": "en",
+    "jurisdiction": "United States",
+    "applicability": "General organizational cybersecurity framework specifying roles, responsibilities, management oversight, and policy implementation requirements for public and private sector entities",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:3c31f46fee98cac0c4323453e5109291a213b4de7fef8c058af9bf67f717433c",
+    "textDigest": "sha256:b6f174551ecc85e108ab27ac1c356f42954418ae4e796b9b2d291a7023f01b33",
+    "finalUrl": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf",
+    "retrievedAt": "2026-10-23T23:01:30Z",
+    "contentType": "application/pdf",
+    "snapshotPath": "source-3c31f46fee98cac0c4323453e5109291a213b4de7fef8c058af9bf67f717433c.bin",
+    "textPath": "source-b6f174551ecc85e108ab27ac1c356f42954418ae4e796b9b2d291a7023f01b33.txt"
+  },
+  "files": {
+    "snapshots/source-3c31f46fee98cac0c4323453e5109291a213b4de7fef8c058af9bf67f717433c.bin": "sha256:3c31f46fee98cac0c4323453e5109291a213b4de7fef8c058af9bf67f717433c",
+    "snapshots/source-b6f174551ecc85e108ab27ac1c356f42954418ae4e796b9b2d291a7023f01b33.txt": "sha256:b6f174551ecc85e108ab27ac1c356f42954418ae4e796b9b2d291a7023f01b33"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf",
+  "language": "en",
+  "retrievedAt": "2026-10-23T23:01:30Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T23:01:30Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "     The NIST Cybersecurity\n      Framework (CSF) 2.0\n                National Institute of Standards and Technology\nThis publication is available free of charge from: https://doi.org/10.6028/NIST.CSWP.29\n                                  February 26, 2024\n\fNIST CSWP 29                                                The NIST Cybersecurity Framework (CSF) 2.0\nFebruary 26, 2024\n\n\nAbstract\nThe NIST Cybersecurity Framework (CSF) 2.0 provides guidance to industry, government\nagencies, and other organizations to manage cybersecurity risks. It offers a taxonomy of high-\nlevel cybersecurity outcomes that can be used by any organization — regardless of its size,\nsector, or maturity — to better understand, assess, prioritize, and communicate its\ncybersecurity efforts. The CSF does not prescribe how ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "D"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "National Institute of Standards and Technology (NIST)",
+    "host": "nvlpubs.nist.gov"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "082e3d6321044a5819de501ec609a9ecdaeffe67e8834550cabcb0c60e866742",
+  "cachedAt": "2026-10-23T21:58:46Z",
+  "observedAt": "2026-10-23T21:58:46Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-6-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "6",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "Logging Monitoring Incident Response official maintainer implementation configuration documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792792620526,
+    "end": 1792792621656
+  },
+  "outputDigest": "sha256:b6076e435f7b1ef3b2eb9cfcaa58223311ecfd8a03b1eb7885233ffcfaa2f7c4",
+  "resultUrls": [
+    "https://docs.aws.amazon.com/prescriptive-guidance/latest/aws-security-reference-architecture-pci-data-security-standard-dss/logging-monitoring-and-incident-response.html",
+    "https://docs.cloud.google.com/logging/docs/alerting/log-based-incidents",
+    "https://docs.cloud.google.com/logging/docs/alerting/monitoring-logs",
+    "https://monitoring.googleapis.com/v3/projects/",
+    "https://monitoring.googleapis.com/v3/projects/my-project/alerts"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Logging, Monitoring, and Incident Response - AWS Prescriptive Guidance\",\n      \"url\": \"https://docs.aws.amazon.com/prescriptive-guidance/latest/aws-security-reference-architecture-pci-data-security-standard-dss/logging-monitoring-and-incident-response.html\",\n      \"content\": \"Logging, Monitoring, and Incident Response - AWS Prescriptive Guidance\\n\\nLogging, Monitoring, and Incident Response within the AWS SRA Logging, Monitoring, and Incident Response beyond the AWS SRA\\n\\n# Logging, Monitoring, and Incident Response\\n\\nLogging and monitoring capabilities are essential for detecting, investigating, and responding to security incidents in cardholder data environments. PCI DSS Requirement 10 mandates comprehensive audit logging of all access to system components and cardholder data, enabling organizations to reconstruct events, identify anomalies, and demonstrate compliance through verifiable audit trails. Without adequate logging, it becomes impossible to determine the scope of a compromise, identify the root cause of security incidents, or prove that security controls are operating effectively. In cloud environments, native logging services and centralized log management capabilities provide opportunities to implement comprehensive audit trails with greater automation, retention, and analysis capabilities than traditional on-premises approaches. \\n\\n## Logging, Monitoring, and Incident Response within the AWS SRA\\n\\nThe AWS SRA provides foundational guidance for logging, monitoring, and incident response that directly supports key elements of PCI DSS:\\n\\nAWS SRA recommends enabling organization trails using AWS CloudTrail with organization of all API activities across all accounts in the AWS organization. CloudTrail automatically logs all management events including user authentication, resource creation and deletion, configuration changes, and policy modifications, addressing Requirements 10.2.1 (logging of individual user acc",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "docs.aws.amazon.com",
+      "docs.cloud.google.com",
+      "monitoring.googleapis.com"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T22:55:45Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "C-source-2",
+    "type": "technical-doc",
+    "title": "OpenAPI Specification Version 3.2",
+    "publisher": "OpenAPI Initiative",
+    "url": "https://swagger.io/specification/v3.2/",
+    "language": "en",
+    "jurisdiction": "Global",
+    "applicability": "Industry-standard API contract framework specifying authentication schemes, input validation rules, and security requirements for RESTful interfaces",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:a056822471dad18f997843731c30fe2ac7115d1c6d1c18a897a925435ffbbb1b",
+    "textDigest": "sha256:8d5d1de6e2a04e3f7eb836152a658c875bb15204980e1c7c2b7e8479ed11925c",
+    "finalUrl": "https://swagger.io/specification/v3.2/",
+    "retrievedAt": "2026-10-23T22:55:45Z",
+    "contentType": "text/html",
+    "snapshotPath": "source-a056822471dad18f997843731c30fe2ac7115d1c6d1c18a897a925435ffbbb1b.bin",
+    "textPath": "source-8d5d1de6e2a04e3f7eb836152a658c875bb15204980e1c7c2b7e8479ed11925c.txt"
+  },
+  "files": {
+    "snapshots/source-a056822471dad18f997843731c30fe2ac7115d1c6d1c18a897a925435ffbbb1b.bin": "sha256:a056822471dad18f997843731c30fe2ac7115d1c6d1c18a897a925435ffbbb1b",
+    "snapshots/source-8d5d1de6e2a04e3f7eb836152a658c875bb15204980e1c7c2b7e8479ed11925c.txt": "sha256:8d5d1de6e2a04e3f7eb836152a658c875bb15204980e1c7c2b7e8479ed11925c"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://swagger.io/specification/v3.2/",
+  "language": "en",
+  "retrievedAt": "2026-10-23T22:55:45Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T22:55:45Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": " \nOpenAPI Specification - Version 3.2 | Swagger\n\n\n \n \n\n  \n \n \n \n \n \n \n \n \n \n \nProducts \n \n \n \n \n \n \n \nSwagger\n \nAccelerate API development with quality and consistency\n                                                across OpenAPI and AsyncAPI.\n\n\n \n \n \n \n \nStudio\n \nCollaborate on API Design\n \n \n\n\n \n \n \nPortal\n \nDeliver Up-to-date API Documentation\n \n \n\n\n \n \n \nExplore\n \nQuickly Test and Explore APIs\n \n \n\n\n \n \n \nFunctional Testing\n \nAutomated API Testing\n \n \n\n\n \n \n \nContract Testing\n \nBlock API Breaking Changes\n \n \n\n\n \n \n \nCatalog\n \nCentralized Visibility and Control\n \n \n\n\n \n \nSwagger Enterprise\n \n\nStandardize your APIs with projects,\n                                                style checks, and reusable domains.\n\n\n\n \n \n\n\n \n\n\n \n\n\n \n\n\n \n\n\n \n\n\n \n \nOpen Source \n \n \n \n \n \n \n \nSwagger Open So",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "C"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "OpenAPI Initiative",
+    "host": "swagger.io"
+  }
+}

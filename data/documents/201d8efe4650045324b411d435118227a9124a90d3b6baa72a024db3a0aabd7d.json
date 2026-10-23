@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T22:47:04Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "C-source-1",
+    "type": "technical-doc",
+    "title": "Getting Connected - MQTT API",
+    "publisher": "ThingsBoard",
+    "url": "https://thingsboard.io/docs/pe/reference/mqtt-api/getting-connected/",
+    "language": "en",
+    "jurisdiction": "Global",
+    "applicability": "MQTT protocol implementation for IoT platform data exchange, including PUBLISH message validation and session management",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:f40b9a649ced851f7aececb419ed4a3fa56e267b09997b9d44fcf72b849287af",
+    "textDigest": "sha256:5a1e14cd53f4c2ede5e080ec9ff7d3dc897cdc6b2f83b21278f2ba060dc94302",
+    "finalUrl": "https://thingsboard.io/docs/pe/reference/mqtt-api/getting-connected/",
+    "retrievedAt": "2026-10-23T22:47:04Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-f40b9a649ced851f7aececb419ed4a3fa56e267b09997b9d44fcf72b849287af.bin",
+    "textPath": "source-5a1e14cd53f4c2ede5e080ec9ff7d3dc897cdc6b2f83b21278f2ba060dc94302.txt"
+  },
+  "files": {
+    "snapshots/source-f40b9a649ced851f7aececb419ed4a3fa56e267b09997b9d44fcf72b849287af.bin": "sha256:f40b9a649ced851f7aececb419ed4a3fa56e267b09997b9d44fcf72b849287af",
+    "snapshots/source-5a1e14cd53f4c2ede5e080ec9ff7d3dc897cdc6b2f83b21278f2ba060dc94302.txt": "sha256:5a1e14cd53f4c2ede5e080ec9ff7d3dc897cdc6b2f83b21278f2ba060dc94302"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://thingsboard.io/docs/pe/reference/mqtt-api/getting-connected/",
+  "language": "en",
+  "retrievedAt": "2026-10-23T22:47:04Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T22:47:04Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n\n\n\t\n\n\t\t\nGetting Connected - MQTT API | ThingsBoard Docs\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\n\t\t\n\n\n\n\n\t\t\n\n\t\n\n\t\n\n\t\t\nSkip to content\n\n\n\n\t\n\n\t\t\n\n\t\t\tWe use cookies\n\t\t\n\n\n\n\t\t\n\n\t\t\tWe use cookies for site analytics, to measure our advertising campaigns and, if you allow it, to load the site search from Google. Nothing optional is set until you choose. You can change your choice anytime in Your Privacy Choices at the bottom of every page. \nCookie Policy\n\n\t\t\n\n\n\n\t\t\n\n\t\t\t\n\n\t\t\tAccept all\n\t\t\n\n\t\t\t\n\n\t\t\t\n\t\t\t\tReject all\n\t\t\t\n\t\t\n\n\t\t\n\n\n\n\t\t\n\n\t\t\t\n\t\t\tManage preferences\n\t\t\n\t\t\n\n\t\n\n\t\n\t\n\n\t\t\n\n\t\t\t\n\n\t\t\t\tCookie preferences\n\t\t\t\n\n\n\n\t\t\t\n\n\t\t\t\t\n\n\t\t\t\t\t✕\n\t\t\t\t\n\n\t\t\t\n\n\t\t\n\n\n\n\t\t\n\n\t\t\t\n\n\t\t\t\tWe use cookies for our own analytics, to see how our campaigns perform and, if you allow it, to load content from other services such as the Google site search. We never s",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "C"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "ThingsBoard",
+    "host": "thingsboard.io"
+  }
+}

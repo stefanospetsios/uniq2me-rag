@@ -1,33 +1,45 @@
 {
   "schemaVersion": 1,
-  "cachedAt": "2026-10-15T21:04:56Z",
-  "originRunId": "qwen3-38804802602",
+  "cachedAt": "2026-10-23T21:32:49Z",
+  "originRunId": "qwen3-40019296746",
   "source": {
-    "id": "1-source-1",
-    "type": "guidance",
-    "title": "TECHNICAL IMPLEMENTATION GUIDANCE - ENISA",
-    "publisher": "ENISA (European Union Agency for Cybersecurity)",
+    "id": "D-source-1",
+    "type": "technical-doc",
+    "title": "ENISA Technical Implementation Guidance on Cybersecurity Risk Management Measures (Version 1.0)",
+    "publisher": "European Union Agency for Cybersecurity (ENISA)",
     "url": "https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf",
     "language": "en",
     "jurisdiction": "European Union",
-    "applicability": "Cybersecurity risk management for NIS2-relevant entities, specifically covering configuration settings for emergency administrative access as referenced in password management for privileged accounts",
-    "publicationDate": null,
+    "applicability": "NIS2-relevant entities across all sectors requiring implementation of defined security roles, responsibilities, authorities and policy documentation per Article 21 obligations",
+    "publicationDate": "2025-06",
     "effectiveDate": null,
     "redistribution": "metadata-and-short-passages",
     "sourceStatus": "fetched-and-passage-checked",
     "passages": [
       {
         "id": "p1",
-        "locator": "1.1.1(k)",
-        "text": "Documented policy on the security of network and information systems which contains the elements required by points 1.1.1 (a) to 1.1.1 (k) of the Annex to the regulation."
+        "locator": "Annex to Implementing Regulation (EU) 2024/2690, point 1.1.1(k)",
+        "text": "indicate the date of the formal approval by the management bodies of the relevant entities (the 'management bodies')."
+      },
+      {
+        "id": "p2",
+        "locator": "Annex to Implementing Regulation (EU) 2024/2690, point 1.1.1(g)",
+        "text": "lay down roles and responsibilities pursuant to point 1.2"
+      },
+      {
+        "id": "p3",
+        "locator": "Annex to Implementing Regulation (EU) 2024/2690, point 1.1.2",
+        "text": "The network and information system security policy shall be reviewed and, where appropriate, updated by management bodies at least annually and when significant incidents or significant changes to operations or risks occur."
       }
     ],
     "quotationMatchPolicy": "unicode-typography-v1",
-    "typographyNormalizedPassages": [],
+    "typographyNormalizedPassages": [
+      "p1"
+    ],
     "byteDigest": "sha256:f03186edb047ece269ab9deeb3f0ec6172582ccc577617f0eb79e9bf96a7021b",
     "textDigest": "sha256:effbd5b01b9fc323fad9ab61fca97caa63acc7891c62076f42f8f6537096d36d",
     "finalUrl": "https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf",
-    "retrievedAt": "2026-10-15T21:04:56Z",
+    "retrievedAt": "2026-10-23T21:32:49Z",
     "contentType": "application/pdf",
     "snapshotPath": "source-f03186edb047ece269ab9deeb3f0ec6172582ccc577617f0eb79e9bf96a7021b.bin",
     "textPath": "source-effbd5b01b9fc323fad9ab61fca97caa63acc7891c62076f42f8f6537096d36d.txt"
@@ -39,14 +51,15 @@
   "recordType": "source-document",
   "sourceUrl": "https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf",
   "language": "en",
-  "retrievedAt": "2026-10-15T21:04:56Z",
+  "retrievedAt": "2026-10-23T21:32:49Z",
   "foundIn": {
-    "runId": "qwen3-38804802602",
-    "sourceOriginRunId": "qwen3-38804802602",
-    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
-    "recordedAt": "2026-10-15T21:08:42Z",
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T23:08:14Z",
     "webRecheckedThisRun": true,
     "phase": "prepare",
+    "frameworkId": null,
     "task": null
   },
   "originalText": "                                                           EUROPEAN UNION AGENCY\n                                                                FOR CYBERSECURITY\n\n\n\n\nTECHNICAL\nIMPLEMENTATION\nGUIDANCE\nOn Commission Implementing Regulation (EU) 2024/2690 of 17 October 2024\nlaying down rules for the application of NIS2 Directive as regards technical and\nmethodological requirements of cybersecurity risk-management measures\n\nJUNE 2025, VERSION 1.0\n\f                                                                      TECHNICAL IMPLEMENTATION GUIDANCE\n                                                                                                           June 2025, version 1.0\n\n\n\n\nABOUT ENISA\n\nThe European Union Agency for Cybersecurity, ENISA, is the Union’s agency dedicated to achieving a h",
@@ -57,13 +70,13 @@
       "en"
     ],
     "scopeIds": [
-      "1"
+      "D"
     ],
     "phases": [
       "prepare"
     ],
     "status": "fetched-and-passage-checked",
-    "publisher": "ENISA (European Union Agency for Cybersecurity)",
+    "publisher": "European Union Agency for Cybersecurity (ENISA)",
     "host": "www.enisa.europa.eu"
   }
 }

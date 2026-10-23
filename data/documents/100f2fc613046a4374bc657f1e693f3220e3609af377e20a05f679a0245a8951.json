@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T22:55:47Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "C-source-4",
+    "type": "guidance",
+    "title": "REST API Design Best Practices",
+    "publisher": "Microsoft",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
+    "language": "en",
+    "jurisdiction": "Global",
+    "applicability": "Enterprise implementation guidance covering input validation, interface security constraints, and protocol standardization for secure API integration",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:346e9ccfb688d34787d879ecc76b58d14d289439bdd2be893e028b1037e655da",
+    "textDigest": "sha256:aa694428eec8229cd93c9a7c9532897daab964a7e29549d11a463f5ed77593de",
+    "finalUrl": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
+    "retrievedAt": "2026-10-23T22:55:47Z",
+    "contentType": "text/html",
+    "snapshotPath": "source-346e9ccfb688d34787d879ecc76b58d14d289439bdd2be893e028b1037e655da.bin",
+    "textPath": "source-aa694428eec8229cd93c9a7c9532897daab964a7e29549d11a463f5ed77593de.txt"
+  },
+  "files": {
+    "snapshots/source-346e9ccfb688d34787d879ecc76b58d14d289439bdd2be893e028b1037e655da.bin": "sha256:346e9ccfb688d34787d879ecc76b58d14d289439bdd2be893e028b1037e655da",
+    "snapshots/source-aa694428eec8229cd93c9a7c9532897daab964a7e29549d11a463f5ed77593de.txt": "sha256:aa694428eec8229cd93c9a7c9532897daab964a7e29549d11a463f5ed77593de"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
+  "language": "en",
+  "retrievedAt": "2026-10-23T22:55:47Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T22:55:47Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": " \n\n\t\t\n\n\t\t\t\n\t\t\n\n\t\t\t\nWeb API Design Best Practices - Azure Architecture Center | Microsoft Learn\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n \n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n \n\n\t\t\t\n\n\t\t\t \n\t\t\t\n\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t \n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\t\t\t\n\n\t\t\t\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\t\t\n\n\t\n\t\t\t\n\n\t\t\t\t\n\n\t\t\n\n\t\t\t\n\t\t\n\n\t\t\tSkip to main content\n\t\t\n\n\t\n\t\t\n\n\t\t\tSkip to Ask Learn chat experience\n\t\t\n\n\t\n\n\t\t\t\n\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\t\n\n\t\t\t\t\t\nThis browser is no longer supported.\n\n\n\n\t\t\t\t\t\n\n\t\t\t\t\t\tUpgrade to Microsoft Edge to take",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "C"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Microsoft",
+    "host": "learn.microsoft.com"
+  }
+}

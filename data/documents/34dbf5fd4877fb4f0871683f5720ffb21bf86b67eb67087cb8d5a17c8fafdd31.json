@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T21:24:09Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "3-source-3",
+    "type": "technical-doc",
+    "title": "maintainerd-auth: Identity and Access Platform Documentation",
+    "publisher": "Maintainerd Project",
+    "url": "https://github.com/maintainerd/maintainerd-auth/blob/main/README.md",
+    "language": "en",
+    "jurisdiction": "Global",
+    "applicability": "Official implementation documentation demonstrating OAuth 2.0/OpenID Connect compliance including multi-factor authentication (WebAuthn, TOTP), RBAC, and session management per RFC 6749 standards. Directly implements technical specifications for identity management and access control.",
+    "publicationDate": "2025-12-31",
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:98cfa8183f30e5dd74d55268d2cdf5d43e1ed97a4cfc93af0a385ef5cee1a8ac",
+    "textDigest": "sha256:c70a245db97f218e8e39e32ae02ab41036823f9752078f9a9c4c6929766f7e19",
+    "finalUrl": "https://github.com/maintainerd/maintainerd-auth/blob/main/README.md",
+    "retrievedAt": "2026-10-23T21:24:09Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-98cfa8183f30e5dd74d55268d2cdf5d43e1ed97a4cfc93af0a385ef5cee1a8ac.bin",
+    "textPath": "source-c70a245db97f218e8e39e32ae02ab41036823f9752078f9a9c4c6929766f7e19.txt"
+  },
+  "files": {
+    "snapshots/source-98cfa8183f30e5dd74d55268d2cdf5d43e1ed97a4cfc93af0a385ef5cee1a8ac.bin": "sha256:98cfa8183f30e5dd74d55268d2cdf5d43e1ed97a4cfc93af0a385ef5cee1a8ac",
+    "snapshots/source-c70a245db97f218e8e39e32ae02ab41036823f9752078f9a9c4c6929766f7e19.txt": "sha256:c70a245db97f218e8e39e32ae02ab41036823f9752078f9a9c4c6929766f7e19"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://github.com/maintainerd/maintainerd-auth/blob/main/README.md",
+  "language": "en",
+  "retrievedAt": "2026-10-23T21:24:09Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T21:24:09Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n\n\n\n  \n\n\n\n\n\n\n\n\n\n  \n\n    \n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n  \n\n\n  \n\n\n    \n\n    \n\n    \n\n    \n\n  \n\n\n\n\n  \n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \nmaintainerd-auth/README.md at main · maintainerd/maintainerd-auth · GitHub\n\n\n\n\n  \n\n  \n\n  \n\n  \n\n\n    \n  \n\n\n\n  \n\n\n\n    \n\n\n\n  \n\n  \n\n  \n\n  \n\n\n    \n\n\n\n\n\n\n\n\n\n  \n\n\n  \n\n\n\n\n    \n\n\n  \n\n    \n\n\n    \n\n      \n\n\n      \n\n\n    \n\n    \n\n    \n\n\n      \n\n  \n\n  \n\n\n\n\n      \n\n\n\n\n        \n\n\n\n  \n\n  \n\n  \n\n  \n\n\n  \n\n\n      \n\n\n    \n\n\n  \n\n\n  \n\n  \n\n\n\n    \n\n    \n\n  \n\n\n\n  \n\n\n\n  \n\n\n  \n\n  \n\n\n  \n\n  \n\n  \n\n\n\n\n\n\n\n\n  \n\n\n  \n\n\n  \n\n    \n\n      \n\n\n\n      \n\n    \n\n      \nSkip to content\n\n\n      \n\n    \n\n\n      \n      \n\n\n\n\n\n\n\n\n\n\n  \n  \n\n",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "3"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Maintainerd Project",
+    "host": "github.com"
+  }
+}

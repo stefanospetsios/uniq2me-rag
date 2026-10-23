@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T22:11:59Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "8-source-2",
+    "type": "technical-doc",
+    "title": "NIST Secure Software Development, Security, and Operations (DevSecOps) Practices",
+    "publisher": "National Institute of Standards and Technology (NIST)",
+    "url": "https://pages.nist.gov/nccoe-devsecops/",
+    "language": "en",
+    "jurisdiction": "United States",
+    "applicability": "Secure development lifecycle integration with DevSecOps implementation examples including risk management and threat analysis",
+    "publicationDate": "2026-09",
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "Section 5.1.1.5",
+        "text": "5.1.1.5. Scenario A-5: Risk Management"
+      },
+      {
+        "id": "p2",
+        "locator": "Section 5.1.1.6",
+        "text": "5.1.1.6. Scenario A-6: Threat Modeling"
+      },
+      {
+        "id": "p3",
+        "locator": "Appendix C.3.2",
+        "text": "C.3.2. PRACTICE (PW.2) - Review the Software Design to Verify Compliance with Security Requirements and Risk Information:"
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:eba52d95cde1c4a820dc1c8e97141e30df87ee59d452d310711ef16cc13fd651",
+    "textDigest": "sha256:ab48852b2c36260ec70928e1dce39ab2120925457d45c11c6d61a857a594465c",
+    "finalUrl": "https://pages.nist.gov/nccoe-devsecops/",
+    "retrievedAt": "2026-10-23T22:11:59Z",
+    "contentType": "text/html",
+    "snapshotPath": "source-eba52d95cde1c4a820dc1c8e97141e30df87ee59d452d310711ef16cc13fd651.bin",
+    "textPath": "source-ab48852b2c36260ec70928e1dce39ab2120925457d45c11c6d61a857a594465c.txt"
+  },
+  "files": {
+    "snapshots/source-eba52d95cde1c4a820dc1c8e97141e30df87ee59d452d310711ef16cc13fd651.bin": "sha256:eba52d95cde1c4a820dc1c8e97141e30df87ee59d452d310711ef16cc13fd651",
+    "snapshots/source-ab48852b2c36260ec70928e1dce39ab2120925457d45c11c6d61a857a594465c.txt": "sha256:ab48852b2c36260ec70928e1dce39ab2120925457d45c11c6d61a857a594465c"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://pages.nist.gov/nccoe-devsecops/",
+  "language": "en",
+  "retrievedAt": "2026-10-23T22:11:59Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T22:18:02Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n\n\n\n\n\n\n\n  \n\n\n    \n\n    \n\n    \n\n    \n  \n\n  \nSecure Software Development, Security, and Operations (DevSecOps) Practices — Secure Software Development, Security, and Operations (DevSecOps) Practices  documentation\n\n  \n  \n  \n  \n  \n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n  \n  \n\n\n  \n\n  \n\n  \n  \n  \n  \n  \n\n  \n\n  \n\n  \n\n  \n\n  \n  \n\n  \n\n  \n      \n\n      \n\n      \n\n      \n\n      \n\n\n  \n\n      \n\n      \n\n      \n\n      \n\n      \n\n      \n\n      \n\n      \n\n      \n\n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n\n    \n    \n\n    \n\n    \n\n    \n \n\n\n\n\n\n  \n    \n\n    \n        \n\n            \n\n                \n\n                \n\n            \n\n            \n\n                \nNational Institute of Standards and Technology\n\n                \n\n                    \n\n                    \n\n                \n\n            ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "National Institute of Standards and Technology (NIST)",
+    "host": "pages.nist.gov"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "6bb27d9c02196a85866dfbb254c1bb7333b24a353a062ea94a13e0fd964f30fb",
+  "cachedAt": "2026-10-23T23:05:22Z",
+  "observedAt": "2026-10-23T23:05:22Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-D-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "D",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Roles Responsibilities Authorities Security Policy official implementation configuration documentation NIS2 ENISA technical guidance",
+    "time_range": ""
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792796696218,
+    "end": 1792796697266
+  },
+  "outputDigest": "sha256:354767bab48c3d41bc7c06cd207c73308badb2cbfe14630eaad6452bef5f7c19",
+  "resultUrls": [
+    "https://eurokommerz.at/blog/nis2-article-21-security-measures/",
+    "https://harfanglab.io/blog/regulation/nis2-prerequisites-recommendations/",
+    "https://hyperproof.io/understanding-the-relationship-between-nis2-and-the-eu-cyber-resilience-act/",
+    "https://www.enisa.europa.eu/publications/nis2-technical-implementation-guidance",
+    "https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf",
+    "https://www.enisa.europa.eu/sites/default/files/2025-06/Mapping%20NIS%202%20obligations%20with%20ECSF%20role%20profiles.pdf",
+    "https://www.enisa.europa.eu/topics/cybersecurity-of-critical-sectors",
+    "https://www.fb-pro.com/enisa-nis2-hardening/",
+    "https://www.tributech.io/blog/NIS2",
+    "https://www.unicis.tech/frameworks/nis2-implementing-regulation/"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Roles Responsibilities Authorities Security Policy official implementation configuration documentation NIS2 ENISA technical guidance\",\n  \"results\": [\n    {\n      \"title\": \"PDF TECHNICAL IMPLEMENTATION GUIDANCE - enisa.europa.eu\",\n      \"url\": \"https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf\",\n      \"content\": \"As part of their policy on the security of network and information systems referred to in point 1.1, the relevant entities shall lay down responsibilities and authorities for network and information system security and assign them to roles, allocate them according to the relevant entities' needs and communicate them to the management bodies.\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"CYBERSECURITY ROLES AND SKILLS FOR NIS2 ESSENTIAL ...\",\n      \"url\": \"https://www.enisa.europa.eu/sites/default/files/2025-06/Mapping%20NIS%202%20obligations%20with%20ECSF%20role%20profiles.pdf\",\n      \"content\": \"The European Union Agency for Cybersecurity, ENISA, is the Union's agency dedicated to achieving a high common level of cybersecurity across Europe.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"EU NIS2 Implementing Regulation 2024/2690 with ENISA Guidance\",\n      \"url\": \"https://www.unicis.tech/frameworks/nis2-implementing-regulation/\",\n      \"content\": \"ENISA's Technical Implementation Guidance explains how to meet each requirement in practice and which evidence to keep. In Unicis, the regulation is a separate ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Cybersecurity of Critical Sectors - ENISA - European Union\",\n      \"url\": \"https://www.enisa.europa.eu/topics/cybersecurity-of-critical-sectors\",\n      \"content\": \"9 Νοε 2022 ... The updated NIS2 Directive, focuses on enhancing the resilience of critical sectors across the E",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "D"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "eurokommerz.at",
+      "harfanglab.io",
+      "hyperproof.io",
+      "www.enisa.europa.eu",
+      "www.fb-pro.com",
+      "www.tributech.io",
+      "www.unicis.tech"
+    ]
+  }
+}

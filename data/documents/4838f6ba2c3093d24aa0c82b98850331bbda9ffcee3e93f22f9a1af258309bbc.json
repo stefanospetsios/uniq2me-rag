@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T22:03:18Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "7-source-4",
+    "type": "guidance",
+    "title": "SLSA provenance specification",
+    "publisher": "GitLab Inc.",
+    "url": "https://docs.gitlab.com/ci/pipeline_security/slsa/level_3/provenance_v1/",
+    "language": "en",
+    "jurisdiction": "Canada",
+    "applicability": "Official implementation documentation for generating and verifying SLSA Level 3 provenance within CI/CD pipelines. Details configuration requirements for secure build processes and source-to-artifact traceability.",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:f9ed754e67dbe69d2e06688b739ab52b7af86197186c264b28b4ad2a06759056",
+    "textDigest": "sha256:cdd9a1ee7af73e4aa9b989743bd0f0d24cb721127b4dfae9f7ef8b17d5545fad",
+    "finalUrl": "https://docs.gitlab.com/ci/pipeline_security/slsa/level_3/provenance_v1/",
+    "retrievedAt": "2026-10-23T22:03:18Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-f9ed754e67dbe69d2e06688b739ab52b7af86197186c264b28b4ad2a06759056.bin",
+    "textPath": "source-cdd9a1ee7af73e4aa9b989743bd0f0d24cb721127b4dfae9f7ef8b17d5545fad.txt"
+  },
+  "files": {
+    "snapshots/source-f9ed754e67dbe69d2e06688b739ab52b7af86197186c264b28b4ad2a06759056.bin": "sha256:f9ed754e67dbe69d2e06688b739ab52b7af86197186c264b28b4ad2a06759056",
+    "snapshots/source-cdd9a1ee7af73e4aa9b989743bd0f0d24cb721127b4dfae9f7ef8b17d5545fad.txt": "sha256:cdd9a1ee7af73e4aa9b989743bd0f0d24cb721127b4dfae9f7ef8b17d5545fad"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://docs.gitlab.com/ci/pipeline_security/slsa/level_3/provenance_v1/",
+  "language": "en",
+  "retrievedAt": "2026-10-23T22:03:18Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T22:03:18Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "SLSA provenance specification | GitLab Docs\nSkip to main content\n\n\nGo to GitLab Docs homepage\n\n\n\n\n\n\nWhat's new?\n\n\n\n\n\n\n\n\nWhat's new?\n\n\nGet free trial\n\n\n\n\n\n\n\n\n\n\n\n\nToggle menu\n\n\nUse GitLab\n\n\nGitLab Duo\n\n\nGitLab Orbit\n\n\nExtend\n\n\nInstall\n\n\nAdminister\n\n\nSubscribe\n\n\nContribute\n\n\nSolutions\n\n\n\n\n\n\n\n\n\n\nGetting started\n\n\n\n\n\n\nTutorials\n\n\n\n\n\n\nManage your organization\n\n\n\n\n\n\nOrganize work with projects\n\n\n\n\n\n\nPlan and track work\n\n\n\n\n\n\nManage authentication and authorization\n\n\n\n\n\n\nUse Git\n\n\n\n\n\n\nManage your code\n\n\n\n\n\n\nUse CI/CD to build your application\n\n\n\n\nGetting started\n\n\n\n\n\n\nTutorials\n\n\n\n\n\n\nCI/CD YAML syntax reference\n\n\n\n\n\n\nRunners\n\n\n\n\n\n\nPipelines\n\n\n\n\n\n\nJobs\n\n\n\n\n\n\nCI/CD components\n\n\n\n\n\n\nCI/CD inputs\n\n\n\n\n\n\nCI/CD variables\n\n\n\n\n\n\nPipeline security\n\n\n\n\nCI/CD job token\n\n\n\n\n\n\nID token authentication\n\n\n\n\n\n\nConn",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "7"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "GitLab Inc.",
+    "host": "docs.gitlab.com"
+  }
+}

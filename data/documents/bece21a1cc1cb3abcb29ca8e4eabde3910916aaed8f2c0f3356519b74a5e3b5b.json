@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T22:32:38Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "A-source-2",
+    "type": "technical-doc",
+    "title": "RFC 7696: Guidelines for Cryptographic Algorithm Agility and Selecting Mandatory-to-Implement Algorithms",
+    "publisher": "Internet Engineering Task Force (IETF)",
+    "url": "https://www.rfc-editor.org/info/rfc7696/",
+    "language": "en",
+    "jurisdiction": "Global",
+    "applicability": "Cryptographic agility implementation frameworks, algorithm selection policies, and configuration management for protocol security",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:22d59236de64da0f5431fae32160e1002b7a6e257dec17f8e7babb04a46bce7e",
+    "textDigest": "sha256:01a88df1fb76c5e5a4f51dbac4a71a864a31cc09229d33eeb65069c4a85382ea",
+    "finalUrl": "https://www.rfc-editor.org/info/rfc7696/",
+    "retrievedAt": "2026-10-23T22:32:38Z",
+    "contentType": "text/html;charset=utf-8",
+    "snapshotPath": "source-22d59236de64da0f5431fae32160e1002b7a6e257dec17f8e7babb04a46bce7e.bin",
+    "textPath": "source-01a88df1fb76c5e5a4f51dbac4a71a864a31cc09229d33eeb65069c4a85382ea.txt"
+  },
+  "files": {
+    "snapshots/source-22d59236de64da0f5431fae32160e1002b7a6e257dec17f8e7babb04a46bce7e.bin": "sha256:22d59236de64da0f5431fae32160e1002b7a6e257dec17f8e7babb04a46bce7e",
+    "snapshots/source-01a88df1fb76c5e5a4f51dbac4a71a864a31cc09229d33eeb65069c4a85382ea.txt": "sha256:01a88df1fb76c5e5a4f51dbac4a71a864a31cc09229d33eeb65069c4a85382ea"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.rfc-editor.org/info/rfc7696/",
+  "language": "en",
+  "retrievedAt": "2026-10-23T22:32:38Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T22:32:38Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "RFC 7696: Guidelines for Cryptographic Algorithm Agility and Selecting Mandatory-to-Implement Algorithms | RFC Editor\nYour browser has JavaScript disabled. Most of this site works without JS, but some features require it. If something seems broken please try enabling JavaScript and reloading the page.\nThe JavaScript used by this site is served directly from IETF infrastructure and does not include any code that links to a third party service.\n\n\n\n\n\n\n Skip to content \nPrimary navigation\n\n\nThe RFC Series\nWhat is an RFC?\n\n\nHow can I use RFCs?\n\n\nBrowse all RFCs\n\n\nRFCs by Subject\n\n\nDownload RFCs\n\n\nErrata in RFCs\n\n\nFAQ\n\n\n\n\n\n\nFor Authors\nHow RFCs are created\n\n\nIndependent Submissions\n\n\nStyle Guide\n\n\nRFC Publication Process\n\n\nDocument Queue\n\n\n\n\n\n\nAbout Us\nAbout RFC Editor\n\n\nReports\n\n\nPrivacy Statem",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "A"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Internet Engineering Task Force (IETF)",
+    "host": "www.rfc-editor.org"
+  }
+}

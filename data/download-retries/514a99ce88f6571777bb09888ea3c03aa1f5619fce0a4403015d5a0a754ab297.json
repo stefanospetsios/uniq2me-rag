@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-download-retry",
+  "id": "514a99ce88f6571777bb09888ea3c03aa1f5619fce0a4403015d5a0a754ab297",
+  "cachedAt": "2026-10-23T21:08:56Z",
+  "originRunId": "qwen3-40019296746",
+  "sourceUrl": "https://www.enisa.europa.eu/topics/risk-management/current-risk/bcm-resilience/bc-plan/it-service-continuity-plan",
+  "candidate": {
+    "type": "guidance",
+    "title": "IT Service Continuity Plan",
+    "publisher": "European Union Agency for Cybersecurity (ENISA)",
+    "url": "https://www.enisa.europa.eu/topics/risk-management/current-risk/bcm-resilience/bc-plan/it-service-continuity-plan",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "Organizations under NIS2 scope requiring business continuity planning with focus on RTO/RPO definitions, recovery procedures, and service dependency management",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "id": "2-source-1"
+  },
+  "language": "en",
+  "scopeId": "2",
+  "status": "pending-download",
+  "firstFailedAt": "2026-10-23T21:08:56Z",
+  "firstFailureContext": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "prepare"
+  },
+  "lastAttemptAt": "2026-10-23T21:08:56Z",
+  "attempts": 1,
+  "lastError": "HTTP Error 404: Not Found",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "prepare"
+  },
+  "retryOnNextRun": true,
+  "originalText": null,
+  "evidenceAdmitted": false,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "2"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "pending-download",
+    "publisher": "European Union Agency for Cybersecurity (ENISA)",
+    "host": "www.enisa.europa.eu"
+  }
+}

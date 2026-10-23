@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T22:47:07Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "C-source-5",
+    "type": "technical-doc",
+    "title": "maintainerd-auth Security Documentation",
+    "publisher": "maintainerd",
+    "url": "https://github.com/maintainerd/maintainerd-auth/security",
+    "language": "en",
+    "jurisdiction": "Global",
+    "applicability": "API authentication implementation covering trust boundaries, token validation, and authorization enforcement for service interfaces",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:d8d8f85517f83efe9ff2af8a20c2386f5ec363b19cd5ab2fa62c564980ec9231",
+    "textDigest": "sha256:0cf416c9f03f7eacbf95c91ce879f3644d37175f13ecb7d328ecf2e447cd8e8b",
+    "finalUrl": "https://github.com/maintainerd/maintainerd-auth/security",
+    "retrievedAt": "2026-10-23T22:47:07Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-d8d8f85517f83efe9ff2af8a20c2386f5ec363b19cd5ab2fa62c564980ec9231.bin",
+    "textPath": "source-0cf416c9f03f7eacbf95c91ce879f3644d37175f13ecb7d328ecf2e447cd8e8b.txt"
+  },
+  "files": {
+    "snapshots/source-d8d8f85517f83efe9ff2af8a20c2386f5ec363b19cd5ab2fa62c564980ec9231.bin": "sha256:d8d8f85517f83efe9ff2af8a20c2386f5ec363b19cd5ab2fa62c564980ec9231",
+    "snapshots/source-0cf416c9f03f7eacbf95c91ce879f3644d37175f13ecb7d328ecf2e447cd8e8b.txt": "sha256:0cf416c9f03f7eacbf95c91ce879f3644d37175f13ecb7d328ecf2e447cd8e8b"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://github.com/maintainerd/maintainerd-auth/security",
+  "language": "en",
+  "retrievedAt": "2026-10-23T22:47:07Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T22:47:07Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n\n\n\n\n\n\n\n\n\n  \n\n    \n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n  \n\n\n  \n\n\n    \n\n    \n\n    \n\n    \n\n  \n\n\n  \n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n  \nOverview · maintainerd/maintainerd-auth · GitHub\n\n\n\n\n  \n\n  \n\n  \n\n  \n\n\n    \n  \n\n\n\n  \n\n\n\n    \n\n\n\n  \n\n  \n\n  \n\n  \n\n\n    \n\n\n\n\n\n\n\n\n\n  \n\n\n  \n\n\n\n\n    \n\n\n  \n\n    \n\n\n    \n\n      \n\n\n      \n\n\n    \n\n    \n\n    \n\n\n      \n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n\n\n\n\n      \n\n\n\n\n        \n\n\n\n  \n\n  \n\n  \n\n  \n\n\n  \n\n\n\n\n    \n\n    \n\n  \n\n\n\n  \n\n\n\n  \n\n\n  \n\n  \n\n\n  \n\n  \n\n  \n\n\n\n\n\n\n\n\n  \n\n\n  \n\n\n  \n\n    \n\n      \n\n\n\n      \n\n    \n\n      \nSkip to content\n\n\n      \n\n    \n\n\n      \n      \n\n\n\n\n\n\n\n\n  \n  \n\n  \n\n\n\n\n\n\n\n\n\n\n      \n\n          \n          \n\n                \n\n\n\n\n\n\n",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "C"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "maintainerd",
+    "host": "github.com"
+  }
+}

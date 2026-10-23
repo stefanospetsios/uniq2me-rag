@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "c261cb2d79eb958e235e3a675a1f6206da638187bff8106e67859ff8585b6cc2",
+  "cachedAt": "2026-10-23T22:03:15Z",
+  "observedAt": "2026-10-23T22:03:15Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-7-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "7",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Software Development Lifecycle official implementation configuration documentation",
+    "time_range": ""
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792792948608,
+    "end": 1792792949518
+  },
+  "outputDigest": "sha256:87f8dd1da26e13a2e5f411dfdb0d8ca1f526b111671dc065dde32bce8427bc46",
+  "resultUrls": [
+    "https://leanware.co/insights/sdlc-documentation-guide",
+    "https://orca.security/resources/blog/sdlc-phases-best-practices/",
+    "https://plane.so/blog/software-development-life-cycle-sdlc-stages-and-models",
+    "https://sourcegraph.com/blog/sdlc-best-practices-and-tools-a-complete-guide-2026",
+    "https://www.atlassian.com/agile/software-development/sdlc",
+    "https://www.ibm.com/think/topics/sdlc",
+    "https://www.microsoft.com/en/power-platform/topics/phases-of-the-software-development-lifecycle",
+    "https://www.ontario.ca/files/2025-10/go-its-54-application-development-standards-for.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Software Development Lifecycle official implementation configuration documentation\",\n  \"results\": [\n    {\n      \"title\": \"What is Software Development Life Cycle (SDLC)? Complete Guide\",\n      \"url\": \"https://www.atlassian.com/agile/software-development/sdlc\",\n      \"content\": \"Common SDLC phases include planning, feasibility, design, implementation, testing, deployment, and maintenance. Different models like waterfall, Agile, ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"SDLC best practices and tools: A complete guide (2026)\",\n      \"url\": \"https://sourcegraph.com/blog/sdlc-best-practices-and-tools-a-complete-guide-2026\",\n      \"content\": \"3 Μαρ 2025 ... The Software Development Life Cycle (SDLC) is the structured foundation for shipping reliable features with speed and confidence.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Software Development Life Cycle Documentation Guide | 2025\",\n      \"url\": \"https://leanware.co/insights/sdlc-documentation-guide\",\n      \"content\": \"8 Αυγ 2025 ... It includes requirements, design decisions, implementation details, test plans, deployment instructions, and maintenance records. These ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"SDLC: Core Phases and Best Practices Explained - Orca Security\",\n      \"url\": \"https://orca.security/resources/blog/sdlc-phases-best-practices/\",\n      \"content\": \"31 Ιουλ 2026 ... The SDLC becomes documentation instead of a working agreement. A documented life cycle that nobody follows may still satisfy a superficial ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"What is the Software Development Lifecycle (SDLC)? - IBM\",\n      \"url\": \"https://www.ibm.com/think/topics/sdlc\",\n      \"content\": \"Each phase of the SDLC has its own objectives and deliverables that guide the next phase. Taken together, the phases of the SDLC form a roadmap that helps ...\"",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "7"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "leanware.co",
+      "orca.security",
+      "plane.so",
+      "sourcegraph.com",
+      "www.atlassian.com",
+      "www.ibm.com",
+      "www.microsoft.com",
+      "www.ontario.ca"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T22:27:24Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "A-source-5",
+    "type": "technical-doc",
+    "title": "Crypto Configuration Specification",
+    "publisher": "Canonical Ltd.",
+    "url": "https://github.com/canonical/crypto-config/blob/main/docs/crypto-config-specification.md",
+    "language": "en",
+    "jurisdiction": "Global",
+    "applicability": "Configuration standards for cryptographic services in Ubuntu-based systems, including key management and algorithm selection",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:9db0954a8772cacff27cb95e46ae5539f549101b76a394c09ef6b988fdc3fff9",
+    "textDigest": "sha256:cba66f3ca3a20bfd39a21c93bd01e1b93efffdb570a8d445179f73c9bf07db09",
+    "finalUrl": "https://github.com/canonical/crypto-config/blob/main/docs/crypto-config-specification.md",
+    "retrievedAt": "2026-10-23T22:27:24Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-9db0954a8772cacff27cb95e46ae5539f549101b76a394c09ef6b988fdc3fff9.bin",
+    "textPath": "source-cba66f3ca3a20bfd39a21c93bd01e1b93efffdb570a8d445179f73c9bf07db09.txt"
+  },
+  "files": {
+    "snapshots/source-9db0954a8772cacff27cb95e46ae5539f549101b76a394c09ef6b988fdc3fff9.bin": "sha256:9db0954a8772cacff27cb95e46ae5539f549101b76a394c09ef6b988fdc3fff9",
+    "snapshots/source-cba66f3ca3a20bfd39a21c93bd01e1b93efffdb570a8d445179f73c9bf07db09.txt": "sha256:cba66f3ca3a20bfd39a21c93bd01e1b93efffdb570a8d445179f73c9bf07db09"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://github.com/canonical/crypto-config/blob/main/docs/crypto-config-specification.md",
+  "language": "en",
+  "retrievedAt": "2026-10-23T22:27:24Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T22:27:24Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n\n\n\n  \n\n\n\n\n\n\n\n\n\n  \n\n    \n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n  \n\n\n  \n\n\n    \n\n    \n\n    \n\n    \n\n  \n\n\n\n\n  \n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \ncrypto-config/docs/crypto-config-specification.md at main · canonical/crypto-config · GitHub\n\n\n\n\n  \n\n  \n\n  \n\n  \n\n\n    \n  \n\n\n\n  \n\n\n\n    \n\n\n\n  \n\n  \n\n  \n\n  \n\n\n    \n\n\n\n\n\n\n\n\n\n  \n\n\n  \n\n\n\n\n    \n\n\n  \n\n    \n\n\n    \n\n      \n\n\n      \n\n\n    \n\n    \n\n    \n\n\n      \n\n  \n\n  \n\n\n\n\n      \n\n\n\n\n        \n\n\n\n  \n\n  \n\n  \n\n  \n\n\n  \n\n\n      \n\n\n    \n\n\n  \n\n\n  \n\n  \n\n\n\n    \n\n    \n\n  \n\n\n\n  \n\n\n\n  \n\n\n  \n\n  \n\n\n  \n\n  \n\n  \n\n\n\n\n\n\n\n\n  \n\n\n  \n\n\n  \n\n    \n\n      \n\n\n\n      \n\n    \n\n      \nSkip to content\n\n\n      \n\n    \n\n\n      \n      ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "A"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Canonical Ltd.",
+    "host": "github.com"
+  }
+}

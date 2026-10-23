@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T22:37:49Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "B-source-2",
+    "type": "guidance",
+    "title": "Device Security Principles for Manufacturers: Maintain Device Integrity",
+    "publisher": "National Cyber Security Centre (NCSC)",
+    "url": "https://www.ncsc.gov.uk/collection/device-security-principles-for-manufacturers/maintain-device-integrity",
+    "language": "en",
+    "jurisdiction": "United Kingdom (globally referenced best practices)",
+    "applicability": "All enterprise-connected devices requiring firmware integrity protection, secure boot implementation (Guideline 4.2), pre-installed software exploit mitigations (4.4), and physical hardening (4.6); specifically addresses IoT device retirement considerations",
+    "publicationDate": "2025-02-14",
+    "effectiveDate": "2025-05-13",
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:4e76b9bdea64e01c4f7a89e896e244c0a641e6bfed61b37759da6c9fce4ddac7",
+    "textDigest": "sha256:8b71cfc729620e2769a0274dbff9cc8a70f6f3d24b21d1744030f5e13082287f",
+    "finalUrl": "https://www.ncsc.gov.uk/collection/device-security-principles-for-manufacturers/maintain-device-integrity",
+    "retrievedAt": "2026-10-23T22:37:49Z",
+    "contentType": "text/html; charset=UTF-8",
+    "snapshotPath": "source-4e76b9bdea64e01c4f7a89e896e244c0a641e6bfed61b37759da6c9fce4ddac7.bin",
+    "textPath": "source-8b71cfc729620e2769a0274dbff9cc8a70f6f3d24b21d1744030f5e13082287f.txt"
+  },
+  "files": {
+    "snapshots/source-4e76b9bdea64e01c4f7a89e896e244c0a641e6bfed61b37759da6c9fce4ddac7.bin": "sha256:4e76b9bdea64e01c4f7a89e896e244c0a641e6bfed61b37759da6c9fce4ddac7",
+    "snapshots/source-8b71cfc729620e2769a0274dbff9cc8a70f6f3d24b21d1744030f5e13082287f.txt": "sha256:8b71cfc729620e2769a0274dbff9cc8a70f6f3d24b21d1744030f5e13082287f"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.ncsc.gov.uk/collection/device-security-principles-for-manufacturers/maintain-device-integrity",
+  "language": "en",
+  "retrievedAt": "2026-10-23T22:37:49Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T22:37:49Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "Device security principles for manufacturers | 4. Maintain device integrity | National Cyber Security Centre\n \n \n \n \n \nicons/chevron/16px/black\n \n \n \n \n \n \n\n\n \n \nSkip to main content\n \n \n \n \n \n\n\n Please enable JavaScript in your web browser to get the best experience.\n\n\n\n\n \n\n\n\n\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nHome\n \n\n\n \nUtility navigation\n\n\n \n \n \nAbout NCSC\n \n\n\n \n \nReport an incident\n \n\n\n \n \nContact us\n \n\n\n \n \n\n\n \n \n \n \n\n\n \n Open Search \n \n \n \n \n \n\n\n \n Menu \n \n\n\n \nMain navigation\n\n\n \n \n Advice & guidance \n \n \n \n\n\n \n \n \n \n \n\n\n \nBack\nAdvice & guidance\n\n\nOur advice & guidance covers a broad range of topics\n\n\n\n\n \n \n Find information for... \n \n \n \n You & your family \n \n\n\n \n \n Small to medium sized organisations \n \n\n\n \n \n Large organisations \n \n\n\n \n \n Self employed & ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "B"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "National Cyber Security Centre (NCSC)",
+    "host": "www.ncsc.gov.uk"
+  }
+}

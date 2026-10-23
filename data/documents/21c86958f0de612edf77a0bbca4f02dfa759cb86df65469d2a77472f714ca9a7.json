@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T23:09:11Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "E-source-2",
+    "type": "guidance",
+    "title": "Ethics for AI System Design Training",
+    "publisher": "IEEE",
+    "url": "https://ethicsinaction.ieee.org/",
+    "language": "en",
+    "jurisdiction": "International",
+    "applicability": "Provides frameworks for implementing ethical principles in AI development cycles, including documented model choices, bias evaluation methodologies, training data provenance considerations, and deployment approval processes aligned with technical implementation boundaries",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "Overview/Featured",
+        "text": "This training helps bridge the gap between principles and practice, enabling real-world implementation of ethically aligned systems design strategy from the planning phase."
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:2cc9861c5b069364f2bcf9be8895627aac1038447db024ce5f43298221dcc176",
+    "textDigest": "sha256:406b6726667748665a8f50429929e15853f4ff364ba81efc6f050da7d316cb01",
+    "finalUrl": "https://standards.ieee.org/initiatives/autonomous-intelligence-systems/",
+    "retrievedAt": "2026-10-23T23:09:11Z",
+    "contentType": "text/html; charset=UTF-8",
+    "snapshotPath": "source-2cc9861c5b069364f2bcf9be8895627aac1038447db024ce5f43298221dcc176.bin",
+    "textPath": "source-406b6726667748665a8f50429929e15853f4ff364ba81efc6f050da7d316cb01.txt"
+  },
+  "files": {
+    "snapshots/source-2cc9861c5b069364f2bcf9be8895627aac1038447db024ce5f43298221dcc176.bin": "sha256:2cc9861c5b069364f2bcf9be8895627aac1038447db024ce5f43298221dcc176",
+    "snapshots/source-406b6726667748665a8f50429929e15853f4ff364ba81efc6f050da7d316cb01.txt": "sha256:406b6726667748665a8f50429929e15853f4ff364ba81efc6f050da7d316cb01"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://ethicsinaction.ieee.org/",
+  "language": "en",
+  "retrievedAt": "2026-10-23T23:09:11Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T23:10:13Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n\n\n\n\n\n\n\t\t\n\n\t\t\n\n\t\t\n\n\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\n\t\t\n\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\n\n\t\t\t\t\n\n\t\t\t\t\n\n\n\t\t\t\t\n\n\t\t\t\t\n\n\t\t\t\t\n\n\t\t\n\t\t\nIEEE SA - Autonomous and Intelligent Systems (AIS)\n\n\t\t\n\n\t\t\n\n\t\t\n\n\n\t\t\n\n\t\t\n\n\t\t\n\n\n\t\t\n\n\t\t\t\t\n\n\n\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\n\n\n\n\t\t\n\n\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\n\n\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\n\n\n\n\n\n\n\n\t\t\n\n\t\t\t\t\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nIEEE.org\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nIEEE\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nXplore\n®\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nIEEE Standards\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nIEEE Spectrum\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nMore Sites\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\n \n\n\t\t\t\t\t\t\t\t\t\t\n \n\n\t\t\t\t\t\t\t\t\n\n\n \n\n\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\neTools\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nIEEE.org\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\n \n\n\t\t\t\t\t\t\t\t\t\t\n \n\n\t\t\t\t\t\t\t\t\n\n\n \n\n\t\t\t\t\t\t\n\n\n \n\n\t\t\t\t\n\n\n \n\n\t\t",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "E"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "IEEE",
+    "host": "ethicsinaction.ieee.org"
+  }
+}

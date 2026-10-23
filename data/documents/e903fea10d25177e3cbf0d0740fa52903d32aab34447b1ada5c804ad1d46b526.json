@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T22:55:46Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "C-source-3",
+    "type": "guidance",
+    "title": "AWS Interconnect Protocol Design",
+    "publisher": "Amazon Web Services",
+    "url": "https://github.com/aws/Interconnect/blob/main/connection-coordinator/docs/Protocols.md",
+    "language": "en",
+    "jurisdiction": "Global",
+    "applicability": "Production-grade protocol coordination framework demonstrating secure API authentication, channel validation, and data exchange patterns between distributed systems",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:e67d13ef0068929cbdf223cef539d342fc33392292d6ef826988461fc9c8520d",
+    "textDigest": "sha256:f671575c09f09dce0d62c7d1878ae435cdf6ccd92fc4467d91c1bb3c62de69fe",
+    "finalUrl": "https://github.com/aws/Interconnect/blob/main/connection-coordinator/docs/Protocols.md",
+    "retrievedAt": "2026-10-23T22:55:46Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-e67d13ef0068929cbdf223cef539d342fc33392292d6ef826988461fc9c8520d.bin",
+    "textPath": "source-f671575c09f09dce0d62c7d1878ae435cdf6ccd92fc4467d91c1bb3c62de69fe.txt"
+  },
+  "files": {
+    "snapshots/source-e67d13ef0068929cbdf223cef539d342fc33392292d6ef826988461fc9c8520d.bin": "sha256:e67d13ef0068929cbdf223cef539d342fc33392292d6ef826988461fc9c8520d",
+    "snapshots/source-f671575c09f09dce0d62c7d1878ae435cdf6ccd92fc4467d91c1bb3c62de69fe.txt": "sha256:f671575c09f09dce0d62c7d1878ae435cdf6ccd92fc4467d91c1bb3c62de69fe"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://github.com/aws/Interconnect/blob/main/connection-coordinator/docs/Protocols.md",
+  "language": "en",
+  "retrievedAt": "2026-10-23T22:55:46Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T22:55:46Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n\n\n\n  \n\n\n\n\n\n\n\n\n\n  \n\n    \n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n  \n\n\n  \n\n\n    \n\n    \n\n    \n\n    \n\n  \n\n\n\n\n  \n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \nInterconnect/connection-coordinator/docs/Protocols.md at main · aws/Interconnect · GitHub\n\n\n\n\n  \n\n  \n\n  \n\n  \n\n\n    \n  \n\n\n\n  \n\n\n\n    \n\n\n\n  \n\n  \n\n  \n\n  \n\n\n    \n\n\n\n\n\n\n\n\n\n  \n\n\n  \n\n\n\n\n    \n\n\n  \n\n    \n\n\n    \n\n      \n\n\n      \n\n\n    \n\n    \n\n    \n\n\n      \n\n  \n\n  \n\n\n\n\n      \n\n\n\n\n        \n\n\n\n  \n\n  \n\n  \n\n  \n\n\n  \n\n\n      \n\n\n    \n\n\n  \n\n\n  \n\n  \n\n\n\n    \n\n    \n\n  \n\n\n\n  \n\n\n\n  \n\n\n  \n\n  \n\n\n  \n\n  \n\n  \n\n\n\n\n\n\n\n\n  \n\n\n  \n\n\n  \n\n    \n\n      \n\n\n\n      \n\n    \n\n      \nSkip to content\n\n\n      \n\n    \n\n\n      \n      \n\n\n",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "C"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Amazon Web Services",
+    "host": "github.com"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T21:53:26Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "6-source-5",
+    "type": "technical-doc",
+    "title": "Cybersecurity Incident & Vulnerability Response Playbooks",
+    "publisher": "Cybersecurity and Infrastructure Security Agency (CISA)",
+    "url": "https://www.cisa.gov/sites/default/files/2024-08/Federal_Government_Cybersecurity_Incident_and_Vulnerability_Response_Playbooks_508C.pdf",
+    "language": "en",
+    "jurisdiction": "United States",
+    "applicability": "Federal civilian executive branch agencies implementing standardized incident response procedures",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:2277247542d844d2258c0f6892d649d6885f783fc629664924e60638086f47f0",
+    "textDigest": "sha256:113a972c4a27b0cbf11760a53fef70041c31955a5872f71ae903bcc5eaccc29d",
+    "finalUrl": "https://www.cisa.gov/sites/default/files/2024-08/Federal_Government_Cybersecurity_Incident_and_Vulnerability_Response_Playbooks_508C.pdf",
+    "retrievedAt": "2026-10-23T21:53:26Z",
+    "contentType": "application/pdf",
+    "snapshotPath": "source-2277247542d844d2258c0f6892d649d6885f783fc629664924e60638086f47f0.bin",
+    "textPath": "source-113a972c4a27b0cbf11760a53fef70041c31955a5872f71ae903bcc5eaccc29d.txt"
+  },
+  "files": {
+    "snapshots/source-2277247542d844d2258c0f6892d649d6885f783fc629664924e60638086f47f0.bin": "sha256:2277247542d844d2258c0f6892d649d6885f783fc629664924e60638086f47f0",
+    "snapshots/source-113a972c4a27b0cbf11760a53fef70041c31955a5872f71ae903bcc5eaccc29d.txt": "sha256:113a972c4a27b0cbf11760a53fef70041c31955a5872f71ae903bcc5eaccc29d"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.cisa.gov/sites/default/files/2024-08/Federal_Government_Cybersecurity_Incident_and_Vulnerability_Response_Playbooks_508C.pdf",
+  "language": "en",
+  "retrievedAt": "2026-10-23T21:53:26Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T21:53:26Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "                                                                                                                                          TLP:CLEAR\n\n\n\n\n            Cybersecurity Incident\n            & Vulnerability Response Playbooks\n            Operational Procedures for Planning and\n            Conducting Cybersecurity Incident and Vulnerability\n            Response Activities in FCEB Information Systems\n\n\n              Publication: November 2021\n\n\n\nDISCLAIMER: This document is marked TLP:CLEAR. Disclosure is not limited. Sources may use TLP:CLEAR when information carries minimal or no\nforeseeable risk of misuse, in accordance with applicable rules and procedures for public release. Subject to standard copyright rules, TLP:CLEAR information\nmay be distributed without restriction. For mor",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Cybersecurity and Infrastructure Security Agency (CISA)",
+    "host": "www.cisa.gov"
+  }
+}

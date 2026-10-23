@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "129477ba87646454eaec8c8b7213a0281c05cb35fe00754b763b187810d90dab",
+  "cachedAt": "2026-10-23T21:58:46Z",
+  "observedAt": "2026-10-23T21:58:46Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-6-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "6",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "time_range": "",
+    "query": "Logging, Monitoring, and Incident Response official implementation configuration documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792792619870,
+    "end": 1792792621765
+  },
+  "outputDigest": "sha256:75d9d83a19dadf814e7a2afb5024563225989dc074e12a64efb70c5508ce8ee1",
+  "resultUrls": [
+    "http://csrc",
+    "https://cdn.nca.gov.sa/api/public/cms/files/2882e50b-e185-4df0-ab36-4d3feadc23ee_STANDARD_Cybersecurity_Event_Logs_and_Monitoring_Management_Template_en-.pdf",
+    "https://developer-docs.amazon.com/sp-api/lang-en_US/docs/protecting-amazon-spapi-applications-logging-and-monitoring",
+    "https://docs.aws.amazon.com/prescriptive-guidance/latest/aws-security-reference-architecture-pci-data-security-standard-dss/logging-monitoring-and-incident-response.html",
+    "https://goregulus.com/cra-requirements/cra-logging-monitoring-requirements/",
+    "https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-92.pdf",
+    "https://repost.aws/articles/ARgkWK9M87SH2Xd5UBx0e11Q/8-week-incident-response-foundation-practical-implementation-guide",
+    "https://sprinto.com/iso-27001/logging-and-monitoring-policy/",
+    "https://www.cisa.gov/sites/default/files/2026-09/logging-reference-architecture-508.pdf",
+    "https://www.complyjet.com/blog/logging-and-monitoring-policy",
+    "https://www.konfirmity.com/blog/iso-27001-logging-and-monitoring"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Logging, Monitoring, and Incident Response official implementation configuration documentation\",\n  \"results\": [\n    {\n      \"title\": \"ISO 27001 Logging And Monitoring: Key Requirements & Templates ...\",\n      \"url\": \"https://www.konfirmity.com/blog/iso-27001-logging-and-monitoring\",\n      \"content\": \"9 Οκτ 2026 ... Your logging policy must connect to your Vulnerability Management and Incident Response policies. A vulnerability scan finding is a log event. A ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"ISO 27001 Logging and Monitoring Policy Guide - Sprinto\",\n      \"url\": \"https://sprinto.com/iso-27001/logging-and-monitoring-policy/\",\n      \"content\": \"7 Οκτ 2026 ... Logging is not a standalone activity. Ensure logs feed into your incident response plan, risk management framework, and security awareness ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"CRA Logging and Monitoring Requirements: Complete Guide\",\n      \"url\": \"https://goregulus.com/cra-requirements/cra-logging-monitoring-requirements/\",\n      \"content\": \"This guide explains how to design CRA logging and monitoring for your product: what to log, how to protect logs, how long to retain them, how to implement monitoring in constrained IoT and embedded environments, and how logging connects to vulnerability handling, incident response and your CRA technical documentation.\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Logging and Monitoring Policy: Essential Guide + Free Template ...\",\n      \"url\": \"https://www.complyjet.com/blog/logging-and-monitoring-policy\",\n      \"content\": \"8 Μαΐ 2026 ... Respond to and escalate alerts per the Incident Response Policy. All engineering and operations staff, Follow logging configuration requirements ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Cybersecurity Event Logs and Monitoring Management Stan",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "cdn.nca.gov.sa",
+      "csrc",
+      "developer-docs.amazon.com",
+      "docs.aws.amazon.com",
+      "goregulus.com",
+      "nvlpubs.nist.gov",
+      "repost.aws",
+      "sprinto.com",
+      "www.cisa.gov",
+      "www.complyjet.com",
+      "www.konfirmity.com"
+    ]
+  }
+}

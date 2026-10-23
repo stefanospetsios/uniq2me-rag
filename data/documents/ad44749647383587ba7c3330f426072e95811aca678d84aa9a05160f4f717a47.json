@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T21:53:25Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "6-source-4",
+    "type": "technical-doc",
+    "title": "Incident management - Technical response capabilities",
+    "publisher": "National Cyber Security Centre (NCSC)",
+    "url": "https://www.ncsc.gov.uk/collection/incident-management/technical-response-capabilities",
+    "language": "en",
+    "jurisdiction": "United Kingdom",
+    "applicability": "Organizations requiring technical guidance for incident response procedures and evidence handling",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:5e59fa3bc0272f6da8cbdb5fc535e436d02555c6f76bb7eb5a827d6be11910a8",
+    "textDigest": "sha256:8525cee0e456a05e9465005d3629525c35c05a5b58c57e7eb3e1b46102cdeca5",
+    "finalUrl": "https://www.ncsc.gov.uk/collection/incident-management/technical-response-capabilities",
+    "retrievedAt": "2026-10-23T21:53:25Z",
+    "contentType": "text/html; charset=UTF-8",
+    "snapshotPath": "source-5e59fa3bc0272f6da8cbdb5fc535e436d02555c6f76bb7eb5a827d6be11910a8.bin",
+    "textPath": "source-8525cee0e456a05e9465005d3629525c35c05a5b58c57e7eb3e1b46102cdeca5.txt"
+  },
+  "files": {
+    "snapshots/source-5e59fa3bc0272f6da8cbdb5fc535e436d02555c6f76bb7eb5a827d6be11910a8.bin": "sha256:5e59fa3bc0272f6da8cbdb5fc535e436d02555c6f76bb7eb5a827d6be11910a8",
+    "snapshots/source-8525cee0e456a05e9465005d3629525c35c05a5b58c57e7eb3e1b46102cdeca5.txt": "sha256:8525cee0e456a05e9465005d3629525c35c05a5b58c57e7eb3e1b46102cdeca5"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.ncsc.gov.uk/collection/incident-management/technical-response-capabilities",
+  "language": "en",
+  "retrievedAt": "2026-10-23T21:53:25Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T21:53:25Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "Incident management | Develop: Technical response capabilities | National Cyber Security Centre\n \n \n \n \n \nicons/chevron/16px/black\n \n \n \n \n \n \n\n\n \n \nSkip to main content\n \n \n \n \n \n\n\n Please enable JavaScript in your web browser to get the best experience.\n\n\n\n\n \n\n\n\n\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nHome\n \n\n\n \nUtility navigation\n\n\n \n \n \nAbout NCSC\n \n\n\n \n \nReport an incident\n \n\n\n \n \nContact us\n \n\n\n \n \n\n\n \n \n \n \n\n\n \n Open Search \n \n \n \n \n \n\n\n \n Menu \n \n\n\n \nMain navigation\n\n\n \n \n Advice & guidance \n \n \n \n\n\n \n \n \n \n \n\n\n \nBack\nAdvice & guidance\n\n\nOur advice & guidance covers a broad range of topics\n\n\n\n\n \n \n Find information for... \n \n \n \n You & your family \n \n\n\n \n \n Small to medium sized organisations \n \n\n\n \n \n Large organisations \n \n\n\n \n \n Self employed & sole traders ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "National Cyber Security Centre (NCSC)",
+    "host": "www.ncsc.gov.uk"
+  }
+}

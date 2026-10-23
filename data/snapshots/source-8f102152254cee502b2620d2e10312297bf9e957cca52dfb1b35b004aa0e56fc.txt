@@ -1,0 +1,1873 @@
+
+
+
+
+
+
+
+
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+Implementation guide for managers of Artificial intelligence systems
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+  
+
+  
+
+    
+
+      
+
+        
+
+          
+
+            Skip to main content
+          
+
+        
+
+
+
+        
+
+          
+
+            Skip to "About this site"
+          
+
+        
+
+
+
+      
+
+    
+
+    
+
+
+
+      
+
+    
+  
+        
+
+      
+
+        
+
+          
+
+            
+Language selection
+
+
+
+              
+
+    
+
+  
+      
+WxT Language switcher
+
+
+
+    
+
+      
+                    
+Français
+fr
+
+
+
+  
+
+
+  
+
+
+
+
+          
+
+        
+            
+
+      
+
+    
+
+      
+
+      
+ /
+        
+Gouvernement du Canada
+
+      
+
+    
+
+    
+
+    
+
+    
+
+  
+
+
+
+
+  
+
+
+
+
+            
+
+    
+
+  
+      
+WxT Search form
+
+
+
+    
+
+      
+
+  
+
+      
+Search
+
+    
+
+  
+  
+  
+  
+
+
+  
+  
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+        
+
+
+
+      
+
+
+
+      
+
+        
+
+          
+Menu
+
+
+
+          
+Main 
+Menu 
+
+              
+                      
+
+                                  
+
+        
+Home
+
+                  
+
+
+
+        
+
+  
+
+
+
+
+        
+
+
+
+      
+
+        
+
+        
+
+    
+You are here
+
+
+
+    
+
+      
+
+                              
+
+                              
+Canada.ca
+
+                          
+
+
+
+                        
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+    
+
+  
+
+  
+
+    
+
+
+                              
+  
+
+    
+
+
+
+
+  
+
+
+
+
+
+
+
+              
+            
+                  
+
+
+                                
+
+      
+  
+Implementation guide for managers of Artificial intelligence systems
+
+
+
+
+
+  
+
+
+
+
+              
+      
+
+
+                
+                
+                                      
+                  
+                          
+
+            
+
+      
+
+
+  
+    
+
+  
+  
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+    
+
+      
+            
+From: 
+Innovation, Science and Economic Development Canada
+
+
+
+
+
+Supporting implementation of the Voluntary Code of Conduct for Advanced Generative Artificial Intelligence Systems
+
+
+
+
+
+
+
+Table of contents
+
+
+
+
+
+
+	
+Introduction
+
+
+
+	
+The AI system lifecycle
+
+
+
+	
+Guidance for managers of AI systems
+
+	
+
+		
+Best practices for safety
+
+
+
+		
+Best practices for accountability
+
+
+
+		
+Best practices for human oversight & monitoring
+
+
+
+		
+Best practices for transparency
+
+
+
+		
+Best practices for validity & robustness
+
+
+
+	
+
+	
+
+
+
+	
+Repository of relevant resources for managers of AI systems
+
+
+
+
+
+
+
+
+
+
+
+Introduction
+
+
+
+
+
+This guide is intended to help managers of artificial intelligence (AI) systems implement the Voluntary Code of Conduct on the Responsible Development and Management of Advanced Generative AI Systems (the Code).
+
+
+
+
+
+Managers of AI systems operate an AI system to provide a product or service to users. They may do so for internal business purposes, such as to triage resumes for the purpose of hiring employees; or for clients, such as in the provision of a service or a product to other businesses or individuals. Management of an AI system can include activities such as putting a system into operation, controlling its operation, controlling access, and monitoring its operation.
+
+
+
+
+
+The Code sets out six principles (Safety, Accountability, Transparency, Fairness & Equity, Human Oversight & Monitoring, and Validity & Robustness) and eighteen measures that can be implemented by developers and managers of AI systems. These measures are in line with international initiatives to promote responsible AI, such as the G7 Hiroshima Process International Guiding Principles for Organizations Developing Advanced AI systems.
+
+
+
+
+
+By design, the Code's measures and principles are set out at a high level to enable flexible and practical implementation according to different company profiles and use cases. This guide aims to provide more granular advice and suggestions, aligned with the Code, to assist managers in operating their AI systems responsibly. It is not a checklist or a rigid set of steps. Rather, organizations are encouraged to use this information to inform their approach to responsible AI, tailored to their business operations and use cases, and in proportion to the risk profile of their activities.
+
+
+
+
+
+While the Code was originally designed to guide developers and managers of advanced generative AI systems, many of the measures contained in it describe responsible AI practices more generally. This guide may be appropriately used to inform the governance of a broad range of AI systems, including systems that are not generative.
+
+
+
+
+
+The suggestions set out in this guide are intended to be complementary to requirements under other policies and laws in Canada, such as Canadian privacy, competition, consumer protection and copyright law, which already apply to the commercial development and management of AI systems. Additionally, other policies may apply in particular sectors, such as rules for the development and operation of AI systems as medical devices. This guide is not intended to explain these policies, and managers are encouraged to familiarize themselves with their existing obligations under law and policy in Canada.
+
+
+
+
+
+
+
+
+
+The AI system lifecycle
+
+
+
+
+
+AI systems are complex technological systems comprised of different components, such as a model or models, and possibly including a user interface. Their creation and operation typically involve different actors, from entities engaged in data collection and curation, to model development, to system development and validation, to the management of AI systems post-deployment. Other factors that can impact the AI value chain and different roles within it include how the system is deployed, such as through an application programming interface (API) or other methods.
+Footnote 
+1
+
+
+
+
+
+The development and operation of AI systems is complex and iterative, and different organizations may find that their activities or operations do not fit neatly into this guide. Managers are encouraged to apply this guidance as appropriate for their business operations.
+
+
+
+
+
+Safe and responsible AI governance begins with development, which includes preliminary stages such as ideation, planning, and design. AI developers are organizations or entities that design and develop AI systems and/or components of AI systems such as models. The developer of an AI system may be a separate entity than the manager of the AI system, or an entity may be both developer and manager. Additionally, there may be multiple developers for a single system or for system components throughout the AI value chain.
+
+
+
+
+
+Generally, development of an AI system is undertaken before deployment, starting with a problem statement, data collection and curation before moving to model and system design, model development, fine-tuning, and testing. Once the system is ready to be deployed, the developer may make their system available to downstream managers, who manage the system's operations as a product or service post deployment, or the developer may manage the system's operations themselves, to provide a product or service to their users or clients.
+
+
+
+
+
+Managers play a crucial governance role in the AI system lifecycle due to their place in the AI value chain. While managers cannot mitigate all risks – for example, they are not positioned to address all issues related to the model, or to end users' use of the system – managers of AI systems are well-positioned to address risks that arise from system-level design and operational choices, due to their proximity to the context of use. For example, managers can undertake a suite of activities, such as ensuring transparency in the system's design and operations, providing an accessible user experience, managing cybersecurity risks, identifying and addressing model drift, and identifying and reporting serious incidents. Managers are also generally well-positioned to notice and make other adjustments that may be required to continue to safely and transparently operate the system as (or as part of) a product or a service. To better understand their roles and responsibilities, and to ensure that they have the information they need to manage their system effectively, it is important that managers work with other entities in the AI value chain.
+
+
+
+
+
+
+
+
+
+Guidance for managers of AI systems
+
+
+
+
+
+The Code recommends a series of measures that managers can implement to ensure that AI systems are operated in a safe and responsible way. The following sections propose best practices to support the implementation of those measures, as a point of reference for organizations looking to put in place practices for responsible AI governance. While the Code is organized around six overarching principles, measures for managers are only recommended under five of these principles.
+
+
+
+
+
+As a preliminary step in responsible AI management, organizations should lay a proper foundation for AI governance. This starts with establishing a clear vision for how an organization is intending to use AI, for what purposes and in which context. Organizations should also consider their existing organizational structures and practices to determine how best to anchor their AI governance in them.
+
+
+
+
+
+Another important preliminary step for managers is to conduct appropriate due diligence when developing or procuring an AI system, in line with the measures contained in the Code, in advance of deployment of the system. Managers who procure AI systems should put in place rigorous procurement processes, as these decisions determine which systems will be deployed. Steps that managers may consider when procuring AI systems include:
+
+
+
+
+
+
+	
+Developing standardized evaluation criteria that assess technical capabilities, ethical considerations, and alignment with organizational values.
+
+
+
+	
+Requiring vendors to provide comprehensive documentation on system development, testing methodologies, and known limitations.
+
+
+
+	
+Creating cross-functional procurement committees that include technical, legal, ethical, and business stakeholders.
+
+
+
+	
+Requiring transparency in model architecture, training data sources, and performance metrics from vendors.
+
+
+
+	
+Implementing formal due diligence processes for vendor selection that evaluate their track record on responsible AI practices.
+
+
+
+	
+Addressing fairness and equity concerns by incorporating relevant performance metrics into vendor evaluation criteria, including bias testing results across diverse populations.
+
+
+
+	
+Requiring vendors to demonstrate compliance with relevant regulatory frameworks and industry standards.
+
+
+
+
+
+
+
+With these foundational elements in place, organizations can more effectively implement the best practices outlined in the following sections with respect to the management of AI systems.
+
+
+
+
+
+Best practices for safety
+
+
+
+
+
+AI is a versatile family of technologies that are useful for many different purposes, including for integration into many different kinds of products and services. This means that the profile of organizations that manage AI systems will vary widely, from small and medium-sized to large companies, across different sectors and industries, and the systems that organizations manage will also vary widely, depending on the capabilities of the system and its context of use. It is therefore important that organizations spend time identifying the risks that can arise in their operational context. Understanding these risks is critical to the successful management of an AI system. Risks that an AI system might pose include lack of reliable outputs, sharing of proprietary information, system malfunction, failure for vulnerable or historically marginalized groups, vulnerabilities to malicious or misuse by users, or the creation of knock-on effects that can impact society at large. The safety risks associated with AI systems will differ depending on their context of use, and may be more or less serious depending on that context and how different actors are managing those risks.
+
+
+
+
+
+To mitigate risks and promote the safe use of AI systems, the Code recommends that managers of AI systems:
+
+
+
+
+
+Perform a comprehensive assessment of reasonably foreseeable potential adverse impacts, including risks associated with inappropriate or malicious use of the system.
+
+
+
+
+
+Steps that managers may consider to implement this measure include:
+
+
+
+
+
+
+	
+Identify and assess risks that may arise due to the operation of the system, including risks arising due to: i) the intended use(s) of the system; ii) unintended but reasonably foreseeable uses, misuses, or malicious uses; iii) other operational risks, and categorize those risks according to their likelihood, who or what may be affected, and the severity of impacts, including their magnitude and reach. This should be regularly reviewed and updated.
+
+
+
+	
+Consider a range of potential risks, including bias, data protection and privacy risks, risks arising from the use of the system for misinformation or other malicious purposes, cyber security, compliance and reputational risks.
+
+
+
+	
+Involve diverse internal stakeholders (including human resources, information technology, legal, compliance, product, customer service, and business units) in risk assessment processes to ensure multiple organizational perspectives are considered.
+
+
+
+	
+Identify and assess how fundamental rights may be negatively impacted by the operation of the AI system.
+
+
+
+	
+Identify and assess how vulnerable groups (such as children, the elderly, or historically marginalized groups) may be negatively impacted by the operation of the AI system.
+
+
+
+	
+Develop detailed impact scenarios across different user groups and use cases.
+
+
+
+	
+Conduct structured workshops with diverse stakeholders to identify potential impacts, including potential second and third-order effects of system deployment.
+
+
+
+	
+Implement regular horizon scanning for emerging risks and threat vectors, such as malicious attacks.
+
+
+
+	
+Conduct testing to identify vulnerabilities in the AI system and its deployment environment, including adversarial testing and regular testing for malfunctions.
+
+
+
+
+
+
+
+Best practices for accountability
+
+
+
+
+
+As well as spending time identifying risks that can arise in their operational context, it is similarly important that organizations set in place policies and procedures to address those risks. This includes socializing this information with their employees, who may be tasked with maintaining the system, identifying and responding to incidents, engaging with end users, and monitoring its operations. Setting in place practices, policies, and procedures to manage and address risks will ensure that organizations and employees understand their responsibilities and can respond quickly and appropriately to incidents and issues when they arise.
+
+
+
+
+
+Ensuring that the organization, including its employees and others it engages with, understands its responsibilities and knows how to act should something go wrong, is foundational to responsible AI governance. Strong AI literacy across all levels of the organization enables better risk management.
+
+
+
+
+
+To establish these norms, it is important to establish and maintain a risk management framework. The Code recommends that managers of AI systems:
+
+
+
+
+
+Implement a comprehensive risk management framework proportionate to the nature and risk profile of activities. This includes establishing policies, procedures, and training to ensure that staff are familiar with their duties and the organization's risk management practices.
+
+
+
+
+
+Steps that managers may consider to implement this measure include:
+
+
+
+
+
+
+	
+Develop and maintain a risk management framework that explains how identified risks are being mitigated (by the manager or by others in the value chain), with whom decision-making authorities lie, and expected response timelines to address risks.
+
+
+
+	
+Set in place a policy identifying when to deactivate or cease the operations of systems, as well as a procedure for how to decommission systems in a manner that mitigates risk.
+
+
+
+	
+Set in place policies for staff, including training, to socialize organizational expectations, procedures, and authorities if an incident occurs. This training should be regularly updated to reflect the evolving nature of AI risks and best practices.
+
+
+
+	
+Provide role-specific training and upskilling opportunities. This could include, for example, general training for all employees on the responsible use of generative AI tools, and specialized instruction for technical teams on AI development, deployment, and maintenance.
+
+
+
+	
+Implement version control for the AI system and its components, and establish a formal change management process to track and assess the impact of updates and modifications.
+
+
+
+	
+Maintain a centralized repository of all AI system documentation including: risk assessments, incident reports, system modifications, user feedback, and performance metrics with an appropriate retention period.
+
+
+
+	
+Provide clear user guidance including acceptable use policies that outline appropriate system usage, prohibited activities, user responsibilities, and potential consequences of misuse. These guidelines should be easily accessible, written in plain language, and updated regularly.
+
+
+
+
+
+
+
+The organization's risk assessment and management frameworks will require regular review and updates to integrate new information, and to ensure that they continue to address organizational needs.
+
+
+
+
+
+To further promote a culture of accountability throughout the AI value chain and across the industry, the Code also recommends that managers of AI systems:
+
+
+
+
+
+Share information and best practices on risk management with firms playing complementary roles in the ecosystem.
+
+
+
+
+
+Steps that managers may consider to implement this measure include:
+
+
+
+
+
+
+	
+Publish de-identified risk assessment findings and mitigation strategies.
+
+
+
+	
+Collaborate with other organizations to develop standardized risk assessment tools.
+
+
+
+	
+Contribute to industry forums and working groups on AI risk management.
+
+
+
+
+
+
+
+Best practices for human oversight & monitoring
+
+
+
+
+
+Due to their place in the AI value chain, managers are best positioned to ensure that systems are not operating fully autonomously and that there is a human in the loop to monitor, update and maintain the system's operations. This role can also ensure that incidents are identified and addressed quickly when they arise, ensuring a smooth user experience and mitigating the risk that a small incident becomes a serious one.
+
+
+
+
+
+In this context, the Code recommends that managers of AI systems:
+
+
+
+
+
+Monitor the operation of the system for harmful uses or impacts after it is made available, including through the use of third party feedback channels, and inform the developers and/or implement usage controls as needed to mitigate harm.
+
+
+
+
+
+Steps that managers may consider to implement this measure include:
+
+
+
+
+
+
+	
+Establish ongoing monitoring and evaluation procedures for deployed AI systems.
+
+
+
+	
+Develop automated detection systems for potential harmful uses.
+
+
+
+	
+Monitor the AI system's performance across different demographic groups or other relevant categories.
+
+
+
+	
+Monitor user behaviour regarding the system, and provide a place for user feedback on their experience of the system.
+
+
+
+	
+Collect and analyze user feedback, incident reports, and other relevant data.
+
+
+
+	
+Conduct regular evaluations of model performance to detect and address model drift.
+
+
+
+	
+Create multiple feedback channels for users and affected parties.
+
+
+
+	
+Establish regular review procedures for reported incidents.
+
+
+
+	
+Implement mechanisms to address and mitigate harmful uses or impacts.
+
+
+
+	
+Maintain incident response teams with clear escalation procedures.
+
+
+
+	
+Establish protocols and communication channels for informing developers about identified issues or performance concerns, including sharing relevant monitoring data.
+
+
+
+
+
+
+
+Best practices for transparency
+
+
+
+
+
+The place of managers in the AI value chain means that they are well-positioned to provide transparency regarding the system to users. Robust transparency practices can promote trust, enhance user satisfaction, mitigate risks of misuse and malfunction, and ensure that the system continues to perform as intended. To enhance transparency, the Code recommends that managers of AI systems:
+
+
+
+
+
+Ensure that systems that could be mistaken for humans are clearly and prominently identified as AI systems.
+
+
+
+
+
+Steps that managers may consider to implement this measure include:
+
+
+
+
+
+
+	
+Develop and implement standardized AI identification protocols for all interaction types (e.g., chatbots, email, phone), including consistent disclosure notices.
+
+
+
+	
+Provide free and accessible information to users about the nature and capabilities of AI systems, including information on how they are developed, operated and maintained.
+
+
+
+	
+Consider whether user interface choices, for example, the use of personal pronouns, self-attributions of mental states, or emotions by user-facing chatbots, are required and appropriate for the use case.
+
+
+
+	
+Establish processes to document when content was generated by an AI system, for example by adding standardized tags to AI outputs when they are stored or distributed.
+
+
+
+
+
+
+
+While it is crucial to maintain transparency with regard to when a product or service using AI could be mistaken for a human, it is equally important to ensure that end users know when AI is being used to shape their experience of an AI-enabled product or service, and how the AI system is contributing to their experience. This promotes user choice and enables users to better understand when they are engaging with an AI system, and what it is doing. It is also recommended to provide transparency regarding the capabilities, risks, and limitations of the system, and the manager's expectations for how users can use the system, as well as what is considered by the company to be misuse.
+
+
+
+
+
+Best practices for validity & robustness
+
+
+
+
+
+The performance of an AI system is valid when it performs as intended for the uses for which it was designed. A system is robust when it performs as intended across many different kinds of scenarios, including scenarios that are diverse or unusual. Validity and robustness therefore refer to the optimal and reliable performance of the system under many different kinds of conditions.
+
+
+
+
+
+To ensure AI systems perform optimally and reliably, managers should consider testing their system's performance against diverse real-world inputs and under adverse or challenging conditions, retesting after significant updates, identifying and documenting the system's limitations, and – especially in high-stakes applications where errors could have significant consequences – verifying critical outputs.
+
+
+
+
+
+While the measures discussed previously are recommended for managers of both public-facing and non-public facing AI systems, the Code additionally recommends that managers of public-facing AI systems take further steps to protect the validity and robustness of the system's operations, by:
+
+
+
+
+
+Performing an assessment of cyber-security risk and implementing proportionate measures to mitigate risks, including with regard to data poisoning.
+
+
+
+
+
+Steps that managers may consider to implement this measure include:
+
+
+
+
+
+
+	
+Implement comprehensive security testing protocols.
+
+
+
+	
+Create automated security scanning tools and procedures.
+
+
+
+	
+Establish regular security audit procedures.
+
+
+
+	
+Develop incident response plans for security breaches.
+
+
+
+	
+Maintain security monitoring systems for early threat detection.
+
+
+
+	
+Adopt general cybersecurity best practices.
+
+
+
+
+
+
+
+
+
+
+
+Repository of relevant resources for managers of AI systems
+
+
+
+
+
+Recognizing the important role that managers of AI systems play in AI governance, this guide sets out a starting place for organizations to seek information related to responsible AI.
+
+
+
+
+
+
+	
+
+	
+There are many existing resources to help AI businesses succeed at AI governance. The list below is a subset of resources that may be of particular interest to managers of AI systems looking to implement the measures found in the Code.
+
+
+
+	
+
+	
+
+		
+
+			
+Organization
+
+			
+Document
+
+			
+Date
+
+			
+Short description
+
+		
+
+	
+
+	
+
+		
+
+			
+International Standards Organization (ISO)
+
+			
+ISO/IEC 42001:2023 – AI management system
+
+			
+2023
+
+			
+ISO 42001 sets out a standard for risk management for companies involved in developing, providing or using an AI system.
+
+		
+
+		
+
+			
+Digital Governance Standards Institute
+
+			
+CAN/DGSI 101 – Ethical Design and Use of Artificial Intelligence by Small and Medium Organizations
+
+			
+2025
+
+			
+Provides a framework for small and medium organisations to assess and manage risks with Ai systems and align with international and Canadian guidance on safe and responsible AI.
+
+		
+
+		
+
+			
+National Institute for Standards and Technology (NIST)
+
+			
+NIST AI Risk Management Framework
+
+			
+2023
+
+			
+NIST is an Agency of the United States' Department of Commerce. NIST's RMF provides resources for understanding risks, impacts, and mitigation measures throughout the AI value chain.
+
+		
+
+		
+
+			
+National Institute for Standards and Technology (NIST)
+
+			
+NIST AI 600-1 AI RMF Generative AI Profile
+
+			
+2024
+
+			
+This document is a cross-sectoral profile of and companion resource for the AI Risk Management Framework for Generative AI.
+
+		
+
+		
+
+			
+EU AI Office
+
+			
+Living Repository of AI Literacy Practices
+
+			
+Living database
+
+			
+This repository provides examples of ongoing AI literacy practices among providers and deployers of AI systems.
+
+		
+
+		
+
+			
+EU AI Office
+
+			
+General-Purpose AI Code of Practice
+
+			
+2025 (Draft)
+
+			
+The Code is a guiding document for providers of general-purpose AI models in demonstrating compliance with the AI Act along the full life cycle of the models. While the code mostly apply to developers, it is also relevant for managers overseeing high-impact AI systems. It provides guidelines on risk assessment, mitigation, and governance.
+
+		
+
+		
+
+			
+Organisation for Economic Co-operation and Development (OECD)
+
+			
+OECD AI Incidents Monitor (AIM)
+
+			
+Living database
+
+			
+The OECD AI Incidents Monitor (AIM) documents AI incidents and hazards to help policymakers, AI practitioners, and all stakeholders worldwide gain valuable insights into the risks and harms of AI systems.
+
+		
+
+		
+
+			
+Organisation for Economic Co-operation and Development (OECD)
+
+			
+Catalogue of Tools & Metrics for Trustworthy AI
+
+			
+Living database
+
+			
+This catalogue makes it easier to find tools and metrics by providing a one-stop-shop for helpful approaches, mechanisms and practices for trustworthy AI.
+
+		
+
+		
+
+			
+Organisation for Economic Co-operation and Development (OECD)
+
+			
+Framework for the Classification of AI systems
+
+			
+2022
+
+			
+A user-friendly tool to characterize the application of an AI system deployed in specific context. The framework classifies AI systems and applications along the following dimensions: People & Planet, Economic Context, Data & Input, AI Model and Task & Output. Each one has its own properties and attributes or sub-dimensions relevant to assessing policy considerations of particular AI systems.
+
+		
+
+		
+
+			
+Massachusetts Institute of Technology (MIT)
+
+			
+MIT AI Risk Repository
+
+			
+Living database
+
+			
+A comprehensive living database of over 1000 AI risks categorized by their cause and risk domain.
+
+		
+
+		
+
+			
+AI Standards Hub
+
+			
+Standards Database
+
+			
+Living Database
+
+			
+The Standards Database is a searchable catalogue covering more than 400 relevant standards that are being developed or have been published by a range of prominent Standards Development Organisations.
+
+		
+
+		
+
+			
+UK Department for Science, Innovation and Technology's (DSIT)
+
+			
+AI Management Essentials (AIME) tool
+
+			
+2024 (Draft)
+
+			
+
+			
+AIME is a self-assessment tool that aims to help organisations assess and implement responsible AI management systems and processes.
+
+
+
+
+			
+AIME can be used by any organisation that develops, provides or uses services that utilise AI systems as part of its standard business operations. AIME is sector agnostic and may be used by organisations of different sizes. However, it is primarily intended for Small to medium-sized enterprises (SMEs) and start-ups that encounter barriers when navigating the evolving landscape of AI management standards and frameworks.
+
+
+
+			
+
+		
+
+	
+
+
+
+
+
+
+
+
+
+Footnotes
+
+
+
+
+
+
+	
+Footnote 1
+
+	
+
+	
+The OECD defines an 
+AI system
+ as: a machine-based system that, for explicit or implicit objectives, infers, from the input it receives, how to generate outputs such as predictions, content, recommendations, or decisions that can influence physical or virtual environments. Different AI systems vary in their levels of autonomy and adaptiveness after deployment.
+
+
+
+
+	
+Return to footnote 
+1
+ referrer
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+      
+  
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+          
+
+  
+
+    
+
+      
+
+  
+    
+
+      
+ 
+Report a problem
+
+  
+
+
+
+  
+    
+
+      
+
+
+Date modified:
+
+
+2025-03-06
+
+
+
+  
+
+
+    
+
+
+
+  
+
+
+
+
+
+
+
+
+              
+
+
+      
+
+
+                        
+                        
+    
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+    
+
+      
+
+  
+
+    
+
+          
+
+        
+
+            
+
+
+          
+  
+  
+pied de page bande ctx 1
+
+
+
+  
+
+            
+ISED-ISDE
+
+
+
+    
+    
+              
+
+                      
+
+        
+Contact ISED
+
+
+
+                        
+
+
+
+        
+
+  
+
+
+  
+
+        
+
+
+
+    
+
+
+
+
+    
+
+
+
+  
+
+
+
+
+
+
+
+
+    
+
+
+
+  
+
+
+
+
+
+
+            
+
+        
+
+          
+
+              
+
+    
+
+  
+Government of Canada
+
+
+
+
+  
+
+    
+All contacts
+
+
+
+    
+Departments and agencies
+
+
+
+    
+About government
+
+
+
+    
+Themes and topics
+
+    
+Jobs
+
+
+
+    
+Immigration and citizenship
+
+
+
+    
+Travel and tourism
+
+
+
+    
+Business
+
+
+
+    
+Benefits
+
+
+
+    
+Health
+
+
+
+    
+Taxes
+
+
+
+    
+Environment and natural resources
+
+
+
+    
+National security and defence
+
+
+
+    
+Culture, history and sport
+
+
+
+    
+Policing, justice and emergencies
+
+
+
+    
+Transport and infrastructure
+
+
+
+    
+Canada and the world
+
+
+
+    
+Money and finance
+
+
+
+    
+Science and innovation
+
+
+
+    
+Indigenous peoples
+
+
+
+    
+Veterans and military
+
+
+
+    
+Youth
+
+
+
+  
+
+
+
+
+
+
+  
+    
+
+      
+            
+
+
+
+
+
+
+
+      
+  
+
+
+  
+
+
+
+
+          
+
+
+
+        
+
+
+
+        
+
+          
+
+            
+
+                
+
+    
+
+      
+  
+Brand
+
+
+
+  
+
+          
+
+    
+Social media
+
+
+
+    
+Mobile applications
+
+
+
+    
+About Canada.ca
+
+
+
+    
+Terms and conditions
+
+
+
+    
+Privacy
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+              
+
+                
+Top of Page
+
+              
+
+
+
+              
+
+                
+
+              
+
+
+
+            
+
+
+
+          
+
+
+
+        
+
+
+
+      
+
+      
+  
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+

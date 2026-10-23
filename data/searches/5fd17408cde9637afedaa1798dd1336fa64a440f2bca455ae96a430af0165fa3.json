@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "5fd17408cde9637afedaa1798dd1336fa64a440f2bca455ae96a430af0165fa3",
+  "cachedAt": "2026-10-23T22:32:37Z",
+  "observedAt": "2026-10-23T22:32:37Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-A-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "A",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "blockchain cryptographic implementation configuration technical specification site:ietf.org OR site:nist.gov OR site:et.gr OR site:cyber.gov.gr"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792794711282,
+    "end": 1792794712825
+  },
+  "outputDigest": "sha256:eeac0d9e363bdbdd9fc037a81b2fc703dd791a082cfae313ec064e7bf4c91fd9",
+  "resultUrls": [
+    "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4853.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"FIPS 140-2 Security Policy Template\",\n      \"url\": \"https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4853.pdf\",\n\n...1392084 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_16ae45af6001Bub5VwyXcaK1Yc\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "A"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "csrc.nist.gov"
+    ]
+  }
+}

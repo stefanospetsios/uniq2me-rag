@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "5f80c14f3817c9a689e2cd76ccc8c26886de5861da2f4762f62eaa4d0c7ba647",
+  "cachedAt": "2026-10-23T22:18:02Z",
+  "originRunId": "qwen3-40019296746",
+  "sourceUrl": "https://pages.nist.gov/nccoe-devsecops/",
+  "finalUrl": "https://pages.nist.gov/nccoe-devsecops/",
+  "language": "en",
+  "publisher": "National Institute of Standards and Technology (NIST)",
+  "title": "NIST Secure Software Development, Security, and Operations (DevSecOps) Practices",
+  "retrievedAt": "2026-10-23T22:11:59Z",
+  "byteDigest": "sha256:eba52d95cde1c4a820dc1c8e97141e30df87ee59d452d310711ef16cc13fd651",
+  "textDigest": "sha256:ab48852b2c36260ec70928e1dce39ab2120925457d45c11c6d61a857a594465c",
+  "sourceId": "8-source-2",
+  "passageId": "p1",
+  "locator": "Section 5.1.1.5",
+  "quotation": "5.1.1.5. Scenario A-5: Risk Management",
+  "originalText": "5.1.1.5. Scenario A-5: Risk Management",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T22:18:02Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "National Institute of Standards and Technology (NIST)",
+    "host": "pages.nist.gov"
+  }
+}

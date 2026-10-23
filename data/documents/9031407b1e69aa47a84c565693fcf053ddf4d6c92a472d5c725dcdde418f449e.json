@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T21:08:58Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "2-source-3",
+    "type": "technical-doc",
+    "title": "Backup and DR documentation",
+    "publisher": "Google Cloud",
+    "url": "https://docs.cloud.google.com/backup-disaster-recovery/docs",
+    "language": "en",
+    "jurisdiction": "Global (product-specific)",
+    "applicability": "Cloud service users implementing backup strategies, recovery testing, and business continuity workflows within Google Cloud infrastructure",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:03a093db19e6650068b9292408b73f6d9b81414f3a13af20c716667154813585",
+    "textDigest": "sha256:43df32ee86cc2a074d4a5b4b0b3089caa95f030b48c553373452006f21b26673",
+    "finalUrl": "https://docs.cloud.google.com/backup-disaster-recovery/docs",
+    "retrievedAt": "2026-10-23T21:08:58Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-03a093db19e6650068b9292408b73f6d9b81414f3a13af20c716667154813585.bin",
+    "textPath": "source-43df32ee86cc2a074d4a5b4b0b3089caa95f030b48c553373452006f21b26673.txt"
+  },
+  "files": {
+    "snapshots/source-03a093db19e6650068b9292408b73f6d9b81414f3a13af20c716667154813585.bin": "sha256:03a093db19e6650068b9292408b73f6d9b81414f3a13af20c716667154813585",
+    "snapshots/source-43df32ee86cc2a074d4a5b4b0b3089caa95f030b48c553373452006f21b26673.txt": "sha256:43df32ee86cc2a074d4a5b4b0b3089caa95f030b48c553373452006f21b26673"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://docs.cloud.google.com/backup-disaster-recovery/docs",
+  "language": "en",
+  "retrievedAt": "2026-10-23T21:08:58Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T21:08:58Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n      \n\n      \n        \n\n      \n\n    \n\n      \nBackup and DR documentation  |  Google Cloud Documentation\n\n\n\n\n  \n\n  \n\n  \n\n  \n  \n  \n\n  \n  \n  \n  \n  \n\n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n  \n  \n  \n    \n  \n  \n\n    \n\n  \n\n  \n    \n\n  \n  \n    \n\n      \n      Skip to main content\n    \n\n    \n\n      \n\n        \n\n\n\n\n  \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n    \n\n      \n\n        \n\n        \n\n        \n\n\n\n  \n\n  \n  \n\n    \n    \n\n    \n    \n\n  \n\n  \n\n\n\n\n\n\n\n\n\n    ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "2"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Google Cloud",
+    "host": "docs.cloud.google.com"
+  }
+}

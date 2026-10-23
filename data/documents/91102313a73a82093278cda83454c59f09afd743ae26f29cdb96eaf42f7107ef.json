@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T22:47:05Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "C-source-2",
+    "type": "technical-doc",
+    "title": "HiveMQ Edge Protocol Adapters",
+    "publisher": "HiveMQ",
+    "url": "https://docs.hivemq.com/hivemq-edge/protocol-adapters.html",
+    "language": "en",
+    "jurisdiction": "Global",
+    "applicability": "MQTT protocol adapter configuration with quality of service levels and system integration requirements",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:de8cda5777800453f10a33d147b1eb48467b10371d794c5c416c903fa1cb65c3",
+    "textDigest": "sha256:84f433a802482c9272d6376ed4e75a5043c34c48894c8b6a98c23d37594ef0bd",
+    "finalUrl": "https://docs.hivemq.com/hivemq-edge/protocol-adapters.html",
+    "retrievedAt": "2026-10-23T22:47:05Z",
+    "contentType": "text/html; charset=UTF-8",
+    "snapshotPath": "source-de8cda5777800453f10a33d147b1eb48467b10371d794c5c416c903fa1cb65c3.bin",
+    "textPath": "source-84f433a802482c9272d6376ed4e75a5043c34c48894c8b6a98c23d37594ef0bd.txt"
+  },
+  "files": {
+    "snapshots/source-de8cda5777800453f10a33d147b1eb48467b10371d794c5c416c903fa1cb65c3.bin": "sha256:de8cda5777800453f10a33d147b1eb48467b10371d794c5c416c903fa1cb65c3",
+    "snapshots/source-84f433a802482c9272d6376ed4e75a5043c34c48894c8b6a98c23d37594ef0bd.txt": "sha256:84f433a802482c9272d6376ed4e75a5043c34c48894c8b6a98c23d37594ef0bd"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://docs.hivemq.com/hivemq-edge/protocol-adapters.html",
+  "language": "en",
+  "retrievedAt": "2026-10-23T22:47:05Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T22:47:05Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n\n\n  \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \nHiveMQ Edge Protocol Adapters :: HiveMQ Documentation\n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n  \n\n  \n\n\n\n\n\n\n\n\n\n  \n\n    \n\n      \n\n        \n\n          \n\n        \n\n        \nHiveMQ Documentation\n\n      \n\n\n\n      \n\n        \n\n        \n\n        \n\n      \n\n    \n\n\n\n    \n\n      \n\n        \n\n          \n\n        \n\n\n\n        \n\n          \n\n            \nGet HiveMQ\n\n          \n\n        \n\n\n\n      \n\n\n\n    \n\n\n\n    \n\n        \nHiveMQ Platform\n\n        \nHiveMQ Enterprise MQTT Broker\n\n        \nHiveMQ Enterprise Extensions\n\n        \nHiveMQ Cloud\n\n        \nHiveMQ Edge\n\n        \nHiveMQ Platform Operator\n\n        \nHiveMQ Swarm\n\n    \n\n\n\n  \n\n\n\n\n\n\n\n  \n\n    \n\n\n\n  \n\n    \n\n\n\n  \n\n\n\n  \n\n    \n\n    \nHiveMQ Edge\n\n\n\n  \n\n    \nSystem Requirements\n\n  \n\n\n",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "C"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "HiveMQ",
+    "host": "docs.hivemq.com"
+  }
+}

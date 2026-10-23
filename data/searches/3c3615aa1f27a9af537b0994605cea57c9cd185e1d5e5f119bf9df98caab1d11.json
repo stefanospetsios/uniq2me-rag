@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "3c3615aa1f27a9af537b0994605cea57c9cd185e1d5e5f119bf9df98caab1d11",
+  "cachedAt": "2026-10-23T21:08:56Z",
+  "observedAt": "2026-10-23T21:08:56Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-2-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "2",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "backups disaster recovery business continuity official maintainer implementation configuration documentation site:europa.eu OR site:cyber.gov.gr OR site:enisa.europa.eu"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792789693553,
+    "end": 1792789695029
+  },
+  "outputDigest": "sha256:e8199dd6dfdc3dab086561d915894ad44c1b94c81caf6a1ed6d5537f9dcfd060",
+  "resultUrls": [
+    "https://www.enisa.europa.eu/sites/default/files/publications/BCM_for_SME_Example_BCP-Template.pdf",
+    "https://www.enisa.europa.eu/topics/risk-management/current-risk/bcm-resilience/bc-plan/it-service-continuity-plan"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"IT Service Continuity Plan\",\n      \"url\": \"https://www.enisa.europa.eu/topics/risk-management/current-risk/bcm-resilience/bc-plan/it-service-continuity-plan\",\n      \"content\": \"IT Service Continuity Plan — ENISA\\n\\nThe Information Technology Service Continuity Plan is the collection of policies, standards, procedures and tools through which organisations not only improve their ability to respond when major system failures occur, but also improve their resilience to major incidents, ensuring that critical systems and services do not fail or that failures are recovered within acceptable process RTO limits.\\n\\nBIA information is used to define the process RTO and determine the recovery prioritisation. This makes the recovery process a user-centric activity matching business requirements.\\n\\nThe recovery plans are organised in a hierarchy. A site loss plan details the systems which would be affected by the loss of a building. A separate plan for each service should provide detailed procedures and step-by-step guidelines for each stage of an incident so that the Recovery Teams are able to restore the services and thereby to meet the agreed process and component RTOs.\\n\\nThe plans should be clear and concise and expect a level of knowledge but not presume explicit local knowledge, in the event that external assistance is required to rebuild systems (the same is true of Disaster Recovery Plans). Each procedure should be self-contained so that it can be utilised to effect recovery of a single system or component (e.g. the server is running successfully but the database management system has crashed). Each document must also contain details of pre-requisites; this means that in the event of multiple component failures the correct sequence can be followed (e.g. replace failed disk, rebuild operating system, install database, configure security settings and then restore data).\\n\\nIn summary the IT Service Continuity Plan should typically ",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "2"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "www.enisa.europa.eu"
+    ]
+  }
+}

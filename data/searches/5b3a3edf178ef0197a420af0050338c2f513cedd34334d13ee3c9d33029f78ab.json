@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "5b3a3edf178ef0197a420af0050338c2f513cedd34334d13ee3c9d33029f78ab",
+  "cachedAt": "2026-10-23T22:37:47Z",
+  "observedAt": "2026-10-23T22:37:47Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-B-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "B",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "hardware security secure boot firmware updates physical access safeguards device retirement official maintainer technical documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792795037268,
+    "end": 1792795038411
+  },
+  "outputDigest": "sha256:e980f392ae40c55b5984e04784b618844aeebd224aa5ae95f4daadb11383476b",
+  "resultUrls": [
+    "https://schema.org",
+    "https://trustedcomputinggroup.org/wp-content/uploads/TCG-Secure-Update-of-SW-and-FW-on-Devices-v1r72_pub.pdf",
+    "https://www.ncsc.gov.uk/",
+    "https://www.ncsc.gov.uk/collection/device-security-principles-for-manufacturers/maintain-device-integrity"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Device security principles for manufacturers\",\n      \"url\": \"https://www.ncsc.gov.uk/collection/device-security-principles-for-manufacturers/maintain-device-integrity\",\n      \"content\": \"Skip to main content\\n\\nGuidance\\n\\n# Device security principles for manufacturers\\n\\nPrinciples to guide manufacturers in the design of secure, enterprise-connected devices.\\n\\n## Pages\\n\\nPage 5 of 12\\n\\n## 4. Maintain device integrity\\n\\nAll devices rely on core software and firmware that are essential to their operation, such as their operating systems and bootloaders. If an attacker compromises or modifies this code, the attacker could control or subvert the device functionality. Compromised or modified code is challenging to identify and remove from the device.\\n\\nDemonstrating that these crucial components are correct and haven’t been modified each time the device starts helps prevent the device booting into a pre-compromised state. This can be achieved by cryptographic checks based on a hardware root of trust, which make it substantially more difficult for an attacker to interfere.\\n\\n---\\n\\n## Guideline 4.1: The firmware and operating system on the device shall only be modifiable using authorised update mechanisms\\n\\nThis guideline applies to all devices.\\n\\nIt is important that malware, and attackers with physical access to a device can’t modify the system. If a device is updated through an unauthorised mechanism, the integrity of the device is undermined. By restricting the device to only accept authorised updates, it limits the ability of malicious actors to gain persistent access.\\n\\nDesirable properties in an authorised update mechanism are discussed in principle 1, but the device must also ensure that the applied updates come from an authorised update mechanism. As such, not all devices meeting principle 1 will also meet this guideline.\\n\\nExample: The operating system image is integrity protected using hash trees to ensure that ",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "B"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "schema.org",
+      "trustedcomputinggroup.org",
+      "www.ncsc.gov.uk"
+    ]
+  }
+}

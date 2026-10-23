@@ -1,0 +1,1705 @@
+ <!DOCTYPE html>
+		<html
+			class="layout layout-holy-grail   show-table-of-contents conceptual show-breadcrumb default-focus"
+			lang="en-us"
+			dir="ltr"
+			data-authenticated="false"
+			data-auth-status-determined="false"
+			data-target="docs"
+			x-ms-format-detection="none"
+		>
+			
+		<head>
+			<title>Manage emergency access admin accounts - Microsoft Entra ID | Microsoft Learn</title>
+			<meta charset="utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<meta name="color-scheme" content="light dark" />
+
+			<meta name="description" content="This article describes how to use emergency access accounts to help prevent being inadvertently locked out of your Microsoft Entra organization." />
+			<link rel="canonical" href="https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/security-emergency-access" /> 
+
+			<!-- Non-customizable open graph and sharing-related metadata -->
+			<meta name="twitter:card" content="summary_large_image" />
+			<meta name="twitter:site" content="@MicrosoftLearn" />
+			<meta property="og:type" content="website" />
+			<meta property="og:image:alt" content="Microsoft Learn" />
+			<meta property="og:image" content="https://learn.microsoft.com/en-us/media/open-graph-image.png" />
+			<!-- Page specific open graph and sharing-related metadata -->
+			<meta property="og:title" content="Manage emergency access admin accounts - Microsoft Entra ID" />
+			<meta property="og:url" content="https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/security-emergency-access" />
+			<meta property="og:description" content="This article describes how to use emergency access accounts to help prevent being inadvertently locked out of your Microsoft Entra organization." />
+			<meta name="platform_id" content="e3acea6f-aac1-0920-4b59-52c1fa7082f1" /> <meta name="scope" content="Microsoft Entra" />
+			<meta name="locale" content="en-us" />
+			 
+			<meta name="uhfHeaderId" content="MSDocsHeader-Entra" />
+
+			<meta name="page_type" content="conceptual" />
+
+			<!--page specific meta tags-->
+			
+
+			<!-- custom meta tags -->
+			
+		<meta name="breadcrumb_path" content="/entra/breadcrumb/toc.json" />
+	
+		<meta name="feedback_system" content="Standard" />
+	
+		<meta name="feedback_product_url" content="https://feedback.azure.com/d365community/forum/22920db1-ad25-ec11-b6e6-000d3a4f0789" />
+	
+		<meta name="author" content="rolyon" />
+	
+		<meta name="ms.author" content="rolyon" />
+	
+		<meta name="ms.service" content="entra-id" />
+	
+		<meta name="ms.subservice" content="role-based-access-control" />
+	
+		<meta name="manager" content="pmwongera" />
+	
+		<meta name="ms.date" content="2026-06-04T00:00:00Z" />
+	
+		<meta name="ms.topic" content="how-to" />
+	
+		<meta name="ms.custom" content="it-pro, sfi-ga-nochange, sfi-image-nochange" />
+	
+		<meta name="ms.reviewer" content="mwahl" />
+	
+		<meta name="ai-usage" content="ai-assisted" />
+	
+		<meta name="document_id" content="fff5de5d-9a97-73ff-4694-79027720b5c3" />
+	
+		<meta name="document_version_independent_id" content="566a8387-bbdd-8e35-13cc-f2d891bd5608" />
+	
+		<meta name="updated_at" content="2026-06-05T07:33:00Z" />
+	
+		<meta name="original_content_git_url" content="https://github.com/MicrosoftDocs/entra-docs-pr/blob/live/docs/identity/role-based-access-control/security-emergency-access.md" />
+	
+		<meta name="gitcommit" content="https://github.com/MicrosoftDocs/entra-docs-pr/blob/149f9bd83afb633f3c3672127255a095e6561bf2/docs/identity/role-based-access-control/security-emergency-access.md" />
+	
+		<meta name="git_commit_id" content="149f9bd83afb633f3c3672127255a095e6561bf2" />
+	
+		<meta name="site_name" content="Docs" />
+	
+		<meta name="depot_name" content="MSDN.entra-docs" />
+	
+		<meta name="schema" content="Conceptual" />
+	
+		<meta name="toc_rel" content="toc.json" />
+	
+		<meta name="feedback_help_link_type" content="" />
+	
+		<meta name="feedback_help_link_url" content="" />
+	
+		<meta name="word_count" content="2569" />
+	
+		<meta name="asset_id" content="identity/role-based-access-control/security-emergency-access" />
+	
+		<meta name="moniker_range_name" content="" />
+	
+		<meta name="item_type" content="Content" />
+	
+		<meta name="source_path" content="docs/identity/role-based-access-control/security-emergency-access.md" />
+	
+		<meta name="previous_tlsh_hash" content="7C839A72620DC102FF933D16197BAB5B95F0E1857AB0FEC41462E1E6C84F0F135B985CEFA747E78823738BD314936F0A67C9B638607C6252015DA8A9816C5307A68D3BBAE7" />
+	
+		<meta name="github_feedback_content_git_url" content="https://github.com/MicrosoftDocs/entra-docs/blob/main/docs/identity/role-based-access-control/security-emergency-access.md" />
+	
+		<meta name="markdown_url" content="https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/security-emergency-access?accept=text/markdown" />
+	 
+		<meta name="cmProducts" content="https://microsoft-devrel.poolparty.biz/DevRelOfferingOntology/1433a524-c01f-4b87-beab-670c040dea4f" data-source="generated" />
+	
+		<meta name="cmProducts" content="https://microsoft-devrel.poolparty.biz/DevRelOfferingOntology/57eae307-c3a1-4cac-b645-1a899934bac8" data-source="generated" />
+	
+		<meta name="cmProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/07bb3e10-d135-43ff-bc8b-360497cb39fa" data-source="generated" />
+	
+		<meta name="spProducts" content="https://microsoft-devrel.poolparty.biz/DevRelOfferingOntology/312f1f05-a431-4193-8a4d-e6245d5966de" data-source="generated" />
+	
+		<meta name="spProducts" content="https://microsoft-devrel.poolparty.biz/DevRelOfferingOntology/ee561821-1ac7-45a8-9409-6ba5eb7a5b97" data-source="generated" />
+	
+		<meta name="spProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/12e559b9-eaf6-4aee-9af7-62334e15f863" data-source="generated" />
+	
+
+			<!-- Apply persisted/system theme before first paint to prevent wrong-theme flash when scripts are deferred. -->
+			<script id="theme-preference">
+				(function () {
+			try {
+				var stored = localStorage.getItem('theme');
+				var theme = /^(light|dark|high-contrast)$/.test(stored)
+					? stored
+					: matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+				document.documentElement.classList.add('theme-' + theme);
+			} catch (e) {}
+		})();;
+			</script>
+
+			<script id="atlas-layout-preferences">
+				(function () {
+			try {
+				var state = JSON.parse(localStorage.getItem('atlas-layout-preferences') || '{}');
+				var view = state["docs-layout-persistence"] || {};
+				var excludesKey = "";
+				var blocked = {};
+				if (excludesKey) {
+					var exclusions = JSON.parse(localStorage.getItem('atlas-layout-exclusions') || '{}');
+					if (Object.prototype.hasOwnProperty.call(exclusions, excludesKey)) {
+						var scoped = exclusions[excludesKey];
+						if (scoped) {
+							if (typeof scoped === 'object') blocked = scoped;
+						}
+					}
+				}
+				var html = document.documentElement;
+				for (var c in view) {
+					if (Object.prototype.hasOwnProperty.call(blocked, c)) continue;
+					if (view[c]) html.classList.add(c);
+					else html.classList.remove(c);
+				}
+			} catch (e) {}
+		})();;
+			</script>
+
+			<!-- assets and js globals -->
+			
+			<link rel="stylesheet" href="/static/assets/0.4.03574.8308-9505b1c8/styles/site.css" />
+			
+			<script src="https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js"></script>
+			<!-- Keep this URL in sync with oneDSScriptSelector in instrumentation/one-ds.ts. -->
+			<script async src="https://js.monitor.azure.com/scripts/c/ms.jsll-4.min.js"></script>
+			
+
+			<!-- msdocs global object -->
+			<script id="msdocs-script">
+		var msDocs = {
+  "environment": {
+    "accessLevel": "online",
+    "azurePortalHostname": "portal.azure.com",
+    "reviewFeatures": false,
+    "supportLevel": "production",
+    "systemContent": true,
+    "siteName": "learn",
+    "legacyHosting": false
+  },
+  "data": {
+    "contentLocale": "en-us",
+    "contentDir": "ltr",
+    "userLocale": "en-us",
+    "userDir": "ltr",
+    "pageTemplate": "Conceptual",
+    "layoutStateStorageKey": "docs-layout-persistence",
+    "brand": "entra",
+    "context": {},
+    "standardFeedback": true,
+    "showFeedbackReport": false,
+    "feedbackHelpLinkType": "",
+    "feedbackHelpLinkUrl": "",
+    "feedbackSystem": "Standard",
+    "feedbackGitHubRepo": "MicrosoftDocs/entra-docs",
+    "feedbackProductUrl": "https://feedback.azure.com/d365community/forum/22920db1-ad25-ec11-b6e6-000d3a4f0789",
+    "extendBreadcrumb": false,
+    "isEditDisplayable": true,
+    "isPrivateUnauthorized": false,
+    "hideViewSource": false,
+    "isPermissioned": false,
+    "hasRecommendations": true
+  },
+  "functions": {}
+};;
+	</script>
+
+			<!-- base scripts, msdocs global should be before this -->
+			<script
+				src="/static/assets/0.4.03574.8308-9505b1c8/scripts/en-us/index-docs.js"
+				async
+			></script>
+			
+
+			<!-- json-ld -->
+			
+		<script >bazadebezolkohpepadr="906183553"</script><script type="text/javascript" src="https://learn.microsoft.com/akam/13/36034193"  defer></script></head>
+	
+			<body
+				id="body"
+				data-bi-name="body"
+				class="layout-body "
+				lang="en-us"
+				dir="ltr"
+			>
+				<header class="layout-body-header background-color-body-medium">
+		<div class="header-holder has-default-focus">
+			
+		<a
+			href="#main"
+			
+			style="z-index: 1070"
+			class="outline-color-text visually-hidden-until-focused position-fixed inner-focus focus-visible top-0 left-0 right-0 padding-xs text-align-center background-color-body"
+			
+		>
+			Skip to main content
+		</a>
+	
+		<a
+			href="#"
+			data-skip-to-ask-learn
+			style="z-index: 1070"
+			class="outline-color-text visually-hidden-until-focused position-fixed inner-focus focus-visible top-0 left-0 right-0 padding-xs text-align-center background-color-body"
+			hidden
+		>
+			Skip to Ask Learn chat experience
+		</a>
+	
+
+			<div hidden id="cookie-consent-holder" data-test-id="cookie-consent-container"></div>
+			<!-- Unsupported browser warning -->
+			<div
+				id="unsupported-browser"
+				style="background-color: white; color: black; padding: 16px; border-bottom: 1px solid grey;"
+				hidden
+			>
+				<div style="max-width: 800px; margin: 0 auto;">
+					<p style="font-size: 24px">This browser is no longer supported.</p>
+					<p style="font-size: 16px; margin-top: 16px;">
+						Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support.
+					</p>
+					<div style="margin-top: 12px;">
+						<a
+							href="https://go.microsoft.com/fwlink/p/?LinkID=2092881 "
+							style="background-color: #0078d4; border: 1px solid #0078d4; color: white; padding: 6px 12px; border-radius: 2px; display: inline-block;"
+						>
+							Download Microsoft Edge
+						</a>
+						<a
+							href="https://learn.microsoft.com/en-us/lifecycle/faq/internet-explorer-microsoft-edge"
+							style="background-color: white; padding: 6px 12px; border: 1px solid #505050; color: #171717; border-radius: 2px; display: inline-block;"
+						>
+							More info about Internet Explorer and Microsoft Edge
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- site header -->
+			<div
+				id="ms--site-header"
+				data-test-id="site-header-wrapper"
+				itemscope="itemscope"
+				itemtype="http://schema.org/Organization"
+			>
+				<div
+					id="ms--mobile-nav"
+					class="site-header display-none-tablet padding-inline-none gap-none"
+					data-bi-name="mobile-header"
+					data-test-id="mobile-header"
+				></div>
+				<div
+					id="ms--primary-nav"
+					class="site-header display-none display-flex-tablet"
+					data-bi-name="L1-header"
+					data-test-id="primary-header"
+				></div>
+				<div
+					id="ms--secondary-nav"
+					class="site-header display-none display-flex-tablet"
+					data-bi-name="L2-header"
+					data-test-id="secondary-header"
+					
+				></div>
+			</div>
+			
+		<!-- banner -->
+		<div data-banner>
+			<div id="disclaimer-holder"></div>
+			
+		</div>
+		<!-- banner end -->
+	
+		</div>
+	</header>
+				 <section
+					id="layout-body-menu"
+					class="layout-body-menu border-right display-flex background-color-body-medium"
+					data-bi-name="menu"
+			  >
+					
+		<div
+			id="left-container"
+			class="left-container display-none padding-none display-block-tablet width-full display-none-until-layout-restored"
+			data-toc-container="true"
+		>
+			<div
+				id="ms--toc-content"
+				class="padding-left-sm padding-right-none padding-bottom-sm height-full"
+			>
+				<nav
+					id="affixed-left-container"
+					class="margin-top-xxs-tablet position-sticky display-flex flex-direction-column width-full"
+					aria-label="Primary"
+					data-bi-name="left-toc"
+					role="navigation"
+				>
+					<div
+						id="ms--collapsible-toc-header"
+						class="display-flex flex-direction-row-reverse justify-content-center align-items-center margin-bottom-xxs margin-right-xxs"
+					>
+						<button
+							type="button"
+							class="button button-clear button-sm inner-focus"
+							data-collapsible-toc-toggle
+							aria-expanded="true"
+							hidden
+							aria-controls="ms--toc-content"
+							aria-label="Table of contents"
+						>
+							<span class="icon icon-mirrored-rtl" aria-hidden="true">
+								<span
+									class="docon docon-panel-left-contract display-none-layout-menu-collapsed"
+								></span>
+								<span
+									class="docon docon-panel-left-expand display-none display-inline-layout-menu-collapsed"
+								></span>
+							</span>
+						</button>
+						<div
+							id="ms--collapsible-toc-moniker-slot"
+							class="flex-grow-1 display-none-layout-menu-collapsed"
+						></div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	
+			  </section>
+
+				<main
+					id="main"
+					role="main"
+					class="layout-body-main "
+					data-bi-name="content"
+					lang="en-us"
+					dir="ltr"
+				>
+					
+			<div
+		id="ms--content-header"
+		class="content-header default-focus border-bottom-none"
+		data-bi-name="content-header"
+	>
+		<div class="content-header-controls margin-xxs margin-inline-sm-tablet">
+			<button
+				type="button"
+				class="contents-button button button-sm margin-right-xxs"
+				data-bi-name="contents-expand"
+				aria-haspopup="true"
+				data-contents-button
+			>
+				<span class="icon" aria-hidden="true"><span class="docon docon-menu"></span></span>
+				<span class="contents-expand-title"> Table of contents </span>
+			</button>
+			<button
+				type="button"
+				class="ap-collapse-behavior ap-expanded button button-sm"
+				data-bi-name="ap-collapse"
+				aria-controls="action-panel"
+			>
+				<span class="icon" aria-hidden="true"><span class="docon docon-exit-mode"></span></span>
+				<span>Exit editor mode</span>
+			</button>
+		</div>
+	</div> 
+		<div
+			id="action-panel"
+			role="region"
+			aria-label="Action Panel"
+			class="action-panel"
+			tabindex="-1"
+		></div>
+	
+			<div
+				data-main-column
+				class="reading-width margin-inline-auto layout-padding padding-top-none padding-top-sm-tablet padding-bottom-sm"
+			>
+				<div>
+					
+		<div id="article-header" class="background-color-body margin-bottom-xs display-none-print">
+			<div class="display-flex align-items-center justify-content-space-between">
+				
+		<details
+			id="article-header-breadcrumbs-overflow-popover"
+			class="popover popover-left"
+			data-for="article-header-breadcrumbs"
+		>
+			<summary
+				class="button button-clear button-primary button-sm inner-focus"
+				aria-label="All breadcrumbs"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-more"></span>
+				</span>
+			</summary>
+			<div id="article-header-breadcrumbs-overflow" class="popover-content"></div>
+		</details>
+
+		<bread-crumbs
+			id="article-header-breadcrumbs"
+			role="group"
+			aria-label="Breadcrumbs"
+			data-test-id="article-header-breadcrumbs"
+			class="overflow-hidden flex-grow-1 margin-right-sm margin-right-md-tablet margin-right-lg-desktop margin-left-negative-xxs padding-left-xxs"
+		></bread-crumbs>
+	 
+		<div
+			id="article-header-page-actions"
+			class="opacity-none margin-left-auto display-flex flex-wrap-no-wrap align-items-stretch"
+		>
+			
+		<button
+			class="button button-sm border-none inner-focus display-none-tablet flex-shrink-0 "
+			data-bi-name="ask-learn-assistant-entry"
+			data-test-id="ask-learn-assistant-modal-entry-mobile"
+			data-ask-learn-modal-entry
+			
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-label="Ask Learn"
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+		</button>
+		<button
+			class="button button-sm display-none display-inline-flex-tablet display-none-desktop flex-shrink-0 margin-right-xxs border-color-ask-learn "
+			data-bi-name="ask-learn-assistant-entry"
+			
+			data-test-id="ask-learn-assistant-modal-entry-tablet"
+			data-ask-learn-modal-entry
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+		<button
+			class="button button-sm display-none flex-shrink-0 display-inline-flex-desktop margin-right-xxs border-color-ask-learn "
+			data-bi-name="ask-learn-assistant-entry"
+			
+			data-test-id="ask-learn-assistant-flyout-entry"
+			data-ask-learn-flyout-entry
+			data-flyout-button="toggle"
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-controls="ask-learn-flyout"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+	 
+
+			<details class="popover popover-right" id="article-header-page-actions-overflow">
+				<summary
+					class="justify-content-flex-start button button-clear button-sm button-primary inner-focus"
+					aria-label="More actions"
+					aria-expanded="false"
+					title="More actions"
+				>
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-more-vertical"></span>
+					</span>
+				</summary>
+				<div class="popover-content">
+					
+		<button
+			type="button"
+			id="ms--focus-mode-button"
+			data-focus-mode
+			data-bi-name="focus-mode-entry"
+			data-page-action-item="overflow-all"
+			data-popover-close
+			class="button button-clear button-sm button-block justify-content-flex-start text-align-left inner-focus display-none display-inline-flex-tablet"
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-glasses"></span>
+			</span>
+			<span>Reading mode</span>
+		</button>
+	 
+		<button
+			data-page-action-item="overflow-mobile"
+			type="button"
+			class="display-block-layout-menu-collapsed button-block button-sm inner-focus button button-clear display-none-tablet justify-content-flex-start text-align-left"
+			data-bi-name="contents-expand"
+			data-contents-button
+			data-popover-close
+		>
+			<span class="icon" aria-hidden="true"
+				><span class="docon docon-editor-list-bullet"></span
+			></span>
+			<span class="contents-expand-title">Table of contents</span>
+		</button>
+	 
+		<a
+			id="lang-link-overflow"
+			class="button-sm inner-focus button button-clear button-block justify-content-flex-start text-align-left"
+			data-bi-name="language-toggle"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-read-in-link
+			href="#"
+			hidden
+		>
+			<span class="icon" aria-hidden="true" data-read-in-link-icon>
+				<span class="docon docon-locale-globe"></span>
+			</span>
+			<span data-read-in-link-text>Read in English</span>
+		</a>
+	
+					
+		<button
+			type="button"
+			class="collection button button-clear button-sm button-block justify-content-flex-start text-align-left inner-focus"
+			data-list-type="collection"
+			data-bi-name="collection"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-popover-close
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-circle-addition"></span>
+			</span>
+			<span class="collection-status">Add</span>
+		</button>
+	 
+		<button
+			type="button"
+			class="collection button button-block button-clear button-sm justify-content-flex-start text-align-left inner-focus"
+			data-list-type="plan"
+			data-bi-name="plan"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-popover-close
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-circle-addition"></span>
+			</span>
+			<span class="plan-status">Add to Plans</span>
+		</button>
+	 
+					
+		<a
+			data-contenteditbtn
+			class="button button-clear button-block button-sm inner-focus justify-content-flex-start text-align-left text-decoration-none"
+			data-bi-name="edit"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			
+			href="https://github.com/MicrosoftDocs/entra-docs/blob/main/docs/identity/role-based-access-control/security-emergency-access.md"
+			data-original_content_git_url="https://github.com/MicrosoftDocs/entra-docs-pr/blob/live/docs/identity/role-based-access-control/security-emergency-access.md"
+			data-original_content_git_url_template="{repo}/blob/{branch}/docs/identity/role-based-access-control/security-emergency-access.md"
+			data-pr_repo=""
+			data-pr_branch=""
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-edit-outline"></span>
+			</span>
+			<span>Edit</span>
+		</a>
+	  
+		<hr class="margin-block-xxs" />
+		
+				<button
+					class="button button-block button-clear button-sm justify-content-flex-start text-align-left inner-focus"
+					type="button"
+					data-bi-name="copy-markdown"
+					data-page-action-item="overflow-all"
+					data-copy-markdown
+					data-copy-state="idle"
+					data-check-hidden="true"
+				>
+					<span class="icon color-primary" aria-hidden="true">
+						<span data-show-when="idle" class="docon docon-code-lang"></span>
+						<span data-show-when="loading" class="loader" hidden></span>
+						<span data-show-when="success" class="docon docon-check-mark" hidden></span>
+					</span>
+					<span>Copy Markdown</span>
+				</button>
+		   
+				<button
+					class="button button-block button-clear button-sm justify-content-flex-start text-align-left inner-focus"
+					type="button"
+					data-bi-name="print"
+					data-page-action-item="overflow-all"
+					data-popover-close
+					data-print-page
+					data-check-hidden="true"
+				>
+					<span class="icon color-primary" aria-hidden="true">
+						<span class="docon docon-print"></span>
+					</span>
+					<span>Print</span>
+				</button>
+		  
+	
+				</div>
+			</details>
+		</div>
+	
+			</div>
+		</div>
+	  
+		<!-- privateUnauthorizedTemplate is hidden by default -->
+		<div unauthorized-private-section data-bi-name="permission-content-unauthorized-private" hidden>
+			<hr class="hr margin-top-xs margin-bottom-sm" />
+			<div class="notification notification-info">
+				<div class="notification-content">
+					<p class="margin-top-none notification-title">
+						<span class="icon" aria-hidden="true"
+							><span class="docon docon-exclamation-circle-solid"></span
+						></span>
+						<span>Note</span>
+					</p>
+					<p class="margin-top-none authentication-determined not-authenticated">
+						Access to this page requires authorization. You can try <a class="docs-sign-in" href="#" data-bi-name="permission-content-sign-in">signing in</a> or <a  class="docs-change-directory" data-bi-name="permisson-content-change-directory">changing directories</a>.
+					</p>
+					<p class="margin-top-none authentication-determined authenticated">
+						Access to this page requires authorization. You can try <a class="docs-change-directory" data-bi-name="permisson-content-change-directory">changing directories</a>.
+					</p>
+				</div>
+			</div>
+		</div>
+	
+					<div class="content"><h1 id="manage-emergency-access-accounts-in-microsoft-entra-id">Manage emergency access accounts in Microsoft Entra ID</h1></div>
+					
+		<div
+			id="article-metadata"
+			data-bi-name="article-metadata"
+			data-test-id="article-metadata"
+			class="page-metadata-container display-flex gap-xxs justify-content-space-between align-items-center flex-wrap-wrap"
+		>
+			 
+				<div
+					id="user-feedback"
+					class="margin-block-xxs display-none display-none-print"
+					hidden
+					data-hide-on-archived
+				>
+					
+		<button
+			id="user-feedback-button"
+			data-test-id="conceptual-feedback-button"
+			class="button button-sm button-clear button-primary display-none"
+			type="button"
+			data-bi-name="user-feedback-button"
+			data-user-feedback-button
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-like"></span>
+			</span>
+			<span>Feedback</span>
+		</button>
+	
+				</div>
+		  
+		</div>
+	 
+		<div data-id="ai-summary" class="display-none-print">
+			<div id="ms--ai-summary-cta" class="margin-top-xs display-flex align-items-center">
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-sparkle-fill gradient-text-vivid"></span>
+				</span>
+				<button
+					id="ms--ai-summary"
+					type="button"
+					class="tag tag-sm tag-suggestion margin-left-xxs"
+					data-test-id="ai-summary-cta"
+					data-bi-name="ai-summary-cta"
+					data-an="ai-summary"
+				>
+					<span class="ai-summary-cta-text">
+						Summarize this article for me
+					</span>
+				</button>
+			</div>
+			<!-- Slot where the client will render the summary card after the user clicks the CTA -->
+			<div id="ms--ai-summary-header" class="margin-top-xs"></div>
+		</div>
+	 
+		<nav
+			id="center-doc-outline"
+			class="doc-outline display-none-desktop display-none-print margin-bottom-sm"
+			data-bi-name="intopic toc"
+			aria-label="In this article"
+		>
+			<h2 id="ms--in-this-article" class="title is-6 margin-block-xs">
+				In this article
+			</h2>
+		</nav>
+	 <div class="content"><p>It's important to prevent accidentally locking yourself out of your Microsoft Entra organization because you can't sign in or activate a role. You can reduce the impact of accidental lack of administrative access by creating two or more <em>emergency access accounts</em> in your organization.</p>
+<p>User accounts with the Global Administrator role have high privileges in the system, and this role includes emergency access accounts with the Global Administrator role. Use emergency access accounts only for emergency or "break glass" scenarios where normal administrative accounts can't be used. Restrict emergency account use to only the times when it's absolutely necessary.</p>
+<p>This article provides guidelines for managing emergency access accounts in Microsoft Entra ID.</p>
+<h2 id="why-use-an-emergency-access-account">Why use an emergency access account</h2>
+<p>An organization might need to use an emergency access account in the following situations:</p>
+<ul>
+<li>The user accounts are federated, and federation is currently unavailable because of a cell-network break or an identity-provider outage. For example, if the identity provider host in your environment goes down, users might be unable to sign in when Microsoft Entra ID redirects to their identity provider.</li>
+<li>The administrators register through Microsoft Entra multifactor authentication, and all their individual devices are unavailable or the service is unavailable. Users might be unable to complete multifactor authentication to activate a role. For example, a cell network outage is preventing them from answering phone calls or receiving text messages, the only two authentication mechanisms that they registered for their device.</li>
+<li>The person with the most recent Global Administrator access leaves the organization. Microsoft Entra ID prevents the last Global Administrator account from being deleted, but it doesn't prevent the account from being deleted or disabled on-premises. Either situation might make the organization unable to recover the account.</li>
+<li>Unforeseen circumstances such as a natural disaster emergency, during which a mobile phone or other networks might be unavailable.</li>
+<li>All Global Administrator and Privileged Role Administrator role assignments are eligible (not active), activation requires approval, and no approvers are selected (or all selected approvers were removed from the directory). Active Global Administrators and Privileged Role Administrators are the default approvers when none are selected, but because none are active, no one can approve activation and tenant administration is effectively locked.</li>
+</ul>
+<h2 id="create-emergency-access-accounts">Create emergency access accounts</h2>
+<p>Create two or more emergency access accounts. These accounts should be cloud-only accounts that use the *.onmicrosoft.com domain and that aren't federated or synchronized from an on-premises environment. At a high level, follow these steps.</p>
+<ol>
+<li><p>Find your existing emergency access accounts or <a href="../../fundamentals/how-to-create-delete-users#create-a-new-user" data-linktype="relative-path">create new cloud-only users</a> and assign them the Global Administrator role.</p>
+</li>
+<li><p>Choose one of these passwordless authentication methods for your emergency access accounts. These methods satisfy the <a href="../authentication/concept-mandatory-multifactor-authentication" data-linktype="relative-path">mandatory multifactor authentication requirements</a>.</p>
+<ul>
+<li><a href="../authentication/concept-authentication-passkeys-fido2" data-linktype="relative-path">Passkey (FIDO2)</a> (Recommended)</li>
+<li><a href="../authentication/concept-authentication-passkeys-fido2" data-linktype="relative-path">Certificate-based authentication</a> if your organization already has a Public Key Infrastructure (PKI) setup</li>
+</ul>
+</li>
+<li><p>Register credentials for the authentication method you chose in the previous step.</p>
+<ul>
+<li><strong>Passkey (FIDO2)</strong>: <a href="../authentication/how-to-authentication-passkeys-fido2" data-linktype="relative-path">Enable passkeys (FIDO2) for your organization</a>, then <a href="../authentication/how-to-register-passkey-with-security-key" data-linktype="relative-path">register a passkey (FIDO2)</a></li>
+<li><strong>Certificate-based authentication</strong>: <a href="../authentication/concept-certificate-based-authentication" data-linktype="relative-path">Configure certificate-based authentication</a></li>
+</ul>
+</li>
+<li><p>Verify that emergency access accounts are excluded from any Conditional Access policy that blocks or restricts sign-in. The phishing-resistant authentication method registered in the previous step protects the account; an enforced Conditional Access policy could prevent sign-in during the exact emergency the account is designed for. Report-only policies don't block access and don't require an exclusion. For details, see <a href="#conditional-access-considerations" data-linktype="self-bookmark">Conditional Access considerations</a>.</p>
+</li>
+<li><p><a href="#store-account-credentials-safely" data-linktype="self-bookmark">Store account credentials safely</a>.</p>
+</li>
+<li><p><a href="#monitor-sign-in-and-audit-logs" data-linktype="self-bookmark">Monitor sign-in and audit logs</a>.</p>
+</li>
+<li><p><a href="#validate-accounts-regularly" data-linktype="self-bookmark">Validate accounts regularly</a>.</p>
+</li>
+</ol>
+<h2 id="configuration-requirements">Configuration requirements</h2>
+<p>When you configure these accounts, ensure the following requirements are met:</p>
+<ul>
+<li><p>Don't associate emergency access accounts with any individual user in the organization. Store credentials in a known secure location that's available to multiple members of the administration team. Don't connect these accounts with any employee-supplied devices, such as phones. This approach unifies emergency access account management. Most organizations need emergency access accounts not only for Microsoft Cloud infrastructure, but also for on-premises environments, federated SaaS applications, and other critical systems.</p>
+<p>Alternatively, you can choose to create individual emergency access accounts for administrators. This solution promotes accountability and allows administrators to use emergency access accounts from remote locations.</p>
+</li>
+<li><p>Use strong authentication for your emergency access accounts and make sure it doesn't use the same authentication methods as your other administrative accounts. For example, if your normal administrator account uses the Microsoft Authenticator app for strong authentication, use a FIDO2 security key for your emergency accounts. To avoid adding external requirements into the authentication process, consider the <a href="../../architecture/resilience-in-credentials" data-linktype="relative-path">dependencies of various authentication methods</a>.</p>
+</li>
+<li><p>The device or credential must not expire or be in scope of automated cleanup due to lack of use.</p>
+</li>
+<li><p>In Microsoft Entra Privileged Identity Management, make the Global Administrator role assignment active permanent rather than eligible for your emergency access accounts.</p>
+</li>
+<li><p>Individuals authorized to use these emergency access accounts must utilize a designated, secure workstation or similar client computing environment, such as a Privileged Access Workstation. Use these workstations when interacting with the emergency access accounts. For more information about configuring a Microsoft Entra tenant where there are designated workstations, see <a href="/en-us/security/privileged-access-workstations/privileged-access-deployment" data-linktype="absolute-path">deploying a privileged access solution</a>.</p>
+</li>
+</ul>
+<h2 id="federation-guidance">Federation guidance</h2>
+<p>Some organizations use Active Directory Domain Services and Active Directory Federation Service (AD FS) or similar identity provider to federate to Microsoft Entra ID. Keep the emergency access for on-premises systems and the emergency access for cloud services distinct, with no dependency of one on the other. Mastering or sourcing authentication for accounts with emergency access privileges from other systems adds unnecessary risk if an outage occurs in those systems.</p>
+<h2 id="store-account-credentials-safely">Store account credentials safely</h2>
+<p>Ensure that the credentials for emergency access accounts are kept secure and known only to individuals who are authorized to use them. For example, you might use <a href="../authentication/how-to-authentication-passkeys-fido2" data-linktype="relative-path">FIDO2 security keys</a> for Microsoft Entra ID or smartcards for Windows Server Active Directory. Store credentials in secure, fireproof safes that are in secure, separate locations.</p>
+<h2 id="conditional-access-considerations">Conditional Access considerations</h2>
+<p>Exclude emergency access accounts from Conditional Access policies that block or restrict sign-in. Report-only policies don't block access and don't need to exclude emergency accounts. If an emergency access account is subject to a Conditional Access policy that requires MFA, a compliant device, or another control, the account might be unusable during the exact emergency scenarios it's designed for.</p>
+<p>When planning your Conditional Access deployment, consider the following points:</p>
+<ul>
+<li>Create a dedicated security group for your emergency access accounts, such as <strong>EmergencyAccess</strong>, and exclude this group from Conditional Access policies that block or restrict sign-in.</li>
+<li>Regularly test (for example, every quarter) that emergency access accounts can sign in successfully with your current Conditional Access configuration.</li>
+<li>Create contingency Conditional Access policies that you can enable during an outage to restore access for critical users. For more information, see <a href="../authentication/concept-resilient-controls" data-linktype="relative-path">Create a resilient access control management strategy</a>.</li>
+</ul>
+<p>For more information about planning Conditional Access exclusions, see <a href="../conditional-access/plan-conditional-access" data-linktype="relative-path">Plan a Conditional Access deployment</a>.</p>
+<h2 id="security-guardrails-summary">Security guardrails summary</h2>
+<p>The following checklist summarizes the security requirements for emergency access accounts:</p>
+<ul>
+<li>Maintain at least two emergency access accounts for redundancy.</li>
+<li>Use cloud-only accounts (<code>.onmicrosoft.com</code> domain) with no dependency on federated identity providers.</li>
+<li>Use phishing-resistant authentication methods (FIDO2 security keys or certificate-based authentication) that are different from your normal admin accounts.</li>
+<li>Ensure credentials and devices don't expire and aren't subject to automated cleanup.</li>
+<li>In Privileged Identity Management, assign the Global Administrator role as permanent active (not eligible) for emergency accounts.</li>
+<li>Require the use of a designated secure workstation or <a href="/en-us/security/privileged-access-workstations/privileged-access-deployment" data-linktype="absolute-path">Privileged Access Workstation</a> when using emergency access accounts.</li>
+<li>Store credentials in separate, secure, fireproof locations accessible to authorized individuals.</li>
+<li>Exclude emergency access accounts from Conditional Access policies that block or restrict sign-in. Report-only policies don't require an exclusion.</li>
+<li>Monitor all sign-in and audit log activity for emergency access accounts with alerts to detect unnecessary or unauthorized use.</li>
+<li>Validate account functionality at least every 90 days.</li>
+</ul>
+<h2 id="auditability-and-compliance">Auditability and compliance</h2>
+<p>Organizations in regulated industries might need to demonstrate that the use of emergency access accounts is properly governed. The monitoring and validation practices described in this article support auditability:</p>
+<ul>
+<li><strong>Sign-in and audit log monitoring</strong>: Configure alerts for every use of an emergency access account. Capture sign-in logs and audit logs for review. For details, see <a href="#monitor-sign-in-and-audit-logs" data-linktype="self-bookmark">Monitor sign-in and audit logs</a> in this article.</li>
+<li><strong>Post-mortem review</strong>: After any use of an emergency access account, conduct a review to determine whether the use was authorized and whether the actions taken were appropriate. For details, see <a href="#prepare-a-post-mortem-team-to-evaluate-each-emergency-access-account-credential-use" data-linktype="self-bookmark">Prepare a post-mortem team</a> in this article.</li>
+<li><strong>Regular validation</strong>: Perform account validation drills at least every 90 days, including reviewing the authorized-user list and testing sign-in and administrative task functionality. For details, see <a href="#validate-accounts-regularly" data-linktype="self-bookmark">Validate accounts regularly</a> in this article.</li>
+<li><strong>Compliance mapping</strong>: If your organization must comply with HIPAA regulations, Microsoft provides guidance on how emergency access accounts map to HIPAA emergency access procedure requirements. For more information, see <a href="../../standards/hipaa-access-controls" data-linktype="relative-path">HIPAA access controls</a>.</li>
+</ul>
+<h2 id="monitor-sign-in-and-audit-logs">Monitor sign-in and audit logs</h2>
+<p>Monitor sign-in and audit log activity from the emergency accounts and trigger notifications to other administrators. When you monitor the activity for emergency access accounts, you can verify these accounts are only used for testing or actual emergencies. You can use Azure Monitor, Microsoft Sentinel, or other tools to monitor the sign-in logs and trigger email and SMS alerts to your administrators whenever emergency access accounts sign in. This section illustrates using Azure Monitor.</p>
+<h3 id="prerequisites">Prerequisites</h3>
+<ul>
+<li><a href="../monitoring-health/howto-integrate-activity-logs-with-azure-monitor-logs" data-linktype="relative-path">Send Microsoft Entra sign-in logs</a> to Azure Monitor.</li>
+</ul>
+<h3 id="obtain-object-ids-of-the-emergency-access-accounts">Obtain Object IDs of the emergency access accounts</h3>
+<ol>
+<li><p>Sign in to the <a href="https://entra.microsoft.com" data-linktype="external">Microsoft Entra admin center</a> as at least a <a href="permissions-reference#user-administrator" data-linktype="relative-path">User Administrator</a>.</p>
+</li>
+<li><p>Browse to <strong>Entra ID</strong> &gt; <strong>Users</strong>.</p>
+</li>
+<li><p>Search for the emergency access account and select the user's name.</p>
+</li>
+<li><p>Copy and save the Object ID attribute so that you can use it later.</p>
+</li>
+<li><p>Repeat previous steps for second emergency access account.</p>
+</li>
+</ol>
+<h3 id="create-an-alert-rule">Create an alert rule</h3>
+<ol>
+<li><p>Sign in to the <a href="https://portal.azure.com" data-linktype="external">Azure portal</a> as at least a <a href="/en-us/azure/role-based-access-control/built-in-roles#monitoring-contributor" data-linktype="absolute-path">Monitoring Contributor</a>.</p>
+</li>
+<li><p>Search for and open <strong>Monitor</strong>.</p>
+</li>
+<li><p>In the left menu, select <strong>Alerts</strong>.</p>
+</li>
+<li><p>Select <strong>+ Create</strong> &gt; <strong>Alert rule</strong>. The <strong>Create an alert rule</strong> page opens.</p>
+</li>
+<li><p>On the <strong>Scope</strong> tab:</p>
+<ol>
+<li>In the <strong>Select a resource</strong> pane, find and select your Log Analytics workspace.</li>
+<li>Verify that the subscription matches the workspace you configured in the prerequisites.</li>
+<li>Select <strong>Apply</strong>.</li>
+</ol>
+</li>
+<li><p>On the <strong>Condition</strong> tab:</p>
+<ol>
+<li><p>From the <strong>Signal name</strong> drop-down, select <strong>Custom log search</strong>.</p>
+</li>
+<li><p>Set the <strong>Query type</strong> to <strong>Aggregated logs</strong>.</p>
+</li>
+<li><p>Under <strong>Search query</strong>, enter one of the following queries, inserting the object IDs of the two emergency access accounts.</p>
+<div class="NOTE">
+<p>Note</p>
+<p>For each additional emergency access account you want to include, add another <code>or UserId == "ObjectGuid"</code> to the query.</p>
+</div>
+<p>Sample queries:</p>
+<pre><code class="lang-kusto">// Search for a single Object ID (UserID)
+SigninLogs
+| where UserId == "00aa00aa-bb11-cc22-dd33-44ee44ee44ee"
+| project TimeGenerated, UserPrincipalName, UserId, IPAddress, ResultType, ResultDescription
+</code></pre>
+<pre><code class="lang-kusto">// Search for multiple Object IDs (UserIds)
+SigninLogs
+| where UserId == "00aa00aa-bb11-cc22-dd33-44ee44ee44ee" or UserId == "11bb11bb-cc22-dd33-ee44-55ff55ff55ff"
+| project TimeGenerated, UserPrincipalName, UserId, IPAddress, ResultType, ResultDescription
+</code></pre>
+<pre><code class="lang-kusto">// Search for a single UserPrincipalName
+SigninLogs
+| where UserPrincipalName == "user@yourdomain.onmicrosoft.com"
+| project TimeGenerated, UserPrincipalName, UserId, IPAddress, ResultType, ResultDescription
+</code></pre>
+</li>
+<li><p>Under <strong>Measurement</strong>, set how to summarize the results of the query:</p>
+<ol>
+<li>Select the <strong>Measure</strong>.</li>
+<li>Select the <strong>Aggregation type</strong>.</li>
+<li>Select the <strong>Aggregation granularity</strong>.</li>
+</ol>
+</li>
+<li><p>Under <strong>Split by dimensions</strong>, select the <strong>Resource ID column</strong>.</p>
+</li>
+<li><p>Under <strong>Alert logic</strong>:</p>
+<ol>
+<li>Set the <strong>Threshold type</strong> to <strong>Static</strong>.</li>
+<li>Set the <strong>Operator</strong> to <strong>Greater than</strong>.</li>
+<li>Set the <strong>Threshold value</strong> to <strong>0</strong>.</li>
+<li>Set the <strong>Frequency of evaluation</strong> to how often you want the query to run.</li>
+</ol>
+<p><span class="mx-imgBorder">
+<a href="media/security-emergency-access/alert-logic.png#lightbox" data-linktype="relative-path">
+<img src="media/security-emergency-access/alert-logic.png" alt="Screenshot of Alert logic settings with example values for Threshold type, Operator, Threshold value, and Frequency of evaluation." data-linktype="relative-path">
+</a>
+</span>
+</p>
+</li>
+<li><p>Select <strong>Next</strong> to proceed.</p>
+</li>
+</ol>
+</li>
+<li><p>On the <strong>Actions</strong> tab, select an action group to be notified by the alert. If you want to create one, see <a href="#create-an-action-group" data-linktype="self-bookmark">Create an action group</a>.</p>
+</li>
+<li><p>On the <strong>Details</strong> tab:</p>
+<ol>
+<li>Select the <strong>Severity</strong> of the event. Use <strong>0 - Critical</strong>.</li>
+<li>Enter the <strong>Alert rule name</strong> and add an optional description.</li>
+<li>Select the <strong>Region</strong>.</li>
+<li>Select which <strong>Identity</strong> to use when running the log query.</li>
+<li>Under <strong>Advanced options</strong>, select <strong>Enable upon creation</strong>.</li>
+<li>Select <strong>Next</strong> to proceed.</li>
+</ol>
+</li>
+<li><p>On the <strong>Tags</strong> tab, add any tags you want to associate with the alert rule.</p>
+</li>
+<li><p>Select <strong>Review + create</strong>, then select <strong>Create</strong>.</p>
+</li>
+</ol>
+<h3 id="create-an-action-group">Create an action group</h3>
+<ol>
+<li><p>Select <strong>Create an action group</strong>.</p>
+<p><span class="mx-imgBorder">
+<a href="media/security-emergency-access/create-action-group.png#lightbox" data-linktype="relative-path">
+<img src="media/security-emergency-access/create-action-group.png" alt="Screenshot of the Create an action group screen open to the Basics tab." data-linktype="relative-path">
+</a>
+</span>
+</p>
+</li>
+<li><p>On the <strong>Basics</strong> tab, enter the following information:</p>
+<ul>
+<li><strong>Subscription</strong> and <strong>Resource group</strong>: Select where to store the action group.</li>
+<li><strong>Region</strong>: Select the region for the action group.</li>
+<li><strong>Action group name</strong>: Enter a descriptive name.</li>
+<li><strong>Display name</strong>: Enter a short name (maximum 12 characters) that appears in notifications.</li>
+</ul>
+</li>
+<li><p>Select <strong>Next: Notifications</strong>.</p>
+</li>
+<li><p>Under <strong>Notification type</strong>, select <strong>Email/SMS message/Push/Voice</strong>.</p>
+</li>
+<li><p>Enter a notification name such as <strong>Notify Global Administrator</strong>.</p>
+</li>
+<li><p>Select <strong>Edit details</strong>, configure the notification methods and contact information, and then select <strong>OK</strong>.</p>
+</li>
+<li><p>Add any other notifications you want to trigger.</p>
+</li>
+<li><p>Select <strong>Next: Actions</strong> to configure any additional automated actions, or select <strong>Review + create</strong> to finish.</p>
+</li>
+</ol>
+<h3 id="prepare-a-post-mortem-team-to-evaluate-each-emergency-access-account-credential-use">Prepare a post-mortem team to evaluate each emergency access account credential use</h3>
+<p>If the alert is triggered, preserve the logs from Microsoft Entra and other workloads. Conduct a review of the circumstances and the results of the emergency access account usage. This review determines whether the account was used:</p>
+<ul>
+<li>For a planned drill to validate its suitability</li>
+<li>In response to an actual emergency where no administrator could use their regular accounts</li>
+<li>As a result of misuse or unauthorized usage of the account</li>
+</ul>
+<p>Next, examine the logs to determine what actions the individual with the emergency access account took to ensure that those actions align with the authorized use of the account.</p>
+<h2 id="validate-accounts-regularly">Validate accounts regularly</h2>
+<p>In addition to training staff members to use emergency access accounts, have an ongoing process to validate that authorized staff can access the emergency access accounts. Regularly conduct drills to validate the functionality of the accounts and to confirm that monitoring and alerting rules are triggered in case an account is misused. At a minimum, perform the following steps at regular intervals:</p>
+<ul>
+<li>Ensure that security-monitoring staff are aware that the account-check activity is ongoing.</li>
+<li>Review and update the list of individuals authorized to use the emergency access account credentials.</li>
+<li>Ensure that the emergency break glass process to use these accounts is documented and current.</li>
+<li>Ensure that administrators and security officers who might need to perform these steps during an emergency are trained on the process.</li>
+<li>Validate that the emergency access accounts can sign in and perform administrative tasks.</li>
+<li>Ensure that users didn't register multifactor authentication or self-service password reset (SSPR) to any individual user's device or personal details.</li>
+<li>If the accounts are registered for multifactor authentication to a device, for use during sign-in or role activation, ensure that the device is accessible to all administrators who might need to use it during an emergency. Also verify that the device can communicate through at least two network paths that don't share a common failure mode. For example, the device can communicate to the internet through both a facility's wireless network and a cell provider network.</li>
+<li>Regularly change the combinations on any safes and after someone with access leaves the organization.</li>
+</ul>
+<p>Perform these steps at regular intervals and for key changes:</p>
+<ul>
+<li>At least every 90 days</li>
+<li>When there's a recent change in IT staff, such as after termination or position change</li>
+<li>When the Microsoft Entra subscriptions in the organization change</li>
+</ul>
+<h2 id="next-steps">Next steps</h2>
+<ul>
+<li><a href="../authentication/how-to-mandatory-multifactor-authentication" data-linktype="relative-path">How to verify that users are set up for mandatory MFA</a></li>
+<li><a href="../conditional-access/policy-admin-phish-resistant-mfa" data-linktype="relative-path">Require phishing-resistant multifactor authentication for administrators</a></li>
+<li><a href="security-planning" data-linktype="relative-path">Securing privileged access for hybrid and cloud deployments in Microsoft Entra ID</a></li>
+<li><a href="/en-us/microsoft-365/enterprise/protect-your-global-administrator-accounts" data-linktype="absolute-path">Configure additional protections for privileged roles in Microsoft 365</a>, if you're using Microsoft 365</li>
+<li><a href="../../id-governance/privileged-identity-management/pim-create-roles-and-resource-roles-review" data-linktype="relative-path">Start an access review of privileged roles</a> and <a href="permissions-reference" data-linktype="relative-path">transition existing privileged role assignments to more specific administrator roles</a></li>
+</ul>
+<h2 id="related-content">Related content</h2>
+<ul>
+<li><a href="../authentication/concept-resilient-controls" data-linktype="relative-path">Create a resilient access control management strategy</a></li>
+<li><a href="../../architecture/security-operations-privileged-accounts" data-linktype="relative-path">Security operations for privileged accounts</a></li>
+<li><a href="../../id-governance/privileged-identity-management/pim-deployment-plan" data-linktype="relative-path">Plan a Privileged Identity Management deployment</a></li>
+<li><a href="../conditional-access/plan-conditional-access" data-linktype="relative-path">Plan a Conditional Access deployment</a></li>
+<li><a href="../../standards/hipaa-access-controls" data-linktype="relative-path">HIPAA access controls</a></li>
+<li><a href="/en-us/compliance/dora/dora-entra" data-linktype="absolute-path">Microsoft Entra customer considerations under DORA</a></li>
+</ul>
+</div>
+					
+		<div
+			id="ms--inline-notifications"
+			class="margin-block-xs"
+			data-bi-name="inline-notification"
+		></div>
+	 
+		<div
+			id="assertive-live-region"
+			role="alert"
+			aria-live="assertive"
+			class="visually-hidden"
+			aria-relevant="additions"
+			aria-atomic="true"
+		></div>
+		<div
+			id="polite-live-region"
+			role="status"
+			aria-live="polite"
+			class="visually-hidden"
+			aria-relevant="additions"
+			aria-atomic="true"
+		></div>
+	
+					
+		<!-- feedback section -->
+		<section
+			id="site-user-feedback-footer"
+			class="font-size-sm margin-top-md display-none-print display-none-desktop"
+			data-test-id="site-user-feedback-footer"
+			data-bi-name="site-feedback-section"
+		>
+			<hr class="hr" />
+			<h2 id="ms--feedback" class="title is-3">Feedback</h2>
+			<div class="display-flex flex-wrap-wrap align-items-center">
+				<p class="font-weight-semibold margin-xxs margin-left-none">
+					Was this page helpful?
+				</p>
+				<div class="buttons">
+					<button
+						class="thumb-rating-button like button button-primary button-sm"
+						data-test-id="footer-rating-yes"
+						data-binary-rating-response="rating-yes"
+						type="button"
+						title="This article is helpful"
+						data-bi-name="button-rating-yes"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-like"></span>
+						</span>
+						<span>Yes</span>
+					</button>
+					<button
+						class="thumb-rating-button dislike button button-primary button-sm"
+						id="standard-rating-no-button"
+						hidden
+						data-test-id="footer-rating-no"
+						data-binary-rating-response="rating-no"
+						type="button"
+						title="This article is not helpful"
+						data-bi-name="button-rating-no"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-dislike"></span>
+						</span>
+						<span>No</span>
+					</button>
+					<details
+						class="popover popover-top"
+						id="mobile-help-popover"
+						data-test-id="footer-feedback-popover"
+					>
+						<summary
+							class="thumb-rating-button dislike button button-primary button-sm"
+							data-test-id="details-footer-rating-no"
+							data-binary-rating-response="rating-no"
+							title="This article is not helpful"
+							data-bi-name="button-rating-no"
+							aria-pressed="false"
+							data-bi-an="feedback-unhelpful-popover"
+						>
+							<span class="icon" aria-hidden="true">
+								<span class="docon docon-dislike"></span>
+							</span>
+							<span>No</span>
+						</summary>
+						<div
+							class="popover-content width-200 width-300-tablet"
+							role="dialog"
+							aria-labelledby="popover-heading"
+							aria-describedby="popover-description"
+						>
+							<p id="popover-heading" class="font-size-lg margin-bottom-xxs font-weight-semibold">
+								Need help with this topic?
+							</p>
+							<p id="popover-description" class="font-size-sm margin-bottom-xs">
+								Want to try using Ask Learn to clarify or guide you through this topic?
+							</p>
+							
+		<div class="buttons flex-direction-row flex-wrap justify-content-center gap-xxs">
+			<div>
+		<button
+			class="button button-sm border inner-focus display-none margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-test-id="ask-learn-assistant-modal-entry-mobile-feedback"
+			data-ask-learn-modal-entry-feedback
+			data-bi-an=feedback-unhelpful-popover
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-label="Ask Learn"
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+		</button>
+		<button
+			class="button button-sm display-inline-flex display-none-desktop flex-shrink-0 margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-modal-entry-tablet-feedback"
+			data-ask-learn-modal-entry-feedback
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+		<button
+			class="button button-sm display-none flex-shrink-0 display-inline-flex-desktop margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-flyout-entry-feedback"
+			data-ask-learn-flyout-entry-show-only
+			data-flyout-button="toggle"
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-controls="ask-learn-flyout"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+	</div>
+			<button
+				type="button"
+				class="button button-sm margin-right-xxs"
+				data-help-option="suggest-fix"
+				data-bi-name="feedback-suggest"
+				data-bi-an="feedback-unhelpful-popover"
+				data-test-id="suggest-fix"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-feedback"></span>
+				</span>
+				<span> Suggest a fix? </span>
+			</button>
+		</div>
+	
+						</div>
+					</details>
+				</div>
+			</div>
+		</section>
+		<!-- end feedback section -->
+	
+				</div>
+				
+		<div id="ms--additional-resources-mobile" class="display-none-print">
+			<hr class="hr" hidden />
+			<h2 id="ms--additional-resources-mobile-heading" class="title is-3" hidden>
+				Additional resources
+			</h2>
+			
+		<section
+			id="right-rail-recommendations-mobile"
+			class=""
+			data-bi-name="recommendations"
+			hidden
+		></section>
+	 
+		<section
+			id="right-rail-training-mobile"
+			class=""
+			data-bi-name="learning-resource-card"
+			hidden
+		></section>
+	 
+		<section
+			id="right-rail-events-mobile"
+			class=""
+			data-bi-name="events-card"
+			hidden
+		></section>
+	
+		</div>
+	 
+		<div
+			id="article-metadata-footer"
+			data-bi-name="article-metadata-footer"
+			data-test-id="article-metadata-footer"
+			class="page-metadata-container"
+		>
+			<hr class="hr" />
+			<ul class="metadata page-metadata" data-bi-name="page info" lang="en-us" dir="ltr">
+				<li class="visibility-hidden-visual-diff">
+			<span class="badge badge-sm text-wrap-pretty">
+				<span>Last updated on <local-time format="twoDigitNumeric"
+		datetime="2026-06-05T07:33:00.000Z"
+		data-article-date-source="calculated"
+		class="is-invisible"
+	>
+		2026-06-05
+	</local-time></span>
+			</span>
+		</li>
+			</ul>
+		</div>
+	
+			</div>
+		
+				</main>
+				<aside
+					id="layout-body-aside"
+					class="layout-body-aside  "
+					data-bi-name="aside"
+					aria-label="Additional resources"
+			  >
+					
+		<div
+			id="ms--additional-resources"
+			class="right-container padding-sm display-none display-block-desktop height-full"
+			data-bi-name="pageactions"
+		>
+			<div id="affixed-right-container" data-bi-name="right-column">
+				
+		<nav
+			id="side-doc-outline"
+			class="doc-outline border-bottom padding-bottom-xs margin-bottom-xs scrollbar-width-thin"
+			data-bi-name="intopic toc"
+			aria-label="In this article"
+		>
+			<h3>In this article</h3>
+		</nav>
+	
+				<!-- Feedback -->
+				
+		<section
+			id="ms--site-user-feedback-right-rail"
+			class="font-size-sm display-none-print"
+			data-test-id="site-user-feedback-right-rail"
+			data-bi-name="site-feedback-right-rail"
+		>
+			<div class="display-flex flex-wrap-wrap align-items-center">
+				<p class="font-weight-semibold margin-xxs margin-left-none">
+					Was this page helpful?
+				</p>
+				<div class="display-flex flex-wrap-nowrap">
+					<button
+						class="thumb-rating-button like inner-focus"
+						data-test-id="right-rail-rating-yes"
+						data-binary-rating-response="rating-yes"
+						type="button"
+						title="This article is helpful"
+						aria-label="This article is helpful"
+						data-bi-name="button-rating-yes"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-like"></span>
+						</span>
+					</button>
+					<button
+						class="thumb-rating-button dislike inner-focus"
+						id="right-rail-no-button"
+						hidden
+						data-test-id="right-rail-rating-no"
+						data-binary-rating-response="rating-no"
+						type="button"
+						title="This article is not helpful"
+						aria-label="This article is not helpful"
+						data-bi-name="button-rating-no"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-dislike"></span>
+						</span>
+					</button>
+					<details class="popover popover-right" id="help-popover" data-test-id="feedback-popover">
+						<summary
+							tabindex="0"
+							class="thumb-rating-button dislike inner-focus"
+							data-test-id="details-right-rail-rating-no"
+							data-binary-rating-response="rating-no"
+							title="This article is not helpful"
+							aria-label="This article is not helpful"
+							data-bi-name="button-rating-no"
+							aria-pressed="false"
+							data-bi-an="feedback-unhelpful-popover"
+						>
+							<span class="icon" aria-hidden="true">
+								<span class="docon docon-dislike"></span>
+							</span>
+						</summary>
+						<div
+							class="popover-content width-200 width-300-tablet"
+							role="dialog"
+							aria-labelledby="popover-heading-right-rail"
+							aria-describedby="popover-description-right-rail"
+						>
+							<p
+								id="popover-heading-right-rail"
+								class="font-size-lg margin-bottom-xxs font-weight-semibold"
+							>
+								Need help with this topic?
+							</p>
+							<p id="popover-description-right-rail" class="font-size-sm margin-bottom-xs">
+								Want to try using Ask Learn to clarify or guide you through this topic?
+							</p>
+							
+		<div class="buttons flex-direction-row flex-wrap justify-content-center gap-xxs">
+			<div>
+		<button
+			class="button button-sm border inner-focus display-none margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-test-id="ask-learn-assistant-modal-entry-mobile-feedback"
+			data-ask-learn-modal-entry-feedback
+			data-bi-an=feedback-unhelpful-popover
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-label="Ask Learn"
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+		</button>
+		<button
+			class="button button-sm display-inline-flex display-none-desktop flex-shrink-0 margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-modal-entry-tablet-feedback"
+			data-ask-learn-modal-entry-feedback
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+		<button
+			class="button button-sm display-none flex-shrink-0 display-inline-flex-desktop margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-flyout-entry-feedback"
+			data-ask-learn-flyout-entry-show-only
+			data-flyout-button="toggle"
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-controls="ask-learn-flyout"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+	</div>
+			<button
+				type="button"
+				class="button button-sm margin-right-xxs"
+				data-help-option="suggest-fix"
+				data-bi-name="feedback-suggest"
+				data-bi-an="feedback-unhelpful-popover"
+				data-test-id="suggest-fix"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-feedback"></span>
+				</span>
+				<span> Suggest a fix? </span>
+			</button>
+		</div>
+	
+						</div>
+					</details>
+				</div>
+			</div>
+		</section>
+	
+			</div>
+		</div>
+	
+			  </aside> <section
+					id="layout-body-flyout"
+					class="layout-body-flyout "
+					data-bi-name="flyout"
+			  >
+					 <div
+	class="height-full border-left background-color-body-medium"
+	id="ask-learn-flyout"
+></div>
+			  </section> <div class="layout-body-footer " data-bi-name="layout-footer">
+		<footer
+			id="footer"
+			data-test-id="footer"
+			data-bi-name="footer"
+			class="footer-layout padding-xs padding-sm-desktop has-default-focus border-top"
+			role="contentinfo"
+		>
+			<div class="display-flex gap-xs flex-wrap-wrap is-full-height padding-right-lg-desktop">
+				
+		<a
+			data-mscc-ic="false"
+			href="#"
+			data-bi-name="select-locale"
+			class="locale-selector-link flex-shrink-0 button button-sm button-clear external-link-indicator"
+			id=""
+			title=""
+			><span class="icon" aria-hidden="true"
+				><span class="docon docon-world"></span></span
+			><span class="local-selector-link-text">en-us</span></a
+		>
+	 <div class="ccpa-privacy-link" data-ccpa-privacy-link hidden>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://aka.ms/yourcaliforniaprivacychoices"
+			data-bi-name="your-privacy-choices"
+			class="button button-sm button-clear flex-shrink-0 external-link-indicator"
+			id=""
+			title=""
+			>
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 30 14"
+			xml:space="preserve"
+			height="16"
+			width="43"
+			aria-hidden="true"
+			focusable="false"
+		>
+			<path
+				d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z"
+				style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff"
+			></path>
+			<path
+				d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z"
+				style="fill-rule:evenodd;clip-rule:evenodd;fill:#06f"
+			></path>
+			<path
+				d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z"
+				style="fill:#fff"
+			></path>
+			<path
+				d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z"
+				style="fill:#06f"
+			></path>
+		</svg>
+	
+			<span>Your Privacy Choices</span></a
+		>
+	
+	</div>
+				<div class="flex-shrink-0">
+		<div class="dropdown has-caret-up">
+			<button
+				data-test-id="theme-selector-button"
+				class="dropdown-trigger button button-clear button-sm inner-focus theme-dropdown-trigger"
+				aria-controls="{{ themeMenuId }}"
+				aria-haspopup="true"
+				aria-expanded="false"
+				data-bi-name="theme"
+			>
+				<span class="icon" aria-hidden="true"><span class="docon docon-sun"></span></span>
+				<span>Theme</span>
+				<span class="icon expanded-indicator" aria-hidden="true">
+					<span class="docon docon-chevron-down-light"></span>
+				</span>
+			</button>
+			<div class="dropdown-menu" id="{{ themeMenuId }}" role="menu">
+				<ul class="theme-selector padding-xxs" data-test-id="theme-dropdown-menu" role="none">
+					<li class="theme display-block" role="none">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							role="menuitemradio"
+							aria-checked="false"
+							data-theme-to="light"
+							tabindex="-1"
+						>
+							<span class="theme-light margin-right-xxs">
+								<span
+									class="theme-selector-icon border display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span> Light </span>
+						</button>
+					</li>
+					<li class="theme display-block" role="none">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							role="menuitemradio"
+							aria-checked="false"
+							data-theme-to="dark"
+							tabindex="-1"
+						>
+							<span class="theme-dark margin-right-xxs">
+								<span
+									class="border theme-selector-icon display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span> Dark </span>
+						</button>
+					</li>
+					<li class="theme display-block" role="none">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							role="menuitemradio"
+							aria-checked="false"
+							data-theme-to="high-contrast"
+							tabindex="-1"
+						>
+							<span class="theme-high-contrast margin-right-xxs">
+								<span
+									class="border theme-selector-icon display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span> High contrast </span>
+						</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+			</div>
+			<ul class="links" data-bi-name="footerlinks">
+				<li class="manage-cookies-holder" hidden=""></li>
+				<li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/principles-for-ai-generated-content"
+			data-bi-name="aiDisclaimer"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>AI Disclaimer</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/previous-versions/"
+			data-bi-name="archivelink"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Previous Versions</a
+		>
+	
+	</li> <li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/MicrosoftLearnBlog"
+			data-bi-name="bloglink"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Blog</a
+		>
+	
+	</li> <li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/contribute"
+			data-bi-name="contributorGuide"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Contribute</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://go.microsoft.com/fwlink/?LinkId=521839"
+			data-bi-name="privacy"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Privacy</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://go.microsoft.com/fwlink/?linkid=2259814"
+			data-bi-name="consumer-health-privacy"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Consumer Health Privacy</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/legal/termsofuse"
+			data-bi-name="termsofuse"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Terms of Use</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://www.microsoft.com/legal/intellectualproperty/Trademarks/"
+			data-bi-name="trademarks"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Trademarks</a
+		>
+	
+	</li>
+				<li>&copy; Microsoft 2026</li>
+			</ul>
+		</footer>
+	</footer>
+			<noscript><img src="https://learn.microsoft.com/akam/13/pixel_36034193?a=dD02ZmMzZDU5YzFlYjU4NTkxNjViYTg0YjFmMDRjZTExMTU1OWZiNTg2JmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript></body>
+		</html>

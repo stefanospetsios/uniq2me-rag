@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "ead66d6806698ea30811ea2e36a37233115985e23b4fcf22b27fa57aee84f9ac",
+  "cachedAt": "2026-10-23T22:03:15Z",
+  "observedAt": "2026-10-23T22:03:15Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-7-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "7",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "CI/CD source control build provenance official maintainer implementation configuration documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792792949261,
+    "end": 1792792950603
+  },
+  "outputDigest": "sha256:b0b1a4f23334f38a17a5c5176c8e704663db0449b013977b57ca23dbd3157072",
+  "resultUrls": [
+    "https://docs.docker.com/build/metadata/attestations/slsa-provenance/",
+    "https://docs.github.com/en/code-security/tutorials/implement-supply-chain-best-practices/securing-builds",
+    "https://docs.gitlab.com/ci/pipeline_security/slsa/level_3/provenance_v1/",
+    "https://example.com/slsa_source.policy",
+    "https://example.com/source_verifier",
+    "https://github.com/foo/hello-world",
+    "https://github.com/foo/hello-world%60",
+    "https://github.com/foo/hello-world%60.",
+    "https://github.com/foo/hello-world/commit/9a04d1ee393b5be2773b1ce204f61fe0fd02366a",
+    "https://github.com/in-toto/attestation/blob/main/spec/v1/digest_set.md",
+    "https://github.com/slsa-framework/slsa/commit/6ff3cd75c8c9e0fcedc62bd6a79cf006f185cedb%60",
+    "https://in-toto.io/Statement/v0.1",
+    "https://in-toto.io/Statement/v1",
+    "https://mobyproject.org/buildkit@v1",
+    "https://slsa.dev/provenance/v0.2",
+    "https://slsa.dev/spec/v1.2/source-requirements",
+    "https://slsa.dev/verification_summary/v1",
+    "https://svn.myproject.org/svn/MyProject/trunk@2019%60"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"SLSA • Source: Requirements for producing source\",\n      \"url\": \"https://slsa.dev/spec/v1.2/source-requirements\",\n      \"content\": \"SLSA • Source: Requirements for producing source\\n\\n# Source: Requirements for producing source\\n\\nOn this page\\n\\n- Objective\\n- Definitions\\n\\n- Source Roles\\n- Onboarding\\n- Basics\\n\\n- Level 1: Version controlled\\n- Level 2: History & Provenance\\n- Level 3: Continuous technical controls\\n- Level 4: Two-party review\\n- Requirements\\n\\n- Organization\\n- Source Control System\\n- Communicating source levels\\n\\n- Source verification summary attestation\\n- Source provenance attestations\\n- Future Considerations\\n\\n- Authentication\\n\\n## Objective\\n\\nThe primary purpose of the SLSA Source track is to provide producers and consumers with increasing levels of trust in the source code they produce and consume. It describes increasing levels of trustworthiness and completeness of how a source revision was created.\\n\\nThe expected process for creating a new revision is determined solely by that repository’s owner (the organization) who also determines the intent of the software in the repository and administers technical controls to enforce the process.\\n\\nConsumers can review attestations to verify whether a particular revision meets their standards.\\n\\n## Definitions\\n\\nA Version Control System (VCS) is a system of software and protocols for managing the version history of a set of files. Git, Mercurial, and Subversion are all examples of version control systems.\\n\\nThe following terms apply to Version Control Systems:\\n\\n| Term | Description |\\n| --- | --- |\\n| Source Repository (Repo) | A self-contained unit that holds the content and revision history for a set of files, along with related metadata like Branches and Tags. |\\n| Source Revision | A specific, logically immutable snapshot of the repository’s tracked files. It is uniquely identified by a revision identifier, such as a cryptographic hash lik",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "7"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "docs.docker.com",
+      "docs.github.com",
+      "docs.gitlab.com",
+      "example.com",
+      "github.com",
+      "in-toto.io",
+      "mobyproject.org",
+      "slsa.dev",
+      "svn.myproject.org"
+    ]
+  }
+}

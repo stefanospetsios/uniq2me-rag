@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T22:03:16Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "7-source-1",
+    "type": "technical-doc",
+    "title": "SLSA Source Requirements Specification v1.2",
+    "publisher": "SLSA Community (Linux Foundation Public Health Working Group)",
+    "url": "https://slsa.dev/spec/v1.2/source-requirements",
+    "language": "en",
+    "jurisdiction": "Global",
+    "applicability": "Software supply chain security for source control, version management, and technical controls. Covers source repository management, change history, and provenance requirements applicable to CI/CD pipelines and release processes.",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:bed58a17176decc5cf0bf827ebfda4363f25203bdda8e1099b23cf375282cfc0",
+    "textDigest": "sha256:1e5eb1169bef91700cb38c85a9577143c3356123810d6cf4a77876b1352c1972",
+    "finalUrl": "https://slsa.dev/spec/v1.2/source-requirements",
+    "retrievedAt": "2026-10-23T22:03:16Z",
+    "contentType": "text/html; charset=UTF-8",
+    "snapshotPath": "source-bed58a17176decc5cf0bf827ebfda4363f25203bdda8e1099b23cf375282cfc0.bin",
+    "textPath": "source-1e5eb1169bef91700cb38c85a9577143c3356123810d6cf4a77876b1352c1972.txt"
+  },
+  "files": {
+    "snapshots/source-bed58a17176decc5cf0bf827ebfda4363f25203bdda8e1099b23cf375282cfc0.bin": "sha256:bed58a17176decc5cf0bf827ebfda4363f25203bdda8e1099b23cf375282cfc0",
+    "snapshots/source-1e5eb1169bef91700cb38c85a9577143c3356123810d6cf4a77876b1352c1972.txt": "sha256:1e5eb1169bef91700cb38c85a9577143c3356123810d6cf4a77876b1352c1972"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://slsa.dev/spec/v1.2/source-requirements",
+  "language": "en",
+  "retrievedAt": "2026-10-23T22:03:16Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T22:03:16Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n\n\n    \n\n    \n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \nSLSA • Source: Requirements for producing source\n\n\n    \n\n    \n\n    \n\n\n    \n\n    \n\n    \n\n\n\n  \n\n    \n\n      \n\n    \n\n    \n\n      \n\n        \n\n      \n\n    \n\n  \n\n\n\n  \n\n    \n  \n\n  \n\n  \n    \n    \n\n\n        \n\n          Home\n        \n\n    \n\n\n\n        \n\n          Current activities\n        \n\n    \n\n\n\n        \n\n          SLSA v1.2\n        \n\n          \n\n        \nUnderstanding SLSA\n\n          \n\n        \n\n          What's new\n        \n\n    \n\n\n\n        \n\n          About SLSA\n        \n\n    \n\n\n\n        \n\n          Supply chain threats\n        \n\n    \n\n\n\n        \n\n          Use cases\n        \n\n    \n\n\n\n        \n\n          Guiding principles\n        \n\n    \n\n\n\n        \n\n          FAQ\n        \n\n    \n\n\n",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "7"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "SLSA Community (Linux Foundation Public Health Working Group)",
+    "host": "slsa.dev"
+  }
+}

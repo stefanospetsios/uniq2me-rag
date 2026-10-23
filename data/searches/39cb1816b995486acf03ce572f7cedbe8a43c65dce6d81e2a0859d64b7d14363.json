@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "39cb1816b995486acf03ce572f7cedbe8a43c65dce6d81e2a0859d64b7d14363",
+  "cachedAt": "2026-10-23T22:15:10Z",
+  "observedAt": "2026-10-23T22:15:10Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-8-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "8",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Secure Development Lifecycle and Risk Management official implementation configuration documentation",
+    "time_range": ""
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792793615712,
+    "end": 1792793616609
+  },
+  "outputDigest": "sha256:dff21c439612f31e31071119ef8bc347d26b2ec65e8695c610717e7671ad2019",
+  "resultUrls": [
+    "https://access.redhat.com/security/rh_security_declaration_sdl",
+    "https://hightable.io/iso27001-annex-a-8-25-secure-development-life-cycle/",
+    "https://infosecauthority.com/secure-software-development-lifecycle/",
+    "https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf",
+    "https://www.konfirmity.com/blog/soc-2-secure-sdlc",
+    "https://www.microsoft.com/en-us/securityengineering/sdl/",
+    "https://www.microsoft.com/en-us/securityengineering/sdl/practices",
+    "https://www.opswat.com/blog/secure-sdlc-framework",
+    "https://www.ox.security/blog/sdlc-security-everything-you-need-to-know/",
+    "https://www.securecoding.org/secure-development-lifecycle/"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Secure Development Lifecycle and Risk Management official implementation configuration documentation\",\n  \"results\": [\n    {\n      \"title\": \"ISO 27001 Annex A 8.25 Secure Development Explained - High Table\",\n      \"url\": \"https://hightable.io/iso27001-annex-a-8-25-secure-development-life-cycle/\",\n      \"content\": \"Establishing a Secure Development Life Cycle (SDLC) is essential for embedding security into every phase of software creation. By following these technical implementation steps, your organisation can mitigate supply chain risks and ensure compliance with ISO 27001 Annex A 8.25 standards through a proactive shift left security approach.\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Security Development Lifecycle (SDL) Practices - Microsoft\",\n      \"url\": \"https://www.microsoft.com/en-us/securityengineering/sdl/practices\",\n      \"content\": \"It's been 20 years since we introduced the Microsoft Security Development Lifecycle (SDL)—a set of practices and tools that help developers build more secure software. While the goal has not changed, the cyber security landscape on how software and services are built and deployed has. Learn about the practices of the SDL, and how to implement them in your organization.\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Secure Software Development Life Cycle | Red Hat Customer Portal\",\n      \"url\": \"https://access.redhat.com/security/rh_security_declaration_sdl\",\n      \"content\": \"Red Hat maintains a software development lifecycle (SDLC) process that addresses risk assessment, vulnerability assessment, and security testing protocols of ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Secure Development Life Cycle in SOC 2: 2026 Guide | Konfirmity\",\n      \"url\": \"https://www.konfirmity.com/blog/soc-2-secure-sdlc\",\n      \"content\": \"16 Σεπ 2026 ... The secure development life",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "access.redhat.com",
+      "hightable.io",
+      "infosecauthority.com",
+      "www.enisa.europa.eu",
+      "www.konfirmity.com",
+      "www.microsoft.com",
+      "www.opswat.com",
+      "www.ox.security",
+      "www.securecoding.org"
+    ]
+  }
+}

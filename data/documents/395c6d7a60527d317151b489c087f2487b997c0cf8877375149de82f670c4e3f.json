@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T21:37:35Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "5-source-1",
+    "type": "technical-doc",
+    "title": "NIST Special Publication 800-77 Revision 1: Guide to IPsec VPNs",
+    "publisher": "National Institute of Standards and Technology (NIST)",
+    "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-77r1.pdf",
+    "language": "en",
+    "jurisdiction": "United States",
+    "applicability": "Provides authoritative technical guidance on IPsec protocol implementation including configuration of security associations, key management, and network traffic selectors. Directly addresses VPN implementation, traffic controls, and secure remote connectivity boundaries in the scope.",
+    "publicationDate": "2020-06-01",
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "page vi",
+        "text": "FIPS-validated cryptographic modules shall"
+      },
+      {
+        "id": "p2",
+        "locator": "Executive Summary",
+        "text": "Gateway-to-gateway. This architecture protects communications"
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:bc2a36dcccf96476d4e0d09468901726c930f2554115c440988bae746074bd70",
+    "textDigest": "sha256:f946b8af348cabc6416dcb1dad331f045ccc0bc53095aea9689073094ee4f5cf",
+    "finalUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-77r1.pdf",
+    "retrievedAt": "2026-10-23T21:37:35Z",
+    "contentType": "application/pdf",
+    "snapshotPath": "source-bc2a36dcccf96476d4e0d09468901726c930f2554115c440988bae746074bd70.bin",
+    "textPath": "source-f946b8af348cabc6416dcb1dad331f045ccc0bc53095aea9689073094ee4f5cf.txt"
+  },
+  "files": {
+    "snapshots/source-bc2a36dcccf96476d4e0d09468901726c930f2554115c440988bae746074bd70.bin": "sha256:bc2a36dcccf96476d4e0d09468901726c930f2554115c440988bae746074bd70",
+    "snapshots/source-f946b8af348cabc6416dcb1dad331f045ccc0bc53095aea9689073094ee4f5cf.txt": "sha256:f946b8af348cabc6416dcb1dad331f045ccc0bc53095aea9689073094ee4f5cf"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-77r1.pdf",
+  "language": "en",
+  "retrievedAt": "2026-10-23T21:37:35Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T21:52:36Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "           NIST Special Publication 800-77\n                                Revision 1\n\n                  Guide to IPsec VPNs\n\n\n                                               Elaine Barker\n                                                Quynh Dang\n                                              Sheila Frankel\n                                             Karen Scarfone\n                                               Paul Wouters\n\n\n\n\n           This publication is available free of charge from:\n                 https://doi.org/10.6028/NIST.SP.800-77r1\n\n\n\n\nC O M P U T E R      S E C U R I T Y\n\f                         NIST Special Publication 800-77\n                                              Revision 1\n\n                                  Guide to IPsec VPNs\n                                     ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "National Institute of Standards and Technology (NIST)",
+    "host": "nvlpubs.nist.gov"
+  }
+}

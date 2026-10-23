@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "e61d3730eeed08774a97d713844a1d84a42da57c845a983a2e6fff35d0146ece",
+  "cachedAt": "2026-10-23T23:10:13Z",
+  "originRunId": "qwen3-40019296746",
+  "sourceUrl": "https://docs.aws.amazon.com/prescriptive-guidance/latest/gen-ai-inference-architecture-and-best-practices-on-aws/implementing-security-rai.html",
+  "finalUrl": "https://docs.aws.amazon.com/prescriptive-guidance/latest/gen-ai-inference-architecture-and-best-practices-on-aws/implementing-security-rai.html",
+  "language": "en",
+  "publisher": "Amazon Web Services",
+  "title": "Implementing security and responsible AI - AWS Prescriptive Guidance",
+  "retrievedAt": "2026-10-23T23:09:10Z",
+  "byteDigest": "sha256:413cfb0b8192f0dbf53c213ba95f5a00477e0b527cd3e2384fa6df19e1377e56",
+  "textDigest": "sha256:aca1b596338dc6ada2f40a80c417e39b3e843f0ad30e11ddee3aec16d01e646e",
+  "sourceId": "E-source-1",
+  "passageId": "p2",
+  "locator": "Before moving to inference/Documentation preparation",
+  "quotation": "A model card should include detailed specifications of the model architecture, training methodology, and hyperparameter configurations, along with performance metrics across diverse datasets and demographic groups. It must also explicitly outline both intended use cases and scenarios where the model should not be applied, establishing clear boundaries for appropriate deployment.",
+  "originalText": "A model card should include detailed specifications of the model architecture, training methodology, and hyperparameter configurations, along with performance metrics across diverse datasets and demographic groups. It must also explicitly outline both intended use cases and scenarios where the model should not be applied, establishing clear boundaries for appropriate deployment.",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T23:10:13Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "E"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Amazon Web Services",
+    "host": "docs.aws.amazon.com"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T22:22:54Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "9-source-5",
+    "type": "technical-doc",
+    "title": "Creating a Scan Configuration",
+    "publisher": "Amazon Web Services, Inc.",
+    "url": "https://docs.aws.amazon.com/inspector/latest/user/code-security-assessments-create-configuration.html",
+    "language": "en",
+    "jurisdiction": "United States",
+    "applicability": "AWS customers implementing security scanning configurations for code repositories with change-based and periodic triggers",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:304aed8b5e36a4f36e0c38b8f13b73387c4c0968073afe68f9bb2c9ec493e2c2",
+    "textDigest": "sha256:c0b3022105197e0dffceef07bc75aef65214f7dfcb8c6e4eb2aeb02f7a2bb510",
+    "finalUrl": "https://docs.aws.amazon.com/inspector/latest/user/code-security-assessments-create-configuration.html",
+    "retrievedAt": "2026-10-23T22:22:54Z",
+    "contentType": "text/html",
+    "snapshotPath": "source-304aed8b5e36a4f36e0c38b8f13b73387c4c0968073afe68f9bb2c9ec493e2c2.bin",
+    "textPath": "source-c0b3022105197e0dffceef07bc75aef65214f7dfcb8c6e4eb2aeb02f7a2bb510.txt"
+  },
+  "files": {
+    "snapshots/source-304aed8b5e36a4f36e0c38b8f13b73387c4c0968073afe68f9bb2c9ec493e2c2.bin": "sha256:304aed8b5e36a4f36e0c38b8f13b73387c4c0968073afe68f9bb2c9ec493e2c2",
+    "snapshots/source-c0b3022105197e0dffceef07bc75aef65214f7dfcb8c6e4eb2aeb02f7a2bb510.txt": "sha256:c0b3022105197e0dffceef07bc75aef65214f7dfcb8c6e4eb2aeb02f7a2bb510"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://docs.aws.amazon.com/inspector/latest/user/code-security-assessments-create-configuration.html",
+  "language": "en",
+  "retrievedAt": "2026-10-23T22:22:54Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T22:22:54Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n    \nCreating a scan configuration - Amazon Inspector\n \n\n\nView a markdown version of this page\n\n\n\n\nCreating a scan configuration - Amazon Inspector\n\n\nDocumentation\nInspector\nUser Guide\n\n\nCreating a scan configuration\n\n\n\n\n \n    Before you create a scan configuration, you must \ncreate an integration with Amazon Inspector\n. \n    The first time you create an integration, you're prompted to create a default scan configuration. \n    This topic describes how to create a general scan configuration. \n    The difference between a default scan configuration and a general scan configuration is that a default scan configuration is automatically attached to new projects. \n    You can skip creating a default scan configuration.\n  \n\n\n\n    Code Security only supports a maximum of 500 general scan configur",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "9"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Amazon Web Services, Inc.",
+    "host": "docs.aws.amazon.com"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T22:47:06Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "C-source-4",
+    "type": "guidance",
+    "title": "REST and REST APIs: A Complete Guide for Developers",
+    "publisher": "Gravitee",
+    "url": "https://www.gravitee.io/blog/rest-and-rest-apis-a-complete-guide-for-developers",
+    "language": "en",
+    "jurisdiction": "Global",
+    "applicability": "API security implementation including OpenAPI contract validation, input validation, and interface security constraints",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:7f13a37671f5a212d24bc21c944c3139ba24063f9908e14b2c6b74117c67f909",
+    "textDigest": "sha256:cf041bec5fb155f8c58489cd021137febd931bb84dcc58e6fbb80332a7caa42d",
+    "finalUrl": "https://www.gravitee.io/blog/rest-and-rest-apis-a-complete-guide-for-developers",
+    "retrievedAt": "2026-10-23T22:47:06Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-7f13a37671f5a212d24bc21c944c3139ba24063f9908e14b2c6b74117c67f909.bin",
+    "textPath": "source-cf041bec5fb155f8c58489cd021137febd931bb84dcc58e6fbb80332a7caa42d.txt"
+  },
+  "files": {
+    "snapshots/source-7f13a37671f5a212d24bc21c944c3139ba24063f9908e14b2c6b74117c67f909.bin": "sha256:7f13a37671f5a212d24bc21c944c3139ba24063f9908e14b2c6b74117c67f909",
+    "snapshots/source-cf041bec5fb155f8c58489cd021137febd931bb84dcc58e6fbb80332a7caa42d.txt": "sha256:cf041bec5fb155f8c58489cd021137febd931bb84dcc58e6fbb80332a7caa42d"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.gravitee.io/blog/rest-and-rest-apis-a-complete-guide-for-developers",
+  "language": "en",
+  "retrievedAt": "2026-10-23T22:47:06Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T22:47:06Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n    \n\n    \n\n    \n\n    \n\n\n    \n\n    \nREST and REST APIs: A Complete Guide for Developers\n\n    \n\n    \n\n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    \n\n\n    \n    \n\n    \n\n    \n\n    \n\n\n    \n\n    \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n\n\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n\n    \n    \n  \n\n  \n\n\n\n\n\n\n\n\n\n    \n\n      \n      \n\n\n  \n  \n\n    \n  \n  \n\n  \n\n  \n\n  \n  \n\n\n\n\n\n\n\n    \n\n    \n\n      \n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n\n\n    \n\n\n\n\n    \n\n    \n \n \n      \n\n      \n\n      \n\n    \nMenu \n\n                \n\n            \n\n        \n\n                \n\n                    \n\n                \n\n                \n\n                    \n\n                     ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "C"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Gravitee",
+    "host": "www.gravitee.io"
+  }
+}

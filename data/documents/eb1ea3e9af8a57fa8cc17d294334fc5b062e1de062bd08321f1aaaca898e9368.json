@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T22:19:33Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "9-source-4",
+    "type": "technical-doc",
+    "title": "Configuration Guide for Automated Security Helper",
+    "publisher": "Amazon Web Services (AWS) Labs",
+    "url": "https://github.com/awslabs/automated-security-helper/blob/main/docs/content/docs/configuration-guide.md",
+    "language": "en",
+    "jurisdiction": "United States",
+    "applicability": "Cloud environments using AWS tools for security scanning configuration and vulnerability management",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:249f594b382fa89ccdb5850ebaa2e3639b9732487ae2eddecc48d0e8a2c8538a",
+    "textDigest": "sha256:9a77b7f350af6401dcb3d56453bb4b248c36ab6c1481bcbd13a04b277075f08b",
+    "finalUrl": "https://github.com/awslabs/automated-security-helper/blob/main/docs/content/docs/configuration-guide.md",
+    "retrievedAt": "2026-10-23T22:19:33Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-249f594b382fa89ccdb5850ebaa2e3639b9732487ae2eddecc48d0e8a2c8538a.bin",
+    "textPath": "source-9a77b7f350af6401dcb3d56453bb4b248c36ab6c1481bcbd13a04b277075f08b.txt"
+  },
+  "files": {
+    "snapshots/source-249f594b382fa89ccdb5850ebaa2e3639b9732487ae2eddecc48d0e8a2c8538a.bin": "sha256:249f594b382fa89ccdb5850ebaa2e3639b9732487ae2eddecc48d0e8a2c8538a",
+    "snapshots/source-9a77b7f350af6401dcb3d56453bb4b248c36ab6c1481bcbd13a04b277075f08b.txt": "sha256:9a77b7f350af6401dcb3d56453bb4b248c36ab6c1481bcbd13a04b277075f08b"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://github.com/awslabs/automated-security-helper/blob/main/docs/content/docs/configuration-guide.md",
+  "language": "en",
+  "retrievedAt": "2026-10-23T22:19:33Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T22:19:33Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n\n\n\n  \n\n\n\n\n\n\n\n\n\n  \n\n    \n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n  \n\n\n  \n\n\n    \n\n    \n\n    \n\n    \n\n  \n\n\n\n\n  \n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \nautomated-security-helper/docs/content/docs/configuration-guide.md at main · awslabs/automated-security-helper · GitHub\n\n\n\n\n  \n\n  \n\n  \n\n  \n\n\n    \n  \n\n\n\n  \n\n\n\n    \n\n\n\n  \n\n  \n\n  \n\n  \n\n\n    \n\n\n\n\n\n\n\n\n\n  \n\n\n  \n\n\n\n\n    \n\n\n  \n\n    \n\n\n    \n\n      \n\n\n      \n\n\n    \n\n    \n\n    \n\n\n      \n\n  \n\n  \n\n\n\n\n      \n\n\n\n\n        \n\n\n\n  \n\n  \n\n  \n\n  \n\n\n  \n\n\n      \n\n\n    \n\n\n  \n\n\n  \n\n  \n\n\n\n    \n\n    \n\n  \n\n\n\n  \n\n\n\n  \n\n\n  \n\n  \n\n\n  \n\n  \n\n  \n\n\n\n\n\n\n\n\n  \n\n\n  \n\n\n  \n\n    \n\n      \n\n\n\n      \n\n    \n\n      \nSkip to content\n\n\n ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "9"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Amazon Web Services (AWS) Labs",
+    "host": "github.com"
+  }
+}

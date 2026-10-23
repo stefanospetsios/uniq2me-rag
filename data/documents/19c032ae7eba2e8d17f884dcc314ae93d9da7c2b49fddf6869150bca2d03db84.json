@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T21:32:49Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "4-source-3",
+    "type": "guidance",
+    "title": "Data Classification | Databricks on AWS",
+    "publisher": "Databricks",
+    "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/data-classification",
+    "language": "en",
+    "jurisdiction": "Global",
+    "applicability": "Technical implementation documentation for automated data classification systems in cloud storage environments. Covers sensitivity categorization, encryption standards, access governance, retention policies, and privacy controls across storage types with practical configuration examples addressing cloud-specific implementation requirements.",
+    "publicationDate": "2026-10-09",
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:f9a8c126591a3e97ba346bbb1450e885f6d6444a110ff3370e8183be1e984973",
+    "textDigest": "sha256:5f1b43bc66578e50e9c7f5bf892de159de9392bddedb1a0bab55af27fd1c4d4e",
+    "finalUrl": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/data-classification",
+    "retrievedAt": "2026-10-23T21:32:49Z",
+    "contentType": "text/html",
+    "snapshotPath": "source-f9a8c126591a3e97ba346bbb1450e885f6d6444a110ff3370e8183be1e984973.bin",
+    "textPath": "source-5f1b43bc66578e50e9c7f5bf892de159de9392bddedb1a0bab55af27fd1c4d4e.txt"
+  },
+  "files": {
+    "snapshots/source-f9a8c126591a3e97ba346bbb1450e885f6d6444a110ff3370e8183be1e984973.bin": "sha256:f9a8c126591a3e97ba346bbb1450e885f6d6444a110ff3370e8183be1e984973",
+    "snapshots/source-5f1b43bc66578e50e9c7f5bf892de159de9392bddedb1a0bab55af27fd1c4d4e.txt": "sha256:5f1b43bc66578e50e9c7f5bf892de159de9392bddedb1a0bab55af27fd1c4d4e"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/data-classification",
+  "language": "en",
+  "retrievedAt": "2026-10-23T21:32:49Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T21:32:49Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "Data Classification | Databricks on AWS\n\n\n\n\n\n\n\n\n\n\nSkip to main content\n\n\n\n\nGet started\nGuides\nDevelop\nReference\nResources\nRelease notes\nHelp\nSupport\nKnowledge Base\nCommunity\nTraining\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnglish\nEnglish\n日本語\nPortuguês\nFrançais\n\n\nAWS\nAzure\nGCP\nSAP\n\n\nTry Databricks\n\n\n\n\n\n\n\n\nData governance with Unity Catalog\nData classification\n\n\nOn this page\n\n\nLast updated\n on \nOct 9, 2026\n\n\n\n\n\n\nData Classification\n\n\n\n\nThis page describes how to use Databricks Data Classification in \nUnity Catalog\n to automatically classify and tag sensitive data in your catalog.\n\n\n\n\nFor new classifiers, changes to classification behavior, and other updates, see \nData Classification release notes\n.\n\n\n\n\nData catalogs can have a vast amount of data, often containing known and unknown sensitive data. It is critical",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "4"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Databricks",
+    "host": "docs.databricks.com"
+  }
+}

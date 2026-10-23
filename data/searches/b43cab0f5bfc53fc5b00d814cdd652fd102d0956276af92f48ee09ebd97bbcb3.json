@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "b43cab0f5bfc53fc5b00d814cdd652fd102d0956276af92f48ee09ebd97bbcb3",
+  "cachedAt": "2026-10-23T23:09:09Z",
+  "observedAt": "2026-10-23T23:09:09Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-E-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "E",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "AI development configuration documentation bias evaluation deployment approval technical guide"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792796909795,
+    "end": 1792796910894
+  },
+  "outputDigest": "sha256:f037ad3c87fd3e69e97ffb115417b2a4f9746c1519bb6a991e4bfb65eb969958",
+  "resultUrls": [
+    "https://aigovernanceengineer.com/bok/governing-development",
+    "https://docs.aws.amazon.com/prescriptive-guidance/latest/gen-ai-inference-architecture-and-best-practices-on-aws/implementing-security-rai.html"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Implementing security and responsible AI - AWS Prescriptive Guidance\",\n      \"url\": \"https://docs.aws.amazon.com/prescriptive-guidance/latest/gen-ai-inference-architecture-and-best-practices-on-aws/implementing-security-rai.html\",\n      \"content\": \"Implementing security and responsible AI - AWS Prescriptive Guidance\\n\\nBefore moving to inference After inference deployment\\n\\n# Implementing security and responsible AI\\n\\nBuilding generative AI (gen AI) models involves complex technical and business decisions. To speed up experimentation, some \\n\\nresponsible AI (RAI)\\n\\n evaluations might be overlooked initially. However, conducting an RAI review before moving to inference helps organizations strengthen risk assessment and resource management through a structured evaluation process. This pre-release review serves as the final controlled stage where organizations can thoroughly assess models for potential harm. For example, organizations can assess models for bias amplification, privacy violations, safety risks, or misalignment with organizational values.\\n\\nThe RAI review consists of two phases:\\n\\n- Before moving to inference\\n- After inference deployment\\n\\n## Before moving to inference\\n\\nTo establish a foundation for responsible deployment, implement a model registry to track lineage, versions, and artifacts, ensuring traceability throughout the model's lifecycle. The model evaluation report provides a detailed assessment that quantifies robustness, fairness across demographic groups, and potential failure modes. This assessment offers visibility into unexpected behavior and supports informed trade-off discussions. These evaluations guide the creation of comprehensive governance structures, including formal approval workflows, stakeholder sign-offs, and escalation paths that maintain organizational awareness of potential risks and impacts.\\n\\nTo complement these governance mechanisms, implement technical safeguards such as m",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "E"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "aigovernanceengineer.com",
+      "docs.aws.amazon.com"
+    ]
+  }
+}

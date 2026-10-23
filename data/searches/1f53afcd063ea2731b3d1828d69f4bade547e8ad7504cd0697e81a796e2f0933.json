@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "1f53afcd063ea2731b3d1828d69f4bade547e8ad7504cd0697e81a796e2f0933",
+  "cachedAt": "2026-10-23T21:43:23Z",
+  "observedAt": "2026-10-23T21:43:23Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-5-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "5",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "Networking and VPNs official implementation configuration documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792791706714,
+    "end": 1792791708485
+  },
+  "outputDigest": "sha256:8bbafb8c5e4c39e7b4af4862264d62ca1dca9433957d382da3b472e464ca6d82",
+  "resultUrls": [
+    "https://www.juniper.net/documentation/us/en/software/junos/vpn-l2/vpn-l2.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Junos® OS Layer 2 VPNs and VPLS User Guide for Routing Devices\",\n      \"url\": \"https://www.juniper.net/documentation/us/en/software/junos/vpn-l2/vpn-l2.pdf\",\n\n...2991910 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_16ab68330001O5P1vLuohYscEc\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "www.juniper.net"
+    ]
+  }
+}

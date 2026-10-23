@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T23:05:22Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "D-source-3",
+    "type": "guidance",
+    "title": "NIS2 Technical Implementation Guidance Overview",
+    "publisher": "European Union Agency for Cybersecurity (ENISA)",
+    "url": "https://www.enisa.europa.eu/publications/nis2-technical-implementation-guidance",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "Supplementary technical documentation supporting implementation of cybersecurity risk management measures across NIS2 digital infrastructure sectors",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:4eef8bef562a410fdfdcc0ac6442099fa3036eb73cabebfdb48f862f81c89f81",
+    "textDigest": "sha256:15a4706a31cf3f7a82509f463c0053e1bcaf6a03e40b3caf81ce4d01ec700679",
+    "finalUrl": "https://www.enisa.europa.eu/publications/nis2-technical-implementation-guidance",
+    "retrievedAt": "2026-10-23T23:05:22Z",
+    "contentType": "text/html; charset=UTF-8",
+    "snapshotPath": "source-4eef8bef562a410fdfdcc0ac6442099fa3036eb73cabebfdb48f862f81c89f81.bin",
+    "textPath": "source-15a4706a31cf3f7a82509f463c0053e1bcaf6a03e40b3caf81ce4d01ec700679.txt"
+  },
+  "files": {
+    "snapshots/source-4eef8bef562a410fdfdcc0ac6442099fa3036eb73cabebfdb48f862f81c89f81.bin": "sha256:4eef8bef562a410fdfdcc0ac6442099fa3036eb73cabebfdb48f862f81c89f81",
+    "snapshots/source-15a4706a31cf3f7a82509f463c0053e1bcaf6a03e40b3caf81ce4d01ec700679.txt": "sha256:15a4706a31cf3f7a82509f463c0053e1bcaf6a03e40b3caf81ce4d01ec700679"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.enisa.europa.eu/publications/nis2-technical-implementation-guidance",
+  "language": "en",
+  "retrievedAt": "2026-10-23T23:05:22Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T23:05:22Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n\n\n  \n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n\n    \n\n    \n    \n    \nNIS2 Technical Implementation Guidance | ENISA\n\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n    \n\n  \n\n  \n\n\n    \n      \n\n    \n\n\n\n\n  \nGo to the main content\n\n\n\n  \n    \n\n    \n\n\n        \n\n    \n\n  \n    \n  \n\n\n    \n\n    \n\n  \n\n  \n  \n\n    \n      \n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n              \n\n            \n\n    \n\n  \n    \n      \n\n\t\n\n\t    \n\n\t    \n\n\t    \n\n\t\n\n\t\n\n\t  \n\n\t    \n\n  \n\n          \n\n      Topics\n\n        \n\n  \n\n    \n\n  \n\n    \n\n  \n      \nTopics\n\n\n\n    \n      \n            \nLearn more about the topics\n\n\n\n\nAccess\n\n\n\n\n\n\n\n      \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n\n  \n      \nFor National / EU authorities\n\n\n\n    \n      \n\n  \n    \n      \n      \n\n      \n\n  \n  \n\n\n          \nCyber Threats\n\n\n\n          \nEU incident response and cyber crisis management\n\n\n\n          \nMarket\n\n\n\n          \nProduct Security a",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "D"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "European Union Agency for Cybersecurity (ENISA)",
+    "host": "www.enisa.europa.eu"
+  }
+}

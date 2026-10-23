@@ -1,0 +1,3780 @@
+
+      
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chapter 4. Using system-wide cryptographic policies | Security hardening | Red Hat Enterprise Linux | 9 | Red Hat Documentation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to navigation
+Skip to content
+Featured links
+
+
+Support
+
+
+Console
+
+
+Developers
+
+
+Start a trial
+
+
+All Red Hat
+For customers
+Customer support
+
+
+Subscription management
+
+
+Support Cases
+
+
+Red Hat Ecosystem Catalog
+
+
+Find a partner
+
+
+
+
+For partners
+Partner portal
+
+
+Partner support
+
+
+Become a partner
+
+
+
+
+Try, buy, & sell
+Red Hat Store
+
+
+Contact Sales
+
+
+Start a trial
+
+
+
+
+Learning resources
+Training and certification
+
+
+Hybrid cloud learning hub
+
+
+Interactive labs
+
+
+Learning community
+
+
+Red Hat TV
+
+
+Architecture Center
+
+
+
+
+Open source communities
+Global advocacy
+
+
+How we contribute
+
+
+
+
+
+
+
+
+
+
+
+
+AI
+
+
+
+
+
+
+
+
+
+
+Learn
+
+
+
+
+
+
+
+
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+
+Resources
+
+
+
+
+
+
+
+
+
+
+Support
+Console
+Developers
+Start a trial
+Contact
+
+
+Select your language
+English
+Français
+한국어
+日本語
+中文 (中国)
+Deutsch
+Italiano
+Português
+Español
+
+
+
+
+
+
+
+
+
+
+Home
+
+
+Products
+
+
+Red Hat Enterprise Linux
+
+
+9
+
+
+Security hardening
+
+
+Chapter 4. Using system-wide cryptographic policies
+
+
+ 
+
+
+
+
+
+
+Open 
+ Table of contents
+
+
+Open page settings
+
+
+
+
+Red Hat Enterprise Linux
+
+
+
+
+
+
+
+
+
+
+Format
+Multi-page
+Single-page
+View full doc as PDF
+
+
+
+
+
+
+
+
+4.1. System-wide cryptographic policies
+4.1.1. Predefined cryptographic policies
+
+
+4.1.2. Post-quantum cryptography
+
+
+
+
+4.2. Changing the system-wide cryptographic policy
+
+
+4.3. Switching the system-wide cryptographic policy to mode compatible with earlier releases
+
+
+4.4. Re-enabling SHA-1
+
+
+4.5. Setting up system-wide cryptographic policies in the web console
+
+
+4.6. Enabling post-quantum algorithms system-wide
+
+
+4.7. Excluding an application from following system-wide cryptographic policies
+4.7.1. Examples of opting out of the system-wide cryptographic policies
+
+
+
+
+4.8. Customizing system-wide cryptographic policies with subpolicies
+
+
+4.9. Creating and setting a custom system-wide cryptographic policy
+
+
+4.10. Enhancing security with the FUTURE cryptographic policy using the crypto_policies RHEL system role
+
+
+
+
+
+
+Red Hat Enterprise Linux
+
+
+
+
+
+
+Security hardening
+
+
+Providing feedback on Red Hat documentation
+
+
+1. Securing RHEL during and right after installation
+Securing RHEL during and right after installation
+
+
+1.1. Disk partitioning
+
+
+1.2. Restricting network connectivity during the installation process
+
+
+1.3. Installing the minimum amount of packages required
+
+
+1.4. Post-installation procedures
+
+
+1.5. Disabling SMT to prevent CPU security issues by using the web console
+
+
+
+
+2. Verifying RPM packages with post-quantum signatures
+Verifying RPM packages with post-quantum signatures
+
+
+2.1. Enabling post-quantum RPM signatures verification
+
+
+2.2. Verifying RHEL RPM packages with post-quantum signatures
+
+
+
+
+3. Switching RHEL to FIPS mode
+Switching RHEL to FIPS mode
+
+
+3.1. Federal Information Processing Standards 140 and FIPS mode
+
+
+3.2. Installing the system with FIPS mode enabled
+
+
+3.3. Switching the system to FIPS mode 
+
+
+3.4. Enabling FIPS mode in a container 
+
+
+3.5. List of RHEL applications using cryptography that is not compliant with FIPS 140-3
+
+
+
+
+4. Using system-wide cryptographic policies
+Using system-wide cryptographic policies
+
+
+4.1. System-wide cryptographic policies
+System-wide cryptographic policies
+
+
+4.1.1. Predefined cryptographic policies
+
+
+4.1.2. Post-quantum cryptography
+
+
+
+
+4.2. Changing the system-wide cryptographic policy
+
+
+4.3. Switching the system-wide cryptographic policy to mode compatible with earlier releases
+
+
+4.4. Re-enabling SHA-1
+
+
+4.5. Setting up system-wide cryptographic policies in the web console
+
+
+4.6. Enabling post-quantum algorithms system-wide
+
+
+4.7. Excluding an application from following system-wide cryptographic policies
+Excluding an application from following system-wide cryptographic policies
+
+
+4.7.1. Examples of opting out of the system-wide cryptographic policies
+
+
+
+
+4.8. Customizing system-wide cryptographic policies with subpolicies
+
+
+4.9. Creating and setting a custom system-wide cryptographic policy
+
+
+4.10. Enhancing security with the FUTURE cryptographic policy using the crypto_policies RHEL system role
+
+
+
+
+5. Configuring applications to use cryptographic hardware through PKCS #11
+Configuring applications to use cryptographic hardware through PKCS #11
+
+
+5.1. Cryptographic hardware support through PKCS #11
+
+
+5.2. Authenticating by SSH keys stored on a smart card
+
+
+5.3. Configuring applications for authentication with certificates on smart cards
+
+
+5.4. Using HSMs protecting private keys in Apache
+
+
+5.5. Using HSMs protecting private keys in Nginx
+
+
+5.6. Additional resources
+
+
+
+
+6. Controlling access to smart cards by using polkit
+Controlling access to smart cards by using polkit
+
+
+6.1. Smart-card access control through polkit
+
+
+6.2. Troubleshooting problems related to PC/SC and polkit
+
+
+6.3. Displaying more detailed information about polkit authorization to PC/SC
+
+
+6.4. Additional resources
+
+
+
+
+7. Scanning the system for configuration compliance and vulnerabilities
+Scanning the system for configuration compliance and vulnerabilities
+
+
+7.1. Configuration compliance tools in RHEL
+
+
+7.2. Vulnerability scanning
+Vulnerability scanning
+
+
+7.2.1. Red Hat Security Advisories OVAL feed
+
+
+7.2.2. Scanning the system for vulnerabilities
+
+
+7.2.3. Scanning remote systems for vulnerabilities
+
+
+
+
+7.3. Configuration compliance scanning
+Configuration compliance scanning
+
+
+7.3.1. Configuration compliance in RHEL
+
+
+7.3.2. Possible results of an OpenSCAP scan
+
+
+7.3.3. Viewing profiles for configuration compliance
+
+
+7.3.4. Assessing configuration compliance with a specific baseline
+
+
+
+
+7.4. Remediating the system to align with a specific baseline
+
+
+7.5. Remediating the system to align with a specific baseline by using an SSG Ansible Playbook
+
+
+7.6. Creating a remediation Ansible Playbook to align the system with a specific baseline
+
+
+7.7. Creating a remediation Bash script for a later application
+
+
+7.8. Scanning the system with a customized profile using SCAP Workbench
+Scanning the system with a customized profile using SCAP Workbench
+
+
+7.8.1. Using SCAP Workbench to scan and remediate the system
+
+
+7.8.2. Customizing a security profile with SCAP Workbench
+
+
+7.8.3. Additional resources
+
+
+
+
+7.9. Deploying systems that are compliant with a security profile immediately after an installation
+Deploying systems that are compliant with a security profile immediately after an installation
+
+
+7.9.1. Profiles not compatible with Server with GUI
+
+
+7.9.2. Deploying baseline-compliant RHEL systems using the graphical installation
+
+
+7.9.3. Deploying baseline-compliant RHEL systems using Kickstart
+
+
+
+
+7.10. Scanning container and container images for vulnerabilities
+
+
+7.11. Assessing security compliance of a container or a container image with a specific baseline
+
+
+7.12. SCAP Security Guide profiles supported in RHEL 9
+
+
+7.13. Additional resources
+
+
+
+
+8. Ensuring system integrity with Keylime
+Ensuring system integrity with Keylime
+
+
+8.1. How Keylime works
+
+
+8.2. Deploying Keylime verifier from a package
+
+
+8.3. Deploying Keylime verifier as a container
+
+
+8.4. Deploying Keylime registrar from a package
+
+
+8.5. Deploying Keylime registrar as a container
+
+
+8.6. Deploying a Keylime server by using RHEL system roles
+
+
+8.7. Variables for the keylime_server RHEL system role
+
+
+8.8. Deploying Keylime tenant from a package
+
+
+8.9. Deploying Keylime agent from a package
+
+
+8.10. Configuring Keylime for runtime monitoring
+
+
+8.11. Configuring Keylime for measured boot attestation
+
+
+8.12. Keylime environment variables
+
+
+
+
+9. Checking integrity with AIDE
+Checking integrity with AIDE
+
+
+9.1. Installing AIDE
+
+
+9.2. Performing integrity checks with AIDE
+
+
+9.3. Updating an AIDE database
+
+
+9.4. File-integrity tools: AIDE and IMA
+
+
+9.5. Configuring file integrity checks with the aide RHEL system role
+
+
+9.6. Additional resources
+
+
+
+
+10. Encrypting block devices using LUKS
+Encrypting block devices using LUKS
+
+
+10.1. LUKS disk encryption
+
+
+10.2. LUKS versions in RHEL
+
+
+10.3. Options for data protection during LUKS2 re-encryption
+
+
+10.4. Encrypting existing data on a block device using LUKS2
+
+
+10.5. Encrypting existing data on a block device using LUKS2 with a detached header
+
+
+10.6. Encrypting a blank block device using LUKS2
+
+
+10.7. Configuring the LUKS passphrase in the web console
+
+
+10.8. Changing the LUKS passphrase in the web console
+
+
+10.9. Changing the LUKS passphrase by using the command line
+
+
+10.10. Creating a LUKS2 encrypted volume by using the storage RHEL system role
+
+
+
+
+11. Configuring automated unlocking of encrypted volumes by using policy-based decryption
+Configuring automated unlocking of encrypted volumes by using policy-based decryption
+
+
+11.1. Network-bound disk encryption
+
+
+11.2. Deploying a Tang server with SELinux in enforcing mode
+
+
+11.3. Rotating Tang server keys and updating bindings on clients
+
+
+11.4. Configuring automated unlocking by using a Tang key in the web console
+
+
+11.5. Basic NBDE and TPM2 encryption-client operations
+
+
+11.6. Configuring NBDE clients for automated unlocking of LUKS-encrypted volumes
+
+
+11.7. Configuring NBDE clients with static IP configuration
+
+
+11.8. Configuring manual enrollment of LUKS-encrypted volumes by using a TPM 2.0 policy
+
+
+11.9. Configuring unlocking of LUKS-encrypted volumes by using a PKCS #11 pin
+
+
+11.10. Removing a Clevis pin from a LUKS-encrypted volume manually
+
+
+11.11. Configuring automated enrollment of LUKS-encrypted volumes by using Kickstart
+
+
+11.12. Configuring automated unlocking of a LUKS-encrypted removable storage device
+
+
+11.13. Deploying high-availability NBDE systems
+
+
+11.14. Deployment of virtual machines in a NBDE network
+
+
+11.15. Building automatically-enrollable VM images for cloud environments by using NBDE
+
+
+11.16. Automated unlocking of encrypted volumes by using a Trustee attestation server
+
+
+11.17. Deploying Tang as a container
+
+
+11.18. Configuring NBDE by using RHEL system roles
+Configuring NBDE by using RHEL system roles
+
+
+11.18.1. Using the nbde_server RHEL system role for setting up multiple Tang servers
+
+
+11.18.2. Setting up Clevis clients with DHCP by using the nbde_client RHEL system role
+
+
+11.18.3. Setting up static-IP Clevis clients by using the nbde_client RHEL system role
+
+
+
+
+
+
+12. Auditing the system
+Auditing the system
+
+
+12.1. Linux Audit
+
+
+12.2. Audit system architecture
+
+
+12.3. Configuring auditd for a secure environment
+
+
+12.4. Starting and controlling auditd
+
+
+12.5. Understanding Audit log files
+
+
+12.6. Using auditctl for defining and executing Audit rules
+
+
+12.7. Defining persistent Audit rules
+
+
+12.8. Pre-configured Audit rules files for compliance with standards
+
+
+12.9. Using augenrules to define persistent rules
+
+
+12.10. Disabling augenrules
+
+
+12.11. Setting up Audit to monitor software updates
+
+
+12.12. Monitoring user login times with Audit
+
+
+12.13. Additional resources
+
+
+
+
+13. Blocking and allowing applications by using fapolicyd
+Blocking and allowing applications by using fapolicyd
+
+
+13.1. Introduction to fapolicyd
+
+
+13.2. Deploying fapolicyd
+
+
+13.3. Marking files as trusted using an additional source of trust
+
+
+13.4. Adding custom allow and deny rules for fapolicyd
+
+
+13.5. Enabling fapolicyd integrity checks
+
+
+13.6. Troubleshooting problems related to fapolicyd
+
+
+13.7. Preventing users from executing untrustworthy code by using the fapolicyd RHEL system role
+
+
+13.8. Additional resources
+
+
+
+
+14. Protecting systems against intrusive USB devices
+Protecting systems against intrusive USB devices
+
+
+14.1. USBGuard
+
+
+14.2. Installing USBGuard
+
+
+14.3. Blocking and authorizing a USB device by using CLI
+
+
+14.4. Permanently blocking and authorizing a USB device
+
+
+14.5. Creating a custom policy for USB devices
+
+
+14.6. Creating a structured custom policy for USB devices
+
+
+14.7. Authorizing users and groups to use the USBGuard IPC interface
+
+
+14.8. Logging USBguard authorization events to the Linux Audit log
+
+
+14.9. Additional resources
+
+
+
+
+15. Configuring a remote logging solution
+Configuring a remote logging solution
+
+
+15.1. The Rsyslog logging service
+
+
+15.2. Installing Rsyslog documentation
+
+
+15.3. Configuring a server for remote logging over TCP
+
+
+15.4. Configuring remote logging to a server over TCP
+
+
+15.5. Configuring TLS-encrypted remote logging
+
+
+15.6. Configuring a server for receiving remote logging information over UDP
+
+
+15.7. Configuring remote logging to a server over UDP
+
+
+15.8. Load balancing helper in Rsyslog
+
+
+15.9. Configuring reliable remote logging
+
+
+15.10. Supported Rsyslog modules
+
+
+15.11. Configuring the netconsole service to log kernel messages to a remote host
+
+
+15.12. Additional resources
+
+
+
+
+16. Using the logging system role
+Using the logging system role
+
+
+16.1. Filtering local log messages by using the logging RHEL system role
+
+
+16.2. Applying a remote logging solution by using the logging RHEL system role
+
+
+16.3. Using the logging RHEL system role with TLS
+Using the logging RHEL system role with TLS
+
+
+16.3.1. Configuring client logging with TLS
+
+
+16.3.2. Configuring server logging with TLS
+
+
+
+
+16.4. Using the logging RHEL system roles with RELP
+Using the logging RHEL system roles with RELP
+
+
+16.4.1. Configuring client logging with RELP
+
+
+16.4.2. Configuring server logging with RELP
+
+
+
+
+16.5. Additional resources
+
+
+
+
+Legal Notice
+
+
+
+
+
+
+Format
+Multi-page
+Single-page
+View full doc as PDF
+
+
+4.1. System-wide cryptographic policies
+4.1.1. Predefined cryptographic policies
+
+
+4.1.2. Post-quantum cryptography
+
+
+
+
+4.2. Changing the system-wide cryptographic policy
+
+
+4.3. Switching the system-wide cryptographic policy to mode compatible with earlier releases
+
+
+4.4. Re-enabling SHA-1
+
+
+4.5. Setting up system-wide cryptographic policies in the web console
+
+
+4.6. Enabling post-quantum algorithms system-wide
+
+
+4.7. Excluding an application from following system-wide cryptographic policies
+4.7.1. Examples of opting out of the system-wide cryptographic policies
+
+
+
+
+4.8. Customizing system-wide cryptographic policies with subpolicies
+
+
+4.9. Creating and setting a custom system-wide cryptographic policy
+
+
+4.10. Enhancing security with the FUTURE cryptographic policy using the crypto_policies RHEL system role
+
+
+
+
+Chapter 4. Using system-wide cryptographic policies
+
+
+
+			The system-wide cryptographic policies is a system component that configures the core cryptographic subsystems, covering the TLS, IPsec, SSH, DNSSec, and Kerberos protocols. It provides a small set of policies, which the administrator can select.
+		
+
+
+4.1. System-wide cryptographic policies
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+				The RHEL system-wide cryptographic policies configure core subsystems, such as TLS and SSH, which ensures that applications reject weak algorithms by default. The four predefined policies are 
+DEFAULT
+, 
+LEGACY
+, 
+FUTURE
+, and 
+FIPS
+.
+			
+
+
+
+				When a system-wide policy is set up, applications in RHEL follow it and deny using algorithms and protocols that do not meet the policy, unless you explicitly request the application to do so. That is, the policy applies to the default behavior of applications when running with the system-provided configuration but you can override it if required.
+			
+
+
+4.1.1. Predefined cryptographic policies
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+					RHEL 9 contains the following predefined policies:
+				
+
+
+DEFAULT
+
+								The default system-wide cryptographic policy level offers secure settings for current threat models. It allows the TLS 1.2 and 1.3 protocols, as well as the IKEv2 and SSH2 protocols. The RSA keys and Diffie-Hellman parameters are accepted if they are at least 2048 bits long. TLS ciphers that use the RSA key exchange are rejected.
+							
+LEGACY
+
+								Ensures maximum compatibility with Red Hat Enterprise Linux 6 and earlier; it is less secure due to an increased attack surface. SHA-1 is allowed to be used as TLS hash, signature, and algorithm. CBC-mode ciphers are allowed to be used with SSH. Applications using GnuTLS allow certificates signed with SHA-1. It allows the TLS 1.2 and 1.3 protocols, as well as the IKEv2 and SSH2 protocols. The RSA keys and Diffie-Hellman parameters are accepted if they are at least 2048 bits long.
+							
+FUTURE
+
+								A stricter forward-looking security level intended for testing a possible future policy. This policy does not allow the use of SHA-1 in DNSSec or as an HMAC. SHA2-224 and SHA3-224 hashes are rejected. 128-bit ciphers are disabled. CBC-mode ciphers are disabled except in Kerberos. It allows the TLS 1.2 and 1.3 protocols, as well as the IKEv2 and SSH2 protocols. The RSA keys and Diffie-Hellman parameters are accepted if they are at least 3072 bits long. If your system communicates on the public internet, you might face interoperability problems.
+							
+
+
+Important
+
+
+
+									Because a cryptographic key used by a certificate on the Customer Portal API does not meet the requirements by the 
+FUTURE
+ system-wide cryptographic policy, the 
+redhat-support-tool
+ utility does not work with this policy level at the moment.
+								
+
+
+
+									To work around this problem, use the 
+DEFAULT
+ cryptographic policy while connecting to the Customer Portal API.
+								
+
+
+
+
+FIPS
+
+								Conforms with the FIPS 140 requirements. The 
+fips-mode-setup
+ tool, which switches the RHEL system into FIPS mode, uses this policy internally. Switching to the 
+FIPS
+ policy does not guarantee compliance with the FIPS 140 standard. You also must re-generate all cryptographic keys after you set the system to FIPS mode. This is not possible in many scenarios.
+							
+
+
+
+								RHEL also provides the 
+FIPS:OSPP
+ system-wide subpolicy, which contains further restrictions for cryptographic algorithms required by the Common Criteria (CC) certification. The system becomes less interoperable after you set this subpolicy. For example, you cannot use RSA and DH keys shorter than 3072 bits, additional SSH algorithms, and several TLS groups. Setting 
+FIPS:OSPP
+ also prevents connecting to Red Hat Content Delivery Network (CDN) structure. Furthermore, you cannot integrate Active Directory (AD) into the IdM deployments that use 
+FIPS:OSPP
+, communication between RHEL hosts using 
+FIPS:OSPP
+ and AD domains might not work, or some AD accounts might not be able to authenticate.
+							
+
+
+Note
+
+
+
+									Your system is not CC-compliant after you set the 
+FIPS:OSPP
+ cryptographic subpolicy. The only correct way to make your RHEL system compliant with the CC standard is by following the guidance provided in the 
+cc-config
+ package. See 
+Common Criteria
+ section on the 
+Product compliance
+ Red Hat Customer Portal page for a list of certified RHEL versions, validation reports, and links to CC guides.
+								
+
+
+
+
+
+
+
+					Red Hat continuously adjusts all policy levels so that all libraries provide secure defaults, except when using the 
+LEGACY
+ policy. Even though the 
+LEGACY
+ profile does not provide secure defaults, it does not include any algorithms that are easily exploitable. As such, the set of enabled algorithms or acceptable key sizes in any provided policy may change during the lifetime of Red Hat Enterprise Linux.
+				
+
+
+
+					Such changes reflect new security standards and new security research. If you must ensure interoperability with a specific system for the whole lifetime of Red Hat Enterprise Linux, opt out from the system-wide cryptographic policies for components that interact with that system or re-enable specific algorithms by using custom cryptographic policies.
+				
+
+
+
+					The specific algorithms and ciphers described as allowed in the policy levels are available only if an application supports them:
+				
+
+
+Expand
+Table 4.1. Cipher suites and protocols enabled in the cryptographic policies
+ 
+LEGACY
+DEFAULT
+FIPS
+FUTURE
+ 
+
+									
+IKEv1
+
+								
+
+
+
+								 
+ 
+
+									no
+								
+
+
+
+								 
+ 
+
+									no
+								
+
+
+
+								 
+ 
+
+									no
+								
+
+
+
+								 
+ 
+
+									no
+								
+
+
+
+								 
+ 
+
+									
+3DES
+
+								
+
+
+
+								 
+ 
+
+									no
+								
+
+
+
+								 
+ 
+
+									no
+								
+
+
+
+								 
+ 
+
+									no
+								
+
+
+
+								 
+ 
+
+									no
+								
+
+
+
+								 
+ 
+
+									
+RC4
+
+								
+
+
+
+								 
+ 
+
+									no
+								
+
+
+
+								 
+ 
+
+									no
+								
+
+
+
+								 
+ 
+
+									no
+								
+
+
+
+								 
+ 
+
+									no
+								
+
+
+
+								 
+ 
+
+									
+DH
+
+								
+
+
+
+								 
+ 
+
+									min. 2048-bit
+								
+
+
+
+								 
+ 
+
+									min. 2048-bit
+								
+
+
+
+								 
+ 
+
+									min. 2048-bit
+								
+
+
+
+								 
+ 
+
+									min. 3072-bit
+								
+
+
+
+								 
+ 
+
+									
+RSA
+
+								
+
+
+
+								 
+ 
+
+									min. 2048-bit
+								
+
+
+
+								 
+ 
+
+									min. 2048-bit
+								
+
+
+
+								 
+ 
+
+									min. 2048-bit
+								
+
+
+
+								 
+ 
+
+									min. 3072-bit
+								
+
+
+
+								 
+ 
+
+									
+DSA
+
+								
+
+
+
+								 
+ 
+
+									no
+								
+
+
+
+								 
+ 
+
+									no
+								
+
+
+
+								 
+ 
+
+									no
+								
+
+
+
+								 
+ 
+
+									no
+								
+
+
+
+								 
+ 
+
+									
+TLS v1.1 and older
+
+								
+
+
+
+								 
+ 
+
+									no
+								
+
+
+
+								 
+ 
+
+									no
+								
+
+
+
+								 
+ 
+
+									no
+								
+
+
+
+								 
+ 
+
+									no
+								
+
+
+
+								 
+ 
+
+									
+TLS v1.2 and newer
+
+								
+
+
+
+								 
+ 
+
+									yes
+								
+
+
+
+								 
+ 
+
+									yes
+								
+
+
+
+								 
+ 
+
+									yes
+								
+
+
+
+								 
+ 
+
+									yes
+								
+
+
+
+								 
+ 
+
+									
+SHA-1 in digital signatures and certificates
+
+								
+
+
+
+								 
+ 
+
+									yes
+								
+
+
+
+								 
+ 
+
+									no
+								
+
+
+
+								 
+ 
+
+									no
+								
+
+
+
+								 
+ 
+
+									no
+								
+
+
+
+								 
+ 
+
+									
+CBC mode ciphers
+
+								
+
+
+
+								 
+ 
+
+									yes
+								
+
+
+
+								 
+ 
+
+									no
+[a]
+
+								
+
+
+
+								 
+ 
+
+									no
+[b]
+
+								
+
+
+
+								 
+ 
+
+									no
+[c]
+
+								
+
+
+
+								 
+ 
+
+									
+Symmetric ciphers with keys < 256 bits
+
+								
+
+
+
+								 
+ 
+
+									yes
+								
+
+
+
+								 
+ 
+
+									yes
+								
+
+
+
+								 
+ 
+
+									yes
+								
+
+
+
+								 
+ 
+
+									no
+								
+
+
+
+								 
+[a] 
+
+										CBC ciphers are disabled for SSH
+									
+
+
+
+
+[b] 
+
+										CBC ciphers are disabled for all protocols except Kerberos
+									
+
+
+
+
+[c] 
+
+										CBC ciphers are disabled for all protocols except Kerberos
+									
+
+
+
+
+Show more
+
+
+
+					You can find further details about cryptographic policies and covered applications in the 
+crypto-policies(7)
+ man page on your system.
+				
+
+
+4.1.2. Post-quantum cryptography
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+					RHEL 9.7 
+crypto-policies
+ introduced the new 
+PQ
+ subpolicy. You can apply the 
+PQ
+ subpolicy on all cryptographic policies: 
+LEGACY
+, 
+DEFAULT
+, 
+FUTURE
+, and 
+FIPS
+. For example, after you use the 
+update-crypto-policies --set DEFAULT:PQ
+ command, hybrid Module-Lattice-Based Key-Encapsulation Mechanism (ML-KEM) and pure Module-Lattice-Based Digital Signature Standard (ML-DSA) post-quantum cryptographic algorithms are enabled on top of the 
+DEFAULT
+ cryptographic policy with the highest priorities.
+				
+
+
+
+					The purpose of PQC is to safeguard the confidentiality, integrity, and authenticity of digital communication and stored data against future attacks that use cryptographically relevant quantum computers (CRQCs).
+				
+
+
+
+					While CRQCs are not currently operational, continued advances in quantum computing might render classic cryptographic algorithms such as RSA and elliptic curve cryptography computationally feasible to break. PQC algorithms mitigate this anticipated long-term security risk by providing quantum-resistant equivalents. You can prevent the current risk of "harvest now, decrypt later" attacks by configuring RHEL with PQC.
+				
+
+
+
+    
+Additional resources
+
+
+
+							
+Product compliance (Red Hat Customer Portal)
+
+						
+
+
+
+							
+Prepare for a post-quantum future with RHEL 9.7
+
+						
+
+
+
+							
+Red Hat’s path to post-quantum cryptography (Red Hat Blog)
+
+						
+
+
+
+							
+How Red Hat is integrating post-quantum cryptography into our products (Red Hat Blog)
+
+						
+
+
+
+
+4.2. Changing the system-wide cryptographic policy
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+				You can change the system-wide cryptographic policy on your system by using the 
+update-crypto-policies
+ tool and restarting your system.
+			
+
+
+Prerequisites
+
+
+
+						You have root privileges on the system.
+					
+
+
+
+
+Procedure
+
+
+
+						Optional: Display the current cryptographic policy:
+					
+
+
+
+
+$ 
+update-crypto-policies --show
+
+DEFAULT
+
+
+
+
+
+
+
+
+
+						Set the new cryptographic policy:
+					
+
+
+
+
+# 
+update-crypto-policies --set 
+<POLICY>
+
+
+<POLICY>
+
+
+
+
+
+
+
+						Replace 
+<POLICY>
+ with the policy or subpolicy you want to set, for example 
+FUTURE
+, 
+LEGACY
+ or 
+FIPS:OSPP
+.
+					
+
+
+
+
+
+						Restart the system:
+					
+
+
+
+
+# 
+reboot
+
+
+
+
+
+
+
+
+
+
+Verification
+
+
+
+						Display the current cryptographic policy:
+					
+
+
+
+
+$ 
+update-crypto-policies --show
+
+
+<POLICY>
+
+
+
+
+
+
+
+
+
+
+
+    
+Additional resources
+
+
+
+						For more information on system-wide cryptographic policies, see 
+System-wide cryptographic policies
+
+					
+
+
+
+
+4.3. Switching the system-wide cryptographic policy to mode compatible with earlier releases
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+				The default system-wide cryptographic policy in Red Hat Enterprise Linux 9 does not allow communication using older, insecure protocols. For environments that require to be compatible with Red Hat Enterprise Linux 6 and in some cases also with earlier releases, the less secure 
+LEGACY
+ policy level is available.
+			
+
+
+Warning
+
+
+
+					Switching to the 
+LEGACY
+ policy level results in a less secure system and applications.
+				
+
+
+
+
+Procedure
+
+
+
+						To switch the system-wide cryptographic policy to the 
+LEGACY
+ level, enter the following command as 
+root
+:
+					
+
+
+
+
+# 
+update-crypto-policies --set LEGACY
+
+Setting system policy to LEGACY
+
+
+
+
+
+
+
+
+
+
+
+    
+Additional resources
+
+
+
+						For the list of available cryptographic policy levels, see the 
+update-crypto-policies(8)
+ man page on your system.
+					
+
+
+
+						For defining custom cryptographic policies, see the 
+Custom Policies
+ section in the 
+update-crypto-policies(8)
+ man page and the 
+Crypto Policy Definition Format
+ section in the 
+crypto-policies(7)
+ man page on your system.
+					
+
+
+
+
+4.4. Re-enabling SHA-1
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+				The use of the SHA-1 algorithm for creating and verifying signatures is restricted in the 
+DEFAULT
+ cryptographic policy. If your scenario requires the use of SHA-1 for verifying existing or third-party cryptographic signatures, you can enable it by applying the 
+SHA1
+ subpolicy, which RHEL 9 provides by default. Note that it weakens the security of the system.
+			
+
+
+Prerequisites
+
+
+
+						The system uses the 
+DEFAULT
+ system-wide cryptographic policy.
+					
+
+
+
+
+Procedure
+
+
+
+						Apply the 
+SHA1
+ subpolicy to the 
+DEFAULT
+ cryptographic policy:
+					
+
+
+
+
+# 
+update-crypto-policies --set DEFAULT:SHA1
+
+Setting system policy to DEFAULT:SHA1
+Note: System-wide crypto policies are applied on application start-up.
+It is recommended to restart the system for the change of policies
+to fully take place.
+
+
+
+
+
+
+
+
+
+						Restart the system:
+					
+
+
+
+
+# 
+reboot
+
+
+
+
+
+
+
+
+
+
+Verification
+
+
+
+						Display the current cryptographic policy:
+					
+
+
+
+
+# 
+update-crypto-policies --show
+
+DEFAULT:SHA1
+
+
+
+
+
+
+
+
+
+
+Important
+
+
+
+					Switching to the 
+LEGACY
+ cryptographic policy by using the 
+update-crypto-policies --set LEGACY
+ command also enables SHA-1 for signatures. However, the 
+LEGACY
+ cryptographic policy makes your system much more vulnerable by also enabling other weak cryptographic algorithms. Use this workaround only for scenarios that require the enablement of other legacy cryptographic algorithms than SHA-1 signatures.
+				
+
+
+
+
+
+    
+Additional resources
+
+
+
+						
+SSH from RHEL 9 to RHEL 6 systems does not work
+ (Red Hat Knowledgebase)
+					
+
+
+
+						
+Packages signed with SHA-1 cannot be installed or upgraded
+ (Red Hat Knowledgebase)
+					
+
+
+
+
+4.5. Setting up system-wide cryptographic policies in the web console
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+				You can set one of system-wide cryptographic policies and subpolicies directly in the RHEL web console interface. Besides the four predefined system-wide cryptographic policies, you can also apply the following combinations of policies and subpolicies through the graphical interface now:
+			
+
+
+DEFAULT:SHA1
+
+							The 
+DEFAULT
+ policy with the 
+SHA-1
+ algorithm enabled.
+						
+LEGACY:AD-SUPPORT
+
+							The 
+LEGACY
+ policy with less secure settings that improve interoperability for Active Directory services.
+						
+FIPS:OSPP
+
+							The 
+FIPS
+ policy with further restrictions required by the Common Criteria for Information Technology Security Evaluation standard.
+						
+
+
+Warning
+
+
+
+					Because the 
+FIPS:OSPP
+ system-wide subpolicy contains further restrictions for cryptographic algorithms required by the Common Criteria (CC) certification, the system is less interoperable after you set it. For example, you cannot use RSA and DH keys shorter than 3072 bits, additional SSH algorithms, and several TLS groups. Setting 
+FIPS:OSPP
+ also prevents connecting to Red Hat Content Delivery Network (CDN) structure. Furthermore, you cannot integrate Active Directory (AD) into the IdM deployments that use 
+FIPS:OSPP
+, communication between RHEL hosts using 
+FIPS:OSPP
+ and AD domains might not work, or some AD accounts might not be able to authenticate.
+				
+
+
+
+					Note that your 
+system is not CC-compliant
+ after you set the 
+FIPS:OSPP
+ cryptographic subpolicy. The only correct way to make your RHEL system compliant with the CC standard is by following the guidance provided in the 
+cc-config
+ package. See the 
+Common Criteria
+ section on the 
+Product compliance
+ Red Hat Customer Portal page for a list of certified RHEL versions, validation reports, and links to CC guides hosted at the 
+National Information Assurance Partnership (NIAP)
+ website.
+				
+
+
+
+
+Prerequisites
+
+
+
+						You have installed the RHEL 9 web console.
+					
+
+
+
+						You have enabled the cockpit service.
+					
+
+
+
+						Your user account is allowed to log in to the web console.
+					
+
+
+
+						For instructions, see 
+Installing and enabling the web console
+.
+					
+
+
+
+
+
+						You have 
+root
+ privileges or permissions to enter administrative commands with 
+sudo
+.
+					
+
+
+
+
+Procedure
+
+
+
+						Log in to the RHEL 9 web console.
+					
+
+
+
+						For details, see 
+Logging in to the web console
+.
+					
+
+
+
+
+
+						In the 
+Configuration
+ card of the 
+Overview
+ page, click your current policy value next to 
+Crypto policy
+.
+					
+
+
+
+						
+
+
+					
+
+
+
+
+
+						In the 
+Change crypto policy
+ dialog window, click on the policy you want to start using on your system.
+					
+
+
+
+						
+
+
+					
+
+
+
+
+
+						Click the 
+Apply and reboot
+ button.
+					
+
+
+
+
+Verification
+
+
+
+						After the restart, log back in to web console, and check that the 
+Crypto policy
+ value corresponds to the one you selected.
+					
+
+
+
+						Alternatively, you can enter the 
+update-crypto-policies --show
+ command to display the current system-wide cryptographic policy in your terminal.
+					
+
+
+
+
+
+
+4.6. Enabling post-quantum algorithms system-wide
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+				You can enable post-quantum cryptography (PQC) system-wide by applying the 
+PQ
+ subpolicy.
+			
+
+
+Prerequisites
+
+
+
+						You have root privileges on the system.
+					
+
+
+
+
+Procedure
+
+
+
+						Enable the 
+TEST-PQ
+ cryptographic subpolicy on top of your current system-wide policy, for example:
+					
+
+
+
+
+$ 
+update-crypto-policies --show
+
+DEFAULT
+# 
+update-crypto-policies --set DEFAULT:PQ
+
+
+
+
+
+
+
+
+
+						To make your cryptographic settings effective for already running services and applications, restart the system:
+					
+
+
+
+
+# 
+reboot
+
+
+
+
+
+
+
+								Check that the 
+/etc/crypto-policies/state/CURRENT.pol
+ file contains PQC, for example:
+							
+
+
+
+
+$ 
+cat /etc/crypto-policies/state/CURRENT.pol | grep MLKEM
+
+group = MLKEM768-X25519 P256-MLKEM768 P384-MLKEM1024 MLKEM1024-X448 X25519 SECP256R1 X448 SECP521R1 SECP384R1 FFDHE-2048 FFDHE-3072 FFDHE-4096 FFDHE-6144 FFDHE-8192
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+Additional resources
+
+
+
+						
+Red Hat’s path to post-quantum cryptography (Red Hat Blog)
+
+					
+
+
+
+
+4.7. Excluding an application from following system-wide cryptographic policies
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+				You can customize cryptographic settings used by your application preferably by configuring supported cipher suites and protocols directly in the application.
+			
+
+
+
+				You can also remove a symlink related to your application from the 
+/etc/crypto-policies/back-ends
+ directory and replace it with your customized cryptographic settings. This configuration prevents the use of system-wide cryptographic policies for applications that use the excluded back end. Furthermore, this modification is not supported by Red Hat.
+			
+
+
+4.7.1. Examples of opting out of the system-wide cryptographic policies
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+wget
+
+
+
+						To customize cryptographic settings used by the 
+wget
+ network downloader, use 
+--secure-protocol
+ and 
+--ciphers
+ options. For example:
+					
+
+
+
+
+
+
+$ 
+wget --secure-protocol=
+TLSv1_1
+ --ciphers="
+SECURE128
+" 
+https://example.com
+
+
+
+
+
+
+
+					See the HTTPS (SSL/TLS) Options section of the 
+wget(1)
+ man page for more information.
+				
+
+
+curl
+
+
+
+						To specify ciphers used by the 
+curl
+ tool, use the 
+--ciphers
+ option and provide a colon-separated list of ciphers as a value. For example:
+					
+
+
+
+
+
+
+$ 
+curl 
+https://example.com
+ --ciphers 
+'@SECLEVEL=0:DES-CBC3-SHA:RSA-DES-CBC3-SHA'
+
+
+
+
+
+
+
+					See the 
+curl(1)
+ man page for more information.
+				
+
+
+Firefox
+
+
+
+						Even though you cannot opt out of system-wide cryptographic policies in the 
+Firefox
+ web browser, you can further restrict supported ciphers and TLS versions in Firefox’s Configuration Editor. Type 
+about:config
+ in the address bar and change the value of the 
+security.tls.version.min
+ option as required. Setting 
+security.tls.version.min
+ to 
+1
+ allows TLS 1.0 as the minimum required, 
+security.tls.version.min 2
+ enables TLS 1.1, and so on.
+					
+
+
+
+
+OpenSSH
+
+
+
+						To opt out of the system-wide cryptographic policies for your OpenSSH server, specify the cryptographic policy in a drop-in configuration file located in the 
+/etc/ssh/sshd_config.d/
+ directory, with a two-digit number prefix smaller than 50, so that it lexicographically precedes the 
+50-redhat.conf
+ file, and with a 
+.conf
+ suffix, for example, 
+49-crypto-policy-override.conf
+.
+					
+
+
+
+
+
+					See the 
+sshd_config(5)
+ man page for more information.
+				
+
+
+
+					To opt out of system-wide cryptographic policies for your OpenSSH client, perform one of the following tasks:
+				
+
+
+
+							For a given user, override the global 
+ssh_config
+ with a user-specific configuration in the 
+~/.ssh/config
+ file.
+						
+
+
+
+							For the entire system, specify the cryptographic policy in a drop-in configuration file located in the 
+/etc/ssh/ssh_config.d/
+ directory, with a two-digit number prefix smaller than 50, so that it lexicographically precedes the 
+50-redhat.conf
+ file, and with a 
+.conf
+ suffix, for example, 
+49-crypto-policy-override.conf
+.
+						
+
+
+
+
+
+					See the 
+ssh_config(5)
+ man page for more information.
+				
+
+
+Libreswan
+
+
+
+						See the 
+Enabling legacy ciphers and algorithms in Libreswan
+ section in the 
+Securing networks
+ document for detailed information.
+					
+
+
+
+
+
+    
+Additional resources
+
+
+
+							
+update-crypto-policies(8)
+ man page on your system
+						
+
+
+
+
+4.8. Customizing system-wide cryptographic policies with subpolicies
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+				Use this procedure to adjust the set of enabled cryptographic algorithms or protocols.
+			
+
+
+
+				You can either apply custom subpolicies on top of an existing system-wide cryptographic policy or define such a policy from scratch.
+			
+
+
+
+				The concept of scoped policies allows enabling different sets of algorithms for different back ends. You can limit each configuration directive to specific protocols, libraries, or services.
+			
+
+
+
+				Furthermore, directives can use asterisks for specifying multiple values using wildcards.
+			
+
+
+
+				The 
+/etc/crypto-policies/state/CURRENT.pol
+ file lists all settings in the currently applied system-wide cryptographic policy after wildcard expansion. To make your cryptographic policy more strict, consider using values listed in the 
+/usr/share/crypto-policies/policies/FUTURE.pol
+ file.
+			
+
+
+
+				You can find example subpolicies in the 
+/usr/share/crypto-policies/policies/modules/
+ directory. The subpolicy files in this directory contain also descriptions in lines that are commented out.
+			
+
+
+Procedure
+
+
+
+						Checkout to the 
+/etc/crypto-policies/policies/modules/
+ directory:
+					
+
+
+
+
+# 
+cd /etc/crypto-policies/policies/modules/
+
+
+
+
+
+
+
+
+
+						Create subpolicies for your adjustments, for example:
+					
+
+
+
+
+# 
+touch 
+MYCRYPTO-1
+.pmod
+
+# 
+touch 
+SCOPES-AND-WILDCARDS
+.pmod
+
+
+
+
+
+
+Important
+
+
+
+							Use upper-case letters in file names of policy modules.
+						
+
+
+
+
+
+
+
+						Open the policy modules in a text editor of your choice and insert options that modify the system-wide cryptographic policy, for example:
+					
+
+
+
+
+# 
+vi 
+MYCRYPTO-1
+.pmod
+
+
+
+
+
+
+
+
+min_rsa_size = 3072
+hash = SHA2-384 SHA2-512 SHA3-384 SHA3-512
+
+
+
+
+
+
+
+
+# 
+vi 
+SCOPES-AND-WILDCARDS
+.pmod
+
+
+
+
+
+
+
+
+# Disable the AES-128 cipher, all modes
+cipher = -AES-128-*
+
+# Disable CHACHA20-POLY1305 for the TLS protocol (OpenSSL, GnuTLS, NSS, and OpenJDK)
+cipher@TLS = -CHACHA20-POLY1305
+
+# Allow using the FFDHE-1024 group with the SSH protocol (libssh and OpenSSH)
+group@SSH = FFDHE-1024+
+
+# Disable all CBC mode ciphers for the SSH protocol (libssh and OpenSSH)
+cipher@SSH = -*-CBC
+
+# Allow the AES-256-CBC cipher in applications using libssh
+cipher@libssh = AES-256-CBC+
+
+
+
+
+
+
+
+
+
+						Save the changes in the module files.
+					
+
+
+
+						Apply your policy adjustments to the 
+DEFAULT
+ system-wide cryptographic policy level:
+					
+
+
+
+
+# 
+update-crypto-policies --set DEFAULT:
+MYCRYPTO-1
+:
+SCOPES-AND-WILDCARDS
+
+
+
+
+
+
+
+
+
+						To make your cryptographic settings effective for already running services and applications, restart the system:
+					
+
+
+
+
+# 
+reboot
+
+
+
+
+
+
+
+
+
+
+Verification
+
+
+
+						Check that the 
+/etc/crypto-policies/state/CURRENT.pol
+ file contains your changes, for example:
+					
+
+
+
+
+$ 
+cat /etc/crypto-policies/state/CURRENT.pol | grep rsa_size
+
+min_rsa_size = 3072
+
+
+
+
+
+
+
+
+
+
+
+    
+Additional resources
+
+
+
+						
+Custom Policies
+ section in the 
+update-crypto-policies(8)
+ man page on your system
+					
+
+
+
+						
+Crypto Policy Definition Format
+ section in the 
+crypto-policies(7)
+ man page on your system
+					
+
+
+
+						
+How to customize crypto policies in RHEL 8.2
+ Red Hat blog article
+					
+
+
+
+
+4.9. Creating and setting a custom system-wide cryptographic policy
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+				For specific scenarios, you can customize the system-wide cryptographic policy by creating and using a complete policy file.
+			
+
+
+Procedure
+
+
+
+						Create a policy file for your customizations:
+					
+
+
+
+
+# 
+cd /etc/crypto-policies/policies/
+
+# 
+touch 
+MYPOLICY
+.pol
+
+
+
+
+
+
+
+						Alternatively, start by copying one of the four predefined policy levels:
+					
+
+
+
+
+# 
+cp /usr/share/crypto-policies/policies/
+DEFAULT
+.pol /etc/crypto-policies/policies/
+MYPOLICY
+.pol
+
+
+
+
+
+
+
+
+
+						Edit the file with your custom cryptographic policy in a text editor of your choice to fit your requirements, for example:
+					
+
+
+
+
+# 
+vi /etc/crypto-policies/policies/
+MYPOLICY
+.pol
+
+
+
+
+
+
+
+
+
+						Switch the system-wide cryptographic policy to your custom level:
+					
+
+
+
+
+# 
+update-crypto-policies --set 
+MYPOLICY
+
+
+
+
+
+
+
+
+
+						To make your cryptographic settings effective for already running services and applications, restart the system:
+					
+
+
+
+
+# 
+reboot
+
+
+
+
+
+
+
+
+
+
+
+    
+Additional resources
+
+
+
+						
+Custom Policies
+ section in the 
+update-crypto-policies(8)
+ man page and the 
+Crypto Policy Definition Format
+ section in the 
+crypto-policies(7)
+ man page on your system
+					
+
+
+
+						
+How to customize crypto policies in RHEL
+ Red Hat blog article
+					
+
+
+
+
+4.10. Enhancing security with the FUTURE cryptographic policy using the crypto_policies RHEL system role
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+				You can use the 
+crypto_policies
+ RHEL system role to configure the 
+FUTURE
+ cryptographic policy on your managed nodes.
+			
+
+
+
+				The 
+FUTURE
+ policy helps to achieve, for example:
+			
+
+
+
+						Future-proofing against emerging threats: anticipates advancements in computational power.
+					
+
+
+
+						Enhanced security: stronger encryption standards require longer key lengths and more secure algorithms.
+					
+
+
+
+						Compliance with high-security standards: for example in healthcare, telco, and finance the data sensitivity is high, and availability of strong cryptography is critical.
+					
+
+
+
+
+
+				Typically, 
+FUTURE
+ is suitable for environments handling highly sensitive data, preparing for future regulations, or adopting long-term security strategies.
+			
+
+
+Warning
+
+
+
+					Legacy systems or software does not have to support the more modern and stricter algorithms and protocols enforced by the 
+FUTURE
+ policy. For example, older systems might not support TLS 1.3 or larger key sizes. This could lead to compatibility problems.
+				
+
+
+
+					Also, using strong algorithms usually increases the computational workload, which could negatively affect your system performance.
+				
+
+
+
+
+Warning
+
+
+
+					Because the 
+FIPS:OSPP
+ system-wide subpolicy contains further restrictions for cryptographic algorithms required by the Common Criteria (CC) certification, the system is less interoperable after you set it. For example, you cannot use RSA and DH keys shorter than 3072 bits, additional SSH algorithms, and several TLS groups. Setting 
+FIPS:OSPP
+ also prevents connecting to Red Hat Content Delivery Network (CDN) structure. Furthermore, you cannot integrate Active Directory (AD) into the IdM deployments that use 
+FIPS:OSPP
+, communication between RHEL hosts using 
+FIPS:OSPP
+ and AD domains might not work, or some AD accounts might not be able to authenticate.
+				
+
+
+
+					Note that your 
+system is not CC-compliant
+ after you set the 
+FIPS:OSPP
+ cryptographic subpolicy. The only correct way to make your RHEL system compliant with the CC standard is by following the guidance provided in the 
+cc-config
+ package. See the 
+Common Criteria
+ section on the 
+Product compliance
+ Red Hat Customer Portal page for a list of certified RHEL versions, validation reports, and links to CC guides hosted at the 
+National Information Assurance Partnership (NIAP)
+ website.
+				
+
+
+
+
+Prerequisites
+
+
+
+						
+You have prepared the control node and the managed nodes
+.
+					
+
+
+
+						The account you use to connect to the managed nodes has 
+sudo
+ permissions for these nodes.
+					
+
+
+
+
+Procedure
+
+
+
+						Create a playbook file, for example, 
+~/playbook.yml
+, with the following content:
+					
+
+
+
+
+---
+
+
+-
+ 
+name
+:
+ Configure cryptographic policies
+  
+hosts
+:
+ managed
+-
+node
+-
+01.example.com
+  
+tasks
+:
+
+    
+-
+ 
+name
+:
+ Configure the FUTURE cryptographic security policy on the managed node
+      
+ansible.builtin.include_role
+:
+
+        
+name
+:
+ redhat.rhel_system_roles.crypto_policies
+      
+vars
+:
+
+        
+-
+ 
+crypto_policies_policy
+:
+ 
+FUTURE
+
+        
+-
+ 
+crypto_policies_reboot_ok
+:
+ 
+true
+
+
+
+
+
+
+
+						The settings specified in the example playbook include the following:
+					
+
+
+crypto_policies_policy: 
+FUTURE
+
+									Configures the required cryptographic policy (
+FUTURE
+) on the managed node. It can be either the base policy or a base policy with some sub-policies. The specified base policy and sub-policies have to be available on the managed node. The default value is 
+null
+. It means that the configuration is not changed and the 
+crypto_policies
+ RHEL system role only collects the Ansible facts.
+								
+crypto_policies_reboot_ok: 
+true
+
+									Causes the system to reboot after the cryptographic policy change to make sure all of the services and applications read the new configuration files. The default value is 
+false
+.
+								
+
+
+
+						For details about all variables used in the playbook, see the 
+/usr/share/ansible/roles/rhel-system-roles.crypto_policies/README.md
+ file on the control node.
+					
+
+
+
+
+
+						Validate the playbook syntax:
+					
+
+
+
+
+$ 
+ansible-playbook --syntax-check ~/playbook.yml
+
+
+
+
+
+
+
+						Note that this command only validates the syntax and does not protect against a wrong but valid configuration.
+					
+
+
+
+
+
+						Run the playbook:
+					
+
+
+
+
+$ 
+ansible-playbook ~/playbook.yml
+
+
+
+
+
+
+
+
+
+
+Verification
+
+
+
+						On the control node, create another playbook named, for example, 
+verify_playbook.yml
+:
+					
+
+
+
+
+---
+
+
+-
+ 
+name
+:
+ Verification
+  
+hosts
+:
+ managed
+-
+node
+-
+01.example.com
+  
+tasks
+:
+
+    
+-
+ 
+name
+:
+ Verify active cryptographic policy
+      
+ansible.builtin.include_role
+:
+
+        
+name
+:
+ redhat.rhel_system_roles.crypto_policies
+    
+-
+ 
+name
+:
+ Display the currently active cryptographic policy
+      
+ansible.builtin.debug
+:
+
+        
+var
+:
+ crypto_policies_active
+
+
+
+
+
+
+
+						The settings specified in the example playbook include the following:
+					
+
+
+crypto_policies_active
+
+									An exported Ansible fact that contains the currently active policy name in the format as accepted by the 
+crypto_policies_policy
+ variable.
+								
+
+
+
+
+
+						Validate the playbook syntax:
+					
+
+
+
+
+$ 
+ansible-playbook --syntax-check ~/verify_playbook.yml
+
+
+
+
+
+
+
+
+
+						Run the playbook:
+					
+
+
+
+
+$ 
+ansible-playbook ~/verify_playbook.yml
+
+TASK [debug] **************************
+ok: [host] => {
+    "crypto_policies_active": "FUTURE"
+}
+
+
+
+
+
+
+
+						The 
+crypto_policies_active
+ variable shows the active policy on the managed node.
+					
+
+
+
+
+
+
+Previous
+Next
+
+
+
+
+Format
+Multi-page
+Single-page
+View full doc as PDF
+
+
+
+
+
+
+Github
+Youtube
+Twitter
+Learn
+
+
+Developer resources
+
+
+Cloud learning hub
+
+
+Interactive labs
+
+
+Training and certification
+
+
+Customer support
+
+
+See all documentation
+
+
+Try, buy, & sell
+
+
+Product trial center
+
+
+Red Hat Ecosystem Catalog
+
+
+Red Hat Store
+
+
+Buy online (Japan)
+
+
+Communities
+
+
+Customer Portal Community
+
+
+Events
+
+
+How we contribute
+
+
+About Red Hat
+
+
+We deliver hardened solutions that make it easier for enterprises to work across platforms and environments, from the core datacenter to the network edge.
+
+
+Making open source more inclusive
+
+
+Red Hat is committed to replacing problematic language in our code, documentation, and web properties. For more details, see the 
+Red Hat Blog
+. 
+
+
+About Red Hat Documentation
+
+
+We help Red Hat users innovate and achieve their goals with our products and services with content they can trust. 
+Explore our recent updates
+. 
+
+
+Legal Notice
+Theme
+
+
+ 
+
+
+Red Hat legal and privacy links
+
+
+About Red Hat
+
+
+Jobs
+
+
+Events
+
+
+Locations
+
+
+Contact Red Hat
+
+
+Red Hat Blog
+
+
+Inclusion at Red Hat
+
+
+Cool Stuff Store
+
+
+Red Hat Summit
+
+
+© 2026 Red Hat
+Red Hat legal and privacy links
+
+
+Privacy statement
+
+
+Terms of use
+
+
+All policies and guidelines
+
+
+Digital accessibility
+
+
+
+
+Back to top
+
+
+
+
+
+
+
+
+
+
+
+
+

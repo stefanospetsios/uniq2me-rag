@@ -1,0 +1,338 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-scope",
+  "cachedAt": "2026-10-23T22:18:02Z",
+  "scopeId": "8",
+  "fingerprint": "55c699e218dc514b8f780ceeee5227dd9a8d8d9cb0f2943d94204fde795413b8",
+  "originRunId": "qwen3-40019296746",
+  "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "scope-admitted",
+    "publisher": null,
+    "host": null
+  },
+  "corpus": {
+    "sources": {
+      "8-source-1": {
+        "type": "guidance",
+        "title": "ENISA Technical Implementation Guidance on Cybersecurity Risk Management Measures",
+        "publisher": "European Union Agency for Cybersecurity (ENISA)",
+        "url": "https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf",
+        "language": "en",
+        "jurisdiction": "European Union",
+        "applicability": "Technical and methodological requirements for risk management under NIS2 framework",
+        "publicationDate": "2025-06",
+        "effectiveDate": "2026-01-01",
+        "redistribution": "metadata-and-short-passages",
+        "id": "8-source-1",
+        "byteDigest": "sha256:f03186edb047ece269ab9deeb3f0ec6172582ccc577617f0eb79e9bf96a7021b",
+        "textDigest": "sha256:effbd5b01b9fc323fad9ab61fca97caa63acc7891c62076f42f8f6537096d36d",
+        "finalUrl": "https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf",
+        "retrievedAt": "2026-10-23T21:32:49Z",
+        "contentType": "application/pdf",
+        "snapshotPath": "source-f03186edb047ece269ab9deeb3f0ec6172582ccc577617f0eb79e9bf96a7021b.bin",
+        "textPath": "source-effbd5b01b9fc323fad9ab61fca97caa63acc7891c62076f42f8f6537096d36d.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "cacheReuse": {
+          "originRunId": "qwen3-40019296746",
+          "cacheCommit": null,
+          "reusedAt": "2026-10-23T22:15:10Z",
+          "webRecheckedThisRun": true
+        },
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Introduction, page 11",
+            "text": "In addition to this overarching corporate policy, the following topic-specific, documented policies ( 8) are required. 1. Risk management policy (Annex to the regulation, point 2)."
+          },
+          {
+            "id": "p2",
+            "locator": "Section 6.5, page 89",
+            "text": "(d) establish and implement security testing processes in the development life cycle; (e) appropriately select, protect and manage security test data;"
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "8-source-2": {
+        "type": "technical-doc",
+        "title": "NIST Secure Software Development, Security, and Operations (DevSecOps) Practices",
+        "publisher": "National Institute of Standards and Technology (NIST)",
+        "url": "https://pages.nist.gov/nccoe-devsecops/",
+        "language": "en",
+        "jurisdiction": "United States",
+        "applicability": "Secure development lifecycle integration with DevSecOps implementation examples including risk management and threat analysis",
+        "publicationDate": "2026-09",
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "8-source-2",
+        "byteDigest": "sha256:eba52d95cde1c4a820dc1c8e97141e30df87ee59d452d310711ef16cc13fd651",
+        "textDigest": "sha256:ab48852b2c36260ec70928e1dce39ab2120925457d45c11c6d61a857a594465c",
+        "finalUrl": "https://pages.nist.gov/nccoe-devsecops/",
+        "retrievedAt": "2026-10-23T22:11:59Z",
+        "contentType": "text/html",
+        "snapshotPath": "source-eba52d95cde1c4a820dc1c8e97141e30df87ee59d452d310711ef16cc13fd651.bin",
+        "textPath": "source-ab48852b2c36260ec70928e1dce39ab2120925457d45c11c6d61a857a594465c.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "cacheReuse": {
+          "originRunId": "qwen3-40019296746",
+          "cacheCommit": null,
+          "reusedAt": "2026-10-23T22:15:10Z",
+          "webRecheckedThisRun": true
+        },
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Section 5.1.1.5",
+            "text": "5.1.1.5. Scenario A-5: Risk Management"
+          },
+          {
+            "id": "p2",
+            "locator": "Section 5.1.1.6",
+            "text": "5.1.1.6. Scenario A-6: Threat Modeling"
+          },
+          {
+            "id": "p3",
+            "locator": "Appendix C.3.2",
+            "text": "C.3.2. PRACTICE (PW.2) - Review the Software Design to Verify Compliance with Security Requirements and Risk Information:"
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "8-source-3": {
+        "type": "technical-doc",
+        "title": "Microsoft Security Development Lifecycle (SDL) Practices",
+        "publisher": "Microsoft",
+        "url": "https://www.microsoft.com/en-us/securityengineering/sdl/practices",
+        "language": "en",
+        "jurisdiction": "Global",
+        "applicability": "Implementation of secure development lifecycle processes including security requirements determination, threat modeling, and design reviews",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "8-source-3",
+        "byteDigest": "sha256:3a8a18990e1004cd63f88c0eccec5b1507ec920f4427bffbf694f39bc355fa7f",
+        "textDigest": "sha256:fa0aacbd8ab5028e4af9a2bc5640aad132ea5d983622d0f36d7aec5182ee41d0",
+        "finalUrl": "https://www.microsoft.com/en-us/securityengineering/sdl/practices",
+        "retrievedAt": "2026-10-23T22:15:11Z",
+        "contentType": "text/html; charset=utf-8",
+        "snapshotPath": "source-3a8a18990e1004cd63f88c0eccec5b1507ec920f4427bffbf694f39bc355fa7f.bin",
+        "textPath": "source-fa0aacbd8ab5028e4af9a2bc5640aad132ea5d983622d0f36d7aec5182ee41d0.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Design Phase Section",
+            "text": "Design – ensure that the design doesn't naturally allow attackers to easily gain unauthorized access to the workload, its data, or other business assets in the organization."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": [
+          "p1"
+        ]
+      },
+      "8-source-4": {
+        "type": "technical-doc",
+        "title": "Red Hat Secure Software Development Life Cycle",
+        "publisher": "Red Hat, Inc.",
+        "url": "https://access.redhat.com/security/rh_security_declaration_sdl",
+        "language": "en",
+        "jurisdiction": "Global",
+        "applicability": "Policy and procedures for secure development lifecycle in enterprise software environments",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "8-source-4",
+        "byteDigest": "sha256:6b0cc68dce41ea7e78e8f3b7fdebb7bdce1e27370400ad28f510238f25659a81",
+        "textDigest": "sha256:c3e49d56e70097b1edfddcb21d2be339df477bb3a5f0b2582f720a5e14b5d73b",
+        "finalUrl": "https://access.redhat.com/security/rh_security_declaration_sdl",
+        "retrievedAt": "2026-10-23T22:15:12Z",
+        "contentType": "text/html; charset=UTF-8",
+        "snapshotPath": "source-6b0cc68dce41ea7e78e8f3b7fdebb7bdce1e27370400ad28f510238f25659a81.bin",
+        "textPath": "source-c3e49d56e70097b1edfddcb21d2be339df477bb3a5f0b2582f720a5e14b5d73b.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Threat Modeling Section",
+            "text": "The purpose of the threat modeling process is to aid Engineering in documenting identified security threats to an application and making well-informed decisions about security requirements to mitigate them."
+          },
+          {
+            "id": "p2",
+            "locator": "Software Security Activities",
+            "text": "Red Hat designs software to meet appropriate security and risk mitigation requirements. Following secure development activities throughout the software development life cycle enables security to be built into the design, architecture, and code of the product."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      }
+    },
+    "concerns": [
+      {
+        "id": "8-concern-1",
+        "sfsId": "8",
+        "description": "Existence of documented processes to identify and mitigate security threats through threat modeling throughout the development lifecycle",
+        "sourceRefs": [
+          {
+            "sourceId": "8-source-2",
+            "passageId": "p2"
+          },
+          {
+            "sourceId": "8-source-4",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "8-concern-2",
+        "sfsId": "8",
+        "description": "Implementation of security requirements during design phase including secure coding practices and procedures",
+        "sourceRefs": [
+          {
+            "sourceId": "8-source-3",
+            "passageId": "p1"
+          },
+          {
+            "sourceId": "8-source-4",
+            "passageId": "p2"
+          }
+        ]
+      },
+      {
+        "id": "8-concern-3",
+        "sfsId": "8",
+        "description": "Processes to identify, assess, and prioritize risks followed by coordinated application of resources to minimize security risks",
+        "sourceRefs": [
+          {
+            "sourceId": "8-source-1",
+            "passageId": "p1"
+          },
+          {
+            "sourceId": "8-source-2",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "8-concern-4",
+        "sfsId": "8",
+        "description": "Integration of security design review to verify compliance with security requirements and risk information",
+        "sourceRefs": [
+          {
+            "sourceId": "8-source-2",
+            "passageId": "p3"
+          }
+        ]
+      }
+    ],
+    "queries": [
+      {
+        "scope": "8",
+        "toolId": "searxng_web_search",
+        "input": {
+          "query": "Secure Development Lifecycle and Risk Management official implementation configuration documentation",
+          "max_results": 10,
+          "safesearch": 1,
+          "time_range": ""
+        },
+        "outputDigest": "sha256:4e17b19effc5709e9d2578328ebaa0a8335e009371012587aced54b058867511",
+        "callId": "sources-8-1-discovery",
+        "reusedScopeObservation": true
+      },
+      {
+        "scope": "8",
+        "toolId": "websearch_web_search",
+        "input": {
+          "query": "Secure Development Lifecycle and Risk Management official implementation configuration documentation",
+          "max_results": 10
+        },
+        "outputDigest": "sha256:769c08c48e038e4c90a1a13e67e4c8701b8814c161c0cbfa851fb73edf4ad8a7",
+        "callId": "sources-8-1-discovery",
+        "reusedScopeObservation": true
+      },
+      {
+        "scope": "8",
+        "toolId": "searxng_web_search",
+        "input": {
+          "query": "Secure Development Lifecycle and Risk Management official implementation configuration documentation",
+          "max_results": 10,
+          "safesearch": 2,
+          "time_range": ""
+        },
+        "outputDigest": "sha256:dff21c439612f31e31071119ef8bc347d26b2ec65e8695c610717e7671ad2019",
+        "callId": "sources-8-2-discovery"
+      },
+      {
+        "scope": "8",
+        "toolId": "websearch_web_search",
+        "input": {
+          "query": "Secure Development Lifecycle and Risk Management official implementation configuration documentation",
+          "max_results": 10
+        },
+        "outputDigest": "sha256:1903fc2bc0b611ae4af7c37bc96d4af11d7fffb197b2f29e8c85aa1208c29887",
+        "callId": "sources-8-2-discovery"
+      }
+    ],
+    "limitations": [
+      {
+        "scope": "8",
+        "description": "searxng search truncated after 5 results despite pagination attempts"
+      },
+      {
+        "scope": "8",
+        "description": "websearch_web_fetch response required content truncation due to size limits"
+      },
+      {
+        "scope": "8",
+        "description": "No Greek-language technical documentation observed matching exact scope boundaries"
+      },
+      {
+        "scope": "8",
+        "description": "Unresponsive search engines: brave (suspended: too many requests)"
+      },
+      {
+        "scope": "8",
+        "description": "ENISA guidance document specifies it is non-binding and only of advisory character as noted in disclaimer section"
+      },
+      {
+        "scope": "8",
+        "description": "NIST and Microsoft documentation represents industry best practices rather than legally mandated requirements"
+      },
+      {
+        "scope": "8",
+        "description": "Some source URLs were observed in earlier discovery calls for this same scope; original tool provenance is retained."
+      },
+      {
+        "scope": "8",
+        "description": "Some documents came from prior fetched snapshots with original retrieval dates; their current web contents were not rechecked in this run."
+      }
+    ],
+    "admissionVersion": 2,
+    "observedResultUrls": [
+      "https://access.redhat.com/security/rh_security_declaration_sdl",
+      "https://pages.nist.gov/nccoe-devsecops/",
+      "https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf",
+      "https://www.microsoft.com/en-us/securityengineering/sdl/practices"
+    ]
+  },
+  "files": {
+    "snapshots/source-f03186edb047ece269ab9deeb3f0ec6172582ccc577617f0eb79e9bf96a7021b.bin": "sha256:f03186edb047ece269ab9deeb3f0ec6172582ccc577617f0eb79e9bf96a7021b",
+    "snapshots/source-effbd5b01b9fc323fad9ab61fca97caa63acc7891c62076f42f8f6537096d36d.txt": "sha256:effbd5b01b9fc323fad9ab61fca97caa63acc7891c62076f42f8f6537096d36d",
+    "snapshots/source-eba52d95cde1c4a820dc1c8e97141e30df87ee59d452d310711ef16cc13fd651.bin": "sha256:eba52d95cde1c4a820dc1c8e97141e30df87ee59d452d310711ef16cc13fd651",
+    "snapshots/source-ab48852b2c36260ec70928e1dce39ab2120925457d45c11c6d61a857a594465c.txt": "sha256:ab48852b2c36260ec70928e1dce39ab2120925457d45c11c6d61a857a594465c",
+    "snapshots/source-3a8a18990e1004cd63f88c0eccec5b1507ec920f4427bffbf694f39bc355fa7f.bin": "sha256:3a8a18990e1004cd63f88c0eccec5b1507ec920f4427bffbf694f39bc355fa7f",
+    "snapshots/source-fa0aacbd8ab5028e4af9a2bc5640aad132ea5d983622d0f36d7aec5182ee41d0.txt": "sha256:fa0aacbd8ab5028e4af9a2bc5640aad132ea5d983622d0f36d7aec5182ee41d0",
+    "snapshots/source-6b0cc68dce41ea7e78e8f3b7fdebb7bdce1e27370400ad28f510238f25659a81.bin": "sha256:6b0cc68dce41ea7e78e8f3b7fdebb7bdce1e27370400ad28f510238f25659a81",
+    "snapshots/source-c3e49d56e70097b1edfddcb21d2be339df477bb3a5f0b2582f720a5e14b5d73b.txt": "sha256:c3e49d56e70097b1edfddcb21d2be339df477bb3a5f0b2582f720a5e14b5d73b"
+  }
+}

@@ -1,0 +1,9633 @@
+
+      
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chapter 6. Setting up an IPsec VPN | Securing networks | Red Hat Enterprise Linux | 10 | Red Hat Documentation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to navigation
+Skip to content
+Featured links
+
+
+Support
+
+
+Console
+
+
+Developers
+
+
+Start a trial
+
+
+All Red Hat
+For customers
+Customer support
+
+
+Subscription management
+
+
+Support Cases
+
+
+Red Hat Ecosystem Catalog
+
+
+Find a partner
+
+
+
+
+For partners
+Partner portal
+
+
+Partner support
+
+
+Become a partner
+
+
+
+
+Try, buy, & sell
+Red Hat Store
+
+
+Contact Sales
+
+
+Start a trial
+
+
+
+
+Learning resources
+Training and certification
+
+
+Hybrid cloud learning hub
+
+
+Interactive labs
+
+
+Learning community
+
+
+Red Hat TV
+
+
+Architecture Center
+
+
+
+
+Open source communities
+Global advocacy
+
+
+How we contribute
+
+
+
+
+
+
+
+
+
+
+
+
+AI
+
+
+
+
+
+
+
+
+
+
+Learn
+
+
+
+
+
+
+
+
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+
+Resources
+
+
+
+
+
+
+
+
+
+
+Support
+Console
+Developers
+Start a trial
+Contact
+
+
+Select your language
+English
+Français
+한국어
+日本語
+中文 (中国)
+Deutsch
+Italiano
+Português
+Español
+
+
+
+
+
+
+
+
+
+
+Home
+
+
+Products
+
+
+Red Hat Enterprise Linux
+
+
+10
+
+
+Securing networks
+
+
+Chapter 6. Setting up an IPsec VPN
+
+
+ 
+
+
+
+
+
+
+Open 
+ Table of contents
+
+
+Open page settings
+
+
+
+
+Red Hat Enterprise Linux
+
+
+
+
+
+
+
+
+
+
+Format
+Multi-page
+Single-page
+View full doc as PDF
+
+
+
+
+
+
+
+
+6.1. Components in an IPsec VPN
+
+
+6.2. Libreswan authentication methods
+
+
+6.3. Manually configuring an IPsec host-to-host VPN with raw RSA key authentication
+
+
+6.4. Manually configuring an IPsec site-to-site VPN with raw RSA key authentication
+
+
+6.5. Manually configuring an IPsec host-to-site VPN with certificate-based authentication
+6.5.1. Setting up an IPsec gateway manually
+
+
+6.5.2. Configuring a client to connect to an IPsec VPN gateway by using GNOME Settings
+
+
+
+
+6.6. Manually configuring an IPsec mesh VPN with certificate-based authentication
+
+
+6.7. Protecting the IPsec NSS database with a password
+
+
+6.8. Using IPsec on a system with FIPS mode enabled
+
+
+6.9. Configuring TCP fallback for an IPsec VPN connection
+
+
+6.10. Enabling legacy ciphers and algorithms in Libreswan
+
+
+6.11. Assigning a VPN connection to a dedicated routing table to prevent the connection from bypassing the tunnel
+
+
+6.12. Configuring IPsec VPN connections by using RHEL system roles
+6.12.1. Configuring an IPsec host-to-host VPN with PSK authentication by using the vpn RHEL system role
+
+
+6.12.2. Configuring an IPsec host-to-host VPN with PSK authentication and separate data and control planes by using the vpn RHEL system role
+
+
+6.12.3. Configuring an IPsec site-to-site VPN with PSK authentication by using the vpn RHEL system role
+
+
+6.12.4. Configuring an IPsec mesh VPN with certificate-based authentication by using the vpn RHEL system role
+
+
+
+
+6.13. Configuring IPsec VPN connections by using nmstatectl
+6.13.1. Configuring an IPsec host-to-host VPN with raw RSA key authentication by using nmstatectl
+
+
+6.13.2. Configuring an IPsec site-to-site VPN with raw RSA key authentication by using nmstatectl
+
+
+6.13.3. Configuring a client to connect to an IPsec VPN gateway by using nmstatectl
+
+
+
+
+6.14. Troubleshooting IPsec configurations
+6.14.1. Basic connection issues
+
+
+6.14.2. Firewall-related problems
+
+
+6.14.3. Mismatched Configurations
+
+
+6.14.4. MTU issues
+
+
+6.14.5. NAT conflicts
+
+
+6.14.6. Kernel-level IPsec issues
+
+
+6.14.7. Kernel IPsec subsystem bugs
+
+
+6.14.8. Displaying Libreswan logs
+
+
+
+
+
+
+
+
+Red Hat Enterprise Linux
+
+
+
+
+
+
+Securing networks
+
+
+Providing feedback on Red Hat documentation
+
+
+1. Using secure communications between two systems with OpenSSH
+Using secure communications between two systems with OpenSSH
+
+
+1.1. SSH and OpenSSH
+
+
+1.2. Generating SSH key pairs
+
+
+1.3. Setting key-based authentication as the only method on an OpenSSH server
+
+
+1.4. Authenticating by SSH keys stored on a smart card
+
+
+1.5. Making OpenSSH more secure
+Making OpenSSH more secure
+
+
+1.5.1. Creating and enforcing stronger SSH key types
+
+
+1.5.2. Customizing allowed cryptography on OpenSSH servers
+
+
+1.5.3. Setting a non-default port for SSH
+
+
+1.5.4. SSH access only for specific users, groups, or IP ranges
+
+
+1.5.5. X Security extension
+
+
+1.5.6. Additional resources
+
+
+
+
+1.6. Connecting to a remote server through an SSH jump host
+
+
+1.7. Configuring the OpenSSH server and client by using RHEL system roles
+Configuring the OpenSSH server and client by using RHEL system roles
+
+
+1.7.1. How the sshd RHEL system role maps settings from a playbook to the configuration file
+
+
+1.7.2. Configuring OpenSSH servers by using the sshd RHEL system role
+
+
+1.7.3. Using the sshd RHEL system role for non-exclusive configuration
+
+
+1.7.4. Overriding the system-wide cryptographic policy on an SSH server by using the sshd RHEL system role
+
+
+1.7.5. How the ssh RHEL system role maps settings from a playbook to the configuration file
+
+
+1.7.6. Configuring OpenSSH clients by using the ssh RHEL system role
+
+
+
+
+1.8. Additional resources
+
+
+
+
+2. Creating and managing TLS keys and certificates
+Creating and managing TLS keys and certificates
+
+
+2.1. TLS certificates
+
+
+2.2. Post-quantum cryptography algorithms in OpenSSL
+
+
+2.3. Creating a private CA by using OpenSSL
+
+
+2.4. Creating a private key and a CSR for a TLS server certificate by using OpenSSL
+
+
+2.5. Creating a private key and a CSR for a TLS client certificate by using OpenSSL
+
+
+2.6. Using a private CA to issue certificates for CSRs with OpenSSL
+
+
+2.7. Creating a private CA by using GnuTLS
+
+
+2.8. Creating a private key and a CSR for a TLS server certificate by using GnuTLS
+
+
+2.9. Creating a private key and a CSR for a TLS client certificate by using GnuTLS
+
+
+2.10. Using a private CA to issue certificates for CSRs with GnuTLS
+
+
+
+
+3. Using shared system certificates
+Using shared system certificates
+
+
+3.1. The system-wide truststore
+
+
+3.2. Adding new certificates to the system-wide truststore
+
+
+3.3. Trusted system certificates management with the trust command
+
+
+
+
+4. Planning and implementing TLS
+Planning and implementing TLS
+
+
+4.1. SSL and TLS protocols
+
+
+4.2. Security considerations for TLS in RHEL 10
+Security considerations for TLS in RHEL 10
+
+
+4.2.1. Protocols
+
+
+4.2.2. Cipher suites
+
+
+4.2.3. Public key length
+
+
+
+
+4.3. TLS configuration hardening in applications
+TLS configuration hardening in applications
+
+
+4.3.1. TLS configuration of an Apache HTTP server
+
+
+4.3.2. TLS configuration of an Nginx HTTP and proxy server
+
+
+4.3.3. TLS configuration of a Dovecot mail server
+
+
+
+
+
+
+5. Securing system DNS traffic with encrypted DNS (eDNS)
+Securing system DNS traffic with encrypted DNS (eDNS)
+
+
+5.1. Overview of components for eDNS in RHEL
+Overview of components for eDNS in RHEL
+
+
+5.1.1. eDNS resolution process and core interactions
+
+
+
+
+5.2. Installing RHEL with eDNS enabled from a local installation media
+
+
+5.3. Installing RHEL with eDNS enabled using a custom bootable ISO
+
+
+5.4. Enabling eDNS on an existing RHEL installation
+
+
+5.5. Kernel parameters for DNS configuration
+
+
+5.6. Additional resources
+
+
+
+
+6. Setting up an IPsec VPN
+Setting up an IPsec VPN
+
+
+6.1. Components in an IPsec VPN
+
+
+6.2. Libreswan authentication methods
+
+
+6.3. Manually configuring an IPsec host-to-host VPN with raw RSA key authentication
+
+
+6.4. Manually configuring an IPsec site-to-site VPN with raw RSA key authentication
+
+
+6.5. Manually configuring an IPsec host-to-site VPN with certificate-based authentication
+Manually configuring an IPsec host-to-site VPN with certificate-based authentication
+
+
+6.5.1. Setting up an IPsec gateway manually
+
+
+6.5.2. Configuring a client to connect to an IPsec VPN gateway by using GNOME Settings
+
+
+
+
+6.6. Manually configuring an IPsec mesh VPN with certificate-based authentication
+
+
+6.7. Protecting the IPsec NSS database with a password
+
+
+6.8. Using IPsec on a system with FIPS mode enabled
+
+
+6.9. Configuring TCP fallback for an IPsec VPN connection
+
+
+6.10. Enabling legacy ciphers and algorithms in Libreswan
+
+
+6.11. Assigning a VPN connection to a dedicated routing table to prevent the connection from bypassing the tunnel
+
+
+6.12. Configuring IPsec VPN connections by using RHEL system roles
+Configuring IPsec VPN connections by using RHEL system roles
+
+
+6.12.1. Configuring an IPsec host-to-host VPN with PSK authentication by using the vpn RHEL system role
+
+
+6.12.2. Configuring an IPsec host-to-host VPN with PSK authentication and separate data and control planes by using the vpn RHEL system role
+
+
+6.12.3. Configuring an IPsec site-to-site VPN with PSK authentication by using the vpn RHEL system role
+
+
+6.12.4. Configuring an IPsec mesh VPN with certificate-based authentication by using the vpn RHEL system role
+
+
+
+
+6.13. Configuring IPsec VPN connections by using nmstatectl
+Configuring IPsec VPN connections by using nmstatectl
+
+
+6.13.1. Configuring an IPsec host-to-host VPN with raw RSA key authentication by using nmstatectl
+
+
+6.13.2. Configuring an IPsec site-to-site VPN with raw RSA key authentication by using nmstatectl
+
+
+6.13.3. Configuring a client to connect to an IPsec VPN gateway by using nmstatectl
+
+
+
+
+6.14. Troubleshooting IPsec configurations
+Troubleshooting IPsec configurations
+
+
+6.14.1. Basic connection issues
+
+
+6.14.2. Firewall-related problems
+
+
+6.14.3. Mismatched Configurations
+
+
+6.14.4. MTU issues
+
+
+6.14.5. NAT conflicts
+
+
+6.14.6. Kernel-level IPsec issues
+
+
+6.14.7. Kernel IPsec subsystem bugs
+
+
+6.14.8. Displaying Libreswan logs
+
+
+
+
+
+
+7. Using MACsec to encrypt layer-2 traffic in the same physical network
+Using MACsec to encrypt layer-2 traffic in the same physical network
+
+
+7.1. How MACsec increases security
+
+
+7.2. Configuring a MACsec connection by using nmcli
+
+
+7.3. Configuring a MACsec connection by using nmstatectl
+
+
+
+
+8. Securing network services
+Securing network services
+
+
+8.1. Securing the rpcbind service
+
+
+8.2. Securing the rpc.mountd service
+
+
+8.3. Securing the NFS service
+Securing the NFS service
+
+
+8.3.1. Export options for securing an NFS server
+
+
+8.3.2. Mount options for securing an NFS client
+
+
+8.3.3. Securing NFS with firewall
+
+
+
+
+8.4. Securing the FTP service
+Securing the FTP service
+
+
+8.4.1. Securing the FTP greeting banner
+
+
+8.4.2. Configuring write-only anonymous uploads in FTP
+
+
+8.4.3. Security tips for FTP user accounts
+
+
+
+
+8.5. Securing HTTP servers
+Securing HTTP servers
+
+
+8.5.1. Security enhancements in httpd.conf
+Security enhancements in httpd.conf
+
+
+8.5.1.1. Securing CGI and script directories
+
+
+8.5.1.2. Removing httpd modules
+
+
+
+
+8.5.2. Nginx server configuration hardening
+
+
+
+
+8.6. Securing PostgreSQL by limiting access to authenticated local users
+
+
+8.7. Securing the Memcached service
+Securing the Memcached service
+
+
+8.7.1. Memcached hardening against DDoS attacks
+
+
+
+
+8.8. Securing the Postfix service
+Securing the Postfix service
+
+
+8.8.1. Reducing Postfix network-related security risks
+
+
+8.8.2. Postfix configuration options for limiting DoS attacks
+
+
+8.8.3. Configuring Postfix to use SASL
+
+
+
+
+
+
+Legal Notice
+
+
+
+
+
+
+Format
+Multi-page
+Single-page
+View full doc as PDF
+
+
+6.1. Components in an IPsec VPN
+
+
+6.2. Libreswan authentication methods
+
+
+6.3. Manually configuring an IPsec host-to-host VPN with raw RSA key authentication
+
+
+6.4. Manually configuring an IPsec site-to-site VPN with raw RSA key authentication
+
+
+6.5. Manually configuring an IPsec host-to-site VPN with certificate-based authentication
+6.5.1. Setting up an IPsec gateway manually
+
+
+6.5.2. Configuring a client to connect to an IPsec VPN gateway by using GNOME Settings
+
+
+
+
+6.6. Manually configuring an IPsec mesh VPN with certificate-based authentication
+
+
+6.7. Protecting the IPsec NSS database with a password
+
+
+6.8. Using IPsec on a system with FIPS mode enabled
+
+
+6.9. Configuring TCP fallback for an IPsec VPN connection
+
+
+6.10. Enabling legacy ciphers and algorithms in Libreswan
+
+
+6.11. Assigning a VPN connection to a dedicated routing table to prevent the connection from bypassing the tunnel
+
+
+6.12. Configuring IPsec VPN connections by using RHEL system roles
+6.12.1. Configuring an IPsec host-to-host VPN with PSK authentication by using the vpn RHEL system role
+
+
+6.12.2. Configuring an IPsec host-to-host VPN with PSK authentication and separate data and control planes by using the vpn RHEL system role
+
+
+6.12.3. Configuring an IPsec site-to-site VPN with PSK authentication by using the vpn RHEL system role
+
+
+6.12.4. Configuring an IPsec mesh VPN with certificate-based authentication by using the vpn RHEL system role
+
+
+
+
+6.13. Configuring IPsec VPN connections by using nmstatectl
+6.13.1. Configuring an IPsec host-to-host VPN with raw RSA key authentication by using nmstatectl
+
+
+6.13.2. Configuring an IPsec site-to-site VPN with raw RSA key authentication by using nmstatectl
+
+
+6.13.3. Configuring a client to connect to an IPsec VPN gateway by using nmstatectl
+
+
+
+
+6.14. Troubleshooting IPsec configurations
+6.14.1. Basic connection issues
+
+
+6.14.2. Firewall-related problems
+
+
+6.14.3. Mismatched Configurations
+
+
+6.14.4. MTU issues
+
+
+6.14.5. NAT conflicts
+
+
+6.14.6. Kernel-level IPsec issues
+
+
+6.14.7. Kernel IPsec subsystem bugs
+
+
+6.14.8. Displaying Libreswan logs
+
+
+
+
+
+
+Chapter 6. Setting up an IPsec VPN
+
+
+
+			Configure and manage a secure Virtual Private Network (VPN) by using the Libreswan implementation of the IPsec protocol suite. Libreswan creates encrypted tunnels for secure data transmission over the internet.
+		
+
+
+
+			IPsec tunnels ensure the confidentiality and integrity of data in transit. Common use cases include connecting branch offices to headquarters or providing remote users with secure access to a corporate network.
+		
+
+
+
+			RHEL provides different options to configure Libreswan:
+		
+
+
+
+					Manually edit the Libreswan configuration files for granular control over advanced options.
+				
+
+
+
+					Use the 
+vpn
+ RHEL system role to automate the process of creating Libreswan VPN configurations.
+				
+
+
+
+					Use Nmstate to configure a Libreswan connection through a declarative API.
+				
+
+
+
+
+
+			Libreswan does not use terms such as "client" and "server". Instead, IPsec refers to endpoints as "left" and "right".
+		
+
+
+
+			With this design, you can often use the same configuration on both hosts. Libreswan dynamically sets the role. By convention, you can use 
+left
+ for the local host and 
+right
+ for the remote host.
+		
+
+
+Note
+
+
+
+				Libreswan is the only supported VPN technology in RHEL.
+			
+
+
+
+
+
+			IPsec relies on standardized protocols, such as Internet Key Exchange (IKE), to ensure that different systems can communicate effectively. However, in practice, minor differences in how vendors implement these standards can lead to compatibility problems. If you encounter such interoperability issues when connecting Libreswan to a third-party IPsec peer, contact Red Hat Support.
+		
+
+
+6.1. Components in an IPsec VPN
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+				Before setting up an IPsec VPN, it is important to understand its main components: Internet Key Exchange (IKE) for authentication and negotiation, and IPsec for data encryption and transport.
+			
+
+
+
+				IKE is the protocol for authentication and negotiation between two endpoints. It negotiates connection rules, including encryption algorithms. Libreswan implements IKE in the 
+pluto
+ daemon.
+			
+
+
+
+				IPsec encrypts and transports data. It follows the policy from the IKE negotiation. The Linux kernel implements the IPsec protocol suite.
+			
+
+
+6.2. Libreswan authentication methods
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+				Select the appropriate authentication method to establish a secure VPN connection based on your security needs and network environment.
+			
+
+
+
+				Libreswan supports the following authentication methods:
+			
+
+
+Pre-Shared key
+
+							The Pre-Shared Key (PSK) method uses the same secret on both endpoints. Each endpoint authenticates the other endpoint. PSKs are simple and broadly compatible. They are suitable for small-scale deployments. However, managing PSKs is risky if you reuse the key or do not rotate it frequently. For security, PSKs must have more than 64 random characters. On hosts in FIPS mode, PSKs must meet FIPS strength requirements.
+						
+Raw RSA key
+
+							This method uses an RSA public and private key pair on each peer for mutual identification. Raw RSA keys provide stronger security than PSKs and are ideal for environments where a full certificate infrastructure is not required.
+						
+X.509 certificates
+
+							This method uses X.509 certificates from a trusted Certificate Authority (CA). Each peer proves its identity with its certificate and private key. The other peer verifies the certificate against the trusted CA. This method provides the highest level of security and scalability for large enterprises. However, it is more complex. You must deploy and maintain a public key infrastructure (PKI).
+						
+NULL authentication
+
+							This method provides only encryption with no authentication between peers. Because it does not verify the identity of the remote endpoint, NULL authentication is insecure and offers no protection against man-in-the-middle attacks.
+						
+Protection against quantum computers
+
+							PPKs are not a standalone authentication method. Libreswan offers them to protect modern IKEv2 connections from attacks by quantum computers. This feature is necessary because the older IKEv1 protocol and standard IKEv2 are not quantum-resistant on their own. A PPK adds another layer of security on top of the primary authentication method. PPK security depends on using a cryptographically strong key. Distribute this key securely through an external communication channel.
+						
+
+
+6.3. Manually configuring an IPsec host-to-host VPN with raw RSA key authentication
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+				A host-to-host VPN establishes a direct, secure, and encrypted connection between two devices, allowing applications to communicate safely over an insecure network, such as the internet.
+			
+
+
+
+				For authentication, RSA keys are more secure than pre-shared keys (PSKs) because their asymmetric encryption eliminates the risk of a shared secret. Using RSA keys also simplifies deployment by avoiding the need for a certificate authority (CA), and provides strong peer-to-peer authentication.
+			
+
+
+
+				Perform the steps on both hosts.
+			
+
+
+Procedure
+
+
+
+						If Libreswan is not yet installed, perform the following steps:
+					
+
+
+
+								Install the 
+libreswan
+ package:
+							
+
+
+
+
+# 
+dnf install libreswan
+
+
+
+
+
+
+
+
+
+								Initialize the Network Security Services (NSS) database:
+							
+
+
+
+
+# 
+ipsec initnss
+
+
+
+
+
+
+
+								The command creates the database in the 
+/var/lib/ipsec/nss/
+ directory.
+							
+
+
+
+
+
+								Enable and start the 
+ipsec
+ service:
+							
+
+
+
+
+# 
+systemctl enable --now ipsec
+
+
+
+
+
+
+
+
+
+								Open the IPsec ports and protocols in the firewall:
+							
+
+
+
+
+# 
+firewall-cmd --permanent --add-service="ipsec"
+
+# 
+firewall-cmd --reload
+
+
+
+
+
+
+
+
+
+
+
+
+
+						Create an RSA key pair:
+					
+
+
+
+
+# 
+ipsec newhostkey
+
+
+
+
+
+
+
+						The 
+ipsec
+ utility stores the key pair in the NSS database.
+					
+
+
+
+
+
+						Designate your peers. In an IPsec tunnel, you must designate one host as 
+left
+ and the other as 
+right
+. This is an arbitrary choice. A common practice is to call your local host 
+left
+ and the remote host 
+right
+.
+					
+
+
+
+						Display the Certificate Key Attribute ID (CKAID) on both the left and right peer:
+					
+
+
+
+
+# 
+ipsec showhostkey --list
+
+< 1> RSA keyid: 
+<key_id>
+ ckaid: 
+<ckaid>
+
+
+
+
+
+
+
+						You require the CKAIDs of both peers in the next steps.
+					
+
+
+
+
+
+						Display the public keys:
+					
+
+
+
+								On the left peer, enter:
+							
+
+
+
+
+# 
+ipsec showhostkey --left --ckaid 
+<ckaid_of_left_peer>
+
+	# rsakey AwEAAdKCx
+	leftrsasigkey=0sAwEAAdKCxpc9db48cehzQiQD...
+
+
+
+
+
+
+
+
+
+								On the right peer, enter:
+							
+
+
+
+
+# 
+ipsec showhostkey --right --ckaid 
+<ckaid_of_right_peer>
+
+	# rsakey AwEAAcNWC
+	rightrsasigkey=0sAwEAAcNWCzZO+PR1j8WbO8X...
+
+
+
+
+
+
+
+
+
+
+
+						The commands display the public keys with the corresponding parameters that you must use in the configuration file.
+					
+
+
+
+
+
+						Create a 
+.conf
+ file for the connection in the 
+/etc/ipsec.d/
+ directory. For example, create the 
+/etc/ipsec.d/host-to-host.conf
+ file with the following settings:
+					
+
+
+
+
+conn 
+<
+connection_name
+>
+
+    
+# General setup and authentication type
+
+    
+auto
+=
+start
+    
+authby
+=
+rsasig
+
+    
+# Peer A
+
+    
+left
+=
+<
+ip_address_or_fqdn_of_left_peer
+>
+
+    
+leftid
+=
+@peer_a
+    
+leftrsasigkey
+=
+<
+public_key_of_left_peer
+>
+
+
+    
+# Peer B
+
+    
+right
+=
+<
+ip_address_or_fqdn_of_right_peer
+>
+
+    
+rightid
+=
+@peer_b
+    
+rightrsasigkey
+=
+<
+public_key_of_right_peer
+>
+
+
+
+
+
+
+Note
+
+
+
+							You can use the same configuration file on both hosts, and Libreswan identifies whether it is operating on the left or right host by using internal information. However, it is important that all values in 
+left*
+ parameters belong to one peer and the values in 
+right*
+ parameters belong to the other.
+						
+
+
+
+
+
+						The settings specified in the example include the following:
+					
+
+
+conn 
+<connection_name>
+
+									Defines the connection name. The name is arbitrary, and Libreswan uses it to identify the connection. You must indent parameters in this connection by at least one space or tab.
+								
+auto=
+<type>
+
+									Controls how the connection is initiated. If you set the value to 
+start
+, Libreswan activates the connection automatically when the service starts.
+								
+authby=rsasig
+
+									Enables RSA signature authentication for this connection.
+								
+left=
+<ip_address_or_fqdn_of_left_peer>
+ and 
+right=
+<ip_address_or_fqdn_of_right_peer>
+
+									Defines the IP address or DNS name of the peers.
+								
+leftid=
+<id>
+ and 
+rightid=
+<id>
+
+									Defines how each peer is identified during the Internet Key Exchange (IKE) negotiation process. This can be a fully-qualified domain name (FQDN), an IP address, or a literal string. In the latter case, precede the string with an 
+@
+ sign.
+								
+leftrsasigkey=
+<public_key>
+ and 
+rightrsasigkey=
+<public_key>
+
+									Specifies the public key of the peers. Use the values displayed by the 
+ipsec showhostkey
+ command in a previous step.
+								
+
+
+
+
+
+						Restart the 
+ipsec
+ service:
+					
+
+
+
+
+# 
+systemctl restart ipsec
+
+
+
+
+
+
+
+						If you use 
+auto=start
+ in the configuration file, the connection is automatically activated. With other methods, additional steps are required to activate the connection. For details, see the 
+ipsec.conf(5)
+ man page on your system.
+					
+
+
+
+
+
+
+Verification
+
+
+
+						Display the IPsec status:
+					
+
+
+
+
+# 
+ipsec status
+
+
+
+
+
+
+
+						If the connection is successfully established, the output contains lines as follows:
+					
+
+
+
+								Phase 1 of an Internet Key Exchange version 2 (IKEv2) negotiation has been successfully completed:
+							
+
+
+
+
+#1: "
+<connection_name>
+":500 ESTABLISHED_IKE_SA (established IKE SA); REKEY in 28523s; REPLACE in 28793s; newest; idle;
+
+
+
+
+
+
+
+								The Security Association (SA) is now ready to negotiate the actual data encryption tunnels, known as child SAs or Phase 2 SAs.
+							
+
+
+
+
+
+								A child SA has been established:
+							
+
+
+
+
+#2: "
+<connection_name>
+":500 ESTABLISHED_CHILD_SA (established Child SA); REKEY in 28523s; REPLACE in 28793s; newest; eroute owner; IKE SA #1; idle;
+
+
+
+
+
+
+
+								This is the actual tunnel that your data traffic flows through.
+							
+
+
+
+
+
+
+
+
+
+
+Troubleshooting
+
+
+
+						If the connection fails to establish, check the IPsec logs on both peers:
+					
+
+
+
+
+# 
+journalctl -u ipsec -n 50
+
+
+
+
+
+
+
+
+
+						If the firewall blocks IPsec traffic, verify that the IPsec service is enabled:
+					
+
+
+
+
+# 
+firewall-cmd --list-services | grep ipsec
+
+
+
+
+
+
+
+						The firewall must allow ESP protocol (IP protocol 50) and UDP ports 500 and 4500.
+					
+
+
+
+
+
+						If authentication fails due to key mismatch, verify that the public keys in the configuration file match the output from 
+ipsec showhostkey
+ on each peer. The 
+leftrsasigkey
+ value on one peer must match the 
+rightrsasigkey
+ value on the other peer.
+					
+
+
+
+						If the NSS database has permission issues, verify the database files have correct ownership and SELinux contexts:
+					
+
+
+
+
+# 
+ls -lZ /var/lib/ipsec/nss/
+
+-rw-r--r--. root root system_u:object_r:ipsec_key_file_t:s0 cert9.db
+-rw-r--r--. root root system_u:object_r:ipsec_key_file_t:s0 key4.db
+
+
+
+
+
+
+
+
+
+
+Next steps
+
+
+
+						If you use this host in a network with DHCP or Stateless Address Autoconfiguration (SLAAC), the connection can be vulnerable to being redirected. For details and mitigation steps, see 
+Assigning a VPN connection to a dedicated routing table to prevent the connection from bypassing the tunnel
+.
+					
+
+
+
+
+6.4. Manually configuring an IPsec site-to-site VPN with raw RSA key authentication
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+				A site-to-site VPN establishes a secure, encrypted tunnel between two distinct networks, linking them across an insecure public network such as the internet.
+			
+
+
+
+				For example, a site-to-site VPN enables devices in a branch office to access resources at a corporate headquarters as if they were all part of the same local network.
+			
+
+
+
+				For authenticating the gateway devices, RSA keys are more secure than pre-shared keys (PSKs) because their asymmetric encryption eliminates the risk of a shared secret. Using RSA keys also simplifies deployment by avoiding the need for a certificate authority (CA), and provides strong peer-to-peer authentication.
+			
+
+
+
+				Perform the steps on both gateway devices.
+			
+
+
+Prerequisites
+
+
+
+						Routes in both networks ensure that the traffic to the remote networks is sent through the local VPN gateway devices.
+					
+
+
+
+
+Procedure
+
+
+
+						If Libreswan is not yet installed, perform the following steps:
+					
+
+
+
+								Install the 
+libreswan
+ package:
+							
+
+
+
+
+# 
+dnf install libreswan
+
+
+
+
+
+
+
+
+
+								Initialize the Network Security Services (NSS) database:
+							
+
+
+
+
+# 
+ipsec initnss
+
+
+
+
+
+
+
+								The command creates the database in the 
+/var/lib/ipsec/nss/
+ directory.
+							
+
+
+
+
+
+								Enable and start the 
+ipsec
+ service:
+							
+
+
+
+
+# 
+systemctl enable --now ipsec
+
+
+
+
+
+
+
+
+
+								Open the IPsec ports and protocols in the firewall:
+							
+
+
+
+
+# 
+firewall-cmd --permanent --add-service="ipsec"
+
+# 
+firewall-cmd --reload
+
+
+
+
+
+
+
+
+
+
+
+
+
+						Create an RSA key pair:
+					
+
+
+
+
+# 
+ipsec newhostkey
+
+
+
+
+
+
+
+						The 
+ipsec
+ utility stores the key pair in the NSS database.
+					
+
+
+
+
+
+						Designate your peers. In an IPsec tunnel, you must designate one host as 
+left
+ and the other as 
+right
+. This is an arbitrary choice. A common practice is to call your local host 
+left
+ and the remote host 
+right
+.
+					
+
+
+
+						Display the Certificate Key Attribute ID (CKAID) on both the left and right peer:
+					
+
+
+
+
+# 
+ipsec showhostkey --list
+
+< 1> RSA keyid: 
+<key_id>
+ ckaid: 
+<ckaid>
+
+
+
+
+
+
+
+						You require the CKAIDs of both peers in the next steps.
+					
+
+
+
+
+
+						Display the public keys:
+					
+
+
+
+								On the left peer, enter:
+							
+
+
+
+
+# 
+ipsec showhostkey --left --ckaid 
+<ckaid_of_left_peer>
+
+	# rsakey AwEAAdKCx
+	leftrsasigkey=0sAwEAAdKCxpc9db48cehzQiQD...
+
+
+
+
+
+
+
+
+
+								On the right peer, enter:
+							
+
+
+
+
+# 
+ipsec showhostkey --right --ckaid 
+<ckaid_of_right_peer>
+
+	# rsakey AwEAAcNWC
+	rightrsasigkey=0sAwEAAcNWCzZO+PR1j8WbO8X...
+
+
+
+
+
+
+
+
+
+
+
+						The commands display the public keys with the corresponding parameters that you must use in the configuration file.
+					
+
+
+
+
+
+						Create a 
+.conf
+ file for the connection in the 
+/etc/ipsec.d/
+ directory. For example, create the 
+/etc/ipsec.d/site-to-site.conf
+ file with the following settings:
+					
+
+
+
+
+conn 
+<
+connection_name
+>
+
+    
+# General setup and authentication type
+
+    
+auto
+=
+start
+    
+authby
+=
+rsasig
+
+    
+# Site A
+
+    
+left
+=
+<
+ip_address_or_fqdn_of_left_peer
+>
+
+    
+leftid
+=
+@site_a
+    
+leftrsasigkey
+=
+<
+public_key_of_left_peer
+>
+
+    
+leftsubnet
+=
+192.0
+.2.0/24
+
+    
+# Site B
+
+    
+right
+=
+<
+ip_address_or_fqdn_of_right_peer
+>
+
+    
+rightid
+=
+@site_b
+    
+rightrsasigkey
+=
+<
+public_key_of_right_peer
+>
+
+    
+rightsubnet
+=
+{
+198.51
+.100.0/24, 
+203.0
+.113.0/24
+}
+
+
+
+
+
+
+Note
+
+
+
+							You can use the same configuration file on both gateway devices, and Libreswan identifies whether it is operating on the left or right host by using internal information. However, it is important that all values in 
+left*
+ parameters belong to one peer and the values in 
+right*
+ parameters belong to the other.
+						
+
+
+
+
+
+						The settings specified in the example include the following:
+					
+
+
+conn 
+<connection_name>
+
+									Defines the connection name. The name is arbitrary, and Libreswan uses it to identify the connection. You must indent parameters in this connection by at least one space or tab.
+								
+auto=
+<type>
+
+									Controls how the connection is initiated. If you set the value to 
+start
+, Libreswan activates the connection automatically when the service starts.
+								
+authby=rsasig
+
+									Enables RSA signature authentication for this connection.
+								
+left=
+<ip_address_or_fqdn_of_left_peer>
+ and 
+right=
+<ip_address_or_fqdn_of_right_peer>
+
+									Defines the IP address or DNS name of the peers.
+								
+leftid=
+<id>
+ and 
+rightid=
+<id>
+
+									Defines how each peer is identified during the Internet Key Exchange (IKE) negotiation process. This can be a fully-qualified domain name (FQDN), an IP address, or a literal string. In the latter case, precede the string with an 
+@
+ sign.
+								
+leftrsasigkey=
+<public_key>
+ and 
+rightrsasigkey=
+<public_key>
+
+									Specifies the public key of the peers. Use the values displayed by the 
+ipsec showhostkey
+ command in a previous step.
+								
+leftsubnet=
+<subnet>
+ and 
+rightsubnet=
+<subnet>
+
+									Defines subnets in classless inter-domain routing (CIDR) format that are connected through the tunnel. If you want to tunnel multiple subnets on one side, specify them in curly brackets and separate them with a comma.
+								
+
+
+
+
+
+						Enable packet forwarding:
+					
+
+
+
+
+# 
+echo "net.ipv4.ip_forward=1" > /etc/sysctl.d/95-IPv4-forwarding.conf
+
+# 
+sysctl -p /etc/sysctl.d/95-IPv4-forwarding.conf
+
+
+
+
+
+
+
+
+
+						Restart the 
+ipsec
+ service:
+					
+
+
+
+
+# 
+systemctl restart ipsec
+
+
+
+
+
+
+
+						If you use 
+auto=start
+ in the configuration file, the connection is automatically activated. With other methods, additional steps are required to activate the connection. For details, see the 
+ipsec.conf(5)
+ man page on your system.
+					
+
+
+
+
+
+
+Verification
+
+
+
+						Display the IPsec status:
+					
+
+
+
+
+# 
+ipsec status
+
+
+
+
+
+
+
+						If the connection is successfully established, the output contains lines as follows:
+					
+
+
+
+								Phase 1 of an Internet Key Exchange version 2 (IKEv2) negotiation has been successfully completed:
+							
+
+
+
+
+#2: "
+<connection_name>
+":500 ESTABLISHED_IKE_SA (established IKE SA); REKEY in 28523s; REPLACE in 28793s; newest; idle;
+
+
+
+
+
+
+
+								The Security Association (SA) is now ready to negotiate the actual data encryption tunnels, known as child SAs or Phase 2 SAs.
+							
+
+
+
+
+
+								A child SA has been established:
+							
+
+
+
+
+#3: "
+<connection_name>
+":500 ESTABLISHED_CHILD_SA (established Child SA); REKEY in 28523s; REPLACE in 28793s; newest; eroute owner; IKE SA #2; idle;
+
+
+
+
+
+
+
+								This is the actual tunnel that your data traffic flows through.
+							
+
+
+
+
+
+
+
+
+
+						From a client in the local subnet, ping a client in the remote subnet.
+					
+
+
+
+
+Troubleshooting
+
+
+
+						If the connection fails to establish, check the IPsec logs on both peers:
+					
+
+
+
+
+# 
+journalctl -u ipsec -n 50
+
+
+
+
+
+
+
+
+
+						If the firewall blocks IPsec traffic, verify that the IPsec service is enabled:
+					
+
+
+
+
+# 
+firewall-cmd --list-services | grep ipsec
+
+
+
+
+
+
+
+						The firewall must allow ESP protocol (IP protocol 50) and UDP ports 500 and 4500.
+					
+
+
+
+
+
+						If authentication fails due to key mismatch, verify that the public keys in the configuration file match the output from 
+ipsec showhostkey
+ on each peer. The 
+leftrsasigkey
+ value on one peer must match the 
+rightrsasigkey
+ value on the other peer.
+					
+
+
+
+						If the connection establishes but traffic does not flow, verify that packet forwarding is enabled on both gateways:
+					
+
+
+
+
+# 
+sysctl net.ipv4.ip_forward
+
+net.ipv4.ip_forward = 1
+
+
+
+
+
+
+
+
+
+						If Phase 1 (IKE SA) succeeds but Phase 2 (Child SA) fails, verify that the subnet definitions in 
+leftsubnet
+ and 
+rightsubnet
+ match the actual network configuration on both peers.
+					
+
+
+
+
+Next steps
+
+
+
+						If you use this host in a network with DHCP or Stateless Address Autoconfiguration (SLAAC), the connection can be vulnerable to being redirected. For details and mitigation steps, see 
+Assigning a VPN connection to a dedicated routing table to prevent the connection from bypassing the tunnel
+.
+					
+
+
+
+
+6.5. Manually configuring an IPsec host-to-site VPN with certificate-based authentication
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+				A host-to-site VPN creates a secure, encrypted connection between a remote computer and a private network. This links them across a public network such as the internet.
+			
+
+
+
+				Remote employees use host-to-site VPNs to access their company’s internal network. They can access resources from their computer as if they were in the office.
+			
+
+
+
+				For authentication, use digital certificates managed by a Certificate Authority (CA). This provides a secure and scalable solution. Each host and the gateway presents a certificate signed by a trusted CA. This method provides strong authentication and simplifies user management. You can grant or revoke access centrally at the CA. Libreswan checks each certificate against a certificate revocation list (CRL). If a certificate is on the list, Libreswan denies access.
+			
+
+
+6.5.1. Setting up an IPsec gateway manually
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+					You must configure the Libreswan IPsec gateway properly to enable secure remote access. Libreswan reads the server certificate, private key, and CA certificate from a Network Security Services (NSS) database.
+				
+
+
+
+					The following example permits authenticated clients to access the internal 192.0.2.0/24 subnet and dynamically assigns an IP address from a virtual IP pool to each client. To maintain security, the gateway verifies that client certificates are issued by the same trusted CA and automatically uses a certificate revocation list (CRL) to ensure access is denied for any revoked certificates.
+				
+
+
+Prerequisites
+
+
+
+							The Public Key Cryptography Standards #12 (PKCS #12) file 
+~/file.p12
+ exists on the gateway with the following contents:
+						
+
+
+
+									The private key of the server
+								
+
+
+
+									The server certificate
+								
+
+
+
+									The CA certificate
+								
+
+
+
+									If required, intermediate certificates
+								
+
+
+
+
+
+							For details about creating a private key and certificate signing request (CSR), as well as about requesting a certificate from a CA, see your CA’s documentation.
+						
+
+
+
+
+
+							The server certificate contains the following fields:
+						
+
+
+
+									Extended Key Usage (EKU) is set to 
+TLS Web Server Authentication
+.
+								
+
+
+
+									Common Name (CN) or Subject Alternative Name (SAN) is set to the fully-qualified domain name (FQDN) of the gateway.
+								
+
+
+
+									X509v3 CRL distribution points contain URLs to Certificate Revocation Lists (CRLs).
+								
+
+
+
+
+
+
+
+							A return route for VPN client traffic is configured on the internal network, pointing to the VPN gateway.
+						
+
+
+
+
+Procedure
+
+
+
+							If Libreswan is not yet installed:
+						
+
+
+
+									Install the 
+libreswan
+ package:
+								
+
+
+
+
+# 
+dnf install libreswan
+
+
+
+
+
+
+
+
+
+									Initialize the Network Security Services (NSS) database:
+								
+
+
+
+
+# 
+ipsec initnss
+
+
+
+
+
+
+
+									The command creates the database in the 
+/var/lib/ipsec/nss/
+ directory.
+								
+
+
+
+
+
+									Enable and start the 
+ipsec
+ service:
+								
+
+
+
+
+# 
+systemctl enable --now ipsec
+
+
+
+
+
+
+
+
+
+									Open the IPsec ports and protocols in the firewall:
+								
+
+
+
+
+# 
+firewall-cmd --permanent --add-service="ipsec"
+
+# 
+firewall-cmd --reload
+
+
+
+
+
+
+
+
+
+
+
+
+
+							Import the PKCS #12 file into the NSS database:
+						
+
+
+
+
+# 
+ipsec import ~/file.p12
+
+Enter password for PKCS12 file: 
+<password>
+
+pk12util: PKCS12 IMPORT SUCCESSFUL
+correcting trust bits for Example-CA
+
+
+
+
+
+
+
+
+
+							Display the nicknames of the server and CA certificates:
+						
+
+
+
+
+# 
+certutil -L -d /var/lib/ipsec/nss/
+
+Certificate Nickname     Trust Attributes
+                         SSL,S/MIME,JAR/XPI
+
+vpn-gateway              u,u,u
+Example-CA               CT,,
+...
+
+
+
+
+
+
+
+							You need this information for the configuration file.
+						
+
+
+
+
+
+							Create a 
+.conf
+ file for the connection in the 
+/etc/ipsec.d/
+ directory. For example, create the 
+/etc/ipsec.d/host-to-site.conf
+ file with the following settings:
+						
+
+
+
+									Add a 
+config setup
+ section to enable CRL checks:
+								
+
+
+
+
+config setup
+    crl-strict
+=
+yes
+    
+crlcheckinterval
+=
+1h
+
+
+
+
+
+
+
+									The settings specified in the example include the following:
+								
+
+
+crl-strict=yes
+
+												Enables CRL checks. Authenticating clients are rejected if no CRL is available in the NSS database.
+											
+crlcheckinterval=1h
+
+												Re-fetches the CRL from the URL specified in the server’s certificate after the specified period.
+											
+
+
+
+
+
+									Add a section for the gateway:
+								
+
+
+
+
+conn 
+<
+connection_name
+>
+
+    
+# General setup and authentication type
+
+    
+auto
+=
+start
+    
+ikev2
+=
+insist
+    
+authby
+=
+rsasig
+
+    
+# VPN gateway settings
+
+    
+left
+=
+%defaultroute
+    
+leftid
+=
+%fromcert
+    
+leftcert
+=
+"
+<
+server_certificate_nickname
+>
+"
+    leftrsasigkey=%cert
+    leftsendcert=always
+    leftsubnet=192.0.2.0/24
+    rekey=no
+    mobike=yes
+    narrowing=yes
+
+    # Client-related settings
+    right=%any
+    rightid=%fromcert
+    rightrsasigkey=%cert
+    rightaddresspool=198.51.100.129-198.51.100.254
+    rightmodecfgclient=yes
+    modecfgclient=yes
+    modecfgdns=192.0.2.5
+    modecfgdomains="
+example.com"
+
+    
+# Dead Peer Detection
+
+    
+dpddelay
+=
+30
+
+    
+dpdtimeout
+=
+120
+
+    
+dpdaction
+=
+clear
+
+
+
+
+
+
+
+									The settings specified in the example include the following:
+								
+
+
+ikev2=insist
+
+												Defines the modern IKEv2 protocol as the only allowed protocol without fallback to IKEv1.
+											
+left=%defaultroute
+
+												Dynamically sets the IP address of the default route interface when the 
+ipsec
+ service starts. Alternatively, you can set the 
+left
+ parameter to the IP address or the FQDN of the host.
+											
+leftid=%fromcert
+ and 
+rightid=%fromcert
+
+												Configures Libreswan to retrieve the identity from the distinguished name (DN) field of the certificate.
+											
+leftcert="
+<server_certificate_nickname>
+"
+
+												Sets the nickname of the server’s certificate used in the NSS database.
+											
+leftrsasigkey=%cert
+ and 
+rightrsasigkey=%cert
+
+												Configures Libreswan to use the RSA public key embedded in the certificate.
+											
+leftsendcert=always
+
+												Instructs the gateway to always send the certificate, so that clients can validate it against the CA certificate.
+											
+leftsubnet=
+<subnets>
+
+												Specifies the subnets connected to the gateway that clients can access through the tunnel.
+											
+mobike=yes
+
+												Enables clients to roam among networks.
+											
+rightaddresspool=
+<ip_range>
+
+												Specifies from which range the gateway can assign IP addresses to the clients.
+											
+modecfgclient=yes
+
+												Enables clients to receive the DNS server IP set in the 
+modecfgdns
+ parameter and the DNS search domain set in 
+modecfgdomains
+.
+											
+
+
+
+
+
+
+
+							For details about all parameters used in the example, see the 
+ipsec.conf(5)
+ man page on your system.
+						
+
+
+
+
+
+							Enable packet forwarding:
+						
+
+
+
+
+# 
+echo "net.ipv4.ip_forward=1" > /etc/sysctl.d/95-IPv4-forwarding.conf
+
+# 
+sysctl -p /etc/sysctl.d/95-IPv4-forwarding.conf
+
+
+
+
+
+
+
+
+
+							Restart the 
+ipsec
+ service:
+						
+
+
+
+
+# 
+systemctl restart ipsec
+
+
+
+
+
+
+
+							If you use 
+auto=start
+ in the configuration file, the connection is automatically activated. With other methods, additional steps are required to activate the connection. For details, see the 
+ipsec.conf(5)
+ man page on your system.
+						
+
+
+
+
+
+
+Verification
+
+
+
+							
+Configure a client and connect to the VPN gateway
+.
+						
+
+
+
+							Check if the service loaded the CRL and added the entries to the NSS database:
+						
+
+
+
+
+# 
+ipsec listcrls
+
+
+List of CRLs:
+
+issuer: CN=Example-CA
+revoked certs: 1
+updates: this Tue Jul 15 10:22:36 2025
+         next Sun Jan 11 10:22:36 2026
+
+List of CRL fetch requests:
+
+Jul 15 15:13:56 2025, trials: 1
+       issuer:  'CN=Example-CA'
+       distPts: 'https://ca.example.com/crl.pem'
+
+
+
+
+
+
+
+
+
+
+Troubleshooting
+
+
+
+							If clients cannot connect to the gateway, check the IPsec logs:
+						
+
+
+
+
+# 
+journalctl -u ipsec -n 50
+
+
+
+
+
+
+
+
+
+							If the firewall blocks IPsec traffic, verify that the IPsec service is enabled in 
+firewalld
+:
+						
+
+
+
+
+# 
+firewall-cmd --list-services
+
+ipsec
+
+
+
+
+
+
+
+							If the service is not listed, add it:
+						
+
+
+
+
+# 
+firewall-cmd --permanent --add-service="ipsec"
+
+# 
+firewall-cmd --reload
+
+
+
+
+
+
+
+
+
+							If certificate validation fails, verify that the CA certificate is imported and trusted in the NSS database:
+						
+
+
+
+
+# 
+certutil -L -d /var/lib/ipsec/nss/
+
+Certificate Nickname     Trust Attributes
+                         SSL,S/MIME,JAR/XPI
+
+Example-CA               CT,,
+
+
+
+
+
+
+
+							The CA certificate trust attributes must include 
+C
+ for certificate authority trust.
+						
+
+
+
+
+
+							If CRL download fails, check network connectivity to the CRL distribution point URL specified in the server certificate, and verify that the URL is accessible from the gateway.
+						
+
+
+
+							If the NSS database has permission issues, verify the database files are owned by root with correct SELinux contexts:
+						
+
+
+
+
+# 
+ls -lZ /var/lib/ipsec/nss/
+
+-rw-r--r--. root root system_u:object_r:ipsec_key_file_t:s0 cert9.db
+-rw-r--r--. root root system_u:object_r:ipsec_key_file_t:s0 key4.db
+-rw-r--r--. root root system_u:object_r:ipsec_key_file_t:s0 pkcs11.txt
+
+
+
+
+
+
+
+
+
+
+Next steps
+
+
+
+							Configure firewall rules to ensure that clients can only communicate with required resources. For details about firewalls, see 
+Configuring firewalls and packet filters
+.
+						
+
+
+
+
+6.5.2. Configuring a client to connect to an IPsec VPN gateway by using GNOME Settings
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+					To access resources on a remote private network, users must first configure an IPsec VPN connection. The GNOME Settings application provides a graphical solution to create an IPsec VPN connection profile in NetworkManager and to establish the tunnel.
+				
+
+
+Prerequisites
+
+
+
+							
+You configured the IPsec VPN gateway
+.
+						
+
+
+
+							The 
+NetworkManager-libreswan-gnome
+ package is installed.
+						
+
+
+
+							The PKCS #12 file 
+~/file.p12
+ exists on the client with the following contents:
+						
+
+
+
+									The private key of the user
+								
+
+
+
+									The user certificate
+								
+
+
+
+									The CA certificate
+								
+
+
+
+									If required, intermediate certificates
+								
+
+
+
+
+
+							For details about creating a private key and certificate signing request (CSR), as well as about requesting a certificate from a CA, see your CA’s documentation.
+						
+
+
+
+
+
+							The Extended Key Usage (EKU) in the certificate is set to 
+TLS Web Client Authentication
+.
+						
+
+
+
+
+Procedure
+
+
+
+							Initialize the Network Security Services (NSS) database:
+						
+
+
+
+
+# 
+ipsec initnss
+
+
+
+
+
+
+
+							The command creates the database in the 
+/var/lib/ipsec/nss/
+ directory.
+						
+
+
+
+
+
+							Import the PKCS #12 file into the NSS database:
+						
+
+
+
+
+# 
+ipsec import ~/file.p12
+
+Enter password for PKCS12 file: 
+<password>
+
+pk12util: PKCS12 IMPORT SUCCESSFUL
+correcting trust bits for Example-CA
+
+
+
+
+
+
+
+
+
+							Display the nicknames of the user and CA certificates:
+						
+
+
+
+
+# 
+certutil -L -d /var/lib/ipsec/nss/
+
+Certificate Nickname     Trust Attributes
+                         SSL,S/MIME,JAR/XPI
+
+user                     u,u,u
+Example-CA               CT,,
+...
+
+
+
+
+
+
+
+							You require this information in the configuration file.
+						
+
+
+
+
+
+							Press the 
+Super
+ key, type 
+Settings
+, and press 
+Enter
+ to open the GNOME 
+Settings
+ application.
+						
+
+
+
+							Click the 
++
+ button next to the 
+VPN
+ entry.
+						
+
+
+
+							Select 
+IPsec based VPN
+ from the list.
+						
+
+
+
+							On the 
+Identity
+ tab, fill the fields as follows:
+						
+
+
+Expand
+Table 6.1. Identity tab settings
+Field name
+Value
+Corresponding 
+ipsec.conf
+ parameter
+ 
+
+											
+Name
+
+										
+
+
+
+										 
+ 
+
+											
+<networkmanager_profile_name>
+
+										
+
+
+
+										 
+ 
+
+											N/A
+										
+
+
+
+										 
+ 
+
+											
+Gateway
+
+										
+
+
+
+										 
+ 
+
+											
+<ip_address_or_fqdn_of_the_gateway>
+
+										
+
+
+
+										 
+ 
+
+											
+right
+
+										
+
+
+
+										 
+ 
+
+											
+Type
+
+										
+
+
+
+										 
+ 
+
+											
+IKEv2 (certificate)
+
+										
+
+
+
+										 
+ 
+
+											
+authby
+
+										
+
+
+
+										 
+ 
+
+											
+Group name
+
+										
+
+
+
+										 
+ 
+
+											
+%fromcert
+
+										
+
+
+
+										 
+ 
+
+											
+leftid
+
+										
+
+
+
+										 
+ 
+
+											
+Certificate name
+
+										
+
+
+
+										 
+ 
+
+											
+<user_certificate_nickname>
+
+										
+
+
+
+										 
+ 
+
+											
+leftcert
+
+										
+
+
+
+										 
+ 
+
+											
+Remote ID
+
+										
+
+
+
+										 
+ 
+
+											
+%fromcert
+
+										
+
+
+
+										 
+ 
+
+											
+rightid
+
+										
+
+
+
+										 
+Show more
+
+
+
+
+
+							Click 
+Advanced
+.
+						
+
+
+
+							In the 
+Advanced properties
+ window, fill the fields of the 
+Connectivity
+ tab as follows:
+						
+
+
+Expand
+Table 6.2. Connectivity tab settings
+Field name
+Value
+Corresponding 
+ipsec.conf
+ parameter
+ 
+
+											
+Remote Network
+
+										
+
+
+
+										 
+ 
+
+											
+192.0.2.0/24
+
+										
+
+
+
+										 
+ 
+
+											
+rightsubnet
+
+										
+
+
+
+										 
+ 
+
+											
+Narrowing
+
+										
+
+
+
+										 
+ 
+
+											Selected
+										
+
+
+
+										 
+ 
+
+											
+narrowing
+
+										
+
+
+
+										 
+ 
+
+											
+Enable MOBIKE
+
+										
+
+
+
+										 
+ 
+
+											
+yes
+
+										
+
+
+
+										 
+ 
+
+											
+mobike
+
+										
+
+
+
+										 
+ 
+
+											
+Delay
+
+										
+
+
+
+										 
+ 
+
+											
+30
+
+										
+
+
+
+										 
+ 
+
+											
+dpddelay
+
+										
+
+
+
+										 
+ 
+
+											
+Timeout
+
+										
+
+
+
+										 
+ 
+
+											
+120
+
+										
+
+
+
+										 
+ 
+
+											
+dpdtimeout
+
+										
+
+
+
+										 
+ 
+
+											
+Action
+
+										
+
+
+
+										 
+ 
+
+											
+Clear
+
+										
+
+
+
+										 
+ 
+
+											
+dpdaction
+
+										
+
+
+
+										 
+Show more
+
+
+
+
+
+							Click 
+Apply
+ to return to the connection settings.
+						
+
+
+
+							Click 
+Apply
+ to save the connection.
+						
+
+
+
+							In the 
+Network
+ tab of the 
+Settings
+ application, toggle the switch next to the VPN profile to activate the connection.
+						
+
+
+
+
+Verification
+
+
+
+							Establish a connection to a host in the remote network or ping it.
+						
+
+
+
+
+Next steps
+
+
+
+							If you use this host in a network with DHCP or Stateless Address Autoconfiguration (SLAAC), the connection can be vulnerable to being redirected. For details and mitigation steps, see 
+Assigning a VPN connection to a dedicated routing table to prevent the connection from bypassing the tunnel
+.
+						
+
+
+
+
+6.6. Manually configuring an IPsec mesh VPN with certificate-based authentication
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+				An IPsec mesh creates a fully interconnected network where every server can communicate securely and directly with every other server. This is ideal for distributed database clusters or high-availability environments that span multiple data centers or cloud providers.
+			
+
+
+
+				Establishing a direct, encrypted tunnel between each pair of servers ensures secure communication without a central bottleneck. For authentication, using digital certificates managed by a Certificate Authority (CA) offers a secure and scalable solution. Each host in the mesh presents a certificate signed by a trusted CA. This method provides strong, verifiable authentication and simplifies user management. Access can be granted or revoked centrally at the CA, and Libreswan enforces this by checking each certificate against a certificate revocation list (CRL), denying access if a certificate appears on the list.
+			
+
+
+Prerequisites
+
+
+
+						A Public Key Cryptography Standards #12 (PKCS #12) file exists on each peer in the mesh with the following contents:
+					
+
+
+
+								The private key of the server
+							
+
+
+
+								The server certificate
+							
+
+
+
+								The CA certificate
+							
+
+
+
+								If required, intermediate certificates
+							
+
+
+
+
+
+						For details about creating a private key and certificate signing request (CSR), as well as about requesting a certificate from a CA, see your CA’s documentation.
+					
+
+
+
+
+
+						The server certificate contains the following fields:
+					
+
+
+
+								Extended Key Usage (EKU) is set to 
+TLS Web Server Authentication
+.
+							
+
+
+
+								Common Name (CN) or Subject Alternative Name (SAN) is set to the fully-qualified domain name (FQDN) of the host.
+							
+
+
+
+								X509v3 CRL distribution points contain URLs to Certificate Revocation Lists (CRLs).
+							
+
+
+
+
+
+
+
+
+Procedure
+
+
+
+						If Libreswan is not yet installed, perform the following steps:
+					
+
+
+
+								Install the 
+libreswan
+ package:
+							
+
+
+
+
+# 
+dnf install libreswan
+
+
+
+
+
+
+
+
+
+								Initialize the Network Security Services (NSS) database:
+							
+
+
+
+
+# 
+ipsec initnss
+
+
+
+
+
+
+
+								The command creates the database in the 
+/var/lib/ipsec/nss/
+ directory.
+							
+
+
+
+
+
+								Enable and start the 
+ipsec
+ service:
+							
+
+
+
+
+# 
+systemctl enable --now ipsec
+
+
+
+
+
+
+
+
+
+								Open the IPsec ports and protocols in the firewall:
+							
+
+
+
+
+# 
+firewall-cmd --permanent --add-service="ipsec"
+
+# 
+firewall-cmd --reload
+
+
+
+
+
+
+
+
+
+
+
+
+
+						Import the PKCS #12 file into the NSS database:
+					
+
+
+
+
+# 
+ipsec import 
+<file>
+.p12
+
+Enter password for PKCS12 file: 
+<password>
+
+pk12util: PKCS12 IMPORT SUCCESSFUL
+correcting trust bits for Example-CA
+
+
+
+
+
+
+
+
+
+						Display the nicknames of the server and CA certificates:
+					
+
+
+
+
+# 
+certutil -L -d /var/lib/ipsec/nss/
+
+Certificate Nickname     Trust Attributes
+                         SSL,S/MIME,JAR/XPI
+
+server1                  u,u,u
+Example-CA               CT,,
+...
+
+
+
+
+
+
+
+						You need this information for the configuration file.
+					
+
+
+
+
+
+						Create a 
+.conf
+ file for the connection in the 
+/etc/ipsec.d/
+ directory. For example, create the 
+/etc/ipsec.d/mesh.conf
+ file with the following settings:
+					
+
+
+
+								Add a 
+config setup
+ section to enable CRL checks:
+							
+
+
+
+
+config setup
+    crl-strict
+=
+yes
+    
+crlcheckinterval
+=
+1h
+
+
+
+
+
+
+
+								The settings specified in the example include the following:
+							
+
+
+crl-strict=yes
+
+											Enables CRL checks. Authenticating peers are rejected if no CRL is available in the NSS database.
+										
+crlcheckinterval=1h
+
+											Re-fetches the CRL from the URL specified in the server’s certificate after the specified period.
+										
+
+
+
+
+
+								Add a section that enforces traffic among members in the mesh:
+							
+
+
+
+
+conn 
+<
+connection_name
+>
+
+    
+# General setup and authentication type
+
+    
+auto
+=
+ondemand
+    
+authby
+=
+rsasig
+
+    
+# Local settings settings
+
+    
+left
+=
+%defaultroute
+    
+leftid
+=
+%fromcert
+    
+leftcert
+=
+"
+<
+server_certificate_nickname
+>
+"
+    
+leftrsasigkey
+=
+%cert
+    
+leftsendcert
+=
+always
+    
+failureshunt
+=
+drop
+    
+type
+=
+transport
+
+    
+# Settings related to other peers in the mesh
+
+    
+right
+=
+%opportunisticgroup
+    
+rightid
+=
+%fromcert
+
+
+
+
+
+
+
+								The settings specified in the example include the following:
+							
+
+
+left=%defaultroute
+
+											Dynamically sets the IP address of the default route interface when the 
+ipsec
+ service starts. Alternatively, you can set the 
+left
+ parameter to the IP address or the FQDN of the host.
+										
+leftid=%fromcert
+ and 
+rightid=%fromcert
+
+											Configures Libreswan to retrieve the identity from the distinguished name (DN) field of the certificate.
+										
+leftcert="
+<server_certificate_nickname>
+"
+
+											Sets the nickname of the server’s certificate used in the NSS database.
+										
+leftrsasigkey=%cert
+
+											Configures Libreswan to use the RSA public key embedded in the certificate.
+										
+leftsendcert=always
+
+											Instructs the peer to always send the certificate, so that peers can validate it against the CA certificate.
+										
+failureshunt=drop
+
+											Enforces encryption and drops traffic if IPsec negotiation fails. This is critical for a secure mesh.
+										
+right=%opportunisticgroup
+
+											Specifies that the connection should apply to a dynamic group of remote peers defined in a policy file. This enables Libreswan to instantiate IPsec tunnels opportunistically for each listed IP or subnet in that group.
+										
+
+
+
+
+
+
+
+						For details about all parameters used in the example, see the 
+ipsec.conf(5)
+ man page on your system.
+					
+
+
+
+
+
+						Create the 
+/etc/ipsec.d/policies/server-mesh
+ policy file that specifies the peers or subnets in classless inter-domain routing (CIDR) format:
+					
+
+
+
+
+192.0
+.2.0/24
+
+198.51
+.100.0/24
+
+
+
+
+
+
+
+						With these settings, the 
+ipsec
+ service encrypts traffic between hosts in these subnets. If a host is not configured as a member of the IPsec mesh, communication between this host and the mesh members fails.
+					
+
+
+
+
+
+						Restart the 
+ipsec
+ service:
+					
+
+
+
+
+# 
+systemctl restart ipsec
+
+
+
+
+
+
+
+
+
+						Repeat the procedure on every host in the subnets you specified in the policy file.
+					
+
+
+
+
+Verification
+
+
+
+						Send traffic to a host in the mesh to establish the tunnel. For example, ping the host:
+					
+
+
+
+
+# 
+ping -c3 
+<peer_in_mesh>
+
+
+
+
+
+
+
+
+
+						Display the IPsec status:
+					
+
+
+
+
+# 
+ipsec status
+
+
+
+
+
+
+
+						If the connection is successfully established, the output contains lines as follows for the peer:
+					
+
+
+
+								Phase 1 of an Internet Key Exchange version 2 (IKEv2) negotiation has been successfully completed:
+							
+
+
+
+
+#1: "
+<connection_name>
+#192.0.2.0/24"[1] ...192.0.2.2:500 ESTABLISHED_IKE_SA (established IKE SA); REKEY in 12822s; REPLACE in 13875s; newest; idle;
+
+
+
+
+
+
+
+								The Security Association (SA) is now ready to negotiate the actual data encryption tunnels, known as child SAs or Phase 2 SAs.
+							
+
+
+
+
+
+								A child SA has been established:
+							
+
+
+
+
+#2: "
+<connection_name>
+#192.0.2.0/24"[1] ...192.0.2.2:500 ESTABLISHED_CHILD_SA (established Child SA); REKEY in 13071s; REPLACE in 13875s; newest; eroute owner; IKE SA #1; idle;
+
+
+
+
+
+
+
+								This is the actual tunnel that your data traffic flows through.
+							
+
+
+
+
+
+
+
+
+
+						Check if the service loaded the CRL and added the entries to the NSS database:
+					
+
+
+
+
+# 
+ipsec listcrls
+
+
+List of CRLs:
+
+issuer: CN=Example-CA
+revoked certs: 1
+updates: this Tue Jul 15 10:22:36 2025
+         next Sun Jan 11 10:22:36 2026
+
+List of CRL fetch requests:
+
+Jul 15 15:13:56 2025, trials: 1
+       issuer:  'CN=Example-CA'
+       distPts: 'https://ca.example.com/crl.pem'
+
+
+
+
+
+
+
+
+
+
+Troubleshooting
+
+
+
+						If the connection fails to establish, check the IPsec logs:
+					
+
+
+
+
+# 
+journalctl -u ipsec -n 50
+
+
+
+
+
+
+
+
+
+						If the firewall blocks IPsec traffic, verify that the IPsec service is enabled:
+					
+
+
+
+
+# 
+firewall-cmd --list-services | grep ipsec
+
+
+
+
+
+
+
+						The firewall must allow ESP protocol (IP protocol 50) and UDP ports 500 and 4500.
+					
+
+
+
+
+
+						If certificate validation fails, verify that the CA certificate is imported and trusted in the NSS database:
+					
+
+
+
+
+# 
+certutil -L -d /var/lib/ipsec/nss/
+
+Certificate Nickname     Trust Attributes
+                         SSL,S/MIME,JAR/XPI
+
+Example-CA               CT,,
+
+
+
+
+
+
+
+						The CA certificate trust attributes must include 
+C
+ for certificate authority trust.
+					
+
+
+
+
+
+						If CRL download fails, check network connectivity to the CRL distribution point URL specified in the server certificate, and verify that the URL is accessible from all mesh members.
+					
+
+
+
+						If traffic between mesh members is not encrypted despite the configuration, verify that the IP addresses or subnets in the 
+/etc/ipsec.d/policies/server-mesh
+ file match the actual network addresses of the mesh members.
+					
+
+
+
+						If the NSS database has permission issues, verify the database files are owned by root with correct SELinux contexts:
+					
+
+
+
+
+# 
+ls -lZ /var/lib/ipsec/nss/
+
+-rw-r--r--. root root system_u:object_r:ipsec_key_file_t:s0 cert9.db
+-rw-r--r--. root root system_u:object_r:ipsec_key_file_t:s0 key4.db
+
+
+
+
+
+
+
+
+
+
+Next steps
+
+
+
+						If you use this host in a network with DHCP or Stateless Address Autoconfiguration (SLAAC), the connection can be vulnerable to being redirected. For details and mitigation steps, see 
+Assigning a VPN connection to a dedicated routing table to prevent the connection from bypassing the tunnel
+.
+					
+
+
+
+
+6.7. Protecting the IPsec NSS database with a password
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+				By default, only the root user can access the IPsec Network Security Services (NSS) database in the 
+/var/lib/ipsec/nss/
+ directory. You can additionally protect the database with a password. This is required if you run RHEL in Federal Information Processing Standard (FIPS) mode.
+			
+
+
+Prerequisites
+
+
+
+						The 
+/var/lib/ipsec/nss/
+ directory contains the NSS database.
+					
+
+
+
+
+Procedure
+
+
+
+						Enable password protection for the Libreswan NSS database:
+					
+
+
+
+
+# 
+certutil -W -d /var/lib/ipsec/nss/
+
+
+
+
+
+
+
+
+
+						Enter the current password:
+					
+
+
+
+
+Enter Password or Pin for "NSS Certificate DB": 
+<password>
+
+
+
+
+
+
+
+						If the database is currently not protected by a password, press 
+Enter
+.
+					
+
+
+
+
+
+						Enter the new password:
+					
+
+
+
+
+Enter new password: 
+<new_password>
+
+Re-enter password: 
+<new_password>
+
+
+
+
+
+
+
+
+
+						To unlock the database, the 
+ipsec
+ service requires the 
+/etc/ipsec.d/nsspassword
+ file. Create the file with the following content:
+					
+
+
+
+								If the host does not run in FIPS mode:
+							
+
+
+
+
+NSS Certificate DB:
+<password>
+
+
+
+
+
+
+
+
+
+								If the host runs in FIPS mode:
+							
+
+
+
+
+NSS FIPS 140-2 Certificate DB:
+<password>
+
+
+
+
+
+
+
+
+
+
+
+
+
+						Set secure permissions on the 
+/etc/ipsec.d/nsspassword
+ file:
+					
+
+
+
+
+# 
+chmod 600 /etc/ipsec.d/nsspassword
+
+# 
+chown root:root /etc/ipsec.d/nsspassword
+
+
+
+
+
+
+
+
+
+						Restart the 
+ipsec
+ service:
+					
+
+
+
+
+# 
+systemctl restart ipsec
+
+
+
+
+
+
+
+
+
+
+Verification
+
+
+
+						Verify that the 
+ipsec
+ service is running:
+					
+
+
+
+
+# 
+systemctl is-active ipsec
+
+
+
+
+
+
+
+						If the command returns 
+active
+, the service successfully uses the password file to unlock the NSS database.
+					
+
+
+
+
+
+						Perform an action on the NSS database that requires the password. For example, display the private keys:
+					
+
+
+
+
+# 
+certutil -K -d /var/lib/ipsec/nss/
+
+certutil: Checking token "NSS Certificate DB" in slot "NSS User Private Key and Certificate Services"
+Enter Password or Pin for "NSS Certificate DB":
+
+
+
+
+
+
+
+						Verify that the command prompts for the password.
+					
+
+
+
+
+
+
+6.8. Using IPsec on a system with FIPS mode enabled
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+				RHEL in Federal Information Processing Standard (FIPS) mode uses only validated crypto modules. FIPS mode disables legacy protocols and ciphers. Federal compliance often requires FIPS mode. It also improves system security.
+			
+
+
+
+				The Libreswan IPsec tool in RHEL is fully FIPS-compliant. When FIPS mode is on, Libreswan uses the certified crypto modules. You do not need to configure anything. This works whether you install Libreswan on a new FIPS system or enable FIPS on an existing Libreswan VPN.
+			
+
+
+
+				If FIPS mode is enabled, you can confirm that Libreswan is running in FIPS mode:
+			
+
+
+
+
+# 
+ipsec whack --fipsstatus
+
+FIPS mode enabled
+
+
+
+
+
+
+
+				To list the allowed algorithms and ciphers in Libreswan in FIPS mode, enter:
+			
+
+
+
+
+# 
+ipsec pluto --selftest 2>&1
+
+...
+FIPS Encryption algorithms:
+  AES_CCM_16  {256,192,*128} IKEv1:  ESP  IKEv2:  ESP  FIPS   aes_ccm, aes_ccm_c
+  AES_CCM_12  {256,192,*128} IKEv1:  ESP  IKEv2:  ESP  FIPS   aes_ccm_b
+  AES_CCM_8   {256,192,*128} IKEv1:  ESP  IKEv2:  ESP  FIPS   aes_ccm_a
+...
+
+
+
+
+
+
+6.9. Configuring TCP fallback for an IPsec VPN connection
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+				Standard IPsec VPNs can fail on restrictive networks that block the UDP and Encapsulating Security Payload (ESP) protocols. To ensure connectivity in such environments, Libreswan can encapsulate all VPN traffic within a TCP connection.
+			
+
+
+Important
+
+
+
+					Encapsulating VPN packets within TCP can reduce throughput and increase latency. For this reason, use TCP encapsulation only as a fallback option or if UDP-based connections are consistently blocked in your environment.
+				
+
+
+
+
+Prerequisites
+
+
+
+						The IPsec connection is configured.
+					
+
+
+
+
+Procedure
+
+
+
+						Edit the 
+/etc/ipsec.conf
+ file, and make the following changes in the 
+config setup
+ section:
+					
+
+
+
+								Configure Libreswan to listen on a TCP port:
+							
+
+
+
+
+listen-tcp
+=
+yes
+
+
+
+
+
+
+
+
+
+								By default, Libreswan listens on port 4500. If you want to use a different port, enter:
+							
+
+
+
+
+tcp-remoteport
+=
+<
+port_number
+>
+
+
+
+
+
+
+
+
+
+								Decide whether to use TCP as a fallback option if UDP is not available or permanently:
+							
+
+
+
+										As a fallback option, enter:
+									
+
+
+
+
+enable-tcp
+=
+fallback
+retransmit-timeout
+=
+5s
+
+
+
+
+
+
+
+										By default, Libreswan waits 60 seconds after a failed attempt to connect by using UDP before retrying the connection over TCP. Lowering the 
+retransmit-timeout
+ value shortens the delay, enabling the fallback protocol to initiate more quickly.
+									
+
+
+
+
+
+										As a permanent replacement for UDP, enter:
+									
+
+
+
+
+enable-tcp
+=
+yes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						Restart the 
+ipsec
+ service:
+					
+
+
+
+
+# 
+systemctl restart ipsec
+
+
+
+
+
+
+
+
+
+						If you configured a TCP port other than the default 4500, open the port in the firewall:
+					
+
+
+
+
+# 
+firewall-cmd --permanent --add-port=
+<tcp_port>
+/tcp
+
+# 
+firewall-cmd --reload
+
+
+
+
+
+
+
+
+
+						Repeat the procedure on the peers that use this gateway.
+					
+
+
+
+
+6.10. Enabling legacy ciphers and algorithms in Libreswan
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+				Enable legacy ciphers and algorithms in Libreswan for backward compatibility with other IPsec peers. This overrides the RHEL system-wide cryptographic policies which, by default, enforce strong encryption ciphers and algorithms for IPsec and Internet Key Exchange (IKE).
+			
+
+
+
+				The RHEL system-wide cryptographic policies create a special connection called 
+%default
+. This connection sets the default values for the 
+keyexchange
+, 
+esp
+, and 
+ike
+ parameters.
+			
+
+
+Prerequisites
+
+
+
+						Libreswan is installed.
+					
+
+
+
+
+Procedure
+
+
+
+						To override the defaults set by the RHEL system-wide cryptographic policies, add the 
+keyexchange
+, 
+esp
+, and 
+ike
+ parameters to your connection configuration and set them to the values you require. For example:
+					
+
+
+
+
+conn 
+<
+connection_name
+>
+
+    
+keyexchange
+=
+ikev1
+    
+ike
+=
+aes-sha2,aes-sha1
+;
+modp2048
+    
+esp
+=
+aes-sha2,aes-sha1
+    
+..
+.
+
+
+
+
+
+
+
+
+
+						Restart the 
+ipsec
+ service:
+					
+
+
+
+
+# 
+systemctl restart ipsec
+
+
+
+
+
+
+
+
+
+
+6.11. Assigning a VPN connection to a dedicated routing table to prevent the connection from bypassing the tunnel
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+				To protect your VPN connection from traffic redirection attacks, assign it to a dedicated routing table. This prevents malicious network servers from bypassing the secure tunnel and compromising data integrity.
+			
+
+
+
+				Both a DHCP server and Stateless Address Autoconfiguration (SLAAC) can add routes to a client’s routing table. For example, a malicious DHCP server can use this feature to force a host with VPN connection to redirect traffic through a physical interface instead of the VPN tunnel. This vulnerability is also known as TunnelVision and described in the 
+CVE-2024-3661
+ vulnerability article.
+			
+
+
+
+				To mitigate this vulnerability, you can assign the VPN connection to a dedicated routing table. This prevents the DHCP configuration or SLAAC from manipulating routing decisions for network packets intended for the VPN tunnel.
+			
+
+
+
+				Follow the steps if at least one of the conditions applies to your environment:
+			
+
+
+
+						At least one network interface uses DHCP or SLAAC.
+					
+
+
+
+						Your network does not use mechanisms, such as DHCP snooping, that prevent a rogue DHCP server.
+					
+
+
+
+
+Important
+
+
+
+					Routing the entire traffic through the VPN prevents the host from accessing local network resources.
+				
+
+
+
+
+Procedure
+
+
+
+						Decide which routing table you want to use. The following steps use table 75. By default, RHEL does not use the tables 1-254, and you can use any of them.
+					
+
+
+
+						Configure the VPN connection profile to place the VPN routes in a dedicated routing table:
+					
+
+
+
+
+# 
+nmcli connection modify 
+<vpn_connection_profile>
+ ipv4.route-table 75 ipv6.route-table 75
+
+
+
+
+
+
+
+
+
+						Set a low priority value for the table you used in the previous command:
+					
+
+
+
+
+# 
+nmcli connection modify 
+<vpn_connection_profile>
+ ipv4.routing-rules "priority 32345 from all table 75" ipv6.routing-rules "priority 32345 from all table 75"
+
+
+
+
+
+
+
+						The priority value can be any value between 1 and 32766. The lower the value, the higher the priority.
+					
+
+
+
+
+
+						Reconnect the VPN connection:
+					
+
+
+
+
+# 
+nmcli connection down 
+<vpn_connection_profile>
+
+# 
+nmcli connection up 
+<vpn_connection_profile>
+
+
+
+
+
+
+
+
+
+
+Verification
+
+
+
+						Display the IPv4 routes in table 75:
+					
+
+
+
+
+# 
+ip route show table 75
+
+...
+192.0.2.0/24 via 192.0.2.254 dev 
+vpn_device
+ proto static metric 50
+default dev 
+vpn_device
+ proto static scope link metric 50
+
+
+
+
+
+
+
+						The output confirms that both the route to the remote network and the default gateway are assigned to routing table 75 and, therefore, all traffic is routed through the tunnel. If you set 
+ipv4.never-default true
+ in the VPN connection profile, a default route is not created and, therefore, not visible in this output.
+					
+
+
+
+
+
+						Display the IPv6 routes in table 75:
+					
+
+
+
+
+# 
+ip -6 route show table 75
+
+...
+2001:db8:1::/64 dev 
+vpn_device
+ proto kernel metric 50 pref medium
+default dev 
+vpn_device
+ proto static metric 50 pref medium
+
+
+
+
+
+
+
+						The output confirms that both the route to the remote network and the default gateway are assigned to routing table 75 and, therefore, all traffic is routed through the tunnel. If you set 
+ipv6.never-default true
+ in the VPN connection profile, a default route is not created and, therefore, not visible in this output.
+					
+
+
+
+
+
+
+
+    
+Additional resources
+
+
+
+						
+CVE-2024-3661
+
+					
+
+
+
+
+6.12. Configuring IPsec VPN connections by using RHEL system roles
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+				Configure IPsec VPN connections to establish encrypted tunnels over untrusted networks and ensure the integrity of data in transit. By using the RHEL system roles, you can automate the setup for use cases, such as connecting branch offices to headquarters.
+			
+
+
+Note
+
+
+
+					The 
+vpn
+ RHEL system role can only create VPN configurations that use pre-shared keys (PSKs) or certificates to authenticate peers to each other.
+				
+
+
+
+
+6.12.1. Configuring an IPsec host-to-host VPN with PSK authentication by using the vpn RHEL system role
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+					A host-to-host VPN establishes an encrypted connection between two devices, allowing applications to communicate safely over an insecure network. By using the 
+vpn
+ RHEL system role, you can automate the process of creating IPsec host-to-host connections.
+				
+
+
+
+					For authentication, a pre-shared key (PSK) is a straightforward method that uses a single, shared secret known only to the two peers. This approach is simple to configure and ideal for basic setups where ease of deployment is a priority. However, you must keep the key strictly confidential. An attacker with access to the key can compromise the connection.
+				
+
+
+Prerequisites
+
+
+
+							
+You have prepared the control node and the managed nodes
+.
+						
+
+
+
+							You are logged in to the control node as a user who can run playbooks on the managed nodes.
+						
+
+
+
+							The account you use to connect to the managed nodes has 
+sudo
+ permissions for these nodes.
+						
+
+
+
+
+Procedure
+
+
+
+							Create a playbook file, for example, 
+~/playbook.yml
+, with the following content:
+						
+
+
+
+
+---
+
+
+-
+ 
+name
+:
+ Configuring VPN
+  
+hosts
+:
+ managed
+-
+node
+-
+01.example.com
+,
+ managed
+-
+node
+-
+02.example.com
+  
+tasks
+:
+
+    
+-
+ 
+name
+:
+ IPsec VPN with PSK authentication
+      
+ansible.builtin.include_role
+:
+
+        
+name
+:
+ redhat.rhel_system_roles.vpn
+      
+vars
+:
+
+        
+vpn_connections
+:
+
+          
+-
+ 
+hosts
+:
+
+              
+managed-node-01.example.com
+:
+
+              
+managed-node-02.example.com
+:
+
+            
+auth_method
+:
+ psk
+            
+auto
+:
+ start
+        
+vpn_manage_firewall
+:
+ 
+true
+
+        
+vpn_manage_selinux
+:
+ 
+true
+
+
+
+
+
+
+
+							The settings specified in the example playbook include the following:
+						
+
+
+hosts: 
+<list>
+
+										Defines a YAML dictionary with the peers between which you want to configure a VPN. If an entry is not an Ansible managed node, you must specify its fully-qualified domain name (FQDN) or IP address in the 
+hostname
+ parameter, for example:
+									
+
+
+
+
+          
+...
+
+          
+-
+ 
+hosts
+:
+
+              
+...
+
+              
+external
+-
+host.example.com
+:
+
+                
+hostname
+:
+ 192.0.2.1
+
+
+
+
+
+
+
+										The role configures the VPN connection on each managed node. The connections are named 
+<peer_A>
+-to-
+<peer_B>
+, for example, 
+managed-node-01.example.com-to-managed-node-02.example.com
+. Note that the role cannot configure Libreswan on external (unmanaged) nodes. You must manually create the configuration on these peers.
+									
+
+
+auth_method: psk
+
+										Enables PSK authentication between the peers. The role uses 
+openssl
+ on the control node to create the PSK.
+									
+auto: 
+<startup_method>
+
+										Specifies the startup method of the connection. Valid values are 
+add
+, 
+ondemand
+, 
+start
+, and 
+ignore
+. For details, see the 
+ipsec.conf(5)
+ man page on a system with Libreswan installed. The default value of this variable is null, which means no automatic startup operation.
+									
+vpn_manage_firewall: true
+
+										Defines that the role opens the required ports in the 
+firewalld
+ service on the managed nodes.
+									
+vpn_manage_selinux: true
+
+										Defines that the role sets the required SELinux port type on the IPsec ports.
+									
+
+
+
+							For details about all variables used in the playbook, see the 
+/usr/share/ansible/roles/rhel-system-roles.vpn/README.md
+ file on the control node.
+						
+
+
+
+
+
+							Validate the playbook syntax:
+						
+
+
+
+
+$ 
+ansible-playbook --syntax-check ~/playbook.yml
+
+
+
+
+
+
+
+							Note that this command only validates the syntax and does not protect against a wrong but valid configuration.
+						
+
+
+
+
+
+							Run the playbook:
+						
+
+
+
+
+$ 
+ansible-playbook ~/playbook.yml
+
+
+
+
+
+
+
+
+
+
+Verification
+
+
+
+							Confirm that the connections are successfully started, for example:
+						
+
+
+
+
+# 
+ansible managed-node-01.example.com -m shell -a 'ipsec trafficstatus | grep "managed-node-01.example.com-to-managed-node-02.example.com"'
+
+...
+006 #3: "managed-node-01.example.com-to-managed-node-02.example.com", type=ESP, add_time=1741857153, inBytes=38622, outBytes=324626, maxBytes=2^63B, id='@managed-node-02.example.com'
+
+
+
+
+
+
+
+							Note that this command only succeeds if the VPN connection is active. If you set the 
+auto
+ variable in the playbook to a value other than 
+start
+, you might need to manually activate the connection on the managed nodes first.
+						
+
+
+
+
+
+
+Troubleshooting
+
+
+
+							If the playbook fails with syntax errors, validate the YAML structure:
+						
+
+
+
+
+$ 
+ansible-playbook --syntax-check ~/playbook.yml
+
+
+
+
+
+
+
+
+
+							If managed nodes are unreachable, verify SSH connectivity and authentication:
+						
+
+
+
+
+$ 
+ansible managed-node-01.example.com -m ping
+
+
+
+
+
+
+
+
+
+							If the playbook completes but the VPN connection does not establish, check the IPsec logs on the managed nodes:
+						
+
+
+
+
+$ 
+ansible managed-node-01.example.com -m shell -a 'journalctl -u ipsec -n 50'
+
+
+
+
+
+
+
+
+
+							For detailed output during playbook execution, run with verbose mode:
+						
+
+
+
+
+$ 
+ansible-playbook -vvv ~/playbook.yml
+
+
+
+
+
+
+
+
+
+							If the firewall blocks connections despite 
+vpn_manage_firewall: true
+, verify that 
+firewalld
+ is running on the managed nodes and that the IPsec service was added to the active zone.
+						
+
+
+
+
+6.12.2. Configuring an IPsec host-to-host VPN with PSK authentication and separate data and control planes by using the vpn RHEL system role
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+					Use the 
+vpn
+ RHEL system role to automate the process of creating an IPsec host-to-host VPN. To enhance security by minimizing the risk of control messages being intercepted or disrupted, configure separate connections for both the data traffic and the control traffic.
+				
+
+
+
+					A host-to-host VPN establishes a direct, secure, and encrypted connection between two devices, allowing applications to communicate safely over an insecure network, such as the internet.
+				
+
+
+
+					For authentication, a pre-shared key (PSK) is a straightforward method that uses a single, shared secret known only to the two peers. This approach is simple to configure and ideal for basic setups where ease of deployment is a priority. However, you must keep the key strictly confidential. An attacker with access to the key can compromise the connection.
+				
+
+
+Prerequisites
+
+
+
+							
+You have prepared the control node and the managed nodes
+.
+						
+
+
+
+							You are logged in to the control node as a user who can run playbooks on the managed nodes.
+						
+
+
+
+							The account you use to connect to the managed nodes has 
+sudo
+ permissions for these nodes.
+						
+
+
+
+
+Procedure
+
+
+
+							Create a playbook file, for example, 
+~/playbook.yml
+, with the following content:
+						
+
+
+
+
+---
+
+
+-
+ 
+name
+:
+ Configuring VPN
+  
+hosts
+:
+ managed
+-
+node
+-
+01.example.com
+,
+ managed
+-
+node
+-
+02.example.com
+  
+tasks
+:
+
+    
+-
+ 
+name
+:
+ IPsec VPN with PSK authentication
+      
+ansible.builtin.include_role
+:
+
+        
+name
+:
+ redhat.rhel_system_roles.vpn
+      
+vars
+:
+
+        
+vpn_connections
+:
+
+          
+-
+ 
+name
+:
+ control_plane_vpn
+            
+hosts
+:
+
+              
+managed-node-01.example.com
+:
+
+                
+hostname
+:
+ 203.0.113.1  
+# IP address for the control plane
+
+              
+managed-node-02.example.com
+:
+
+                
+hostname
+:
+ 198.51.100.2 
+# IP address for the control plane
+
+            
+auth_method
+:
+ psk
+            
+auto
+:
+ start
+          
+-
+ 
+name
+:
+ data_plane_vpn
+            
+hosts
+:
+
+              
+managed-node-01.example.com
+:
+
+                
+hostname
+:
+ 10.0.0.1   
+# IP address for the data plane
+
+              
+managed-node-02.example.com
+:
+
+                
+hostname
+:
+ 172.16.0.2 
+# IP address for the data plane
+
+            
+auth_method
+:
+ psk
+            
+auto
+:
+ start
+        
+vpn_manage_firewall
+:
+ 
+true
+
+        
+vpn_manage_selinux
+:
+ 
+true
+
+
+
+
+
+
+
+							The settings specified in the example playbook include the following:
+						
+
+
+hosts: 
+<list>
+
+										Defines a YAML dictionary with the hosts between which you want to configure a VPN. The connections are named 
+<name>
+-
+<IP_address_A>
+-to-
+<IP_address_B>
+, for example 
+control_plane_vpn-203.0.113.1-to-198.51.100.2
+.
+									
+
+
+
+										The role configures the VPN connection on each managed node. Note that the role cannot configure Libreswan on external (unmanaged) nodes. You must manually create the configuration on these hosts.
+									
+
+
+auth_method: psk
+
+										Enables PSK authentication between the hosts. The role uses 
+openssl
+ on the control node to create the pre-shared key.
+									
+auto: 
+<startup_method>
+
+										Specifies the startup method of the connection. Valid values are 
+add
+, 
+ondemand
+, 
+start
+, and 
+ignore
+. For details, see the 
+ipsec.conf(5)
+ man page on a system with Libreswan installed. The default value of this variable is null, which means no automatic startup operation.
+									
+vpn_manage_firewall: true
+
+										Defines that the role opens the required ports in the 
+firewalld
+ service on the managed nodes.
+									
+vpn_manage_selinux: true
+
+										Defines that the role sets the required SELinux port type on the IPsec ports.
+									
+
+
+
+							For details about all variables used in the playbook, see the 
+/usr/share/ansible/roles/rhel-system-roles.vpn/README.md
+ file on the control node.
+						
+
+
+
+
+
+							Validate the playbook syntax:
+						
+
+
+
+
+$ 
+ansible-playbook --syntax-check ~/playbook.yml
+
+
+
+
+
+
+
+							Note that this command only validates the syntax and does not protect against a wrong but valid configuration.
+						
+
+
+
+
+
+							Run the playbook:
+						
+
+
+
+
+$ 
+ansible-playbook ~/playbook.yml
+
+
+
+
+
+
+
+
+
+
+Verification
+
+
+
+							Confirm that the connections are successfully started, for example:
+						
+
+
+
+
+# 
+ansible managed-node-01.example.com -m shell -a 'ipsec trafficstatus | grep "control_plane_vpn-203.0.113.1-to-198.51.100.2"'
+
+...
+006 #3: "control_plane_vpn-203.0.113.1-to-198.51.100.2", type=ESP, add_time=1741860073, inBytes=0, outBytes=0, maxBytes=2^63B, id='198.51.100.2'
+
+
+
+
+
+
+
+							Note that this command only succeeds if the VPN connection is active. If you set the 
+auto
+ variable in the playbook to a value other than 
+start
+, you might need to manually activate the connection on the managed nodes first.
+						
+
+
+
+
+
+
+6.12.3. Configuring an IPsec site-to-site VPN with PSK authentication by using the vpn RHEL system role
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+					A site-to-site VPN establishes an encrypted tunnel between two distinct networks, linking them across an insecure public network. By using the 
+vpn
+ RHEL system role, you can automate the process of creating IPsec site-to-site VPN connections.
+				
+
+
+
+					A site-to-site VPN enables devices in a branch office to access resources at a corporate headquarters as if they were all part of the same local network.
+				
+
+
+
+					For authentication, a pre-shared key (PSK) is a straightforward method that uses a single, shared secret known only to the two peers. This approach is simple to configure and ideal for basic setups where ease of deployment is a priority. However, you must keep the key strictly confidential. An attacker with access to the key can compromise the connection.
+				
+
+
+Prerequisites
+
+
+
+							
+You have prepared the control node and the managed nodes
+.
+						
+
+
+
+							You are logged in to the control node as a user who can run playbooks on the managed nodes.
+						
+
+
+
+							The account you use to connect to the managed nodes has 
+sudo
+ permissions for these nodes.
+						
+
+
+
+
+Procedure
+
+
+
+							Create a playbook file, for example, 
+~/playbook.yml
+, with the following content:
+						
+
+
+
+
+---
+
+
+-
+ 
+name
+:
+ Configuring VPN
+  
+hosts
+:
+ managed
+-
+node
+-
+01.example.com
+,
+ managed
+-
+node
+-
+02.example.com
+  
+tasks
+:
+
+    
+-
+ 
+name
+:
+ IPsec VPN with PSK authentication
+      
+ansible.builtin.include_role
+:
+
+        
+name
+:
+ redhat.rhel_system_roles.vpn
+      
+vars
+:
+
+        
+vpn_connections
+:
+
+          
+-
+ 
+hosts
+:
+
+              
+managed-node-01.example.com
+:
+
+                
+subnets
+:
+
+                  
+-
+ 192.0.2.0/24
+              
+managed-node-02.example.com
+:
+
+                
+subnets
+:
+
+                  
+-
+ 198.51.100.0/24
+                  
+-
+ 203.0.113.0/24
+            
+auth_method
+:
+ psk
+            
+auto
+:
+ start
+        
+vpn_manage_firewall
+:
+ 
+true
+
+        
+vpn_manage_selinux
+:
+ 
+true
+
+
+
+
+
+
+
+							The settings specified in the example playbook include the following:
+						
+
+
+hosts: 
+<list>
+
+										Defines a YAML dictionary with the gateways between which you want to configure a VPN. If an entry is not an Ansible-managed node, you must specify its fully-qualified domain name (FQDN) or IP address in the 
+hostname
+ parameter, for example:
+									
+
+
+
+
+          
+...
+
+          
+-
+ 
+hosts
+:
+
+              
+...
+
+              
+external
+-
+host.example.com
+:
+
+                
+hostname
+:
+ 192.0.2.1
+
+
+
+
+
+
+
+										The role configures the VPN connection on each managed node. The connections are named 
+<gateway_A>
+-to-
+<gateway_B>
+, for example, 
+managed-node-01.example.com-to-managed-node-02.example.com
+. Note that the role cannot configure Libreswan on external (unmanaged) nodes. You must manually create the configuration on these peers.
+									
+
+
+subnets: 
+<yaml_list_of_subnets>
+
+										Defines subnets in classless inter-domain routing (CIDR) format that are connected through the tunnel.
+									
+auth_method: psk
+
+										Enables PSK authentication between the peers. The role uses 
+openssl
+ on the control node to create the PSK.
+									
+auto: 
+<startup_method>
+
+										Specifies the startup method of the connection. Valid values are 
+add
+, 
+ondemand
+, 
+start
+, and 
+ignore
+. For details, see the 
+ipsec.conf(5)
+ man page on a system with Libreswan installed. The default value of this variable is null, which means no automatic startup operation.
+									
+vpn_manage_firewall: true
+
+										Defines that the role opens the required ports in the 
+firewalld
+ service on the managed nodes.
+									
+vpn_manage_selinux: true
+
+										Defines that the role sets the required SELinux port type on the IPsec ports.
+									
+
+
+
+							For details about all variables used in the playbook, see the 
+/usr/share/ansible/roles/rhel-system-roles.vpn/README.md
+ file on the control node.
+						
+
+
+
+
+
+							Validate the playbook syntax:
+						
+
+
+
+
+$ 
+ansible-playbook --syntax-check ~/playbook.yml
+
+
+
+
+
+
+
+							Note that this command only validates the syntax and does not protect against a wrong but valid configuration.
+						
+
+
+
+
+
+							Run the playbook:
+						
+
+
+
+
+$ 
+ansible-playbook ~/playbook.yml
+
+
+
+
+
+
+
+
+
+
+Verification
+
+
+
+							Confirm that the connections are successfully started, for example:
+						
+
+
+
+
+# 
+ansible managed-node-01.example.com -m shell -a 'ipsec trafficstatus | grep "managed-node-01.example.com-to-managed-node-02.example.com"'
+
+...
+006 #3: "managed-node-01.example.com-to-managed-node-02.example.com", type=ESP, add_time=1741857153, inBytes=38622, outBytes=324626, maxBytes=2^63B, id='@managed-node-02.example.com'
+
+
+
+
+
+
+
+							Note that this command only succeeds if the VPN connection is active. If you set the 
+auto
+ variable in the playbook to a value other than 
+start
+, you might need to manually activate the connection on the managed nodes first.
+						
+
+
+
+
+
+
+Troubleshooting
+
+
+
+							If the playbook fails with syntax errors, validate the YAML structure:
+						
+
+
+
+
+$ 
+ansible-playbook --syntax-check ~/playbook.yml
+
+
+
+
+
+
+
+
+
+							If managed nodes are unreachable, verify SSH connectivity and authentication:
+						
+
+
+
+
+$ 
+ansible managed-node-01.example.com -m ping
+
+
+
+
+
+
+
+
+
+							If the playbook completes but the VPN connection does not establish, check the IPsec logs on the managed nodes:
+						
+
+
+
+
+$ 
+ansible managed-node-01.example.com -m shell -a 'journalctl -u ipsec -n 50'
+
+
+
+
+
+
+
+
+
+							For detailed output during playbook execution, run with verbose mode:
+						
+
+
+
+
+$ 
+ansible-playbook -vvv ~/playbook.yml
+
+
+
+
+
+
+
+
+
+							If the firewall blocks connections despite 
+vpn_manage_firewall: true
+, verify that 
+firewalld
+ is running on the managed nodes and that the IPsec service was added to the active zone.
+						
+
+
+
+
+6.12.4. Configuring an IPsec mesh VPN with certificate-based authentication by using the vpn RHEL system role
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+					An IPsec mesh creates a fully interconnected network where every server can communicate securely and directly with every other server. By using the 
+vpn
+ RHEL system role, you can automate configuring a VPN mesh with certificate-based authentication among managed nodes.
+				
+
+
+
+					An IPsec mesh is ideal for distributed database clusters or high-availability environments that span multiple data centers or cloud providers. Establishing a direct, encrypted tunnel between each pair of servers ensures secure communication without a central bottleneck.
+				
+
+
+
+					For authentication, using digital certificates managed by a Certificate Authority (CA) offers a highly secure and scalable solution. Each host in the mesh presents a certificate signed by a trusted CA. This method provides strong, verifiable authentication and simplifies user management. Access can be granted or revoked centrally at the CA, and Libreswan enforces this by checking each certificate against a certificate revocation list (CRL), denying access if a certificate is displayed on the list.
+				
+
+
+Prerequisites
+
+
+
+							
+You have prepared the control node and the managed nodes
+.
+						
+
+
+
+							You are logged in to the control node as a user who can run playbooks on the managed nodes.
+						
+
+
+
+							The account you use to connect to the managed nodes has 
+sudo
+ permissions for these nodes.
+						
+
+
+
+							You prepared a PKCS #12 file for each managed node:
+						
+
+
+
+									Each file contains:
+								
+
+
+
+											The private key of the server
+										
+
+
+
+											The server certificate
+										
+
+
+
+											The CA certificate
+										
+
+
+
+											If required, intermediate certificates
+										
+
+
+
+
+
+
+
+									The files are named 
+<managed_node_name_as_in_the_inventory>
+.p12
+.
+								
+
+
+
+									The files are stored in the same directory as the playbook.
+								
+
+
+
+									The server certificate contains the following fields:
+								
+
+
+
+											Extended Key Usage (EKU) is set to 
+TLS Web Server Authentication
+.
+										
+
+
+
+											Common Name (CN) or Subject Alternative Name (SAN) is set to the fully-qualified domain name (FQDN) of the host.
+										
+
+
+
+											X509v3 CRL distribution points contain URLs to Certificate Revocation Lists (CRLs).
+										
+
+
+
+
+
+
+
+
+
+
+
+
+Procedure
+
+
+
+							Edit the 
+~/inventory
+ file, and append the 
+cert_name
+ variable:
+						
+
+
+
+
+managed-node-01.example.com 
+cert_name=
+managed-node-01.example.com
+
+managed-node-02.example.com 
+cert_name=
+managed-node-02.example.com
+
+managed-node-03.example.com 
+cert_name=
+managed-node-03.example.com
+
+
+
+
+
+
+
+							Set the 
+cert_name
+ variable to the value of the common name (CN) field used in the certificate for each host. Typically, the CN field is set to the fully-qualified domain name (FQDN).
+						
+
+
+
+
+
+							Store your sensitive variables in an encrypted file:
+						
+
+
+
+									Create the vault:
+								
+
+
+
+
+$ 
+ansible-vault create ~/vault.yml
+
+New Vault password: 
+<vault_password>
+
+Confirm New Vault password: 
+<vault_password>
+
+
+
+
+
+
+
+
+
+									After the 
+ansible-vault create
+ command opens an editor, enter the sensitive data in the 
+<key>
+: 
+<value>
+ format:
+								
+
+
+
+
+pkcs12_pwd: 
+<password>
+
+
+
+
+
+
+
+
+
+									Save the changes, and close the editor. Ansible encrypts the data in the vault.
+								
+
+
+
+
+
+
+
+							Create a playbook file, for example, 
+~/playbook.yml
+, with the following content:
+						
+
+
+
+
+-
+ 
+name
+:
+ Configuring VPN
+  
+hosts
+:
+ managed
+-
+node
+-
+01.example.com
+,
+ managed
+-
+node
+-
+02.example.com
+,
+ managed
+-
+node
+-
+03.example.com
+  
+vars_files
+:
+
+    
+-
+ ~/vault.yml
+  
+tasks
+:
+
+    
+-
+ 
+name
+:
+ Install LibreSwan
+      
+ansible.builtin.package
+:
+
+        
+name
+:
+ libreswan
+        
+state
+:
+ present
+
+    
+-
+ 
+name
+:
+ Identify the path to IPsec NSS database
+      
+ansible.builtin.set_fact
+:
+
+        
+nss_db_dir
+:
+ "
+{
+{
+ '/etc/ipsec.d/' if
+          ansible_distribution in 
+[
+'CentOS'
+,
+ 
+'RedHat'
+]
+
+          and ansible_distribution_major_version is version('8'
+,
+ '=')
+          else '/var/lib/ipsec/nss/' 
+}
+}
+"
+
+    
+-
+ 
+name
+:
+ Locate IPsec NSS database files
+      
+ansible.builtin.find
+:
+
+        
+paths
+:
+ 
+"{{ nss_db_dir }}"
+
+        
+patterns
+:
+ 
+"*.db"
+
+      
+register
+:
+ db_files
+
+    
+-
+ 
+name
+:
+ Initialize IPsec NSS database if not initialized
+      
+ansible.builtin.command
+:
+
+        
+cmd
+:
+ ipsec initnss
+      
+when
+:
+ db_files.matched == 0
+
+    
+-
+ 
+name
+:
+ Copy PKCS 
+#12 file to the managed node
+
+      
+ansible.builtin.copy
+:
+
+        
+src
+:
+ 
+"~/{{ inventory_hostname }}.p12"
+
+        
+dest
+:
+ 
+"/etc/ipsec.d/{{ inventory_hostname }}.p12"
+
+        
+mode
+:
+ 
+0600
+
+
+    
+-
+ 
+name
+:
+ Import PKCS 
+#12 file in IPsec NSS database
+
+      
+ansible.builtin.shell
+:
+
+        
+cmd
+:
+ 
+'pk12util -d {{ nss_db_dir }} -i /etc/ipsec.d/{{ inventory_hostname }}.p12 -W "{{ pkcs12_pwd }}"'
+
+
+    
+-
+ 
+name
+:
+ Remove PKCS 
+#12 file
+
+      
+ansible.builtin.file
+:
+
+        
+path
+:
+ 
+"/etc/ipsec.d/{{ inventory_hostname }}.p12"
+
+        
+state
+:
+ absent
+
+    
+-
+ 
+name
+:
+ Opportunistic mesh IPsec VPN with certificate
+-
+based authentication
+      
+ansible.builtin.include_role
+:
+
+        
+name
+:
+ redhat.rhel_system_roles.vpn
+      
+vars
+:
+
+        
+vpn_connections
+:
+
+          
+-
+ 
+opportunistic
+:
+ 
+true
+
+            
+auth_method
+:
+ cert
+            
+policies
+:
+
+              
+-
+ 
+policy
+:
+ private
+                
+cidr
+:
+ default
+              
+-
+ 
+policy
+:
+ private
+                
+cidr
+:
+ 192.0.2.0/24
+              
+-
+ 
+policy
+:
+ clear
+                
+cidr
+:
+ 192.0.2.1/32
+        
+vpn_manage_firewall
+:
+ 
+true
+
+        
+vpn_manage_selinux
+:
+ 
+true
+
+
+
+
+
+
+
+							The settings specified in the example playbook include the following:
+						
+
+
+opportunistic: true
+
+										Enables an opportunistic mesh among multiple hosts. The 
+policies
+ variable defines for which subnets and hosts traffic must or can be encrypted and which of them continue using plain text connections.
+									
+auth_method: cert
+
+										Enables certificate-based authentication. This requires that you specify the nickname of each managed node’s certificate in the inventory.
+									
+policies: 
+<list_of_policies>
+
+										Defines the Libreswan policies in YAML list format.
+									
+
+
+
+										The default policy is 
+private-or-clear
+. To change it to 
+private
+, the playbook contains an according policy for the default 
+cidr
+ entry.
+									
+
+
+
+										To prevent a loss of the SSH connection during the execution of the playbook if the Ansible control node is in the same IP subnet as the managed nodes, add a 
+clear
+ policy for the control node’s IP address. For example, if you want the mesh to be configured for the 
+192.0.2.0/24
+ subnet and the control node uses the IP address 
+192.0.2.1
+, you require a 
+clear
+ policy for 
+192.0.2.1/32
+ as shown in the playbook.
+									
+
+
+
+										For details about policies, see the 
+ipsec.conf(5)
+ man page on a system with Libreswan installed.
+									
+
+
+vpn_manage_firewall: true
+
+										Defines that the role opens the required ports in the 
+firewalld
+ service on the managed nodes.
+									
+vpn_manage_selinux: true
+
+										Defines that the role sets the required SELinux port type on the IPsec ports.
+									
+
+
+
+							For details about all variables used in the playbook, see the 
+/usr/share/ansible/roles/rhel-system-roles.vpn/README.md
+ file on the control node.
+						
+
+
+
+
+
+							Validate the playbook syntax:
+						
+
+
+
+
+$ 
+ansible-playbook --ask-vault-pass --syntax-check ~/playbook.yml
+
+
+
+
+
+
+
+							Note that this command only validates the syntax and does not protect against a wrong but valid configuration.
+						
+
+
+
+
+
+							Run the playbook:
+						
+
+
+
+
+$ 
+ansible-playbook --ask-vault-pass ~/playbook.yml
+
+
+
+
+
+
+
+
+
+
+Verification
+
+
+
+							On a node in the mesh, ping another node to activate the connection:
+						
+
+
+
+
+[root@managed-node-01]# 
+ping managed-node-02.example.com
+
+
+
+
+
+
+
+
+
+							Confirm that the connection is active:
+						
+
+
+
+
+[root@managed-node-01]# 
+ipsec trafficstatus
+
+006 #2: "private#192.0.2.0/24"[1] ...192.0.2.2, type=ESP, add_time=1741938929, inBytes=372408, outBytes=545728, maxBytes=2^63B, id='CN=managed-node-02.example.com'
+
+
+
+
+
+
+
+
+
+
+Troubleshooting
+
+
+
+							If the playbook fails with syntax errors, validate the YAML structure:
+						
+
+
+
+
+$ 
+ansible-playbook --ask-vault-pass --syntax-check ~/playbook.yml
+
+
+
+
+
+
+
+
+
+							If managed nodes are unreachable, verify SSH connectivity and authentication:
+						
+
+
+
+
+$ 
+ansible managed-node-01.example.com -m ping
+
+
+
+
+
+
+
+
+
+							If the PKCS #12 import fails, verify that the password in the vault matches the PKCS #12 file password and that the certificate files are named correctly according to the inventory hostnames.
+						
+
+
+
+							If the mesh connection does not establish, check the IPsec logs on the managed nodes:
+						
+
+
+
+
+$ 
+ansible managed-node-01.example.com -m shell -a 'journalctl -u ipsec -n 50'
+
+
+
+
+
+
+
+
+
+							If certificate validation fails, verify that the 
+cert_name
+ values in the inventory file match the Common Name (CN) fields in the certificates.
+						
+
+
+
+							For detailed output during playbook execution, run with verbose mode:
+						
+
+
+
+
+$ 
+ansible-playbook --ask-vault-pass -vvv ~/playbook.yml
+
+
+
+
+
+
+
+
+
+
+6.13. Configuring IPsec VPN connections by using nmstatectl
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+				Configure IPsec VPN connections to establish encrypted tunnels over untrusted networks and ensure the integrity of data in transit. By using Nmstate, you can create IPsec VPN connections by using a declarative API.
+			
+
+
+
+				You can use the 
+nmstatectl
+ utility to configure Libreswan IPsec VPN connections through the Nmstate API. The 
+nmstatectl
+ utility is a command-line tool to manage host networking through the declarative Nmstate API. Instead of running multiple imperative commands to configure an interface, you define the expected state in a YAML file. Nmstate then takes this definition and applies it to the system. A key advantage of this approach is an atomic result. Nmstate ensures that the resulting configuration precisely matches your YAML definition. If any part of the configuration fails to apply, it automatically rolls back all changes and prevents the system from entering an incorrect or broken network state.
+			
+
+
+Note
+
+
+
+					Due to the design of the 
+NetworkManager-libreswan
+ plugin, you can use 
+nmstatectl
+ only on one peer and must manually configure Libreswan on the other peer.
+				
+
+
+
+
+6.13.1. Configuring an IPsec host-to-host VPN with raw RSA key authentication by using nmstatectl
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+					You can use the declarative Nmstate API to configure a host-to-host VPN between two devices to communicate safely over an insecure network. Nmstate ensures that the result matches the configuration file or rolls back the changes.
+				
+
+
+
+					For authentication, RSA keys are more secure than pre-shared keys (PSKs) because their asymmetric encryption eliminates the risk of a shared secret. Using RSA keys also simplifies deployment by avoiding the need for a certificate authority (CA), and provides strong peer-to-peer authentication.
+				
+
+
+Note
+
+
+
+						In general, the choice of which host is named 
+left
+ and 
+right
+ is arbitrary. However, NetworkManager always uses the term 
+left
+ for the local host and 
+right
+ for the remote host.
+					
+
+
+
+
+Prerequisites
+
+
+
+							The remote peer runs Libreswan IPsec and is prepared for a 
+host-to-host
+ connection.
+						
+
+
+
+							Due to the design of the 
+NetworkManager-libreswan
+ plugin, Nmstate cannot communicate with other peers that also use this plugin for the same connection.
+						
+
+
+
+
+
+
+Procedure
+
+
+
+							If Libreswan is not yet installed, perform the following steps:
+						
+
+
+
+									Install the required packages:
+								
+
+
+
+
+# 
+dnf install nmstate libreswan NetworkManager-libreswan
+
+
+
+
+
+
+
+
+
+									Restart the NetworkManager service:
+								
+
+
+
+
+# 
+systemctl restart NetworkManager
+
+
+
+
+
+
+
+
+
+									Initialize the Network Security Services (NSS) database:
+								
+
+
+
+
+# 
+ipsec initnss
+
+
+
+
+
+
+
+									The command creates the database in the 
+/var/lib/ipsec/nss/
+ directory.
+								
+
+
+
+
+
+									Open the IPsec ports and protocols in the firewall:
+								
+
+
+
+
+# 
+firewall-cmd --permanent --add-service="ipsec"
+
+# 
+firewall-cmd --reload
+
+
+
+
+
+
+
+
+
+
+
+
+
+							Create an RSA key pair:
+						
+
+
+
+
+# 
+ipsec newhostkey
+
+
+
+
+
+
+
+							The 
+ipsec
+ utility stores the key pair in the NSS database.
+						
+
+
+
+
+
+							Display the Certificate Key Attribute ID (CKAID) on both the left and right peers:
+						
+
+
+
+
+# 
+ipsec showhostkey --list
+
+< 1> RSA keyid: 
+<key_id>
+ ckaid: 
+<ckaid>
+
+
+
+
+
+
+
+							You require the CKAIDs of both peers in the next steps.
+						
+
+
+
+
+
+							Display the public keys:
+						
+
+
+
+									On the left peer, enter:
+								
+
+
+
+
+# 
+ipsec showhostkey --left --ckaid 
+<ckaid_of_left_peer>
+
+        # rsakey AwEAAdKCx
+        leftrsasigkey=0sAwEAAdKCxpc9db48cehzQiQD...
+
+
+
+
+
+
+
+
+
+									On the right peer, enter:
+								
+
+
+
+
+# 
+ipsec showhostkey --right --ckaid 
+<ckaid_of_right_peer>
+
+        # rsakey AwEAAcNWC
+        rightrsasigkey=0sAwEAAcNWCzZO+PR1j8WbO8X...
+
+
+
+
+
+
+
+
+
+
+
+							The commands display the public keys with the corresponding parameters that you must use in the configuration file.
+						
+
+
+
+
+
+							Create a YAML file, for example 
+~/ipsec-host-to-host-rsa-auth.yml
+, with the following content:
+						
+
+
+
+
+---
+
+
+interfaces
+:
+
+
+-
+ 
+name
+:
+ '
+<connection_name
+>
+'
+  
+type
+:
+ ipsec
+  
+libreswan
+:
+
+    
+ikev2
+:
+ insist
+
+    
+left
+:
+ 
+<ip_address_or_fqdn_of_left_peer
+>
+
+    
+leftid
+:
+ peer_b
+    
+leftrsasigkey
+:
+ 
+<public_key_of_left_peer
+>
+
+    
+leftmodecfgclient
+:
+ 
+false
+
+
+    
+right
+:
+ 
+<ip_address_or_fqdn_of_right_peer
+>
+
+    
+rightid
+:
+ peer_a
+    
+rightrsasigkey
+:
+ 
+<public_key_of_right_peer
+>
+
+    
+rightsubnet
+:
+ 
+<ip_address_of_right_peer
+>
+/32
+
+
+
+
+
+
+
+							The settings specified in the example include the following:
+						
+
+
+ikev2: insist
+
+										Defines the modern IKEv2 protocol as the only allowed protocol without fallback to IKEv1. This setting is mandatory in a host-to-host configuration with Nmstate.
+									
+left=
+<ip_address_or_fqdn_of_left_peer>
+ and 
+right=
+<ip_address_or_fqdn_of_right_peer>
+
+										Defines the IP address or DNS name of the peers.
+									
+leftid=
+<id>
+ and 
+rightid=
+<id>
+
+										Defines how each peer is identified during the Internet Key Exchange (IKE) negotiation process. This can be an IP address or a literal string. Note that NetworkManager interprets all values other than IP addresses as a literal string and internally adds a leading 
+@
+ sign. This requires that the Libreswan peer also uses literal strings as IDs or authentication fails.
+									
+leftrsasigkey=
+<public_key>
+ and 
+rightrsasigkey=
+<public_key>
+
+										Specifies the public key of the peers. Use the values displayed by the 
+ipsec showhostkey
+ command in a previous step.
+									
+leftmodecfgclient: false
+
+										Disables dynamic configuration on this host. This setting is mandatory in a host-to-host configuration with Nmstate.
+									
+rightsubnet: 
+<ip_address_of_right_peer>
+/32
+
+										Defines that the host can only access this peer. This setting is mandatory in a host-to-host configuration with Nmstate.
+									
+
+
+
+
+
+							Apply the settings to the system:
+						
+
+
+
+
+# 
+nmstatectl apply ~/ipsec-host-to-host-rsa-auth.yml
+
+
+
+
+
+
+
+
+
+
+Verification
+
+
+
+							Display the IPsec status:
+						
+
+
+
+
+# 
+ipsec status
+
+
+
+
+
+
+
+							If the connection is successfully established, the output contains lines as follows:
+						
+
+
+
+									Phase 1 of an Internet Key Exchange version 2 (IKEv2) negotiation has been successfully completed:
+								
+
+
+
+
+000 #1: "
+<connection_name>
+":500 STATE_V2_ESTABLISHED_IKE_SA (established IKE SA); REKEY in 27935s; REPLACE in 28610s; newest; idle;
+
+
+
+
+
+
+
+									The Security Association (SA) is now ready to negotiate the actual data encryption tunnels, known as child SAs or Phase 2 SAs.
+								
+
+
+
+
+
+									A child SA has been established:
+								
+
+
+
+
+000 #2: "
+<connection_name>
+":500 STATE_V2_ESTABLISHED_CHILD_SA (established Child SA); REKEY in 27671s; REPLACE in 28610s; IKE SA #1; idle;
+
+
+
+
+
+
+
+									This is the actual tunnel that your data traffic flows through.
+								
+
+
+
+
+
+
+
+
+
+
+Troubleshooting
+
+
+
+							To display the actual configuration NetworkManager passes to Libreswan, enter:
+						
+
+
+
+
+# 
+nmcli connection export 
+<connection_name>
+
+
+
+
+
+
+
+							The output can help to identify deviating settings, such as IDs and keys, when you compare them with the Libreswan configuration on the remote host.
+						
+
+
+
+
+
+
+Next steps
+
+
+
+							If you use this host in a network with DHCP or Stateless Address Autoconfiguration (SLAAC), the connection can be vulnerable to being redirected. For details and mitigation steps, see 
+Assigning a VPN connection to a dedicated routing table to prevent the connection from bypassing the tunnel
+.
+						
+
+
+
+
+6.13.2. Configuring an IPsec site-to-site VPN with raw RSA key authentication by using nmstatectl
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+					You can use the declarative Nmstate API to configure a site-to-site VPN between two distinct networks, linking them across an insecure network. Nmstate ensures that the result matches the configuration file or rolls back the changes.
+				
+
+
+
+					For authenticating the gateway devices, RSA keys are more secure than pre-shared keys (PSKs) because their asymmetric encryption eliminates the risk of a shared secret. Using RSA keys also simplifies deployment by avoiding the need for a certificate authority (CA), and provides strong peer-to-peer authentication.
+				
+
+
+Note
+
+
+
+						In general, the choice which host is named 
+left
+ and 
+right
+ is arbitrary. However, NetworkManager always uses the term 
+left
+ for the local host and 
+right
+ for the remote host.
+					
+
+
+
+
+Prerequisites
+
+
+
+							The remote gateway runs Libreswan IPsec and is prepared for a 
+site-to-site
+ connection.
+						
+
+
+
+							Due to the design of the 
+NetworkManager-libreswan
+ plugin, Nmstate cannot communicate with other peers that also use this plugin for the same connection.
+						
+
+
+
+
+
+
+Procedure
+
+
+
+							If Libreswan is not yet installed, perform the following steps:
+						
+
+
+
+									Install the required packages:
+								
+
+
+
+
+# 
+dnf install nmstate libreswan NetworkManager-libreswan
+
+
+
+
+
+
+
+
+
+									Restart the NetworkManager service:
+								
+
+
+
+
+# 
+systemctl restart NetworkManager
+
+
+
+
+
+
+
+
+
+									Initialize the Network Security Services (NSS) database:
+								
+
+
+
+
+# 
+ipsec initnss
+
+
+
+
+
+
+
+									The command creates the database in the 
+/var/lib/ipsec/nss/
+ directory.
+								
+
+
+
+
+
+									Open the IPsec ports and protocols in the firewall:
+								
+
+
+
+
+# 
+firewall-cmd --permanent --add-service="ipsec"
+
+# 
+firewall-cmd --reload
+
+
+
+
+
+
+
+
+
+
+
+
+
+							Create an RSA key pair:
+						
+
+
+
+
+# 
+ipsec newhostkey
+
+
+
+
+
+
+
+							The 
+ipsec
+ utility stores the key pair in the NSS database.
+						
+
+
+
+
+
+							Display the Certificate Key Attribute ID (CKAID) on both the left and right peer:
+						
+
+
+
+
+# 
+ipsec showhostkey --list
+
+< 1> RSA keyid: 
+<key_id>
+ ckaid: 
+<ckaid>
+
+
+
+
+
+
+
+							You require the CKAIDs of both peers in the following steps.
+						
+
+
+
+
+
+							Display the public keys:
+						
+
+
+
+									On the left peer, enter:
+								
+
+
+
+
+# 
+ipsec showhostkey --left --ckaid 
+<ckaid_of_left_peer>
+
+        # rsakey AwEAAdKCx
+        leftrsasigkey=0sAwEAAdKCxpc9db48cehzQiQD...
+
+
+
+
+
+
+
+
+
+									On the right peer, enter:
+								
+
+
+
+
+# 
+ipsec showhostkey --right --ckaid 
+<ckaid_of_right_peer>
+
+        # rsakey AwEAAcNWC
+        rightrsasigkey=0sAwEAAcNWCzZO+PR1j8WbO8X...
+
+
+
+
+
+
+
+
+
+
+
+							The commands display the public keys with the corresponding parameters that you must use in the configuration file.
+						
+
+
+
+
+
+							Create a YAML file, for example 
+~/ipsec-site-to-site-rsa-auth.yml
+, with the following content:
+						
+
+
+
+
+---
+
+
+interfaces
+:
+
+
+-
+ 
+name
+:
+ '
+<connection_name
+>
+'
+  
+type
+:
+ ipsec
+  
+libreswan
+:
+
+    
+ikev2
+:
+ insist
+
+    
+left
+:
+ 
+<ip_address_or_fqdn_of_left_peer
+>
+
+    
+leftid
+:
+ peer_b
+    
+leftrsasigkey
+:
+ 
+<public_key_of_left_peer
+>
+
+    
+leftmodecfgclient
+:
+ 
+false
+
+    
+leftsubnet
+:
+ 198.51.100.0/24
+
+    
+right
+:
+ 
+<ip_address_or_fqdn_of_right_peer
+>
+
+    
+rightid
+:
+ peer_a
+    
+rightrsasigkey
+:
+ 
+<public_key_of_right_peer
+>
+
+    
+rightsubnet
+:
+ 192.0.2.0/24
+
+
+
+
+
+
+
+							The settings specified in the example include the following:
+						
+
+
+ikev2: insist
+
+										Defines the modern IKEv2 protocol as the only allowed protocol without fallback to IKEv1. This setting is mandatory in a site-to-site configuration with Nmstate.
+									
+left=
+<ip_address_or_fqdn_of_left_peer>
+ and 
+right=
+<ip_address_or_fqdn_of_right_peer>
+
+										Defines the IP address or DNS name of the peers.
+									
+leftid=
+<id>
+ and 
+rightid=
+<id>
+
+										Defines how each peer is identified during the Internet Key Exchange (IKE) negotiation process. This can be an IP address or a literal string. Note that NetworkManager interprets all values other than IP addresses as a literal string and internally adds a leading 
+@
+ sign. This requires that the Libreswan peer also uses literal strings as IDs or authentication fails.
+									
+leftrsasigkey=
+<public_key>
+ and 
+rightrsasigkey=
+<public_key>
+
+										Specifies the public key of the peers. Use the values displayed by the 
+ipsec showhostkey
+ command in a previous step.
+									
+leftmodecfgclient: false
+
+										Disables dynamic configuration on this host. This setting is mandatory in a site-to-site configuration with Nmstate.
+									
+leftsubnet=
+<subnet>
+ and 
+rightsubnet=
+<subnet>
+
+										Defines subnets in classless inter-domain routing (CIDR) format that are connected through the tunnel.
+									
+
+
+
+
+
+							Enable packet forwarding:
+						
+
+
+
+
+# 
+echo "net.ipv4.ip_forward=1" > /etc/sysctl.d/95-IPv4-forwarding.conf
+
+# 
+sysctl -p /etc/sysctl.d/95-IPv4-forwarding.conf
+
+
+
+
+
+
+
+
+
+							Apply the settings to the system:
+						
+
+
+
+
+# 
+nmstatectl apply ~/ipsec-site-to-site-rsa-auth.yml
+
+
+
+
+
+
+
+
+
+
+Verification
+
+
+
+							Display the IPsec status:
+						
+
+
+
+
+# 
+ipsec status
+
+
+
+
+
+
+
+							If the connection is successfully established, the output contains lines as follows:
+						
+
+
+
+									Phase 1 of an Internet Key Exchange version 2 (IKEv2) negotiation has been successfully completed:
+								
+
+
+
+
+000 #1: "
+<connection_name>
+":500 STATE_V2_ESTABLISHED_IKE_SA (established IKE SA); REKEY in 27935s; REPLACE in 28610s; newest; idle;
+
+
+
+
+
+
+
+									The Security Association (SA) is now ready to negotiate the actual data encryption tunnels, known as child SAs or Phase 2 SAs.
+								
+
+
+
+
+
+									A child SA has been established:
+								
+
+
+
+
+000 #2: "
+<connection_name>
+":500 STATE_V2_ESTABLISHED_CHILD_SA (established Child SA); REKEY in 27671s; REPLACE in 28610s; IKE SA #1; idle;
+
+
+
+
+
+
+
+									This is the actual tunnel that your data traffic flows through.
+								
+
+
+
+
+
+
+
+
+
+							From a client in the local subnet, ping a client in the remote subnet.
+						
+
+
+
+
+Troubleshooting
+
+
+
+							To display the actual configuration NetworkManager passes to Libreswan, enter:
+						
+
+
+
+
+# 
+nmcli connection export 
+<connection_name>
+
+
+
+
+
+
+
+							The output can help to identify deviating settings, such as IDs and keys, when you compare them with the Libreswan configuration on the remote host.
+						
+
+
+
+
+
+
+Next steps
+
+
+
+							If you use this host in a network with DHCP or Stateless Address Autoconfiguration (SLAAC), the connection can be vulnerable to being redirected. For details and mitigation steps, see 
+Assigning a VPN connection to a dedicated routing table to prevent the connection from bypassing the tunnel
+.
+						
+
+
+
+
+6.13.3. Configuring a client to connect to an IPsec VPN gateway by using nmstatectl
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+					To access resources on a remote private network, users must first configure an IPsec VPN connection. By using Nmstate, you can create the connection with an existing Libreswan IPsec gateway by using a declarative API.
+				
+
+
+Note
+
+
+
+						In general, the choice of which host is named 
+left
+ and 
+right
+ is arbitrary. However, NetworkManager always uses the term 
+left
+ for the local host and 
+right
+ for the remote host.
+					
+
+
+
+
+Prerequisites
+
+
+
+							The remote gateway runs Libreswan IPsec and is prepared for a 
+host-to-site
+ connection with certificate-based authentication.
+						
+
+
+
+							Due to the design of the 
+NetworkManager-libreswan
+ plugin, Nmstate cannot communicate with other peers that also use this plugin for the same connection.
+						
+
+
+
+
+
+							The PKCS#12 file 
+~/file.p12
+ exists on the client with the following contents:
+						
+
+
+
+									The private key of the user
+								
+
+
+
+									The user certificate
+								
+
+
+
+									The CA certificate
+								
+
+
+
+									If required, intermediate certificates
+								
+
+
+
+
+
+							For details about creating a private key and certificate signing request (CSR), as well as about requesting a certificate from a CA, see your CA’s documentation.
+						
+
+
+
+
+
+							The Extended Key Usage (EKU) in the certificate is set to 
+TLS Web Client Authentication
+.
+						
+
+
+
+
+Procedure
+
+
+
+							If Libreswan is not yet installed:
+						
+
+
+
+									Install the required packages:
+								
+
+
+
+
+# 
+dnf install nmstate libreswan NetworkManager-libreswan
+
+
+
+
+
+
+
+
+
+									Restart the NetworkManager service:
+								
+
+
+
+
+# 
+systemctl restart NetworkManager
+
+
+
+
+
+
+
+
+
+									Initialize the Network Security Services (NSS) database:
+								
+
+
+
+
+# 
+ipsec initnss
+
+
+
+
+
+
+
+									The command creates the database in the 
+/var/lib/ipsec/nss/
+ directory.
+								
+
+
+
+
+
+									Open the IPsec ports and protocols in the firewall:
+								
+
+
+
+
+# 
+firewall-cmd --permanent --add-service="ipsec"
+
+# 
+firewall-cmd --reload
+
+
+
+
+
+
+
+
+
+
+
+
+
+							Import the PKCS #12 file into the NSS database:
+						
+
+
+
+
+# 
+ipsec import ~/file.p12
+
+Enter password for PKCS12 file: 
+<password>
+
+pk12util: PKCS12 IMPORT SUCCESSFUL
+correcting trust bits for Example-CA
+
+
+
+
+
+
+
+
+
+							Display the nicknames of the user and CA certificates:
+						
+
+
+
+
+# 
+certutil -L -d /var/lib/ipsec/nss/
+
+Certificate Nickname     Trust Attributes
+                         SSL,S/MIME,JAR/XPI
+
+user                     u,u,u
+Example-CA               CT,,
+...
+
+
+
+
+
+
+
+							You require this information in the Nmstate YAML file.
+						
+
+
+
+
+
+							Create a YAML file, for example, 
+~/ipsec-host-to-site-cert-auth.yml
+, with the following content:
+						
+
+
+
+
+---
+
+
+interfaces
+:
+
+
+-
+ 
+name
+:
+ '
+<connection_name
+>
+'
+  
+type
+:
+ ipsec
+  
+libreswan
+:
+
+    
+ikev2
+:
+ insist
+
+    
+left
+:
+ 
+<ip_address_or_fqdn_of_left_peer
+>
+
+    
+leftid
+:
+ 
+'%fromcert'
+
+    
+leftcert
+:
+ 
+<user_certificate_nickname
+>
+
+
+    
+right
+:
+ 
+<ip_address_or_fqdn_of_right_peer
+>
+
+    
+rightid
+:
+ 
+'%fromcert'
+
+    
+rightsubnet
+:
+ 192.0.2.0/24
+
+
+
+
+
+
+
+							The settings specified in the example include the following:
+						
+
+
+ikev2: insist
+
+										Defines the modern IKEv2 protocol as the only allowed protocol without fallback to IKEv1. This setting is mandatory in a host-to-site configuration with Nmstate.
+									
+left=
+<ip_address_or_fqdn_of_left_peer>
+ and 
+right=
+<ip_address_or_fqdn_of_right_peer>
+
+										Defines the IP address or DNS name of the peers.
+									
+leftid=%fromcert
+ and 
+rightid=%fromcert
+
+										Configures Libreswan to retrieve the identity from the distinguished name (DN) field of the certificate.
+									
+leftcert="
+<server_certificate_nickname>
+"
+
+										Sets the nickname of the server’s certificate used in the NSS database.
+									
+rightsubnet: 
+<subnet>
+
+										Defines the subnet in classless inter-domain routing (CIDR) format that is connected to the gateway.
+									
+
+
+
+
+
+							Apply the settings to the system:
+						
+
+
+
+
+# 
+nmstatectl apply ~/ipsec-host-to-site-cert-auth.yml
+
+
+
+
+
+
+
+
+
+
+Verification
+
+
+
+							Establish a connection to a host in the remote network or ping it.
+						
+
+
+
+
+Troubleshooting
+
+
+
+							To display the actual configuration NetworkManager passes to Libreswan, enter:
+						
+
+
+
+
+# 
+nmcli connection export 
+<connection_name>
+
+
+
+
+
+
+
+							The output can help to identify deviating settings, such as IDs and keys, when you compare them with the Libreswan configuration on the remote host.
+						
+
+
+
+
+
+
+Next steps
+
+
+
+							If you use this host in a network with DHCP or Stateless Address Autoconfiguration (SLAAC), the connection can be vulnerable to being redirected. For details and mitigation steps, see 
+Assigning a VPN connection to a dedicated routing table to prevent the connection from bypassing the tunnel
+.
+						
+
+
+
+
+6.14. Troubleshooting IPsec configurations
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+				Diagnosing IPsec configuration failures can be challenging, because issues can be caused by mismatched settings, firewall rules, and kernel-level errors. The following information provides a systematic approach to resolving common problems with IPsec VPN connections.
+			
+
+
+6.14.1. Basic connection issues
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+					Problems with VPN connections often occur due to mismatched configurations between the endpoints.
+				
+
+
+
+					To confirm that an IPsec connection is established, enter:
+				
+
+
+
+
+# 
+ipsec trafficstatus
+
+006 #8: "vpn.example.com"[1] 192.0.2.1, type=ESP, add_time=1595296930, inBytes=5999, outBytes=3231, id='@vpn.example.com', lease=198.51.100.1/32
+
+
+
+
+
+
+
+					For a successful connection, the command shows an entry with the connection’s name and details. If the output is empty, the tunnel is not established.
+				
+
+
+6.14.2. Firewall-related problems
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+					Diagnose IPsec connection failures caused by firewall-related problems.
+				
+
+
+
+					If a firewall on an endpoint or an intermediate route drops Internet Key Exchange version 2 (IKEv2) packets, the 
+ipsec up
+ command times out and shows repeated 
+retransmission
+ messages:
+				
+
+
+
+
+181 "vpn.example.com"[1] 192.0.2.2 #15: initiating IKEv2 IKE SA
+181 "vpn.example.com"[1] 192.0.2.2 #15: STATE_PARENT_I1: sent v2I1, expected v2R1
+010 "vpn.example.com"[1] 192.0.2.2 #15: STATE_PARENT_I1: retransmission; will wait 0.5 seconds for response
+010 "vpn.example.com"[1] 192.0.2.2 #15: STATE_PARENT_I1: retransmission; will wait 1 seconds for response
+010 "vpn.example.com"[1] 192.0.2.2 #15: STATE_PARENT_I1: retransmission; will wait 2 seconds for response
+...
+
+
+
+
+
+
+
+					You can use the 
+tcpdump
+ utility to capture traffic and verify if IKE or IPsec packets are dropped by a firewall, for example:
+				
+
+
+
+
+# tcpdump -i 
+<interface>
+ -n -n esp or udp port 500 or udp port 4500 or tcp port 4500
+
+
+
+
+
+
+
+					Note that 
+tcpdump
+ is of limited use for diagnosing other types of IPsec problems because the IKE protocol is encrypted.
+				
+
+
+6.14.3. Mismatched Configurations
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+					VPN connections fail if the endpoints are not configured with matching Internet Key Exchange (IKE) versions, algorithms, IP address ranges, or pre-shared keys (PSK). If you identify a mismatch, you must align the settings on both endpoints to resolve the issue.
+				
+
+
+Remote Peer Not Running IKE/IPsec
+
+								If the connection was refused, an ICMP error is displayed:
+							
+
+
+
+
+# 
+ipsec up vpn.example.com
+
+...
+000 "vpn.example.com"[1] 192.0.2.2 #16: ERROR: asynchronous network error report on wlp2s0 (192.0.2.2:500), complainant 198.51.100.1: Connection refused [errno 111, origin ICMP type 3 code 3 (not authenticated)]
+
+
+
+
+
+
+Mismatched IKE Algorithms
+
+								The connection fails with a 
+NO_PROPOSAL_CHOSEN
+ notification during the initial setup:
+							
+
+
+
+
+# 
+ipsec up vpn.example.com
+
+...
+003 "vpn.example.com"[1] 193.110.157.148 #3: dropping unexpected IKE_SA_INIT message containing NO_PROPOSAL_CHOSEN notification; message payloads: N; missing payloads: SA,KE,Ni
+
+
+
+
+
+
+Mismatched IPsec Algorithms
+
+								The connection fails with a 
+NO_PROPOSAL_CHOSEN
+ error after the initial exchange:
+							
+
+
+
+
+# 
+ipsec up vpn.example.com
+
+...
+182 "vpn.example.com"[1] 193.110.157.148 #5: STATE_PARENT_I2: sent v2I2, expected v2R2 {auth=IKEv2 cipher=AES_GCM_16_256 integ=n/a prf=HMAC_SHA2_256 group=MODP2048}
+002 "vpn.example.com"[1] 193.110.157.148 #6: IKE_AUTH response contained the error notification NO_PROPOSAL_CHOSEN
+
+
+
+
+
+
+Mismatched IP Address Ranges (IKEv2)
+
+								The remote peer responds with a 
+TS_UNACCEPTABLE
+ error:
+							
+
+
+
+
+# 
+ipsec up vpn.example.com
+
+...
+1v2 "vpn.example.com" #1: STATE_PARENT_I2: sent v2I2, expected v2R2 {auth=IKEv2 cipher=AES_GCM_16_256 integ=n/a prf=HMAC_SHA2_512 group=MODP2048}
+002 "vpn.example.com" #2: IKE_AUTH response contained the error notification TS_UNACCEPTABLE
+
+
+
+
+
+
+Mismatched IP Address Ranges (IKEv1)
+
+								The connection times out during quick mode, with a message indicating the peer did not accept the proposal:
+							
+
+
+
+
+# 
+ipsec up vpn.example.com
+
+...
+031 "vpn.example.com" #2: STATE_QUICK_I1: 60 second timeout exceeded after 0 retransmits.  No acceptable response to our first Quick Mode message: perhaps peer likes no proposal
+
+
+
+
+
+
+Mismatched PSK (IKEv2)
+
+								The peer rejects the connection with an 
+AUTHENTICATION_FAILED
+ error:
+							
+
+
+
+
+# 
+ipsec up vpn.example.com
+
+...
+003 "vpn.example.com" #1: received Hash Payload does not match computed value
+223 "vpn.example.com" #1: sending notification INVALID_HASH_INFORMATION to 192.0.2.23:500
+
+
+
+
+
+
+Mismatched PSK (IKEv1)
+
+								The hash payload does not match, making the IKE message unreadable and resulting in an 
+INVALID_HASH_INFORMATION
+ error:
+							
+
+
+
+
+# 
+ipsec up vpn.example.com
+
+...
+002 "vpn.example.com" #1: IKE SA authentication request rejected by peer: AUTHENTICATION_FAILED
+
+
+
+
+
+
+
+
+6.14.4. MTU issues
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+					Diagnose intermittent IPsec connection failures caused by Maximum Transmission Unit (MTU) issues. Encryption increases packet size, leading to fragmentation and lost data when packets exceed the network’s MTU, often seen with larger data transfers.
+				
+
+
+
+					A common symptom is that small packets, for example pings, work correctly, but larger packets, such as an SSH session, freeze after the login. To fix the problem, lower the MTU for the tunnel by adding the 
+mtu=1400
+ option to the configuration file.
+				
+
+
+6.14.5. NAT conflicts
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+					Resolve NAT conflicts that occur when an IPsec host also acts as a NAT router. Incorrect NAT application can translate source IP addresses before encryption, causing packets to be sent unencrypted over the network.
+				
+
+
+
+					For example, if the source IP address of the packet is translated by a masquerade rule before IPsec encryption is applied, the packet’s source no longer matches the IPsec policy, and Libreswan sends it unencrypted over the network.
+				
+
+
+
+					To solve this problem, add a firewall rule that excludes traffic between the IPsec subnets from NAT. Insert this rule at the beginning of the 
+POSTROUTING
+ chain to ensure it is processed before the general NAT rule.
+				
+
+
+Example 6.1. Solution by using the 
+nftables
+ framework
+
+
+
+						The following example uses 
+nftables
+ to configure a basic NAT environment that excludes traffic between the 192.0.2.0/24 and 198.51.100.0/24 subnets from address translation:
+					
+
+
+
+
+# 
+nft add table ip nat
+
+# 
+nft add chain ip nat postrouting { type nat hook postrouting priority 100 \; }
+
+# 
+nft add rule ip nat postrouting ip saddr 192.0.2.0/24 ip daddr 198.51.100.0/24 return
+
+
+
+
+
+
+
+
+
+
+6.14.6. Kernel-level IPsec issues
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+					Troubleshoot kernel-level IPsec issues when a VPN tunnel appears established but no traffic flows. In this case, inspect the kernel’s IPsec state to check if the tunnel policies and cryptographic keys were correctly installed.
+				
+
+
+
+					This process involves checking two components:
+				
+
+
+
+							The Security Policy Database (SPD): The rule that instructs the kernel what traffic to encrypt.
+						
+
+
+
+							The Security Association Database (SAD): The keys that instruct the kernel how to encrypt that traffic.
+						
+
+
+
+
+
+					First, check if the correct policy exists in the SPD:
+				
+
+
+
+
+# 
+ip xfrm policy
+
+src 192.0.2.1/32 dst 10.0.0.0/8
+	dir out priority 666 ptype main
+	tmpl src 198.51.100.13 dst 203.0.113.22
+		proto esp reqid 16417 mode tunnel
+
+
+
+
+
+
+
+					The output contains the policies matching your 
+leftsubnet
+ and 
+rightsubnet
+ parameters with both in and out directions. If you do not see a policy for your traffic, Libreswan failed to create the kernel rule, and traffic is not encrypted.
+				
+
+
+
+					If the policy exists, check if it has a corresponding set of keys in the SAD:
+				
+
+
+
+
+# 
+ip xfrm state
+
+src 203.0.113.22 dst 198.51.100.13
+	proto esp spi 0xa78b3fdb reqid 16417 mode tunnel
+	auth-trunc hmac(sha1) 0x3763cd3b... 96
+	enc cbc(aes) 0xd9dba399...
+
+
+
+
+
+
+Warning
+
+
+
+						This command displays private cryptographic keys. Do not share this output, because attackers can use it to decrypt your VPN traffic.
+					
+
+
+
+
+
+					If a policy exists but you see no corresponding state with the same 
+reqid
+, it typically means the Internet Key Exchange (IKE) negotiation failed. The two VPN endpoints could not agree on a set of keys.
+				
+
+
+
+					For more detailed diagnostics, use the 
+-s
+ option with either of the commands. This option adds traffic counters, which can help you identify if the kernel processes packets by a specific rule.
+				
+
+
+6.14.7. Kernel IPsec subsystem bugs
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+					A defect in the kernel’s IPsec subsystem can cause it to lose sync with the IKE daemon. This can lead to discrepancies between negotiated security associations and actual IPsec policy enforcement, disrupting secure network communication.
+				
+
+
+
+					To check for kernel-level errors, display the transform (XFRM) statistics:
+				
+
+
+
+
+# 
+cat /proc/net/xfrm_stat
+
+
+
+
+
+
+
+					If any of the counters in the output, such as 
+XfrmInError
+, show a nonzero value, it indicates a problem with the kernel subsystem. In this case, open a 
+support case
+, and attach the output of the command along with the corresponding IKE logs.
+				
+
+
+6.14.8. Displaying Libreswan logs
+Copy link
+Link copied to clipboard!
+
+
+
+
+
+
+
+
+
+
+
+					Display Libreswan logs to diagnose and troubleshoot IPsec service events and issues. Access the journal for the 
+ipsec
+ service to gain insights into connection status and potential problems.
+				
+
+
+
+					To display the journal, enter:
+				
+
+
+
+
+# 
+journalctl -xeu ipsec
+
+
+
+
+
+
+
+					If the default logging level does not provide enough details, enable comprehensive debug logging by adding the following settings to the 
+config setup
+ section in the 
+/etc/ipsec.conf
+ file:
+				
+
+
+
+
+plutodebug
+=
+all
+
+logfile
+=
+/var/log/pluto.log
+
+
+
+
+
+
+
+					Because debug logging can produce many entries, redirecting the messages to a dedicated log file can prevent the 
+journald
+ and 
+systemd
+ services from rate-limiting the messages.
+				
+
+
+Previous
+Next
+
+
+
+
+Format
+Multi-page
+Single-page
+View full doc as PDF
+
+
+
+
+
+
+Github
+Youtube
+Twitter
+Learn
+
+
+Developer resources
+
+
+Cloud learning hub
+
+
+Interactive labs
+
+
+Training and certification
+
+
+Customer support
+
+
+See all documentation
+
+
+Try, buy, & sell
+
+
+Product trial center
+
+
+Red Hat Ecosystem Catalog
+
+
+Red Hat Store
+
+
+Buy online (Japan)
+
+
+Communities
+
+
+Customer Portal Community
+
+
+Events
+
+
+How we contribute
+
+
+About Red Hat
+
+
+We deliver hardened solutions that make it easier for enterprises to work across platforms and environments, from the core datacenter to the network edge.
+
+
+Making open source more inclusive
+
+
+Red Hat is committed to replacing problematic language in our code, documentation, and web properties. For more details, see the 
+Red Hat Blog
+. 
+
+
+About Red Hat Documentation
+
+
+We help Red Hat users innovate and achieve their goals with our products and services with content they can trust. 
+Explore our recent updates
+. 
+
+
+Legal Notice
+Theme
+
+
+ 
+
+
+Red Hat legal and privacy links
+
+
+About Red Hat
+
+
+Jobs
+
+
+Events
+
+
+Locations
+
+
+Contact Red Hat
+
+
+Red Hat Blog
+
+
+Inclusion at Red Hat
+
+
+Cool Stuff Store
+
+
+Red Hat Summit
+
+
+© 2026 Red Hat
+Red Hat legal and privacy links
+
+
+Privacy statement
+
+
+Terms of use
+
+
+All policies and guidelines
+
+
+Digital accessibility
+
+
+
+
+Back to top
+
+
+
+
+
+
+
+
+
+
+
+
+

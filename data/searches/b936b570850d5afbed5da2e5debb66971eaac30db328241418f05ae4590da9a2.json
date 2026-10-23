@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "b936b570850d5afbed5da2e5debb66971eaac30db328241418f05ae4590da9a2",
+  "cachedAt": "2026-10-23T21:03:41Z",
+  "observedAt": "2026-10-23T21:03:41Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-1-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "1",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "privileged access management emergency access configuration guide official documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792789364291,
+    "end": 1792789365167
+  },
+  "outputDigest": "sha256:153869a0b5f2cd824a6916d8c575d868f5a449c06d45b5905757a799d4f907a2",
+  "resultUrls": [
+    "https://help.zscaler.com/zpa/configuring-emergency-access",
+    "https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-deployment-plan",
+    "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-resilient-controls?WT.mc_id=AZ-MVP-5003945",
+    "https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/security-emergency-access",
+    "https://www.securden.com/privileged-access-management/help/emergency-access-settings/how-to-configure-emergency-access.html"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Manage emergency access admin accounts - Microsoft Entra ID | Microsoft Learn\",\n      \"url\": \"https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/security-emergency-access\",\n      \"content\": \"# Manage emergency access admin accounts - Microsoft Entra ID | Microsoft Learn\\n\\nIt's important to prevent accidentally locking yourself out of your Microsoft Entra organization because you can't sign in or activate a role. You can reduce the impact of accidental lack of administrative access by creating two or more emergency access accounts in your organization.\\n\\nUser accounts with the Global Administrator role have high privileges in the system, and this role includes emergency access accounts with the Global Administrator role. Use emergency access accounts only for emergency or \\\"break glass\\\" scenarios where normal administrative accounts can't be used. Restrict emergency account use to only the times when it's absolutely necessary.\\n\\nThis article provides guidelines for managing emergency access accounts in Microsoft Entra ID.\\n\\n## Why use an emergency access account\\n\\nAn organization might need to use an emergency access account in the following situations:\\n\\n- The user accounts are federated, and federation is currently unavailable because of a cell-network break or an identity-provider outage. For example, if the identity provider host in your environment goes down, users might be unable to sign in when Microsoft Entra ID redirects to their identity provider.\\n- The administrators register through Microsoft Entra multifactor authentication, and all their individual devices are unavailable or the service is unavailable. Users might be unable to complete multifactor authentication to activate a role. For example, a cell network outage is preventing them from answering phone calls or receiving text messages, the only two authentication mechanisms that they registered for their device.\\n- The person with",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "help.zscaler.com",
+      "learn.microsoft.com",
+      "www.securden.com"
+    ]
+  }
+}

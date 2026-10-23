@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T21:58:47Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "6-source-6",
+    "type": "technical-doc",
+    "title": "Manage alerts for log-based alerting policies",
+    "publisher": "Google Cloud",
+    "url": "https://docs.cloud.google.com/logging/docs/alerting/log-based-incidents",
+    "language": "en",
+    "jurisdiction": "Global",
+    "applicability": "Organizations using Google Cloud Platform for log-based alerting and incident response management",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:3fb5690cc60dcaaf14dd40c022d6514a664ecc2a3bc2cf3839df72770d4920a0",
+    "textDigest": "sha256:1c2e4fa610d67bad3caf5a96045f4f4d137ea07e7f46472d15d4143d98729a49",
+    "finalUrl": "https://docs.cloud.google.com/logging/docs/alerting/log-based-incidents",
+    "retrievedAt": "2026-10-23T21:58:47Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-3fb5690cc60dcaaf14dd40c022d6514a664ecc2a3bc2cf3839df72770d4920a0.bin",
+    "textPath": "source-1c2e4fa610d67bad3caf5a96045f4f4d137ea07e7f46472d15d4143d98729a49.txt"
+  },
+  "files": {
+    "snapshots/source-3fb5690cc60dcaaf14dd40c022d6514a664ecc2a3bc2cf3839df72770d4920a0.bin": "sha256:3fb5690cc60dcaaf14dd40c022d6514a664ecc2a3bc2cf3839df72770d4920a0",
+    "snapshots/source-1c2e4fa610d67bad3caf5a96045f4f4d137ea07e7f46472d15d4143d98729a49.txt": "sha256:1c2e4fa610d67bad3caf5a96045f4f4d137ea07e7f46472d15d4143d98729a49"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://docs.cloud.google.com/logging/docs/alerting/log-based-incidents",
+  "language": "en",
+  "retrievedAt": "2026-10-23T21:58:47Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T21:58:47Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n      \n\n      \n        \n\n      \n\n    \n\n      \nManage alerts for log-based alerting policies  |  Cloud Logging  |  Google Cloud Documentation\n\n\n\n\n  \n\n  \n\n  \n    \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Google Cloud",
+    "host": "docs.cloud.google.com"
+  }
+}

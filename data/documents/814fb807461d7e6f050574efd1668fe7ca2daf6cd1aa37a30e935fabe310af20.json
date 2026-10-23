@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T22:22:53Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "9-source-4",
+    "type": "technical-doc",
+    "title": "Code Security Configuration Reference",
+    "publisher": "Datadog, Inc.",
+    "url": "https://docs.datadoghq.com/security/code_security/guides/configuration.md",
+    "language": "en",
+    "jurisdiction": "United States",
+    "applicability": "Organizations implementing code security scanning with configuration merging across organizational, repository, and file levels",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:74599b984fe2b619ecf987450ad0865ba6e718b3b185ca1ca614fba1da303096",
+    "textDigest": "sha256:74599b984fe2b619ecf987450ad0865ba6e718b3b185ca1ca614fba1da303096",
+    "finalUrl": "https://docs.datadoghq.com/security/code_security/guides/configuration.md",
+    "retrievedAt": "2026-10-23T22:22:53Z",
+    "contentType": "text/markdown",
+    "snapshotPath": "source-74599b984fe2b619ecf987450ad0865ba6e718b3b185ca1ca614fba1da303096.bin",
+    "textPath": "source-74599b984fe2b619ecf987450ad0865ba6e718b3b185ca1ca614fba1da303096.txt"
+  },
+  "files": {
+    "snapshots/source-74599b984fe2b619ecf987450ad0865ba6e718b3b185ca1ca614fba1da303096.bin": "sha256:74599b984fe2b619ecf987450ad0865ba6e718b3b185ca1ca614fba1da303096",
+    "snapshots/source-74599b984fe2b619ecf987450ad0865ba6e718b3b185ca1ca614fba1da303096.txt": "sha256:74599b984fe2b619ecf987450ad0865ba6e718b3b185ca1ca614fba1da303096"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://docs.datadoghq.com/security/code_security/guides/configuration.md",
+  "language": "en",
+  "retrievedAt": "2026-10-23T22:22:53Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T22:22:53Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "---\ntitle: Code Security Configuration Reference\ndescription: >-\n  Reference for Datadog Code Security configuration, including the schema,\n  configuration locations, and precedence.\nbreadcrumbs: >-\n  Docs > Datadog Security > Code Security > Guides > Code Security Configuration\n  Reference\n---\n\n> For the complete documentation index, see [llms.txt](https://docs.datadoghq.com/llms.txt).\n\n# Code Security Configuration Reference\n\n{% callout %}\n# Important note for users on the following Datadog sites: app.ddog-gov.com, us2.ddog-gov.com\n\n{% alert level=\"danger\" %}\nThis product is not supported for your selected [Datadog site](https://docs.datadoghq.com/getting_started/site.md). ({% placeholder \"user-datadog-site-name\" /%}).\n{% /alert %}\n\n{% /callout %}\n\nDatadog Code Security can be configured",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "9"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Datadog, Inc.",
+    "host": "docs.datadoghq.com"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T22:55:44Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "C-source-1",
+    "type": "technical-doc",
+    "title": "MQTT Version 5.0",
+    "publisher": "OASIS",
+    "url": "https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html",
+    "language": "en",
+    "jurisdiction": "Global",
+    "applicability": "Official MQTT protocol specification detailing message validation, authentication mechanisms, and secure data exchange requirements for IoT communication systems",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:16f24e2b021d86b3bbb2b39c8b5ee134b3d39f69320ba61d3c07a38af74e696c",
+    "textDigest": "sha256:275667c096d78312b3cd76b6802aaf57efdfa3e5d9541f3433fbb4b9bca269b3",
+    "finalUrl": "https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html",
+    "retrievedAt": "2026-10-23T22:55:44Z",
+    "contentType": "text/html",
+    "snapshotPath": "source-16f24e2b021d86b3bbb2b39c8b5ee134b3d39f69320ba61d3c07a38af74e696c.bin",
+    "textPath": "source-275667c096d78312b3cd76b6802aaf57efdfa3e5d9541f3433fbb4b9bca269b3.txt"
+  },
+  "files": {
+    "snapshots/source-16f24e2b021d86b3bbb2b39c8b5ee134b3d39f69320ba61d3c07a38af74e696c.bin": "sha256:16f24e2b021d86b3bbb2b39c8b5ee134b3d39f69320ba61d3c07a38af74e696c",
+    "snapshots/source-275667c096d78312b3cd76b6802aaf57efdfa3e5d9541f3433fbb4b9bca269b3.txt": "sha256:275667c096d78312b3cd76b6802aaf57efdfa3e5d9541f3433fbb4b9bca269b3"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html",
+  "language": "en",
+  "retrievedAt": "2026-10-23T22:55:44Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T22:55:44Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n\n\n\n\n\n\n\n\n\n\n\n\nMQTT Version 5.0 | OASIS Standard\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMQTT Version 5.0\n\n\n\n\n\nOASIS Standard\n\n\n\n\n\n07 March 2019\n\n\n\n\n\n\n\n\n\n\nSpecification URIs\n\n\n\n\n\nThis version:\n\n\n\n\n\nhttps://docs.oasis-open.org/mqtt/mqtt/v5.0/os/mqtt-v5.0-os.docx\n (Authoritative)\n\n\n\n\n\nhttps://docs.oasis-open.org/mqtt/mqtt/v5.0/os/mqtt-v5.0-os.html\n\n\n\n\n\nhttps://docs.oasis-open.org/mqtt/mqtt/v5.0/os/mqtt-v5.0-os.pdf\n\n\n\n\n\nPrevious version:\n\n\n\n\n\nhttp://docs.oasis-open.org/mqtt/mqtt/v5.0/cos01/mqtt-v5.0-cos01.docx\n (Authoritative)\n\n\n\n\n\nhttp://docs.oasis-open.org/mqtt/mqtt/v5.0/cos01/mqtt-v5.0-cos01.html\n\n\n\n\n\nhttp://docs.oasis-open.org/mqtt/mqtt/v5.0/cos01/mqtt-v5.0-cos01.pdf\n\n\n\n\n\nLatest version:\n\n\n\n\n\nhttps://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.docx\n (Authoritative)\n\n\n\n\n\nhttps://docs.oasis-open.org/mqtt/mq",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "C"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "OASIS",
+    "host": "docs.oasis-open.org"
+  }
+}

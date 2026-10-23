@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T22:41:07Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "B-source-5",
+    "type": "technical-doc",
+    "title": "CHIPSEC Framework Documentation: Hardware Security Assessment",
+    "publisher": "CHIPSEC Project",
+    "url": "https://chipsec.github.io/",
+    "language": "en",
+    "jurisdiction": "International open-source community",
+    "applicability": "Hardware security assessment methodology covering UEFI/BIOS verification (Module uefi), secure boot testing (Module smm), and physical interface protection (Module common.cpu)",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:4bf63fd99f82c7d6259ba57f2535b2e92802c7341cf2dd990208322e44a76a4e",
+    "textDigest": "sha256:0ff3507765c0e8d88348b746b949ec7830a42dc9a68e8e681b0237766c5c7765",
+    "finalUrl": "https://chipsec.github.io/",
+    "retrievedAt": "2026-10-23T22:41:07Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-4bf63fd99f82c7d6259ba57f2535b2e92802c7341cf2dd990208322e44a76a4e.bin",
+    "textPath": "source-0ff3507765c0e8d88348b746b949ec7830a42dc9a68e8e681b0237766c5c7765.txt"
+  },
+  "files": {
+    "snapshots/source-4bf63fd99f82c7d6259ba57f2535b2e92802c7341cf2dd990208322e44a76a4e.bin": "sha256:4bf63fd99f82c7d6259ba57f2535b2e92802c7341cf2dd990208322e44a76a4e",
+    "snapshots/source-0ff3507765c0e8d88348b746b949ec7830a42dc9a68e8e681b0237766c5c7765.txt": "sha256:0ff3507765c0e8d88348b746b949ec7830a42dc9a68e8e681b0237766c5c7765"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://chipsec.github.io/",
+  "language": "en",
+  "retrievedAt": "2026-10-23T22:41:07Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T22:41:07Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n\n\n\n  \n\n    \n\n    \n\n\n    \nCHIPSEC 2.0.9 — CHIPSEC  documentation\n\n    \n\n    \n\n    \n    \n\n    \n\n    \n\n    \n    \n\n    \n\n    \n\n    \n \n  \n\n    \n\n      \nNavigation\n\n\n\n      \n\n        \n\n          \nindex\n\n\n\n        \n\n          \nmodules\n |\n\n\n\n        \n\n          \nnext\n |\n\n\n\n        \nCHIPSEC  documentation\n »\n\n\n\n        \nCHIPSEC 2.0.9\n\n\n \n      \n\n    \n\n\n  \n\n    \n\n      \n\n        \n\n          \n\n            \n  \n\n\nCHIPSEC 2.0.9\n¶\n\n\n\n\nCHIPSEC is a framework for analyzing platform level security of\nhardware, devices, system firmware, low-level protection mechanisms, and\nthe configuration of various platform components.\n\n\n\n\nIt contains a set of modules, including simple tests for hardware\nprotections and correct configuration, tests for vulnerabilities in\nfirmware and platform components, security assessm",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "B"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "CHIPSEC Project",
+    "host": "chipsec.github.io"
+  }
+}

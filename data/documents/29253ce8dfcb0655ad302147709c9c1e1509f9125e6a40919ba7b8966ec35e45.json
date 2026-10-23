@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T22:41:06Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "B-source-4",
+    "type": "technical-doc",
+    "title": "OWASP IoT Security Verification Standard (ISVS) - V5: Hardware Platform Requirements",
+    "publisher": "OWASP Foundation",
+    "url": "https://github.com/OWASP/IoT-Security-Verification-Standard-ISVS/blob/master/en/V5-Hardware_Platform_Requirements.md",
+    "language": "en",
+    "jurisdiction": "International open standard",
+    "applicability": "Hardware-rooted security requirements including secure boot configuration (5.1.2), debug interface protection (5.1.1), cryptographic acceleration (5.1.3), physical tamper resistance (5.1.9), and firmware update security (5.1.13)",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:de639d38c0ecf422051979905db862adb2101bc6af8efe37901a836a8aed402d",
+    "textDigest": "sha256:27e5427d2c522432d461902d1f96bc6192cda6a608c1983b0c95cfb9a7b828cf",
+    "finalUrl": "https://github.com/OWASP/IoT-Security-Verification-Standard-ISVS/blob/master/en/V5-Hardware_Platform_Requirements.md",
+    "retrievedAt": "2026-10-23T22:41:06Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-de639d38c0ecf422051979905db862adb2101bc6af8efe37901a836a8aed402d.bin",
+    "textPath": "source-27e5427d2c522432d461902d1f96bc6192cda6a608c1983b0c95cfb9a7b828cf.txt"
+  },
+  "files": {
+    "snapshots/source-de639d38c0ecf422051979905db862adb2101bc6af8efe37901a836a8aed402d.bin": "sha256:de639d38c0ecf422051979905db862adb2101bc6af8efe37901a836a8aed402d",
+    "snapshots/source-27e5427d2c522432d461902d1f96bc6192cda6a608c1983b0c95cfb9a7b828cf.txt": "sha256:27e5427d2c522432d461902d1f96bc6192cda6a608c1983b0c95cfb9a7b828cf"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://github.com/OWASP/IoT-Security-Verification-Standard-ISVS/blob/master/en/V5-Hardware_Platform_Requirements.md",
+  "language": "en",
+  "retrievedAt": "2026-10-23T22:41:06Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T22:41:06Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n\n\n\n  \n\n\n\n\n\n\n\n\n\n  \n\n    \n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n  \n\n\n  \n\n\n    \n\n    \n\n    \n\n    \n\n  \n\n\n\n\n  \n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \nIoT-Security-Verification-Standard-ISVS/en/V5-Hardware_Platform_Requirements.md at master · OWASP/IoT-Security-Verification-Standard-ISVS · GitHub\n\n\n\n\n  \n\n  \n\n  \n\n  \n\n\n    \n  \n\n\n\n  \n\n\n\n    \n\n\n\n  \n\n  \n\n  \n\n  \n\n\n    \n\n\n\n\n\n\n\n\n\n  \n\n\n  \n\n\n\n\n    \n\n\n  \n\n    \n\n\n    \n\n      \n\n\n      \n\n\n    \n\n    \n\n    \n\n\n      \n\n  \n\n  \n\n\n\n\n      \n\n\n\n\n        \n\n\n\n  \n\n  \n\n  \n\n  \n\n\n  \n\n\n      \n\n\n    \n\n\n  \n\n\n  \n\n  \n\n\n\n    \n\n    \n\n  \n\n\n\n  \n\n\n\n  \n\n\n  \n\n  \n\n\n  \n\n  \n\n  \n\n\n\n\n\n\n\n\n  \n\n\n  \n\n\n  \n\n    \n\n      \n\n\n\n      \n\n    \n",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "B"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "OWASP Foundation",
+    "host": "github.com"
+  }
+}

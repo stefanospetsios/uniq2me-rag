@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T21:00:37Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "1-source-4",
+    "type": "technical-doc",
+    "title": "Privileged Access Management | Sectona Docs",
+    "publisher": "Sectona",
+    "url": "https://docs.sectona.com/pam-technical-documentation/6.0",
+    "language": "en",
+    "jurisdiction": "United States",
+    "applicability": "Sectona PAM version 6.0 implementation covering installation, configuration, administration and API integration",
+    "publicationDate": "2026-06-00",
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:0723db8d8d6cfc802a8548b2a94a538eb9cbf7b48cd58b34e43f474f73ba9a9a",
+    "textDigest": "sha256:3047c708cffe3a7dad01ca509fbf3022bf3a61a508cd2016bebb55dcbef49dc7",
+    "finalUrl": "https://docs.sectona.com/pam-technical-documentation/6.0",
+    "retrievedAt": "2026-10-23T21:00:37Z",
+    "contentType": "text/html",
+    "snapshotPath": "source-0723db8d8d6cfc802a8548b2a94a538eb9cbf7b48cd58b34e43f474f73ba9a9a.bin",
+    "textPath": "source-3047c708cffe3a7dad01ca509fbf3022bf3a61a508cd2016bebb55dcbef49dc7.txt"
+  },
+  "files": {
+    "snapshots/source-0723db8d8d6cfc802a8548b2a94a538eb9cbf7b48cd58b34e43f474f73ba9a9a.bin": "sha256:0723db8d8d6cfc802a8548b2a94a538eb9cbf7b48cd58b34e43f474f73ba9a9a",
+    "snapshots/source-3047c708cffe3a7dad01ca509fbf3022bf3a61a508cd2016bebb55dcbef49dc7.txt": "sha256:3047c708cffe3a7dad01ca509fbf3022bf3a61a508cd2016bebb55dcbef49dc7"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://docs.sectona.com/pam-technical-documentation/6.0",
+  "language": "en",
+  "retrievedAt": "2026-10-23T21:00:37Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T21:00:37Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\n\n\n\n\n\n\n\t\n\n\t\n\t\n\n\n\t\t\n\n\n\t\t\t\t\t\t\n\n\n\t\t\n\n\n\t\t\t\t\t\n\n\t\n\n\n\t\n\n\t\t\n\n\t\t\n\n\t\t\n\n\t\t\n\n\n\n\n\n\t\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\nPrivileged Access Management | Sectona Docs\n\n\t\t\n\n\t\t\n\n\n\t\t\n\n\t\t\n\n\n\n\t\t\n\n\t\t\n\n\n\t\n\n\t\n\n\n\t\t\n\n\n\t\t\n\n\n\t\t\n\n\n\t\t\n\n\n\n\n\n\n\n\n\n\n\t\n\n\t\n\n\t\n\n\n\n\t\n\n\n\t\n\n\n\t \n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\t\n\n\t\n\n\t\n\n\n\t\t\t\t\t\t\t\n\n\n\n\n\n\n\t\n\n\n\n\n\n\n\t\t\t\t\n\n\n\n\n\n\n\n\n\t\t\t\n\t\t\n\n\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\n\n\n\n\t\n\n\t\t\nSkip to main content\n\n\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\n\n\t\t\n\n\n\t\t\n\n\n\n\n\n\t\t\n\n\n\t\t\n\n\n\t\t\n\n\n\t\n\n\n\n\t\n\n\t\t\t\n\n\t\t\t\t\n\n\t\t\t\t\t\t\nContact Support\n\n\n\n\t\t\t\t\t\t\nDownload Resources\n\n\n\n\t\t\t\t\n\n\t\t\t\n\n\n\n\n\t\t\n\n\n\n\t\t\t\t\t\n\n\n\n\t\t\t\t\t\n\n\n\n\t\t\t\t\t\n\n\n\n\t\t\t\t\t\n\n\n\n\t\t\t\t\t\n\n\n\n\t\n\n\t\t\t\t\n\n\t\t\t\n\n\t\t\n\n\n\t\t\n\n\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\n\t\n\n\t\t\n\n\t\n\n\t\t\n\n\n\t\t\n\n\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\n6.0\n\n\t\t\t\t\n\n\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\n5.5\n\n\t\t\t\t\n\n\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\n5.4\n\n\t\t\t\t\n\n\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\n5.3\n\n\t\t\t\t\n\n\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\n4.6\n\n\t\t\t\t\n\n\t\t\n\n\t\n\n\n\t\t\n\n\n\n\n\n\n\t\t\t",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Sectona",
+    "host": "docs.sectona.com"
+  }
+}

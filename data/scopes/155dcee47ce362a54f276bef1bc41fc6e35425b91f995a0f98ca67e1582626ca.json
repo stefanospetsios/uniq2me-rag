@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-scope",
+  "cachedAt": "2026-10-23T23:08:14Z",
+  "scopeId": "D",
+  "fingerprint": "155dcee47ce362a54f276bef1bc41fc6e35425b91f995a0f98ca67e1582626ca",
+  "originRunId": "qwen3-40019296746",
+  "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "D"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "scope-admitted",
+    "publisher": null,
+    "host": null
+  },
+  "corpus": {
+    "sources": {
+      "D-source-1": {
+        "type": "technical-doc",
+        "title": "ENISA Technical Implementation Guidance on Cybersecurity Risk Management Measures (Version 1.0)",
+        "publisher": "European Union Agency for Cybersecurity (ENISA)",
+        "url": "https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf",
+        "language": "en",
+        "jurisdiction": "European Union",
+        "applicability": "NIS2-relevant entities across all sectors requiring implementation of defined security roles, responsibilities, authorities and policy documentation per Article 21 obligations",
+        "publicationDate": "2025-06",
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "D-source-1",
+        "byteDigest": "sha256:f03186edb047ece269ab9deeb3f0ec6172582ccc577617f0eb79e9bf96a7021b",
+        "textDigest": "sha256:effbd5b01b9fc323fad9ab61fca97caa63acc7891c62076f42f8f6537096d36d",
+        "finalUrl": "https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf",
+        "retrievedAt": "2026-10-23T21:32:49Z",
+        "contentType": "application/pdf",
+        "snapshotPath": "source-f03186edb047ece269ab9deeb3f0ec6172582ccc577617f0eb79e9bf96a7021b.bin",
+        "textPath": "source-effbd5b01b9fc323fad9ab61fca97caa63acc7891c62076f42f8f6537096d36d.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "cacheReuse": {
+          "originRunId": "qwen3-40019296746",
+          "cacheCommit": null,
+          "reusedAt": "2026-10-23T23:05:22Z",
+          "webRecheckedThisRun": true
+        },
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Annex to Implementing Regulation (EU) 2024/2690, point 1.1.1(k)",
+            "text": "indicate the date of the formal approval by the management bodies of the relevant entities (the 'management bodies')."
+          },
+          {
+            "id": "p2",
+            "locator": "Annex to Implementing Regulation (EU) 2024/2690, point 1.1.1(g)",
+            "text": "lay down roles and responsibilities pursuant to point 1.2"
+          },
+          {
+            "id": "p3",
+            "locator": "Annex to Implementing Regulation (EU) 2024/2690, point 1.1.2",
+            "text": "The network and information system security policy shall be reviewed and, where appropriate, updated by management bodies at least annually and when significant incidents or significant changes to operations or risks occur."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": [
+          "p1"
+        ]
+      },
+      "D-source-2": {
+        "type": "guidance",
+        "title": "Mapping NIS2 Obligations with ECSF Role Profiles",
+        "publisher": "European Union Agency for Cybersecurity (ENISA)",
+        "url": "https://www.enisa.europa.eu/sites/default/files/2025-06/Mapping%20NIS%202%20obligations%20with%20ECSF%20role%20profiles.pdf",
+        "language": "en",
+        "jurisdiction": "European Union",
+        "applicability": "NIS2 entities implementing role-specific cybersecurity responsibilities through the European Cybersecurity Skills Framework (ECSF) alignment",
+        "publicationDate": "2025-06",
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "D-source-2",
+        "byteDigest": "sha256:ae3300be1bb5dfb5a8fd43d268ab8ae9474cfba381ea2151c0ddbdb40051cc1b",
+        "textDigest": "sha256:981d3bd243637993b1ba0fa7ff5b967c0f1692a56856dc4e6b5bd5794f8077b6",
+        "finalUrl": "https://www.enisa.europa.eu/sites/default/files/2025-06/Mapping%20NIS%202%20obligations%20with%20ECSF%20role%20profiles.pdf",
+        "retrievedAt": "2026-10-23T23:05:22Z",
+        "contentType": "application/pdf",
+        "snapshotPath": "source-ae3300be1bb5dfb5a8fd43d268ab8ae9474cfba381ea2151c0ddbdb40051cc1b.bin",
+        "textPath": "source-981d3bd243637993b1ba0fa7ff5b967c0f1692a56856dc4e6b5bd5794f8077b6.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Executive Summary",
+            "text": "Each role is mapped to its specific tasks, assisting entities in understanding what personnel capabilities are required to fulfil these obligations successfully."
+          },
+          {
+            "id": "p2",
+            "locator": "Introduction section",
+            "text": "To implement the directive effectively, entities should define internal cybersecurity roles and responsibilities aligned with its requirements7."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      }
+    },
+    "concerns": [
+      {
+        "id": "D-concern-1",
+        "sfsId": "D",
+        "description": "Existence of documented security policy formally approved by management bodies with specified review cycles",
+        "sourceRefs": [
+          {
+            "sourceId": "D-source-1",
+            "passageId": "p1"
+          },
+          {
+            "sourceId": "D-source-1",
+            "passageId": "p3"
+          }
+        ]
+      },
+      {
+        "id": "D-concern-2",
+        "sfsId": "D",
+        "description": "Clear documentation of roles and responsibilities for security functions including accountability frameworks",
+        "sourceRefs": [
+          {
+            "sourceId": "D-source-1",
+            "passageId": "p2"
+          },
+          {
+            "sourceId": "D-source-2",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "D-concern-3",
+        "sfsId": "D",
+        "description": "Implementation of workforce awareness and training programs aligned with security responsibilities",
+        "sourceRefs": [
+          {
+            "sourceId": "D-source-2",
+            "passageId": "p2"
+          }
+        ]
+      }
+    ],
+    "queries": [
+      {
+        "scope": "D",
+        "toolId": "searxng_web_search",
+        "input": {
+          "query": "Roles Responsibilities Authorities Security Policy official implementation configuration documentation",
+          "max_results": 8,
+          "safesearch": 1,
+          "time_range": ""
+        },
+        "outputDigest": "sha256:70ee7a1b1803035c1ae09a7faa7f9e3c5cb0cae3892458b7c3734d9b729e6392",
+        "callId": "sources-D-1-discovery",
+        "reusedScopeObservation": true
+      },
+      {
+        "scope": "D",
+        "toolId": "websearch_web_search",
+        "input": {
+          "query": "security governance official maintainer implementation configuration documentation",
+          "max_results": 8
+        },
+        "outputDigest": "sha256:642b11a5c969ad286b5bab9c5f90fc2c626332c9e0a5c3aa7634be470e8d7c55",
+        "callId": "sources-D-1-discovery",
+        "reusedScopeObservation": true
+      },
+      {
+        "scope": "D",
+        "toolId": "searxng_web_search",
+        "input": {
+          "query": "Roles Responsibilities Authorities Security Policy official implementation configuration documentation NIS2 ENISA technical guidance",
+          "max_results": 10,
+          "safesearch": 1,
+          "time_range": ""
+        },
+        "outputDigest": "sha256:354767bab48c3d41bc7c06cd207c73308badb2cbfe14630eaad6452bef5f7c19",
+        "callId": "sources-D-2-discovery"
+      },
+      {
+        "scope": "D",
+        "toolId": "websearch_web_search",
+        "input": {
+          "query": "Roles Responsibilities Authorities Security Policy official implementation configuration documentation NIS2 ENISA technical guidance site:europa.eu site:enisa.europa.eu site:cyber.gov.gr",
+          "max_results": 10
+        },
+        "outputDigest": "sha256:ce536298b7d51ecea181702e6278f7b14870033f9b699b9ca95fd0e99792b641",
+        "callId": "sources-D-2-discovery"
+      }
+    ],
+    "limitations": [
+      {
+        "scope": "D",
+        "description": "Actual publication dates require verification from document metadata (currently inferred from URL paths)"
+      },
+      {
+        "scope": "D",
+        "description": "Greek implementation details via cyber.gov.gr were not observed in this search session"
+      },
+      {
+        "scope": "D",
+        "description": "ENISA guidance version 1.0 is current authoritative technical reference but does not replace binding Implementing Regulation 2024/2690 text"
+      },
+      {
+        "scope": "D",
+        "description": "Dynamic EU legal texts require CELEX number verification for exact consolidated version"
+      },
+      {
+        "scope": "D",
+        "description": "Excluded optional discovery candidate: Source URL was not observed in search results: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R2690"
+      },
+      {
+        "scope": "D",
+        "description": "Excluded optional fetched source D-source-3 (https://www.enisa.europa.eu/publications/nis2-technical-implementation-guidance): HTML metadata page without substantive implementation documentation for roles/responsibilities requirements"
+      },
+      {
+        "scope": "D",
+        "description": "Some source URLs were observed in earlier discovery calls for this same scope; original tool provenance is retained."
+      },
+      {
+        "scope": "D",
+        "description": "Some documents came from prior fetched snapshots with original retrieval dates; their current web contents were not rechecked in this run."
+      }
+    ],
+    "admissionVersion": 2,
+    "observedResultUrls": [
+      "https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf",
+      "https://www.enisa.europa.eu/sites/default/files/2025-06/Mapping%20NIS%202%20obligations%20with%20ECSF%20role%20profiles.pdf"
+    ]
+  },
+  "files": {
+    "snapshots/source-f03186edb047ece269ab9deeb3f0ec6172582ccc577617f0eb79e9bf96a7021b.bin": "sha256:f03186edb047ece269ab9deeb3f0ec6172582ccc577617f0eb79e9bf96a7021b",
+    "snapshots/source-effbd5b01b9fc323fad9ab61fca97caa63acc7891c62076f42f8f6537096d36d.txt": "sha256:effbd5b01b9fc323fad9ab61fca97caa63acc7891c62076f42f8f6537096d36d",
+    "snapshots/source-ae3300be1bb5dfb5a8fd43d268ab8ae9474cfba381ea2151c0ddbdb40051cc1b.bin": "sha256:ae3300be1bb5dfb5a8fd43d268ab8ae9474cfba381ea2151c0ddbdb40051cc1b",
+    "snapshots/source-981d3bd243637993b1ba0fa7ff5b967c0f1692a56856dc4e6b5bd5794f8077b6.txt": "sha256:981d3bd243637993b1ba0fa7ff5b967c0f1692a56856dc4e6b5bd5794f8077b6"
+  }
+}

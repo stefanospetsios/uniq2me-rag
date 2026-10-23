@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T23:17:27Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "legal-source-2",
+    "type": "law",
+    "title": "Law 5160/2024 on the implementation of Directive (EU) 2022/2555 (NIS2) in Greece",
+    "publisher": "Hellenic Republic Government Gazette",
+    "url": "https://cyber.gov.gr/wp-content/uploads/2024/12/ENOTHTA_5_%CE%9D%CE%9F%CE%9C%CE%9F%CE%98%CE%95%CE%A3%CE%99%CE%91_fek_a_195_2024-5160-2024-1.pdf",
+    "language": "el",
+    "jurisdiction": "Greece",
+    "applicability": "Covered entities in Greek healthcare, energy, public administration and other NIS2 sectors; implements Article 21 sectoral cooperation mechanisms",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:76dcd319264145e0365f90f8f8dc70da00bab17f060a1fbc796baeeac161f879",
+    "textDigest": "sha256:ddf81d4b982c31efffff0fc0d43aa083b903e585de231bc6fb89b4b34dd7eb44",
+    "finalUrl": "https://cyber.gov.gr/wp-content/uploads/2024/12/ENOTHTA_5_%CE%9D%CE%9F%CE%9C%CE%9F%CE%98%CE%95%CE%A3%CE%99%CE%91_fek_a_195_2024-5160-2024-1.pdf",
+    "retrievedAt": "2026-10-23T23:17:27Z",
+    "contentType": "application/pdf",
+    "snapshotPath": "source-76dcd319264145e0365f90f8f8dc70da00bab17f060a1fbc796baeeac161f879.bin",
+    "textPath": "source-ddf81d4b982c31efffff0fc0d43aa083b903e585de231bc6fb89b4b34dd7eb44.txt"
+  },
+  "files": {
+    "snapshots/source-76dcd319264145e0365f90f8f8dc70da00bab17f060a1fbc796baeeac161f879.bin": "sha256:76dcd319264145e0365f90f8f8dc70da00bab17f060a1fbc796baeeac161f879",
+    "snapshots/source-ddf81d4b982c31efffff0fc0d43aa083b903e585de231bc6fb89b4b34dd7eb44.txt": "sha256:ddf81d4b982c31efffff0fc0d43aa083b903e585de231bc6fb89b4b34dd7eb44"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://cyber.gov.gr/wp-content/uploads/2024/12/ENOTHTA_5_%CE%9D%CE%9F%CE%9C%CE%9F%CE%98%CE%95%CE%A3%CE%99%CE%91_fek_a_195_2024-5160-2024-1.pdf",
+  "language": "el",
+  "retrievedAt": "2026-10-23T23:17:27Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T23:17:27Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "                                        E\n                                                                           28.11.2024 11:55:41\n\n                                                                           ΨΗΦΙΑΚΑ\n\n                                                                           ΥΠΟΓΕΓΡΑΜΜΕΝΟ\n\n                                                                           ΑΠΟ\n                                                                                                                  9875\n                                                                           VARVARA ZACHARAKI\n\n\n\n\n                                      ΕΦΗΜΕΡΙΔΑ\n                          ΤΗΣ ΚΥΒΕΡΝΗΣΕΩΣ\n                        ΤΗΣ ΕΛΛΗΝΙΚΗΣ ΔΗΜΟΚΡΑΤΙΑΣ\n     27 Νοεμβρίου 2024                        ΤΕΥΧΟΣ ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "el"
+    ],
+    "scopeIds": [
+      "legal"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Hellenic Republic Government Gazette",
+    "host": "cyber.gov.gr"
+  }
+}

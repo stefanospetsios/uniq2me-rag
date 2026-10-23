@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T22:19:32Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "9-source-3",
+    "type": "technical-doc",
+    "title": "Security configuration",
+    "publisher": "GitLab, Inc.",
+    "url": "https://docs.gitlab.com/user/application_security/detect/security_configuration/",
+    "language": "en",
+    "jurisdiction": "United States",
+    "applicability": "GitLab projects implementing vulnerability scanning, secret detection, and dependency auditing",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:7c514b33eaaa77b3ac47c10780010263fc4f53e992bd4d24bf1552a9a8bee07a",
+    "textDigest": "sha256:db9c86bc2e0d3e67dd5a54c796b6202f7f4a25eca08f6a228d535a042cc013d6",
+    "finalUrl": "https://docs.gitlab.com/user/application_security/detect/security_configuration/",
+    "retrievedAt": "2026-10-23T22:19:32Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-7c514b33eaaa77b3ac47c10780010263fc4f53e992bd4d24bf1552a9a8bee07a.bin",
+    "textPath": "source-db9c86bc2e0d3e67dd5a54c796b6202f7f4a25eca08f6a228d535a042cc013d6.txt"
+  },
+  "files": {
+    "snapshots/source-7c514b33eaaa77b3ac47c10780010263fc4f53e992bd4d24bf1552a9a8bee07a.bin": "sha256:7c514b33eaaa77b3ac47c10780010263fc4f53e992bd4d24bf1552a9a8bee07a",
+    "snapshots/source-db9c86bc2e0d3e67dd5a54c796b6202f7f4a25eca08f6a228d535a042cc013d6.txt": "sha256:db9c86bc2e0d3e67dd5a54c796b6202f7f4a25eca08f6a228d535a042cc013d6"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://docs.gitlab.com/user/application_security/detect/security_configuration/",
+  "language": "en",
+  "retrievedAt": "2026-10-23T22:19:32Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T22:19:32Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "Security configuration | GitLab Docs\nSkip to main content\n\n\nGo to GitLab Docs homepage\n\n\n\n\n\n\nWhat's new?\n\n\n\n\n\n\n\n\nWhat's new?\n\n\nGet free trial\n\n\n\n\n\n\n\n\n\n\n\n\nToggle menu\n\n\nUse GitLab\n\n\nGitLab Duo\n\n\nGitLab Orbit\n\n\nExtend\n\n\nInstall\n\n\nAdminister\n\n\nSubscribe\n\n\nContribute\n\n\nSolutions\n\n\n\n\n\n\n\n\n\n\nGetting started\n\n\n\n\n\n\nTutorials\n\n\n\n\n\n\nManage your organization\n\n\n\n\n\n\nOrganize work with projects\n\n\n\n\n\n\nPlan and track work\n\n\n\n\n\n\nManage authentication and authorization\n\n\n\n\n\n\nUse Git\n\n\n\n\n\n\nManage your code\n\n\n\n\n\n\nUse CI/CD to build your application\n\n\n\n\n\n\nSecure your application\n\n\n\n\nGetting started\n\n\n\n\n\n\nTutorials\n\n\n\n\n\n\nAI Governance\n\n\n\n\n\n\nApplication security\n\n\n\n\n\n\nCompliance\n\n\n\n\n\n\nDetect\n\n\n\n\nSecurity configuration\n\n\n\n\n\n\nRoll out security scanning\n\n\n\n\n\n\nSARIF reports\n\n\n\n\n\n\nSecurity scanning results\n\n\n\n\n\n\nPacka",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "9"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "GitLab, Inc.",
+    "host": "docs.gitlab.com"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T23:09:10Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "E-source-1",
+    "type": "technical-doc",
+    "title": "Implementing security and responsible AI - AWS Prescriptive Guidance",
+    "publisher": "Amazon Web Services",
+    "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/gen-ai-inference-architecture-and-best-practices-on-aws/implementing-security-rai.html",
+    "language": "en",
+    "jurisdiction": "United States (global applicability)",
+    "applicability": "Covers model assessment for bias/fairness, documentation preparation (model cards), technical safeguards for privacy/PII, deployment approval workflows, and governance setup addressing training data provenance and ethical deployment approval as specified in area boundaries",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "Before moving to inference/Model assessment",
+        "text": "During the model assessment phase, the evaluation report helps the organization understand the model's robustness and explainability through quantitative and qualitative analyses. This analysis includes evaluating accuracy metrics, fairness scores, and error distributions, complemented by human-in-the-loop reviews and A/B testing to validate real-world performance."
+      },
+      {
+        "id": "p2",
+        "locator": "Before moving to inference/Documentation preparation",
+        "text": "A model card should include detailed specifications of the model architecture, training methodology, and hyperparameter configurations, along with performance metrics across diverse datasets and demographic groups. It must also explicitly outline both intended use cases and scenarios where the model should not be applied, establishing clear boundaries for appropriate deployment."
+      },
+      {
+        "id": "p3",
+        "locator": "Before moving to inference/Technical safeguards",
+        "text": "Thorough sanitization processes for PII"
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:413cfb0b8192f0dbf53c213ba95f5a00477e0b527cd3e2384fa6df19e1377e56",
+    "textDigest": "sha256:aca1b596338dc6ada2f40a80c417e39b3e843f0ad30e11ddee3aec16d01e646e",
+    "finalUrl": "https://docs.aws.amazon.com/prescriptive-guidance/latest/gen-ai-inference-architecture-and-best-practices-on-aws/implementing-security-rai.html",
+    "retrievedAt": "2026-10-23T23:09:10Z",
+    "contentType": "text/html",
+    "snapshotPath": "source-413cfb0b8192f0dbf53c213ba95f5a00477e0b527cd3e2384fa6df19e1377e56.bin",
+    "textPath": "source-aca1b596338dc6ada2f40a80c417e39b3e843f0ad30e11ddee3aec16d01e646e.txt"
+  },
+  "files": {
+    "snapshots/source-413cfb0b8192f0dbf53c213ba95f5a00477e0b527cd3e2384fa6df19e1377e56.bin": "sha256:413cfb0b8192f0dbf53c213ba95f5a00477e0b527cd3e2384fa6df19e1377e56",
+    "snapshots/source-aca1b596338dc6ada2f40a80c417e39b3e843f0ad30e11ddee3aec16d01e646e.txt": "sha256:aca1b596338dc6ada2f40a80c417e39b3e843f0ad30e11ddee3aec16d01e646e"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://docs.aws.amazon.com/prescriptive-guidance/latest/gen-ai-inference-architecture-and-best-practices-on-aws/implementing-security-rai.html",
+  "language": "en",
+  "retrievedAt": "2026-10-23T23:09:10Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T23:10:13Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n    \nImplementing security and responsible AI - AWS Prescriptive Guidance\n \n\n\nView a markdown version of this page\n\n\n\n\nImplementing security and responsible AI - AWS Prescriptive Guidance\n\n\nDocumentation\nAWS Prescriptive Guidance\nGenerative AI inference architecture and best practices on AWS\n\n\nBefore moving to inference\nAfter inference deployment\n\n\nImplementing security and responsible AI\n\n\n\n\nBuilding generative AI (gen AI) models involves complex technical and business decisions. To speed up experimentation, some \nresponsible AI (RAI)\n evaluations might be overlooked initially. However, conducting an RAI review \nbefore \nmoving to inference helps organizations strengthen risk assessment and resource management through a structured evaluation process. This pre-release review serves as the ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "E"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "Amazon Web Services",
+    "host": "docs.aws.amazon.com"
+  }
+}

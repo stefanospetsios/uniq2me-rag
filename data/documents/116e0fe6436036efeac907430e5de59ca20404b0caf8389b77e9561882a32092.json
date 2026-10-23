@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T23:01:31Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "D-source-5",
+    "type": "guidance",
+    "title": "CNCF Maintainer Council Governance Template",
+    "publisher": "Cloud Native Computing Foundation (CNCF)",
+    "url": "https://contribute.cncf.io/projects/best-practices/governance/templates/governance-maintainer/",
+    "language": "en",
+    "jurisdiction": "International",
+    "applicability": "Cloud-native open source projects implementing maintainer role definitions, decision authority structures, and security governance workflows",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:ac331c6370b275c1859c46369376e155094c5a41d39827363854ac6c92e7f392",
+    "textDigest": "sha256:00a86e311036bd3dacd394b6cd0c8ea8cac546d97a28028271ac2804225a7ae8",
+    "finalUrl": "https://contribute.cncf.io/projects/best-practices/governance/templates/governance-maintainer/",
+    "retrievedAt": "2026-10-23T23:01:31Z",
+    "contentType": "text/html; charset=UTF-8",
+    "snapshotPath": "source-ac331c6370b275c1859c46369376e155094c5a41d39827363854ac6c92e7f392.bin",
+    "textPath": "source-00a86e311036bd3dacd394b6cd0c8ea8cac546d97a28028271ac2804225a7ae8.txt"
+  },
+  "files": {
+    "snapshots/source-ac331c6370b275c1859c46369376e155094c5a41d39827363854ac6c92e7f392.bin": "sha256:ac331c6370b275c1859c46369376e155094c5a41d39827363854ac6c92e7f392",
+    "snapshots/source-00a86e311036bd3dacd394b6cd0c8ea8cac546d97a28028271ac2804225a7ae8.txt": "sha256:00a86e311036bd3dacd394b6cd0c8ea8cac546d97a28028271ac2804225a7ae8"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://contribute.cncf.io/projects/best-practices/governance/templates/governance-maintainer/",
+  "language": "en",
+  "retrievedAt": "2026-10-23T23:01:31Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T23:01:31Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n\n\n\n\n\n\n\n\n\nThe Maintainer Council Template | CNCF Contributors\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFor AI agents: a documentation index is available at /llms.txt. Every documentation page and blog post has a Markdown version: remove any trailing slash from its URL and append .md (the home page is /index.md).\n\n\nSkip to main content\n\n\n\n\nMaintainers\nProjects\nCommunity\nTechDocs\n\n\nNew Contributors\nResources\nEvents\nSecurity\nBlog\n\n\n\n\n\n\n\n\n\n\n\n\nCNCF Projects\n\n\nContacting the TOC\n\n\nBest Practices\n\n\nCommunity\n\n\n\n\nGovernance\n\n\nCharter\n\n\nLeadership Selection\n\n\nOrg-Balanced Voting\n\n\nGovernance Transitions\n\n\nGovernance Templates\n\n\nSteering Committee\n\n\nMaintainer Council\n\n\nSubprojects (Delegation)\n\n\n\n\n\n\nAccessibility\n\n\n\n\nSecurity Guidelines\n\n\n\n\n Project Templates & Resources\n\n\n\n\n\n\nProject Lifecycle and",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "D"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Cloud Native Computing Foundation (CNCF)",
+    "host": "contribute.cncf.io"
+  }
+}

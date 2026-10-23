@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T21:37:37Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "5-source-6",
+    "type": "guidance",
+    "title": "Introduction to the Cisco Secure Networking Architecture",
+    "publisher": "Cisco Systems",
+    "url": "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Campus/Intro-Cisco-Secure-Network-Architecture.html",
+    "language": "en",
+    "jurisdiction": "Global",
+    "applicability": "Comprehensive framework covering network segmentation through security groups, zero-trust implementation patterns, and distributed enforcement models. Directly addresses traffic control policies, network review processes, and security boundary management specified in the scope.",
+    "publicationDate": "2026-05-31",
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "CSN architectural layers and functions",
+        "text": "Segment and Protect\n: Translate identity and business intent into segmentation that limits unnecessary communication"
+      },
+      {
+        "id": "p2",
+        "locator": "Executive summary",
+        "text": "As the traditional perimeter dissolves, fragmented, bolt-on security cannot keep pace with machine-speed exploitation, AI-driven lateral movement, infrastructure-targeted attacks, compromised identities, and the “harvest-now, decrypt-later” quantum threat."
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:a4ff80b2592aa5b790846f6cfff6f918e0096f6443ac14101fd813566bf0332c",
+    "textDigest": "sha256:05a79016310c95fcc89b86be096f3086bb6e03212f96a36913219db826224b50",
+    "finalUrl": "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Campus/Intro-Cisco-Secure-Network-Architecture.html",
+    "retrievedAt": "2026-10-23T21:37:37Z",
+    "contentType": "text/html;charset=utf-8",
+    "snapshotPath": "source-a4ff80b2592aa5b790846f6cfff6f918e0096f6443ac14101fd813566bf0332c.bin",
+    "textPath": "source-05a79016310c95fcc89b86be096f3086bb6e03212f96a36913219db826224b50.txt"
+  },
+  "files": {
+    "snapshots/source-a4ff80b2592aa5b790846f6cfff6f918e0096f6443ac14101fd813566bf0332c.bin": "sha256:a4ff80b2592aa5b790846f6cfff6f918e0096f6443ac14101fd813566bf0332c",
+    "snapshots/source-05a79016310c95fcc89b86be096f3086bb6e03212f96a36913219db826224b50.txt": "sha256:05a79016310c95fcc89b86be096f3086bb6e03212f96a36913219db826224b50"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Campus/Intro-Cisco-Secure-Network-Architecture.html",
+  "language": "en",
+  "retrievedAt": "2026-10-23T21:37:37Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T21:52:36Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n\n    \n\n    \n\n    \n\n    \n\n\n    \n        \n\n        \n \n         \n    \n    \n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n        \nDesign Zone - Introduction to the Cisco Secure Networking Architecture - Cisco\n\n    \n    \n    \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n\t\n\n    \n \n    \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n      \n\n\n\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n    \n\n\n    \n\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n       \n\n    \n\n    \n    \n\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n\n                                \n\n\n\n\n    \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n\n        \nSkip to con",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "Cisco Systems",
+    "host": "www.cisco.com"
+  }
+}

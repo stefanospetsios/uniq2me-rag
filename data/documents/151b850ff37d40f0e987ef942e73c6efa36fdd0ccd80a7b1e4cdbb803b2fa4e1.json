@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T21:53:24Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "6-source-2",
+    "type": "technical-doc",
+    "title": "Guide to Computer Security Log Management (NIST SP 800-92)",
+    "publisher": "National Institute of Standards and Technology (NIST)",
+    "url": "https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-92.pdf",
+    "language": "en",
+    "jurisdiction": "United States",
+    "applicability": "Organizations implementing log management systems for security monitoring and forensic analysis",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:466c3ab1580bc3b2e25d11bbd4b2ac92fd1762b3c5b10596924981bc1b9e61e1",
+    "textDigest": "sha256:bf69ee8203767cc9a6ea381ab3b3989ec38d7abe06876f5800db5325398dc7ac",
+    "finalUrl": "https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-92.pdf",
+    "retrievedAt": "2026-10-23T21:53:24Z",
+    "contentType": "application/pdf",
+    "snapshotPath": "source-466c3ab1580bc3b2e25d11bbd4b2ac92fd1762b3c5b10596924981bc1b9e61e1.bin",
+    "textPath": "source-bf69ee8203767cc9a6ea381ab3b3989ec38d7abe06876f5800db5325398dc7ac.txt"
+  },
+  "files": {
+    "snapshots/source-466c3ab1580bc3b2e25d11bbd4b2ac92fd1762b3c5b10596924981bc1b9e61e1.bin": "sha256:466c3ab1580bc3b2e25d11bbd4b2ac92fd1762b3c5b10596924981bc1b9e61e1",
+    "snapshots/source-bf69ee8203767cc9a6ea381ab3b3989ec38d7abe06876f5800db5325398dc7ac.txt": "sha256:bf69ee8203767cc9a6ea381ab3b3989ec38d7abe06876f5800db5325398dc7ac"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-92.pdf",
+  "language": "en",
+  "retrievedAt": "2026-10-23T21:53:24Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T21:53:24Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "                           Special Publication 800-92\n\n\n\n\nGuide to Computer Security\nLog Management\n\nRecommendations of the National Institute\nof Standards and Technology\n\n\nKaren Kent\nMurugiah Souppaya\n\f\f\fGUIDE TO COMPUTER SECURITY LOG MANAGEMENT\n\n\n\n\n                         Reports on Computer Systems Technology\n\nThe Information Technology Laboratory (ITL) at the National Institute of Standards and Technology\n(NIST) promotes the U.S. economy and public welfare by providing technical leadership for the nation’s\nmeasurement and standards infrastructure. ITL develops tests, test methods, reference data, proof of\nconcept implementations, and technical analysis to advance the development and productive use of\ninformation technology. ITL’s responsibilities include the development of technical, ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "National Institute of Standards and Technology (NIST)",
+    "host": "nvlpubs.nist.gov"
+  }
+}

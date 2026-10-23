@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T21:28:35Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "4-source-2",
+    "type": "guidance",
+    "title": "Architecture strategies for data classification in Microsoft Azure",
+    "publisher": "Microsoft Corporation",
+    "url": "https://learn.microsoft.com/en-us/azure/well-architected/security/data-classification",
+    "language": "en",
+    "jurisdiction": "Global",
+    "applicability": "Technical implementation guide for data classification in cloud environments, including sensitivity categorization, retention policies, access governance, and encryption standards across storage types. Directly addresses data lifecycle management requirements in cloud storage configurations.",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:c34d8a6e4cbc15d1be60a249849567f20e15061d203822e6ff4c86ed5d1399e3",
+    "textDigest": "sha256:33a446ae9e2f5224f8c3d8f99755008f0ab7b9cfdd66d115b4af7484bbed08f2",
+    "finalUrl": "https://learn.microsoft.com/en-us/azure/well-architected/security/data-classification",
+    "retrievedAt": "2026-10-23T21:28:35Z",
+    "contentType": "text/html",
+    "snapshotPath": "source-c34d8a6e4cbc15d1be60a249849567f20e15061d203822e6ff4c86ed5d1399e3.bin",
+    "textPath": "source-33a446ae9e2f5224f8c3d8f99755008f0ab7b9cfdd66d115b4af7484bbed08f2.txt"
+  },
+  "files": {
+    "snapshots/source-c34d8a6e4cbc15d1be60a249849567f20e15061d203822e6ff4c86ed5d1399e3.bin": "sha256:c34d8a6e4cbc15d1be60a249849567f20e15061d203822e6ff4c86ed5d1399e3",
+    "snapshots/source-33a446ae9e2f5224f8c3d8f99755008f0ab7b9cfdd66d115b4af7484bbed08f2.txt": "sha256:33a446ae9e2f5224f8c3d8f99755008f0ab7b9cfdd66d115b4af7484bbed08f2"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://learn.microsoft.com/en-us/azure/well-architected/security/data-classification",
+  "language": "en",
+  "retrievedAt": "2026-10-23T21:28:35Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T21:28:35Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": " \n\n\t\t\n\n\t\t\t\n\t\t\n\n\t\t\t\nArchitecture strategies for data classification - Microsoft Azure Well-Architected Framework | Microsoft Learn\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n \n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n \n\n\t\t\t\n\n\t\t\t \n\t\t\t\n\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t \n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\t\t\t\n\n\t\t\t\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\t\t\n\n\t\n\t\t\t\n\n\t\t\t\t\n\n\t\t\n\n\t\t\t\n\t\t\n\n\t\t\tSkip to main content\n\t\t\n\n\t\n\t\t\n\n\t\t\tSkip to Ask Learn chat experience\n\t\t\n\n\t\n\n\t\t\t\n\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\t\n\n\t\t\t\t\t\nThis browser is no longer supported.\n\n\n\n\t\t\t\t\t\n\n\t\t\t\t\t\tUpgrade to Microsoft Edge to take advantage of the latest ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "4"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Microsoft Corporation",
+    "host": "learn.microsoft.com"
+  }
+}

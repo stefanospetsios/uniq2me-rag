@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "f16a3da5fde5c887478955ca3d321c8dfeea38d3c1c212f68075ad249e664ed6",
+  "cachedAt": "2026-10-23T21:28:33Z",
+  "observedAt": "2026-10-23T21:28:33Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-4-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "4",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "Data Storage and Handling official implementation configuration documentation data classification data ownership network-attached storage cloud storage document management encryption data sharing retention deletion privacy"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792790889437,
+    "end": 1792790891210
+  },
+  "outputDigest": "sha256:2ab57d1334f769a96551c5dd9c219cc31d1fa33a5b4035351755a4afc677b3ed",
+  "resultUrls": [
+    "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-209.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Security Guidelines for Storage Infrastructure\",\n      \"url\": \"https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-209.pdf\",\n\n...1394366 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_16aaa0ac8001rlA0bksDm0iacl\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "4"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "nvlpubs.nist.gov"
+    ]
+  }
+}

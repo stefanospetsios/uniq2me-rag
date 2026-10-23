@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "b6f2799b55418264b1f4761e819688f03db9ed1b3ec59ed2a8bef42a4e04518b",
+  "cachedAt": "2026-10-23T22:32:37Z",
+  "observedAt": "2026-10-23T22:32:37Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-A-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "A",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "time_range": "",
+    "query": "Cryptographic and Blockchain Infrastructure official implementation configuration documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792794710349,
+    "end": 1792794711036
+  },
+  "outputDigest": "sha256:bfc5df4fe467dceb68e8bb42c891146c2699ce34cec4357bbd370563080fafe3",
+  "resultUrls": [
+    "https://csrc.nist.gov/csrc/media/Projects/cryptographic-module-validation-program/documents/fips%20140-3/FIPS%20140-3%20IG.pdf",
+    "https://doc.dpdk.org/guides-25.03/prog_guide/cryptodev_lib.html",
+    "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/security_hardening/using-the-system-wide-cryptographic-policies_security-hardening",
+    "https://github.com/Mbed-TLS/TF-PSA-Crypto",
+    "https://optee.readthedocs.io/en/latest/architecture/crypto.html",
+    "https://www.cryptomathic.com/cryptographic-key-governance-guide-pci-dss-v4.0.1-insights",
+    "https://www.cyber.gov.au/ism/2026-09/guidelines-for-cryptography",
+    "https://www.mdpi.com/2413-4155/8/7/164",
+    "https://www.qcecuring.com/blog/cryptographic-agility-implementation-guide",
+    "https://www.rfc-editor.org/info/rfc7696/"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Cryptographic and Blockchain Infrastructure official implementation configuration documentation\",\n  \"results\": [\n    {\n      \"title\": \"Cryptographic implementation - OP-TEE Documentation\",\n      \"url\": \"https://optee.readthedocs.io/en/latest/architecture/crypto.html\",\n      \"content\": \"28 Σεπ 2026 ... This document describes how the TEE Cryptographic Operations API is implemented, how the default crypto provider may be configured at compile ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Cryptographic Protocols for Blockchain Systems, Including ... - MDPI\",\n      \"url\": \"https://www.mdpi.com/2413-4155/8/7/164\",\n      \"content\": \"The blockchain infrastructure is derived from Ethereum's elliptic curve, but the masking algorithm itself operates in a multiplicative residue group modulo p ∈ ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Cryptographic Agility Implementation Guide: Building Systems ...\",\n      \"url\": \"https://www.qcecuring.com/blog/cryptographic-agility-implementation-guide\",\n      \"content\": \"10 Ιουν 2026 ... This ensures data encrypted with old algorithms remains readable during and after migration. Implementation in Java. Crypto-Agile Abstraction ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"GitHub - Mbed-TLS/TF-PSA-Crypto: Reference implementation of ...\",\n      \"url\": \"https://github.com/Mbed-TLS/TF-PSA-Crypto\",\n      \"content\": \"Configuration · Cryptographic mechanism selection (PSA API): PSA_WANT_xxx macros that specify which parts of the PSA Cryptography API the user wants to enable, ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Chapter 4. Using system-wide cryptographic policies | 9\",\n      \"url\": \"https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/security_hardening/using-the-system-wide-cryptographic-policies_security-hardening\",\n      \"content\": \"Chapter 4. Using sys",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "A"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "csrc.nist.gov",
+      "doc.dpdk.org",
+      "docs.redhat.com",
+      "github.com",
+      "optee.readthedocs.io",
+      "www.cryptomathic.com",
+      "www.cyber.gov.au",
+      "www.mdpi.com",
+      "www.qcecuring.com",
+      "www.rfc-editor.org"
+    ]
+  }
+}

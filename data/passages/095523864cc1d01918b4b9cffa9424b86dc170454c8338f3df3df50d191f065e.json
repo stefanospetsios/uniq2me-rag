@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "095523864cc1d01918b4b9cffa9424b86dc170454c8338f3df3df50d191f065e",
+  "cachedAt": "2026-10-23T23:08:14Z",
+  "originRunId": "qwen3-40019296746",
+  "sourceUrl": "https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf",
+  "finalUrl": "https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf",
+  "language": "en",
+  "publisher": "European Union Agency for Cybersecurity (ENISA)",
+  "title": "ENISA Technical Implementation Guidance on Cybersecurity Risk Management Measures (Version 1.0)",
+  "retrievedAt": "2026-10-23T21:32:49Z",
+  "byteDigest": "sha256:f03186edb047ece269ab9deeb3f0ec6172582ccc577617f0eb79e9bf96a7021b",
+  "textDigest": "sha256:effbd5b01b9fc323fad9ab61fca97caa63acc7891c62076f42f8f6537096d36d",
+  "sourceId": "D-source-1",
+  "passageId": "p3",
+  "locator": "Annex to Implementing Regulation (EU) 2024/2690, point 1.1.2",
+  "quotation": "The network and information system security policy shall be reviewed and, where appropriate, updated by management bodies at least annually and when significant incidents or significant changes to operations or risks occur.",
+  "originalText": "the area of network\n                        and information security.\n\n\n1.1.2. The network and information system security policy shall be reviewed and, where appropriate, updated by\nmanagement bodies at least annually and when significant incidents or significant changes to operations or risks occur.\nThe result of the reviews shall be documented.\n\nGUIDANCE\n\n         •   Review the policy on the security of network and information systems at least annually, taking",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T23:08:14Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "D"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "European Union Agency for Cybersecurity (ENISA)",
+    "host": "www.enisa.europa.eu"
+  }
+}

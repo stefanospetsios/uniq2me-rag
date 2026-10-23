@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "20c260ddc1670f50a43c5d514cd2314502de8373b0dc11803e29e4c71ab1319f",
+  "cachedAt": "2026-10-23T21:52:36Z",
+  "originRunId": "qwen3-40019296746",
+  "sourceUrl": "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Campus/Intro-Cisco-Secure-Network-Architecture.html",
+  "finalUrl": "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Campus/Intro-Cisco-Secure-Network-Architecture.html",
+  "language": "en",
+  "publisher": "Cisco Systems",
+  "title": "Introduction to the Cisco Secure Networking Architecture",
+  "retrievedAt": "2026-10-23T21:37:37Z",
+  "byteDigest": "sha256:a4ff80b2592aa5b790846f6cfff6f918e0096f6443ac14101fd813566bf0332c",
+  "textDigest": "sha256:05a79016310c95fcc89b86be096f3086bb6e03212f96a36913219db826224b50",
+  "sourceId": "5-source-6",
+  "passageId": "p2",
+  "locator": "Executive summary",
+  "quotation": "As the traditional perimeter dissolves, fragmented, bolt-on security cannot keep pace with machine-speed exploitation, AI-driven lateral movement, infrastructure-targeted attacks, compromised identities, and the “harvest-now, decrypt-later” quantum threat.",
+  "originalText": "As the traditional perimeter dissolves, fragmented, bolt-on security cannot keep pace with machine-speed exploitation, AI-driven lateral movement, infrastructure-targeted attacks, compromised identities, and the “harvest-now, decrypt-later” quantum threat.",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T21:52:36Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Cisco Systems",
+    "host": "www.cisco.com"
+  }
+}

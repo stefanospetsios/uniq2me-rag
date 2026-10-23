@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T22:47:05Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "C-source-3",
+    "type": "technical-doc",
+    "title": "Authentication",
+    "publisher": "SmartBear Software (Swagger)",
+    "url": "https://swagger.io/docs/specification/v3_0/authentication/",
+    "language": "en",
+    "jurisdiction": "Global",
+    "applicability": "OpenAPI 3.0 specification for API security schemes including OAuth 2.0, JWT, and authentication flow implementation",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:df315164e5680eacc5df5056f70f4685016a23cc61adc4bb0134fee87e042308",
+    "textDigest": "sha256:c78946f80e5aa9b2e7b60213207e8a54e330b45da479643d89a0471d1f629aa8",
+    "finalUrl": "https://swagger.io/docs/specification/v3_0/authentication/",
+    "retrievedAt": "2026-10-23T22:47:05Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-df315164e5680eacc5df5056f70f4685016a23cc61adc4bb0134fee87e042308.bin",
+    "textPath": "source-c78946f80e5aa9b2e7b60213207e8a54e330b45da479643d89a0471d1f629aa8.txt"
+  },
+  "files": {
+    "snapshots/source-df315164e5680eacc5df5056f70f4685016a23cc61adc4bb0134fee87e042308.bin": "sha256:df315164e5680eacc5df5056f70f4685016a23cc61adc4bb0134fee87e042308",
+    "snapshots/source-c78946f80e5aa9b2e7b60213207e8a54e330b45da479643d89a0471d1f629aa8.txt": "sha256:c78946f80e5aa9b2e7b60213207e8a54e330b45da479643d89a0471d1f629aa8"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://swagger.io/docs/specification/v3_0/authentication/",
+  "language": "en",
+  "retrievedAt": "2026-10-23T22:47:05Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T22:47:05Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": " \nAuthentication | Swagger Docs\n\n\n \n \nSkip to content\n \n \nProducts\nSwagger\nAccelerate API development with quality and consistency\n                                                across OpenAPI and AsyncAPI.\n\n\nStudio\nCollaborate on API Design\n\n\nPortal\nDeliver Up-to-date API Documentation\n\n\nExplore\nQuickly Test and Explore APIs\n\n\nFunctional Testing\nAutomated API Testing\n\n\nContract Testing\nBlock API Breaking Changes\n\n\nSwagger Enterprise\n\nStandardize your APIs with projects,\n                                                style checks, and reusable domains.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOpen Source\nSwagger Open Source\nIdeal for individuals and small teams to design, build, and document APIs.\n\n\nCodegen\nGenerate server stubs and client SDKs from OpenAPI Specification definitions.\n\n\nEditor\nAPI editor for desig",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "C"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "SmartBear Software (Swagger)",
+    "host": "swagger.io"
+  }
+}

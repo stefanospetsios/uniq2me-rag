@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "cef9a498a00b527ea6d9bdb3bb91d7ec397880635565c4e8fa9445b47a841a6d",
+  "cachedAt": "2026-10-23T23:12:40Z",
+  "observedAt": "2026-10-23T23:12:40Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-F-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "F",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "time_range": "",
+    "query": "AI-Oriented Ethics Live Systems official implementation configuration documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792797023548,
+    "end": 1792797024431
+  },
+  "outputDigest": "sha256:7546a0ecbfffb43e52b1a130d8ff8213688fe76d4c6462401bcb94136ddd59e6",
+  "resultUrls": [
+    "https://cogentinfo.com/resources/ai-governance-platforms-ensuring-ethical-ai-implementation",
+    "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/ethics-by-design-and-ethics-of-use-approaches-for-artificial-intelligence_he_en.pdf",
+    "https://wearecommunity.io/communities/ai-ba-stream/articles/6230",
+    "https://www.aepd.es/sites/default/files/2019-12/ai-ethics-guidelines.pdf",
+    "https://www.ibm.com/think/insights/ai-governance-implementation"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"AI-Oriented Ethics Live Systems official implementation configuration documentation\",\n  \"results\": [\n    {\n      \"title\": \"Guide for Implementing an AI Governance Framework - IBM\",\n      \"url\": \"https://www.ibm.com/think/insights/ai-governance-implementation\",\n      \"content\": \"In this implementation guide, we will cover how to apply AI governance in clear, practical steps. This enables you to build, deploy, and operate AI systems responsibly and at scale.\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Ethics By Design and Ethics of Use Approaches for Artificial ...\",\n      \"url\": \"https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/ethics-by-design-and-ethics-of-use-approaches-for-artificial-intelligence_he_en.pdf\",\n      \"content\": \"25 Νοε 2021 ... ... AI-based systems for their research, this document details ethical features which should be present in those systems to enable their use.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"AI Governance Platforms: Ensuring Ethical AI Implementation\",\n      \"url\": \"https://cogentinfo.com/resources/ai-governance-platforms-ensuring-ethical-ai-implementation\",\n      \"content\": \"27 Δεκ 2024 ... This rapid adoption underscores the transformative potential of AI but also highlights its ethical and operational challenges. As these systems ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Ethical Considerations in AI: Guide for Implementation\",\n      \"url\": \"https://wearecommunity.io/communities/ai-ba-stream/articles/6230\",\n      \"content\": \"While we welcome AI into our lives, we must pause and ask: What happens when these systems get it wrong? Who is responsible? How do we ensure that these ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"ETHICS GUIDELINES FOR TRUSTWORTHY AI\",\n      \"url\": \"https://www.aepd.es/sites/default/file",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "F"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "cogentinfo.com",
+      "ec.europa.eu",
+      "wearecommunity.io",
+      "www.aepd.es",
+      "www.ibm.com"
+    ]
+  }
+}

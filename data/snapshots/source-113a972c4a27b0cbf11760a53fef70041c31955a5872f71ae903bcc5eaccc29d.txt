@@ -1,0 +1,2344 @@
+                                                                                                                                          TLP:CLEAR
+
+
+
+
+            Cybersecurity Incident
+            & Vulnerability Response Playbooks
+            Operational Procedures for Planning and
+            Conducting Cybersecurity Incident and Vulnerability
+            Response Activities in FCEB Information Systems
+
+
+              Publication: November 2021
+
+
+
+DISCLAIMER: This document is marked TLP:CLEAR. Disclosure is not limited. Sources may use TLP:CLEAR when information carries minimal or no
+foreseeable risk of misuse, in accordance with applicable rules and procedures for public release. Subject to standard copyright rules, TLP:CLEAR information
+may be distributed without restriction. For more information on the Traffic Light Protocol, see http://www.cisa.gov/tlp.
+
+
+
+                                                                                                                                          TLP:CLEAR
+                                                                                                                                           TLP:CLEAR
+
+CONTENTS
+Introduction............................................................................................................................................ 3
+   Overview ............................................................................................................................................ 3
+   Scope................................................................................................................................................. 3
+   Audience ............................................................................................................................................ 4
+Incident Response Playbook.................................................................................................................. 5
+   Incident Response Process ................................................................................................................ 5
+   Preparation Phase.............................................................................................................................. 6
+   Detection & Analysis ........................................................................................................................ 10
+   Containment..................................................................................................................................... 14
+   Eradication & Recovery .................................................................................................................... 15
+   Post-Incident Activities ..................................................................................................................... 16
+   Coordination..................................................................................................................................... 17
+Vulnerability Response Playbook......................................................................................................... 21
+   Preparation....................................................................................................................................... 21
+   Vulnerability Response Process ....................................................................................................... 22
+   Identification ..................................................................................................................................... 22
+   Evaluation ........................................................................................................................................ 23
+   Remediation ..................................................................................................................................... 24
+   Reporting and Notification ................................................................................................................ 24
+Appendix A: Key Terms ....................................................................................................................... 25
+Appendix B: Incident Response Checklist............................................................................................ 27
+   Step.................................................................................................................................................. 27
+   Incident Response Procedure .......................................................................................................... 27
+   Action Taken .................................................................................................................................... 27
+   Date Completed ............................................................................................................................... 27
+Appendix C: Incident Response Preparation Checklist ........................................................................ 37
+Appendix E: Vulnerability and Incident Categories ............................................................................... 39
+Appendix F: Source Text...................................................................................................................... 40
+Appendix G: Source Text ..................................................................................................................... 42
+
+
+
+
+                                                                                                                                           TLP:CLEAR
+
+                                                                           CISA | Cybersecurity and Infrastructure Security Agency 2
+                                                                                                     TLP:CLEAR
+
+INTRODUCTION
+The Cybersecurity and Infrastructure Security Agency (CISA) is committed to leading the response to
+cybersecurity incidents and vulnerabilities to safeguard the nation's critical assets. Section 6 of
+Executive Order 14028 directed DHS, via CISA, to “develop a standard set of operational procedures
+(playbook) to be used in planning and conducting cybersecurity vulnerability and incident response
+activity respecting Federal Civilian Executive Branch (FCEB) Information Systems.” 1
+
+Overview
+This document presents two playbooks: one for incident response and one for vulnerability response.
+These playbooks provide FCEB agencies with a standard set of procedures to identify, coordinate,
+remediate, recover, and track successful mitigations from incidents and vulnerabilities affecting FCEB
+systems, data, and networks. In addition, future iterations of these playbooks may be useful for
+organizations outside of the FCEB to standardize incident response practices. Working together across
+all federal government organizations has proven to be an effective model for addressing vulnerabilities
+and incidents. Building on lessons learned from previous incidents and incorporating industry best
+practices, CISA intends for these playbooks to evolve the federal government’s practices for
+cybersecurity response through standardizing shared practices that bring together the best people and
+processes to drive coordinated actions.
+
+The standardized processes and procedures described in these playbooks:
+
+    •   Facilitate better coordination and effective response among affected
+        organizations,
+    •   Enable tracking of cross-organizational successful actions,
+    •   Allow for cataloging of incidents to better manage future events, and
+    •   Guide analysis and discovery.
+Agencies should use these playbooks to help shape overall defensive cyber operations to ensure
+consistent and effective response and coordinated communication of response activities
+
+Scope
+These playbooks are for FCEB entities to focus on criteria for response and thresholds for coordination
+and reporting. They include communications between FCEB entities and CISA; the connective
+coordination between incident and vulnerability response activities; and common definitions for key
+cybersecurity terms and aspects of the response process. Response activities in scope of this playbook
+include those:
+
+    •   Initiated by an FCEB agency (e.g., a local detection of malicious activity or
+        discovery of a vulnerability)
+    •   Initiated by CISA (e.g., a CISA alert or directive) or other third parties, including
+        law enforcement, intelligence agencies, or commercial organizations,
+        contractors, and service providers
+The Incident Response Playbook applies to incidents that involve confirmed malicious cyber activity
+and for which a major incident (as defined by the Office of Management and Budget [OMB] in
+
+
+
+
+1 Executive Order (EO) 14028: Improving the Nation's Cybersecurity
+
+
+
+
+                                                                                                     TLP:CLEAR
+
+                                                           CISA | Cybersecurity and Infrastructure Security Agency 3
+                                                                                                      TLP:CLEAR
+
+Memorandum M-20-04 2 or successor memorandum) has been declared or not yet been reasonably
+ruled out. The Vulnerability Response Playbook applies to vulnerabilities being actively exploited in the
+wild. As required by EO 14028, the Director of OMB will issue guidance on FCEB agency use of these
+playbooks.
+
+Note: these playbooks do not cover response activities that involve threats to classified information or
+National Security Systems (NSS) as defined by 44 U.S.C.3552(b)(6). See CNSSI1010 3 for
+coordination/reporting guidance for incidents specific to NSS or systems that process classified
+information.
+
+Audience
+These playbooks apply to all FCEB agencies, information systems used or operated by an agency, a
+contractor of an agency, or another organization on behalf of an agency. It is the policy of the federal
+government that information and communications technology (ICT) service providers who have
+contracted with FCEB agencies must promptly report incidents to such agencies and to CISA. 4
+
+
+
+
+2 Office of Management and Budget (OMB) Memorandum M-20-04: Fiscal Year 2019-2020 Guidance on Federal Information
+
+Security and Privacy Management Requirements
+3 Committee on National Security Systems
+
+4 EO 14028, Sec. 2. Removing Barriers to Sharing Threat Information
+
+
+
+
+                                                                                                      TLP:CLEAR
+
+                                                           CISA | Cybersecurity and Infrastructure Security Agency 4
+                                                                                                                   TLP:CLEAR
+
+INCIDENT RESPONSE PLAYBOOK
+This playbook provides a standardized response
+process for cybersecurity incidents and describes                             When to use this playbook
+the process and completion through the incident                  Use this playbook for incidents that involve confirmed
+response phases as defined in National Institute of              malicious cyber activity for which a major incident has been
+Standards and Technology (NIST) Special                          declared or not yet been reasonably ruled out.
+Publication (SP) 800-61 Rev. 2, 5 including                      For example:
+preparation, detection and analysis, containment,
+eradication and recovery, and post-incident                           •    Incidents involving lateral movement, credential
+activities. This playbook describes the process                            access, exfiltration of data
+FCEB agencies should follow for confirmed                             •    Network intrusions involving more than one user or
+                                                                           system
+malicious cyber activity for which a major incident
+                                                                      •    Compromised administrator accounts
+has been declared or not yet been reasonably ruled
+out.                                                             This playbook does not apply to activity that does not appear
+                                                                 to have such major incident potential, such as:
+    •   Incident response can be initiated by several
+        types of events, including but not limited to:       • “Spills” of classified information or other incidents
+    •   Automated detection systems or sensor                    that are believed to result from unintentional
+        alerts                                                   behavior only
+    •   Agency user report                                   • Users clicking on phishing emails when no
+    •   Contractor or third-party ICT service provider           compromise results
+        report                                               • Commodity malware on a single machine or lost
+    •   Internal or external organizational                      hardware that, in either case, is not likely to result
+        component incident report or situational                 in demonstrable harm to the national security
+        awareness update                                         interests, foreign relations, or economy of the
+    •   Third-party reporting of network activity to             United States or to the public confidence, civil
+        known compromised infrastructure, detection              liberties, or public health and safety of the
+        of malicious code, loss of services, etc.                American people.
+    •   Analytics or hunt teams that identify
+        potentially malicious or otherwise unauthorized activity
+Incident Response Process
+The incident response process starts with the declaration of the incident, as shown in Figure 1. In this
+context, “declaration” refers to the identification of an incident and communication to CISA and agency
+network defenders rather than formal declaration of a major incident as defined in applicable law and
+policy. Succeeding sections, which are organized by phases of the IR lifecycle, describe each step in
+more detail. Many activities are iterative and may continuously occur and evolve until the incident is
+closed out. Figure 1 illustrates incident response activities in terms of these phases, and Appendix B
+provides a companion checklist to track activities to completion.
+
+
+
+
+5 NIST Special Publication (SP) 800-61 Rev. 2: Computer Security Incident Handling Guide
+
+
+
+
+                                                                                                                   TLP:CLEAR
+
+                                                           CISA | Cybersecurity and Infrastructure Security Agency 5
+                                                                                               TLP:CLEAR
+
+
+
+
+                                   Figure 1: Incident Response Process
+
+
+Preparation Phase
+                   Prepare for major incidents before they occur to mitigate any impact on the
+                   organization. Preparation activities include:
+
+                    •   Documenting and understanding policies and procedures for incident response
+                    •   Instrumenting the environment to detect suspicious and malicious activity
+                    •   Establishing staffing plans
+                    •   Educating users on cyber threats and notification procedures
+                    •   Leveraging cyber threat intelligence (CTI) to proactively identify potential
+                        malicious activity
+Define baseline systems and networks before an incident occurs to understand the basics of “normal”
+activity. Establishing baselines enables defenders to identify deviations. Preparation also includes
+
+   •   Having infrastructure in place to handle complex incidents, including classified
+       and out-of-band communications
+   •   Developing and testing courses of action (COAs) for containment and eradication
+   •   Establishing means for collecting digital forensics and other data or evidence
+The goal of these items is to ensure resilient architectures and systems to maintain critical operations in
+a compromised state. Active defense measures that employ methods such as redirection and
+monitoring of adversary activities may also play a role in developing a robust incident response.
+
+
+
+
+                                                                                               TLP:CLEAR
+
+                                                   CISA | Cybersecurity and Infrastructure Security Agency 6
+                                                                                                             TLP:CLEAR
+
+Preparation Activities
+Policies and Procedures                                       Trained Response Personnel
+Document incident response plans, including                   Ensure personnel are trained, exercised, and
+processes and procedures for designating a                    ready to respond to cybersecurity incidents. Train
+coordination lead (incident manager). Put policies            all staffing resources that may draw from in-house
+and procedures in place to escalate and report                capabilities, available capabilities at a parent
+major incidents and those with impact on the                  agency/department, third-party organization, or a
+agency’s mission. Document contingency plans                  combination thereof. Conduct regular recovery
+for additional resourcing and “surge support” with            exercises to test full organizational continuity of
+assigned roles and responsibilities. Policies and             operations plan (COOP) and
+plans should address notification, interaction, and           failover/backup/recovery systems to be sure these
+evidence sharing with law enforcement.                        work as planned.
+
+Instrumentation                                               COOP Planning Procedures
+Develop and maintain an accurate picture of                   The construction of an agency’s COOP planning
+infrastructure (systems, networks, cloud                      process should closely adhere to Presidential
+platforms, and contractor-hosted networks) by                 Policy Directive (PPD-40), National Continuity
+widely implementing telemetry to support system               Policy, July 2016, and Federal Continuity
+and sensor-based detection and monitoring                     Directive (FCD) 1 9, January 2017, as well as other
+capabilities such as antivirus (AV) software;                 applicable directives and guidance. Designate
+endpoint detection and response (EDR)                         and provide CISA with both a primary and a
+solutions; 6 data loss prevention (DLP) capabilities;         secondary POC to coordinate COOP activities;
+intrusion detection and prevention systems                    POC information shall include names, phone
+(IDPS); authorization, host, application and cloud            numbers, and email addresses.
+logs; 7 network flows, packet capture (PCAP); and
+security information and event management
+                                                              COOP Testing Procedures
+(SIEM) systems. Monitor for alerts generated by               In line with the requirements of FCD-1, and in
+CISA's EINSTEIN intrusion detection system and                addition to conducting any mandatory Continuity
+Continuous Diagnostics and Mitigation (CDM)                   Test, Training, Exercise (TT&E), agencies should
+program to detect changes in cyber posture.                   conduct organization-specific Continuity TT&E
+Implement additional requirements for logging, log            annually, with Alert/Notification/Employee
+retention, and log management based on                        Accountability and Communications testing on a
+Executive Order 14028, Sec. 8. Improving the                  quarterly basis.
+Federal Government's Investigative and
+                                                              As a best-practice, agencies should ensure the
+Remediation Capabilities 8 and ensure those logs
+                                                              development and maintenance of CIO-approved
+are collected centrally.
+                                                              informational technology and/or operational
+                                                              technology recovery plans.
+
+
+
+
+6 EO 14028, Sec. 7. Improving Detection of Cybersecurity      8 E0 14028, Sec. 8. Improving the Federal Government's
+
+Vulnerabilities and Incidents on Federal Government           Investigative and Remediation Capabilities
+Networks                                                      9 Federal Continuity Directive 1: Federal Executive Branch
+7 NIST SP 800-92: Guide to Computer Security Log              National Continuity Program and Requirements, Annex K
+Management
+
+
+                                                                                                             TLP:CLEAR
+
+                                                           CISA | Cybersecurity and Infrastructure Security Agency 7
+                                                                                                        TLP:CLEAR
+
+Cyber Threat Intelligence                                  sustainable context about threat actors, their
+                                                           intentions, and their methods than atomic
+Actively monitor intelligence feeds for threat or
+                                                           indicators alone. The MITRE ATT&CK®
+vulnerability advisories from government, trusted
+                                                           Framework documents and explains adversary
+partners, open sources, and commercial entities.
+                                                           TTPs in detail making it a valuable resource for
+Cyber threat intelligence can include threat
+                                                           network defenders. 10
+landscape reporting, threat actor profiles and
+intents, organizational targets and campaigns, as          Sharing cyber threat intelligence is a critical
+well as more specific threat indicators and                element of preparation. FCEB agencies are
+courses of action. Ingest cyber threat indicators          strongly encouraged to continuously share cyber
+and integrated threat feeds into a SIEM, and use           threat intelligence—including adversary
+other defensive capabilities to identify and block         indicators, TTPs, and associated defensive
+known malicious behavior. Threat indicators can            measures (also known as “countermeasures”)—
+include:                                                   with CISA and other partners. The primary
+                                                           method for sharing cyber threat information,
+    •   Atomic indicators, such as domains and
+                                                           indicators, and associated defensive measures
+        IP addresses, that can detect adversary
+        infrastructure and tools                           with CISA is via the Automated Indicator Sharing
+    •   Computed indicators, such as Yara rules            (AIS) program. 11 FCEB agencies should be
+        and regular expressions, that detect               enrolled in AIS. If the agency is not enrolled in
+        known malicious artifacts or signs of              AIS, contact CISA for more information. 12
+        activity                                           Agencies should use the CISA Cyber Threat
+    •   Patterns and behaviors, such as analytics          Indicator and Defensive Measures Submission
+        that detect adversary tactics, techniques,
+                                                           System—a secure, web-enabled method—to
+        and procedures (TTPs)
+                                                           share with CISA cyber threat indicators and
+Atomic indicators can initially be valuable to             defensive measures that are not applicable or
+detect signs of a known campaign. However,                 appropriate to share via AIS. 13
+because adversaries often change their
+infrastructure (e.g., watering holes, botnets, C2          Active Defense
+servers) between campaigns, the “shelf-life” of            FCEB agencies with advanced defensive
+atomic indicators to detect new adversary activity         capabilities and staff might establish active
+is limited. In addition, advanced threat actors            defense capabilities—such as the ability to
+might leverage different infrastructure against            redirect an adversary to a sandbox or honeynet
+different targets or switch to new infrastructure          system for additional study, or “dark nets”—to
+during a campaign when their activities are                delay the ability of an adversary to discover the
+detected. Finally, adversaries often hide in their         agency’s legitimate infrastructure. Network
+targeted environments, using native operating              defenders can implement honeytokens (fictitious
+system utilities and other resources to achieve            data objects) and fake accounts to act as canaries
+their goals. For these reasons, agencies should            for malicious activity. These capabilities enable
+use patterns and behaviors, or adversary TTPs, to          defenders to study the adversary’s behavior and
+identify malicious activity when possible. Although        TTPs and thereby build a full picture of adversary
+more difficult to apply detection methods and              capabilities.
+verify application, TTPs provide more useful and
+
+10 See Best Practices for MITRE ATT&CK® Mapping            12 CISA Automated Indicator Sharing
+
+Framework for guidance on using ATT&CK to analyze and      13 CISA Cyber Threat Indicator and Defensive Measure
+report on cybersecurity threats.
+                                                           Submission System
+11 CISA Automated Indicator Sharing
+
+
+
+
+                                                                                                        TLP:CLEAR
+
+                                                        CISA | Cybersecurity and Infrastructure Security Agency 8
+                                                                                                 TLP:CLEAR
+
+Communications and Logistics                            Technical Infrastructure
+Establish local and cross-agency communication          Implement capabilities to contain, replicate,
+procedures and mechanisms for coordinating              analyze, reconstitute, and document
+major incidents with CISA and other sharing             compromised hosts; implement the capability to
+partners and determine the information sharing          collect digital forensics and other data. Establish
+protocols to use (i.e., agreed-upon standards).         secure storage (i.e., only accessible by incident
+Define methods for handling classified information      responders) for incident data and reporting.
+and data, if required. Establish communication          Provide means for collecting forensic evidence,
+channels (chat rooms, phone bridges) and                such as disk and active memory imaging, and
+method for out-of-band coordination. 14                 means for safely handling malware. Obtain
+                                                        analysis tools and sandbox software for analyzing
+Operational Security (OPSEC)                            malware. Implement a ticketing or case
+Take steps to ensure that IR and defensive              management system that captures pertinent
+systems and processes will be operational during        details of:
+an attack, particularly in the event of pervasive
+                                                           •   Anomalous or suspicious activity, such as
+compromises—such as a ransomware attack or
+                                                               affected systems, applications, and users;
+one involving an aggressive attacker that may
+                                                           •   Activity type;
+attempt to undermine defensive measures and
+distract or mislead defenders. These measures              •   Specific threat group(s);
+include:                                                   •   Adversary tactics, techniques, and
+                                                               procedures (TTPs) employed; and
+    •   Segmenting and managing SOC systems                •   Impact.
+        separately from the broader enterprise IT
+        systems,
+                                                        Detect Activity
+    •   Managing sensors and security devices
+        via out-of-band means,                          Leverage threat intelligence to create rules and
+    •   Notifying users of compromised systems          signatures to identify the activity associated with
+        via phone rather than email,                    the incident and to scope its reach. Configure
+    •   Using hardened workstations to conduct
+                                                        tools and analyze logs and alerts. Look for signs
+        monitoring and response activities, and
+                                                        of incident activity and potentially related
+    •   Ensuring that defensive systems have
+        robust backup and recovery processes.           information to determine the type of incident, e.g.,
+                                                        malware attack, system compromise, session
+Avoid “tipping off” an attacker by having
+                                                        hijack, data corruption, data exfiltration, etc.
+processes and systems to reduce the likelihood of
+detection of IR activities (e.g., do not submit         See Appendix C for a checklist for preparation
+malware samples to a public analysis service or         activities.
+notify users of potentially comprised machines via
+email).
+
+
+
+
+14 NIST SP 800-47 Rev. 1: Managing the Security of
+
+Information Exchanges
+
+
+                                                                                                 TLP:CLEAR
+
+                                                     CISA | Cybersecurity and Infrastructure Security Agency 9
+                                                                                                     TLP:CLEAR
+
+Detection & Analysis
+                    The most challenging aspect of the incident response process is often accurately
+                    detecting and assessing cybersecurity incidents: determining whether an incident
+                    has occurred and, if so, the type, extent, and magnitude of the compromise within
+                    cloud, operational technology (OT), hybrid, host, and network systems. To detect
+                    and analyze events, implement defined processes, appropriate technology, and
+sufficient baseline information to monitor, detect, and alert on anomalous and suspicious activity.
+Ensure there are procedures to deconflict potential incidents with authorized activity (e.g., confirm that
+a suspected incident is not simply a network administrator using remote admin tools to perform
+software updates). As the U.S. government’s lead for asset response, CISA will partner with affected
+agencies in all aspects of the detection and analysis process.
+
+Detection& Analysis Activities
+                                                                  awareness update from other internal or
+Declare Incident                                                  external organizational components.
+Declare an incident by reporting it to CISA at            Collect and Preserve Data
+https://www.cisa.gov/report and alerting agency IT
+leadership to the need for investigation and              Collect and preserve data for incident verification,
+response. Report major incidents to CISA and to           categorization, prioritization, mitigation, reporting,
+OMB at CyberIncidentReport@omb.eop.gov.                   and attribution. When necessary and possible,
+CISA can assist in determining the severity of the        such information should be preserved and
+incident and whether it should be declared a              safeguarded as best evidence for use in any
+major incident. Note: FCEB agencies must                  potential law enforcement investigation. Collect
+promptly report all cybersecurity incidents,              data from the perimeter, the internal network, and
+regardless of severity, to CISA                           the endpoint (server and host). Collect audit,
+                                                          transaction, intrusion, connection, system
+Determine Investigation Scope                             performance, and user activity logs. When an
+Use available data to identify the type of access,        endpoint requires forensic analysis, capture a
+the extent to which assets have been affected, the        memory and disk image for evidence
+level of privilege attained by the adversary, and         preservation. Collect evidence, including forensic
+the operational or informational impact. Discover         data, according to procedures that meet all
+associated malicious activity by following the trail      applicable policies and standards and account for
+of network data; discover associated host-based           it in a detailed log that is kept for all evidence. For
+artifacts by examining host, firewall, and proxy          more information, see NIST Computer Security
+logs along with other network data, such as router        Incident Handling Guide, SP 800-61 r2. 15 Extract
+traffic. Initial scoping of an incident to determine      all relevant threat information (atomic, computed,
+adversarial activity may include analyzing results        and behavioral indicators and countermeasures)
+from:                                                     to share with IR teams and with CISA.
+
+    •   An automated detection system or sensor;          Perform Technical Analysis
+    •   A report from a user, contractor, or third-       Develop a technical and contextual understanding
+        party information and communication
+        technologies (ICT) service provider; or           of the incident. Correlate information, assess
+    •   An incident report or situational                 anomalous activity against a known baseline to
+
+
+15 NIST SP 800-61 Rev. 2: Computer Security Incident
+
+Handling Guide
+
+
+                                                                                                     TLP:CLEAR
+
+                                                       CISA | Cybersecurity and Infrastructure Security Agency 10
+                                                                                                          TLP:CLEAR
+
+determine root cause, and document adversary                 further searches and to inform subsequent
+TTPs to enable prioritization of the subsequent              response efforts. Identify the conditions that
+response activities. The goal this analysis is to            enabled the adversary to access and operate
+examine the breadth of data sources throughout               within the environment. These conditions will
+the environment to discover at least some part of            inform triage and post-incident activity. Assess
+an attack chain, if not all of it. As information            networks and systems for changes that may have
+evolves and the investigation progresses, update             been made to either evade defenses or facilitate
+the scope to incorporate new information.                    persistent access.
+
+Correlate Events and Document Timeline                       Gather Incident Indicators
+Acquire, store, and analyze logs to correlate                Identify and document indicators that can be used
+adversarial activity. Table 1 below presents an              for correlative analysis on the network. Indicators
+example of logs and event data that are                      can provide insight into the adversary’s
+commonly employed to detect and analyze                      capabilities and infrastructure. Indicators as
+attacker activities. 16,17 A simple knowledge base           standalone artifacts are valuable in the early
+should be established for reference during                   stages of incident response.
+response to the incident. Thoroughly document
+                                                             Analyze for Common Adversary TTPs
+every step taken during this and subsequent
+phases. Create a timeline of all relevant findings.          Compare TTPs to adversary TTPs documented in
+The timeline will allow the team to account for all          ATT&CK and analyze how the TTPs fit into the
+adversary activity on the network and will assist in         attack lifecycle. TTPs describe “why,” “what,” and
+creating the findings report at the conclusion of            “how.” Tactics describe the technical objective an
+the response.                                                adversary is trying to achieve (“why”), techniques
+                                                             are different mechanisms they use to achieve it
+Identify Anomalous Activity
+                                                             (“what”), and procedures are exactly how the
+Assess and profile affected systems and networks             adversary achieves a specific result (“how”).
+for subtle activity that might be adversary                  Responding to TTPs enables defenders to
+behavior. Adversaries will often use legitimate,             hypothesize the adversary’s most likely course of
+native operating system utilities and scripting              action. Table 1 provides some common adversary
+languages once they gain a foothold in an                    techniques that should be investigated. 18
+environment to avoid detection. This process will
+                                                             Validate and Refine Investigation Scope
+enable the team to identify deviations from the
+established baseline activity and can be                     Using available data and results of ongoing
+particularly important in identifying activities such        response activities, identify any additional
+as attempts to leverage legitimate credentials and           potentially impacted systems, devices, and
+native capabilities in the environment.                      associated accounts. From this information, new
+                                                             indicator of compromise (IOCs) and TTPs might
+Identify Root Cause and Enabling Conditions
+                                                             be identified that can provide further feedback into
+Attempt to identify the root cause of the incident           detection tools. In this way, an incident is scoped
+and collect threat information that can be used in           over time. As information evolves, update and
+
+
+16 Derived from the MITRE ATT&CK® Framework. Note: this      17 EO 14028, Sec. 8. Improving the Federal Government's
+
+table is a representative sampling of common tactics,        Investigative and Remediation Capabilities
+techniques, and related logs, and is not intended to be      18 See Best Practices for MITRE ATT&CK® Mapping
+complete.
+                                                             Framework for guidance on mapping TTPs to ATT&CK to
+                                                             analyze and report on cybersecurity threats.
+
+
+                                                                                                          TLP:CLEAR
+
+                                                          CISA | Cybersecurity and Infrastructure Security Agency 11
+                                                                                                                      TLP:CLEAR
+
+communicate the scope to all stakeholders to
+ensure a common operating picture
+
+                                                Key Questions to Answer
+      •   What was the initial attack vector? (i.e., How did the adversary gain initial access to the network?)
+      •   How is the adversary accessing the environment?
+      •   Is the adversary exploiting vulnerabilities to achieve access or privilege?
+      •   How is the adversary maintaining command and control?
+      •   Does the actor have persistence on the network or device?
+      •   What is the method of persistence (e.g., malware backdoor, webshell, legitimate credentials, remote tools, etc.)?
+      •   What accounts have been compromised and what privilege level (e.g., domain admin, local admin, user account, etc.)?
+      •   What method is being used for reconnaissance? (Discovering the reconnaissance method may provide an opportunity for
+          detection and to determine possible intent.)
+      •   Is lateral movement suspected or known? How is lateral movement conducted (e.g., RDP, network shares, malware, etc.)?
+      •   Has data been exfiltrated and, if so, what kind and via what mechanism?
+
+
+
+               Table 1: Example Adversary Tactics, Techniques, and Relevant Log and Event Data
+
+ Tactic            Common Techniques                 Log and Event Sources             Indicators
+                   Phishing [T1566], Drive-by                                          Phishing, redirect, and payload servers
+                   Compromise [T1189], Exploit                                         (domains & IP addresses), delivery
+                                                     Email, web proxy, server
+ Initial Access    Public Facing Application                                           mechanisms (lures, macros,
+                                                     application logs, IDS/IPS
+                   [T1190], External Remote                                            downloaders, droppers, etc.),
+                   Services [T1133]                                                    compromised credentials, web shells
+
+                   Command and Script                Host event logs, Windows
+                                                                                       Invocation of command or scripting
+                   Interpreters [T1059],             event logs, Sysmon, anti-
+ Execution                                                                             interpreter, exploitation, API calls, tools,
+                   Exploitation for Client           malware, EDR, PowerShell
+                                                                                       malware, payloads
+                   Execution [T1203]                 logs
+
+                   Account Manipulation
+                   [T1098], Scheduled Task/Job       Host event logs,                  Scheduled Tasks, registry keys,
+ Persistence
+                   [T1053], Valid Accounts           Authentication logs, Registry     autoruns, etc.
+                   [T1078]
+
+                   Exploitation of Remote                                              Mismatch of users and
+                   Services [T1210], Remote                                            applications/credentials, workstation to
+ Lateral                                             Internal network logs, host
+                   Session Hijacking [T1563],                                          workstation communication, beaconing
+ Movement                                            event logs, Application Logs
+                   Software Deployment Tools                                           from hosts not intended to be internet
+                   [T1072]                                                             accessible, etc.
+
+                   Brute Force [T1110], Modify
+                                                     Authentication Logs, Domain
+ Credential        Authentication Process                                             LSASS reads, command or scripting
+                                                     Controller Logs, network traffic
+ Access            [T1556], Man-in-the-Middle                                         interpreters accessing LSASS, etc.
+                                                     monitoring
+                   [T1557]
+
+                   Application Layer Protocol        Firewall, Web Proxy, DNS,
+ C2                [T1071], Protocol Tunneling       Network Traffic, Cloud activity   C2 domains, IP addresses
+                   [T1572]                           logs, IDS/IPS
+
+
+
+
+                                                                                                                      TLP:CLEAR
+
+                                                              CISA | Cybersecurity and Infrastructure Security Agency 12
+                                                                                                               TLP:CLEAR
+
+                    Exfiltration Over C2 Channel    Firewall, Web Proxy, DNS,
+                                                                                      Domains, URLs, IP addresses, IDS/IPS
+ Exfiltration       [T1041], Exfiltration Over      Network Traffic, Cloud activity
+                                                                                      signatures
+                    Alternative Protocol [T1048]    logs, IDS/IPS
+
+
+
+
+Third-Party Analysis Support (if needed):                        with CISA and facilitating access during the
+                                                                 incident response, including access to externally
+For potentially major incidents, agencies needing
+                                                                 hosted systems.
+assistance can reach out to CISA. Each FCEB
+agency has a Federal Network Authorization                       Adjust Tools:
+(FNA) on file with CISA to enable incident
+                                                                 The IR team should use its developing
+response and hunt assistance. When seeking
+                                                                 understanding of the adversary’s TTPs to modify
+outside assistance, the default first action by the
+                                                                 tools to slow the pace of the adversarial advance
+impacted agency should be to activate their
+                                                                 and increase the likelihood of detection. The focus
+standing FNA and request CISA assistance.
+                                                                 should be on preventing and detecting tactics—
+Based on availability, CISA may provide a threat
+                                                                 such as execution, persistence, credential access,
+hunting team to assist. 19 CISA may collaborate
+                                                                 lateral movement, and command and control—to
+with other agencies—such as the National
+                                                                 minimize the likelihood of exfiltration and/or
+Security Agency (NSA) or U.S. Cyber
+                                                                 operational or informational impact. IOC
+Command—to provide expertise or supplement
+                                                                 signatures can be incorporated into prevention
+CISA’s capabilities.
+                                                                 and detection tools to impose temporary
+Agencies may also bring on a third-party IR                      operational cost upon the adversary and assist
+service provider to assist. Such providers                       with scoping the incident. However, the adversary
+supplement rather than replace the assistance                    can introduce new tools to the network and/or
+provided by CISA. An FCEB agency using third-                    modify existing tools to subvert IOC-centric
+party assistance is responsible for coordinating                 response mechanisms.
+
+
+
+
+19 Level of CISA analysis support will be determined by
+
+resources available and priority of incident.
+
+
+                                                                                                               TLP:CLEAR
+
+                                                             CISA | Cybersecurity and Infrastructure Security Agency 13
+                                                                                                  TLP:CLEAR
+
+Containment
+                 Containment is a high priority for incident response, especially for major incidents.
+                 The objective is to prevent further damage and reduce the immediate impact of the
+                 incident by removing the adversary’s access. The particular scenario will drive they
+                 type of containment strategy used. For example, the containment approach to an
+                 active sophisticated adversary using fileless malware will be different than the
+containment approach for ransomware.
+
+                                                          Key containment activities include:
+Considerations
+When evaluating containment courses of action,               •   Isolating impacted systems and network
+                                                                 segments from each other and/or from
+consider:
+                                                                 non-impacted systems and networks. If
+   •   Any additional adverse impacts to mission                 this is needed, consider the mission or
+       operations, availability of services (e.g.,               business needs and how to provide
+       network connectivity, services provided to                services so missions can continue during
+       external parties),                                        this phase to the extent possible.
+   •   Duration of the containment process,                  •   Capturing forensic images to preserve
+       resources needed, and effectiveness                       evidence for legal use (if applicable) and
+       (e.g., full vs. partial containment; full vs.             further investigation of the incident.
+       unknown level of containment), and                    •   Updating firewall filtering.
+   •   Any impact on the collection, preservation,           •   Blocking (and logging) of unauthorized
+       securing, and documentation of evidence.                  accesses; blocking malware sources.
+                                                             •   Closing specific ports and mail servers or
+Some adversaries may actively monitor defensive                  other relevant servers and services.
+response measures, and shift their methods to                •   Changing system admin passwords,
+evade detection and containment. Defenders                       rotating private keys, and
+should therefore develop as complete a picture as                service/application account secrets where
+possible of the attacker’s capabilities and potential            compromise is suspected and revocation
+reactions to avoid “tipping off” the adversary.                  of privileged access.
+Containment is challenging because defenders                 •   Directing the adversary to a sandbox (a
+                                                                 form of containment) to monitor the actor’s
+must be as complete as possible in identifying
+                                                                 activity, gather additional evidence, and
+adversary activity, while considering the risk of                identify attack vectors. Note: this
+allowing the adversary to persist until the full                 containment activity is limited to advanced
+scope of the compromise can be determined.                       SOCs with mature capabilities.
+Containment activities for major incidents should         Ensure that the containment scope encompasses
+be closely coordinated with CISA.                         all related incidents and activity—especially all
+Containment Activities                                    adversary activity. If new signs of compromise are
+                                                          found, return to the technical analysis step to re-
+Implement short-term mitigations to isolate threat        scope the incident. Upon successful containment
+actor activity and prevent additional damage from         (i.e., no new signs of compromise), preserve
+the activity or pivoting into other systems.              evidence for reference or law enforcement
+                                                          investigation, adjust detection tools, and move to
+                                                          eradication and recovery.
+
+
+
+
+                                                                                                  TLP:CLEAR
+
+                                                       CISA | Cybersecurity and Infrastructure Security Agency 14
+                                                                                                    TLP:CLEAR
+
+Eradication & Recovery
+                      The objective of this phase is to allow the return of normal operations by eliminating
+                      artifacts of the incident (e.g., remove malicious code, re-image infected systems)
+                      and mitigating the vulnerabilities or other conditions that were exploited. Before
+                      moving to eradication, ensure that all means of persistent access into the network
+                      have been accounted for, that the adversary activity is sufficiently contained, and
+that all evidence has been collected. This is often an iterative process. It may also involve hardening or
+modifying the environment to protect targeted systems if the root cause of the intrusion and/or initial
+access vector is known. It is possible that eradication and recovery actions can be executed
+simultaneously. Note: coordinate with ICT service providers, commercial vendors, and law enforcement
+prior to the initiation of eradication efforts.
+
+                                                              •   Developing response scenarios for threat
+Execute Eradication Plan                                          actor use of alternative attack vectors.
+Take actions to eliminate all evidence of                     •   Allowing adequate time to ensure all
+compromise and prevent the threat actor from                      systems are clear of all possible threat
+maintaining a presence in the environment.                        actor persistence mechanisms
+                                                                  (backdoors, etc.) as adversaries often use
+Ensure evidence has been preserved as
+                                                                  more than one mechanism.
+necessary. Threat actors often have multiple
+persistent backdoor accesses into systems and              After executing the eradication plan, continue with
+networks and can hop back into ‘clean’ areas if            detection and analysis activities to monitor for any
+eradication is not well orchestrated and/or not            signs of adversary re-entry or use of new access
+stringent enough. Therefore, eradication plans             methods. If adversary activity is discovered after
+should be well formulated and coordinated before           completion of eradication efforts, contain the
+execution. If the adversary exploited a specific           activity, and return to technical analysis until the
+vulnerability, initiate the Vulnerability Response         true scope of the compromise and initial infection
+Playbook below to address the vulnerability during         vectors are identified. If no new adversary activity
+eradication activities.                                    is detected, enter the recovery phase.
+
+Eradication Activities                                     Recover System(s) and Services
+    •   Remediating all infected IT environments           Restore systems to normal operations and
+        (e.g., cloud, OT, hybrid, host, and network        confirm that they are functioning normally. The
+        systems).                                          main challenges of this phase are confirming that
+    •   Reimaging affected systems (often from             remediation has been successful, rebuilding
+        ‘gold’ sources), rebuilding systems from           systems, reconnecting networks, and recreating
+        scratch.                                           or correcting information.
+    •   Rebuilding hardware (required when the
+        incident involves rootkits).                       Recovery Actions 20
+    •   Replacing compromised files with clean
+        versions.                                             •   Reconnecting rebuilt/new systems to
+    •   Installing patches.                                       networks.
+    •   Resetting passwords on compromised                    •   Tightening perimeter security (e.g.,
+        accounts.                                                 firewall rulesets, boundary router access
+    •   Monitoring for any signs of adversary                     control lists) and zero trust access rules.
+        response to containment activities.                   •   Testing systems thoroughly—including
+
+20 See NIST SP 800-184: Guide for Cybersecurity Event
+
+Recovery for additional guidance.
+
+
+                                                                                                    TLP:CLEAR
+
+                                                        CISA | Cybersecurity and Infrastructure Security Agency 15
+                                                                                                   TLP:CLEAR
+
+         security controls.                               environment. To validate normal operations have
+    •    Monitoring operations for abnormal               resumed, consider performing an independent
+         behaviors.                                       test or review of compromise/response-related
+A key aspect to the recovery is to have enhanced          activity. To help detect related attacks, review
+vigilance and controls in place to validate that the      cyber threat intelligence (including network
+recovery plan has been successfully executed              situational awareness), and closely monitor the
+and that no signs of adversary activity exist in the      environment for evidence of threat actor activity.
+
+
+
+
+Post-Incident Activities
+                       The goal of this step is to document the incident, inform agency leadership, harden
+                       the environment to prevent similar incidents, and apply lessons learned to improve
+                       the handling of future incidents.
+
+
+
+Adjust Sensors, Alerts, and Log Collection                Perform Hotwash
+Add enterprise-wide detections to mitigate against        Conduct a lessons-learned analysis to review the
+adversary TTPs that were successfully executed            effectiveness and efficiency of incident handling.
+during the incident. Identify and address “blind          Capture lessons learned, initial root cause,
+spots” to ensure adequate coverage moving                 problems executing courses of action, and any
+forward. Closely monitor the environment for              missing policies and procedures.
+evidence of persistent adversary presence.
+                                                          The primary objectives for the analysis include:
+Advanced SOCs should consider emulating
+adversary TTPs to ensure recently implemented                •   Ensuring root-cause has been eliminated
+countermeasures are effective in detecting or                    or mitigated.
+mitigating the observed activity. This testing               •   Identifying infrastructure problems to
+should be closely coordinated with a blue team to                address.
+ensure that they are not mistaken for true                   •   Identifying organizational policy and
+                                                                 procedural problems to address.
+adversary activity.
+                                                             •   Reviewing and updating roles,
+Finalize Reports                                                 responsibilities, interfaces, and authority
+                                                                 to ensure clarity.
+Provide post-incident updates as required by law             •   Identifying technical or operational training
+and policy. 21 Work with CISA to provide required                needs.
+artifacts, close the ticket, and/or take additional          •   Improving tools required to perform
+response action.                                                 protection, detection, analysis, or
+                                                                 response actions.
+
+
+
+
+21 CISA Federal Incident Notification Guidelines
+
+
+
+
+                                                                                                   TLP:CLEAR
+
+                                                       CISA | Cybersecurity and Infrastructure Security Agency 16
+                                                                                                    TLP:CLEAR
+
+Coordination
+                     Coordination is foundational to effective incident response. It is critical that the FCEB
+                     agency experiencing the incident and CISA coordinate early and often throughout
+                     the response process. It is also important to understand that some agencies have
+                     special authorities, expertise, and information that are extremely beneficial during an
+                     incident. This section highlights these aspects of coordination.
+
+Coordination with CISA
+                                                         CTI, that can help agencies throughout the IR
+Cyber defense capabilities vary widely. For this
+                                                         lifecycle. The full list of cybersecurity services
+reason, coordinating involves different degrees of
+                                                         available to the FCEB are listed in the CISA
+engagement between the affected agency and
+                                                         Services Catalog, page 18. 22
+CISA. As a baseline, every cybersecurity incident
+affecting an FCEB agency must be reported to             Reporting requirements for FCEB agencies are
+CISA. For organizations with mature security             defined by FISMA and actioned by CISA. See the
+operations efforts, reporting and information            numbered circles in Figure 2 for reporting and
+sharing is key to assist others.                         coordination activities that should be a part of the
+                                                         IR process. See Appendix G for a companion
+Agencies also leverage CISA’s cyber defense
+                                                         checklist to track coordination activities to
+services to supplement their own IR capabilities.
+                                                         completion.
+CISA provides a variety of services, such as
+threat hunting, analytics, malware analysis, and
+
+
+
+
+                                Figure 2: Numbered IR Coordination Activities
+
+
+
+
+22 CISA Services Catalog
+
+
+
+
+                                                                                                    TLP:CLEAR
+
+                                                     CISA | Cybersecurity and Infrastructure Security Agency 17
+                                                                                                                     TLP:CLEAR
+
+It is essential for the affected department or                    on the CISA National Cyber Incident Scoring
+agency to closely collaborate and coordinate with                 System (NCISS) score. 25, 26
+CISA on each step in the IR flow chart. Some of
+the essential coordination and communication
+                                                                  3) Share IOCs, TTPs, data
+activities are defined by the numbered circles.                   The affected FCEB agency share relevant log
+Each number corresponds to a description below:                   data, cyber threat indicators with associated
+                                                                  context (including associated TTPs, if available),
+1) Inform and Update CISA
+                                                                  and recommended defensive measures with CISA
+The FCEB agency provides situational awareness                    and sharing partners. Sharing additional threat
+reports to CISA, including:                                       information is a concurrent process throughout
+                                                                  the containment phase. Incident updates include
+    •   Notifying CISA within 1 hour of incident
+                                                                  the following:
+        determination as directed by OMB M-20-
+        04.                                                           •    Updated scope
+    •   Note: FCEB ICT Service providers should                       •    Updated timeline (findings, response
+        provide notification of cyber incidents in                         efforts, etc.)
+        accordance with FCEB Agency                                   •    New indicators of adversary activity
+        Contracting Officer (CO) requirements,                        •    Updated understanding of impact
+        which include National Security System                        •    Updated status of outstanding efforts
+        (NSS) reporting requirements. 23                              •    Estimation of time until containment,
+    •   Where applicable, notifying their                                  eradication, etc.
+        appropriate Congressional Committees,
+        their Office of Inspector General (OIG),                  4) CISA Shares Coordinated Cyber Intelligence
+        and OMB Office of the Federal Chief                       CISA—in coordination with the intelligence
+        Information Officer (OFCIO) as directed by                community and law enforcement—shares related
+        OMB M-20-04.                                              cyber intelligence to involved organizations.
+    •   Providing incident updates to CISA as
+        appropriate until all eradication activities              5) Report to Federal Law Enforcement
+        are complete or until CISA agrees with the                The FCEB agency reports incidents to federal law
+        FCEB agency that the incident is closed.                  enforcement as appropriate.
+    •   Complying with additional reporting
+        requirements for major incidents as                       6) CISA Determines Escalation
+        mandated by OMB and other federal                         CISA or the Federal Bureau of Investigation (FBI)
+        policy. 24                                                determines if the incident warrants Cyber Unified
+                                                                  Coordination Group (C-UCG) escalation, and, if
+2) CISA Provides Incident Tracking and NCISS
+                                                                  so, recommends establishment of a C-UCG in
+   Rating
+                                                                  accordance with the provisions of PPD-41 §
+Within one hour of receiving the initial report,                  V.B.b. C-UCG is the primary mechanism for
+CISA provides the agency with (1) a tracking                      coordination between and among federal
+number for the incident and (2) a risk rating based               agencies in response to a significant cyber
+
+23 EO 14028, Sec. 2. Removing Barriers to Sharing Threat          internal reporting chain of the organization, CISA must
+                                                                  receive the major incident report within 1 hour of major
+Information                                                       incident declaration.
+24 Per OMB M-20-04, appropriate analysis of whether the
+                                                                  25 CISA Federal Incident Notification Guidelines
+incident is a major incident will include the agency CIO,
+CISO, mission or system owners, and, if it is a breach, the       26 OMB M-20-04
+
+Senior Agency Official for Privacy (SAOP). Regardless of the
+
+
+                                                                                                                     TLP:CLEAR
+
+                                                               CISA | Cybersecurity and Infrastructure Security Agency 18
+                                                                                                                   TLP:CLEAR
+
+incident as well as for integration of private sector             appropriate actions have been taken. CISA will
+partners into incident response efforts.                          evaluate these materials and:
+
+7) Provide Final Incident Report                                       •    Determine that the incident is adequately
+                                                                            addressed, and close the CISA ticket.
+The FCEB agency provides CISA post-incident
+                                                                       •    Determine if additional response actions
+updates as required.
+                                                                            must be completed and request the
+8) CISA Conducts Verification and Validation                                agency complete them prior to closing the
+                                                                            ticket.
+To ensure completion of recovery, CISA will
+                                                                       •    Request more information, including log
+validate agency incident and vulnerability
+response results and processes. Validation                                  data and technical artifacts.
+assures agencies that they are meeting baseline                        •    Recommend the use of CISA or other
+standards, implementing all important steps, and                            third-party incident response services.
+have fully eradicated an incident or vulnerability.               Affected FCEB entities must take CISA-required
+For all incidents that require the use of the                     actions prior to closing the incident. Working with
+playbook, agencies must proactively provide                       affected FCEB entities, CISA determines the
+completed incident response checklists and a                      actions, which vary depending on the nature of
+completed incident report to close the ticket. If an              the incident and eradication.
+agency is unable to complete the checklist, the
+agency will confer with CISA to ensure all
+Intergovernmental Coordination
+In a broader context, FCEB cyber defensive operations are not alone in tackling major incidents.
+Several government departments and agencies have defined roles and responsibilities and are
+coordinating and sharing across the federal government even before incidents occur. These roles and
+responsibilities can be described in terms of concurrent lines of effort (LOEs): asset response, threat
+response, intelligence support, and affected agency response; together these LOEs ensure a
+comprehensive response. Table 2 summarizes the LOEs for lead federal agencies in responding to
+cyber security incidents.
+
+                     Table 2: Federal Government Leads for Lines of Effort per the NCIRP 27
+
+ Line of Effort    Role                                                                Lead Federal Agency
+ Threat            Conduct investigative activity and execute courses of action        Department of Justice through the FBI
+ Response          intended to mitigate the immediate threat; facilitate information   and National Cyber Investigative Joint
+                   sharing and operational coordination with asset response.           Task Force (NCIJTF)
+
+ Asset             Conduct response activities with FCEB agencies to protect           Department of Homeland Security
+ Response          assets, mitigate vulnerabilities, and reduce impacts of cyber       (DHS) through the CISA
+                   incidents. Coordinate with threat response and provide
+                   guidance on how to best utilize federal resources.
+
+ Intelligence      Facilitate building of situational threat awareness and sharing     Office of the Director of National
+ Support           of related intelligence; the integrated analysis of threat trends   Intelligence (ODNI) through Cyber
+                   and events; the identification of knowledge gaps; and the           Threat Intelligence Integration Center
+                   ability to degrade or mitigate adversary capabilities.              (CTIIC)
+
+
+
+
+27 National Cyber Incident Response Plan
+
+
+
+
+                                                                                                                   TLP:CLEAR
+
+                                                              CISA | Cybersecurity and Infrastructure Security Agency 19
+                                                                                             TLP:CLEAR
+
+For major incidents or incidents that may become major, CISA is the “front door” for agencies for asset
+response. CISA will work with affected FCEB agencies to determine their needs, provide
+recommendations for services, and coordinate with other agencies (e.g., NSA) to provide a whole-of-
+government response. By serving as a single coordination point, CISA can ease the burden on FCEB
+agencies by facilitating the assistance available across the government.
+
+Depending on the nature of events and involved organizations, FCEB agencies may also work directly
+with other LOE lead agencies in support of those LOEs. Figure 3 identifies the organizations providing
+the types of data and information that inform incident detection, analysis, and response.
+
+The whole-of-government roles and responsibilities are outlined in Appendix G.
+
+
+
+
+                             Figure 3: Whole of Government Asset Response
+
+
+
+
+                                                                                             TLP:CLEAR
+
+                                                  CISA | Cybersecurity and Infrastructure Security Agency 20
+                                                                                                      TLP:CLEAR
+
+VULNERABILITY RESPONSE PLAYBOOK
+One of the most straightforward and effective means for an
+                                                                      When to use this playbook
+organization to prioritize vulnerability response and protect
+                                                                         Vulnerabilities in scope for this
+themselves from being compromised is by focusing on                 playbook are those actively exploited
+vulnerabilities that are already being actively exploited in the    "in the wild," namely, any vulnerability
+wild. This playbook standardizes the high-level process that             that is observed to be used by
+agencies should follow when responding to these urgent and             adversaries to gain unauthorized
+high priority vulnerabilities. It is not a replacement for existing     entry into computing resources.
+vulnerability management programs in place at an agency but
+instead builds on existing vulnerability management practices. A standardized response process
+ensures that agencies, including CISA, can understand the impact of these critical and dangerous
+vulnerabilities across the federal government.
+
+Vulnerabilities that this playbook addresses could be observed by the impacted agency, CISA, industry
+partners, or others in the related mission space. Most vulnerabilities will have CVE descriptors. In other
+cases, agencies might encounter new vulnerabilities that do not yet have a CVE (e.g., zero-days) or
+vulnerabilities resulting from misconfigurations. Appendix D provides a companion checklist to track
+response activities to completion.
+
+Preparation
+Effective vulnerability response builds on strong vulnerability management. Ensure that effective
+vulnerability management practices are being followed. 28 Such practices include building and
+maintaining robust asset management that includes inventorying:
+
+    •   Agency-operated systems and networks,
+    •   Systems and networks that involve partnerships with other organizations, and
+    •   Systems and networks operated by others, including cloud, contractor, and
+        service provider systems.
+Have a process in place to understand the relevance of vulnerabilities to the environment by tracking
+operating systems and other applications for all systems. Understand all systems might have
+vulnerabilities and the implication of potential vulnerabilities on operations.
+
+
+
+
+28 NIST SP 800-40 Rev. 4: Guide to Enterprise Patch Management Technologies
+
+
+
+
+                                                                                                      TLP:CLEAR
+
+                                                        CISA | Cybersecurity and Infrastructure Security Agency 21
+                                                                                                      TLP:CLEAR
+
+Vulnerability Response Process
+Standard vulnerability management programs include phases for identifying, analyzing, remediating,
+and reporting vulnerabilities. Figure 4 describes the vulnerability response process in terms of standard
+vulnerability management program phases.
+
+
+
+
+                                          Figure 4: Vulnerability Response Phases
+
+Identification
+                      Proactively identify reports of vulnerabilities that are actively exploited in the wild by
+                      monitoring threat feeds and information sources, including but not limited to:
+
+                      •   CISA resources; for example:
+                             o CISA products, which include the weekly bulletins containing vulnerability
+                                 summaries, and
+                                      Note: all agencies should subscribe to CISA product
+                                         announcements. 29
+                             o CISA Binding Operational Directive (BOD) 22-01, Managing
+                                 Unacceptable Risk of Known Vulnerabilities, which is continually updated
+                                 with vulnerabilities being exploited in the wild.
+                                      Note: subscribe to NCAS products for all BOD 22-01 vulnerability
+                                         updates, which are announced via Current Activities.
+                      •   External threat or vulnerability feeds, such as NIST’s National Vulnerability
+                          Database, 30 that can also show vulnerabilities being exploited in the wild outside
+                          FCEB agencies.
+
+
+29 CISA Subscription Webpage
+
+30 NIST National Vulnerability Database
+
+
+
+
+                                                                                                      TLP:CLEAR
+
+                                                           CISA | Cybersecurity and Infrastructure Security Agency 22
+                                                                                                        TLP:CLEAR
+
+                       •   Internal SOC monitoring and incident response, which can detect vulnerabilities
+                           being exploited at an agency.
+
+                        Capture additional information about the vulnerability to help with the rest of the
+                        response process, including the severity of the vulnerability, susceptible software
+                        versions, and IOCs or other investigation steps that can be used to determine if it
+                        was exploited.
+
+
+
+
+Evaluation
+                   First, determine whether the vulnerability exists in the environment and how critical
+                   the underlying software or hardware is, using methodologies such as Stakeholder-
+                   Specific Vulnerability Categorization (SSVC). 31 Existing patch and asset
+                   management tools are critical and can be used to automate the detection process
+                   for most vulnerabilities. For actively exploited vulnerabilities, use the “rapid
+response” processes in these tools (e.g., CDM). In rare cases, such as one-off misconfigurations and
+zero-days, additional manual scans may need to be performed. Binding Operational Directives (BODs)
+or Emergency Directives (EDs) issued by CISA may also list specific technical steps to evaluate
+whether a vulnerability exists.
+
+If the vulnerability exists in the environment, address the vulnerability itself—as described in the
+Remediation section below—and determine whether it has been exploited in the agency's environment.
+Use existing best practices to find signs of exploitation, including:
+
+    •    A sweep for known IOCs associated with exploitation of the vulnerability.
+    •    Investigation of any abnormal activity associated with vulnerable systems or services, including
+         anomalous access attempts and behavior.
+    •    Completion of any detection processes in CISA directives.
+    •    If needed, collaboration with a third-party incident responder.
+
+If the vulnerability was exploited in the environment, immediately begin incident response activities as
+described in the Incident Response Playbook.
+
+At the end of the Evaluation step, the goal is to understand the status of each system in the
+environment as:
+
+    •    Not Affected. The system is not vulnerable.
+    •    Susceptible. The system is vulnerable, but no signs of exploitation were found, and
+         remediation has begun.
+    •    Compromised. The system was vulnerable, signs of exploitation were found, and incident
+         response and vulnerability remediation has begun.
+
+
+
+
+31 Prioritizing Vulnerability Response: A Stakeholder-Specific Vulnerability Categorization
+
+
+
+
+                                                                                                        TLP:CLEAR
+
+                                                              CISA | Cybersecurity and Infrastructure Security Agency 23
+                                                                                               TLP:CLEAR
+
+Remediation
+                   Remediate all actively exploited vulnerabilities that exist on or within the environment
+                   in a timely manner. In most cases, remediation should consist of patching. In other
+                   cases, the following mitigations may be appropriate:
+
+                   •   Limiting access;
+                   •   Isolating vulnerable systems, applications, services, profiles, or
+                       other assets; or
+                   •   Making permanent configuration changes.
+Existing patch management tools and processes can be used to regularly patch all vulnerabilities. Use
+“rapid response” processes—As described in the Evaluation section above—in those tools for
+vulnerabilities that are being actively exploited in the wild.
+
+In cases where patches do not exist, have not been tested, or cannot be immediately applied promptly,
+take other courses of action to prevent exploitation, such as:
+
+   •   Disabling services,
+   •   Reconfiguring firewalls to block access, or
+   •   Increasing monitoring to detect exploitation.
+Once patches are available and can be safely applied, mitigations can be removed, and patches
+applied.
+
+As systems are remediated, keep track of their status for reporting purposes. Each system should be
+able to be described as one of these categories:
+
+   •   Remediated. The patch or configuration change has been applied and the
+       system is no longer vulnerable.
+   •   Mitigated. Other compensating controls—such as detection or access
+       restriction—are in place and the risk of the vulnerability is reduced.
+   •   Susceptible/Compromised. No action has been taken and the system is still
+       susceptible or compromised.
+
+
+
+
+Reporting and Notification
+                     Sharing information about how vulnerabilities are being exploited by adversaries can
+                     help defenders across the federal government understand which vulnerabilities are
+                     most critical to patch. CISA, in partnership with other federal agencies, is
+                     responsible for the overall security posture of the FCEB. As such, CISA needs to
+                     maintain awareness of the status of vulnerability response for actively exploited
+vulnerabilities. This awareness enables CISA to help other agencies understand the impact of
+vulnerabilities and to narrow the time between disclosure and vulnerability exploitation. Agencies must
+report to CISA in accordance with Federal Incident Notification Guidelines, Binding Operational
+Directives, or as directed by CISA in an Emergency Directive.
+
+
+
+
+                                                                                               TLP:CLEAR
+
+                                                   CISA | Cybersecurity and Infrastructure Security Agency 24
+  APPENDIX A: KEY TERMS
+Term                Definition                                                                              Source
+                    A compulsory direction to federal executive branch, civilian departments, and
+                    agencies ("agencies") for purposes of safeguarding federal information and
+Binding
+                    information systems. DHS develops and oversees the implementation of binding            Section 3553 of
+Operational
+                    operational directives pursuant to the Federal Information Security Modernization       title 44, U.S. Code
+Directive (BOD)
+                    Act of 2014 (FISMA). Federal agencies are required to comply with these DHS-
+                    developed directives.
+
+                    In response to a known or reasonably suspected information security threat,
+                    vulnerability, or incident that represents a substantial threat to the information
+                    security of an agency, the Secretary of Homeland Security may issue an ED to
+Emergency           the head of an agency to take any lawful action with respect to the operation of        Section 3553 of
+Directive (ED)      the information system, including such systems used or operated by another              title 44, U.S. Code
+                    entity on behalf of an agency for the purpose of protecting the information system
+                    from, or mitigating, an information security threat. This authority has been
+                    delegated to and may be issued with the signature of the Director of CISA.
+
+                    Federal Civilian Executive Branch Agencies (FCEB Agencies) include all
+FCEB Agencies       agencies except for the Department of Defense and agencies in the Intelligence          EO 14028, Sec.10
+                    Community
+FCEB
+Information         Those information systems operated by Federal Civilian Executive Branch                 EO 14028, Sec.10
+Systems             Agencies but excludes National Security Systems (NSS).
+
+                    An occurrence that— (A)actually or imminently jeopardizes, without lawful               EO 14028, Sec. 10
+Incident            authority, the integrity, confidentiality, or availability of information or an         44 U.S.C.
+                    information system; or (B)constitutes a violation or imminent threat of violation of    3552(b)(2)
+                    law, security policies, security procedures, or acceptable use policies.
+
+ICT Service         Information and communications technology (ICT) service providers - includes IT,        EO 14028, Sec.2
+Providers           OT, and cloud service providers (CSPs)
+
+                    Any incident that is likely to result in demonstrable harm to the national security
+                    interests, foreign relations, or the economy of the United States or to the public      OMB
+                    confidence, civil liberties, or public health and safety of the American people.32      Memorandum M-
+                    Agencies should determine the level of impact of the incident by using the              20-04: Fiscal Year
+                    existing incident management process established in National Institute of               2019-2020
+                    Standards and Technology (NIST) Special Publication (SP) 800-61, Computer               Guidance on
+Major Incident                                                                                              Federal
+                    Security Incident Handling Guide, or A breach that involves personally identifiable
+                    information (PII) that, if exfiltrated, modified, deleted, or otherwise compromised,    Information
+                    is likely to result in demonstrable harm to the national security interests, foreign    Security and
+                    relations, or the economy of the United States, or to the public confidence, civil      Privacy
+                    liberties, or public health and safety of the American people.33                        Management
+                                                                                                            Requirements.
+
+
+
+
+  32 Using the CISA Cyber Incident Scoring System, this includes Level 3 events (orange), defined as those that are
+
+  "likely to result in a demonstrable impact to public health or safety, national security, economic security, foreign
+  relations, civil liberties, or public confidence"; Level 4 events (red), defined as those that are "likely to result in a
+  significant impact to public health or safety, national security, economic security, foreign relations, or civil liberties";
+  and Level 5 events (black), defined as those that "pose an imminent threat to the provision of wide-scale critical
+  infrastructure services, national government stability, or the lives of US persons."
+  33 The analysis for reporting a major breach to Congress is distinct and separate from the assessment of the potential
+
+  risk of harm to individuals resulting from a suspected or confirmed breach. When assessing the potential risk of
+  harm to individuals, agencies should refer to OMB M-17-12.
+                                                                                                         TLP:CLEAR
+
+
+Term               Definition                                                                         Source
+                                                                                                      November 19,
+                                                                                                      2019.
+
+
+                  National Security Systems (NSS) are information systems as defined in 44             44
+                  U.S.C.3552(b)(6).                                                                    U.S.C.3552(b)(6)
+                  (A)The term “national security system” means any information system (including
+                  any telecommunications system) used or operated by an agency or by a
+                  contractor of an agency, or other organization on behalf of an agency—
+                  (i)the function, operation, or use of which—
+                  (I)involves intelligence activities;
+                  (II)involves cryptologic activities related to national security;
+National Security (III)involves command and control of military forces;
+Systems (NSS)     (IV)involves equipment that is an integral part of a weapon or weapons system; or
+                  (V)subject to subparagraph (B), is critical to the direct fulfillment of military or
+                  intelligence missions; or
+                  (ii)is protected at all times by procedures established for information that have
+                  been specifically authorized under criteria established by an Executive order or
+                  an Act of Congress to be kept classified in the interest of national defense or
+                  foreign policy.
+                  (B)Subparagraph (A)(i)(V) does not include a system that is to be used for routine
+                  administrative and business applications (including payroll, finance, logistics, and
+                  personnel management applications).
+                                                                                                      Cybersecurity
+                   The term "security vulnerability" means any attribute of hardware, software,       Information
+Vulnerability      process, or procedure that could enable or facilitate the defeat of a security     Sharing Act of
+                   control.                                                                           2015, Pub. L. No.
+                                                                                                      114-113, § 102
+
+
+
+
+                                                                                                         TLP:CLEAR
+
+                                                                                                                          26
+                                                                CISA | Cybersecurity and Infrastructure Security Agency
+                                                                                                 TLP:CLEAR
+
+
+  APPENDIX B: INCIDENT RESPONSE CHECKLIST
+  Note: the incident response playbook for incidents that involve confirmed malicious cyber
+  activity for which a major incident has been declared or not yet been reasonably ruled out.
+
+Step Incident Response Procedure                                              Action          Date
+                                                                              Taken           Completed
+             Detection & Analysis
+
+
+1. Declare Incident
+1a.     Perform initial categorization of incident. 34
+
+1b.     Designate agency incident coordination lead.
+
+1c.     Notify CISA and, if applicable, law enforcement.
+
+        Designate CISA reporting POCs and provide information for both
+        primary and secondary POCs, to include names, phone
+1d.
+        numbers, and email addresses, to CISA for appropriate
+        coordination.
+
+2. Determine Investigation Scope
+2a.     Identify the type and extent of the incident.
+
+        Assess operational or informational impact on organization’s
+2b.
+        mission.
+
+3. Collect and Preserve Data
+        Collect and preserve the data necessary for incident verification,
+3a.     categorization, prioritization, mitigation, reporting, attribution,
+        and as potential evidence in accordance with NIST 800-61r2.
+
+        Log all evidence and note how the evidence was acquired, when
+3b.
+        it was acquired, and who acquired the evidence.
+
+4. Perform Technical Analysis
+        Develop a technical and contextual understanding of the
+4a.
+        incident.
+
+        Based on analysis thus far and available CTI, form a hypothesis
+4b.
+        of what the adversary was attempting to access/accomplish.
+
+
+
+
+  34 OMB M-20-04
+
+
+                                                                                                 TLP:CLEAR
+
+                                                                                                                       27
+                                                             CISA | Cybersecurity and Infrastructure Security Agency
+                                                                                                 TLP:CLEAR
+
+
+Step Incident Response Procedure                                              Action          Date
+                                                                              Taken           Completed
+        Update scope as investigation progresses and information
+4c.     evolves. Report most recent findings and incident status to
+        CISA.
+
+        Terminating condition: Technical analysis is complete when the
+        incident has been verified, the scope has been determined, the
+        method(s) of persistent access to the network has/have been
+4d.     identified, the impact has been assessed, a hypothesis for the
+        narrative of exploitation has been cultivated (TTPs & IOCs), and
+        all stakeholders are proceeding with a common operating
+        picture.
+
+Correlate Events and Document Timeline
+4e.     Analyze logs to correlate events and adversary activity
+
+        Establish an incident timeline that records events, description of
+4f.     events, date-time group (UTC) of occurrences, impacts, and data
+        sources. Keep updated with all relevant findings.
+
+Identify Anomalous Activity
+        Assess affected systems and networks for subtleties of
+4g.
+        adversary behavior which often may look legitimate.
+
+        Identify deviations from established baseline activity -
+        particularly important to identify attempts to leverage legitimate
+4h.
+        credentials and native capabilities and tools (i.e., living off the
+        land techniques).
+
+Identify Root Cause and Enabling Conditions
+        Attempt to identify the root cause of the incident and collect
+4i.     threat information that can be used in further searches and
+        inform subsequent response efforts.
+
+        Identify and document the conditions that enabled the
+4j.
+        adversary to access and operate within the environment.
+
+        Assess networks and systems for changes that may have been
+4k.
+        made to either evade defenses or facilitate persistent access.
+
+        Identify attack vector. This includes how the adversary
+4l.
+        accessing the environment (e.g., malware, RDP, VPN).
+
+        Assess access (depth & breadth). This includes All compromised
+4m.
+        systems, users, services, and networks.
+
+
+
+
+                                                                                                 TLP:CLEAR
+
+                                                                                                                       28
+                                                             CISA | Cybersecurity and Infrastructure Security Agency
+                                                                                                  TLP:CLEAR
+
+
+Step Incident Response Procedure                                               Action          Date
+                                                                               Taken           Completed
+Gather Incident Indicators
+4n.     Review available CTI for precedent of similar activity.
+
+        Analyze adversary tools. Assess tools to extract IOCs for short-
+4o.
+        term containment.
+
+        Identify and document indicators that can be used for
+4p.
+        correlative analysis on the network.
+
+        Share extracted threat information (atomic, computed, and
+4q.     behavioral indicators, context, and countermeasures) with
+        internal response teams and CISA.
+
+Analyze for Common Adversary TTPs
+4r.     Identify initial access [TA0001] techniques (e.g., spearphishing,
+        supply chain compromise).
+
+4s.     If access is facilitated by malware, identify associated command
+        and control [TA0011] (e.g., identify port, protocol, profile,
+        domain, IP address).
+
+4t.     Identify the techniques used by the adversary to achieve code
+        execution [TA0002].
+
+4u.     Assess compromised hosts to identify persistence [TA0003]
+        mechanisms.
+
+4v.     Identify lateral movement [TA0008] techniques. Determine the
+        techniques used by the adversary to access remote hosts.
+
+4w.     Identify the adversary’s level of credential access [TA0006]
+        and/or privilege escalation.
+
+4x.     Identify the method of remote access, credentials used to
+        authenticate, and level of privilege. If access is by legitimate but
+        compromised application (e.g., RDP, VPN), identifies the
+        method.
+
+4y.     Identify mechanism used for data exfiltration [TA0010].
+
+Validate and Refine Investigation Scope
+4z.     Identify new potentially impacted systems, devices, and
+        associated accounts.
+
+4aa.    Feed new IOCs and TTPs into detection tools.
+
+
+
+                                                                                                  TLP:CLEAR
+
+                                                                                                                        29
+                                                              CISA | Cybersecurity and Infrastructure Security Agency
+                                                                                                 TLP:CLEAR
+
+
+Step Incident Response Procedure                                           Action             Date
+                                                                           Taken              Completed
+4bb.    Continue to update the scope and communicate updated scope
+        to all stakeholders to ensure a common operating picture.
+
+5. Third-Party Analysis Support (if needed)
+        Identify if third-party analysis support is needed for incident
+        investigation or response. CISA may recommend use of another
+5a.
+        agency or a third-party for intrusion detection and incident
+        response support services.
+
+        Invoke Federal Network Authorization (FNA) to enable CISA
+5b.
+        incident response and hunt assistance. 35
+
+        Coordinate and facilitate access if incorporating third-party
+5c.
+        analysis support into response efforts.
+
+        Coordinate response activities with agency service providers for
+5d.
+        systems hosted outside of the agency.
+
+6. Adjust Tools
+        Tune tools to slow the pace of advance and decrease dwell time
+6a.
+        by incorporating IOCs to protect/detect specific activity.
+
+        Introduce higher-fidelity modifications to tools. Tune tools to
+        focus on tactics that must be used by the adversary to obtain
+6b.
+        operational objectives (e.g., execution, credential access, and
+        lateral movement).
+
+             Containment
+
+
+7. Contain Activity (Short-term Mitigations)
+        Determine appropriate containment strategy, including:
+        • Requirement to preserve evidence
+        • Availability of services (e.g., network connectivity, services
+7a.         continuity)
+        • Resource constraints
+        Duration of containment steps
+
+        System backup(s) to preserve evidence and continued
+7b.
+        investigation.
+
+
+
+
+  35 CISA Services Catalog
+
+
+                                                                                                 TLP:CLEAR
+
+                                                                                                                       30
+                                                             CISA | Cybersecurity and Infrastructure Security Agency
+                                                                                               TLP:CLEAR
+
+
+Step Incident Response Procedure                                          Action            Date
+                                                                          Taken             Completed
+      Coordinate with law enforcement to collect and preserve
+7c.   evidence (as required by (Step 3a) prior to eradication, if
+      applicable.
+
+      Isolate affected systems and networks including:
+      • Perimeter containment
+      • Internal network containment
+7d.   • Host-based/Endpoint containment
+      Temporarily disconnect public-facing systems from the Internet,
+      etc.
+
+7e.   Close specific ports and mail servers. Update firewall filtering.
+
+      Change system admin passwords, rotate private keys and
+7f.   service/application account secrets where compromise is
+      suspected revoke privileged access.
+
+      Perform blocking (and logging) of unauthorized accesses,
+7g.   malware sources, and egress traffic to known attacker Internet
+      Protocol (IP) addresses.
+
+      Prevent Domain Name Server (DNS) resolution of known
+7h.
+      attacker domain names.
+
+      Prevent compromised system(s) from connecting to other
+7i.
+      systems on the network.
+
+      Advanced SOCs may direct adversary to sandbox to monitor
+7j.
+      activity, gather additional evidence, and identify TTPs.
+
+      Monitor for signs of threat actor response to containment
+7k.
+      activities.
+
+      Report updated timeline and findings (including new atomic and
+7l.
+      behavioral indicators) to CISA.
+
+      If new signs of compromise are found, return to technical
+7m.
+      analysis (Step 4) to re-scope the incident.
+
+      Terminating condition: Upon successful containment (i.e., no
+      new signs of compromise), preserve evidence for reference and
+7n.
+      law enforcement investigation (if applicable), adjust detection
+      tools, and move to eradication.
+
+          Eradication & Recovery
+
+
+
+                                                                                               TLP:CLEAR
+
+                                                                                                                     31
+                                                           CISA | Cybersecurity and Infrastructure Security Agency
+                                                                                                 TLP:CLEAR
+
+
+Step Incident Response Procedure                                              Action          Date
+                                                                              Taken           Completed
+8. Execute Eradication Plan
+       Develop a well-coordinated eradication plan that considers
+8a.    scenarios for threat actor use of alternative attack vectors and
+       multiple persistence mechanisms.
+
+       Provide incident status to CISA until all eradication activities are
+8b.
+       complete.
+
+       Remove artifacts of the incident from affected systems,
+8c.
+       networks, etc.
+
+       Reimage affected systems from clean backups (i.e., ‘gold’
+8d.
+       sources).
+
+8e.    Rebuild hardware (if rootkits involved).
+
+8f.    Scan for malware to ensure removal of malicious code.
+
+       Monitor closely for signs of threat actor response to eradication
+8g.
+       activities.
+
+       Allow adequate time to ensure all systems are clear of threat
+8h.    actor persistence mechanisms (such as backdoors) since
+       adversaries often use more than one mechanism.
+
+       Update the timeline to incorporate all pertinent events from this
+8i.
+       step.
+
+8j.    Complete all actions for eradication.
+
+       Continue with detection and analysis activities after executing
+8k.    the eradication plan to monitor for any signs of adversary re-
+       entry or use of new access methods.
+
+       If new adversary activity is discovered at the completion of the
+       eradication step, contain the new activity and return to
+8l.
+       Technical Analysis (Step 4) until the true scope of the
+       compromise and infection vectors are identified.
+
+8m.    If eradication is successful, move to Recovery.
+
+9. Execute Eradication Plan
+       Restore agency systems to operational use: recovering
+9a.
+       mission/business data.
+
+9b.    Revert all changes made during incident.
+
+
+                                                                                                 TLP:CLEAR
+
+                                                                                                                       32
+                                                             CISA | Cybersecurity and Infrastructure Security Agency
+                                                                                                 TLP:CLEAR
+
+
+Step Incident Response Procedure                                            Action            Date
+                                                                            Taken             Completed
+9c.     Reset passwords on compromised accounts.
+
+9d.     Implement multi-factor authentication for all access methods.
+
+9e.     Install updates and patches.
+
+        Tighten perimeter security (e.g., firewall rulesets, boundary
+9f.
+        router access control lists) and zero trust access rules.
+
+        Test systems thoroughly (including security controls
+9g.     assessment) to validate systems are operating normally before
+        bringing back online in production networks.
+
+        Consider emulating adversarial TTPs to verify countermeasures
+9h.
+        are effective.
+
+        Review all relevant CTI to ensure situational awareness of the
+9i.
+        threat actor activity.
+
+        Update incident timeline to incorporate all pertinent events from
+9j.
+        Recovery step.
+
+9k.     Complete all actions for recovery.
+
+        Restore agency systems to operational use: recovering
+9l.
+        mission/business data.
+
+            Post-Incident Activities
+
+
+10. Post-Incident Activities
+        Document the incident, inform agency leadership, harden the
+10a.    environment to prevent similar incidents, and apply lessons
+        learned to improve the handling of future incidents.
+
+Adjust Sensors, Alerts, and Log Collection
+        Add enterprise-wide detections to mitigate against adversary
+10b.
+        TTPs that were successfully executed.
+
+
+        Identify and address operational “blind spots” to adequate
+10c.
+        coverage moving forward.
+
+
+
+
+                                                                                                 TLP:CLEAR
+
+                                                                                                                       33
+                                                             CISA | Cybersecurity and Infrastructure Security Agency
+                                                                                                  TLP:CLEAR
+
+
+Step Incident Response Procedure                                                Action         Date
+                                                                                Taken          Completed
+        Continue to monitor the agency environment for evidence of
+10d.
+        persistent presence.
+
+
+Adjust Sensors, Alerts, and Log Collection
+
+
+10e.    Provide post-incident updates as required by law and policy.
+
+
+
+        Publish post-incident report. Provide a step-by-step review of the
+10f.    entire incident and answer the Who, What, Where, Why, and
+        How questions.
+
+        Provide CISA with post-incident update with seven (7) days of
+10g.    resolution or as directed by CISA in the Federal Incident
+        Notification Guidelines.
+
+
+        Work with CISA to provide required artifacts, close the ticket,
+10h.
+        and/or take additional response action.
+
+
+Perform Hotwash
+        Conduct lessons learned analysis with all involved parties to
+10i.    assess existing security measures and the incident handling
+        process recently experienced.
+
+        Identify if agency IR processes were followed and if they were
+10j.
+        sufficient.
+
+        Identify any policies and procedures in need of modification to
+10k.
+        prevent similar incidents from occurring.
+
+        Identify how information sharing with CISA and other
+10l.
+        stakeholders can be improved during IR.
+
+10m.    Identify any gaps in incident responder training.
+
+        Identify any unclear or undefined roles, responsibilities,
+10n.
+        interfaces, and authorities.
+
+        Identify precursors or indicators that should be monitored to
+10o.
+        detect similar incidents.
+
+        Identify if agency infrastructure for defense was sufficient. If not,
+10p.
+        identify the gaps.
+
+
+
+                                                                                                  TLP:CLEAR
+
+                                                                                                                        34
+                                                              CISA | Cybersecurity and Infrastructure Security Agency
+                                                                                                           TLP:CLEAR
+
+
+Step Incident Response Procedure                                                Action                  Date
+                                                                                Taken                   Completed
+          Identify if additional tools or resources are needed to improve
+10q.
+          detection and analysis and help mitigate future incidents.
+
+
+          Identify any deficiencies in the agency incident response
+10r.      planning process. If no deficiencies identified, identify how the
+          agency intends to implement more rigor in its IR planning.
+
+
+               Coordination with CISA
+
+
+11. Coordination with CISA
+          Notify CISA with initial incident report within 1 hour after
+11a.
+          incident determination. 36
+
+          Receive incident tracking number and CISA National Cyber
+11b.
+          Incident Scoring System (NCISS) priority level from CISA.
+
+          Comply with additional reporting requirements for Major 37
+11c.
+          incidents as mandated by OMB and other federal policy. 38
+
+          Provide incident updates until all eradication activities are
+11d.
+          complete.
+
+          Report incident updates to include:
+          • Updated scope
+          • Updated timeline (findings, response efforts, etc.)
+          • New indicators of adversary activity
+11e.      • Updated understanding of impact
+          • Updated status of outstanding efforts
+          Estimation of time until containment, eradication, and recovery
+          are completed
+
+          Share relevant atomic and behavioral indicators and
+11f.
+          countermeasures with CISA throughout the IR process.
+
+11g.      Provide post-incident updates as directed by CISA.
+
+
+
+   36 CISA Federal Incident Notification Guidelines
+
+   37 Per OMB M-20-04, appropriate analysis of whether the incident is a major incident will include the agency CIO,
+
+   CISO, mission or system owners, and, if it is a breach, the Senior Agency Official for Privacy (SAOP). Regardless of
+   the internal reporting chain of the organization, CISA must receive the major incident report within 1 hour of major
+   incident declaration.
+   38 OMB M-20-04
+
+
+                                                                                                           TLP:CLEAR
+
+                                                                                                                          35
+                                                                CISA | Cybersecurity and Infrastructure Security Agency
+                                                                                            TLP:CLEAR
+
+
+Step Incident Response Procedure                                        Action           Date
+                                                                        Taken            Completed
+       ICT service providers and contractors who operate systems on
+11h.   behalf of FCEB agencies must promptly report incidents to such
+       agencies and directly report to CISA whenever they do so.
+
+
+
+
+                                                                                            TLP:CLEAR
+
+                                                                                                                  36
+                                                        CISA | Cybersecurity and Infrastructure Security Agency
+                                                                                                 TLP:CLEAR
+
+
+APPENDIX C: INCIDENT RESPONSE PREPARATION CHECKLIST
+                                                                                          Actions Date
+Step   Incident Response Preparation                                                      Taken Complete
+1. Policies and Procedures
+       Document agency Incident Response plan with procedures for escalating and
+1a     reporting major incidents and those with impact on agency mission.
+1b     Document procedure for designating agency incident coordination lead,
+       Identify key incident response personnel and responsibilities. Provide POC
+1c     names, phone numbers, and email addresses.
+1d     Identify system owners and Information System Security Officers (ISSOs),
+       Identify system IPs, system security plan, system/enclave boundaries, mission
+1e     essential status, etc.
+       Document contingency plan for additional resourcing or “surge support” with
+1f     assigned roles and responsibilities.
+2. Instrumentation
+       Implement detection and monitoring capabilities to include AV, EDR, DLP,
+       IDPS, logs, net flows, PCAP, and SIEM to provide accurate picture
+       of agency infrastructure (systems, networks, cloud platforms, and
+2a     contractor-hosted networks).
+       Establish a baseline for systems and networks to understand what “normal”
+2b     activity is to enable defenders to identify any deviations.
+2c     Implement EINSTEIN capabilities.
+2d     Implement CDM capabilities.
+       Ensure logging, log retention, and log management comply with EO 14029,
+2e     Sec 9.
+3. Trained Response Personnel
+       Train and exercise agency and staffing personnel to prepare for major
+3a     incidents.
+       Conduct recovery exercises to test full organizational COOP
+3b     (failover/backup/recovery systems).
+4. Cyber Threat Intelligence
+       Monitor intelligence feeds for threat or vulnerability advisories from a variety
+       of sources: government, trusted partners, open source, and commercial
+4a     entities.
+       Integrate threat feeds into SIEM and other defensive capabilities to identify
+4b     and block known malicious behavior.
+       Analyze suspicious activity reports from users, contractors/ICT service
+       providers; or incident reports from other internal or external organizational
+4c     components.
+       Collect incident data (indicators, TTPs, countermeasures) and share with CISA
+4d     and other partners (law enforcement, etc.)
+
+
+
+                                                                                                 TLP:CLEAR
+
+                                                                                                                    37
+                                                          CISA | Cybersecurity and Infrastructure Security Agency
+                                                                                               TLP:CLEAR
+
+
+                                                                                        Actions Date
+Step   Incident Response Preparation                                                    Taken Complete
+       Set up CISA Automated Indicator Sharing (AIS) or share via CISA Cyber Threat
+4e     Indicator and Defensive Measures Submission System.
+5. Active Defense
+       For those with advanced capabilities and staff, establish active defense
+       mechanisms (i.e., honeypots, honeynets, honeytokens, fake accounts, etc.,) to
+       create tripwires to detect adversary intrusions and to study the adversary
+5a     behavior to understand more about their TTPs.
+6. Communications and Logistics
+       Establish a communications strategy. This includes:
+       • Defining an out-of-band email communication protocol
+       • Designating a war room
+6a     • Establishing a comm channel (phone bridge or chat room).
+6b     Establish procedures mechanisms for coordinating major incidents with CISA.
+       Designate CISA reporting POCs and provide information for both primary and
+       secondary POCs, to include names, phone numbers, and email addresses, to
+6c     CISA for appropriate coordination.
+6d     Define methods for handing classified information and data, if required.
+7. OPSEC
+       Segment/manage SOC systems separately from broader enterprise IT
+       systems. Manage sensors and security devices via out-of-band means
+7a     (network, etc.).
+       Develop method to notify users of compromised systems via phone rather
+7b     than email.
+7c     Use hardened workstations to conduct monitoring and response activities.
+7d     Ensure defensive systems have robust backup and recovery processes.
+       Implement processes to avoid “tipping off” an attacker to reduce likelihood of
+       detection of IR-sensitive information (e.g., do not submit malware samples to
+7e     a public analysis service or notify users of compromised systems via email.)
+9. Technical Infrastructure
+       Establish secure storage (i.e., only accessible by incident responders) for
+9a     incident data and reporting.
+       Implement capabilities to contain, replicate, analyze, and reconstitute
+9b     compromised hosts.
+       Deploy tools to collect forensic evidence such as disk and active memory
+9c     imaging.
+       Implement capability to handle/detonate malware, sandbox software, and
+9d     other analysis tools.
+9e     Implement a ticketing or case management system.
+9. Detect Activity
+9a     Implement SIEM and sensor rules and signatures to search for IOCs.
+9b     Analyze logs and alerts for signs of suspicious or malicious activity.
+                                                                                               TLP:CLEAR
+
+                                                                                                                    38
+                                                          CISA | Cybersecurity and Infrastructure Security Agency
+                                                                                                           TLP:CLEAR
+
+
+APPENDIX E: VULNERABILITY AND INCIDENT CATEGORIES
+CISA has adopted the following common set of terms to improve clarity for Federal Civilian Executive
+Branch (FCEB) agencies for reporting to and updating CISA. 39
+Incident – Per the Federal Information Security Modernization Act of 2014 (FISMA), as codified at 44
+U.S.C. § 3552(b)(2): An occurrence that (A) actually or imminently jeopardizes, without lawful authority,
+the integrity, confidentiality, or availability of information or an information system; or (B) constitutes a
+violation or imminent threat of violation of law, security policies, security procedures, or acceptable use
+policies.
+Major Incident – Per the Office of Management and Budget (OMB) Memorandum M-20-04 or
+subsequent memo, a major incident is either:
+      1. Any incident that is likely to result in demonstrable harm to the national security interests, foreign
+         relations, or the economy of the United States or to the public confidence, civil liberties, or public
+         health and safety of the American people. 40 Agencies should determine the level of impact of the
+         incident by using the existing incident management process established in the National Institute
+         of Standards and Technology (NIST) Special Publication (SP) 900-61 Revision 2, Computer
+         Security Incident Handling Guide.
+or,
+      2. A breach that involves personally identifiable information (PII) that, if exfiltrated, modified, deleted,
+         or otherwise compromised, is likely to result in demonstrable harm to the national security
+         interests, foreign relations, or the economy of the United States, or to the public confidence, civil
+         liberties, or public health and safety of the American people. Major incident determination is
+         required for breaches involving PII of 100,000 or more people. 41
+Breach – Per OMB Memorandum M-17-12 or subsequent memo: The loss of control, compromise,
+unauthorized disclosure, unauthorized acquisition, or any similar occurrence where (1) a person other
+than an authorized user accesses or potentially accesses personally identifiable information or (2) an
+authorized user accesses or potentially accesses personally identifiable information for other than
+authorized purpose.
+Event – Per NIST SP 900-61 Revision 2: An event is any observable occurrence in a system or network.
+Vulnerabilities:
+
+      •   Internal discovery of potential compromise leveraging a vulnerability
+
+      •   Known exploitation of vulnerability (NVD tagged entries; wide-spread public reporting; viable
+          proof-of-concept exploit released, etc.)
+
+
+
+
+39 CISA Federal Incident Reporting Requirements (draft)
+40 Using the CISA Cyber Incident Scoring System, this includes Level 3 events (orange), defined as those that are
+
+"likely to result in a demonstrable impact to public health or safety, national security, economic security, foreign
+relations, civil liberties, or public confidence"; Level 4 events (red), defined as those that are "likely to result in a
+significant impact to public health or safety, national security, economic security, foreign relations, or civil
+liberties"; and Level 5 events (black), defined as those that "pose an imminent threat to the provision of wide scale
+critical infrastructure services, national government stability, or the lives of US persons."
+41 The analysis for reporting a major breach to Congress is distinct and separate from the assessment of the potential
+
+risk of harm to individuals resulting from a suspected or confirmed breach. When assessing the potential risk of
+harm to individuals, agencies should refer to OMB M-17-12.
+
+                                                                                                           TLP:CLEAR
+
+                                                                                                                            39
+                                                               CISA | Cybersecurity and Infrastructure Security Agency
+                                                                                                              TLP:CLEAR
+
+
+
+APPENDIX F: SOURCE TEXT
+This is a list of sources used in FCEB incident and vulnerability response.
+
+   Responsible
+                                                       Title                                       Category
+   Organization
+DHS                 U.S. Department of Homeland Security Cybersecurity Strategy              Authorities
+DHS/CISA            National Cyber Incident Scoring System (NCISS)                           Standards
+DHS/CISA            US-CERT Federal Incident Notification Guidelines (FING)                  Standards
+DOJ                 Best Practices for Victim Response and Reporting of Cyber Incidents      Best Practices
+DOJ                 Sharing Cyber Threat Information Under 19 USC § 2702(a)(3)               Law/Statute
+                                                                                             Authorities &
+Executive Branch    National Cyber Strategy of the USA
+                                                                                             Standards
+Executive Branch    EO 13691: Promoting Private Sector Cybersecurity Information Sharing Executive Order
+Executive Branch    PPD-41: United States Cyber Incident Coordination                        Authorities
+Executive Branch    Nation Cyber Incident Response Plan (NCIRP)
+Executive Branch    EO 13636: Improving Critical Infrastructure Cybersecurity                Authorities
+                    EO 13900: Strengthening the Cybersecurity of Federal Networks and
+Executive Branch                                                                             Authorities
+                    Critical Infrastructure
+                   M-20-04, Fiscal Year 2019-2020 Guidance on Federal Information Securit
+Executive Branch/OM                                                                     Authorities
+                   and Privacy Management Requirements
+                                                                                             Authorities &
+DOJ; FTC            Antitrust Policy Statement on Sharing of Cybersecurity Information
+                                                                                             Standards
+Executive Branch    NSPD-54/HSPD-23: Cybersecurity Policy                                    Authorities
+Executive Branch    EO 13719: Commission on Enhancing National Cybersecurity                 Authorities
+                                                                                             Authorities &
+Executive Branch    EO 12333: United States Intelligence Activities, as amended
+                                                                                             Standards
+                                                                                             Authorities &
+Executive Branch    EO 14029: Improving the Nation’s Cybersecurity
+                                                                                             Standards
+                                                                                             Authorities &
+Health SCC          Health Industry Cybersecurity Information Sharing Best Practices
+                                                                                             Standards
+Executive Branch    Cybersecurity Information Sharing Act of 2015                            Law/Statute
+Executive Branch    USA Freedom Act                                                          Law/Statute
+                    PL 114-113 [6 USC § 651-674]: Cybersecurity and Infrastructure Security Law/Statute
+Executive Branch
+                    Agency Act of 2019
+Executive Branch    32 CFR § 236.4                                                           Law/Statute
+Executive Branch    US Patriot Act                                                           Law/Statute
+                    PL 113-292                                                                Law/Statute
+Executive Branch
+                    [codified in 6 U.S.C.]: The National Cybersecurity Protection Act of 2014
+                    PL 107-296                                                               Law/Statute
+Executive Branch
+                    [codified in 6 U.S.C.]: Homeland Security Act of 2002
+Executive Branch    44 U.S.C. § 3551: Federal Information Security Modernization Act of 2014Law/Statute
+
+
+
+
+                                                                                                              TLP:CLEAR
+                                                           CISA | Cybersecurity and Infrastructure Security Agency 40
+                                                                                                            TLP:CLEAR
+
+
+
+   Responsible
+                                                      Title                                      Category
+   Organization
+                                                                                           Authorities &
+Executive Branch   National Strategy for Trusted Identities in Cyberspace
+                                                                                           Standards
+                   SP 800-53 rev4/5: Security and Privacy Controls for Information Systems Authorities &
+NIST
+                   and Organizations                                                       Standards
+                                                                                           Authorities &
+NIST               SP 800-30 rev.1: Guide for Conducting Risk Assessments
+                                                                                           Standards
+                   SP 800-37 rev.2: Risk Management Framework for Information Systems Authorities &
+NIST
+                   and Organizations: A System Life Cycle Approach for Security and PrivacStandards
+                   SP 800-39: Managing Information Security Risk: Organization, Mission, Authorities &
+NIST
+                   and Information System View                                           Standards
+                   NISTIR 9296: Integrating Cybersecurity and Enterprise Risk ManagementAuthorities &
+NIST
+                   (ERM) (Draft)                                                        Standards
+
+                   SP 800-61 Rev. 2: Computer Security Incident Handling
+NIST                                                                                       Standards
+                   Guide
+
+
+
+
+                                                                                                            TLP:CLEAR
+                                                          CISA | Cybersecurity and Infrastructure Security Agency 41
+                                                                                                                   TLP:CLEAR
+
+
+
+APPENDIX G: SOURCE TEXT
+Agency         Responsibilities                                                                              References
+
+                  •    Coordinates the development and implementation of the federal government’s
+                       policies, strategies, and procedures for responding to significant cyber incidents.
+                  •    Receives regular updates from the federal cybersecurity centers and agencies on
+                       significant cyber incidents and measures being taken to resolve or respond to
+                       those incidents.
+Cyber             •    Collaborates with the Counterterrorism Security Group and Domestic Resilience       •   PPD-41
+Response               Group when a cross-disciplinary response to a significant cyber incident is         •   NCIRP
+Group (CRG)            required.
+                  •    Identifies and considers options for responding to significant cyber incidents, and
+                       makes recommendations to the Deputies Committee, where higher-level guidance
+                       is required.
+                  •    Coordinates a communications strategy.
+                  •    Primary mechanism for coordination between and among federal agencies in
+                       response to a significant cyber incident as well as for the integration of private
+                       sector partners into IR efforts.
+Cyber             •    The CRG may request the formation of a Cyber UCG.
+Unified           •    A Cyber UCG may also be formed when two or more federal agencies* that              •   PPD-41
+Coordinatio            generally participate in the National Security Council (NSC) Cyber Response Group
+                                                                                                           •   NCIRP
+n Group (C-            (CRG) request its formation. *These include relevant Sector Risk Management
+UCG)                   Agencies (SRMAs).
+                  •    Identifies and recommends to the CRG, if elevation is required, any additional
+                       federal government resources or actions necessary to appropriately respond to
+                       and recover from the incident.
+                  •    Lead agency for asset response activities.
+                  •    Collaborates with industry and government partners to help organizations
+                       understand and counter critical infrastructure and cybersecurity risks associated
+                       with the malicious activities of nation-state and non-state actors.
+                  •    Coordinates Government-wide efforts on information security policies and
+                       practices; compiles and analyzes agency information security data; develops and
+                       conducts targeted operational evaluations, including threat and vulnerability
+                       assessments; and hunts for and identifies threats and vulnerabilities within
+                       Federal information systems.
+                  •    Centrally collects and manages FCEB and ICT service provider incident information
+                       per EO 14029.
+                  •    Provides CTI to agencies directly or at scale. When sharing CTI with an agency, or
+                       multiple agencies, CISA will communicate with the agency SOC, and depending on      •   PPD-41
+                       the severity, may include the agency CISO along with additional POCs the agency has •   CISA Act of 2019
+                       explicitly designated for the information exchange.                                 •   FISMA (44 USC
+DHS/CISA          •    Communicates with the affected FCEB Agencies to understand the nature of the            3553(b))
+                       cyber incident or vulnerability.                                                      • EO 14029 (Secs.
+                  •    Disseminates intelligence and information learned during the IR response to other       2,6)
+                       federal agencies for awareness and threat-informed defense.                           • NCIRP
+                  •    When sharing at scale, CISA publishes to cisa.gov (such as https://us-
+                       cert.cisa.gov/ncas/alerts). Information too sensitive to publish is distributed via
+                       alternative avenues into the FCEB space, such as the weekly agency SOC call,
+                       HSDN, or classified networks.
+                  •    Hosts FCEB agency incident coordination call. Provides recommendations on
+                       actions, data to collect/check.
+                  •    Advises FCEB of available resources to assist in response, including CISA, FBI,
+                       NSA, and third-party entities.
+                  •    Upon request, provide analysis, expertise, and other technical assistance to the
+                       affected FCEB agency. Available cybersecurity services can be found on page 19 in
+                       the CISA service catalog. 42
+
+
+42 CISA Services Catalog
+
+
+
+
+                                                                                                                   TLP:CLEAR
+                                                             CISA | Cybersecurity and Infrastructure Security Agency 42
+                                                                                                                  TLP:CLEAR
+
+
+
+Agency        Responsibilities                                                                              References
+
+                 •   Provides informational webinars to educate FCEB agencies on targeted cyber
+                     threats and mitigations.
+                 •   Reviews and validates FCEB agency's incident response and remediation results
+                     upon completion of the incident response.
+                 •   Lead agency for threat response activities.
+                 •   Law enforcement investigation, forensics, and mitigation activities to support
+                     interdiction of the threat actor.                                                      • PPD-41
+DoJ/FBI/NC       •   Provide attribution that may lead to information sharing.                              • NCIRP
+IJTF             •   Disseminates intelligence and information learned during the response to FCEB          • Other LE
+                     Agencies.                                                                                authorities
+                 •   Investigation of FCEB agency incidents that may have a criminal nexus.
+                 •   Share intelligence, including attribution.
+                 •   Coordinates with CISA for cyber response as directed by CISA Federal Incident
+                     Notification Guidelines and the IR playbook.
+                 •   Provides additional notification to OMB, OFCIO, Congress, OIG, if applicable.
+                 •   Reports incident to law enforcement, as appropriate.                                   • PPD-41
+                 •   Notifies stakeholders of actions they need to take.                                    • CISA Act of 2019
+                 •   Provides cyber threat indicators with available associated context, to include         • Federal Incident
+                     associated TTPs if available, and recommended defensive measures to CISA and             Notification
+FCEB                 sharing partners.                                                                        Guidelines
+Agency           •   Allows access and assists third-party incident responders when requested by CISA.        (FING)
+                 •   Provides network and system log information (including ICT provider logs) to CISA      • FISMA (44 USC
+                     upon request per EO 14029, Sec 9.                                                        3554)
+                 •   Maintain business and operational continuity.                                          • EO 14029 (Sec.
+                 •   Comply with legal and regulatory requirements.                                           2,9)
+                 •   Engage in communications with employees or other affected individuals.
+                 •   Conduct incident response within FCEB and its subcomponents, ensuring that the
+                     agency-level SOC has operational control of incident response activities.
+                 •   Report cyber incidents to FCEB agencies and directly report to CISA when doing so.
+                 •   Collect and preserve data, information, and reporting relevant to cybersecurity
+                     event prevention, detection, response, and investigation on all information
+                     systems over which they have control, including systems operated on behalf of
+                     FCEB agencies.
+ICT Service                                                                                                 • EO 14029 (Sec
+                 •   Share data, information, and reporting as set forth under EO 14029, section 2.
+Providers                                                                                                     2)
+                 •   Collaborate with federal cybersecurity or investigative agencies in their
+                     investigations of and responses to incidents or potential incidents on Federal
+                     Information Systems (FIS), including implementing technical capabilities, such as
+                     monitoring networks for threats in collaboration with agencies they support, as
+                     needed.
+National
+Security         •   Coordinates the Cyber Unified Coordination Group (UCG): the interagency and            • PPD-41
+Council              private sector partner coordination mechanism to take immediate response
+(NSC)                actions to a cyber incident of specific severity and scale.
+                 •   Lead agency for intelligence support and related activity.
+                 •   Provide classified threat reporting on cyber adversaries and other national security
+                     topics.
+                 •   Coordinates intelligence collection.                                                   • PPD-41
+ODNI/CTIIC       •   Provides attribution.                                                                  • NCIRP
+                 •   Provides situational awareness, shares of relevant intelligence information,
+                     integrated analysis of threat trends, events, and support to interagency efforts to
+                     develop options to degrade or mitigate adversary threat capabilities.
+                                                                                                            • Homeland
+                                                                                                              Security Act (6
+Third-Party      •   Incident response support may come from CISA, other government entities (such            USC 659)
+Analysis             as FBI, NSA), or commercial vendors upon request from the agency or from CISA          • Federal Network
+Support                                                                                                       Authorization
+                                                                                                              (FNA)
+
+
+
+                                                                                                                  TLP:CLEAR
+                                                            CISA | Cybersecurity and Infrastructure Security Agency 43
+                                                                                                                TLP:CLEAR
+
+
+
+Agency         Responsibilities                                                                            References
+
+                  •    Available CISA cybersecurity services can be found on page 19 in the CISA service
+                       catalog. 43
+                  •    Provide intelligence support in response to cyber incidents and vulnerabilities.
+National          •    Provides attribution information.                                                   • EO 12333
+Security          •    Provides technical support upon request.                                            • NSD-42
+Agency            •    Provides threat response, asset response and intelligence support to NSS/other      • PPD-41
+(NSA)                  systems.
+
+
+
+
+43 CISA Services Catalog
+
+
+
+
+                                                                                                                TLP:CLEAR
+                                                             CISA | Cybersecurity and Infrastructure Security Agency 44
+

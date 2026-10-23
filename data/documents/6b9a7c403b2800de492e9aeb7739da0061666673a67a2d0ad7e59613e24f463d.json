@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T21:03:42Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "1-source-3",
+    "type": "technical-doc",
+    "title": "Configure Emergency Access",
+    "publisher": "Securden",
+    "url": "https://www.securden.com/privileged-access-management/help/emergency-access-settings/how-to-configure-emergency-access.html",
+    "language": "en",
+    "jurisdiction": "United States",
+    "applicability": "Securden Unified PAM implementation for emergency access workflows including secure storage of credentials, mandatory waiting periods, administrator notifications, and approval processes for break-glass scenarios",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:3b558209a7b081483c2ab2d0d2ef3a69840775780fc3f5e7332245c03a87a992",
+    "textDigest": "sha256:a696ba0cb5d02f3f79094b1a0a362e4776b8b5e9f21370fe6180f81c602ff717",
+    "finalUrl": "https://www.securden.com/privileged-access-management/help/emergency-access-settings/how-to-configure-emergency-access.html",
+    "retrievedAt": "2026-10-23T21:03:42Z",
+    "contentType": "text/html",
+    "snapshotPath": "source-3b558209a7b081483c2ab2d0d2ef3a69840775780fc3f5e7332245c03a87a992.bin",
+    "textPath": "source-a696ba0cb5d02f3f79094b1a0a362e4776b8b5e9f21370fe6180f81c602ff717.txt"
+  },
+  "files": {
+    "snapshots/source-3b558209a7b081483c2ab2d0d2ef3a69840775780fc3f5e7332245c03a87a992.bin": "sha256:3b558209a7b081483c2ab2d0d2ef3a69840775780fc3f5e7332245c03a87a992",
+    "snapshots/source-a696ba0cb5d02f3f79094b1a0a362e4776b8b5e9f21370fe6180f81c602ff717.txt": "sha256:a696ba0cb5d02f3f79094b1a0a362e4776b8b5e9f21370fe6180f81c602ff717"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.securden.com/privileged-access-management/help/emergency-access-settings/how-to-configure-emergency-access.html",
+  "language": "en",
+  "retrievedAt": "2026-10-23T21:03:42Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T21:03:42Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n    \n\n    \n\n  \n\n    \n      \n\n      \n\n      \n\t    \n         \n\n         \n\n      \n      \n        \n\n      \n      \n\t  \n\t  \n\t  \n      \n\t  \n      \n\t  \n\t  \n      \n      \n      \n      \n      \n      \n        \n\n      \n      \n        \n\n      \n      \n      \n\n      \n\n    \n    \n      \n        \nConfigure Emergency Access | Securden Unified PAM Administrator Guide\n\n      \n    \n    \n      \n\n      \n        \n        \n\n      \n      \n\n\n    \n    \n      \n    \n    \n      \n        \n        \n        \n\n        \n\n        \n\n      \n    \n    \n      \n\n    \n      \n\n    \n      \n\n    \n      \n\n    \n    \n\n    \n      \n\n    \n    \n    \n  \n\n  \n  \n    \n    \n      \n    \n    \n    \n    \n    \n\n      \n      \n\n      \n      \n      \n\n    \n\n  \n\n      \n    \n    \n\n    \n\n    \n\n    \n\n      \n        \n        \n\n          Skip to content\n        ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Securden",
+    "host": "www.securden.com"
+  }
+}

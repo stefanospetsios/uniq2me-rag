@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T21:20:28Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "3-source-2",
+    "type": "guidance",
+    "title": "Implementation Guidance on Security Measures (For Public Consultation)",
+    "publisher": "ENISA (European Union Agency for Cybersecurity)",
+    "url": "https://www.enisa.europa.eu/sites/default/files/2024-11/Implementation%20guidance%20on%20security%20measures_FOR%20PUBLIC%20CONSULTATION.pdf",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "NIS2-specific technical implementation guidance covering authentication mechanisms, authorization controls, and identity management requirements for essential and important entities",
+    "publicationDate": "2024-11",
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:fe79f526b9d630ae1f5a3a836b8095fbdee7d008b776ea9630af2d8473c9d295",
+    "textDigest": "sha256:813798f4c2f032104505d1e4846ee1853ae325b5e11f6b6496315255eac66e48",
+    "finalUrl": "https://www.enisa.europa.eu/sites/default/files/2024-11/Implementation%20guidance%20on%20security%20measures_FOR%20PUBLIC%20CONSULTATION.pdf",
+    "retrievedAt": "2026-10-23T21:20:28Z",
+    "contentType": "application/pdf",
+    "snapshotPath": "source-fe79f526b9d630ae1f5a3a836b8095fbdee7d008b776ea9630af2d8473c9d295.bin",
+    "textPath": "source-813798f4c2f032104505d1e4846ee1853ae325b5e11f6b6496315255eac66e48.txt"
+  },
+  "files": {
+    "snapshots/source-fe79f526b9d630ae1f5a3a836b8095fbdee7d008b776ea9630af2d8473c9d295.bin": "sha256:fe79f526b9d630ae1f5a3a836b8095fbdee7d008b776ea9630af2d8473c9d295",
+    "snapshots/source-813798f4c2f032104505d1e4846ee1853ae325b5e11f6b6496315255eac66e48.txt": "sha256:813798f4c2f032104505d1e4846ee1853ae325b5e11f6b6496315255eac66e48"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.enisa.europa.eu/sites/default/files/2024-11/Implementation%20guidance%20on%20security%20measures_FOR%20PUBLIC%20CONSULTATION.pdf",
+  "language": "en",
+  "retrievedAt": "2026-10-23T21:20:28Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T21:20:28Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "IMPLEMENTING\nGUIDANCE\nOn Commission Implementing Regulation (EU) 2024/2690 of\n17.10.2024 laying down rules for the application of Directive (EU)\n2022/2555 as regards technical and methodological requirements\nof cybersecurity risk-management measures\n\nwith regard to DNS service providers, TLD name registries, cloud computing service providers,\ndata centre service providers, content delivery network providers, managed service providers,\nmanaged security service providers, providers of online market places, of online search engines\nand of social networking services platforms, and trust service providers\n\nDRAFT FOR PUBLIC CONSULTATION\n\n\n\n\nOCTOBER 2024\n\f                                                                                                 IMPLEMENTING GUIDANCE\n                        ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "3"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "ENISA (European Union Agency for Cybersecurity)",
+    "host": "www.enisa.europa.eu"
+  }
+}

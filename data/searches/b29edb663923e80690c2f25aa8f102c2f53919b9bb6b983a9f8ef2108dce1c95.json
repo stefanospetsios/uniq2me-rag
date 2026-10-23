@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "b29edb663923e80690c2f25aa8f102c2f53919b9bb6b983a9f8ef2108dce1c95",
+  "cachedAt": "2026-10-23T22:41:05Z",
+  "observedAt": "2026-10-23T22:41:05Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-B-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "B",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Hardware-Oriented Security and IoT Auditing official implementation configuration documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792795183534,
+    "end": 1792795185977
+  },
+  "outputDigest": "sha256:21b8ff5db089b9343f1af86545f9e7f1be9ee692221dac888368da85d8e9412e",
+  "resultUrls": [
+    "https://docs.espressif.com/projects/esp-product-security/en/latest/security-implementation.html",
+    "https://dodcio.defense.gov/Portals/0/Documents/CMMC/AssessmentGuideL2v2.pdf",
+    "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-213A.pdf",
+    "https://sebokwiki.org/wiki/System_Hardware_Assurance",
+    "https://www.cisa.gov/resources-tools/resources/enhanced-visibility-and-hardening-guidance-communications-infrastructure",
+    "https://www.dpo-consulting.com/blog/cybersecurity-audit-checklist",
+    "https://www.dsci.in/files/content/knowledge-centre/2023/IoT-Security-Guide.pdf",
+    "https://www.gao.gov/assets/d23104705.pdf",
+    "https://www.mdpi.com/1424-8220/24/2/708",
+    "https://www.sciencedirect.com/science/article/pii/S0164121226000671"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Hardware-Oriented Security and IoT Auditing official implementation configuration documentation\",\n  \"results\": [\n    {\n      \"title\": \"PDF IoT SECURITY GUIDE\",\n      \"url\": \"https://www.dsci.in/files/content/knowledge-centre/2023/IoT-Security-Guide.pdf\",\n      \"content\": \"In this context, we aim to present a wide spectrum of technological perspectives on IoT Security through our IoT Security Guidebook. This guidebook is a comprehensive document that covers IoT communication protocols as well as advice for building architectures for designing and developing IoT applications. Furthermore, the document highlights existing security architectures used across various ...\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"IoT Device Cybersecurity Guidance for the Federal Government\",\n      \"url\": \"https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-213A.pdf\",\n      \"content\": \"NIST is responsible for developing information security standards and guidelines, including minimum requirements for federal information systems, but such ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"IoT security assessment: A systematic literature review - ScienceDirect\",\n      \"url\": \"https://www.sciencedirect.com/science/article/pii/S0164121226000671\",\n      \"content\": \"This model employs the Fuzzy Analytical Hierarchy Process (FAHP) to evaluate specific indicators (e.g., Internet Protocol version 6 (IPv6) application and ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"CMMC Assessment Guide – Level 2 | Version 2.13\",\n      \"url\": \"https://dodcio.defense.gov/Portals/0/Documents/CMMC/AssessmentGuideL2v2.pdf\",\n      \"content\": \"[a] security configuration settings for information technology ... configuration documentation; system security plan; change control records; system audit.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"ti",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "B"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "docs.espressif.com",
+      "dodcio.defense.gov",
+      "nvlpubs.nist.gov",
+      "sebokwiki.org",
+      "www.cisa.gov",
+      "www.dpo-consulting.com",
+      "www.dsci.in",
+      "www.gao.gov",
+      "www.mdpi.com",
+      "www.sciencedirect.com"
+    ]
+  }
+}

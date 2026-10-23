@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T23:01:33Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "D-source-6",
+    "type": "technical-doc",
+    "title": "Cybersecurity Roles and Responsibilities Template",
+    "publisher": "National Cybersecurity Authority (NCA) of Saudi Arabia",
+    "url": "https://cdn.nca.gov.sa/api/public/cms/files/ff898cdc-4363-4070-93d3-042f987bc307_Cybersecurity_Roles_and_Responsibilities_Template_en.pdf",
+    "language": "en",
+    "jurisdiction": "Saudi Arabia",
+    "applicability": "Organizations requiring implementation of role-specific security policies, vulnerability remediation procedures, and configuration management authorities",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:6e4d0d7822f09f0530e95549904b63bb88383b17139b35ee6575caef1f8b0d8b",
+    "textDigest": "sha256:3a609bb4c7fd4aeced74e9e9c8de11d3fe218629ffc2dbbb85757e40ade270af",
+    "finalUrl": "https://cdn.nca.gov.sa/api/public/cms/files/ff898cdc-4363-4070-93d3-042f987bc307_Cybersecurity_Roles_and_Responsibilities_Template_en.pdf",
+    "retrievedAt": "2026-10-23T23:01:33Z",
+    "contentType": "application/pdf",
+    "snapshotPath": "source-6e4d0d7822f09f0530e95549904b63bb88383b17139b35ee6575caef1f8b0d8b.bin",
+    "textPath": "source-3a609bb4c7fd4aeced74e9e9c8de11d3fe218629ffc2dbbb85757e40ade270af.txt"
+  },
+  "files": {
+    "snapshots/source-6e4d0d7822f09f0530e95549904b63bb88383b17139b35ee6575caef1f8b0d8b.bin": "sha256:6e4d0d7822f09f0530e95549904b63bb88383b17139b35ee6575caef1f8b0d8b",
+    "snapshots/source-3a609bb4c7fd4aeced74e9e9c8de11d3fe218629ffc2dbbb85757e40ade270af.txt": "sha256:3a609bb4c7fd4aeced74e9e9c8de11d3fe218629ffc2dbbb85757e40ade270af"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://cdn.nca.gov.sa/api/public/cms/files/ff898cdc-4363-4070-93d3-042f987bc307_Cybersecurity_Roles_and_Responsibilities_Template_en.pdf",
+  "language": "en",
+  "retrievedAt": "2026-10-23T23:01:33Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T23:01:33Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "                                                      This is a guidance box. Remove all guidance boxes\n                                                      after filling out the template. Items highlighted in\n                                                      turquoise should be edited appropriately. After all\n                                                      edits have been made, all highlights should be\n                                                      cleared.\n\n\n\n\nInsert organization logo by clicking\non the outlined image.\n\n\n\n\n           Cybersecurity Roles and\n           Responsibilities Template\n\n\n                                                           Replace <organization name> with the\n                                                           name of the organizati",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "D"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "National Cybersecurity Authority (NCA) of Saudi Arabia",
+    "host": "cdn.nca.gov.sa"
+  }
+}

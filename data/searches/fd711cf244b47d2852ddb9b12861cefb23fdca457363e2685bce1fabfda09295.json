@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "fd711cf244b47d2852ddb9b12861cefb23fdca457363e2685bce1fabfda09295",
+  "cachedAt": "2026-10-23T20:46:34Z",
+  "observedAt": "2026-10-23T20:46:34Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-0-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "0",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "operating systems workstation environment technical implementation documentation official"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792788343929,
+    "end": 1792788345622
+  },
+  "outputDigest": "sha256:debd03b541ddfdc5140fe9f76fc4f6541d6061568d96bafb8ffca84aa7bf881a",
+  "resultUrls": [
+    "https://documentation.nuix.com/en/content/server/PDF/projects_frameless/Nuix%20Product%20Documentation/assets/docs/workstation/nuix%20workstation%20installation%20guide%20v9.10.0%20(1).pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Nuix Workstation Installation Guide v9.10.0\",\n      \"url\": \"https://documentation.nuix.com/en/content/server/PDF/projects_frameless/Nuix%20Product%20Documentation/assets/docs/workstation/nuix%20workstation%20installation%20guide%20v9.10.0%20(1).pdf\",\n\n...485056 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_16a8333130019n6zrYRjM0WNbF\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "documentation.nuix.com"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "16fcb52d7224765fce5c625bf1183b3fd4a48104be63906703076fa3f33f0c7f",
+  "cachedAt": "2026-10-23T21:37:34Z",
+  "observedAt": "2026-10-23T21:37:34Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-5-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "5",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "network inventory segmentation firewalls security groups routing VPNs remote access zero trust technical documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792791384992,
+    "end": 1792791386672
+  },
+  "outputDigest": "sha256:fe6586b0151992abc00848a19731b981bb074df8d236def18545e5d8417aad86",
+  "resultUrls": [
+    "https://csrc.nist.gov/pubs/sp/800/215/final",
+    "https://doi.org/10.6028/NIST.SP.800-215",
+    "https://techdocs.broadcom.com/es/es/vmware-cis/aria/aria-automation/all/sddc-network-administration-with-nsx.html",
+    "https://www.cisa.gov/sites/default/files/2024-06/joint-guide-modern-approaches-to-secure-network-access-security-508c.pdf",
+    "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Campus/Intro-Cisco-Secure-Network-Architecture.html"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Design Zone - Introduction to the Cisco Secure Networking Architecture - Cisco\",\n      \"url\": \"https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Campus/Intro-Cisco-Secure-Network-Architecture.html\",\n      \"content\": \"Design Zone - Introduction to the Cisco Secure Networking Architecture - Cisco\\n\\n# Introduction to the Cisco Secure Networking Architecture\\n\\n### Download Options\\n\\n- PDF\\n\\n(1.0 MB) View with Adobe Reader on a variety of devices\\n\\nUpdated: May 31, 2026\\n\\n### Bias-Free Language\\n\\nThe documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. Learn more about how Cisco is using Inclusive Language.\\n\\n### Download Options\\n\\n- PDF\\n\\n(1.0 MB) View with Adobe Reader on a variety of devices\\n\\nUpdated: May 31, 2026\\n\\n#### Table of Contents\\n\\n- Executive summary\\n\\n- Delivering value via three key pillars\\n- Challenge statement\\n\\n- Three pressures expose legacy security limits\\n- Why fragmented controls reach a limit\\n- Desired customer outcomes\\n- Mapping functions to a Reference Architecture\\n- CSN architectural layers and functions\\n\\n- The four functions of securing every flow\\n- The Framework drives outcomes\\n- Cisco products in the framework\\n- Lab testing validation and proof\\n\\n- What was tested\\n- What validation demonstrated\\n- A proof-of-value method\\n- Representative scenarios\\n- Implement framework incrementally\\n\\n- 1. Align on outcomes and ownership\\n- 2. Establish trusted context\\n- 3. Reduce reachability and impr",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "csrc.nist.gov",
+      "doi.org",
+      "techdocs.broadcom.com",
+      "www.cisa.gov",
+      "www.cisco.com"
+    ]
+  }
+}

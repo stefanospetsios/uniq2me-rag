@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T22:32:41Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "A-source-4",
+    "type": "technical-doc",
+    "title": "TF-PSA-Crypto Reference Implementation",
+    "publisher": "Mbed-TLS",
+    "url": "https://github.com/Mbed-TLS/TF-PSA-Crypto",
+    "language": "en",
+    "jurisdiction": "Global",
+    "applicability": "Trusted firmware cryptographic configuration specifications, mechanism selection, and hardware/software integration patterns",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:d6c6fc134c772241075b2680006638a33d3fc16325f06bc1101da9c57d52f48c",
+    "textDigest": "sha256:099e1522bfffd8b7f7503e90776d99ebda6ba6fd31af26709759da79ea893567",
+    "finalUrl": "https://github.com/Mbed-TLS/TF-PSA-Crypto",
+    "retrievedAt": "2026-10-23T22:32:41Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-d6c6fc134c772241075b2680006638a33d3fc16325f06bc1101da9c57d52f48c.bin",
+    "textPath": "source-099e1522bfffd8b7f7503e90776d99ebda6ba6fd31af26709759da79ea893567.txt"
+  },
+  "files": {
+    "snapshots/source-d6c6fc134c772241075b2680006638a33d3fc16325f06bc1101da9c57d52f48c.bin": "sha256:d6c6fc134c772241075b2680006638a33d3fc16325f06bc1101da9c57d52f48c",
+    "snapshots/source-099e1522bfffd8b7f7503e90776d99ebda6ba6fd31af26709759da79ea893567.txt": "sha256:099e1522bfffd8b7f7503e90776d99ebda6ba6fd31af26709759da79ea893567"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://github.com/Mbed-TLS/TF-PSA-Crypto",
+  "language": "en",
+  "retrievedAt": "2026-10-23T22:32:41Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T22:32:41Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n\n\n\n  \n\n\n\n\n\n\n\n\n\n  \n\n    \n\n  \n\n  \n\n  \n\n  \n\n  \n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n  \n\n\n  \n\n\n    \n\n    \n\n    \n\n    \n\n  \n\n\n\n\n  \n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \nGitHub - Mbed-TLS/TF-PSA-Crypto: Reference implementation of the PSA Cryptography API · GitHub\n\n\n\n\n  \n\n  \n\n  \n\n  \n\n\n    \n  \n\n\n\n  \n\n\n\n    \n\n\n\n  \n\n  \n\n  \n\n  \n\n\n    \n\n\n\n\n\n\n\n\n\n  \n\n\n  \n\n\n\n\n    \n\n\n  \n\n    \n\n\n    \n\n      \n\n\n      \n\n\n    \n\n    \n\n    \n\n\n      \n\n  \n\n  \n\n\n\n\n      \n\n\n\n\n        \n\n\n\n  \n\n  \n\n  \n\n  \n\n\n  \n\n\n      \n\n\n    \n\n\n  \n\n\n  \n\n  \n\n\n\n    \n\n    \n\n  \n\n\n\n  \n\n\n\n  \n\n\n  \n\n  \n\n\n  \n\n  \n\n  \n\n\n\n\n\n\n\n\n  \n\n\n  \n\n\n  \n\n    \n\n      \n\n\n\n      \n\n    \n\n      \nSkip to content\n\n\n      \n\n    \n\n\n   ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "A"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Mbed-TLS",
+    "host": "github.com"
+  }
+}

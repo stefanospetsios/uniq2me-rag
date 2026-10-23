@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "fe224736143b494b5143eb1476d041eb02af242f46f5e379f2a27bc683b33132",
+  "cachedAt": "2026-10-23T22:47:03Z",
+  "observedAt": "2026-10-23T22:47:03Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-C-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "C",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "official implementation configuration documentation for APIs MQTT service integration interface contracts authentication authorization input validation",
+    "time_range": ""
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792795563223,
+    "end": 1792795564540
+  },
+  "outputDigest": "sha256:9fae2ea9d0273c529b4e70c627d81f06db55c5b84b639b9a5b4799a7d8a6178c",
+  "resultUrls": [
+    "https://docs.aveva.com/bundle/sp-cdp-drivers/page/GATEWAY4OI4MQTT_BROKER.html",
+    "https://docs.aveva.com/bundle/sp-cdp-drivers/page/MQTT4OI4MQTT_BROKER.html",
+    "https://docs.broadcom.com/docs/kuppingercole-leadership-compass-api-security-and-management-2025",
+    "https://docs.hivemq.com/hivemq-edge/protocol-adapters.html",
+    "https://resources.rework.com/libraries/job-description-templates/api-developer",
+    "https://thingsboard.io/docs/pe/reference/mqtt-api/getting-connected/",
+    "https://www.gravitee.io/blog/rest-and-rest-apis-a-complete-guide-for-developers",
+    "https://www.home-assistant.io/integrations/mqtt/"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"official implementation configuration documentation for APIs MQTT service integration interface contracts authentication authorization input validation\",\n  \"results\": [\n    {\n      \"title\": \"MQTT - Home Assistant\",\n      \"url\": \"https://www.home-assistant.io/integrations/mqtt/\",\n      \"content\": \"When MQTT is set up with the official Mosquitto MQTT broker app, the broker's credentials are generated and kept secret. If the official Mosquitto MQTT broker ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Getting Connected - MQTT API | ThingsBoard Docs\",\n      \"url\": \"https://thingsboard.io/docs/pe/reference/mqtt-api/getting-connected/\",\n      \"content\": \"Send PUBACK on PUBLISH message validation failure — by default, ThingsBoard closes the MQTT session when it receives a message that fails validation (e.g. ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Add and configure an MQTT Broker connection\",\n      \"url\": \"https://docs.aveva.com/bundle/sp-cdp-drivers/page/MQTT4OI4MQTT_BROKER.html\",\n      \"content\": \"19 Νοε 2025 ... Add and configure an MQTT Broker connection · In the Client Certificate File field, browse or specify the location of the applicable client ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"HiveMQ Edge Protocol Adapters\",\n      \"url\": \"https://docs.hivemq.com/hivemq-edge/protocol-adapters.html\",\n      \"content\": \"Adapter instances can be added to the system using the HiveMQ Edge API, user interface, or a static configuration. ... data with MQTT quality of service level 0 ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"REST and REST APIs: A Complete Guide for Developers - Gravitee\",\n      \"url\": \"https://www.gravitee.io/blog/rest-and-rest-apis-a-complete-guide-for-developers\",\n      \"content\": \"9 Ιουν 2026 ... A REST API is any interface complying with REST's six constraints: uniform interface, statelessne",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "C"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "docs.aveva.com",
+      "docs.broadcom.com",
+      "docs.hivemq.com",
+      "resources.rework.com",
+      "thingsboard.io",
+      "www.gravitee.io",
+      "www.home-assistant.io"
+    ]
+  }
+}

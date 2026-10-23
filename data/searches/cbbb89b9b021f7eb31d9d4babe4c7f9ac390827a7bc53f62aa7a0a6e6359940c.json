@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "cbbb89b9b021f7eb31d9d4babe4c7f9ac390827a7bc53f62aa7a0a6e6359940c",
+  "cachedAt": "2026-10-23T21:32:48Z",
+  "observedAt": "2026-10-23T21:32:48Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-4-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "4",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Data Storage and Handling official implementation configuration documentation",
+    "time_range": ""
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792791065069,
+    "end": 1792791065993
+  },
+  "outputDigest": "sha256:5cb206b4b9eeb4dc6135f3ac67abc35b724f11c631cdfe905b22c95611427c37",
+  "resultUrls": [
+    "https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/data-management-check-list",
+    "https://sdaia.gov.sa/en/SDAIA/about/Documents/DataManagementPersonalDataProtectionStandards.pdf",
+    "https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf",
+    "https://www.scisure.com/blog/lab-data-management-ultimate-guide",
+    "https://www.tableau.com/learn/articles/data-management-best-practices"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Data Storage and Handling official implementation configuration documentation\",\n  \"results\": [\n    {\n      \"title\": \"7 Best Practices for Successful Data Management | Tableau\",\n      \"url\": \"https://www.tableau.com/learn/articles/data-management-best-practices\",\n      \"content\": \"From data storage and security to metadata and software, these 7 data management best practices can help you strengthen your data culture.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Laboratory Data Management: A Complete Guide for Research Labs\",\n      \"url\": \"https://www.scisure.com/blog/lab-data-management-ultimate-guide\",\n      \"content\": \"A data management plan should also define naming conventions, required metadata, approved formats, sharing rules, archiving procedures, and eventual disposal ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"TECHNICAL IMPLEMENTATION GUIDANCE - ENISA\",\n      \"url\": \"https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf\",\n      \"content\": \"... site, such as in a cloud storage service or a remote data ... o Where appropriate, implement a configuration management database to catalogue and classify.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Checklist for data management and governance - Dynamics 365\",\n      \"url\": \"https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/data-management-check-list\",\n      \"content\": \"23 Ιαν 2024 ... In this article. Data governance and architecture; Data modeling; Data storage; Configuration data and data migration; Data integration; Data ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Data Management and Personal Data Protection Standards\",\n      \"url\": \"https://sdaia.gov.sa/en/SDAIA/about/Documents/DataManagementPersonalDataProtectionStandards.pdf\",\n   ",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "4"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "learn.microsoft.com",
+      "sdaia.gov.sa",
+      "www.enisa.europa.eu",
+      "www.scisure.com",
+      "www.tableau.com"
+    ]
+  }
+}

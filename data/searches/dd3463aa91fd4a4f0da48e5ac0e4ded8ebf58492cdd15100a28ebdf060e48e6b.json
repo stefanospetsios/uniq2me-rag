@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "dd3463aa91fd4a4f0da48e5ac0e4ded8ebf58492cdd15100a28ebdf060e48e6b",
+  "cachedAt": "2026-10-23T21:24:08Z",
+  "observedAt": "2026-10-23T21:24:08Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-3-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "3",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "identity management official maintainer implementation configuration documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792790571485,
+    "end": 1792790572833
+  },
+  "outputDigest": "sha256:3a6df7ff4c7bf4cc68625c4a9cf007fc2074cdd77ae0f02fe950481d5df32a51",
+  "resultUrls": [
+    "http://localhost:5174`",
+    "http://localhost:5174`.",
+    "http://localhost:8081",
+    "https://console.auth.maintainerd.local",
+    "https://console.auth.maintainerd.local/setup/tenant",
+    "https://console.auth.maintainerd.local/setup/tenant**",
+    "https://github.com/",
+    "https://github.com/maintainerd/auth-identity",
+    "https://github.com/maintainerd/maintainerd-auth-identity.git",
+    "https://github.com/maintainerd/maintainerd-auth.git",
+    "https://github.com/maintainerd/maintainerd-auth/blob/main/README.md",
+    "https://github.com/maintainerd/maintainerd-auth/blob/main/docs/openapi.yaml",
+    "https://identity-api.auth.maintainerd.local/.well-known/openid-configuration",
+    "https://identity.auth.maintainerd.local",
+    "https://maintainerd.github.io/",
+    "https://public-api.auth.maintainerd.local/api/v1%60",
+    "https://public-api.auth.maintainerd.local`",
+    "https://your-backend.example.com/api/v1"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"README.md\",\n      \"url\": \"https://github.com/maintainerd/maintainerd-auth/blob/main/README.md\",\n      \"content\": \"# README.md\\n\\n- Branch: main\\n- Repository: maintainerd/maintainerd-auth\\n\\n---\\n\\n \\n \\n \\n\\n \\n\\nRelease\\nCI\\nSecurity\\nOpenSSF Scorecard\\nOpenSSF Baseline\\nCoverage\\nLicense\\n\\n**maintainerd-auth** is an open-source, self-hostable identity and access platform — a single container that delivers authentication, federation, and fine-grained authorization for your applications, services, and APIs.\\n\\nIt ships as **one all-in-one image**: the Go backend plus the admin console and hosted login UI, compiled into a single binary (no nginx, no sidecars). Bring your own PostgreSQL and Redis, and you have a full OAuth 2.0 / OpenID Connect provider and identity broker.\\n\\n \\n\\n \\n\\n---\\n\\n## Features\\n\\n- **Full OAuth 2.0 + OIDC** — authorization code (PKCE), client credentials, device, token exchange, PAR, CIBA, dynamic client registration, and DPoP\\n- **JWT (RS256)** with multi-key JWKS and automatic key rotation\\n- **Multi-factor authentication** — TOTP, WebAuthn/passkeys, SMS OTP, backup codes, and step-up auth\\n- **Federation** — broker sign-in over **OIDC, OAuth 2.0, and SAML 2.0**: Google, Microsoft, GitHub, GitLab, LinkedIn, Facebook, X (Twitter), Auth0, Cognito, any standards-compliant IdP, and maintainerd-to-maintainerd. Includes JIT provisioning, identity linking, and home-realm discovery\\n- **Fine-grained access control** — RBAC with granular permissions, plus IAM services, APIs, policies, service-token policy bundles, and service-to-service authorization\\n- **Multi-tenant** — full tenant isolation, per-tenant configuration, and invite flows\\n- **Session management** — refresh-token rotation, family revocation, reuse detection, and concurrent-session limits\\n- **Webhook delivery** — auth-event notifications signed with HMAC-SHA256, with replay protection\\n- **Audit logging** — structured auth events with retenti",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "3"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "console.auth.maintainerd.local",
+      "github.com",
+      "identity-api.auth.maintainerd.local",
+      "identity.auth.maintainerd.local",
+      "localhost",
+      "maintainerd.github.io",
+      "public-api.auth.maintainerd.local",
+      "public-api.auth.maintainerd.local`",
+      "your-backend.example.com"
+    ]
+  }
+}

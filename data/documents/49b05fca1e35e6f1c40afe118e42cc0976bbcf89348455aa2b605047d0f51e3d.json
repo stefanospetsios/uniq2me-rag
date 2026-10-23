@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T20:46:40Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "0-source-3",
+    "type": "technical-doc",
+    "title": "Implementing Secure Administrative Hosts",
+    "publisher": "Microsoft",
+    "url": "https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/implementing-secure-administrative-hosts",
+    "language": "en",
+    "jurisdiction": "United States",
+    "applicability": "Details Windows workstation security configuration including disk encryption implementation (Section 3.2), remote access controls (Section 4.1), and endpoint logging requirements. Covers both workstation-only and hybrid administration scenarios relevant to the provisioning keyWord.",
+    "publicationDate": "2025-05-12",
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:9615dca29ba73cc7a1b0d7cb3f6002062bed7318850bc67e145ad329deb5e08c",
+    "textDigest": "sha256:cb42232309d28987d4112c21cf011c5b7c0e27d87f2f30a2444aea56321ec276",
+    "finalUrl": "https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/implementing-secure-administrative-hosts",
+    "retrievedAt": "2026-10-23T20:46:40Z",
+    "contentType": "text/html",
+    "snapshotPath": "source-9615dca29ba73cc7a1b0d7cb3f6002062bed7318850bc67e145ad329deb5e08c.bin",
+    "textPath": "source-cb42232309d28987d4112c21cf011c5b7c0e27d87f2f30a2444aea56321ec276.txt"
+  },
+  "files": {
+    "snapshots/source-9615dca29ba73cc7a1b0d7cb3f6002062bed7318850bc67e145ad329deb5e08c.bin": "sha256:9615dca29ba73cc7a1b0d7cb3f6002062bed7318850bc67e145ad329deb5e08c",
+    "snapshots/source-cb42232309d28987d4112c21cf011c5b7c0e27d87f2f30a2444aea56321ec276.txt": "sha256:cb42232309d28987d4112c21cf011c5b7c0e27d87f2f30a2444aea56321ec276"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/implementing-secure-administrative-hosts",
+  "language": "en",
+  "retrievedAt": "2026-10-23T20:46:40Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T20:46:40Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": " \n\n\t\t\n\n\t\t\t\n\t\t\n\n\t\t\t\nImplementing Secure Administrative Hosts | Microsoft Learn\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n \n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n \n\t\t\t\n\n\t\t\t \n\t\t\t\n\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t \n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\t\t\t\n\n\t\t\t\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\t\t\n\n\t\n\t\t\t\n\n\t\t\t\t\n\n\t\t\n\n\t\t\t\n\t\t\n\n\t\t\tSkip to main content\n\t\t\n\n\t\n\t\t\n\n\t\t\tSkip to Ask Learn chat experience\n\t\t\n\n\t\n\n\t\t\t\n\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\t\n\n\t\t\t\t\t\nThis browser is no longer supported.\n\n\n\n\t\t\t\t\t\n\n\t\t\t\t\t\tUpgrade to Microsoft Edge to take advantage of the latest features, security updates, a",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Microsoft",
+    "host": "learn.microsoft.com"
+  }
+}

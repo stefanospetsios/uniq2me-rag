@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "08524f63374c92e11419464ab7a159663f5bed637c309969ced7a2cc90af1aea",
+  "cachedAt": "2026-10-23T22:55:44Z",
+  "observedAt": "2026-10-23T22:55:44Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-C-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "C",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "MQTT official maintainer implementation configuration documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792796104969,
+    "end": 1792796106071
+  },
+  "outputDigest": "sha256:eb97b7a202d21e058f5a0793ea96d714988b20975cddbc6723c3dc52bbe4569b",
+  "resultUrls": [
+    "https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"MQTT Version 5.0 | OASIS Standard\",\n      \"url\": \"https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html\",\n\n...419401 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_16af99d55001HA5XlddbrAbBlu\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "C"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "docs.oasis-open.org"
+    ]
+  }
+}

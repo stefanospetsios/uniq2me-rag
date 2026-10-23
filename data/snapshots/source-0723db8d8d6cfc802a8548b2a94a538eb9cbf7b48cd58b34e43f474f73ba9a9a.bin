@@ -1,0 +1,1154 @@
+
+																
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+<!DOCTYPE html>
+<html
+	lang="en"
+	data-page-template="content-source"
+	
+ data-page-id="ci_4d25859b965d67f51c274416c4a551d50cc94ea732e15afe436128309e035546" data-confluence-content-id="2005041154"
+		data-color-scheme="light"
+>
+<head>
+	<meta charset="UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta name="color-scheme" content="light">
+
+						<link id="pageTreeSource" rel="preload" href="/pam-technical-documentation/6.0/__pagetree.json" as="fetch" type="application/json" crossorigin="anonymous">
+
+		<meta name="site-path" content="/">
+
+					<link rel="x-site-path" href="/">
+	<link rel="x-root-path" href="/">
+
+	<meta name="site-default-language" content="en">
+		<meta name="site-languages" content="en">
+		<meta name="confluence-content-type" content="page">
+		<meta name="confluence-base-url" content="https://sectona.atlassian.net/wiki">
+		<meta name="confluence-space-key" content="PDN">
+
+
+
+
+	<link rel="icon" href="/__site/0abbb8fd-08f1-4067-8e6b-63de82607012/Favicon-64x64.png" type="image/svg+xml">
+
+
+
+
+
+
+
+
+
+
+
+		<title>Privileged Access Management | Sectona Docs</title>
+		<meta property="og:title" content="Privileged Access Management | Sectona Docs">
+		<meta property="twitter:title" content="Privileged Access Management | Sectona Docs">
+
+		<link rel="canonical" href="https://docs.sectona.com/pam-technical-documentation/6.0">
+		<meta property="og:url" content="https://docs.sectona.com/pam-technical-documentation/6.0">
+
+
+		<meta property="og:image" content="https://docs.sectona.com/__site/a25f92ef-2b60-4c8f-94b5-9f45dcf02fef/Sectona%20Docs.png">
+		<meta property="twitter:image" content="https://docs.sectona.com/__site/a25f92ef-2b60-4c8f-94b5-9f45dcf02fef/Sectona%20Docs.png">
+
+	<meta property="og:type" content="website">
+	<meta property="twitter:card" content="summary_large_image">
+
+		<meta name="page-last-modified" content="2026-04-28T09:08:02.199Z">
+
+		<script>
+		(function () {
+			const defaultLanguageMeta = /** @type {string|undefined} */(document.querySelector('meta[name="site-default-language"]')?.content);
+			const availableLanguagesMeta = /** @type {string|undefined} */(document.querySelector('meta[name="site-languages"]')?.content);
+			const fallbackLanguage = defaultLanguageMeta ?? 'en';
+			const supportedLanguagesFromMeta = availableLanguagesMeta?.split(',') ?? [];
+			const supportedLanguages = [...new Set([fallbackLanguage, ...supportedLanguagesFromMeta])].filter(Boolean);
+			const detectedLanguage = new URLSearchParams(self.location.search).get('l') || document.documentElement.lang;
+			const resolvedLanguage = supportedLanguages.includes(detectedLanguage) ? detectedLanguage : fallbackLanguage;
+			document.documentElement.lang = resolvedLanguage;
+			const sheet = new CSSStyleSheet();
+			document.adoptedStyleSheets.push(sheet);
+			// Hide any element with a `data-lang` attribute that does NOT match the detected language
+			sheet.replaceSync('[data-lang]:not([data-lang="' + resolvedLanguage + '"]) { display: none; }');
+		})();
+	</script>
+
+		<script>
+		(function() {
+			/** @typedef {'light'|'dark'} ColorScheme */
+			/** @type {ColorScheme[]} */
+			const availableColorSchemes = document.documentElement.querySelector('meta[name="color-scheme"]').content.split(' ').filter(Boolean);
+			/** @type {ColorScheme|'system'} */
+			const userPreference = localStorage?.getItem('color-scheme-preference') ?? 'system';
+			// Clean-up user preference in case there's nothing to choose from
+			// Fall back to the HTML document's default color theme
+			if (availableColorSchemes.length <= 1 || ![...availableColorSchemes, 'system'].includes(userPreference)) {
+				localStorage?.removeItem('color-scheme-preference');
+				return;
+			}
+			// Override default HTML document with client-side user preference
+			if (userPreference === 'system') {
+				updateThemeAttribute(self.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark')
+			} else {
+				updateThemeAttribute(userPreference)
+			}
+			/** @param {ColorScheme} colorScheme */
+			function updateThemeAttribute(colorScheme) {
+				document.documentElement.setAttribute('data-color-scheme', colorScheme);
+			}
+		})();
+	</script>
+
+		<script>
+		
+		function sortContentSources(a, b) {
+			let result = a.precedence - b.precedence;
+
+			if (result === 0) {
+				result = a.value.localeCompare(b.value);
+			}
+
+			return result;
+		}
+
+		
+		function applyContentSourceOrderToElements({ parent, children }) {
+			const contentSourceElements = [...children];
+
+			contentSourceElements
+				.sort((a, b) => (
+					sortContentSources(
+						{ value: a.dataset.orderValue, precedence: a.dataset.orderPrecedence },
+						{ value: b.dataset.orderValue, precedence: b.dataset.orderPrecedence }
+					)
+				))
+				.forEach((element) => {
+					delete element.dataset.orderValue;
+					delete element.dataset.orderPrecedence;
+				});
+
+			parent.replaceChildren(...contentSourceElements);
+		}
+	</script>
+
+<script>
+	(() => {
+		if (isInAppHelpEnabled()) {
+			document.documentElement.dataset.inAppHelp = 'true';
+
+			if (isTitleHidden()) {
+				document.documentElement.dataset.hideTitle = 'true';
+			}
+		}
+
+		function isInAppHelpEnabled() {
+			return new URLSearchParams(location.search).get('inAppHelp') === 'true';
+		}
+
+		function isTitleHidden() {
+			return new URLSearchParams(location.search).get('title') === 'false';
+		}
+	})();
+</script>
+
+<link rel="stylesheet" href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/53/in-app-help.css"/>
+<script type="module" src="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/53/in-app-help.js"></script>
+
+	<link rel="stylesheet" href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/53/styles.css">
+	<link rel="stylesheet" href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/53/fonts.css">
+	<link rel="stylesheet" href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/53/search-styles-bundle.css">
+
+
+	<style>
+		@layer overrides {
+			:root {
+				--theme-headline-font: "Roboto";
+				--theme-text-font: "Roboto";
+				--theme-headline-scale: calc(100 / 100);
+				--theme-text-scale: calc(100 / 100);
+			}
+		}
+	</style>
+
+	<style>
+		@layer overrides {
+			:root, :host {
+					--theme-header-logo-size: 35px;
+					--theme-footer-logo-size: 40px;
+			}
+
+			:root[data-color-scheme='light'],
+			:host([data-color-scheme='light']) {
+					--theme-header-text-color: #070E28;
+					--theme-header-background-color: #ffffff;
+					--theme-footer-text-color: #FFFFFF;
+					--theme-footer-background-color: #070E28;
+			}
+
+			:root[data-color-scheme='dark'],
+			:host([data-color-scheme='dark']) {
+					--theme-header-text-color: #FFFFFF;
+					--theme-header-background-color: #0a0b0c;
+					--theme-footer-text-color: #FFFFFF;
+					--theme-footer-background-color: #0a0b0c;
+			}
+		}
+	</style>
+
+	 
+
+
+
+
+
+<script data-site-data="content-sources" type="application/json">
+{
+	"collection": {
+		"members": [
+
+
+	{
+	"name": "PAM Technical Documentation",
+	"id": "79e0e678-ce48-4d01-b599-9915e4bc62c9",
+	"key": "PDN",
+	"path": "/pam-tech-documentation/cloud",
+		"prefix": "/pam-tech-documentation/cloud",
+		"current": false,
+	"versions": {
+		"available": [
+				{
+					"name": "6.0",
+					"current": false
+
+				}
+		]
+	},
+	"variants": {
+		"available": [
+				{
+					"name": "Cloud",
+					"current": false
+
+				}
+		]
+	},
+	"languages": {
+		"available": [
+		]
+	}
+}
+,
+
+
+	{
+	"name": "PAM Technical Documentation",
+	"id": "13caaa9a-7862-4bc8-8b97-d7cde43cb812",
+	"key": "PDN",
+	"path": "/pam-technical-documentation/6.0",
+		"prefix": "/pam-technical-documentation/6.0",
+		"current": true,
+	"versions": {
+		"available": [
+				{
+					"name": "6.0",
+					"current": true
+
+				},
+				{
+					"name": "5.5",
+					"current": false
+
+				},
+				{
+					"name": "5.4",
+					"current": false
+
+				},
+				{
+					"name": "5.3",
+					"current": false
+
+				},
+				{
+					"name": "4.6",
+					"current": false
+
+				}
+		]
+	},
+	"variants": {
+		"available": [
+				{
+					"name": "On-Premises",
+					"current": true
+
+				}
+		]
+	},
+	"languages": {
+		"available": [
+		]
+	}
+}
+,
+
+
+	{
+	"name": "PAM Knowledge Base",
+	"id": "bd23f97c-94db-420e-90ee-141edc928e42",
+	"key": "PKBN",
+	"path": "/pkb",
+		"prefix": "/pkb",
+		"current": false,
+	"versions": {
+		"available": [
+		]
+	},
+	"variants": {
+		"available": [
+		]
+	},
+	"languages": {
+		"available": [
+		]
+	}
+}
+,
+
+
+	{
+	"name": "PAM Troubleshooting",
+	"id": "a33973d8-dc30-43d6-a39a-8ef492f84ec3",
+	"key": "TD",
+	"path": "/pam-ts",
+		"prefix": "/pam-ts",
+		"current": false,
+	"versions": {
+		"available": [
+		]
+	},
+	"variants": {
+		"available": [
+		]
+	},
+	"languages": {
+		"available": [
+		]
+	}
+}
+,
+
+
+	{
+	"name": "EPM Technical Documentation",
+	"id": "7df6fa55-4f6c-4925-ac66-4fa0f805a98c",
+	"key": "ETD",
+	"path": "/endpoint-privilege-management/5.5",
+		"prefix": "/endpoint-privilege-management/5.5",
+		"current": false,
+	"versions": {
+		"available": [
+				{
+					"name": "5.5",
+					"current": false
+
+				},
+				{
+					"name": "5.4",
+					"current": false
+
+				},
+				{
+					"name": "5.2",
+					"current": false
+
+				}
+		]
+	},
+	"variants": {
+		"available": [
+		]
+	},
+	"languages": {
+		"available": [
+		]
+	}
+}
+,
+
+
+	{
+	"name": "PAG Technical Documentation",
+	"id": "b40e3af8-7dcf-40df-8b6b-ea6bbef06952",
+	"key": "PAGF",
+	"path": "/pag",
+		"prefix": "/pag",
+		"current": false,
+	"versions": {
+		"available": [
+		]
+	},
+	"variants": {
+		"available": [
+		]
+	},
+	"languages": {
+		"available": [
+		]
+	}
+}
+,
+
+
+	{
+	"name": "PAG Knowledge Base",
+	"id": "38a8a740-1142-460a-b0c9-addac25a4ec7",
+	"key": "PKB",
+	"path": "/pag-kb",
+		"prefix": "/pag-kb",
+		"current": false,
+	"versions": {
+		"available": [
+		]
+	},
+	"variants": {
+		"available": [
+		]
+	},
+	"languages": {
+		"available": [
+		]
+	}
+}
+,
+
+
+	{
+	"name": "Product and Service Information",
+	"id": "540b0a19-df18-4ae1-aaf2-c8d7fd9344cf",
+	"key": "PSI",
+	"path": "/psi",
+		"prefix": "/psi",
+		"current": false,
+	"versions": {
+		"available": [
+		]
+	},
+	"variants": {
+		"available": [
+		]
+	},
+	"languages": {
+		"available": [
+		]
+	}
+}
+
+		]
+	}
+}
+</script>
+
+
+<script data-theme-placeholder="site" type="application/json">
+	{
+		"id": "71ff8f8c-fba3-44f4-b1e6-fdd13e075222",
+		"path": "/",
+		"url": "/",
+		"domain": "docs.sectona.com",
+		"aiSearchEnabled": false,
+		"visibleToSearchEngines": true,
+		"isProtectionEnabled": false,
+		"isPublished": true
+	}
+</script>
+ 
+<script data-config="cookieconsent" type="application/json">
+{
+	"enabled": true,
+	"mode": "opt-out",
+	"heading": "Cookie Notice",
+	"description": "Please read our privacy statement.",
+	"links": [
+			{
+				"label": "Privacy Policy",
+				"target": "https://sectona.com/privacy-policy/"
+			}
+	]
+}
+</script>
+
+	<script type="module" src="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/53/main.js"></script>
+	<script type="module" src="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/53/page-tree.js" fetchpriority="high"></script>
+	<script type="module" src="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/53/search-bundle.js"></script>
+
+							<style>
+		@layer override {
+			html[data-page-template="content-source"] {
+				&[data-color-scheme="light"] {
+					--theme-banner-text-color: #FFFFFF;
+
+						--theme-banner-image: url("/__site/d5302ee1-0d4d-4fae-9c23-010421b97dbf/Sectona%20docs-header.png");
+				}
+				&[data-color-scheme="dark"] {
+					--theme-banner-text-color: #FFFFFF;
+
+						--theme-banner-image: url("/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/53/help-center-banner-default-dark.jpg");
+				}
+			}
+		}
+	</style>
+
+
+
+<template data-custom-overrides data-type="code-asset">
+	<link rel="stylesheet" href="/__site/24a90006-44fc-4031-b68a-3f6690b6b83c/code_custom_css_override_asset.css">
+</template>
+
+<template data-custom-overrides data-type="code-asset">
+				<script data-cfasync="false" src="/__site/b34ec71a-65ae-49f6-a530-4bacc8302195/code_custom_js_override_asset.js"></script>
+</template>
+
+<script data-cfasync="false">
+	(() => {
+		if (new URLSearchParams(location.search).has('disable-custom-overrides')) {
+			return;
+		}
+
+		document.querySelectorAll('[data-custom-overrides]').forEach(template => {
+			const type = template.getAttribute('data-type');
+
+			if (type === 'code-asset') {
+				const assetElement = template.content.cloneNode(true).firstElementChild;
+				const appendAsset = () => document.head.appendChild(assetElement);
+
+				if (assetElement.tagName === 'SCRIPT') {
+															if (document.readyState === 'complete') {
+						appendAsset();
+					} else {
+												document.addEventListener('DOMContentLoaded', appendAsset, { once: true });
+					}
+				} else {
+					appendAsset();
+				}
+			}
+		});
+	})();
+</script>
+
+
+			
+		<script data-config="integration:ga" type="application/json">
+			{
+				"enabled": true,
+				"tagId": "G-N5E0L4P13N"
+			}
+		</script>
+		<script
+			type="text/plain"
+			data-category="analytics"
+			data-service="ga"
+			data-src="https://www.googletagmanager.com/gtag/js?id=G-N5E0L4P13N"
+			async
+		></script>
+
+
+
+
+
+
+
+
+
+
+
+
+			</head>
+<body>
+	<a href="#content" class="skip-link">
+		<i18n-message i18nkey="navigation.skip.to.main.label">Skip to main content</i18n-message>
+	</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header data-component="header" class="header">
+
+	<div class="header-site-branding">
+		<i18n-message id="a41d0e9c45faedc6-2" class="sr-only" i18nkey="header.home.label"></i18n-message>
+
+		<a href="/" aria-labelledby="a41d0e9c45faedc6-2">
+
+
+
+
+		<img class="header-logo header-logo--dark" src="/__site/a25f92ef-2b60-4c8f-94b5-9f45dcf02fef/Sectona%20Docs.png" alt="">
+
+		<img class="header-logo header-logo--light" src="/__site/a25f92ef-2b60-4c8f-94b5-9f45dcf02fef/Sectona%20Docs.png" alt="">
+
+		</a>
+
+	</div>
+	<div class="header-content">
+			<div class="header-links">
+				<ul>
+						<li><a href="https://help.sectona.com/" target="_blank" rel="noopener">Contact Support</a></li>
+						<li><a href="https://spark.sectona.com/" target="_blank" rel="noopener">Download Resources</a></li>
+				</ul>
+			</div>
+
+		<div class="header-pickers">
+
+
+					
+
+
+
+					
+
+
+
+					
+
+
+
+					
+
+
+
+					
+
+
+
+	<theme-select name="version" onchange="self.location.assign(this.value)">
+				<label class="sr-only">
+			<i18n-message i18nkey="version.picker.label"></i18n-message>
+		</label>
+
+		<button type="button">
+
+									
+						<span data-select-value></span>
+	<svg role="img" aria-hidden="true" data-component="icon" class="icon icon-caret_down ">
+		<use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/53/icons.svg#caret_down"></use>
+	</svg>
+		</button>
+
+		<theme-listbox>
+				<theme-option value="/pam-technical-documentation/6.0" selected="">
+										<span id="a41d0e9c45faedc6-3" data-select-label>6.0</span>
+				</theme-option>
+				<theme-option value="/pam-technical-documentation/5.5">
+										<span id="a41d0e9c45faedc6-4" data-select-label>5.5</span>
+				</theme-option>
+				<theme-option value="/pam-technical-documentation/5.4">
+										<span id="a41d0e9c45faedc6-5" data-select-label>5.4</span>
+				</theme-option>
+				<theme-option value="/pam-technical-documentation/5.3">
+										<span id="a41d0e9c45faedc6-6" data-select-label>5.3</span>
+				</theme-option>
+				<theme-option value="/pam-technical-documentation/4.6">
+										<span id="a41d0e9c45faedc6-7" data-select-label>4.6</span>
+				</theme-option>
+		</theme-listbox>
+	</theme-select>
+
+		</div>
+
+
+
+				<button type="button" aria-controls="drawer-a41d0e9c45faedc6-1" aria-haspopup="dialog" aria-expanded="false" class="header-nav-toggle" onclick="self['drawer-a41d0e9c45faedc6-1'].showModal()">
+	<svg role="img" aria-hidden="true" data-component="icon" class="icon icon-menu ">
+		<use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/53/icons.svg#menu"></use>
+	</svg>
+			<i18n-message class="sr-only" i18nkey="navigation.main.label">Main navigation</i18n-message>
+		</button>
+	</div>
+
+	
+
+<dialog id="drawer-a41d0e9c45faedc6-1" class="drawer">
+	<header data-component="header" class="header">
+
+	<div class="header-site-branding">
+		<i18n-message id="a41d0e9c45faedc6-8" class="sr-only" i18nkey="header.home.label"></i18n-message>
+
+		<a href="/" aria-labelledby="a41d0e9c45faedc6-8">
+
+
+
+
+		<img class="header-logo header-logo--dark" src="/__site/a25f92ef-2b60-4c8f-94b5-9f45dcf02fef/Sectona%20Docs.png" alt="">
+
+		<img class="header-logo header-logo--light" src="/__site/a25f92ef-2b60-4c8f-94b5-9f45dcf02fef/Sectona%20Docs.png" alt="">
+
+		</a>
+
+	</div>
+
+		<div class="header-content">
+			<button type="button" aria-controls="drawer-a41d0e9c45faedc6-1" aria-haspopup="dialog" aria-expanded="true" autofocus class="drawer-toggle" onclick="self['drawer-a41d0e9c45faedc6-1'].close()">
+	<svg role="img" aria-hidden="true" data-component="icon" class="icon icon-close ">
+		<use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/53/icons.svg#close"></use>
+	</svg>
+				<i18n-message class="sr-only" i18nkey="navigation.close.label">Close navigation</i18n-message>
+			</button>
+		</div>
+	</header>
+
+	<div class="drawer-section drawer-search">
+		<search-bar quicksearch></search-bar>
+	</div>
+
+		<div class="drawer-section drawer-pickers">
+
+
+					
+
+
+
+					
+
+
+
+					
+
+
+
+					
+
+
+
+					
+
+
+
+	<theme-select name="version" onchange="self.location.assign(this.value)">
+				<label class="sr-only">
+			<i18n-message i18nkey="version.picker.label"></i18n-message>
+		</label>
+
+		<button type="button">
+
+									
+						<span data-select-value></span>
+	<svg role="img" aria-hidden="true" data-component="icon" class="icon icon-caret_down ">
+		<use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/53/icons.svg#caret_down"></use>
+	</svg>
+		</button>
+
+		<theme-listbox>
+				<theme-option value="/pam-technical-documentation/6.0" selected="">
+										<span id="a41d0e9c45faedc6-9" data-select-label>6.0</span>
+				</theme-option>
+				<theme-option value="/pam-technical-documentation/5.5">
+										<span id="a41d0e9c45faedc6-10" data-select-label>5.5</span>
+				</theme-option>
+				<theme-option value="/pam-technical-documentation/5.4">
+										<span id="a41d0e9c45faedc6-11" data-select-label>5.4</span>
+				</theme-option>
+				<theme-option value="/pam-technical-documentation/5.3">
+										<span id="a41d0e9c45faedc6-12" data-select-label>5.3</span>
+				</theme-option>
+				<theme-option value="/pam-technical-documentation/4.6">
+										<span id="a41d0e9c45faedc6-13" data-select-label>4.6</span>
+				</theme-option>
+		</theme-listbox>
+	</theme-select>
+
+		</div>
+
+	<nav id="drawer-nav" class="drawer-section drawer-nav tree" aria-labelledby="drawer-nav-label">
+		<i18n-message id="drawer-nav-label" class="sr-only" i18nkey="navigation.main.label">Main</i18n-message>
+
+			<theme-page-tree>
+<ul  >
+		<li class="tree-item">
+			<div class="tree-item-header">
+				<a id="a41d0e9c45faedc6-14" href="/pam-technical-documentation/6.0/getting-started" >Getting Started</a>
+			</div>
+
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+					<button
+						class="tree-action"
+						type="button"
+						aria-expanded="false"
+						aria-labelledby="a41d0e9c45faedc6-15"
+aria-busy="true" aria-disabled="true"					></button>
+				<a id="a41d0e9c45faedc6-15" href="/pam-technical-documentation/6.0/release-notes" >Release Notes</a>
+			</div>
+
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+					<button
+						class="tree-action"
+						type="button"
+						aria-expanded="false"
+						aria-labelledby="a41d0e9c45faedc6-17"
+aria-busy="true" aria-disabled="true"					></button>
+				<a id="a41d0e9c45faedc6-17" href="/pam-technical-documentation/6.0/installation-setup" >Installation &amp; Setup</a>
+			</div>
+
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+					<button
+						class="tree-action"
+						type="button"
+						aria-expanded="false"
+						aria-labelledby="a41d0e9c45faedc6-19"
+aria-busy="true" aria-disabled="true"					></button>
+				<a id="a41d0e9c45faedc6-19" href="/pam-technical-documentation/6.0/configure-implement" >Configure &amp; Implement</a>
+			</div>
+
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+					<button
+						class="tree-action"
+						type="button"
+						aria-expanded="false"
+						aria-labelledby="a41d0e9c45faedc6-21"
+aria-busy="true" aria-disabled="true"					></button>
+				<a id="a41d0e9c45faedc6-21" href="/pam-technical-documentation/6.0/administer" >Administer</a>
+			</div>
+
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+					<button
+						class="tree-action"
+						type="button"
+						aria-expanded="false"
+						aria-labelledby="a41d0e9c45faedc6-23"
+aria-busy="true" aria-disabled="true"					></button>
+				<a id="a41d0e9c45faedc6-23" href="/pam-technical-documentation/6.0/develop" >Develop</a>
+			</div>
+
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+					<button
+						class="tree-action"
+						type="button"
+						aria-expanded="false"
+						aria-labelledby="a41d0e9c45faedc6-25"
+aria-busy="true" aria-disabled="true"					></button>
+				<a id="a41d0e9c45faedc6-25" href="/pam-technical-documentation/6.0/use" >Use</a>
+			</div>
+
+		</li>
+</ul>
+			</theme-page-tree>
+	</nav>
+
+			<div class="drawer-section drawer-links tree">
+<ul  >
+		<li class="tree-item">
+			<div class="tree-item-header">
+				<a id="a41d0e9c45faedc6-27" href="https://help.sectona.com/" >Contact Support</a>
+			</div>
+
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+				<a id="a41d0e9c45faedc6-28" href="https://spark.sectona.com/" >Download Resources</a>
+			</div>
+
+		</li>
+</ul>
+		</div>
+</dialog>
+
+</header>
+	<main class="article-overview-page hero-layout body">
+	<header data-component="banner" class="banner">
+			<hgroup>
+	<h1>
+		Privileged Access Management
+	</h1>
+
+
+			<p></p>
+			</hgroup>
+		<search-bar variant="large" quicksearch></search-bar>
+	</header>
+
+	<div id="content" tabindex="-1" class="content" data-searchable-content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="pages">
+<ul class="items list">
+			<li>
+				<h3><a href="/pam-technical-documentation/6.0/release-notes">Release Notes</a></h3>
+				<ul>
+							<li>
+								<a href="/pam-technical-documentation/6.0/version-6-0-0" rel="item">Version 6.0.0</a>
+							</li>
+				</ul>
+			</li>
+			<li>
+				<h3><a href="/pam-technical-documentation/6.0/installation-setup">Installation &amp; Setup</a></h3>
+				<ul>
+							<li>
+								<a href="/pam-technical-documentation/6.0/planning-to-deploy" rel="item">Planning to Deploy</a>
+							</li>
+							<li>
+								<a href="/pam-technical-documentation/6.0/installing-sectona-components" rel="item">Installing Sectona Components</a>
+							</li>
+							<li>
+								<a href="/pam-technical-documentation/6.0/building-a-high-availability-setup" rel="item">Building a High Availability Setup</a>
+							</li>
+							<li>
+								<a href="/pam-technical-documentation/6.0/configuring-disaster-recovery-setup" rel="item">Configuring Disaster Recovery Setup</a>
+							</li>
+							<li>
+								<a href="/pam-technical-documentation/6.0/migrating-from-evaluation-to-production" rel="item">Migrating from evaluation to production</a>
+							</li>
+
+								<li>
+									<a href="/pam-technical-documentation/6.0/installation-setup" rel="collection">
+										<span aria-hidden="true">+</span>
+										<i18n-message
+											i18nkey="topics.list.pages.label"
+											options='{ "count": 2 }'
+										>
+											2 more pages
+										</i18n-message>
+									</a>
+								</li>
+
+				</ul>
+			</li>
+			<li>
+				<h3><a href="/pam-technical-documentation/6.0/configure-implement">Configure &amp; Implement</a></h3>
+				<ul>
+							<li>
+								<a href="/pam-technical-documentation/6.0/general-configurations" rel="item">General Configurations</a>
+							</li>
+							<li>
+								<a href="/pam-technical-documentation/6.0/configuring-user-authentication" rel="item">Configuring user authentication</a>
+							</li>
+							<li>
+								<a href="/pam-technical-documentation/6.0/configuring-the-setup-for-password-rotation-in-win" rel="item">Configuring the setup for Password Rotation in Windows and Unix Privilege Account</a>
+							</li>
+							<li>
+								<a href="/pam-technical-documentation/6.0/configure-azure-entra-id-account-password-reset" rel="item">Configure Azure Entra ID Account Password Reset</a>
+							</li>
+							<li>
+								<a href="/pam-technical-documentation/6.0/securing-monitoring-sessions" rel="item">Securing &amp; Monitoring Sessions</a>
+							</li>
+
+								<li>
+									<a href="/pam-technical-documentation/6.0/configure-implement" rel="collection">
+										<span aria-hidden="true">+</span>
+										<i18n-message
+											i18nkey="topics.list.pages.label"
+											options='{ "count": 7 }'
+										>
+											7 more pages
+										</i18n-message>
+									</a>
+								</li>
+
+				</ul>
+			</li>
+			<li>
+				<h3><a href="/pam-technical-documentation/6.0/administer">Administer</a></h3>
+				<ul>
+							<li>
+								<a href="/pam-technical-documentation/6.0/managing-assets-access-types" rel="item">Managing assets &amp; access types</a>
+							</li>
+							<li>
+								<a href="/pam-technical-documentation/6.0/5-configuring-a-kubernetes-cluster" rel="item">Configuring a Kubernetes Cluster</a>
+							</li>
+							<li>
+								<a href="/pam-technical-documentation/6.0/managing-accounts-keys" rel="item">Managing accounts &amp; keys</a>
+							</li>
+							<li>
+								<a href="/pam-technical-documentation/6.0/managing-user-authentication" rel="item">Managing user &amp; authentication</a>
+							</li>
+							<li>
+								<a href="/pam-technical-documentation/6.0/setting-up-password-management" rel="item">Setting up password management</a>
+							</li>
+
+								<li>
+									<a href="/pam-technical-documentation/6.0/administer" rel="collection">
+										<span aria-hidden="true">+</span>
+										<i18n-message
+											i18nkey="topics.list.pages.label"
+											options='{ "count": 14 }'
+										>
+											14 more pages
+										</i18n-message>
+									</a>
+								</li>
+
+				</ul>
+			</li>
+			<li>
+				<h3><a href="/pam-technical-documentation/6.0/develop">Develop</a></h3>
+				<ul>
+							<li>
+								<a href="/pam-technical-documentation/6.0/vault-api-registration" rel="item">Vault API Registration</a>
+							</li>
+							<li>
+								<a href="/pam-technical-documentation/6.0/http-post-headers" rel="item">HTTP POST Headers</a>
+							</li>
+							<li>
+								<a href="/pam-technical-documentation/6.0/management-apis" rel="item">Management APIs</a>
+							</li>
+							<li>
+								<a href="/pam-technical-documentation/6.0/password-vault-apis" rel="item">Password Vault APIs</a>
+							</li>
+							<li>
+								<a href="/pam-technical-documentation/6.0/response-error-codes" rel="item">Response Error Codes</a>
+							</li>
+				</ul>
+			</li>
+			<li>
+				<h3><a href="/pam-technical-documentation/6.0/use">Use</a></h3>
+				<ul>
+							<li>
+								<a href="/pam-technical-documentation/6.0/launching-the-product" rel="item">Launching the product</a>
+							</li>
+							<li>
+								<a href="/pam-technical-documentation/6.0/accessing-a-target-asset" rel="item">Accessing a Target Asset</a>
+							</li>
+							<li>
+								<a href="/pam-technical-documentation/6.0/using-workflow" rel="item">Using workflow</a>
+							</li>
+							<li>
+								<a href="/pam-technical-documentation/6.0/executing-tasks" rel="item">Executing tasks</a>
+							</li>
+							<li>
+								<a href="/pam-technical-documentation/6.0/accessing-secrets-during-break-glass" rel="item">Accessing secrets during break glass</a>
+							</li>
+				</ul>
+			</li>
+</ul>
+</section>
+
+
+	</div>
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer data-component="footer" class="footer">
+
+
+
+
+
+		<img class="footer-logo footer-logo--dark" src="/__site/7b7de3a8-b2f2-44db-81a2-adff0481cf97/Sectona%20Logo%20Mark-Transparent.png" alt="">
+
+		<img class="footer-logo footer-logo--light" src="/__site/7b7de3a8-b2f2-44db-81a2-adff0481cf97/Sectona%20Logo%20Mark-Transparent.png" alt="">
+		<ul class="footer-links">
+				<li><a href="https://sectona.com/eula/" target="_blank" rel="noopener">EULA</a></li>
+				<li><a href="https://sectona.com/terms-of-use/" target="_blank" rel="noopener">Terms</a></li>
+				<li><a href="https://sectona.com/privacy-policy/" target="_blank" rel="noopener">Privacy Policy</a></li>
+		</ul>
+	<ul class="footer-content">
+		<li><i18n-message i18nkey="footer.copyright.label">Copyright</i18n-message> <current-year></current-year> Sectona Technologies Private Limited. All rights reserved. All trademarks held by their respective owners.</li>		<li><i18n-message i18nkey="footer.poweredBy.label">Powered by</i18n-message> <a href="https://www.k15t.com/products/scroll-sites-for-confluence?utm_campaign=k15t-sts-attribution-line&utm_source=k15t-apps" rel="external nofollow">Scroll&nbsp;Sites</a> & <a href="https://www.atlassian.com/software/confluence" rel="external nofollow">Atlassian&nbsp;Confluence</a></li>
+			<li>
+				<button type="button" data-cc="show-preferencesModal">
+					<i18n-message i18nkey="cookieConsent.showPreferences">Manage cookie preferences</i18n-message>
+				</button>
+			</li>
+	</ul>
+
+</footer>
+
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"e23d1a287cf64dfc880b355b5f2cd0d3","spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

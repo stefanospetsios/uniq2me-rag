@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "ee9fcaa3753c30a13edc69aad0cff29b7cd9270d08ccabc322cd16652f337b46",
+  "cachedAt": "2026-10-23T21:20:26Z",
+  "observedAt": "2026-10-23T21:20:26Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-3-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "3",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Authentication and Authorization official implementation configuration documentation",
+    "time_range": ""
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792790357984,
+    "end": 1792790358807
+  },
+  "outputDigest": "sha256:27866f67ad60d17365c2635a0d4a945509be316c475093edab19117eb5459635",
+  "resultUrls": [
+    "https://anticitizenone.medium.com/implementation-methods-for-authentication-and-authorization-part-1-65f73301ae34",
+    "https://auth0.com/docs/get-started/authentication-and-authorization-flow",
+    "https://oauth.net/2/",
+    "https://securityboulevard.com/2026/01/oauth-authorization-server-setup-implementation-guide-configuration/",
+    "https://stytch.com/blog/MCP-authentication-and-authorization-guide/",
+    "https://www.practical-devsecops.com/mcp-authentication-authorization-implementation/?srsltid=AYCX9vJH4MJ5rlcNwmyZcSBD9KObtmY6AGp8UOEf2xUwTrguUfFNQsMp",
+    "https://www.rfc-editor.org/info/rfc6749/",
+    "https://www.wallarm.com/what/implementing-authorization-and-authentication"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Authentication and Authorization official implementation configuration documentation\",\n  \"results\": [\n    {\n      \"title\": \"Implementation Methods for Authentication and Authorization (Part 1)\",\n      \"url\": \"https://anticitizenone.medium.com/implementation-methods-for-authentication-and-authorization-part-1-65f73301ae34\",\n      \"content\": \"26 Μαρ 2024 ... The topic of authentication and authorization implementation was, at the moment, the most densely packed, even considering cryptography, ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"MCP Authentication and Authorization: A Security Implementation ...\",\n      \"url\": \"https://www.practical-devsecops.com/mcp-authentication-authorization-implementation/?srsltid=AYCX9vJH4MJ5rlcNwmyZcSBD9KObtmY6AGp8UOEf2xUwTrguUfFNQsMp\",\n      \"content\": \"15 Μαΐ 2026 ... Authentication tells the server who is connecting. Authorization tells the server what that connection is allowed to do.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Authentication and Authorization Flows - Auth0 Docs\",\n      \"url\": \"https://auth0.com/docs/get-started/authentication-and-authorization-flow\",\n      \"content\": \"With the [Client-Initiated Backchannel Authentication Flow (CIBA), rather than authenticate the user directly, the client application backend initiates an ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"MCP authentication and authorization implementation guide - Stytch\",\n      \"url\": \"https://stytch.com/blog/MCP-authentication-and-authorization-guide/\",\n      \"content\": \"21 Ιουλ 2025 ... A practical, end-to-end guide to implementing secure authentication and authorization for AI tools using the Method Calling Protocol (MCP) ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Mastering Authorization and Authentication: A Comprehensive Guide\",\n      \"url\": \"https://www.wallarm.com/what/implementing-auth",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "3"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "anticitizenone.medium.com",
+      "auth0.com",
+      "oauth.net",
+      "securityboulevard.com",
+      "stytch.com",
+      "www.practical-devsecops.com",
+      "www.rfc-editor.org",
+      "www.wallarm.com"
+    ]
+  }
+}

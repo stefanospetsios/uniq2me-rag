@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T22:19:32Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "9-source-2",
+    "type": "technical-doc",
+    "title": "Creating a custom security configuration",
+    "publisher": "GitHub, Inc.",
+    "url": "https://docs.github.com/en/code-security/concepts/security-at-scale/security-configurations",
+    "language": "en",
+    "jurisdiction": "United States",
+    "applicability": "GitHub organizations requiring configuration of security auditing tools and scanning workflows",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:fb9e16d8484c61bd8338bfae615d3424cd3b039c5007c94c262829ad0035e6ac",
+    "textDigest": "sha256:2126f01284e37357bc125aa9b8090af8edef5ffe1834e893876c9c7ba60dc00c",
+    "finalUrl": "https://docs.github.com/en/code-security/how-tos/secure-at-scale/configure-organization-security/establish-complete-coverage/create-custom-configuration",
+    "retrievedAt": "2026-10-23T22:19:32Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-fb9e16d8484c61bd8338bfae615d3424cd3b039c5007c94c262829ad0035e6ac.bin",
+    "textPath": "source-2126f01284e37357bc125aa9b8090af8edef5ffe1834e893876c9c7ba60dc00c.txt"
+  },
+  "files": {
+    "snapshots/source-fb9e16d8484c61bd8338bfae615d3424cd3b039c5007c94c262829ad0035e6ac.bin": "sha256:fb9e16d8484c61bd8338bfae615d3424cd3b039c5007c94c262829ad0035e6ac",
+    "snapshots/source-2126f01284e37357bc125aa9b8090af8edef5ffe1834e893876c9c7ba60dc00c.txt": "sha256:2126f01284e37357bc125aa9b8090af8edef5ffe1834e893876c9c7ba60dc00c"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://docs.github.com/en/code-security/concepts/security-at-scale/security-configurations",
+  "language": "en",
+  "retrievedAt": "2026-10-23T22:19:32Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T22:19:32Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "Creating a custom security configuration - GitHub Docs\nSkip to main content\n\n\n\n\nSkip to content\n\n\nGitHub\n \nDocs\n\n\nSearch or ask Copilot\n/\n\n\nMenu\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCollapse sidebar\n\n\nExpand sidebar\n\n\n\n\nHome\n\n\nSecurity and code quality\n\n\nHow-tos\n\n\nSecure at scale\n\n\nConfigure organization security\n\n\nEstablish complete coverage\n\n\nCreate custom configuration\n\n\n\n\n\n\n\n\n\n\nSecurity and code quality\n\n\n\n\n\n\n\n\n\n\nGetting started\n\n\nGitHub security features\n\n\n\n\nSecure repository quickstart\n\n\n\n\n\n\nConcepts\n\n\nSecret security\n\n\nSecret leakage risks\n\n\n\n\nSecret scanning\n\n\n\n\nPublic monitoring\n\n\n\n\nPush protection\n\n\n\n\nSecret security with GitHub\n\n\n\n\nSecret scanning alerts\n\n\n\n\nCustom patterns\n\n\n\n\nValidity checks\n\n\n\n\nDelegated bypass\n\n\n\n\nBypass requests\n\n\n\n\nSecret scanning for partners\n\n\n\n\nSecret types\n\n\n\n\nPush protectio",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "9"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "GitHub, Inc.",
+    "host": "docs.github.com"
+  }
+}

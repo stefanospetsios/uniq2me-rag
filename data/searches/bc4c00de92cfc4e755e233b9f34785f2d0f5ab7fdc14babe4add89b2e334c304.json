@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "bc4c00de92cfc4e755e233b9f34785f2d0f5ab7fdc14babe4add89b2e334c304",
+  "cachedAt": "2026-10-23T21:03:41Z",
+  "observedAt": "2026-10-23T21:03:41Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-1-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "1",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "time_range": "year",
+    "query": "Administrator and Master Keys official implementation configuration documentation technical guide"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792789363806,
+    "end": 1792789364759
+  },
+  "outputDigest": "sha256:ecb051102d624fdf3c9a8f28689fe3a4c090bfd7ad6a04f74abe293021fd77a2",
+  "resultUrls": [
+    "https://docs.jfrog.com/installation/docs/manage-keys",
+    "https://docs.mosip.io/1.2.0/id-lifecycle-management/support-systems/administration/develop/admin-services-developers-guide",
+    "https://docs.paloaltonetworks.com/ngfw/administration/certificate-management/master-key-encryption/configure-master-key",
+    "https://docs.paloaltonetworks.com/ngfw/administration/firewall-administration",
+    "https://www.meilisearch.com/docs/resources/self_hosting/security/master_api_keys"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Administrator and Master Keys official implementation configuration documentation technical guide\",\n  \"results\": [\n    {\n      \"title\": \"Configure a Master Key - Palo Alto Networks\",\n      \"url\": \"https://docs.paloaltonetworks.com/ngfw/administration/certificate-management/master-key-encryption/configure-master-key\",\n      \"content\": \"The key must contain exactly 16 characters. Record and store your master key in a secure, access-controlled location. You will need this key to perform future ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Firewall Administration - Palo Alto Networks\",\n      \"url\": \"https://docs.paloaltonetworks.com/ngfw/administration/firewall-administration\",\n      \"content\": \"Configure and manage Palo Alto Networks Next-Generation Firewalls using PAN-OS administrative features and settings.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Master key and API keys - Meilisearch Documentation\",\n      \"url\": \"https://www.meilisearch.com/docs/resources/self_hosting/security/master_api_keys\",\n      \"content\": \"Use the Default Read-Only Admin API Key for read-only access to all indexes, documents, and settings (do not expose on a public frontend); Use the Default Chat ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Manage Keys - JFrog Docs\",\n      \"url\": \"https://docs.jfrog.com/installation/docs/manage-keys\",\n      \"content\": \"If the concern is a security incident rather than key exposure, for example compromised admin or access tokens during CVE remediation, the master key does not ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Admin Services Developers Guide | MOSIP Docs 1.2.0\",\n      \"url\": \"https://docs.mosip.io/1.2.0/id-lifecycle-management/support-systems/administration/develop/admin-services-developers-guide\",\n      \"content\": \"24 Νοε 2025 ... The admin application is a web-based application used by a",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "docs.jfrog.com",
+      "docs.mosip.io",
+      "docs.paloaltonetworks.com",
+      "www.meilisearch.com"
+    ]
+  }
+}

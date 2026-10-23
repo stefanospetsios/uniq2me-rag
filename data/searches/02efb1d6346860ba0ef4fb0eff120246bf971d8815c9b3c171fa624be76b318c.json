@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "02efb1d6346860ba0ef4fb0eff120246bf971d8815c9b3c171fa624be76b318c",
+  "cachedAt": "2026-10-23T21:00:34Z",
+  "observedAt": "2026-10-23T21:00:34Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-1-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "1",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "privileged access management official implementation configuration documentation",
+    "time_range": ""
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792789183621,
+    "end": 1792789184463
+  },
+  "outputDigest": "sha256:ed90eacb2ea4930aa934b4aa8cb903ba8d55f0038ce72a5f8c331bcf3915b19f",
+  "resultUrls": [
+    "https://docs.appviewx.com/2026.1.0/oxy_ex/configuring_privileged_access_management.html",
+    "https://heimdalsecurity.com/pdf/privileged-access-management-guide.pdf",
+    "https://learn.microsoft.com/en-us/purview/privileged-access-management-configuration",
+    "https://learning.sap.com/courses/sap-cloud-identity-access-governance-implementation-and-configuration/setting-up-privileged-access-management-service",
+    "https://segura.security/post/privileged-access-management-pam-a-complete-guide/",
+    "https://www.jumpserver.com/blog/the-ultimate-guide-to-building-a-privileged-access-management-framework",
+    "https://www.miniorange.com/blog/iso-27001-pam-compliance-implementation/",
+    "https://www.oloid.com/blog/privileged-access-management",
+    "https://www.securden.com/privileged-account-manager/docs/pam-implementation-guide.pdf",
+    "https://www.wallix.com/blogpost/privileged-access-management-best-practices/"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"privileged access management official implementation configuration documentation\",\n  \"results\": [\n    {\n      \"title\": \"Get started with privileged access management - Microsoft Learn\",\n      \"url\": \"https://learn.microsoft.com/en-us/purview/privileged-access-management-configuration\",\n      \"content\": \"14 Απρ 2026 ... In this article · Before you begin · Enable and configure privileged access management · Step 1: Create an approver's group · Step 2: Enable ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Setting Up Privileged Access Management Service - SAP Learning\",\n      \"url\": \"https://learning.sap.com/courses/sap-cloud-identity-access-governance-implementation-and-configuration/setting-up-privileged-access-management-service\",\n      \"content\": \"At least you have to add the roles that are necessary for PAM ID to perform the privileged access management session and the activities that need to be executed ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"PAM Implementation Guide - Securden\",\n      \"url\": \"https://www.securden.com/privileged-account-manager/docs/pam-implementation-guide.pdf\",\n      \"content\": \"In order to provide uninterrupted access to privileged credentials, you can configure two application servers (primary and secondary) connected to a common ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Privileged Access Management (PAM): How It Works in 2026 - Segura\",\n      \"url\": \"https://segura.security/post/privileged-access-management-pam-a-complete-guide/\",\n      \"content\": \"15 Αυγ 2025 ... Effective PAM implementation starts with visibility, then progressively reduces and secures privileged access. A phased approach can help ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"ISO 27001 Privileged Access Management: A Compliance Guide\",\n      \"url\": \"https://www.miniorange.com/blog/iso-27001-pam-compliance",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "docs.appviewx.com",
+      "heimdalsecurity.com",
+      "learn.microsoft.com",
+      "learning.sap.com",
+      "segura.security",
+      "www.jumpserver.com",
+      "www.miniorange.com",
+      "www.oloid.com",
+      "www.securden.com",
+      "www.wallix.com"
+    ]
+  }
+}

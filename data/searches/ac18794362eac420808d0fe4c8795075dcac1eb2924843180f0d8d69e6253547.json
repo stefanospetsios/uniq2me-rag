@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "ac18794362eac420808d0fe4c8795075dcac1eb2924843180f0d8d69e6253547",
+  "cachedAt": "2026-10-23T22:27:17Z",
+  "observedAt": "2026-10-23T22:27:17Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-A-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "A",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "cryptography encryption integrity digital signatures certificates key lifecycle blockchain configuration official maintainer documentation site:github.com OR site:docs.github.com OR site:openssl.org OR site:nist.gov OR site:cisa.gov OR site:ietf.org"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792794359201,
+    "end": 1792794360221
+  },
+  "outputDigest": "sha256:12c223780db29724e6a14f05a9b06bc6ad20eaa64ffc8281d75b9961befe2a91",
+  "resultUrls": [
+    "https://github.com/canonical/crypto-config/blob/main/docs/crypto-config-specification.md"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"docs/crypto-config-specification.md\",\n      \"url\": \"https://github.com/canonical/crypto-config/blob/main/docs/crypto-config-specification.md\",\n\n...184024 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_16adef99c001D5FJC5JUoX6X8R\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "A"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "github.com"
+    ]
+  }
+}

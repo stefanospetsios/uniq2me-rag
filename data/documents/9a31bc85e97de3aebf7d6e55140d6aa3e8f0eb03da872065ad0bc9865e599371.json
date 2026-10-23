@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T21:03:41Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "1-source-1",
+    "type": "technical-doc",
+    "title": "Manage emergency access admin accounts",
+    "publisher": "Microsoft",
+    "url": "https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/security-emergency-access",
+    "language": "en",
+    "jurisdiction": "United States",
+    "applicability": "Microsoft Entra ID implementation for emergency access account management including secure storage requirements, separation of duties through role activation policies, and audit trail configuration for privileged administrative access",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:ba196624975a41123ff48c89257cb1a32aedf8ac9163e00f81726d71b3ad7c9b",
+    "textDigest": "sha256:2124e50a92f6295cf560256d9db8f33aff8c649e31900d84308d42fcb3ab078c",
+    "finalUrl": "https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/security-emergency-access",
+    "retrievedAt": "2026-10-23T21:03:41Z",
+    "contentType": "text/html",
+    "snapshotPath": "source-ba196624975a41123ff48c89257cb1a32aedf8ac9163e00f81726d71b3ad7c9b.bin",
+    "textPath": "source-2124e50a92f6295cf560256d9db8f33aff8c649e31900d84308d42fcb3ab078c.txt"
+  },
+  "files": {
+    "snapshots/source-ba196624975a41123ff48c89257cb1a32aedf8ac9163e00f81726d71b3ad7c9b.bin": "sha256:ba196624975a41123ff48c89257cb1a32aedf8ac9163e00f81726d71b3ad7c9b",
+    "snapshots/source-2124e50a92f6295cf560256d9db8f33aff8c649e31900d84308d42fcb3ab078c.txt": "sha256:2124e50a92f6295cf560256d9db8f33aff8c649e31900d84308d42fcb3ab078c"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/security-emergency-access",
+  "language": "en",
+  "retrievedAt": "2026-10-23T21:03:41Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T21:03:41Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": " \n\n\t\t\n\n\t\t\t\n\t\t\n\n\t\t\t\nManage emergency access admin accounts - Microsoft Entra ID | Microsoft Learn\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n \n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n \n\n\t\t\t\n\n\t\t\t \n\t\t\t\n\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t \n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\t\t\t\n\n\t\t\t\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\t\t\n\n\t\n\t\t\t\n\n\t\t\t\t\n\n\t\t\n\n\t\t\t\n\t\t\n\n\t\t\tSkip to main content\n\t\t\n\n\t\n\t\t\n\n\t\t\tSkip to Ask Learn chat experience\n\t\t\n\n\t\n\n\t\t\t\n\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\t\n\n\t\t\t\t\t\nThis browser is no longer supported.\n\n\n\n\t\t\t\t\t\n\n\t\t\t\t\t\tUpgrade to Microsoft Edge to take advantage of the latest fea",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Microsoft",
+    "host": "learn.microsoft.com"
+  }
+}

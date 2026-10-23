@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "3152e3e74c3f9980a05139e1237917e75c4f67146abcd053ed4e49d4d6ee6ba5",
+  "cachedAt": "2026-10-23T22:18:02Z",
+  "originRunId": "qwen3-40019296746",
+  "sourceUrl": "https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf",
+  "finalUrl": "https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf",
+  "language": "en",
+  "publisher": "European Union Agency for Cybersecurity (ENISA)",
+  "title": "ENISA Technical Implementation Guidance on Cybersecurity Risk Management Measures",
+  "retrievedAt": "2026-10-23T21:32:49Z",
+  "byteDigest": "sha256:f03186edb047ece269ab9deeb3f0ec6172582ccc577617f0eb79e9bf96a7021b",
+  "textDigest": "sha256:effbd5b01b9fc323fad9ab61fca97caa63acc7891c62076f42f8f6537096d36d",
+  "sourceId": "8-source-1",
+  "passageId": "p2",
+  "locator": "Section 6.5, page 89",
+  "quotation": "(d) establish and implement security testing processes in the development life cycle; (e) appropriately select, protect and manage security test data;",
+  "originalText": "79\n\f                                                                         TECHNICAL IMPLEMENTATION GUIDANCE\n                                                                                                                June 2025, version 1.0\n\n\n\n\n(d) establish and implement security testing processes in the development life cycle;\n(e) appropriately select, protect and manage security test data;\n(f) sanitise and anonymise testing data according to the risk assessment carried out pursuant to point 2.1.\n\nGUIDANCE\n\n         •   A secure software development life cycle",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T22:18:02Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "European Union Agency for Cybersecurity (ENISA)",
+    "host": "www.enisa.europa.eu"
+  }
+}

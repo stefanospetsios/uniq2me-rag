@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "235503bc85fe63a683b2f2f0823fb4ad9339e17a0d178dcc44e6276c05950d2b",
+  "cachedAt": "2026-10-23T22:55:44Z",
+  "observedAt": "2026-10-23T22:55:44Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-C-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "C",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "MQTT official maintainer implementation configuration documentation",
+    "time_range": ""
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792796104395,
+    "end": 1792796105193
+  },
+  "outputDigest": "sha256:327a11f01a9fe33421bee6c4477a83af1445d4f92934ff211210e035515a5fd3",
+  "resultUrls": [
+    "http://wiki.ros.org/mqtt_client",
+    "https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html",
+    "https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.pdf",
+    "https://github.com/john30/ebusd/wiki/MQTT-integration",
+    "https://mosquitto.org/",
+    "https://mqtt-broker.readthedocs.org/en/latest/",
+    "https://mqtt.org/",
+    "https://mqtt.org/mqtt-specification/"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"MQTT official maintainer implementation configuration documentation\",\n  \"results\": [\n    {\n      \"title\": \"Welcome to mqtt-broker's Project Documentation — mqtt-broker 1 ...\",\n      \"url\": \"https://mqtt-broker.readthedocs.org/en/latest/\",\n      \"content\": \"Getting Started · Installation · Running the Broker · Frontend Console · Dashboards · Monitoring Running Brokers · Munin Integration · Advanced Configurations.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"MQTT - The Standard for IoT Messaging\",\n      \"url\": \"https://mqtt.org/\",\n      \"content\": \"MQTT: The Standard for IoT Messaging MQTT is an OASIS standard messaging protocol for the Internet of Things (IoT). It is designed as an extremely lightweight publish/subscribe messaging transport that is ideal for connecting remote devices with a small code footprint and minimal network bandwidth.\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Eclipse Mosquitto\",\n      \"url\": \"https://mosquitto.org/\",\n      \"content\": \"The Mosquitto project also provides a C library for implementing MQTT clients, and the very popular mosquitto_pub and mosquitto_sub command line MQTT clients. Mosquitto is part of the Eclipse Foundation, and is an iot.eclipse.org project, with its development driven by Cedalo.\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"PDF MQTT Version 5 - OASIS\",\n      \"url\": \"https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.pdf\",\n      \"content\": \"This document and translations of it may be copied and furnished to others, and derivative works that comment on or otherwise explain it or assist in its implementation may be prepared, copied, published, and distributed, in whole or in part, without restriction of any kind, provided that the above copyright notice and this section are included ...\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"MQTT integrat",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "C"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "docs.oasis-open.org",
+      "github.com",
+      "mosquitto.org",
+      "mqtt-broker.readthedocs.org",
+      "mqtt.org",
+      "wiki.ros.org"
+    ]
+  }
+}

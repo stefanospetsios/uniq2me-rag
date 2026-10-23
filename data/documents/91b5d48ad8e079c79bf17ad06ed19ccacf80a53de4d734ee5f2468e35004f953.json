@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T21:00:36Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "1-source-2",
+    "type": "technical-doc",
+    "title": "Getting Started as a VPAM System Administrator",
+    "publisher": "Imprivata",
+    "url": "https://docs.imprivata.com/vpam/content/topics/pas/admin_gettingstarted.html",
+    "language": "en",
+    "jurisdiction": "United States",
+    "applicability": "Imprivata VPAM server configuration for privileged access management including emergency access setup and session validation",
+    "publicationDate": "2026-09-09",
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:3552265e2fc1159a51d79cf25d91993bc71a66012bbe297682b89edd4fcf8fc4",
+    "textDigest": "sha256:a72ea9701c45c609d05aeb19b63b0ca3e494d443114975682926130ce7fdd3ef",
+    "finalUrl": "https://docs.imprivata.com/vpam/content/topics/pas/admin_gettingstarted.html",
+    "retrievedAt": "2026-10-23T21:00:36Z",
+    "contentType": "text/html",
+    "snapshotPath": "source-3552265e2fc1159a51d79cf25d91993bc71a66012bbe297682b89edd4fcf8fc4.bin",
+    "textPath": "source-a72ea9701c45c609d05aeb19b63b0ca3e494d443114975682926130ce7fdd3ef.txt"
+  },
+  "files": {
+    "snapshots/source-3552265e2fc1159a51d79cf25d91993bc71a66012bbe297682b89edd4fcf8fc4.bin": "sha256:3552265e2fc1159a51d79cf25d91993bc71a66012bbe297682b89edd4fcf8fc4",
+    "snapshots/source-a72ea9701c45c609d05aeb19b63b0ca3e494d443114975682926130ce7fdd3ef.txt": "sha256:a72ea9701c45c609d05aeb19b63b0ca3e494d443114975682926130ce7fdd3ef"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://docs.imprivata.com/vpam/content/topics/pas/admin_gettingstarted.html",
+  "language": "en",
+  "retrievedAt": "2026-10-23T21:00:36Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T21:00:36Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n\n\n    \n\n    \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \nGetting Started as a VPAM System Administrator\n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n    \n\n    \n\n        \n\n            \n\n                \n\n                    \n\n                    \n\n                \n\n                \n\n                    \n\n                        \nSkip To Main Content\n\n                            \n\n                                \n\n                     ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Imprivata",
+    "host": "docs.imprivata.com"
+  }
+}

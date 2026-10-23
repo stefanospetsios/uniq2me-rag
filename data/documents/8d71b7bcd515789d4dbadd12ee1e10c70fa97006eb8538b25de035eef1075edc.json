@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T22:03:18Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "7-source-3",
+    "type": "technical-doc",
+    "title": "Provenance attestations",
+    "publisher": "Docker, Inc.",
+    "url": "https://docs.docker.com/build/metadata/attestations/slsa-provenance/",
+    "language": "en",
+    "jurisdiction": "United States",
+    "applicability": "Implementation guidance for generating SLSA-compliant build provenance including source code references, build parameters, and artifact verification. Covers technical requirements for build traceability and reproducibility.",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:8dc92f14c3e77548247d73d5447a9e836722cd489247dcec719d3563494aa3fd",
+    "textDigest": "sha256:8dc92f14c3e77548247d73d5447a9e836722cd489247dcec719d3563494aa3fd",
+    "finalUrl": "https://docs.docker.com/build/metadata/attestations/slsa-provenance/",
+    "retrievedAt": "2026-10-23T22:03:18Z",
+    "contentType": "text/markdown",
+    "snapshotPath": "source-8dc92f14c3e77548247d73d5447a9e836722cd489247dcec719d3563494aa3fd.bin",
+    "textPath": "source-8dc92f14c3e77548247d73d5447a9e836722cd489247dcec719d3563494aa3fd.txt"
+  },
+  "files": {
+    "snapshots/source-8dc92f14c3e77548247d73d5447a9e836722cd489247dcec719d3563494aa3fd.bin": "sha256:8dc92f14c3e77548247d73d5447a9e836722cd489247dcec719d3563494aa3fd",
+    "snapshots/source-8dc92f14c3e77548247d73d5447a9e836722cd489247dcec719d3563494aa3fd.txt": "sha256:8dc92f14c3e77548247d73d5447a9e836722cd489247dcec719d3563494aa3fd"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://docs.docker.com/build/metadata/attestations/slsa-provenance/",
+  "language": "en",
+  "retrievedAt": "2026-10-23T22:03:18Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T22:03:18Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "# Provenance attestations\n\n\nThe provenance attestations include facts about the build process, including\ndetails such as:\n\n- Build timestamps\n- Build parameters and environment\n- Version control metadata\n- Source code details\n- Materials (files, scripts) consumed during the build\n\nBy default, provenance attestations follow the\n[SLSA provenance schema, version 0.2](https://slsa.dev/spec/v0.2/provenance#schema).\nYou can optionally enable [SLSA Provenance v1](https://slsa.dev/spec/v1.1/provenance#schema)\nusing [the `version` parameter](#version).\n\nFor more information about how BuildKit populates these provenance properties, refer to\n[SLSA definitions](/build/metadata/attestations/slsa-provenance/slsa-definitions/).\n\n## Create provenance attestations\n\nTo create a provenance attestation, pass ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "7"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Docker, Inc.",
+    "host": "docs.docker.com"
+  }
+}

@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en" xml:lang="en" class="_Skins__IMP_TopNav_TopNavigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-has-content-body="True" data-mc-toc-path="System Admin" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../../../Skins/Favicons/browserconfig.xml" />
+        <link rel="shortcut icon" href="../../../Skins/Favicons/_IMP_favicon.ico" />
+        <link rel="icon" sizes="32x32" href="../../../Skins/Favicons/_IMP_favicon.ico" />
+        <link rel="icon" sizes="32x32" href="../../../Skins/Favicons/_IMP_favicon.ico" />
+        <link rel="icon" sizes="32x32" href="../../../Skins/Favicons/_IMP_favicon.ico" />
+        <meta charset="utf-8" />
+        <!-- link rel="head_icon" type="" href="../Images/_IMP_Icons/_IMP_favicon.ico" -->
+        <!-- link rel="icon" type="" href="../Images/_IMP_Icons/_IMP_favicon.ico" -->
+        <!-- Global site tag (gtag.js) - Google Analytics --><title>Getting Started as a VPAM System Administrator</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/stylesheets/styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/stylesheets/tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/stylesheets/mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/stylesheets/print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../resources/stylesheets/_imp_prism.css" rel="stylesheet" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.print-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.expand-all-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.remove-highlight-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.select-language-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.collapse-all-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.needs-pie
+{
+	behavior: url('../../../Resources/Scripts/PIE.htc');
+}
+
+</style>
+        <link href="../../resources/stylesheets/_imp_branding.css" rel="stylesheet" type="text/css" />
+        <link href="../../resources/stylesheets/_imp_onesign.css" rel="stylesheet" type="text/css" />
+        <link rel="shortcut icon" href="../../../Skins/Favicons/_IMP_favicon.ico" />
+        <link rel="icon" sizes="32x32" href="../../../Skins/Favicons/_IMP_favicon.ico" />
+        <link rel="icon" sizes="32x32" href="../../../Skins/Favicons/_IMP_favicon.ico" />
+        <link rel="icon" sizes="32x32" href="../../../Skins/Favicons/_IMP_favicon.ico" />
+        <script src="../../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-58343755-2">
+        </script>
+        <script>/* <![CDATA[ */
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-58343755-2');
+		/* ]]> */</script>
+        <script src="../../resources/masterpages/_imp_index.js">
+        </script>
+        <script src="../../resources/masterpages/_imp_prism.js">
+        </script>
+        <script src="../../resources/masterpages/_imp_feedback.js">
+        </script>
+        <script src="../../resources/masterpages/_imp_flareui.js">
+        </script>
+        <script src="../../resources/masterpages/_imp_flareui-initializer.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="complementary" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-right is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expanded-event="open.zf.drilldown closed.zf.drilldown" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" aria-label="Main navigation and search" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (min-width: 1280px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../index.html" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Search" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="All Files" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">All Files</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True">
+                                    <div class="row collapse">
+                                        <div class="search-container">
+                                            <p />
+                                        </div>
+                                        <div class="topic-layout">
+                                            <div>
+                                                <div id="content-container">
+                                                    <div class="nocontent">
+                                                        <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                                        </div>
+                                                    </div>
+                                                    <p style="font-size: 9pt;"><span class="mc-variable _IMPc_BasicVariables.CompanyNameSHORT variable">Imprivata</span> Documentation | <MadCap:conditionalText data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly"><span class="mc-variable _IMPc_BasicVariables.VPAMShortName variable">Vendor Privileged Access Management</span></MadCap:conditionalText>  | Topic updated: <span class="mc-variable _IMPc_BasicVariables.TopicLastSaveDate variable">September 08, 2026</span></p>
+                                                    <div class="reading-time-container" data-mc-conditions="_IMP_conditions.OnlineHelpOnly">
+                                                        <p style="font-size: 9pt;">
+                                                            <img class="reading-time-img" src="../../resources/images/_imp_icons/_imp_reading-time.png" /> <span id="read-time"></span> minute read
+							</p>
+                                                    </div>
+                                                    <div role="main" id="mc-main-content">
+                                                        <h1 class="Title">Getting Started as a <MadCap:conditionalText data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly"><span class="mc-variable _IMPc_BasicVariables.VPAMAcronym variable">VPAM</span></MadCap:conditionalText> System Administrator</h1>
+                                                        <p>This guide helps you configure a newly deployed <MadCap:conditionalText data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly"><span class="mc-variable _IMPc_BasicVariables.VPAMAcronym variable">VPAM</span></MadCap:conditionalText> server for its first production use.</p>
+                                                        <p>Starting with your System Administrator credentials, you'll configure the platform, create your first protected resources, and validate the deployment using a test internal user.</p>
+                                                        <p>When you finish this guide, your PAS environment will be ready to onboard production users.</p>
+                                                        <h3>Who Should Use This Guide</h3>
+                                                        <p>This guide is intended for:</p>
+                                                        <ul>
+                                                            <li>
+                                                                <p>New <MadCap:conditionalText data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly"><span class="mc-variable _IMPc_BasicVariables.VPAMAcronym variable">VPAM</span></MadCap:conditionalText> System Administrators.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Administrators taking ownership of an existing <MadCap:conditionalText data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly"><span class="mc-variable _IMPc_BasicVariables.VPAMAcronym variable">VPAM</span></MadCap:conditionalText> deployment.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Technical staff learning the recommended <MadCap:conditionalText data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly"><span class="mc-variable _IMPc_BasicVariables.VPAMAcronym variable">VPAM</span></MadCap:conditionalText>deployment workflow.</p>
+                                                            </li>
+                                                        </ul>
+                                                        <p>To follow his guide, no previous <MadCap:conditionalText data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly"><span class="mc-variable _IMPc_BasicVariables.VPAMAcronym variable">VPAM</span></MadCap:conditionalText> experience is required.</p>
+                                                        <h3>Before You Begin</h3>
+                                                        <p>Before starting this guide, ensure that:</p>
+                                                        <ul>
+                                                            <li>
+                                                                <p>Your <MadCap:conditionalText data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly"><span class="mc-variable _IMPc_BasicVariables.VPAMAcronym variable">VPAM</span></MadCap:conditionalText> server has been deployed.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>You have System Administrator credentials.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>You meet network and infrastructure <a href="system-requirements.html">Requirements</a>.</p>
+                                                            </li>
+                                                        </ul>
+                                                        <h3>What You'll Accomplish</h3>
+                                                        <p>This guide is organized into implementation phases. Each phase builds on the previous one and ends with a validation step. In this guide, you will:</p>
+                                                        <ol>
+                                                            <li value="1">
+                                                                <p>Access your <MadCap:conditionalText data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly"><span class="mc-variable _IMPc_BasicVariables.VPAMAcronym variable">VPAM</span></MadCap:conditionalText> server.</p>
+                                                            </li>
+                                                            <li value="2">
+                                                                <p>Secure the platform.</p>
+                                                            </li>
+                                                            <li value="3">
+                                                                <p>Design your access model.</p>
+                                                            </li>
+                                                            <li value="4">
+                                                                <p>Configure protected resources.</p>
+                                                            </li>
+                                                            <li value="5">
+                                                                <p>Configure third-party access.</p>
+                                                            </li>
+                                                            <li value="6">
+                                                                <p>Create a test internal user.</p>
+                                                            </li>
+                                                            <li value="7">
+                                                                <p>Validate the first privileged session.</p>
+                                                            </li>
+                                                        </ol>
+                                                        <h3>What This Guide Does Not Cover</h3>
+                                                        <p>This guide focuses on the initial platform configuration. The following topics are covered in separate documentation:</p>
+                                                        <ul>
+                                                            <li>
+                                                                <p>High Availability (HA)</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Disaster Recovery (DR)</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Nexus deployments</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>REST API and SDK</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Syslog and SIEM integrations</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>HTTPS Credential Passthrough</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Advanced authentication architectures</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Zero Trust guidance</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Advanced auditing and reporting</p>
+                                                            </li>
+                                                        </ul>
+                                                        <p>&#160;</p>
+                                                        <h2><a name="1"></a>1. Access your <MadCap:conditionalText data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly"><span class="mc-variable _IMPc_BasicVariables.VPAMAcronym variable">VPAM</span></MadCap:conditionalText> Server</h2>
+                                                        <p>Verify you have access to the <MadCap:conditionalText data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly"><span class="mc-variable _IMPc_BasicVariables.VPAMAcronym variable">VPAM</span></MadCap:conditionalText> User Interface before continuing with this guide.</p>
+                                                        <p>Read <a href="access-login.html" target="_blank">Access and Login</a> to complete your first sign in.</p>
+                                                        <p>Read the <a href="ui_reference.html" target="_blank">User Interface Reference</a> to understand different sections of the <MadCap:conditionalText data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly"><span class="mc-variable _IMPc_BasicVariables.VPAMAcronym variable">VPAM</span></MadCap:conditionalText> interface.</p>
+                                                        <p>This first login confirms that your deployment is operational and that your administrator account has the permissions required to complete the remaining phases of this guide.</p>
+                                                        <p>After you validate you have System Administrator's access to the UI, continue to configure your server.</p>
+                                                        <h2><a name="2"></a>2. Secure the Platform</h2>
+                                                        <p>In this step, you will configure the authentication and security settings that protect access to your PAS environment. Completing this step determines who can access the platform, how they authenticate, and what safeguards protect privileged access.</p>
+                                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Less" data-mc-alt2="More" />2.1 Review Your Authentication Strategy</a></span>
+                                                            <div class="MCDropDownBody dropDownBody">
+                                                                <p>Determine how your Internal Users will authenticate to the server. Depending on your deployment, you may choose one of the following authentication methods:</p>
+                                                                <ul>
+                                                                    <li>
+                                                                        <p>Local authentication</p>
+                                                                    </li>
+                                                                    <li>
+                                                                        <p>LDAP</p>
+                                                                    </li>
+                                                                    <li>
+                                                                        <p>SAML Single Sign-On (SSO)</p>
+                                                                    </li>
+                                                                </ul>
+                                                                <p>Select the authentication method that aligns with your organization's identity management strategy before creating users.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Less" data-mc-alt2="More" />2.2 Configure Authentication</a></span>
+                                                            <div class="MCDropDownBody dropDownBody">
+                                                                <p>Complete the authentication configuration in the Legacy UI only, using the following guides:</p>
+                                                                <ul>
+                                                                    <li>
+                                                                        <p><a href="sys-admin_settings_saml_entraid.html" target="_blank">SAML&#160;Entra ID&#160;Configuration</a>
+                                                                        </p>
+                                                                        <p>Use this guide to configure SAML&#160;for SSO&#160;in your server using Entra ID.</p>
+                                                                    </li>
+                                                                    <li>
+                                                                        <p><a href="sys-admin_settings_saml.html" style="font-weight: normal;" target="_blank">Other Identity Providers</a>
+                                                                        </p>
+                                                                        <p>Use this guide to configure SAML&#160;for SSO&#160;in your server using other Identity Providers.</p>
+                                                                    </li>
+                                                                    <li>
+                                                                        <p><a href="../bestpractices/zerotrust_authsettings.html" target="_blank">Authentication Strategy Recommendations</a>
+                                                                        </p>
+                                                                        <p>Use this guide to follow recommended practices for your server.</p>
+                                                                    </li>
+                                                                </ul>
+                                                                <p>To complete the SAML&#160;configuration for Entra ID&#160;or other&#160;IdPs, confirm the following:</p>
+                                                                <ul>
+                                                                    <li>
+                                                                        <p>You have administrative access to the IdP.</p>
+                                                                    </li>
+                                                                    <li>
+                                                                        <p>You have the required certificates and metadata to configure the identity exchange.</p>
+                                                                    </li>
+                                                                    <li>
+                                                                        <p>You have the required user attributes correctly mapped.</p>
+                                                                    </li>
+                                                                </ul>
+                                                                <div class="TextBox_Note" data-mc-autonum="&lt;b&gt;NOTE: &lt;/b&gt;"><span class="autonumber"><span><b>NOTE: </b></span></span>
+                                                                    <p>When configuring SAML authentication, remember that enabling SSO changes the server's authentication method immediately. Perform this change during a planned maintenance window to minimize user disruption.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Less" data-mc-alt2="More" />2.3 Configure Multi-Factor Authentication</a></span>
+                                                            <div class="MCDropDownBody dropDownBody">
+                                                                <p>Request that Internal Users and <MadCap:conditionalText data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly">vendors</MadCap:conditionalText>  use a second factor authentication to log in to the server with the following guide:</p>
+                                                                <ul>
+                                                                    <li>
+                                                                        <p><a href="nexus-mfa.html">Multi-Factor Authentication in Legacy UI</a>
+                                                                        </p>
+                                                                        <p>Use this guide to configure MFA when SAML&#160;with SSO&#160;is enabled. This regulates access to the server.</p>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Less" data-mc-alt2="More" />2.4 Configure Passwords and Accounts Settings</a></span>
+                                                            <div class="MCDropDownBody dropDownBody">
+                                                                <p>Set password policies and account rules for disablement.</p>
+                                                                <ul>
+                                                                    <li>
+                                                                        <p>In the New UI, navigate to <b>System Administration</b> menu &gt; <b>Authentication Settings</b> sub-menu &gt;&#160;<b>Passwords &amp;&#160;Accounts</b> tab.</p>
+                                                                    </li>
+                                                                    <li>
+                                                                        <p>In the Legacy UI, navigate to <b>System Admin</b> top menu &gt; <b>Settings</b> drop-down &gt;&#160;&#160;<b>Passwords &amp;&#160;Accounts</b>.</p>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Less" data-mc-alt2="More" />2.5 Configure Authentication Requirements</a></span>
+                                                            <div class="MCDropDownBody dropDownBody">
+                                                                <p>Use the following guide to configure access to <MadCap:conditionalText data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly">applications</MadCap:conditionalText> at a server and <MadCap:conditionalText data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly">vendor</MadCap:conditionalText>-level.</p>
+                                                                <ul>
+                                                                    <li>
+                                                                        <p><a href="sys-admin_settings_authentication-settings.html">Authentication Settings in the New UI</a>
+                                                                        </p>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Less" data-mc-alt2="More" />2.6 Create a Locally Authenticated Emergency Account</a></span>
+                                                            <div class="MCDropDownBody dropDownBody">
+                                                                <p>A Locally Authenticated System Admin Emergency Account remains independent of external authentication provider. This type of account enables you to have emergency access to your server in case of lockout or when normal authentication is unavailable; for example:</p>
+                                                                <ul>
+                                                                    <li>
+                                                                        <p>During an Identity Provider outage</p>
+                                                                    </li>
+                                                                    <li>
+                                                                        <p>During a disaster </p>
+                                                                    </li>
+                                                                    <li>
+                                                                        <p>As a result of an authentication configuration issue</p>
+                                                                    </li>
+                                                                </ul>
+                                                                <p>To create a Locally Authenticated System Admin Emergency Account:</p>
+                                                                <ol>
+                                                                    <li value="1">
+                                                                        <p>Navigate to <b>User Management</b> &gt;&#160;<b>Users</b> &gt;&#160;<b>Add New User</b>.</p>
+                                                                    </li>
+                                                                    <li value="2">
+                                                                        <p>Check <b>User is an Administrator with full system access</b>.</p>
+                                                                    </li>
+                                                                    <li value="3">
+                                                                        <p>Complete the form.</p>
+                                                                        <div class="TextBox_Important" data-mc-autonum="&lt;b&gt;IMPORTANT: &lt;/b&gt;"><span class="autonumber"><span><b>IMPORTANT: </b></span></span>
+                                                                            <p>You must have a second email account with an approved domain.</p>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li value="4">
+                                                                        <p>Save the user.</p>
+                                                                        <p>The email receives a message with instructions to create a local password.</p>
+                                                                    </li>
+                                                                    <li value="5">
+                                                                        <p>Safekeep the user ID and password for emergency use.</p>
+                                                                    </li>
+                                                                </ol>
+                                                                <div class="TextBox_Important" data-mc-autonum="&lt;b&gt;IMPORTANT: &lt;/b&gt;"><span class="autonumber"><span><b>IMPORTANT: </b></span></span>
+                                                                    <p>System Administrators are the sole accountable owners of the protection and safekeeping of the Locally Authenticated System Admin Emergency Accounts. System Administrators must store its user ID and password following their own security protocols.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Less" data-mc-alt2="More" />2.7 Configure Authorized Domains</a></span>
+                                                            <div class="MCDropDownBody dropDownBody">
+                                                                <p>Navigate to <b>System Administration</b> menu &gt;&#160;<b>System Settings</b> sub-menu &gt;&#160;<b>Authorized Domains</b> section to review and configure the list of Authorized Domains.</p>
+                                                                <p>Authorized Domains define the email domains that can be used when creating users and become the default domain presented during user creation.</p>
+                                                                <p>Verify the following:</p>
+                                                                <ul>
+                                                                    <li>
+                                                                        <p>Your organization's primary domain is configured.</p>
+                                                                    </li>
+                                                                    <li>
+                                                                        <p>Unused domains are removed, if appropriate.</p>
+                                                                    </li>
+                                                                    <li>
+                                                                        <p>The correct Primary Domain has been selected.</p>
+                                                                    </li>
+                                                                </ul>
+                                                                <div class="TextBox_Note" data-mc-autonum="&lt;b&gt;NOTE: &lt;/b&gt;"><span class="autonumber"><span><b>NOTE: </b></span></span>
+                                                                    <p>The system requires at least one Authorized Domain at all times.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <h2><a name="3"></a>3. Design Your Access Model</h2>
+                                                        <p>In this step, you separate permissions, internal user membership, and organizational ownership into different objects. Designing these objects before onboarding users creates a scalable access model that is easier to manage, audit, and maintain as your deployment grows.</p>
+                                                        <p>In this step, you do not create any users yet. Instead, you create the logical categories where each user fits.</p>
+                                                        <h3>Understanding the Access Model</h3>
+                                                        <p>
+                                                            <MadCap:conditionalText data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly"><span class="mc-variable _IMPc_BasicVariables.VPAMAcronym variable">VPAM</span>
+                                                            </MadCap:conditionalText> uses three primary objects to manage user access:</p>
+                                                        <ul>
+                                                            <li>
+                                                                <p><b>User Groups</b>: Determine what a user can access.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><b>Roles</b>:&#160;Determine what a user can do.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><b>Departments</b>: Determines the team that a user belongs to.</p>
+                                                            </li>
+                                                        </ul>
+                                                        <p>Although these objects work together, each serves a different purpose.</p>
+                                                        <p>To design your Access Model, read the recommendations:</p>
+                                                        <ol>
+                                                            <li value="1">
+                                                                <p><b><a href="../bestpractices/zerotrust-createusergroups.html">Create User Groups</a></b>: Provide granular and specific access to <MadCap:conditionalText data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly">applications</MadCap:conditionalText> and other assets in your server.</p>
+                                                            </li>
+                                                            <li value="2">
+                                                                <p><b><a href="../bestpractices/zerotrust-segmentingroles.html">Define the Roles</a></b>: Define them based on what your team members are required to do. Ensure to limit permissions to follow a zero-trust access model.</p>
+                                                            </li>
+                                                            <li value="3">
+                                                                <p><b><a href="../bestpractices/zerotrust-departmentstructure.html">Build your Departments Structure</a></b>: Base your departments on your company's structure to facilitate visibility and accountability across your organization.</p>
+                                                            </li>
+                                                        </ol>
+                                                        <h2><a name="5c-4v"></a>
+                                                            <MadCap:conditionalText data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly">4.</MadCap:conditionalText> Configure Protected Resources</h2>
+                                                        <p><i>Protected Resources</i> are the systems, applications, services, and credentials that internal users<MadCap:conditionalText data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly"> and vendors</MadCap:conditionalText> access through <MadCap:conditionalText data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly"><span class="mc-variable _IMPc_BasicVariables.VPAMAcronym variable">VPAM</span></MadCap:conditionalText>.</p>
+                                                        <p>Before onboarding internal users or granting third-party access, configure the protected resources that will be managed by the platform. This ensures that access can be assigned and validated during the remaining phases of this guide.</p>
+                                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Less" data-mc-alt2="More" /><MadCap:conditionalText data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly">4.</MadCap:conditionalText>1 Connectivity Components</a></span>
+                                                            <div class="MCDropDownBody dropDownBody">
+                                                                <p>Configure the following assets:</p>
+                                                                <ul>
+                                                                    <li>
+                                                                        <p><a href="installation-gatekeeper.html">Gatekeeper Installation</a>
+                                                                        </p>
+                                                                    </li>
+                                                                    <li data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly">
+                                                                        <p><a href="installation-gateway.html">Gateway Configuration</a>
+                                                                        </p>
+                                                                    </li>
+                                                                    <li data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly">
+                                                                        <p><a href="gateway-applications.html">Applications</a>
+                                                                        </p>
+                                                                    </li>
+                                                                </ul>
+                                                                <p>Verify that the required connectivity components have been deployed, registered, and are communicating with the server before continuing.</p>
+                                                                <div class="TextBox_Tip" data-mc-autonum="&lt;b&gt;TIP: &lt;/b&gt;" data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly"><span class="autonumber"><span><b>TIP: </b></span></span>
+                                                                    <br />Remember the difference between a Gatekeeper and a Gateway:<br />A Gateway functions as a secure entry point for support agents to access remotely to applications that do not require built-in services. <br />On the other hand, a Gatekeeper provides built-in services to support agents that access a single application in your systems.</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Less" data-mc-alt2="More" /><MadCap:conditionalText data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly">4.</MadCap:conditionalText>2 Services</a></span>
+                                                            <div class="MCDropDownBody dropDownBody">
+                                                                <p>Configure the <a href="services.html">Services</a> that define how users connect to each protected resource.</p>
+                                                                <p>Depending on your deployment, services may include remote access protocols, file transfer capabilities, or other connection methods supported by the server. </p>
+                                                                <div class="TextBox_Note" data-mc-autonum="&lt;b&gt;NOTE: &lt;/b&gt;"><span class="autonumber"><span><b>NOTE: </b></span></span>
+                                                                    <p>Only <a href="installation-gatekeeper.html">Gatekeepers</a> provide built-in services such as Desktop Sharing and File Transfer, and you can configure additional services as needed.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Less" data-mc-alt2="More" /><MadCap:conditionalText data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly">4.</MadCap:conditionalText>3 Configure Secrets and Associate Them to Resources</a></span>
+                                                            <div class="MCDropDownBody dropDownBody">
+                                                                <p>Create, store, and assign secrets required to authenticate to your protected resources.</p>
+                                                                <p data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly">To complete this process:</p>
+                                                                <ol data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly">
+                                                                    <li value="1">
+                                                                        <p>Create <a href="sys-admin_settings_vaultnewui.html">Secrets in the New UI</a> or <a href="sys-admin_settings_legacycredentials.html">Credentials in the Legacy UI</a>.</p>
+                                                                        <div class="TextBox_Note" data-mc-autonum="&lt;b&gt;NOTE: &lt;/b&gt;" data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly"><span class="autonumber"><span><b>NOTE: </b></span></span>
+                                                                            <p>The new UI&#160;provides more functionality to secrets than the legacy UI&#160;does to credentials.</p>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li value="2">
+                                                                        <p>Assign them to <a href="services.html#ServiceCreds">Services</a>.</p>
+                                                                    </li>
+                                                                </ol>
+                                                                <p data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly">By assigning credentials to a service, when an Internal User or Customer attempts to initiate a connection to a protected service, the <span class="mc-variable _IMPc_BasicVariables.VPAMAcronym variable">VPAM</span> server can inject the credential without the user or customer ever looking at the credential.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Less" data-mc-alt2="More" /><MadCap:conditionalText data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly">4.</MadCap:conditionalText>4 Test the Connections</a></span>
+                                                            <div class="MCDropDownBody dropDownBody">
+                                                                <p>Ensure that you have access to the <MadCap:conditionalText data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly">applications</MadCap:conditionalText> and that each one is communicating successfully with the server. Look for the following signs of success:</p>
+                                                                <ul>
+                                                                    <li>
+                                                                        <p>The target system's Gatekeepers on <code>http://localhost:4680/</code> display green <b>Registered</b> status.</p>
+                                                                    </li>
+                                                                    <li>
+                                                                        <p>The <MadCap:conditionalText data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly">Applications</MadCap:conditionalText> list contain all your configured resources and they have a <b>Ready</b> status.</p>
+                                                                    </li>
+                                                                    <li>
+                                                                        <p>You, as a System Administrator, can connect to <MadCap:conditionalText data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly">an application</MadCap:conditionalText> after downloading and installing the <a href="connection-manager.html">Connection Manager</a>.</p>
+                                                                    </li>
+                                                                    <li>
+                                                                        <p>You can select a secret to <b>Launch</b> a protected service.</p>
+                                                                    </li>
+                                                                    <li>
+                                                                        <p>You can disconnect from a session and end the connection without issues.</p>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <h2 data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly"><a name="5v"></a>5. Configure Vendor Access</h2>
+                                                        <p data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly">In this step, you configure the organizational objects required to provide secure vendor access to protected resources. It is recommended that you already have Applications before you configure your vendors.</p>
+                                                        <p data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly">To complete this step:</p>
+                                                        <ol data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly">
+                                                            <li value="1">
+                                                                <p data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly">Create a <a href="../vpam/vendor-management.html#Add">Vendor</a>.</p>
+                                                            </li>
+                                                            <li value="2">
+                                                                <p data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly">Select the Applications that its Vendor Reps have access to.</p>
+                                                                <p data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly">Ensure you configure:</p>
+                                                                <ul data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly">
+                                                                    <li>
+                                                                        <p data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly"><a href="../vpam/vendor-management.html#ApprovalApp" style="font-weight: bold;">Approvals per Application</a><b> and </b><a href="../vpam/sys-admin_settings_approval-approvprofile.html" style="font-weight: bold;">Approval Profiles</a>: Enforce internal users and vendor reps to request access before connecting to an application.</p>
+                                                                    </li>
+                                                                    <li>
+                                                                        <p data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly"><b><a href="../vpam/vendor-management.html#Authoriz">Authorized Domains</a></b>:&#160;Prevent people from outside your vendor's network to sign in to your server.</p>
+                                                                    </li>
+                                                                    <li>
+                                                                        <p data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly"><b>Authentication Requirements</b>:&#160;Configure at <a href="sys-admin_settings_authentication-settings.html#Authenti">server-level</a> to create a global policy and configure at <a href="../vpam/vendor-management.html#AuthReq">vendor-level</a> to override global policy.</p>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li value="3">
+                                                                <p data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly">Test the connection.</p>
+                                                            </li>
+                                                        </ol>
+                                                        <p data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly">Repeat the process with all your vendors.</p>
+                                                        <p data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly">Read <a href="nexus-mfa.html">Multi-Factor Authentication (MFA)&#160;Validation for Nexus Connections</a></p>
+                                                        <h2><a name="6"></a>6. Create a Test Internal User and Validate Your Deployment</h2>
+                                                        <p>In this step, you create and configure a test internal user to validate your deployment. A test user allows you to confirm that authentication, authorization, protected resources, and permissions work together as expected. Identifying configuration issues now helps prevent onboarding problems later.</p>
+                                                        <div class="TextBox_Tip" data-mc-autonum="&lt;b&gt;TIP: &lt;/b&gt;"><span class="autonumber"><span><b>TIP: </b></span></span>
+                                                            <p>Use a non-production account for this validation.</p>
+                                                        </div>
+                                                        <p>Follow the steps to <a href="sys-admin_internal-user.html#Add">Add a New Internal User</a>.</p>
+                                                        <p>Implement each Authentication Strategy and Access Model for this user.</p>
+                                                        <p>Validate what the user can do, <i>depending on its role</i>. In a successful deployment, internal users can:</p>
+                                                        <ul>
+                                                            <li>
+                                                                <p>View, create, edit, and delete <MadCap:conditionalText data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly">Applications</MadCap:conditionalText>.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>View, create, edit, and delete <MadCap:conditionalText data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly">Vendors</MadCap:conditionalText>.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Initiate connections with the <a href="connection-manager.html">Connection Manager</a>.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Use secrets to launch privileged sessions.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Manage secrets in the server.</p>
+                                                            </li>
+                                                            <li data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly">
+                                                                <p>Approve or reject connection requests.</p>
+                                                            </li>
+                                                        </ul>
+                                                        <div class="TextBox_Important" data-mc-autonum="&lt;b&gt;IMPORTANT: &lt;/b&gt;"><span class="autonumber"><span><b>IMPORTANT: </b></span></span>
+                                                            <p>Ensure that, depending on the User Group and Department, the user can only interact with resources assigned to that User Group and Department.</p>
+                                                        </div>
+                                                        <div class="TextBox_Note" data-mc-autonum="&lt;b&gt;NOTE: &lt;/b&gt;"><span class="autonumber"><span><b>NOTE: </b></span></span>
+                                                            <p>This process takes a considerable amount of time, but it enables you to test and confirm your deployment is ready for production. Be patient!</p>
+                                                        </div>
+                                                        <h1>Next Steps</h1>
+                                                        <h3>Congratulations!</h3>
+                                                        <p>You have successfully completed the initial <MadCap:conditionalText data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly"><span class="mc-variable _IMPc_BasicVariables.VPAMAcronym variable">VPAM</span></MadCap:conditionalText> configuration.</p>
+                                                        <p>Your deployment now includes:</p>
+                                                        <ul>
+                                                            <li>
+                                                                <p>A secured authentication configuration.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>A defined access model.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Configured protected resources.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Configured organizational objects.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>A validated test user.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>A successful privileged session.</p>
+                                                            </li>
+                                                        </ul>
+                                                        <p>Your <MadCap:conditionalText data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly"><span class="mc-variable _IMPc_BasicVariables.VPAMAcronym variable">VPAM</span></MadCap:conditionalText> environment is now ready to support production onboarding. With the initial deployment complete, you can begin expanding your PAS environment by:</p>
+                                                        <ul>
+                                                            <li>
+                                                                <p>Onboarding production internal users.</p>
+                                                            </li>
+                                                            <li data-mc-conditions="_IMP_conditions.SecureLinkVPAMOnly">
+                                                                <p>Onboarding Vendor Representatives.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Expanding protected resources.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Configuring approval workflows.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Integrating with enterprise services such as SIEM, Identity Providers, and ticketing systems.</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div><a class="backtotopbutton" href="#content-container" title="Back to top" alt="Back to top"> Back to top</a>
+                                            </div>
+                                            <div>
+                                                <form class="search" action="#">
+                                                    <div class="search-bar search-bar-container needs-pie _Skins__IMP_TopNav_TopicsSearchBar mc-component">
+                                                        <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Search" />
+                                                        <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                            <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="All Files" role="button" tabindex="0">
+                                                            </div>
+                                                            <div class="search-filter-content" id="sf-content">
+                                                                <ul>
+                                                                    <li>
+                                                                        <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">All Files</span>
+                                                                        </button>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="search-submit-wrapper" dir="ltr">
+                                                            <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                                <div class="buttons popup-container clearfix topicToolbarProxy _Skins__IMP_TopNav_TopicToolBar mc-component nocontent" style="mc-topic-toolbar-items: ;">
+                                                    <div class="button-group-container-left">
+                                                        <button class="button needs-pie print-button" title="Print">
+                                                            <div>
+                                                                <div role="img" class="button-icon-wrapper" aria-label="Print">
+                                                                    <div class="button-icon"> </div>
+                                                                </div>
+                                                            </div>
+                                                        </button>
+                                                        <button class="button needs-pie expand-all-button" data-state1-class="expand-all-button" data-state2-class="collapse-all-button" data-state2-title="Collapse all" title="Expand all" data-state1-title="Expand all">
+                                                            <div>
+                                                                <div role="img" class="button-icon-wrapper" aria-label="Expand all">
+                                                                    <div class="button-icon"> </div>
+                                                                </div>
+                                                            </div>
+                                                        </button>
+                                                        <button class="button needs-pie remove-highlight-button" title="Remove Highlights">
+                                                            <div>
+                                                                <div role="img" class="button-icon-wrapper" aria-label="Remove Highlights">
+                                                                    <div class="button-icon"> </div>
+                                                                </div>
+                                                            </div>
+                                                        </button>
+                                                        <button class="button needs-pie select-language-button" title="Change language">
+                                                            <div>
+                                                                <div role="img" class="button-icon-wrapper" aria-label="Change language">
+                                                                    <div class="button-icon"> </div>
+                                                                </div>
+                                                            </div>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <ul class="nocontent menu _Skins__IMP_TopNav_SideMenu mc-component" data-mc-is-context-sensitive="True" data-mc-linked-toc="Data/Tocs/TopNav_PAS.js" data-mc-side-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                                </ul>
+                                                <p>
+                                                    <p class="feedback-question">Was this topic helpful?</p>
+                                                    <p class="feedback-response" id="feedbackHelpful">&#160;<a class="feedback" title="Yes, this topic was helpful." alt="Yes, this topic was helpful." id="helpful_Yes">Yes</a>&#160;<a class="feedback" title="No, this topic wasn't helpful." alt="No, this topic wasn't helpful." id="helpful_No">No </a>&#160;<a class="feedback" title="Could not find the information" alt="Could not find the information." id="helpful_CouldNotFind">Could not find</a></p>
+                                                    <p class="feedback-question">Accurate?</p>
+                                                    <p class="feedback-response" id="feedbackAccurate">&#160;<a class="feedback" title="Yes, this topic was accurate." alt="Yes, this topic was accurate." id="accurate_Yes">Yes</a>&#160;<a class="feedback" title="No, this topic wasn't accurate." alt="No, this topic wasn't accurate." id="accurate_No">No </a></p>
+                                                    <p class="feedback-question">Relevant?</p>
+                                                    <p class="feedback-response" id="feedbackRelevant">&#160;<a class="feedback" title="Yes, this topic was relevant." alt="Yes, this topic was relevant." id="relevant_Yes">Yes</a>&#160;<a class="feedback" title="No, this topic wasn't relevant." alt="No, this topic wasn't relevant." id="relevant_No">No </a></p>
+                                                    <p class="feedback-question">Share your feedback</p>
+                                                    <p class="feedback-response"><a class="feedback" id="feedback_Email" title="docteam@imprivata.com" alt="email docteam@imprivata.com" onclick="document.location.href=&quot;mailto:docteam@imprivata.com?subject=Documentation Feedback for Imprivata Help&amp;body=What were you trying to do?%0A%0AComments:%0A%0A%0AThank you for sharing your feedback with our team. It may take some time to investigate and update the documentation. We may not respond directly to your request. %0A%0A----%0ANOTE: This mailbox is for documentation feedback only and is not monitored for Support issues or general product information. To open a support ticket, contact the Imprivata support team directly.%0AHelp Topic Path: &quot;+location.href+&quot;%0ATopic Name: &quot;+document.title+&quot;&quot;;">Email Feedback</a>
+                                                    </p>
+                                                    <p class="feedback-question">Looking for something else?</p>
+                                                    <p><a href="https://docs.imprivata.com" id="feedback_HelpURL"><span class="mc-variable _IMPc_BasicVariables.CompanyNameSHORT variable">Imprivata</span> documentation</a>
+                                                    </p>
+                                                    <p><a href="https://docs.imprivata.com/upgrade" id="feedback_UpgradeURL"><span class="mc-variable _IMPc_BasicVariables.CompanyNameSHORT variable">Imprivata</span> upgrades</a>
+                                                    </p>
+                                                    <p><a href="https://docs.imprivata.com/supported" id="feedback_EnvRefURL"><span class="mc-variable _IMPc_BasicVariables.CompanyNameSHORT variable">Imprivata</span> environment reference</a>
+                                                    </p>
+                                                </p>
+                                            </div>
+                                            <p>&#160;</p>
+                                        </div>
+                                    </div>
+                                    <div class="footer">
+                                        <div class="row collapse">
+                                            <div class="footerBar">
+                                                <div class="small-12 medium-3 columns">
+                                                    <div class="footer-links">
+                                                        <p />
+                                                    </div>
+                                                </div>
+                                                <div class="small-12 medium-6 columns">
+                                                    <div class="footer-links center">
+                                                        <p><a href="http://www.imprivata.com/contact-us" target="_blank">Contact Us </a> | <a href="https://www.imprivata.com/company/newsroom/press-releases" target="_blank"> Press </a>  |  <a href="https://www.imprivata.com/customer-success/education">Education</a>  |  <a href="https://www.imprivata.com/customer-success/support-services">Support Services</a>  |  <a href="https://www.imprivata.com/privacy-policy" target="_blank">Privacy policy </a></p>
+                                                        <p><a href="../../resources/snippets/_imp_legal.html"><span class="mc-variable _IMPc_BasicVariables.CopyrightStatement variable">© 2026 Imprivata, Inc. All Rights Reserved.</span></a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="small-12 medium-3 columns">
+                                                    <div class="footer-links">
+                                                        <p><a href="https://www.facebook.com/Imprivata-Life-102943258265318" target="_blank"><img src="../../resources/images/_imp_icons/_imp_facebook_36.png" alt="Facebook icon" style="vertical-align: top;" /> </a><a href="https://twitter.com/Imprivata" target="_blank"><img src="../../resources/images/_imp_icons/_imp_twitter_36.png" alt="Twitter icon" /> </a><a href="http://www.linkedin.com/company/imprivata" target="_blank"><img src="../../resources/images/_imp_icons/_imp_linkedin_36.png" alt="LinkedIn icon" /></a><a href="http://www.youtube.com/user/ImprivataHealthcare" target="_blank"> <img src="../../resources/images/_imp_icons/_imp_youtube_36.png" alt="youtube icon" /></a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

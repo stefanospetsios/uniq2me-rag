@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T23:12:41Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "F-source-1",
+    "type": "technical-doc",
+    "title": "Implementation guide for managers of Artificial intelligence systems",
+    "publisher": "Innovation, Science and Economic Development Canada",
+    "url": "https://ised-isde.canada.ca/site/ised/en/implementation-guide-managers-artificial-intelligence-systems",
+    "language": "en",
+    "jurisdiction": "Canada",
+    "applicability": "Managers of operational AI systems including public-facing and non-public-facing deployments, with concrete best practices for safety risk assessments, human oversight protocols, transparency measures, accountability frameworks, and monitoring of harmful outcomes in live environments",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "Best practices for human oversight & monitoring/list item",
+        "text": "Establish ongoing monitoring and evaluation procedures for deployed AI systems."
+      },
+      {
+        "id": "p2",
+        "locator": "Best practices for transparency/Steps",
+        "text": "Provide free and accessible information to users about the nature and capabilities of AI systems, including information on how they are developed, operated and maintained."
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:d9a1fefe93e6f2c3585b34343497b8d0b79a6bd15d0a1082c42511c53f96be79",
+    "textDigest": "sha256:8f102152254cee502b2620d2e10312297bf9e957cca52dfb1b35b004aa0e56fc",
+    "finalUrl": "https://ised-isde.canada.ca/site/ised/en/implementation-guide-managers-artificial-intelligence-systems",
+    "retrievedAt": "2026-10-23T23:12:41Z",
+    "contentType": "text/html; charset=UTF-8",
+    "snapshotPath": "source-d9a1fefe93e6f2c3585b34343497b8d0b79a6bd15d0a1082c42511c53f96be79.bin",
+    "textPath": "source-8f102152254cee502b2620d2e10312297bf9e957cca52dfb1b35b004aa0e56fc.txt"
+  },
+  "files": {
+    "snapshots/source-d9a1fefe93e6f2c3585b34343497b8d0b79a6bd15d0a1082c42511c53f96be79.bin": "sha256:d9a1fefe93e6f2c3585b34343497b8d0b79a6bd15d0a1082c42511c53f96be79",
+    "snapshots/source-8f102152254cee502b2620d2e10312297bf9e957cca52dfb1b35b004aa0e56fc.txt": "sha256:8f102152254cee502b2620d2e10312297bf9e957cca52dfb1b35b004aa0e56fc"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://ised-isde.canada.ca/site/ised/en/implementation-guide-managers-artificial-intelligence-systems",
+  "language": "en",
+  "retrievedAt": "2026-10-23T23:12:41Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T23:14:08Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n\n\n\n\n\n\n\n\n  \n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \nImplementation guide for managers of Artificial intelligence systems\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n\n\n\n\n\n\n\n\n\n    \n\n  \n\n  \n\n    \n\n      \n\n        \n\n          \n\n            Skip to main content\n          \n\n        \n\n\n\n        \n\n          \n\n            Skip to \"About this site\"\n          \n\n        \n\n\n\n      \n\n    \n\n    \n\n\n\n      \n\n    \n  \n        \n\n      \n\n        \n\n          \n\n            \nLanguage selection\n\n\n\n              \n\n    \n\n  \n      \nWxT Language switcher\n\n\n\n    \n\n      \n                    \nFrançais\nfr\n\n\n\n  \n\n\n  \n\n\n\n\n          \n\n        \n            \n\n      \n\n    \n\n      \n\n      \n /\n        \nGouvernement du Canada\n\n      \n\n    \n\n    \n\n    \n\n    \n\n  \n\n\n\n\n  \n\n\n\n\n            \n\n    \n\n  \n      \nWxT Search for",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "F"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "Innovation, Science and Economic Development Canada",
+    "host": "ised-isde.canada.ca"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "59b58e6ee6ca47985b6283babae2d8910a9353768959db6f15c1a3d96cd96dfd",
+  "cachedAt": "2026-10-23T21:52:36Z",
+  "originRunId": "qwen3-40019296746",
+  "sourceUrl": "https://docs.aws.amazon.com/vpn/latest/s2svpn/VPC_VPN.html",
+  "finalUrl": "https://docs.aws.amazon.com/vpn/latest/s2svpn/VPC_VPN.html",
+  "language": "en",
+  "publisher": "Amazon Web Services (AWS)",
+  "title": "AWS Site-to-Site VPN - AWS Documentation",
+  "retrievedAt": "2026-10-23T21:37:36Z",
+  "byteDigest": "sha256:ae91ce815e487283055a07fce7b6f690088c50ac178b7d82cc811e7618247f4b",
+  "textDigest": "sha256:700679e760c60e453b6965fc929ac33bafcbce77b9d38ba564882011a37905fa",
+  "sourceId": "5-source-3",
+  "passageId": "p2",
+  "locator": "Site-to-Site VPN features",
+  "quotation": "Each VPN connection includes two VPN tunnels which you can simultaneously use for high availability.",
+  "originalText": "from the customer network to or from AWS.\n\n\n\n                \nEach VPN connection includes two VPN tunnels which you can simultaneously use\n                    for high availability.\n\n\n\n            \n\n\n\n                \nCustomer gateway\n: An AWS resource which\n                    provides information to AWS about your customer gateway device. \n\n\n\n            \n\n\n\n                \nCustomer gateway device\n: A physical device or\n                    software",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T21:52:36Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Amazon Web Services (AWS)",
+    "host": "docs.aws.amazon.com"
+  }
+}

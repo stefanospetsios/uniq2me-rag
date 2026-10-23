@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T21:00:36Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "1-source-3",
+    "type": "technical-doc",
+    "title": "Configure the Okta Privileged Access gateway",
+    "publisher": "Okta",
+    "url": "https://help.okta.com/en-us/Content/Topics/privileged-access/gateways/pam-gateway-configure.htm",
+    "language": "en",
+    "jurisdiction": "United States",
+    "applicability": "Okta Privileged Access gateway configuration including connection settings, RDP management, and session recording",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:a745274ee33eb0feb1611a9b5f93e0c6c22b8b325d90136fde56604b35d89e48",
+    "textDigest": "sha256:b8411ac031b38f11ff73a8626c31f588159220ca726b0d236f01e5cc2cca61c3",
+    "finalUrl": "https://help.okta.com/en-us/Content/Topics/privileged-access/gateways/pam-gateway-configure.htm",
+    "retrievedAt": "2026-10-23T21:00:36Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-a745274ee33eb0feb1611a9b5f93e0c6c22b8b325d90136fde56604b35d89e48.bin",
+    "textPath": "source-b8411ac031b38f11ff73a8626c31f588159220ca726b0d236f01e5cc2cca61c3.txt"
+  },
+  "files": {
+    "snapshots/source-a745274ee33eb0feb1611a9b5f93e0c6c22b8b325d90136fde56604b35d89e48.bin": "sha256:a745274ee33eb0feb1611a9b5f93e0c6c22b8b325d90136fde56604b35d89e48",
+    "snapshots/source-b8411ac031b38f11ff73a8626c31f588159220ca726b0d236f01e5cc2cca61c3.txt": "sha256:b8411ac031b38f11ff73a8626c31f588159220ca726b0d236f01e5cc2cca61c3"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://help.okta.com/en-us/Content/Topics/privileged-access/gateways/pam-gateway-configure.htm",
+  "language": "en",
+  "retrievedAt": "2026-10-23T21:00:36Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T21:00:36Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n\nConfigure the Okta Privileged Access gateway\n\n  \n\n  \n\n\nSkip to main content\nSkip to docs navigation\n\n\n\n\n\n  \n\n  \n\n    \n\n      \n\n        \n\n          \n\n        \n\n      \n\n\n\n      \n\n        \n \n \n \n \n \n \n \n \n \n\n           \nDocs\n\n        \n\n\n      \n\n    \n\n\n\n    \n\n      \n\n        \n\n          \n\n              \n\n              \n\n              \n\n          \n\n        \n\n      \n\n\n\n      \n\n        \n\n            \n\n        \n\n        \n\n          \n\n            \n\n              \nEnglish (United States)\n\n            \n\n          \n\n\n\n          \n\n            \n\n              \n日本語 (日本)\n\n            \n\n          \n\n\n\n          \n\n            \n\n              \nFrançais (France)\n\n            \n\n          \n\n\n\n        \n\n      \n\n\n\n      \n\n        \n\n      \n\n\n\n      \n\n          \n\n      \n\n    \n\n\n\n    \n\n      \n\n        \n\n        \n\n ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Okta",
+    "host": "help.okta.com"
+  }
+}

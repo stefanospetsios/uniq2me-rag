@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "874c9414d3fe33959b4f07e613d19bdff47b825c04f56588ceb843fd6136da59",
+  "cachedAt": "2026-10-23T21:00:34Z",
+  "observedAt": "2026-10-23T21:00:34Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-1-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "1",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "privileged access management official implementation configuration documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792789184182,
+    "end": 1792789185087
+  },
+  "outputDigest": "sha256:378ac5d79de676369763d35e62c5c5e821d283d6f71a1453005856f231afa717",
+  "resultUrls": [
+    "http://localhost:4680/%60",
+    "https://docs.imprivata.com/vpam/content/topics/pas/admin_gettingstarted.html",
+    "https://docs.keeper.io/keeperpam/privileged-access-manager/getting-started/pam-configuration",
+    "https://docs.sectona.com/pam-technical-documentation/6.0",
+    "https://help.okta.com/en-us/Content/Topics/privileged-access/gateways/pam-gateway-configure.htm",
+    "https://learn.microsoft.com/en-us/entra/architecture/governance-deployment-privileged-identities",
+    "https://learn.microsoft.com/en-us/microsoft-identity-manager/pam/configuring-mim-environment-for-pam",
+    "https://learn.microsoft.com/en-us/microsoft-identity-manager/pam/deploy-pam-with-windows-server-2016"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Configure the MIM environment for Privileged Access Management\",\n      \"url\": \"https://learn.microsoft.com/en-us/microsoft-identity-manager/pam/configuring-mim-environment-for-pam\",\n      \"content\": \"Configure MIM 2016 for Privileged Access Management | Microsoft Learn\\n\\nTable of contents Exit focus mode\\n\\n# Configure the MIM environment for Privileged Access Management\\n\\n- 7 contributors\\n- 02/09/2024\\n- Article\\n\\nFeedback\\n\\n--\\n\\nNote\\n\\nThe PAM approach provided by MIM PAM is not recommended for new deployments in Internet-connected environments. MIM PAM is intended to be used in a custom architecture for isolated AD environments where Internet access is not available, where this configuration is required by regulation, or in high impact isolated environments like offline research laboratories and disconnected operational technology or supervisory control and data acquisition environments. MIM PAM is distinct from Microsoft Entra Privileged Identity Management(PIM). Microsoft Entra PIM is a service that enables you to manage, control, and monitor access to resources in Microsoft Entra ID, Azure, and other Microsoft Online Services such as Microsoft 365 or Microsoft Intune. For guidance on on-premises Internet-connected environments and hybrid environments, see securing privileged access for more information.\\n\\nThere are seven steps to complete when setting up the environment for cross-forest access, installing and configuring Active Directory and Microsoft Identity Manager, and demonstrating a just-in-time access request.\\n\\nThese steps are laid out so that you can start from scratch and build a test environment. If you're applying PAM to an existing environment, you can use your own domain controllers or user accounts for the CONTOSO domain, instead of creating new ones to match the examples.\\n\\nIf you do not have an existing domain you wish to have as the domain to manage, prepare CORPDC server as a domain controller",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "docs.imprivata.com",
+      "docs.keeper.io",
+      "docs.sectona.com",
+      "help.okta.com",
+      "learn.microsoft.com",
+      "localhost"
+    ]
+  }
+}

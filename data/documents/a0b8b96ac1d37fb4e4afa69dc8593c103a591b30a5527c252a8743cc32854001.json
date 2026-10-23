@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T21:43:24Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "5-source-4",
+    "type": "technical-doc",
+    "title": "Red Hat Enterprise Linux 10: Setting up an IPsec VPN",
+    "publisher": "Red Hat, Inc.",
+    "url": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10/html/securing_networks/setting-up-an-ipsec-vpn",
+    "language": "en",
+    "jurisdiction": "Global",
+    "applicability": "Implementation guide for IPsec VPNs on enterprise Linux systems using Libreswan. Covers security parameter configuration, network traffic selectors, and encryption settings relevant to VPN implementation requirements.",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "Section 6.2",
+        "text": "This method uses X.509 certificates from a trusted Certificate Authority (CA). Each peer proves its identity with its certificate and private key. The other peer verifies the certificate against the trusted CA."
+      },
+      {
+        "id": "p2",
+        "locator": "Section 6.5.1",
+        "text": "the gateway verifies that client certificates are issued by the same trusted CA and automatically uses a certificate revocation list (CRL) to ensure access is denied for any revoked certificates."
+      },
+      {
+        "id": "p3",
+        "locator": "Section 6.11 reference",
+        "text": "If you use this host in a network with DHCP or Stateless Address Autoconfiguration (SLAAC), the connection can be vulnerable to being redirected."
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:7edbf215561efad8c0b623797e8319122d9b0f60b92a7149dbc1a7307d83fbf0",
+    "textDigest": "sha256:3f5094f9c81362f0cc7a3d113df46990fe8c8c20e5adae6febcd6cb507e43479",
+    "finalUrl": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10/html/securing_networks/setting-up-an-ipsec-vpn",
+    "retrievedAt": "2026-10-23T21:43:24Z",
+    "contentType": "text/html;charset=utf-8",
+    "snapshotPath": "source-7edbf215561efad8c0b623797e8319122d9b0f60b92a7149dbc1a7307d83fbf0.bin",
+    "textPath": "source-3f5094f9c81362f0cc7a3d113df46990fe8c8c20e5adae6febcd6cb507e43479.txt"
+  },
+  "files": {
+    "snapshots/source-7edbf215561efad8c0b623797e8319122d9b0f60b92a7149dbc1a7307d83fbf0.bin": "sha256:7edbf215561efad8c0b623797e8319122d9b0f60b92a7149dbc1a7307d83fbf0",
+    "snapshots/source-3f5094f9c81362f0cc7a3d113df46990fe8c8c20e5adae6febcd6cb507e43479.txt": "sha256:3f5094f9c81362f0cc7a3d113df46990fe8c8c20e5adae6febcd6cb507e43479"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10/html/securing_networks/setting-up-an-ipsec-vpn",
+  "language": "en",
+  "retrievedAt": "2026-10-23T21:43:24Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T21:52:36Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n      \n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChapter 6. Setting up an IPsec VPN | Securing networks | Red Hat Enterprise Linux | 10 | Red Hat Documentation\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSkip to navigation\nSkip to content\nFeatured links\n\n\nSupport\n\n\nConsole\n\n\nDevelopers\n\n\nStart a trial\n\n\nAll Red Hat\nFor customers\nCustomer support\n\n\nSubscription management\n\n\nSupport Cases\n\n\nRed Hat Ecosystem Catalog\n\n\nFind a partner\n\n\n\n\nFor partners\nPartner portal\n\n\nPartner support\n\n\nBecome a partner\n\n\n\n\nTry, buy, & sell\nRed Hat Store\n\n\nContact Sales\n\n\nStart a trial\n\n\n\n\nLearning resources\nTraining and certification\n\n\nHybrid cloud learning hub\n\n\nInteractive labs\n\n",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "Red Hat, Inc.",
+    "host": "docs.redhat.com"
+  }
+}

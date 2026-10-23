@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "2dd9da60bc7c42e49d69eb2d170c41a68885603bdd086a8a0a5c0b08e55a8867",
+  "cachedAt": "2026-10-23T23:15:47Z",
+  "observedAt": "2026-10-23T23:15:47Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-legal-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "legal",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "site:eur-lex.europa.eu Directive 2022/2555 full text OR Consolidated version",
+    "time_range": ""
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792797262983,
+    "end": 1792797265263
+  },
+  "outputDigest": "sha256:d5baa30b27a831d9e5f542d8e42005dfec6260784e31ac7c0a789f861ad18dc7",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng",
+    "https://eur-lex.europa.eu/eli/dir/2022/2555/oj?locale=el",
+    "https://eur-lex.europa.eu/eli/reg/2009/1223/2022-12-17/eng",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022L2555",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02022L2555-20221227",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:C:2016:202:FULL",
+    "https://home.treasury.gov/policy-issues/financial-sanctions/specially-designated-nationals-and-blocked-persons-list-sdn-human-readable-lists",
+    "https://media.cadc.uscourts.gov/opinions/"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"site:eur-lex.europa.eu Directive 2022/2555 full text OR Consolidated version\",\n  \"results\": [\n    {\n      \"title\": \"Directive - 2022/2555 - EN - EUR-Lex - European Union\",\n      \"url\": \"https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng\",\n      \"content\": \"27 Δεκ 2022 ... All consolidated versions. Hide consolidated versions. 27/12/2022 ... Directive) (Text with EEA relevance). Directive (EU) 2022/2555 of ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"EUR-Lex — Access to European Union law — choose your language\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:C:2016:202:FULL\",\n      \"content\": \"\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Directive - 2022/2555 - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022L2555\",\n      \"content\": \"JavaScript is disabled. In order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload the page.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"EUR-Lex - 02009R1223-20221217 - EN - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/eli/reg/2009/1223/2022-12-17/eng\",\n      \"content\": \"7. For the purposes of paragraphs 4 and 5 of this Article, the information exchange system provided for in Article 12(1) of Directive 2001/95/EC of the European Parliament and of the Council of 3 December 2001 on general product safety (4) shall be used.\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Consolidated TEXT: 32022L2555 — EN — 27.12.2022 - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02022L2555-20221227\",\n      \"content\": \"27 Δεκ 2022 ... DIRECTIVE (EU) 2022/2555 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL ... only where that exchange is necessary for the application of ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n  ",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "legal"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "eur-lex.europa.eu",
+      "home.treasury.gov",
+      "media.cadc.uscourts.gov"
+    ]
+  }
+}

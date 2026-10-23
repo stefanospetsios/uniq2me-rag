@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T22:27:22Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "A-source-3",
+    "type": "guidance",
+    "title": "Guidelines for Cryptography",
+    "publisher": "Australian Cyber Security Centre (ACSC)",
+    "url": "https://www.cyber.gov.au/ism/2026-09/guidelines-for-cryptography",
+    "language": "en",
+    "jurisdiction": "Australia",
+    "applicability": "General cryptographic implementation practices, key lifecycle management, and equipment assessment",
+    "publicationDate": "2026-09-07",
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:bf7a915a6c8a67d1afb92364bea4122dbce4a58c101216f73d38f3dc93c6a14b",
+    "textDigest": "sha256:4eddb9ef476e482e9adce3826b3eae761f198771e0bfb65f2cad6c2ca584722d",
+    "finalUrl": "https://www.cyber.gov.au/ism/2026-09/guidelines-for-cryptography",
+    "retrievedAt": "2026-10-23T22:27:22Z",
+    "contentType": "text/html; charset=UTF-8",
+    "snapshotPath": "source-bf7a915a6c8a67d1afb92364bea4122dbce4a58c101216f73d38f3dc93c6a14b.bin",
+    "textPath": "source-4eddb9ef476e482e9adce3826b3eae761f198771e0bfb65f2cad6c2ca584722d.txt"
+  },
+  "files": {
+    "snapshots/source-bf7a915a6c8a67d1afb92364bea4122dbce4a58c101216f73d38f3dc93c6a14b.bin": "sha256:bf7a915a6c8a67d1afb92364bea4122dbce4a58c101216f73d38f3dc93c6a14b",
+    "snapshots/source-4eddb9ef476e482e9adce3826b3eae761f198771e0bfb65f2cad6c2ca584722d.txt": "sha256:4eddb9ef476e482e9adce3826b3eae761f198771e0bfb65f2cad6c2ca584722d"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.cyber.gov.au/ism/2026-09/guidelines-for-cryptography",
+  "language": "en",
+  "retrievedAt": "2026-10-23T22:27:22Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T22:27:22Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n\n\n\n\n\n  \n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \nGuidelines for cryptography | CGA\n\n    \n\n\n\n\n\n\n\n\n    \n\n\n\n\n\n\n\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n\n  \n\n  \n\n                \n\n\n\n  \n\n    \n\n  \n\n  \n\n    \n\n  \n\n  \n\n    \n\n    \n\n    \n\n    \n\n    \n\n  \n\n  \n\n    \n\n  \n\n  \n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n  \n\n    \n\n  \n\n  \n\n    \n\n\n\n\n\n\n\n\n\n\n\n  \n\n  \n\n    \n\n  \n\n  \n\n    \n\n    Msn Messenger Logo Streamline Icon: https://streamlinehq.com\n  \n\n  \n\n  \n\n  \n\n    \n\n  \n\n  \n\n  \n\n  \n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n  \n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n  \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n  \n\n  \n\n    \n\n  \n\n  \n\n    \n\n  \n\n  \n\n    \n\n  \n\n  \n\n    \n\n        \n\n        \n\n        \n\n        \n\n        \n\n    \n\n  \n\n  \n\n    \n\n  \n\n",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "A"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Australian Cyber Security Centre (ACSC)",
+    "host": "www.cyber.gov.au"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "54034cf38cded3e7cc4a729fa9dbba9f1ff8eb4371a309e3af376b673759de53",
+  "cachedAt": "2026-10-23T22:11:59Z",
+  "observedAt": "2026-10-23T22:11:59Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-8-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "8",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "Secure Development Lifecycle and Risk Management official implementation configuration documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792793460211,
+    "end": 1792793461265
+  },
+  "outputDigest": "sha256:769c08c48e038e4c90a1a13e67e4c8701b8814c161c0cbfa851fb73edf4ad8a7",
+  "resultUrls": [
+    "https://pages.nist.gov/nccoe-devsecops/",
+    "https://pages.nist.gov/nccoe-devsecops/example-implementations.html",
+    "https://www.microsoft.com/en-us/securityengineering/sdl/howto",
+    "https://www.nccoe.nist.gov/projects/secure-software-development-security-and-operations-devsecops-practices"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Secure Software Development, Security, and Operations (DevSecOps) Practices — Secure Software Development, Security, and Operations (DevSecOps) Practices  documentation\",\n      \"url\": \"https://pages.nist.gov/nccoe-devsecops/\",\n      \"content\": \"Secure Software Development, Security, and Operations (DevSecOps) Practices — Secure Software Development, Security, and Operations (DevSecOps) Practices documentation\\n\\n# Secure Software Development, Security, and Operations (DevSecOps) Practices\\n\\nSeptember 2026\\n\\nThis publication is available free of charge from https://www.nccoe.nist.gov/projects/secure-software-development-security-and-operations-devsecops-practices\\n\\nAlper Kerman Michael Ogata National Institute of Standards and Technology\\n\\nDrew Buttner Parisa Grayeli Joshua Klosterman Phillip Millwee Deanna Stanley Allen Tan The MITRE Corporation\\n\\nWilliam Barker Dakota Consulting\\n\\nSudan Ayanam Stefano Righi AMI\\n\\nChrissa Constantine Tim Mackey Black Duck\\n\\nJames Imanian CyberArk\\n\\nDaniel Carroll Daniel Jackson Dell Technologies\\n\\nDean Coclin Dave Roche DigiCert\\n\\nMatt Brown Tom Gleason Endor Labs\\n\\nMaryGrace Wajda GitLab\\n\\nIsaac Hepworth Brandon Lum Google\\n\\nPhilippe Mulet Harmeet Singh IBM\\n\\nTal De La Rosa Segu Riluvan Mark Svancarek Microsoft\\n\\nKeng Lim Sameer Shukla NextLabs\\n\\nChima Onukwuru Neil Roxburgh Palo Alto Networks\\n\\nGuy Chernobrov Daniel Nebenzahl Resilience Cyber Security\\n\\nJose Palazon Michael Smith Sagittal AI\\n\\nNational Institute of Standards and Technology\\n\\n- DevSecOps Practices\\n- Executive Summary\\n\\n- 1. Introduction\\n\\n- 1.1. Background\\n\\n- 1.1.1. Development, Security, and Operations (DevSecOps)\\n- 1.1.2. The Role of AI in Software Development\\n- 1.1.3. The Role of Zero Trust in Software Development\\n- 1.2. Audience\\n- 1.3. Scope\\n- 1.4. Challenges\\n- 1.5. How to Use This Guide\\n- 2. Notional Reference Model for DevSecOps for Demonstration of NIST SSDF Updated\\n\\n- 2.1. Organizati",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "pages.nist.gov",
+      "www.microsoft.com",
+      "www.nccoe.nist.gov"
+    ]
+  }
+}

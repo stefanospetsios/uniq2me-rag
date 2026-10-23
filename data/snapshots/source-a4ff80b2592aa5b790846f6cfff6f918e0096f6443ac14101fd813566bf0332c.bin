@@ -1,0 +1,1844 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html xmlns:fb="//www.facebook.com/2008/fbml" xmlns:og="//opengraphprotocol.org/schema/" lang="en" xml:lang="en"  class="no-touch no-js">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="rei" content="3/2/2022 10.39am est" />
+
+    
+        <script tyle="text/javascript" src="/content/dam/cdc/j/cdcrSwitch.js"></script>
+        <script type="text/javascript"> 
+            if (typeof cdc === "undefined"){
+                cdc = {};
+            }
+            cdc.localizedLang="en/us";
+
+            if (window.cdcext === undefined) { window.cdcext = {}; }
+            cdcext.customEnvironment = "prod";
+            if (window.cdclocale === undefined) { window.cdclocale = {}; }
+            cdclocale.locale = cdc.localizedLang=="en/us"?"en_us":cdc.localizedLang;
+
+        </script> 
+         
+    
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="/c/dam/cdc/t/ctm-core.js"></script>
+<script>
+    window['adrum-start-time'] = new Date().getTime();
+    window.environ = "prod" ;
+</script>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    if (window.cpe === undefined) {
+        window.cpe = {};
+    }
+
+    cpe.accountName = "prod";
+    cpe.config = ["cinf","dsc","pps"];
+    cpe.hideMethod = "elements";
+
+    window.targetGlobalSettings = JSON.parse('{\x22timeout\x22:4000}');
+    window.targetPageParamsAll = () => JSON.parse('{\x22entity\x22:\x22{\\\x22id\\\x22:\\\x221780282438160717\\\x22,\\\x22categoryId\\\x22:\\\x22NetworkingSolutions,Enterprise,Networking Solution Solution Overview\\\x22}\x22}');
+
+    
+    const bullseyeLibrary = `/etc.clientlibs/cisco-cdc/clientlibs/clientlib-external/resources/external/bullseye.js`;
+
+    import(bullseyeLibrary);
+</script>
+<script src="/etc.clientlibs/cisco-cdc/clientlibs/clientlib-external/resources/regional-mbox/regional-mbox.js"></script>
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+        <title>Design Zone - Introduction to the Cisco Secure Networking Architecture - Cisco</title>
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="format-detection" content="telephone=no">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8"  />
+    <meta name="description" content="This document provides an introduction to the Cisco Secure Network Reference Architecture (SNRA), presenting the architectural framework, core principles, major domains, and intended business outcomes that define the architecture. Intended for architects, engineers, technical leaders, partners, and customers, it establishes a foundational understanding of the structure, purpose, and value of the SNRA approach while serving as the basis for more detailed design, deployment, and validation guidance."  />
+    <meta name="title" content="Design Zone - Introduction to the Cisco Secure Networking Architecture"  />
+    <meta name="documentId" content="1780282437894716"  />
+    <meta name="templateName" content="eot-toc"  />
+    <meta property="fb:app_id" content="156494687694418"  />
+    <meta name="ioContentSource" content="WEM"  />
+    <meta name="concept" content="Design Zone"  />
+    <meta name="docType" content="Networking Solution Solution Overview"  />
+    <meta name="iaPath" content="cisco.com#Networking Solutions#Enterprise#Design Zone"  />
+    <meta name="contentType" content="cisco.com#US#preSales"  />
+    <meta name="locale" content="US"  />
+    <meta name="language" content="en"  />
+    <meta name="country" content="US"  />
+    <meta name="CCID_Page" content="cc001784"  />
+    <meta name="date" content="Thu Oct 22 12:17:42 PDT 2026"  />
+    <meta name="accessLevel" content="Customer"  />
+    <meta name="accessLevel" content="Guest"  />
+    <meta name="accessLevel" content="Partner"  />
+    <meta name="entitlementExpression" content="contains( &quot;0,1,2,3,4,7&quot; , $profileField[3] )"  />
+    <meta property="og:site_name" content="Cisco"  />
+    <meta property="og:type" content="website"  />
+    <meta property="og:title" content="Design Zone - Introduction to the Cisco Secure Networking Architecture"  />
+    <meta property="og:description" content="This document provides an introduction to the Cisco Secure Network Reference Architecture (SNRA), presenting the architectural framework, core principles, major domains, and intended business outcomes that define the architecture. Intended for architects, engineers, technical leaders, partners, and customers, it establishes a foundational understanding of the structure, purpose, and value of the SNRA approach while serving as the basis for more detailed design, deployment, and validation guidance."  />
+    <meta property="og:image" content="https://www.cisco.com/web/fw/i/logo-open-graph.gif"  />
+    <meta property="og:url" content="https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Campus/Intro-Cisco-Secure-Network-Architecture.html"  />
+    <link rel="canonical" href="https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Campus/Intro-Cisco-Secure-Network-Architecture.html"/>
+	
+
+    
+ 
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="/etc.clientlibs/clientlibs/granite/jquery.min.js"></script>
+<script src="/etc.clientlibs/clientlibs/granite/utils.min.js"></script>
+<script src="/etc.clientlibs/clientlibs/granite/jquery/granite.min.js"></script>
+<script src="/etc.clientlibs/foundation/clientlibs/jquery.min.js"></script>
+<script src="/etc.clientlibs/foundation/clientlibs/shared.min.js"></script>
+<script src="/etc.clientlibs/cq/personalization/clientlib/underscore.min.js"></script>
+<script src="/etc.clientlibs/cq/personalization/clientlib/personalization/kernel.min.js"></script>
+<script src="/etc.clientlibs/cq/personalization/clientlib/personalization/kernel.min.js"></script>
+<script type="text/javascript">
+    $CQ(function() {
+        CQ_Analytics.SegmentMgr.loadSegments("\/etc\/segmentation");
+        CQ_Analytics.ClientContextUtils.init("\/c\/dnc\/etc\/clientcontext\/default", "\/content\/en\/us\/td\/docs\/solutions\/CVD\/Campus\/Intro\u002DCisco\u002DSecure\u002DNetwork\u002DArchitecture");
+
+        
+    });
+</script>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <link rel="stylesheet" href="/etc/designs/cdc/clientlibs/responsive/css/cisco-sans.min.css" type="text/css">
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="/etc/designs/cdc/clientlibs/responsive/js/foundation.min.js"></script>
+
+    <link rel="stylesheet" href="/etc/designs/cdc/clientlibs/responsive/css/responsive.min.css" type="text/css">
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+
+    <script>
+        sessionStorage.setItem("logOutIntermediateMessage", 'You are being logged out.');
+    </script>
+    
+    
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Custom JSON LD For Products Type -->
+
+    
+    <script type="application/ld+json">
+        [
+           
+            {
+          "@context": "http://www.schema.org",                                                                        
+          "@type": "WebPage",
+          "name": "Introduction to the Cisco Secure Networking Architecture",  		  
+          "url": "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Campus/Intro-Cisco-Secure-Network-Architecture.html",
+          "description": "This document provides an introduction to the Cisco Secure Network Reference Architecture (SNRA), presenting the architectural framework, core principles, major domains, and intended business outcomes that define the architecture. Intended for architects, engineers, technical leaders, partners, and customers, it establishes a foundational understanding of the structure, purpose, and value of the SNRA approach while serving as the basis for more detailed design, deployment, and validation guidance.",
+          "publisher": {
+              "@type": "Corporation",
+                 "name": "Cisco"
+            }
+        }]
+    </script>
+<!-- End Custom JSON LD For Products Type -->
+
+<!-- Video JSON LD -->
+
+
+
+
+<!-- End Video JSON LD -->
+
+    
+
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="GKZXC-NS3SU-A7VFH-HKBHM-U7LKH",function(){function e(){if(!i){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.parentNode.appendChild(e),i=!0}}function t(e){i=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",o.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"GKZXC-NS3SU-A7VFH-HKBHM-U7LKH";var o=document.currentScript||document.getElementsByTagName("script")[0],i=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!i)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="yobesciccc6gk2w32oqq-f-e4ef6b6ed-clientnsv4-s.akamaihd.net",o="false"=="true"?2:1,i={"ak.v":"41","ak.cp":"61004","ak.ai":parseInt("271834",10),"ak.ol":"0","ak.cr":49,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"303c022","ak.r":48934,"ak.a2":n,"ak.m":"dsca","ak.n":"essl","ak.cport":38532,"ak.gh":"2.22.245.53","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"bbr","ak.t":"1792791457","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==wP8/fwIHi3vLlVRYN8Z4CrSMOC/it0yG0Mk42vvE2zzgUw766/+bI5wljiBo1ZSd7t01A7J7gXfq7u5B//FgipGNzeLsfa0+C5z3BCPm0jEXD4BwRq5GaoDOcaO7kSfmsh5GuHLFp7JARUSu83aOL+a9pQ9o+e75qcTXjUsA30iSAqPYzFMGCrQi+/e/vlxN/cZXYnLHAaRpIBxNHk5JvvpMfygIE96UFwuKQcp+h1muWKnmL6q+eTPaolbgUX9Fi5rNc47IIiOu03sD0CqJVmkAfbuO9BAvW+XoIkg4HJCh0Ztbm+Z3bha8YJVAE0WWsAMl1L1D13ZRw13gRpIN0Kbl9vN1m1nCiUCSsuyp8WWl+C5v//+48vmd+vJH0wGGGtLvuE8Nk+1ocp3eeHpm5QfPgYDpJA/WMT4NqE1oEL4=","ak.pv":"553","ak.dpoabenc":"","ak.tf":o};if(""!==t)i["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))i["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+<body id="wcq" class="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fw-res cdc-eot cdc-eot-toc cdc-transform networking-solution-solution-overview
+">
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="fw-skiplinks">
+    <ul class="container">
+        <li><a id="skiplink-content" href="#fw-content">Skip to content</a></li>
+        <li><a id="skiplink-search" href="#">Skip to search</a></li>
+        <li><a id="skiplink-footer" href="#fw-footer-v2" class="last">Skip to footer</a></li>
+    </ul>
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="module" src="/site/web-components/us/en/cdc-header.js"></script>
+    <cdc-header></cdc-header>
+    <nav class="fw-c-header__seo-links" aria-hidden="true" style="display:none">
+        <ul>
+            <li><a tabindex="-1" href="https://www.cisco.com/site/us/en/index.html">Cisco.com Worldwide</a></li>
+            <li><a tabindex="-1" href="/site/us/en/products/index.html">Products and Services</a></li>
+            <li><a tabindex="-1" href="https://www.cisco.com/site/us/en/solutions/index.html">Solutions</a></li>
+            <li><a tabindex="-1" href="/c/en/us/support/index.html">Support</a></li>
+            <li><a tabindex="-1" href="/site/us/en/learn/index.html">Learn</a></li>
+            <li><a tabindex="-1" href="/site/us/en/about/sitemap.html">Explore Cisco</a></li>
+            <li><a tabindex="-1" href="/site/us/en/buy/index.html">How to Buy</a></li>
+            <li><a tabindex="-1" href="https://www.cisco.com/site/us/en/partners/index.html">Partners Home</a></li>                
+            <li><a tabindex="-1" href="/site/us/en/partners/360-partner-program/partner-program/index.html">Partner Program</a></li>
+            <li><a tabindex="-1" href="https://www.cisco.com/site/us/en/partners/support-help/index.html">Support</a></li>
+            <li><a tabindex="-1" href="/site/us/en/partners/360-partner-program/tools-training/index.html">Tools</a></li>
+            <li><a tabindex="-1" href="https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/">Find a Cisco Partner</a></li>
+            <li><a tabindex="-1" href="https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html">Meet our Partners</a></li>
+            <li><a tabindex="-1" href="https://www.cisco.com/site/us/en/partners/index.html">Become a Cisco Partner</a></li>
+
+        </ul>
+    </nav>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="fw-content" class="container grid">
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+<div class="row full" data-owner="ID">
+	<div class="col full ">
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<nav id="fw-breadcrumb" class="data-based" aria-label="breadcrumbs" data-owner="ID">
+
+   
+    <ul itemscope itemtype="//schema.org/BreadcrumbList">
+        <li aria-hidden="true"><a href='#' class="skip"><span></span></a></li>
+        <li itemprop='itemListElement' itemscope itemtype='//schema.org/ListItem'><a itemprop='item' href='/c/en/us/solutions/index.html'><span itemprop='name'>Solutions</span><meta itemprop='position' content='1' /></a><span class='caret'></span></li><li itemprop='itemListElement' itemscope itemtype='//schema.org/ListItem'><a itemprop='item' href='/c/en/us/solutions/enterprise/design-zone/index.html'><span itemprop='name'>Design Zone</span><meta itemprop='position' content='2' /></a><span class='caret'></span></li>
+    </ul>
+</nav>
+<script>
+    if (window.cdc === undefined) { window.cdc = {}; }
+    if (cdc.breadcrumb === undefined) {
+        cdc.breadcrumb = (function () {
+            let clone = document.querySelector('#fw-breadcrumb').cloneNode(true);
+
+            let appendClone = function () {
+                let hasBreadcrumb = document.querySelector('#fw-breadcrumb') !== null,
+                    firstMarquee = document.querySelectorAll('.dmc-mq')[0];
+
+                if (!hasBreadcrumb && firstMarquee !== undefined) {
+                    firstMarquee.querySelector('.frame .inset').insertBefore(this.clone, firstMarquee.querySelector('.frame .inset').firstElementChild);
+                }
+            };
+
+            return {
+                clone: clone,
+                appendClone: appendClone
+            }
+        }());
+    }
+    //DE380224
+    var anchorChild = document.getElementsByTagName("a");
+    for(var i=0; i<anchorChild.length; i++){ 
+        if(anchorChild[i].getAttribute("itemprop")=="item")  {  
+            if ( anchorChild[i].href.includes("%3Clocale%3E") ){
+                let anchorChildHREF = anchorChild[i].href;
+                let docLocale = document.querySelector('meta[name="locale"]').getAttribute('content');
+                let docLanguage = document.querySelector('meta[name="language"]').getAttribute('content');
+                
+                var docSeparator;
+                
+                if ((docLocale.toLowerCase() == "us") && (docLanguage.toLowerCase() == "en")) {
+                    docSeparator="/";
+                } else {
+                    docSeparator="_";
+                }
+                
+                let anchorURLReplace = docLanguage.toLowerCase() + docSeparator + docLocale.toLowerCase();
+                anchorChildHREF = anchorChildHREF.replace("%3Clocale%3E", anchorURLReplace);
+                anchorChild[i].setAttribute('href', anchorChildHREF);
+            }
+        }
+    }
+</script>
+
+        
+		        <h1 id="fw-pagetitle" class="" data-owner="ID">Introduction to the Cisco Secure Networking Architecture</h1>
+		
+	</div>
+</div>
+     <!--googleon: index--><!--googleon: snippet-->
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    // initialize dictionary for i18n
+    var pagelanguage = "en_us".replace("_","-");
+    var pagelocale = pagelanguage;
+    Granite.I18n.setLocale(pagelocale.toLowerCase());
+    Granite.I18n.setUrlPrefix("/etc/designs/cdc/fw/w/responsive_components/eot/i18n/");
+    Granite.I18n.setUrlSuffix(".1.json");
+    cdc.util.ensureNamespace("cdc.rc");
+    cdc.rc.isEotToc = true;
+</script>
+
+
+<div class="row full blowout">
+    <div class="col full">
+
+    </div>
+</div>
+
+<div class="row full">
+    <div class="col full top docId">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    if (typeof(cdc) == "undefined") cdc={};
+    if (typeof(cdc.translations) == "undefined") cdc.translations={};
+
+</script>
+
+        <div class="docHeaderComponent base-blowout">
+        <div class="linksRow">
+            
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class='versionddcontainer'></div>
+<script type="text/html" class="versionstemp">
+            <div class="versionsdd">
+                <button class="versionbutton" role="combobox" aria-haspopup="listbox" aria-expanded="false" aria-controls="versionlist" aria-label="Version/Release"><label></label></button>
+                <ul id="versionlist" class="versionlist" role="listbox" aria-label="Version/Release options">
+                <%
+                    let pageUrl = window.location.pathname.replace("/content/","/c/").toLowerCase();
+                    if (false) pageUrl = pageUrl.substring(0,pageUrl.lastIndexOf("/"))+".html";
+                    for(let i=0; i< data.length; i++) {
+                        let item = data[i],
+                            myurl = item.linkUrl,
+                            urlm = myurl.replace("/content/","/c/");;
+                            mytitle = item.linkTitle;
+                            myclass= urlm.toLowerCase() == pageUrl ? "class=\"selected\"":""; 
+                            isSelected = urlm.toLowerCase() == pageUrl ? "true" : "false";
+%>
+                    <li role="option" aria-selected="${isSelected}"><a href="${myurl}" ${myclass}>${mytitle}</a></li>
+<%
+                  }   %>
+                </ul>
+             </div>
+</script>
+            
+            
+            <div class="toolbar">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="noprint" id="saveModule">
+
+<script type="text/javascript">
+    cdc.util.ensureNamespace("cdc.rc.savedoc");
+    cdc.rc.savedoc.isLoggedIn = false;
+    cdc.rc.savedoc.save = "Save";
+    cdc.rc.savedoc.saved = "Saved";
+</script>
+
+    <button class="save" aria-expanded="false" aria-label="Save">
+        <label>Save</label>
+    </button>    
+
+</div> 
+    <div class="saveDocumentMessage login cdc-expandPanel"  role="region" aria-live="polite">
+        <a href="/c/login/index.html?referer=/c/en/us/td/docs/solutions/CVD/Campus/Intro-Cisco-Secure-Network-Architecture.html">Log in</a> to Save Content
+    </div>
+
+
+            <!-- Translation Selctor -->
+            <!-- Translation Selector is used on EOT and Books pages. if a page has a locale of en_US then it will provide a list of avaible translations, if its a translated page (non english locale) then provide the link to the english locale. -->
+
+
+ 
+
+
+
+            
+                <div class="noprint downloadDocument"><button type="button" class="view-download-list-link anchor" aria-expanded="false"><div class="toolbarIcon downloadIcon"></div><label class="iconLabel">Download</label></button></div>
+            
+            
+                <div class="noprint printDocument js-only"><button type="button" class="anchor printPage" aria-label="Print"><div class="toolbarIcon printIcon"></div><label class="iconLabel">Print</label></button></div>
+            
+            </div>
+
+        </div>
+            <!-- Where translation selector list of available languages is set up for EOT pages, for the javascript to work must have <ul id="translationsList"> </ul> -->
+            
+                    <script language="javascript">
+                        cdc.translations.map = "{en-us=https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Campus/Intro-Cisco-Secure-Network-Architecture.html, x-default=https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Campus/Intro-Cisco-Secure-Network-Architecture.html}";//storing the map for use in the JS
+                        cdc.translations.locale="en_us";
+                    </script>
+                    <div class="availableLanguagesList">
+                        <h3>Available Languages</h3>
+                        <ul id="translationsList">
+                
+                          </ul>
+                </div>
+           
+            
+            <div id="download-list-container" class="noprint panelRow"  role="region" aria-live="polite">
+                <div class='download-list' aria-label="Download Options">
+                    <h3>Download Options</h3>
+                    <ul>
+                    
+                        <li>
+                            <div class="fileText">
+                                <a href="/c/en/us/td/docs/solutions/CVD/Campus/Intro-Cisco-Secure-Network-Architecture.pdf" class="download-pdf"><div class="fileIcon pdfIcon"></div>PDF</a>
+                                
+                                <span class="docSize">(1.0 MB)</span>
+                                
+                                <br />
+                                <span class="description">View with Adobe Reader on a variety of devices</span>
+                            </div>
+                        </li>
+                    
+                    </ul>
+                </div>
+            </div>
+        
+
+        <div class="infobarClearFix">
+            <div class="infobar">
+				
+                    <div class="updatedDate"><span>Updated:</span>May 31, 2026</div>
+                                
+                
+
+                  </div> 
+                  
+        </div>
+    </div>
+
+
+<script>
+jQuery(document).ready(function(){
+    if(jQuery("body").hasClass("cdc-eot-toc") && jQuery(".cdc-eot-toc").find(".DocumentHistory").length > 0){
+        jQuery(".cdc-eot-toc .seeRevisions").show();
+        if(jQuery(window).width() >= 768){
+            jQuery(".cdc-eot-toc .updatedDate").nextAll(".bullet").show();
+        }
+    }else{
+      jQuery(".cdc-eot-toc .infobar .bullet").hide();
+      jQuery(".cdc-eot-toc .seeRevisions");
+      jQuery(".cdc-eot-toc .updatedDate");
+    }
+
+
+})
+</script>
+
+        <div id="contactTrans">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    <div class="disclaimers techdocs">
+        
+        <div class="disclaimerButtons">
+        <div class="aboutBias">
+            <button aria-expanded="false" >Bias-Free Language</button>
+        </div>
+        
+        </div>
+        
+        <div class="biasfreeContent panel">
+            <h3>Bias-Free Language</h3>
+            <p>The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. <a href="https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html" aria-label="Learn more about Bias Free Language">Learn more</a> about how Cisco is using Inclusive Language.</p>
+        </div>
+        
+    </div><!-- disclaimers -->
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+<div class="contactUs">
+	<button  aria-expanded="false" aria-labelledby="Contact Cisco" id="contact-button">Contact Cisco <span class="caret"></span></button>
+	<ul id="contactList" tabindex="-1" aria-labelledby="Contact Cisco">
+		<li class="button"><a href="https://mycase.cloudapps.cisco.com/case">Open a TAC Case Online</a></li>  
+	
+				<li>US/Canada 800-553-2447</li>
+	
+		<li><a href="//www.cisco.com/c/en/us/support/web/tsd-cisco-worldwide-contacts.html">Worldwide Support Phone Numbers</a></li>
+	
+		<li><a href='//www.cisco.com/c/en/us/support/web/tools-catalog.html'>All Tools</a></li>
+        <li id="feedback"><a href='https://ciscocx.qualtrics.com/jfe/form/SV_be0fHnqDoKM7sto?Ref=' + location.href , target="popup" onclick="window.open('https://ciscocx.qualtrics.com/jfe/form/SV_be0fHnqDoKM7sto?Ref=' + location.href + '&resize=false', 'feedback', 'width=650, height=460, scrollbars=1, menubar=1, resizable=1'); return false;"><img id="rr_feedback_img" title="Feedback" src="//www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png" alt="Feedback"> Feedback</a></li>
+	</ul>
+</div>
+
+
+        </div>    
+
+    </div>
+</div>
+<div class="row wide-narrow flip cdc-eot-toc-banner">
+    <div class="col wide"> 
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="defaultBrandImage"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/etc/designs/cdc/dmr/mbox/mbox.min.css" type="text/css">
+
+
+<div data-version="DM:components/dgbanner/banner-mbox:V1.5.1">
+    <div class="mboxDefault"></div>   
+    <script type="text/javascript">
+        var test="";
+        if(test!=undefined && test.trim().length>0){
+           mboxCreate('en-us_dg_large_eot','type=default','');
+        }else{
+           mboxCreate('en-us_dg_large_eot','type=default');
+        }
+       
+    </script>
+</div>
+
+
+
+
+<div id="overDocWrapper" class="doctool noprint">
+    
+    <script type="text/javascript">
+      $( document ).ready(function() {
+        var fwt_element = $("#fw-content").find(".fwt-fatfooter");
+        fwt_element.addClass("noprint");
+      });
+        if (window.cdc === undefined) { window.cdc = {}; }
+        if (cdc.rac === undefined) { cdc.rac = {}; }
+        if (cdc.rac.getOverrideConfig === undefined) {
+         cdc.rac.getOverrideConfig = {};
+        }
+        else {
+        //var configData = { "ratingsOnly": false, "objId":31, "source":"dummy source" };
+          var configData = { "ratingsOnly": false};
+          cdc.rac.getOverrideConfig(configData);
+        }
+    </script>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    if (typeof(cdc) == "undefined") cdc={};
+    if (typeof(cdc.translations) == "undefined") cdc.translations={};
+
+</script>
+
+        <div class="docHeaderComponent base-blowout">
+        <div class="linksRow">
+            
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class='versionddcontainer'></div>
+<script type="text/html" class="versionstemp">
+            <div class="versionsdd">
+                <button class="versionbutton" role="combobox" aria-haspopup="listbox" aria-expanded="false" aria-controls="versionlist" aria-label="Version/Release"><label></label></button>
+                <ul id="versionlist" class="versionlist" role="listbox" aria-label="Version/Release options">
+                <%
+                    let pageUrl = window.location.pathname.replace("/content/","/c/").toLowerCase();
+                    if (false) pageUrl = pageUrl.substring(0,pageUrl.lastIndexOf("/"))+".html";
+                    for(let i=0; i< data.length; i++) {
+                        let item = data[i],
+                            myurl = item.linkUrl,
+                            urlm = myurl.replace("/content/","/c/");;
+                            mytitle = item.linkTitle;
+                            myclass= urlm.toLowerCase() == pageUrl ? "class=\"selected\"":""; 
+                            isSelected = urlm.toLowerCase() == pageUrl ? "true" : "false";
+%>
+                    <li role="option" aria-selected="${isSelected}"><a href="${myurl}" ${myclass}>${mytitle}</a></li>
+<%
+                  }   %>
+                </ul>
+             </div>
+</script>
+            
+            
+            <div class="toolbar">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="noprint" id="saveModule">
+
+<script type="text/javascript">
+    cdc.util.ensureNamespace("cdc.rc.savedoc");
+    cdc.rc.savedoc.isLoggedIn = false;
+    cdc.rc.savedoc.save = "Save";
+    cdc.rc.savedoc.saved = "Saved";
+</script>
+
+    <button class="save" aria-expanded="false" aria-label="Save">
+        <label>Save</label>
+    </button>    
+
+</div> 
+    <div class="saveDocumentMessage login cdc-expandPanel"  role="region" aria-live="polite">
+        <a href="/c/login/index.html?referer=/c/en/us/td/docs/solutions/CVD/Campus/Intro-Cisco-Secure-Network-Architecture.html">Log in</a> to Save Content
+    </div>
+
+
+            <!-- Translation Selctor -->
+            <!-- Translation Selector is used on EOT and Books pages. if a page has a locale of en_US then it will provide a list of avaible translations, if its a translated page (non english locale) then provide the link to the english locale. -->
+
+
+ 
+
+
+
+            
+                <div class="noprint downloadDocument"><button type="button" class="view-download-list-link anchor" aria-expanded="false"><div class="toolbarIcon downloadIcon"></div><label class="iconLabel">Download</label></button></div>
+            
+            
+                <div class="noprint printDocument js-only"><button type="button" class="anchor printPage" aria-label="Print"><div class="toolbarIcon printIcon"></div><label class="iconLabel">Print</label></button></div>
+            
+            </div>
+
+        </div>
+            <!-- Where translation selector list of available languages is set up for EOT pages, for the javascript to work must have <ul id="translationsList"> </ul> -->
+            
+                    <script language="javascript">
+                        cdc.translations.map = "{en-us=https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Campus/Intro-Cisco-Secure-Network-Architecture.html, x-default=https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Campus/Intro-Cisco-Secure-Network-Architecture.html}";//storing the map for use in the JS
+                        cdc.translations.locale="en_us";
+                    </script>
+                    <div class="availableLanguagesList">
+                        <h3>Available Languages</h3>
+                        <ul id="translationsList">
+                
+                          </ul>
+                </div>
+           
+            
+            <div id="download-list-container" class="noprint panelRow"  role="region" aria-live="polite">
+                <div class='download-list' aria-label="Download Options">
+                    <h3>Download Options</h3>
+                    <ul>
+                    
+                        <li>
+                            <div class="fileText">
+                                <a href="/c/en/us/td/docs/solutions/CVD/Campus/Intro-Cisco-Secure-Network-Architecture.pdf" class="download-pdf"><div class="fileIcon pdfIcon"></div>PDF</a>
+                                
+                                <span class="docSize">(1.0 MB)</span>
+                                
+                                <br />
+                                <span class="description">View with Adobe Reader on a variety of devices</span>
+                            </div>
+                        </li>
+                    
+                    </ul>
+                </div>
+            </div>
+        
+
+        <div class="infobarClearFix">
+            <div class="infobar">
+				
+                    <div class="updatedDate"><span>Updated:</span>May 31, 2026</div>
+                                
+                
+
+                  </div> 
+                  
+        </div>
+    </div>
+
+
+<script>
+jQuery(document).ready(function(){
+    if(jQuery("body").hasClass("cdc-eot-toc") && jQuery(".cdc-eot-toc").find(".DocumentHistory").length > 0){
+        jQuery(".cdc-eot-toc .seeRevisions").show();
+        if(jQuery(window).width() >= 768){
+            jQuery(".cdc-eot-toc .updatedDate").nextAll(".bullet").show();
+        }
+    }else{
+      jQuery(".cdc-eot-toc .infobar .bullet").hide();
+      jQuery(".cdc-eot-toc .seeRevisions");
+      jQuery(".cdc-eot-toc .updatedDate");
+    }
+
+
+})
+</script>
+</div>
+
+    </div>
+    <div class="col narrow sticky noprint">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<span id="tocTop"></span>
+<section id="eotTocNav">
+	<div id="navWrapper">
+	</div>
+    <div id="tocSearch"></div>
+    <div id="eotListWrapper" data-config-metrics-group="Table of Contents">
+	    
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+  
+
+<script type="text/javascript">
+cdc.util.ensureNamespace("cdc.rc");
+cdc.rc.toctitle = "Table of Contents";
+</script>
+    <h4 id="eotTocToc">Table of Contents</h4>
+    <ul>	<li><a class="head1" href="#Executivesummary" title="Executivesummary">Executive summary</a>
+	<ul>	<li><a class="head2" href="#Deliveringvalueviathreekeypillars" title="Deliveringvalueviathreekeypillars">Delivering value via three key pillars</a></li></ul>
+	<li><a class="head1" href="#Challengestatement" title="Challengestatement">Challenge statement</a>
+	<ul>	<li><a class="head2" href="#Threepressuresexposelegacysecuritylimits" title="Threepressuresexposelegacysecuritylimits">Three pressures expose legacy security limits</a></li>
+	<li><a class="head2" href="#Whyfragmentedcontrolsreachalimit" title="Whyfragmentedcontrolsreachalimit">Why fragmented controls reach a limit</a></li></ul>
+	<li><a class="head1" href="#Desiredcustomeroutcomes" title="Desiredcustomeroutcomes">Desired customer outcomes</a></li>
+	<li><a class="head1" href="#MappingfunctionstoaReferenceArchitecture" title="MappingfunctionstoaReferenceArchitecture">Mapping functions to a Reference Architecture</a></li>
+	<li><a class="head1" href="#CSNarchitecturallayersandfunctions" title="CSNarchitecturallayersandfunctions">CSN architectural layers and functions</a>
+	<ul>	<li><a class="head2" href="#Thefourfunctionsofsecuringeveryflow" title="Thefourfunctionsofsecuringeveryflow">The four functions of securing every flow</a></li></ul>
+	<li><a class="head1" href="#TheFrameworkdrivesoutcomes" title="TheFrameworkdrivesoutcomes">The Framework drives outcomes</a></li>
+	<li><a class="head1" href="#Ciscoproductsintheframework" title="Ciscoproductsintheframework">Cisco products in the framework</a></li>
+	<li><a class="head1" href="#Labtestingvalidationandproof" title="Labtestingvalidationandproof">Lab testing validation and proof</a>
+	<ul>	<li><a class="head2" href="#Whatwastested" title="Whatwastested">What was tested</a></li>
+	<li><a class="head2" href="#Whatvalidationdemonstrated" title="Whatvalidationdemonstrated">What validation demonstrated</a></li>
+	<li><a class="head2" href="#Aproofofvaluemethod" title="Aproofofvaluemethod">A proof-of-value method</a></li>
+	<li><a class="head2" href="#Representativescenarios" title="Representativescenarios">Representative scenarios</a></li></ul>
+	<li><a class="head1" href="#Implementframeworkincrementally" title="Implementframeworkincrementally">Implement framework incrementally</a>
+	<ul>	<li><a class="head2" href="#1Alignonoutcomesandownership" title="1Alignonoutcomesandownership">1. Align on outcomes and ownership</a></li>
+	<li><a class="head2" href="#2Establishtrustedcontext" title="2Establishtrustedcontext">2. Establish trusted context</a></li>
+	<li><a class="head2" href="#3Reducereachabilityandimprovedetection" title="3Reducereachabilityandimprovedetection">3. Reduce reachability and improve detection</a></li>
+	<li><a class="head2" href="#4Automatewithgovernance" title="4Automatewithgovernance">4. Automate with governance</a></li>
+	<li><a class="head2" href="#5Assurelearnandscale" title="5Assurelearnandscale">5. Assure, learn, and scale</a></li></ul>
+	<li><a class="head1" href="#SummaryWhyCisco" title="SummaryWhyCisco">Summary: Why Cisco</a>
+	<ul>	<li><a class="head2" href="#Ciscosdifferentiatedvalue" title="Ciscosdifferentiatedvalue">Cisco’s differentiated value</a></ul>
+    
+
+	</div>
+    <!--<div id="eotTocSearch"></div>
+	<div id="eotTocToc"></div> -->
+    <script type="text/javascript">
+       cdc.util.ensureNamespace("cdc.rc.innerSearch");
+       cdc.rc.innerSearch.hintText = "Search";
+        cdc.util.ensureNamespace("cdc.rc.tableOfContents");
+       cdc.rc.tableOfContents.label = "Table of Contents";
+    </script>
+</section>
+
+
+    </div>
+</div>
+<div class="row narrow-wide">
+    <!--style below is added to fix DE297691:TOC Headings are not clickable in Firefox/Edge Browsers -->
+    <div class="col narrow noprint" style="position: relative;z-index: -1;">
+        &nbsp;
+        
+    </div>
+    <div class="col wide document">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="eot-doc-wrapper">
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+<html>
+ <head>
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="GKZXC-NS3SU-A7VFH-HKBHM-U7LKH",function(){function e(){if(!i){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.parentNode.appendChild(e),i=!0}}function t(e){i=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",o.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"GKZXC-NS3SU-A7VFH-HKBHM-U7LKH";var o=document.currentScript||document.getElementsByTagName("script")[0],i=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!i)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="yobesciccc6gk2w32oqq-f-e4ef6b6ed-clientnsv4-s.akamaihd.net",o="false"=="true"?2:1,i={"ak.v":"41","ak.cp":"61004","ak.ai":parseInt("271834",10),"ak.ol":"0","ak.cr":49,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"303c022","ak.r":48934,"ak.a2":n,"ak.m":"dsca","ak.n":"essl","ak.cport":38532,"ak.gh":"2.22.245.53","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"bbr","ak.t":"1792791457","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==wP8/fwIHi3vLlVRYN8Z4CrSMOC/it0yG0Mk42vvE2zzgUw766/+bI5wljiBo1ZSd7t01A7J7gXfq7u5B//FgipGNzeLsfa0+C5z3BCPm0jEXD4BwRq5GaoDOcaO7kSfmsh5GuHLFp7JARUSu83aOL+a9pQ9o+e75qcTXjUsA30iSAqPYzFMGCrQi+/e/vlxN/cZXYnLHAaRpIBxNHk5JvvpMfygIE96UFwuKQcp+h1muWKnmL6q+eTPaolbgUX9Fi5rNc47IIiOu03sD0CqJVmkAfbuO9BAvW+XoIkg4HJCh0Ztbm+Z3bha8YJVAE0WWsAMl1L1D13ZRw13gRpIN0Kbl9vN1m1nCiUCSsuyp8WWl+C5v//+48vmd+vJH0wGGGtLvuE8Nk+1ocp3eeHpm5QfPgYDpJA/WMT4NqE1oEL4=","ak.pv":"553","ak.dpoabenc":"","ak.tf":o};if(""!==t)i["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))i["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head> 
+ <body> 
+  <code><script type="text/javascript"></script> 
+   <link rel="stylesheet" href="techdocs_85_11_word.css"/> 
+   <link rel="stylesheet" href="/etc/designs/cdc/transformation/techdocs_85_11_word.css"/></code> 
+  <div class="WordSection1"> 
+   <p class="pBody">&nbsp;</p> 
+   <p class="pToC_Subhead1"><a name="_Toc243068726">Executive summary</a></p> 
+   <p class="pBody"><b>Security fused into the network.</b></p> 
+   <p class="pBody">Enterprise networks are undergoing a fundamental transformation. Organizations must securely connect an expanding ecosystem of users, devices, applications, cloud services, AI-driven workloads, and autonomous agents while maintaining operational simplicity, resilience, and security. Hybrid workforces, distributed campuses and branches, cloud-native applications, operational technology, IoT devices, and emerging AI services have dramatically increased the scale and complexity of modern environments.</p> 
+   <p class="pBody">At the same time, the threat landscape continues to evolve. AI-powered attacks now operate at machine speed, data exfiltration remains a top business risk, and traditional perimeter-focused security models are no longer sufficient. Organizations must not only secure external access points but also continuously authenticate users, devices, and agents, enforce least-privilege access, contain lateral movement, and maintain visibility across increasingly dynamic environments.</p> 
+   <p class="pBody">These challenges require a new approach where networking and security operate as a unified system rather than separate technology domains. Cisco Secure Networking (CSN) fuses security into the fabric of the enterprise network, making the network an ever-present security layer that protects customer data, financial systems, business continuity, regulatory compliance, and digital experiences wherever the business runs. As the traditional perimeter dissolves, fragmented, bolt-on security cannot keep pace with machine-speed exploitation, AI-driven lateral movement, infrastructure-targeted attacks, compromised identities, and the “harvest-now, decrypt-later” quantum threat. </p> 
+   <p class="pBody">By strengthening infrastructure resilience, establishing common policy context through Cisco Data Fabric, and using unified management and agentic operations, CSN gives networking and security teams a connected foundation for protecting infrastructure, traffic, workloads, people, AI agents, and digital experiences.</p> 
+   <p class="pToC_Subhead2"><a name="_Toc243068727">Delivering value via three key pillars</a></p> 
+   <p class="pBody">As enterprise environments continue to evolve, the network must deliver three connected outcomes. First, organizations need a trusted, resilient infrastructure. Second, the network must protect every flow. Finally, Unified Management and Agentic Operations must bring these capabilities together through assurance, automation, and action for people and AI agents.</p> 
+   <p class="pBody">Cisco Secure Networking delivers these outcomes through three pillars: </p> 
+   <p class="pBody"><b>Trust the Infrastructure</b>: Cisco strengthens infrastructure resilience across campus, branch, WAN, remote access, cloud, and workload environments. This secure infrastructure connects what is allowed, enforces policy, and provides the telemetry and common policy context needed for distributed enforcement and assurance.</p> 
+   <p class="pBulletCMT" style="font-style: normal; font-variant: normal; font-weight: normal;margin-bottom: 3pt; margin-right: 0pt; margin-top: 0pt; text-decoration: none; text-transform: none"><span class="BodyBold"><span style="font-size:7.0pt;font-family:&quot;Arial&quot;,sans-serif;position:relative;top:-.5pt;font-weight:normal"><span style="font:7.0pt &quot;Times New Roman&quot;">●&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span>Establish Device Trust by verifying every platform from power-on through runtime using technologies such as secure boot, hardened operating system implementations, image signing, runtime integrity monitoring, and Cisco Live Protect.</p> 
+   <p class="pBulletCMT" style="font-style: normal; font-variant: normal; font-weight: normal;margin-bottom: 3pt; margin-right: 0pt; margin-top: 0pt; text-decoration: none; text-transform: none"><span style="font-size:7.0pt;font-family:&quot;Arial&quot;,sans-serif;position:relative;top:-.5pt"><span style="font:7.0pt &quot;Times New Roman&quot;">●&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Act as the intelligent foundation for connectivity, distributed policy enforcement, and telemetry, enabling operational services and a common policy context.</p> 
+   <p class="pBulletCMT" style="font-style: normal; font-variant: normal; font-weight: normal;margin-bottom: 3pt; margin-right: 0pt; margin-top: 0pt; text-decoration: none; text-transform: none"><span class="BodyBold"><span style="font-size:7.0pt;font-family:&quot;Arial&quot;,sans-serif;position:relative;top:-.5pt;font-weight:normal"><span style="font:7.0pt &quot;Times New Roman&quot;">●&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span>Prove trust through modern advanced crypto agility with technologies such as MACsec, post-quantum readiness, and continuous compliance evidence.</p> 
+   <p class="pBody"><b>Secure Every Flow</b>: The network must protect every interaction across users, devices, workloads, applications, and AI agents. This involves securing all steps across the infrastructure from entry through application and data access. Cisco Data Fabric carries the data, telemetry, and context required to apply policy consistently across domains, while distributed enforcement capabilities enact those policies. Threat intelligence and analytics then enable detection and response at machine speed to reduce threat impact and accelerate recovery.</p> 
+   <p class="pBody">Cisco Secure Networking protects every flow through four connected functions:</p> 
+   <p class="pBulletCMT" style="font-style: normal; font-variant: normal; font-weight: normal;margin-bottom: 3pt; margin-right: 0pt; margin-top: 0pt; text-decoration: none; text-transform: none"><span style="font-size:7.0pt;font-family:&quot;Arial&quot;,sans-serif;position:relative;top:-.5pt"><span style="font:7.0pt &quot;Times New Roman&quot;">●&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b>Secure Infrastructure</b>: The trusted, resilient foundation consisting of the physical topology, routed Layer 3 underlay, OSPF transport, device reachability, MTU consistency, redundancy, and foundational telemetry.</p> 
+   <p class="pBulletCMT" style="font-style: normal; font-variant: normal; font-weight: normal;margin-bottom: 3pt; margin-right: 0pt; margin-top: 0pt; text-decoration: none; text-transform: none"><span style="font-size:7.0pt;font-family:&quot;Arial&quot;,sans-serif;position:relative;top:-.5pt"><span style="font:7.0pt &quot;Times New Roman&quot;">●&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b>Identify and Authorize:</b> Identity- and context-aware access control using Cisco ISE, 802.1X, MAB, endpoint profiling, authorization profiles, and Security Group Tag assignment.</p> 
+   <p class="pBulletCMT" style="font-style: normal; font-variant: normal; font-weight: normal;margin-bottom: 3pt; margin-right: 0pt; margin-top: 0pt; text-decoration: none; text-transform: none"><span style="font-size:7.0pt;font-family:&quot;Arial&quot;,sans-serif;position:relative;top:-.5pt"><span style="font:7.0pt &quot;Times New Roman&quot;">●&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b>Segment and Protect:</b> Least-privilege reachability control using VLANs, VRFs, VXLAN EVPN, SGTs, TrustSec, Adaptive Policy, SD-WAN segmentation, and distributed firewall enforcement.</p> 
+   <p class="pBulletCMT" style="font-style: normal; font-variant: normal; font-weight: normal;margin-bottom: 3pt; margin-right: 0pt; margin-top: 0pt; text-decoration: none; text-transform: none"><span style="font-size:7.0pt;font-family:&quot;Arial&quot;,sans-serif;position:relative;top:-.5pt"><span style="font:7.0pt &quot;Times New Roman&quot;">●&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b>Detect and Respond:</b> Detection, correlation, and governed containment using network telemetry, encrypted traffic analytics, firewall inspection, threat intelligence, XDR, and distributed response actions.</p> 
+   <p class="pBody"><b>Assure Every Experience</b>: Unified Management and Agentic Operations, delivered through Cisco Cloud Control, unify the platform through one operating model. Assurance, automation, and governed action help networking and security teams preserve availability, performance, and the digital experience while maintaining human control.</p> 
+   <p class="pBody">Cisco Cloud Control brings these capabilities together through:</p> 
+   <p class="pBody" style="margin-top:0in;margin-right:.3in;margin-bottom:3.0pt;margin-left:.5in;text-indent:-.25in"><span style="font-family:Symbol">&middot;<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Centralized Management connects inventory, topology, health, assurance, security, and operational context through Cisco Cloud Control and Cisco Data Fabric.</p> 
+   <p class="pBody" style="margin-top:0in;margin-right:.3in;margin-bottom:3.0pt;margin-left:.5in;text-indent:-.25in"><span style="font-family:Symbol">&middot;<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Agentic Operations turn shared context and operational insight into governed action at machine speed while maintaining human control.</p> 
+   <p class="pBody" style="margin-top:0in;margin-right:.3in;margin-bottom:3.0pt;margin-left:.5in;text-indent:-.25in"><span style="font-family:Symbol">&middot;<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Continuous Assurance by verifying security, availability, performance, and policy outcomes end to end.</p> 
+   <p class="pBody">Together, these pillars address the three pressures above. The next section explains why they must work as one architecture.</p> 
+   <p class="pToC_Subhead1"><a name="_Toc243068728">Challenge statement</a></p> 
+   <p class="pBody"><b>Why now? Threats and operations move at machine speed.</b></p> 
+   <p class="pBody">The enterprise attack surface is evolving faster than legacy security models can respond. AI-accelerated exploitation is shrinking vulnerability-remediation windows and increasing the risk to network devices and control planes, while “harvest-now, decrypt-later” attacks threaten long-lived data and expose the lack of crypto agility in existing infrastructure. At the same time, AI agents are emerging as high-privilege identities whose access, traffic, and behavior can be difficult to discover and govern, creating new paths for lateral movement. Fragmented tools, overlapping policies, and limited end-to-end visibility prevent NetOps and SecOps from acting quickly without disrupting connectivity or the digital experience. Organizations need a more integrated approach that can keep infrastructure resilient, govern every identity, protect every flow, and assure every experience. </p> 
+   <p class="pToC_Subhead2"><a name="_Toc243068729">Three pressures expose legacy security limits</a></p> 
+   <p class="pStep1CMT">1.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp; </span><span class="BodyBold">Infrastructure risk is outpacing traditional protection.</span> AI can compress vulnerability-remediation windows, target network devices and control planes, and increase exposure before teams can patch. Long-lived data also faces harvest-now, decrypt-later risk when infrastructure lacks crypto agility.</p> 
+   <p class="pStep1CMT">2.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp; </span><span class="BodyBold">Every new identity expands the attack surface.</span> AI agents can hold credentials, access sensitive applications and data, and generate traffic that existing tools cannot always discover or govern. They must be identified, continuously verified, governed, and contained with the same rigor applied to human and machine identities.</p> 
+   <p class="pStep1CMT">3.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp; </span><span class="BodyBold">Visibility gaps put every experience at risk.</span> Fragmented NetOps and SecOps tools, overlapping policies, and limited end-to-end visibility make it difficult to understand policy impact or act quickly without disrupting legitimate traffic and the digital experience.</p> 
+   <p class="pBody"><span class="BodyBold"><span style="font-weight:normal">The three pillars of Cisco Secure Networking provide a structured response to these press</span></span>ures.</p> 
+   <div> 
+    <table border="1" cellpadding="6" cellspacing="0" width="100%" bordercolor="#ADADAD"> 
+     <thead> 
+      <tr valign="top" align="left"> 
+       <td> <p class="Cellhead1"><span style="color:white">Pillar</span></p> </td> 
+       <td> <p class="Cellhead1"><span style="color:white">Primary technical mechanism</span></p> </td> 
+       <td> <p class="Cellhead1"><span style="color:white">Result</span></p> </td> 
+      </tr> 
+     </thead> 
+     <tbody> 
+      <tr valign="top" align="left"> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none"><span class="BodyBold">Trust the Infrastructure</span></p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">Operate hardened devices and a resilient, intelligent infrastructure that provides secure connectivity, distributed policy enforcement, and telemetry to assure the experience.</p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">A trusted, resilient, verifiable foundation for secure access, distributed enforcement, telemetry, and recovery.</p> </td> 
+      </tr> 
+      <tr valign="top" align="left"> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none"><span class="BodyBold">Secure Every Flow</span></p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">Apply the four connected functions—identify and authorize; segment and protect; detect; and respond—to users, devices, workloads, and agents wherever traffic moves.</p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">Least-privilege access, distributed protection, reduced threat impact, and faster recovery wherever traffic moves.</p> </td> 
+      </tr> 
+      <tr valign="top" align="left"> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none"><span class="BodyBold">Assure Every Experience</span></p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">Unify operations through Cisco Cloud Control, centralized management, governed agentic operations, and continuous assurance.</p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">One operating model that helps networking and security teams act from shared context across every experience</p> </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+   </div> 
+   <p class="pBody">&nbsp;</p> 
+   <p class="pToC_Subhead2"><a name="_Toc243068730">Why fragmented controls reach a limit</a></p> 
+   <p class="pBody">Point products remain viable within their domains, but enterprise outcomes depend on how identity, policy, detection, response, and assurance connect across domains; whether identity context reaches enforcement, segmentation follows identity rather than topology, detection triggers coordinated responses, and assurance verifies that the resulting action protects both security and user experience. A collection of controls is not yet an architecture.</p> 
+   <p class="pToC_Subhead1"><a name="_Toc243068731">Desired customer outcomes</a></p> 
+   <p class="pBody"><b>Start with the business result.</b></p> 
+   <p class="pBody">Executives and business buyers enter the secure networking conversation through outcomes such as simplification, resilience, secure access, risk reduction, and secure agentic AI. These outcomes provide a common lens for security, networking, infrastructure, risk, and finance leaders to evaluate one connected architecture.</p> 
+   <div> 
+    <table border="1" cellpadding="6" cellspacing="0" width="100%" bordercolor="#ADADAD"> 
+     <thead> 
+      <tr valign="top" align="left"> 
+       <td> <p class="Cellhead1"><span style="color:white">Outcome</span></p> </td> 
+       <td> <p class="Cellhead1"><span style="color:white">What success means</span></p> </td> 
+      </tr> 
+     </thead> 
+     <tbody> 
+      <tr valign="top" align="left"> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none"><b>Operational cost reduction and simplification</b></p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">Consolidate policy and operations, reduce manual correlation, automate repeatable work, and lower the effort required to run and change the environment.</p> </td> 
+      </tr> 
+      <tr valign="top" align="left"> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none"><b>Agility, resilience, and performance</b></p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">Deploy and change services faster, keep infrastructure trustworthy, reduce recovery time, and preserve application and user experience.</p> </td> 
+      </tr> 
+      <tr valign="top" align="left"> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none"><b>Secure and consistent access</b></p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">Apply least-privilege access based on trusted identity and context across users, devices, workloads, locations, and clouds.</p> </td> 
+      </tr> 
+      <tr valign="top" align="left"> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none"><b>Compliance, risk mitigation, and security posture</b></p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">Prioritize exposure, contain lateral movement, maintain evidence, and turn policy intent into provable enforcement.</p> </td> 
+      </tr> 
+      <tr valign="top" align="left"> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none"><b>Secure agentic AI</b></p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">Discover, identify, authorize, monitor, and contain AI agents as high-privilege nonhuman identities while keeping operational AI bounded by guardrails and human control.</p> </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+   </div> 
+   <p class="pBody">&nbsp;</p> 
+   <p class="pBody"><img width="684" height="86" id="Picture 10" src="/c/dam/en/us/td/docs/solutions/CVD/Campus/Intro-Cisco-Secure-Network-Architecture.docx/_jcr_content/renditions/Intro-Cisco-Secure-Network-Architecture_0.jpg" alt="Related image, diagram or screenshot"/></p> 
+   <p class="pToC_Subhead1"><a name="_Toc243068732">Mapping functions to a Reference Architecture</a></p> 
+   <p class="pBody"><b>Mapping the three pillars and four security functions to the architectural framework.</b></p> 
+   <p class="pBody">To design a network that delivers the desired business outcomes, platform capabilities must map to the three pillars within a coherent architectural model. The design begins with Secure Infrastructure; uses Common Policy Context to identify and authorize, segment and protect, detect, and respond; and connects these functions through Unified Management and Agentic Operations with Extended Integrations.</p> 
+   <p class="pBody">Figure 1 presents the three connected pillars. Secure Infrastructure provides the foundation, Protect Every Flow is implemented through the four connected functions, and Unified Management and Agentic Operations provide assurance, automation, and action for people and AI agents. Figure 2 shows how Common Policy Context and Extended Integrations connect these functions across the architecture.</p> 
+   <div class=" pDefault">
+     Figure 1. Three-pillar view of Cisco Secure Networking 
+   </div> 
+   <p class="pBody"><img width="697" height="246" id="Picture 7" src="/c/dam/en/us/td/docs/solutions/CVD/Campus/Intro-Cisco-Secure-Network-Architecture.docx/_jcr_content/renditions/Intro-Cisco-Secure-Network-Architecture_1.jpg" alt="Related image, diagram or screenshot"/></p> 
+   <div class=" pDefault">
+     Figure 2. Architectural framework for Cisco Secure Networking 
+   </div> 
+   <p class="pBody"><img width="695" height="303" id="Picture 1" src="/c/dam/en/us/td/docs/solutions/CVD/Campus/Intro-Cisco-Secure-Network-Architecture.docx/_jcr_content/renditions/Intro-Cisco-Secure-Network-Architecture_2.jpg" alt="Related image, diagram or screenshot"/></p> 
+   <p class="pToC_Subhead1"><a name="_Toc243068733">CSN architectural layers and functions</a></p> 
+   <p class="pBody"><b><span style="font-size:11.0pt">This is Secure Infrastructure.</span></b></p> 
+   <p class="pBody">This is the foundation of the architectural model. Secure Infrastructure provides secure access, resilient connectivity, distributed enforcement, foundational telemetry, and network services that support the identity, segmentation, detection, response, and operational capabilities above it.</p> 
+   <p class="pBody">Trust the Infrastructure means more than hardening the device. Cisco establishes and sustains trust from power-on through runtime with features such as secure boot, signed images, runtime integrity, and Cisco LiveProtect, helping ensure that the device itself is uncompromised. Cisco Data Fabric brings data, telemetry, and context together to establish a Common Policy Context so every policy engine can use the same facts and the intelligent network can apply and enforce policy in a distributed manner.</p> 
+   <p class="pBody">This reference architecture defines the common design logic and interactions for Cisco Secure Networking. Deployment guides are available for specific deployment scenarios and provide product-, topology-, and release-specific implementation guidance. Teams can use the applicable deployment guide to translate the architecture into a deployable design.</p> 
+   <p class="pToC_Subhead2"><a name="_Toc243068734">The four functions of securing every flow</a></p> 
+   <p class="pBody">The four functions form a closed-loop control sequence. They are most powerful when they share identity, policy, and telemetry, but they do not have to wait for a single management plane or a complete platform migration to begin delivering value. In the architectural framework, the functions sit between Secure Infrastructure and Unified Management and Agentic Operations. Common Policy Context allows each function to use the same facts, while Extended Integrations carry policy, telemetry, and governed action beyond the core architecture.</p> 
+   <p class="pBody" style="margin-left:.5in;text-indent:-.25in">1.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp; </span><b>Identify and Authorize</b>: Continuously discover, profile, and classify users, devices, workloads, applications, services, and nonhuman identities. Assess posture and context, then grant the minimum access required. Authorization becomes a living decision rather than a one-time login event.</p> 
+   <p class="pBody" style="margin-left:.5in;text-indent:-.25in">2.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp; </span><b>Segment and Protect</b>: Translate identity and business intent into segmentation that limits unnecessary communication and is carried throughout the infrastructure. Enforce policy close to the resource across campus, branch, cloud, data center, and workload environments. Layer network, firewall, and workload controls so a single control failure does not enable unrestricted lateral movement.</p> 
+   <p class="pBody" style="margin-left:.5in;text-indent:-.25in">3.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp; </span><b>Detect</b>. Use pervasive network telemetry, encrypted traffic analytics, firewall inspection, DNS signals, workload behavior, and threat intelligence to surface anomalous communications. The goal is to reduce blind spots while preserving privacy and operational feasibility.</p> 
+   <p class="pBody" style="margin-left:.5in;text-indent:-.25in">4.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp; </span><b>Respond</b>. Correlate evidence, recommend or orchestrate the appropriate action, and contain threats close to the affected identity, endpoint, segment, workload, or flow. Response should be governed, reversible, and designed to preserve essential service.</p> 
+   <p class="pBody"><img width="695" height="111" id="Picture 27" src="/c/dam/en/us/td/docs/solutions/CVD/Campus/Intro-Cisco-Secure-Network-Architecture.docx/_jcr_content/renditions/Intro-Cisco-Secure-Network-Architecture_3.jpg" alt="Related image, diagram or screenshot"/></p> 
+   <p class="pCMTBody"><span class="BodyBold"><span style="font-size:11.0pt">Unified Management and Agentic Operations with Cisco Cloud Control</span></span></p> 
+   <p class="pBody">Cisco Cloud Control unifies inventory, topology, health, assurance, security, and operational context through one operating model. Its agentic capabilities accelerate investigation and recommend bounded actions for people and AI agents, with guardrails, auditability, approvals, and human control. Continuous assurance then verifies security efficacy, connectivity, performance, and the resulting digital experience.</p> 
+   <p class="pBody"><b><span style="font-size:11.0pt">Extended Integrations</span></b></p> 
+   <p class="pBody">Extended Integrations carry policy, telemetry, shared context, threat intelligence, and governed automation beyond the core Cisco architecture. They connect IT service management, partner SIEM and SOC platforms, supported third-party firewalls, identity providers, APIs, infrastructure as code, cloud platforms, collaboration, IoT, and AI data center environments.</p> 
+   <p class="pBody"><img width="672" height="85" id="Picture 14" src="/c/dam/en/us/td/docs/solutions/CVD/Campus/Intro-Cisco-Secure-Network-Architecture.docx/_jcr_content/renditions/Intro-Cisco-Secure-Network-Architecture_4.jpg" alt="Related image, diagram or screenshot"/></p> 
+   <p class="pToC_Subhead1"><a name="_Toc243068735">The Framework drives outcomes</a></p> 
+   <p class="pBody">The following table maps the platform outcomes to framework drivers and measurable results.</p> 
+   <div> 
+    <table border="1" cellpadding="6" cellspacing="0" width="100%" bordercolor="#ADADAD"> 
+     <thead> 
+      <tr valign="top" align="left"> 
+       <td> <p class="Cellhead1"><span style="color:white">Desired outcome</span></p> </td> 
+       <td> <p class="Cellhead1"><span style="color:white">Framework drivers</span></p> </td> 
+       <td> <p class="Cellhead1"><span style="color:white">What to measure</span></p> </td> 
+      </tr> 
+     </thead> 
+     <tbody> 
+      <tr valign="top" align="left"> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none"><span class="BodyBold">Operational cost reduction and simplification</span></p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">Unified Management and Agentic Operations; Common Policy Context; Extended Integrations</p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">Fewer manual handoffs; reduced policy duplication; faster investigation; higher change success rate; lower operating effort.</p> </td> 
+      </tr> 
+      <tr valign="top" align="left"> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none"><span class="BodyBold">Agility, resilience, and performance</span></p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">Establish Device Trust; Maintain Runtime Resilience; Respond; Assure End-to-End</p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">Faster recovery; lower change risk; resilient infrastructure; verified application reachability and experience.</p> </td> 
+      </tr> 
+      <tr valign="top" align="left"> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none"><span class="BodyBold">Secure and consistent access</span></p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">Identify and Authorize; Common Policy Context; Segment and Protect</p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">Consistent least privilege across locations and identities; fewer standing privileges; reduced unauthorized reachability.</p> </td> 
+      </tr> 
+      <tr valign="top" align="left"> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none"><span class="BodyBold">Compliance, risk mitigation, and security posture</span></p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">Strengthen Infrastructure Resilience; Assure End-to-End; Segment and Protect; Detect; Respond</p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">Smaller blast radius; prioritized exposure; faster containment; stronger cryptographic readiness and control evidence.</p> </td> 
+      </tr> 
+      <tr valign="top" align="left"> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none"><span class="BodyBold">Secure agentic AI</span></p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">Identify and Authorize; Segment and Protect; Detect; Governed Agentic Operations</p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">Discovered and governed agents; constrained resources and data; observable behavior; bounded action with people retaining control.</p> </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+   </div> 
+   <p class="pBody">&nbsp;</p> 
+   <p class="pBody"><img width="672" height="107" id="Picture 15" src="/c/dam/en/us/td/docs/solutions/CVD/Campus/Intro-Cisco-Secure-Network-Architecture.docx/_jcr_content/renditions/Intro-Cisco-Secure-Network-Architecture_5.jpg" alt="Related image, diagram or screenshot"/></p> 
+   <p class="pToC_Subhead1"><a name="_Toc243068736">Cisco products in the framework</a></p> 
+   <p class="pBody"><b>Cisco portfolio products serve the framework, not vice versa.</b></p> 
+   <p class="pBody">Cisco combines networking, identity, security, observability, and threat intelligence so controls can share context and enforce policy where traffic is created and consumed. Product choice remains deployment-specific; the framework provides the stable design logic.</p> 
+   <div> 
+    <table border="1" cellpadding="6" cellspacing="0" width="100%" bordercolor="#ADADAD"> 
+     <thead> 
+      <tr valign="top" align="left"> 
+       <td> <p class="Cellhead1"><span style="color:white">Framework capability</span></p> </td> 
+       <td> <p class="Cellhead1"><span style="color:white">Cisco portfolio examples</span></p> </td> 
+       <td> <p class="Cellhead1"><span style="color:white">Architectural value</span></p> </td> 
+      </tr> 
+     </thead> 
+     <tbody> 
+      <tr valign="top" align="left"> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none"><span class="BodyBold">Secure Infrastructure</span></p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">Catalyst switching and wireless; Cisco Secure Routers and SD-WAN; industrial platforms; Trust Anchor, SUDI, Secure Boot, signed images, runtime integrity; Cisco Live Protect; Splunk Exposure Analytics; MACsec and IPsec.</p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">A trusted, resilient, verifiable foundation for distributed enforcement, telemetry, and recovery</p> </td> 
+      </tr> 
+      <tr valign="top" align="left"> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none"><span class="BodyBold">Identify and Authorize</span></p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">Cisco ISE; Access Manager; Duo; Identity Intelligence; Secure Access; Secure Client; Cyber Vision; Secure Workload discovery.</p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">Discover and classify identities and assets, evaluate context, and make continuous least-privilege access decisions.</p> </td> 
+      </tr> 
+      <tr valign="top" align="left"> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none"><span class="BodyBold">Segment and Protect</span></p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">Software-Defined Access; TrustSec and Security Group Tags; Meraki Adaptive Policy; Secure Workload; Isovalent; Secure Firewall; Hybrid Mesh Firewall.</p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">Express business intent once, reduce attack paths, and enforce closer to users, devices, workloads, and resources.</p> </td> 
+      </tr> 
+      <tr valign="top" align="left"> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none"><span class="BodyBold">Detect</span></p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">Secure Firewall; Encrypted Traffic Analytics and Encrypted Visibility Engine; Secure Network Analytics; Secure Access DNS; Multicloud Defense; AI Defense; Cisco Talos.</p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">Combine pervasive telemetry, behavior analytics, inspection, and threat intelligence to find abnormal activity across encrypted and distributed environments.</p> </td> 
+      </tr> 
+      <tr valign="top" align="left"> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none"><span class="BodyBold">Respond</span></p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">Cisco XDR; Splunk SOAR; ISE Rapid Threat Containment and Adaptive Network Control; Secure Endpoint; Security in Cloud Control; distributed network and security enforcement.</p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">Correlate evidence and contain the affected identity, endpoint, segment, workload, or flow with governed and reversible action.</p> </td> 
+      </tr> 
+      <tr valign="top" align="left"> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none"><span class="BodyBold">Common Policy Context</span></p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">Cisco Data Fabric; Cisco ISE; Access Manager; Duo; Secure Client; Secure Workload; Security Group Tags.</p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">Carry identity, posture, role, workload, application, and risk context across policy and enforcement domains.</p> </td> 
+      </tr> 
+      <tr valign="top" align="left"> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none"><span class="BodyBold">Unified Management and Agentic Operations</span></p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">Cisco Cloud Control; Splunk; Catalyst Center; Meraki Dashboard; Nexus Dashboard; SD-WAN Manager; Secure Firewall Management Center; AI Canvas; Cisco AI Assistant; Deep Network Model; Splunk Agentic SOC; Splunk AI Assistant; ThousandEyes; Catalyst Center Assurance; Meraki Health; SD-WAN analytics; Splunk observability and security telemetry.</p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">Connects inventory, topology, health, assurance, security, and operational context. Supports investigation and bounded action, with guardrails, auditability, approvals, rollback, and human control. Verifies security efficacy, reachability, path health, policy outcomes, performance, and digital experience across owned and unowned infrastructure.</p> </td> 
+      </tr> 
+      <tr valign="top" align="left"> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none"><span class="BodyBold">Extended Integrations</span></p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">ServiceNow and other ITSM/CMDB systems; third-party SIEM/SOC platforms and firewalls; identity providers; public clouds; documented APIs; infrastructure-as-code workflows; collaboration, IoT, and AI data center ecosystems.</p> </td> 
+       <td> <p class="pChart_bodyCMT" style="font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 3pt; margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">Connects secure networking with the customer’s operating model while sharing policy, telemetry, and automation across domains.</p> </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+   </div> 
+   <p class="pBody">Portfolio names and packaging evolve. Architecture decisions should be validated against current release, licensing, interoperability, and lifecycle guidance.</p> 
+   <p class="pBody"><img width="671" height="107" id="Picture 16" src="/c/dam/en/us/td/docs/solutions/CVD/Campus/Intro-Cisco-Secure-Network-Architecture.docx/_jcr_content/renditions/Intro-Cisco-Secure-Network-Architecture_6.jpg" alt="Related image, diagram or screenshot"/></p> 
+   <p class="pToC_Subhead1"><a name="_Toc243068737">Lab testing validation and proof</a></p> 
+   <p class="pBody"><b>Evidence with clear boundaries.</b></p> 
+   <p class="pBody">Using the framework as a model, teams built a Cisco Secure Network in the lab with the goal of testing to the stated business outcomes and objectives.</p> 
+   <p class="pToC_Subhead2"><a name="_Toc243068738">What was tested</a></p> 
+   <p class="pBody">Validation procedures examined the Secure Network Reference Architecture as an integrated system rather than as a collection of isolated features. Across campus, branch, and distributed deployment models, the scope included:</p> 
+   <p class="pBulletCMT" style="font-style: normal; font-variant: normal; font-weight: normal;margin-bottom: 3pt; margin-right: 0pt; margin-top: 0pt; text-decoration: none; text-transform: none"><span style="font-size:7.0pt;font-family:&quot;Arial&quot;,sans-serif;position:relative;top:-.5pt"><span style="font:7.0pt &quot;Times New Roman&quot;">●&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Resilient connectivity, routing, availability, and failover</p> 
+   <p class="pBulletCMT" style="font-style: normal; font-variant: normal; font-weight: normal;margin-bottom: 3pt; margin-right: 0pt; margin-top: 0pt; text-decoration: none; text-transform: none"><span style="font-size:7.0pt;font-family:&quot;Arial&quot;,sans-serif;position:relative;top:-.5pt"><span style="font:7.0pt &quot;Times New Roman&quot;">●&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Scalable macrosegmentation and microsegmentation</p> 
+   <p class="pBulletCMT" style="font-style: normal; font-variant: normal; font-weight: normal;margin-bottom: 3pt; margin-right: 0pt; margin-top: 0pt; text-decoration: none; text-transform: none"><span style="font-size:7.0pt;font-family:&quot;Arial&quot;,sans-serif;position:relative;top:-.5pt"><span style="font:7.0pt &quot;Times New Roman&quot;">●&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Identity-driven access, authorization, and posture validation</p> 
+   <p class="pBulletCMT" style="font-style: normal; font-variant: normal; font-weight: normal;margin-bottom: 3pt; margin-right: 0pt; margin-top: 0pt; text-decoration: none; text-transform: none"><span style="font-size:7.0pt;font-family:&quot;Arial&quot;,sans-serif;position:relative;top:-.5pt"><span style="font:7.0pt &quot;Times New Roman&quot;">●&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Application, remote access, WAN, and cloud connectivity</p> 
+   <p class="pBulletCMT" style="font-style: normal; font-variant: normal; font-weight: normal;margin-bottom: 3pt; margin-right: 0pt; margin-top: 0pt; text-decoration: none; text-transform: none"><span style="font-size:7.0pt;font-family:&quot;Arial&quot;,sans-serif;position:relative;top:-.5pt"><span style="font:7.0pt &quot;Times New Roman&quot;">●&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Policy enforcement across network and security domains</p> 
+   <p class="pBulletCMT" style="font-style: normal; font-variant: normal; font-weight: normal;margin-bottom: 3pt; margin-right: 0pt; margin-top: 0pt; text-decoration: none; text-transform: none"><span style="font-size:7.0pt;font-family:&quot;Arial&quot;,sans-serif;position:relative;top:-.5pt"><span style="font:7.0pt &quot;Times New Roman&quot;">●&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Telemetry, observability, centralized management, and assurance</p> 
+   <p class="pBulletCMT" style="font-style: normal; font-variant: normal; font-weight: normal;margin-bottom: 3pt; margin-right: 0pt; margin-top: 0pt; text-decoration: none; text-transform: none"><span style="font-size:7.0pt;font-family:&quot;Arial&quot;,sans-serif;position:relative;top:-.5pt"><span style="font:7.0pt &quot;Times New Roman&quot;">●&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Operational workflows, including onboarding, policy changes, and service disruptions</p> 
+   <p class="pBulletCMT" style="font-style: normal; font-variant: normal; font-weight: normal;margin-bottom: 3pt; margin-right: 0pt; margin-top: 0pt; text-decoration: none; text-transform: none"><span style="font-size:7.0pt;font-family:&quot;Arial&quot;,sans-serif;position:relative;top:-.5pt"><span style="font:7.0pt &quot;Times New Roman&quot;">●&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Integrations with security, analytics, observability, and IT service-management platforms</p> 
+   <p class="pBody">Testing considered both steady-state operations and dynamic or degraded conditions to assess end-to-end architectural behavior.</p> 
+   <p class="pBody">The reference architecture establishes validated design intent; deployment guides translate that intent into implementation guidance for specific deployment scenarios.</p> 
+   <div class=" pDefault">
+     Figure 3. Architecture-to-deployment guide handoff 
+   </div> 
+   <p class="pBody"><img width="695" height="210" id="Picture 26" src="/c/dam/en/us/td/docs/solutions/CVD/Campus/Intro-Cisco-Secure-Network-Architecture.docx/_jcr_content/renditions/Intro-Cisco-Secure-Network-Architecture_7.jpg" alt="Related image, diagram or screenshot"/></p> 
+   <p class="pToC_Subhead2"><a name="_Toc243068739">What validation demonstrated</a></p> 
+   <p class="pBody">Validation demonstrates that the Secure Network Reference Architecture can deliver consistent operational and security outcomes across its architecture domains when deployed according to validated design guidance. The architecture supports resilient connectivity, scalable segmentation, identity-driven policy enforcement, and consistent access across wired, wireless, remote access, and application environments.</p> 
+   <p class="pBody">Unified Management and Agentic Operations provide lifecycle management, shared telemetry, policy orchestration, and operational assurance. Extended Integrations connect security, analytics, observability, and IT service-management platforms to support coordinated workflows and improved operational response.</p> 
+   <p class="pBody">Together, these capabilities support scalable growth, resilient operations, predictable performance, consistent policy enforcement, and operational efficiency across supported deployment models.</p> 
+   <p class="pToC_Subhead2"><a name="_Toc243068740">A proof-of-value method</a></p> 
+   <p class="pStep1CMT">1.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp; </span>Baseline the current state, including operational effort, exposure, reachability, detection and containment time, application experience, and change failure rate.</p> 
+   <p class="pStep1CMT">2.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp; </span>Select one high-value outcome and design representative normal, degraded, and adversarial scenarios.</p> 
+   <p class="pStep1CMT">3.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp; </span>Execute using the intended deployment model, identity sources, traffic paths, policy, and integrations.</p> 
+   <p class="pStep1CMT">4.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp; </span>Observe whether context is correlated across identity, network, security, and experience telemetry.</p> 
+   <p class="pStep1CMT">5.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp; </span>Contain through the intended enforcement point and verify that essential service remains available.</p> 
+   <p class="pStep1CMT">6.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp; </span>Recover or roll back, document evidence, and compare results with the baseline before scaling.</p> 
+   <p class="pToC_Subhead2"><a name="_Toc243068741">Representative scenarios</a></p> 
+   <p class="pStep1CMT">1.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp; </span>A compromised valid identity attempts lateral movement.</p> 
+   <p class="pStep1CMT">2.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp; </span>An unmanaged or industrial device initiates prohibited communications.</p> 
+   <p class="pStep1CMT">3.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp; </span>Suspicious behavior is hidden inside encrypted traffic.</p> 
+   <p class="pStep1CMT">4.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp; </span>A critical infrastructure exposure must be mitigated before a patch window.</p> 
+   <p class="pStep1CMT">5.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp; </span><b>Secure agentic AI:</b> An AI agent with valid credentials attempts to invoke an unapproved tool or access data outside its task scope. Identify the agent and owner, apply least privilege, inspect agent-to-tool traffic, detect abnormal behavior, and require bounded, auditable action with human control.</p> 
+   <div class=" pDefault">
+     Figure 4. Secure agentic AI use case workflow 
+   </div> 
+   <p class="pBody"><img width="696" height="177" src="/c/dam/en/us/td/docs/solutions/CVD/Campus/Intro-Cisco-Secure-Network-Architecture.docx/_jcr_content/renditions/Intro-Cisco-Secure-Network-Architecture_8.jpg" alt="Related image, diagram or screenshot"/></p> 
+   <p class="pToC_Subhead1"><a name="_Toc243068742">Implement framework incrementally</a></p> 
+   <p class="pBody"><b>A practical operating model.</b></p> 
+   <p class="pBody">Secure networking does not require a single cutover or a universal management plane. The framework can guide staged modernization around the customer’s highest-risk flows and most valuable outcomes. The platform approach represents the target state; the sequence below provides early evidence while building reusable identity, policy, telemetry, and automation foundations.</p> 
+   <p class="pToC_Subhead2"><a name="_Toc243068743">1. Align on outcomes and ownership</a></p> 
+   <p class="pBody">Bring NetOps, SecOps, identity, cloud, application, industrial, and service-management leaders into one decision model. Define the first outcome, the accountable owner, the risk boundary, and the measures that will determine success.</p> 
+   <p class="pToC_Subhead2"><a name="_Toc243068744">2. Establish trusted context</a></p> 
+   <p class="pBody">Inventory critical infrastructure and flows. Improve identity and asset discovery. Normalize role, posture, workload, and application context. Identify where policy translations or stale privileges create avoidable exposure.</p> 
+   <p class="pToC_Subhead2"><a name="_Toc243068745">3. Reduce reachability and improve detection</a></p> 
+   <p class="pBody">Apply segmentation to a bounded use case, add telemetry at the relevant paths, and connect detection to response. Favor controls that preserve business communication while removing unnecessary paths.</p> 
+   <p class="pToC_Subhead2"><a name="_Toc243068746">4. Automate with governance</a></p> 
+   <p class="pBody">Automate stable, repeatable actions first. Define approval thresholds, service-impact guardrails, logging, exception handling, and rollback before expanding to agentic workflows or higher-impact change.</p> 
+   <p class="pToC_Subhead2"><a name="_Toc243068747">5. Assure, learn, and scale</a></p> 
+   <p class="pBody">Verify user and application experience after every control change. Use evidence from incidents, policy exceptions, and proof-of-value testing to refine the architecture and prioritize the next domain.</p> 
+   <p class="pBody"><img width="671" height="107" id="Picture 18" src="/c/dam/en/us/td/docs/solutions/CVD/Campus/Intro-Cisco-Secure-Network-Architecture.docx/_jcr_content/renditions/Intro-Cisco-Secure-Network-Architecture_9.jpg" alt="Related image, diagram or screenshot"/></p> 
+   <p class="pToC_Subhead1"><a name="_Toc243068748">Summary: Why Cisco</a></p> 
+   <p class="pBody"><b>One architecture across network, security, and experience.</b></p> 
+   <p class="pBody">Secure networking is needed because enterprise risk now travels through the same distributed relationships that deliver the business. Users, devices, workloads, applications, APIs, and AI agents must communicate across infrastructure the enterprise does not fully own. Protecting those interactions requires more than visibility and more than a collection of perimeter controls. It requires a trusted, identity-aware, distributed, closed-loop architecture. </p> 
+   <p class="pToC_Subhead2"><a name="_Toc243068749">Cisco’s differentiated value</a></p> 
+   <p class="pStep1CMT">1.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp; </span><span class="BodyBold">The network becomes an enforcement fabric.</span> Cisco can apply identity-aware policy close to users, devices, workloads, and resources across campus, branch, data center, cloud, and remote access.</p> 
+   <p class="pStep1CMT">2.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp; </span><span class="BodyBold">Security and networking share context.</span> Identity, policy, telemetry, threat intelligence, and experience data can inform the same control loop instead of remaining trapped in separate operational domains.</p> 
+   <p class="pStep1CMT">3.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp; </span><span class="BodyBold">Trust begins below the policy layer.</span> Hardware and software integrity, runtime protection, encryption, exposure prioritization, and cryptographic readiness protect the infrastructure that carries and enforces intent.</p> 
+   <p class="pStep1CMT">4.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp; </span><span class="BodyBold">Response is distributed and experience-aware.</span> Controls can contain closer to the affected flow while assurance verifies that essential service and digital experience remain intact.</p> 
+   <p class="pStep1CMT">5.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp; </span><span class="BodyBold">Governed Agentic Operations turns connected context into action.</span> AI-assisted investigation and bounded automation can accelerate response while guardrails, auditability, approvals, rollback, and organizational policy keep people in control.</p> 
+   <p class="pStep1CMT">6.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp; </span><span class="BodyBold">The architecture accommodates choice and staged adoption.</span> Open integrations and multiple deployment models let customers extend current investments while converging on shared functions and measurable outcomes.</p> 
+   <p class="pBody">Cloud Control unifies the operating model, Data Fabric provides shared context, and resilient infrastructure provides the foundation for protecting flows and experiences.</p> 
+   <p class="pBody"><img width="695" height="111" id="Picture 19" src="/c/dam/en/us/td/docs/solutions/CVD/Campus/Intro-Cisco-Secure-Network-Architecture.docx/_jcr_content/renditions/Intro-Cisco-Secure-Network-Architecture_10.jpg" alt="Related image, diagram or screenshot"/></p> 
+  </div>  
+ </body>
+</html>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<cdc:do action="com.cisco.wem.framework.service.command.eotcontent.EOTResponsiveContent@29cbb9b1" returnTypedAs="eotResponsiveContainerVo" id="eotResponsiveContainerVo" />
+
+
+<div class="row full visitedlinks" style="padding: 0px; margin:0px">
+     <div class="col full" >
+     
+    
+    </div>
+</div>
+
+</div>
+<script>
+    if (window.cdc === undefined) {
+        cdc = {};
+    }
+
+    if (cdc.eot === undefined) {
+        cdc.eot = {};
+    }
+
+    cdc.eot.isEot = true;
+    cdc.eot.isToc = true;
+
+    jQuery(document).ready(function () {
+        if (jQuery('.unpublished').length > 0) {
+            let lastRel = "1.0";
+            if (jQuery('.published').length > 0) {
+                lastRel = Number(jQuery('.published td')[0].innerText) + 1 + ".0";
+            }
+            jQuery('.preview_revision').text(lastRel);
+        }
+
+        const linkItemsLen = jQuery("#eot-doc-wrapper link[rel='stylesheet']").length;
+
+        function addNewTocStyleSheet() {
+            let fileName="/etc/designs/cdc/transformation/wemdcmt_responsive.css",
+              $head = jQuery("head"),
+              linkElement = "<link rel='stylesheet' href='"+fileName+"' type='text/css' >";
+            $head.append(linkElement);
+        }
+
+        if (cdc.eot.isToc && !linkItemsLen) {
+            addNewTocStyleSheet();
+        } else if (cdc.eot.isEot) {
+            jQuery("#eot-doc-wrapper link[rel='stylesheet']").each(function () {
+                const linkTag = jQuery(this),
+                    hrefVal = jQuery(linkTag).attr("href");
+
+                if (hrefVal != undefined && hrefVal.indexOf("support-responsive.css") == -1 && hrefVal.indexOf("_responsive.css") == -1) {
+                    let fileName = hrefVal.substr(hrefVal.lastIndexOf("/") + 1, hrefVal.length).split(".css")[0];
+                    const filePath = "/etc/designs/cdc/transformation/";
+
+                    if (fileName == "ccimr") {
+                        fileName = "techdocs_responsive";
+                    } else if (fileName == "support-docs") {
+                        fileName = "support-responsive";
+                    } else if (fileName == "framework") {
+                        fileName = "responsiveframework";
+                    } else if (fileName == "dcmt") {
+                        fileName = "wemdcmt_responsive";
+                    } else if (fileName == "techdocs_85_11_word") {
+                        fileName = "techdocs_85_11_word";
+                        
+                        if (cdc.eot.isToc) {
+                            addNewTocStyleSheet();
+                        }
+                    } else {
+                        fileName += "_responsive";
+                    }
+                    jQuery(linkTag).attr("href", filePath + fileName + ".css");
+                }
+
+                if (hrefVal.indexOf("support-responsive.css") > -1) {
+                    jQuery(linkTag).attr("href", "/etc/designs/cdc/transformation/support-responsive.css");
+                }
+            });
+
+            jQuery("#eot-doc-wrapper > table").wrap("<div></div>");
+            jQuery("#eot-doc-wrapper table:not('.olh_note')").parent().css({
+                overflowX: "auto"
+            });
+        }
+    });
+</script>
+
+
+<div class="noprint">
+    
+
+</div>
+
+<div class="noprint">
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+ <script> console.log("Getting INVALID_TAGs from data object") </script> 
+
+</div>
+
+
+<div id="learnMore" class="noprint">
+    <h3>Learn more</h3>
+</div>
+<div class="row halves noprint">
+    <div class="col half showComponent">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="eot-vav">
+  <ul>
+  </ul>
+</div>
+    </div>
+    <!-- Fix for US251354 -->    
+    <div class="col half"></div>
+</div>
+<div class="noprint">
+    
+
+</div>
+
+
+    </div>
+</div>
+
+     <!--googleoff: index--><!--googleoff: snippet-->
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end: responsive fat footer re-use wrapper-->
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script type="module" src="/site/web-components/us/en/cdc-footer.js"></script>
+        <cdc-footer></cdc-footer>
+    
+
+<script type="text/javascript">
+    if(document.querySelector('#privacy-manager')!=null){
+        document.querySelector('#privacy-manager').href='#cookies';
+    }
+  </script>   
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="fw-overlay"></div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="/etc/designs/cdc/clientlibs/responsive/js/responsive.min.js"></script>
+
+<!-- change to new clientlib, and metricsrules if applicable -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="/etc/designs/cdc/fw/m/eot_metricsrule.js" type="text/javascript"></script>
+<script src="/etc/designs/cdc/fw/lib/jqmodal.js" type="text/javascript"></script>
+
+
+
+
+
+
+
+
+    
+    
+
+    <!-- SiteCatalyst code version: H.24.4. -->
+    <noscript><img src="//cisco.112.2o7.net/b/ss/cisco-mobile/5/12345" width="2" height="2" border="0" alt=""/></noscript>
+
+</body>
+</html>

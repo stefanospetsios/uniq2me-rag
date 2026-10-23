@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T20:46:38Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "0-source-1",
+    "type": "guidance",
+    "title": "Guidelines for system hardening",
+    "publisher": "Australian Cyber Security Centre (ACSC)",
+    "url": "https://www.cyber.gov.au/ism/2026-09/guidelines-for-system-hardening",
+    "language": "en",
+    "jurisdiction": "Australia",
+    "applicability": "Covers security controls for operating systems used on workstations and servers, including configuration hardening, patching requirements, and encryption standards. Directly addresses shared storage security and endpoint logging requirements in Section 3.2.",
+    "publicationDate": "2026-09-07",
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:830191562b888c85519a6f85e84024cb7bf8d14746d768ac7a44b21da17567b2",
+    "textDigest": "sha256:e4d19e6569c815736769f145d5ecf4306e62c251fc4e035fbd81db6fd2f44d0a",
+    "finalUrl": "https://www.cyber.gov.au/ism/2026-09/guidelines-for-system-hardening",
+    "retrievedAt": "2026-10-23T20:46:38Z",
+    "contentType": "text/html; charset=UTF-8",
+    "snapshotPath": "source-830191562b888c85519a6f85e84024cb7bf8d14746d768ac7a44b21da17567b2.bin",
+    "textPath": "source-e4d19e6569c815736769f145d5ecf4306e62c251fc4e035fbd81db6fd2f44d0a.txt"
+  },
+  "files": {
+    "snapshots/source-830191562b888c85519a6f85e84024cb7bf8d14746d768ac7a44b21da17567b2.bin": "sha256:830191562b888c85519a6f85e84024cb7bf8d14746d768ac7a44b21da17567b2",
+    "snapshots/source-e4d19e6569c815736769f145d5ecf4306e62c251fc4e035fbd81db6fd2f44d0a.txt": "sha256:e4d19e6569c815736769f145d5ecf4306e62c251fc4e035fbd81db6fd2f44d0a"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.cyber.gov.au/ism/2026-09/guidelines-for-system-hardening",
+  "language": "en",
+  "retrievedAt": "2026-10-23T20:46:38Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T20:46:38Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n\n\n\n\n\n  \n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \nGuidelines for system hardening | CGA\n\n    \n\n\n\n\n\n\n\n\n    \n\n\n\n\n\n\n\n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n\n  \n\n  \n\n                \n\n\n\n  \n\n    \n\n  \n\n  \n\n    \n\n  \n\n  \n\n    \n\n    \n\n    \n\n    \n\n    \n\n  \n\n  \n\n    \n\n  \n\n  \n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n  \n\n    \n\n  \n\n  \n\n    \n\n\n\n\n\n\n\n\n\n\n\n  \n\n  \n\n    \n\n  \n\n  \n\n    \n\n    Msn Messenger Logo Streamline Icon: https://streamlinehq.com\n  \n\n  \n\n  \n\n  \n\n    \n\n  \n\n  \n\n  \n\n  \n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n  \n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n  \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n  \n\n  \n\n    \n\n  \n\n  \n\n    \n\n  \n\n  \n\n    \n\n  \n\n  \n\n    \n\n        \n\n        \n\n        \n\n        \n\n        \n\n    \n\n  \n\n  \n\n    \n\n",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Australian Cyber Security Centre (ACSC)",
+    "host": "www.cyber.gov.au"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "ad48eeff0b3d105d994b63549f72345425a644f083c07f705dc3e44dab0c433e",
+  "cachedAt": "2026-10-23T21:52:36Z",
+  "originRunId": "qwen3-40019296746",
+  "sourceUrl": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10/html/securing_networks/setting-up-an-ipsec-vpn",
+  "finalUrl": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10/html/securing_networks/setting-up-an-ipsec-vpn",
+  "language": "en",
+  "publisher": "Red Hat, Inc.",
+  "title": "Red Hat Enterprise Linux 10: Setting up an IPsec VPN",
+  "retrievedAt": "2026-10-23T21:43:24Z",
+  "byteDigest": "sha256:7edbf215561efad8c0b623797e8319122d9b0f60b92a7149dbc1a7307d83fbf0",
+  "textDigest": "sha256:3f5094f9c81362f0cc7a3d113df46990fe8c8c20e5adae6febcd6cb507e43479",
+  "sourceId": "5-source-4",
+  "passageId": "p3",
+  "locator": "Section 6.11 reference",
+  "quotation": "If you use this host in a network with DHCP or Stateless Address Autoconfiguration (SLAAC), the connection can be vulnerable to being redirected.",
+  "originalText": "If you use this host in a network with DHCP or Stateless Address Autoconfiguration (SLAAC), the connection can be vulnerable to being redirected.",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T21:52:36Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Red Hat, Inc.",
+    "host": "docs.redhat.com"
+  }
+}

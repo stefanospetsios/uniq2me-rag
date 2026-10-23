@@ -1,43 +1,44 @@
 {
   "schemaVersion": 1,
-  "cachedAt": "2026-10-15T20:08:09Z",
-  "originRunId": "qwen3-38797190227",
+  "cachedAt": "2026-10-23T21:03:42Z",
+  "originRunId": "qwen3-40019296746",
   "source": {
-    "id": "1-source-4",
+    "id": "1-source-2",
     "type": "technical-doc",
     "title": "Plan a Privileged Identity Management deployment",
-    "publisher": "Microsoft Corporation",
+    "publisher": "Microsoft",
     "url": "https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-deployment-plan",
     "language": "en",
-    "jurisdiction": "International",
-    "applicability": "Microsoft Entra ID implementation guidance for time-bound privileged role activation, approval workflows, emergency access management, and audit trail configuration for administrator accounts",
+    "jurisdiction": "United States",
+    "applicability": "Microsoft Entra PIM deployment guidance covering separation of duties through time-bound role activation, revocation workflows, audit history management, and emergency access account configuration for privileged identities",
     "publicationDate": null,
     "effectiveDate": null,
     "redistribution": "metadata-and-short-passages",
     "sourceStatus": "fetched-awaiting-passage-check",
-    "byteDigest": "sha256:c34042e5f2dcbda2d7de4cd4050902fe2069de461364b27369485a6d174f8acb",
+    "byteDigest": "sha256:f95630ad07f76f3840dee262fd69595591d78d1512010900b4ca8a0189cb466d",
     "textDigest": "sha256:dede52a0515194f5255ab29ea4f050943422e030b2ed3dc14d6ef397e7c80f71",
     "finalUrl": "https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-deployment-plan",
-    "retrievedAt": "2026-10-15T20:08:09Z",
+    "retrievedAt": "2026-10-23T21:03:42Z",
     "contentType": "text/html",
-    "snapshotPath": "source-c34042e5f2dcbda2d7de4cd4050902fe2069de461364b27369485a6d174f8acb.bin",
+    "snapshotPath": "source-f95630ad07f76f3840dee262fd69595591d78d1512010900b4ca8a0189cb466d.bin",
     "textPath": "source-dede52a0515194f5255ab29ea4f050943422e030b2ed3dc14d6ef397e7c80f71.txt"
   },
   "files": {
-    "snapshots/source-c34042e5f2dcbda2d7de4cd4050902fe2069de461364b27369485a6d174f8acb.bin": "sha256:c34042e5f2dcbda2d7de4cd4050902fe2069de461364b27369485a6d174f8acb",
+    "snapshots/source-f95630ad07f76f3840dee262fd69595591d78d1512010900b4ca8a0189cb466d.bin": "sha256:f95630ad07f76f3840dee262fd69595591d78d1512010900b4ca8a0189cb466d",
     "snapshots/source-dede52a0515194f5255ab29ea4f050943422e030b2ed3dc14d6ef397e7c80f71.txt": "sha256:dede52a0515194f5255ab29ea4f050943422e030b2ed3dc14d6ef397e7c80f71"
   },
   "recordType": "source-document",
   "sourceUrl": "https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-deployment-plan",
   "language": "en",
-  "retrievedAt": "2026-10-15T20:08:09Z",
+  "retrievedAt": "2026-10-23T21:03:42Z",
   "foundIn": {
-    "runId": "qwen3-38797190227",
-    "sourceOriginRunId": "qwen3-38797190227",
-    "controllerCommit": "39c54e6b4bdfd6f41bbaa40f45a996e730ef6233",
-    "recordedAt": "2026-10-15T20:08:09Z",
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T21:03:42Z",
     "webRecheckedThisRun": true,
     "phase": "prepare",
+    "frameworkId": null,
     "task": null
   },
   "originalText": " \n\n\t\t\n\n\t\t\t\n\t\t\n\n\t\t\t\nPlan a Privileged Identity Management deployment - Microsoft Entra ID Governance | Microsoft Learn\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n \n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n \n\n\t\t\t\n\n\t\t\t \n\t\t\t\n\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t \n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\t\t\t\n\n\t\t\t\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\t\t\n\n\t\n\t\t\t\n\n\t\t\t\t\n\n\t\t\n\n\t\t\t\n\t\t\n\n\t\t\tSkip to main content\n\t\t\n\n\t\n\t\t\n\n\t\t\tSkip to Ask Learn chat experience\n\t\t\n\n\t\n\n\t\t\t\n\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\t\n\n\t\t\t\t\t\nThis browser is no longer supported.\n\n\n\n\t\t\t\t\t\n\n\t\t\t\t\t\tUpgrade to Microsoft Edge to take advantage of",
@@ -54,7 +55,7 @@
       "prepare"
     ],
     "status": "fetched-awaiting-passage-check",
-    "publisher": "Microsoft Corporation",
+    "publisher": "Microsoft",
     "host": "learn.microsoft.com"
   }
 }

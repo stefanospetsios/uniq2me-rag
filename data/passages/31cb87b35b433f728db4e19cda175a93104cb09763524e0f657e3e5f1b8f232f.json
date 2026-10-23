@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "31cb87b35b433f728db4e19cda175a93104cb09763524e0f657e3e5f1b8f232f",
+  "cachedAt": "2026-10-23T22:18:02Z",
+  "originRunId": "qwen3-40019296746",
+  "sourceUrl": "https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf",
+  "finalUrl": "https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf",
+  "language": "en",
+  "publisher": "European Union Agency for Cybersecurity (ENISA)",
+  "title": "ENISA Technical Implementation Guidance on Cybersecurity Risk Management Measures",
+  "retrievedAt": "2026-10-23T21:32:49Z",
+  "byteDigest": "sha256:f03186edb047ece269ab9deeb3f0ec6172582ccc577617f0eb79e9bf96a7021b",
+  "textDigest": "sha256:effbd5b01b9fc323fad9ab61fca97caa63acc7891c62076f42f8f6537096d36d",
+  "sourceId": "8-source-1",
+  "passageId": "p1",
+  "locator": "Introduction, page 11",
+  "quotation": "In addition to this overarching corporate policy, the following topic-specific, documented policies ( 8) are required. 1. Risk management policy (Annex to the regulation, point 2).",
+  "originalText": "10\n\f                                                                                          TECHNICAL IMPLEMENTATION GUIDANCE\n                                                                                                                                          June 2025, version 1.0\n\n\n\n\nIn addition to this overarching corporate policy, the following topic-specific, documented policies ( 8) are required.\n\n\n1. Risk management policy (Annex to the regulation, point 2).\n2. Incident handling policy (Annex to the regulation, point 3.1.1).\n3. Supply chain security policy (Annex to the regulation, point 5.1.1).\n4. Security testing policy",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T22:18:02Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "European Union Agency for Cybersecurity (ENISA)",
+    "host": "www.enisa.europa.eu"
+  }
+}

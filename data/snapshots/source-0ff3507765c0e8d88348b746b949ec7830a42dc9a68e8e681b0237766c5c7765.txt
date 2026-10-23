@@ -1,0 +1,790 @@
+
+
+
+
+  
+
+    
+
+    
+
+
+    
+CHIPSEC 2.0.9 — CHIPSEC  documentation
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+ 
+  
+
+    
+
+      
+Navigation
+
+
+
+      
+
+        
+
+          
+index
+
+
+
+        
+
+          
+modules
+ |
+
+
+
+        
+
+          
+next
+ |
+
+
+
+        
+CHIPSEC  documentation
+ »
+
+
+
+        
+CHIPSEC 2.0.9
+
+
+ 
+      
+
+    
+
+
+  
+
+    
+
+      
+
+        
+
+          
+
+            
+  
+
+
+CHIPSEC 2.0.9
+¶
+
+
+
+
+CHIPSEC is a framework for analyzing platform level security of
+hardware, devices, system firmware, low-level protection mechanisms, and
+the configuration of various platform components.
+
+
+
+
+It contains a set of modules, including simple tests for hardware
+protections and correct configuration, tests for vulnerabilities in
+firmware and platform components, security assessment and fuzzing tools
+for various platform devices and interfaces, and tools acquiring
+critical firmware and device artifacts.
+
+
+
+
+CHIPSEC can run on 
+Windows
+, 
+Linux
+, and 
+UEFI shell
+.
+
+
+
+
+
+
+Warning
+
+
+
+
+Chipsec should only be used on test systems!
+
+
+
+
+It should not be installed/deployed on production end-user systems.
+
+
+
+
+There are multiple reasons for that:
+
+
+
+
+1. Chipsec kernel drivers provide direct access to hardware resources to
+user-mode applications (for example, access to physical memory). When installed on
+production systems this could allow malware to access privileged hardware resources.
+
+
+
+
+2. The driver is distributed as source code. In order to load it on Operating System
+which requires kernel drivers to be signed (for example, 64 bit versions of
+Microsoft Windows 7 and higher), it is necessary to enable TestSigning (or equivalent)
+mode and sign the driver executable with test signature. Enabling TestSigning
+(or equivalent) mode turns off an important OS kernel protection and should not be done
+on production systems.
+
+
+
+
+3. Due to the nature of access to hardware, if any chipsec module issues incorrect access
+to hardware resources, Operating System can hang or panic.
+
+
+
+
+
+
+
+
+
+
+Start here
+
+
+
+
+
+
+Contact
+
+
+
+
+Download CHIPSEC
+
+
+
+
+
+
+
+
+
+
+
+
+Installation
+¶
+
+
+
+
+CHIPSEC supports Windows, Linux, DAL, and UEFI shell.
+Circumstances surrounding the target platform may change which of these
+environments is most appropriate.
+
+
+
+
+
+
+Installation
+
+
+
+
+
+
+Linux Installation
+
+
+
+
+DAL Windows Installation
+
+
+
+
+Windows Installation
+
+
+
+
+Building a Bootable USB drive with UEFI Shell (x64)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Using CHIPSEC
+¶
+
+
+
+
+CHIPSEC should be launched as Administrator/root
+
+
+
+
+CHIPSEC will automatically attempt to create and start its service,
+including load its kernel-mode driver. If CHIPSEC service is already
+running then it will attempt to connect to the existing service.
+
+
+
+
+Use 
+--no-driver
+ command-line option to skip loading the kernel
+module. This option will only work for certain commands or modules.
+
+
+
+
+
+
+Using CHIPSEC
+
+
+
+
+
+
+Interpreting results
+
+
+
+
+Running CHIPSEC
+
+
+
+
+Windows Exception Errors
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Module & Command Development
+¶
+
+
+
+
+
+
+Architecture and Modules
+
+
+
+
+
+
+Architecture Overview
+
+
+
+
+Configuration Files
+
+
+
+
+Writing Your Own Modules
+
+
+
+
+OS Helpers and Drivers
+
+
+
+
+Methods for Platform Detection
+
+
+
+
+Sample module code template
+
+
+
+
+Util Command
+
+
+
+
+CHIPSEC Modules
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Contribution and Style Guides
+¶
+
+
+
+
+
+
+Contribution Guide
+
+
+
+
+
+
+Python Version
+
+
+
+
+Python Coding Style Guide
+
+
+
+
+f-Strings
+
+
+
+
+Type Hints
+
+
+
+
+Underscores in Numeric Literals
+
+
+
+
+Walrus Operator (:=)
+
+
+
+
+Deprecate distutils module support
+
+
+
+
+Sphinx Version
+
+
+
+
+Generating Documentation
+
+
+
+
+References
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
+
+          
+
+
+
+        
+
+
+
+      
+
+
+
+      
+
+        
+
+            
+
+              
+
+            
+
+
+
+
+Table of Contents
+
+
+
+
+Start here
+
+
+
+
+
+
+Contact
+
+
+
+
+Download CHIPSEC
+
+
+
+
+
+
+Installation
+
+
+
+
+
+
+Linux Installation
+
+
+
+
+DAL Windows Installation
+
+
+
+
+Windows Installation
+
+
+
+
+Building a Bootable USB drive with UEFI Shell (x64)
+
+
+
+
+
+
+Using CHIPSEC
+
+
+
+
+
+
+Interpreting results
+
+
+
+
+Running CHIPSEC
+
+
+
+
+Windows Exception Errors
+
+
+
+
+
+
+Architecture and Modules
+
+
+
+
+
+
+Architecture Overview
+
+
+
+
+Configuration Files
+
+
+
+
+Writing Your Own Modules
+
+
+
+
+OS Helpers and Drivers
+
+
+
+
+Methods for Platform Detection
+
+
+
+
+Sample module code template
+
+
+
+
+Util Command
+
+
+
+
+CHIPSEC Modules
+
+
+
+
+
+
+Contribution Guide
+
+
+
+
+
+
+Python Version
+
+
+
+
+Python Coding Style Guide
+
+
+
+
+f-Strings
+
+
+
+
+Type Hints
+
+
+
+
+Underscores in Numeric Literals
+
+
+
+
+Walrus Operator (:=)
+
+
+
+
+Deprecate distutils module support
+
+
+
+
+Sphinx Version
+
+
+
+
+Generating Documentation
+
+
+
+
+References
+
+
+
+
+
+
+  
+
+    
+Next topic
+
+    
+Contact
+
+
+
+  
+
+
+
+
+
+  
+Quick search
+
+
+
+    
+
+    
+
+      
+
+      
+
+    
+
+    
+
+
+
+
+
+
+
+        
+
+
+
+      
+
+
+
+      
+
+
+
+    
+
+
+
+    
+
+      
+Navigation
+
+
+
+      
+
+        
+
+          
+index
+
+
+
+        
+
+          
+modules
+ |
+
+
+
+        
+
+          
+next
+ |
+
+
+
+        
+CHIPSEC  documentation
+ »
+
+
+
+        
+CHIPSEC 2.0.9
+
+
+ 
+      
+
+    
+
+
+
+    
+
+      Last updated on Sep 24, 2026.
+      Created using 
+Sphinx
+ 9.1.0.
+    
+
+
+
+  
+

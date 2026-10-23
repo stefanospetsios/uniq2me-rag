@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T22:03:17Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "7-source-2",
+    "type": "technical-doc",
+    "title": "Best practices for securing your build system",
+    "publisher": "GitHub, Inc.",
+    "url": "https://docs.github.com/en/code-security/tutorials/implement-supply-chain-best-practices/securing-builds",
+    "language": "en",
+    "jurisdiction": "United States",
+    "applicability": "Securing CI/CD pipelines including build environment isolation, artifact attestations, dependency management, and release integrity controls. Directly addresses implementation requirements for reproducible builds and secure deployment.",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:f1e725d09d015e22e161374c28763e3755574aa082dbb69ad51d4cec8b90132d",
+    "textDigest": "sha256:51382d91b82ae1e4bbfc85fc3cf15c38acc7a57a5e16251cea99ec9a4e385636",
+    "finalUrl": "https://docs.github.com/en/code-security/tutorials/implement-supply-chain-best-practices/securing-builds",
+    "retrievedAt": "2026-10-23T22:03:17Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-f1e725d09d015e22e161374c28763e3755574aa082dbb69ad51d4cec8b90132d.bin",
+    "textPath": "source-51382d91b82ae1e4bbfc85fc3cf15c38acc7a57a5e16251cea99ec9a4e385636.txt"
+  },
+  "files": {
+    "snapshots/source-f1e725d09d015e22e161374c28763e3755574aa082dbb69ad51d4cec8b90132d.bin": "sha256:f1e725d09d015e22e161374c28763e3755574aa082dbb69ad51d4cec8b90132d",
+    "snapshots/source-51382d91b82ae1e4bbfc85fc3cf15c38acc7a57a5e16251cea99ec9a4e385636.txt": "sha256:51382d91b82ae1e4bbfc85fc3cf15c38acc7a57a5e16251cea99ec9a4e385636"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://docs.github.com/en/code-security/tutorials/implement-supply-chain-best-practices/securing-builds",
+  "language": "en",
+  "retrievedAt": "2026-10-23T22:03:17Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T22:03:17Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "Best practices for securing your build system - GitHub Docs\nSkip to main content\n\n\n\n\nSkip to content\n\n\nGitHub\n \nDocs\n\n\nSearch or ask Copilot\n/\n\n\nMenu\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCollapse sidebar\n\n\nExpand sidebar\n\n\n\n\nHome\n\n\nSecurity and code quality\n\n\nTutorials\n\n\nImplement supply chain best practices\n\n\nSecure builds\n\n\n\n\n\n\n\n\n\n\nSecurity and code quality\n\n\n\n\n\n\n\n\n\n\nGetting started\n\n\nGitHub security features\n\n\n\n\nSecure repository quickstart\n\n\n\n\n\n\nConcepts\n\n\nSecret security\n\n\nSecret leakage risks\n\n\n\n\nSecret scanning\n\n\n\n\nPublic monitoring\n\n\n\n\nPush protection\n\n\n\n\nSecret security with GitHub\n\n\n\n\nSecret scanning alerts\n\n\n\n\nCustom patterns\n\n\n\n\nValidity checks\n\n\n\n\nDelegated bypass\n\n\n\n\nBypass requests\n\n\n\n\nSecret scanning for partners\n\n\n\n\nSecret types\n\n\n\n\nPush protection metrics\n\n\n\n\nCommand line push protection\n\n\n\n\nPu",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "7"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "GitHub, Inc.",
+    "host": "docs.github.com"
+  }
+}

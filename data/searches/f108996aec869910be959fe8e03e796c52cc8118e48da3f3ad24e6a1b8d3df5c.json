@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "f108996aec869910be959fe8e03e796c52cc8118e48da3f3ad24e6a1b8d3df5c",
+  "cachedAt": "2026-10-23T22:47:03Z",
+  "observedAt": "2026-10-23T22:47:03Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-C-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "C",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "maintainer technical guide API security configuration authentication protocols"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792795563793,
+    "end": 1792795565400
+  },
+  "outputDigest": "sha256:47f2ba62684167e0bdf34e47a08ec30f3eb8a8121536bb5df6cf4148d0261b08",
+  "resultUrls": [
+    "https://console.auth.maintainerd.local",
+    "https://console.auth.maintainerd.local/setup/tenant",
+    "https://console.auth.maintainerd.local/setup/tenant**",
+    "https://example.com/.well-known/openid-configuration",
+    "https://example.com/oauth/authorize",
+    "https://example.com/oauth/token",
+    "https://github.com/maintainerd/maintainerd-auth.git",
+    "https://github.com/maintainerd/maintainerd-auth/blob/main/README.md",
+    "https://github.com/maintainerd/maintainerd-auth/security",
+    "https://identity-api.auth.maintainerd.local/.well-known/openid-configuration",
+    "https://identity.auth.maintainerd.local",
+    "https://swagger.io/docs/specification/v3_0/authentication/",
+    "https://www.digital.govt.nz/dmsdocument/231~api-guidelines-part-b-api-security-2022/html"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Overview · maintainerd/maintainerd-auth · GitHub\",\n      \"url\": \"https://github.com/maintainerd/maintainerd-auth/security\",\n      \"content\": \"Overview · maintainerd/maintainerd-auth · GitHub\\n\\n## Supported Versions\\n\\n| Version | Supported |\\n| --- | --- |\\n| 1.x.x | ✅ Active support |\\n| < 1.0 | ❌ Development only |\\n\\n## Reporting a Vulnerability\\n\\nDo not open a public issue. Report security vulnerabilities privately to:\\n\\nEmail: security@maintainerd.dev\\n\\nInclude:\\n\\n- A detailed description of the vulnerability\\n- Steps to reproduce\\n- Affected versions\\n- Any potential mitigations you've identified\\n\\nWe aim to acknowledge reports within 48 hours and provide a fix timeline within 5 business days. Critical vulnerabilities are typically patched within 72 hours.\\n\\n### Trust Boundaries\\n\\n| Boundary | Description |\\n| --- | --- |\\n| Public internet → Public port (8081) | Untrusted — all inputs validated |\\n| Internal network → Management port (8080) | Semi-trusted — requires authentication |\\n| Application → Database | Encrypted via TLS in production |\\n| Application → Redis | Encrypted via TLS when REDIS_TLS is enabled |\\n| Application → External IdP | OIDC/OAuth2 with token validation |\\n| Webhook (outbound) → External services | HMAC-SHA256 signed, HTTPS only |\\n\\n### Assets\\n\\n| Asset | Sensitivity | Protection |\\n| --- | --- | --- |\\n| JWT signing keys | Critical | Secret-manager-backed, never in plaintext env |\\n| User passwords | High | Bcrypt with cost ≥ 12, constant-time comparison |\\n| Client secrets | High | Bcrypt-hashed at rest, shown once at creation |\\n| Refresh tokens | High | SHA-256 hashed at rest, rotated on use |\\n| Access tokens | Medium | Short-lived (15 min), denylist via Redis |\\n| Encryption key (AES-256) | Critical | Secret-manager-backed, exactly 32 bytes |\\n| Audit logs | High | Append-only, immutable, PII-redacted |\\n\\n### Attack Surface\\n\\n| Vector | Mitigation |\\n| --- | --- |\\n| Brute-force",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "C"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "console.auth.maintainerd.local",
+      "example.com",
+      "github.com",
+      "identity-api.auth.maintainerd.local",
+      "identity.auth.maintainerd.local",
+      "swagger.io",
+      "www.digital.govt.nz"
+    ]
+  }
+}

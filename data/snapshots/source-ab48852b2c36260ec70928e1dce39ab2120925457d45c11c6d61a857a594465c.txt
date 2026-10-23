@@ -1,0 +1,3745 @@
+
+
+
+
+
+
+
+
+  
+
+
+    
+
+    
+
+    
+
+    
+  
+
+  
+Secure Software Development, Security, and Operations (DevSecOps) Practices — Secure Software Development, Security, and Operations (DevSecOps) Practices  documentation
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+
+
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+      
+
+      
+
+      
+
+      
+
+      
+
+
+  
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+    
+
+    
+
+    
+
+    
+ 
+
+
+
+
+
+  
+    
+
+    
+        
+
+            
+
+                
+
+                
+
+            
+
+            
+
+                
+National Institute of Standards and Technology
+
+                
+
+                    
+
+                    
+
+                
+
+            
+
+        
+
+    
+    
+
+  
+  
+
+    
+
+      
+
+        
+
+
+          
+          
+          
+
+            
+
+            
+
+              
+
+              
+
+                
+
+                  
+
+                  
+
+                
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+              
+
+              
+
+
+            
+
+          
+
+          
+
+          Secure Software Development, Security, and Operations (DevSecOps) Practices
+          
+
+
+          
+
+            Go to Project Page
+          
+
+
+
+  
+
+    
+
+    
+
+    
+
+  
+
+
+
+
+
+        
+
+
+
+              
+
+
+DevSecOps Practices
+
+
+
+
+Executive Summary
+
+
+
+
+
+
+
+
+1. Introduction
+
+
+1.1. Background
+
+
+1.1.1. Development, Security, and Operations (DevSecOps)
+
+
+
+
+1.1.2. The Role of AI in Software Development
+
+
+
+
+1.1.3. The Role of Zero Trust in Software Development
+
+
+
+
+
+
+
+
+
+
+1.2. Audience
+
+
+
+
+1.3. Scope
+
+
+
+
+1.4. Challenges
+
+
+
+
+1.5. How to Use This Guide
+
+
+
+
+
+
+
+
+
+
+2. Notional Reference Model for DevSecOps for Demonstration of NIST SSDF 
+Updated
+
+
+2.1. Organizational Preparation
+
+
+
+
+2.2. Phases of the Software Development Lifecycle
+
+
+2.2.1. Plan
+
+
+
+
+2.2.2. Develop
+
+
+
+
+2.2.3. Build
+
+
+
+
+2.2.4. Test
+
+
+
+
+2.2.5. Release
+
+
+
+
+2.2.6. Deploy
+
+
+
+
+2.2.7. Operate
+
+
+
+
+
+
+
+
+
+
+2.3. Continuous Improvements, Security, and Monitoring
+
+
+
+
+2.4. Continuous Feedback
+
+
+
+
+2.5. Continuous Integration/Continuous Delivery (CI/CD) Pipeline
+
+
+
+
+2.6. Zero Trust Security
+
+
+
+
+2.7. Artificial Intelligence 
+New
+
+
+
+
+
+
+
+
+
+
+3. Mapping SSDF to DevSecOps Notional Reference Model 
+New
+
+
+3.1. Prepare the Organization (PO)
+
+
+
+
+3.2. Protect the Software (PS)
+
+
+
+
+3.3. Produce Well-Secured Software (PW)
+
+
+
+
+3.4. Respond to Vulnerabilities (RV)
+
+
+
+
+
+
+
+
+
+
+4. Example Implementations 
+Updated
+
+
+4.1. Example Implementation 1 (E1)
+
+
+4.1.1. Plan
+
+
+
+
+4.1.2. Develop
+
+
+
+
+4.1.3. Build
+
+
+
+
+4.1.4. Test
+
+
+
+
+4.1.5. Release
+
+
+
+
+4.1.6. Deploy
+
+
+
+
+4.1.7. Operate
+
+
+
+
+4.1.8. Continuous Improvements, Security, and Monitoring
+
+
+
+
+
+
+
+
+
+
+4.2. Example Implementation 2 (E2) 
+New
+
+
+4.2.1. Plan
+
+
+
+
+4.2.2. Develop
+
+
+
+
+4.2.3. Build
+
+
+
+
+4.2.4. Test
+
+
+
+
+4.2.5. Release
+
+
+
+
+4.2.6. Deploy
+
+
+
+
+4.2.7. Operate
+
+
+
+
+4.2.8. Continuous Improvements, Security, and Monitoring
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5. Functional Demonstrations 
+New
+
+
+5.1. Functional Demonstration Scenarios
+
+
+5.1.1. Phase A - Plan
+
+
+5.1.1.1. Scenario A-1: Team Collaboration
+
+
+
+
+5.1.1.2. Scenario A-2: Requirements Collection and Analysis
+
+
+
+
+5.1.1.3. Scenario A-3: Product Design
+
+
+
+
+5.1.1.4. Scenario A-4: Bug, Defect, and Issue Tracking
+
+
+
+
+5.1.1.5. Scenario A-5: Risk Management
+
+
+
+
+5.1.1.6. Scenario A-6: Threat Modeling
+
+
+
+
+5.1.1.7. Scenario A-7: Configuration Management
+
+
+
+
+5.1.1.8. Scenario A-8: Certificates, Credentials, and Secrets Management
+
+
+
+
+5.1.1.9. Scenario A-9: CI/CD Pipeline
+
+
+
+
+5.1.1.10. Scenario A-10: Zero Trust Security
+
+
+
+
+5.1.1.11. Scenario A-11: AI Components
+
+
+
+
+
+
+
+
+
+
+5.1.2. Phase B – Develop
+
+
+5.1.2.1. Scenario B-1: Software Development
+
+
+
+
+5.1.2.2. Scenario B-2: Code Analysis
+
+
+
+
+5.1.2.3. Scenario B-3: Develop Infrastructure as Code
+
+
+
+
+5.1.2.4. Scenario B-4: Source Code Management
+
+
+
+
+5.1.2.5. Scenario B-5: Securing Sensitive Information
+
+
+
+
+5.1.2.6. Scenario B-6: Firmware Development
+
+
+
+
+5.1.2.7. Scenario B-7 Artifact Signing and Verification
+
+
+
+
+5.1.2.8. Scenario B-8: Cryptographic Key Management
+
+
+
+
+5.1.2.9. Scenario B-9: Develop CI/CD Pipeline
+
+
+
+
+5.1.2.10. Scenario B-10: Zero Trust Security
+
+
+
+
+5.1.2.11. Scenario B-11: AI Components
+
+
+
+
+
+
+
+
+
+
+5.1.3. Phase C - Build
+
+
+5.1.3.1. Scenario C-1: Automate the Build Process
+
+
+
+
+5.1.3.2. Scenario C-2: Implement Isolated/Hermetic environments
+
+
+
+
+5.1.3.3. Scenario C-3: Analyze Infrastructure as Code (IaC)
+
+
+
+
+5.1.3.4. Scenario C-4: Integration of Software Libraries
+
+
+
+
+5.1.3.5. Scenario C-5: Perform Unit Testing
+
+
+
+
+5.1.3.6. Scenario C-6: Automate Security Checks, Code Analysis, and Build Processes
+
+
+
+
+5.1.3.7. Scenario C-7: Securing Sensitive Information
+
+
+
+
+5.1.3.8. Scenario C-8: Detect Exposed Credentials
+
+
+
+
+5.1.3.9. Scenario C-9: Securing Build Artifacts
+
+
+
+
+5.1.3.10. Scenario C-10: Firmware Artifact Signing and Verification
+
+
+
+
+5.1.3.11. Scenario C-11: Artifact Verification
+
+
+
+
+5.1.3.12. Scenario C-12: Creating Provenance of Generated Artifacts
+
+
+
+
+5.1.3.13. Scenario C-13: Generate and Digitally Sign Software Bill of Materials (SBOM)
+
+
+
+
+5.1.3.14. Scenario C-14: Analyze Container Images
+
+
+
+
+5.1.3.15. Scenario C-15: Zero Trust Security
+
+
+
+
+5.1.3.16. Scenario C-16: AI Components
+
+
+
+
+
+
+
+
+
+
+5.1.4. Phase D - Test
+
+
+5.1.4.1. Scenario D-1: Automate Test Execution
+
+
+
+
+5.1.4.2. Scenario D-2: Analyze IaC
+
+
+
+
+5.1.4.3. Scenario D-3: Analyze Source Code for Vulnerabilities
+
+
+
+
+5.1.4.4. Scenario D-4: Perform Unit Testing
+
+
+
+
+5.1.4.5. Scenario D-5: Perform Regression Testing
+
+
+
+
+5.1.4.6. Scenario D-6: Perform Integration Testing
+
+
+
+
+5.1.4.7. Scenario D-7: Perform Acceptance Testing
+
+
+
+
+5.1.4.8. Scenario D-8: Perform Smoke Testing
+
+
+
+
+5.1.4.9. Scenario D-9: Dynamic Application Security Testing (DAST)
+
+
+
+
+5.1.4.10. Scenario D-10: Interactive Application Security Testing (IAST)
+
+
+
+
+5.1.4.11. Scenario D-11: Perform Fuzz Testing
+
+
+
+
+5.1.4.12. Scenario D-12: Perform API Testing
+
+
+
+
+5.1.4.13. Scenario D-13: CI/CD Execution, Test, and Security Policy Verification
+
+
+
+
+5.1.4.14. Scenario D-14: Firmware Artifact Integrity Verification
+
+
+
+
+5.1.4.15. Scenario D-15: Artifact Scanning
+
+
+
+
+5.1.4.16. Scenario D-16: Assessing Data Provenance
+
+
+
+
+5.1.4.17. Scenario D-17: Verify Digitally Signed SBOM
+
+
+
+
+5.1.4.18. Scenario D-18: Zero Trust Security
+
+
+
+
+5.1.4.19. Scenario D-19: AI Components
+
+
+
+
+
+
+
+
+
+
+5.1.5. Phase E – Release
+
+
+5.1.5.1. Scenario E-1: Automation of Release and Delivery Processes
+
+
+
+
+5.1.5.2. Scenario E-2: Securing Release Artifacts
+
+
+
+
+5.1.5.3. Scenario E-3: Manage Configurations
+
+
+
+
+5.1.5.4. Scenario E-4: Manage Software Components
+
+
+
+
+5.1.5.5. Scenario E-5: Coordinate Software Releases
+
+
+
+
+5.1.5.6. Scenario E-6: Document Release Process
+
+
+
+
+5.1.5.7. Scenario E-7: Perform Smoke Testing
+
+
+
+
+5.1.5.8. Scenario E-8: Verify Release Criteria
+
+
+
+
+5.1.5.9. Scenario E-9: Analyze Running Application for Vulnerabilities
+
+
+
+
+5.1.5.10. Scenario E-10: Firmware Release Readiness
+
+
+
+
+5.1.5.11. Scenario E-11: Artifact Signing and Verification
+
+
+
+
+5.1.5.12. Scenario E-12: Analyze Container Security
+
+
+
+
+5.1.5.13. Scenario E-13: Validate Software and Data Origins
+
+
+
+
+5.1.5.14. Scenario E-14: Analyze IaC
+
+
+
+
+5.1.5.15. Scenario E-15: Zero Trust Security
+
+
+
+
+5.1.5.16. Scenario E-16: AI Components
+
+
+
+
+
+
+
+
+
+
+5.1.6. Phase F - Deploy
+
+
+5.1.6.1. Scenario F-1: Automate the Deployment Processes
+
+
+
+
+5.1.6.2. Scenario F-2: Securing Deployment Artifacts
+
+
+
+
+5.1.6.3. Scenario F-3: Manage System and Application Configurations
+
+
+
+
+5.1.6.4. Scenario F-4: Manage Software Releases
+
+
+
+
+5.1.6.5. Scenario F-5: Analyze IaC
+
+
+
+
+5.1.6.6. Scenario F-6: Manage Software Supply Chain
+
+
+
+
+5.1.6.7. Scenario F-7: Secure Firmware Deployment and Configuration
+
+
+
+
+5.1.6.8. Scenario F-8: Zero Trust Security
+
+
+
+
+5.1.6.9. Scenario F-9: AI Components
+
+
+
+
+
+
+
+
+
+
+5.1.7. Phase G - Operate
+
+
+5.1.7.1. Scenario G-1: Manage Application Environments
+
+
+
+
+5.1.7.2. Scenario G-2: Manage SBOMs for Deployed Applications
+
+
+
+
+5.1.7.3. Scenario G-3: Validate Software Artifact Integrity
+
+
+
+
+5.1.7.4. Scenario G-4: Firmware Services
+
+
+
+
+5.1.7.5. Scenario G-5: Zero Trust Security
+
+
+
+
+5.1.7.6. Scenario G-6: AI Components
+
+
+
+
+
+
+
+
+
+
+5.1.8. Phase H – Continuous Improvements, Security, and Monitoring
+
+
+5.1.8.1. Scenario H-1: Manage Environments
+
+
+
+
+5.1.8.2. Scenario H-2: Examine Outcomes
+
+
+
+
+5.1.8.3. Scenario H-3: Monitor Infrastructure and Applications
+
+
+
+
+5.1.8.4. Scenario H-4: Monitor Security
+
+
+
+
+5.1.8.5. Scenario H-5: Manage Firmware
+
+
+
+
+5.1.8.6. Scenario H-6: Zero Trust Security
+
+
+
+
+5.1.8.7. Scenario H-7: AI Components
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5.2. Functional Demonstration Results
+
+
+5.2.1. Example Implementation 1 (E1)
+
+
+5.2.1.1. E1 Plan Phase
+
+
+
+
+5.2.1.2. E1 Develop Phase
+
+
+
+
+5.2.1.3. E1 Build Phase
+
+
+
+
+5.2.1.4. E1 Test Phase
+
+
+
+
+5.2.1.5. E1 Release Phase
+
+
+
+
+5.2.1.6. E1 Deploy Phase
+
+
+
+
+5.2.1.7. E1 Operate Phase
+
+
+
+
+5.2.1.8. E1 Continuous Improvements, Security and Monitoring Phase
+
+
+
+
+
+
+
+
+
+
+5.2.2. Example Implementation 2 (E2)
+
+
+5.2.2.1. E2 Plan Phase
+
+
+
+
+5.2.2.2. E2 Develop Phase
+
+
+
+
+5.2.2.3. E2 Build Phase
+
+
+
+
+5.2.2.4. E2 Test Phase
+
+
+
+
+5.2.2.5. E2 Release Phase
+
+
+
+
+5.2.2.6. E2 Deploy Phase
+
+
+
+
+5.2.2.7. E2 Operate Phase
+
+
+
+
+5.2.2.8. E2 Continuous Improvements, Security and Monitoring Phase
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6. Next Steps
+
+
+
+
+
+
+
+
+Appendix A List of Acronyms
+
+
+
+
+Appendix B Component Description
+
+
+
+
+Appendix C SSDF Analysis 
+New
+
+
+C.1. Prepare the Organization (PO)
+
+
+C.1.1. PRACTICE (PO.1) - Define Security Requirements for Software Development:
+
+
+
+
+C.1.2. PRACTICE (PO.2) - Implement Roles and Responsibilities:
+
+
+
+
+C.1.3. PRACTICE (PO.3) - Implement Supporting Toolchains:
+
+
+
+
+C.1.4. PRACTICE (PO.4) - Define and Use Criteria for Software Security Checks:
+
+
+
+
+C.1.5. PRACTICE (PO.5) - Implement and Maintain Secure Environments for Software Development:
+
+
+
+
+
+
+
+
+
+
+C.2. Protect Software (PS)
+
+
+C.2.1. PRACTICE (PS.1) - Protect All Forms of Code from Unauthorized Access and Tampering:
+
+
+
+
+C.2.2. PRACTICE (PS.2) - Provide a Mechanism for Verifying Software Release Integrity:
+
+
+
+
+C.2.3. PRACTICE (PS.3) - Archive and Protect Each Software Release:
+
+
+
+
+
+
+
+
+
+
+C.3. Produce Well-Secured Software (PW)
+
+
+C.3.1. PRACTICE (PW.1) - Design Software to Meet Security Requirements and Mitigate Security Risks:
+
+
+
+
+C.3.2. PRACTICE (PW.2) - Review the Software Design to Verify Compliance with Security Requirements and Risk Information:
+
+
+
+
+C.3.4. PRACTICE (PW.4) - Reuse Existing, Well-Secured Software When Feasible Instead of Duplicating Functionality:
+
+
+
+
+C.3.5. PRACTICE (PW.5) - Create Source Code by Adhering to Secure Coding Practices:
+
+
+
+
+C.3.6. PRACTICE (PW.6) - Configure the Compilation, Interpreter, and Build Processes to Improve Executable Security:
+
+
+
+
+C.3.7. PRACTICE (PW.7) - Review and/or Analyze Human-Readable Code to Identify Vulnerabilities and Verify Compliance with Security Requirements:
+
+
+
+
+C.3.8. PRACTICE (PW.8) - Test Executable Code to Identify Vulnerabilities and Verify Compliance with Security Requirements:
+
+
+
+
+C.3.9. PRACTICE (PW.9) - Configure Software to Have Secure Settings by Default:
+
+
+
+
+
+
+
+
+
+
+C.4. Respond to Vulnerabilities (RV)
+
+
+C.4.1. PRACTICE (RV.1) - Identify and Confirm Vulnerabilities on an Ongoing Basis:
+
+
+
+
+C.4.2. PRACTICE (RV.2) - Assess, Prioritize, and Remediate Vulnerabilities:
+
+
+
+
+C.4.3. PRACTICE (RV.3) - Analyze Vulnerabilities to Identify Their Root Causes:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Appendix D Collaborators and their Contribution
+
+
+D.1. AMI
+
+
+D.1.1. Meridian Firmware Management Service
+
+
+
+
+D.1.2. Meridian Security Services: VMS and SBOM
+
+
+
+
+
+
+
+
+
+
+D.2. Black Duck
+
+
+D.2.1. Polaris Platform
+
+
+
+
+D.2.2. Black Duck SCA
+
+
+
+
+D.2.3. Black Duck Coverity
+
+
+
+
+D.2.4. Continuous Dynamic
+
+
+
+
+D.2.5. Software Risk Manager (SRM)
+
+
+
+
+
+
+
+
+
+
+D.3. CyberArk Software
+
+
+D.3.1. CyberArk Privilege Cloud
+
+
+
+
+D.3.2. CyberArk Endpoint Privilege Manager
+
+
+
+
+D.3.3. CyberArk Code Sign Manager
+
+
+
+
+D.3.4. CyberArk Secrets Hub
+
+
+
+
+D.3.5. CyberArk Conjur Cloud
+
+
+
+
+D.3.6. CyberArk Workload Identity
+
+
+
+
+D.3.7. CyberArk Certificate Manager SaaS
+
+
+
+
+D.3.8. CyberArk Certificate Manager (Self-Hosted)
+
+
+
+
+D.3.9. CyberArk Certificate Manager for Kubernetes
+
+
+
+
+
+
+
+
+
+
+D.4. Dell Technologies
+
+
+
+
+D.5. DigiCert
+
+
+D.5.1. DigiCert Software Trust Manager
+
+
+
+
+
+
+
+
+
+
+D.6. Endor Labs
+
+
+D.6.1. Reachability-Based SCA
+
+
+
+
+D.6.2. Endor Code (SAST + Secret Scanning)
+
+
+
+
+D.6.3. Container Scanning
+
+
+
+
+D.6.4. Endor Patches
+
+
+
+
+D.6.5. AI Code Security Review
+
+
+
+
+
+
+
+
+
+
+D.7. GitLab
+
+
+D.7.1. The GitLab Platform
+
+
+
+
+D.7.2. GitLab Duo (AI)
+
+
+
+
+
+
+
+
+
+
+D.8. Google
+
+
+D.8.1. Cloud Workstations
+
+
+
+
+D.8.2. Google Cloud Build
+
+
+
+
+D.8.3. Artifact Registry and Artifact Analysis
+
+
+
+
+D.8.4. Binary Authorization
+
+
+
+
+D.8.5. Cloud Deploy
+
+
+
+
+D.8.6. Google Kubernetes Engine
+
+
+
+
+D.8.7. Cloud Run
+
+
+
+
+D.8.8. Security Command Center
+
+
+
+
+D.8.9. deps.dev
+
+
+
+
+
+
+
+
+
+
+D.9. IBM
+
+
+D.9.1 IBM Cloud and DevSecOps
+
+
+
+
+D.9.2 IBM Cloud Continuous Delivery
+
+
+
+
+D.9.3 IBM Cloud Container Registry and Vulnerability Advisor
+
+
+
+
+D.9.4 IBM Cloud Kubernetes Service and Red Hat OpenShift Services
+
+
+
+
+D.9.5 IBM Cloud Secrets Manager
+
+
+
+
+D.9.6 IBM Cloud Key Protect
+
+
+
+
+D.9.7 IBM Cloud Object Storage (S3‑Compatible)
+
+
+
+
+
+
+
+
+
+
+D.10. Microsoft and GitHub Advanced Security (GHAzDO)
+
+
+D.10.1. Azure Container Registry (ACR)
+
+
+
+
+D.10.2. Azure DevOps (AzDO)
+
+
+
+
+D.10.3. Azure Entra ID
+
+
+
+
+D.10.4. Azure Key Vault (AKV)
+
+
+
+
+D.10.5. Azure Managed DevOps Pool (MDP)
+
+
+
+
+D.10.6. Azure Privileged Identity Management (PIM)
+
+
+
+
+D.10.7. Azure Sentinel
+
+
+
+
+D.10.8. Bicep and Azure Resource Manager (ARM)
+
+
+
+
+D.10.9. GitHub Advanced Security (GHAS)
+
+
+
+
+D.10.10. GitHub Copilot
+
+
+
+
+D.10.11. IDEs – Visual Studio and Visual Studio Code (VS Code)
+
+
+
+
+D.10.12. Microsoft Defender for Cloud (MDC)
+
+
+
+
+D.10.13. Microsoft SBOM Tool
+
+
+
+
+D.10.14. Notary Project
+
+
+
+
+
+
+
+
+
+
+D.11. NextLabs
+
+
+D.11.1. NextLabs CloudAz Zero Trust Policy Platform
+
+
+
+
+D.11.2. NextLabs Policy Enforcer
+
+
+D.11.2.1. Application Enforcer – Externalized Authorization Management & ABAC
+
+
+
+
+D.11.2.2. Data Access Enforcer – Secure Global Data Access
+
+
+
+
+D.11.2.3. SkyDRM – Enterprise Digital Rights Management
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+D.12. Palo Alto Networks
+
+
+D.12.1. Cortex Cloud Security Platform
+
+
+
+
+
+
+
+
+
+
+D.13. Resilience Cyber Security
+
+
+D.13.1. Attestation Store
+
+
+
+
+D.13.2. Policy As Code Engine
+
+
+
+
+D.13.3. AI Workflows
+
+
+
+
+
+
+
+
+
+
+D.14. Sagittal AI
+
+
+D.14.1. Neo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Appendix E Change Log 
+Updated
+
+
+
+
+
+
+        
+
+
+
+      
+
+
+
+    
+
+
+    
+
+          
+
+          
+Secure Software Development, Security, and Operations (DevSecOps) Practices
+
+      
+
+
+      
+
+        
+
+          
+
+  
+
+      
+
+
+
+      
+Secure Software Development, Security, and Operations (DevSecOps) Practices
+
+
+
+      
+
+            
+ View page source
+
+      
+
+
+
+  
+
+  
+
+
+
+
+
+          
+
+           
+
+             
+  
+
+
+
+
+Secure Software Development, Security, and Operations (DevSecOps) Practices
+
+
+ 
+
+
+Secure Software Development, Security, and Operations (DevSecOps) Practices
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+September 2026
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This publication is available free of charge from 
+https://www.nccoe.nist.gov/projects/secure-software-development-security-and-operations-devsecops-practices
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Alper Kerman
+
+
+
+
+Michael Ogata
+
+
+
+
+National Institute of Standards and Technology
+
+
+
+
+
+
+
+
+
+
+Drew Buttner
+
+
+
+
+Parisa Grayeli
+
+
+
+
+Joshua Klosterman
+
+
+
+
+Phillip Millwee
+
+
+
+
+Deanna Stanley
+
+
+
+
+Allen Tan
+
+
+
+
+The MITRE Corporation
+
+
+
+
+
+
+
+
+
+
+William Barker
+
+
+
+
+Dakota Consulting
+
+
+
+
+
+
+
+
+
+
+Sudan Ayanam
+
+
+
+
+Stefano Righi
+
+
+
+
+AMI
+
+
+
+
+
+
+
+
+
+
+Chrissa Constantine
+
+
+
+
+Tim Mackey
+
+
+
+
+Black Duck
+
+
+
+
+
+
+
+
+
+
+James Imanian
+
+
+
+
+CyberArk
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Daniel Carroll
+
+
+
+
+Daniel Jackson
+
+
+
+
+Dell Technologies
+
+
+
+
+
+
+
+
+
+
+Dean Coclin
+
+
+
+
+Dave Roche
+
+
+
+
+DigiCert
+
+
+
+
+
+
+
+
+
+
+Matt Brown
+
+
+
+
+Tom Gleason
+
+
+
+
+Endor Labs
+
+
+
+
+
+
+
+
+
+
+MaryGrace Wajda
+
+
+
+
+GitLab
+
+
+
+
+
+
+
+
+
+
+Isaac Hepworth
+
+
+
+
+Brandon Lum
+
+
+
+
+Google
+
+
+
+
+
+
+
+
+
+
+Philippe Mulet
+
+
+
+
+Harmeet Singh
+
+
+
+
+IBM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tal De La Rosa
+
+
+
+
+Segu Riluvan
+
+
+
+
+Mark Svancarek
+
+
+
+
+Microsoft
+
+
+
+
+
+
+
+
+
+
+Keng Lim
+
+
+
+
+Sameer Shukla
+
+
+
+
+NextLabs
+
+
+
+
+
+
+
+
+
+
+Chima Onukwuru
+
+
+
+
+Neil Roxburgh
+
+
+
+
+Palo Alto Networks
+
+
+
+
+
+
+
+
+
+
+Guy Chernobrov
+
+
+
+
+Daniel Nebenzahl
+
+
+
+
+Resilience Cyber Security
+
+
+
+
+
+
+
+
+
+
+Jose Palazon
+
+
+
+
+Michael Smith
+
+
+
+
+Sagittal AI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+National Institute of Standards and Technology
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DevSecOps Practices
+
+
+
+
+Executive Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. Introduction
+
+
+1.1. Background
+
+
+1.1.1. Development, Security, and Operations (DevSecOps)
+
+
+
+
+1.1.2. The Role of AI in Software Development
+
+
+
+
+1.1.3. The Role of Zero Trust in Software Development
+
+
+
+
+
+
+
+
+
+
+1.2. Audience
+
+
+
+
+1.3. Scope
+
+
+
+
+1.4. Challenges
+
+
+
+
+1.5. How to Use This Guide
+
+
+
+
+
+
+
+
+
+
+2. Notional Reference Model for DevSecOps for Demonstration of NIST SSDF 
+Updated
+
+
+2.1. Organizational Preparation
+
+
+
+
+2.2. Phases of the Software Development Lifecycle
+
+
+2.2.1. Plan
+
+
+
+
+2.2.2. Develop
+
+
+
+
+2.2.3. Build
+
+
+
+
+2.2.4. Test
+
+
+
+
+2.2.5. Release
+
+
+
+
+2.2.6. Deploy
+
+
+
+
+2.2.7. Operate
+
+
+
+
+
+
+
+
+
+
+2.3. Continuous Improvements, Security, and Monitoring
+
+
+
+
+2.4. Continuous Feedback
+
+
+
+
+2.5. Continuous Integration/Continuous Delivery (CI/CD) Pipeline
+
+
+
+
+2.6. Zero Trust Security
+
+
+
+
+2.7. Artificial Intelligence 
+New
+
+
+
+
+
+
+
+
+
+
+3. Mapping SSDF to DevSecOps Notional Reference Model 
+New
+
+
+3.1. Prepare the Organization (PO)
+
+
+
+
+3.2. Protect the Software (PS)
+
+
+
+
+3.3. Produce Well-Secured Software (PW)
+
+
+
+
+3.4. Respond to Vulnerabilities (RV)
+
+
+
+
+
+
+
+
+
+
+4. Example Implementations 
+Updated
+
+
+4.1. Example Implementation 1 (E1)
+
+
+4.1.1. Plan
+
+
+
+
+4.1.2. Develop
+
+
+
+
+4.1.3. Build
+
+
+
+
+4.1.4. Test
+
+
+
+
+4.1.5. Release
+
+
+
+
+4.1.6. Deploy
+
+
+
+
+4.1.7. Operate
+
+
+
+
+4.1.8. Continuous Improvements, Security, and Monitoring
+
+
+
+
+
+
+
+
+
+
+4.2. Example Implementation 2 (E2) 
+New
+
+
+4.2.1. Plan
+
+
+
+
+4.2.2. Develop
+
+
+
+
+4.2.3. Build
+
+
+
+
+4.2.4. Test
+
+
+
+
+4.2.5. Release
+
+
+
+
+4.2.6. Deploy
+
+
+
+
+4.2.7. Operate
+
+
+
+
+4.2.8. Continuous Improvements, Security, and Monitoring
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5. Functional Demonstrations 
+New
+
+
+
+
+
+
+
+
+6. Next Steps
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Appendix A List of Acronyms
+
+
+
+
+Appendix B Component Description
+
+
+
+
+Appendix C SSDF Analysis 
+New
+
+
+C.1. Prepare the Organization (PO)
+
+
+C.1.1. PRACTICE (PO.1) - Define Security Requirements for Software Development:
+
+
+
+
+C.1.2. PRACTICE (PO.2) - Implement Roles and Responsibilities:
+
+
+
+
+C.1.3. PRACTICE (PO.3) - Implement Supporting Toolchains:
+
+
+
+
+C.1.4. PRACTICE (PO.4) - Define and Use Criteria for Software Security Checks:
+
+
+
+
+C.1.5. PRACTICE (PO.5) - Implement and Maintain Secure Environments for Software Development:
+
+
+
+
+
+
+
+
+
+
+C.2. Protect Software (PS)
+
+
+C.2.1. PRACTICE (PS.1) - Protect All Forms of Code from Unauthorized Access and Tampering:
+
+
+
+
+C.2.2. PRACTICE (PS.2) - Provide a Mechanism for Verifying Software Release Integrity:
+
+
+
+
+C.2.3. PRACTICE (PS.3) - Archive and Protect Each Software Release:
+
+
+
+
+
+
+
+
+
+
+C.3. Produce Well-Secured Software (PW)
+
+
+C.3.1. PRACTICE (PW.1) - Design Software to Meet Security Requirements and Mitigate Security Risks:
+
+
+
+
+C.3.2. PRACTICE (PW.2) - Review the Software Design to Verify Compliance with Security Requirements and Risk Information:
+
+
+
+
+C.3.4. PRACTICE (PW.4) - Reuse Existing, Well-Secured Software When Feasible Instead of Duplicating Functionality:
+
+
+
+
+C.3.5. PRACTICE (PW.5) - Create Source Code by Adhering to Secure Coding Practices:
+
+
+
+
+C.3.6. PRACTICE (PW.6) - Configure the Compilation, Interpreter, and Build Processes to Improve Executable Security:
+
+
+
+
+C.3.7. PRACTICE (PW.7) - Review and/or Analyze Human-Readable Code to Identify Vulnerabilities and Verify Compliance with Security Requirements:
+
+
+
+
+C.3.8. PRACTICE (PW.8) - Test Executable Code to Identify Vulnerabilities and Verify Compliance with Security Requirements:
+
+
+
+
+C.3.9. PRACTICE (PW.9) - Configure Software to Have Secure Settings by Default:
+
+
+
+
+
+
+
+
+
+
+C.4. Respond to Vulnerabilities (RV)
+
+
+C.4.1. PRACTICE (RV.1) - Identify and Confirm Vulnerabilities on an Ongoing Basis:
+
+
+
+
+C.4.2. PRACTICE (RV.2) - Assess, Prioritize, and Remediate Vulnerabilities:
+
+
+
+
+C.4.3. PRACTICE (RV.3) - Analyze Vulnerabilities to Identify Their Root Causes:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Appendix D Collaborators and their Contribution
+
+
+D.1. AMI
+
+
+D.1.1. Meridian Firmware Management Service
+
+
+
+
+D.1.2. Meridian Security Services: VMS and SBOM
+
+
+
+
+
+
+
+
+
+
+D.2. Black Duck
+
+
+D.2.1. Polaris Platform
+
+
+
+
+D.2.2. Black Duck SCA
+
+
+
+
+D.2.3. Black Duck Coverity
+
+
+
+
+D.2.4. Continuous Dynamic
+
+
+
+
+D.2.5. Software Risk Manager (SRM)
+
+
+
+
+
+
+
+
+
+
+D.3. CyberArk Software
+
+
+D.3.1. CyberArk Privilege Cloud
+
+
+
+
+D.3.2. CyberArk Endpoint Privilege Manager
+
+
+
+
+D.3.3. CyberArk Code Sign Manager
+
+
+
+
+D.3.4. CyberArk Secrets Hub
+
+
+
+
+D.3.5. CyberArk Conjur Cloud
+
+
+
+
+D.3.6. CyberArk Workload Identity
+
+
+
+
+D.3.7. CyberArk Certificate Manager SaaS
+
+
+
+
+D.3.8. CyberArk Certificate Manager (Self-Hosted)
+
+
+
+
+D.3.9. CyberArk Certificate Manager for Kubernetes
+
+
+
+
+
+
+
+
+
+
+D.4. Dell Technologies
+
+
+
+
+D.5. DigiCert
+
+
+D.5.1. DigiCert Software Trust Manager
+
+
+
+
+
+
+
+
+
+
+D.6. Endor Labs
+
+
+D.6.1. Reachability-Based SCA
+
+
+
+
+D.6.2. Endor Code (SAST + Secret Scanning)
+
+
+
+
+D.6.3. Container Scanning
+
+
+
+
+D.6.4. Endor Patches
+
+
+
+
+D.6.5. AI Code Security Review
+
+
+
+
+
+
+
+
+
+
+D.7. GitLab
+
+
+D.7.1. The GitLab Platform
+
+
+
+
+D.7.2. GitLab Duo (AI)
+
+
+
+
+
+
+
+
+
+
+D.8. Google
+
+
+D.8.1. Cloud Workstations
+
+
+
+
+D.8.2. Google Cloud Build
+
+
+
+
+D.8.3. Artifact Registry and Artifact Analysis
+
+
+
+
+D.8.4. Binary Authorization
+
+
+
+
+D.8.5. Cloud Deploy
+
+
+
+
+D.8.6. Google Kubernetes Engine
+
+
+
+
+D.8.7. Cloud Run
+
+
+
+
+D.8.8. Security Command Center
+
+
+
+
+D.8.9. deps.dev
+
+
+
+
+
+
+
+
+
+
+D.9. IBM
+
+
+D.9.1 IBM Cloud and DevSecOps
+
+
+
+
+D.9.2 IBM Cloud Continuous Delivery
+
+
+
+
+D.9.3 IBM Cloud Container Registry and Vulnerability Advisor
+
+
+
+
+D.9.4 IBM Cloud Kubernetes Service and Red Hat OpenShift Services
+
+
+
+
+D.9.5 IBM Cloud Secrets Manager
+
+
+
+
+D.9.6 IBM Cloud Key Protect
+
+
+
+
+D.9.7 IBM Cloud Object Storage (S3‑Compatible)
+
+
+
+
+
+
+
+
+
+
+D.10. Microsoft and GitHub Advanced Security (GHAzDO)
+
+
+D.10.1. Azure Container Registry (ACR)
+
+
+
+
+D.10.2. Azure DevOps (AzDO)
+
+
+
+
+D.10.3. Azure Entra ID
+
+
+
+
+D.10.4. Azure Key Vault (AKV)
+
+
+
+
+D.10.5. Azure Managed DevOps Pool (MDP)
+
+
+
+
+D.10.6. Azure Privileged Identity Management (PIM)
+
+
+
+
+D.10.7. Azure Sentinel
+
+
+
+
+D.10.8. Bicep and Azure Resource Manager (ARM)
+
+
+
+
+D.10.9. GitHub Advanced Security (GHAS)
+
+
+
+
+D.10.10. GitHub Copilot
+
+
+
+
+D.10.11. IDEs – Visual Studio and Visual Studio Code (VS Code)
+
+
+
+
+D.10.12. Microsoft Defender for Cloud (MDC)
+
+
+
+
+D.10.13. Microsoft SBOM Tool
+
+
+
+
+D.10.14. Notary Project
+
+
+
+
+
+
+
+
+
+
+D.11. NextLabs
+
+
+D.11.1. NextLabs CloudAz Zero Trust Policy Platform
+
+
+
+
+D.11.2. NextLabs Policy Enforcer
+
+
+D.11.2.1. Application Enforcer – Externalized Authorization Management & ABAC
+
+
+
+
+D.11.2.2. Data Access Enforcer – Secure Global Data Access
+
+
+
+
+D.11.2.3. SkyDRM – Enterprise Digital Rights Management
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+D.12. Palo Alto Networks
+
+
+D.12.1. Cortex Cloud Security Platform
+
+
+
+
+
+
+
+
+
+
+D.13. Resilience Cyber Security
+
+
+D.13.1. Attestation Store
+
+
+
+
+D.13.2. Policy As Code Engine
+
+
+
+
+D.13.3. AI Workflows
+
+
+
+
+
+
+
+
+
+
+D.14. Sagittal AI
+
+
+D.14.1. Neo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Appendix E Change Log 
+Updated
+
+
+
+
+
+
+
+
+
+
+
+
+
+           
+
+
+
+          
+
+
+
+          
+
+        
+Next 
+
+    
+
+
+
+
+  
+
+
+  
+
+    
+
+
+
+  
+
+
+
+
+
+
+
+        
+
+
+
+      
+
+
+
+      
+
+  
+
+    
+
+      
+
+        
+
+          
+Site Privacy
+
+        
+
+
+
+        
+
+          
+Accessibility
+
+        
+
+
+
+        
+
+          
+Privacy Program
+
+        
+
+
+
+        
+
+          
+Copyrights
+
+        
+
+
+
+        
+
+          
+Vulnerability Disclosure
+
+        
+
+
+
+        
+
+          
+No Fear Act Policy
+
+        
+
+
+
+        
+
+          
+FOIA
+
+        
+
+
+
+        
+
+          
+Environmental Policy
+
+        
+
+
+
+        
+
+          
+Scientific Integrity
+
+        
+
+
+
+        
+
+          
+Information Quality Standards
+
+        
+
+
+
+        
+
+          
+Commerce.gov
+
+        
+
+
+
+        
+
+          
+Science.gov
+
+        
+
+
+
+        
+
+          
+USA.gov
+
+        
+
+
+
+        
+
+          
+Vote.gov
+
+        
+
+
+
+      
+
+    
+
+
+
+  
+
+
+
+  
+
+    
+
+      
+
+    
+
+  
+
+
+
+
+
+    
+
+  
+
+
+
+  
+
+  
+  
+
+
+    
+
+    
+ 
+
+
+
+
+

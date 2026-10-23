@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "27042963fb1dfa17c61b4a2e393454db8a315c92a99cf471288468d0797b5616",
+  "cachedAt": "2026-10-23T23:09:09Z",
+  "observedAt": "2026-10-23T23:09:09Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-E-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "E",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "AI-Oriented Ethics Training Implementation official maintainer technical documentation",
+    "time_range": ""
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792796909204,
+    "end": 1792796910122
+  },
+  "outputDigest": "sha256:dd016f351d18027421401748ea5e15c99f936e87cdb038e55a4dd23fb83d08e4",
+  "resultUrls": [
+    "https://aethics.ai/courses",
+    "https://axis-intelligence.com/ai-ethics-implementation-corporate-guide/",
+    "https://dl.acm.org/doi/fullHtml/10.1145/3674805.3686679",
+    "https://ethicsinaction.ieee.org/",
+    "https://github.com/ethicalml/awesome-artificial-intelligence-regulation",
+    "https://inferensys.com/guides/ai-ethics-officers-and-governance-boards/launching-an-ai-ethics-training-program-for-technical-teams",
+    "https://inferensys.com/guides/ethics-and-bias-mitigation-in-high-stakes-ai/launching-an-ai-ethics-governance-program-for-technical-leaders",
+    "https://www.turing.ac.uk/research/research-projects/ai-ethics-and-governance-practice"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"AI-Oriented Ethics Training Implementation official maintainer technical documentation\",\n  \"results\": [\n    {\n      \"title\": \"Awesome AI Regulation, Principles & Guidelines - GitHub\",\n      \"url\": \"https://github.com/ethicalml/awesome-artificial-intelligence-regulation\",\n      \"content\": \"This repository aims to simplify this by mapping the ecosystem of guidelines, principles, codes of ethics, standards and regulation being put in ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"How to Launch an AI Ethics Training Program for Engineers\",\n      \"url\": \"https://inferensys.com/guides/ai-ethics-officers-and-governance-boards/launching-an-ai-ethics-training-program-for-technical-teams\",\n      \"content\": \"An AI ethics training program transforms abstract principles into daily engineering practice. It equips technical teams with the skills to identify bias in training data, implement explainability techniques like SHAP or LIME, and design systems that respect privacy and fairness by default.\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Documenting Ethical Considerations in Open Source AI Models\",\n      \"url\": \"https://dl.acm.org/doi/fullHtml/10.1145/3674805.3686679\",\n      \"content\": \"2 RELATED WORK 2.1 Ethics in Software Engineering 2.2 Machine Learning Documentation ... development of a set of keywords to detect ethical content within AI ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Launching an AI Ethics Governance Program for Technical Leaders\",\n      \"url\": \"https://inferensys.com/guides/ethics-and-bias-mitigation-in-high-stakes-ai/launching-an-ai-ethics-governance-program-for-technical-leaders\",\n      \"content\": \"Step-by-step guide for technical leaders to establish a formal AI ethics governance program. Covers defining the AI Ethics Officer role, chartering a review board, and implementing ethical impact assessments.\",\n      \"engines\": [\n        \"du",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "E"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "aethics.ai",
+      "axis-intelligence.com",
+      "dl.acm.org",
+      "ethicsinaction.ieee.org",
+      "github.com",
+      "inferensys.com",
+      "www.turing.ac.uk"
+    ]
+  }
+}

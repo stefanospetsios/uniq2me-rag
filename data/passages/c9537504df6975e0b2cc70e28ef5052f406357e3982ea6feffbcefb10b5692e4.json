@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "c9537504df6975e0b2cc70e28ef5052f406357e3982ea6feffbcefb10b5692e4",
+  "cachedAt": "2026-10-23T21:52:36Z",
+  "originRunId": "qwen3-40019296746",
+  "sourceUrl": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10/html/securing_networks/setting-up-an-ipsec-vpn",
+  "finalUrl": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10/html/securing_networks/setting-up-an-ipsec-vpn",
+  "language": "en",
+  "publisher": "Red Hat, Inc.",
+  "title": "Red Hat Enterprise Linux 10: Setting up an IPsec VPN",
+  "retrievedAt": "2026-10-23T21:43:24Z",
+  "byteDigest": "sha256:7edbf215561efad8c0b623797e8319122d9b0f60b92a7149dbc1a7307d83fbf0",
+  "textDigest": "sha256:3f5094f9c81362f0cc7a3d113df46990fe8c8c20e5adae6febcd6cb507e43479",
+  "sourceId": "5-source-4",
+  "passageId": "p2",
+  "locator": "Section 6.5.1",
+  "quotation": "the gateway verifies that client certificates are issued by the same trusted CA and automatically uses a certificate revocation list (CRL) to ensure access is denied for any revoked certificates.",
+  "originalText": "the gateway verifies that client certificates are issued by the same trusted CA and automatically uses a certificate revocation list (CRL) to ensure access is denied for any revoked certificates.",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T21:52:36Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Red Hat, Inc.",
+    "host": "docs.redhat.com"
+  }
+}

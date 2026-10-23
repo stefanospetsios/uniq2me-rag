@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T23:01:30Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "D-source-4",
+    "type": "guidance",
+    "title": "Google Open Source Security Recommendations",
+    "publisher": "Google LLC",
+    "url": "https://opensource.google/documentation/reference/github/security",
+    "language": "en",
+    "jurisdiction": "United States",
+    "applicability": "Open source project maintainers requiring implementation of branch protection, role-based review requirements, signed commits, and security policy frameworks",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:30dd087079e9d7cce80c5a518f7688dbca670116187c9b2a8b1f6d47b5f4035c",
+    "textDigest": "sha256:430d5367e182f816a83b1fe42ba76f0759bca115078ba9d00d2e6075f74eb60e",
+    "finalUrl": "https://opensource.google/documentation/reference/github/security",
+    "retrievedAt": "2026-10-23T23:01:30Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-30dd087079e9d7cce80c5a518f7688dbca670116187c9b2a8b1f6d47b5f4035c.bin",
+    "textPath": "source-430d5367e182f816a83b1fe42ba76f0759bca115078ba9d00d2e6075f74eb60e.txt"
+  },
+  "files": {
+    "snapshots/source-30dd087079e9d7cce80c5a518f7688dbca670116187c9b2a8b1f6d47b5f4035c.bin": "sha256:30dd087079e9d7cce80c5a518f7688dbca670116187c9b2a8b1f6d47b5f4035c",
+    "snapshots/source-430d5367e182f816a83b1fe42ba76f0759bca115078ba9d00d2e6075f74eb60e.txt": "sha256:430d5367e182f816a83b1fe42ba76f0759bca115078ba9d00d2e6075f74eb60e"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://opensource.google/documentation/reference/github/security",
+  "language": "en",
+  "retrievedAt": "2026-10-23T23:01:30Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T23:01:30Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n      \n\n      \n\n    \n\n      \nSecurity Recommendations  |  Google Open Source\n\n\n\n\n  \n\n  \n\n  \n\n\n    \n\n  \n\n  \n    \n\n  \n  \n    \n\n      \n      Skip to main content\n    \n\n    \n\n      \n\n        \n\n  \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n    \n\n      \n\n        \n\n        \n\n        \n\n\n\n  \n\n  \n  \n\n    \n    \n\n  \n\n  \n\n\n\n\n\n\n\n\n\n        \n\n          \n\n            \n              \n              \n  \n\n\n    \n\n      \n        \n          \n\n            \n    \n\n    Events\n  \n    \n\n    \n  \n          \n\n        \n      \n        \n          \n\n            \n    \n\n    Projects\n  \n    \n\n    \n  \n          \n\n        \n      \n        \n          \n\n  \n    \n\n    Programs and services\n  \n    \n\n    \n      \n\n    \n  \n  \n\n    \n\n      \n      \n        \n\n          \n            \n",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "D"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Google LLC",
+    "host": "opensource.google"
+  }
+}

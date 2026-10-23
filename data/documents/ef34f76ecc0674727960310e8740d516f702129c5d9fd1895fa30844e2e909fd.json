@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T22:27:19Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "A-source-1",
+    "type": "technical-doc",
+    "title": "Implementation Guidance for FIPS 140-3 and the Cryptographic Module Validation Program",
+    "publisher": "National Institute of Standards and Technology (NIST)",
+    "url": "https://csrc.nist.gov/csrc/media/Projects/cryptographic-module-validation-program/documents/fips%20140-3/FIPS%20140-3%20IG.pdf",
+    "language": "en",
+    "jurisdiction": "United States",
+    "applicability": "Cryptographic module validation, testing, and configuration requirements for validated implementations",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:15ebdd396a31129f9d75137ace99be56b1085feb25a95c990f8b6558440aeb02",
+    "textDigest": "sha256:65a1c2819845c1977195dc591834ddedfc9721032fa5b49983350ff9caa5786f",
+    "finalUrl": "https://csrc.nist.gov/csrc/media/Projects/cryptographic-module-validation-program/documents/fips%20140-3/FIPS%20140-3%20IG.pdf",
+    "retrievedAt": "2026-10-23T22:27:19Z",
+    "contentType": "application/pdf",
+    "snapshotPath": "source-15ebdd396a31129f9d75137ace99be56b1085feb25a95c990f8b6558440aeb02.bin",
+    "textPath": "source-65a1c2819845c1977195dc591834ddedfc9721032fa5b49983350ff9caa5786f.txt"
+  },
+  "files": {
+    "snapshots/source-15ebdd396a31129f9d75137ace99be56b1085feb25a95c990f8b6558440aeb02.bin": "sha256:15ebdd396a31129f9d75137ace99be56b1085feb25a95c990f8b6558440aeb02",
+    "snapshots/source-65a1c2819845c1977195dc591834ddedfc9721032fa5b49983350ff9caa5786f.txt": "sha256:65a1c2819845c1977195dc591834ddedfc9721032fa5b49983350ff9caa5786f"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://csrc.nist.gov/csrc/media/Projects/cryptographic-module-validation-program/documents/fips%20140-3/FIPS%20140-3%20IG.pdf",
+  "language": "en",
+  "retrievedAt": "2026-10-23T22:27:19Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T22:27:19Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "      Implementation Guidance for\nFIPS 140-3 and the Cryptographic Module\n          Validation Program\n\n\n\n\n    National Institute of Standards and Technology\n         Canadian Centre for Cyber Security\n\n\n\n\n              Initial Release: September 21, 2020\n                Last Update: August 19, 2026\n\fImplementation Guidance for FIPS PUB 140-3 and the Cryptographic Module Validation Program\nNational Institute of Standards and Technology\n                                                                       Table of Contents\nOVERVIEW ....................................................................................................................................................... 5\nSECTION 1 – GENERAL ........................................................................................",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "A"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "National Institute of Standards and Technology (NIST)",
+    "host": "csrc.nist.gov"
+  }
+}

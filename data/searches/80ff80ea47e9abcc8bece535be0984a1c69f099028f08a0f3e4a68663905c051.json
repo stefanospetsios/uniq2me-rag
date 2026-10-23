@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "80ff80ea47e9abcc8bece535be0984a1c69f099028f08a0f3e4a68663905c051",
+  "cachedAt": "2026-10-23T22:37:47Z",
+  "observedAt": "2026-10-23T22:37:47Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-B-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "B",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Hardware-Oriented Security and IoT Auditing official implementation configuration documentation site:owasp.org | site:nist.gov | site:kernel.org | site:microsoft.com | site:ietf.org"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792795036570,
+    "end": 1792795037704
+  },
+  "outputDigest": "sha256:c315dd85c72da070de1135a39ed25310610500ed88fb7337f1aee7ac82662559",
+  "resultUrls": [
+    "https://csrc.nist.gov/CSRC/media/Projects/Security-Content-Automation-Protocol/specifications/xccdf/1.1.3/xccdf-spec-1.1.3-20070401-draft.pdf",
+    "https://csrc.nist.gov/CSRC/media/Projects/risk-management/800-53%20Downloads/800-53r5/SP_800-53_v5_1-derived-OSCAL.pdf",
+    "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf",
+    "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-128.pdf",
+    "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171r3.pdf",
+    "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-213A.pdf",
+    "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-37r2.pdf",
+    "https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-60v1r1.pdf",
+    "https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-64r2.pdf",
+    "https://nvlpubs.nist.gov/nistpubs/specialpublications/NIST.SP.800-53r5.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Hardware-Oriented Security and IoT Auditing official implementation configuration documentation site:owasp.org | site:nist.gov | site:kernel.org | site:microsoft.com | site:ietf.org\",\n  \"results\": [\n    {\n      \"title\": \"Guide for Security-Focused Configuration Management of ...\",\n      \"url\": \"https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-128.pdf\",\n      \"content\": \"10 Οκτ 2019 ... Attribution would, however, be appreciated by NIST. National Institute of Standards and Technology Special Publication 800-128. Natl. Inst.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"IoT Device Cybersecurity Guidance for the Federal Government\",\n      \"url\": \"https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-213A.pdf\",\n      \"content\": \"NIST is responsible for developing information security standards and guidelines, including minimum requirements for federal information systems, but such ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"The NIST Cybersecurity Framework (CSF) 2.0\",\n      \"url\": \"https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf\",\n      \"content\": \"26 Φεβ 2024 ... The CSF can also be used by others involved in managing risk — including executives, boards of directors, acquisition professionals, technology ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Security and Privacy Controls for Information Systems and ...\",\n      \"url\": \"https://csrc.nist.gov/CSRC/media/Projects/risk-management/800-53%20Downloads/800-53r5/SP_800-53_v5_1-derived-OSCAL.pdf\",\n      \"content\": \"Note that NIST Special Publication (SP) 800-53, Revision 5 contains additional background, scoping, and implementation guidance in addition to the controls ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"NIST.SP.800-171r3.pdf\",\n      \"url\": \"https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171r3.pdf\",\n ",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "B"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "csrc.nist.gov",
+      "nvlpubs.nist.gov"
+    ]
+  }
+}

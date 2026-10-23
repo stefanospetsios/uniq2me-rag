@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T21:53:23Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "6-source-1",
+    "type": "technical-doc",
+    "title": "Logging Reference Architecture (LRA)",
+    "publisher": "Cybersecurity and Infrastructure Security Agency (CISA)",
+    "url": "https://www.cisa.gov/sites/default/files/2026-09/logging-reference-architecture-508.pdf",
+    "language": "en",
+    "jurisdiction": "United States",
+    "applicability": "Federal agencies and critical infrastructure organizations requiring standardized logging capabilities for threat detection and incident response",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:f5ff2acfa5f599ffef4c98c9c32fb89693dbff56b556c98a0c75c4ff6f25930d",
+    "textDigest": "sha256:20fce4a6a813ad7ba71e42930c7c5793f0d1e1c4a4e0196444b146e27521805b",
+    "finalUrl": "https://www.cisa.gov/sites/default/files/2026-09/logging-reference-architecture-508.pdf",
+    "retrievedAt": "2026-10-23T21:53:23Z",
+    "contentType": "application/pdf",
+    "snapshotPath": "source-f5ff2acfa5f599ffef4c98c9c32fb89693dbff56b556c98a0c75c4ff6f25930d.bin",
+    "textPath": "source-20fce4a6a813ad7ba71e42930c7c5793f0d1e1c4a4e0196444b146e27521805b.txt"
+  },
+  "files": {
+    "snapshots/source-f5ff2acfa5f599ffef4c98c9c32fb89693dbff56b556c98a0c75c4ff6f25930d.bin": "sha256:f5ff2acfa5f599ffef4c98c9c32fb89693dbff56b556c98a0c75c4ff6f25930d",
+    "snapshots/source-20fce4a6a813ad7ba71e42930c7c5793f0d1e1c4a4e0196444b146e27521805b.txt": "sha256:20fce4a6a813ad7ba71e42930c7c5793f0d1e1c4a4e0196444b146e27521805b"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.cisa.gov/sites/default/files/2026-09/logging-reference-architecture-508.pdf",
+  "language": "en",
+  "retrievedAt": "2026-10-23T21:53:23Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T21:53:23Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "Logging Reference\nArchitecture (LRA)\nPublication: August 2026\nCybersecurity and Infrastructure Security Agency\n\n\n\n\nThis document is marked TLP:CLEAR. Recipients may share this information without restriction. Information is\nsubject to standard copyright rules. For more information on the Traffic Light Protocol, see https://www.cisa.gov/tlp.\n\fTable Of Contents\n1. INTRODUCTION ............................................................................................................................. 1\n   1.1 Purpose ................................................................................................................................... 1\n   1.2 Background ............................................................................................................................ 2\n",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Cybersecurity and Infrastructure Security Agency (CISA)",
+    "host": "www.cisa.gov"
+  }
+}

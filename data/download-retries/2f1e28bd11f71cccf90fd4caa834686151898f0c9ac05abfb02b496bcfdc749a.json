@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-download-retry",
+  "id": "2f1e28bd11f71cccf90fd4caa834686151898f0c9ac05abfb02b496bcfdc749a",
+  "cachedAt": "2026-10-23T22:07:13Z",
+  "originRunId": "qwen3-40019296746",
+  "sourceUrl": "https://www.iso.org/standard/77698.html",
+  "candidate": {
+    "type": "technical-doc",
+    "title": "ISO/IEC/IEEE 24748-3:2020 - Systems and software engineering — Life cycle management — Part 3: Guidelines for the application of ISO/IEC/IEEE 12207",
+    "publisher": "International Organization for Standardization",
+    "url": "https://www.iso.org/standard/77698.html",
+    "language": "en",
+    "jurisdiction": "International",
+    "applicability": "Authoritative framework for software development lifecycle processes covering planning, design, implementation, testing, deployment, and maintenance. Provides standardized terminology and process structure for managing source control, change management, and release approval workflows applicable across organizational contexts.",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "id": "7-source-5"
+  },
+  "language": "en",
+  "scopeId": "7",
+  "status": "pending-download",
+  "firstFailedAt": "2026-10-23T22:07:13Z",
+  "firstFailureContext": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "prepare"
+  },
+  "lastAttemptAt": "2026-10-23T22:07:13Z",
+  "attempts": 1,
+  "lastError": "HTTP Error 403: Forbidden",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "prepare"
+  },
+  "retryOnNextRun": true,
+  "originalText": null,
+  "evidenceAdmitted": false,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "7"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "pending-download",
+    "publisher": "International Organization for Standardization",
+    "host": "www.iso.org"
+  }
+}

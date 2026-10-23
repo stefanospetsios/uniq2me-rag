@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "fe7eb251e501e96f120421bccb1a88154226019578c7b690cf92b425e93a5561",
+  "cachedAt": "2026-10-23T22:41:05Z",
+  "observedAt": "2026-10-23T22:41:05Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-B-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "B",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "Hardware-Oriented Security and IoT Auditing official implementation configuration documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792795184221,
+    "end": 1792795185193
+  },
+  "outputDigest": "sha256:342ed05825a3d98ba354912841aee29cd679c0751fe6aac604deaf99c6062f3a",
+  "resultUrls": [
+    "https://cheriot.org/book/audit.html",
+    "https://chipsec.github.io/",
+    "https://github.com/CHERIoT-Platform/cheriot-audit",
+    "https://github.com/OWASP/IoT-Security-Verification-Standard-ISVS/blob/master/en/V5-Hardware_Platform_Requirements.md",
+    "https://support.huawei.com/enterprise/en/doc/EDOC1100522645/f8f40055/device-security-center"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"CHIPSEC 2.0.9 — CHIPSEC  documentation\",\n      \"url\": \"https://chipsec.github.io/\",\n      \"content\": \"CHIPSEC 2.0.9 — CHIPSEC documentation\\n\\n# CHIPSEC 2.0.9¶\\n\\nCHIPSEC is a framework for analyzing platform level security of hardware, devices, system firmware, low-level protection mechanisms, and the configuration of various platform components.\\n\\nIt contains a set of modules, including simple tests for hardware protections and correct configuration, tests for vulnerabilities in firmware and platform components, security assessment and fuzzing tools for various platform devices and interfaces, and tools acquiring critical firmware and device artifacts.\\n\\nCHIPSEC can run on Windows, Linux, and UEFI shell.\\n\\nWarning\\n\\nChipsec should only be used on test systems!\\n\\nIt should not be installed/deployed on production end-user systems.\\n\\nThere are multiple reasons for that:\\n\\n1. Chipsec kernel drivers provide direct access to hardware resources to user-mode applications (for example, access to physical memory). When installed on production systems this could allow malware to access privileged hardware resources.\\n\\n2. The driver is distributed as source code. In order to load it on Operating System which requires kernel drivers to be signed (for example, 64 bit versions of Microsoft Windows 7 and higher), it is necessary to enable TestSigning (or equivalent) mode and sign the driver executable with test signature. Enabling TestSigning (or equivalent) mode turns off an important OS kernel protection and should not be done on production systems.\\n\\n3. Due to the nature of access to hardware, if any chipsec module issues incorrect access to hardware resources, Operating System can hang or panic.\\n\\n## Installation¶\\n\\nCHIPSEC supports Windows, Linux, DAL, and UEFI shell. Circumstances surrounding the target platform may change which of these environments is most appropriate.\\n\\nInstallation\\n\\n- Linux Installation\\n- DAL Windows",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "B"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "cheriot.org",
+      "chipsec.github.io",
+      "github.com",
+      "support.huawei.com"
+    ]
+  }
+}

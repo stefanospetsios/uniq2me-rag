@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-scope",
+  "cachedAt": "2026-10-23T23:10:13Z",
+  "scopeId": "E",
+  "fingerprint": "3da792a05ea64ac1e34d807b954e5fd2909d19e14f2ad5e7e620f4cad7ba4fe2",
+  "originRunId": "qwen3-40019296746",
+  "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "E"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "scope-admitted",
+    "publisher": null,
+    "host": null
+  },
+  "corpus": {
+    "sources": {
+      "E-source-1": {
+        "type": "technical-doc",
+        "title": "Implementing security and responsible AI - AWS Prescriptive Guidance",
+        "publisher": "Amazon Web Services",
+        "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/gen-ai-inference-architecture-and-best-practices-on-aws/implementing-security-rai.html",
+        "language": "en",
+        "jurisdiction": "United States (global applicability)",
+        "applicability": "Covers model assessment for bias/fairness, documentation preparation (model cards), technical safeguards for privacy/PII, deployment approval workflows, and governance setup addressing training data provenance and ethical deployment approval as specified in area boundaries",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "E-source-1",
+        "byteDigest": "sha256:413cfb0b8192f0dbf53c213ba95f5a00477e0b527cd3e2384fa6df19e1377e56",
+        "textDigest": "sha256:aca1b596338dc6ada2f40a80c417e39b3e843f0ad30e11ddee3aec16d01e646e",
+        "finalUrl": "https://docs.aws.amazon.com/prescriptive-guidance/latest/gen-ai-inference-architecture-and-best-practices-on-aws/implementing-security-rai.html",
+        "retrievedAt": "2026-10-23T23:09:10Z",
+        "contentType": "text/html",
+        "snapshotPath": "source-413cfb0b8192f0dbf53c213ba95f5a00477e0b527cd3e2384fa6df19e1377e56.bin",
+        "textPath": "source-aca1b596338dc6ada2f40a80c417e39b3e843f0ad30e11ddee3aec16d01e646e.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Before moving to inference/Model assessment",
+            "text": "During the model assessment phase, the evaluation report helps the organization understand the model's robustness and explainability through quantitative and qualitative analyses. This analysis includes evaluating accuracy metrics, fairness scores, and error distributions, complemented by human-in-the-loop reviews and A/B testing to validate real-world performance."
+          },
+          {
+            "id": "p2",
+            "locator": "Before moving to inference/Documentation preparation",
+            "text": "A model card should include detailed specifications of the model architecture, training methodology, and hyperparameter configurations, along with performance metrics across diverse datasets and demographic groups. It must also explicitly outline both intended use cases and scenarios where the model should not be applied, establishing clear boundaries for appropriate deployment."
+          },
+          {
+            "id": "p3",
+            "locator": "Before moving to inference/Technical safeguards",
+            "text": "Thorough sanitization processes for PII"
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "E-source-2": {
+        "type": "guidance",
+        "title": "Ethics for AI System Design Training",
+        "publisher": "IEEE",
+        "url": "https://ethicsinaction.ieee.org/",
+        "language": "en",
+        "jurisdiction": "International",
+        "applicability": "Provides frameworks for implementing ethical principles in AI development cycles, including documented model choices, bias evaluation methodologies, training data provenance considerations, and deployment approval processes aligned with technical implementation boundaries",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "E-source-2",
+        "byteDigest": "sha256:2cc9861c5b069364f2bcf9be8895627aac1038447db024ce5f43298221dcc176",
+        "textDigest": "sha256:406b6726667748665a8f50429929e15853f4ff364ba81efc6f050da7d316cb01",
+        "finalUrl": "https://standards.ieee.org/initiatives/autonomous-intelligence-systems/",
+        "retrievedAt": "2026-10-23T23:09:11Z",
+        "contentType": "text/html; charset=UTF-8",
+        "snapshotPath": "source-2cc9861c5b069364f2bcf9be8895627aac1038447db024ce5f43298221dcc176.bin",
+        "textPath": "source-406b6726667748665a8f50429929e15853f4ff364ba81efc6f050da7d316cb01.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Overview/Featured",
+            "text": "This training helps bridge the gap between principles and practice, enabling real-world implementation of ethically aligned systems design strategy from the planning phase."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      }
+    },
+    "concerns": [
+      {
+        "id": "E-concern-1",
+        "sfsId": "E",
+        "description": "Evaluation of model fairness using quantitative metrics across demographic groups with human-in-the-loop validation",
+        "sourceRefs": [
+          {
+            "sourceId": "E-source-1",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "E-concern-2",
+        "sfsId": "E",
+        "description": "Documentation of model performance across diverse datasets including intended and prohibited use cases",
+        "sourceRefs": [
+          {
+            "sourceId": "E-source-1",
+            "passageId": "p2"
+          }
+        ]
+      },
+      {
+        "id": "E-concern-3",
+        "sfsId": "E",
+        "description": "Implementation of technical safeguards including PII sanitization to prevent privacy violations",
+        "sourceRefs": [
+          {
+            "sourceId": "E-source-1",
+            "passageId": "p3"
+          }
+        ]
+      },
+      {
+        "id": "E-concern-4",
+        "sfsId": "E",
+        "description": "Training for implementing ethically aligned design strategies from the planning phase",
+        "sourceRefs": [
+          {
+            "sourceId": "E-source-2",
+            "passageId": "p1"
+          }
+        ]
+      }
+    ],
+    "queries": [
+      {
+        "scope": "E",
+        "toolId": "searxng_web_search",
+        "input": {
+          "query": "AI-Oriented Ethics Training Implementation official maintainer technical documentation",
+          "max_results": 8,
+          "safesearch": 1,
+          "time_range": ""
+        },
+        "outputDigest": "sha256:dd016f351d18027421401748ea5e15c99f936e87cdb038e55a4dd23fb83d08e4",
+        "callId": "sources-E-1-discovery"
+      },
+      {
+        "scope": "E",
+        "toolId": "websearch_web_search",
+        "input": {
+          "query": "AI development configuration documentation bias evaluation deployment approval technical guide",
+          "max_results": 8
+        },
+        "outputDigest": "sha256:f037ad3c87fd3e69e97ffb115417b2a4f9746c1519bb6a991e4bfb65eb969958",
+        "callId": "sources-E-1-discovery"
+      }
+    ],
+    "limitations": [
+      {
+        "scope": "E",
+        "description": "Brave search engine unresponsive (too many requests)"
+      },
+      {
+        "scope": "E",
+        "description": "Websearch results truncated at 229366 bytes requiring manual inspection for completeness"
+      },
+      {
+        "scope": "E",
+        "description": "E-source-2 contains primarily navigation content with limited substantive implementation documentation"
+      },
+      {
+        "scope": "E",
+        "description": "Publication dates unavailable for both technical documents"
+      },
+      {
+        "scope": "E",
+        "description": "Document 2 (IEEE) provides only high-level training framework description without detailed implementation specifications"
+      }
+    ],
+    "admissionVersion": 2,
+    "observedResultUrls": [
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/gen-ai-inference-architecture-and-best-practices-on-aws/implementing-security-rai.html",
+      "https://ethicsinaction.ieee.org/"
+    ]
+  },
+  "files": {
+    "snapshots/source-413cfb0b8192f0dbf53c213ba95f5a00477e0b527cd3e2384fa6df19e1377e56.bin": "sha256:413cfb0b8192f0dbf53c213ba95f5a00477e0b527cd3e2384fa6df19e1377e56",
+    "snapshots/source-aca1b596338dc6ada2f40a80c417e39b3e843f0ad30e11ddee3aec16d01e646e.txt": "sha256:aca1b596338dc6ada2f40a80c417e39b3e843f0ad30e11ddee3aec16d01e646e",
+    "snapshots/source-2cc9861c5b069364f2bcf9be8895627aac1038447db024ce5f43298221dcc176.bin": "sha256:2cc9861c5b069364f2bcf9be8895627aac1038447db024ce5f43298221dcc176",
+    "snapshots/source-406b6726667748665a8f50429929e15853f4ff364ba81efc6f050da7d316cb01.txt": "sha256:406b6726667748665a8f50429929e15853f4ff364ba81efc6f050da7d316cb01"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T21:28:34Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "4-source-1",
+    "type": "technical-doc",
+    "title": "NIST Special Publication 800-209: Security Guidelines for Storage Infrastructure",
+    "publisher": "National Institute of Standards and Technology",
+    "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-209.pdf",
+    "language": "en",
+    "jurisdiction": "United States",
+    "applicability": "Covers storage infrastructure security including data classification, encryption at rest, access controls, retention policies, and deletion verification for network-attached and cloud storage systems. Provides technical implementation patterns applicable to enterprise storage environments.",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:d94e95a18e6a12395d7e3ed8707266028ad188ce0a6e985137278d3e4416706d",
+    "textDigest": "sha256:c3d81ee70e1c83b1ada59228837a0a993fb4b727491c0723352a522021df117c",
+    "finalUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-209.pdf",
+    "retrievedAt": "2026-10-23T21:28:34Z",
+    "contentType": "application/pdf",
+    "snapshotPath": "source-d94e95a18e6a12395d7e3ed8707266028ad188ce0a6e985137278d3e4416706d.bin",
+    "textPath": "source-c3d81ee70e1c83b1ada59228837a0a993fb4b727491c0723352a522021df117c.txt"
+  },
+  "files": {
+    "snapshots/source-d94e95a18e6a12395d7e3ed8707266028ad188ce0a6e985137278d3e4416706d.bin": "sha256:d94e95a18e6a12395d7e3ed8707266028ad188ce0a6e985137278d3e4416706d",
+    "snapshots/source-c3d81ee70e1c83b1ada59228837a0a993fb4b727491c0723352a522021df117c.txt": "sha256:c3d81ee70e1c83b1ada59228837a0a993fb4b727491c0723352a522021df117c"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-209.pdf",
+  "language": "en",
+  "retrievedAt": "2026-10-23T21:28:34Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T21:28:34Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "      NIST Special Publication 800-209\n\n\nSecurity Guidelines for Storage\n                Infrastructure\n\n                            Ramaswamy Chandramouli\n                                      Doron Pinhas\n\n\n\n\n       This publication is available free of charge from:\n              https://doi.org/10.6028/NIST.SP.800-209\n\f                       NIST Special Publication 800-209\n\n  Security Guidelines for Storage\n                  Infrastructure\n\n                                                      Ramaswamy Chandramouli\n                                                        Computer Security Division\n                                                 Information Technology Laboratory\n\n                                                                        Doron Pinhas\n                      ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "4"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "National Institute of Standards and Technology",
+    "host": "nvlpubs.nist.gov"
+  }
+}

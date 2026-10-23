@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T22:27:20Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "A-source-2",
+    "type": "technical-doc",
+    "title": "RFC 8221: Cryptographic Algorithm Implementation Requirements and Usage Guidance for Encapsulating Security Payload (ESP) and Authentication Header (AH)",
+    "publisher": "Internet Engineering Task Force (IETF)",
+    "url": "https://www.rfc-editor.org/info/rfc8221/",
+    "language": "en",
+    "jurisdiction": "Global",
+    "applicability": "Cryptographic algorithm selection, key management, and configuration for IPsec protocols",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:00f5c8f32da74e363725b70bed0a22100c6c604527dabb6be867fc2318bab7ce",
+    "textDigest": "sha256:5301db3e79f877c5b784c9d6a11a608685a70450b0a2915a9052ff28aba64e94",
+    "finalUrl": "https://www.rfc-editor.org/info/rfc8221/",
+    "retrievedAt": "2026-10-23T22:27:20Z",
+    "contentType": "text/html;charset=utf-8",
+    "snapshotPath": "source-00f5c8f32da74e363725b70bed0a22100c6c604527dabb6be867fc2318bab7ce.bin",
+    "textPath": "source-5301db3e79f877c5b784c9d6a11a608685a70450b0a2915a9052ff28aba64e94.txt"
+  },
+  "files": {
+    "snapshots/source-00f5c8f32da74e363725b70bed0a22100c6c604527dabb6be867fc2318bab7ce.bin": "sha256:00f5c8f32da74e363725b70bed0a22100c6c604527dabb6be867fc2318bab7ce",
+    "snapshots/source-5301db3e79f877c5b784c9d6a11a608685a70450b0a2915a9052ff28aba64e94.txt": "sha256:5301db3e79f877c5b784c9d6a11a608685a70450b0a2915a9052ff28aba64e94"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.rfc-editor.org/info/rfc8221/",
+  "language": "en",
+  "retrievedAt": "2026-10-23T22:27:20Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T22:27:20Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "RFC 8221: Cryptographic Algorithm Implementation Requirements and Usage Guidance for Encapsulating Security Payload (ESP) and Authentication Header (AH) | RFC Editor\nYour browser has JavaScript disabled. Most of this site works without JS, but some features require it. If something seems broken please try enabling JavaScript and reloading the page.\nThe JavaScript used by this site is served directly from IETF infrastructure and does not include any code that links to a third party service.\n\n\n\n\n\n\n Skip to content \nPrimary navigation\n\n\nThe RFC Series\nWhat is an RFC?\n\n\nHow can I use RFCs?\n\n\nBrowse all RFCs\n\n\nRFCs by Subject\n\n\nDownload RFCs\n\n\nErrata in RFCs\n\n\nFAQ\n\n\n\n\n\n\nFor Authors\nHow RFCs are created\n\n\nIndependent Submissions\n\n\nStyle Guide\n\n\nRFC Publication Process\n\n\nDocument Queue\n\n\n\n\n\n\nAbou",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "A"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Internet Engineering Task Force (IETF)",
+    "host": "www.rfc-editor.org"
+  }
+}

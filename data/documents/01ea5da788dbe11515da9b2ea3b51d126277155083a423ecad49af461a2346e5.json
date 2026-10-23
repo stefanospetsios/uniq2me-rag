@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T21:37:36Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "5-source-2",
+    "type": "guidance",
+    "title": "NIST Special Publication 800-215: Guide to a Secure Enterprise Network Landscape",
+    "publisher": "National Institute of Standards and Technology (NIST)",
+    "url": "https://csrc.nist.gov/pubs/sp/800/215/final",
+    "language": "en",
+    "jurisdiction": "United States",
+    "applicability": "Covers modern network segmentation approaches including zero trust architectures, microsegmentation, and security frameworks (ZTNA/SASE). Addresses network inventory, traffic controls, and security review processes for distributed enterprise environments as defined in the scope.",
+    "publicationDate": "2022-11",
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:d6b21380c5c50074b8fa154bc98c292b68033fa45f2bc99dc1375818ab132e96",
+    "textDigest": "sha256:833e8224da4defeaf6a300118948379ca580684c203d5946bd44617f5cbe8f10",
+    "finalUrl": "https://csrc.nist.gov/pubs/sp/800/215/final",
+    "retrievedAt": "2026-10-23T21:37:36Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-d6b21380c5c50074b8fa154bc98c292b68033fa45f2bc99dc1375818ab132e96.bin",
+    "textPath": "source-833e8224da4defeaf6a300118948379ca580684c203d5946bd44617f5cbe8f10.txt"
+  },
+  "files": {
+    "snapshots/source-d6b21380c5c50074b8fa154bc98c292b68033fa45f2bc99dc1375818ab132e96.bin": "sha256:d6b21380c5c50074b8fa154bc98c292b68033fa45f2bc99dc1375818ab132e96",
+    "snapshots/source-833e8224da4defeaf6a300118948379ca580684c203d5946bd44617f5cbe8f10.txt": "sha256:833e8224da4defeaf6a300118948379ca580684c203d5946bd44617f5cbe8f10"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://csrc.nist.gov/pubs/sp/800/215/final",
+  "language": "en",
+  "retrievedAt": "2026-10-23T21:37:36Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T21:37:36Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n\n\n\n\n    \n\n    \nSP 800-215, Guide to a Secure Enterprise Network Landscape | CSRC\n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n    \n\n\n    \n\n    \n\n    \n\n    \n        \n\n\n    \n\n    \n\n    \n\n\n\n    \n\n    \n\n \n      \n      \n      \n                          \n     \n\n \n      \n         \n    \n\n        \n\n    \n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n        \n\n    \n\n    \n\n\n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n    \n\n    \n\n    \n    \n\n    \n\n    \n\n\n    \n\n    \n\n\n    \n\n    \n\n    \n\n    \n\n        \n\n    \n\n    \n\n    \n \n    \n \n    \n\n    \n\n    \n\n    \n\n\n\n\n\n    \n\n    \n\n    \n\n    \n\n        \nYou are viewing this page in an unauthorized frame window.\n\n        \nThis is a potential security issue, you are being redirected to \nhttps://csrc.nist.gov\n.\n\n\n\n    \n\n\n\n\n    \n\n    \n\n        \n\n            \n\n           ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "National Institute of Standards and Technology (NIST)",
+    "host": "csrc.nist.gov"
+  }
+}

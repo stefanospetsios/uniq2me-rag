@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "b75269f8ca9eb7474306e9e04df177675c1e4bd39f0f1bf2809f9f7117184ff2",
+  "cachedAt": "2026-10-23T21:52:36Z",
+  "originRunId": "qwen3-40019296746",
+  "sourceUrl": "https://docs.aws.amazon.com/vpn/latest/s2svpn/VPC_VPN.html",
+  "finalUrl": "https://docs.aws.amazon.com/vpn/latest/s2svpn/VPC_VPN.html",
+  "language": "en",
+  "publisher": "Amazon Web Services (AWS)",
+  "title": "AWS Site-to-Site VPN - AWS Documentation",
+  "retrievedAt": "2026-10-23T21:37:36Z",
+  "byteDigest": "sha256:ae91ce815e487283055a07fce7b6f690088c50ac178b7d82cc811e7618247f4b",
+  "textDigest": "sha256:700679e760c60e453b6965fc929ac33bafcbce77b9d38ba564882011a37905fa",
+  "sourceId": "5-source-3",
+  "passageId": "p1",
+  "locator": "What is AWS Site-to-Site VPN?",
+  "quotation": "By default, an instance that you launch within an Amazon VPC can't communicate with a local (AWS Cloud) network and a remote device — for example, this might be a site or an on-premises device. You can enable access to your remote devices from your VPC by creating an AWS Site-to-Site VPN (Site-to-Site VPN) connection, and configuring routing to pass traffic through the connection.",
+  "originalText": "VPN resources\nPricing\n\n\nWhat is AWS Site-to-Site VPN?\n\n\n\n\nBy default, an instance that you launch within an Amazon VPC can't communicate with a local\n        (AWS Cloud) network and a remote device — for example, this might be a site or an\n        on-premises device. You can enable access to your remote devices from your VPC by creating\n        an AWS Site-to-Site VPN (Site-to-Site VPN) connection, and configuring routing to pass traffic through the\n        connection.\n\n\nAlthough the term \nVPN connection\n is a general term, in this\n    documentation, a VPN connection refers to the connection between your",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T21:52:36Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Amazon Web Services (AWS)",
+    "host": "docs.aws.amazon.com"
+  }
+}

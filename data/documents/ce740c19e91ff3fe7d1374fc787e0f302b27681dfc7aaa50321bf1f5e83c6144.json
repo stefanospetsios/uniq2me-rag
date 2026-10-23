@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T21:08:59Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "2-source-4",
+    "type": "technical-doc",
+    "title": "Architecture strategies for disaster recovery",
+    "publisher": "Microsoft Azure",
+    "url": "https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery",
+    "language": "en",
+    "jurisdiction": "Global (product-specific)",
+    "applicability": "Organizations designing resilient workloads with defined recovery time objectives, data integrity verification, and staged service restoration in Azure environments",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:289015ae3d6fb2ae3606fef6bededce538863a5ff4d8147529083cc4c20c2576",
+    "textDigest": "sha256:be6b8ec813e8d7453d89df673ea8692774ebfad3f7ef500eb58adbf779dbefe4",
+    "finalUrl": "https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery",
+    "retrievedAt": "2026-10-23T21:08:59Z",
+    "contentType": "text/html",
+    "snapshotPath": "source-289015ae3d6fb2ae3606fef6bededce538863a5ff4d8147529083cc4c20c2576.bin",
+    "textPath": "source-be6b8ec813e8d7453d89df673ea8692774ebfad3f7ef500eb58adbf779dbefe4.txt"
+  },
+  "files": {
+    "snapshots/source-289015ae3d6fb2ae3606fef6bededce538863a5ff4d8147529083cc4c20c2576.bin": "sha256:289015ae3d6fb2ae3606fef6bededce538863a5ff4d8147529083cc4c20c2576",
+    "snapshots/source-be6b8ec813e8d7453d89df673ea8692774ebfad3f7ef500eb58adbf779dbefe4.txt": "sha256:be6b8ec813e8d7453d89df673ea8692774ebfad3f7ef500eb58adbf779dbefe4"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery",
+  "language": "en",
+  "retrievedAt": "2026-10-23T21:08:59Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T21:08:59Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": " \n\n\t\t\n\n\t\t\t\n\t\t\n\n\t\t\t\nArchitecture strategies for disaster recovery - Microsoft Azure Well-Architected Framework | Microsoft Learn\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n \n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n \n\n\t\t\t\n\n\t\t\t \n\t\t\t\n\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t \n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\t\t\n\n\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\t\t\t\n\n\t\t\t\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\n\t\t\n\n\t\n\t\t\t\n\n\t\t\t\t\n\n\t\t\n\n\t\t\t\n\t\t\n\n\t\t\tSkip to main content\n\t\t\n\n\t\n\t\t\n\n\t\t\tSkip to Ask Learn chat experience\n\t\t\n\n\t\n\n\t\t\t\n\n\n\n\t\t\t\n\n\t\t\t\n\n\t\t\t\t\n\n\t\t\t\t\t\nThis browser is no longer supported.\n\n\n\n\t\t\t\t\t\n\n\t\t\t\t\t\tUpgrade to Microsoft Edge to take advantage of t",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "2"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Microsoft Azure",
+    "host": "learn.microsoft.com"
+  }
+}

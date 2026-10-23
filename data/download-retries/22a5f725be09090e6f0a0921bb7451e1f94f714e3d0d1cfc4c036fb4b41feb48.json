@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-download-retry",
+  "id": "22a5f725be09090e6f0a0921bb7451e1f94f714e3d0d1cfc4c036fb4b41feb48",
+  "cachedAt": "2026-10-23T23:15:47Z",
+  "originRunId": "qwen3-40019296746",
+  "sourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02022L2555-20221227",
+  "candidate": {
+    "type": "law",
+    "title": "Directive (EU) 2022/2555 of the European Parliament and of the Council on measures for a high common level of cybersecurity across the Union, amending Directive 2002/21/EC, Regulation (EU) 2017/1129 and Regulation (EU) No 531/2012, and repealing Directive (EU) 2016/1148 (Text with EEA relevance)",
+    "publisher": "Publications Office of the European Union",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02022L2555-20221227",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "All EU member states including Greece and France; distinguishes essential/important entities and sector-specific obligations",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "id": "legal-source-1"
+  },
+  "language": "en",
+  "scopeId": "legal",
+  "status": "pending-download",
+  "firstFailedAt": "2026-10-23T23:15:47Z",
+  "firstFailureContext": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "prepare"
+  },
+  "lastAttemptAt": "2026-10-23T23:15:47Z",
+  "attempts": 1,
+  "lastError": "Source document is unavailable or incomplete: JavaScript/bot challenge page; retry the document download",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "prepare"
+  },
+  "retryOnNextRun": true,
+  "originalText": null,
+  "evidenceAdmitted": false,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "legal"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "pending-download",
+    "publisher": "Publications Office of the European Union",
+    "host": "eur-lex.europa.eu"
+  }
+}

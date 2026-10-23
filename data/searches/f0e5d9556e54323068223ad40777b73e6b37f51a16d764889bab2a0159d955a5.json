@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "f0e5d9556e54323068223ad40777b73e6b37f51a16d764889bab2a0159d955a5",
+  "cachedAt": "2026-10-23T22:22:53Z",
+  "observedAt": "2026-10-23T22:22:53Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-9-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "9",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Software Security Auditing official implementation configuration documentation",
+    "time_range": ""
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792794131776,
+    "end": 1792794132665
+  },
+  "outputDigest": "sha256:ad24a3137f0e604aedeff3d048a26a5c607edb135f0417eaaaf32a0e23fd6913",
+  "resultUrls": [
+    "https://4crypto.eu/en/it-security-audit/",
+    "https://beaglesecurity.com/blog/article/software-security-audit.html",
+    "https://tuxcare.com/blog/security-audits/",
+    "https://www.cert-in.org.in/PDF/Comprehensive_Cyber_Security_Audit_Policy_Guidelines.pdf",
+    "https://www.complianceautomator.com/compliance/iso27001-documentation-for-enterprise-software",
+    "https://www.egerie.com/en/resources/blog/audit-cybersecurite",
+    "https://www.fortinet.com/uk/resources/cyberglossary/security-audit",
+    "https://www.gao.gov/assets/d23104705.pdf",
+    "https://www.sentinelone.com/cybersecurity-101/cybersecurity/software-security-audit/",
+    "https://www.vaadata.com/en/blog/security-audits-objectives-types-and-methodologies/"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Software Security Auditing official implementation configuration documentation\",\n  \"results\": [\n    {\n      \"title\": \"Software Security Audit: Process & Best Practices - SentinelOne\",\n      \"url\": \"https://www.sentinelone.com/cybersecurity-101/cybersecurity/software-security-audit/\",\n      \"content\": \"24 Ιουλ 2025 ... Assess Configuration & Deployment Practices: Secure code can also be breached through misconfigured servers or with open ports. Specifically, ...\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Security Audit - A Complete Guide to Cyber Safety - Fortinet\",\n      \"url\": \"https://www.fortinet.com/uk/resources/cyberglossary/security-audit\",\n      \"content\": \"It covers everything from network configurations to employee practices. Security audits matter because they pinpoint vulnerabilities, such as outdated software ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"IT security audit 2026: scope, method and evidence - 4crypto.eu\",\n      \"url\": \"https://4crypto.eu/en/it-security-audit/\",\n      \"content\": \"5 Οκτ 2026 ... A document can show that the organization established a rule. It does not automatically prove that the rule is followed. A screenshot can show a ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Security Audits: Objectives, Types and Methodologies - Vaadata\",\n      \"url\": \"https://www.vaadata.com/en/blog/security-audits-objectives-types-and-methodologies/\",\n      \"content\": \"It involves examining configurations, software, security policies and ... security audit, taking into account the vulnerabilities specific to this type of ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Cybersecurity audit: method, types, stages and action plan - Egerie\",\n      \"url\": \"https://www.egerie.com/en/resources/blog/audit-cybersecurite\",\n      \"content\": \"This mode ensures a comprehensive and thor",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "9"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "4crypto.eu",
+      "beaglesecurity.com",
+      "tuxcare.com",
+      "www.cert-in.org.in",
+      "www.complianceautomator.com",
+      "www.egerie.com",
+      "www.fortinet.com",
+      "www.gao.gov",
+      "www.sentinelone.com",
+      "www.vaadata.com"
+    ]
+  }
+}

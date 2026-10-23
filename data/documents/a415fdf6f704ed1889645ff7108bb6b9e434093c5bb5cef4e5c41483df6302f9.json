@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T21:08:57Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "2-source-2",
+    "type": "guidance",
+    "title": "ENISA Report on IT Business Continuity An approach for SMEs - BCP Template",
+    "publisher": "European Union Agency for Cybersecurity (ENISA)",
+    "url": "https://www.enisa.europa.eu/sites/default/files/publications/BCM_for_SME_Example_BCP-Template.pdf",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "SMEs implementing business continuity frameworks with documented procedures for incident response, service recovery phases, and component-level restoration",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:4a7557cdfbcc58e2c983588b8868365651ce4376d906a87dce10cab94bbc7f79",
+    "textDigest": "sha256:af0092f73a2f9a27985cbbed192a551ddcf1b814bcc64efc544d79819bce0b50",
+    "finalUrl": "https://www.enisa.europa.eu/sites/default/files/publications/BCM_for_SME_Example_BCP-Template.pdf",
+    "retrievedAt": "2026-10-23T21:08:57Z",
+    "contentType": "application/pdf",
+    "snapshotPath": "source-4a7557cdfbcc58e2c983588b8868365651ce4376d906a87dce10cab94bbc7f79.bin",
+    "textPath": "source-af0092f73a2f9a27985cbbed192a551ddcf1b814bcc64efc544d79819bce0b50.txt"
+  },
+  "files": {
+    "snapshots/source-4a7557cdfbcc58e2c983588b8868365651ce4376d906a87dce10cab94bbc7f79.bin": "sha256:4a7557cdfbcc58e2c983588b8868365651ce4376d906a87dce10cab94bbc7f79",
+    "snapshots/source-af0092f73a2f9a27985cbbed192a551ddcf1b814bcc64efc544d79819bce0b50.txt": "sha256:af0092f73a2f9a27985cbbed192a551ddcf1b814bcc64efc544d79819bce0b50"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.enisa.europa.eu/sites/default/files/publications/BCM_for_SME_Example_BCP-Template.pdf",
+  "language": "en",
+  "retrievedAt": "2026-10-23T21:08:57Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T21:08:57Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "                -Placeholder for Company Logo-\n\n\n\n\n-Dental Equipment Supplies Example-\n\n\n               «Business Continuity Plan»\n\n\n\n\n                                   Version 01\n\n\n\n\n                                -12 Jan 2010-\n\n\n\n\n  Part of the deliverable IT Business Continuity Management “An Approach for SMEs”\n\f© European Network and Information Security Agency (ENISA), 2010\n\n\n\n\nDocument Information\nApproval\n Version        Approval Authority #1                      Approval Authority #2\n\n 1.0            Company Owner\n\n\n\n\nDocument Owner\n Position                   Title                    Department              Date\n                                                                             Assigned\n\n Technician1                -Insert Owner’s          -Insert the             5/10/",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "2"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "European Union Agency for Cybersecurity (ENISA)",
+    "host": "www.enisa.europa.eu"
+  }
+}

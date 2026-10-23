@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T22:32:41Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "A-source-5",
+    "type": "technical-doc",
+    "title": "4. Cryptography Device Library",
+    "publisher": "Data Plane Development Kit (DPDK) Project",
+    "url": "https://doc.dpdk.org/guides-25.03/prog_guide/cryptodev_lib.html",
+    "language": "en",
+    "jurisdiction": "Global",
+    "applicability": "Implementation of symmetric/asymmetric cryptographic operations, chaining mechanisms, and hardware offload for networking applications",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:1e04462c6f240569579229af3094ec3acd66287f3114ef77ab001f4f9e80ed45",
+    "textDigest": "sha256:032e6b92bef1fc4aa5976250f9614f67f0e9954d2da99be73b0c8b69b3048107",
+    "finalUrl": "https://doc.dpdk.org/guides-25.03/prog_guide/cryptodev_lib.html",
+    "retrievedAt": "2026-10-23T22:32:41Z",
+    "contentType": "text/html",
+    "snapshotPath": "source-1e04462c6f240569579229af3094ec3acd66287f3114ef77ab001f4f9e80ed45.bin",
+    "textPath": "source-032e6b92bef1fc4aa5976250f9614f67f0e9954d2da99be73b0c8b69b3048107.txt"
+  },
+  "files": {
+    "snapshots/source-1e04462c6f240569579229af3094ec3acd66287f3114ef77ab001f4f9e80ed45.bin": "sha256:1e04462c6f240569579229af3094ec3acd66287f3114ef77ab001f4f9e80ed45",
+    "snapshots/source-032e6b92bef1fc4aa5976250f9614f67f0e9954d2da99be73b0c8b69b3048107.txt": "sha256:032e6b92bef1fc4aa5976250f9614f67f0e9954d2da99be73b0c8b69b3048107"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://doc.dpdk.org/guides-25.03/prog_guide/cryptodev_lib.html",
+  "language": "en",
+  "retrievedAt": "2026-10-23T22:32:41Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T22:32:41Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n\n\n\n\n  \n\n\n  \n\n  \n4. Cryptography Device Library — Data Plane Development Kit 25.03.0 documentation\n\n      \n\n      \n\n      \n\n  \n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n    \n\n    \n\n    \n\n    \n\n    \n \n\n\n\n\n \n  \n\n    \n\n      \n\n        \n\n\n          \n          \n          \n\n            Data Plane Development Kit\n              \n\n          \n\n              \n\n                25.03.0\n              \n\n\n\n\n\n  \n\n    \n\n    \n\n    \n\n  \n\n\n\n\n\n        \n\n\n\n              \n\n\nGetting Started Guide for Linux\n\n\n\n\nGetting Started Guide for FreeBSD\n\n\n\n\nGetting Started Guide for Windows\n\n\n\n\nSample Applications User Guides\n\n\n\n\nProgrammer’s Guide\n\n\nFoundation Principles\n\n\n\n\nMemory Management\n\n\n\n\nCPU Management\n\n\n\n\nCPU Packet Processing\n\n\n\n\nDevice Libraries\n\n\n1. Ethernet Device Library\n\n\n\n\n2. Link Bonding",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "A"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Data Plane Development Kit (DPDK) Project",
+    "host": "doc.dpdk.org"
+  }
+}

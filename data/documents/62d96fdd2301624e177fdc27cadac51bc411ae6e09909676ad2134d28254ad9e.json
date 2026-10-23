@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T21:53:25Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "6-source-3",
+    "type": "technical-doc",
+    "title": "Logging, Monitoring, and Incident Response - AWS Prescriptive Guidance",
+    "publisher": "Amazon Web Services (AWS)",
+    "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/aws-security-reference-architecture-pci-data-security-standard-dss/logging-monitoring-and-incident-response.html",
+    "language": "en",
+    "jurisdiction": "Global",
+    "applicability": "AWS customers implementing PCI DSS-compliant logging and monitoring in cloud environments",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:f33c4cf9a282c929236411734162ebeab6fddf0ccf4aaa4da039538295304b20",
+    "textDigest": "sha256:c3d2b0b67d01ac05b15f76709fe5677ed7db9794e4d9300e53e808da387ef116",
+    "finalUrl": "https://docs.aws.amazon.com/prescriptive-guidance/latest/aws-security-reference-architecture-pci-data-security-standard-dss/logging-monitoring-and-incident-response.html",
+    "retrievedAt": "2026-10-23T21:53:25Z",
+    "contentType": "text/html",
+    "snapshotPath": "source-f33c4cf9a282c929236411734162ebeab6fddf0ccf4aaa4da039538295304b20.bin",
+    "textPath": "source-c3d2b0b67d01ac05b15f76709fe5677ed7db9794e4d9300e53e808da387ef116.txt"
+  },
+  "files": {
+    "snapshots/source-f33c4cf9a282c929236411734162ebeab6fddf0ccf4aaa4da039538295304b20.bin": "sha256:f33c4cf9a282c929236411734162ebeab6fddf0ccf4aaa4da039538295304b20",
+    "snapshots/source-c3d2b0b67d01ac05b15f76709fe5677ed7db9794e4d9300e53e808da387ef116.txt": "sha256:c3d2b0b67d01ac05b15f76709fe5677ed7db9794e4d9300e53e808da387ef116"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://docs.aws.amazon.com/prescriptive-guidance/latest/aws-security-reference-architecture-pci-data-security-standard-dss/logging-monitoring-and-incident-response.html",
+  "language": "en",
+  "retrievedAt": "2026-10-23T21:53:25Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T21:53:25Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n    \nLogging, Monitoring, and Incident Response - AWS Prescriptive Guidance\n \n\n\nView a markdown version of this page\n\n\n\n\nLogging, Monitoring, and Incident Response - AWS Prescriptive Guidance\n\n\nDocumentation\nAWS Prescriptive Guidance\nAWS Security Reference Architecture - Payment Card Industry (PCI) Data Security Standard (DSS)\n\n\nLogging, Monitoring, and Incident Response within the AWS SRA\nLogging, Monitoring, and Incident Response beyond the AWS SRA\n\n\nLogging, Monitoring, and Incident Response\n\n\n\n\nLogging and monitoring capabilities are essential for detecting, investigating, and responding to security incidents in cardholder data environments. PCI DSS Requirement 10 mandates comprehensive audit logging of all access to system components and cardholder data, enabling organizations to rec",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Amazon Web Services (AWS)",
+    "host": "docs.aws.amazon.com"
+  }
+}

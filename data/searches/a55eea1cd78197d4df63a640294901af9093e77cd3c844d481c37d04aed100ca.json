@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "a55eea1cd78197d4df63a640294901af9093e77cd3c844d481c37d04aed100ca",
+  "cachedAt": "2026-10-23T21:12:45Z",
+  "observedAt": "2026-10-23T21:12:45Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-2-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "2",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "time_range": "",
+    "query": "Backup and Disaster Recovery Plan official implementation configuration documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792789897137,
+    "end": 1792789898117
+  },
+  "outputDigest": "sha256:8fc590fc6c8d59cfb6ca2910671756a874d8e9a6d2bfe27b17e045d488be00c3",
+  "resultUrls": [
+    "https://copla.com/blog/compliance-regulations/iso-27001-disaster-recovery-guide-for-beginners/",
+    "https://csnp.org/downloads/business-nonprofit/templates/backup-disaster-recovery-plan.pdf",
+    "https://docs.cloud.google.com/backup-disaster-recovery/docs",
+    "https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery",
+    "https://mitratech.com/resource-hub/blog/key-components-of-a-complete-it-disaster-recovery-plan/",
+    "https://pages.awscloud.com/rs/112-TZM-766/images/GEN_best-practices-implementing-disaster-recovery-cloud_Aug-2022.pdf",
+    "https://warrenaverett.com/insights/backup-and-disaster-recovery/",
+    "https://www.acronis.com/en/blog/posts/disaster-recovery-plan/",
+    "https://www.konfirmity.com/blog/iso-27001-backup-and-recovery-for-iso-27001",
+    "https://www.linkedin.com/pulse/complete-devops-disaster-recovery-backup-guide-hamza-shaukat-li4rf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Backup and Disaster Recovery Plan official implementation configuration documentation\",\n  \"results\": [\n    {\n      \"title\": \"Backup and DR documentation - Google Cloud Documentation\",\n      \"url\": \"https://docs.cloud.google.com/backup-disaster-recovery/docs\",\n      \"content\": \"... disaster recovery, business continuity, and development and test activity. ... Configure a backup plan · Protect an application · Different ways to access your ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Architecture strategies for disaster recovery - Microsoft Azure Well ...\",\n      \"url\": \"https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery\",\n      \"content\": \"Disaster recovery succeeds only when both the plan and the tools needed to execute it remain available under all failure conditions. Store disaster recovery documentation, scripts, and recovery components in highly available, secure locations so they remain accessible even during regional outages.\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Complete DevOps Disaster Recovery & Backup Implementation Guide\",\n      \"url\": \"https://www.linkedin.com/pulse/complete-devops-disaster-recovery-backup-guide-hamza-shaukat-li4rf\",\n      \"content\": \"21 Αυγ 2025 ... Step 1: Define Business Requirements · Recovery Point Objective (RPO): Maximum acceptable data loss timeframe · Recovery Time Objective (RTO): ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"ISO 27001 disaster recovery guide (+Flowchart) - Copla\",\n      \"url\": \"https://copla.com/blog/compliance-regulations/iso-27001-disaster-recovery-guide-for-beginners/\",\n      \"content\": \"26 Ιαν 2026 ... A DRP should document the steps needed to restore IT systems and data following a disruption. It's not the same as a full business continuity ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\":",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "2"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "copla.com",
+      "csnp.org",
+      "docs.cloud.google.com",
+      "learn.microsoft.com",
+      "mitratech.com",
+      "pages.awscloud.com",
+      "warrenaverett.com",
+      "www.acronis.com",
+      "www.konfirmity.com",
+      "www.linkedin.com"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T21:12:47Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "2-source-4",
+    "type": "technical-doc",
+    "title": "pgBackRest Configuration Reference",
+    "publisher": "pgBackRest Project",
+    "url": "https://pgbackrest.org/configuration.html",
+    "language": "en",
+    "jurisdiction": "Global (product-specific)",
+    "applicability": "Database administrators implementing PostgreSQL backup solutions with automated retention policies, backup verification, and restore validation procedures",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:c124918331bc3f89efbcbb22b41643222bd5d7813906d8eecd4927ccfc0d43e9",
+    "textDigest": "sha256:0247c04dd7faac93b0bec9c0f0d699e858ba16e3dc0039acd44bc7832e30d1dc",
+    "finalUrl": "https://pgbackrest.org/configuration.html",
+    "retrievedAt": "2026-10-23T21:12:47Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-c124918331bc3f89efbcbb22b41643222bd5d7813906d8eecd4927ccfc0d43e9.bin",
+    "textPath": "source-0247c04dd7faac93b0bec9c0f0d699e858ba16e3dc0039acd44bc7832e30d1dc.txt"
+  },
+  "files": {
+    "snapshots/source-c124918331bc3f89efbcbb22b41643222bd5d7813906d8eecd4927ccfc0d43e9.bin": "sha256:c124918331bc3f89efbcbb22b41643222bd5d7813906d8eecd4927ccfc0d43e9",
+    "snapshots/source-0247c04dd7faac93b0bec9c0f0d699e858ba16e3dc0039acd44bc7832e30d1dc.txt": "sha256:0247c04dd7faac93b0bec9c0f0d699e858ba16e3dc0039acd44bc7832e30d1dc"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://pgbackrest.org/configuration.html",
+  "language": "en",
+  "retrievedAt": "2026-10-23T21:12:47Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T21:12:47Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n\npgBackRest - Configuration Reference\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\npgBackRest\n\n\npgBackRest\n\n\n\n\nConfiguration Reference\n\n\n\n\n\n\nHome\n\n\n\n\nUser Guides\n\n\n\n\nReleases\n\n\n\n\nConfiguration\n\n\n\n\nCommands\n\n\n\n\nNews\n\n\n\n\nFAQ\n\n\n\n\nMetrics\n\n\n\n\n\n\n\n\nTable of Contents\n\n\n\n\n\n\nIntroduction\n\n\n\n\n\n\nArchive Options\n\n\n\n\nAsynchronous Archiving\n\n\n\n\n\n\nMaximum Archive Get Queue Size\n\n\n\n\n\n\nRetry Missing WAL Segment\n\n\n\n\n\n\nArchive Push Batch Size\n\n\n\n\n\n\nMaximum Archive Push Queue Size\n\n\n\n\n\n\nArchive Timeout\n\n\n\n\n\n\n\n\nBackup Options\n\n\n\n\nBackup Annotation\n\n\n\n\n\n\nCheck Archive\n\n\n\n\n\n\nCopy Archive\n\n\n\n\n\n\nCheck Archive Mode\n\n\n\n\n\n\nBackup from Standby\n\n\n\n\n\n\nPage Checksums\n\n\n\n\n\n\nPath/File Exclusions\n\n\n\n\n\n\nExpire Auto\n\n\n\n\n\n\nManifest Save Threshold\n\n\n\n\n\n\nResume\n\n\n\n\n\n\nStart Fast\n\n\n\n\n\n\n\n\nGeneral Options\n\n\n\n\nAllow Run as Root\n\n\n\n\n\n\nBuffe",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "2"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "pgBackRest Project",
+    "host": "pgbackrest.org"
+  }
+}

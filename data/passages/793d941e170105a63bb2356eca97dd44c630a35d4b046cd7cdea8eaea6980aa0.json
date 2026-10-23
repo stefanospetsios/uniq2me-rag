@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "793d941e170105a63bb2356eca97dd44c630a35d4b046cd7cdea8eaea6980aa0",
+  "cachedAt": "2026-10-23T22:18:02Z",
+  "originRunId": "qwen3-40019296746",
+  "sourceUrl": "https://access.redhat.com/security/rh_security_declaration_sdl",
+  "finalUrl": "https://access.redhat.com/security/rh_security_declaration_sdl",
+  "language": "en",
+  "publisher": "Red Hat, Inc.",
+  "title": "Red Hat Secure Software Development Life Cycle",
+  "retrievedAt": "2026-10-23T22:15:12Z",
+  "byteDigest": "sha256:6b0cc68dce41ea7e78e8f3b7fdebb7bdce1e27370400ad28f510238f25659a81",
+  "textDigest": "sha256:c3e49d56e70097b1edfddcb21d2be339df477bb3a5f0b2582f720a5e14b5d73b",
+  "sourceId": "8-source-4",
+  "passageId": "p1",
+  "locator": "Threat Modeling Section",
+  "quotation": "The purpose of the threat modeling process is to aid Engineering in documenting identified security threats to an application and making well-informed decisions about security requirements to mitigate them.",
+  "originalText": "The purpose of the threat modeling process is to aid Engineering in documenting identified security threats to an application and making well-informed decisions about security requirements to mitigate them.",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T22:18:02Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Red Hat, Inc.",
+    "host": "access.redhat.com"
+  }
+}

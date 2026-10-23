@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "2cd4c7a1944f66da3e9e86c65e39e3011515fd62c4d38ec02faede009db9afbb",
+  "cachedAt": "2026-10-23T23:14:08Z",
+  "originRunId": "qwen3-40019296746",
+  "sourceUrl": "https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance",
+  "finalUrl": "https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance",
+  "language": "en",
+  "publisher": "National AI Centre, Australia",
+  "title": "Guidance for AI adoption: implementation guidance",
+  "retrievedAt": "2026-10-23T23:12:43Z",
+  "byteDigest": "sha256:44d3842f47b11a2d3b2f48827c9d8a950020f0f2cf12475da998894e10628f33",
+  "textDigest": "sha256:07bdce25136e31b6109c2939e5eec6707ecc4bdc3d6f7f195ccf8b6aca11bb28",
+  "sourceId": "F-source-2",
+  "passageId": "p1",
+  "locator": "2.2.1/bullet point",
+  "quotation": "Potentially affected stakeholders to raise concerns, challenges, or requests for remediation and receive responses (for example, a human rights grievance and remediation mechanism).",
+  "originalText": "Potentially affected stakeholders to raise concerns, challenges, or requests for remediation and receive responses (for example, a human rights grievance and remediation mechanism).",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T23:14:08Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "F"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "National AI Centre, Australia",
+    "host": "www.ai.gov.au"
+  }
+}

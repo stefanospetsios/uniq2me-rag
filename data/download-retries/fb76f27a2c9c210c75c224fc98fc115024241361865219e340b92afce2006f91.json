@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-download-retry",
+  "id": "fb76f27a2c9c210c75c224fc98fc115024241361865219e340b92afce2006f91",
+  "cachedAt": "2026-10-23T23:17:27Z",
+  "originRunId": "qwen3-40019296746",
+  "sourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022L2555",
+  "candidate": {
+    "type": "law",
+    "title": "Directive (EU) 2022/2555 of the European Parliament and of the Council of 14 December 2022 on measures for a high common level of cybersecurity across the Union, amending Regulation (EU) No 910/2014 and Directive (EU) 2018/1972, and repealing Directive (EU) 2016/1148 (Text with EEA relevance)",
+    "publisher": "Publications Office of the European Union",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022L2555",
+    "language": "en",
+    "jurisdiction": "European Union",
+    "applicability": "All EU member states including Greece and France; distinguishes essential/important entities and sector-specific obligations",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "id": "legal-source-1"
+  },
+  "language": "en",
+  "scopeId": "legal",
+  "status": "pending-download",
+  "firstFailedAt": "2026-10-23T23:17:27Z",
+  "firstFailureContext": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "prepare"
+  },
+  "lastAttemptAt": "2026-10-23T23:17:27Z",
+  "attempts": 1,
+  "lastError": "Source document is unavailable or incomplete: JavaScript/bot challenge page; retry the document download",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "prepare"
+  },
+  "retryOnNextRun": true,
+  "originalText": null,
+  "evidenceAdmitted": false,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "legal"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "pending-download",
+    "publisher": "Publications Office of the European Union",
+    "host": "eur-lex.europa.eu"
+  }
+}

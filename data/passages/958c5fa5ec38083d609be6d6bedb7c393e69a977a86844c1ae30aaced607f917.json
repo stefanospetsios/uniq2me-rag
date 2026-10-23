@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "958c5fa5ec38083d609be6d6bedb7c393e69a977a86844c1ae30aaced607f917",
+  "cachedAt": "2026-10-23T23:08:14Z",
+  "originRunId": "qwen3-40019296746",
+  "sourceUrl": "https://www.enisa.europa.eu/sites/default/files/2025-06/Mapping%20NIS%202%20obligations%20with%20ECSF%20role%20profiles.pdf",
+  "finalUrl": "https://www.enisa.europa.eu/sites/default/files/2025-06/Mapping%20NIS%202%20obligations%20with%20ECSF%20role%20profiles.pdf",
+  "language": "en",
+  "publisher": "European Union Agency for Cybersecurity (ENISA)",
+  "title": "Mapping NIS2 Obligations with ECSF Role Profiles",
+  "retrievedAt": "2026-10-23T23:05:22Z",
+  "byteDigest": "sha256:ae3300be1bb5dfb5a8fd43d268ab8ae9474cfba381ea2151c0ddbdb40051cc1b",
+  "textDigest": "sha256:981d3bd243637993b1ba0fa7ff5b967c0f1692a56856dc4e6b5bd5794f8077b6",
+  "sourceId": "D-source-2",
+  "passageId": "p1",
+  "locator": "Executive Summary",
+  "quotation": "Each role is mapped to its specific tasks, assisting entities in understanding what personnel capabilities are required to fulfil these obligations successfully.",
+  "originalText": "essential and important entities\ncovered by the directive. Each role is mapped to its specific tasks, assisting entities in\nunderstanding what personnel capabilities are required to fulfil these obligations successfully.\nThe detailed connections aim to guide entities in deploying the right team members to adhere to\nthese standards.\n\nAdditionally, this guidance acts as a valuable",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T23:08:14Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "D"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "European Union Agency for Cybersecurity (ENISA)",
+    "host": "www.enisa.europa.eu"
+  }
+}

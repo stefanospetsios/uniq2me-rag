@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "0957a133b1dae78000414f1ba3d96f36c3ddb79e70b9be27f410c4f88af1d413",
+  "cachedAt": "2026-10-23T21:12:45Z",
+  "observedAt": "2026-10-23T21:12:45Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-2-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "2",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "backups official maintainer implementation configuration documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792789897735,
+    "end": 1792789899245
+  },
+  "outputDigest": "sha256:d8276c8e8bf34f152a916238272d3ba60954c2ffd541716251bd3f069db24f16",
+  "resultUrls": [
+    "https://docs.coopcloud.tech/specs/backup/maintain/",
+    "https://pgbackrest.org/configuration.html"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"For Maintainers - Co-op Cloud: Docs\",\n      \"url\": \"https://docs.coopcloud.tech/specs/backup/maintain/\",\n      \"content\": \"For Maintainers - Co-op Cloud: Docs\\n\\n# For Maintainers¶\\n\\nFrom the perspective of the recipe maintainer, backup/restore is just more `deploy: ...` labels. Tools can read these labels and then perform the backup/restore logic.\\n\\n## Tools¶\\n\\nTwo of the current \\\"blessed\\\" options are, which both implement the backupbot specification.\\n\\n- `backup-bot-two`\\n- `abra`\\n\\n### `backup-bot-two`¶\\n\\n`backup-bot-two` is a recipe which gets deployed on the server, it can perform automatic backups and uses restic. Please see the `README.md` for the full docs.\\n\\n### `abra`¶\\n\\n`abra` will read labels and store backups in `~/.abra/backups/...` . It also provides an integration for `backup-bot-two`.\\n\\n### How to Configure backups¶\\n\\nUnless otherwise stated all labels should be added to the main service (which should be named `app`).\\n\\n1. Enable backups for the recipe: You need to enable backups for the recipe by adding the following deploy label:\\n\\n```\\nbackupbot.backup=true\\n\\n```\\n\\n1. Decide wich volumes should be backed up: By default all volumes will be backed up. To disable a certain volume you can add the following deploy label:\\n\\n```\\nbackupbot.backup.volumes.{volume_name}=false\\n\\n```\\n\\n1. Decide which path should be backed up on each volume By default all files get backed up for a volume. To only include certain paths you can add the following deploy label:\\n\\n```\\nbackupbot.backup.volumes.{volume_name}.path=/mypath1/foo,/mypath2/bar\\n\\n```\\n\\nNote: You can include multiple paths by providing a comma seperated list Note: All paths are specified relativ to the volume root\\n\\n1. Run commands before the backup For certain services like a database it is not reccomend to just backup files, because the backup might end up in a corrupted state. Instead it is reccomended to make a database dump. You can run ",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "2"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "docs.coopcloud.tech",
+      "pgbackrest.org"
+    ]
+  }
+}

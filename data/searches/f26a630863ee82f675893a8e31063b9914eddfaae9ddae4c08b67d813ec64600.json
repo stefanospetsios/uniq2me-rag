@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "f26a630863ee82f675893a8e31063b9914eddfaae9ddae4c08b67d813ec64600",
+  "cachedAt": "2026-10-23T21:53:22Z",
+  "observedAt": "2026-10-23T21:53:22Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-6-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "6",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Logging Monitoring Incident Response official implementation configuration documentation site:owasp.org OR site:nist.gov OR site:cisa.gov OR site:owasp.org OR site:kernel.org OR site:microsoft.com OR site:ietf.org",
+    "time_range": ""
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792792368372,
+    "end": 1792792372024
+  },
+  "outputDigest": "sha256:bb00bebc01da51bbeda36a46b3ee3efb0555d1ee50f658ba1444abe601b67710",
+  "resultUrls": [
+    "http://csrc",
+    "https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/incident-response",
+    "https://learn.microsoft.com/en-us/security/operations/incident-response-overview",
+    "https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-92.pdf",
+    "https://www.cisa.gov/resources-tools/resources/logging-reference-architecture",
+    "https://www.cisa.gov/resources-tools/resources/microsoft-expanded-cloud-logs-implementation-playbook",
+    "https://www.cisa.gov/resources-tools/services/logging-made-easy",
+    "https://www.cisa.gov/sites/default/files/2024-08/Federal_Government_Cybersecurity_Incident_and_Vulnerability_Response_Playbooks_508C.pdf",
+    "https://www.cisa.gov/sites/default/files/2026-09/logging-reference-architecture-508.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Logging Monitoring Incident Response official implementation configuration documentation site:owasp.org OR site:nist.gov OR site:cisa.gov OR site:owasp.org OR site:kernel.org OR site:microsoft.com OR site:ietf.org\",\n  \"results\": [\n    {\n      \"title\": \"Logging Reference Architecture | CISA\",\n      \"url\": \"https://www.cisa.gov/resources-tools/resources/logging-reference-architecture\",\n      \"content\": \"20 Αυγ 2026 ... The document converts federal policy directives into architectural, operational, and governance decisions required for logging capabilities that ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Logging Reference Architecture (LRA) - CISA\",\n      \"url\": \"https://www.cisa.gov/sites/default/files/2026-09/logging-reference-architecture-508.pdf\",\n      \"content\": \"Logging capabilities must enable timely detection, effective threat hunting, decisive incident response, and robust digital forensics. The Cybersecurity and ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Guide to Computer Security Log Management\",\n      \"url\": \"https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-92.pdf\",\n      \"content\": \"See NIST SP 800-83, Guide to Malware Incident Prevention and Handling, for more information on antivirus software. The publication is available at http://csrc ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Cybersecurity Incident & Vulnerability Response Playbooks - CISA\",\n      \"url\": \"https://www.cisa.gov/sites/default/files/2024-08/Federal_Government_Cybersecurity_Incident_and_Vulnerability_Response_Playbooks_508C.pdf\",\n      \"content\": \"This document presents two playbooks: one for incident response and one for vulnerability response. These playbooks provide FCEB agencies with a standard set of ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Architecture strategies for designing an incident ",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "csrc",
+      "learn.microsoft.com",
+      "nvlpubs.nist.gov",
+      "www.cisa.gov"
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "d5d9301c747d089991e61133310f5b4fa92c9c7d70033ab4ac736c812abfcdc4",
+  "cachedAt": "2026-10-23T21:08:56Z",
+  "observedAt": "2026-10-23T21:08:56Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-2-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "2",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Backup and Disaster Recovery Plan official implementation configuration documentation",
+    "time_range": ""
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792789692616,
+    "end": 1792789693510
+  },
+  "outputDigest": "sha256:b5ce2f7e93ebf5886050bb264e4a9ac87cbc6b9ad090914e10a251c620c926c9",
+  "resultUrls": [
+    "https://cibersafety.com/en/site-disaster-recovery-complete-guide/",
+    "https://cloudian.com/guides/disaster-recovery/disaster-recovery-5-key-features-and-building-your-dr-plan/",
+    "https://docs.cloud.google.com/backup-disaster-recovery/docs",
+    "https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery",
+    "https://secureframe.com/blog/disaster-recovery-plan",
+    "https://www.acronis.com/en/blog/posts/disaster-recovery-plan/",
+    "https://www.arcserve.com/blog/step-step-guide-creating-disaster-recovery-plan",
+    "https://www.baculasystems.com/wp-content/uploads/2023/02/dr-guide.pdf",
+    "https://www.darktrace.com/cyber-ai-glossary/cloud-backup-and-disaster-recovery",
+    "https://www.linkedin.com/pulse/complete-devops-disaster-recovery-backup-guide-hamza-shaukat-li4rf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Backup and Disaster Recovery Plan official implementation configuration documentation\",\n  \"results\": [\n    {\n      \"title\": \"Backup and DR documentation - Google Cloud Documentation\",\n      \"url\": \"https://docs.cloud.google.com/backup-disaster-recovery/docs\",\n      \"content\": \"... disaster recovery, business continuity, and development and test activity. ... Configure a backup plan · Protect an application · Different ways to access your ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Complete DevOps Disaster Recovery & Backup Implementation Guide\",\n      \"url\": \"https://www.linkedin.com/pulse/complete-devops-disaster-recovery-backup-guide-hamza-shaukat-li4rf\",\n      \"content\": \"21 Αυγ 2025 ... Step 1: Define Business Requirements · Recovery Point Objective (RPO): Maximum acceptable data loss timeframe · Recovery Time Objective (RTO): ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Architecture strategies for disaster recovery - Azure - Microsoft Learn\",\n      \"url\": \"https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery\",\n      \"content\": \"19 Νοε 2025 ... This article outlines the key strategies for disaster recovery, emphasizing resilient workload design, data integrity, and clearly defined ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Step-by-Step Guide to Creating a Disaster Recovery Plan - Arcserve\",\n      \"url\": \"https://www.arcserve.com/blog/step-step-guide-creating-disaster-recovery-plan\",\n      \"content\": \"29 Αυγ 2024 ... A comprehensive recovery plan will minimize the effect of a natural disaster on business continuity, compliance, and data loss. A good plan also ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"What is a disaster recovery plan (DRP) and how to create one?\",\n      \"url\": \"https://www.acronis.com/en/blog/posts/disaster-recovery-plan/\",\n      \"content\": \"14 ",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "2"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "cibersafety.com",
+      "cloudian.com",
+      "docs.cloud.google.com",
+      "learn.microsoft.com",
+      "secureframe.com",
+      "www.acronis.com",
+      "www.arcserve.com",
+      "www.baculasystems.com",
+      "www.darktrace.com",
+      "www.linkedin.com"
+    ]
+  }
+}

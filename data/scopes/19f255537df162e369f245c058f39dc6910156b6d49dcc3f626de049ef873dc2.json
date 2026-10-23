@@ -1,0 +1,439 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-scope",
+  "cachedAt": "2026-10-23T21:52:36Z",
+  "scopeId": "5",
+  "fingerprint": "19f255537df162e369f245c058f39dc6910156b6d49dcc3f626de049ef873dc2",
+  "originRunId": "qwen3-40019296746",
+  "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "scope-admitted",
+    "publisher": null,
+    "host": null
+  },
+  "corpus": {
+    "sources": {
+      "5-source-1": {
+        "type": "technical-doc",
+        "title": "NIST Special Publication 800-77 Revision 1: Guide to IPsec VPNs",
+        "publisher": "National Institute of Standards and Technology (NIST)",
+        "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-77r1.pdf",
+        "language": "en",
+        "jurisdiction": "United States",
+        "applicability": "Provides authoritative technical guidance on IPsec protocol implementation including configuration of security associations, key management, and network traffic selectors. Directly addresses VPN implementation, traffic controls, and secure remote connectivity boundaries in the scope.",
+        "publicationDate": "2020-06-01",
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "5-source-1",
+        "byteDigest": "sha256:bc2a36dcccf96476d4e0d09468901726c930f2554115c440988bae746074bd70",
+        "textDigest": "sha256:f946b8af348cabc6416dcb1dad331f045ccc0bc53095aea9689073094ee4f5cf",
+        "finalUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-77r1.pdf",
+        "retrievedAt": "2026-10-23T21:37:35Z",
+        "contentType": "application/pdf",
+        "snapshotPath": "source-bc2a36dcccf96476d4e0d09468901726c930f2554115c440988bae746074bd70.bin",
+        "textPath": "source-f946b8af348cabc6416dcb1dad331f045ccc0bc53095aea9689073094ee4f5cf.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "cacheReuse": {
+          "originRunId": "qwen3-40019296746",
+          "cacheCommit": null,
+          "reusedAt": "2026-10-23T21:43:23Z",
+          "webRecheckedThisRun": true
+        },
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "page vi",
+            "text": "FIPS-validated cryptographic modules shall"
+          },
+          {
+            "id": "p2",
+            "locator": "Executive Summary",
+            "text": "Gateway-to-gateway. This architecture protects communications"
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "5-source-3": {
+        "type": "technical-doc",
+        "title": "AWS Site-to-Site VPN - AWS Documentation",
+        "publisher": "Amazon Web Services (AWS)",
+        "url": "https://docs.aws.amazon.com/vpn/latest/s2svpn/VPC_VPN.html",
+        "language": "en",
+        "jurisdiction": "Global",
+        "applicability": "Official configuration documentation for establishing secure network connectivity between AWS VPCs and on-premises networks. Implements routing rules, traffic segmentation, and security group integration required by the network boundary and remote access components of the scope.",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "5-source-3",
+        "byteDigest": "sha256:ae91ce815e487283055a07fce7b6f690088c50ac178b7d82cc811e7618247f4b",
+        "textDigest": "sha256:700679e760c60e453b6965fc929ac33bafcbce77b9d38ba564882011a37905fa",
+        "finalUrl": "https://docs.aws.amazon.com/vpn/latest/s2svpn/VPC_VPN.html",
+        "retrievedAt": "2026-10-23T21:37:36Z",
+        "contentType": "text/html",
+        "snapshotPath": "source-ae91ce815e487283055a07fce7b6f690088c50ac178b7d82cc811e7618247f4b.bin",
+        "textPath": "source-700679e760c60e453b6965fc929ac33bafcbce77b9d38ba564882011a37905fa.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "cacheReuse": {
+          "originRunId": "qwen3-40019296746",
+          "cacheCommit": null,
+          "reusedAt": "2026-10-23T21:43:23Z",
+          "webRecheckedThisRun": true
+        },
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "What is AWS Site-to-Site VPN?",
+            "text": "By default, an instance that you launch within an Amazon VPC can't communicate with a local (AWS Cloud) network and a remote device — for example, this might be a site or an on-premises device. You can enable access to your remote devices from your VPC by creating an AWS Site-to-Site VPN (Site-to-Site VPN) connection, and configuring routing to pass traffic through the connection."
+          },
+          {
+            "id": "p2",
+            "locator": "Site-to-Site VPN features",
+            "text": "Each VPN connection includes two VPN tunnels which you can simultaneously use for high availability."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "5-source-4": {
+        "type": "technical-doc",
+        "title": "Red Hat Enterprise Linux 10: Setting up an IPsec VPN",
+        "publisher": "Red Hat, Inc.",
+        "url": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10/html/securing_networks/setting-up-an-ipsec-vpn",
+        "language": "en",
+        "jurisdiction": "Global",
+        "applicability": "Implementation guide for IPsec VPNs on enterprise Linux systems using Libreswan. Covers security parameter configuration, network traffic selectors, and encryption settings relevant to VPN implementation requirements.",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "5-source-4",
+        "byteDigest": "sha256:7edbf215561efad8c0b623797e8319122d9b0f60b92a7149dbc1a7307d83fbf0",
+        "textDigest": "sha256:3f5094f9c81362f0cc7a3d113df46990fe8c8c20e5adae6febcd6cb507e43479",
+        "finalUrl": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10/html/securing_networks/setting-up-an-ipsec-vpn",
+        "retrievedAt": "2026-10-23T21:43:24Z",
+        "contentType": "text/html;charset=utf-8",
+        "snapshotPath": "source-7edbf215561efad8c0b623797e8319122d9b0f60b92a7149dbc1a7307d83fbf0.bin",
+        "textPath": "source-3f5094f9c81362f0cc7a3d113df46990fe8c8c20e5adae6febcd6cb507e43479.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Section 6.2",
+            "text": "This method uses X.509 certificates from a trusted Certificate Authority (CA). Each peer proves its identity with its certificate and private key. The other peer verifies the certificate against the trusted CA."
+          },
+          {
+            "id": "p2",
+            "locator": "Section 6.5.1",
+            "text": "the gateway verifies that client certificates are issued by the same trusted CA and automatically uses a certificate revocation list (CRL) to ensure access is denied for any revoked certificates."
+          },
+          {
+            "id": "p3",
+            "locator": "Section 6.11 reference",
+            "text": "If you use this host in a network with DHCP or Stateless Address Autoconfiguration (SLAAC), the connection can be vulnerable to being redirected."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "5-source-5": {
+        "type": "guidance",
+        "title": "Joint Guide: Modern Approaches to Secure Network Access Security",
+        "publisher": "Cybersecurity and Infrastructure Security Agency (CISA)",
+        "url": "https://www.cisa.gov/sites/default/files/2024-06/joint-guide-modern-approaches-to-secure-network-access-security-508c.pdf",
+        "language": "en",
+        "jurisdiction": "United States",
+        "applicability": "Current operational guidance covering zero-trust network access, segmentation best practices, and secure remote connectivity patterns. Addresses network inventory maintenance, traffic control validation, and policy review requirements from the scope using modern implementation techniques.",
+        "publicationDate": "2024-06",
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "5-source-5",
+        "byteDigest": "sha256:fd3e8b33341c728f48ed92cee2b0074a0485e6278b7d56dfccfdfc23ddf61b01",
+        "textDigest": "sha256:26eca482c8f41e8166bf95918fc65202d0e5822047b11a3fb898fa0e37ba75c6",
+        "finalUrl": "https://www.cisa.gov/sites/default/files/2024-06/joint-guide-modern-approaches-to-secure-network-access-security-508c.pdf",
+        "retrievedAt": "2026-10-23T21:37:38Z",
+        "contentType": "application/pdf",
+        "snapshotPath": "source-fd3e8b33341c728f48ed92cee2b0074a0485e6278b7d56dfccfdfc23ddf61b01.bin",
+        "textPath": "source-26eca482c8f41e8166bf95918fc65202d0e5822047b11a3fb898fa0e37ba75c6.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "cacheReuse": {
+          "originRunId": "qwen3-40019296746",
+          "cacheCommit": null,
+          "reusedAt": "2026-10-23T21:43:24Z",
+          "webRecheckedThisRun": true
+        },
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "SOLUTIONS",
+            "text": "Current modern solutions—Zero trust, SSE, and SASE--provide remote access to applications and services based on a granular access control policy. This type of policy rejects access to users who are not explicitly authenticated and authorized for a particular application or service."
+          },
+          {
+            "id": "p2",
+            "locator": "BEST PRACTICES",
+            "text": "All connections to OT networks are denied by default"
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "5-source-6": {
+        "type": "guidance",
+        "title": "Introduction to the Cisco Secure Networking Architecture",
+        "publisher": "Cisco Systems",
+        "url": "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Campus/Intro-Cisco-Secure-Network-Architecture.html",
+        "language": "en",
+        "jurisdiction": "Global",
+        "applicability": "Comprehensive framework covering network segmentation through security groups, zero-trust implementation patterns, and distributed enforcement models. Directly addresses traffic control policies, network review processes, and security boundary management specified in the scope.",
+        "publicationDate": "2026-05-31",
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "5-source-6",
+        "byteDigest": "sha256:a4ff80b2592aa5b790846f6cfff6f918e0096f6443ac14101fd813566bf0332c",
+        "textDigest": "sha256:05a79016310c95fcc89b86be096f3086bb6e03212f96a36913219db826224b50",
+        "finalUrl": "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Campus/Intro-Cisco-Secure-Network-Architecture.html",
+        "retrievedAt": "2026-10-23T21:37:37Z",
+        "contentType": "text/html;charset=utf-8",
+        "snapshotPath": "source-a4ff80b2592aa5b790846f6cfff6f918e0096f6443ac14101fd813566bf0332c.bin",
+        "textPath": "source-05a79016310c95fcc89b86be096f3086bb6e03212f96a36913219db826224b50.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "cacheReuse": {
+          "originRunId": "qwen3-40019296746",
+          "cacheCommit": null,
+          "reusedAt": "2026-10-23T21:43:24Z",
+          "webRecheckedThisRun": true
+        },
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "CSN architectural layers and functions",
+            "text": "Segment and Protect\n: Translate identity and business intent into segmentation that limits unnecessary communication"
+          },
+          {
+            "id": "p2",
+            "locator": "Executive summary",
+            "text": "As the traditional perimeter dissolves, fragmented, bolt-on security cannot keep pace with machine-speed exploitation, AI-driven lateral movement, infrastructure-targeted attacks, compromised identities, and the “harvest-now, decrypt-later” quantum threat."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      }
+    },
+    "concerns": [
+      {
+        "id": "5-concern-1",
+        "sfsId": "5",
+        "description": "VPN implementations must use cryptographic algorithms from FIPS-validated modules to ensure cryptographic strength and compliance with security standards.",
+        "sourceRefs": [
+          {
+            "sourceId": "5-source-1",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "5-concern-2",
+        "sfsId": "5",
+        "description": "Network segmentation must be implemented to limit unnecessary communication across the infrastructure with policy enforcement close to resources and systems.",
+        "sourceRefs": [
+          {
+            "sourceId": "5-source-5",
+            "passageId": "p2"
+          },
+          {
+            "sourceId": "5-source-6",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "5-concern-3",
+        "sfsId": "5",
+        "description": "Gateway-to-gateway architecture must be used to protect communications between specific networks such as main office and branch office networks or business partners' networks.",
+        "sourceRefs": [
+          {
+            "sourceId": "5-source-1",
+            "passageId": "p2"
+          }
+        ]
+      },
+      {
+        "id": "5-concern-4",
+        "sfsId": "5",
+        "description": "X.509 certificate-based authentication must be implemented for secure peer identification where each peer proves identity with certificates from a trusted Certificate Authority.",
+        "sourceRefs": [
+          {
+            "sourceId": "5-source-4",
+            "passageId": "p1"
+          },
+          {
+            "sourceId": "5-source-4",
+            "passageId": "p2"
+          }
+        ]
+      },
+      {
+        "id": "5-concern-5",
+        "sfsId": "5",
+        "description": "Traditional remote access solutions should be replaced with modern secure approaches like Zero Trust Network Access that provide granular access control policies based on explicit authentication and authorization.",
+        "sourceRefs": [
+          {
+            "sourceId": "5-source-5",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "5-concern-6",
+        "sfsId": "5",
+        "description": "Site-to-Site VPN configurations must include dual tunnels for high availability and proper routing configuration to pass traffic between VPCs and on-premises networks.",
+        "sourceRefs": [
+          {
+            "sourceId": "5-source-3",
+            "passageId": "p1"
+          },
+          {
+            "sourceId": "5-source-3",
+            "passageId": "p2"
+          }
+        ]
+      },
+      {
+        "id": "5-concern-7",
+        "sfsId": "5",
+        "description": "Network boundary configurations must incorporate routing table isolation to prevent VPN connections bypassing tunnel security in DHCP or SLAAC environments.",
+        "sourceRefs": [
+          {
+            "sourceId": "5-source-4",
+            "passageId": "p3"
+          }
+        ]
+      },
+      {
+        "id": "5-concern-8",
+        "sfsId": "5",
+        "description": "Security boundaries must account for quantum computing threats through crypto agility and hardware-enforced security measures for the most consequential systems.",
+        "sourceRefs": [
+          {
+            "sourceId": "5-source-6",
+            "passageId": "p2"
+          }
+        ]
+      }
+    ],
+    "queries": [
+      {
+        "scope": "5",
+        "toolId": "searxng_web_search",
+        "input": {
+          "safesearch": 1,
+          "time_range": "",
+          "query": "Networking and VPNs official implementation configuration documentation",
+          "max_results": 8
+        },
+        "outputDigest": "sha256:e9f709d246a93fc41f7fe17d6d73d5178cb8c13a08ac9fa94acd55ba6e3ed53d",
+        "callId": "sources-5-1-discovery",
+        "reusedScopeObservation": true
+      },
+      {
+        "scope": "5",
+        "toolId": "websearch_web_search",
+        "input": {
+          "max_results": 8,
+          "query": "network inventory segmentation firewalls security groups routing VPNs remote access zero trust technical documentation"
+        },
+        "outputDigest": "sha256:fe6586b0151992abc00848a19731b981bb074df8d236def18545e5d8417aad86",
+        "callId": "sources-5-1-discovery",
+        "reusedScopeObservation": true
+      },
+      {
+        "scope": "5",
+        "toolId": "searxng_web_search",
+        "input": {
+          "query": "Networking and VPNs official implementation configuration documentation",
+          "max_results": 10,
+          "safesearch": 1,
+          "time_range": ""
+        },
+        "outputDigest": "sha256:8928329b99852ad8c0863a8b580b7cd11ca720d0a3460e71acc4e776a5d5a52f",
+        "callId": "sources-5-2-discovery"
+      },
+      {
+        "scope": "5",
+        "toolId": "websearch_web_search",
+        "input": {
+          "query": "Networking and VPNs official implementation configuration documentation",
+          "max_results": 10
+        },
+        "outputDigest": "sha256:8bbafb8c5e4c39e7b4af4862264d62ca1dca9433957d382da3b472e464ca6d82",
+        "callId": "sources-5-2-discovery"
+      }
+    ],
+    "limitations": [
+      {
+        "scope": "5",
+        "description": "RFC 4301 (current IPsec standard) not observed in tool results; substituting with NIST SP 800-77r1 which implements RFC references"
+      },
+      {
+        "scope": "5",
+        "description": "No Greek-language technical implementation documentation found for network segmentation specifics"
+      },
+      {
+        "scope": "5",
+        "description": "AWS/Cisco documentation dates require verification against current platform versions"
+      },
+      {
+        "scope": "5",
+        "description": "Brave search engine remains unresponsive during searxng search; results rely on Google CSE integration"
+      },
+      {
+        "scope": "5",
+        "description": "Red Hat documentation confirms current validity of IPsec implementation patterns for enterprise Linux environments"
+      },
+      {
+        "scope": "5",
+        "description": "Document fetch for NIST SP 800-215 (source 5-source-2) contained only redirect page, no substantive content"
+      },
+      {
+        "scope": "5",
+        "description": "Excluded optional fetched source 5-source-2 (https://csrc.nist.gov/pubs/sp/800/215/final): Document fetch contained only redirect page, no substantive content"
+      },
+      {
+        "scope": "5",
+        "description": "Some source URLs were observed in earlier discovery calls for this same scope; original tool provenance is retained."
+      },
+      {
+        "scope": "5",
+        "description": "Some documents came from prior fetched snapshots with original retrieval dates; their current web contents were not rechecked in this run."
+      }
+    ],
+    "admissionVersion": 2,
+    "observedResultUrls": [
+      "https://docs.aws.amazon.com/vpn/latest/s2svpn/VPC_VPN.html",
+      "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10/html/securing_networks/setting-up-an-ipsec-vpn",
+      "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-77r1.pdf",
+      "https://www.cisa.gov/sites/default/files/2024-06/joint-guide-modern-approaches-to-secure-network-access-security-508c.pdf",
+      "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Campus/Intro-Cisco-Secure-Network-Architecture.html"
+    ]
+  },
+  "files": {
+    "snapshots/source-bc2a36dcccf96476d4e0d09468901726c930f2554115c440988bae746074bd70.bin": "sha256:bc2a36dcccf96476d4e0d09468901726c930f2554115c440988bae746074bd70",
+    "snapshots/source-f946b8af348cabc6416dcb1dad331f045ccc0bc53095aea9689073094ee4f5cf.txt": "sha256:f946b8af348cabc6416dcb1dad331f045ccc0bc53095aea9689073094ee4f5cf",
+    "snapshots/source-ae91ce815e487283055a07fce7b6f690088c50ac178b7d82cc811e7618247f4b.bin": "sha256:ae91ce815e487283055a07fce7b6f690088c50ac178b7d82cc811e7618247f4b",
+    "snapshots/source-700679e760c60e453b6965fc929ac33bafcbce77b9d38ba564882011a37905fa.txt": "sha256:700679e760c60e453b6965fc929ac33bafcbce77b9d38ba564882011a37905fa",
+    "snapshots/source-7edbf215561efad8c0b623797e8319122d9b0f60b92a7149dbc1a7307d83fbf0.bin": "sha256:7edbf215561efad8c0b623797e8319122d9b0f60b92a7149dbc1a7307d83fbf0",
+    "snapshots/source-3f5094f9c81362f0cc7a3d113df46990fe8c8c20e5adae6febcd6cb507e43479.txt": "sha256:3f5094f9c81362f0cc7a3d113df46990fe8c8c20e5adae6febcd6cb507e43479",
+    "snapshots/source-fd3e8b33341c728f48ed92cee2b0074a0485e6278b7d56dfccfdfc23ddf61b01.bin": "sha256:fd3e8b33341c728f48ed92cee2b0074a0485e6278b7d56dfccfdfc23ddf61b01",
+    "snapshots/source-26eca482c8f41e8166bf95918fc65202d0e5822047b11a3fb898fa0e37ba75c6.txt": "sha256:26eca482c8f41e8166bf95918fc65202d0e5822047b11a3fb898fa0e37ba75c6",
+    "snapshots/source-a4ff80b2592aa5b790846f6cfff6f918e0096f6443ac14101fd813566bf0332c.bin": "sha256:a4ff80b2592aa5b790846f6cfff6f918e0096f6443ac14101fd813566bf0332c",
+    "snapshots/source-05a79016310c95fcc89b86be096f3086bb6e03212f96a36913219db826224b50.txt": "sha256:05a79016310c95fcc89b86be096f3086bb6e03212f96a36913219db826224b50"
+  }
+}

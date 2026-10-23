@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "c75043c74a93cd071619933f623add9323621b3932e18dfbf21a3967ef12a0e9",
+  "cachedAt": "2026-10-23T21:24:08Z",
+  "observedAt": "2026-10-23T21:24:08Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-3-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "3",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "time_range": "",
+    "query": "Authentication and Authorization official implementation configuration documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792790570897,
+    "end": 1792790572005
+  },
+  "outputDigest": "sha256:1324af92cc4b7012f8619e13c65db4e9662755a6d365261ea7432c39dc269f22",
+  "resultUrls": [
+    "https://anticitizenone.medium.com/implementation-methods-for-authentication-and-authorization-part-1-65f73301ae34",
+    "https://auth0.com/docs/get-started/authentication-and-authorization-flow",
+    "https://modelcontextprotocol.io/docs/2026-07-28/tutorials/security/authorization",
+    "https://stytch.com/blog/MCP-authentication-and-authorization-guide/",
+    "https://www.practical-devsecops.com/mcp-authentication-authorization-implementation/?srsltid=AYCX9vL2ZI8Mt0PdgWA5ScLeCynAhiZfaP4JQMHR8oNuTaYvWQN1i9kQ"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Authentication and Authorization official implementation configuration documentation\",\n  \"results\": [\n    {\n      \"title\": \"MCP Authentication and Authorization: A Security Implementation ...\",\n      \"url\": \"https://www.practical-devsecops.com/mcp-authentication-authorization-implementation/?srsltid=AYCX9vL2ZI8Mt0PdgWA5ScLeCynAhiZfaP4JQMHR8oNuTaYvWQN1i9kQ\",\n      \"content\": \"15 Μαΐ 2026 ... Authentication tells the server who is connecting. Authorization tells the server what that connection is allowed to do.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Implementation Methods for Authentication and Authorization (Part 1)\",\n      \"url\": \"https://anticitizenone.medium.com/implementation-methods-for-authentication-and-authorization-part-1-65f73301ae34\",\n      \"content\": \"26 Μαρ 2024 ... The topic of authentication and authorization implementation was, at the moment, the most densely packed, even considering cryptography, ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"MCP authentication and authorization implementation guide - Stytch\",\n      \"url\": \"https://stytch.com/blog/MCP-authentication-and-authorization-guide/\",\n      \"content\": \"21 Ιουλ 2025 ... A practical, end-to-end guide to implementing secure authentication and authorization for AI tools using the Method Calling Protocol (MCP) ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Understanding Authorization in MCP - Model Context Protocol\",\n      \"url\": \"https://modelcontextprotocol.io/docs/2026-07-28/tutorials/security/authorization\",\n      \"content\": \"Authorization in the Model Context Protocol (MCP) secures access to sensitive resources and operations exposed by MCP servers. If your MCP server handles ...\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Authentication and Authorization Flows - Auth0 Docs\",\n      \"url\": \"https://auth0.com/docs/",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "3"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "anticitizenone.medium.com",
+      "auth0.com",
+      "modelcontextprotocol.io",
+      "stytch.com",
+      "www.practical-devsecops.com"
+    ]
+  }
+}

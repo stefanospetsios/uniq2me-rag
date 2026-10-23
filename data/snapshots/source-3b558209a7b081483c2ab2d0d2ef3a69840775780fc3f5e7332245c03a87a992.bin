@@ -1,0 +1,6465 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    <!-- Google Tag Manager -->
+    <script data-category="analytics" data-service="Google Analytics">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js','cookie_flags': 'SameSite=None;Secure'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MZJ7DV8L');</script>
+  <!-- End Google Tag Manager -->
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+	    
+         <link rel="canonical" href="https://www.securden.com/privileged-access-management/help/emergency-access-settings/how-to-configure-emergency-access.html">
+         <link rel="alternate" href="https://www.securden.com/privileged-access-management/help/emergency-access-settings/how-to-configure-emergency-access.html" hreflang="en-us">
+      
+      
+        <meta name="description" content="Learn how to configure emergency access in Securden PAM">
+      
+      
+	  
+	  
+	  
+      
+	  
+      
+	  
+	  
+      
+      
+      
+      
+      
+      
+        <link rel="prev" href="../security-settings/how-to-block-access-through-api-extensions-mobile-apps.html">
+      
+      
+        <link rel="next" href="../disaster-recovery-settings/how-to-get-a-database-backup.html">
+      
+      
+      <link rel="icon" href="../images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.30">
+    
+    
+      
+        <title>Configure Emergency Access | Securden Unified PAM Administrator Guide</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.3cba04c6.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../css/neoteroi-mkdocs.min.css">
+    
+      <link rel="stylesheet" href="../css/extra.css?v=06-12-2024">
+    
+      <link rel="stylesheet" href="../css/animate.min.css">
+    
+      <link rel="stylesheet" href="../css/cookieconsent.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="green">
+      
+      <img src="https://prod.bread.humanisys.ai/traffic/cef4caaf8dbf040fa1bc219d9b0138b38cb3d9175262786b6833c4dc1c0dfc066479cd89e60e4ce5278677860e21e81e.png" referrerpolicy="unsafe-url" style="display: none;">
+      
+      
+      <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZJ7DV8L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+      
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#configure-emergency-access" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="/privileged-account-manager/index.html" title="Administrator Guide" class="md-header__button md-logo" aria-label="Administrator Guide" data-md-component="logo" target="_blank">
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Administrator Guide
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Configure Emergency Access | Securden Unified PAM Administrator Guide
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="green" aria-label="Switch to dark mode" type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"></path></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="white" data-md-color-accent="green" aria-label="Switch to light mode" type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"></path></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required="">
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix="">
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="/privileged-account-manager/index.html" target="_blank" title="Administrator Guide" class="md-nav__button md-logo" aria-label="Administrator Guide" data-md-component="logo">
+      
+  <img src="../images/securden-pam-logo.svg" alt="logo">
+
+    </a>
+    Administrator Guide
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix="">
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Unified PAM
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2">
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Getting Started
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Getting Started
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/how-to-start-the-pam-service.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Start the PAM Service
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/how-to-launch-the-web-interface-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Launch the Web interface
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3">
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    General Configuration Settings
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            General Configuration Settings
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../general-configuration-settings/general-pam-configuration-settings.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../general-configuration-settings/how-to-configure-mail-server-settings-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mail Server Settings
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../general-configuration-settings/how-to-configure-proxy-server-settings-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Proxy Server Settings
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../general-configuration-settings/how-to-configure-securden-server-connectivity-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Securden Server Connectivity
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../general-configuration-settings/how-to-replace-self-signed-certificate-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Replace the Self-Signed Certificate
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4">
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    User Management
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            User Management
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-management/introduction-to-user-management-in-unified-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2">
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Onboarding Users to Unified PAM
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            Onboarding Users to Unified PAM
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../onboarding-users-to-pam/introduction-to-user-onboarding-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../onboarding-users-to-pam/how-to-import-users-from-active-directory-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Import from Active Directory
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../onboarding-users-to-pam/how-to-import-users-from-azure-ad-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Import from Entra ID (Azure AD)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../onboarding-users-to-pam/how-to-import-users-from-ldap-directory-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Import from LDAP
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../onboarding-users-to-pam/how-to-import-users-from-files-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Import from Files
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../onboarding-users-to-pam/how-to-add-users-manually-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Add Users Manually
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3">
+        
+          
+          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Role Based Access Controls
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            Role Based Access Controls
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../role-based-access-controls/introduction-to-user-roles-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../role-based-access-controls/what-are-the-default-roles-in-unified-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Default User Roles
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../role-based-access-controls/how-to-create-custom-user-roles-in-unified-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Custom User Roles
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-management/how-to-view-user-details-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    User Details
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-management/how-to-edit-user-attributes-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Edit User Details
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-management/how-to-transfer-ownership-of-accounts-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Transfer Accounts
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-management/how-to-view-user-reports-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    User Reports
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-management/how-to-monitor-concurrent-logins-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Concurrency Controls
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-management/how-to-create-user-groups-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Organize Users into Groups
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-management/how-to-import-user-groups-from-ad-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Import User Groups from Active Directory
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-management/how-to-import-user-groups-from-ldap-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Import User Groups from LDAP
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-management/how-to-import-user-groups-from-azure-ad-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Import User Groups from Entra ID (Azure AD)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-management/how-to-add-user-groups-manually-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Add User Groups Manually
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-management/how-to-manage-groups-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    User Group Administration
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5">
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Single Sign On
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Single Sign On
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../single-sign-on-for-users/how-to-configure-single-sign-on-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Explore SSO Options
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../single-sign-on-for-users/how-to-configure-okta-sso-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configure Okta SSO
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../single-sign-on-for-users/how-to-configure-azure-ad-sso-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configure Entra ID (Azure AD) SSO
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../single-sign-on-for-users/how-to-configure-ping-identity-sso-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configure Ping Identity SSO
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../single-sign-on-for-users/how-to-configure-one-login-sso-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configure OneLogin SSO
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../single-sign-on-for-users/how-to-configure-gsuite-sso-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configure G-Suite SSO
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../single-sign-on-for-users/how-to-configure-active-directory-federation-service-sso-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configure ADFS SSO
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6">
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Configuring Two Step Verification
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Configuring Two Step Verification
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../configuring-two-step-verification/how-to-enforce-two-factor-authentication-mfa.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Two Factor Authentication
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../configuring-two-step-verification/how-to-integrate-yubikey-with-securden.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Integrate Yubikey
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../configuring-two-step-verification/how-to-integrate-duo-authentication-with-securden.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Integrate Duo Authentication
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../configuring-two-step-verification/how-to-integrate-email-to-sms-gateway-with-securden.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Integrate Email to SMS Gateway Authentication
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../configuring-two-step-verification/how-to-integrate-radius-authentication-with-securden.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Integrate Radius Authentication
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../configuring-two-step-verification/how-to-integrate-smart-card-authenticatin-with-securden.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Integrate Smart Card Authentication
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7">
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Account Management
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Account Management
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_1">
+        
+          
+          <label class="md-nav__link" for="__nav_7_1" id="__nav_7_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Account Discovery
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_1">
+            <span class="md-nav__icon md-icon"></span>
+            Account Discovery
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account-management/how-to-discover-privileged-accounts.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Discovering Privileged Accounts
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_1_2">
+        
+          
+          <label class="md-nav__link" for="__nav_7_1_2" id="__nav_7_1_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Discovering Privileged Accounts on Windows Devices
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_7_1_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_1_2">
+            <span class="md-nav__icon md-icon"></span>
+            Discovering Privileged Accounts on Windows Devices
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account-management/discovering-privileged-accounts-on-windows-devices/how-to-run-discovery-on-windows-servers.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Running Discovery on Windows Servers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account-management/discovering-privileged-accounts-on-windows-devices/how-to-import-privileged-accounts-from-windows-devices.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Importing Privileged Accounts from Windows Devices
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account-management/discovering-privileged-accounts-on-windows-devices/advanced-settings.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Advanced Settings
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account-management/discovering-privileged-accounts-on-windows-devices/how-to-manage-windows-service-accounts-and-dependencies.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Managing Windows Service Accounts and Dependencies
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account-management/how-to-discover-privileged-accounts-on-mac-devices.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Discovering Privileged Accounts on Mac Devices
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account-management/how-to-discover-privileged-accounts-on-linux-devices.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Discovering Privileged Accounts on Linux Devices
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_1_5">
+        
+          
+          <label class="md-nav__link" for="__nav_7_1_5" id="__nav_7_1_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Discovering Privileged Accounts from Databases
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_7_1_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_1_5">
+            <span class="md-nav__icon md-icon"></span>
+            Discovering Privileged Accounts from Databases
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account-management/discovering-privileged-accounts-from-databases/how-to-discover-privileged-accounts-from-postgresql-database.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Discovering Privileged Accounts from PostgreSQL Database
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account-management/discovering-privileged-accounts-from-databases/how-to-discover-privileged-accounts-from-sql-database.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Discovering Privileged Accounts from SQL Servers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account-management/discovering-privileged-accounts-from-databases/how-to-discover-privileged-accounts-from-oracle-database.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Discovering Privileged Accounts from Oracle Database
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account-management/discovering-privileged-accounts-from-databases/how-to-discover-privileged-accounts-from-mysql-database.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Discovering Privileged Accounts from MySQL Database
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account-management/how-to-discover-privileged-accounts-from-cisco-ios-devices.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Discovering Privileged Accounts from Cisco IOS Devices
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_2">
+        
+          
+          <label class="md-nav__link" for="__nav_7_2" id="__nav_7_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Add/Import Accounts
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_2">
+            <span class="md-nav__icon md-icon"></span>
+            Add/Import Accounts
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account-management/how-to-import-accounts-from-csv-xlsx-files-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Importing Accounts from CSV/XLSX Files
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account-management/how-to-add-accounts-manually-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Adding Accounts Manually
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account-management/how-to-import-accounts-from-keepass-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Importing Accounts from KeePass
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account-management/how-to-add-and-manage-ssh-keys-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Add and Manage SSH Keys
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account-management/how-to-add-documents-and-files-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Add Documents/Files
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_3">
+        
+          
+          <label class="md-nav__link" for="__nav_7_3" id="__nav_7_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Launching Remote Connections
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_3">
+            <span class="md-nav__icon md-icon"></span>
+            Launching Remote Connections
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account-management/how-to-launch-remote-connections-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Launching Remote Connections
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account-management/how-to-launch-native-rdp-connections-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Launching Native RDP Connections
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account-management/how-to-launch-native-ssh-connections-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Launching Native SSH Connections
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account-management/how-to-launch-native-sql-connections-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Launching Native SQL Connections
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account-management/how-to-launch-connections-to-thick-application-clients-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Launching connections to thick application clients
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_4">
+        
+          
+          <label class="md-nav__link" for="__nav_7_4" id="__nav_7_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Account Operations
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_4">
+            <span class="md-nav__icon md-icon"></span>
+            Account Operations
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account-management/how-to-manage-passwords-for-accounts-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Password Management Operations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account-management/how-to-share-accounts-with-users-and-groups-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Share Accounts with Users/Groups
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account-management/how-to-configure-shared-mfa-tokens-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configuring Shared MFA Tokens
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account-management/how-to-share-accounts-or-passwords-with-third-parties-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Share Accounts/Passwords with Third Parties
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account-management/how-to-configure-just-in-time-access-through-approval-workflow-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Just-in-time Access through Approval Workflows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account-management/how-to-view-and-manage-account-reports-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Account Report
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account-management/how-to-perform-account-actions-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Account Actions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account-management/how-to-enforce-ticketing-system-validation-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ticketing System Validation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account-management/how-to-perform-operations-on-multiple-accounts-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Performing Operations on Multiple Accounts
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account-management/how-to-add-and-manage-account-types-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Add and Manage Account Types
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account-management/how-to-manage-windows-dependencies-and-service-accounts-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Manage Windows Dependencies and Service Accounts
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account-management/vmware-virtual-device-discovery.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    VMWare Virtual Device Discovery
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account-management/secure-file-transfer.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Secure File Transfer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../how-to-manage-remote-connections-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Manage Remote Connections
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9">
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Notifications
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Notifications
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../notifications/how-to-configure-event-notifications.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Event Notifications
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../notifications/how-to-configure-account-expiration-notifications.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Account Expiration Notifications
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../notifications/how-to-configure-password-expiration-notifications.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Password Expiration Rotation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../notifications/how-to-configure-breached-password-identification.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Breached Password Identification
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../notifications/how-to-configure-expired-password-rotation.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Expired Password Rotation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../notifications/how-to-create-an-event-listener.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Event Listener
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10">
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    API Access
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            API Access
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api-access/how-to-eliminate-hardcoded-credentials-using-apis-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    APIs for Programmatic Access
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11">
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Folder Management
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            Folder Management
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../folder-management/how-to-add-folders-manually-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Manually Adding Folders
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../folder-management/how-to-import-folders-from-files-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Import Folders from Files
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../folder-management/how-to-enable-and-disable-inheritance-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Enable and Disable Inheritance
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../folder-management/how-to-add-subfolders-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Add Subfolder
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../folder-management/how-to-share-folder-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Share Folder
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../folder-management/how-to-configure-approval-workflow-for-folder-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configure Approval Workflow for Folders
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../folder-management/how-to-configure-automate-periodic-remote-password-resets-for-folders-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configure Automated, Periodic Remote Password Resets for Folders
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../folder-management/how-to-configure-session-recording-at-the-folder-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Session Recording at the Folders
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12">
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Audit Trails
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            Audit Trails
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../audit-trails/what-are-audit-trails-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Audit Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../audit-trails/how-to-track-account-activities-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Account Activities
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../audit-trails/how-to-schedule-export-of-account-and-user-activities-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Schedule Export of Account and User activities
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../audit-trails/how-to-track-user-activities-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    User activities
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../audit-trails/what-are-session-activities-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Session Activities
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../audit-trails/how-to-export-and-schedule-export-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Export and scheduled export
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../audit-trails/how-to-configure-scheduled-activities-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Scheduled Activities
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_13">
+        
+          
+          <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Configure Session Recording
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_13">
+            <span class="md-nav__icon md-icon"></span>
+            Configure Session Recording
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../configure-session-recording/how-to-configure-session-recording-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configure Session Recording
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../configure-session-recording/how-to-purge-recorded-sessions-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Purge Recorded Sessions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../configure-session-recording/how-to-playback-recorded-sessions-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Playback Recorded Sessions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../configure-session-recording/how-to-monitor-remote-sessions-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Monitor Remote Sessions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_14">
+        
+          
+          <label class="md-nav__link" for="__nav_14" id="__nav_14_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Vendor Access Management
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_14_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_14">
+            <span class="md-nav__icon md-icon"></span>
+            Vendor Access Management
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vendor-access-management/overview.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vendor-access-management/how-to-configure-vendor-access-in-unified-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configuring Vendor Access
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vendor-access-management/how-to-onboard-vendors-in-unified-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Onboarding Vendors
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vendor-access-management/how-to-access-the-vendor-details-in-unified-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Vendor Details
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vendor-access-management/how-to-create-and-manage-vendor-groups-in-unified-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating and Managing Vendor Groups
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vendor-access-management/how-to-provide-vendors-with-access-to-resources-in-unified-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Providing Vendors with Access to Resources
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vendor-access-management/how-to-configure-just-in-time-workflow-in-unified-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Just-In-Time Workflow
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vendor-access-management/how-to-deactivate-the-vendor-access-portal-in-unified-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Deactivating the Vendor Access Portal
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vendor-access-management/how-to-access-the-vendor-login-page-in-unified-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Vendor Login Page
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vendor-access-management/how-to-provide-access-to-accounts-for-vendors-in-unified-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Vendor Access to Accounts
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_15">
+        
+          
+          <label class="md-nav__link" for="__nav_15" id="__nav_15_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Configure the Remote Gateway
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_15_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_15">
+            <span class="md-nav__icon md-icon"></span>
+            Configure the Remote Gateway
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../configure-the-remote-gateway/how-to-create-a-remote-gateway-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Create a Remote Gateway
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../configure-the-remote-gateway/how-to-add-assets-for-remote-connections-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Add Assets for Remote Connections
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../configure-the-remote-gateway/how-to-associate-assets-to-domain-accounts-for-remote-connections-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Account - Asset Association
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../configure-the-remote-gateway/how-to-associate-assets-or-applications-with-users-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    User - Asset/Application Association
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../configure-the-remote-gateway/how-to-enable-ephemeral-access-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ephemeral Access
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../configure-the-remote-gateway/how-to-configure-custom-application-launcher-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Custom Application Launcher
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_16">
+        
+          
+          <label class="md-nav__link" for="__nav_16" id="__nav_16_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Privilege Elevation and Delegation
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_16_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_16">
+            <span class="md-nav__icon md-icon"></span>
+            Privilege Elevation and Delegation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../privilege-elevation-and-delegation/what-are-the-steps-involved.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Steps to Manage Endpoint Privileges
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../privilege-elevation-and-delegation/how-to-deploy-securden-pam-agent.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Deploying the Privilege Management Agent
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../privilege-elevation-and-delegation/how-to-discover-applications-processes-commands.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Discovering Applications &amp; Processes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../privilege-elevation-and-delegation/how-to-create-windows-application-control-policies.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating Windows Application Control Policies
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../privilege-elevation-and-delegation/how-to-create-linux-commands-policies.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating Linux Command Control Policies
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../privilege-elevation-and-delegation/how-to-create-mac-application-control-policies.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating Mac Application Control Policies
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../privilege-elevation-and-delegation/how-to-create-technician-access-policies.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating Technician Access Policies
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../privilege-elevation-and-delegation/how-to-remove-local-admin-rights.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Removing Local Administrator Rights
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../self-service-password-reset/index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Self-Service Password Reset
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_18">
+        
+          
+          <label class="md-nav__link" for="__nav_18" id="__nav_18_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Customization
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_18_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_18">
+            <span class="md-nav__icon md-icon"></span>
+            Customization
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../customization/how-to-customize-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Customization Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../customization/how-to-customize-the-text-and-labels-on-the-agent-interface-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Customizing text and labels on the agent
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../customization/how-to-modify-configurations-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Modify configurations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../customization/how-to-customize-the-logo-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Customizing the logo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../customization/how-to-customize-the-login-page-text-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Customizing the login page
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../customization/how-to-modify-the-web-interface-color-theme-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Modifying the color theme of the interface
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../customization/how-to-modify-the-agent-color-theme-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Modifying the color theme of the agent
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../customization/how-to-modify-the-default-language-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Modifying the default language
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_19">
+        
+          
+          <label class="md-nav__link" for="__nav_19" id="__nav_19_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Security Settings
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_19_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_19">
+            <span class="md-nav__icon md-icon"></span>
+            Security Settings
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../security-settings/how-to-monitor-changes-to-domain-admin-groups.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Monitor Changes To Domain Admin Groups
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../security-settings/how-to-change-the-encryption-key-location.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Change The Encryption Key Location
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../security-settings/how-to-restrict-ip-address.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    IP Address Restriction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../security-settings/how-to-block-access-through-api-extensions-mobile-apps.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Block Access through API, Extensions, Mobile Apps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_20" checked="">
+        
+          
+          <label class="md-nav__link" for="__nav_20" id="__nav_20_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Emergency Access Settings
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_20_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_20">
+            <span class="md-nav__icon md-icon"></span>
+            Emergency Access Settings
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Configure Emergency Access
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="how-to-configure-emergency-access.html" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Configure Emergency Access
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#how-does-emergency-access-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      How does emergency access work?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuring-emergency-access" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuring emergency access
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-intitate-emergency-access" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to intitate emergency access?
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_21">
+        
+          
+          <label class="md-nav__link" for="__nav_21" id="__nav_21_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Disaster Recovery Settings
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_21_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_21">
+            <span class="md-nav__icon md-icon"></span>
+            Disaster Recovery Settings
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../disaster-recovery-settings/how-to-get-a-database-backup.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Database Backup
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../disaster-recovery-settings/how-to-backup-passwords-as-an-encrypted-html-file.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Backup of Passwords as an Encrypted HTML File
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_22">
+        
+          
+          <label class="md-nav__link" for="__nav_22" id="__nav_22_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Configurations
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_22_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_22">
+            <span class="md-nav__icon md-icon"></span>
+            Configurations
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_22_1">
+        
+          
+          <label class="md-nav__link" for="__nav_22_1" id="__nav_22_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    User Management
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_22_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_22_1">
+            <span class="md-nav__icon md-icon"></span>
+            User Management
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../configurations/user-management/general.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    General
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_22_2">
+        
+          
+          <label class="md-nav__link" for="__nav_22_2" id="__nav_22_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Account Management
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_22_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_22_2">
+            <span class="md-nav__icon md-icon"></span>
+            Account Management
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../configurations/account-management/general.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    General
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../configurations/account-management/access-control.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Access Control
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../configurations/account-management/personal-accounts.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Personal Accounts
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_22_3">
+        
+          
+          <label class="md-nav__link" for="__nav_22_3" id="__nav_22_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Remote Connections
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_22_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_22_3">
+            <span class="md-nav__icon md-icon"></span>
+            Remote Connections
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../configurations/remote-connections/general.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    General
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../configurations/remote-connections/ephemeral-access.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ephemeral Access
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_23">
+        
+          
+          <label class="md-nav__link" for="__nav_23" id="__nav_23_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    High Availability
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_23_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_23">
+            <span class="md-nav__icon md-icon"></span>
+            High Availability
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../high-availability/how-to-configure-high-availability.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configure High Availability
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../high-availability/how-to-configure-high-availability-with-ms-sql-server-as-the-backend-database.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configure High Availability With MS SQL Server As Backend Database
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../high-availability-architecture.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    High Availability and Read-Only Replica
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_25">
+        
+          
+          <label class="md-nav__link" for="__nav_25" id="__nav_25_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Distributed Architecture
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_25_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_25">
+            <span class="md-nav__icon md-icon"></span>
+            Distributed Architecture
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../distributed-architecture/remote-distributors.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Remote Distributors
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../distributed-architecture/unix-connector.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Unix connector
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_26">
+        
+          
+          <label class="md-nav__link" for="__nav_26" id="__nav_26_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Reports
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_26_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_26">
+            <span class="md-nav__icon md-icon"></span>
+            Reports
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reports/reports-overview.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reports Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reports/how-to-create-standard-reports-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Standard Reports
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reports/how-to-create-account-activity-report-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Account Activity Report
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reports/how-to-create-password-compliance-report-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Password Compliance Report
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reports/how-to-create-password-expiry-report-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Password Expiry Report
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reports/how-to-create-user-access-report-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    User Access Report
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reports/how-to-create-user-activities-report-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    User Activities Report
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reports/how-to-create-windows-accounts-dependencies-report-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Windows Accounts Dependencies Report
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reports/how-to-create-processes-inventory-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Processes and Software
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reports/how-to-create-concise-reports-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Concise Reports
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reports/how-to-create-password-security-analysis-report-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Password Security Analysis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reports/user-behavior-analytics.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    User Behavior Analytics (UBA)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_27">
+        
+          
+          <label class="md-nav__link" for="__nav_27" id="__nav_27_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Miscellaneous
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_27_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_27">
+            <span class="md-nav__icon md-icon"></span>
+            Miscellaneous
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../miscellaneous/how-to-change-the-backend-database-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Change Backend Database
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../miscellaneous/how-to-migrate-from-postgresql-database-to-mssql-database-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Migrate to MsSQL Database
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../miscellaneous/how-to-configure-hardware-security-module-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configure HSM
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../miscellaneous/how-to-configure-browser-extensions-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Browser Extensions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../miscellaneous/how-to-move-the-pam-installation-from-one-machine-to-another.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Moving Securden Installation from One Machine to Another
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pam-license-key/how-to-apply-the-license-key-in-pam.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Product License Key
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../configuring-advanced-search-and-filters.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Advanced Search and Filter Creation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_30">
+        
+          
+          <label class="md-nav__link" for="__nav_30" id="__nav_30_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Integrate Cloud Services
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_30_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_30">
+            <span class="md-nav__icon md-icon"></span>
+            Integrate Cloud Services
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../integrate-cloud-services/integrate-cloud-services-overview.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Integration Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../integrate-cloud-services/google-cloud.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Google Cloud
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../integrate-cloud-services/azure-entra-id.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Azure Entra ID
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../integrate-cloud-services/amazon-aws.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Amazon AWS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_31">
+        
+          
+          <label class="md-nav__link" for="__nav_31" id="__nav_31_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Devops
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_31_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_31">
+            <span class="md-nav__icon md-icon"></span>
+            Devops
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../devops/sdk.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SDK
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../devops/cli.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CLI
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../devops/tools.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../devops/ansible.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ansible
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#how-does-emergency-access-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      How does emergency access work?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuring-emergency-access" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuring emergency access
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-intitate-emergency-access" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to intitate emergency access?
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+  <nav aria-label="breadcrumb">
+    <span class="breadcrumbs">
+      <a href="../index.html">Home</a>
+      
+      
+          
+            <a href="
+    
+        
+    
+        how-to-configure-emergency-access.html
+    
+
+    
+">Emergency Access Settings</a>
+        
+      
+      
+         <span>Configure Emergency Access</span>
+      
+    </span>
+  </nav>
+  <div class="title-content">
+    
+                  
+
+
+<h1 id="configure-emergency-access">Configure Emergency Access<a class="headerlink" href="#configure-emergency-access" title="Permanent link">¶</a></h1>
+<p>Emergency access, as the name implies, is used in highly critical and urgent 
+situations. For instance, imagine the scenario when an administrator who has 
+access to an IT resource is away and your team requires immediate access to 
+the device. The emergency access feature helps in this scenario to gain access 
+in a hassle-free manner with a well-defined workflow.</p>
+<h2 id="how-does-emergency-access-work">How does emergency access work?<a class="headerlink" href="#how-does-emergency-access-work" title="Permanent link">¶</a></h2>
+<p>You can enable a designated list of users as ‘Emergency Access Users’ allowing 
+them to access all passwords (work accounts) stored in Securden, breaking
+the usual access controls during emergency situations. When an emergency
+access requirement arises, any of the designated users will first declare 
+emergency and get access after the predefined mandatory waiting period. In 
+the meantime, all administrators will be notified of the situation.</p>
+<h2 id="configuring-emergency-access">Configuring emergency access<a class="headerlink" href="#configuring-emergency-access" title="Permanent link">¶</a></h2>
+<p>To configure emergency access, navigate to <strong>Admin &gt;&gt; Emergency Access &gt;&gt; Configure Emergency Access.</strong></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/configure-emergency-access.webp" data-desc-position="bottom"><img alt="" src="../images/configure-emergency-access.webp"></a></p>
+<p>In the GUI that opens, you can designate the users who should get the emergency access privilege. You can define the maximum time duration until which the user should have emergency access. </p>
+<p>As an additional control, you can define a mandatory waiting period (in minutes) until the person should wait before gaining emergency access. All administrators will be notified when someone wants to gain emergency access.</p>
+<p>Move the toggle <strong>Enable Emergency Access</strong> to turn on emergency access. You will see two options namely, <strong>All users</strong> and <strong>Specific users</strong>. As the name itself implies, <strong>All users</strong> option grants the emergency access privilege to all the users. On the other hand, if you want to grant the privilege only to certain specific users or groups of users, you need to choose the option <strong>Specific users.</strong></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/emergency-access-configurations.webp" data-desc-position="bottom"><img alt="Configure Emergency Access" src="../images/emergency-access-configurations.webp"></a></p>
+<p>When you choose the <strong>Specific users</strong>, you need to select the users or groups from the list. You can define the maximum duration up to which a user can avail emergency access. Specify the duration in minutes. As a security best practice, to guard against any possible misuse of the provision, you can enforce a mandatory waiting period for anyone to gain access after <strong>breaking the glass</strong>. During this window,notifications will go to all administrators, who can revoke access if any suspicious motive is found. You can define the waiting time in minutes. After configuring these values, click <strong>Save</strong>.</p>
+<p>The above steps complete the emergency access configuration. The configuration done by one administrator has to be approved by another administrator. The approval can be done from the same page in the GUI. When another administrator logs in, the link to approve or reject the request will be visible as shown below.</p>
+<h2 id="how-to-intitate-emergency-access">How to intitate emergency access?<a class="headerlink" href="#how-to-intitate-emergency-access" title="Permanent link">¶</a></h2>
+<p>When an emergency access requirement arises, the designated user(s) can initiate the access from 
+<strong>Admin &gt;&gt; Emergency Access &gt;&gt; Initiate Emergency Access</strong>. In the GUI that opens, the user has to justify why emergency access is needed. As per the emergency access configuration, the user will get access.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+  </div>
+
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>  
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer">
+        
+          
+          <a href="../security-settings/how-to-block-access-through-api-extensions-mobile-apps.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: Block Access through API, Extensions, Mobile Apps">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Block Access through API, Extensions, Mobile Apps
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../disaster-recovery-settings/how-to-get-a-database-backup.html" class="md-footer__link md-footer__link--next" aria-label="Next: Database Backup">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Database Backup
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.indexes", "navigation.footer", "content.code.copy", "navigation.path", "content.tabs.link"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
+      
+        <script src="../js/remove-tab-hash.js"></script>
+      
+        <script src="../js/sticky-assistant.js"></script>
+      
+    
+    
+    
+
+  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/js/main389.js"></script>
+  
+  
+    
+    <script src="/js/sticky-assistant.js" type="text/javascript" data-category="necessary" data-service="Securden Assistant" data-type="module"></script>
+  
+
+    <footer id="footer" class="footer-2 cyb-footer sec-bg-medium-gray">
+    <div class="container mb-4">
+       <div class="row w-100">
+          <div id="footer-products-resources" class="footer__bottom col-lg-3">
+            <div class="sec-color-white h5">Products</div>
+             <small class="d-block"><a href="/password-manager/index.html">Password Vault for Enterprises</a></small>
+             <small class="d-block"><a href="/endpoint-privilege-manager/index.html">Endpoint Privilege Manager</a></small>
+             <small class="d-block"><a href="/privileged-account-manager/index.html">Privileged Account Manager</a></small>
+             <small class="d-block"><a href="/identity-security/identity-governance-and-administration/index.html">Identity Governance &amp; Administration</a></small>
+             <small class="d-block"><a href="/privileged-account-manager/index.html">Unified PAM</a></small>
+            <small class="d-block"><a href="/msp/privileged-access-management/index.html">Unified PAM for MSPs</a></small>
+            <small class="d-block"><a href="/privileged-account-manager/self-service-password-reset-sspr.html">Password Self-Service (SSPR)</a></small>
+            <small class="d-block"><a href="/identity-security/non-human-identity-security/index.html">Machine &amp; AI Identity Manager (NHIM)</a></small>
+            <small class="d-block"><a href="/identity-security/ai-agent-governance-security/index.html">AI Agent Security &amp; Governance</a></small>
+                        
+             <div class="sec-color-white mt-4 h5">Resources</div>
+              <small class="d-block"><a href="/blog/index.html">Blog</a></small>
+              <small class="d-block"><a href="/customer-success-stories/index.html">Customer Stories</a></small>
+             <small class="d-block"><a href="/knowledge-base/index.html">Knowledge Base</a></small>
+             <small class="d-block"><a href="/technical-documentation-and-guides.html" target="_blank">Help Documentation</a></small>
+             <small class="d-block"><a href="/password-generator.html" data-faitracker-click-bind="true">Password Generator</a></small>
+             <small class="d-block"><a href="/glossary.html" data-faitracker-click-bind="true">Glossary</a></small>
+             <small class="d-block"><a href="/blog/securden-vs-competitors.html">Securden vs. Competitors</a></small>
+              <small class="d-block"><a href="/privileged-account-manager/cyberark-alternative.html">Securden PAM vs. CyberArk</a></small>
+             <small class="d-block"><a href="/privileged-account-manager/delinea-alternative.html">Securden PAM vs. Delinea</a></small>
+             <small class="d-block"><a href="/privileged-account-manager/beyondtrust-alternative.html">Securden PAM vs. BeyondTrust</a></small>
+             <small class="d-block"><a href="/endpoint-privilege-manager/admin-by-request-alternative.html">Securden EPM vs. Admin By Request</a></small>
+              <small class="d-block"><a href="/password-manager/keeper-security-alternative.html">Securden Password Vault vs Keeper Security</a></small>
+            <small class="d-block"><a href="/password-manager/nordpass-alternative.html">Securden Password Vault vs. NordPass</a></small>
+             
+          </div>
+          <div id="footer-products-resources" class="footer__bottom col-lg-3">
+            <div class="sec-color-white h5">Solutions</div>
+             <small class="d-block"><a href="/privileged-account-manager/index.html">Enterprise Privileged Password Management</a></small>
+             <small class="d-block"><a href="/endpoint-privilege-manager/index.html">Windows Privilege Manager</a></small>
+             <small class="d-block"><a href="/password-manager/index.html">Password Management for IT Teams</a></small>
+             <small class="d-block"><a href="/privileged-account-manager/how-to-grant-secure-remote-access-for-employees.html">Secure Remote Access Without VPN</a></small>
+             <small class="d-block"><a href="/endpoint-privilege-manager/index.html">Endpoint Application Control</a></small>
+             <small class="d-block"><a href="/password-manager/password-manager-for-teams.html">Team Password Manager</a></small>
+             <small class="d-block"><a href="/password-manager/online-password-manager.html">Online Password Manager</a></small>
+             <small class="d-block"><a href="/password-management/business-password-manager.html">Business Password Manager</a></small>
+             <small class="d-block"><a href="/password-manager/msp-password-management.html">Password Manager for MSPs</a></small>
+             <small class="d-block"><a href="/password-manager/password-management-small-business.html">Password Manager for SMBs</a></small>
+             <small class="d-block"><a href="/privileged-account-manager/vendor-privileged-access-management-vpam.html">Vendor Privileged Access Management</a></small><small class="d-block"><a href="/privileged-account-manager/pam-for-cyberinsurance.html">PAM for Cyber Insurance</a></small>
+             <small class="d-block"><a href="/privileged-account-manager/pam-for-manufacturing.html">PAM for Manufacturing</a></small>
+            <small class="d-block"><a href="/privileged-account-manager/pam-for-federal-local-government-agencies.html">PAM for Government Agencies</a></small>
+
+<small class="d-block"><a href="/privileged-account-manager/pam-for-financial-institutions.html">PAM for Financial Services</a></small>
+
+				   <small class="d-block"><a href="/privileged-account-manager/pam-compliance.html">Regulatory Compliance</a></small>
+                   
+                  <small class="d-block"><a href="/privileged-account-manager/prepare-for-nis2-directive-with-privileged-access-management.html">PAM for NIS2 Compliance</a></small>
+             <small class="d-block"><a href="/privileged-account-manager/cmmc-compliance-pam.html">PAM for CMMC Compliance</a></small>
+             <small class="d-block"><a href="/privileged-account-manager/essential-eight-mitigation-strategies-with-privileged-access-management.html">PAM for Essential 8</a></small>
+             <small class="d-block"><a href="/educational/what-are-non-human-identities.html">Non-Human Identity Management</a></small> 
+          </div>
+          <div id="footer-products-resources" class="footer__bottom col-lg-3">
+            <div class="sec-color-white h5">Company</div>
+             <small class="d-block"><a href="/about.html">About Us</a></small>
+             <small class="d-block"><a href="/careers/index.html" class="hiring-now">Careers</a></small> 
+             <small class="d-block"><a href="/news/press-releases.html">Press</a></small>
+             <small class="d-block"><a href="/partners.html">Partners</a></small>
+             <small class="d-block"><a href="/partner-program.html">Partner With Us</a></small>
+             <small class="d-block"><a href="/end-user-license-agreement.html">EULA</a></small>
+             <small class="d-block"><a href="/privacy-policy.html">Privacy Policy</a></small>
+             <small class="d-block"><a href="/cookie-policy.html">Cookie Policy</a></small>
+             <small class="d-block"><a href="/security-certification.html">Third Party Evaluation</a></small>
+             <small class="d-block"><a href="/compliance-certifications.html">Compliance Certifications</a></small>
+             <small class="d-block"><a href="/premium-support-program.html" data-faitracker-click-bind="true">Premium Support Program </a></small>
+               
+             <div class="sec-color-white mt-4 h5">Information Center</div>
+             <small class="d-block"><a href="/educational/privileged-access-management.html">What is PAM?</a></small>
+             <small class="d-block"><a href="/educational/what-is-password-management.html">What is a Password Management?</a></small>
+             <small class="d-block"><a href="/educational/what-is-endpoint-privilege-management.html">What is Endpoint Privilege Management?</a></small>
+             <small class="d-block"><a href="/educational/what-is-secure-remote-access.html">What is Secure Remote Access?</a></small>
+             <small class="d-block"><a href="/educational/principle-of-least-privilege.html">What is the Principle of Least Privilege?</a></small>
+             <small class="d-block"><a href="/educational/identity-threat-detection-and-response-itdr.html">Identity Threat Detection &amp; Response (ITDR)</a></small>
+          </div>
+          <div id="footer-products-resources" class="footer__bottom col-lg-3">
+               <h5 class="sec-color-white fMenuTitle">Contact Us<i class="icon-arrow-down"></i></h5>
+               <div class="fMenuItem addressmHolder">
+                   <div class="addresscon"><small class="d-block addressm" style="margin-bottom: 7px;">Securden, Inc.</small></div>
+                   <div class="addresscon addressconimage"><small class="d-block addressm addresscon-lineheight" style="margin-bottom: 15px;"><img src="/images/locationicon.svg" alt="Office Address">140 E. Ridgewood Avenue, Suite 415, Paramus, New Jersey 07652</small></div>
+                   <div class="addresscon addressconimage"><small class="d-block addressm addresscon-lineheight" style="margin-bottom: 15px;"><img src="/images/locationicon.svg" alt="Office Address">2810 N Church St, PMB 75693, Wilmington, Delaware 19802-4447</small></div>
+                   <div class="addresscon mtop10 addressconimage"><small class="d-block addressm" style="
+                    margin-bottom: 5px;
+                "><img src="/images/supportmail.svg" alt="Support Mail" class="mR4">support@securden.com</small></div>
+                   <div class="tollfreeflag">
+                       <small class="d-block addressm"><img src="/images/usaflag.svg" alt="U.S.A. Toll Free">+1 844 228 0327 (Toll Free)</small>
+                       <small class="d-block addressm"><img src="/images/ukflag.svg" alt="U.K Phone Number">+44 203 868 6147</small>
+                   </div>	
+               </div>
+              <div class="social-media-holder">
+                  <a href="https://www.linkedin.com/company/securden-inc/" class="f-linkedin-logo" title="Securden Linkedin" target="_blank"></a>
+                  <a href="https://twitter.com/securden" class="f-x-twitter-logo" title="Securden X platform" target="_blank"></a>
+              </div>
+              <div class="compliance-holder">
+                  <a href="/compliance-certifications.html#gdpr-compliance" class="f-gdpr-logo" title="GDPR" target="_blank"></a>
+                  <a href="/compliance-certifications.html" class="f-iso-logo" title="ISO" target="_blank"></a>
+                  <a href="/compliance-certifications.html" class="f-soc2-type1" title="SOC2 Type1" target="_blank"></a> 
+              </div>
+           </div>
+       </div>
+    </div>
+ </footer>
+<footer id="footer1" class="footer-2 cyb-footer second-footer sec-bg-dark-gray">
+   <div class="container">
+       <div class="row w-100">
+           <div class="footer__bottom">
+               <p class="footer__copyrights">© Copyright 2026 Securden, Inc. All Rights Reserved</p>
+           </div>
+       </div>
+   </div>
+</footer>
+	
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>

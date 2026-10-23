@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "756ef33b4ca253abf0fe88c62d32546f9a30344991e82b1119aa77cc6be53189",
+  "cachedAt": "2026-10-23T22:18:02Z",
+  "originRunId": "qwen3-40019296746",
+  "sourceUrl": "https://www.microsoft.com/en-us/securityengineering/sdl/practices",
+  "finalUrl": "https://www.microsoft.com/en-us/securityengineering/sdl/practices",
+  "language": "en",
+  "publisher": "Microsoft",
+  "title": "Microsoft Security Development Lifecycle (SDL) Practices",
+  "retrievedAt": "2026-10-23T22:15:11Z",
+  "byteDigest": "sha256:3a8a18990e1004cd63f88c0eccec5b1507ec920f4427bffbf694f39bc355fa7f",
+  "textDigest": "sha256:fa0aacbd8ab5028e4af9a2bc5640aad132ea5d983622d0f36d7aec5182ee41d0",
+  "sourceId": "8-source-3",
+  "passageId": "p1",
+  "locator": "Design Phase Section",
+  "quotation": "Design – ensure that the design doesn't naturally allow attackers to easily gain unauthorized access to the workload, its data, or other business assets in the organization.",
+  "originalText": "occur at any point in the development lifecycle:\n\n\n\n\n\n\n\n\nDesign – ensure that the design doesn’t naturally allow attackers to easily gain unauthorized access to the workload, its data, or other business assets in the organization.\n\n\nCode – ensure that writing (and re-use) of code doesn’t allow attackers to easily take control of the application to perform unauthorized actions that harm",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T22:18:02Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Microsoft",
+    "host": "www.microsoft.com"
+  }
+}

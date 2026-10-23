@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "5e799b1ecb2b2124f32f0b1452216efdae32c2fb478d5000f36126db1d233c69",
+  "cachedAt": "2026-10-23T23:14:08Z",
+  "originRunId": "qwen3-40019296746",
+  "sourceUrl": "https://ised-isde.canada.ca/site/ised/en/implementation-guide-managers-artificial-intelligence-systems",
+  "finalUrl": "https://ised-isde.canada.ca/site/ised/en/implementation-guide-managers-artificial-intelligence-systems",
+  "language": "en",
+  "publisher": "Innovation, Science and Economic Development Canada",
+  "title": "Implementation guide for managers of Artificial intelligence systems",
+  "retrievedAt": "2026-10-23T23:12:41Z",
+  "byteDigest": "sha256:d9a1fefe93e6f2c3585b34343497b8d0b79a6bd15d0a1082c42511c53f96be79",
+  "textDigest": "sha256:8f102152254cee502b2620d2e10312297bf9e957cca52dfb1b35b004aa0e56fc",
+  "sourceId": "F-source-1",
+  "passageId": "p2",
+  "locator": "Best practices for transparency/Steps",
+  "quotation": "Provide free and accessible information to users about the nature and capabilities of AI systems, including information on how they are developed, operated and maintained.",
+  "originalText": "Provide free and accessible information to users about the nature and capabilities of AI systems, including information on how they are developed, operated and maintained.",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T23:14:08Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "F"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Innovation, Science and Economic Development Canada",
+    "host": "ised-isde.canada.ca"
+  }
+}

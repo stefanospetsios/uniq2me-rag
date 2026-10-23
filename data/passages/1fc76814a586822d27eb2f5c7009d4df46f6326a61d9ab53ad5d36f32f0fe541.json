@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "1fc76814a586822d27eb2f5c7009d4df46f6326a61d9ab53ad5d36f32f0fe541",
+  "cachedAt": "2026-10-23T23:10:13Z",
+  "originRunId": "qwen3-40019296746",
+  "sourceUrl": "https://docs.aws.amazon.com/prescriptive-guidance/latest/gen-ai-inference-architecture-and-best-practices-on-aws/implementing-security-rai.html",
+  "finalUrl": "https://docs.aws.amazon.com/prescriptive-guidance/latest/gen-ai-inference-architecture-and-best-practices-on-aws/implementing-security-rai.html",
+  "language": "en",
+  "publisher": "Amazon Web Services",
+  "title": "Implementing security and responsible AI - AWS Prescriptive Guidance",
+  "retrievedAt": "2026-10-23T23:09:10Z",
+  "byteDigest": "sha256:413cfb0b8192f0dbf53c213ba95f5a00477e0b527cd3e2384fa6df19e1377e56",
+  "textDigest": "sha256:aca1b596338dc6ada2f40a80c417e39b3e843f0ad30e11ddee3aec16d01e646e",
+  "sourceId": "E-source-1",
+  "passageId": "p1",
+  "locator": "Before moving to inference/Model assessment",
+  "quotation": "During the model assessment phase, the evaluation report helps the organization understand the model's robustness and explainability through quantitative and qualitative analyses. This analysis includes evaluating accuracy metrics, fairness scores, and error distributions, complemented by human-in-the-loop reviews and A/B testing to validate real-world performance.",
+  "originalText": "During the model assessment phase, the evaluation report helps the organization understand the model's robustness and explainability through quantitative and qualitative analyses. This analysis includes evaluating accuracy metrics, fairness scores, and error distributions, complemented by human-in-the-loop reviews and A/B testing to validate real-world performance.",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T23:10:13Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "E"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Amazon Web Services",
+    "host": "docs.aws.amazon.com"
+  }
+}

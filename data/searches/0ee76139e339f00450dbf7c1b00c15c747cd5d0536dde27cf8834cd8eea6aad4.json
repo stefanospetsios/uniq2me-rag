@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "0ee76139e339f00450dbf7c1b00c15c747cd5d0536dde27cf8834cd8eea6aad4",
+  "cachedAt": "2026-10-23T21:32:48Z",
+  "observedAt": "2026-10-23T21:32:48Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-4-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "4",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "data classification official maintainer implementation configuration documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792791065651,
+    "end": 1792791066468
+  },
+  "outputDigest": "sha256:03be3855967c72b4dc53e884db86b151ef539815a6b03abe213b62a120393cad",
+  "resultUrls": [
+    "https://docs.databricks.com/api/data-classification/v1/catalog-config",
+    "https://docs.databricks.com/aws/en/data-governance/unity-catalog/data-classification",
+    "https://docs.databricks.com/aws/en/dev-tools/cli/reference/data-classification-commands",
+    "https://docs.informatica.com/data-governance-and-quality-cloud/metadata-command-center/current-version/administration/data-classification/creating-a-data-element-classification.html",
+    "https://learn.microsoft.com/en-us/dotnet/core/extensions/data-classification"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Data Classification | Databricks on AWS\",\n      \"url\": \"https://docs.databricks.com/aws/en/data-governance/unity-catalog/data-classification\",\n      \"content\": \"Data Classification | Databricks on AWS\\n\\nLast updated on Oct 9, 2026\\n\\n# Data Classification\\n\\nThis page describes how to use Databricks Data Classification in Unity Catalog to automatically classify and tag sensitive data in your catalog.\\n\\nFor new classifiers, changes to classification behavior, and other updates, see Data Classification release notes.\\n\\nData catalogs can have a vast amount of data, often containing known and unknown sensitive data. It is critical for data teams to understand what kind of sensitive data exists in each table so that they can both govern and democratize access to this data.\\n\\nTo address this problem, Databricks Data Classification uses an agent to automatically classify and tag tables in your catalog. This allows you to discover sensitive data and to apply governance controls over the results, using tools such as Attribute-based access control in Unity Catalog. For a list of supported tags, see Supported classification tags.\\n\\nUsing this feature, you can:\\n\\n- Classify data: The engine uses an agentic AI system to automatically classify and tag any tables in Unity Catalog.\\n- Optimize cost through intelligent scanning: The system intelligently determines when to scan your data by leveraging Unity Catalog and the Data Intelligence Engine. This means that scanning is incremental and optimized to ensure all new data is classified without manual configuration.\\n- Review and protect sensitive data: The results display assists you in viewing classification results and protecting sensitive data by tagging and creating access control policies for each class.\\n\\nAccount and metastore admins can monitor classification coverage, such as the percentage of tables with sensitive data detections, on the Data page in Governance Hub.\\n\\nimportan",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "4"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "docs.databricks.com",
+      "docs.informatica.com",
+      "learn.microsoft.com"
+    ]
+  }
+}

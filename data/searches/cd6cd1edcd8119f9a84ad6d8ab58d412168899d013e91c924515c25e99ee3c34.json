@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "cd6cd1edcd8119f9a84ad6d8ab58d412168899d013e91c924515c25e99ee3c34",
+  "cachedAt": "2026-10-23T20:46:34Z",
+  "observedAt": "2026-10-23T20:46:34Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-0-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "0",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "time_range": "",
+    "query": "Operating System and Workstation Environment official implementation configuration documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792788343479,
+    "end": 1792788344419
+  },
+  "outputDigest": "sha256:ccf365eef7573ced7b886f0f83eb57c1eff899553edfda44679d1f72f14fcf3f",
+  "resultUrls": [
+    "https://learn.microsoft.com/en-us/intune/configmgr/osd/understand/introduction-to-operating-system-deployment",
+    "https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/implementing-secure-administrative-hosts",
+    "https://ncert.nic.in/vocational/pdf/keit102.pdf",
+    "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-128.pdf",
+    "https://www.cyber.gov.au/ism/2026-09/guidelines-for-system-hardening",
+    "https://www.emerson.com/is/content/emerson/en/systems-and-software/deltav-distributed-control-system-dcs/product-data-sheets/documents/deltav-workstation-and-server-hardware.pdf",
+    "https://www.researchgate.net/publication/371274506_Brief_Introduction_to_Operating_Systems",
+    "https://www.scribd.com/document/495007579/b0700et-e"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Operating System and Workstation Environment official implementation configuration documentation\",\n  \"results\": [\n    {\n      \"title\": \"Introduction to operating system deployment - Configuration Manager\",\n      \"url\": \"https://learn.microsoft.com/en-us/intune/configmgr/osd/understand/introduction-to-operating-system-deployment\",\n      \"content\": \"4 Οκτ 2022 ... Later in the Configuration Manager environment, the computer starts by using the boot image provided by the media, and then connects to the site ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Installation and Configuration of Operating System - NCERT\",\n      \"url\": \"https://ncert.nic.in/vocational/pdf/keit102.pdf\",\n      \"content\": \"9 Οκτ 2019 ... An operating system (OS) is the software that provides an interface between the computer hardware and the application programs or users. An ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Guidelines for system hardening - Australian Cyber Security Centre\",\n      \"url\": \"https://www.cyber.gov.au/ism/2026-09/guidelines-for-system-hardening\",\n      \"content\": \"7 Σεπ 2026 ... This section describes security controls applicable to operating systems used on workstations and servers. Guidance on the use of mobile ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Guide for Security-Focused Configuration Management of ...\",\n      \"url\": \"https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-128.pdf\",\n      \"content\": \"10 Οκτ 2019 ... environment. There are a number of ... Additionally, configuration errors could occur if Operating System (OS) and multiple application.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Workstations and Servers for the DeltaV DCS - Emerson Electric\",\n      \"url\": \"https://www.emerson.com/is/content/emerson/en/systems-and-software/deltav-distributed-control-system-dcs/product-data-sheets/",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "learn.microsoft.com",
+      "ncert.nic.in",
+      "nvlpubs.nist.gov",
+      "www.cyber.gov.au",
+      "www.emerson.com",
+      "www.researchgate.net",
+      "www.scribd.com"
+    ]
+  }
+}

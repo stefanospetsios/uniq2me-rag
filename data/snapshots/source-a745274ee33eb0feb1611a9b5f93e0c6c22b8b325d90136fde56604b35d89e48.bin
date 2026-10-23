@@ -1,0 +1,541 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en-us"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta name="copyright" content="(C) Copyright 2026"><meta name="generator" content="DITA-OT"><meta name="description" content="Learn how to configure and use an Okta Privileged Access gateway."><title>Configure the Okta Privileged Access gateway</title><script>
+            (function () {
+            const savedTheme = localStorage.getItem('theme') || 'light';
+            document.documentElement.setAttribute('data-bs-theme', savedTheme);
+            })();
+         </script><script>
+            /* <![CDATA[ */
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-NMZZV4P');
+            /* ]]> */
+         </script><script>
+            /* <![CDATA[ */
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-KXMLV58');
+            /* ]]> */
+         </script><link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='159.88%20161%20702%20702'%3E%20%3Cstyle%3E%20path%20{%20fill:%20%23000;%20}%20%3C/style%3E%20%3Cpath%20fill-rule='evenodd'%20d='M544.6,180.11l-13.82,170.54,.02,.02c-6.54-.8-13.16-1.25-19.91-1.25-8.4,0-16.67,.64-24.73,1.87l-7.85-82.7c-.24-2.58,1.8-4.84,4.41-4.8h14.13l-6.81-83.67c-.23-2.56,1.8-4.78,4.39-4.78h45.78c2.56,0,4.59,2.21,4.39,4.78Zm-115.54,8.47c-.68-2.48-3.34-3.86-5.76-2.97l-43.02,15.67c-2.42,.88-3.57,3.65-2.5,5.99l35,76.29-13.29,4.8c-2.44,.88-3.61,3.69-2.48,6.05l35.66,75.03c12.94-7.12,26.94-12.49,41.72-15.87l-45.33-164.98Zm-105.66,47.49l99.01,139.51,.02,.02c-12.55,8.16-23.91,18.01-33.75,29.22l-59.22-58.34c-1.87-1.82-1.72-4.86,.27-6.52l10.83-9.06-58.97-59.72c-1.8-1.82-1.66-4.82,.31-6.48l35.06-29.45c1.99-1.66,4.94-1.27,6.44,.82Zm-83.06,80.76c-2.11-1.46-5.04-.8-6.34,1.41l-22.88,39.66c-1.29,2.24-.39,5.09,1.93,6.19l75.84,35.95-7.09,12.22c-1.31,2.26-.39,5.15,1.99,6.23l75.56,34.55c5.47-14.05,12.79-27.15,21.73-38.98l-140.74-97.24Zm-55.87,107.8c.45-2.54,2.95-4.16,5.45-3.51l165.49,43.23c-4.29,13.98-6.68,28.77-7.01,44.09l-82.86-6.65c-2.6-.21-4.45-2.61-4-5.17l2.48-13.9-83.55-7.83c-2.56-.25-4.39-2.63-3.94-5.17l7.93-45.1Zm-6.25,111.76c-2.56,.25-4.39,2.63-3.94,5.17l7.96,45.1c.45,2.54,2.97,4.16,5.45,3.51l81.2-21.22,2.42,13.9c.45,2.56,3.01,4.18,5.52,3.49l80.09-22.11c-4.72-13.88-7.63-28.56-8.41-43.84l-170.28,16.02Zm26.49,118.51c-1.29-2.24-.41-5.09,1.93-6.2l154.52-73.27c5.88,13.86,13.66,26.72,22.96,38.29l-67.72,48.17c-2.11,1.52-5.09,.86-6.38-1.39l-7.03-12.24-69.04,47.72c-2.13,1.48-5.04,.82-6.34-1.41l-22.9-39.66Zm187.22-32.13l-120.19,121.77c-1.8,1.82-1.66,4.82,.31,6.48l35.08,29.43c1.97,1.66,4.94,1.27,6.44-.82l48.55-68.45,10.81,9.11c1.99,1.68,5,1.27,6.48-.86l47.14-68.39c-12.79-7.79-24.42-17.33-34.59-28.22l-.02-.04Zm-23.74,195.53c-2.42-.88-3.57-3.65-2.5-5.99h.02l71.29-155.52c13.12,6.71,27.27,11.71,42.16,14.66l-20.91,80.41c-.66,2.52-3.34,3.94-5.78,3.04l-13.27-4.86-22.23,80.94c-.68,2.48-3.34,3.86-5.76,2.97l-43.02-15.65Zm122.77-144.98h0s-.02,0-.02,0h.02Zm0,0l-13.82,170.55c-.2,2.56,1.82,4.78,4.39,4.78h45.78c2.59,0,4.61-2.22,4.39-4.78l-6.81-83.67h14.13c2.6,.04,4.65-2.22,4.41-4.8l-7.85-82.7c-8.06,1.23-16.32,1.86-24.73,1.86-6.74,0-13.36-.45-19.89-1.25Zm165.1-461.68c1.07-2.34-.08-5.11-2.5-5.99l-43.02-15.65c-2.42-.88-5.08,.49-5.76,2.97l-22.23,80.94-13.27-4.86c-2.44-.9-5.13,.51-5.78,3.03l-20.91,80.41c14.89,2.95,29.03,7.96,42.16,14.66l71.31-155.52Zm93.95,67.78l-120.19,121.77-.02-.04c-10.17-10.89-21.79-20.42-34.59-28.22l47.14-68.39c1.48-2.13,4.49-2.54,6.48-.86l10.81,9.1,48.55-68.45c1.5-2.09,4.47-2.48,6.44-.82l35.08,29.43c1.97,1.66,2.11,4.66,.31,6.48Zm65.1,95.83c2.34-1.11,3.22-3.96,1.93-6.19l-22.9-39.66c-1.29-2.24-4.2-2.89-6.34-1.42l-69.04,47.72-7.03-12.24c-1.29-2.26-4.26-2.91-6.38-1.39l-67.72,48.17c9.31,11.57,17.08,24.42,22.97,38.29l154.51-73.27Zm24.38,62.07l7.96,45.1,.02,.02c.45,2.54-1.37,4.92-3.94,5.17l-170.3,16c-.78-15.28-3.69-29.96-8.4-43.84l80.09-22.11c2.5-.7,5.06,.92,5.52,3.49l2.42,13.9,81.2-21.22c2.48-.66,5,.96,5.45,3.51Zm-7.69,165.51c2.5,.66,5-.96,5.45-3.51l7.94-45.09c.45-2.54-1.37-4.92-3.94-5.17l-83.55-7.83,2.48-13.9c.45-2.56-1.39-4.96-4-5.17l-82.85-6.65c-.33,15.32-2.75,30.11-7.01,44.09l165.49,43.21v.02Zm-44.08,102.88c-1.29,2.22-4.22,2.87-6.33,1.41l.02-.02-140.76-97.22c8.94-11.83,16.26-24.93,21.73-38.98l75.56,34.56c2.38,1.09,3.3,3.98,1.99,6.23l-7.1,12.22,75.85,35.95c2.32,1.11,3.22,3.96,1.93,6.19l-22.88,39.66Zm-188.41-57.34l99.01,139.53c1.5,2.09,4.45,2.48,6.44,.82l35.06-29.45c1.97-1.66,2.11-4.66,.31-6.48l-58.97-59.71,10.83-9.06c1.99-1.66,2.13-4.7,.27-6.52l-59.21-58.34c-9.84,11.22-21.2,21.06-33.75,29.22h.02Zm-.86,189.98c-2.42,.88-5.09-.49-5.76-2.97l-45.33-164.98c14.78-3.38,28.79-8.76,41.73-15.87l35.65,75.03c1.13,2.36-.04,5.17-2.48,6.05l-13.29,4.8,35,76.29c1.07,2.34-.08,5.11-2.5,5.99l-43.02,15.67Z'/%3E%20%3C/svg%3E">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bootstrapextension/bootstrap-extension@5.3.1/css/bootstrap-extension.min.css" integrity="sha384-vNt3O8wn/Wzz+qsUDG0Fnc/KlQdEWEp4wOgd21TnEvVPLUZK+O5zmqqi4nOVPYGi" crossorigin="anonymous"><script src="https://cdn.jsdelivr.net/gh/bootstrapextension/bootstrap-extension@5.3.1/js/bootstrap-extension.min.js" integrity="sha384-ICWN/2Xrjp5UR1cWsIRT6GQLT64yibecz633fMwJaFzPeJMdp/z1BxIrOj4MQUhE" crossorigin="anonymous"></script><style>.carousel-caption-readable {
+    background-color: var(--carousel-caption-readable-BgColor);
+    left: 1em;
+    right: 1em;
+    bottom: 1em;
+    padding-bottom: 50px;
+}
+img {
+  width: unset;
+}</style><link rel="stylesheet" type="text/css" href="../../../../css/okta.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" integrity="sha384-XGjxtQfXaH2tnPFa9x+ruJTuLE3Aa6LhHSWRr1XeTyhezb4abCG4ccI5AkVDxqC+" crossorigin="anonymous"></head><body id="privileged-access-gateways-pam-gateway-configure" class="d-flex flex-column min-vh-100"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMZZV4P" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KXMLV58" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><div class="visually-hidden-focusable overflow-hidden p-2 bg-body-tertiary"><div class="container-xl"><a class="d-inline-flex m-1 btn btn-outline-primary btn-sm" href="#ariaid-title1">Skip to main content</a><a href="#bs-sidebar-nav" class="d-none d-md-inline-flex m-1 btn btn-outline-primary btn-sm">Skip to docs navigation</a></div></div><header role="banner" class="sticky-top"><nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <!-- Modify -xxl to change container size -->
+  <div class="container-xxl">
+    <div class="navbar-inner">
+      <div class="bd-navbar-toggle">
+        <button class="navbar-toggler p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#bdSidebar" aria-controls="bdSidebar" aria-label="Toggle docs navigation">
+          <i class="bi bi-list"></i>
+        </button>
+      </div>
+      <a class="navbar-brand" href="/okta_help.htm?id=csh-index" aria-label="Okta Docs" title="Okta Docs">
+        <svg xmlns="http://www.w3.org/2000/svg" class="okta-logo" id="Logos" viewBox="0 0 4000 1258.56" height="56" aria-hidden="true"> <defs> <style> .cls-1 { fill-rule: evenodd; } </style> </defs> <g id="Logomark_Black"> <path class="cls-1" d="M667.04,252.97l-15.68,193.53.03.02c-7.42-.91-14.94-1.42-22.59-1.42-9.54,0-18.92.72-28.06,2.12l-8.91-93.85c-.28-2.93,2.05-5.49,5.01-5.45h16.03l-7.72-94.95c-.26-2.91,2.05-5.42,4.98-5.42h51.96c2.91,0,5.21,2.51,4.98,5.42ZM535.92,262.58c-.77-2.82-3.79-4.38-6.54-3.37l-48.82,17.78c-2.75,1-4.05,4.14-2.84,6.8l39.72,86.57-15.08,5.45c-2.77,1-4.1,4.19-2.82,6.87l40.46,85.15c14.68-8.08,30.58-14.17,47.35-18.01l-51.45-187.22ZM416.02,316.48l112.36,158.32.02.02c-14.24,9.26-27.13,20.43-38.3,33.16l-67.2-66.21c-2.12-2.07-1.95-5.52.3-7.4l12.29-10.29-66.92-67.77c-2.05-2.07-1.88-5.47.35-7.35l39.79-33.42c2.26-1.88,5.61-1.44,7.31.93ZM321.76,408.13c-2.4-1.65-5.72-.91-7.19,1.61l-25.97,45.01c-1.47,2.54-.44,5.77,2.19,7.03l86.07,40.8-8.05,13.87c-1.49,2.56-.44,5.84,2.26,7.07l85.74,39.21c6.21-15.94,14.52-30.81,24.66-44.24l-159.71-110.35ZM258.36,530.46c.51-2.89,3.35-4.72,6.19-3.98l187.8,49.06c-4.86,15.87-7.59,32.65-7.96,50.03l-94.03-7.54c-2.96-.23-5.05-2.96-4.54-5.87l2.82-15.78-94.82-8.89c-2.91-.28-4.98-2.98-4.47-5.87l9-51.18ZM251.26,657.3c-2.91.28-4.98,2.98-4.47,5.86l9.03,51.18c.51,2.88,3.37,4.72,6.19,3.98l92.14-24.08,2.75,15.78c.51,2.91,3.42,4.75,6.26,3.96l90.89-25.09c-5.35-15.75-8.66-32.42-9.54-49.76l-193.24,18.18ZM281.32,791.78c-1.47-2.54-.47-5.77,2.19-7.03l175.35-83.15c6.68,15.73,15.5,30.33,26.06,43.45l-76.85,54.66c-2.4,1.72-5.77.98-7.24-1.58l-7.98-13.89-78.34,54.15c-2.42,1.68-5.72.93-7.19-1.61l-25.99-45.01ZM493.78,755.32l-136.4,138.19c-2.05,2.07-1.88,5.47.35,7.36l39.81,33.39c2.23,1.88,5.61,1.44,7.31-.93l55.1-77.68,12.26,10.33c2.26,1.91,5.68,1.44,7.35-.98l53.49-77.61c-14.52-8.84-27.71-19.67-39.25-32.02l-.02-.04ZM466.84,977.21c-2.75-1-4.05-4.14-2.84-6.8h.02l80.9-176.49c14.89,7.61,30.95,13.29,47.84,16.64l-23.73,91.25c-.74,2.86-3.79,4.47-6.56,3.44l-15.05-5.52-25.22,91.85c-.77,2.82-3.79,4.38-6.54,3.37l-48.82-17.76ZM606.17,812.68h0s-.02,0-.02,0h.02ZM606.17,812.68l-15.68,193.55c-.23,2.91,2.07,5.42,4.98,5.42h51.96c2.93,0,5.24-2.51,4.98-5.42l-7.72-94.95h16.03c2.95.05,5.28-2.51,5-5.44l-8.91-93.85c-9.14,1.39-18.52,2.12-28.06,2.12-7.65,0-15.16-.51-22.57-1.42ZM793.53,288.76c1.21-2.65-.09-5.79-2.84-6.8l-48.82-17.76c-2.74-1-5.77.56-6.54,3.37l-25.22,91.85-15.05-5.52c-2.77-1.02-5.82.58-6.56,3.44l-23.73,91.25c16.89,3.35,32.95,9.03,47.84,16.64l80.93-176.49ZM900.14,365.68l-136.4,138.19-.03-.05c-11.54-12.36-24.73-23.18-39.25-32.02l53.49-77.61c1.68-2.42,5.09-2.89,7.35-.98l12.26,10.33,55.1-77.68c1.7-2.37,5.07-2.82,7.31-.93l39.81,33.39c2.23,1.89,2.4,5.28.35,7.35ZM974.02,474.43c2.66-1.26,3.65-4.49,2.19-7.03l-25.99-45.01c-1.47-2.54-4.77-3.28-7.19-1.61l-78.34,54.15-7.98-13.89c-1.46-2.56-4.84-3.3-7.24-1.58l-76.85,54.67c10.57,13.13,19.38,27.72,26.06,43.45l175.35-83.15ZM1001.68,544.87l9.03,51.18.02.02c.51,2.89-1.56,5.59-4.47,5.87l-193.26,18.15c-.88-17.34-4.19-34-9.54-49.76l90.88-25.09c2.84-.79,5.75,1.05,6.26,3.96l2.74,15.78,92.14-24.09c2.82-.74,5.68,1.09,6.19,3.98ZM992.96,732.7c2.84.74,5.68-1.09,6.19-3.98l9.01-51.17c.51-2.89-1.56-5.59-4.47-5.87l-94.82-8.89,2.82-15.78c.51-2.91-1.58-5.63-4.54-5.87l-94.02-7.54c-.37,17.38-3.12,34.17-7.96,50.03l187.8,49.04v.02ZM942.93,849.45c-1.46,2.51-4.79,3.26-7.19,1.61l.02-.02-159.73-110.33c10.14-13.43,18.45-28.3,24.66-44.24l85.74,39.22c2.7,1.23,3.75,4.51,2.26,7.07l-8.05,13.87,86.07,40.79c2.63,1.26,3.65,4.49,2.19,7.03l-25.97,45.01ZM729.12,784.38l112.36,158.34c1.7,2.38,5.05,2.82,7.31.93l39.79-33.42c2.23-1.88,2.39-5.28.35-7.36l-66.92-67.77,12.29-10.29c2.26-1.88,2.42-5.33.3-7.4l-67.2-66.21c-11.17,12.73-24.06,23.9-38.3,33.16h.02ZM728.14,999.97c-2.74,1-5.77-.56-6.54-3.37l-51.44-187.22c16.77-3.84,32.67-9.94,47.35-18.01l40.46,85.15c1.28,2.68-.04,5.87-2.82,6.87l-15.08,5.44,39.72,86.57c1.21,2.65-.09,5.79-2.84,6.79l-48.82,17.78Z"/> </g> <g id="Wordmark_Black"> <path d="M2365.04,744.13c-64.1,0-109.43-49.86-109.43-115.26s45.33-115.26,109.43-115.26,108.13,49.86,108.13,115.26-44.68,115.26-108.13,115.26ZM2354.68,812.77c51.8,0,95.83-20.07,123.67-62.16,5.18,40.79,34.97,55.69,72.52,55.69h29.79v-64.75h-12.95c-21.37,0-26.55-10.36-26.55-34.32v-255.76h-68.64v52.45c-23.31-36.91-67.34-58.92-117.85-58.92-90,0-172.88,75.11-172.88,183.89s82.88,183.89,172.88,183.89ZM2001.14,724.06c0,58.28,36.26,82.23,79.64,82.23h83.53v-64.75h-60.87c-25.25,0-30.43-9.71-30.43-34.32v-191.01h91.3v-64.75h-91.3v-119.14h-71.87v391.74ZM1674.16,806.29h71.87v-152.16h23.96l122.38,152.16h90.65l-156.05-192.96,119.79-161.88h-80.94l-97.77,136.62h-22.02v-255.76h-71.87v473.97ZM1441.06,444.99c-100.36,0-183.24,75.11-183.24,183.89s82.88,183.89,183.24,183.89,183.24-75.11,183.24-183.89-82.88-183.89-183.24-183.89ZM1441.06,744.13c-64.1,0-109.43-49.86-109.43-115.26s45.33-115.26,109.43-115.26,109.43,49.86,109.43,115.26-45.33,115.26-109.43,115.26Z"/> </g>
+           <text x="2800" y="800" font-size="480" fill="#808080" style="font-family: 'Aeonik Regular', Arial, Helvetica,               sans-serif" translate="no">Docs</text>
+        </svg>
+
+      </a>
+    </div>
+    <div class="navbar-mobile-header-container">
+      <div class="navbar-search-button navbar-search-button-mobile-view">
+        <a href="/search.htm" title="Search" aria-label="Search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" aria-label="Search">
+              <circle cx="14.5" cy="14.5" r="7.50001" stroke="#212126" stroke-width="2"/>
+              <path d="M25.0001 24.9999L19.9001 19.8999" stroke="black" stroke-width="2"/>
+              <script xmlns="" id="56558889-3bd0-45cd-8ee4-895d1bf99f71"></script>
+          </svg>
+        </a>
+      </div>
+      <div class="nav-item dropdown navbar-lang-dropdown-mobile-view">
+        <a href="#" class="nav-link px-0 px-lg-2 d-flex align-items-center locale-switcher-btn" title="Switch Language" aria-label="Switch Language" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+            <i class="bi bi-globe" aria-hidden="true"></i>
+        </a>
+        <ul class="dropdown-menu dropdown-menu-end" style="--bs-dropdown-min-width: 6rem;" data-bs-popper="static">
+          <li>
+            <a href="" class="dropdown-item d-flex align-items-center" id="locale-en-us-mobile">
+              <span class="ms-2" translate="no">English (United States)</span>
+            </a>
+          </li>
+          <li>
+            <a href="" class="dropdown-item d-flex align-items-center" id="locale-ja-jp-mobile">
+              <span class="ms-2" translate="no">日本語 (日本)</span>
+            </a>
+          </li>
+          <li class="locale-fr-fr-item">
+            <a href="" class="dropdown-item d-flex align-items-center" id="locale-fr-fr-mobile">
+              <span class="ms-2" translate="no">Français (France)</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-item theme-toggle-switch theme-toggle-switch-mobile-view">
+        <label class="toggle-switch-mobile switch-theme"></label>
+      </div>
+      <button class="navbar-toggler p-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="bi bi-three-dots"></i>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <!-- Documentation -->
+        <li class="nav-item dropdown">
+          <button role="button" class="nav-link px-0 px-lg-2 dropdown-toggle d-flex align-items-center" data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="ms-2">Documentation</span>
+          </button>
+          <ul class="dropdown-menu" style="--bs-dropdown-min-width: 6rem" data-bs-popper="static">
+            <li>
+              <a href="/okta_help.htm?type=oie&amp;id=csh-oie" class="dropdown-item">Identity Engine</a>
+            </li>
+            <li>
+              <a href="/okta_help.htm?id=csh-oce" class="dropdown-item">Classic Engine</a>
+            </li>
+            <li>
+              <a href="/okta_help.htm?type=oag&amp;id=ext_oag_main" class="dropdown-item">Access Gateway</a>
+            </li>
+            <li>
+              <a href="/okta_help.htm?type=aerial&amp;id=aerial-overview" class="dropdown-item">Aerial</a>
+            </li>
+            <li>
+              <a href="/okta_help.htm?type=ispm&amp;id=csh-ispm-home" class="dropdown-item">Identity Security Posture Management</a>
+            </li>
+             <li>
+              <a href="/okta_help.htm?type=mcp&amp;id=mcpserver-mcpserver" class="dropdown-item">Okta Managed MCP Server</a>
+            </li>
+            <li>
+              <a href="/okta_help.htm?type=wf&amp;id=ext-okta-workflows" class="dropdown-item">Workflows</a>
+            </li>
+          </ul>
+        </li>
+        <!-- Release Notes -->
+        <li class="nav-item dropdown">
+          <button role="button" class="nav-link px-0 px-lg-2 dropdown-toggle d-flex align-items-center" data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="ms-2">Release Notes</span>
+          </button>
+          <ul class="dropdown-menu" style="--bs-dropdown-min-width: 6rem" data-bs-popper="static">
+            <li>
+              <a href="/okta_help.htm?type=oie&amp;id=csh-oie-release-notes" class="dropdown-item">Identity Engine</a>
+            </li>
+            <li>
+              <a href="/okta_help.htm?id=ext_okta_relnotes" class="dropdown-item">Classic Engine</a>
+            </li>
+            <li>
+              <a href="/okta_help.htm?type=oag&amp;id=ext_oag_releasenotes" class="dropdown-item">Access Gateway</a>
+            </li>
+            <li>
+              <a href="/okta_help.htm?type=aerial&amp;id=aerial-releasenotes" class="dropdown-item">Aerial</a>
+            </li>
+            <li>
+              <a href="/okta_help.htm?type=ispm&amp;id=csh-rn-announcements" class="dropdown-item">Identity Security Posture Management</a>
+            </li>
+             <li>
+                <a href="/okta_help.htm?type=mcp&amp;id=mcpserver-releasenotes" class="dropdown-item">Okta Managed MCP Server</a>
+            </li>
+            <li>
+              <a href="/okta_help.htm?type=wf&amp;id=ext-workflows-releasenotes" class="dropdown-item">Workflows</a>
+            </li>
+          </ul>
+        </li>
+        <!-- Okta Developer -->
+        <li class="nav-item">
+          <a class="nav-link" href="https://developer.okta.com/" target="_blank" rel="noopener noreferrer">Okta Developer</a>
+        </li>
+        <!-- Auth0 -->
+        <li class="nav-item dropdown">
+          <button role="button" class="nav-link px-0 px-lg-2 dropdown-toggle d-flex align-items-center" data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="ms-2">Auth0</span>
+          </button>
+          <ul class="dropdown-menu" style="--bs-dropdown-min-width: 6rem" data-bs-popper="static">
+            <li>
+              <a href="https://auth0.com/docs" class="dropdown-item">Auth0 Docs</a>
+            </li>
+            <li>
+              <a href="https://docs.fga.dev" class="dropdown-item">Auth0 FGA Docs</a>
+            </li>
+          </ul>
+        </li>
+        <!-- Training -->
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.okta.com/services/training/" target="_blank" rel="noopener noreferrer">Training</a>
+        </li>
+        <!-- Support -->
+        <li class="nav-item">
+          <a class="nav-link" href="https://support.okta.com/help/s/?language=en_US" target="_blank" rel="noopener noreferrer">Support</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ms-auto me-5 search-lang-theme-toggle-container">
+        <li class="navbar-search-button">
+          <a href="/search.htm" title="Search" aria-label="Search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" aria-label="Search"><circle cx="14.5" cy="14.5" r="7.50001" stroke="#212126" stroke-width="2"/><path d="M25.0001 24.9999L19.9001 19.8999" stroke="black" stroke-width="2"/><script xmlns="" id="56558889-3bd0-45cd-8ee4-895d1bf99f71"></script></svg>
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link px-0 px-lg-2 d-flex align-items-center locale-switcher-btn" title="Switch Language" aria-label="Switch Language" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+             <i class="bi bi-globe" aria-hidden="true"></i>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end" style="--bs-dropdown-min-width: 6rem;" data-bs-popper="static">
+            <li>
+              <a href="" class="dropdown-item d-flex align-items-center" id="locale-en-us-desktop">
+                <span class="ms-2" translate="no">English (United States)</span>
+              </a>
+            </li>
+            <li>
+              <a href="" class="dropdown-item d-flex align-items-center" id="locale-ja-jp-desktop">
+                <span class="ms-2" translate="no">日本語 (日本)</span>
+              </a>
+            </li>
+            <li class="locale-fr-fr-item">
+              <a href="" class="dropdown-item d-flex align-items-center" id="locale-fr-fr-desktop">
+                <span class="ms-2" translate="no">Français (France)</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item theme-toggle-switch" id="bd-color-mode">
+          <label class="toggle-switch switch-theme"></label>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div id="feedback-tab">
+    <a id="feedback-link" href="#" title="Submit feedback" target="_blank" rel="noopener noreferrer">
+      <div id="feedback-container">
+        <p id="feedback-text" translate="no">Feedback</p>
+      </div>
+    </a>
+  </div>
+</nav></header><div class="bs-container container-xxl bd-gutter mt-3 my-md-4" id="content"><div class="overflow-y-auto bs-sidebar"><div class="offcanvas-lg offcanvas-start" tabindex="-1" id="bdSidebar" aria-labelledby="bdSidebarOffcanvasLabel" aria-modal="true" role="dialog"><div class="offcanvas-header border-bottom"><h5 class="offcanvas-title" id="bdSidebarOffcanvasLabel">Classic Engine publication</h5><button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#bdSidebar"></button></div><div class="offcanvas-body flex-column h-100"><div id="bs-sidebar-nav-placeholder" data-nav-base="../../../../" data-nav-src="../../../../nav.htm" aria-busy="true"></div></div></div></div><main role="main" class="bs-main me-3" data-oie-oce-equivalent-page="privileged-access/gateways/pam-gateway-configure.htm"><article role="article" class="bs-content" aria-labelledby="ariaid-title1"><nav aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../../content/topics/privileged-access/pam-overview.htm">Okta Privileged Access</a></li><li class="breadcrumb-item"><a href="../../../../content/topics/privileged-access/gateways/pam-gateways.htm">Gateways</a></li><li class="breadcrumb-item active" aria-current="page">Configure the Okta Privileged Access gateway</li></ol></nav><div class="topic-content" data-content-id="hoc-main-content"><h1 class="title" id="ariaid-title1">Configure the <span class="keyword">Okta Privileged Access</span> gateway</h1><div class="body">
+      <div class="div">
+         <p class="p heading-level-h2" id="privileged-access-gateways-pam-gateway-configure__Command">Command-line options</p>
+         <ul class="ul">
+            <li class="li">
+               <code class="ph codeph">service</code>:  Runs the sft-gatewayd service</li>
+            <li class="li">
+               <code class="ph codeph">support</code>: Collects local system information for <span class="keyword">Okta</span> support</li>
+            <li class="li">
+               <code class="ph codeph">-h</code>, <code class="ph codeph">--help</code>: Displays help</li>
+            <li class="li">
+               <code class="ph codeph">-v</code>, <code class="ph codeph">--version</code>: Displays version</li>
+            <li class="li">
+               <code class="ph codeph">--syslog</code>: Forces syslog logging</li>
+         </ul>
+         <p class="p heading-level-h2" id="privileged-access-gateways-pam-gateway-configure__Configur">Configuration file</p>
+         <p class="p">You can control <span class="keyword">Okta Privileged Access</span> gateways by using a configuration file at <code class="ph codeph">/etc/sft/sft-gatewayd.yaml</code>. After installing the gateway, an example configuration file is available at <code class="ph codeph">/etc/sft/sft-gatewayd.sample.yaml</code>. If a configuration file hasn't been created or is unavailable, the gateway uses the following default values. </p>
+         <div role="alert" class="note alert alert-primary"><span class="note__title"><i class="pe-2 bi bi-pencil"></i>Note:</span> 
+            <p class="p">Restart the gateway before changes to the configuration file take effect. For details, see <a class="xref" href="pam-gateway-manage.htm">Manage the <span class="keyword">Okta Privileged Access</span> gateway</a>.</p>
+         </div>
+         <div class="div">
+            <p class="p heading-level-h3" id="privileged-access-gateways-pam-gateway-configure__token">Setup Token
+options				</p>
+            <p class="p">These options control how you add a setup token to your gateway. You must enable one of the following options. For details on obtaining a setup token, see <a class="xref" href="pam-gateways-tokens-labels.htm">Create tokens and labels</a>.</p>
+            <div><table class="table"><colgroup><col><col><col></colgroup><thead class="thead">
+                     <tr>
+                        <th class="entry" id="privileged-access-gateways-pam-gateway-configure__entry__1">Option</th>
+                        <th class="entry" id="privileged-access-gateways-pam-gateway-configure__entry__2">Default value</th>
+                        <th class="entry" id="privileged-access-gateways-pam-gateway-configure__entry__3">Description</th>
+                     </tr>
+                  </thead><tbody class="tbody">
+                     <tr>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__1">SetupToken
+							</td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__2">unset</td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__3">Specifies a setup token created on the <span class="keyword">Okta Privileged Access</span> platform.							<p class="p">Note: If you use  this option, the setup token remains available in plain text. <span class="keyword">Okta</span> recommends restricting read permissions to the configuration file (for example,  0600 on Linux).</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__1">SetupTokenFile</td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__2">Linux: <code class="ph codeph">/var/lib/sft-gatewayd/setup.token</code>
+                        </td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__3">
+								Specifies the path to a separate file containing the setup token. The default value is based on the operating system running the gateway.
+							<p class="p">This option is the recommended method.</p>
+                           <p class="p">If using this option, you must manually create the setup token file and add the setup token created on the <span class="keyword">Okta Privileged Access</span> platform.</p>
+                           <p class="p">After the gateway is enrolled with a team, the gateway deletes the token file.</p>
+                           <p class="p">Note: If the <code class="ph codeph">SetupToken</code> option is also configured, the gateway uses the token specified there.</p>
+                        </td>
+                     </tr>
+                  </tbody></table></div>
+         </div>
+         <div class="div">
+            <p class="p heading-level-h3" id="privileged-access-gateways-pam-gateway-configure__orchestrator">Infrastructure orchestrator options</p>
+            <div><table class="table" id="privileged-access-gateways-pam-gateway-configure__table_fsq_z1y_ljc"><colgroup><col><col><col></colgroup><thead class="thead">
+                     <tr>
+                        <th class="entry" id="privileged-access-gateways-pam-gateway-configure__table_fsq_z1y_ljc__entry__1">Option</th>
+                        <th class="entry" id="privileged-access-gateways-pam-gateway-configure__table_fsq_z1y_ljc__entry__2">Default value</th>
+                        <th class="entry" id="privileged-access-gateways-pam-gateway-configure__table_fsq_z1y_ljc__entry__3">Description</th>
+                     </tr>
+                  </thead><tbody class="tbody">
+                     <tr>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__table_fsq_z1y_ljc__entry__1">Orchestrator</td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__table_fsq_z1y_ljc__entry__2">False</td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__table_fsq_z1y_ljc__entry__3">Configure the Okta Privileged Access gateway to act as an infrastructure orchestrator,
+                           which allows it to discover, manage, and audit databases. See <a class="xref" href="../pam-database-setup-token-config.htm" title="Create the gateway configuration file and apply a setup token that's configured for infrastructure orchestration, so that the gateway can service your database integrations.">Configure the gateway to support database integrations</a>.</td>
+                     </tr>
+                  </tbody></table></div>
+         </div>
+         <div class="div">
+            <p class="p heading-level-h3" id="privileged-access-gateways-pam-gateway-configure__logs">Log 
+options</p>
+            <div><table class="table"><colgroup><col><col><col></colgroup><thead class="thead">
+                     <tr>
+                        <th class="entry" id="privileged-access-gateways-pam-gateway-configure__entry__16">Option</th>
+                        <th class="entry" id="privileged-access-gateways-pam-gateway-configure__entry__17">Default value</th>
+                        <th class="entry" id="privileged-access-gateways-pam-gateway-configure__entry__18">Description</th>
+                     </tr>
+                  </thead><tbody class="tbody">
+                     <tr>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__16">LogLevel</td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__17">
+                           <code class="ph codeph">info</code>
+                        </td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__18">Controls the verbosity of the logs. <span class="keyword">Okta</span> recommends leaving this as <code class="ph codeph">info</code>.
+							<p class="p">Valid values include:</p>
+                           <ul class="ul">
+                              <li class="li">
+                                 <code class="ph codeph">error</code>
+                              </li>
+                              <li class="li">
+                                 <code class="ph codeph">warn</code>
+                              </li>
+                              <li class="li">
+                                 <code class="ph codeph">info</code>
+                              </li>
+                              <li class="li">
+                                 <code class="ph codeph">debug</code>
+                              </li>
+                           </ul>
+                        </td>
+                     </tr>
+                  </tbody></table></div>
+         </div>
+         <div class="div">
+            <p class="p heading-level-h3" id="privileged-access-gateways-pam-gateway-configure__connections">Connection 
+options</p>
+            <div><table class="table"><colgroup><col><col><col></colgroup><thead class="thead">
+                     <tr>
+                        <th class="entry" id="privileged-access-gateways-pam-gateway-configure__entry__22">Option</th>
+                        <th class="entry" id="privileged-access-gateways-pam-gateway-configure__entry__23">Default value</th>
+                        <th class="entry" id="privileged-access-gateways-pam-gateway-configure__entry__24">Description</th>
+                     </tr>
+                  </thead><tbody class="tbody">
+                     <tr>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__22">AccessAddress</td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__23">1.1.1.1</td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__24">Specifies the network address (IPv4, IPv6, or FQDN) that's used by clients to access the gateway.
+							If no address is specified, the gateway uses the address indicated by the network interface or cloud provider metadata.</td>
+                     </tr>
+                     <tr>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__22">AccessPort</td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__23">7234</td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__24">Specifies the port clients can use to access the gateway.</td>
+                     </tr>
+                     <tr>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__22">ListenAddress</td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__23">0.0.0.0</td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__24">Specifies the network address (IPv4, IPv6, or FQDN) that's used by the gateway to listen for
+							connections. By default, the  gateway listens for connections on every available interface.</td>
+                     </tr>
+                     <tr>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__22">ListenPort</td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__23">7234</td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__24">Specifies a port used by the gateway to listen for connections.</td>
+                     </tr>
+                     <tr>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__22">TLSUseBundledCAs</td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__23">True</td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__24">Forces the gateway to use the bundled certificate store (instead of the OS certificate store) to secure HTTP requests with TLS. This also includes requests to the <span class="keyword">Okta Privileged Access</span> cloud service.
+                                <p class="p">Note: To use the OS certificate store, set this option to False.</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__22">RefuseConnections</td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__23">False</td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__24">Controls whether the gateway accepts SSH and RDP proxy traffic. If enabled, SSH and RDP connection requests aren't routed and the gateway won't listen for proxy traffic requests.</td>
+                     </tr>
+                     <tr>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__22">ForwardProxy</td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__23">unset</td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__24">
+                           <p class="p">Specifies the hostname and port of an HTTP forward proxy used for outbound network connectivity to <span class="keyword">Okta Privileged Access</span>. Alternatively, you can set the proxy using the  HTTPS_PROXY environment variable.</p>
+                           <p class="p">Example:</p>
+                           <p class="p">
+                              <code class="ph codeph">ForwardProxy: myproxydomain.com:8080</code>
+                           </p>
+                        </td>
+                     </tr>
+                  </tbody></table></div>
+         </div>
+         <div class="div">
+            <p class="p heading-level-h3" id="privileged-access-gateways-pam-gateway-configure__RDP">RDP 
+options</p>
+            <p class="p">These options control how the gateway manages RDP sessions.</p>
+            <div role="alert" class="note alert alert-primary"><span class="note__title"><i class="pe-2 bi bi-pencil"></i>Note:</span> 
+               <p class="p">Ubuntu 20.04, 22.04, RHEL 8, or RHEL 9 is required for RDP connections routed through a gateway.</p>
+            </div>
+            <div><table class="table"><colgroup><col><col><col></colgroup><thead class="thead">
+                     <tr>
+                        <th class="entry" id="privileged-access-gateways-pam-gateway-configure__entry__46">Option</th>
+                        <th class="entry" id="privileged-access-gateways-pam-gateway-configure__entry__47">Default value</th>
+                        <th class="entry" id="privileged-access-gateways-pam-gateway-configure__entry__48">Description</th>
+                     </tr>
+                  </thead><tbody class="tbody">
+                     <tr>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__46">Enabled</td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__47">False</td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__48">
+                           <p class="p">Controls RDP functionality for the gateway. This option is disabled by default as RDP
+requires other configuration and must be set to <code class="ph codeph">True</code> before any RDP connections are allowed.</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__46">MaximumActiveSessions</td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__47">20</td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__48">Controls the number of concurrent RDP sessions allowed by the gateway. After reaching this number of sessions, other users
+							will receive an error and be unable to connect to the gateway. This is done exclusively for resource and performance reasons.</td>
+                     </tr>
+                     <tr>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__46">VerboseLogging</td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__47">True</td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__48">Controls the log level of RDP-internal logs. These messages are useful when diagnosing issues but might clutter logs.
+                                <p class="p">Note: Set to <code class="ph codeph">False</code> to label all internal RDP log messages as debug.</p>
+                        </td>
+                     </tr>
+                  </tbody></table></div>
+         </div>
+         <div class="div">
+            <p class="p heading-level-h3" id="privileged-access-gateways-pam-gateway-configure__capture">Session recording options</p>
+            
+            <div><table class="table"><colgroup><col><col><col></colgroup><thead class="thead">
+                     <tr>
+                        <th class="entry" id="privileged-access-gateways-pam-gateway-configure__entry__58">Option</th>
+                        <th class="entry" id="privileged-access-gateways-pam-gateway-configure__entry__59">Default value</th>
+                        <th class="entry" id="privileged-access-gateways-pam-gateway-configure__entry__60">Description</th>
+                     </tr>
+                  </thead><tbody class="tbody">
+                     <tr>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__58">SessionLogFlushInterval</td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__59">10s</td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__60">Specifies a size threshold for session capture logs. After reaching this threshold, logs for an active session are signed and flushed to disk. This option must include a time unit (ms, s, m, h).</td>
+                     </tr>
+                     <tr>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__58">SessionLogMaxBufferSize</td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__59">262144</td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__60">Specifies a size threshold for session capture logs. After reaching this threshold, logs for an active session are signed and flushed.
+					This option is measured in bytes.</td>
+                     </tr>
+                     <tr>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__58">
+							SessionLogTempStorageDirectory</td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__59">/var/tmp</td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__60">Specifies a temp directory to store SSH session logs before upload to the specified log destination. <p class="p">The default depends on the operating system. On Linux, the default is <code class="ph codeph">/var/tmp</code>, unless the $TMPDIR environment variable is specified.</p>
+                           <div role="alert" class="note alert alert-primary"><span class="note__title"><i class="pe-2 bi bi-pencil"></i>Note:</span> 
+                              <p class="p">The directories for the temporary and finalized session logs must be on the same device.</p>
+                           </div>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__58">
+							LogDestinations</td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__59">unset</td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__60">Specifies where to store finalized session logs. Teams can store logs locally or on AWS or GCS buckets. You can store session logs in multiple locations. If doing so, the logs are sent to the destination in the order specified in the configuration file. Session logs are never sent to <span class="keyword">Okta Privileged Access</span>.
+                                <p class="p">See the following  default values and examples.</p>
+                           <p class="p heading-level-h5">Example - Linux/BSD</p>
+                           <p class="p noteContent code">LogDestinations:  - Type: file  LogDir: /var/log/sft/sessions</p>
+                           <div role="alert" class="note alert alert-primary"><span class="note__title"><i class="pe-2 bi bi-pencil"></i>Note:</span> 
+                              <p class="p">Gateways can't write to the <code class="ph codeph">/home</code>, <code class="ph codeph">/root</code>, or <code class="ph codeph">/run/user</code> directories.</p>
+                           </div>
+                           <p class="p heading-level-h5">Example - AWS</p>
+                           <pre class="pre codeblock alert alert-secondary"><code>LogDestinations:
+  - Type: s3
+  Bucket: BUCKET-NAME
+  Region: us-east-1
+  # Use of ec2 instance IAM Role credentials for s3 bucket access is recommended
+  # To use ec2 instance IAM Role credentials leave Profile, AccesKeyId, SecretKey, and SessionToken BLANK
+  # Specify Profile for shared credentials
+  Profile: AWS-PROFILE-NAME
+  # Specify AccessKeyId, SecretKey, and SessionToken for static credentials
+  AccessKeyId: SECRET
+  SecretKey: SECRET
+  SessionToken: SECRET</code></pre>
+                           <p class="p heading-level-h5">Example - Google Cloud</p>
+                           <pre class="pre codeblock alert alert-secondary"><code>LogDestinations:
+ - Type: gcs
+  Bucket: BUCKET-NAME
+  # Supply one of CredentialsFile or CredentialsJSON (or none to use instance credentials)
+  CredentialsFile: /path/to/cred/file
+  CredentialsJSON: |
+  {
+      "SOME": "value",
+      "IN": "json"
+  }</code></pre>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__58">
+                           <p class="p">LogFileNameFormats</p>
+                        </td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__59">
+                           <p class="p">
+                              <code class="ph codeph">SSHRecording: {{StartTime}}-{{.TeamName}}-{{Username}}</code>
+                           </p>
+                           <p class="p">
+                              <code class="ph codeph">RDPRecording: {{StartTime}}-{{Protocol}}-{{.TeamName}}-{{ProjectName}}-{[.ServerName]}-{{.Username}}</code>
+                           </p>
+                        </td>
+                        <td class="entry" headers="privileged-access-gateways-pam-gateway-configure__entry__60">
+                           <p class="p">System administrators can customize and configure the <code class="ph codeph">logFileNameFormats</code> option to better understand and manage the session recording logs.</p>
+                           <ul class="ul">
+                              <li class="li">
+                                 <p class="p">
+                                    <code class="ph codeph">StartTime</code> - The time when the session recording starts. Time conversion is done using the ISO 8601 standard format.</p>
+                              </li>
+                              <li class="li">
+                                 <p class="p">
+                                    <code class="ph codeph">TeamName</code> - The <span class="keyword">Okta Privileged Access</span> team name of the user who trigger the connection session.</p>
+                              </li>
+                              <li class="li">
+                                 <p class="p">
+                                    <code class="ph codeph">UserName</code> - The name of the user who triggers the SSH or RDP session.</p>
+                              </li>
+                              <li class="li">
+                                 <p class="p">
+                                    <code class="ph codeph">Protocol</code> - The connection protocol; either SSH or RDP.</p>
+                              </li>
+                              <li class="li">
+                                 <p class="p">
+                                    <code class="ph codeph">ProjectName</code> - The name of the project, which the target SSH or RDP server belongs to.</p>
+                              </li>
+                              <li class="li">
+                                 <p class="p">
+                                    <code class="ph codeph">ServerName</code> - The hostname of the target server client connected to in the  SSH or RDP session.</p>
+                              </li>
+                           </ul>
+                        </td>
+                     </tr>
+                  </tbody></table></div>
+         </div>
+      </div>
+   </div></div><nav role="navigation" class="related-links"><div class="linklist reltopics"><h2 class="sectiontitle">Related topics</h2><ul class="linklist"><li class="linklist"><a class="link" href="../tool-setup/pam-install-gateway.htm">Install the Okta Privileged Access gateway</a></li><li class="linklist"><a class="link" href="pam-gateways-tokens-labels.htm">Create setup tokens</a></li><li class="linklist"><a class="link" href="../pam-setup-prerequisites.htm">Requirements and limitations</a></li></ul></div></nav></article></main></div><script language="javascript" src="../../../../js/okta.min.js" type="module"></script><footer role="contentinfo" class="mt-auto border-top bg-primary-subtle"><div>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <p class="p-3">
+          <small>© <span id="year"></span> Okta, Inc. All Rights Reserved. Various trademarks held by their respective owners.</small>
+        </p>
+      </div>
+    </div>
+  </div>
+  <a href="#" class="sf-back-to-top"><span class="arrow"></span>Top</a>
+</div></footer></body></html>

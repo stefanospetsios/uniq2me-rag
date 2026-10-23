@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T21:03:43Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "1-source-4",
+    "type": "technical-doc",
+    "title": "Configuring Emergency Access",
+    "publisher": "Zscaler",
+    "url": "https://help.zscaler.com/zpa/configuring-emergency-access",
+    "language": "en",
+    "jurisdiction": "United States",
+    "applicability": "Zscaler Private Access configuration for third-party emergency access including identity provider integration, authentication domains, secure credential management, and access revocation procedures",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:a5c84cb4cdd77abed4a10736a5511c0bd76123d566ba6e67826ee3e5ccb8391e",
+    "textDigest": "sha256:730f5005767f51980dc24f8162970d15a3e3c4fc4d6f0be5624b438f2c23896a",
+    "finalUrl": "https://help.zscaler.com/zpa/configuring-emergency-access",
+    "retrievedAt": "2026-10-23T21:03:43Z",
+    "contentType": "text/html; charset=utf-8",
+    "snapshotPath": "source-a5c84cb4cdd77abed4a10736a5511c0bd76123d566ba6e67826ee3e5ccb8391e.bin",
+    "textPath": "source-730f5005767f51980dc24f8162970d15a3e3c4fc4d6f0be5624b438f2c23896a.txt"
+  },
+  "files": {
+    "snapshots/source-a5c84cb4cdd77abed4a10736a5511c0bd76123d566ba6e67826ee3e5ccb8391e.bin": "sha256:a5c84cb4cdd77abed4a10736a5511c0bd76123d566ba6e67826ee3e5ccb8391e",
+    "snapshots/source-730f5005767f51980dc24f8162970d15a3e3c4fc4d6f0be5624b438f2c23896a.txt": "sha256:730f5005767f51980dc24f8162970d15a3e3c4fc4d6f0be5624b438f2c23896a"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://help.zscaler.com/zpa/configuring-emergency-access",
+  "language": "en",
+  "retrievedAt": "2026-10-23T21:03:43Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T21:03:43Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n\n\n  \n\n    \n\n    \n\n\n    \n\n    \n\n    \n\n    \n\n    \n\n\n    \n\n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n  \n\n\n  \n\n    \n\n      If you're seeing this message, that means\n      \nJavaScript has been disabled on your browser\n, please \nenable JS\n to make this app\n      work.\n    \n\n\n    \n\n\n\n  \n\n\n\n",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": false,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "1"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Zscaler",
+    "host": "help.zscaler.com"
+  }
+}

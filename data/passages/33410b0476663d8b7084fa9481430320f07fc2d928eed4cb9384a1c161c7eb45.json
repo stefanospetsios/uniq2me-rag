@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "33410b0476663d8b7084fa9481430320f07fc2d928eed4cb9384a1c161c7eb45",
+  "cachedAt": "2026-10-23T23:08:14Z",
+  "originRunId": "qwen3-40019296746",
+  "sourceUrl": "https://www.enisa.europa.eu/sites/default/files/2025-06/Mapping%20NIS%202%20obligations%20with%20ECSF%20role%20profiles.pdf",
+  "finalUrl": "https://www.enisa.europa.eu/sites/default/files/2025-06/Mapping%20NIS%202%20obligations%20with%20ECSF%20role%20profiles.pdf",
+  "language": "en",
+  "publisher": "European Union Agency for Cybersecurity (ENISA)",
+  "title": "Mapping NIS2 Obligations with ECSF Role Profiles",
+  "retrievedAt": "2026-10-23T23:05:22Z",
+  "byteDigest": "sha256:ae3300be1bb5dfb5a8fd43d268ab8ae9474cfba381ea2151c0ddbdb40051cc1b",
+  "textDigest": "sha256:981d3bd243637993b1ba0fa7ff5b967c0f1692a56856dc4e6b5bd5794f8077b6",
+  "sourceId": "D-source-2",
+  "passageId": "p2",
+  "locator": "Introduction section",
+  "quotation": "To implement the directive effectively, entities should define internal cybersecurity roles and responsibilities aligned with its requirements7.",
+  "originalText": "— it requires\nthe effective engagement of people. To implement the directive effectively, entities should\ndefine internal cybersecurity roles and responsibilities aligned with its requirements7.\n\nA major challenge to meeting NIS2 requirements is linking regulatory obligations to practical\nimplementations. The ECSF, developed and maintained by ENISA, plays a pivotal role",
+  "excerptKind": "original-source-context",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T23:08:14Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "D"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "European Union Agency for Cybersecurity (ENISA)",
+    "host": "www.enisa.europa.eu"
+  }
+}

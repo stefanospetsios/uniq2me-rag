@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "ffc2481c10fbccf4081ac5d8866937187e0133521f19e242bc43b5e61aa19036",
+  "cachedAt": "2026-10-23T21:52:36Z",
+  "originRunId": "qwen3-40019296746",
+  "sourceUrl": "https://www.cisa.gov/sites/default/files/2024-06/joint-guide-modern-approaches-to-secure-network-access-security-508c.pdf",
+  "finalUrl": "https://www.cisa.gov/sites/default/files/2024-06/joint-guide-modern-approaches-to-secure-network-access-security-508c.pdf",
+  "language": "en",
+  "publisher": "Cybersecurity and Infrastructure Security Agency (CISA)",
+  "title": "Joint Guide: Modern Approaches to Secure Network Access Security",
+  "retrievedAt": "2026-10-23T21:37:38Z",
+  "byteDigest": "sha256:fd3e8b33341c728f48ed92cee2b0074a0485e6278b7d56dfccfdfc23ddf61b01",
+  "textDigest": "sha256:26eca482c8f41e8166bf95918fc65202d0e5822047b11a3fb898fa0e37ba75c6",
+  "sourceId": "5-source-5",
+  "passageId": "p2",
+  "locator": "BEST PRACTICES",
+  "quotation": "All connections to OT networks are denied by default",
+  "originalText": "All connections to OT networks are denied by default",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T21:52:36Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "Cybersecurity and Infrastructure Security Agency (CISA)",
+    "host": "www.cisa.gov"
+  }
+}

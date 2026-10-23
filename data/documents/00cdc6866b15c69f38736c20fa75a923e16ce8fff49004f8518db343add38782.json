@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T23:12:43Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "F-source-2",
+    "type": "guidance",
+    "title": "Guidance for AI adoption: implementation guidance",
+    "publisher": "National AI Centre, Australia",
+    "url": "https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance",
+    "language": "en",
+    "jurisdiction": "Australia",
+    "applicability": "Organizations implementing AI systems in production environments, covering operational aspects of human oversight design, transparency requirements for user communication, bias monitoring procedures, intervention mechanisms, and redress pathways specific to deployed systems",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "2.2.1/bullet point",
+        "text": "Potentially affected stakeholders to raise concerns, challenges, or requests for remediation and receive responses (for example, a human rights grievance and remediation mechanism)."
+      },
+      {
+        "id": "p2",
+        "locator": "2.3.1",
+        "text": "Monitor and evaluate contestability and redress processes to identify and address systemic risks as well as improve effectiveness of these processes."
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:44d3842f47b11a2d3b2f48827c9d8a950020f0f2cf12475da998894e10628f33",
+    "textDigest": "sha256:07bdce25136e31b6109c2939e5eec6707ecc4bdc3d6f7f195ccf8b6aca11bb28",
+    "finalUrl": "https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance",
+    "retrievedAt": "2026-10-23T23:12:43Z",
+    "contentType": "text/html; charset=UTF-8",
+    "snapshotPath": "source-44d3842f47b11a2d3b2f48827c9d8a950020f0f2cf12475da998894e10628f33.bin",
+    "textPath": "source-07bdce25136e31b6109c2939e5eec6707ecc4bdc3d6f7f195ccf8b6aca11bb28.txt"
+  },
+  "files": {
+    "snapshots/source-44d3842f47b11a2d3b2f48827c9d8a950020f0f2cf12475da998894e10628f33.bin": "sha256:44d3842f47b11a2d3b2f48827c9d8a950020f0f2cf12475da998894e10628f33",
+    "snapshots/source-07bdce25136e31b6109c2939e5eec6707ecc4bdc3d6f7f195ccf8b6aca11bb28.txt": "sha256:07bdce25136e31b6109c2939e5eec6707ecc4bdc3d6f7f195ccf8b6aca11bb28"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance",
+  "language": "en",
+  "retrievedAt": "2026-10-23T23:12:43Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T23:14:08Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n\n\n  \n\n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \nGuidance for AI adoption: implementation guidance | National AI Centre\n\n    \n\n\n\n\n    \n\n\n\n\n\n\n  \n\n  \n\n        \n\n      Skip to main content\n    \n\n    \n      \n\n              \n\n  \n\n\n  \n\n\n  \n\n  \n\n    \n\n  \n\n\n  \n\n  \n\n    \n\n  \n\n\n  \n\n  \n\n    \n\n  \n\n\n  \n\n  \n\n    \n\n  \n\n\n  \n\n  \n\n    \n\n  \n\n\n  \n\n  \n\n    \n\n  \n\n\n  \n\n  \n\n    \n\n  \n\n\n  \n\n  \n\n    \n\n  \n\n\n  \n\n  \n\n    \n\n  \n\n\n  \n\n  \n\n    \n\n  \n\n\n  \n\n  \n\n    \n\n  \n\n\n  \n\n  \n\n    \n\n  \n\n\n  \n\n  \n\n    \n\n  \n\n\n  \n\n  \n\n    \n\n  \n\n\n  \n\n  \n\n    \n\n  \n\n\n  \n\n  \n\n    \n\n  \n\n\n  \n\n  \n\n    \n\n  \n\n\n  \n\n  \n\n    \n\n  \n\n\n  \n\n  \n\n    \n\n  \n\n\n  \n\n  \n\n    \n\n  \n\n\n  \n\n  \n\n    \n\n  \n\n\n  \n\n  \n\n    \n\n  \n\n\n  \n\n  \n\n    \n\n  \n\n\n  \n\n  \n\n    \n\n  \n\n\n  \n\n  \n\n    \n\n  \n\n\n  \n\n  \n\n    \n\n  \n\n\n  \n\n  \n\n    \n\n  \n\n\n  \n\n  \n\n    \n\n  \n\n\n  \n\n  \n\n    \n\n  \n\n\n  \n\n  \n\n    \n\n  \n\n\n  \n\n  \n\n    \n\n  \n",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "F"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "National AI Centre, Australia",
+    "host": "www.ai.gov.au"
+  }
+}

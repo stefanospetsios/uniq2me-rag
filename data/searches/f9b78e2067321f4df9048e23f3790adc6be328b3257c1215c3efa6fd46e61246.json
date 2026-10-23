@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "f9b78e2067321f4df9048e23f3790adc6be328b3257c1215c3efa6fd46e61246",
+  "cachedAt": "2026-10-23T22:27:17Z",
+  "observedAt": "2026-10-23T22:27:17Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-A-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "A",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Cryptographic and Blockchain Infrastructure official implementation configuration documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792794358074,
+    "end": 1792794360347
+  },
+  "outputDigest": "sha256:67e0bcc5d9b99fc7e481cdbe6a3ccb83e1bf52daebe63b267ecd3e6681b9ef19",
+  "resultUrls": [
+    "https://csrc.nist.gov/csrc/media/Projects/cryptographic-module-validation-program/documents/fips%20140-3/FIPS%20140-3%20IG.pdf",
+    "https://doc.dpdk.org/guides/prog_guide/cryptodev_lib.html",
+    "https://repository.rit.edu/cgi/viewcontent.cgi?article=13061&context=theses",
+    "https://sec.cloudapps.cisco.com/security/center/resources/next_generation_cryptography",
+    "https://www.cryptomathic.com/resources",
+    "https://www.cyber.gov.au/ism/2026-09/guidelines-for-cryptography",
+    "https://www.rfc-editor.org/info/rfc8221/",
+    "https://www.sciencedirect.com/science/article/pii/S2096720925001496"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Cryptographic and Blockchain Infrastructure official implementation configuration documentation\",\n  \"results\": [\n    {\n      \"title\": \"Implementation Guidance for FIPS 140-3 and the Cryptographic ...\",\n      \"url\": \"https://csrc.nist.gov/csrc/media/Projects/cryptographic-module-validation-program/documents/fips%20140-3/FIPS%20140-3%20IG.pdf\",\n      \"content\": \"19 Αυγ 2026 ... cryptographic functions as described in the crypto officer ... Provide to the CSTL the original Physical Test Report, design documentation,.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"RFC 8221: Cryptographic Algorithm Implementation Requirements ...\",\n      \"url\": \"https://www.rfc-editor.org/info/rfc8221/\",\n      \"content\": \"This document replaces RFC 7321, \\\"Cryptographic Algorithm Implementation Requirements and Usage Guidance for Encapsulating Security Payload (ESP) and ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Guidelines for cryptography | CGA - Australian Cyber Security Centre\",\n      \"url\": \"https://www.cyber.gov.au/ism/2026-09/guidelines-for-cryptography\",\n      \"content\": \"7 Σεπ 2026 ... Therefore, to provide a degree of cryptographic implementation assurance, cryptographic equipment, applications and libraries should be assessed ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Integration of Blockchain and Cryptographic techniques for Location ...\",\n      \"url\": \"https://repository.rit.edu/cgi/viewcontent.cgi?article=13061&context=theses\",\n      \"content\": \"Figure2 depicts a blockchain system for secure communication and transactions between the drivers and riders with the help of Elliptic Curve Cryptography for ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Next Generation Cryptography - Cisco\",\n      \"url\": \"https://sec.cloudapps.cisco.com/security/center/resources/next_generation_cryptography\",\n      \"content\": \"Cryptographi",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "A"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "csrc.nist.gov",
+      "doc.dpdk.org",
+      "repository.rit.edu",
+      "sec.cloudapps.cisco.com",
+      "www.cryptomathic.com",
+      "www.cyber.gov.au",
+      "www.rfc-editor.org",
+      "www.sciencedirect.com"
+    ]
+  }
+}

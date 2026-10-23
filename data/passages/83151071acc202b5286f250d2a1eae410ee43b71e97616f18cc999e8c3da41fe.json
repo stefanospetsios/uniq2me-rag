@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-passage",
+  "id": "83151071acc202b5286f250d2a1eae410ee43b71e97616f18cc999e8c3da41fe",
+  "cachedAt": "2026-10-23T23:10:13Z",
+  "originRunId": "qwen3-40019296746",
+  "sourceUrl": "https://ethicsinaction.ieee.org/",
+  "finalUrl": "https://standards.ieee.org/initiatives/autonomous-intelligence-systems/",
+  "language": "en",
+  "publisher": "IEEE",
+  "title": "Ethics for AI System Design Training",
+  "retrievedAt": "2026-10-23T23:09:11Z",
+  "byteDigest": "sha256:2cc9861c5b069364f2bcf9be8895627aac1038447db024ce5f43298221dcc176",
+  "textDigest": "sha256:406b6726667748665a8f50429929e15853f4ff364ba81efc6f050da7d316cb01",
+  "sourceId": "E-source-2",
+  "passageId": "p1",
+  "locator": "Overview/Featured",
+  "quotation": "This training helps bridge the gap between principles and practice, enabling real-world implementation of ethically aligned systems design strategy from the planning phase.",
+  "originalText": "This training helps bridge the gap between principles and practice, enabling real-world implementation of ethically aligned systems design strategy from the planning phase.",
+  "excerptKind": "exact-quotation",
+  "quotationMatchPolicy": "unicode-typography-v1",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T23:10:13Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "E"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "passage-checked",
+    "publisher": "IEEE",
+    "host": "ethicsinaction.ieee.org"
+  }
+}

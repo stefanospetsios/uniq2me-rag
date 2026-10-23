@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "ca8cbed23d8ba2ffdab9ca364443af9c09cd8c9f5307be4ce386759da0610e2e",
+  "cachedAt": "2026-10-23T21:53:22Z",
+  "observedAt": "2026-10-23T21:53:22Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-6-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "6",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "logging monitoring incident response technical-guide configuration-manual official documentation filetype:pdf OR filetype:html"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792792369082,
+    "end": 1792792370558
+  },
+  "outputDigest": "sha256:68d70826311b88d7f4213a5cb146bad546a270f5854dbf30ee837f0d5971bb78",
+  "resultUrls": [
+    "https://docs.aws.amazon.com/pdfs/prescriptive-guidance/latest/implementing-logging-monitoring-cloudwatch/implementing-logging-monitoring-cloudwatch.pdf",
+    "https://docs.aws.amazon.com/prescriptive-guidance/latest/aws-security-reference-architecture-pci-data-security-standard-dss/logging-monitoring-and-incident-response.html",
+    "https://schema.org",
+    "https://www.ncsc.gov.uk/",
+    "https://www.ncsc.gov.uk/collection/incident-management/technical-response-capabilities"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Logging, Monitoring, and Incident Response - AWS Prescriptive Guidance\",\n      \"url\": \"https://docs.aws.amazon.com/prescriptive-guidance/latest/aws-security-reference-architecture-pci-data-security-standard-dss/logging-monitoring-and-incident-response.html\",\n      \"content\": \"Logging, Monitoring, and Incident Response - AWS Prescriptive Guidance\\n\\nLogging, Monitoring, and Incident Response within the AWS SRA Logging, Monitoring, and Incident Response beyond the AWS SRA\\n\\n# Logging, Monitoring, and Incident Response\\n\\nLogging and monitoring capabilities are essential for detecting, investigating, and responding to security incidents in cardholder data environments. PCI DSS Requirement 10 mandates comprehensive audit logging of all access to system components and cardholder data, enabling organizations to reconstruct events, identify anomalies, and demonstrate compliance through verifiable audit trails. Without adequate logging, it becomes impossible to determine the scope of a compromise, identify the root cause of security incidents, or prove that security controls are operating effectively. In cloud environments, native logging services and centralized log management capabilities provide opportunities to implement comprehensive audit trails with greater automation, retention, and analysis capabilities than traditional on-premises approaches. \\n\\n## Logging, Monitoring, and Incident Response within the AWS SRA\\n\\nThe AWS SRA provides foundational guidance for logging, monitoring, and incident response that directly supports key elements of PCI DSS:\\n\\nAWS SRA recommends enabling organization trails using AWS CloudTrail with organization of all API activities across all accounts in the AWS organization. CloudTrail automatically logs all management events including user authentication, resource creation and deletion, configuration changes, and policy modifications, addressing Requirements 10.2.1 (logging of individual user acc",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "6"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "docs.aws.amazon.com",
+      "schema.org",
+      "www.ncsc.gov.uk"
+    ]
+  }
+}

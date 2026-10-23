@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "4d4a644fea22d4e90abea930c6d95a3889812b8fc6d310870d3c668c49d153b7",
+  "cachedAt": "2026-10-23T21:28:33Z",
+  "observedAt": "2026-10-23T21:28:33Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-4-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "4",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Data Storage and Handling official implementation configuration documentation data classification data ownership network-attached storage cloud storage document management encryption data sharing retention deletion privacy"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792790888603,
+    "end": 1792790889496
+  },
+  "outputDigest": "sha256:ee035303551b945eda8e0e23a1f1eed51e70b91663a88073fcee1a9fc787e015",
+  "resultUrls": [
+    "https://cloudaware.com/blog/data-security-and-privacy-in-cloud-computing/",
+    "https://hightable.io/iso-27001-data-protection-policy/",
+    "https://learn.microsoft.com/en-us/azure/well-architected/security/data-classification",
+    "https://www.adaptivesecurity.com/blog/pii-removal-checklist",
+    "https://www.edpb.europa.eu/system/files/documents/2025-06/spe-training-on-ai-and-data-protection-technical_en.pdf",
+    "https://www.exoscale.com/blog/what-is-object-storage/",
+    "https://www.fortinet.com/resources/cyberglossary/cloud-encryption",
+    "https://www.snowflake.com/en/data-governance/data-security/"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Data Storage and Handling official implementation configuration documentation data classification data ownership network-attached storage cloud storage document management encryption data sharing retention deletion privacy\",\n  \"results\": [\n    {\n      \"title\": \"Data Security and Privacy in Cloud Computing: A Practitioner's Guide\",\n      \"url\": \"https://cloudaware.com/blog/data-security-and-privacy-in-cloud-computing/\",\n      \"content\": \"πριν από 5 ημέρες ... For data security and storage in cloud computing, encryption is where the review starts. Transparent data encryption (TDE) and envelope ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"What Is Cloud Encryption? How It Works & Use Cases - Fortinet\",\n      \"url\": \"https://www.fortinet.com/resources/cyberglossary/cloud-encryption\",\n      \"content\": \"Cloud storage encryption ensures data security by ... encrypted cloud storage for record retention requirements while ensuring information security.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"ISO 27001 Data Protection Policy Explained + Template - High Table\",\n      \"url\": \"https://hightable.io/iso-27001-data-protection-policy/\",\n      \"content\": \"14 Σεπ 2026 ... The primary implementation requirement enforces strict access governance, data masking, and strong cryptography. The core business benefit is ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Data Security: Risks, Controls and the Governance Foundation\",\n      \"url\": \"https://www.snowflake.com/en/data-governance/data-security/\",\n      \"content\": \"Protecting sensitive data across its lifecycle requires core controls, clear ownership, consistent policies and visibility into how data moves. Laurie ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Architecture strategies for data classification - Microsoft Azure Well ...\",\n      \"url\": \"https://learn.microsoft.com/en-",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "4"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "cloudaware.com",
+      "hightable.io",
+      "learn.microsoft.com",
+      "www.adaptivesecurity.com",
+      "www.edpb.europa.eu",
+      "www.exoscale.com",
+      "www.fortinet.com",
+      "www.snowflake.com"
+    ]
+  }
+}

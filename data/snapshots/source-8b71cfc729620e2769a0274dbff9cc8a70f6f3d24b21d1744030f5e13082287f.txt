@@ -1,0 +1,1669 @@
+Device security principles for manufacturers | 4. Maintain device integrity | National Cyber Security Centre
+ 
+ 
+ 
+ 
+ 
+icons/chevron/16px/black
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+Skip to main content
+ 
+ 
+ 
+ 
+ 
+
+
+ Please enable JavaScript in your web browser to get the best experience.
+
+
+
+
+ 
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Home
+ 
+
+
+ 
+Utility navigation
+
+
+ 
+ 
+ 
+About NCSC
+ 
+
+
+ 
+ 
+Report an incident
+ 
+
+
+ 
+ 
+Contact us
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+
+
+ 
+ Open Search 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ Menu 
+ 
+
+
+ 
+Main navigation
+
+
+ 
+ 
+ Advice & guidance 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+Back
+Advice & guidance
+
+
+Our advice & guidance covers a broad range of topics
+
+
+
+
+ 
+ 
+ Find information for... 
+ 
+ 
+ 
+ You & your family 
+ 
+
+
+ 
+ 
+ Small to medium sized organisations 
+ 
+
+
+ 
+ 
+ Large organisations 
+ 
+
+
+ 
+ 
+ Self employed & sole traders 
+ 
+
+
+ 
+ 
+ Public sector 
+ 
+
+
+ 
+ 
+ Cyber security professionals 
+ 
+
+
+ 
+ 
+ All advice and guidance articles 
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+ Popular topics 
+ 
+ 
+ 
+ Artificial intelligence 
+ 
+
+
+ 
+ 
+ Cyber attack 
+ 
+
+
+ 
+ 
+ Frontier AI 
+ 
+
+
+ 
+ 
+ Passkeys 
+ 
+
+
+ 
+ 
+ Phishing 
+ 
+
+
+ 
+ 
+ All topics 
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+ Other resources 
+ 
+ 
+ 
+ Glossary of terms 
+ 
+
+
+ 
+ 
+ Infographics 
+ 
+
+
+ 
+ 
+ Verify an NCSC contact 
+ 
+
+
+ 
+ 
+ Heightened cyber threat information 
+ 
+
+
+ 
+ 
+ Cyber Governance for Boards 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ Respond to a cyber attack 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+Back
+Respond to a cyber attack
+
+
+Resources for individuals and organisations in the UK who have experienced an online scam or cyber attack.
+
+
+
+
+ 
+ 
+ Find advice for... 
+ 
+ 
+ 
+ Advice for medium to large organisations 
+ 
+
+
+ 
+ 
+ Advice for sole traders and small businesses 
+ 
+
+
+ 
+ 
+ Advice for individuals 
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+ Respond to... 
+ 
+ 
+ 
+ Hacked account 
+ 
+
+
+ 
+ 
+ Infected device 
+ 
+
+
+ 
+ 
+ Ransomware attack 
+ 
+
+
+ 
+ 
+ Suspicious messages 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ Find a product or service 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+Back
+Find a product or service
+
+
+Find a range of products & services from NCSC and certified 3rd party suppliers
+
+
+
+
+ 
+ 
+ In this section 
+ 
+ 
+ 
+ Products & services overview 
+ 
+
+
+ 
+ 
+ Browse cyber security services 
+ 
+
+
+ 
+ 
+ NCSC assured services 
+ 
+
+
+ 
+ 
+ Assuring technology 
+ 
+
+
+ 
+ 
+ Search assured providers 
+ 
+
+
+ 
+ 
+ Cyber Essentials 
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+ Useful links 
+ 
+ 
+ 
+ Active Cyber Defence services 
+ 
+
+
+ 
+ 
+ MyNCSC 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ Education & skills 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+Back
+Education & skills
+
+
+Working with industry, government and academia to support the next generation of researchers, students and cyber security professionals
+
+
+
+
+ 
+ 
+ Find information for... 
+ 
+ 
+ 
+ Schools 
+ 
+
+
+ 
+ 
+ Higher education 
+ 
+
+
+ 
+ 
+ Professional skills training 
+ 
+
+
+ 
+ 
+ Working with the NCSC 
+ 
+
+
+ 
+ 
+ Research & academia 
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+ Education & academia resources 
+ 
+ 
+ 
+ Cyber Skills 
+ 
+
+
+ 
+ 
+ Training resources for school staff 
+ 
+
+
+ 
+ 
+ Resources for higher education institutions 
+ 
+
+
+ 
+ 
+ Cyber Security Body of Knowledge (CyBOK) 
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+ Industry & skill resources 
+ 
+ 
+ 
+ CYBERUK 2027 
+ 
+
+
+ 
+ 
+ NCSC for StartUps 
+ 
+
+
+ 
+ 
+ Industry 100 
+ 
+
+
+ 
+ 
+ Cyber League 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ News 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+Back
+News
+
+
+All the latest information to help you keep track of what's happening
+
+
+
+
+ 
+ 
+ In this section 
+ 
+ 
+ 
+ News 
+ 
+
+
+ 
+ 
+ Blogs 
+ 
+
+
+ 
+ 
+ Speeches 
+ 
+
+
+ 
+ 
+ Reports & advisories 
+ 
+
+
+ 
+ 
+ Malware analysis reports 
+ 
+
+
+ 
+ 
+ CYBERUK 2027 
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+ Stay up to date 
+ 
+ 
+ 
+ The NCSC's Cyber Series podcast 
+ 
+
+
+ 
+ 
+ Subscribe 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+About NCSC
+ 
+
+
+ 
+ 
+Report an incident
+ 
+
+
+ 
+ 
+Contact us
+ 
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ Close Search 
+ 
+
+
+Search
+
+
+
+
+Popular Searches
+
+
+ 
+Passkeys
+
+
+ 
+Training
+
+
+ 
+Cyber Essentials
+
+
+ 
+AI
+
+
+ 
+Phishing
+
+
+ 
+Cyber Assessment Framework
+
+
+
+
+
+
+ 
+ 
+ 
+
+
+ 
+Guidance
+
+
+Device security principles for manufacturers
+
+
+Principles to guide manufacturers in the design of secure, enterprise-connected devices.
+
+
+
+
+
+
+
+
+
+
+
+
+Pages
+
+
+ 
+ 
+ Device security principles for manufacturers 
+
+
+ 
+ 1. Provide updates, securely 
+
+
+
+
+ 
+ 2. Support appropriate authentication 
+
+
+
+
+ 
+ 3. Protect data at rest and in transit 
+
+
+
+
+ 
+ 4. Maintain device integrity 
+
+
+
+
+ 
+ 5. Ensure transparency of device health 
+
+
+
+
+ 
+ 6. Permit only trusted software 
+
+
+
+
+ 
+ 7. Minimise the privilege and reach of applications 
+
+
+
+
+ 
+ 8. Constrain the use of all device interfaces 
+
+
+
+
+ 
+ 9. Allow robust device management 
+
+
+
+
+ 
+ 10. Provide security logging, alerting and monitoring capabilities 
+
+
+
+
+ 
+ 11. Enable recovery to a known good state 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+Page 5 of 12
+
+
+4. Maintain device integrity
+
+
+
+
+
+
+All devices rely on core software and firmware that are essential to their operation, such as their operating systems and bootloaders. If an attacker compromises or modifies this code, the attacker could control or subvert the device functionality. Compromised or modified code is challenging to identify and remove from the device.
+
+
+Demonstrating that these crucial components are correct and haven’t been modified each time the device starts helps prevent the device booting into a pre-compromised state. This can be achieved by cryptographic checks based on a hardware root of trust, which make it substantially more difficult for an attacker to interfere.
+
+
+
+
+
+
+
+
+
+
+ 
+Guideline 4.1: The firmware and operating system on the device shall only be modifiable using authorised update mechanisms
+
+
+
+
+This guideline applies to all devices.
+
+
+It is important that malware, and attackers with physical access to a device can’t modify the system. If a device is updated through an unauthorised mechanism, the integrity of the device is undermined. By restricting the device to only accept authorised updates, it limits the ability of malicious actors to gain persistent access.
+
+
+Desirable properties in an authorised update mechanism are discussed in principle 1, but the device must also ensure that the applied updates come from an authorised update mechanism. As such, not all devices meeting principle 1 will also meet this guideline.
+
+
+Example: The operating system image is integrity protected using hash trees to ensure that it's only modifiable through an update process combined with the relevant signature.
+
+
+References:
+NCSC Zero trust architecture Principles 
+3
+ and 
+6
+
+
+MITRE: T1495
+ Firmware Corruption
+
+
+MITRE: T1542.001
+ System Firmware
+
+
+NIST SP 800-213A
+: Software Update − Update Capabilities
+
+
+NIST SP 800-213A
+: Device Security − Secure Resource Usage
+
+
+
+
+
+
+
+
+ 
+ 
+Guideline 4.2: The device shall support pre-operating system boot security
+
+
+
+
+This guideline applies to all devices.
+
+
+Ensuring that each piece of boot software matches previously known good signatures gives confidence that the device is booting into a good state. This helps mitigate the risk of an attacker corrupting the core operating system image, resulting in security issues which could lead to device exploitation.
+
+
+Example: Secure boot ensures that the operating system can’t be corrupted or compromised without the bootloader discovering this via TPM register outputs or a similar way, without replacing the built-in hardware keys.
+
+
+More advanced mechanisms, such as leveraging a 
+Dynamic Root of Trust for Measurement
+ (DRTM) can also be used to give confidence in a device’s pre-boot security, without requiring boot software to match a known good state.
+
+
+References:
+NCSC Zero trust architecture 
+principle 2
+
+
+MITRE: T1542
+ Pre-OS Boot
+
+
+
+
+
+
+
+
+ 
+ 
+Guideline 4.3: The device should have a built-in framework for runtime integrity protection
+
+
+
+
+This guideline applies to all devices.
+
+
+Device security is improved when there is a capability that ensures runtime integrity. Building this functionality into the device improves usability for enterprises and end users. In this context, a framework is an extensible functionality that can be used by first and third parties to produce runtime integrity protections, such as anti-malware products.
+
+
+Example: A vendor implements a set of APIs to allow third parties to query for things like Process Creation, or Writing to a file, to help determine malicious activity.
+
+
+As well as maintaining the integrity of the device through malware defences such as antivirus, this also applies to making sure data which the device uses keeps integrity during its life.
+
+
+Making a runtime integrity framework available to third parties doesn’t oblige users to use third-party integrity protections. This means users can choose whether to rely on a third party or to use features native to the OS. Manufacturers may also choose to produce runtime integrity protection solutions that use this framework.
+
+
+Example: An antivirus and anti-malware capability is built into a device by default. An organisation then deploys the device via their MDM platform. Once provisioned, it's instantly protected as there is no requirement to install third-party software.
+
+
+References:
+NCSC Zero trust architecture 
+principle 7
+
+
+MITRE: T1566
+ Phishing
+
+
+MITRE: T1059
+ Command and Scripting Interpreter
+
+
+NIST SP 800-213A
+: Cybersecurity State Awareness
+
+
+- Audit Support and Protection
+- State Awareness Support
+
+
+NIST SP 800-213A
+: Device Security − Device Integrity
+
+
+
+
+
+
+
+
+ 
+ 
+Guideline 4.4 The device shall provide documented exploit mitigation capabilities that shall be used by all system and pre-installed software
+
+
+
+
+This guideline applies to all devices.
+
+
+Exploit mitigations such as 
+ASLR
+, 
+NX bits
+ and 
+stack canaries
+ all help mitigate common exploits. It's preferable to use capabilities provided by the operating system or capabilities that are hardware based, as they can be used by third-party software, although this may not apply to all devices, such as some lower powered devices. By documenting which exploit mitigations a device provides, developers of that third-party software can then ensure they are used in their product. For more constrained devices, well-documented exploit mitigation is still required so that a user can effectively evaluate the risks associated with using the device.
+
+
+More advanced mitigations such as 
+CFI
+, 
+MTE
+ and 
+PAC
+ further mitigate exploitation. Manufacturers are expected to invest in these mitigations as they become available in the hardware components in use.
+
+
+All system software is expected to have some level of exploit mitigation. The details of these exploit mitigations varies between applications. These mitigations shall be documented.
+
+
+References:
+MITRE: T1211
+ Exploitation for Defence Evasion
+
+
+NIST SP 800-213A
+: Device Security
+
+
+- Secure Execution
+- Secure Resource Usage
+
+
+
+
+
+
+
+
+ 
+ 
+Guideline 4.5: Integrity of device health data should be maintained on the device
+
+
+
+
+This guideline applies to all devices.
+
+
+Confidence in device integrity can be established through attestation of device health data. As such it is important that device health data is not vulnerable to manipulation by an attacker whilst being analysed or stored, as securely retrieving compromised data may give wrongly-placed confidence about device health.
+
+
+Example: Health data is gathered and checked against hardware-backed registers. This data is then analysed and verified within a secure enclave running in a virtual environment before it is sent to a remote monitoring system. But between gathering and analysing the data, it was stored in a process running in user mode. The memory and storage of this process was therefore accessible to other processes, making it vulnerable to alteration.
+
+
+Possible protections for device health data include backing by a hardware root of trust, or storage within a secure enclave environment. This helps ensure the integrity of that data and maintain its trust.
+
+
+Example: Cryptographic mechanisms provided by a secure enclave on the device both store device health data and protect its integrity.
+
+
+Health data transmitted to a remote health service should adhere to principles 2 and 3 to ensure data integrity is maintained throughout.
+
+
+References:
+MITRE: T1557
+ Adversary-in-the-Middle
+
+
+MITRE: T1005
+ Data from Local System
+
+
+NIST SP 800-213A
+: Cybersecurity State Awareness − Audit Support and Protection
+
+
+
+
+
+
+
+
+ 
+ 
+Guideline 4.6: The device can be physically hardened
+
+
+
+
+This guideline applies to all devices.
+
+
+If a device is left unattended for a long time, there is a risk an attacker could access it and manipulate it, for example by modifying the hardware. Applying physical security to the devices gives users confidence that it will be obvious if a device is physically altered.
+
+
+Example: An unattended device outside of an organisation’s office environment may require significant physical hardening such as tamper-evident seals. In contrast, portable devices such as laptops require simpler protection such as security screws to discourage opportunistic attacks.
+
+
+References:
+MITRE: T1584
+ Compromise Infrastructure
+
+
+NIST SP 800-213A
+: Device Security − Device Integrity
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+Previous page:
+
+
+3. Protect data at rest and in transit
+ 
+ 
+ 
+Next page:
+
+
+5. Ensure transparency of device health
+ 
+ 
+ 
+
+
+ 
+
+
+ 
+ 
+
+
+
+
+ 
+
+
+Published
+ 
+14 February 2025
+
+
+Reviewed
+ 
+13 May 2025
+
+
+Version
+ 2.1
+
+
+Written for
+Cyber security professionals
+
+
+Large organisations
+
+
+Public sector
+
+
+Small & medium sized organisations
+
+
+
+
+Share and print this article
+ 
+ 
+ 
+ 
+
+
+ 
+ Share 
+ 
+ 
+Share
+ 
+ 
+ 
+ 
+
+
+ 
+ Close share options 
+ 
+
+
+ 
+ 
+ 
+ 
+
+
+ 
+Share on
+Facebook
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+Share on
+LinkedIn
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+Share on
+X
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+Copy Link
+ 
+
+
+
+
+ Was this article helpful?
+
+
+ 
+ 
+Yes 
+the article was helpful
+ 
+
+
+ 
+ 
+No 
+the article was not helpful
+ 
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ Close Feedback Form 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+
+
+ 
+ Back to top 
+ 
+
+
+ 
+Share
+ 
+ 
+ 
+ 
+
+
+ 
+ Close share options 
+ 
+
+
+ 
+ 
+ 
+ 
+
+
+ 
+Share on
+Facebook
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+Share on
+LinkedIn
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+Share on
+X
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+Copy Link
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Home
+ 
+
+
+Follow us
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+X
+ 
+
+
+ 
+ 
+ 
+ 
+
+
+ 
+LinkedIn
+ 
+
+
+ 
+ 
+ 
+ 
+
+
+ 
+Instagram
+ 
+
+
+ 
+ 
+ 
+ 
+
+
+ 
+Threads
+ 
+
+
+ 
+ 
+ 
+ 
+
+
+ 
+RSS
+ 
+
+
+ 
+
+
+
+
+About this website
+
+
+ 
+ 
+ 
+Privacy notice
+ 
+
+
+ 
+ 
+Cookies
+ 
+
+
+ 
+ 
+Accessibility
+ 
+
+
+ 
+ 
+Terms & conditions
+ 
+
+
+ 
+ 
+Social media policy
+ 
+
+
+ 
+
+
+Contact the NCSC
+
+
+ 
+ 
+ 
+Report an incident
+ 
+
+
+ 
+ 
+Report suspicious messages or websites
+ 
+
+
+ 
+ 
+Verify an NCSC contact
+ 
+
+
+ 
+ 
+Report a vulnerability
+ 
+
+
+ 
+ 
+Contact the press office
+ 
+
+
+ 
+ 
+Can't find what you're looking for?
+ 
+
+
+ 
+
+
+Useful links
+
+
+ 
+ 
+ 
+GCHQ
+ 
+
+
+ 
+ 
+MI5
+ 
+
+
+ 
+ 
+SIS
+ 
+
+
+ 
+ 
+NPSA
+ 
+
+
+ 
+ 
+GOV.UK
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+

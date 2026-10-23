@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "11c9c5eecc8467c1b38aa1bd154e9a9194709741ddc027f6a21f7f961bbb9df0",
+  "cachedAt": "2026-10-23T22:55:44Z",
+  "observedAt": "2026-10-23T22:55:44Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-C-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "C",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Interfacing Protocols and APIs official implementation configuration documentation",
+    "time_range": ""
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792796056616,
+    "end": 1792796057411
+  },
+  "outputDigest": "sha256:3d7ec5c7201ae7eb59e9543f3aac98a269084a403b2f207b3399285e9321a1d2",
+  "resultUrls": [
+    "https://aws.amazon.com/what-is/api/",
+    "https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/index.html",
+    "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
+    "https://source.android.com/docs/setup/contribute/api-guidelines",
+    "https://swagger.io/specification/v3.2/",
+    "https://www.ibm.com/think/topics/api",
+    "https://www.sap.com/resources/what-is-api",
+    "https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/c_RESTAPI.html"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Interfacing Protocols and APIs official implementation configuration documentation\",\n  \"results\": [\n    {\n      \"title\": \"What is an API? - Application Programming Interfaces Explained\",\n      \"url\": \"https://aws.amazon.com/what-is/api/\",\n      \"content\": \"Their API documentation contains information on how developers are to structure those requests and responses. How do APIs work? API architecture is usually ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"REST APIs - ServiceNow\",\n      \"url\": \"https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/c_RESTAPI.html\",\n      \"content\": \"For details on these methods, refer to the RFC-2616 Hypertext Transfer Protocol document. ... application access settings. You must select this check box ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Android API guidelines | Android Open Source Project\",\n      \"url\": \"https://source.android.com/docs/setup/contribute/api-guidelines\",\n      \"content\": \"14 Ιουλ 2026 ... ... official Kotlin-Java interop guide for more details. ... configuration code might each make calls on the builder as implementation details ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"API Reference - ESP32 - — ESP-IDF Programming Guide v6.1 ...\",\n      \"url\": \"https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/index.html\",\n      \"content\": \"API Reference . [中文] · API Conventions · Error Handling · Configuration Structures · Private APIs · Components in Example Projects · API Stability.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"What Is an API (Application Programming Interface)? - IBM\",\n      \"url\": \"https://www.ibm.com/think/topics/api\",\n      \"content\": \"9 Απρ 2024 ... APIs expose only the data and functionality needed for a specific interaction, keeping other internal implementation details hidden. This ...\",\n      \"engines\": [",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "C"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "aws.amazon.com",
+      "docs.espressif.com",
+      "learn.microsoft.com",
+      "source.android.com",
+      "swagger.io",
+      "www.ibm.com",
+      "www.sap.com",
+      "www.servicenow.com"
+    ]
+  }
+}

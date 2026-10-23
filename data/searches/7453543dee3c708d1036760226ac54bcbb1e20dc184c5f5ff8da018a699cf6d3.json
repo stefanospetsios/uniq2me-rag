@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "7453543dee3c708d1036760226ac54bcbb1e20dc184c5f5ff8da018a699cf6d3",
+  "cachedAt": "2026-10-23T23:17:26Z",
+  "observedAt": "2026-10-23T23:17:26Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-legal-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "legal",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "site:cyber.gov.gr Law 5160 2024 full text national implementation site:cyber.gouv.fr NIS2 transposition ReCyF current status site:legifrance.gouv.fr NIS2 transposition loi resilience infrastructures critiques"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792797362202,
+    "end": 1792797363704
+  },
+  "outputDigest": "sha256:3d47f019e5675db137973209440bc9f6d6fc3c77167cd2569c502fe55df2dae4",
+  "resultUrls": [
+    "https://cyber.gov.gr/wp-content/uploads/2024/12/ENOTHTA_5_%CE%9D%CE%9F%CE%9C%CE%9F%CE%98%CE%95%CE%A3%CE%99%CE%91_fek_a_195_2024-5160-2024-1.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"ΕΦΗΜΕΡΙΔΑ\",\n      \"url\": \"https://cyber.gov.gr/wp-content/uploads/2024/12/ENOTHTA_5_%CE%9D%CE%9F%CE%9C%CE%9F%CE%98%CE%95%CE%A3%CE%99%CE%91_fek_a_195_2024-5160-2024-1.pdf\",\n\n...759262 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_16b0ccdf5001TDkDoWueLsnsI3\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "legal"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "cyber.gov.gr"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T21:37:38Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "5-source-5",
+    "type": "guidance",
+    "title": "Joint Guide: Modern Approaches to Secure Network Access Security",
+    "publisher": "Cybersecurity and Infrastructure Security Agency (CISA)",
+    "url": "https://www.cisa.gov/sites/default/files/2024-06/joint-guide-modern-approaches-to-secure-network-access-security-508c.pdf",
+    "language": "en",
+    "jurisdiction": "United States",
+    "applicability": "Current operational guidance covering zero-trust network access, segmentation best practices, and secure remote connectivity patterns. Addresses network inventory maintenance, traffic control validation, and policy review requirements from the scope using modern implementation techniques.",
+    "publicationDate": "2024-06",
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-and-passage-checked",
+    "passages": [
+      {
+        "id": "p1",
+        "locator": "SOLUTIONS",
+        "text": "Current modern solutions—Zero trust, SSE, and SASE--provide remote access to applications and services based on a granular access control policy. This type of policy rejects access to users who are not explicitly authenticated and authorized for a particular application or service."
+      },
+      {
+        "id": "p2",
+        "locator": "BEST PRACTICES",
+        "text": "All connections to OT networks are denied by default"
+      }
+    ],
+    "quotationMatchPolicy": "unicode-typography-v1",
+    "typographyNormalizedPassages": [],
+    "byteDigest": "sha256:fd3e8b33341c728f48ed92cee2b0074a0485e6278b7d56dfccfdfc23ddf61b01",
+    "textDigest": "sha256:26eca482c8f41e8166bf95918fc65202d0e5822047b11a3fb898fa0e37ba75c6",
+    "finalUrl": "https://www.cisa.gov/sites/default/files/2024-06/joint-guide-modern-approaches-to-secure-network-access-security-508c.pdf",
+    "retrievedAt": "2026-10-23T21:37:38Z",
+    "contentType": "application/pdf",
+    "snapshotPath": "source-fd3e8b33341c728f48ed92cee2b0074a0485e6278b7d56dfccfdfc23ddf61b01.bin",
+    "textPath": "source-26eca482c8f41e8166bf95918fc65202d0e5822047b11a3fb898fa0e37ba75c6.txt"
+  },
+  "files": {
+    "snapshots/source-fd3e8b33341c728f48ed92cee2b0074a0485e6278b7d56dfccfdfc23ddf61b01.bin": "sha256:fd3e8b33341c728f48ed92cee2b0074a0485e6278b7d56dfccfdfc23ddf61b01",
+    "snapshots/source-26eca482c8f41e8166bf95918fc65202d0e5822047b11a3fb898fa0e37ba75c6.txt": "sha256:26eca482c8f41e8166bf95918fc65202d0e5822047b11a3fb898fa0e37ba75c6"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://www.cisa.gov/sites/default/files/2024-06/joint-guide-modern-approaches-to-secure-network-access-security-508c.pdf",
+  "language": "en",
+  "retrievedAt": "2026-10-23T21:37:38Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T21:52:36Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "                                                                                                     TLP:CLEAR\n\n\n\n\nMODERN APPROACHES TO NETWORK ACCESS\nSECURITY\nPublication: June 18, 2024\n\nU.S. Cybersecurity and Infrastructure Security Agency\nU.S. Federal Bureau of Investigation\nNew Zealand’s Government Communications Security Bureau\nNew Zealand’s Computer Emergency Response Team\nCanadian Centre for Cyber Security\n\n\n\n\nThis document is distributed as TLP:CLEAR. Disclosure is not limited. Sources may use TLP:CLEAR when\ninformation carries minimal or no foreseeable risk of misuse, in accordance with applicable rules and\nprocedures for public release. Subject to standard copyright rules. TLP:CLEAR information may be distributed\nwithout restrictions. For more information on the Traffic Light Pro",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-and-passage-checked",
+    "publisher": "Cybersecurity and Infrastructure Security Agency (CISA)",
+    "host": "www.cisa.gov"
+  }
+}

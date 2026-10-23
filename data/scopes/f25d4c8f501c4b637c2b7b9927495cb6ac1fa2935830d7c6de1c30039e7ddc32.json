@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "recordType": "source-scope",
+  "cachedAt": "2026-10-23T23:14:08Z",
+  "scopeId": "F",
+  "fingerprint": "f25d4c8f501c4b637c2b7b9927495cb6ac1fa2935830d7c6de1c30039e7ddc32",
+  "originRunId": "qwen3-40019296746",
+  "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "F"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "scope-admitted",
+    "publisher": null,
+    "host": null
+  },
+  "corpus": {
+    "sources": {
+      "F-source-1": {
+        "type": "technical-doc",
+        "title": "Implementation guide for managers of Artificial intelligence systems",
+        "publisher": "Innovation, Science and Economic Development Canada",
+        "url": "https://ised-isde.canada.ca/site/ised/en/implementation-guide-managers-artificial-intelligence-systems",
+        "language": "en",
+        "jurisdiction": "Canada",
+        "applicability": "Managers of operational AI systems including public-facing and non-public-facing deployments, with concrete best practices for safety risk assessments, human oversight protocols, transparency measures, accountability frameworks, and monitoring of harmful outcomes in live environments",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "F-source-1",
+        "byteDigest": "sha256:d9a1fefe93e6f2c3585b34343497b8d0b79a6bd15d0a1082c42511c53f96be79",
+        "textDigest": "sha256:8f102152254cee502b2620d2e10312297bf9e957cca52dfb1b35b004aa0e56fc",
+        "finalUrl": "https://ised-isde.canada.ca/site/ised/en/implementation-guide-managers-artificial-intelligence-systems",
+        "retrievedAt": "2026-10-23T23:12:41Z",
+        "contentType": "text/html; charset=UTF-8",
+        "snapshotPath": "source-d9a1fefe93e6f2c3585b34343497b8d0b79a6bd15d0a1082c42511c53f96be79.bin",
+        "textPath": "source-8f102152254cee502b2620d2e10312297bf9e957cca52dfb1b35b004aa0e56fc.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "Best practices for human oversight & monitoring/list item",
+            "text": "Establish ongoing monitoring and evaluation procedures for deployed AI systems."
+          },
+          {
+            "id": "p2",
+            "locator": "Best practices for transparency/Steps",
+            "text": "Provide free and accessible information to users about the nature and capabilities of AI systems, including information on how they are developed, operated and maintained."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      },
+      "F-source-2": {
+        "type": "guidance",
+        "title": "Guidance for AI adoption: implementation guidance",
+        "publisher": "National AI Centre, Australia",
+        "url": "https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance",
+        "language": "en",
+        "jurisdiction": "Australia",
+        "applicability": "Organizations implementing AI systems in production environments, covering operational aspects of human oversight design, transparency requirements for user communication, bias monitoring procedures, intervention mechanisms, and redress pathways specific to deployed systems",
+        "publicationDate": null,
+        "effectiveDate": null,
+        "redistribution": "metadata-and-short-passages",
+        "id": "F-source-2",
+        "byteDigest": "sha256:44d3842f47b11a2d3b2f48827c9d8a950020f0f2cf12475da998894e10628f33",
+        "textDigest": "sha256:07bdce25136e31b6109c2939e5eec6707ecc4bdc3d6f7f195ccf8b6aca11bb28",
+        "finalUrl": "https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance",
+        "retrievedAt": "2026-10-23T23:12:43Z",
+        "contentType": "text/html; charset=UTF-8",
+        "snapshotPath": "source-44d3842f47b11a2d3b2f48827c9d8a950020f0f2cf12475da998894e10628f33.bin",
+        "textPath": "source-07bdce25136e31b6109c2939e5eec6707ecc4bdc3d6f7f195ccf8b6aca11bb28.txt",
+        "sourceStatus": "fetched-and-passage-checked",
+        "passages": [
+          {
+            "id": "p1",
+            "locator": "2.2.1/bullet point",
+            "text": "Potentially affected stakeholders to raise concerns, challenges, or requests for remediation and receive responses (for example, a human rights grievance and remediation mechanism)."
+          },
+          {
+            "id": "p2",
+            "locator": "2.3.1",
+            "text": "Monitor and evaluate contestability and redress processes to identify and address systemic risks as well as improve effectiveness of these processes."
+          }
+        ],
+        "quotationMatchPolicy": "unicode-typography-v1",
+        "typographyNormalizedPassages": []
+      }
+    },
+    "concerns": [
+      {
+        "id": "F-concern-1",
+        "sfsId": "F",
+        "description": "Implementation of continuous monitoring procedures for harmful AI system behaviors in operational environments, including collection and analysis of user feedback and incident reports",
+        "sourceRefs": [
+          {
+            "sourceId": "F-source-1",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "F-concern-2",
+        "sfsId": "F",
+        "description": "Provision of accessible information to users about AI system capabilities, limitations, development methodology, and operational characteristics",
+        "sourceRefs": [
+          {
+            "sourceId": "F-source-1",
+            "passageId": "p2"
+          }
+        ]
+      },
+      {
+        "id": "F-concern-3",
+        "sfsId": "F",
+        "description": "Establishment of documented redress mechanisms enabling affected stakeholders to challenge AI system decisions and receive meaningful responses",
+        "sourceRefs": [
+          {
+            "sourceId": "F-source-2",
+            "passageId": "p1"
+          }
+        ]
+      },
+      {
+        "id": "F-concern-4",
+        "sfsId": "F",
+        "description": "Systematic evaluation of complaint resolution processes to identify and remediate systemic issues in AI oversight",
+        "sourceRefs": [
+          {
+            "sourceId": "F-source-2",
+            "passageId": "p2"
+          }
+        ]
+      }
+    ],
+    "queries": [
+      {
+        "scope": "F",
+        "toolId": "searxng_web_search",
+        "input": {
+          "time_range": "",
+          "query": "AI-Oriented Ethics Live Systems official implementation configuration documentation",
+          "max_results": 5,
+          "safesearch": 1
+        },
+        "outputDigest": "sha256:7546a0ecbfffb43e52b1a130d8ff8213688fe76d4c6462401bcb94136ddd59e6",
+        "callId": "sources-F-1-discovery"
+      },
+      {
+        "scope": "F",
+        "toolId": "websearch_web_search",
+        "input": {
+          "query": "AI operations fairness transparency accountability human oversight behavior monitoring implementation configuration documentation official maintainer",
+          "max_results": 5
+        },
+        "outputDigest": "sha256:effa130d16fa6876343403b4b1d34fe77130f9741f081fae6ce84261712d28d2",
+        "callId": "sources-F-1-discovery"
+      }
+    ],
+    "limitations": [
+      {
+        "scope": "F",
+        "description": "Brave search engine unavailable due to rate limiting (Suspended: too many requests)"
+      },
+      {
+        "scope": "F",
+        "description": "Spanish AEPD guidelines excluded due to inability to verify English version availability from search snippet"
+      },
+      {
+        "scope": "F",
+        "description": "EU Horizon document excluded as research-oriented rather than operational implementation focus per scope boundaries"
+      },
+      {
+        "scope": "F",
+        "description": "Canadian implementation guide (F-source-1) lacks specified implementation timelines or version control details"
+      },
+      {
+        "scope": "F",
+        "description": "Australian guidance (F-source-2) references draft status (section 1.4.3) with unspecified finalization date"
+      },
+      {
+        "scope": "F",
+        "description": "Both documents originate from non-EU jurisdictions though provide operational implementation methodologies relevant to scope boundaries"
+      },
+      {
+        "scope": "F",
+        "description": "F-source-2 text excerpt is truncated after section 3.2.3 preventing full assessment of risk evaluation protocols"
+      }
+    ],
+    "admissionVersion": 2,
+    "observedResultUrls": [
+      "https://ised-isde.canada.ca/site/ised/en/implementation-guide-managers-artificial-intelligence-systems",
+      "https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance"
+    ]
+  },
+  "files": {
+    "snapshots/source-d9a1fefe93e6f2c3585b34343497b8d0b79a6bd15d0a1082c42511c53f96be79.bin": "sha256:d9a1fefe93e6f2c3585b34343497b8d0b79a6bd15d0a1082c42511c53f96be79",
+    "snapshots/source-8f102152254cee502b2620d2e10312297bf9e957cca52dfb1b35b004aa0e56fc.txt": "sha256:8f102152254cee502b2620d2e10312297bf9e957cca52dfb1b35b004aa0e56fc",
+    "snapshots/source-44d3842f47b11a2d3b2f48827c9d8a950020f0f2cf12475da998894e10628f33.bin": "sha256:44d3842f47b11a2d3b2f48827c9d8a950020f0f2cf12475da998894e10628f33",
+    "snapshots/source-07bdce25136e31b6109c2939e5eec6707ecc4bdc3d6f7f195ccf8b6aca11bb28.txt": "sha256:07bdce25136e31b6109c2939e5eec6707ecc4bdc3d6f7f195ccf8b6aca11bb28"
+  }
+}

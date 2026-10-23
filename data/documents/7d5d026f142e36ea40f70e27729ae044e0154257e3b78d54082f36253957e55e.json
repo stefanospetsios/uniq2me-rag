@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T21:12:46Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "2-source-3",
+    "type": "technical-doc",
+    "title": "Best practices for implementing disaster recovery in the cloud",
+    "publisher": "Amazon Web Services (AWS)",
+    "url": "https://pages.awscloud.com/rs/112-TZM-766/images/GEN_best-practices-implementing-disaster-recovery-cloud_Aug-2022.pdf",
+    "language": "en",
+    "jurisdiction": "Global (product-specific)",
+    "applicability": "Cloud architects implementing failover mechanisms, redundancy configurations, and recovery validation procedures for AWS-hosted services",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:503ec20e87553a7763f78c9a28eaf611590dda3d7bd51aaf1964c2fa762264f7",
+    "textDigest": "sha256:763bc4b4380b2aa5c37ba63536850ba1ef6923c5fc94a4f87b3d9bdf83a906d7",
+    "finalUrl": "https://pages.awscloud.com/rs/112-TZM-766/images/GEN_best-practices-implementing-disaster-recovery-cloud_Aug-2022.pdf",
+    "retrievedAt": "2026-10-23T21:12:46Z",
+    "contentType": "application/pdf; charset=utf-8",
+    "snapshotPath": "source-503ec20e87553a7763f78c9a28eaf611590dda3d7bd51aaf1964c2fa762264f7.bin",
+    "textPath": "source-763bc4b4380b2aa5c37ba63536850ba1ef6923c5fc94a4f87b3d9bdf83a906d7.txt"
+  },
+  "files": {
+    "snapshots/source-503ec20e87553a7763f78c9a28eaf611590dda3d7bd51aaf1964c2fa762264f7.bin": "sha256:503ec20e87553a7763f78c9a28eaf611590dda3d7bd51aaf1964c2fa762264f7",
+    "snapshots/source-763bc4b4380b2aa5c37ba63536850ba1ef6923c5fc94a4f87b3d9bdf83a906d7.txt": "sha256:763bc4b4380b2aa5c37ba63536850ba1ef6923c5fc94a4f87b3d9bdf83a906d7"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://pages.awscloud.com/rs/112-TZM-766/images/GEN_best-practices-implementing-disaster-recovery-cloud_Aug-2022.pdf",
+  "language": "en",
+  "retrievedAt": "2026-10-23T21:12:46Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T21:12:46Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "Best practices for\nimplementing disaster\nrecovery in the cloud\n\n\n\n\n© 2023, Amazon Web Services, Inc. or its affiliates. All rights reserved.\n\fNo matter how robust an organization’s IT systems may seem,\ndisruptions are inevitable. Whether caused by human error, natural\ndisasters, or malicious cyberattacks, an event that disrupts the\noperation of one or more of an organization’s applications can result\nin financial loss, reputation damage, and non-compliance.\n\nAccording to IDC, in 2020 the cost of annual system downtime\nranged between $1.25B to $2.5B, so it’s not surprising that disaster\nrecovery has become an essential component of an organization’s\nbusiness continuity strategy.\n\nGiven the high stakes, IT teams need to understand the core concepts\nof disaster recovery, the differences betwe",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "2"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Amazon Web Services (AWS)",
+    "host": "pages.awscloud.com"
+  }
+}

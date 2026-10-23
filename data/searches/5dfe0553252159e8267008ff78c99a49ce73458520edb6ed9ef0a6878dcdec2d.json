@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "5dfe0553252159e8267008ff78c99a49ce73458520edb6ed9ef0a6878dcdec2d",
+  "cachedAt": "2026-10-23T22:07:13Z",
+  "observedAt": "2026-10-23T22:07:13Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-7-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "7",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "time_range": "year",
+    "query": "Software Development Lifecycle official implementation configuration documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792793152420,
+    "end": 1792793153341
+  },
+  "outputDigest": "sha256:81d3eb0835d7ed371318384c7b0108bfeb425ca7592db0a76ca6eca14d12b329",
+  "resultUrls": [
+    "https://academy.claude.com/courses/ai-native-sdlc-playbook/introduction",
+    "https://contextqa.com/blog/the-7-phases-of-software-development-life-cycle/",
+    "https://docs.permit.io/how-to/sdlc/modeling-implementation-components/",
+    "https://orca.security/resources/blog/sdlc-phases-best-practices/",
+    "https://plane.so/blog/software-development-life-cycle-sdlc-stages-and-models",
+    "https://stssoftware.com/blog/software-development-life-cycle-examples/",
+    "https://www.arnica.io/blog/secure-development-lifecycle-security-leaders",
+    "https://www.geeksforgeeks.org/software-engineering/software-development-life-cycle-sdlc/"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Software Development Lifecycle official implementation configuration documentation\",\n  \"results\": [\n    {\n      \"title\": \"Software Development Life Cycle (SDLC) - GeeksforGeeks\",\n      \"url\": \"https://www.geeksforgeeks.org/software-engineering/software-development-life-cycle-sdlc/\",\n      \"content\": \"The Software Development Life Cycle (SDLC) is a structured process used to plan, design, develop, test, deploy, and maintain software. It ensures a systematic workflow and helps align software development with business goals and user requirements.\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"SDLC: Core Phases and Best Practices Explained - Orca Security\",\n      \"url\": \"https://orca.security/resources/blog/sdlc-phases-best-practices/\",\n      \"content\": \"31 Ιουλ 2026 ... The SDLC becomes documentation instead of a working agreement. A documented life cycle that nobody follows may still satisfy a superficial ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"7 Phases of the Software Development Life Cycle (2026) - ContextQA\",\n      \"url\": \"https://contextqa.com/blog/the-7-phases-of-software-development-life-cycle/\",\n      \"content\": \"Dynamic testing runs during implementation and beyond. What is the software development life cycle (SDLC)? The software development life cycle (SDLC) is the structured process teams use to plan, build, test, deploy, and maintain software. It splits development into seven phases so releases are predictable, testable, and repeatable instead of ad ...\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Software development life cycle (SDLC): Stages and models - Plane\",\n      \"url\": \"https://plane.so/blog/software-development-life-cycle-sdlc-stages-and-models\",\n      \"content\": \"1 Ιουλ 2026 ... The software development life cycle (SDLC) gives teams the structure to manage each step with clarity and ",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "7"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "academy.claude.com",
+      "contextqa.com",
+      "docs.permit.io",
+      "orca.security",
+      "plane.so",
+      "stssoftware.com",
+      "www.arnica.io",
+      "www.geeksforgeeks.org"
+    ]
+  }
+}

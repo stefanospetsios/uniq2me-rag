@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "229cda64c2ed66ab6c5c8ba0a4e72de15efd6d63290e0ca0f93930bea3bd0182",
+  "cachedAt": "2026-10-23T21:37:34Z",
+  "observedAt": "2026-10-23T21:37:34Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-5-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "5",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "time_range": "",
+    "query": "Networking and VPNs official implementation configuration documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792791384292,
+    "end": 1792791385107
+  },
+  "outputDigest": "sha256:e9f709d246a93fc41f7fe17d6d73d5178cb8c13a08ac9fa94acd55ba6e3ed53d",
+  "resultUrls": [
+    "https://docs.aws.amazon.com/vpn/latest/s2svpn/VPC_VPN.html",
+    "https://docs.eduvpn.org/",
+    "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10/html/securing_networks/setting-up-an-ipsec-vpn",
+    "https://manual.mikrotik.com/docs/virtual-private-networks/",
+    "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-77r1.pdf",
+    "https://www.cisco.com/c/en/us/support/docs/interfaces-modules/virtual-private-network-module/221568-vpn-technologies-documentation-reference.html",
+    "https://www.paloaltonetworks.com/cyberpedia/how-to-set-up-a-vpn",
+    "https://www.rfc-editor.org/info/rfc2764/"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Networking and VPNs official implementation configuration documentation\",\n  \"results\": [\n    {\n      \"title\": \"Cisco VPN Technologies Reference Guide\",\n      \"url\": \"https://www.cisco.com/c/en/us/support/docs/interfaces-modules/virtual-private-network-module/221568-vpn-technologies-documentation-reference.html\",\n      \"content\": \"This document describes the Cisco documentation related to Virtual Private Network (VPN) technologies for Secure Firewall ASA, Secure Firewall.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Guide to IPsec VPNs - NIST Technical Series Publications\",\n      \"url\": \"https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-77r1.pdf\",\n      \"content\": \"1 Ιουν 2020 ... To set up this type of implementation, both routers ... configuration could allow split-tunnel configurations since the network traffic generated.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Virtual Private Networks - RouterOS Manual - MikroTik\",\n      \"url\": \"https://manual.mikrotik.com/docs/virtual-private-networks/\",\n      \"content\": \"VPN documentation provides comprehensive guides for configuring secure and encapsulated connectivity using RouterOS tunnel technologies such as IPsec, L2TP, ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Documentation: Home\",\n      \"url\": \"https://docs.eduvpn.org/\",\n      \"content\": \"Welcome to the VPN server documentation page. This site is intended for VPN server operators. It contains information on how to deploy the VPN software on a ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Chapter 6. Setting up an IPsec VPN | Red Hat Enterprise Linux | 10\",\n      \"url\": \"https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10/html/securing_networks/setting-up-an-ipsec-vpn\",\n      \"content\": \"Configure and manage a secure Virtual Private Network (VPN) by using the Libreswan implement",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "docs.aws.amazon.com",
+      "docs.eduvpn.org",
+      "docs.redhat.com",
+      "manual.mikrotik.com",
+      "nvlpubs.nist.gov",
+      "www.cisco.com",
+      "www.paloaltonetworks.com",
+      "www.rfc-editor.org"
+    ]
+  }
+}

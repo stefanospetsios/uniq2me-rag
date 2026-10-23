@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "a4d61721dfa04607d75270cca2c0654a3750e25ababca731aa9b5b602fa9ea46",
+  "cachedAt": "2026-10-23T22:07:13Z",
+  "observedAt": "2026-10-23T22:07:13Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-7-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "7",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "Software Development Lifecycle official implementation configuration documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792793153009,
+    "end": 1792793154120
+  },
+  "outputDigest": "sha256:90de253aa70399d871494cd70374da33eb5dc4e6c6bc7d6300bf4c10bb997461",
+  "resultUrls": [
+    "https://docs.jfrog.com/administration/docs/stages-lifecycle",
+    "https://servicenow.github.io/sdk/guides/sdlc-guide",
+    "https://www.iso.org/standard/77698.html",
+    "https://{{artifactory-host}}/access/api/v2/lifecycle/%60",
+    "https://{{artifactory-host}}/access/api/v2/stages/%60"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"ISO/IEC/IEEE 24748-3:2020 - Systems and software engineering — Life cycle management — Part 3: Guidelines for the application of ISO/IEC/IEEE 12207 (software life cycle processes)\",\n      \"url\": \"https://www.iso.org/standard/77698.html\",\n      \"content\": \"ISO/IEC/IEEE 24748-3:2020 - Systems and software engineering — Life cycle management — Part 3: Guidelines for the application of ISO/IEC/IEEE 12207 (software life cycle processes)\\n\\n \\n\\n Reference number ISO/IEC/IEEE 24748-3:2020 © ISO 2026\\n\\n International Standard ISO/IEC/IEEE 24748-3:2020\\n\\nSystems and software engineering — Life cycle management — Part 3: Guidelines for the application of ISO/IEC/IEEE 12207 (software life cycle processes)\\n\\n Edition 1 2020-10\\n\\n \\n\\n## Abstract\\n\\nThis document is a guideline for the application of ISO/IEC/IEEE 12207:2017. This document establishes guidance to implement a common framework for software life cycle processes, with well-defined terminology, that can be referenced by the software industry. This document provides guidance on defining, controlling, and improving software life cycle processes within an organization or a project. This document recommends methods and approaches suitable for a variety of life cycle models. The guidance emphasizes the importance of establishing a strategy, planning, and the involvement of stakeholders, with the ultimate goal of achieving customer satisfaction.\\n\\nThis document applies to the acquisition, supply, design and development, transition, operation, maintenance, and disposal (whether performed internally or externally to an organization) of software systems, products, and services (including software as a service (SaaS)), and the software portion of any system. Software includes the software portion of firmware. The guidance on processes, activities, and tasks in this document can also be applied during the acquisition of a system that contains software. The guidance in this document ca",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "7"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "docs.jfrog.com",
+      "servicenow.github.io",
+      "www.iso.org",
+      "{{artifactory-host}}"
+    ]
+  }
+}

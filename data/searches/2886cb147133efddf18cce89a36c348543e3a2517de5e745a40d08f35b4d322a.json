@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "2886cb147133efddf18cce89a36c348543e3a2517de5e745a40d08f35b4d322a",
+  "cachedAt": "2026-10-23T23:12:40Z",
+  "observedAt": "2026-10-23T23:12:40Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-F-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "F",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "AI operations fairness transparency accountability human oversight behavior monitoring implementation configuration documentation official maintainer"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792797024206,
+    "end": 1792797025652
+  },
+  "outputDigest": "sha256:effa130d16fa6876343403b4b1d34fe77130f9741f081fae6ce84261712d28d2",
+  "resultUrls": [
+    "https://ised-isde.canada.ca/site/ised/en/implementation-guide-managers-artificial-intelligence-systems",
+    "https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Implementation guide for managers of Artificial intelligence systems\",\n      \"url\": \"https://ised-isde.canada.ca/site/ised/en/implementation-guide-managers-artificial-intelligence-systems\",\n      \"content\": \"Implementation guide for managers of Artificial intelligence systems\\n\\n# Implementation guide for managers of Artificial intelligence systems\\n\\nFrom: Innovation, Science and Economic Development Canada\\n\\nSupporting implementation of the Voluntary Code of Conduct for Advanced Generative Artificial Intelligence Systems\\n\\n## Table of contents\\n\\n- Introduction\\n- The AI system lifecycle\\n- Guidance for managers of AI systems\\n\\n- Best practices for safety\\n- Best practices for accountability\\n- Best practices for human oversight & monitoring\\n- Best practices for transparency\\n- Best practices for validity & robustness\\n- Repository of relevant resources for managers of AI systems\\n\\n## Introduction\\n\\nThis guide is intended to help managers of artificial intelligence (AI) systems implement the Voluntary Code of Conduct on the Responsible Development and Management of Advanced Generative AI Systems (the Code).\\n\\nManagers of AI systems operate an AI system to provide a product or service to users. They may do so for internal business purposes, such as to triage resumes for the purpose of hiring employees; or for clients, such as in the provision of a service or a product to other businesses or individuals. Management of an AI system can include activities such as putting a system into operation, controlling its operation, controlling access, and monitoring its operation.\\n\\nThe Code sets out six principles (Safety, Accountability, Transparency, Fairness & Equity, Human Oversight & Monitoring, and Validity & Robustness) and eighteen measures that can be implemented by developers and managers of AI systems. These measures are in line with international initiatives to promote responsible AI, such as the G7 Hiroshima Process I",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "F"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "ised-isde.canada.ca",
+      "www.ai.gov.au"
+    ]
+  }
+}

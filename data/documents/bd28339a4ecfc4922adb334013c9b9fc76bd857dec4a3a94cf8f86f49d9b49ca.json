@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-23T22:32:39Z",
+  "originRunId": "qwen3-40019296746",
+  "source": {
+    "id": "A-source-3",
+    "type": "technical-doc",
+    "title": "Using System-Wide Cryptographic Policies",
+    "publisher": "Red Hat",
+    "url": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/security_hardening/using-the-system-wide-cryptographic-policies_security-hardening",
+    "language": "en",
+    "jurisdiction": "Global",
+    "applicability": "Enterprise-grade cryptographic configuration standards, policy enforcement, and key lifecycle management for Linux systems",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:f1b133696cc63c986055105790119a069ce47281a64bb3c95f330ad04062c4ac",
+    "textDigest": "sha256:c362d76f122c72e4180ee3e8a050b71743595614e07a7e50d78a1b09149cd264",
+    "finalUrl": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/security_hardening/using-the-system-wide-cryptographic-policies_security-hardening",
+    "retrievedAt": "2026-10-23T22:32:39Z",
+    "contentType": "text/html;charset=utf-8",
+    "snapshotPath": "source-f1b133696cc63c986055105790119a069ce47281a64bb3c95f330ad04062c4ac.bin",
+    "textPath": "source-c362d76f122c72e4180ee3e8a050b71743595614e07a7e50d78a1b09149cd264.txt"
+  },
+  "files": {
+    "snapshots/source-f1b133696cc63c986055105790119a069ce47281a64bb3c95f330ad04062c4ac.bin": "sha256:f1b133696cc63c986055105790119a069ce47281a64bb3c95f330ad04062c4ac",
+    "snapshots/source-c362d76f122c72e4180ee3e8a050b71743595614e07a7e50d78a1b09149cd264.txt": "sha256:c362d76f122c72e4180ee3e8a050b71743595614e07a7e50d78a1b09149cd264"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/security_hardening/using-the-system-wide-cryptographic-policies_security-hardening",
+  "language": "en",
+  "retrievedAt": "2026-10-23T22:32:39Z",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T22:32:39Z",
+    "webRecheckedThisRun": true,
+    "phase": "prepare",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "\n      \n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChapter 4. Using system-wide cryptographic policies | Security hardening | Red Hat Enterprise Linux | 9 | Red Hat Documentation\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSkip to navigation\nSkip to content\nFeatured links\n\n\nSupport\n\n\nConsole\n\n\nDevelopers\n\n\nStart a trial\n\n\nAll Red Hat\nFor customers\nCustomer support\n\n\nSubscription management\n\n\nSupport Cases\n\n\nRed Hat Ecosystem Catalog\n\n\nFind a partner\n\n\n\n\nFor partners\nPartner portal\n\n\nPartner support\n\n\nBecome a partner\n\n\n\n\nTry, buy, & sell\nRed Hat Store\n\n\nContact Sales\n\n\nStart a trial\n\n\n\n\nLearning resources\nTraining and certification\n\n\nHybrid cloud learning hub\n\n\nI",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "A"
+    ],
+    "phases": [
+      "prepare"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Red Hat",
+    "host": "docs.redhat.com"
+  }
+}

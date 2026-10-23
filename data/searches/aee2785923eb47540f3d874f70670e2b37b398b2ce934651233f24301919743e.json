@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "aee2785923eb47540f3d874f70670e2b37b398b2ce934651233f24301919743e",
+  "cachedAt": "2026-10-23T20:53:02Z",
+  "observedAt": "2026-10-23T20:53:02Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-0-2-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "0",
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "Operating System and Workstation Environment official implementation configuration documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792788662185,
+    "end": 1792788663823
+  },
+  "outputDigest": "sha256:ee4babce4cbfc453e9fb39032573c47962c6cee398e95f6f059a7472586c2857",
+  "resultUrls": [
+    "https://docs.cloud.google.cn/workstations/docs/create-configuration",
+    "https://docs.cloud.google.com/workstations/docs/customize-development-environment"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Customize your development environment  |  Cloud Workstations  |  Google Cloud Documentation\",\n      \"url\": \"https://docs.cloud.google.com/workstations/docs/customize-development-environment\",\n      \"content\": \"Customize your development environment | Cloud Workstations | Google Cloud Documentation\\n\\n Customize your development environment\\n\\nThis page describes the workstation configuration parameters that allow you to customize the Cloud Workstations environment, including the VM type , home disk size, base container image, and more. In the API, these workstation configuration parameters are collectively referred to as the `WorkstationConfig`.\\n\\nBefore you use these workstation configuration parameters, familiarize yourself with the following:\\n\\n- How to create an initial workstation configuration in the Google Cloud console.\\n- The list of preconfigured base images.\\n- How to customize your base image and automate container image rebuilds.\\n- How to boost your workstation.\\n- How to reserve capacity for your workstation.\\n\\n- Resource: WorkstationConfig\\n\\n- JSON representation\\n- IdleAction\\n- Host\\n\\n- JSON representation\\n- GceInstance\\n\\n- JSON representation\\n- GceShieldedInstanceConfig\\n\\n- JSON representation\\n- GceConfidentialInstanceConfig\\n\\n- JSON representation\\n- Accelerator\\n\\n- JSON representation\\n- BoostConfig\\n\\n- JSON representation\\n- PersistentDirectory\\n\\n- JSON representation\\n- GceRegionalPersistentDisk\\n\\n- JSON representation\\n- ReclaimPolicy\\n- GceHyperdiskBalancedHighAvailability\\n\\n- JSON representation\\n- ReclaimPolicy\\n- EphemeralDirectory\\n\\n- JSON representation\\n- GcePersistentDisk\\n\\n- JSON representation\\n- Container\\n\\n- JSON representation\\n- CustomerEncryptionKey\\n\\n- JSON representation\\n- ReadinessCheck\\n\\n- JSON representation\\n- PortRange\\n\\n- JSON representation\\n- Methods\\n\\n## Resource: WorkstationConfig\\n\\nA workstation configuration resource in the Cloud Workstations API.\\n\\",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "0"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "docs.cloud.google.cn",
+      "docs.cloud.google.com"
+    ]
+  }
+}

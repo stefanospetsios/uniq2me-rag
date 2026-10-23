@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "9123abcd148ea6f4f87d42572fe1f5c24402fd18d620582b4823452851f114f5",
+  "cachedAt": "2026-10-23T22:11:59Z",
+  "observedAt": "2026-10-23T22:11:59Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "phase": "sources",
+    "invocation": 1,
+    "task": null,
+    "modelTag": "qwen3:235b",
+    "modelSlot": "a",
+    "frameworkId": null,
+    "callId": "sources-8-1-discovery",
+    "observedProviderModels": [
+      "ollama/qwen3:235b"
+    ],
+    "scopeId": "8",
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Secure Development Lifecycle and Risk Management official implementation configuration documentation",
+    "time_range": ""
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792793459608,
+    "end": 1792793465570
+  },
+  "outputDigest": "sha256:4e17b19effc5709e9d2578328ebaa0a8335e009371012587aced54b058867511",
+  "resultUrls": [
+    "https://access.redhat.com/security/rh_security_declaration_sdl",
+    "https://advisera.com/iso27001/control-8-25-secure-development-life-cycle/",
+    "https://hightable.io/iso27001-annex-a-8-25-secure-development-life-cycle/",
+    "https://ictinstitute.nl/iso-27001-controls-software-development/",
+    "https://www.chainguard.dev/supply-chain-security-101/what-is-the-secure-software-development-framework-ssdf",
+    "https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf",
+    "https://www.isms.online/iso-27001/annex-a-2022/8-25-secure-development-life-cycle-2022/",
+    "https://www.konfirmity.com/blog/soc-2-secure-sdlc",
+    "https://www.mend.io/blog/nist-ssdf-secure-software-development/",
+    "https://www.securecoding.org/secure-development-lifecycle/"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Secure Development Lifecycle and Risk Management official implementation configuration documentation\",\n  \"results\": [\n    {\n      \"title\": \"ISO 27001 Annex A 8.25 Secure Development Explained - High Table\",\n      \"url\": \"https://hightable.io/iso27001-annex-a-8-25-secure-development-life-cycle/\",\n      \"content\": \"Establishing a Secure Development Life Cycle (SDLC) is essential for embedding security into every phase of software creation. By following these technical ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"ISO 27001:2022 Annex A 8.25 – Secure Development Life Cycle\",\n      \"url\": \"https://www.isms.online/iso-27001/annex-a-2022/8-25-secure-development-life-cycle-2022/\",\n      \"content\": \"Organisations must establish secure repositories for storing source codes and configurations in accordance with Annex A Controls 8.4 and 8.9. Organisations ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Secure Software Development Life Cycle | Red Hat Customer Portal\",\n      \"url\": \"https://access.redhat.com/security/rh_security_declaration_sdl\",\n      \"content\": \"Red Hat maintains a software development lifecycle (SDLC) process that addresses risk assessment, vulnerability assessment, and security testing protocols of ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Secure Development Life Cycle in SOC 2: 2026 Guide | Konfirmity\",\n      \"url\": \"https://www.konfirmity.com/blog/soc-2-secure-sdlc\",\n      \"content\": \"16 Σεπ 2026 ... The secure development life cycle in SOC 2 is a software development life cycle in which security requirements, approvals, testing, and evidence ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"TECHNICAL IMPLEMENTATION GUIDANCE - ENISA\",\n      \"url\": \"https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pd",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "sources"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "access.redhat.com",
+      "advisera.com",
+      "hightable.io",
+      "ictinstitute.nl",
+      "www.chainguard.dev",
+      "www.enisa.europa.eu",
+      "www.isms.online",
+      "www.konfirmity.com",
+      "www.mend.io",
+      "www.securecoding.org"
+    ]
+  }
+}

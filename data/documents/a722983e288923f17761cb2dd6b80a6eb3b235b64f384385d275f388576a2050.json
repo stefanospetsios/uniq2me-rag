@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "cachedAt": "2026-10-15T21:13:29Z",
-  "originRunId": "qwen3-38804802602",
+  "cachedAt": "2026-10-23T21:20:27Z",
+  "originRunId": "qwen3-40019296746",
   "source": {
     "id": "3-source-1",
     "type": "technical-doc",
@@ -9,44 +9,36 @@
     "publisher": "RFC Editor (IETF)",
     "url": "https://www.rfc-editor.org/info/rfc6749/",
     "language": "en",
-    "jurisdiction": "International",
-    "applicability": "Implementation of OAuth 2.0 authorization frameworks for third-party HTTP service access, including token management and delegation protocols",
+    "jurisdiction": "International standards",
+    "applicability": "Foundational authorization framework standard covering client authentication requirements, token management, and implementation considerations relevant to identity and access control systems",
     "publicationDate": null,
     "effectiveDate": null,
     "redistribution": "metadata-and-short-passages",
-    "sourceStatus": "fetched-and-passage-checked",
-    "passages": [
-      {
-        "id": "p1",
-        "locator": "Abstract",
-        "text": "obtain limited access to an HTTP service"
-      }
-    ],
-    "quotationMatchPolicy": "unicode-typography-v1",
-    "typographyNormalizedPassages": [],
-    "byteDigest": "sha256:3c305d8ffb25fa2146fe344a8342570922e71324e71194093a91ec625ea79b0b",
-    "textDigest": "sha256:4cc79117136d3fc701e0ee3bc9fa7f7fafca65ec3b63f801a931dd844dd309a8",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:2faaa21bf49146b6a2ab69e2db748cf04c18e6e81c65381995f7126fb4c986c5",
+    "textDigest": "sha256:a26c7ab1082eb6cf1ee0d94081b685d3bb7176d42854714cd45a747a8ac5f2fb",
     "finalUrl": "https://www.rfc-editor.org/info/rfc6749/",
-    "retrievedAt": "2026-10-15T21:13:29Z",
+    "retrievedAt": "2026-10-23T21:20:27Z",
     "contentType": "text/html;charset=utf-8",
-    "snapshotPath": "source-3c305d8ffb25fa2146fe344a8342570922e71324e71194093a91ec625ea79b0b.bin",
-    "textPath": "source-4cc79117136d3fc701e0ee3bc9fa7f7fafca65ec3b63f801a931dd844dd309a8.txt"
+    "snapshotPath": "source-2faaa21bf49146b6a2ab69e2db748cf04c18e6e81c65381995f7126fb4c986c5.bin",
+    "textPath": "source-a26c7ab1082eb6cf1ee0d94081b685d3bb7176d42854714cd45a747a8ac5f2fb.txt"
   },
   "files": {
-    "snapshots/source-3c305d8ffb25fa2146fe344a8342570922e71324e71194093a91ec625ea79b0b.bin": "sha256:3c305d8ffb25fa2146fe344a8342570922e71324e71194093a91ec625ea79b0b",
-    "snapshots/source-4cc79117136d3fc701e0ee3bc9fa7f7fafca65ec3b63f801a931dd844dd309a8.txt": "sha256:4cc79117136d3fc701e0ee3bc9fa7f7fafca65ec3b63f801a931dd844dd309a8"
+    "snapshots/source-2faaa21bf49146b6a2ab69e2db748cf04c18e6e81c65381995f7126fb4c986c5.bin": "sha256:2faaa21bf49146b6a2ab69e2db748cf04c18e6e81c65381995f7126fb4c986c5",
+    "snapshots/source-a26c7ab1082eb6cf1ee0d94081b685d3bb7176d42854714cd45a747a8ac5f2fb.txt": "sha256:a26c7ab1082eb6cf1ee0d94081b685d3bb7176d42854714cd45a747a8ac5f2fb"
   },
   "recordType": "source-document",
   "sourceUrl": "https://www.rfc-editor.org/info/rfc6749/",
   "language": "en",
-  "retrievedAt": "2026-10-15T21:13:29Z",
+  "retrievedAt": "2026-10-23T21:20:27Z",
   "foundIn": {
-    "runId": "qwen3-38804802602",
-    "sourceOriginRunId": "qwen3-38804802602",
-    "controllerCommit": "0245a6cb5cf453582fdf6670f367807601472dbf",
-    "recordedAt": "2026-10-15T21:17:29Z",
+    "runId": "qwen3-40019296746",
+    "sourceOriginRunId": "qwen3-40019296746",
+    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
+    "recordedAt": "2026-10-23T21:20:27Z",
     "webRecheckedThisRun": true,
     "phase": "prepare",
+    "frameworkId": null,
     "task": null
   },
   "originalText": "RFC 6749: The OAuth 2.0 Authorization Framework | RFC Editor\nYour browser has JavaScript disabled. Most of this site works without JS, but some features require it. If something seems broken please try enabling JavaScript and reloading the page.\nThe JavaScript used by this site is served directly from IETF infrastructure and does not include any code that links to a third party service.\n\n\n\n\n\n\n Skip to content \nPrimary navigation\n\n\nThe RFC Series\nWhat is an RFC?\n\n\nHow can I use RFCs?\n\n\nBrowse all RFCs\n\n\nRFCs by Subject\n\n\nDownload RFCs\n\n\nErrata in RFCs\n\n\nFAQ\n\n\n\n\n\n\nFor Authors\nHow RFCs are created\n\n\nIndependent Submissions\n\n\nStyle Guide\n\n\nRFC Publication Process\n\n\nDocument Queue\n\n\n\n\n\n\nAbout Us\nAbout RFC Editor\n\n\nReports\n\n\nPrivacy Statement\n\n\nContact\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe RFC Series\nWhat is ",
@@ -62,7 +54,7 @@
     "phases": [
       "prepare"
     ],
-    "status": "fetched-and-passage-checked",
+    "status": "fetched-awaiting-passage-check",
     "publisher": "RFC Editor (IETF)",
     "host": "www.rfc-editor.org"
   }

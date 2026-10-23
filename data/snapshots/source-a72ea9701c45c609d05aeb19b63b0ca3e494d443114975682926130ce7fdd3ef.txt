@@ -1,0 +1,2578 @@
+
+
+
+    
+
+    
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+Getting Started as a VPAM System Administrator
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+    
+
+    
+
+        
+
+            
+
+                
+
+                    
+
+                    
+
+                
+
+                
+
+                    
+
+                        
+Skip To Main Content
+
+                            
+
+                                
+
+                                    
+
+                                        
+Account
+
+                                            
+Settings
+
+                                                
+Logout
+
+                                            
+
+
+
+                                        
+
+
+
+                                    
+
+
+
+                                    
+
+                                    
+
+                                
+
+
+
+                            
+
+
+
+                            
+
+                                
+
+                                
+
+
+
+                                
+
+                                    
+
+                                        
+placeholder
+
+                                        
+
+
+
+                                    
+
+                                
+
+
+
+                                
+
+                                    
+Account
+
+                                        
+Settings
+
+                                            
+Logout
+
+                                        
+
+
+
+                                    
+
+
+
+                                
+
+
+
+                                
+
+                                    
+
+                                        
+
+                                            
+
+                                                
+
+                                                
+Filter: 
+
+                                                    
+
+                                                    
+
+
+
+                                                    
+
+                                                        
+
+                                                            
+
+                                                                
+All Files
+
+                                                                
+
+                                                            
+
+
+
+                                                        
+
+                                                    
+
+
+
+                                                
+
+
+
+                                                
+
+                                                    
+Submit Search
+
+                                                    
+
+
+
+                                                
+
+
+
+                                            
+
+
+
+                                        
+
+                                    
+
+
+
+                                
+
+
+
+                            
+
+
+
+                        
+
+                    
+
+
+
+                    
+
+                        
+
+                            
+
+                                
+
+                                    
+
+                                    
+
+                                
+
+
+
+                            
+
+                            
+
+                                
+
+                                    
+
+                                        
+
+                                            
+
+
+
+                                        
+
+
+
+                                        
+
+                                            
+
+                                                
+
+                                                    
+
+                                                        
+You are here: 
+
+                                                        
+
+
+
+                                                    
+
+
+
+                                                    
+Imprivata
+ Documentation | 
+Vendor Privileged Access Management
+  | Topic updated: 
+September 08, 2026
+
+
+
+                                                    
+
+                                                        
+
+                                                            
+ 
+ minute read
+							
+
+
+
+                                                    
+
+
+
+                                                    
+
+                                                        
+Getting Started as a 
+VPAM
+ System Administrator
+
+
+
+                                                        
+This guide helps you configure a newly deployed 
+VPAM
+ server for its first production use.
+
+
+
+                                                        
+Starting with your System Administrator credentials, you'll configure the platform, create your first protected resources, and validate the deployment using a test internal user.
+
+
+
+                                                        
+When you finish this guide, your PAS environment will be ready to onboard production users.
+
+
+
+                                                        
+Who Should Use This Guide
+
+
+
+                                                        
+This guide is intended for:
+
+
+
+                                                        
+
+                                                            
+
+                                                                
+New 
+VPAM
+ System Administrators.
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+Administrators taking ownership of an existing 
+VPAM
+ deployment.
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+Technical staff learning the recommended 
+VPAM
+deployment workflow.
+
+
+
+                                                            
+
+
+
+                                                        
+
+                                                        
+To follow his guide, no previous 
+VPAM
+ experience is required.
+
+
+
+                                                        
+Before You Begin
+
+
+
+                                                        
+Before starting this guide, ensure that:
+
+
+
+                                                        
+
+                                                            
+
+                                                                
+Your 
+VPAM
+ server has been deployed.
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+You have System Administrator credentials.
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+You meet network and infrastructure 
+Requirements
+.
+
+
+
+                                                            
+
+
+
+                                                        
+
+                                                        
+What You'll Accomplish
+
+
+
+                                                        
+This guide is organized into implementation phases. Each phase builds on the previous one and ends with a validation step. In this guide, you will:
+
+
+
+                                                        
+
+                                                            
+
+                                                                
+Access your 
+VPAM
+ server.
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+Secure the platform.
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+Design your access model.
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+Configure protected resources.
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+Configure third-party access.
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+Create a test internal user.
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+Validate the first privileged session.
+
+
+
+                                                            
+
+
+
+                                                        
+
+                                                        
+What This Guide Does Not Cover
+
+
+
+                                                        
+This guide focuses on the initial platform configuration. The following topics are covered in separate documentation:
+
+
+
+                                                        
+
+                                                            
+
+                                                                
+High Availability (HA)
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+Disaster Recovery (DR)
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+Nexus deployments
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+REST API and SDK
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+Syslog and SIEM integrations
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+HTTPS Credential Passthrough
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+Advanced authentication architectures
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+Zero Trust guidance
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+Advanced auditing and reporting
+
+
+
+                                                            
+
+
+
+                                                        
+
+                                                        
+ 
+
+
+
+                                                        
+1. Access your 
+VPAM
+ Server
+
+
+
+                                                        
+Verify you have access to the 
+VPAM
+ User Interface before continuing with this guide.
+
+
+
+                                                        
+Read 
+Access and Login
+ to complete your first sign in.
+
+
+
+                                                        
+Read the 
+User Interface Reference
+ to understand different sections of the 
+VPAM
+ interface.
+
+
+
+                                                        
+This first login confirms that your deployment is operational and that your administrator account has the permissions required to complete the remaining phases of this guide.
+
+
+
+                                                        
+After you validate you have System Administrator's access to the UI, continue to configure your server.
+
+
+
+                                                        
+2. Secure the Platform
+
+
+
+                                                        
+In this step, you will configure the authentication and security settings that protect access to your PAS environment. Completing this step determines who can access the platform, how they authenticate, and what safeguards protect privileged access.
+
+
+
+                                                        
+2.1 Review Your Authentication Strategy
+
+                                                            
+
+                                                                
+Determine how your Internal Users will authenticate to the server. Depending on your deployment, you may choose one of the following authentication methods:
+
+
+
+                                                                
+
+                                                                    
+
+                                                                        
+Local authentication
+
+
+
+                                                                    
+
+
+
+                                                                    
+
+                                                                        
+LDAP
+
+
+
+                                                                    
+
+
+
+                                                                    
+
+                                                                        
+SAML Single Sign-On (SSO)
+
+
+
+                                                                    
+
+
+
+                                                                
+
+                                                                
+Select the authentication method that aligns with your organization's identity management strategy before creating users.
+
+
+
+                                                            
+
+
+
+                                                        
+
+
+
+                                                        
+2.2 Configure Authentication
+
+                                                            
+
+                                                                
+Complete the authentication configuration in the Legacy UI only, using the following guides:
+
+
+
+                                                                
+
+                                                                    
+
+                                                                        
+SAML Entra ID Configuration
+
+                                                                        
+
+
+
+                                                                        
+Use this guide to configure SAML for SSO in your server using Entra ID.
+
+
+
+                                                                    
+
+
+
+                                                                    
+
+                                                                        
+Other Identity Providers
+
+                                                                        
+
+
+
+                                                                        
+Use this guide to configure SAML for SSO in your server using other Identity Providers.
+
+
+
+                                                                    
+
+
+
+                                                                    
+
+                                                                        
+Authentication Strategy Recommendations
+
+                                                                        
+
+
+
+                                                                        
+Use this guide to follow recommended practices for your server.
+
+
+
+                                                                    
+
+
+
+                                                                
+
+                                                                
+To complete the SAML configuration for Entra ID or other IdPs, confirm the following:
+
+
+
+                                                                
+
+                                                                    
+
+                                                                        
+You have administrative access to the IdP.
+
+
+
+                                                                    
+
+
+
+                                                                    
+
+                                                                        
+You have the required certificates and metadata to configure the identity exchange.
+
+
+
+                                                                    
+
+
+
+                                                                    
+
+                                                                        
+You have the required user attributes correctly mapped.
+
+
+
+                                                                    
+
+
+
+                                                                
+
+                                                                
+NOTE: 
+
+                                                                    
+When configuring SAML authentication, remember that enabling SSO changes the server's authentication method immediately. Perform this change during a planned maintenance window to minimize user disruption.
+
+
+
+                                                                
+
+
+
+                                                            
+
+
+
+                                                        
+
+
+
+                                                        
+2.3 Configure Multi-Factor Authentication
+
+                                                            
+
+                                                                
+Request that Internal Users and 
+vendors
+  use a second factor authentication to log in to the server with the following guide:
+
+
+
+                                                                
+
+                                                                    
+
+                                                                        
+Multi-Factor Authentication in Legacy UI
+
+                                                                        
+
+
+
+                                                                        
+Use this guide to configure MFA when SAML with SSO is enabled. This regulates access to the server.
+
+
+
+                                                                    
+
+
+
+                                                                
+
+                                                            
+
+
+
+                                                        
+
+
+
+                                                        
+2.4 Configure Passwords and Accounts Settings
+
+                                                            
+
+                                                                
+Set password policies and account rules for disablement.
+
+
+
+                                                                
+
+                                                                    
+
+                                                                        
+In the New UI, navigate to 
+System Administration
+ menu > 
+Authentication Settings
+ sub-menu > 
+Passwords & Accounts
+ tab.
+
+
+
+                                                                    
+
+
+
+                                                                    
+
+                                                                        
+In the Legacy UI, navigate to 
+System Admin
+ top menu > 
+Settings
+ drop-down >  
+Passwords & Accounts
+.
+
+
+
+                                                                    
+
+
+
+                                                                
+
+                                                            
+
+
+
+                                                        
+
+
+
+                                                        
+2.5 Configure Authentication Requirements
+
+                                                            
+
+                                                                
+Use the following guide to configure access to 
+applications
+ at a server and 
+vendor
+-level.
+
+
+
+                                                                
+
+                                                                    
+
+                                                                        
+Authentication Settings in the New UI
+
+                                                                        
+
+
+
+                                                                    
+
+
+
+                                                                
+
+                                                            
+
+
+
+                                                        
+
+
+
+                                                        
+2.6 Create a Locally Authenticated Emergency Account
+
+                                                            
+
+                                                                
+A Locally Authenticated System Admin Emergency Account remains independent of external authentication provider. This type of account enables you to have emergency access to your server in case of lockout or when normal authentication is unavailable; for example:
+
+
+
+                                                                
+
+                                                                    
+
+                                                                        
+During an Identity Provider outage
+
+
+
+                                                                    
+
+
+
+                                                                    
+
+                                                                        
+During a disaster 
+
+
+
+                                                                    
+
+
+
+                                                                    
+
+                                                                        
+As a result of an authentication configuration issue
+
+
+
+                                                                    
+
+
+
+                                                                
+
+                                                                
+To create a Locally Authenticated System Admin Emergency Account:
+
+
+
+                                                                
+
+                                                                    
+
+                                                                        
+Navigate to 
+User Management
+ > 
+Users
+ > 
+Add New User
+.
+
+
+
+                                                                    
+
+
+
+                                                                    
+
+                                                                        
+Check 
+User is an Administrator with full system access
+.
+
+
+
+                                                                    
+
+
+
+                                                                    
+
+                                                                        
+Complete the form.
+
+
+
+                                                                        
+IMPORTANT: 
+
+                                                                            
+You must have a second email account with an approved domain.
+
+
+
+                                                                        
+
+
+
+                                                                    
+
+
+
+                                                                    
+
+                                                                        
+Save the user.
+
+
+
+                                                                        
+The email receives a message with instructions to create a local password.
+
+
+
+                                                                    
+
+
+
+                                                                    
+
+                                                                        
+Safekeep the user ID and password for emergency use.
+
+
+
+                                                                    
+
+
+
+                                                                
+
+                                                                
+IMPORTANT: 
+
+                                                                    
+System Administrators are the sole accountable owners of the protection and safekeeping of the Locally Authenticated System Admin Emergency Accounts. System Administrators must store its user ID and password following their own security protocols.
+
+
+
+                                                                
+
+
+
+                                                            
+
+
+
+                                                        
+
+
+
+                                                        
+2.7 Configure Authorized Domains
+
+                                                            
+
+                                                                
+Navigate to 
+System Administration
+ menu > 
+System Settings
+ sub-menu > 
+Authorized Domains
+ section to review and configure the list of Authorized Domains.
+
+
+
+                                                                
+Authorized Domains define the email domains that can be used when creating users and become the default domain presented during user creation.
+
+
+
+                                                                
+Verify the following:
+
+
+
+                                                                
+
+                                                                    
+
+                                                                        
+Your organization's primary domain is configured.
+
+
+
+                                                                    
+
+
+
+                                                                    
+
+                                                                        
+Unused domains are removed, if appropriate.
+
+
+
+                                                                    
+
+
+
+                                                                    
+
+                                                                        
+The correct Primary Domain has been selected.
+
+
+
+                                                                    
+
+
+
+                                                                
+
+                                                                
+NOTE: 
+
+                                                                    
+The system requires at least one Authorized Domain at all times.
+
+
+
+                                                                
+
+
+
+                                                            
+
+
+
+                                                        
+
+
+
+                                                        
+3. Design Your Access Model
+
+
+
+                                                        
+In this step, you separate permissions, internal user membership, and organizational ownership into different objects. Designing these objects before onboarding users creates a scalable access model that is easier to manage, audit, and maintain as your deployment grows.
+
+
+
+                                                        
+In this step, you do not create any users yet. Instead, you create the logical categories where each user fits.
+
+
+
+                                                        
+Understanding the Access Model
+
+
+
+                                                        
+
+                                                            
+VPAM
+
+                                                            
+ uses three primary objects to manage user access:
+
+
+
+                                                        
+
+                                                            
+
+                                                                
+User Groups
+: Determine what a user can access.
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+Roles
+: Determine what a user can do.
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+Departments
+: Determines the team that a user belongs to.
+
+
+
+                                                            
+
+
+
+                                                        
+
+                                                        
+Although these objects work together, each serves a different purpose.
+
+
+
+                                                        
+To design your Access Model, read the recommendations:
+
+
+
+                                                        
+
+                                                            
+
+                                                                
+Create User Groups
+: Provide granular and specific access to 
+applications
+ and other assets in your server.
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+Define the Roles
+: Define them based on what your team members are required to do. Ensure to limit permissions to follow a zero-trust access model.
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+Build your Departments Structure
+: Base your departments on your company's structure to facilitate visibility and accountability across your organization.
+
+
+
+                                                            
+
+
+
+                                                        
+
+                                                        
+
+                                                            
+4.
+ Configure Protected Resources
+
+
+
+                                                        
+Protected Resources
+ are the systems, applications, services, and credentials that internal users
+ and vendors
+ access through 
+VPAM
+.
+
+
+
+                                                        
+Before onboarding internal users or granting third-party access, configure the protected resources that will be managed by the platform. This ensures that access can be assigned and validated during the remaining phases of this guide.
+
+
+
+                                                        
+4.
+1 Connectivity Components
+
+                                                            
+
+                                                                
+Configure the following assets:
+
+
+
+                                                                
+
+                                                                    
+
+                                                                        
+Gatekeeper Installation
+
+                                                                        
+
+
+
+                                                                    
+
+
+
+                                                                    
+
+                                                                        
+Gateway Configuration
+
+                                                                        
+
+
+
+                                                                    
+
+
+
+                                                                    
+
+                                                                        
+Applications
+
+                                                                        
+
+
+
+                                                                    
+
+
+
+                                                                
+
+                                                                
+Verify that the required connectivity components have been deployed, registered, and are communicating with the server before continuing.
+
+
+
+                                                                
+TIP: 
+
+                                                                    
+
+
+Remember the difference between a Gatekeeper and a Gateway:
+
+
+A Gateway functions as a secure entry point for support agents to access remotely to applications that do not require built-in services. 
+
+
+On the other hand, a Gatekeeper provides built-in services to support agents that access a single application in your systems.
+
+
+
+                                                            
+
+
+
+                                                        
+
+
+
+                                                        
+4.
+2 Services
+
+                                                            
+
+                                                                
+Configure the 
+Services
+ that define how users connect to each protected resource.
+
+
+
+                                                                
+Depending on your deployment, services may include remote access protocols, file transfer capabilities, or other connection methods supported by the server. 
+
+
+
+                                                                
+NOTE: 
+
+                                                                    
+Only 
+Gatekeepers
+ provide built-in services such as Desktop Sharing and File Transfer, and you can configure additional services as needed.
+
+
+
+                                                                
+
+
+
+                                                            
+
+
+
+                                                        
+
+
+
+                                                        
+4.
+3 Configure Secrets and Associate Them to Resources
+
+                                                            
+
+                                                                
+Create, store, and assign secrets required to authenticate to your protected resources.
+
+
+
+                                                                
+To complete this process:
+
+
+
+                                                                
+
+                                                                    
+
+                                                                        
+Create 
+Secrets in the New UI
+ or 
+Credentials in the Legacy UI
+.
+
+
+
+                                                                        
+NOTE: 
+
+                                                                            
+The new UI provides more functionality to secrets than the legacy UI does to credentials.
+
+
+
+                                                                        
+
+
+
+                                                                    
+
+
+
+                                                                    
+
+                                                                        
+Assign them to 
+Services
+.
+
+
+
+                                                                    
+
+
+
+                                                                
+
+                                                                
+By assigning credentials to a service, when an Internal User or Customer attempts to initiate a connection to a protected service, the 
+VPAM
+ server can inject the credential without the user or customer ever looking at the credential.
+
+
+
+                                                            
+
+
+
+                                                        
+
+
+
+                                                        
+4.
+4 Test the Connections
+
+                                                            
+
+                                                                
+Ensure that you have access to the 
+applications
+ and that each one is communicating successfully with the server. Look for the following signs of success:
+
+
+
+                                                                
+
+                                                                    
+
+                                                                        
+The target system's Gatekeepers on 
+http://localhost:4680/
+ display green 
+Registered
+ status.
+
+
+
+                                                                    
+
+
+
+                                                                    
+
+                                                                        
+The 
+Applications
+ list contain all your configured resources and they have a 
+Ready
+ status.
+
+
+
+                                                                    
+
+
+
+                                                                    
+
+                                                                        
+You, as a System Administrator, can connect to 
+an application
+ after downloading and installing the 
+Connection Manager
+.
+
+
+
+                                                                    
+
+
+
+                                                                    
+
+                                                                        
+You can select a secret to 
+Launch
+ a protected service.
+
+
+
+                                                                    
+
+
+
+                                                                    
+
+                                                                        
+You can disconnect from a session and end the connection without issues.
+
+
+
+                                                                    
+
+
+
+                                                                
+
+                                                            
+
+
+
+                                                        
+
+
+
+                                                        
+5. Configure Vendor Access
+
+
+
+                                                        
+In this step, you configure the organizational objects required to provide secure vendor access to protected resources. It is recommended that you already have Applications before you configure your vendors.
+
+
+
+                                                        
+To complete this step:
+
+
+
+                                                        
+
+                                                            
+
+                                                                
+Create a 
+Vendor
+.
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+Select the Applications that its Vendor Reps have access to.
+
+
+
+                                                                
+Ensure you configure:
+
+
+
+                                                                
+
+                                                                    
+
+                                                                        
+Approvals per Application
+ and 
+Approval Profiles
+: Enforce internal users and vendor reps to request access before connecting to an application.
+
+
+
+                                                                    
+
+
+
+                                                                    
+
+                                                                        
+Authorized Domains
+: Prevent people from outside your vendor's network to sign in to your server.
+
+
+
+                                                                    
+
+
+
+                                                                    
+
+                                                                        
+Authentication Requirements
+: Configure at 
+server-level
+ to create a global policy and configure at 
+vendor-level
+ to override global policy.
+
+
+
+                                                                    
+
+
+
+                                                                
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+Test the connection.
+
+
+
+                                                            
+
+
+
+                                                        
+
+                                                        
+Repeat the process with all your vendors.
+
+
+
+                                                        
+Read 
+Multi-Factor Authentication (MFA) Validation for Nexus Connections
+
+
+
+                                                        
+6. Create a Test Internal User and Validate Your Deployment
+
+
+
+                                                        
+In this step, you create and configure a test internal user to validate your deployment. A test user allows you to confirm that authentication, authorization, protected resources, and permissions work together as expected. Identifying configuration issues now helps prevent onboarding problems later.
+
+
+
+                                                        
+TIP: 
+
+                                                            
+Use a non-production account for this validation.
+
+
+
+                                                        
+
+
+
+                                                        
+Follow the steps to 
+Add a New Internal User
+.
+
+
+
+                                                        
+Implement each Authentication Strategy and Access Model for this user.
+
+
+
+                                                        
+Validate what the user can do, 
+depending on its role
+. In a successful deployment, internal users can:
+
+
+
+                                                        
+
+                                                            
+
+                                                                
+View, create, edit, and delete 
+Applications
+.
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+View, create, edit, and delete 
+Vendors
+.
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+Initiate connections with the 
+Connection Manager
+.
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+Use secrets to launch privileged sessions.
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+Manage secrets in the server.
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+Approve or reject connection requests.
+
+
+
+                                                            
+
+
+
+                                                        
+
+                                                        
+IMPORTANT: 
+
+                                                            
+Ensure that, depending on the User Group and Department, the user can only interact with resources assigned to that User Group and Department.
+
+
+
+                                                        
+
+
+
+                                                        
+NOTE: 
+
+                                                            
+This process takes a considerable amount of time, but it enables you to test and confirm your deployment is ready for production. Be patient!
+
+
+
+                                                        
+
+
+
+                                                        
+Next Steps
+
+
+
+                                                        
+Congratulations!
+
+
+
+                                                        
+You have successfully completed the initial 
+VPAM
+ configuration.
+
+
+
+                                                        
+Your deployment now includes:
+
+
+
+                                                        
+
+                                                            
+
+                                                                
+A secured authentication configuration.
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+A defined access model.
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+Configured protected resources.
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+Configured organizational objects.
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+A validated test user.
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+A successful privileged session.
+
+
+
+                                                            
+
+
+
+                                                        
+
+                                                        
+Your 
+VPAM
+ environment is now ready to support production onboarding. With the initial deployment complete, you can begin expanding your PAS environment by:
+
+
+
+                                                        
+
+                                                            
+
+                                                                
+Onboarding production internal users.
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+Onboarding Vendor Representatives.
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+Expanding protected resources.
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+Configuring approval workflows.
+
+
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+Integrating with enterprise services such as SIEM, Identity Providers, and ticketing systems.
+
+
+
+                                                            
+
+
+
+                                                        
+
+                                                    
+
+
+
+                                                
+
+
+ Back to top
+
+                                            
+
+
+
+                                            
+
+                                                
+
+                                                    
+
+                                                        
+
+                                                        
+Filter: 
+
+                                                            
+
+                                                            
+
+
+
+                                                            
+
+                                                                
+
+                                                                    
+
+                                                                        
+All Files
+
+                                                                        
+
+                                                                    
+
+
+
+                                                                
+
+                                                            
+
+
+
+                                                        
+
+
+
+                                                        
+
+                                                            
+Submit Search
+
+                                                            
+
+
+
+                                                        
+
+
+
+                                                    
+
+
+
+                                                
+
+                                                
+
+                                                    
+
+                                                        
+
+                                                            
+
+                                                                
+
+                                                                    
+ 
+
+
+
+                                                                
+
+
+
+                                                            
+
+
+
+                                                        
+
+                                                        
+
+                                                            
+
+                                                                
+
+                                                                    
+ 
+
+
+
+                                                                
+
+
+
+                                                            
+
+
+
+                                                        
+
+                                                        
+
+                                                            
+
+                                                                
+
+                                                                    
+ 
+
+
+
+                                                                
+
+
+
+                                                            
+
+
+
+                                                        
+
+                                                        
+
+                                                            
+
+                                                                
+
+                                                                    
+ 
+
+
+
+                                                                
+
+
+
+                                                            
+
+
+
+                                                        
+
+                                                    
+
+
+
+                                                
+
+
+
+                                                
+
+                                                
+
+                                                
+
+                                                    
+Was this topic helpful?
+
+
+
+                                                    
+ 
+Yes
+ 
+No 
+ 
+Could not find
+
+
+
+                                                    
+Accurate?
+
+
+
+                                                    
+ 
+Yes
+ 
+No 
+
+
+
+                                                    
+Relevant?
+
+
+
+                                                    
+ 
+Yes
+ 
+No 
+
+
+
+                                                    
+Share your feedback
+
+
+
+                                                    
+Email Feedback
+
+                                                    
+
+
+
+                                                    
+Looking for something else?
+
+
+
+                                                    
+Imprivata
+ documentation
+
+                                                    
+
+
+
+                                                    
+Imprivata
+ upgrades
+
+                                                    
+
+
+
+                                                    
+Imprivata
+ environment reference
+
+                                                    
+
+
+
+                                                
+
+
+
+                                            
+
+
+
+                                            
+ 
+
+
+
+                                        
+
+
+
+                                    
+
+
+
+                                    
+
+                                        
+
+                                            
+
+                                                
+
+                                                    
+
+                                                        
+
+
+
+                                                    
+
+
+
+                                                
+
+
+
+                                                
+
+                                                    
+
+                                                        
+Contact Us 
+ | 
+ Press 
+  |  
+Education
+  |  
+Support Services
+  |  
+Privacy policy 
+
+
+
+                                                        
+© 2026 Imprivata, Inc. All Rights Reserved.
+
+                                                        
+
+
+
+                                                    
+
+
+
+                                                
+
+
+
+                                                
+
+                                                    
+
+                                                        
+ 
+ 
+ 
+
+                                                        
+
+
+
+                                                    
+
+
+
+                                                
+
+
+
+                                            
+
+
+
+                                        
+
+
+
+                                    
+
+
+
+                                
+
+
+
+                            
+
+
+
+                        
+
+
+
+                    
+
+
+
+                
+
+
+
+            
+
+
+
+        
+
+
+
+    
+
