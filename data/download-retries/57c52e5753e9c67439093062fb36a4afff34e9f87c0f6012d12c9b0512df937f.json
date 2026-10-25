@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "recordType": "source-download-retry",
   "id": "57c52e5753e9c67439093062fb36a4afff34e9f87c0f6012d12c9b0512df937f",
-  "cachedAt": "2026-10-23T22:37:50Z",
+  "cachedAt": "2026-10-25T08:35:05Z",
   "originRunId": "qwen3-40019296746",
   "sourceUrl": "https://trustedcomputinggroup.org/wp-content/uploads/TCG-Secure-Update-of-SW-and-FW-on-Devices-v1r72_pub.pdf",
   "candidate": {
@@ -27,13 +27,13 @@
     "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
     "phase": "prepare"
   },
-  "lastAttemptAt": "2026-10-23T22:37:50Z",
-  "attempts": 1,
+  "lastAttemptAt": "2026-10-25T08:35:05Z",
+  "attempts": 2,
   "lastError": "HTTP Error 429: Too Many Requests",
   "foundIn": {
-    "runId": "qwen3-40019296746",
-    "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
-    "phase": "prepare"
+    "runId": "40177163767",
+    "controllerCommit": "8dd0b76c108ed027ae988b15b273c71b721921b4",
+    "phase": "retry-downloads"
   },
   "retryOnNextRun": true,
   "originalText": null,
@@ -46,7 +46,7 @@
       "B"
     ],
     "phases": [
-      "prepare"
+      "retry-downloads"
     ],
     "status": "pending-download",
     "publisher": "Trusted Computing Group (TCG)",
