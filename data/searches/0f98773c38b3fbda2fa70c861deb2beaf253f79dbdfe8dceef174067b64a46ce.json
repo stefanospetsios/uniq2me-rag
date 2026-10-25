@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "0f98773c38b3fbda2fa70c861deb2beaf253f79dbdfe8dceef174067b64a46ce",
+  "cachedAt": "2026-10-25T15:49:52Z",
+  "observedAt": "2026-10-25T15:49:52Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "finish-8-translate_fr",
+    "invocation": 3,
+    "task": "translate_fr",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-translate_fr-area-8-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": null,
+    "repoId": null
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "stefanospetsios uniq2me repo mask schema JSON github"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792943387837,
+    "end": 1792943388657
+  },
+  "outputDigest": "sha256:4f2038ecfc7cf4aacf91832ecf73f3a423510824c38d71102155390601905a69",
+  "resultUrls": [
+    "http://apod.nasa.gov/apod/ap110908.html",
+    "http://localhost:4000",
+    "http://localhost:4000?fields=firstName,aliases(firstName",
+    "http://localhost:4000?fields=firstName,aliases(firstName)",
+    "http://localhost:4000?fields=lastName",
+    "https://api.myjson.com/bins/krrxw",
+    "https://github.com/Sumukha1496/maskdata/blob/master/index.d.ts",
+    "https://github.com/gulbaki/pii-mask",
+    "https://github.com/nemtsov/json-mask",
+    "https://github.com/qiwi/masker/blob/master/README.md",
+    "https://github.com/qiwi/masker/tree/master/packages/schema",
+    "https://plus.google.com/102817283354809142195/posts/F97fqZwJESL",
+    "https://unpkg.com/json-mask/build/jsonMask.js%60",
+    "https://unpkg.com/json-mask/build/jsonMask.min.js%60",
+    "https://www.npmjs.com/package/json-mask"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"masker/packages/schema at master · qiwi/masker · GitHub\",\n      \"url\": \"https://github.com/qiwi/masker/tree/master/packages/schema\",\n      \"content\": \"masker/packages/schema at master · qiwi/masker · GitHub\\n\\n## Folders and files\\n\\n| Name | Name | Last commit message | Last commit date |\\n| --- | --- | --- | --- |\\n| parent directory.. | | | |\\n| src | src | | |\\n| CHANGELOG.md | CHANGELOG.md | | |\\n| README.md | README.md | | |\\n| jest.config.json | jest.config.json | | |\\n| package.json | package.json | | |\\n| tsconfig.es5.json | tsconfig.es5.json | | |\\n| tsconfig.es6.json | tsconfig.es6.json | | |\\n| tsconfig.json | tsconfig.json | | |\\n| tsconfig.test.json | tsconfig.test.json | | |\\n| typedoc.json | typedoc.json | | |\\n| View all files | | | |\\n\\n# @qiwi/masker-schema\\n\\nMasker scheme builder and executor\\n\\n## Features\\n\\n- Builds object `schema` on masking\\n- Applies masker `schema` to object as a directive\\n\\nMasker schema is a superset of a regular json-schema. It introduces `maskValue` and `maskKey` directives to declare pipelines for object parts.\\n\\n```\\nexport interface IMaskerSchema {\\n  type?: any\\n  maskValue?: Array<IMaskerDirective>\\n  maskKey?: Array<IMaskerDirective>\\n  properties?: Record<string, IMaskerSchema>\\n  items?: Record<string, IMaskerSchema> | Array<IMaskerSchema>\\n}\\n```\\n\\n## Install\\n\\n```\\nyarn add @qiwi/masker-schema\\n```\\n\\n## Usage\\n\\n```\\nimport {pipeline, createMasker} from '@qiwi/masker'\\nimport {pipe as schema} from '@qiwi/masker-schema'\\n\\nconst masker = createMasker({\\n  pipeline: [schema, ...pipeline]\\n})\\n\\nconst obj = {\\n  token: 'foo bar',\\n  password: 'bazqux',\\n  details: {\\n    pans: ['4111111111111111', '1234123412341234'],\\n    some: 'value'\\n  }\\n}\\nconst res = masker.sync(obj, {unbox: false})\\n\\n// res.value\\n{\\n  token: '***',\\n  password: '***',\\n  details: {\\n    pans: ['4111 **** **** 1111', '1234123412341234'],\\n    some: 'value',\\n  },\\n}\\n\\n// res.schema\\n{\\n  typ",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [],
+    "phases": [
+      "finish-8-translate_fr"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "api.myjson.com",
+      "apod.nasa.gov",
+      "github.com",
+      "localhost",
+      "plus.google.com",
+      "unpkg.com",
+      "www.npmjs.com"
+    ]
+  }
+}

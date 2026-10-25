@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "af10ca4015fa8edd502705dca22dc099478f123495ebd966d78d0a0a8dc868a8",
+  "cachedAt": "2026-10-25T16:44:07Z",
+  "observedAt": "2026-10-25T16:44:07Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-E-rework_questions",
+    "invocation": 34,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00E3-2-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "E",
+    "repoId": "00E3"
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "ENISA NIS2 technical implementation guidance AI bias fairness assessment evaluation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792946614218,
+    "end": 1792946615204
+  },
+  "outputDigest": "sha256:304657b1bed3cd8d28a6107035e6981a95f0df0a2f1ffa99448b91a0cd58f7ed",
+  "resultUrls": [],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"ENISA NIS2 technical implementation guidance AI bias fairness assessment evaluation\",\n  \"results\": [],\n  \"unresponsive_engines\": [\n    [\n      \"brave\",\n      \"Suspended: too many requests\"\n    ],\n    [\n      \"duckduckgo\",\n      \"CAPTCHA\"\n    ],\n    [\n      \"google cse\",\n      \"Suspended: too many requests\"\n    ],\n    [\n      \"wikipedia\",\n      \"Suspended: HTTP error\"\n    ]\n  ]\n}",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "E"
+    ],
+    "phases": [
+      "refine-E-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": []
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "32bec35b4aa85e6204cfc137dbb2ebe48d1f08af117d77009ff7b3d7b51c5251",
+  "cachedAt": "2026-10-25T16:44:07Z",
+  "observedAt": "2026-10-25T16:44:07Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-E-rework_questions",
+    "invocation": 34,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00E3-2-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "E",
+    "repoId": "00E3"
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "NIS2 Implementing Regulation 2024/2690 AI systems security risk management requirements text site:eur-lex.europa.eu"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792946638627,
+    "end": 1792946639269
+  },
+  "outputDigest": "sha256:5db8bbbc5e88105721163db44b133b18a1f16b00485219282de585bf00c59160",
+  "resultUrls": [],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"NIS2 Implementing Regulation 2024/2690 AI systems security risk management requirements text site:eur-lex.europa.eu\",\n  \"results\": [],\n  \"unresponsive_engines\": [\n    [\n      \"brave\",\n      \"Suspended: too many requests\"\n    ],\n    [\n      \"duckduckgo\",\n      \"CAPTCHA\"\n    ],\n    [\n      \"google cse\",\n      \"Suspended: too many requests\"\n    ],\n    [\n      \"wikipedia\",\n      \"HTTP error\"\n    ]\n  ]\n}",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "E"
+    ],
+    "phases": [
+      "refine-E-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": []
+  }
+}

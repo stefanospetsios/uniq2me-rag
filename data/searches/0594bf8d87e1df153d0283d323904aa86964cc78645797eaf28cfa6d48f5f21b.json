@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "0594bf8d87e1df153d0283d323904aa86964cc78645797eaf28cfa6d48f5f21b",
+  "cachedAt": "2026-10-25T16:47:46Z",
+  "observedAt": "2026-10-25T16:47:46Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-E-rework_questions",
+    "invocation": 36,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00E5-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "E",
+    "repoId": "00E5"
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "Directive (EU) 2022/2555 NIS2 Article 21 22 AI system risk management fairness evaluation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792946844318,
+    "end": 1792946845503
+  },
+  "outputDigest": "sha256:46f5d39bbb7e6f888de326259153263192dc19cbc42fd604c8e23eab7709bed0",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/eli/dir/2022/2555/art_21/oj"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Directive - 2022/2555 - EN - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/eli/dir/2022/2555/art_21/oj\",\n\n...717571 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_173f5b73c001Z6gyf0rapY9DDC\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "E"
+    ],
+    "phases": [
+      "refine-E-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "eur-lex.europa.eu"
+    ]
+  }
+}

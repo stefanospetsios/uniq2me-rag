@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "b3ab4c82505a6e1a1338a8913ccf3009e5735afbfaa4908d83f27548a49e6d91",
+  "cachedAt": "2026-10-25T16:44:07Z",
+  "observedAt": "2026-10-25T16:44:07Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-E-rework_questions",
+    "invocation": 34,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00E3-2-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "E",
+    "repoId": "00E3"
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "Commission Implementing Regulation (EU) 2024/2690 AI system security risk management requirements site:eur-lex.europa.eu"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792946635175,
+    "end": 1792946636161
+  },
+  "outputDigest": "sha256:033a6b03674534ad350c4a84d3ef3265505d315864f0032ba2f3d98b32f6ad71",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/eli/reg_impl/2024/2690/oj/eng"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Implementing regulation - EU - 2024/2690 - EN - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/eli/reg_impl/2024/2690/oj/eng\",\n\n...268025 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_173f2857f0013l3shCEQdLxiXA\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "E"
+    ],
+    "phases": [
+      "refine-E-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "eur-lex.europa.eu"
+    ]
+  }
+}

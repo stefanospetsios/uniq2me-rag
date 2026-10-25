@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "0054038caf474b5a3d6a1a202fc1417ad61b5b58b113bf2cf8601468124678f2",
+  "cachedAt": "2026-10-25T16:39:03Z",
+  "observedAt": "2026-10-25T16:39:03Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-E-rework_questions",
+    "invocation": 32,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00E1-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "E",
+    "repoId": "00E1"
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "ENISA NIS2 AI ethical principles bias fairness training data documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792946321759,
+    "end": 1792946322629
+  },
+  "outputDigest": "sha256:5ee1d0b73aa91eb393a1f2cea39f37aab89d3629992209c78fcdeead6b1e49d9",
+  "resultUrls": [
+    "https://dataandmore.ca/framework-alignment/",
+    "https://www.acigjournal.com/AI-Driven-Threat-Intelligence-for-National-Cybersecurity-Governance-A-Framework-for,225022,0,2.html",
+    "https://www.enisa.europa.eu/sites/default/files/2024-11/enisa_programming_document_2023_2025.pdf",
+    "https://www.enisa.europa.eu/sites/default/files/2026-06/Consolidated%20Annual%20Activity%20Report%202025%20signed_0.pdf",
+    "https://www.enisa.europa.eu/sites/default/files/publications/Multilayer%20Framework%20for%20Good%20Cybersecurity%20Practices%20for%20AI.pdf",
+    "https://www.europarl.europa.eu/RegData/etudes/STUD/2025/778575/ECTI_STU(2025)778575_EN.pdf",
+    "https://www.researchgate.net/publication/375862022_European_Artificial_Intelligence_Act_an_AI_security_approach",
+    "https://www.sciencedirect.com/science/article/pii/S2405959526001736"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"ENISA NIS2 AI ethical principles bias fairness training data documentation\",\n  \"results\": [\n    {\n      \"title\": \"ENISA SINGLE PROGRAMMING DOCUMENT 2023–2025\",\n      \"url\": \"https://www.enisa.europa.eu/sites/default/files/2024-11/enisa_programming_document_2023_2025.pdf\",\n      \"content\": \"ENISA upholds ethical principles and relevant EU rules and obligations in its services and working environment ensuring fairness and inclusiveness. Respect ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Multilayer Framework for Good Cybersecurity Practices for AI - ENISA\",\n      \"url\": \"https://www.enisa.europa.eu/sites/default/files/publications/Multilayer%20Framework%20for%20Good%20Cybersecurity%20Practices%20for%20AI.pdf\",\n      \"content\": \"... data) and social threats (e.g., bias, lack of fairness) and continuous risk ... Ethics Guidelines for Trustworthy Artificial Intelligence62;. • Data Ethics of ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Interplay between the AI Act and the EU digital legislative framework\",\n      \"url\": \"https://www.europarl.europa.eu/RegData/etudes/STUD/2025/778575/ECTI_STU(2025)778575_EN.pdf\",\n      \"content\": \"1 Οκτ 2025 ... out the key principles: lawfulness, fairness, and transparency; purpose limitation; data minimisation; ... data to de-bias AI systems: Article 10( ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"2025 Consolidated Annual Activity Report - ENISA\",\n      \"url\": \"https://www.enisa.europa.eu/sites/default/files/2026-06/Consolidated%20Annual%20Activity%20Report%202025%20signed_0.pdf\",\n      \"content\": \"25 Ιουν 2026 ... The report is based on the 2025 work programme as approved by the ENISA Management Board Decision No MB 2026/08. The ENISA. Programming Document ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"AI-Driven Threat Intelligence for National Cybersecurity Governance\",\n   ",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "E"
+    ],
+    "phases": [
+      "refine-E-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "dataandmore.ca",
+      "www.acigjournal.com",
+      "www.enisa.europa.eu",
+      "www.europarl.europa.eu",
+      "www.researchgate.net",
+      "www.sciencedirect.com"
+    ]
+  }
+}

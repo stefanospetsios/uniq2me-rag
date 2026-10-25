@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "ebcb18ae5413b4ba9c4211df8f56a024b8a5b62a691b27230bd06918934d7ee9",
+  "cachedAt": "2026-10-25T16:30:59Z",
+  "observedAt": "2026-10-25T16:30:59Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-D-rework_questions",
+    "invocation": 43,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00DE-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "D",
+    "repoId": "00DE"
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "Implementing Regulation (EU) 2024/2690 Annex 1.1.2 security policy review supplier onboarding"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792945840125,
+    "end": 1792945841552
+  },
+  "outputDigest": "sha256:1bfbaf91ff9180f957eb24ebc33e3568aebe4ee3a14686c34c06d1a576fc726e",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/eli/reg_impl/2024/2690/oj/eng"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Implementing regulation - EU - 2024/2690 - EN - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/eli/reg_impl/2024/2690/oj/eng\",\n\n...1390022 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_173e66589001FqfE1gmT3fXr6Y\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "D"
+    ],
+    "phases": [
+      "refine-D-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "eur-lex.europa.eu"
+    ]
+  }
+}

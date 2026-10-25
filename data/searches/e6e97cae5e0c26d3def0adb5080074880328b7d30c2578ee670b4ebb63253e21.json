@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "e6e97cae5e0c26d3def0adb5080074880328b7d30c2578ee670b4ebb63253e21",
+  "cachedAt": "2026-10-25T17:33:54Z",
+  "observedAt": "2026-10-25T17:33:54Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-F-rework_questions",
+    "invocation": 43,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00FA-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "F",
+    "repoId": "00FA"
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "site:cyber.gov.gr Law 5160/2024 NIS2 Greece official"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792949589578,
+    "end": 1792949590600
+  },
+  "outputDigest": "sha256:1f82995c8261fe89499624891e27d4d7d2e2ee84f8da42e797602a8fb9436bda",
+  "resultUrls": [],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"site:cyber.gov.gr Law 5160/2024 NIS2 Greece official\",\n  \"results\": [],\n  \"unresponsive_engines\": [\n    [\n      \"brave\",\n      \"Suspended: too many requests\"\n    ],\n    [\n      \"duckduckgo\",\n      \"CAPTCHA\"\n    ],\n    [\n      \"google cse\",\n      \"Suspended: too many requests\"\n    ],\n    [\n      \"wikipedia\",\n      \"HTTP error\"\n    ]\n  ]\n}",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "F"
+    ],
+    "phases": [
+      "refine-F-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": []
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "6a0b89f3816898317e071374833566b71ebfe56cf8acd59304bf025159aab709",
+  "cachedAt": "2026-10-25T15:49:52Z",
+  "observedAt": "2026-10-25T15:49:52Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "finish-8-translate_fr",
+    "invocation": 3,
+    "task": "translate_fr",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-translate_fr-area-8-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": null,
+    "repoId": null
+  },
+  "toolId": "github_search_code",
+  "request": {
+    "query": "filename:mask.schema.json repo:stefanospetsios/uniq2me"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792943383988,
+    "end": 1792943384586
+  },
+  "outputDigest": "sha256:337b51b7bbf7b172296a7408670aa3896f838e1fa41a97752c803198bffedf95",
+  "resultUrls": [],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\"total_count\":0,\"incomplete_results\":true,\"items\":[]}",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [],
+    "phases": [
+      "finish-8-translate_fr"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": []
+  }
+}

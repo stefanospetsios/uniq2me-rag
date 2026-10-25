@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "2911aafd7156a22ca2e22ae5dad1dee9418f5b531fe5414376b787262118e85a",
+  "cachedAt": "2026-10-25T16:51:58Z",
+  "observedAt": "2026-10-25T16:51:58Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-E-rework_questions",
+    "invocation": 38,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00E7-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "E",
+    "repoId": "00E7"
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "AWS documentation model assessment fairness bias evaluation human-in-the-loop"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792947100409,
+    "end": 1792947101143
+  },
+  "outputDigest": "sha256:1466bf4b820b8fa0a167b903b5737232e08287960a04daa25221337947a4f09e",
+  "resultUrls": [],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"AWS documentation model assessment fairness bias evaluation human-in-the-loop\",\n  \"results\": [],\n  \"unresponsive_engines\": [\n    [\n      \"brave\",\n      \"too many requests\"\n    ],\n    [\n      \"duckduckgo\",\n      \"CAPTCHA\"\n    ],\n    [\n      \"google cse\",\n      \"too many requests\"\n    ]\n  ]\n}",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "E"
+    ],
+    "phases": [
+      "refine-E-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": []
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "3d427c8e890a4d0916bf84b5438cdcb4727496cf995facbe0eb0686d6bca6b31",
+  "cachedAt": "2026-10-25T15:42:36Z",
+  "observedAt": "2026-10-25T15:42:36Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-8-rework_questions",
+    "invocation": 45,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-008D-2-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "8",
+    "repoId": "008D"
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "NIST Secure Software Development DevSecOps Practices PW.2 review software design"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792942942601,
+    "end": 1792942943495
+  },
+  "outputDigest": "sha256:57164db4073759385609be95ccb49e1dc860549adc0b64bd50b6554338c0f042",
+  "resultUrls": [
+    "https://pages.nist.gov/nccoe-devsecops/appendix-c.html"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Appendix C SSDF Analysis New — Secure Software Development, Security, and Operations (DevSecOps) Practices  documentation\",\n      \"url\": \"https://pages.nist.gov/nccoe-devsecops/appendix-c.html\",\n\n...210294 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_173ba2d05001eHzV1ZCPMzZtHG\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "refine-8-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "pages.nist.gov"
+    ]
+  }
+}

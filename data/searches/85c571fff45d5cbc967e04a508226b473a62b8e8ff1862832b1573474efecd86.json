@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "85c571fff45d5cbc967e04a508226b473a62b8e8ff1862832b1573474efecd86",
+  "cachedAt": "2026-10-25T17:37:52Z",
+  "observedAt": "2026-10-25T17:37:52Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-F-rework_questions",
+    "invocation": 45,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00FC-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "F",
+    "repoId": "00FC"
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Law 5160/2024 Greece NIS2 transposition AI monitoring requirements"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792949861760,
+    "end": 1792949863260
+  },
+  "outputDigest": "sha256:73436e2e4730ccec1d9baf7eb1e688c62446f0acf73dcf42f5e1b1af2f7eb248",
+  "resultUrls": [],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Law 5160/2024 Greece NIS2 transposition AI monitoring requirements\",\n  \"results\": [],\n  \"unresponsive_engines\": [\n    [\n      \"brave\",\n      \"Suspended: too many requests\"\n    ],\n    [\n      \"duckduckgo\",\n      \"CAPTCHA\"\n    ],\n    [\n      \"google cse\",\n      \"Suspended: too many requests\"\n    ],\n    [\n      \"wikipedia\",\n      \"Suspended: HTTP error\"\n    ]\n  ]\n}",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "F"
+    ],
+    "phases": [
+      "refine-F-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": []
+  }
+}

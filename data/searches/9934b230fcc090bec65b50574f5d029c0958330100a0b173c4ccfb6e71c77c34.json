@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "9934b230fcc090bec65b50574f5d029c0958330100a0b173c4ccfb6e71c77c34",
+  "cachedAt": "2026-10-25T17:25:19Z",
+  "observedAt": "2026-10-25T17:25:19Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-F-rework_questions",
+    "invocation": 39,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00F6-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "F",
+    "repoId": "00F6"
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "KYA 1689/2025 Greek Council Decision NIS2 monitoring procedures essential entities"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792949099470,
+    "end": 1792949100230
+  },
+  "outputDigest": "sha256:42566502344e0db5d7b96e08d428d8552a2a6221ef4d49498beb58ef730a8942",
+  "resultUrls": [
+    "https://cyber.gov.gr/nomothesia/elliniki-nomothesia-gia-tin-kyvernoasfaleia/",
+    "https://cyber.gov.gr/thespisi-ethnikoy-plaisioy-apaitiseon-kyvernoasfaleias-gia-vasikes-kai-simantikes-ontotites/",
+    "https://www.e-nomothesia.gr/kat-nomothesia-genikou-endiapherontos/kya-1689-2025.html"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Ελληνική Νομοθεσία για την κυβερνοασφάλεια - Εθνική Αρχή Κυβερνοασφάλειας\",\n      \"url\": \"https://cyber.gov.gr/nomothesia/elliniki-nomothesia-gia-tin-kyvernoasfaleia/\",\n      \"content\": \"Ελληνική Νομοθεσία για την κυβερνοασφάλεια - Εθνική Αρχή Κυβερνοασφάλειας\\n\\ninfo@website.com\\n\\n## ΕΓΚΥΚΛΙΟΣ: Υπ' αριθ. 28427/30-07-2026 \\\"Διαχείριση ευπαθειών πληροφοριακών συστημάτων από τις βασικές οντότητες του ν. 5160/2024\\\"\\n\\nΣχετ: (α.) Ο ν. 5160/2024 (Α’ 195), (β.) Η ΚΥΑ 1689/2025 (Β΄ 2186)\\n\\nΣχετ. (α.) Ο Ν. 5160/2024 (Α’ 195), (β.) Η υπ’ αριθμ. 1689/2025 ΚΥΑ (Β΄ 2186), (γ.) Η υπ’ αριθμ. 1899/2025 ΚΥΑ (Β΄ 4250)\\n\\n## Άρθρο 33 ν. 5305/2026: Εθνικός Κατάλογος Αποκλεισμού Κακόβουλων Ιστοτόπων - Προσθήκη άρθρου 4Α στον ν. 5086/2024 (A' 23)\\n\\n(ΦΕΚ Α’ 85/29.05.2026)\\n\\n## Κ.Υ.Α: Αριθμ. 2267, 2 Οκτωβρίου 2025 \\n\\nΜετάθεση χρόνου έναρξης ισχύος της υποπερ. στβ) της περ. στ) της παρ. 2 του άρθρου 3 του ν. 5160/2024 (Α’ 195).(ΦΕΚ Β’ 5472/14.10.2025)\\n\\n## Εγκύκλιος Α.Π.: οικ. 28211, 10 Σεπτεμβρίου 2025 \\n\\nΥποχρέωση εγγραφής των φορέων του δημόσιου τομέα στην ψηφιακή πλατφόρμα εγγραφής βασικών και σημαντικών οντοτήτων του ν. 5160/2024 (Α΄195)\\n\\n## Υπουργική Απόφαση 1899/2025, 5 Αυγούστου 2025\\n\\nKαθορισμός προσόντων, καθηκόντων, ασυμβιβάστων και υποχρεώσεων των Υπεύθυνων Ασφαλείας Συστημάτων Πληροφορικής και Επικοινωνιών. (ΦΕΚ Β’ 4250/05.08.2025)\\n\\n## ΚΥΑ 1990/2025, 4 Αυγούστου 2025\\n\\n«Δημιουργία ψηφιακής πλατφόρμας για την εγγραφή των βασικών και των σημαντικών οντοτήτων του άρθρου 4 του ν. 5160/2024 (Α’ 195)» (Β’ 463).\\n\\n## ΚΥΑ 1689/2025, 6 Μαΐου 2025\\n\\n«Εθνικό Πλαίσιο Απαιτήσεων Κυβερνοασφάλειας Βασικών και Σημαντικών Οντοτήτων» (ΦΕΚ Β’ 2186/06.05.2025)\\n\\n## ΚΥΑ 1645/2025, 15 Απριλίου 2025\\n\\n«Τροποποίηση της υπ’ αρ. 1381/23.01.2025 κοινής απόφασης του Υφυπουργού Εθνικής Οικονομίας και Οικονομικών και του Υπουργού Ψηφιακής Διακυβέρνησης «Δημιουργία ψηφιακής πλατφόρμας για την εγγραφή των βασικών και των σημαντικών οντοτήτων του άρθρου",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "F"
+    ],
+    "phases": [
+      "refine-F-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "cyber.gov.gr",
+      "www.e-nomothesia.gr"
+    ]
+  }
+}

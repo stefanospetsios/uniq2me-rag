@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "f285780722f27ae9eed8ff9dd216bbdcf812accc1ee54c050122d59e05b2d687",
+  "cachedAt": "2026-10-25T16:39:03Z",
+  "observedAt": "2026-10-25T16:39:03Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-E-rework_questions",
+    "invocation": 32,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00E1-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "E",
+    "repoId": "00E1"
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Law 5160/2024 Greece NIS2 transposition AI ethics fairness bias"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792946326341,
+    "end": 1792946326974
+  },
+  "outputDigest": "sha256:417d0abf0bb7db7b476d027b89837bb31faaab462e2e670c19c62cee1367756f",
+  "resultUrls": [
+    "https://globalcompliancemap.com/regulations-library",
+    "https://iclg.com/practice-areas/data-protection-laws-and-regulations/greece/"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Law 5160/2024 Greece NIS2 transposition AI ethics fairness bias\",\n  \"results\": [\n    {\n      \"title\": \"Data Protection Laws and Regulations 2026 | Greece - ICLG\",\n      \"url\": \"https://iclg.com/practice-areas/data-protection-laws-and-regulations/greece/\",\n      \"content\": \"Law 5160/2024 replaces and significantly expands the obligations previously introduced under Law 4577/2018, transposing the NIS2 Directive (EU 2022/2555) and ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Regulations Library — 300+ Privacy, Cyber and AI Laws\",\n      \"url\": \"https://globalcompliancemap.com/regulations-library\",\n      \"content\": \"Greece NIS2 Transposition (Law 5160/2024). Cybersecurity. Greece. Greek law transposing NIS2 with the National Cybersecurity Authority as competent authority.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    }\n  ],\n  \"unresponsive_engines\": [\n    [\n      \"brave\",\n      \"Suspended: too many requests\"\n    ],\n    [\n      \"duckduckgo\",\n      \"CAPTCHA\"\n    ],\n    [\n      \"wikipedia\",\n      \"HTTP error\"\n    ]\n  ]\n}",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "E"
+    ],
+    "phases": [
+      "refine-E-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "globalcompliancemap.com",
+      "iclg.com"
+    ]
+  }
+}

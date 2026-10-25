@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "1ebc508f474c49c7a74082c8105e9f2087cb45b785a9d778b77c006f0e616191",
+  "cachedAt": "2026-10-25T15:35:54Z",
+  "observedAt": "2026-10-25T15:35:54Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-8-rework_questions",
+    "invocation": 42,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-008A-2-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "8",
+    "repoId": "008A"
+  },
+  "toolId": "websearch_web_fetch",
+  "request": {
+    "url": "https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792942539646,
+    "end": 1792942543737
+  },
+  "outputDigest": "sha256:404f09e215bfc11067f810307690e133a6fc4fe9c27a58aeefe0ab9bd3cca649",
+  "resultUrls": [],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"title\": \"IMPLEMENTATION\",\n\n...400310 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_173b41377001VT6u4TWTQtg7BG\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "refine-8-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": []
+  }
+}

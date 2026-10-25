@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "59abf852a42b8a36267dc483318384706c310e5b98e869893eb098f73df3dc5d",
+  "cachedAt": "2026-10-25T14:56:57Z",
+  "observedAt": "2026-10-25T14:56:57Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-5-rework_questions",
+    "invocation": 41,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-005A-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "5",
+    "repoId": "005A"
+  },
+  "toolId": "websearch_web_fetch",
+  "request": {
+    "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-77r1.pdf"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792940207248,
+    "end": 1792940211561
+  },
+  "outputDigest": "sha256:b5ca3c675555b782e6d0e7c60a473e295e2ee3743c741ad8db9fb57fa6d20932",
+  "resultUrls": [],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"title\": \"Guide to IPsec VPNs\",\n\n...429331 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_173907d67001VBQCk3j09o6lPn\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "refine-5-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": []
+  }
+}

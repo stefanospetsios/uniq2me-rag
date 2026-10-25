@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "c3254a17414fa6a70b08a88edfebf969368468d827cde9046a7db54845feba56",
+  "cachedAt": "2026-10-25T16:43:18Z",
+  "observedAt": "2026-10-25T16:43:18Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-E-rework_questions",
+    "invocation": 34,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00E3-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "E",
+    "repoId": "00E3"
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "NIS2 Directive (EU) 2022/2555 Article 21 risk management measures documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792946588771,
+    "end": 1792946589962
+  },
+  "outputDigest": "sha256:aee0444a65514b2d11c4ed586b5a1dc087f178fce6af35af2e152265e58f5b1e",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/eli/dir/2022/2555/art_21/oj"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Directive - 2022/2555 - EN - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/eli/dir/2022/2555/art_21/oj\",\n\n...837421 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_173f1d108001dYli8vicYku1mf\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "E"
+    ],
+    "phases": [
+      "refine-E-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "eur-lex.europa.eu"
+    ]
+  }
+}

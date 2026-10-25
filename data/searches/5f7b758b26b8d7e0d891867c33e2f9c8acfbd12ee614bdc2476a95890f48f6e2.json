@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "5f7b758b26b8d7e0d891867c33e2f9c8acfbd12ee614bdc2476a95890f48f6e2",
+  "cachedAt": "2026-10-25T17:25:19Z",
+  "observedAt": "2026-10-25T17:25:19Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-F-rework_questions",
+    "invocation": 39,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00F6-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "F",
+    "repoId": "00F6"
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "site:cyber.gov.gr KYA 1689/2025 Greek NIS2 monitoring procedures essential entities"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792949096742,
+    "end": 1792949097200
+  },
+  "outputDigest": "sha256:ba2249e2c49bf2e66b4e8d1fc87f7befb2e326e380d2aea83394ba028b08cbf4",
+  "resultUrls": [],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"site:cyber.gov.gr KYA 1689/2025 Greek NIS2 monitoring procedures essential entities\",\n  \"results\": [],\n  \"unresponsive_engines\": [\n    [\n      \"brave\",\n      \"Suspended: too many requests\"\n    ],\n    [\n      \"duckduckgo\",\n      \"CAPTCHA\"\n    ],\n    [\n      \"google cse\",\n      \"Suspended: too many requests\"\n    ],\n    [\n      \"wikipedia\",\n      \"Suspended: HTTP error\"\n    ]\n  ]\n}",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "F"
+    ],
+    "phases": [
+      "refine-F-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": []
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "f0f7ac4b8165f00a96f3427b1680594ee65bd84eb3b1193996644635af250c49",
+  "cachedAt": "2026-10-25T16:39:03Z",
+  "observedAt": "2026-10-25T16:39:03Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-E-rework_questions",
+    "invocation": 32,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00E1-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "E",
+    "repoId": "00E1"
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "\"Directive (EU) 2022/2555\" AI ethics fairness bias evaluation training data"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792946319476,
+    "end": 1792946320693
+  },
+  "outputDigest": "sha256:8846c43b1581660fd6e5ec3d472fd6fca145b9285c10621c3605762da0069858",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Directive - 2022/2555 - EN - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng\",\n\n...1220256 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_173edb532001bp4LOeCYZPJHOk\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "E"
+    ],
+    "phases": [
+      "refine-E-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "eur-lex.europa.eu"
+    ]
+  }
+}

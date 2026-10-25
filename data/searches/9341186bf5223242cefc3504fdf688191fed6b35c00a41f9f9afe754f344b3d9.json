@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "9341186bf5223242cefc3504fdf688191fed6b35c00a41f9f9afe754f344b3d9",
+  "cachedAt": "2026-10-25T15:42:36Z",
+  "observedAt": "2026-10-25T15:42:36Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-8-rework_questions",
+    "invocation": 45,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-008D-2-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "8",
+    "repoId": "008D"
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "ENISA Technical Implementation Guidance v1.0 section 6.5 point (d) (e) security testing development lifecycle"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792942938796,
+    "end": 1792942940006
+  },
+  "outputDigest": "sha256:c401a492b377cfd6b74af7cabba72895f88c5b369bf9b161639083b804caf382",
+  "resultUrls": [
+    "https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"IMPLEMENTATION\",\n      \"url\": \"https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf\",\n\n...852769 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_173ba1f600012PJZcfU2f6biGX\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "refine-8-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "www.enisa.europa.eu"
+    ]
+  }
+}

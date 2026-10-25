@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "25a022f64dd3ac66e5d213585338f5bc70680bf7b2e39e8c6b350798fd1268dd",
+  "cachedAt": "2026-10-25T15:40:04Z",
+  "observedAt": "2026-10-25T15:40:04Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-8-rework_questions",
+    "invocation": 44,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-008C-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "8",
+    "repoId": "008C"
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "Directive (EU) 2022/2555 Annex point 2 risk management policy text site:eur-lex.europa.eu"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792942787047,
+    "end": 1792942788459
+  },
+  "outputDigest": "sha256:7014b4a641030062a66289c6a4e86ea3740c6b177e62731639ba86dad351f650",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A02022L2555-20221227"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"CL2022L2555EN0000040.0001_cp 1..1\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A02022L2555-20221227\",\n\n...1309509 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_173b7cf6900168SMfjugzzfMvi\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "refine-8-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "eur-lex.europa.eu"
+    ]
+  }
+}

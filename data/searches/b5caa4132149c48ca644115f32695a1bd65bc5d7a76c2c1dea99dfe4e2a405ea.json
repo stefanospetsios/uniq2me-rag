@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "b5caa4132149c48ca644115f32695a1bd65bc5d7a76c2c1dea99dfe4e2a405ea",
+  "cachedAt": "2026-10-25T16:47:46Z",
+  "observedAt": "2026-10-25T16:47:46Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-E-rework_questions",
+    "invocation": 36,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00E5-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "E",
+    "repoId": "00E5"
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "NIS2 Directive (EU) 2022/2555 AI fairness evaluation demographic groups human validation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792946836887,
+    "end": 1792946838466
+  },
+  "outputDigest": "sha256:8cd642d0d2a3e8182b910326baa9c265f6608a5ee04522f96552963fc4272083",
+  "resultUrls": [
+    "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/discrimination-and-bias",
+    "https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/statistical-accuracy/",
+    "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D66C7570D01467E319BA86D54E2D9FE8/S3033373325100100a.pdf/better_together_human_oversight_as_means_to_achieve_fairness_in_the_european_ai_act_governance.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Discrimination and Bias | ICO\",\n      \"url\": \"https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/discrimination-and-bias\",\n      \"content\": \"Discrimination and Bias | ICO\\n\\n# Discrimination and Bias\\n\\nFormat\\n\\n- Due to changes made by the Data (Use and Access) Act, this guidance is under review and may be subject to change. The Plans for new and updated guidance page will tell you about which guidance will be updated and when this will happen.\\n\\nContents\\n\\nThis section is predominantly for AI engineers and key decision makers in the development and use of AI products and services. It also provides foundation knowledge for DPOs and risk managers.\\n\\nControl measure: Fairness has been a primary consideration throughout the design, development, and deployment of AI systems or components and associated personal information processing.\\n\\nRisk: AI systems producing unfair outcomes for people are caused by, for example:\\n\\n- insufficiently diverse training data;\\n- training data inappropriate for the purpose of the AI system; \\n- training data that reflects past discrimination; or \\n- design architecture choices. \\n\\nAs a consequence, people may suffer from unjustified adverse impacts, such as discrimination, financial loss or other significant economic or social disadvantages. If an AI system is processing information in a way that is unfair or has an unfair outcome on specific groups of people, this may breach UK GDPR article 5(1)a.\\n\\n### Ways to meet our expectations:\\n\\nConsider implementing measures to avoid discrimination against people because of protected characteristics at all stages of the AI system life cycle.\\n\\nImplement algorithmic fairness techniques such as: \\n\\n- pre-processing (adjusting training datasets);\\n- in-processing (applying factors or constraints in model training); and \\n- post-processing (interventions and outputs). \\n\\nC",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "E"
+    ],
+    "phases": [
+      "refine-E-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "ico.org.uk",
+      "www.cambridge.org"
+    ]
+  }
+}

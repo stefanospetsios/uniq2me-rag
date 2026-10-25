@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "ce071c59bcb8c189ae8a4c4ac6c314979a368282cf19cf181493d6fdb6bda363",
+  "cachedAt": "2026-10-25T15:42:36Z",
+  "observedAt": "2026-10-25T15:42:36Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-8-rework_questions",
+    "invocation": 45,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-008D-2-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "8",
+    "repoId": "008D"
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "NIST SP 800-77r1 guide to IPsec VPNs FIPS validated cryptographic modules"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792942940728,
+    "end": 1792942941818
+  },
+  "outputDigest": "sha256:ee2eee2a6463230d6d6928292c87b0f662a409dee1942e6f3d3a541434dcaa93",
+  "resultUrls": [
+    "https://csrc.nist.gov/pubs/sp/800/77/r1/final",
+    "https://csrc.nist.rip/external/nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-77r1.pdf",
+    "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-77r1.pdf",
+    "https://www.nist.gov/publications/guide-ipsec-vpns",
+    "https://www.nist.gov/publications/guide-ipsec-vpns-0"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"NIST SP 800-77r1 guide to IPsec VPNs FIPS validated cryptographic modules\",\n  \"results\": [\n    {\n      \"title\": \"Guide to IPsec VPNs - NIST Technical Series Publications\",\n      \"url\": \"https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-77r1.pdf\",\n      \"content\": \"Only implementations of NIST-approved cryptographic algorithms specified in Federal Information Processing Standards (FIPS) or NIST Special Publications (SPs) and contained in FIPS-validated cryptographic modules shall be used in IPsec VPN deployments for compliance with this guidance.\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"SP 800-77 Rev. 1, Guide to IPsec VPNs | CSRC\",\n      \"url\": \"https://csrc.nist.gov/pubs/sp/800/77/r1/final\",\n      \"content\": \"Internet Protocol Security (IPsec) is a widely used network layer security control for protecting communications. IPsec is a framework of open standards for ensuring private communications over Internet Protocol (IP) networks. IPsec configuration is usually performed using the Internet Key Exchange (IKE) protocol. This publication provides practical guidance to organizations on implementing ...\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Guide to IPsec VPNs - CSRC\",\n      \"url\": \"https://csrc.nist.rip/external/nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-77r1.pdf\",\n      \"content\": \"... NIST.SP.800-77r1. Certain commercial entities ... Federal agencies are required to use NIST-approved algorithms and FIPS-validated cryptographic modules.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Guide to IPsec VPNs | NIST\",\n      \"url\": \"https://www.nist.gov/publications/guide-ipsec-vpns\",\n      \"content\": \"IPsec configuration is usually performed using the Internet Key Exchange (IKE) protocol. This publication provides practical guidance to organizations on implementing security services based on IPsec s",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "refine-8-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "csrc.nist.gov",
+      "csrc.nist.rip",
+      "nvlpubs.nist.gov",
+      "www.nist.gov"
+    ]
+  }
+}

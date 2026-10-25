@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "ce8da81cfcb07e27e436230107953a74b6e468d5254fdb82f7a90d3da9bd6faf",
+  "cachedAt": "2026-10-25T17:12:23Z",
+  "observedAt": "2026-10-25T17:12:23Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-F-rework_questions",
+    "invocation": 33,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00F0-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "F",
+    "repoId": "00F0"
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "establish ongoing monitoring and evaluation procedures for deployed AI systems canada guide"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792948332018,
+    "end": 1792948332758
+  },
+  "outputDigest": "sha256:f717effc4143ff225dbef8c7acd99a3c40ef969a912096f0e9828c0da2911baa",
+  "resultUrls": [
+    "https://ised-isde.canada.ca/site/ised/en/implementation-guide-managers-artificial-intelligence-systems",
+    "https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/generative-ai/guide-use-generative-ai.html"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Implementation guide for managers of Artificial intelligence systems\",\n      \"url\": \"https://ised-isde.canada.ca/site/ised/en/implementation-guide-managers-artificial-intelligence-systems\",\n      \"content\": \"Implementation guide for managers of Artificial intelligence systems\\n\\n# Implementation guide for managers of Artificial intelligence systems\\n\\nFrom: Innovation, Science and Economic Development Canada\\n\\nSupporting implementation of the Voluntary Code of Conduct for Advanced Generative Artificial Intelligence Systems\\n\\n## Table of contents\\n\\n- Introduction\\n- The AI system lifecycle\\n- Guidance for managers of AI systems\\n\\n- Best practices for safety\\n- Best practices for accountability\\n- Best practices for human oversight & monitoring\\n- Best practices for transparency\\n- Best practices for validity & robustness\\n- Repository of relevant resources for managers of AI systems\\n\\n## Introduction\\n\\nThis guide is intended to help managers of artificial intelligence (AI) systems implement the Voluntary Code of Conduct on the Responsible Development and Management of Advanced Generative AI Systems (the Code).\\n\\nManagers of AI systems operate an AI system to provide a product or service to users. They may do so for internal business purposes, such as to triage resumes for the purpose of hiring employees; or for clients, such as in the provision of a service or a product to other businesses or individuals. Management of an AI system can include activities such as putting a system into operation, controlling its operation, controlling access, and monitoring its operation.\\n\\nThe Code sets out six principles (Safety, Accountability, Transparency, Fairness & Equity, Human Oversight & Monitoring, and Validity & Robustness) and eighteen measures that can be implemented by developers and managers of AI systems. These measures are in line with international initiatives to promote responsible AI, such as the G7 Hiroshima Process I",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "F"
+    ],
+    "phases": [
+      "refine-F-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "ised-isde.canada.ca",
+      "www.canada.ca"
+    ]
+  }
+}

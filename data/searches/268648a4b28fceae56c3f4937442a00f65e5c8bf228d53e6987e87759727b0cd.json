@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "268648a4b28fceae56c3f4937442a00f65e5c8bf228d53e6987e87759727b0cd",
+  "cachedAt": "2026-10-25T15:25:12Z",
+  "observedAt": "2026-10-25T15:25:12Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-8-rework_questions",
+    "invocation": 37,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-0085-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "8",
+    "repoId": "0085"
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "site:eur-lex.europa.eu Directive (EU) 2022/2555 risk management policy"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792941884384,
+    "end": 1792941885461
+  },
+  "outputDigest": "sha256:c6365ccd8de59e5d7623428087a18c8fea6ca36581559fcf85dc8f0e0fdc19e7",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/EN/legal-content/summary/cybersecurity-of-network-and-information-systems.html",
+    "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02022L2555-20221227",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52023XC0918(01",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52023XC0918(01)",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=PI_COM:Ares(2024)4640447"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"site:eur-lex.europa.eu Directive (EU) 2022/2555 risk management policy\",\n  \"results\": [\n    {\n      \"title\": \"Directive - 2022/2555 - EN - EUR-Lex - European Union\",\n      \"url\": \"https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng\",\n      \"content\": \"27 Δεκ 2022 ... Directive (EU) 2022/2555 of the European Parliament and of the ... Cookies policy · Accessibility · Privacy statement. Information. About EUR ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"laying down rules for the application of Directive (EU) 2022/2555 as ...\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=PI_COM:Ares(2024)4640447\",\n      \"content\": \"For the purpose of Article 21(2), point (a) of Directive (EU) 2022/2555, the relevant entities shall establish and maintain an appropriate risk management ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Consolidated TEXT: 32022L2555 — EN — 27.12.2022 - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02022L2555-20221227\",\n      \"content\": \"27 Δεκ 2022 ... DIRECTIVE (EU) 2022/2555 OF THE EUROPEAN ... policies and procedures to assess the effectiveness of cybersecurity risk-management measures;.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Cybersecurity of network and information systems - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/EN/legal-content/summary/cybersecurity-of-network-and-information-systems.html\",\n      \"content\": \"Implementing Regulation (EU) 2024/2690 lays down rules for applying Directive (EU) 2022/2555 as regards technical and methodological requirements of ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"C_2023328EN.01000201.xml - EUR-Lex - European Union\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52023XC0918(01)\",\n      \"content\": \"18 Σεπ 2023 ... The present Guidelines clarify the ap",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "refine-8-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "eur-lex.europa.eu"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "3f6bd7598fb8efa54ec42a988a6677bcc0925932481917017fe7f270333bcfd2",
+  "cachedAt": "2026-10-25T17:16:33Z",
+  "observedAt": "2026-10-25T17:16:33Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-F-rework_questions",
+    "invocation": 35,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00F2-2-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "F",
+    "repoId": "00F2"
+  },
+  "toolId": "github_search_code",
+  "request": {
+    "query": "manifest.json repo:stefanospetsios/uniq2me-ai path:inputs/reference-inputs"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792948578010,
+    "end": 1792948578585
+  },
+  "outputDigest": "sha256:337b51b7bbf7b172296a7408670aa3896f838e1fa41a97752c803198bffedf95",
+  "resultUrls": [],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\"total_count\":0,\"incomplete_results\":true,\"items\":[]}",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "F"
+    ],
+    "phases": [
+      "refine-F-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": []
+  }
+}

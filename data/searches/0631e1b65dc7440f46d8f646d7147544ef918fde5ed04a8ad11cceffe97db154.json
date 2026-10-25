@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "0631e1b65dc7440f46d8f646d7147544ef918fde5ed04a8ad11cceffe97db154",
+  "cachedAt": "2026-10-25T15:42:36Z",
+  "observedAt": "2026-10-25T15:42:36Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-8-rework_questions",
+    "invocation": 45,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-008D-2-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "8",
+    "repoId": "008D"
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Implementing Regulation (EU) 2024/2690 risk management policy management approval date"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792942935421,
+    "end": 1792942936103
+  },
+  "outputDigest": "sha256:5b87070d1690eb3e54f49a9e55c60bd1ac8e6cc50dfcadb86deb1bf623ad9b14",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/eli/reg_impl/2024/2690/oj/eng",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32024R2690",
+    "https://op.europa.eu/en/publication-detail/-/publication/28f15de8-8ce9-11ef-a130-01aa75ed71a1/",
+    "https://qsentinel.com/knowledge-base/compliance/nis-2-implementing-regulation-2024-2690-article-21-controls-explained/",
+    "https://threatfrontier.com/articles/engineering-nis2-implementing-technical-controls-under-eu-regulation-2024-2690"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Implementing Regulation (EU) 2024/2690 risk management policy management approval date\",\n  \"results\": [\n    {\n      \"title\": \"Implementing regulation - EU - 2024/2690 - EN - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/eli/reg_impl/2024/2690/oj/eng\",\n      \"content\": \"Commission Implementing Regulation (EU) 2024/2690 of 17 October 2024 laying down rules for the application of Directive (EU) 2022/2555 as regards technical and methodological requirements of cybersecurity risk-management measures and further specification of the cases in which an incident is considered to be significant with regard to DNS ...\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"COMMISSION IMPLEMENTING REGULATION (EU) 2024/2690 of 17 October 2024\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32024R2690\",\n      \"content\": \"COMMISSION IMPLEMENTING REGULATION (EU) 2024/2690 of 17 October 2024 laying down rules for the application of Directive (EU) 2022/2555 as regards technical and methodological requirements of cybersecurity risk-management measures and further specification of the cases in which an incident is considered to be significant with regard to DNS service providers, TLD name registries, cloud computing ...\",\n      \"engines\": [\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"NIS-2 Implementing Regulation 2024/2690 Article 21 Controls Explained\",\n      \"url\": \"https://qsentinel.com/knowledge-base/compliance/nis-2-implementing-regulation-2024-2690-article-21-controls-explained/\",\n      \"content\": \"Commission Implementing Regulation (EU) 2024/2690 of 17 October 2024 is the directly applicable EU act that converts the high-level risk-management principles of NIS-2 Directive Article 21 into specific, enforceable technical and methodological requirements.\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Commission Implementing",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "refine-8-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "eur-lex.europa.eu",
+      "op.europa.eu",
+      "qsentinel.com",
+      "threatfrontier.com"
+    ]
+  }
+}

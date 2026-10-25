@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "a12974f0365b1ca62a6bc22952b42a8595cf48c5fb8098d9b8c692bd83b9c786",
+  "cachedAt": "2026-10-25T17:33:54Z",
+  "observedAt": "2026-10-25T17:33:54Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-F-rework_questions",
+    "invocation": 43,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00FA-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "F",
+    "repoId": "00FA"
+  },
+  "toolId": "github_search_code",
+  "request": {
+    "query": "F-concern-1 path:inputs"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792949591395,
+    "end": 1792949591989
+  },
+  "outputDigest": "sha256:ecd75a599748835c34f3be72901025430f02147d0cf2a0f2e8df1e580234c8d1",
+  "resultUrls": [],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\"total_count\":0,\"incomplete_results\":false,\"items\":[]}",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "F"
+    ],
+    "phases": [
+      "refine-F-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": []
+  }
+}

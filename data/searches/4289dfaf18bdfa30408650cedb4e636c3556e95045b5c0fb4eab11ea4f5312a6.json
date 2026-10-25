@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "4289dfaf18bdfa30408650cedb4e636c3556e95045b5c0fb4eab11ea4f5312a6",
+  "cachedAt": "2026-10-25T16:24:37Z",
+  "observedAt": "2026-10-25T16:24:37Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-D-rework_questions",
+    "invocation": 40,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00DB-2-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "D",
+    "repoId": "00DB"
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "site:eur-lex.europa.eu Implementing Regulation (EU) 2024/2690 Annex 1.1.2"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792945462788,
+    "end": 1792945464025
+  },
+  "outputDigest": "sha256:65bdd49e152ad9090b0f8509516114defb6ede18de22e2dbdcf181e79592ac1e",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402690",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202402690",
+    "https://eur-lex.europa.eu/legal-content/FI-EN/TXT/?uri=CELEX:32024R2690",
+    "https://eur-lex.europa.eu/legal-content/FR/TXT/PDF/?uri=OJ:L_202402690",
+    "https://eur-lex.europa.eu/resource.html?uri=cellar:61ddc24f-8c75-11ef-a130-01aa75ed71a1.0001.02/DOC_2&format=PDF"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"site:eur-lex.europa.eu Implementing Regulation (EU) 2024/2690 Annex 1.1.2\",\n  \"results\": [\n    {\n      \"title\": \"Commission Implementing Regulation (EU) 2024/2690 of ... - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202402690\",\n      \"content\": \"17 Οκτ 2024 ... ... (EU) 2022/2555 are set out in the Annex to this Regulation. 2. The ... 1.1.2. The network and information system security policy shall ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"EUROPEAN COMMISSION Brussels, 17.10.2024 C(2024) 7151 ...\",\n      \"url\": \"https://eur-lex.europa.eu/resource.html?uri=cellar:61ddc24f-8c75-11ef-a130-01aa75ed71a1.0001.02/DOC_2&format=PDF\",\n      \"content\": \"17 Οκτ 2024 ... ANNEX. ANNEX to the. Commission Implementing Regulation laying down rules for the application of Directive (EU) 2022/2555 as regards technical.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Règlement d'exécution (UE) 2024/2690 de la Commission du 17 ...\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/FR/TXT/PDF/?uri=OJ:L_202402690\",\n      \"content\": \"17 Οκτ 2024 ... Un incident est considéré comme important au sens de l'article 23, paragraphe 3, de la directive (UE) 2022/2555 eu égard aux entités ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Implementing regulation - EU - 2024/2690 - EN - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/FI-EN/TXT/?uri=CELEX:32024R2690\",\n      \"content\": \"... (EU) 2022/2555 are set out in the Annex to this Regulation. 2. Asianomaisten ... 1.1.2 | Hallintoelimen on arvioitava ja tarvittaessa päivitettävä ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"L_202402690EN.000101.fmx.xml - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402690\",\n      \"content\": \"18 Οκτ 2024 ... COMMISSION IMPLEMENTING REGULATION (EU) 2024/2690. ",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "D"
+    ],
+    "phases": [
+      "refine-D-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "eur-lex.europa.eu"
+    ]
+  }
+}

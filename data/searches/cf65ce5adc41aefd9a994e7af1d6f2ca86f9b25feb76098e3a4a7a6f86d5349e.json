@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "cf65ce5adc41aefd9a994e7af1d6f2ca86f9b25feb76098e3a4a7a6f86d5349e",
+  "cachedAt": "2026-10-25T17:21:27Z",
+  "observedAt": "2026-10-25T17:21:27Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-F-rework_questions",
+    "invocation": 37,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00F4-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "F",
+    "repoId": "00F4"
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "ANSSI France ReCyF v2.5 NIS2 redress grievance AI systems working document"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792948874656,
+    "end": 1792948875402
+  },
+  "outputDigest": "sha256:d66e9b6950f28b9f9a623e033b8cea4fc66d7753b1e4fb8d96129e354f3ea397",
+  "resultUrls": [
+    "https://messervices.cyber.gouv.fr/documents-ressources/20260317_NIS_V2_ReCyF_v2.5.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"RÉFÉRENTIEL CYBER FRANCE\",\n      \"url\": \"https://messervices.cyber.gouv.fr/documents-ressources/20260317_NIS_V2_ReCyF_v2.5.pdf\",\n\n...303689 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_17414b088001eMhwMIf80eyNxa\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "F"
+    ],
+    "phases": [
+      "refine-F-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "messervices.cyber.gouv.fr"
+    ]
+  }
+}

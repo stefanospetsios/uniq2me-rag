@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "9ba4ad4b9c4c7047a4372f5d5313dd1ce1c81b3150c1a4b785d15de7074f264e",
+  "cachedAt": "2026-10-25T17:37:52Z",
+  "observedAt": "2026-10-25T17:37:52Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-F-rework_questions",
+    "invocation": 45,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00FC-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "F",
+    "repoId": "00FC"
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Directive (EU) 2022/2555 Article 22(2) monitoring harmful AI behaviors"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792949859098,
+    "end": 1792949859842
+  },
+  "outputDigest": "sha256:e277f1c383b0ad87050fc939e9851d3cfc94f2d7ef984ef11a1d80fe5bda2a3b",
+  "resultUrls": [],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Directive (EU) 2022/2555 Article 22(2) monitoring harmful AI behaviors\",\n  \"results\": [],\n  \"unresponsive_engines\": [\n    [\n      \"brave\",\n      \"too many requests\"\n    ],\n    [\n      \"duckduckgo\",\n      \"CAPTCHA\"\n    ],\n    [\n      \"google cse\",\n      \"too many requests\"\n    ],\n    [\n      \"wikipedia\",\n      \"HTTP error\"\n    ]\n  ]\n}",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "F"
+    ],
+    "phases": [
+      "refine-F-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": []
+  }
+}

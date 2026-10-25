@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "69e68aea20dcea20f521f73617cb3179f557b85499c43b369b46c09bea53b7a8",
+  "cachedAt": "2026-10-25T17:25:19Z",
+  "observedAt": "2026-10-25T17:25:19Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-F-rework_questions",
+    "invocation": 39,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00F6-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "F",
+    "repoId": "00F6"
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "NIS2 Directive (EU) 2022/2555 Article 20(3) monitoring incident reporting requirements"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792949098203,
+    "end": 1792949099320
+  },
+  "outputDigest": "sha256:79ebf0f5a1c7a7ad400beb1086c96c0d00480a8b812d48a8ccd4f4a99d45c21e",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/eli/dir/2022/2555/2022-12-27/eng"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"EUR-Lex - 02022L2555-20221227 - EN - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/eli/dir/2022/2555/2022-12-27/eng\",\n\n...454527 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_174181b37001jS4Qt11zhGLrRM\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "F"
+    ],
+    "phases": [
+      "refine-F-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "eur-lex.europa.eu"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "c23b42116a4a207b9565f61d9e0dfc83baea76dc337e0f29b8520cfa2e41d2d4",
+  "cachedAt": "2026-10-25T15:42:36Z",
+  "observedAt": "2026-10-25T15:42:36Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-8-rework_questions",
+    "invocation": 45,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-008D-2-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "8",
+    "repoId": "008D"
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "Microsoft SDL design phase security requirements unauthorized access mitigation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792942944506,
+    "end": 1792942945302
+  },
+  "outputDigest": "sha256:b7b85e88c6f0295baefbc099e36630e2317c1f7f449cca0c29651c82a9f00c44",
+  "resultUrls": [
+    "https://learn.microsoft.com/en-us/azure/security/develop/secure-design",
+    "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/cc307414(v=msdn.10",
+    "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/cc307414(v=msdn.10)",
+    "https://learn.microsoft.com/en-us/training/modules/audit-security-development-operation/security-privacy-design",
+    "https://msdn.microsoft.com/en-us/library/bb736286(VS.85).aspx",
+    "https://msdn.microsoft.com/en-us/library/bb736286(VS.85).aspx.",
+    "https://www.microsoft.com/en-us/securityengineering/sdl/practices",
+    "https://www.microsoft.com/en-us/securityengineering/sdl/practices/secure-by-design"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Phase 2: Design\",\n      \"url\": \"https://learn.microsoft.com/en-us/previous-versions/windows/desktop/cc307414(v=msdn.10)\",\n      \"content\": \"Phase 2: Design | Microsoft Learn\\n\\nTable of contents Exit focus mode\\n\\nWe're no longer updating this content regularly. Check the Microsoft Product Lifecycle for information about how this product, service, technology, or API is supported.\\n\\nReturn to main site\\n\\n- 05/22/2012\\n- Article\\n\\n--\\n\\nExpand table\\n\\n# Phase 2: Design\\n\\nThe Design phase is when you build the plan for how you will take your project through the rest of the SDL process—from implementation, to verification, to release. During the Design phase you establish best practices to follow for this phase by way of functional and design specifications, and you perform risk analysis to identify threats and vulnerabilities in your software.\\n\\n##### On This Page\\n\\nEstablish and follow best practices for design Security Requirements Privacy Requirements Security Recommendations Privacy Recommendations Resources Risk Analysis Security Requirements Privacy Requirements Security Recommendations Resources\\n\\n## Establish and Follow Best Practices for Design\\n\\nThe best time to influence a project’s trustworthy design is early in its life cycle. Functional specifications may need to describe security features or privacy features that are directly exposed to users, such as requiring user authentication to access specific data or user consent before use of a high-risk privacy feature. Design specifications should describe how to implement these features and how to implement all functionality as secure features. Secure features are defined as features with functionality that is well engineered with respect to security, such as rigorously validating all data before processing it or cryptographically robust use of cryptographic APIs. It is important to consider security and privacy concerns carefully and early when you design featur",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "refine-8-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "learn.microsoft.com",
+      "msdn.microsoft.com",
+      "www.microsoft.com"
+    ]
+  }
+}

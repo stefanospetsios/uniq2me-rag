@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "81742ba42ec11e628c8a9a98ae28e97d2f052a73e60c2102477afd94dcd1e4ad",
+  "cachedAt": "2026-10-25T16:39:03Z",
+  "observedAt": "2026-10-25T16:39:03Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-E-rework_questions",
+    "invocation": 32,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00E1-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "E",
+    "repoId": "00E1"
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "ANSSI ReCyF v2.5 France NIS2 transposition AI ethics fairness bias"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792946331885,
+    "end": 1792946332912
+  },
+  "outputDigest": "sha256:6ef405640a8f17a9ee4681ce5f21096e44438cd6da015731386a232d2700e36d",
+  "resultUrls": [],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"ANSSI ReCyF v2.5 France NIS2 transposition AI ethics fairness bias\",\n  \"results\": [],\n  \"unresponsive_engines\": [\n    [\n      \"brave\",\n      \"Suspended: too many requests\"\n    ],\n    [\n      \"duckduckgo\",\n      \"CAPTCHA\"\n    ],\n    [\n      \"google cse\",\n      \"too many requests\"\n    ]\n  ]\n}",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "E"
+    ],
+    "phases": [
+      "refine-E-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": []
+  }
+}

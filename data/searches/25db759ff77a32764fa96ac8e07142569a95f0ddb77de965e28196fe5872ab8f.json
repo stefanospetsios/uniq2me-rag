@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "25db759ff77a32764fa96ac8e07142569a95f0ddb77de965e28196fe5872ab8f",
+  "cachedAt": "2026-10-25T16:30:59Z",
+  "observedAt": "2026-10-25T16:30:59Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-D-rework_questions",
+    "invocation": 43,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00DE-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "D",
+    "repoId": "00DE"
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Implementing Regulation (EU) 2024/2690 Annex 1.1.2 policy review supplier security"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792945839687,
+    "end": 1792945840923
+  },
+  "outputDigest": "sha256:c66930ffda4fcb55ee14c0ea919cf73eef183d70339a808986c3eac3ae9034c1",
+  "resultUrls": [
+    "https://docs.modulos.ai/frameworks/nis2/cybersecurity-measures",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202402690",
+    "https://eur-lex.europa.eu/legal-content/FI-EN/TXT/?uri=CELEX:32024R2690",
+    "https://eur-lex.europa.eu/resource.html?uri=cellar:61ddc24f-8c75-11ef-a130-01aa75ed71a1.0001.02/DOC_2&format=PDF",
+    "https://eurokommerz.at/blog/nis2-article-21-security-measures/",
+    "https://law.nus.edu.sg/cml/wp-content/uploads/sites/8/2024/12/CML-WPS-2407.pdf",
+    "https://nisd2.eu/en/wiki/fundamentals/cir-2024-2690",
+    "https://pentestica.com/services/nis2-penetration-testing/",
+    "https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf",
+    "https://www.openkritis.de/massnahmen/implementing-acts-it-nis2-mapping.html"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Implementing Regulation (EU) 2024/2690 Annex 1.1.2 policy review supplier security\",\n  \"results\": [\n    {\n      \"title\": \"Commission Implementing Regulation (EU) 2024/2690 of ... - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202402690\",\n      \"content\": \"17 Οκτ 2024 ... reviews of their network and information security policies. ... security policy which governs the relations with their direct suppliers and.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Implementing Regulation (EU) 2024/2690: who the CIR binds\",\n      \"url\": \"https://nisd2.eu/en/wiki/fundamentals/cir-2024-2690\",\n      \"content\": \"5 Οκτ 2026 ... Commission Implementing Regulation (EU) 2024/2690, the CIR for short, sets out in detail how certain digital providers put the ten NIS2 security ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"NIS2 Cybersecurity Measures — Articles 20 and 21 | Modulos Docs\",\n      \"url\": \"https://docs.modulos.ai/frameworks/nis2/cybersecurity-measures\",\n      \"content\": \"NIS2 Articles 20 to 22, 24 and 25 with Implementing Regulation (EU) 2024/2690: management bodies, the Article 21 measures, suppliers, corrective measures, ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"EU NIS2 Implementing Act - ISO 27001 and C5:2026 - OpenKRITIS\",\n      \"url\": \"https://www.openkritis.de/massnahmen/implementing-acts-it-nis2-mapping.html\",\n      \"content\": \"Commission Implementing Regulation (EU) 2024/2690 extends NIS2 security requirements in Art. 21 EU NIS2 into more than 150 specific cybersecurity controls, ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"NIS2 Article 21 Requirements: Measures and Evidence\",\n      \"url\": \"https://eurokommerz.at/blog/nis2-article-21-security-measures/\",\n      \"content\": \"7 Οκτ 2026 ... Implementing Regulation (EU) 2024/2690 details each measure in a 13 ... Section 1 of ",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "D"
+    ],
+    "phases": [
+      "refine-D-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "docs.modulos.ai",
+      "eur-lex.europa.eu",
+      "eurokommerz.at",
+      "law.nus.edu.sg",
+      "nisd2.eu",
+      "pentestica.com",
+      "www.enisa.europa.eu",
+      "www.openkritis.de"
+    ]
+  }
+}

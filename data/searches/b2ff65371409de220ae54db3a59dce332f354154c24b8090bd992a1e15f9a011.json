@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "b2ff65371409de220ae54db3a59dce332f354154c24b8090bd992a1e15f9a011",
+  "cachedAt": "2026-10-25T15:42:36Z",
+  "observedAt": "2026-10-25T15:42:36Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-8-rework_questions",
+    "invocation": 45,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-008D-2-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "8",
+    "repoId": "008D"
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Directive (EU) 2022/2555 risk management policy requirement"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792942925575,
+    "end": 1792942926484
+  },
+  "outputDigest": "sha256:bc96ff9bda165f832de7479534186345321a9da74413c708f49824f5d592764c",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/EN/legal-content/summary/cybersecurity-of-network-and-information-systems.html",
+    "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng",
+    "https://nis2resources.eu/directive-2022-2555-nis2/article-21/",
+    "https://op.europa.eu/en/publication-detail/-/publication/9b84d482-85bd-11ed-9887-01aa75ed71a1/",
+    "https://www.nis-2-directive.com/NIS_2_Directive_Article_21.html"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Directive (EU) 2022/2555 risk management policy requirement\",\n  \"results\": [\n    {\n      \"title\": \"Directive - 2022/2555 - EN - EUR-Lex - European Union\",\n      \"url\": \"https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng\",\n      \"content\": \"Directive (EU) 2022/2555 of the European Parliament and of the Council of 14 December 2022 on measures for a high common level of cybersecurity across the Union, amending Regulation (EU) No 910/2014 and Directive (EU) 2018/1972, and repealing Directive (EU) 2016/1148 (NIS 2 Directive) (Text with EEA relevance)\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"NIS 2 Directive, Article 21: Cybersecurity risk-management measures\",\n      \"url\": \"https://www.nis-2-directive.com/NIS_2_Directive_Article_21.html\",\n      \"content\": \"Access the full text of Article 21 from Directive (EU) 2022/2555 (NIS 2 Directive), detailing cybersecurity risk-management measures for essential and important entities.\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Article 21, Cybersecurity risk-management measures - NIS2 Directive (EU ...\",\n      \"url\": \"https://nis2resources.eu/directive-2022-2555-nis2/article-21/\",\n      \"content\": \"Taking into account the state-of-the-art and, where applicable, relevant European and international standards, as well as the cost of implementation, the measures referred to in the first subparagraph shall ensure a level of security of network and information systems appropriate to the risks posed.\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Cybersecurity of network and information systems - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/EN/legal-content/summary/cybersecurity-of-network-and-information-systems.html\",\n      \"content\": \"The Commission has also issued guidelines clarifying the rules on the relationship between Directive (EU) 2022/2555 a",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "refine-8-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "eur-lex.europa.eu",
+      "nis2resources.eu",
+      "op.europa.eu",
+      "www.nis-2-directive.com"
+    ]
+  }
+}

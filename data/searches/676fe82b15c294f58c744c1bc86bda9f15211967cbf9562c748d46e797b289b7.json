@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "676fe82b15c294f58c744c1bc86bda9f15211967cbf9562c748d46e797b289b7",
+  "cachedAt": "2026-10-25T15:49:52Z",
+  "observedAt": "2026-10-25T15:49:52Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "finish-8-translate_fr",
+    "invocation": 3,
+    "task": "translate_fr",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-translate_fr-area-8-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": null,
+    "repoId": null
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "site:github.com stefanospetsios uniq2me mask schema JSON"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792943385381,
+    "end": 1792943387073
+  },
+  "outputDigest": "sha256:4585a925a05c32431a753dfa6b1153e636b829a7b0c44f5376b5766e8ccbe3fb",
+  "resultUrls": [],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"site:github.com stefanospetsios uniq2me mask schema JSON\",\n  \"results\": [],\n  \"unresponsive_engines\": [\n    [\n      \"brave\",\n      \"too many requests\"\n    ],\n    [\n      \"duckduckgo\",\n      \"CAPTCHA\"\n    ]\n  ]\n}",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [],
+    "phases": [
+      "finish-8-translate_fr"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": []
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "8c0e41a91332787152867bc102353f1dd2e33fd26a7a98d89ab6cd69b7b18b8e",
+  "cachedAt": "2026-10-25T16:47:46Z",
+  "observedAt": "2026-10-25T16:47:46Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-E-rework_questions",
+    "invocation": 36,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00E5-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "E",
+    "repoId": "00E5"
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "Implementing Regulation (EU) 2024/2690 Annex I technical requirements AI fairness bias mitigation models monitoring"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792946847745,
+    "end": 1792946848952
+  },
+  "outputDigest": "sha256:a0799dd6e04f50f185ff1530cb51631843195b40842fe0edb034f1104cfcbae1",
+  "resultUrls": [
+    "http://data.europa.eu/eli/reg/2023/1230/oj",
+    "http://data.europa.eu/eli/reg/2023/1230/oj).",
+    "https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-1",
+    "https://www.lexaris.de/book/version/document/head/6448776/head/6448776",
+    "https://www.regulatoryai.eu/en/annex/IV-1/"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"ANNEX I | AI Act Service Desk\",\n      \"url\": \"https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-1\",\n      \"content\": \"ANNEX I | AI Act Service Desk\\n\\nRecitals \\n\\nChapter I: General Provisions \\n\\n- Article 1: Subject matter'\\n- Article 2: Scope\\n- Article 3: Definitions\\n- Article 4: AI literacy\\n- Article 4a: Processing of special categories of personal data for bias detection and correction\\n\\nChapter II: Prohibited AI Practices \\n\\n- Article 5: Prohibited AI practices\\n\\nChapter III: High-Risk AI Systems \\n\\nSection 1: Classification of AI Systems as High-Risk\\n\\n- Article 6: Classification rules for high-risk AI systems\\n- Article 7: Amendments to Annex III\\n\\nSection 2: Requirements for High-Risk AI Systems\\n\\n- Article 8: Compliance with the requirements\\n- Article 9: Risk management system\\n- Article 10: Data and data governance\\n- Article 11: Technical documentation\\n- Article 12: Record-keeping\\n- Article 13: Transparency and provision of information to deployers\\n- Article 14: Human oversight\\n- Article 15: Accuracy, robustness and cybersecurity\\n\\nSection 3: Obligations of Providers and Deployers of High-Risk AI Systems and Other Parties\\n\\n- Article 16: Obligations of providers of high-risk AI systems\\n- Article 17: Quality management system\\n- Article 18: Documentation keeping\\n- Article 19: Automatically generated logs\\n- Article 20: Corrective actions and duty of information\\n- Article 21: Cooperation with competent authorities\\n- Article 22: Authorised representatives of providers of high-risk AI systems\\n- Article 23: Obligations of importers\\n- Article 24: Obligations of distributors\\n- Article 25: Responsibilities along the AI value chain\\n- Article 26: Obligations of deployers of high-risk AI systems\\n- Article 27: Fundamental rights impact assessment for high-risk AI systems\\n\\nSection 4: Notifying Authorities and Notified Bodies\\n\\n- Article 28: Notifying authorities\\n- Article 29: Application of ",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "E"
+    ],
+    "phases": [
+      "refine-E-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "ai-act-service-desk.ec.europa.eu",
+      "data.europa.eu",
+      "www.lexaris.de",
+      "www.regulatoryai.eu"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "d3e688bb0f8e3343567a7225998b5849be28e2ba87e0b096e771e48eb5aa65fd",
+  "cachedAt": "2026-10-25T16:51:58Z",
+  "observedAt": "2026-10-25T16:51:58Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-E-rework_questions",
+    "invocation": 38,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00E7-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "E",
+    "repoId": "00E7"
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "IEEE ethics in action AI training implementation ethically aligned design strategy planning phase"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792947105588,
+    "end": 1792947106284
+  },
+  "outputDigest": "sha256:4ce2e0239d5a9a1452bf49bca9f07bf78b962c7b9f8959435d2a604f2e9fbed8",
+  "resultUrls": [
+    "https://ethicsinaction.ieee.org/",
+    "https://standards.ieee.org/about/training/ethics-for-ai-system-design/",
+    "https://standards.ieee.org/content/dam/ieee-standards/standards/web/documents/other/ead1e_glossary.pdf",
+    "https://standards.ieee.org/industry",
+    "https://standards.ieee.org/wp-content/uploads/import/documents/other/ead/ead-for-business.pdf",
+    "https://standards.ieee.org/wp-content/uploads/import/documents/other/ead1e_principles_to_practice.pdf",
+    "https://www.blackrock.com/corporate/investor-relations/larry-fink-ceo-letter?cid=ppc:BlackRock_USWA",
+    "https://www.blackrock.com/corporate/investor-relations/larry-fink-ceo-letter?cid=ppc:BlackRock_USWA.",
+    "https://www.ibm.com/watson/assets/duo/pdf/everydayethics.pdf",
+    "https://www.ibm.com/watson/assets/duo/pdf/everydayethics.pdf)."
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"IEEE SA - IEEE Ethics for AI System Design Training\",\n      \"url\": \"https://standards.ieee.org/about/training/ethics-for-ai-system-design/\",\n      \"content\": \"IEEE SA - IEEE Ethics for AI System Design Training\\n\\n# IEEE Ethics for AI System Design Training\\n\\nThis training helps bridge the gap between principles and practice, enabling real-world implementation of ethically aligned systems design strategy from the planning phase.\\n\\n## Empowering Professionals to Build Trustworthy Systems\\n\\nIn an era where technology shapes our world, ethical considerations are paramount. The IEEE Ethics for AI System Design Training equips professionals and organizations to integrate ethical values along with functional values in designing and developing systems.\\n\\n## Course Highlights\\n\\n1. Foundations of Ethical Design: Understand the IEEE 7000 standard principles and their practical implications. Learn how to weave ethics into the fabric of system architecture.\\n2. Elicitation Techniques: Master the art of gathering ethical values. Explore methods to identify, prioritize, and incorporate these values seamlessly.\\n3. Integration Strategies: Dive into weaving ethical values into system design and development. Discover how to harmonize ethical and functional requirements, fostering trust and reliability.\\n4. Risk Mitigation: Systems developed through this process are inherently trustworthy. Reduce risks associated with unintended consequences or ethical oversights.\\n\\n“The Ethics for AI System Design training establishes the core, standards-aligned processes that should be taken into account when developing AI systems. This is especially important for platforms that will support national, municipal, or other citizen-centric missions. The structure, depth, and required level of knowledge to complete the course were significant but meaningful. Because of this training, I now have a defendable baseline to demonstrate measurable integration of e",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "E"
+    ],
+    "phases": [
+      "refine-E-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "ethicsinaction.ieee.org",
+      "standards.ieee.org",
+      "www.blackrock.com",
+      "www.ibm.com"
+    ]
+  }
+}

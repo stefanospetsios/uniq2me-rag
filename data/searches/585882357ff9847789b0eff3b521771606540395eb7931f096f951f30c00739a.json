@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "585882357ff9847789b0eff3b521771606540395eb7931f096f951f30c00739a",
+  "cachedAt": "2026-10-25T15:42:36Z",
+  "observedAt": "2026-10-25T15:42:36Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-8-rework_questions",
+    "invocation": 45,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-008D-2-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "8",
+    "repoId": "008D"
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "NIST SP 800-77r1 section FIPS-validated cryptographic modules requirement"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792942944231,
+    "end": 1792942945155
+  },
+  "outputDigest": "sha256:0ddd26d15d4a429ef94bf613bcf178a3a7b572e8026b79b0ff31bd1b9ded5c2d",
+  "resultUrls": [
+    "https://csrc.nist.rip/external/nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-77r1.pdf",
+    "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/800-171r3/NIST.SP.800-171r3.html",
+    "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-77r1.pdf",
+    "https://peaches.cloud/frameworks/nist-sp-800-171/r3",
+    "https://www.nccoe.nist.gov/sites/default/files/legacy-files/hit-pacs-nist-sp1800-24-draft.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"NIST SP 800-77r1 section FIPS-validated cryptographic modules requirement\",\n  \"results\": [\n    {\n      \"title\": \"Guide to IPsec VPNs - NIST Technical Series Publications\",\n      \"url\": \"https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-77r1.pdf\",\n      \"content\": \"1 Ιουν 2020 ... .SP.8. 0. 0. -77r1. FIPS-validated cryptographic modules shall be used in IPsec VPN deployments for compliance with this guidance. The FIPS 140 ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Guide to IPsec VPNs - CSRC\",\n      \"url\": \"https://csrc.nist.rip/external/nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-77r1.pdf\",\n      \"content\": \"... NIST.SP.800-77r1. Certain commercial entities ... Federal agencies are required to use NIST-approved algorithms and FIPS-validated cryptographic modules.\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"NIST SP 800-171r3 - NIST Technical Series Publications\",\n      \"url\": \"https://nvlpubs.nist.gov/nistpubs/SpecialPublications/800-171r3/NIST.SP.800-171r3.html\",\n      \"content\": \"The requirements apply to components of nonfederal systems that process, store, or transmit CUI or that provide protection for such components. The security ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"NIST SP 800 171 r3 | Secure Your Data Today - Peaches Cloud\",\n      \"url\": \"https://peaches.cloud/frameworks/nist-sp-800-171/r3\",\n      \"content\": \"A cryptographic module validated by the Cryptographic Module Validation Program (CMVP) to meet the requirements specified in FIPS Publication 140-3 (as amended) ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Securing Picture Archiving and Communication System (PACS)\",\n      \"url\": \"https://www.nccoe.nist.gov/sites/default/files/legacy-files/hit-pacs-nist-sp1800-24-draft.pdf\",\n      \"content\": \"16 Σεπ 2019 ... ... NIST.SP.800-77r1- · draft.pdf. [36] Securitie",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "refine-8-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "csrc.nist.rip",
+      "nvlpubs.nist.gov",
+      "peaches.cloud",
+      "www.nccoe.nist.gov"
+    ]
+  }
+}

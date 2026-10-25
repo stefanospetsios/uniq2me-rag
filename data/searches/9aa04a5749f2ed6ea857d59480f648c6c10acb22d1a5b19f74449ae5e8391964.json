@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "9aa04a5749f2ed6ea857d59480f648c6c10acb22d1a5b19f74449ae5e8391964",
+  "cachedAt": "2026-10-25T16:44:07Z",
+  "observedAt": "2026-10-25T16:44:07Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-E-rework_questions",
+    "invocation": 34,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00E3-2-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "E",
+    "repoId": "00E3"
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "ENISA NIS2 implementation guidance model assessment bias testing documentation site:enisa.europa.eu"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792946614579,
+    "end": 1792946615660
+  },
+  "outputDigest": "sha256:931ea0d7cbb41b343897568388f8225392ba4032682a1fbdc3ccc7dc0284adfc",
+  "resultUrls": [
+    "https://www.enisa.europa.eu/publications/nis2-technical-implementation-guidance",
+    "https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"NIS2 Technical Implementation Guidance | ENISA\",\n      \"url\": \"https://www.enisa.europa.eu/publications/nis2-technical-implementation-guidance\",\n      \"content\": \"NIS2 Technical Implementation Guidance | ENISA\\n\\n# NIS2 Technical Implementation Guidance \\n\\n \\n\\nPublication date: 26 Jun 2025\\n\\nThis report provides technical guidance to support the implementation of the NIS2 Directive for several types of entities in the NIS2 digital infrastructure, ICT service management and digital providers sectors. The cybersecurity requirements for these entities are defined at EU level by Commission Implementing Regulation (EU) 2024/2690 of 17 October 2024. ENISA’s guidance offers practical advice, examples of evidence, and mappings of security requirements to help companies implement the regulation.\\n\\nAdditional materials\\n\\nENISA_Technical_Implementation_Guidance_Mapping_table_version_1.2\"\n    },\n    {\n      \"title\": \"IMPLEMENTATION\",\n      \"url\": \"https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf\",\n\n...808314 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_173f23569001lkU12U7mMybj22\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "E"
+    ],
+    "phases": [
+      "refine-E-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "www.enisa.europa.eu"
+    ]
+  }
+}

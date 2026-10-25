@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "fb93f93eb96500c888b3bbb73de9d42b90de2fda053e51ed7181069c3a173fb8",
+  "cachedAt": "2026-10-25T16:39:03Z",
+  "observedAt": "2026-10-25T16:39:03Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-E-rework_questions",
+    "invocation": 32,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00E1-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "E",
+    "repoId": "00E1"
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "\"Directive (EU) 2022/2555\" AI ethics fairness bias evaluation training data"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792946319082,
+    "end": 1792946320073
+  },
+  "outputDigest": "sha256:ae5a953a1064f8fef5f74fca3a51513bcec08c17ecdafca03c0af64f9dffee36",
+  "resultUrls": [
+    "https://cancerimage.eu/wp-content/uploads/2026/02/D3.4-%E2%80%93-AI-Impact-Assessment-Report-v1.5.pdf",
+    "https://data.consilium.europa.eu/doc/document/ST-15698-2025-INIT/en/pdf",
+    "https://digital.nemko.com/regulations/new-information-security-directive-nis2",
+    "https://living-in.eu/eu-support-services/procurement-support-materials/eu-legal-framework-digital-products-and-services",
+    "https://www.acigjournal.com/Supply-Chain-Security-and-AI-Risk-Governance-Model-for-Critical-Infrastructure-under,211823,0,2.html",
+    "https://www.cam-initiative.org/observatory/ai-governance-standards/",
+    "https://www.iflr.com/article/2gm0prokhcehxa5sdnzeo/sponsored/the-impact-of-ai-on-the-provision-of-legal-services-in-romania",
+    "https://www.radoslavov.bg/ai-cyber-risk-management-en"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"\\\"Directive (EU) 2022/2555\\\" AI ethics fairness bias evaluation training data\",\n  \"results\": [\n    {\n      \"title\": \"COM(2025) 837 - Data - European Union\",\n      \"url\": \"https://data.consilium.europa.eu/doc/document/ST-15698-2025-INIT/en/pdf\",\n      \"content\": \"19 Νοε 2025 ... ... data for AI training and development. The proposed amendments ... Subsequently, Directive (EU) 2022/2555 has set new requirements as ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"VIGIL Observatory AI Governance Standards - CAM Initiative\",\n      \"url\": \"https://www.cam-initiative.org/observatory/ai-governance-standards/\",\n      \"content\": \"In AI governance, data-quality measurement supports training and evaluation ... Directive (EU) 2022/2555 — NIS 2 Directive. The NIS 2 Directive sets ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"The impact of AI on the provision of legal services in Romania - IFLR\",\n      \"url\": \"https://www.iflr.com/article/2gm0prokhcehxa5sdnzeo/sponsored/the-impact-of-ai-on-the-provision-of-legal-services-in-romania\",\n      \"content\": \"10 Ιουλ 2026 ... ... Data Act (Regulation (EU) 2023/2854), and the NIS2 Directive (Directive (EU) 2022/2555). Practical compliance frameworks are additionally ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"The EU legal framework on digital products and services relevant to ...\",\n      \"url\": \"https://living-in.eu/eu-support-services/procurement-support-materials/eu-legal-framework-digital-products-and-services\",\n      \"content\": \"The principles of lawfulness, fairness, and transparency; purpose limitation; data ... Directive (EU) 2022/2555 as regards technical and methodological ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"D3.4 – AI Impact Assessment Report - Cancer Image Europe\",\n      \"url\": \"https://cancerimage.eu/wp-content/uploads/2026/02/D3.4-%E2%80%93-AI-Impact-Assessmen",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "E"
+    ],
+    "phases": [
+      "refine-E-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "cancerimage.eu",
+      "data.consilium.europa.eu",
+      "digital.nemko.com",
+      "living-in.eu",
+      "www.acigjournal.com",
+      "www.cam-initiative.org",
+      "www.iflr.com",
+      "www.radoslavov.bg"
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "598eff94cce19fc9533034aeba3c53a954b753f363efb14c56e478885c65a2df",
+  "cachedAt": "2026-10-25T17:12:23Z",
+  "observedAt": "2026-10-25T17:12:23Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-F-rework_questions",
+    "invocation": 33,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00F0-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "F",
+    "repoId": "00F0"
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "\"continuously monitor\" AI system harmful outcomes behavior monitoring"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792948325338,
+    "end": 1792948326413
+  },
+  "outputDigest": "sha256:6bf87529cbce049a69a8558688993e9c7d2cd0ebf2e6c099afba01e19653f345",
+  "resultUrls": [
+    "https://assets.publishing.service.gov.uk/media/653aabbd80884d000df71bdc/emerging-processes-frontier-ai-safety.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Emerging processes for frontier AI safety\",\n      \"url\": \"https://assets.publishing.service.gov.uk/media/653aabbd80884d000df71bdc/emerging-processes-frontier-ai-safety.pdf\",\n\n...638566 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_1740c500b001a4NsKAq4NJwvYD\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "F"
+    ],
+    "phases": [
+      "refine-F-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "assets.publishing.service.gov.uk"
+    ]
+  }
+}

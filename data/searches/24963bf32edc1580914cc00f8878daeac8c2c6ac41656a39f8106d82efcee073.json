@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "24963bf32edc1580914cc00f8878daeac8c2c6ac41656a39f8106d82efcee073",
+  "cachedAt": "2026-10-25T17:33:54Z",
+  "observedAt": "2026-10-25T17:33:54Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-F-rework_questions",
+    "invocation": 43,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00FA-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "F",
+    "repoId": "00FA"
+  },
+  "toolId": "github_search_issues",
+  "request": {
+    "query": "frozen sources.json concerns.json"
+  },
+  "executionStatus": "error",
+  "toolTiming": {
+    "start": 1792949599446,
+    "end": 1792949599918
+  },
+  "outputDigest": "sha256:12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+  "resultUrls": [],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": "failed to search issues: GET https://api.github.com/search/issues?page=1&per_page=5&q=repo%3Astefanospetsios%2Funiq2me+is%3Aissue+frozen+sources.json+concerns.json&search_type=semantic: 422 Validation Failed [{Resource:Search Field:q Code:invalid Message:The listed users and repositories cannot be searched either because the resources do not exist or you do not have permission to view them.}]",
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "F"
+    ],
+    "phases": [
+      "refine-F-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": []
+  }
+}

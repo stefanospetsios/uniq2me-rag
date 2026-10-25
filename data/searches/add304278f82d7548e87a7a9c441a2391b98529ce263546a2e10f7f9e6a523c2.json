@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "add304278f82d7548e87a7a9c441a2391b98529ce263546a2e10f7f9e6a523c2",
+  "cachedAt": "2026-10-25T16:44:07Z",
+  "observedAt": "2026-10-25T16:44:07Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-E-rework_questions",
+    "invocation": 34,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00E3-2-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "E",
+    "repoId": "00E3"
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "\"AI-Oriented Ethics (Training and Implementation)\" AWS prescriptive guidance model assessment fairness evaluation site:docs.aws.amazon.com"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792946639046,
+    "end": 1792946639752
+  },
+  "outputDigest": "sha256:9508b5f5eb3bb7ed48be5e1ce9944cea92f8190ce63796c0d07bcbf4c3fa2f5a",
+  "resultUrls": [
+    "https://docs.aws.amazon.com/prescriptive-guidance/latest/gen-ai-inference-architecture-and-best-practices-on-aws/implementing-security-rai.html",
+    "https://docs.aws.amazon.com/prescriptive-guidance/latest/gen-ai-workload-assessment/testing.html",
+    "https://docs.aws.amazon.com/wellarchitected/latest/responsible-ai-lens/rairc03-bp02.html"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Implementing security and responsible AI - AWS Prescriptive Guidance\",\n      \"url\": \"https://docs.aws.amazon.com/prescriptive-guidance/latest/gen-ai-inference-architecture-and-best-practices-on-aws/implementing-security-rai.html\",\n      \"content\": \"Implementing security and responsible AI - AWS Prescriptive Guidance\\n\\nBefore moving to inference After inference deployment\\n\\n# Implementing security and responsible AI\\n\\nBuilding generative AI (gen AI) models involves complex technical and business decisions. To speed up experimentation, some \\n\\nresponsible AI (RAI)\\n\\n evaluations might be overlooked initially. However, conducting an RAI review before moving to inference helps organizations strengthen risk assessment and resource management through a structured evaluation process. This pre-release review serves as the final controlled stage where organizations can thoroughly assess models for potential harm. For example, organizations can assess models for bias amplification, privacy violations, safety risks, or misalignment with organizational values.\\n\\nThe RAI review consists of two phases:\\n\\n- Before moving to inference\\n- After inference deployment\\n\\n## Before moving to inference\\n\\nTo establish a foundation for responsible deployment, implement a model registry to track lineage, versions, and artifacts, ensuring traceability throughout the model's lifecycle. The model evaluation report provides a detailed assessment that quantifies robustness, fairness across demographic groups, and potential failure modes. This assessment offers visibility into unexpected behavior and supports informed trade-off discussions. These evaluations guide the creation of comprehensive governance structures, including formal approval workflows, stakeholder sign-offs, and escalation paths that maintain organizational awareness of potential risks and impacts.\\n\\nTo complement these governance mechanisms, implement technical safeguards such as m",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "E"
+    ],
+    "phases": [
+      "refine-E-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "docs.aws.amazon.com"
+    ]
+  }
+}

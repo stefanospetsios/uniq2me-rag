@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "1f762da5bb5ec7ba50218e7d5752e12153a6ec35b141cb3a99c7e209e33400c5",
+  "cachedAt": "2026-10-25T17:12:23Z",
+  "observedAt": "2026-10-25T17:12:23Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-F-rework_questions",
+    "invocation": 33,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00F0-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "F",
+    "repoId": "00F0"
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "ongoing evaluation procedures for AI systems monitoring harmful outcomes"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792948323880,
+    "end": 1792948324558
+  },
+  "outputDigest": "sha256:9f68de46fe3fba0ee40d7fcf949e4788b8640dc88a80bdfbe19659a749e0c5a3",
+  "resultUrls": [],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"ongoing evaluation procedures for AI systems monitoring harmful outcomes\",\n  \"results\": [],\n  \"unresponsive_engines\": [\n    [\n      \"brave\",\n      \"too many requests\"\n    ],\n    [\n      \"duckduckgo\",\n      \"CAPTCHA\"\n    ],\n    [\n      \"google cse\",\n      \"too many requests\"\n    ]\n  ]\n}",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "F"
+    ],
+    "phases": [
+      "refine-F-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": []
+  }
+}

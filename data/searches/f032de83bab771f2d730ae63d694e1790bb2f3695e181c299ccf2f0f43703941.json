@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "f032de83bab771f2d730ae63d694e1790bb2f3695e181c299ccf2f0f43703941",
+  "cachedAt": "2026-10-25T15:17:09Z",
+  "observedAt": "2026-10-25T15:17:09Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-8-rework_questions",
+    "invocation": 33,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-0081-2-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "8",
+    "repoId": "0081"
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "site:access.redhat.com threat modeling purpose"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792941410703,
+    "end": 1792941411757
+  },
+  "outputDigest": "sha256:9a475fdadb1845342a9d7c37d1539c088374211cd52bf86a32b53241c7117c17",
+  "resultUrls": [
+    "https://access.redhat.com/security/glossary",
+    "https://access.redhat.com/security/product_pathway_security",
+    "https://access.redhat.com/security/rh_security_declaration_sdl",
+    "https://access.redhat.com/security/security-testing-sdl-practice",
+    "https://access.redhat.com/sites/hub/files/2025-09/An%20Open%20Approach%20to%20Vulnerability%20Management%20v1.6.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"site:access.redhat.com threat modeling purpose\",\n  \"results\": [\n    {\n      \"title\": \"Secure Software Development Life Cycle | Red Hat Customer Portal\",\n      \"url\": \"https://access.redhat.com/security/rh_security_declaration_sdl\",\n      \"content\": \"The purpose of the threat modeling process is to aid Engineering in documenting identified security threats to an application and making well-informed decisions ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Red Hat's Comprehensive Strategies for Software Security\",\n      \"url\": \"https://access.redhat.com/security/security-testing-sdl-practice\",\n      \"content\": \"Controls, such as threat modeling, are implemented during the design phase, while others operate during and after the development process. Controls ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Security in the Red Hat product pathway\",\n      \"url\": \"https://access.redhat.com/security/product_pathway_security\",\n      \"content\": \"Threat modeling is used to identify and rate potential threats to software together with the systems for which the software is designed. Development. The ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Security glossary | Red Hat Customer Portal\",\n      \"url\": \"https://access.redhat.com/security/glossary\",\n      \"content\": \"Threat Modeling. Addresses problems in design and fixes attack surface issues prior to full development. TOCTOU. TOCTOU is a type of race condition that ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"An Open Approach to Vulnerability Management\",\n      \"url\": \"https://access.redhat.com/sites/hub/files/2025-09/An%20Open%20Approach%20to%20Vulnerability%20Management%20v1.6.pdf\",\n      \"content\": \"22 Σεπ 2025 ... AI safety issues, which involve unexpected model behavior outside the intended design and scope ... threat”. In a situation like this, the ...\",\n      \"engin",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "refine-8-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "access.redhat.com"
+    ]
+  }
+}

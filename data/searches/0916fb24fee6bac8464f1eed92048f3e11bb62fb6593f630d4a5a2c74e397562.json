@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "0916fb24fee6bac8464f1eed92048f3e11bb62fb6593f630d4a5a2c74e397562",
+  "cachedAt": "2026-10-25T17:33:54Z",
+  "observedAt": "2026-10-25T17:33:54Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-F-rework_questions",
+    "invocation": 43,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00FA-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "F",
+    "repoId": "00FA"
+  },
+  "toolId": "github_search_code",
+  "request": {
+    "query": "sources.json path:inputs"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792949579394,
+    "end": 1792949586163
+  },
+  "outputDigest": "sha256:5eacbb61725fa5db8ee70b0c28821f21e3266f7ad94f699651924f7ab7abb4ab",
+  "resultUrls": [
+    "https://api.github.com/repositories/1301011785/contents/inputs/imported-research/chatgpt-prototype-2026-07-15/package/README.md?ref=1452bdfb54f85723771d97b815ffe3893a64fc61",
+    "https://api.github.com/repositories/1301011785/contents/inputs/imported-research/chatgpt-prototype-2026-07-15/package/research/prompts/codex-repository-update.md?ref=1452bdfb54f85723771d97b815ffe3893a64fc61",
+    "https://api.github.com/repositories/1301011785/contents/inputs/imported-research/chatgpt-prototype-2026-07-15/package/src/content.ts?ref=1452bdfb54f85723771d97b815ffe3893a64fc61",
+    "https://api.github.com/repositories/1359797061/contents/inputs/source_certificates/experiments/fragment_ritz/fine_coarse_outer_rank_high_receipt.json?ref=b77bf175bdedc5123027b3fcf0abc38427975770",
+    "https://api.github.com/repositories/1359797061/contents/inputs/source_certificates/results/prime_gap_182_certificate.json?ref=b77bf175bdedc5123027b3fcf0abc38427975770",
+    "https://api.github.com/repositories/1411784423/contents/inputs/PROVENANCE.json?ref=6d9940d77adc3e8d8c3953e6baf31cbb9452655d",
+    "https://api.github.com/repositories/1415633524/contents/inputs/t08_review_phases_layout.md?ref=6c38f00095bcc2dd8da15c68f7dc33180cd16fb5",
+    "https://api.github.com/repositories/1431018016/contents/inputs/pipeline/upstream.py?ref=225ca368fdf27d578f5a80f117a733b9b9ab5742",
+    "https://develop.realman-robotics.com/en/joints/parameter/WHG32240/",
+    "https://develop.realman-robotics.com/en/joints/parameter/WHG32240/)",
+    "https://develop.realman-robotics.com/en/joints/parameter/WHJ120/",
+    "https://develop.realman-robotics.com/en/joints/parameter/WHJ120/)",
+    "https://docs.galaxea-ai.com/Guide/R1Pro/hardware_introduction/R1Pro_Hardware_Introduction/",
+    "https://docs.galaxea-ai.com/Guide/R1Pro/hardware_introduction/R1Pro_Hardware_Introduction/)",
+    "https://docs.galaxea-dynamics.com/R1Pro/en/docs/2026/",
+    "https://docs.galaxea-dynamics.com/R1Pro/en/docs/2026/)",
+    "https://www.mikipulley.co.jp/en/electromagnetic-clutches-brakes/offbrakes/holding/bxr-le",
+    "https://www.mikipulley.co.jp/en/electromagnetic-clutches-brakes/offbrakes/holding/bxr-le)"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\"total_count\":8,\"incomplete_results\":false,\"items\":[{\"name\":\"README.md\",\"path\":\"inputs/imported-research/chatgpt-prototype-2026-07-15/package/README.md\",\"sha\":\"d950d13874bf27054c878784bb6490c0f5b2a6fa\",\"repository\":\"Parris-Tech-Services/ColdFluApp\",\"text_matches\":[{\"object_url\":\"https://api.github.com/repositories/1301011785/contents/inputs/imported-research/chatgpt-prototype-2026-07-15/package/README.md?ref=1452bdfb54f85723771d97b815ffe3893a64fc61\",\"object_type\":\"FileContent\",\"property\":\"content\",\"fragment\":\"## Content architecture\\n\\n- `src/content/modules/*.json` — website source of truth, one file per module\\n- `src/content/sources.json` — reusable source registry\\n- `research/modules/*.md` — readable research mirror\\n- `research/methodology.md` — evidence and editorial standard\\n- `research/roadmap.md` — prioritised expansion beyond the initial 28 modules\",\"matches\":[{\"text\":\"sources.json\",\"indices\":[120,132]}]}]},{\"name\":\"t08_review_phases_layout.md\",\"path\":\"inputs/t08_review_phases_layout.md\",\"sha\":\"d94fccfcf238420935b3aa9935415ad33218e17c\",\"repository\":\"guoyuanjing2988/home-cooking-robot\",\"text_matches\":[{\"object_url\":\"https://api.github.com/repositories/1415633524/contents/inputs/t08_review_phases_layout.md?ref=6c38f00095bcc2dd8da15c68f7dc33180cd16fb5\",\"object_type\":\"FileContent\",\"property\":\"content\",\"fragment\":\"| Torso T2/T3 | [WHJ120](https://develop.realman-robotics.com/en/joints/parameter/WHJ120/) | 120 | 2.300 | 100 | 88 × 109 |\\r\\n| Torso T1 | [WHG32240](https://develop.realman-robotics.com/en/joints/parameter/WHG32240/) | 240 | 5.700 | 100 | 142 × 125 |\\r\\n\\r\\nWHJ60/30 list latch brakes; WHJ120/WHG32240 list electromagnetic brakes. That wording is not used as spring-holding proof. [Miki's BXR-LE table](https://www.mikipulley.co.jp/en/electromagnetic-clutches-brakes/offbrakes/holding/bxr-le) confirms spring-applied, electrically released holding operation, size035 **0.120 kg / 0.62 Nm**, size040 **0.160 kg / 1.32 Nm**, and size050 **0.400 kg / 3.20 N",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "F"
+    ],
+    "phases": [
+      "refine-F-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "api.github.com",
+      "develop.realman-robotics.com",
+      "docs.galaxea-ai.com",
+      "docs.galaxea-dynamics.com",
+      "www.mikipulley.co.jp"
+    ]
+  }
+}

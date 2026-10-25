@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "fb34ab11f073fe3b7f9271e19a4f13e94397ffe5798826e0170053ca325fd8a5",
+  "cachedAt": "2026-10-25T15:42:36Z",
+  "observedAt": "2026-10-25T15:42:36Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-8-rework_questions",
+    "invocation": 45,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-008D-2-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "8",
+    "repoId": "008D"
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "ENISA technical implementation Guidance risk management policy point 2"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792942937101,
+    "end": 1792942937950
+  },
+  "outputDigest": "sha256:53f3958cf5b62b3b9f7dbba9147a7e3f26f00bf6d2cee13ed120ea30da2d2878",
+  "resultUrls": [
+    "https://eurokommerz.at/blog/nis2-backup-business-continuity/",
+    "https://shardscybersecurity.io/nis2-framework-mapping/",
+    "https://www.enisa.europa.eu/publications/nis2-technical-implementation-guidance",
+    "https://www.enisa.europa.eu/publications?page=4",
+    "https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"ENISA technical implementation Guidance risk management policy point 2\",\n  \"results\": [\n    {\n      \"title\": \"PDF TECHNICAL IMPLEMENTATION GUIDANCE - enisa.europa.eu\",\n      \"url\": \"https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf\",\n      \"content\": \"TECHNICAL IMPLEMENTATION GUIDANCE On Commission Implementing Regulation (EU) 2024/2690 of 17 October 2024 laying down rules for the application of NIS2 Directive as regards technical and methodological requirements of cybersecurity risk-management measures JUNE 2025, VERSION 1.0\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"NIS2 Technical Implementation Guidance | ENISA - European Union\",\n      \"url\": \"https://www.enisa.europa.eu/publications/nis2-technical-implementation-guidance\",\n      \"content\": \"This report provides technical guidance to support the implementation of the NIS2 Directive for several types of entities in the NIS2 digital infrastructure, ICT service management and digital providers sectors. The cybersecurity requirements for these entities are defined at EU level by Commission Implementing Regulation (EU) 2024/2690 of 17 October 2024. ENISA's guidance offers practical ...\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Publications | ENISA - European Union\",\n      \"url\": \"https://www.enisa.europa.eu/publications?page=4\",\n      \"content\": \"3 Δεκ 2024 ... This report aims at providing policy makers with evidence to assess the effectiveness of the existing EU cybersecurity framework specifically ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"NIS2 backup and business continuity requirements - Eurokommerz\",\n      \"url\": \"https://eurokommerz.at/blog/nis2-backup-business-continuity/\",\n      \"content\": \"7 Οκτ 2026 ... Implementing Regulation (EU) 2024/",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "refine-8-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "eurokommerz.at",
+      "shardscybersecurity.io",
+      "www.enisa.europa.eu"
+    ]
+  }
+}

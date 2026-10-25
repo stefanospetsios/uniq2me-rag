@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "8cfc3eb453306beaf7a684e7c5e0bac5a992fbb82a258a068cd633c5b38ba20e",
+  "cachedAt": "2026-10-25T16:43:18Z",
+  "observedAt": "2026-10-25T16:43:18Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-E-rework_questions",
+    "invocation": 34,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00E3-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "E",
+    "repoId": "00E3"
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "site:eur-lex.europa.eu NIS2 Directive (EU) 2022/2555"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792946585729,
+    "end": 1792946587916
+  },
+  "outputDigest": "sha256:2abe65b6d36356868234af64f13e257705ef0305a88e333344051fd19b2447f6",
+  "resultUrls": [
+    "https://en.wikipedia.org/wiki/Site%3Aeur-lex.europa.eu_NIS2_Directive_(EU)_2022"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"site:eur-lex.europa.eu NIS2 Directive (EU) 2022/2555\",\n  \"results\": [\n    {\n      \"title\": \"User:TwoOneTwo\",\n      \"url\": \"https://en.wikipedia.org/wiki/Site%3Aeur-lex.europa.eu_NIS2_Directive_(EU)_2022\",\n      \"content\": \"\",\n      \"engines\": [\n        \"wikipedia\"\n      ]\n    }\n  ],\n  \"unresponsive_engines\": [\n    [\n      \"brave\",\n      \"too many requests\"\n    ],\n    [\n      \"duckduckgo\",\n      \"CAPTCHA\"\n    ],\n    [\n      \"google cse\",\n      \"too many requests\"\n    ]\n  ]\n}",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "E"
+    ],
+    "phases": [
+      "refine-E-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "en.wikipedia.org"
+    ]
+  }
+}

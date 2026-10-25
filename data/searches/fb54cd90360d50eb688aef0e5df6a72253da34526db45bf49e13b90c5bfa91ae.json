@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "fb54cd90360d50eb688aef0e5df6a72253da34526db45bf49e13b90c5bfa91ae",
+  "cachedAt": "2026-10-25T15:40:04Z",
+  "observedAt": "2026-10-25T15:40:04Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-8-rework_questions",
+    "invocation": 44,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-008C-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "8",
+    "repoId": "008C"
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Directive (EU) 2022/2555 Annex point 2 risk management policy site:eur-lex.europa.eu"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792942785324,
+    "end": 1792942786162
+  },
+  "outputDigest": "sha256:83fa6900826c0d28200482ab9fad5b70a181209f82a28d17fa33789a3e016a6f",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/EN/legal-content/summary/cybersecurity-of-network-and-information-systems.html",
+    "https://eur-lex.europa.eu/eli/dir/2022/2555/2022-12-27/eng",
+    "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02022L2555-20221227",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022L2555"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Directive (EU) 2022/2555 Annex point 2 risk management policy site:eur-lex.europa.eu\",\n  \"results\": [\n    {\n      \"title\": \"Directive - 2022/2555 - EN - EUR-Lex - European Union\",\n      \"url\": \"https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng\",\n      \"content\": \"Directive (EU) 2022/2555 of the European Parliament and of the Council of 14 December 2022 on measures for a high common level of cybersecurity across the Union, amending Regulation (EU) No 910/2014 and Directive (EU) 2018/1972, and repealing Directive (EU) 2016/1148 (NIS 2 Directive) (Text with EEA relevance)\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Directive (EU) 2016/1148 - Publications Office - European Union\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022L2555\",\n      \"content\": \"Member States should therefore not apply the provisions of this Directive on cybersecurity risk-management and reporting obligations, and supervision and enforcement, to financial entities covered by Regulation (EU) 2022/2554.\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"02022L2555-20221227 - EN - EUR-Lex - European Union\",\n      \"url\": \"https://eur-lex.europa.eu/eli/dir/2022/2555/2022-12-27/eng\",\n      \"content\": \"This Directive applies without prejudice to Regulation (EU) 2016/679, Directive 2002/58/EC, Directives 2011/93/EU ( 1 ) and 2013/40/EU ( 2 ) of the European Parliament and of the Council and Directive (EU) 2022/2557.\",\n      \"engines\": [\n        \"google cse\",\n        \"duckduckgo\"\n      ]\n    },\n    {\n      \"title\": \"Cybersecurity of network and information systems - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/EN/legal-content/summary/cybersecurity-of-network-and-information-systems.html\",\n      \"content\": \"The Commission has also issued guidelines clarifying the rules on the relationship between Directive (EU) 2022/2555 and current and future sec",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "refine-8-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "eur-lex.europa.eu"
+    ]
+  }
+}

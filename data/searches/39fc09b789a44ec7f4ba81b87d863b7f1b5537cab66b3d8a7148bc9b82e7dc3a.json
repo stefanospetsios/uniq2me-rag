@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "39fc09b789a44ec7f4ba81b87d863b7f1b5537cab66b3d8a7148bc9b82e7dc3a",
+  "cachedAt": "2026-10-25T16:47:46Z",
+  "observedAt": "2026-10-25T16:47:46Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-E-rework_questions",
+    "invocation": 36,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00E5-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "E",
+    "repoId": "00E5"
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "AWS Prescriptive Guidance gen-ai-inference-architecture-and-best-practices-on-aws implementing security responsible AI fairness evaluation documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792946855732,
+    "end": 1792946856859
+  },
+  "outputDigest": "sha256:b32ec387f14f24d92812c6a6424f29a137497dbe3ed0f38f3299288b9a55cfd0",
+  "resultUrls": [
+    "https://docs.aws.amazon.com/pdfs/prescriptive-guidance/latest/gen-ai-inference-architecture-and-best-practices-on-aws/gen-ai-inference-architecture-and-best-practices-on-aws.pdf",
+    "https://docs.aws.amazon.com/prescriptive-guidance/latest/gen-ai-inference-architecture-and-best-practices-on-aws/implementing-security-rai.html",
+    "https://docs.aws.amazon.com/prescriptive-guidance/latest/gen-ai-inference-architecture-and-best-practices-on-aws/introduction.html"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Implementing security and responsible AI - AWS Prescriptive Guidance\",\n      \"url\": \"https://docs.aws.amazon.com/prescriptive-guidance/latest/gen-ai-inference-architecture-and-best-practices-on-aws/implementing-security-rai.html\",\n      \"content\": \"Implementing security and responsible AI - AWS Prescriptive Guidance\\n\\nBefore moving to inference After inference deployment\\n\\n# Implementing security and responsible AI\\n\\nBuilding generative AI (gen AI) models involves complex technical and business decisions. To speed up experimentation, some \\n\\nresponsible AI (RAI)\\n\\n evaluations might be overlooked initially. However, conducting an RAI review before moving to inference helps organizations strengthen risk assessment and resource management through a structured evaluation process. This pre-release review serves as the final controlled stage where organizations can thoroughly assess models for potential harm. For example, organizations can assess models for bias amplification, privacy violations, safety risks, or misalignment with organizational values.\\n\\nThe RAI review consists of two phases:\\n\\n- Before moving to inference\\n- After inference deployment\\n\\n## Before moving to inference\\n\\nTo establish a foundation for responsible deployment, implement a model registry to track lineage, versions, and artifacts, ensuring traceability throughout the model's lifecycle. The model evaluation report provides a detailed assessment that quantifies robustness, fairness across demographic groups, and potential failure modes. This assessment offers visibility into unexpected behavior and supports informed trade-off discussions. These evaluations guide the creation of comprehensive governance structures, including formal approval workflows, stakeholder sign-offs, and escalation paths that maintain organizational awareness of potential risks and impacts.\\n\\nTo complement these governance mechanisms, implement technical safeguards such as m",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "E"
+    ],
+    "phases": [
+      "refine-E-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "docs.aws.amazon.com"
+    ]
+  }
+}

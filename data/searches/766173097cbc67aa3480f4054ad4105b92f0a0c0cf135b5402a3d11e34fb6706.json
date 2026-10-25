@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "766173097cbc67aa3480f4054ad4105b92f0a0c0cf135b5402a3d11e34fb6706",
+  "cachedAt": "2026-10-25T17:33:54Z",
+  "observedAt": "2026-10-25T17:33:54Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-F-rework_questions",
+    "invocation": 43,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00FA-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "F",
+    "repoId": "00FA"
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "site:cyber.gov.gr Law 5160 2024 Greek NIS2 implementation"
+  },
+  "executionStatus": "error",
+  "toolTiming": {
+    "start": 1792949589957,
+    "end": 1792949590132
+  },
+  "outputDigest": "sha256:12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+  "resultUrls": [],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": "Error executing tool web_search: Ollama's web search rate limit was reached. Try again later.",
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "F"
+    ],
+    "phases": [
+      "refine-F-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": []
+  }
+}

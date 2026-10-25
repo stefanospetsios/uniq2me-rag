@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "ee4feb0a17fba955b9942ff39ebdd6d0dcbc37071e4dbe5e3feb27c25f578924",
+  "cachedAt": "2026-10-25T14:56:57Z",
+  "observedAt": "2026-10-25T14:56:57Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-5-rework_questions",
+    "invocation": 41,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-005A-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "5",
+    "repoId": "005A"
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "NIST SP 800-77r1 gateway-to-gateway VPN architecture documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792940204418,
+    "end": 1792940206249
+  },
+  "outputDigest": "sha256:b39eacdf6caa515afac18db178319fc90a142bf53c464abc9c578b0409f78121",
+  "resultUrls": [
+    "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-77r1.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Guide to IPsec VPNs\",\n      \"url\": \"https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-77r1.pdf\",\n\n...835830 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_1739068a7001mC4qGkQbAWjI4C\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "refine-5-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "nvlpubs.nist.gov"
+    ]
+  }
+}

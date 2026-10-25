@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "1aec20184c7bed950b2a4bab9d01fd07aa46131442d4da871847e14603436394",
+  "cachedAt": "2026-10-25T16:30:59Z",
+  "observedAt": "2026-10-25T16:30:59Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-D-rework_questions",
+    "invocation": 43,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00DE-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "D",
+    "repoId": "00DE"
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Implementing Regulation (EU) 2024/2690 Annex 5.1.2 supply chain security policy review"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792945855411,
+    "end": 1792945856507
+  },
+  "outputDigest": "sha256:5b22eed70735778c0bf2451822668434f4b803ae9736dcf4026f28e690f63951",
+  "resultUrls": [
+    "https://advisera.com/cir-2024-2690/technical-and-methodological-requirements-referred-to-in-article-2-of-this-regulation/",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202402690",
+    "https://eur-lex.europa.eu/legal-content/FI-EN/TXT/?uri=CELEX:32024R2690",
+    "https://helmcode.com/industries/telco",
+    "https://noctovisor.com/nis2-supply-chain-security.html",
+    "https://shardscybersecurity.io/nis2-framework-mapping/",
+    "https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf",
+    "https://www.kibstrust.mk/Storage/Dokumenti/111.01%20CP%20and%20CPS%20for%20Qualified%20certificates.pdf",
+    "https://www.obriain.com/training/nis2-maritime/Cybersecurity_in_Maritime_Domain_(Rosslare)_odt_v1.0.2.pdf",
+    "https://www.openkritis.de/massnahmen/implementing-acts-it-nis2-mapping.html"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Implementing Regulation (EU) 2024/2690 Annex 5.1.2 supply chain security policy review\",\n  \"results\": [\n    {\n      \"title\": \"Commission Implementing Regulation (EU) 2024/2690 of ... - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202402690\",\n      \"content\": \"17 Οκτ 2024 ... The relevant entities shall review the supply chain security policy, and monitor, evaluate and, where necessary, act upon changes in the ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"NIS2 supply chain security - Noctovisor\",\n      \"url\": \"https://noctovisor.com/nis2-supply-chain-security.html\",\n      \"content\": \"when does NIS2 require an unscheduled supplier review? ... The operational detail lives in Implementing Regulation (EU) 2024/2690. ... If you make things, treat ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"EU NIS2 Implementing Act - ISO 27001 and C5:2026 - OpenKRITIS\",\n      \"url\": \"https://www.openkritis.de/massnahmen/implementing-acts-it-nis2-mapping.html\",\n      \"content\": \"(EU) 2024/2690 · Management and policies · Incident management · BCM · Supply chain · IT and network security · Personnel security · Physical security ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"CIR 2024-2690 Annex 1: Technical and methodological ... - Advisera\",\n      \"url\": \"https://advisera.com/cir-2024-2690/technical-and-methodological-requirements-referred-to-in-article-2-of-this-regulation/\",\n      \"content\": \"The relevant entities shall review the supply chain security policy, and monitor, evaluate and, where necessary, act upon changes in the cybersecurity ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Private AI for telcos, Helmcode\",\n      \"url\": \"https://helmcode.com/industries/telco\",\n      \"content\": \"Article 21(2)(d) of NIS2 makes supply chain security a duty for every ... It elaborates the Annex to C",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "D"
+    ],
+    "phases": [
+      "refine-D-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "advisera.com",
+      "eur-lex.europa.eu",
+      "helmcode.com",
+      "noctovisor.com",
+      "shardscybersecurity.io",
+      "www.enisa.europa.eu",
+      "www.kibstrust.mk",
+      "www.obriain.com",
+      "www.openkritis.de"
+    ]
+  }
+}

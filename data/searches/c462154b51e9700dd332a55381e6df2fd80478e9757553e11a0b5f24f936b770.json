@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "c462154b51e9700dd332a55381e6df2fd80478e9757553e11a0b5f24f936b770",
+  "cachedAt": "2026-10-25T17:12:23Z",
+  "observedAt": "2026-10-25T17:12:23Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-F-rework_questions",
+    "invocation": 33,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00F0-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "F",
+    "repoId": "00F0"
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "continuing monitoring procedures deployed AI systems harmful behavior"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792948323560,
+    "end": 1792948324475
+  },
+  "outputDigest": "sha256:7f02ec164a3d5f65964105dd2bba9d1090e6e6e030fc2d3db0568de4b08bcb17",
+  "resultUrls": [
+    "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.800-4.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Challenges to the monitoring of deployed AI systems: Center for AI Standards and Innovation\",\n      \"url\": \"https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.800-4.pdf\",\n\n...127385 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_1740c487a001piyqIR3Ejsi4G1\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "F"
+    ],
+    "phases": [
+      "refine-F-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "nvlpubs.nist.gov"
+    ]
+  }
+}

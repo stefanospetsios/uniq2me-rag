@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "a1b19c79ac494c85dc369902dc65824affe568c5eefa3de4d551e1c4491174cc",
+  "cachedAt": "2026-10-25T16:56:48Z",
+  "observedAt": "2026-10-25T16:56:48Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-E-rework_questions",
+    "invocation": 40,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00E9-2-review",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "E",
+    "repoId": "00E9"
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "E-reference model card AWS Prescriptive Guidance documentation preparation demographic groups prohibited use cases"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792947394377,
+    "end": 1792947394864
+  },
+  "outputDigest": "sha256:fda28db332c2074f6c6d56c4007e5d19c90fcfe1678ecc7061140fbdf2afe096",
+  "resultUrls": [],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"E-reference model card AWS Prescriptive Guidance documentation preparation demographic groups prohibited use cases\",\n  \"results\": [],\n  \"unresponsive_engines\": [\n    [\n      \"brave\",\n      \"Suspended: too many requests\"\n    ],\n    [\n      \"duckduckgo\",\n      \"CAPTCHA\"\n    ],\n    [\n      \"google cse\",\n      \"Suspended: too many requests\"\n    ]\n  ]\n}",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "E"
+    ],
+    "phases": [
+      "refine-E-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": []
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "a4d66636949607b1004fb20b9891e286c7efc6c61253794ee64f303b14e2abbd",
+  "cachedAt": "2026-10-25T15:42:36Z",
+  "observedAt": "2026-10-25T15:42:36Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-8-rework_questions",
+    "invocation": 45,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-008D-2-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "8",
+    "repoId": "008D"
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Red Hat Secure Software Development Lifecycle threat modeling process documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792942948007,
+    "end": 1792942948664
+  },
+  "outputDigest": "sha256:b2ab6dfdbbc4528dfa36a681398d009c2cfc319a94c4f377d94d565a55448a67",
+  "resultUrls": [
+    "https://access.redhat.com/security/product_pathway_security",
+    "https://access.redhat.com/security/rh_security_declaration_sdl",
+    "https://access.redhat.com/security/security-testing-sdl-practice",
+    "https://www.redhat.com/en/blog/security-design-security-principles-and-threat-modeling",
+    "https://www.redhat.com/en/solutions/secure-development-lifecycle"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Red Hat Secure Software Development Lifecycle threat modeling process documentation\",\n  \"results\": [\n    {\n      \"title\": \"Secure Software Development Life Cycle | Red Hat Customer Portal\",\n      \"url\": \"https://access.redhat.com/security/rh_security_declaration_sdl\",\n      \"content\": \"Red Hat rigorously tests the security of software prior to release. Threat modeling. The purpose of the threat modeling process is to aid Engineering in ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Secure software development at Red Hat\",\n      \"url\": \"https://www.redhat.com/en/solutions/secure-development-lifecycle\",\n      \"content\": \"11 Δεκ 2023 ... Red Hat's secure development lifecycle and approach directly aligns with industry frameworks and requirements such as NIST SSDF, SLSA, ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Red Hat's Comprehensive Strategies for Software Security\",\n      \"url\": \"https://access.redhat.com/security/security-testing-sdl-practice\",\n      \"content\": \"Various security processes are executed at different stages of software development. Controls, such as threat modeling, are implemented during the design ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Security by design: Security principles and threat modeling - Red Hat\",\n      \"url\": \"https://www.redhat.com/en/blog/security-design-security-principles-and-threat-modeling\",\n      \"content\": \"20 Φεβ 2023 ... At Red Hat, we recognize the importance of implementing security measures early in the software development life cycle (SDLC), ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Security in the Red Hat product pathway\",\n      \"url\": \"https://access.redhat.com/security/product_pathway_security\",\n      \"content\": \"Threat modeling is used to identify and rate potential threats to software together with the systems for which the software is designed. De",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "refine-8-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "access.redhat.com",
+      "www.redhat.com"
+    ]
+  }
+}

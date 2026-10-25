@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "9d9c65e9be251b275af311a64c6997880c908fb52d86e07d9f0631609e3b917c",
+  "cachedAt": "2026-10-25T15:17:09Z",
+  "observedAt": "2026-10-25T15:17:09Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-8-rework_questions",
+    "invocation": 33,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-0081-2-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "8",
+    "repoId": "0081"
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "NIST DevSecOps threat modeling scenario A-6"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792941410941,
+    "end": 1792941411833
+  },
+  "outputDigest": "sha256:fa8c56f25d830775b735562c11d9de778331638cafb881859109245370abbcc9",
+  "resultUrls": [
+    "https://csrc.nist.gov/pubs/sp/1800/44/iprd",
+    "https://pages.nist.gov/nccoe-devsecops/",
+    "https://pages.nist.gov/nccoe-devsecops/example-implementations.html",
+    "https://pages.nist.gov/nccoe-devsecops/functional-demonstrations.html",
+    "https://pages.nist.gov/nccoe-devsecops/mapping-ssdf.html",
+    "https://www.nccoe.nist.gov/projects/secure-software-development-security-and-operations-devsecops-practices"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"5. Functional Demonstrations New — Secure Software Development, Security, and Operations (DevSecOps) Practices  documentation\",\n      \"url\": \"https://pages.nist.gov/nccoe-devsecops/functional-demonstrations.html\",\n      \"content\": \"5. Functional Demonstrations New — Secure Software Development, Security, and Operations (DevSecOps) Practices documentation\\n\\n# 5. Functional Demonstrations New\\n\\nThis section includes the Functional Demonstration Scenarios and the Functional Demonstration Results. The Functional Demonstration Scenarios include the scenarios the NCCoE project team used to demonstrate activities performed during each of the SDLC phases. The Functional Demonstration Results describe the demonstration results for each of the example implementations.\\n\\n## 5.1 Functional Demonstration Scenarios\\n\\nThis section details the scenarios that the NCCoE project team used to demonstrate activities to perform during each of the SDLC phases. These scenarios were derived from the descriptions and components shown in the Notional Reference Model section for each phase of the DevSecOps lifecycle. Each scenario includes:\\n\\n1. Objective: Outlines what the demonstration scenario intends to achieve.\\n2. A table with the following columns:\\n\\n- Scenario ID: used to map the results in the Functional Demonstration Results section.\\n- Demonstration Step: Each demonstration step covers a specific activity or activities to complete the scenario.\\n- Component(s): A list of components is identified for each demonstration step that should be used.\\n- Expected Outcome: The outcome of the demonstration required to consider a successful activity.\\n- SSDF Task: The SSDF practice and task number associated with the activity. The presented mapping represents the SSDF task(s) that the Demonstration Step helps achieve.\\n\\nNote: The current AI scenarios for each phase focus primarily on Generative AI. The Agentic AI demonstrations are planned for fut",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "refine-8-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "csrc.nist.gov",
+      "pages.nist.gov",
+      "www.nccoe.nist.gov"
+    ]
+  }
+}

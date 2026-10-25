@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "6ad4270b38fba8ff3e51b51764d9f01a992169924d398fdafb54ef7775fb9e5b",
+  "cachedAt": "2026-10-25T16:56:09Z",
+  "observedAt": "2026-10-25T16:56:09Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-E-rework_questions",
+    "invocation": 40,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00E9-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "E",
+    "repoId": "00E9"
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "ENISA NIS2 technical guidance model documentation AI ethics"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792947353608,
+    "end": 1792947354778
+  },
+  "outputDigest": "sha256:d00462cf4ac9a92acf1a59d87f32bb80627d6b9a3d907253e224734b9efcf505",
+  "resultUrls": [
+    "https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"IMPLEMENTATION\",\n      \"url\": \"https://www.enisa.europa.eu/sites/default/files/2025-06/ENISA_Technical_implementation_guidance_on_cybersecurity_risk_management_measures_version_1.0.pdf\",\n\n...583451 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_173fd7c98001BwVIuqdMSwz6B4\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "E"
+    ],
+    "phases": [
+      "refine-E-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "www.enisa.europa.eu"
+    ]
+  }
+}

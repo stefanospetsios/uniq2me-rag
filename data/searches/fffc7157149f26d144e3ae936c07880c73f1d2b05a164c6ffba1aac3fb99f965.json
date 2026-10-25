@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "fffc7157149f26d144e3ae936c07880c73f1d2b05a164c6ffba1aac3fb99f965",
+  "cachedAt": "2026-10-25T15:35:54Z",
+  "observedAt": "2026-10-25T15:35:54Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-8-rework_questions",
+    "invocation": 42,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-008A-2-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "8",
+    "repoId": "008A"
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "Implementing Regulation (EU) 2024/2690 Annex point 2 risk management policy"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792942537221,
+    "end": 1792942538826
+  },
+  "outputDigest": "sha256:ec326292c98ffd09864fd7ec3b63252ecadf7459efdedffbcd0d2ff2b71a8b79",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/eli/reg_impl/2024/2690/oj"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Implementing regulation - EU - 2024/2690 - EN - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/eli/reg_impl/2024/2690/oj\",\n\n...834688 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_173b400470011FAq41OU0cro2n\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "refine-8-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "eur-lex.europa.eu"
+    ]
+  }
+}

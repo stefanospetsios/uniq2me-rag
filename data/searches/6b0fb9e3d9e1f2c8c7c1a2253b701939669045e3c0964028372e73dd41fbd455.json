@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "6b0fb9e3d9e1f2c8c7c1a2253b701939669045e3c0964028372e73dd41fbd455",
+  "cachedAt": "2026-10-25T17:21:27Z",
+  "observedAt": "2026-10-25T17:21:27Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-F-rework_questions",
+    "invocation": 37,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00F4-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "F",
+    "repoId": "00F4"
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "Directive (EU) 2022/2555 Article 18 redress grievance mechanism AI systems"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792948853303,
+    "end": 1792948854604
+  },
+  "outputDigest": "sha256:2d840682d4ae3c5062b8bf77221aac24d2bda8e6601ff539af9f04103cf81b08",
+  "resultUrls": [
+    "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Directive - 2022/2555 - EN - EUR-Lex\",\n      \"url\": \"https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng\",\n\n...894454 bytes truncated...\n\nThe tool call succeeded but the output was truncated. Full output saved to: /home/stefanos/.local/share/opencode/tool-output/tool_174145f4a001SUf4Aa6c5MQ0gA\nUse Grep to search the full content or Read with offset/limit to view specific sections.",
+  "excerptTruncated": false,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "F"
+    ],
+    "phases": [
+      "refine-F-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "eur-lex.europa.eu"
+    ]
+  }
+}

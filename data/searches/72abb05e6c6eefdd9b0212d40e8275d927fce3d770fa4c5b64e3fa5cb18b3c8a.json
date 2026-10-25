@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "72abb05e6c6eefdd9b0212d40e8275d927fce3d770fa4c5b64e3fa5cb18b3c8a",
+  "cachedAt": "2026-10-25T15:35:54Z",
+  "observedAt": "2026-10-25T15:35:54Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-8-rework_questions",
+    "invocation": 42,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-008A-2-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "8",
+    "repoId": "008A"
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "Directive (EU) 2022/2555 Annex point 2 risk management policy"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792942535464,
+    "end": 1792942536452
+  },
+  "outputDigest": "sha256:efc10497a2a77098f4998fd4860f7d7b26360a166d5b8e607bda3b95b9b83704",
+  "resultUrls": [
+    "https://ercagroup.it/wp-content/uploads/2026/10/EN-POLICY_CYBERSECURITY_ERCAGROUP_2026_.pdf",
+    "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng",
+    "https://hub.prowler.com/compliance/nis2_azure",
+    "https://key2xs.com/nis2-directive",
+    "https://www.nis-2-directive.com/NIS_2_Directive_Article_21.html"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"Directive (EU) 2022/2555 Annex point 2 risk management policy\",\n  \"results\": [\n    {\n      \"title\": \"Directive - 2022/2555 - EN - EUR-Lex - European Union\",\n      \"url\": \"https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng\",\n      \"content\": \"27 Δεκ 2022 ... ... Directive (EU) 2018/1972, and repealing Directive (EU) 2016/1148 (NIS 2 Directive) (Text with EEA relevance). Directive (EU) 2022/2555 of the ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"NIS 2 Directive, Article 21: Cybersecurity risk-management measures\",\n      \"url\": \"https://www.nis-2-directive.com/NIS_2_Directive_Article_21.html\",\n      \"content\": \"Access the full text of Article 21 from Directive (EU) 2022/2555 (NIS 2 Directive), detailing cybersecurity risk-management measures for essential and ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Network and Information Security Directive (Directive (EU) 2022/2555)\",\n      \"url\": \"https://hub.prowler.com/compliance/nis2_azure\",\n      \"content\": \"Requirements · 1 POLICY ON THE SECURITY OF NETWORK AND INFORMATION SYSTEMS (ARTICLE 21(2), POINT (A) OF DIRECTIVE (EU) 2022/2555) · 2 RISK MANAGEMENT POLICY ( ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Cybersecurity Risk Management Policy - Erca Group\",\n      \"url\": \"https://ercagroup.it/wp-content/uploads/2026/10/EN-POLICY_CYBERSECURITY_ERCAGROUP_2026_.pdf\",\n      \"content\": \"... EU Directive. 2022/2555. The purpose of this document is to establish ... Annex 1: Basic security measures for important subjects. • Annex 3: Types of ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"EU NIS2 Directive - Key2XS\",\n      \"url\": \"https://key2xs.com/nis2-directive\",\n      \"content\": \"What NIS2 (EU 2022/2555) requires, who is in scope, where every member state stands on a live tracker, the Dutch Cyberbeveiligingswet, and how identity ...\",\n      \"engines\": [\n        \"goog",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "refine-8-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "ercagroup.it",
+      "eur-lex.europa.eu",
+      "hub.prowler.com",
+      "key2xs.com",
+      "www.nis-2-directive.com"
+    ]
+  }
+}

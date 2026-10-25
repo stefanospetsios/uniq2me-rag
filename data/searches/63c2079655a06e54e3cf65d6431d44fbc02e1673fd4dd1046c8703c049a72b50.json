@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "63c2079655a06e54e3cf65d6431d44fbc02e1673fd4dd1046c8703c049a72b50",
+  "cachedAt": "2026-10-25T16:56:09Z",
+  "observedAt": "2026-10-25T16:56:09Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-E-rework_questions",
+    "invocation": 40,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00E9-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "E",
+    "repoId": "00E9"
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "EU Commission Implementing Regulation 2024/2690 AI systems model assessment bias"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792947358875,
+    "end": 1792947359731
+  },
+  "outputDigest": "sha256:6a2fab10200b4bc32f40097849cfc335ee1cab7baa629345e034887fc5e0204b",
+  "resultUrls": [
+    "http://data.europa.eu/eli/reg/1971/1182/oj",
+    "http://data.europa.eu/eli/reg/1971/1182/oj%5D(http://data.europa.eu/eli/reg/1971/1182/oj",
+    "http://data.europa.eu/eli/reg/1971/1182/oj%5D(http://data.europa.eu/eli/reg/1971/1182/oj))..",
+    "http://data.europa.eu/eli/reg/1971/1182/oj).",
+    "http://data.europa.eu/eli/reg/2014/910/oj",
+    "http://data.europa.eu/eli/reg/2014/910/oj%5D(http://data.europa.eu/eli/reg/2014/910/oj",
+    "http://data.europa.eu/eli/reg/2014/910/oj%5D(http://data.europa.eu/eli/reg/2014/910/oj))..",
+    "http://data.europa.eu/eli/reg/2014/910/oj).",
+    "http://data.europa.eu/eli/reg/2024/1689/oj",
+    "http://data.europa.eu/eli/reg/2024/1689/oj.",
+    "http://data.europa.eu/eli/reg/2024/2509/oj",
+    "http://data.europa.eu/eli/reg/2024/2509/oj%5D(https://data.europa.eu/eli/reg/2024/2509/oj",
+    "http://data.europa.eu/eli/reg/2024/2509/oj%5D(https://data.europa.eu/eli/reg/2024/2509/oj))..",
+    "http://data.europa.eu/eli/reg/2024/2509/oj).",
+    "http://data.europa.eu/eli/reg_impl/2025/454/oj",
+    "http://data.europa.eu/eli/reg_impl/2025/454/oj%5D(https://data.europa.eu/eli/reg_impl/2025/454/oj",
+    "http://data.europa.eu/eli/reg_impl/2025/454/oj%5D(https://data.europa.eu/eli/reg_impl/2025/454/oj))..",
+    "http://data.europa.eu/eli/reg_impl/2025/454/oj).",
+    "http://publications.europa.eu/resource/oj/JOL_1971_124_R_TOC",
+    "http://publications.europa.eu/resource/oj/JOL_1971_124_R_TOC),",
+    "http://publications.europa.eu/resource/oj/JOL_2014_257_R_TOC",
+    "http://publications.europa.eu/resource/oj/JOL_2014_257_R_TOC),",
+    "https://artificialintelligenceact.eu/ai-act-explorer/proceedings/",
+    "https://ec.europa.eu/transparency/documents-register/api/files/C(2025)1377_0/090166e51a0bd81b?rendition=false"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Evaluations and Proceedings Implementing Act | EU Artificial Intelligence Act\",\n      \"url\": \"https://artificialintelligenceact.eu/ai-act-explorer/proceedings/\",\n      \"content\": \"Evaluations and Proceedings Implementing Act | EU Artificial Intelligence Act\\n\\n# Evaluations and Proceedings Implementing Act\\n\\nThis implementing regulation sets out how the Commission conducts evaluations of general-purpose AI models under Article 92 of the AI Act and how it runs proceedings that may end in a fine under Article 101. It covers the technical means by which providers must grant access to a model, the appointment and selection of independent experts, the opening and closing of proceedings, written observations on preliminary findings, access to the file, the protection of confidential information, and limitation periods. It entered into force on 10 August 2026.\\n\\nThese are the complete, official texts exactly as published in the Official Journal of the European Union. Please report issues to websites@futureoflife.org.\\n\\n Articles 15\\n\\nThe main substance of the Act\\n\\n- Chapter I Art. 1 \\n\\nGeneral Provisions\\n- Chapter II Arts. 2–4 \\n\\nConducting of Evaluations and Independent Experts\\n- Chapter III Arts. 5–6 \\n\\nProceedings\\n- Chapter IV Arts. 7–11 \\n\\nProcedural Safeguards\\n- Chapter V Arts. 12–15 \\n\\nGeneral and Final Provisions\\n\\n Recitals 6 Context and commentary to the Act 1 2 3 4 5 6\\n\\nAbout this tool\\n\\n Paragraph-level links\\n\\n Contextual hints\\n\\nHover any footnote number, defined term, or cross-reference to see an inline explanation without leaving the page.\\n\\n AI Act assistant\\n\\nIf you want to help, consider contributing a guest post or sending your ideas and feedback to Taylor, Design & Web Manager at: websites@futureoflife.org.\\n\\nBuilt and maintained by the Future of Life Institute — the world's oldest and largest nonprofit working for the responsible development of AI.\\n\\n## Conduct of Evaluations and Proceedin",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "E"
+    ],
+    "phases": [
+      "refine-E-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "artificialintelligenceact.eu",
+      "data.europa.eu",
+      "ec.europa.eu",
+      "publications.europa.eu"
+    ]
+  }
+}

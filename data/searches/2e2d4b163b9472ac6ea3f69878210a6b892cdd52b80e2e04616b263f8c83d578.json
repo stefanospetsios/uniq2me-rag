@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "2e2d4b163b9472ac6ea3f69878210a6b892cdd52b80e2e04616b263f8c83d578",
+  "cachedAt": "2026-10-25T16:56:48Z",
+  "observedAt": "2026-10-25T16:56:48Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-E-rework_questions",
+    "invocation": 40,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00E9-2-review",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "E",
+    "repoId": "00E9"
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "AWS Prescriptive Guidance model card documentation preparation demographic performance metrics prohibited use cases"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792947394710,
+    "end": 1792947395671
+  },
+  "outputDigest": "sha256:d4c6d3600d6c76ac8e2bcb4936383e06cfc890839336b8f4ef982f223622f06d",
+  "resultUrls": [
+    "http://json-schema.org/draft-07/schema",
+    "https://docs.aws.amazon.com/prescriptive-guidance/latest/gen-ai-inference-architecture-and-best-practices-on-aws/implementing-security-rai.html",
+    "https://docs.aws.amazon.com/prescriptive-guidance/latest/gen-ai-workload-assessment/testing.html",
+    "https://docs.aws.amazon.com/sagemaker/latest/dg/model-cards.html",
+    "https://docs.aws.amazon.com/wellarchitected/latest/responsible-ai-lens/raigt01-bp02.html",
+    "https://docs.aws.amazon.com/wellarchitected/latest/responsible-ai-lens/rairc03-bp02.html"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Amazon SageMaker Model Cards - Amazon SageMaker AI\",\n      \"url\": \"https://docs.aws.amazon.com/sagemaker/latest/dg/model-cards.html\",\n      \"content\": \"Amazon SageMaker Model Cards - Amazon SageMaker AI\\n\\nPrerequisites Intended uses of a model Risk ratings Model card JSON schema\\n\\n###### Important\\n\\nAmazon SageMaker Model Card is integrated with SageMaker Model Registry. If you're registering a model within Model Registry, you can use the integration to add auditing information. For more information, see Update the Details of a Model Version.\\n\\nUse Amazon SageMaker Model Cards to document critical details about your machine learning (ML) models in a single place for streamlined governance and reporting. Model cards can help you to capture key information about your models throughout their lifecycle and implement responsible AI practices.\\n\\nCatalog details such as the intended use and risk rating of a model, training details and metrics, evaluation results and observations, and additional call-outs such as considerations, recommendations, and custom information. By creating model cards, you can do the following:\\n\\n- Provide guidance on how a model should be used.\\n- Support audit activities with detailed descriptions of model training and performance.\\n- Communicate how a model is intended to support business goals.\\n\\nModel cards provide prescriptive guidance on what information to document and include fields for custom information. After creating a model card, you can export it to a PDF or download it to share with relevant stakeholders. Any edits other than an approval status update made to a model card result in additional model card versions in order to have an immutable record of model changes. \\n\\n###### Topics\\n\\n- Prerequisites\\n- Intended uses of a model\\n- Risk ratings\\n- Model card JSON schema\\n- Create a model card\\n- Model cards actions\\n- Set up cross-account support for Amazon SageMaker Model Cards\\n- Low-l",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "E"
+    ],
+    "phases": [
+      "refine-E-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "docs.aws.amazon.com",
+      "json-schema.org"
+    ]
+  }
+}

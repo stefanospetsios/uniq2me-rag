@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "d66c514380157b8356083432c9bc91b37798be97857bccd2a6cddc4c04df9a01",
+  "cachedAt": "2026-10-25T15:17:09Z",
+  "observedAt": "2026-10-25T15:17:09Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-8-rework_questions",
+    "invocation": 33,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-0081-2-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "8",
+    "repoId": "0081"
+  },
+  "toolId": "websearch_web_fetch",
+  "request": {
+    "url": "https://access.redhat.com/security/rh_security_declaration_sdl"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792941415436,
+    "end": 1792941416610
+  },
+  "outputDigest": "sha256:b26314f34127e2445fdf6169ab30dfaa6f6e8deba3f6119acd0cbb3ece1dd718",
+  "resultUrls": [],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"title\": \"Red Hat Security Declaration - Secure Software Development Life Cycle | Red Hat Customer Portal\",\n  \"content\": \"Red Hat Security Declaration - Secure Software Development Life Cycle | Red Hat Customer Portal\\n\\n# Red Hat Security Declaration - Secure Software Development Life Cycle\\n\\n- Disclaimer\\n- Red Hat Secure Development Lifecycle\\n- How Red Hat aligns with secure development industry practices\\n- Compliance & security certifications\\n- Security culture under Product Security management\\n- Continual security training\\n- Software supply chain\\n- Maintain the integrity and security of application source code\\n- Software security activities\\n- Threat modeling\\n- Security Architecture Review (SAR)\\n- Software manifest / Software Bill of Materials (SBOM)\\n- Static Application Security Testing (SAST)\\n\\n- Dynamic Application Security Testing (DAST)\\n- Penetration testing\\n- Malware scanning & testing\\n- Results of software security activities\\n- Responding to vulnerabilities\\n- About Red Hat\\n- Red Hat Product Security\\n- Contacting Red Hat Product Security\\n\\nLast updated: November 2025\\n\\n### How Red Hat aligns with secure development industry practices\\n\\nThroughout Red Hat software development, we strive to reduce the number of vulnerabilities in released software, reduce supply chain risks, mitigate the potential impact of undetected or unaddressed vulnerabilities, and address the root causes of vulnerabilities to prevent future recurrences. Red Hat maintains a software development lifecycle (SDLC) process that addresses risk assessment, vulnerability assessment, and security testing protocols of Red Hat software. Red Hat’s SDLC process follows the NIST SP 800-218 Secure Software Development Framework, conducting security reviews related to secure architecture, secure pipeline, threat modeling, Static and Dynamic Application Security Testing, antimalware scanning, penetration testing, and incident response throughout the supported life cycle of Re",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "8"
+    ],
+    "phases": [
+      "refine-8-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": []
+  }
+}

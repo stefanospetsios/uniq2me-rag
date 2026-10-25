@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "eed251d181628504e64e301b576069a82d52fb2e45ab28a95e18fa460ed2c38e",
+  "cachedAt": "2026-10-25T16:51:58Z",
+  "observedAt": "2026-10-25T16:51:58Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-E-rework_questions",
+    "invocation": 38,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00E7-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "E",
+    "repoId": "00E7"
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "AWS prescriptive guidance model assessment bias fairness validation site:docs.aws.amazon.com"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792947100751,
+    "end": 1792947101516
+  },
+  "outputDigest": "sha256:dc50de93b1f90b186ff13c8f7eb62681a0e0c98def2d19f30432ae4fd404212b",
+  "resultUrls": [
+    "https://docs.aws.amazon.com/prescriptive-guidance/latest/gen-ai-inference-architecture-and-best-practices-on-aws/implementing-security-rai.html",
+    "https://docs.aws.amazon.com/prescriptive-guidance/latest/gen-ai-workload-assessment/testing.html",
+    "https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-enterprise-ready-gen-ai-platform/model.html",
+    "https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-measure-post-training-bias.html",
+    "https://docs.aws.amazon.com/wellarchitected/latest/responsible-ai-lens/rairc03-bp02.html"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Testing - AWS Prescriptive Guidance\",\n      \"url\": \"https://docs.aws.amazon.com/prescriptive-guidance/latest/gen-ai-workload-assessment/testing.html\",\n      \"content\": \"Testing - AWS Prescriptive Guidance\\n\\n# Testing\\n\\n| Question | Example response |\\n| --- | --- |\\n| What are the testing requirements (for example, unit testing, integration testing, end-to-end testing)? | Unit testing for individual components, integration testing with external systems, end-to-end testing for critical scenarios, and so on. |\\n| How do you ensure data quality and consistency across different sources for generative AI training? | We maintain data quality through automated data profiling tools, regular data audits, and a centralized data catalog. We've implemented data governance policies to ensure consistency across sources and to maintain data lineage. |\\n| How will the generative AI model be evaluated and validated? | By using a holdout dataset, human evaluation, A/B testing, and so on. |\\n| What are the criteria for evaluating the performance and accuracy of the generative AI model? | Precision, recall, F1 score, perplexity, human evaluation, and so on. |\\n| How will edge cases and corner cases be identified and handled? | By using a comprehensive test suite, human evaluation, adversarial testing, and so on. |\\n| How will you test for potential biases in the generative AI model? | By using demographic parity analysis, equal opportunity testing, adversarial de-biasing techniques, counterfactual testing, and so on. |\\n| Which metrics will be used to measure fairness in the model's outputs? | Disparate impact ratio, equalized odds, demographic parity, individual fairness metrics, and so on. |\\n| How will you ensure diverse representation in your test datasets for bias detection? | By using stratified sampling across demographic groups, collaboration with diversity experts, use of synthetic data to fill gaps, and so on. |\\n| Which process will b",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "E"
+    ],
+    "phases": [
+      "refine-E-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "docs.aws.amazon.com"
+    ]
+  }
+}

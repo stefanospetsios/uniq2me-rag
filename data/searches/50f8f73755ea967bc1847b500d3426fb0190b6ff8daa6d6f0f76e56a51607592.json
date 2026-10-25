@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "50f8f73755ea967bc1847b500d3426fb0190b6ff8daa6d6f0f76e56a51607592",
+  "cachedAt": "2026-10-25T17:25:19Z",
+  "observedAt": "2026-10-25T17:25:19Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-F-rework_questions",
+    "invocation": 39,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-00F6-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "F",
+    "repoId": "00F6"
+  },
+  "toolId": "websearch_web_search",
+  "request": {
+    "query": "Law 5160/2024 Greece NIS2 implementation monitoring incident reporting AI systems"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792949099068,
+    "end": 1792949100167
+  },
+  "outputDigest": "sha256:7dec4c8f0447f0b8c5688b4f381cde3721a8a15e98792a79d136215447451be4",
+  "resultUrls": [
+    "https://adae.gov.gr/images/nomothetiko-plaisio/N.5160-2024.pdf",
+    "https://cyber.gov.gr/en/"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"results\": [\n    {\n      \"title\": \"Profile - Εθνική Αρχή Κυβερνοασφάλειας\",\n      \"url\": \"https://cyber.gov.gr/en/\",\n      \"content\": \"Profile - Εθνική Αρχή Κυβερνοασφάλειας\\n\\ninfo@website.com\\n\\n## The National Cybersecurity Authority (NCSA) of Greece\\n\\nThe National Cybersecurity Authority (NCSA) of Greece aims to organize, coordinate and implement a comprehensive framework of strategies, measures and actions for achieving and maintaining a high level of prevention, protection, deterrence, response and recovery from cyberattacks. To fulfill its purpose, the Authority develops comprehensive cybersecurity policies framework and draws the National Cybersecurity Strategy (NCSS) through which the strategic objectives, the priorities and the cybersecurity governance framework are defined. At the national level, NCSA is the leading authority in the cybersecurity domain implementing a whole of government approach. The Authority is responsible for issuing mandatory cybersecurity requirements for essential and important entities, as well as guidance of implementation and it is the competent authority to monitor compliance with the cybersecurity legislation. It fosters cooperation and coordination between governmental agencies and between the public and private sector. The Authority cooperates with EU agencies, other member states’ entities and communicates and exchanges expertise with international bodies and organizations as well as allied countries.\\n\\nNCSA is the competent Authority for monitoring and supervising the implementation of the European Union’s Directive on measures for a high common level of cybersecurity across the Union – NIS2 (2022/2555) in Greece (incorporated through Law 5160/2024). Amongst others, it is the designated single point of contact, the CSIRT and the competent cyber crisis management authority in Greece. Additionally, as stated in Law 4961/2022, the Authority serves as the National Cybersecurity Certification Authority, in accordance with",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "F"
+    ],
+    "phases": [
+      "refine-F-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "adae.gov.gr",
+      "cyber.gov.gr"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "recordType": "web-search",
+  "id": "49b87feb8df7a6f72b35b9580c3445249fe77ef52b544393143856ddb95b5c89",
+  "cachedAt": "2026-10-25T14:56:57Z",
+  "observedAt": "2026-10-25T14:56:57Z",
+  "originRunId": "qwen3-40019296746",
+  "foundIn": {
+    "runId": "qwen3-40019296746",
+    "controllerCommit": "21a35bf56d894a0b568910ca2afc5c7a9c37835b",
+    "phase": "refine-5-rework_questions",
+    "invocation": 41,
+    "task": "rework_questions",
+    "modelTag": "qwen3-coder-next:q8_0",
+    "modelSlot": "c",
+    "frameworkId": null,
+    "callId": "refine-rework_questions-005A-1-author",
+    "observedProviderModels": [
+      "ollama/qwen3-coder-next:q8_0"
+    ],
+    "scopeId": "5",
+    "repoId": "005A"
+  },
+  "toolId": "searxng_web_search",
+  "request": {
+    "query": "gateway-to-gateway VPN architecture between office networks documentation"
+  },
+  "executionStatus": "completed",
+  "toolTiming": {
+    "start": 1792940204053,
+    "end": 1792940205507
+  },
+  "outputDigest": "sha256:6ce55eee2bc2798cba28fcc4387738704d377ae45ea5b6bfab0be32399aca5b0",
+  "resultUrls": [
+    "http://www.watchguard.com/help/docs/help-center/en-US/content/en-US/Fireware/configuration_examples/bovpn_centralized_config_example.html",
+    "https://csrc.nist.rip/library/NIST%20SP%20800-077%20Guide%20to%20IPsec%20VPNs,%202005-12-01%20(Final).pdf",
+    "https://encapsulated.network/what-is-site-to-site-vpn/",
+    "https://learn.microsoft.com/en-us/azure/vpn-gateway/design",
+    "https://learn.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpngateways"
+  ],
+  "resultUrlsTruncated": false,
+  "resultUrlError": null,
+  "originalText": "{\n  \"query\": \"gateway-to-gateway VPN architecture between office networks documentation\",\n  \"results\": [\n    {\n      \"title\": \"About Azure VPN Gateway | Microsoft Learn\",\n      \"url\": \"https://learn.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpngateways\",\n      \"content\": \"8 Ιουν 2026 ... VPN Gateway uses a specific type of Azure virtual network gateway called a VPN gateway. Multiple connections can be created to the same VPN ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"NIST SP 800-77, Guide to IPsec VPNs - CSRC\",\n      \"url\": \"https://csrc.nist.rip/library/NIST%20SP%20800-077%20Guide%20to%20IPsec%20VPNs,%202005-12-01%20(Final).pdf\",\n      \"content\": \"office. An interesting variant on this scenario is a gateway-to-gateway VPN between the main office and the network of a business partner. In such a case ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Azure VPN Gateway topologies and design - Microsoft Learn\",\n      \"url\": \"https://learn.microsoft.com/en-us/azure/vpn-gateway/design\",\n      \"content\": \"1 Ιουλ 2026 ... You can even combine VNet-to-VNet communication with multi-site connection configurations. This lets you establish network topologies that ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"Centralized Branch Office VPN Architecture (Hub & Spoke)\",\n      \"url\": \"http://www.watchguard.com/help/docs/help-center/en-US/content/en-US/Fireware/configuration_examples/bovpn_centralized_config_example.html\",\n      \"content\": \"This configuration example demonstrates how to configure tunnel switching in a hub and spoke network topology to route VPN traffic between sites that are not ...\",\n      \"engines\": [\n        \"google cse\"\n      ]\n    },\n    {\n      \"title\": \"What Is a Site-to-Site VPN? How It Works in 2026\",\n      \"url\": \"https://encapsulated.network/what-is-site-to-site-vpn/\",\n      \"content\": \"19 Σεπ 2026 ... Each location has a gateway devic",
+  "excerptTruncated": true,
+  "excerptKind": "search-result-excerpt",
+  "error": null,
+  "filters": {
+    "languages": [
+      "und"
+    ],
+    "scopeIds": [
+      "5"
+    ],
+    "phases": [
+      "refine-5-rework_questions"
+    ],
+    "status": "search-result-unverified",
+    "publisher": null,
+    "host": null,
+    "hosts": [
+      "csrc.nist.rip",
+      "encapsulated.network",
+      "learn.microsoft.com",
+      "www.watchguard.com"
+    ]
+  }
+}
