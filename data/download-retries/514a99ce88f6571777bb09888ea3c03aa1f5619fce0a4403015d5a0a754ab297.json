@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "recordType": "source-download-retry",
   "id": "514a99ce88f6571777bb09888ea3c03aa1f5619fce0a4403015d5a0a754ab297",
-  "cachedAt": "2026-10-26T09:09:45Z",
+  "cachedAt": "2026-10-26T09:12:11Z",
   "originRunId": "qwen3-40019296746",
   "sourceUrl": "https://www.enisa.europa.eu/topics/risk-management/current-risk/bcm-resilience/bc-plan/it-service-continuity-plan",
   "candidate": {
@@ -27,12 +27,12 @@
     "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
     "phase": "prepare"
   },
-  "lastAttemptAt": "2026-10-26T09:09:45Z",
-  "attempts": 3,
+  "lastAttemptAt": "2026-10-26T09:12:11Z",
+  "attempts": 4,
   "lastError": "HTTP Error 404: Not Found",
   "foundIn": {
-    "runId": "40297395708",
-    "controllerCommit": "8dd0b76c108ed027ae988b15b273c71b721921b4",
+    "runId": "40297699649",
+    "controllerCommit": "804c37205cc32e7116e9392a4e54d597ca566f2e",
     "phase": "retry-downloads"
   },
   "retryOnNextRun": true,
