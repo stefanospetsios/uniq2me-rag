@@ -1,0 +1,1553 @@
+                 R
+                 E
+                 F                               TCG Guidance for Secure Update of Software and Firmware on
+                                                 Embedded Systems
+
+                 E
+                 R                               Version 1.0
+                                                 Revision 72
+                 E                               February 10, 2020
+
+
+                 N                               Contact:
+
+                 C                               admin@trustedcomputinggroup.org
+
+
+                 E                               Published
+
+
+
+
+TCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published   © TCG 2020
+      TCG Guidance for Secure Update of Software and Firmware on Embedded Systems
+
+
+
+
+     DISCLAIMERS, NOTICES, AND LICENSE TERMS
+     THIS DOCUMENT IS PROVIDED "AS IS" WITH NO WARRANTIES WHATSOEVER, INCLUDING ANY WARRANTY
+     OF MERCHANTABILITY, NONINFRINGEMENT, FITNESS FOR ANY PARTICULAR PURPOSE, OR ANY
+     WARRANTY OTHERWISE ARISING OUT OF ANY PROPOSAL, DOCUMENT OR SAMPLE.
+     Without limitation, TCG disclaims all liability, including liability for infringement of any proprietary rights, relating to use
+     of information in this document and to the implementation of this document, and TCG disclaims all liability for cost of
+     procurement of substitute goods or services, lost profits, loss of use, loss of data or any incidental, consequential,
+     direct, indirect, or special damages, whether under contract, tort, warranty or otherwise, arising in any way out of use
+     or reliance upon this document or any information herein.
+     This document is copyrighted by Trusted Computing Group (TCG), and no license, express or implied, is granted
+     herein other than as follows: You may not copy or reproduce the document or distribute it to others without written
+     permission from TCG, except that you may freely do so for the purposes of (a) examining or implementing TCG
+     documents or (b) developing, testing, or promoting information technology standards and best practices, so long as
+     you distribute the document with these disclaimers, notices, and license terms.
+     Contact the Trusted Computing Group at www.trustedcomputinggroup.org for information on document licensing
+     through membership agreements.
+     Any marks and brands contained herein are the property of their respective owners.
+
+
+
+
+TCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published   Page 1   © TCG 2020
+      TCG Guidance for Secure Update of Software and Firmware on Embedded Systems
+
+
+
+
+     ACKNOWLEDGEMENTS
+     The TCG wishes to thank all those who contributed to this specification. This document builds on considerable work
+     done in the various work groups in the TCG.
+     Special thanks to the members of the IoT-SG who participated in the development of this document:
+
+
+       NAME                          AFFILIATION
+
+
+       Dean Liberty                  Advanced Micro Devices
+
+       Wael Ibrahim                  American Express
+
+       Marcus Streets                Arm Limited
+
+       Bill Jacobs                   Cisco Systems
+
+       Lukas Jaeger                  Fraunhofer SIT
+
+       Monty Wiseman                 General Electric Company
+
+       Darren Krahn                  Google Inc.
+
+       Graeme Proudler               Graeme Proudler
+
+       Steve Hanna                   Infineon Technologies
+
+       Matthew Areno                 Intel Corporation
+
+       Sung Lee                      Intel Corporation
+
+       Ira McDonald                  Ira McDonald
+
+       David Challener               Johns Hopkins University, Applied Physics Lab
+
+       Adolph Seema                  Microchip Technology
+
+       Paul England                  Microsoft
+
+       Rob Spiger                    Microsoft
+
+       Dick Wilkins                  Phoenix Technologies Ltd.
+
+       Jérôme Quévremont             Thales
+
+       Quentin Thareau               Thales
+
+       Raj Pal                       U.S. Government
+
+
+
+
+TCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published   Page 2   © TCG 2020
+      TCG Guidance for Secure Update of Software and Firmware on Embedded Systems
+
+
+
+
+     CONTENTS
+     DISCLAIMERS, NOTICES, AND LICENSE TERMS ..................................................................................................... 1
+     ACKNOWLEDGEMENTS .............................................................................................................................................. 2
+     1     PREFACE ............................................................................................................................................................... 5
+             1.1 Purpose ........................................................................................................................................................... 5
+             1.2 Scope .............................................................................................................................................................. 5
+             1.3 Relationship with Other Standards ................................................................................................................. 5
+     2     THREAT LANDSCAPE........................................................................................................................................... 6
+             2.1 Examples of Attacks ....................................................................................................................................... 6
+             2.2 Attacker Motivations and Capabilities ............................................................................................................. 6
+     3     GUIDANCE ON SOFTWARE / FIRMWARE UPDATE .......................................................................................... 8
+             3.1 Secure Development ...................................................................................................................................... 8
+             3.2 Secure Update Signing ................................................................................................................................... 9
+             3.3 Robust Distribution........................................................................................................................................ 10
+             3.4 Secure Update Installation............................................................................................................................ 11
+             3.5 Post-Update Verification and Attestation ...................................................................................................... 13
+             3.6 Threats and Countermeasures ..................................................................................................................... 14
+     4     HANDLING CONSTRAINED DEVICES AND OTHER CONSTRAINTS ............................................................. 15
+             4.1 Device Constraints ........................................................................................................................................ 15
+             4.2 System Constraints ....................................................................................................................................... 16
+             4.3 Application Requirements ............................................................................................................................. 17
+     5     SOLUTIONS FOR CONSTRAINED DEVICES .................................................................................................... 18
+             5.1 Isolation ......................................................................................................................................................... 18
+             5.2 Generic First Update Engine (FUE).............................................................................................................. 18
+             5.3 Firmware Update Latch with First Update Engine ........................................................................................ 23
+                  5.3.1 Capability “Restrict updates to minimal FUE” ..................................................................................... 24
+                  5.3.2 Other Capabilities ................................................................................................................................ 24
+             5.4 Device Identifier Composition Engine with First Update Engine .................................................................. 24
+                  5.4.1 Capability “Verify updates” .................................................................................................................. 24
+                  5.4.2 Capabilities “Failed update detection” and “Recovery from failed update” ......................................... 25
+                  5.4.3 Capability “Decrypt updates” ............................................................................................................... 25
+                  5.4.4 Capability “Measure and attest” .......................................................................................................... 25
+             5.5 Trusted Platform Module with First Update Engine ...................................................................................... 25
+                  5.5.1 Capabilities “Decrypt updates” and “Tamper protect critical code & keys” ......................................... 25
+                  5.5.2 Capability “Verify updates” .................................................................................................................. 26
+                  5.5.3 Capabilities “Measure and attest” and “Detect failed updates” ........................................................... 26
+
+TCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published                                    Page 3      © TCG 2020
+      TCG Guidance for Secure Update of Software and Firmware on Embedded Systems
+
+
+
+
+                  5.5.4 Capability “Restrict updates to minimal FUE” ..................................................................................... 27
+     6     CONCLUSION ...................................................................................................................................................... 28
+     7     SOLUTION EVALUATION ................................................................................................................................... 29
+            7.1 Capabilities.................................................................................................................................................... 29
+                  7.1.1 Critical capabilities for platform updates ............................................................................................. 29
+                  7.1.2 Desirable capabilities for platform updates ......................................................................................... 29
+     8     OTHER SOLUTIONS ........................................................................................................................................... 31
+            8.1 A/B Updates .................................................................................................................................................. 31
+                  8.1.1 Capability “Verify updates” .................................................................................................................. 32
+                  8.1.2 Capabilities “Failed update detection” and “Recovery from failed update” ......................................... 32
+                  8.1.3 Capability “Decrypt updates” ............................................................................................................... 32
+                  8.1.4 Capability “Measure and attest” .......................................................................................................... 32
+            8.2 Verified Boot.................................................................................................................................................. 32
+     9     RELATED DOCUMENTS AND STANDARDS ..................................................................................................... 33
+            9.1 NIST SP 800-147 .......................................................................................................................................... 33
+            9.2 SOG-IS.......................................................................................................................................................... 33
+     10    REFERENCES ..................................................................................................................................................... 34
+     11    TERMINOLOGY ................................................................................................................................................... 35
+
+
+
+
+TCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published                                 Page 4     © TCG 2020
+      TCG Guidance for Secure Update of Software and Firmware on Embedded Systems
+
+
+
+
+     1 PREFACE
+     This document, the TCG Guidance for Secure Update of Software and Firmware on Embedded Systems , is
+     part of the Trusted Computing Group’s collection of Reference Documents, which are informative (non-normative)
+     documents that provide advice and guidance. None of the text in this document is normative.
+     Those who wish to jump to the final conclusion of the report should read section 6.
+
+     1.1 Purpose
+     The purpose of this document is to describe how secure software and firmware update for embedded systems can
+     be done using Trusted Computing technologies.
+     This document provides assessments of the benefits of employing TPM1, DICE2, and other Trusted Computing
+     technologies in securing software and firmware update for embedded systems.
+
+     1.2 Scope
+     The scope of this document is: secure software and firmware update for embedded systems. The supporting
+     infrastructure, such as code signing and update distribution services, are so critical to the secure and reliable update
+     process that they cannot be excluded from consideration. Therefore, they are in scope for the purposes of this
+     document.
+     Repair of damaged or broken devices is explicitly out of scope for this document. Rather, this document focuses on
+     the ability to securely update software and firmware as part of the normal operation of embedded systems.
+     Recovery via firmware and software update is of increasing importance. Today’s attackers increasingly aim to
+     replace firmware and software on devices with their own malicious code to establish a permanent foothold on the
+     device. Therefore, embedded systems designers cannot assume that their firmware and software will remain
+     pristine. They must plan for ways to detect and recover from firmware and software compromise. Best practices for
+     doing so are presented in this document.
+     Because each embedded system is different, this document cannot provide specific instructions suitable for all
+     circumstances. The reader will need to evaluate their own situation and determine how to interpret the best
+     practices described in this document.
+     Even if the reader follows all the recommendations in this document, nothing is completely secure. The state of the
+     art in information security is advancing rapidly, and this is even more true for embedded systems security. Still,
+     following the best practices in this document will provide a strong foundation for secure software and firmware
+     update throughout the lifetime of the products.
+
+     1.3 Relationship with Other Standards
+     Several other standards groups and consortia have issued documents on secure software and firmware update.
+     This document complements the others by providing a Trusted Computing Group perspective on the topic. This
+     document references existing standards in the area and may be referenced by other standards groups and
+     consortia in the future. For a list of other standards and publications on this topic, see sections 9 and 10.
+
+
+
+
+     1 https://trustedcomputinggroup.org/resource/tpm-library-specification
+     2 https://trustedcomputinggroup.org/work-groups/dice-architectures
+
+
+
+TCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published   Page 5   © TCG 2020
+      TCG Guidance for Secure Update of Software and Firmware on Embedded Systems
+
+
+
+
+     2 THREAT LANDSCAPE
+     Network-enabled embedded systems (the Internet of Things) are found in an ever-widening number of smart
+     applications and platforms, including automobiles, household appliances, industrial systems, and medical
+     equipment. This trend is driven primarily by factors like functionality, convenience, and profit. Increasing network
+     connectivity in such devices allows for advanced feature sets, increased awareness and response, and faster
+     patching and updating of system firmware and software. However, this network connectivity also results in new
+     threats and potential issues that never previously existed in such platforms.
+
+     2.1 Examples of Attacks
+     Consider as an example the well-known Stuxnet3 virus from 2010 that compromised Programmable Logic
+     Controllers (PLCs) used in the Iranian nuclear program. A similar attack was successful against the Ukrainian4
+     power grid in 2015 that resulted in a temporary loss of power for 225 thousand individuals. Both of these attacks
+     exploited weak software update mechanisms to install malicious code onto embedded systems.
+     Yet software updates are essential to preserving the security of IT and embedded systems. The criticality of
+     frequent and timely deployment of updates was illustrated by the recent ransomware attack known as “WannaCry5”.
+     This ransomware attack locked out file and data access on unpatched systems until the owner made a ransom
+     payment to the attacker. Although a patch existed for many systems, the attack was possible for two primary
+     reasons: first, systems were not updated in a timely manner, and second, older Operating System versions that no
+     longer had available support were also susceptible to the attack. Although this example was not specifically
+     targeting embedded systems, a similar attack on embedded systems is certainly possible, and the ransom for
+     unlocking critical infrastructure is likely to be substantially higher than for a common desktop system.
+     These examples illustrate the importance of providing secure updates for embedded systems. In order to properly
+     design and implement secure updates, we must understand why and how attackers are targeting IoT devices.
+
+     2.2 Attacker Motivations and Capabilities
+     The use cases for embedded systems make them enticing targets for malicious attackers for a number of reasons.
+     The market for embedded systems is large and rapidly growing, which in turn results in a significant number of
+     manufacturers rushing to offer the best capabilities at the cheapest price. Sometimes security takes a back seat.
+     Equally appealing for an attacker is the number of deployed embedded systems. The quantity provides an attacker
+     with a large number of susceptible targets if they are able to find an associated vulnerability. All of the traditional
+     motivations for hackers still exist: notoriety, personal vendettas, “because I could”, criminal intent and monetary
+     gain, and state-sponsored initiatives. Yet the two reasons previously listed (large quantity of connected products and
+     inadequate security levels in those products) cause embedded systems environments to have greater concern and
+     growing impact relative to traditional IT system attacks. In short, attackers are likely to derive greater recognition
+     and impact through successful attacks on embedded systems than other targets.
+     Equally concerning is the placement of and lack of security insight for IoT devices. Attackers are constantly trying to
+     infiltrate corporate and government networks for a variety of reasons. Doing so typically requires breaking one or
+     more firewalls or other network security solutions, the security of which often relies upon the fact that the attacker is
+     launching attacks from outside the network. With the growing connection of IoT devices directly to the cloud through
+     wireless networks or tunnels that bypass corporate security protections, this assumption is less certain and therefore
+     corporate security controls become less effective. IoT devices and protocols are often not managed or supported or
+     even identified by standard IT security teams and tools, thus making it easier for attackers to infect IoT devices and
+     evade detection. If an attacker is able to implant malicious code on a vulnerable embedded system that is widely
+
+
+     3 http://www.bbc.com/news/technology-11388018
+     4 https://ics.sans.org/media/E-ISAC_SANS_Ukraine_DUC_5.pdf
+     5 http://www.bbc.com/news/technology-39901382
+
+
+
+TCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published   Page 6   © TCG 2020
+      TCG Guidance for Secure Update of Software and Firmware on Embedded Systems
+
+
+
+
+     deployed in the target network, they can create their own distributed botnet or command and control centers inside
+     the target network and mount further attacks. Similar attacks can take place in a smart home.
+     IoT devices bridge the physical and the virtual, combining computation and communication resources with sensors
+     and actuators that interact with the physical world. From an attacker’s standpoint, this provides a unique opportunity
+     to sit in a safe location while interacting with the physical world at a remote target location. The possibilities are
+     endless: watching and listening to people in their homes, causing an explosion by disabling safety systems in a
+     pipeline or chemical plant, and many more attack scenarios.
+     As we have seen, IoT devices give attackers special attack opportunities. Detecting and mitigating these concerns
+     are critical to the security and reliability of homes, businesses, organization, and even entire nations. The first step
+     in this process is to ensure that embedded systems have the means to securely and regularly perform updates that
+     reduce vulnerabilities and attempt to validate the current execution state of the system. This document provides
+     insight and guidance for manufacturers on making this first step.
+
+
+
+
+TCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published   Page 7   © TCG 2020
+      TCG Guidance for Secure Update of Software and Firmware on Embedded Systems
+
+
+
+
+     3 GUIDANCE ON SOFTWARE / FIRMWARE UPDATE
+     As with many cybersecurity problems, no one solution can address the many attack techniques that attackers can
+     employ. Rather, a “defense in depth” approach is needed. Devices must be capable of being updated, even when
+     they are compromised6. Multiple countermeasures must be employed to ensure that attacks are prevented.
+     Attackers try to find and exploit the weakest link, so all the steps in the update development and deployment
+     process must be properly protected. The leftmost column in Figure 1 illustrates the main phases in the secure
+     software and firmware update lifecycle, which are described in the subsequent sections of this document. The need
+     for continuous updates and security reassessments is indicated by the Updates box on the right of the figure.
+
+
+
+
+     Figure 1 - The Software and Firmware Update Lifecycle
+
+     3.1 Secure Development
+     To secure the firmware and software development process, one must start by establishing and agreeing on proven
+     software development practices. Recommended practices include:
+
+          •   Building security into all steps in the development process 7
+
+     6 The TCG’s Cyber Resilient Technology Work Group addresses these issues:
+
+       https://trustedcomputinggroup.org/work-groups/cyber-resilient-technologies
+     7 https://safecode.org
+
+
+
+TCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published   Page 8   © TCG 2020
+      TCG Guidance for Secure Update of Software and Firmware on Embedded Systems
+
+
+
+
+          •   Thorough threat analysis and countermeasure selection during design and maintenance 8, 9, 10
+          •   Applying best practices for security and improving them over time to address new and emerging threats
+          •   Agreeing on measurable security requirements that must be met before release
+          •   Securing the development environment
+          •   Using trustworthy tools, languages, and libraries 11
+          •   Careful input validation12 and error handling13
+          •   Training all participants on security
+          •   Establishing a robust incident response process14
+     All of the practices in the preceding list should be adopted by any embedded system developer or teams. Additional
+     practices for higher levels of security may include:
+
+          •   Establishing strict physical security (e.g., mantraps) and network security (e.g., air gaps) for the
+              development machines
+          •   Independent security reviews of source code
+          •   Independent security audits and certifications of the product and the development process (e.g., Common
+              Criteria15, FIPS 14016)
+          •   Setting up of an Information Security Management System (ISO 27000)
+          •   Independent security analysis of external dependencies (tools, libraries, etc.)
+          •   Penetration testing
+          •   Stress testing
+          •   Automated testing, including fuzzing, to find bugs and security vulnerabilities
+          •   Static analysis of binary or source code to find bugs and poor coding practices
+          •   Strong authentication for staff
+     Fortunately, many solid references are available on secure software development.17 This section provides only a
+     brief summary of the techniques described in those references.
+
+     3.2 Secure Update Signing
+     Creating a secure software update is more complex than creating software from scratch. In addition to the
+     complexity that comes from updating an existing software installation (e.g., updating files created by an earlier
+     version), the software update must be signed (known as “code signing”) so that the recipient can verify its origin and
+     integrity before installing it.
+
+     Code signing is one of the most important steps in the secure software update process but rarely does it receive the
+     careful attention that it deserves. For this reason, attackers have repeatedly attacked the code signing step18 with
+     tremendous success. A successful attack on this step permits the attacker to distribute malicious code signed with
+     the proper key, either by exploiting defects in the signature validation process or by using the key itself. This slips
+     the malicious code right under the nose of the defender without detection.
+
+     8
+       Threat Modeling: Designing for Security by Adam Shostack
+     9
+       Risk Centric Threat Modeling: Process for Attack Simulation and Threat Analysis by Tony UcedaVélez
+     10
+        Securing Systems: Applied Security Architecture and Threat Models by Brook S. E. Schoenfield
+     11 https://www.securecoding.cert.org
+     12 https://owasp.org/www-project-cheat-sheets/cheatsheets/Input_Validation_Cheat_Sheet.html
+     13 https://owasp.org/www-project-cheat-sheets/cheatsheets/Error_Handling_Cheat_Sheet.html
+     14 http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf
+     15 https://www.iso.org/standard/72891.html
+     16 https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.140-2.pdf and https://csrc.nist.gov/publications/detail/fips/140/3/final
+     17 https://www.microsoft.com/en-us/sdl
+     18 https://krebsonsecurity.com/tag/bit9-breach/
+
+
+
+TCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published   Page 9   © TCG 2020
+      TCG Guidance for Secure Update of Software and Firmware on Embedded Systems
+
+
+
+
+     Rollback management is also a safety and security concern: an attacker can reuse a legitimate previous version
+     with a known vulnerability. If there is no mechanism to prevent rollback, the vulnerability can be exploited and the
+     attacker can potentially take control of the system. Updates should include a sequential version number to support
+     rollback protection.
+     When building a secure update signing system, recommended practices include:
+
+          •   Thorough threat analysis and countermeasure selection during design and maintenance
+          •   Applying best practices for security
+          •   Using separate keys and certificates for signing production code vs. development code
+          •   Using reliable, well-vetted cryptographic algorithms and tools
+          •   Selecting a signing key with adequate strength19
+          •   Ensuring that customer products only accept code signed with the production key
+          •   Applying extra security measures to the production code signing process
+          •   Carefully vetting any CAs and other parties trusted in the signing process
+          •   Using version information to prevent rollback
+          •   Designing in a revocation process for patches (in case they turn out to be bad) and keys (in case they are
+              compromised) and checking that revocation information before the update
+          •   Planning for key expiration and rollover (because no key lasts forever)
+          •   Designing in cryptographic algorithm agility (because algorithms become weaker over time, e.g. with the
+              transition to quantum-resistant cryptographic algorithms)
+     All of the practices in the preceding list should be adopted by any embedded system developer. Additional practices
+     for higher levels of security may include:
+
+          •   Placing the production signing key in a Hardware Security Module (HSM) to prevent extraction
+          •   Using a dedicated and air-gapped computer for production code signing
+          •   Strictly controlling physical and logical access to the production code signing system
+          •   Requiring multiple parties to authorize production code signing or to gain access to the production code
+              signing system20
+          •   Carefully examining code for signs of compromise before signing it
+     While these measures may seem extreme, any flaws in the security of code signing can give attackers free rein over
+     the systems being updated, so these measures are justified. A best practices document is available at:
+     https://www.thawte.com/code-signing/whitepaper/best-practices-for-code-signing-certificates.pdf
+
+     3.3 Robust Distribution
+     After a software update has been signed, it must be distributed to the machines that will be updated. If the
+     distribution network is intermittent, devices may need to assemble updates from data received at irregular intervals
+     whenever the communication link becomes available. If networks have restricted bandwidth and/or high latency,
+     updates may need to be just the differences between the device’s current state and the upgraded state, instead of
+     an entire upgraded state. In addition to the fundamental challenge of sending large files out to many endpoints,
+     other essential challenges arise such as ensuring the identity and trustworthiness of the distribution service.
+
+     Many organizations are concerned that updates may cause unexpected problems so they insist on performing their
+     own testing before distributing updates. This adds an element of delay and another trusted party to the distribution
+     system. If patching is delayed too long, endpoints may be placed at greater risk of compromise.
+
+     19 https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r4.pdf
+     20 Multi-party authorization for production code signing could be implemented with physical locks and keys, passwords,
+
+     biometrics, electronic ledgers, or a variety of other mechanisms.
+
+TCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published   Page 10   © TCG 2020
+      TCG Guidance for Secure Update of Software and Firmware on Embedded Systems
+
+
+
+
+     Weaknesses in the distribution step can be exploited, even if all other security measures are properly implemented.
+     For example, needed updates can be blocked or malicious commands injected into the update stream.21
+     When building a robust update distribution system, recommended practices include:
+
+          •   Thorough threat analysis and countermeasure selection during design and maintenance
+          •   Applying best practices for security
+          •   Securing communications with thoroughly vetted security protocols
+          •   Establishing the identity and trustworthiness of the distribution service, generally through a trusted third party
+          •   Automating the distribution and installation of software updates to minimize the risk that updates are not
+              widely distributed and installed, subject to administrative control for organizations that need to control and
+              manage software updating
+          •   Designing software update distribution mechanisms in a manner that avoids overloading networks or servers
+          •   Securing administrative access to update servers to ensure that only authorized updates are distributed
+          •   Using established software update distribution mechanisms22 to reduce administrative workload
+          •   Permitting administrators to schedule updates on their organization’s systems
+          •   Detecting and stopping denial of service attacks on update servers or on the distribution mechanism
+     All of the practices in the preceding list should be adopted by any embedded system developer. Additional practices
+     for higher levels of security may include:
+
+          •   Placing the communications security keys in a Hardware Security Module (HSM) to prevent extraction
+          •   Authenticating endpoints to determine which updates they are authorized to receive
+          •   Tracking installation of updates to ensure that endpoints have been updated
+          •   Alerting administrators if updates cannot be installed on some endpoints
+          •   Permitting administrators to override user efforts to stop updates or to install updates without administrative
+              approval
+          •   Assuming that the update servers may be compromised at some point. For this reason, endpoints should
+              verify any updates downloaded from the servers and other mechanisms should be included to verify that
+              updates are being properly downloaded and installed.
+
+     3.4 Secure Update Installation
+     Installing a software or firmware update on an embedded system may seem to be a simple and easy matter but
+     actually there are many tricky operational and security aspects.
+     Downtime is a primary concern for some embedded systems, especially those that control critical processes.
+     Although steps can be taken to reduce downtime due to an update, some downtime is generally involved. For this
+     reason (and to manage risks), device owners must be able to schedule updates, at least for critical devices.
+     Alternatively, devices may need to accept upgrades whilst the devices are working. This typically requires
+     redundancy in the device, so that part of the device can be upgraded while the rest of the device continues to
+     operate, plus a way to determine when it is safe for the device to switch from existing functionality to upgraded
+     functionality. Performing updates in the background may enable encrypted data to be immediately overwritten with
+     updated encrypted data, avoiding the need to decrypt during the update. Yet another alternative is to employ one or
+     more backup devices while the primary device is being updated.
+     Software and firmware updates sometimes fail to complete successfully, for various reasons (power failure during
+     update, inability to convert data or to reach external resources, etc.). Devices should be able to recover from such
+
+     21 https://www.scmagazineuk.com/windows-server-update-services-open-to-attack/article/535511
+     22 http://www.embedded-computing.com/dev-tools-and-os/identifying-secure-firmware-update-mechanisms-for-
+
+     embedded-linux-devices-and-open-source-options
+
+TCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published   Page 11   © TCG 2020
+      TCG Guidance for Secure Update of Software and Firmware on Embedded Systems
+
+
+
+
+     failures, if only by reverting to a recovery mode. Another way to do this is to use an A/B mechanism, as described in
+     section 8.
+     Infection of the update with malicious software and firmware is always a concern. Every possible step must be taken
+     to prevent such infections, as they may result in device compromise or bricking. Mutable Roots of Trust23 must be
+     especially well protected against compromise.
+     Updates often require changes to data stored on the embedded system. For example, the format of a database or
+     configuration file may need to change when a new version of software is installed. With restricted on-device storage
+     or a desire to accommodate graceful recovery if an update fails, any complex data conversions may best be
+     achieved by sending the data to the cloud or an external server for backup and conversion.
+     Recommended practices for secure update installation include:
+
+          •   Thorough threat analysis and countermeasure selection during design and maintenance
+          •   Applying best practices for security24
+          •   Restricting update installation privileges and activities to a minimally sized, carefully coded, and tightly
+              controlled First Update Engine (FUE, as defined in section 5.2), including protections for keys and code that
+              are critical to the update process
+          •   Verifying updates before installation for: source authentication and authorization to make sure they come
+              from a trusted update signer, integrity, appropriateness for this device, and any other necessary
+              authorizations (e.g. device owner)
+          •   Avoiding TOCTTOU (Time Of Check To Time Of Use) attacks and similar race conditions, for example by
+              ensuring that no other operations can take place while an update is occurring
+          •   Including a recovery process for detecting and recovering from failed or malicious updates of software and
+              firmware
+          •   Permitting administrators to schedule updates on their organization’s systems
+     All of the practices in the preceding list should be adopted by any embedded system developer. Additional practices
+     for higher levels of security may include:
+
+          •   Using encrypted updates to increase the difficulty of reverse engineering updates to discover and exploit
+              vulnerabilities in old code. In extreme cases (e.g., for secure processors), unencrypted code may only be
+              present in tamper-resistant hardware.
+          •   Using physically tamper-resistant storage and/or execution for keys and code that are critical to the update
+              process (e.g., the FUE and RTM)
+          •   Carefully designing, testing, and protecting the FUE to ensure that it can handle maliciously crafted inputs,
+              thus preventing OS or other higher-level software compromise from escalating to firmware compromise
+          •   Countersigning updates, so even genuine updates (signed by a manufacturer) cannot be applied without
+              permission from entities (such as a platform’s Administrator) with a legitimate interest in determining whether
+              and when an update should be applied.
+          •   Ensuring that the recovery process cannot be used as a way to roll back to vulnerable firmware (e.g., by
+              requiring installation of fresh firmware not just reverting to the factory configuration)
+
+
+
+
+     23 https://trustedcomputinggroup.org/resource/tcg-glossary
+     24 ETSI TS 103 645 Cyber Security for Consumer Internet of Things,
+
+     https://www.etsi.org/deliver/etsi_ts/103600_103699/103645/01.01.01_60/ts_103645v010101p.pdf
+
+TCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published   Page 12   © TCG 2020
+      TCG Guidance for Secure Update of Software and Firmware on Embedded Systems
+
+
+
+
+     3.5 Post-Update Verification and Attestation
+     Distribution systems need to determine whether an upgraded device has been properly upgraded, is functional,
+     provides all its APIs, and can access networks. This verification process may include manual or automated testing
+     of functionality and integrity.
+     As part of this process or on an ongoing basis, device owners and manufacturers (and other parties) may wish to
+     monitor the version and integrity of firmware and software installed on a device. Trusted Computing enables this
+     securely through the remote attestation capability. This practice may be necessary for cases where device
+     monitoring or management is needed.
+     To enable attestation, a measured boot must be performed. During such a measured boot, native measurements
+     (cryptographic hashes) of firmware and software are taken during the boot sequence, initially by a Root of Trust for
+     Measurement (RTM), and sent to a Root of Trust for Storage (RTS). Alternatively, native measurements of firmware
+     and software taken by the device are compared by the device with signed versions of measurements stored in the
+     device: if they match, the device verifies the signatures using public keys stored in the device, and sends the public
+     keys to the Root of Trust for Storage (instead of sending the native measurements). This option increases device
+     complexity but simplifies attestation infrastructure. (See later in this section or [D-RTM].)
+     After the measured boot, remote attestation can be performed. The measurements taken during boot can be
+     securely sent to an attestation server via a cryptographic handshake with a Root of Trust for Reporting (RTR). The
+     attestation server can compare the measurements against a set of “golden measurements” to determine which
+     firmware or software is running on the device. Devices with old firmware or software can be isolated to protect them
+     from infection and upgraded to the newest versions. Devices with malicious or unknown firmware or software can be
+     isolated for forensic inspection.
+     Golden native measurements of firmware and software are short-lived, because native measurements change
+     whenever firmware or software changes. However, golden measurements are long-lived if they comprise public
+     keys used by the device to verify signatures of native measurements: the public keys stay the same, irrespective of
+     which version of firmware or software is installed on the device, if the same private key is always used to sign
+     updates of the same firmware or software. Local policies can also be implemented (e.g., using TPM sealing or PCR-
+     based policies) to enable local detection of old or malicious firmware. Appropriate responses to local detection of
+     such problems could include triggering a recovery mode and/or alerting the administrator via a display indication.
+     When remote attestation is employed, recommended practices include:
+
+          •   Thorough threat analysis and countermeasure selection during design and maintenance
+          •   Follow Secure Software Development Life Cycle (SSDLC)25 practices
+          •   Using measured boot and remote attestation to enable remote management servers to detect and manage
+              device firmware and software versions
+
+     All of the practices in the preceding list should be adopted by any embedded system developer who employs remote
+     attestation. Additional practices for higher levels of security may include:
+
+          •   Implementing network access controls to isolate devices with old, malicious, or unknown firmware or
+              software versions
+          •   Using local policies as described above to detect improper firmware and software versions and trigger
+              device recovery or at least prevent harmful behavior
+
+
+
+
+     25 https://safecode.org
+
+
+
+TCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published   Page 13   © TCG 2020
+      TCG Guidance for Secure Update of Software and Firmware on Embedded Systems
+
+
+
+
+     3.6 Threats and Countermeasures
+                                                                           Countermeasures
+       Threats                Secure                 Secure Update          Robust         Secure Update                  Remote
+                              Development            Signing                Distribution   Installation                   Attestation
+       Compromise of                 X
+       Supply Chain
+       (e.g. Compiler)
+       Compromise of                                          X
+       Signing Keys
+       Obsolescence of                                        X
+       Crypto Algorithm
+       Denial of                                                                     X
+       Service on
+       Update
+       Distribution
+       Compromise of                                          X                                             X                       X
+       Update
+       Distribution
+       Update without                                                                                       X                       X
+       Local Approval
+       Failed Update                                                                                        X                       X
+       Leaving Unsafe
+       Device
+       Exploit                         X                                                                    X
+       Vulnerability in
+       Update Process
+     Table 1 - Threats and Countermeasures
+
+
+
+
+TCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published   Page 14   © TCG 2020
+      TCG Guidance for Secure Update of Software and Firmware on Embedded Systems
+
+
+
+
+     4 HANDLING CONSTRAINED DEVICES AND OTHER CONSTRAINTS
+     Embedded systems are very diverse and impose different constraints that drive a need for different solutions to be
+     chosen for the secure update of software and firmware.
+     Examples of such constraints are enumerated below. Section 5 describes several solutions suitable for use in such
+     constrained environments.
+
+     4.1 Device Constraints
+     Depending upon the application domain and the architectural choices, the devices can have reduced computing,
+     isolation, Root-of-Trust, connectivity and/or energy resources. Examples of such resources include:
+
+          •   Separation/Isolation Mechanism
+                   o    Separate memory for secure processing
+                            ▪    Physically separate memory
+                            ▪    MMU separation
+                            ▪    Cryptographic separation
+                   o    Separate execution environments
+                            ▪    Processes – separated by kernel
+                            ▪    Containers – separated by kernel
+                            ▪    Sandboxes – separated by application code
+                            ▪    Virtual machines – separated by hypervisor
+                            ▪    Trusted execution environment – separated by processor security
+                            ▪    Physically separate – separate chips or cores
+          •   Restricted Power
+                   o    Battery power with long life needed
+                   o    Scavenged power
+                   o    Intermittent power
+          •   Different Communications protocols and media
+                   o    Restricted bandwidth
+                   o    High latency
+                   o    Broadcast/multicast (satellite)
+                   o    One-way
+                   o    Multi-hop or mesh
+                   o    Intermittent or poor connectivity
+                   o    Small message length
+          •   Memory size
+                   o    Restricted Non-Volatile Storage
+                   o    Restricted Volatile Storage
+                   o    Subject to wear-out
+
+
+TCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published   Page 15   © TCG 2020
+      TCG Guidance for Secure Update of Software and Firmware on Embedded Systems
+
+
+
+
+          •   Processor
+                   o    Low speed
+                   o    Low word length
+                   o    Lack of cryptographic acceleration primitives (see the note at the end of this section)
+          •   Availability of Device Security Mechanisms
+                   o    TPM
+                   o    DICE
+                   o    Firmware Update Latch
+                   o    Crypto accelerator
+                   o    Secure storage
+                   o    FUE (First Update Engine)
+                   o    RTM (Root of Trust for Measurement)
+     The design process for these devices can also involve constraints:
+
+          •   OS and Language properties
+                 o Strong types
+                 o Automatic memory management
+                 o ASLR
+                 o Protection against buffer overflows
+     The production process for the devices is a source of additional constraints:
+
+          •   Manufacturing and logistics constraints
+                 o Per-device customization
+                 o Per-device identity
+                 o Untrusted manufacturing line
+                 o Untrusted shipping and logistics
+                 o Untrusted component suppliers
+          •   Cost constraints
+                 o Restricted budget
+     Note: In the specific context of Trusted Computing, the ability to perform computing-intensive asymmetric
+     cryptography has a tremendous impact on the ability to deploy PKI and the use of X.509 certificates:
+
+          -   A device that cannot support asymmetric cryptography imposes the storage of secret keys in the managing
+              entity (usually a server) and therefore the need to increase its security.
+          -   A device that supports asymmetric cryptography can lack the full support of X.509 certificate management.
+              In such case, the managing entity will include some middleware to translate X.509 certificates into a simpler
+              protocol supported by the embedded device.
+          -   A device that comprises the resources to fully support X.509 certificates will remove the need to offload PKI-
+              related functions.
+
+     4.2 System Constraints
+     The environment and the system can also set constraints on the secure update solution:
+
+          •   Environmental constraints
+                 o Subject to tampering
+
+TCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published   Page 16   © TCG 2020
+      TCG Guidance for Secure Update of Software and Firmware on Embedded Systems
+
+
+
+
+          •   Administrative issues
+                  o Ability to schedule downtime
+                  o Availability of skilled administrative staff
+                  o Availability of physical access to device
+                  o Need to retest or recertify after update
+          •   Lifecycle issues
+                  o Availability of manufacturer support
+
+     4.3 Application Requirements
+     Finally, the application domain can also involve specific constraints.
+
+          •   Long product lifetime
+                 o Implies need for high MTBF
+                 o Implies increased maintenance and obsolescence management
+          •   Real-time responsiveness
+                 o Need to respond to interrupts or events within a certain period of time
+
+
+
+
+TCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published   Page 17   © TCG 2020
+      TCG Guidance for Secure Update of Software and Firmware on Embedded Systems
+
+
+
+
+     5 SOLUTIONS FOR CONSTRAINED DEVICES
+     This section presents several solutions to support recommendations identified in section 3 for embedded devices
+     that have some of the constraints enumerated in section 4. For further reading, section 7 evaluates these solutions
+     and section 8 presents a few alternative solutions.
+
+     5.1 Isolation
+     Secure computing depends on engines (software and/or hardware components) that perform dedicated and critical
+     functions. These engines are protected from interference by isolation. An engine may be isolated via any
+     combination of physical and logical mechanisms that provide the necessary level of protection.
+     Physical isolation operates all the time. The construction of a physically isolated engine, and the construction of the
+     mechanisms that provide a logically isolated engine, must be sufficient to repel the physical attacks that the host
+     platform is specified to resist. Physical isolation of an engine may also be sufficient to repel logical interference with
+     that engine, provided the engine cannot be subverted via its interface. Depending on the degree of isolation that is
+     required, physical isolation may entail physical constructs that hinder and detect interference, and/or physical
+     protection provided by the platform’s environment (a guarded and locked room, say). Physical protection may
+     include protection against side-channel attacks.
+     Logical isolation operates only when the host platform is operating. Logical isolation relies upon physical isolation,
+     because logical mechanisms are ultimately provided by a physical construct with a physical boundary. Logical
+     isolation mechanisms must be properly implemented, and sufficient to repel the logical attacks that the host platform
+     is specified to resist. Logical isolation mechanisms include (in no particular order) processor execution modes, micro
+     kernels, hypervisors, virtualization, sandboxing, and trusted execution environments.
+
+     5.2 Generic First Update Engine (FUE)
+     This section describes properties of an Update Engine that affect the trustworthiness of a platform.
+     An Update Engine is an engine26 in a platform that, because of the platform’s architecture, can modify the behavior
+     of one or more engines in the platform. Typically, an Update Engine modifies behavior by modifying a stored image
+     of the software that executes on a processing engine.
+     If a platform has a hierarchy of Update Engines, a subordinate Update Engine can be updated by a superior Update
+     Engine. The root of a hierarchy of Update Engines, or the only Update Engine in a platform that doesn’t have a
+     hierarchy of Update Engines, is a First Update Engine. An updateable First Update Engine must be able to update
+     itself, as well as updating other engines.
+     There are three implementation scenarios and two classes of First Update Engine:
+          1. If the host platform is not a Trusted Platform (one that does not use TCG’s Roots of Trust)27, the First
+             Update Engine must be a Root-of-Trust (for update) because any misbehavior of the First Update Engine
+             cannot be detected. This First Update Engine is a Root-of-Trust-for-Update.
+          2. If the host platform is a Trusted Platform and a First Update Engine updates a TCG Root-of-Trust, the First
+             Update Engine must be either an integral part of a TCG Root-of-Trust, or a TCG Root-of-Trust in its own
+             right, because misbehavior of the First Update Engine cannot be detected. This First Update Engine is a
+             Root-of-Trust-for-Update.
+
+
+
+
+     26 An engine is a set of processing resources that performs an action.
+     27 A Trusted Platform is “a platform that uses Roots of Trust to provide reliable reporting of the characteristics that
+
+     determine its trustworthiness”. See TCG’s Glossary http://trustedcomputinggroup.org/resource/tcg-glossary
+
+TCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published   Page 18   © TCG 2020
+      TCG Guidance for Secure Update of Software and Firmware on Embedded Systems
+
+
+
+
+          3. If the host platform is a Trusted Platform and a First Update Engine cannot update a TCG Root-of-Trust, the
+             First Update Engine is not a Root-of-Trust, because misbehavior of that First Update Engine can be
+             detected via PCRs, sealing and attestation. This First Update Engine is called a Trusted Updater.
+     Figure 2 illustrates an instance of a First Update Engine, updating itself and updating software in a platform that is
+     not a Trusted Platform.
+
+
+
+
+     Figure 2 - Updating a platform that is not a Trusted Platform
+
+     Figure 3 illustrates a typical instance of a Trusted Platform where a First Update Engine is updating itself and
+     updating a Root-of-Trust, and another instance where a First Update Engine is updating itself and updating
+     software.
+
+
+
+
+TCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published   Page 19   © TCG 2020
+      TCG Guidance for Secure Update of Software and Firmware on Embedded Systems
+
+
+
+
+     Figure 3 - Updating a Trusted Platform
+
+     It is essential that an Update Engine is sufficiently isolated from interference, so the Update Engine can always be
+     relied upon to correctly update itself and update other engines. As such, it is often advantageous to perform updates
+     as soon as a platform boots. This is because nothing can interfere logically with an Update Engine if updates are
+     done before any other engine executes on the platform, provided the Update Engine finishes updating and is
+     disabled before other engines start executing on the platform.
+     An update to an engine must itself be signed by the manufacturer (or proxy) of the engine that is about to be
+     updated. This is to ensure that an update is not an attack. Each engine that is capable of being updated should be
+     provisioned with its manufacturer’s public key, or (more likely) a hash of the manufacturer’s public key, to minimize
+     storage space. The manufacturer’s public key (or hash) must be protected from unauthorized modification to prevent
+     subversion of the update process. If an engine cannot provide that protection, the Update Engine must protect the
+     engine manufacturer’s public key (or hash) on behalf of the engine.
+     During an update, the Update Engine is loaded with:
+
+          •   a manufacturer’s public key
+          •   an identifier of the engine to be updated
+          •   the update package
+          •   a signature over the identifier and update package that is signed with the manufacturer’s private key
+     The Update Engine hashes the manufacturer’s public key and verifies that the hash of the manufacturer’s public
+     key28 matches the hash stored in the engine that is about to be updated. Then the Update Engine uses the
+
+     28 the public key supplied with the update
+
+
+
+TCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published   Page 20   © TCG 2020
+      TCG Guidance for Secure Update of Software and Firmware on Embedded Systems
+
+
+
+
+     manufacturer’s public key to verify the signature on the update package. Finally, the Update Engine applies the
+     update package to the engine that is being updated.
+     Provisioning engines with their manufacturer’s public key eliminates the necessity for Update Engines to parse a list
+     of certificates back to a root certificate. This is advantageous because certificate parsing is very complex and
+     implementations can be vulnerable to maliciously crafted input data intended to trick an Update Engine into
+     accepting a rogue public key and hence applying a rogue update package.
+     The manufacturer’s public key (or hash) in an updateable engine must be replaced when a manufacturer’s private
+     key is compromised. If a platform can be updated before rogues have the opportunity to exploit the compromise, it
+     may be safe to use the compromised key to authorize installation of a replacement manufacturer’s public key (or
+     hash). It is safer, however, to install an ordered list or hierarchy of public keys (or their hashes) in an engine, instead
+     of just a single manufacturer’s public key (or hash): then a superior key can authorize replacement of compromised
+     subordinate keys. One simple implementation of such a mechanism is a list of public keys (or their hashes) in an
+     engine, where compromised keys are removed from the list when a subsequent key is used to sign an update
+     package.
+     An update to an engine may additionally be signed by entities such as the host platform’s Administrator. This
+     enables an Administrator to control if and when a genuine update should be applied, i.e. the Update Engine must
+     refuse to update an engine unless all signatures are present and valid. An alternative implementation may be
+     preferred when a host platform has a Trusted Computing Base29 (TCB) that can gate access to engines. If a host
+     platform can implement a secure wrapper (such as a TCB) around Update Engines, the wrapper could verify
+     additional signatures on an update before submitting the update to the Update Engine, which verifies just the
+     manufacturer’s signature on the update.
+     While these previous descriptions of the update process assume asymmetric cryptographic signatures, other
+     techniques can also be used to verify approved updates. All these techniques have their normal advantages and
+     disadvantages, which are not specific to approving an update. Table 2 illustrates some of the usual advantages and
+     disadvantages of some techniques for approving an update.
+
+       Technique used to verify                      Advantages                                    Disadvantages
+       permission to apply an update
+       Verify asymmetric signatures on the           Easy remote approval, because a               More resources are required
+       update                                        signature doesn’t need to be                  because asymmetric cryptography
+                                                     protected in transit.                         engines are more complex than
+                                                     Less complex infrastructure,                  symmetric cryptographic engines
+                                                     because just one secret per signer
+                                                     must be protected.
+       Verify symmetric signatures                   Easy remote approval because a                More complex infrastructure
+       (HMAC) on the update                          signature doesn’t need to be                  because one secret per
+                                                     protected in transit.                         signer/verifier pair must be
+                                                     Fewer resources are required                  protected.
+                                                     because symmetric cryptography                Greater risk because all copies of
+                                                     engines are less complex than                 the symmetric key must be
+                                                     asymmetric cryptographic engines              protected.
+
+
+
+
+     29 Lampson et. al [LAMPSON] define the TCB as “a small amount of software and hardware that security depends on and
+
+     that we distinguish from a much larger amount that can misbehave without affecting security.”
+     The Orange Book [ORANGE-BOOK] defines the TCB as “the totality of protection mechanisms within it, including
+     hardware, firmware, and software, the combination of which is responsible for enforcing a computer security policy.”
+
+TCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published   Page 21   © TCG 2020
+      TCG Guidance for Secure Update of Software and Firmware on Embedded Systems
+
+
+
+
+       Technique used to verify                      Advantages                                    Disadvantages
+       permission to apply an update
+       Use Physical Presence to approve              Minimal resources are required                No remote approval because
+       an update (verify that a switch has           because no cryptographic engines              reliably verifying a distant action is
+       been operated, say)                           are involved                                  usually impractical
+                                                                                                   More complex infrastructure
+                                                                                                   because each update must be
+                                                                                                   protected in transit to the platform,
+                                                                                                   to ensure that the applied update is
+                                                                                                   genuine and relevant
+     Table 2 - Assessment of Update Techniques
+
+     Update packages should include a version number, in order to prevent engines being updated with genuine-but-old
+     update packages that have known weaknesses. The version number of updated instructions must be greater than
+     the version number of current instructions in an engine, so Update Engines should compare the version number of
+     the updated instructions against the version number of the current instructions in an engine. If an update is found to
+     cause problems, the update should be reversed by creating and applying a (remedial) update package that is the
+     same as a prior update package, with the exception that this remedial update package has a version number
+     greater than the problematic update. It is critical that version numbers for the update be included in a portion of the
+     update package that is signed and not located in a header or some other potentially unverified location.
+
+     Update Engines do not necessarily enforce increasing version numbers in updates to critical engines, and might be
+     able to apply update packages with smaller version numbers to critical engines. This exception to the general rule
+     might be necessary for critical engines that cannot remain unavailable for the time required to create a remedial
+     update package, even though allowing smaller version numbers exposes engines to rollback attacks.
+     In some cases, an update should not be applied to an engine unless the host platform has obtained permission from
+     the platform’s administrator. This is because the act of applying the update might cause problems:
+
+          •   unacceptable (albeit temporary) loss of service, which could cause danger if the platform performs a safety-
+              critical function
+          •   the functionality of the resultant updated platform might be unacceptable to the owner/administrator
+
+     Also, the additional functionality or benefits of the update to the platform might be of no interest to the
+     owner/administrator. If an administrator decides not to apply an update, the administrator may need to accept
+     liability for the consequences.
+     The method of obtaining permission for an update depends on individual circumstances. In some cases, but not in
+     cases such as M2M (machine-to-machine) IoT, physical interaction with a platform may be practical and sufficient.
+     In other cases, a platform with an existing ability to recognize administrator commands may require such a
+     command before initiating an update, or may require update packages to be counter-signed by the administrator.
+     Permission may also involve a legal agreement between the manufacturer and the platform’s owner/administrator.
+
+     It may be important for the host platform to be able to prove that it contains a First Update Engine. For example, to
+     know whether a platform can be reliably updated and what entity is able to update a platform. If a First Update
+     Engine is part of an existing Root-of-Trust and updates that RoT, the First Update Engine is implicitly included in
+     and endorsed by the RoT’s endorsement, whatever that might be. Otherwise, a First Update Engine could be
+     endorsed via its own Endorsement Certificate, or a First Update Engine in a Trusted Platform could be measured
+     and reported via a RTM and TPM. A First Update Engine never needs to parse its own Endorsement Certificate:
+     only third parties need to parse a First Update Engine’s Endorsement Certificate to decide whether the First Update
+     Engine can be trusted.
+
+
+
+
+TCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published   Page 22   © TCG 2020
+      TCG Guidance for Secure Update of Software and Firmware on Embedded Systems
+
+
+
+
+     Update Engines provide several of the platform capabilities that are recommended in this reference document. As
+     explained in this section, Update Engines verify updates before applying updates and prevent rollback attacks. In
+     addition, Update Engines may also help by decrypting update packages, detecting failed updates, and initiating
+     recovery from failed updates. Update Engines therefore can implement many of the recommended practices
+     described in section 3.4, such as restricting update installation privileges and activities to a minimally sized, carefully
+     coded, and tightly controlled Engine, verifying updates before installation, permitting administrators to schedule
+     updates, using encrypted updates, and ensuring that the recovery process cannot be used as a way to roll back to
+     vulnerable firmware. Update Engines can also address the threat “Update without Local Approval” described in
+     section 3.6.
+     Update Engines in conjunction with other technological building blocks can implement recommended practices.
+     Some such aspects are described in section 5.3, section 5.4, and section 5.5. The merits of these combinations are
+     summarized in section 7.
+
+     5.3 Firmware Update Latch with First Update Engine
+     The firmware update latch is a mechanism that prevents the firmware from being modified outside the FUE, thus
+     minimizing the risk of unauthorized changes to firmware. Such a mechanism is described in section 3.1 of
+     [NISTSP800-147]. Figure 4 is a diagram illustrating a typical FUE and firmware update latch:
+
+
+
+
+     Figure 4 - Firmware Update Latch with FUE
+
+     While there are many ways to implement a firmware update latch, a simple method is to have the FUE run early in
+     the boot sequence. When the FUE has completed its work, it write-protects the firmware, typically by flipping a write-
+     protection bit in a manner that cannot be reversed without a reboot. This mechanism ensures that only the FUE or
+     firmware that runs earlier in the boot sequence can modify the firmware. Software and firmware that runs after the
+     FUE may be able to request updates to the firmware by placing the updates into some special location and
+
+
+TCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published   Page 23   © TCG 2020
+      TCG Guidance for Secure Update of Software and Firmware on Embedded Systems
+
+
+
+
+     rebooting so that the FUE will find, verify, and install the updates. But code that runs after the FUE cannot directly
+     update the firmware.
+     More sophisticated implementation methods may involve an FUE that can be invoked without needing to reboot,
+     perhaps involving entry into a trusted execution mode. Those methods require a more sophisticated method of
+     unlocking the firmware update latch so that the FUE can perform a firmware update while minimizing the risk of
+     interference from attackers who want to inject malicious updates. At this time, several proprietary mechanisms exist
+     that can be used for this purpose.
+     Following sections will evaluate the Firmware Update Latch with FUE relative to the capabilities recommended in
+     sections 3.4 and 3.5.
+
+     5.3.1 Capability “Restrict updates to minimal FUE”
+     By definition, the firmware update latch provides this capability. However, it’s a simple tool that must be used
+     properly by the system designer. The system designer must ensure that the FUE is carefully coded and minimized
+     to prevent attackers from exploiting bugs and vulnerabilities in the FUE to maliciously modify firmware.
+
+     In order to protect keys and code that are critical to the update process from unauthorized modification, those keys
+     and code will need to be included in the memory that is protected by the firmware update latch.
+
+     5.3.2 Other Capabilities
+     Most of the other capabilities listed in sections 3.4 and 3.5 will depend on the capabilities provided by the FUE and
+     can be implemented by a carefully written FUE with supporting services. For example, the FUE may or may not
+     include the ability to decrypt updates.
+     However, several of the capabilities listed will require more than just a well-written piece of FUE code. In particular,
+     specialized hardware support will generally be required to implement physically tamper-resistant storage or
+     execution for critical keys and code or to implement remote attestation.
+
+     5.4 Device Identifier Composition Engine with First Update Engine
+     The goal of DICE technology, specified by the TCG, is to develop approaches to enhancing security and privacy
+     with minimal silicon requirements. It combines simple silicon capabilities and software techniques to establish a
+     cryptographically strong device identity, attest software and security policy, and assist in safely deploying and
+     verifying software updates. A DICE is an engine that is relied upon to HMAC or hash a device’s secret (the Unique
+     Device Secret) with the measurement of the first mutable code that executes on the device when the device boots.
+     The resultant signature or digest is called a Compound Device Identifier (CDI). The measured first mutable code can
+     use the CDI to create cryptographic keys via a Key Derivation Function. As long as the first mutable code properly
+     restricts access to the CDI, one such cryptographic key (statistically) uniquely identifies both the specific device and
+     the first mutable code that booted on the device. Another cryptographic key derived with the CDI can unseal data
+     belonging to the first mutable code on that particular device.
+
+     Usually, the FUE associated with a DICE is mutable software that is measured by the DICE and incorporated into
+     the CDI. A DICE alone cannot provide a full secure update mechanism, but rather the DICE can provide
+     fundamental primitives that an FUE can leverage to implement secure update.
+
+     5.4.1 Capability “Verify updates”
+     The measurement and identity provided by DICE can be used in several ways to enhance the security of the FUE.
+     First, if the manufacturer’s public key is part of the FUE, the CDI derived from measuring the FUE will include and
+     reflect the correctness of that public key. Second, the CDI can be used to derive a secret used to calculate an
+     HMAC across the update package. This can be used for online verification of the update package and the device
+     identity.
+
+
+
+TCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published   Page 24   © TCG 2020
+      TCG Guidance for Secure Update of Software and Firmware on Embedded Systems
+
+
+
+
+     5.4.2 Capabilities “Failed update detection” and “Recovery from failed update”
+     If an update of the first mutable software fails, the resultant CDI will not match the expected value. This CDI
+     mismatch can provide evidence that the update has failed. This CDI mismatch can be detected locally via sealed
+     values (which can no longer be unsealed) or detected remotely via failed authentication. Recovery from failed
+     update can be aided by the detection mechanisms just described, but it will be dependent on other mechanisms to
+     trigger recovery.
+
+     5.4.3 Capability “Decrypt updates”
+     The DICE engine provides several fundamental capabilities that can be used to implement update decryption. For
+     example, the key used to decrypt the update can be derived from the CDI.
+
+     5.4.4 Capability “Measure and attest”
+     The DICE supports the capabilities needed to measure and attest to the integrity of the software and firmware on
+     the platform. Measurements are performed during the boot sequence, and the device’s CDI and secret keys are
+     derived.
+     Attestation may be performed in several ways. The document “Implicit Identity Based Device Attestation”30
+     describes one mechanism, whereby an extension within an X.509 certificate provides verification of device integrity.
+     Because this mechanism uses X.509 certificates, it’s highly compatible and interoperable with existing infrastructure.
+
+     5.5 Trusted Platform Module with First Update Engine
+     The Trusted Platform Module (TPM) includes a set of Roots of Trust specified by the TCG. This section presents the
+     benefits of using a TPM to achieve some capabilities identified in sections 3.4 and 3.5, as well as the main TPM
+     commands involved. Some capabilities presented herein, such as the decryption of a payload, cannot be handled by
+     a TPM prior to the 2.0 family.
+     Software TPMs support the TPM 2.0 library of commands [TPM2L] like hardware TPMs. Software TPMs are
+     presumed to be executed on the same processor as the device main functionality. The security features presented
+     below assume that TPM sensitive elements, like secret and private keys, are not accessible by the main software
+     running on the processor. This implies that the TPM is isolated as presented in section 5.1.
+     Hardware TPMs assure such isolation by design as they are physically distinct from the main processor. They also
+     typically include crypto-accelerators and hardware random number generators. The acceleration factor may
+     however be decreased by the transfers between the TPM and the main processor.
+
+     A TCG Software Stack (TSS)31, some of which are open-source, makes it easier to develop an application that
+     includes a TPM.
+
+     5.5.1 Capabilities “Decrypt updates” and “Tamper protect critical code & keys”
+     These capabilities can be achieved by leveraging the TPM’s ability to safeguard cryptographic keys and decrypt
+     payloads. The update images are symmetrically encrypted for their transport between the update distribution server
+     and the device. The symmetric encryption key is asymmetrically encrypted for its distribution to the TPM. The critical
+     keys are protected by the TPM and are not available as plaintext in the processor memory space.
+
+     For the avoidance of doubt, the TPM does not protect the confidentiality or integrity of the application code at rest in
+     the device memory. Firmware update latches (cf. section 5.3) can be used in addition to protect this integrity. Such
+     protection can optionally be controlled by the use of PCRs (Platform Configuration Registers) that record the
+     measurements of previously loaded configurations and firmware.
+
+
+
+     30 https://trustedcomputinggroup.org/resource/implicit-identity-based-device-attestation
+     31 https://trustedcomputinggroup.org/work-groups/software-stack
+
+
+
+TCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published   Page 25   © TCG 2020
+      TCG Guidance for Secure Update of Software and Firmware on Embedded Systems
+
+
+
+
+     The main steps here are:
+
+          •   The genuine TPM is first enrolled with the distribution server (refer to section “13.8.1 Taking Ownership” of
+              [TPM2L] part 1).
+          •   The symmetric decryption key (i.e. a symmetric key that can only be used for decryption by a TPM) is sent
+              encrypted to the TPM and recorded in its protected storage with the TPM2_Load() command. It can later be
+              updated the same way.
+          •   The payload can then be decrypted with the symmetric key using the TPM2_EncryptDecrypt() command.
+          •   Additionally, a policy based on a PCR can disable the use of the symmetric key if the measurement of
+              previously loaded firmware, such as the FUE, does not match the expected value. Such a policy is defined
+              using the TPM2_PolicyPCR() command.
+          •   Several PCR values can be declared via the TPM2_PolicyOR() command that allows the combination of
+              policies.
+     The level of tamper protection of the keys loaded in a software TPM will be directly bound to the assurance level of
+     the isolation of the software TPM. The level of tamper protection of the keys loaded in a hardware TPM will
+     generally be attested by a Common Criteria certificate32.
+
+     5.5.2 Capability “Verify updates”
+     The TPM can verify signatures using the TPM2_VerifySignature() command. Both asymmetric signatures and
+     symmetric authentication codes (HMAC) can be verified via this command.
+     The transport of the secret key used for HMAC verification can be encrypted all along its transfer from the update
+     server to the TPM and be loaded using the TPM2_Load() command into the TPM. The secret key will never appear
+     in cleartext in the main processor address space.
+
+     In the case of asymmetric signature verification, the TPM does not need to provide additional security as public keys
+     are used. However, hardware TPMs can provide acceleration for this operation.
+
+     5.5.3 Capabilities “Measure and attest” and “Detect failed updates”
+     The TPM natively supports the measurement and attestation capabilities, provided the platform includes the
+     supporting infrastructure, such as a CRTM (code root-of-trust for measurement). The DICE technology (cf. section
+     5.4) can offer such a service.
+     To perform measurements, the object to be measured is hashed (either by the main processor or via the
+     TPM2_Hash() command). This hash and subsequent hashes are then extended into a PCR (Platform Configuration
+     Register) using the TPM2_PCR_Extend() command.
+     The use of TPM objects can be bound to a specific PCR value with a policy using the TPM2_PolicyPCR()
+     command. Several PCR values, representing several authorized versions, can be declared via the
+     TPM2_PolicyOR() command.
+
+     The remote attestation capability based on PCR is achieved using the TPM2_Quote() command. The attestation
+     can be used to detect failed updates.
+
+     Software TPMs can support this provided they have been loaded and activated before the objects that they need to
+     measure. As an illustration, this will presumably be applicable to applicative firmware/software but not to the boot
+     loader.
+
+
+
+
+     32 The protection profiles of PC Client and Automotive-Thin hardware TPMs target the EAL4+ evaluation assurance level.
+
+
+
+TCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published   Page 26   © TCG 2020
+      TCG Guidance for Secure Update of Software and Firmware on Embedded Systems
+
+
+
+
+     5.5.4 Capability “Restrict updates to minimal FUE”
+     This section mostly applies to hardware TPMs.
+     In this capability, the intention is to ensure that only the genuine and trusted FUE can write a new image into the
+     processor memory. This is achieved by disabling write access at start up, and then enabling write access when the
+     FUE has been measured and is in its expected state. Write access is then disabled in the final stages of the FUE
+     before passing the control to the application.
+     To achieve this write control, a GPIO line controlled by the TPM can be used to enable or disable write accesses to
+     the areas of the external memory that contains the firmware or software. External hardware support is required.
+     GPIO lines are controlled by the TPM as NV indices. The primary command is TPM2_NV_Write(). To perform the
+     desired functionality, a policy based on the PCR that measures the FUE is asserted via the TPM2_PolicyPCR()
+     command. Several PCR values, representing several authorized versions, can be declared using the
+     TPM2_PolicyOR() command that allows the combination of policies.
+     After the FUE has written the image to its memory space, the write access is deactivated. Further activation of this
+     write access is prevented via the TPM2_NV_WriteLock() command. Proper attributes should be set so that this lock
+     persists only until the new start up.
+
+     Software TPMs are not expected to manage GPIOs. Alternative solutions using isolation techniques described in
+     section 5.1 are usually preferred.
+
+
+
+
+TCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published   Page 27   © TCG 2020
+      TCG Guidance for Secure Update of Software and Firmware on Embedded Systems
+
+
+
+
+     6 CONCLUSION
+     The designer of each embedded system must assess the attacks that they must resist and the consequences of a
+     successful attack. This assessment will help them to weigh the costs and benefits of the various secure update
+     approaches, finding one that provides adequate protection for their system.
+     A system is only as secure as its weakest link.
+     A firmware update latch with FUE provides a large amount of value while adding only a small amount of complexity.
+     Adding a DICE provides additional benefits for secure updates, such as local and remote attestation. And using a
+     TPM goes beyond the benefits of DICE, adding secured storage, random number generation, etc. The protections
+     provided by a hardware TPM considerably exceed those that can be provided by a software TPM due to the lack of
+     tamper-resistance and generally late start time for the software TPM.
+
+
+
+
+TCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published   Page 28   © TCG 2020
+      TCG Guidance for Secure Update of Software and Firmware on Embedded Systems
+
+
+
+
+     7 SOLUTION EVALUATION
+     This section illustrates the degrees to which building blocks described in section 5 satisfy the constraints and
+     requirements of section 4. These assessments are subjective, not definitive, so individual readers’ own
+     assessments may differ from these assessments.
+
+     7.1 Capabilities
+     7.1.1 Critical capabilities for platform updates
+     The capabilities in Table 3 are critical capabilities for platform software and firmware updates.
+
+       Critical Capability        FW Update Latch             DICE with FUE               SW TPM with FUE            HW TPM with FUE
+                                  with FUE
+       Restrict updates to        Yes                         No, unless another          No, unless another         Yes, can create
+       small FUE                                              mechanism is                mechanism is               latch w GPIO &
+                                                              provided                    provided                   policy based on
+                                                                                                                     PCRs
+       Verify updates             Depends on FUE              Depends on FUE              Depends on FUE             Yes, can use TPM
+                                                                                                                     to verify signature
+       Detect failed update       Depends on FUE              Yes                         FUE may detect             Yes, with attestation
+                                                                                          failed update but
+                                                                                          SW TPM can't help
+                                                                                          because not
+                                                                                          available early in
+                                                                                          boot
+       Recover from failed        Depends on FUE              Depends on FUE              FUE may recover            Depends on FUE
+       update                                                                             from failed update
+                                                                                          but SW TPM can't
+                                                                                          help because not
+                                                                                          available early in
+                                                                                          boot
+     Table 3 - Critical Capabilities for Updates
+
+     7.1.2 Desirable capabilities for platform updates
+     The capabilities in Table 4 are desirable for platform software and firmware updates.
+
+       Desirable                 FW Update Latch           DICE with FUE            SW TPM with FUE               HW TPM with FUE
+       Capability                with FUE
+       Decrypt updates           Depends on FUE            Depends on FUE           Yes, with                     Yes, with
+                                                                                    TPM2_EncryptDecrypt           TPM2_EncryptDecrypt.
+                                                                                                                  Also, TPM can protect
+                                                                                                                  symmetric decryption
+                                                                                                                  key.
+       Tamper protect            No                        Can't prevent            Depends on the                Yes, for keys. Code
+       critical code & keys                                tamper but may           isolation solution            (FUE) protection
+                                                           detect                                                 depends on external
+                                                                                                                  mechanism such as a
+                                                                                                                  latch.
+       Prevent rollback          Depends on FUE            Depends on FUE           Depends on FUE                Depends on FUE
+       attacks
+       Measure & attest          No                        Yes, a particular        Yes, but depends on           Yes, assuming the
+                                                           strength                 security of isolation         supporting
+                                                                                    solution and                  infrastructure (RTM,
+                                                                                    underlying code               etc.) is in place
+
+
+TCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published   Page 29   © TCG 2020
+      TCG Guidance for Secure Update of Software and Firmware on Embedded Systems
+
+
+
+
+     Table 4 - Desirable Capabilities for Updates
+
+
+
+
+TCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published   Page 30   © TCG 2020
+      TCG Guidance for Secure Update of Software and Firmware on Embedded Systems
+
+
+
+
+     8 OTHER SOLUTIONS
+     This section describes and evaluates some other software and firmware update mechanisms that are popular in
+     embedded systems. Further, it describes how these mechanisms can be used with TCG technologies.
+
+     8.1 A/B Updates
+     A/B updates (e.g., [Android A/B]) use two sets of partitions to store the software in non-volatile storage, referred to
+     as slots A and B. At any point in time, the system is only running code from one of these slots: the “current” slot, as
+     illustrated in Figure 5. This approach makes updates more fault resistant. If an update fails, the older code is
+     available in the other slot as a fallback. This is especially attractive when the code being updated is so fundamental
+     that no underlying component can reinstall it if the update fails.
+
+
+
+
+     Figure 5 - A/B Updates
+
+     Updates can run either in full or streamed fashion. Full updates must be completely downloaded into another
+     storage area (e.g., a data directory). Then they can be run and will write a new system image to the unused slot.
+     Streaming updates write blocks directly to the unused slot as they are downloaded, without having to store the
+     blocks in the data directory. Thus, streaming A/B updates only need a small amount of temporary storage for
+     metadata.
+
+     One of the primary advantages of A/B updates, also known as seamless updates, is that they ensure a workable
+     booting system remains on the disk during an over-the-air (OTA) update. This approach reduces the likelihood of a
+     bricked device after an update. A second advantage is that OTA updates can occur while the system is running and
+     functioning. In cases where the update operation fails, the system will fall back to the current slot.
+
+     One of the primary disadvantages of A/B updates is that they require enough storage to hold two copies of the
+     system image. The storage used by the inactive image is “wasted” most of the time. Another disadvantage of this
+     technique is that rebooting after an update may take longer than normal if special validation procedures must be
+     performed on the new image. Optimizations may reduce this slowdown, for example by performing the validation
+     steps before the reboot. A repeatedly failed A/B update may cause a system to stick at a vulnerable version,
+     necessitating some remediation mechanism.
+
+
+
+
+TCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published   Page 31   © TCG 2020
+      TCG Guidance for Secure Update of Software and Firmware on Embedded Systems
+
+
+
+
+     Using TPM and DICE with A/B updates can provide several additional benefits. TPM can be used to protect the
+     keys used to decrypt or verify updates and to verify signatures. TPMs are an excellent source of random numbers.
+     DICE can be used to measure boot code and to restrict access to data to certain software if that data was encrypted
+     with a derived key. A TPM can do this also using sealing.
+
+     8.1.1 Capability “Verify updates”
+     Verification of updates is commonly done in A/B update systems. However, if this verification is done by application
+     or operating system code instead of by the FUE or some other highly trusted code, the verification checks may be
+     bypassed by malware that infects the OS or update application. To relieve these substantial security issues, update
+     verification should be done by highly trusted code. This can happen after the update has been installed and a reboot
+     triggered but this will slow down boot time after an update. Alternatively, some systems may be built to perform
+     update verification using highly trusted and protected mechanisms but in parallel with normal operation before the
+     update code is activated.
+
+     8.1.2 Capabilities “Failed update detection” and “Recovery from failed update”
+     A/B updates excel at recovery from failed updates because fallback to the inactive system image is relatively simple
+     compared to in-place updates.
+     Detecting failed updates can be done via a variety of mechanisms such as post-update checks of integrity or
+     functionality. If the updated system fails these checks, recovery can be triggered.
+
+     8.1.3 Capability “Decrypt updates”
+     For A/B updates, the advantages and challenges of decrypting updates are not substantially different from other
+     update mechanisms.
+
+     8.1.4 Capability “Measure and attest”
+     With A/B updates, the advantages and challenges of update measurement and attestation are not substantially
+     different from other update mechanisms.
+
+     8.2 Verified Boot
+     Verified Boot (e.g., [Android AVB]) strives to ensure all executed code comes from a trusted source, rather than
+     from an attacker or corruption. It establishes a full chain of trust, starting from a hardware-protected root of trust to
+     the bootloader, to the boot partition and other verified partitions including system, vendor, and optionally OEM
+     custom partitions. During the device bootstrap sequence, each stage verifies the integrity and authenticity of the
+     next stage before it hands off execution and control to that stage. Verified boot may also include anti roll-back
+     protection mechanisms.
+     While verified boot is not an update mechanism per se, it is a technique that can be used in conjunction with many
+     update mechanisms. As noted in section 3.4, update verification is an essential step in the update process. Even if
+     the update was verified before installation, there is great value in verifying the integrity and authenticity of the
+     system image during every boot sequence. This mechanism can detect unauthorized changes to firmware or
+     software and also as a way to verify that an update was successful and resulted in authorized code.
+
+     In some cases, device manufacturers can use verified boot to restrict which software can run on a particular device.
+     However, this is not the only way that it can be used. If the device owner controls the policies and trust anchor
+     certificates used to verify the software and firmware, they can use verified boot to ensure that their own preferences
+     are complied with.
+
+
+
+
+TCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published   Page 32   © TCG 2020
+      TCG Guidance for Secure Update of Software and Firmware on Embedded Systems
+
+
+
+
+     9 RELATED DOCUMENTS AND STANDARDS
+     Several standards and guidelines have been published in recent years pertaining to secure software and firmware
+     update for embedded systems and more are in development. NISTIR 8200 provides a good summary of relevant
+     standards in this area.
+
+     9.1 NIST SP 800-147
+     NIST SP 800-147 BIOS Protection Guidelines focused on PCs whereas this document focuses on embedded
+     systems. Some of the differences between PCs and embedded systems are:
+
+          •   Limits on power consumption in some embedded systems
+          •   Lower compute and storage capabilities in some embedded systems
+          •   Stricter uptime requirements in some embedded systems
+          •   Stricter real-time requirements in some embedded systems
+          •   Strictly controlled software stack on most embedded systems
+          •   Strict controls on boot time (which applies to both PCs and embedded systems)
+
+     9.2 SOG-IS
+     https://www.sogis.eu/documents/cc/domains/sc/JIL-Application-note-on-security-requirements-on-code-loading-
+     v1.0.pdf
+
+     SOG-IS is the European recognition agreement for CC certification. SOG-IS is publishing mandatory or guidance
+     documents in order to support CC evaluation; some of them are adopted at CCRA level which is the international
+     recognition agreement (not this reference). This reference is CC oriented but it starts from general security
+     principles that could be a good source of inspiration.
+
+
+
+
+TCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published   Page 33   © TCG 2020
+      TCG Guidance for Secure Update of Software and Firmware on Embedded Systems
+
+
+
+
+     10 REFERENCES
+     [Android A/B]          A/B (Seamless) System Updates, https://source.android.com/devices/tech/ota/ab
+
+     [Android AVB]          Android Verified Boot, https://android.googlesource.com/platform/external/avb
+     [D-RTM]                TCG D-RTM Architecture Version 1.0.0,
+                            https://trustedcomputinggroup.org/resource/d-rtm-architecture-specification
+     [GLOSSARY]             TCG Glossary Version 1.1, Revision 1.00,
+                            http://trustedcomputinggroup.org/resource/tcg-glossary/
+
+     [LAMPSON]              B. Lampson, M. Abadi, M. Burrows and E. Wobber, Authentication in Distributed Systems:
+                            Theory and Practice, ACM Transactions on Computer Systems, 1992.
+     [NISTSP800-147] BIOS Protection Guidelines, April 2011 – NIST SP 800-147:
+                     https://csrc.nist.gov/publications/detail/sp/800-147/final
+     [NISTIR 8200]          Interagency Report on the Status of International Cybersecurity Standardization for
+                            the Internet of Things (IoT), November 2018 – NISTIR 8200:
+                            https://doi.org/10.6028/NIST.IR.8200
+
+     [ORANGE-BOOK] Department of Defense trusted computer system evaluation criteria, DoD 5200.28-STD,
+                   1985: http://csrc.nist.gov/publications/history/dod85.pdf
+     [TPM2L]                Trusted Platform Module Library Specification, Family “2.0”, Level 00, Revision 01.38 –
+                            September 2016, parts 1-4: https://trustedcomputinggroup.org/resource/tpm-library-specification/
+
+
+
+
+TCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published   Page 34   © TCG 2020
+      TCG Guidance for Secure Update of Software and Firmware on Embedded Systems
+
+
+
+
+     11 TERMINOLOGY
+     Here is a list of acronyms and terminology used in this document. See the TCG Glossary [GLOSSARY] for
+     definitions of TCG terms.
+
+       ASLR                                                                 Address Space Layout Randomization
+       CA                                                                   Certificate Authority
+       CDI                                                                  Compound Device Identifier
+       CVE                                                                  Common Vulnerabilities and Exposures
+       DDoS                                                                 Distributed Denial of Service
+       DoS                                                                  Denial of Service
+       DICE                                                                 Device Identifier Composition Engine
+       D-RTM                                                                Dynamic Root of Trust for Measurement
+       FUE                                                                  First Update Engine
+       GPIO                                                                 General Purpose Input Output
+       HMAC                                                                 Hash-based Message Authentication Code
+       MMU                                                                  Memory Management Unit
+       MTBF                                                                 Mean Time Between Failure
+       PCR                                                                  Platform Configuration Register
+       PKI                                                                  Public Key Infrastructure
+       PLC                                                                  Programmable Logic Controller
+       RoT                                                                  Root of Trust
+       RTM                                                                  Root of Trust for Measurement
+       RTR                                                                  Root of Trust for Reporting
+       RTS                                                                  Root of Trust for Storage
+       SSDLC                                                                Secure Software Development Life Cycle
+       TPM                                                                  Trusted Platform Module
+       TOCTTOU                                                              Time Of Check To Time of Use
+       Trusted Computing Base                                               Lampson et. al [LAMPSON] define the TCB as “a small
+                                                                            amount of software and hardware that security
+                                                                            depends on and that we distinguish from a much larger
+                                                                            amount that can misbehave without affecting security.”
+                                                                            The Orange Book [ORANGE-BOOK] defines the TCB
+                                                                            as “the totality of protection mechanisms within it,
+                                                                            including hardware, firmware, and software, the
+                                                                            combination of which is responsible for enforcing a
+                                                                            computer security policy.”
+       Trusted Platform                                                     See TCG’s Glossary [GLOSSARY]
+       Update Engine                                                        An engine in a platform that can modify the behavior of
+                                                                            one or more engines in the platform
+
+
+
+
+TCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published   Page 35   © TCG 2020
+

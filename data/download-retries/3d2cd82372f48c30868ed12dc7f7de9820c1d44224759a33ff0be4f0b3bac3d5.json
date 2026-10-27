@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "recordType": "source-download-retry",
   "id": "3d2cd82372f48c30868ed12dc7f7de9820c1d44224759a33ff0be4f0b3bac3d5",
-  "cachedAt": "2026-10-27T09:11:12Z",
+  "cachedAt": "2026-10-27T09:12:59Z",
   "originRunId": "qwen3-39673455804",
   "sourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=PI_COM%3AC%282024%291519",
   "candidate": {
@@ -27,12 +27,12 @@
     "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
     "phase": "prepare"
   },
-  "lastAttemptAt": "2026-10-27T09:11:12Z",
-  "attempts": 5,
+  "lastAttemptAt": "2026-10-27T09:12:59Z",
+  "attempts": 6,
   "lastError": "Source document is unavailable or incomplete: JavaScript/bot challenge page; retry the document download",
   "foundIn": {
-    "runId": "40478835574",
-    "controllerCommit": "259b6bb4b6ffab35523286690e181673f198bb81",
+    "runId": "40479055342",
+    "controllerCommit": "4c016ec9482850802a2391e3707eba1605b12135",
     "phase": "retry-downloads"
   },
   "retryOnNextRun": true,

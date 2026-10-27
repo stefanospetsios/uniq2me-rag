@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "cachedAt": "2026-10-27T09:12:58Z",
+  "originRunId": "40479055342",
+  "source": {
+    "id": "B-source-3",
+    "type": "technical-doc",
+    "title": "TCG Guidance for Secure Update of Software and Firmware on Embedded Systems",
+    "publisher": "Trusted Computing Group (TCG)",
+    "url": "https://trustedcomputinggroup.org/wp-content/uploads/TCG-Secure-Update-of-SW-and-FW-on-Devices-v1r72_pub.pdf",
+    "language": "en",
+    "jurisdiction": "International industry consortium",
+    "applicability": "Hardware-rooted secure firmware update processes for IoT and embedded systems; covers cryptographic verification, rollback protection, and physical interface security during updates",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "redistribution": "metadata-and-short-passages",
+    "sourceStatus": "fetched-awaiting-passage-check",
+    "byteDigest": "sha256:b08f0b6c7ba91cf9ee9a5498c99b2219b94ccb8b55e557f2bca030ab076c23f1",
+    "textDigest": "sha256:6aac4a43fa9902e4d2047ec09267a2b494a26c58f4ef57ca5fd8740b6df7b64c",
+    "finalUrl": "https://medias.cdn.trustedcomputinggroup.org/production/TCG_Secure_Update_of_SW_and_FW_on_Devices_v1r72_pub_a09569868e.pdf",
+    "retrievedAt": "2026-10-27T09:12:58Z",
+    "contentType": "application/pdf",
+    "snapshotPath": "source-b08f0b6c7ba91cf9ee9a5498c99b2219b94ccb8b55e557f2bca030ab076c23f1.bin",
+    "textPath": "source-6aac4a43fa9902e4d2047ec09267a2b494a26c58f4ef57ca5fd8740b6df7b64c.txt"
+  },
+  "files": {
+    "snapshots/source-b08f0b6c7ba91cf9ee9a5498c99b2219b94ccb8b55e557f2bca030ab076c23f1.bin": "sha256:b08f0b6c7ba91cf9ee9a5498c99b2219b94ccb8b55e557f2bca030ab076c23f1",
+    "snapshots/source-6aac4a43fa9902e4d2047ec09267a2b494a26c58f4ef57ca5fd8740b6df7b64c.txt": "sha256:6aac4a43fa9902e4d2047ec09267a2b494a26c58f4ef57ca5fd8740b6df7b64c"
+  },
+  "recordType": "source-document",
+  "sourceUrl": "https://trustedcomputinggroup.org/wp-content/uploads/TCG-Secure-Update-of-SW-and-FW-on-Devices-v1r72_pub.pdf",
+  "language": "en",
+  "retrievedAt": "2026-10-27T09:12:58Z",
+  "foundIn": {
+    "runId": "40479055342",
+    "sourceOriginRunId": "40479055342",
+    "controllerCommit": "4c016ec9482850802a2391e3707eba1605b12135",
+    "recordedAt": "2026-10-27T09:12:58Z",
+    "webRecheckedThisRun": true,
+    "phase": "retry-downloads",
+    "frameworkId": null,
+    "task": null
+  },
+  "originalText": "                 R\n                 E\n                 F                               TCG Guidance for Secure Update of Software and Firmware on\n                                                 Embedded Systems\n\n                 E\n                 R                               Version 1.0\n                                                 Revision 72\n                 E                               February 10, 2020\n\n\n                 N                               Contact:\n\n                 C                               admin@trustedcomputinggroup.org\n\n\n                 E                               Published\n\n\n\n\nTCG Guidance for Secure Update of Software and Firmware on Embedded Systems | Version 1.0 | Revision 72 | 2/10/2020 | Published   © TCG 2020\n\f      TCG Guidance for Secure ",
+  "excerptKind": "fetched-document-excerpt",
+  "excerptTruncated": true,
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "scopeIds": [
+      "B"
+    ],
+    "phases": [
+      "retry-downloads"
+    ],
+    "status": "fetched-awaiting-passage-check",
+    "publisher": "Trusted Computing Group (TCG)",
+    "host": "trustedcomputinggroup.org"
+  }
+}

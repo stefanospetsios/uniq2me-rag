@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "recordType": "source-download-retry",
   "id": "57c52e5753e9c67439093062fb36a4afff34e9f87c0f6012d12c9b0512df937f",
-  "cachedAt": "2026-10-26T09:12:11Z",
+  "cachedAt": "2026-10-27T09:12:58Z",
   "originRunId": "qwen3-40019296746",
   "sourceUrl": "https://trustedcomputinggroup.org/wp-content/uploads/TCG-Secure-Update-of-SW-and-FW-on-Devices-v1r72_pub.pdf",
   "candidate": {
@@ -20,22 +20,22 @@
   },
   "language": "en",
   "scopeId": "B",
-  "status": "pending-download",
+  "status": "downloaded-awaiting-evidence",
   "firstFailedAt": "2026-10-23T22:37:50Z",
   "firstFailureContext": {
     "runId": "qwen3-40019296746",
     "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
     "phase": "prepare"
   },
-  "lastAttemptAt": "2026-10-26T09:12:11Z",
-  "attempts": 4,
-  "lastError": "HTTP Error 429: Too Many Requests",
+  "lastAttemptAt": "2026-10-27T09:12:58Z",
+  "attempts": 5,
+  "lastError": null,
   "foundIn": {
-    "runId": "40297699649",
-    "controllerCommit": "804c37205cc32e7116e9392a4e54d597ca566f2e",
+    "runId": "40479055342",
+    "controllerCommit": "4c016ec9482850802a2391e3707eba1605b12135",
     "phase": "retry-downloads"
   },
-  "retryOnNextRun": true,
+  "retryOnNextRun": false,
   "originalText": null,
   "evidenceAdmitted": false,
   "filters": {
@@ -48,8 +48,10 @@
     "phases": [
       "retry-downloads"
     ],
-    "status": "pending-download",
+    "status": "downloaded-awaiting-evidence",
     "publisher": "Trusted Computing Group (TCG)",
     "host": "trustedcomputinggroup.org"
-  }
+  },
+  "byteDigest": "sha256:b08f0b6c7ba91cf9ee9a5498c99b2219b94ccb8b55e557f2bca030ab076c23f1",
+  "textDigest": "sha256:6aac4a43fa9902e4d2047ec09267a2b494a26c58f4ef57ca5fd8740b6df7b64c"
 }
