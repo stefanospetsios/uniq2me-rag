@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "recordType": "source-download-retry",
   "id": "bfc590d71bc551b9eb167d2663b389b572dedba539037275ff199715b39ff8ab",
-  "cachedAt": "2026-10-28T09:51:51Z",
+  "cachedAt": "2026-10-28T09:53:34Z",
   "originRunId": "qwen3-39673455804",
   "sourceUrl": "http://data.europa.eu/eli/reg/2022/2554/oj",
   "candidate": {
@@ -27,12 +27,12 @@
     "controllerCommit": "47832394d8e9ea66a06bd0f7798a9c9956ca6bc0",
     "phase": "prepare"
   },
-  "lastAttemptAt": "2026-10-28T09:51:51Z",
-  "attempts": 6,
+  "lastAttemptAt": "2026-10-28T09:53:34Z",
+  "attempts": 7,
   "lastError": "Source document is unavailable or incomplete: JavaScript/bot challenge page; retry the document download",
   "foundIn": {
-    "runId": "40667527378",
-    "controllerCommit": "259b6bb4b6ffab35523286690e181673f198bb81",
+    "runId": "40667747020",
+    "controllerCommit": "4c016ec9482850802a2391e3707eba1605b12135",
     "phase": "retry-downloads"
   },
   "retryOnNextRun": true,
