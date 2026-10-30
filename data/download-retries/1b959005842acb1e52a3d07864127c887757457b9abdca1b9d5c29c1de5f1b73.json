@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "recordType": "source-download-retry",
   "id": "1b959005842acb1e52a3d07864127c887757457b9abdca1b9d5c29c1de5f1b73",
-  "cachedAt": "2026-10-29T10:16:00Z",
+  "cachedAt": "2026-10-30T10:14:58Z",
   "originRunId": "qwen3-39051987553",
   "sourceUrl": "https://eur-lex.europa.eu/eli/reg_del/2025/1190/oj/eng",
   "candidate": {
@@ -27,12 +27,12 @@
     "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
     "phase": "prepare"
   },
-  "lastAttemptAt": "2026-10-29T10:16:00Z",
-  "attempts": 10,
+  "lastAttemptAt": "2026-10-30T10:14:58Z",
+  "attempts": 11,
   "lastError": "Source document is unavailable or incomplete: JavaScript/bot challenge page; retry the document download",
   "foundIn": {
-    "runId": "40856139247",
-    "controllerCommit": "260d41e0628349869f2e970e02c54febdae4aaca",
+    "runId": "41039291801",
+    "controllerCommit": "259b6bb4b6ffab35523286690e181673f198bb81",
     "phase": "retry-downloads"
   },
   "retryOnNextRun": true,
