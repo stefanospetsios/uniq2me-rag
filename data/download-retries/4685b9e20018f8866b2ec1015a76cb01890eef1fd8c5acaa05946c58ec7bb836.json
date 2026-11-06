@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "recordType": "source-download-retry",
   "id": "4685b9e20018f8866b2ec1015a76cb01890eef1fd8c5acaa05946c58ec7bb836",
-  "cachedAt": "2026-11-05T11:13:24Z",
+  "cachedAt": "2026-11-06T11:11:21Z",
   "originRunId": "qwen3-39051987553",
   "sourceUrl": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng",
   "candidate": {
@@ -27,11 +27,11 @@
     "controllerCommit": "60ca667e8d47be3498b04c24c5ef9f109ef471a5",
     "phase": "prepare"
   },
-  "lastAttemptAt": "2026-11-05T11:13:24Z",
-  "attempts": 17,
+  "lastAttemptAt": "2026-11-06T11:11:21Z",
+  "attempts": 18,
   "lastError": "Source document is unavailable or incomplete: JavaScript/bot challenge page; retry the document download",
   "foundIn": {
-    "runId": "42017146797",
+    "runId": "42208320872",
     "controllerCommit": "259b6bb4b6ffab35523286690e181673f198bb81",
     "phase": "retry-downloads"
   },
