@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "recordType": "source-download-retry",
   "id": "2f1e28bd11f71cccf90fd4caa834686151898f0c9ac05abfb02b496bcfdc749a",
-  "cachedAt": "2026-11-15T11:15:22Z",
+  "cachedAt": "2026-11-16T11:46:28Z",
   "originRunId": "qwen3-40019296746",
   "sourceUrl": "https://www.iso.org/standard/77698.html",
   "candidate": {
@@ -27,11 +27,11 @@
     "controllerCommit": "9e17a3a7738a985e342aaf978848fb8367561b7e",
     "phase": "prepare"
   },
-  "lastAttemptAt": "2026-11-15T11:15:22Z",
-  "attempts": 25,
+  "lastAttemptAt": "2026-11-16T11:46:28Z",
+  "attempts": 26,
   "lastError": "HTTP Error 403: Forbidden",
   "foundIn": {
-    "runId": "43707992070",
+    "runId": "43860639491",
     "controllerCommit": "259b6bb4b6ffab35523286690e181673f198bb81",
     "phase": "retry-downloads"
   },
